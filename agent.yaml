@@ -1,13 +1,13 @@
 spec_version: "0.1.0"
 name: everything-claude-code
 version: 1.10.0
-description: "Initial gitagent export surface for ECC's shared skill catalog, governance, and identity. Native agents, commands, and hooks remain authoritative in the repository while manifest coverage expands."
+description: "Production-ready Claude Code plugin: agents, skills, hooks, commands, rules, and MCP configs. Installed at C:/Users/공동환/Desktop/agent/Claude on Windows 11."
 author: affaan-m
 license: MIT
 model:
-  preferred: claude-opus-4-6
+  preferred: claude-sonnet-4-6
   fallback:
-    - claude-sonnet-4-6
+    - claude-haiku-4-5-20251001
 skills:
   - agent-eval
   - agent-harness-construction

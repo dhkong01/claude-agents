@@ -18,11 +18,19 @@
     },
     "playwright": {
       "command": "npx",
-      "args": ["-y", "@playwright/mcp@0.0.69", "--extension"]
+      "args": ["-y", "@playwright/mcp@0.0.69", "--headless"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
     },
     "sequential-thinking": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@2025.12.18"]
+    },
+    "KakaotalkChat": {
+      "type": "http",
+      "url": "https://playmcp.kakao.com/mcp"
     }
   }
 }

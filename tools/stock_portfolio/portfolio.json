@@ -1,0 +1,58 @@
+{
+  "holdings": [
+    {
+      "ticker": "AMAT",
+      "entry_date": "2026-05-22",
+      "rs_rating": 95.6,
+      "canslim_score": 70,
+      "final_score": 64.68,
+      "weight": 0.2,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CSCO",
+      "entry_date": "2026-05-22",
+      "rs_rating": 93.3,
+      "canslim_score": 70,
+      "final_score": 63.99,
+      "weight": 0.2,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "DDOG",
+      "entry_date": "2026-05-22",
+      "rs_rating": 95.5,
+      "canslim_score": 67,
+      "final_score": 63.15,
+      "weight": 0.2,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MU",
+      "entry_date": "2026-05-22",
+      "rs_rating": 98.4,
+      "canslim_score": 64,
+      "final_score": 62.52,
+      "weight": 0.2,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "STX",
+      "entry_date": "2026-05-22",
+      "rs_rating": 97.8,
+      "canslim_score": 64,
+      "final_score": 62.34,
+      "weight": 0.2,
+      "sector": "Technology"
+    }
+  ],
+  "last_rebalance": "2026-05-22",
+  "next_rebalance": "2026-08-21",
+  "history": [
+    {
+      "date": "2026-05-22",
+      "holdings": [],
+      "action": "rebalance"
+    }
+  ]
+}

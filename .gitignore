@@ -67,6 +67,18 @@ tasks/
 
 # Personal configs (if any)
 personal/
+
+# 카카오 인증 토큰 (절대 커밋 금지)
+tools/stock_portfolio/kakao_config.json
+
+# 개인 포트폴리오 데이터
+tools/stock_portfolio/my_portfolio.json
+tools/stock_portfolio/portfolio.json
+tools/stock_portfolio/cache/
+
+# 로또 예측 데이터 (개인 사용)
+tools/lotto/data/
+tools/lotto/reports/
 private/
 
 # Session templates (not committed)

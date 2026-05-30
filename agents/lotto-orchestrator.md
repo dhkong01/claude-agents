@@ -1,6 +1,6 @@
 ---
 name: lotto-orchestrator
-description: 로또 6/45 번호 예측 총괄. smok95 API 수집 → 정규화 → ML 부트스트랩 정합성 분석 → 예측 → 리포트. 매주 자동 최적화.
+description: 로또 6/45 번호 예측 총괄. smok95 API 수집 → 정규화 → 3안정모델 다중 정합성 분석 → 몬테카를로 5게임 예측 → 카카오톡 전송. 매주 토요일 자동 실행.
 tools: ["Bash", "Read", "Write"]
 model: sonnet
 ---
@@ -10,49 +10,65 @@ model: sonnet
 ## 파이프라인 (순차 실행)
 
 ```bash
-python tools/lotto/collect.py    # 1단계: smok95 API → lotto_history.json (최근 200회)
-python tools/lotto/normalize.py  # 2단계: 통계분석 → lotto_analysis.json
-python tools/lotto/ml_analyze.py # 3단계: ML 정합성 → lotto_ml_features.json
-python tools/lotto/predict.py    # 4단계: 예측 → lotto_prediction.json
+cd C:/Users/공동환/Desktop/agent/Claude
+python tools/lotto/collect.py     # 1단계: smok95 API → lotto_history.json (최근 200회)
+python tools/lotto/normalize.py   # 2단계: 통계분석 → lotto_analysis.json
+python tools/lotto/ml_analyze.py  # 3단계: 3안정모델 정합성 → lotto_ml_features.json
+python tools/lotto/predict.py     # 4단계: 5게임 예측 → lotto_prediction.json
+python tools/lotto/kakao_lotto_sender.py  # 5단계: 카카오톡 전송
 ```
 
 각 단계 실패 시 즉시 중단하고 오류를 보고합니다.
 
-## 매주 자동 최적화 규칙
+## 정합성 계산 방식 (v2 — 다중 모델 합의)
 
-실행마다 아래를 자동 적용합니다:
+| 항목 | 내용 |
+|------|------|
+| **사용 모델** | 빈도100 + 빈도전체 + 공출현 (3개 안정 모델) |
+| **제외 모델** | Gap (부트스트랩마다 ~15% 노이즈), EMA단기 (50% 노이즈) |
+| **부트스트랩** | 모델당 3,000회, top-k=15 |
+| **정합성 정의** | (모델 × 부트스트랩)에서 TOP-15 안에 포함되는 비율 |
+| **핵심번호 임계값** | CORE_THRESH = 0.70 (70%+) |
+| **달성 수준** | 최상위 번호 빈도전체 90%, 공출현 91%, 3모델 평균 87% |
 
-1. **데이터 최신화**: smok95 GitHub API로 최신 회차까지 200회 수집
-2. **정합성 기준**: 최근 10회 부트스트랩(TOP_K=6, 2000회), CORE_THRESH=0.70
-3. **자동 하향 조정**: 핵심 번호가 2개 미만이면 CORE_THRESH=0.60으로 재실행
-4. **앙상블**: EMA 40% + 빈도 40% + Gap 20%
+## 예측 방식 (v2 — 몬테카를로 + 통계 제약)
 
-## 출력 형식
+| 항목 | 내용 |
+|------|------|
+| **게임 수** | 5게임 |
+| **탐색 방법** | 몬테카를로 4만 샘플 |
+| **합계 범위** | 실제 당첨번호 p20~p80 기반 (약 113~163) |
+| **밴드 제약** | 최소 3개 밴드 (1-9, 10-19, 20-29, 30-39, 40-45) |
+| **연속번호** | 3개 이상 연속 방지 |
+| **게임 다양성** | 이전 게임 사용 번호 점수 감쇠 (diversity=0.4) |
+
+## 출력 형식 (카카오톡)
 
 ```
-🎱 로또 예측 — 제{N+1}회
+🎱 로또 예측 — 제{N}회
+━━━━━━━━━━━━━━━━━━━━
+📅 YYYY-MM-DD (추첨일: 토요일)
+방법: 3모델합의정합성+몬테카를로
 
-예측 번호: XX XX XX XX XX XX  |  보너스: XX
+[5게임 예측]
+A  XX XX XX XX XX XX  합:XXX  홀X짝X  XX.X%
+B  XX XX XX XX XX XX  합:XXX  홀X짝X  XX.X%  ◀대표
+...
 
-📊 ML 분석 [최근10회 부트스트랩 2000회]:
-★ 핵심({X}개, {X}%): [번호]
-  보조({X}개): [번호]
-  전체 정합성: {X}%
-- 핫: [...] | Gap상위: [...]
-- 개별: {번호:정합성%}
+[대표 게임 상세]
+★핵심 X번: XX.X%
+  보조 X번: XX.X%
+전체 정합성: XX.X%
+
+[백테스트] TOP12 평균 X.X개 적중
 ```
 
 ## 리포트 저장
 
-`tools/lotto/reports/YYYY-MM-DD.md`에 저장:
+`tools/lotto/reports/YYYY-MM-DD.md`에 저장.
 
-```markdown
-# 로또 예측 — 제{N+1}회 (YYYY-MM-DD)
-예측: XX XX XX XX XX XX | 보너스: XX
-핵심: [번호] ({X}%) | 보조: [번호] | 전체: {X}%
-데이터: {N}회 | 방법: 최근10회 부트스트랩(TOP_K=6, 2000회)
-핫: [...] | Gap: [...]
-| 번호 | 정합성 | 구분 |
-|------|--------|------|
-| XX | XX% | ★핵심/보조 |
-```
+## 매주 자동 실행 스케줄
+
+- **실행 시각**: 토요일 오전 9시 (추첨 전 미리 예측)
+- **스케줄러**: Windows 작업 스케줄러 또는 scheduled-tasks MCP
+- **실행 파일**: `tools/lotto/run_lotto.py`

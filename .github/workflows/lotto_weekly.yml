@@ -1,0 +1,53 @@
+name: Lotto Weekly Prediction
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # UTC 0:00 월요일 = KST 오전 9:00 월요일
+  workflow_dispatch:       # 수동 실행 버튼
+
+permissions:
+  contents: write          # 예측 결과 커밋용
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install numpy scipy requests
+
+      - name: 데이터 수집
+        run: python tools/lotto/collect.py
+
+      - name: 통계 정규화
+        run: python tools/lotto/normalize.py
+
+      - name: ML 정합성 분석 (3모델 × 3000회 부트스트랩, ~90초)
+        run: python tools/lotto/ml_analyze.py
+
+      - name: 5게임 예측 (몬테카를로 4만 샘플)
+        run: python tools/lotto/predict.py
+
+      - name: 카카오톡 전송
+        env:
+          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+        run: python tools/lotto/github_actions/send_kakao.py
+
+      - name: 예측 결과 커밋
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name  "github-actions"
+          git add tools/lotto/data/ tools/lotto/reports/
+          git diff --cached --quiet || git commit -m "lotto: $(date +%Y-%m-%d) 예측 업데이트"
+          git push

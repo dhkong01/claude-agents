@@ -26,7 +26,7 @@ import json, numpy as np
 from pathlib import Path
 from scipy.special import softmax
 
-DIR = Path("tools/lotto/data")
+DIR = Path(__file__).parent / "data"
 records = json.load(open(DIR/"lotto_history.json",encoding="utf-8"))["data"]
 
 all_nums = [n for r in records for n in r["numbers"]]

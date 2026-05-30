@@ -18,7 +18,7 @@ smok95 GitHub Pages API로 최근 200회 당첨 번호를 수집 → `lotto_hist
 import requests, json, time
 from pathlib import Path
 
-DIR = Path("tools/lotto/data")
+DIR = Path(__file__).parent / "data"
 DIR.mkdir(parents=True, exist_ok=True)
 latest = requests.get("https://smok95.github.io/lotto/results/latest.json", timeout=10).json()["draw_no"]
 records = []
@@ -34,6 +34,11 @@ json.dump({"last_draw":records[0]["draw"],"total_records":len(records),"data":re
           open(DIR/"lotto_history.json","w",encoding="utf-8"), ensure_ascii=False, indent=2)
 print(f"수집: {len(records)}회 (최신={records[0]['draw']}회)")
 ```
+
+## 최신 회차 보장
+
+- `latest.json` API를 **매 실행마다** 호출 → 하드코딩된 회차 번호 없음
+- 파이프라인 첫 번째 단계로 반드시 실행 (이후 normalize → ml_analyze → predict 순서)
 
 ## 완료 조건
 - `lotto_history.json` 생성, 100회 이상, `last_draw` 반환

@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write          # 예측 결과 커밋용
+  secrets: write           # Kakao refresh_token 자동 갱신용
 
 jobs:
   predict:
@@ -38,11 +39,22 @@ jobs:
       - name: 5게임 예측 (몬테카를로 4만 샘플)
         run: python tools/lotto/predict.py
 
-      - name: 카카오톡 전송
+      - name: 알림 전송 (Telegram 또는 Kakao 자동 선택)
+        id: notify
         env:
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
-        run: python tools/lotto/github_actions/send_kakao.py
+        run: python tools/lotto/github_actions/send_notify.py
+
+      - name: Kakao refresh_token 자동 갱신 (만료 1개월 미만 시)
+        if: steps.notify.outputs.kakao_token_renewed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh secret set KAKAO_REFRESH_TOKEN < /tmp/new_kakao_refresh.txt
+          echo "KAKAO_REFRESH_TOKEN 갱신 완료 — 다음 60일 연장"
 
       - name: 예측 결과 커밋
         run: |

@@ -22,7 +22,7 @@ model: sonnet
 | 부트스트랩 수 | 모델당 3,000회 = 총 9,000회 평가 |
 | top_k | 15 (45개 중 상위 33%) |
 | 랜덤 기준선 | 15/45 = 33.3% |
-| 최상위 번호 도달치 | 87% (빈도전체 90%, 공출현 91%) |
+| 최상위 번호 도달치 | ~90% (빈도전체 93%, 공출현 93%, 3모델평균 90%) |
 
 ### 제외 모델 및 이유
 
@@ -52,7 +52,7 @@ python tools/lotto/ml_analyze.py
   },
   "coherence_method": "3안정모델×부트스트랩 합의 (top-15 포함비율)",
   "sum_stats": {"p20": 113, "p80": 163},
-  "backtest": {"avg_hits": 1.3, "max_hits": 5},
+  "backtest": {"avg_hits": 1.07, "max_hits": 3, "n_test": 15},
   "top_pairs": [...],
   "gap_ranks": [...]
 }

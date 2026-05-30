@@ -1,6 +1,6 @@
 ---
 name: lotto-orchestrator
-description: 로또 6/45 번호 예측 총괄. smok95 API 수집 → 정규화 → 3안정모델 다중 정합성 분석 → 몬테카를로 5게임 예측 → 카카오톡 전송. 매주 토요일 자동 실행.
+description: 로또 6/45 번호 예측 총괄. smok95 API 수집 → 정규화 → 3안정모델 다중 정합성 분석 → 몬테카를로 5게임 예측 → 카카오톡 전송. 매주 월요일 GitHub Actions 자동 실행 (PC OFF 가능).
 tools: ["Bash", "Read", "Write"]
 model: sonnet
 ---
@@ -13,9 +13,10 @@ model: sonnet
 cd C:/Users/공동환/Desktop/agent/Claude
 python tools/lotto/collect.py     # 1단계: smok95 API → lotto_history.json (최근 200회)
 python tools/lotto/normalize.py   # 2단계: 통계분석 → lotto_analysis.json
-python tools/lotto/ml_analyze.py  # 3단계: 3안정모델 정합성 → lotto_ml_features.json
+python tools/lotto/ml_analyze.py  # 3단계: 3안정모델 정합성 → lotto_ml_features.json (~90초)
 python tools/lotto/predict.py     # 4단계: 5게임 예측 → lotto_prediction.json
-python tools/lotto/kakao_lotto_sender.py  # 5단계: 카카오톡 전송
+# 5단계 전송: GitHub Actions → tools/lotto/github_actions/send_notify.py (Telegram/Kakao 자동 선택)
+# 로컬 수동 전송: python tools/lotto/run_lotto.py
 ```
 
 각 단계 실패 시 즉시 중단하고 오류를 보고합니다.
@@ -69,6 +70,12 @@ B  XX XX XX XX XX XX  합:XXX  홀X짝X  XX.X%  ◀대표
 
 ## 매주 자동 실행 스케줄
 
-- **실행 시각**: 토요일 오전 9시 (추첨 전 미리 예측)
-- **스케줄러**: Windows 작업 스케줄러 또는 scheduled-tasks MCP
-- **실행 파일**: `tools/lotto/run_lotto.py`
+| 항목 | 내용 |
+|------|------|
+| **실행 시각** | 매주 **월요일 오전 9시 KST** (UTC 0:00 월요일) |
+| **실행 환경** | GitHub Actions — PC가 꺼져도 자동 실행 |
+| **워크플로우** | `.github/workflows/lotto_weekly.yml` |
+| **알림 전송** | `tools/lotto/github_actions/send_notify.py` (Telegram 또는 Kakao 자동 선택) |
+| **GitHub Secrets** | `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` 또는 `KAKAO_REST_API_KEY` + `KAKAO_REFRESH_TOKEN` |
+| **수동 실행** | GitHub Actions 탭 → Lotto Weekly Prediction → Run workflow |
+| **로컬 수동** | `python tools/lotto/run_lotto.py` (PC 켜진 상태에서) |

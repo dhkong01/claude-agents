@@ -155,6 +155,9 @@ for combo in games:
 best_idx  = max(range(len(game_results)), key=lambda i: game_results[i]["overall_coherence"])
 best_game = game_results[best_idx]
 
+# 백테스트 결과 ml_features에서 가져오기
+backtest = ml.get("backtest", {}) if use_ml else {}
+
 out = {
     "draw":              int(last_draw) + 1,
     "predicted":         best_game["numbers"],
@@ -168,6 +171,7 @@ out = {
     "individual_coherence": best_game["individual_coherence"],
     "sum_range":         [SUM_LO, SUM_HI],
     "games":             game_results,
+    "backtest":          backtest,
 }
 json.dump(out, open(DIR/"lotto_prediction.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)

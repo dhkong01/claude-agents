@@ -47,16 +47,17 @@ python tools/lotto/predict.py
 
 ```json
 {
-  "draw": 1226,
-  "predicted": [3, 6, 19, 30, 33, 35],
-  "overall_coherence": 75.0,
+  "draw": 1227,
+  "predicted": [6, 7, 19, 30, 35, 38],
+  "overall_coherence": 76.9,
   "games": [
-    {"numbers": [...], "sum": 126, "odd_count": 4,
-     "core_numbers": [...], "overall_coherence": 75.0},
+    {"numbers": [6,7,19,30,35,38], "sum": 135, "odd_count": 3,
+     "core_numbers": [6,7,19,30,35,38], "overall_coherence": 76.9},
     ...
   ],
   "sum_range": [113, 163],
-  "method": "5모델합의정합성+몬테카를로"
+  "method": "5모델합의정합성+몬테카를로",
+  "backtest": {"avg_hits": 1.07, "max_hits": 3, "n_test": 15}
 }
 ```
 

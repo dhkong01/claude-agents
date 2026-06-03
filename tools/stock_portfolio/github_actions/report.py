@@ -170,15 +170,10 @@ def build_messages(closes):
     tr = (tv - TOTAL_COST) / TOTAL_COST * 100 if TOTAL_COST else 0
     dl = (date.fromisoformat(NEXT_RB) - today).days
 
-    # TOP5 (포트폴리오 제외 유니버스 상위)
-    pf_tickers = {p['t'] for p in PF}
-    top5 = [(t, rs) for t, rs in sorted(rs_map.items(), key=lambda x: -x[1])
-            if t not in pf_tickers][:5]
-
     # 메시지1: 시장 국면
     msg1 = (
         f"📊 포트폴리오 리포트 ({date_us} 종가)\n"
-        f"📅 KST {today}({dow}) GitHub Actions\n"
+        f"📅 KST {today}({dow}) 07:15기준\n"
         f"{'━'*24}\n"
         f"[시장국면] {phase_icon} VIX {vix:.2f}  금리 {tny:.2f}%"
     )
@@ -202,19 +197,45 @@ def build_messages(closes):
     lines3 += ['─'*21, f"총평가 ${tv:>10,.0f} ({tr:>+.2f}%)"]
     msg3 = '\n'.join(lines3)
 
-    # 메시지4: RS Top5 + D-Day
+    # 메시지4: 나스닥100 RS Top5 (IBD 2026-06-03 고정값)
+    # pre_m = CSF+L (IBD 기준날짜에 계산된 값, M만 VIX에 따라 동적으로 변함)
+    NDX_TOP5 = [
+        ('MU',   99, 52),  # CS = 52+M  (trigger: {52+M}/70)
+        ('MRVL', 98, 44),  # CS = 44+M  (trigger: {44+M}/70)
+        ('ARM',  97, 52),  # CS = 52+M  (trigger: {52+M}/70)
+        ('AMD',  96, 52),  # CS = 52+M  (trigger: {52+M}/70)
+        ('ONDS', 95, 39),  # CS = 39+M  (trigger: {39+M}/70)
+    ]
     top5_lines = '\n'.join(
-        f"  {i+1}. {t:<5} RS {rs}  CS {min(CSF_MAP.get(t,40)+( 10 if rs>=90 else 7 if rs>=80 else 5)+M,70)}/70"
-        for i,(t,rs) in enumerate(top5)
+        f"  {i+1}. {t:<5} RS {rs}  CS {min(pre_m + M, 70)}/70"
+        for i, (t, rs, pre_m) in enumerate(NDX_TOP5)
     )
     msg4 = (
-        f"[시장 RS Top5 · {today}기준]\n"
+        f"[나스닥100 RS Top5 · IBD 2026-06-03기준]\n"
         f"{top5_lines}\n"
         f"📆 D-{dl} (2026-08-21)\n"
-        f"🤖 GitHub Actions 자동계산"
+        f"🤖 데이터:{date_us}종가|IBD기준 적용"
     )
 
-    return [msg1, msg2, msg3, msg4]
+    # 메시지5: 시장강세 TOP10 (IBD 2026-06-03 고정값, M만 동적)
+    TOP10 = [
+        ('MU',   99, 52), ('MRVL', 98, 44),
+        ('ARM',  97, 52), ('AMD',  96, 52),
+        ('ONDS', 95, 39), ('LRCX', 95, 52),
+        ('ON',   94, 37), ('AMAT', 93, 49),
+        ('DDOG', 92, 52), ('KLAC', 91, 45),
+    ]
+    t10 = [f"{t} {min(pm+M,70)}/{rs}" for t, rs, pm in TOP10]
+    msg5 = (
+        f"[시장강세TOP10 · 2026-06-03기준]\n"
+        f"1.{t10[0]}  2.{t10[1]}\n"
+        f"3.{t10[2]}  4.{t10[3]}\n"
+        f"5.{t10[4]}  6.{t10[5]}\n"
+        f"7.{t10[6]}  8.{t10[7]}\n"
+        f"9.{t10[8]}  10.{t10[9]}"
+    )
+
+    return [msg1, msg2, msg3, msg4, msg5]
 
 # ── Git 커밋 ─────────────────────────────────────────────────
 def git_push(full_text):

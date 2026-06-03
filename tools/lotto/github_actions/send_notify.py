@@ -79,18 +79,14 @@ def send_kakao():
     })
     token = res["access_token"]
 
-    # ── refresh_token 자동 갱신 감지 ──────────────────────────
+    # ── refresh_token 만료 감지 ───────────────────────────────
     # 카카오는 refresh_token 만료 1개월 미만 시 새 토큰을 함께 반환
-    new_refresh = res.get("refresh_token", "")
-    if new_refresh:
-        # 토큰을 임시 파일에 저장 (workflow에서 읽어서 Secret 업데이트)
-        Path("/tmp/new_kakao_refresh.txt").write_text(new_refresh)
-        print("새 refresh_token 수신 → GitHub Secret 자동 갱신 예정")
-        # GITHUB_OUTPUT 플래그 설정
-        github_output = os.environ.get("GITHUB_OUTPUT", "")
-        if github_output:
-            with open(github_output, "a") as f:
-                f.write("kakao_token_renewed=true\n")
+    if res.get("refresh_token"):
+        print("=" * 50)
+        print("⚠️  KAKAO_REFRESH_TOKEN 갱신 필요!")
+        print("   GitHub Settings > Secrets > KAKAO_REFRESH_TOKEN")
+        print("   새 토큰을 수동으로 업데이트하세요 (60일 연장)")
+        print("=" * 50)
 
     def _kakao_send(text):
         tmpl = json.dumps({"object_type":"text","text":text[:2000],

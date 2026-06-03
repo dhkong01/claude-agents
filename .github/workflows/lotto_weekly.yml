@@ -6,18 +6,15 @@ on:
   workflow_dispatch:       # 수동 실행 버튼
 
 permissions:
-  contents: write          # 예측 결과 커밋용
-  secrets: write           # Kakao refresh_token 자동 갱신용
+  contents: read           # checkout 전용 (write 불필요 — 커밋 없음)
 
 jobs:
   predict:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20    # ml_analyze 약 3~5분 + 여유
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
@@ -33,33 +30,16 @@ jobs:
       - name: 통계 정규화
         run: python tools/lotto/normalize.py
 
-      - name: ML 정합성 분석 (3모델 × 3000회 부트스트랩, ~90초)
+      - name: ML 정합성 분석 (3모델 × 3000회 부트스트랩, ~3분)
         run: python tools/lotto/ml_analyze.py
 
       - name: 5게임 예측 (몬테카를로 4만 샘플)
         run: python tools/lotto/predict.py
 
       - name: 알림 전송 (Telegram 또는 Kakao 자동 선택)
-        id: notify
         env:
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: python tools/lotto/github_actions/send_notify.py
-
-      - name: Kakao refresh_token 자동 갱신 (만료 1개월 미만 시)
-        if: steps.notify.outputs.kakao_token_renewed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh secret set KAKAO_REFRESH_TOKEN < /tmp/new_kakao_refresh.txt
-          echo "KAKAO_REFRESH_TOKEN 갱신 완료 — 다음 60일 연장"
-
-      - name: 예측 결과 커밋
-        run: |
-          git config user.email "github-actions@github.com"
-          git config user.name  "github-actions"
-          git add tools/lotto/data/ tools/lotto/reports/
-          git diff --cached --quiet || git commit -m "lotto: $(date +%Y-%m-%d) 예측 업데이트"
-          git push

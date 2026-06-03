@@ -1,5 +1,5 @@
 {
-  "note": "보유 종목, 수량, 평균 매입단가(USD)를 실제 값으로 수정하세요.",
+  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-06-02 기준.",
   "holdings": [
     {
       "ticker": "TSLA",
@@ -14,24 +14,6 @@
       "entry_date": "2025-12-15"
     },
     {
-      "ticker": "MSTR",
-      "shares": 160,
-      "avg_cost": 150.6961,
-      "entry_date": "2026-01-10"
-    },
-    {
-      "ticker": "ASTS",
-      "shares": 100,
-      "avg_cost": 105.01,
-      "entry_date": "2026-02-01"
-    },
-    {
-      "ticker": "RKLB",
-      "shares": 132,
-      "avg_cost": 87.8286,
-      "entry_date": "2026-02-20"
-    },
-    {
       "ticker": "VKTX",
       "shares": 350,
       "avg_cost": 33.4824,
@@ -44,10 +26,22 @@
       "entry_date": "2025-10-01"
     },
     {
-      "ticker": "VRT",
-      "shares": 20,
-      "avg_cost": 316.06,
-      "entry_date": "2026-01-15"
+      "ticker": "MRVL",
+      "shares": 140,
+      "avg_cost": 205.50,
+      "entry_date": "2026-06-01"
+    },
+    {
+      "ticker": "ONDS",
+      "shares": 2886,
+      "avg_cost": 13.37,
+      "entry_date": "2026-06-01"
+    },
+    {
+      "ticker": "RGTI",
+      "shares": 1101,
+      "avg_cost": 25.47,
+      "entry_date": "2026-06-01"
     }
   ]
 }

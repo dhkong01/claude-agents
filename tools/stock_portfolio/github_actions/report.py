@@ -7,7 +7,7 @@ subprocess.call([sys.executable,'-m','pip','install','yfinance','yahooquery','re
                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 import yfinance as yf, requests, os, json as _json, subprocess
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 # ── 포트폴리오 설정 ──────────────────────────────────────────
 def _load_portfolio():
@@ -130,9 +130,11 @@ def calc_canslim_cs(rs, vix):
 
 # ── 메시지 빌드 ──────────────────────────────────────────────
 def build_messages(closes):
-    today = date.today()
+    # KST(UTC+9) 기준 날짜 사용 — GitHub Actions는 UTC 타임존이므로 반드시 변환
+    KST = timezone(timedelta(hours=9))
+    today = datetime.now(KST).date()
     dow   = ['월','화','수','목','금','토','일'][today.weekday()]
-    # DATE_US: 월요일이면 3일전(금), 그외 1일전
+    # DATE_US: KST 월요일이면 3일 전(금), 그 외 1일 전
     offset = 3 if today.weekday() == 0 else 1
     date_us = (today - timedelta(days=offset)).strftime('%Y-%m-%d')
 

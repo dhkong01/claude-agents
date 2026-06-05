@@ -117,23 +117,29 @@ def fetch_closes():
                      progress=False, threads=True)
     closes = df['Close']
 
-    # ── NaN 개별 재조회: 포트폴리오 + 주요 지표가 최신일에 NaN이면 단독 재조회 ──
+    # ── 포트폴리오 + 주요 지표: 항상 period='1d' 로 최신가 보강 ──
+    # bulk download(period='1y')는 일부 종목의 최신일 데이터가 NaN으로 오는 문제가 있음
+    # → fast_info.last_price (실시간) 또는 history(period='1d') 로 덮어쓰기
     must_have = [p['t'] for p in PF] + ['^VIX', '^TNX']
     latest_idx = closes.index[-1]
     for t in must_have:
+        price = None
+        # 1) fast_info.last_price 시도
         try:
-            val = closes.loc[latest_idx, t]
-            if val != val:   # NaN 판별 (NaN != NaN)
-                raise ValueError
+            price = float(yf.Ticker(t).fast_info.last_price)
         except Exception:
-            print(f"  [재조회] {t} 최신 NaN → 개별 조회...")
+            pass
+        # 2) fast_info 실패 시 history(period='1d') 시도
+        if not price:
             try:
-                s = yf.Ticker(t).history(period='10d', auto_adjust=True)['Close'].dropna()
+                s = yf.Ticker(t).history(period='1d', auto_adjust=True)['Close'].dropna()
                 if not s.empty:
-                    closes.loc[latest_idx, t] = float(s.iloc[-1])
-                    print(f"    {t} = {float(s.iloc[-1]):.2f} ({s.index[-1].date()})")
-            except Exception as e:
-                print(f"    {t} 재조회 실패: {e}")
+                    price = float(s.iloc[-1])
+            except Exception:
+                pass
+        if price:
+            closes.loc[latest_idx, t] = price
+            print(f"  {t} = {price:.2f}")
 
     return closes
 

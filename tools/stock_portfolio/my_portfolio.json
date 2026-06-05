@@ -1,5 +1,5 @@
 {
-  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-06-02 기준.",
+  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-06-05 기준.",
   "holdings": [
     {
       "ticker": "TSLA",
@@ -27,21 +27,15 @@
     },
     {
       "ticker": "MRVL",
-      "shares": 140,
-      "avg_cost": 205.50,
-      "entry_date": "2026-06-01"
+      "shares": 220,
+      "avg_cost": 236.58,
+      "entry_date": "2026-06-05"
     },
     {
-      "ticker": "ONDS",
-      "shares": 2886,
-      "avg_cost": 13.37,
-      "entry_date": "2026-06-01"
-    },
-    {
-      "ticker": "RGTI",
-      "shares": 1101,
-      "avg_cost": 25.47,
-      "entry_date": "2026-06-01"
+      "ticker": "ARM",
+      "shares": 90,
+      "avg_cost": 396.62,
+      "entry_date": "2026-06-05"
     }
   ]
 }

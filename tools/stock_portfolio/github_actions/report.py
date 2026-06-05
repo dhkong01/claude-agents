@@ -17,22 +17,21 @@ def _load_portfolio():
         except: pass
     return {
         "holdings": [
-            {'t':'TSLA', 'sh':160,  'ac':183.6738},
-            {'t':'PLTR', 'sh':60,   'ac':168.19},
-            {'t':'VKTX', 'sh':350,  'ac':33.4824},
-            {'t':'META', 'sh':15,   'ac':637.28},
-            {'t':'MRVL', 'sh':140,  'ac':205.50},
-            {'t':'ONDS', 'sh':2886, 'ac':13.37},
-            {'t':'RGTI', 'sh':1101, 'ac':25.47},
+            {'t':'TSLA', 'sh':160, 'ac':183.6738},
+            {'t':'PLTR', 'sh':60,  'ac':168.19},
+            {'t':'VKTX', 'sh':350, 'ac':33.4824},
+            {'t':'META', 'sh':15,  'ac':637.28},
+            {'t':'MRVL', 'sh':220, 'ac':236.58},
+            {'t':'ARM',  'sh':90,  'ac':396.62},
         ],
         "next_rebalance": "2026-08-21",
-        "total_cost": 156155
+        "total_cost": 148501
     }
 
 _pf   = _load_portfolio()
 PF    = _pf["holdings"]
 NEXT_RB    = _pf.get("next_rebalance", "2026-08-21")
-TOTAL_COST = _pf.get("total_cost", 156155)
+TOTAL_COST = _pf.get("total_cost", 148501)
 
 # IBD RS 비교 유니버스 (daily_report.py 와 동일)
 UNIVERSE = list(dict.fromkeys([
@@ -153,7 +152,7 @@ def build_messages(closes):
     # 포트폴리오 계산
     tv = 0.0
     rows = []
-    CSF_MAP = {'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ONDS':29,'RGTI':31}
+    CSF_MAP = {'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':47}
     for p in PF:
         t = p['t']
         price = fv(t)
@@ -189,7 +188,7 @@ def build_messages(closes):
             lines2.append(f"❓{r['t']:<5} N/A")
     msg2 = '\n'.join(lines2)
 
-    # 메시지3: 종목 5~7 + 합계
+    # 메시지3: 종목 5~6 + 합계
     lines3 = []
     for r in rows[4:]:
         if r['ok']:

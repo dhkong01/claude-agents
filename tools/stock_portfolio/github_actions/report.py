@@ -94,7 +94,27 @@ def fetch_closes():
     print(f"[데이터] {len(tickers)}종목 다운로드...")
     df = yf.download(tickers, period='1y', auto_adjust=True,
                      progress=False, threads=True)
-    return df['Close']
+    closes = df['Close']
+
+    # ── NaN 개별 재조회: 포트폴리오 + 주요 지표가 최신일에 NaN이면 단독 재조회 ──
+    must_have = [p['t'] for p in PF] + ['^VIX', '^TNX']
+    latest_idx = closes.index[-1]
+    for t in must_have:
+        try:
+            val = closes.loc[latest_idx, t]
+            if val != val:   # NaN 판별 (NaN != NaN)
+                raise ValueError
+        except Exception:
+            print(f"  [재조회] {t} 최신 NaN → 개별 조회...")
+            try:
+                s = yf.Ticker(t).history(period='10d', auto_adjust=True)['Close'].dropna()
+                if not s.empty:
+                    closes.loc[latest_idx, t] = float(s.iloc[-1])
+                    print(f"    {t} = {float(s.iloc[-1]):.2f} ({s.index[-1].date()})")
+            except Exception as e:
+                print(f"    {t} 재조회 실패: {e}")
+
+    return closes
 
 # ── IBD RS 계산 (daily_report.py 동일 공식) ──────────────────
 def weighted_return(s):

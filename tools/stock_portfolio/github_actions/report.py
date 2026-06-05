@@ -33,6 +33,27 @@ PF    = _pf["holdings"]
 NEXT_RB    = _pf.get("next_rebalance", "2026-08-21")
 TOTAL_COST = _pf.get("total_cost", 148501)
 
+# 나스닥100 대표 종목 집합 (msg4 필터용)
+NDX100_SET = {
+    'AAPL','MSFT','NVDA','AMZN','GOOGL','META','TSLA','AVGO','COST','NFLX',
+    'AMD','ADBE','QCOM','CSCO','INTU','AMGN','TXN','AMAT','LRCX','KLAC',
+    'SNPS','CDNS','MCHP','MU','ADI','PANW','CRWD','ZS','FTNT','DDOG',
+    'WDAY','TEAM','TTD','MELI','GILD','REGN','VRTX','ISRG','SBUX','ORLY',
+    'MNST','CPRT','PAYX','CTAS','ADP','BKNG','TMUS','PCAR','ON','ARM','MRVL',
+}
+
+# 유니버스 CSF 참조 테이블 (IBD 역산값, 미등록 종목은 38 사용)
+CSF_UNIVERSE = {
+    'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':42,
+    'MU':42,'AMD':42,'ONDS':29,'LRCX':42,'ON':27,'AMAT':39,'DDOG':42,'KLAC':35,
+    'NVDA':45,'AVGO':43,'AAPL':42,'MSFT':42,'AMZN':42,'GOOGL':42,'COST':40,'NFLX':42,
+    'ADBE':40,'QCOM':38,'CSCO':36,'INTU':42,'TXN':38,'SNPS':42,'CDNS':42,
+    'PANW':42,'CRWD':42,'ZS':40,'FTNT':40,'WDAY':40,'TEAM':40,'TTD':38,
+    'MELI':40,'ADI':38,'MCHP':36,'BKNG':40,'TMUS':36,'PCAR':36,
+    'ISRG':42,'SBUX':32,'VRTX':42,'GILD':36,'REGN':42,'AMGN':36,
+    'ORLY':38,'MNST':36,'CPRT':38,'PAYX':36,'CTAS':36,'ADP':36,'CAT':38,
+}
+
 # IBD RS 비교 유니버스 (daily_report.py 와 동일)
 UNIVERSE = list(dict.fromkeys([
     'AAPL','MSFT','NVDA','AMZN','GOOGL','META','TSLA','AVGO','COST','NFLX',
@@ -218,37 +239,33 @@ def build_messages(closes):
     lines3 += ['─'*21, f"총평가 ${tv:>10,.0f} ({tr:>+.2f}%)"]
     msg3 = '\n'.join(lines3)
 
-    # 메시지4: 나스닥100 RS Top5 (IBD 2026-06-03 고정값)
-    # pre_m = CSF+L (IBD 기준날짜에 계산된 값, M만 VIX에 따라 동적으로 변함)
-    NDX_TOP5 = [
-        ('MU',   99, 52),  # CS = 52+M  (trigger: {52+M}/70)
-        ('MRVL', 98, 44),  # CS = 44+M  (trigger: {44+M}/70)
-        ('ARM',  97, 52),  # CS = 52+M  (trigger: {52+M}/70)
-        ('AMD',  96, 52),  # CS = 52+M  (trigger: {52+M}/70)
-        ('ONDS', 95, 39),  # CS = 39+M  (trigger: {39+M}/70)
-    ]
+    # CS 계산 헬퍼 (CSF_UNIVERSE 참조, 동적 RS/M 반영)
+    def cs_for(t, rs):
+        csf = CSF_UNIVERSE.get(t, 38)
+        L = 10 if rs >= 90 else 7 if rs >= 80 else 5 if rs >= 60 else 3
+        return min(csf + L + M, 70)
+
+    # 메시지4: 나스닥100 RS Top5 (동적 계산)
+    ndx_ranked = sorted(
+        [(t, rs) for t, rs in rs_map.items() if t in NDX100_SET],
+        key=lambda x: -x[1]
+    )[:5]
     top5_lines = '\n'.join(
-        f"  {i+1}. {t:<5} RS {rs}  CS {min(pre_m + M, 70)}/70"
-        for i, (t, rs, pre_m) in enumerate(NDX_TOP5)
+        f"  {i+1}. {t:<5} RS {rs}  CS {cs_for(t, rs)}/70"
+        for i, (t, rs) in enumerate(ndx_ranked)
     )
     msg4 = (
-        f"[나스닥100 RS Top5 · IBD 2026-06-03기준]\n"
+        f"[나스닥100 RS Top5 · {date_us}기준]\n"
         f"{top5_lines}\n"
         f"📆 D-{dl} (2026-08-21)\n"
-        f"🤖 데이터:{date_us}종가|IBD기준 적용"
+        f"🤖 데이터:{date_us}종가|매일자동갱신"
     )
 
-    # 메시지5: 시장강세 TOP10 (IBD 2026-06-03 고정값, M만 동적)
-    TOP10 = [
-        ('MU',   99, 52), ('MRVL', 98, 44),
-        ('ARM',  97, 52), ('AMD',  96, 52),
-        ('ONDS', 95, 39), ('LRCX', 95, 52),
-        ('ON',   94, 37), ('AMAT', 93, 49),
-        ('DDOG', 92, 52), ('KLAC', 91, 45),
-    ]
-    t10 = [f"{t} {min(pm+M,70)}/{rs}" for t, rs, pm in TOP10]
+    # 메시지5: 시장강세 TOP10 (동적 계산)
+    top10_ranked = sorted(rs_map.items(), key=lambda x: -x[1])[:10]
+    t10 = [f"{t} {cs_for(t, rs)}/{rs}" for t, rs in top10_ranked]
     msg5 = (
-        f"[시장강세TOP10 · 2026-06-03기준]\n"
+        f"[시장강세TOP10 · {date_us}기준]\n"
         f"1.{t10[0]}  2.{t10[1]}\n"
         f"3.{t10[2]}  4.{t10[3]}\n"
         f"5.{t10[4]}  6.{t10[5]}\n"

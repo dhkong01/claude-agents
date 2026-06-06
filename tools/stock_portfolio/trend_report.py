@@ -271,6 +271,92 @@ def _section_vcp(vcp_list: list[dict]) -> str:
     </section>"""
 
 
+def _section_hedge(geo: dict, top5: list[dict], sqqq_channel: dict) -> str:
+    hedge = geo.get("hedge", {})
+    if not hedge:
+        return ""
+
+    long_pct  = hedge.get("long_pct", 100)
+    sqqq_pct  = hedge.get("sqqq_pct", 0)
+    cash_pct  = hedge.get("cash_pct", 0)
+    action    = hedge.get("action", "FULL_LONG")
+    reasoning = hedge.get("reasoning", "")
+    per_stock = hedge.get("per_stock_pct", 20.0)
+    elevated  = hedge.get("elevated_sectors", [])
+
+    action_map = {
+        "FULL_LONG":      ("전체 롱",      "#22c55e"),
+        "LIGHT_HEDGE":    ("소형 헤지",    "#86efac"),
+        "MODERATE_HEDGE": ("중간 방어",    "#f59e0b"),
+        "DEFENSIVE":      ("방어 포지션",  "#f97316"),
+        "MAX_DEFENSIVE":  ("최대 방어",    "#ef4444"),
+    }
+    action_label, action_color = action_map.get(action, (action, "#94a3b8"))
+
+    # 포트폴리오 구성 바
+    long_bar  = f'<div class="alloc-bar long-bar"  style="width:{long_pct}%">{long_pct}% 롱</div>' if long_pct  else ""
+    sqqq_bar  = f'<div class="alloc-bar sqqq-bar"  style="width:{sqqq_pct}%">{sqqq_pct}% SQQQ</div>' if sqqq_pct else ""
+    cash_bar  = f'<div class="alloc-bar cash-bar"  style="width:{cash_pct}%">{cash_pct}% 현금</div>' if cash_pct  else ""
+
+    # 종목별 비중 테이블
+    alloc_rows = ""
+    for i, s in enumerate(top5, 1):
+        alloc_rows += (
+            f"<tr><td>#{i} {s.get('ticker','?')}</td>"
+            f"<td>{per_stock}%</td>"
+            f"<td>${s.get('donchian_lower',0):.2f}</td>"
+            f"<td>{s.get('donchian_signal','?')}</td></tr>"
+        )
+    if sqqq_pct > 0:
+        sqqq_price = sqqq_channel.get("current", "—")
+        sqqq_sig   = sqqq_channel.get("signal", "—")
+        alloc_rows += (
+            f"<tr class='sqqq-row'>"
+            f"<td>SQQQ (헤지)</td>"
+            f"<td>{sqqq_pct}%</td>"
+            f"<td>${sqqq_price}</td>"
+            f"<td>{sqqq_sig}</td></tr>"
+        )
+    if cash_pct > 0:
+        alloc_rows += (
+            f"<tr class='cash-row'>"
+            f"<td>현금 (대기)</td>"
+            f"<td>{cash_pct}%</td>"
+            f"<td>—</td><td>—</td></tr>"
+        )
+
+    elevated_html = "".join(
+        f'<span class="impact elevated">{s}</span> ' for s in elevated
+    ) if elevated else '<span class="muted">없음</span>'
+
+    return f"""
+    <section class="card hedge-card">
+      <h2>🛡 헤지 전략 권고 (Geo Risk → Orchestrator)</h2>
+      <div class="hedge-grid">
+        <div class="hedge-status">
+          <div class="hedge-action" style="color:{action_color}">{action_label}</div>
+          <div class="hedge-reasoning">{reasoning}</div>
+          <div class="hedge-elevated">고위험 섹터: {elevated_html}</div>
+        </div>
+        <div class="hedge-alloc">
+          <div class="alloc-label">포트폴리오 구성</div>
+          <div class="alloc-track">{long_bar}{sqqq_bar}{cash_bar}</div>
+          <div class="alloc-legend">
+            <span class="leg long">롱 {long_pct}%</span>
+            <span class="leg sqqq">SQQQ {sqqq_pct}%</span>
+            <span class="leg cash">현금 {cash_pct}%</span>
+          </div>
+        </div>
+      </div>
+      <div class="table-wrap" style="margin-top:16px">
+        <table class="rebal-table">
+          <thead><tr><th>종목</th><th>비중</th><th>손절선</th><th>신호</th></tr></thead>
+          <tbody>{alloc_rows}</tbody>
+        </table>
+      </div>
+    </section>"""
+
+
 def _section_canslim(canslim_list: list[dict]) -> str:
     if not canslim_list:
         return ""
@@ -457,6 +543,27 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
 .cs-item        { margin-right: 6px; }
 .cs-item b      { color: var(--text); }
 
+/* Hedge Section */
+.hedge-card     { border-left: 4px solid #f97316; }
+.hedge-grid     { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.hedge-action   { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.hedge-reasoning{ font-size: 13px; color: var(--text2); margin-bottom: 8px; }
+.hedge-elevated { font-size: 12px; }
+.alloc-label    { font-size: 12px; color: var(--text2); margin-bottom: 6px; }
+.alloc-track    { display: flex; height: 32px; border-radius: 6px; overflow: hidden; }
+.alloc-bar      { display: flex; align-items: center; justify-content: center;
+                  font-size: 12px; font-weight: 600; white-space: nowrap;
+                  min-width: 0; overflow: hidden; }
+.long-bar       { background: rgba(34,197,94,0.7);  color: white; }
+.sqqq-bar       { background: rgba(239,68,68,0.7);  color: white; }
+.cash-bar       { background: rgba(148,163,184,0.4); color: var(--text); }
+.alloc-legend   { display: flex; gap: 16px; margin-top: 8px; font-size: 12px; }
+.leg.long       { color: var(--green); }
+.leg.sqqq       { color: var(--red); }
+.leg.cash       { color: var(--text2); }
+.sqqq-row td    { color: var(--red); }
+.cash-row td    { color: var(--text2); }
+
 /* Footer */
 .footer { text-align: center; color: var(--text2); font-size: 12px; padding: 20px 0; }
 """
@@ -465,11 +572,12 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
 # ─── 메인 HTML 빌더 ──────────────────────────────────────────
 
 def build_html(result: dict, vcp_list: list[dict], canslim_list: list[dict]) -> str:
-    date     = result.get("date", datetime.now().strftime("%Y-%m-%d"))
-    mode     = result.get("mode", "weekly")
-    geo      = result.get("geo_risk", {})
-    top5     = result.get("top5", [])
-    now_str  = datetime.now().strftime("%Y-%m-%d %H:%M")
+    date         = result.get("date", datetime.now().strftime("%Y-%m-%d"))
+    mode         = result.get("mode", "weekly")
+    geo          = result.get("geo_risk", {})
+    top5         = result.get("top5", [])
+    sqqq_channel = result.get("sqqq_channel", {})
+    now_str      = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     mode_label = "주간 리밸런싱" if mode == "weekly" else "일일 추적"
     risk_color = {"HIGH": "#ef4444", "MEDIUM": "#f59e0b", "LOW": "#22c55e"}.get(
@@ -507,6 +615,7 @@ def build_html(result: dict, vcp_list: list[dict], canslim_list: list[dict]) -> 
 
   {_section_geo(geo)}
   {_section_top5(top5, geo)}
+  {_section_hedge(geo, top5, sqqq_channel)}
   {_section_vcp(vcp_list)}
   {_section_canslim(canslim_list)}
 

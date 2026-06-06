@@ -85,15 +85,32 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
 
     # ── 5. Donchian TOP 5 선정 ───────────────────────────────
     print("\n[5/5] Donchian 추세 추종 TOP 5 선정...")
-    from donchian_tracker import select_top5, track_portfolio
+    from donchian_tracker import select_top5, track_portfolio, verify_price_freshness, get_sqqq_channel
     top5 = select_top5(canslim_top10, vcp_top20, geo_risk)
     result["top5"] = top5
 
+    # SQQQ 채널 상태 추가
+    result["sqqq_channel"] = get_sqqq_channel()
+
     _print_top5(top5)
+
+    # 헤지 권고 출력
+    hedge = geo_risk.get("hedge", {})
+    if hedge:
+        print(f"\n  [헤지 권고] {hedge.get('action','?')}  "
+              f"롱:{hedge.get('long_pct','?')}%  "
+              f"SQQQ:{hedge.get('sqqq_pct','?')}%  "
+              f"현금:{hedge.get('cash_pct','?')}%  "
+              f"종목당:{hedge.get('per_stock_pct','?')}%")
 
     # ── 일일 추적 ────────────────────────────────────────────
     if mode == "daily":
-        print("\n[일일] Donchian 채널 추적...")
+        print("\n[일일] 가격 신선도 검증 + Donchian 채널 추적...")
+
+        # 가격 신선도 점검
+        freshness = verify_price_freshness()
+        result["price_freshness"] = freshness
+
         port_file = BASE_DIR / "my_portfolio.json"
         port_tickers: list[str] = []
         if port_file.exists():
@@ -109,7 +126,7 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
         exits     = [t for t in tracking if t.get("signal") == "EXIT"]
         breakouts = [t for t in tracking if t.get("signal") == "BREAKOUT"]
         if exits:
-            print(f"  [EXIT] {[t['ticker'] for t in exits]}")
+            print(f"  [EXIT]     {[t['ticker'] for t in exits]}")
         if breakouts:
             print(f"  [BREAKOUT] {[t['ticker'] for t in breakouts]}")
 
@@ -197,7 +214,31 @@ def _build_message(result: dict, mode: str) -> str:
             f"RS{rs:.0f}"
         )
 
-    # 일일 추적 신호
+    # ── SQQQ 헤지 권고 ─────────────────────────────────────
+    hedge = geo.get("hedge", {})
+    if hedge and hedge.get("action", "FULL_LONG") != "FULL_LONG":
+        action_map = {
+            "LIGHT_HEDGE":    "소형 헤지",
+            "MODERATE_HEDGE": "중간 방어",
+            "DEFENSIVE":      "방어 포지션",
+            "MAX_DEFENSIVE":  "최대 방어",
+        }
+        action_label = action_map.get(hedge.get("action", ""), hedge.get("action", ""))
+        sqqq_dc = result.get("sqqq_channel", {})
+        sqqq_price_str = f" ${sqqq_dc.get('current','?')}" if sqqq_dc else ""
+
+        lines += [
+            "",
+            "━━━━━━━━━━━━━━━",
+            f"🛡 헤지 권고: {action_label}",
+            f"  롱:{hedge.get('long_pct','?')}%  SQQQ:{hedge.get('sqqq_pct','?')}%  현금:{hedge.get('cash_pct','?')}%",
+            f"  종목당 비중: {hedge.get('per_stock_pct','?')}%",
+            f"  SQQQ{sqqq_price_str}",
+        ]
+        if hedge.get("elevated_sectors"):
+            lines.append(f"  주시섹터: {', '.join(hedge['elevated_sectors'])}")
+
+    # ── 일일 추적 신호 ──────────────────────────────────────
     tracking  = result.get("tracking", [])
     exits     = [t["ticker"] for t in tracking if t.get("signal") == "EXIT"]
     breakouts = [t["ticker"] for t in tracking if t.get("signal") == "BREAKOUT"]
@@ -208,14 +249,20 @@ def _build_message(result: dict, mode: str) -> str:
         if breakouts:
             lines.append(f"🚀 신규진입: {', '.join(breakouts)}")
 
-    # 주간 리밸런싱 제안
+    # ── 주간 리밸런싱 제안 ───────────────────────────────────
     if mode == "weekly" and top5:
-        lines += ["", "━━━━━━━━━━━━━━━", "📋 리밸런싱 제안 (동일비중 20%)"]
+        per_pct = top5[0].get("allocation_pct", 20.0) if top5 else 20.0
+        lines += ["", "━━━━━━━━━━━━━━━",
+                  f"📋 리밸런싱 제안 (종목당 {per_pct}%)"]
         for s in top5:
             lines.append(
-                f"  {s['ticker']}: 20%  "
+                f"  {s['ticker']}: {s.get('allocation_pct',20)}%  "
                 f"손절=${s.get('donchian_lower',0):.2f}"
             )
+        if hedge.get("sqqq_pct", 0) > 0:
+            lines.append(f"  SQQQ: {hedge['sqqq_pct']}%  (헤지)")
+        if hedge.get("cash_pct", 0) > 0:
+            lines.append(f"  현금: {hedge['cash_pct']}%  (대기)")
 
     return "\n".join(lines)
 

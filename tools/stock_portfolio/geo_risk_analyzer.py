@@ -95,6 +95,8 @@ def analyze_geo_risk() -> dict:
         if len(risk_events) >= 3:
             break
 
+    hedge = _calc_hedge(risk_score, sector_impacts)
+
     result = {
         "date":               datetime.now().strftime("%Y-%m-%d"),
         "risk_score":         risk_score,
@@ -105,6 +107,7 @@ def analyze_geo_risk() -> dict:
         "sector_impacts":     sector_impacts,
         "top_risk_events":    risk_events,
         "recommendation":     _recommendation(risk_level, sector_impacts),
+        "hedge":              hedge,
     }
     (CACHE_DIR / "geo_risk.json").write_text(
         json.dumps(result, ensure_ascii=True, indent=2), encoding="utf-8"
@@ -113,6 +116,7 @@ def analyze_geo_risk() -> dict:
 
 
 def _default_risk(reason: str = "") -> dict:
+    hedge = _calc_hedge(3.0, {})
     result = {
         "date":               datetime.now().strftime("%Y-%m-%d"),
         "risk_score":         3.0,
@@ -123,6 +127,7 @@ def _default_risk(reason: str = "") -> dict:
         "sector_impacts":     {},
         "top_risk_events":    [reason] if reason else [],
         "recommendation":     "Data unavailable - conservative approach recommended.",
+        "hedge":              hedge,
     }
     (CACHE_DIR / "geo_risk.json").write_text(
         json.dumps(result, ensure_ascii=True, indent=2), encoding="utf-8"
@@ -140,6 +145,64 @@ def _recommendation(risk_level: str, sector_impacts: dict) -> str:
             f"{', '.join(elevated)} 섹터 모니터링." if elevated else "모니터링 강화."
         )
     return "저위험 국면 — 추세 추종 최적 환경. 공격적 포지션 가능."
+
+
+# ── SQQQ 헤지 권고 (Orchestrator 신호) ───────────────────────
+
+# risk_score → (long%, sqqq%, cash%, action)
+_HEDGE_TABLE = [
+    (3.0,  100,  0,   0,  "FULL_LONG"),        # LOW: 완전 추세 추종
+    (5.0,   80,  5,  15,  "LIGHT_HEDGE"),       # LOW-MED: 소형 SQQQ 헤지
+    (7.0,   60, 10,  30,  "MODERATE_HEDGE"),    # MEDIUM-HIGH: 중간 방어
+    (8.5,   40, 15,  45,  "DEFENSIVE"),         # HIGH: 방어 포지션
+    (10.1,  20, 20,  60,  "MAX_DEFENSIVE"),     # EXTREME: 최대 방어
+]
+
+def _calc_hedge(risk_score: float, sector_impacts: dict) -> dict:
+    """
+    지정학 리스크 점수 → Orchestrator에 전달할 포트폴리오 헤지 권고
+    SQQQ(3× 역 NASDAQ) 비중 + 현금 비중 산출
+    """
+    long_pct = sqqq_pct = cash_pct = 0
+    action = "FULL_LONG"
+    for threshold, lp, sp, cp, act in _HEDGE_TABLE:
+        if risk_score < threshold:
+            long_pct, sqqq_pct, cash_pct, action = lp, sp, cp, act
+            break
+
+    elevated = [s for s, v in sector_impacts.items() if v == "ELEVATED"]
+
+    # 반도체 섹터 ELEVATED 시 SQQQ +5% 추가 (NASDAQ 비중 크므로)
+    if "Semiconductors" in elevated and sqqq_pct > 0:
+        extra = 5
+        sqqq_pct = min(sqqq_pct + extra, 30)
+        long_pct = max(long_pct - extra, 10)
+
+    per_stock = round(long_pct / 5, 1)   # 5종목 동일비중 기준
+
+    return {
+        "long_pct":        int(long_pct),
+        "sqqq_pct":        int(sqqq_pct),
+        "cash_pct":        int(cash_pct),
+        "per_stock_pct":   per_stock,
+        "action":          action,
+        "sqqq_active":     sqqq_pct > 0,
+        "elevated_sectors":elevated,
+        "reasoning":       _hedge_reason(action, risk_score, sqqq_pct, cash_pct, elevated),
+    }
+
+
+def _hedge_reason(action: str, score: float, sqqq: int, cash: int, elevated: list) -> str:
+    base = {
+        "FULL_LONG":      f"Risk {score:.1f} — 추세 추종 100% 롱 유지. SQQQ 불필요.",
+        "LIGHT_HEDGE":    f"Risk {score:.1f} — SQQQ {sqqq}% 소형 헤지, 현금 {cash}% 확보.",
+        "MODERATE_HEDGE": f"Risk {score:.1f} — SQQQ {sqqq}% 중형 헤지, 현금 {cash}% 방어.",
+        "DEFENSIVE":      f"Risk {score:.1f} — SQQQ {sqqq}% 방어 포지션, 현금 {cash}% 유지.",
+        "MAX_DEFENSIVE":  f"Risk {score:.1f} — 극단 방어. SQQQ {sqqq}% + 현금 {cash}%. 롱 최소화.",
+    }.get(action, "")
+    if elevated:
+        base += f" [{', '.join(elevated)} ELEVATED]"
+    return base
 
 
 if __name__ == "__main__":

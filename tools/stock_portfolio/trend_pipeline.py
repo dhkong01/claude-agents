@@ -113,6 +113,14 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
 
         port_file = BASE_DIR / "my_portfolio.json"
         port_tickers: list[str] = []
+        # GitHub Actions: PORTFOLIO_JSON 환경변수 → 파일로 복원
+        import os
+        _port_env = os.environ.get("PORTFOLIO_JSON", "")
+        if _port_env:
+            try:
+                port_file.write_text(_port_env, encoding="utf-8")
+            except Exception:
+                pass
         if port_file.exists():
             port_tickers = [h["ticker"]
                             for h in json.loads(port_file.read_text(encoding="utf-8"))

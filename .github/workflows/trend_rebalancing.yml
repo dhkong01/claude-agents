@@ -1,0 +1,68 @@
+name: Trend Following — Weekly Rebalancing
+
+on:
+  schedule:
+    # 주간 리밸런싱: 월요일 KST 07:30 (UTC 22:30, 일요일)
+    - cron: '30 22 * * 0'
+    # 일일 추적: 화~금 KST 07:30 (UTC 22:30)
+    - cron: '30 22 * * 1-4'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '실행 모드'
+        required: false
+        default: 'weekly'
+        type: choice
+        options: [weekly, daily]
+
+permissions:
+  contents: write
+
+jobs:
+  trend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install yfinance pandas numpy requests
+
+      - name: 실행 모드 결정
+        id: mode
+        run: |
+          # workflow_dispatch 입력 우선, 없으면 요일 기반
+          INPUT_MODE="${{ github.event.inputs.mode }}"
+          if [ -n "$INPUT_MODE" ]; then
+            echo "mode=$INPUT_MODE" >> $GITHUB_OUTPUT
+          elif [ "$(date -u +%u)" = "7" ]; then
+            # 일요일 = 월요일 KST → 주간 리밸런싱
+            echo "mode=weekly" >> $GITHUB_OUTPUT
+          else
+            echo "mode=daily" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 추세 추종 파이프라인 실행
+        env:
+          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          PORTFOLIO_JSON:      ${{ secrets.PORTFOLIO_JSON }}
+        run: |
+          cd tools/stock_portfolio
+          python trend_pipeline.py --mode ${{ steps.mode.outputs.mode }}
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tools/stock_portfolio/cache/ || true
+          git diff --staged --quiet || git commit -m "trend: ${{ steps.mode.outputs.mode }} $(date -u +%Y-%m-%d)"
+          git push || true

@@ -109,3 +109,6 @@ ecc2/target/
 .opencode/package-lock.json
 .opencode/node_modules/
 assets/images/security/badrudi-exploit.mp4
+
+# 추세 추종 생성 리포트
+tools/stock_portfolio/reports/

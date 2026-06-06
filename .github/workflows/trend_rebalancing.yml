@@ -34,7 +34,7 @@ jobs:
           cache: pip
 
       - name: 의존성 설치
-        run: pip install yfinance pandas numpy requests
+        run: pip install yfinance pandas numpy requests lxml beautifulsoup4
 
       - name: 실행 모드 결정
         id: mode

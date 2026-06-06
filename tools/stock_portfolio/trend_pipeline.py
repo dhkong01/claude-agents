@@ -121,7 +121,7 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
     try:
         from trend_report import generate_report
         report_path = generate_report(today)
-        print(f"\n[Report] {report_path}")
+        print(f"[Report] {report_path}")
     except Exception as e:
         print(f"[Report] 생성 실패: {e}", file=sys.stderr)
 
@@ -276,9 +276,9 @@ def _send_kakao(result: dict, mode: str) -> None:
         )
         with urllib.request.urlopen(req, timeout=12) as resp:
             resp.read()
-        print("✅ KakaoTalk 발송 완료")
+        print("[KakaoTalk] 발송 완료")
     except Exception as e:
-        print(f"⚠️  KakaoTalk 발송 실패: {e}", file=sys.stderr)
+        print(f"[KakaoTalk] 발송 실패: {e}", file=sys.stderr)
 
 
 # ── CLI ───────────────────────────────────────────────────────

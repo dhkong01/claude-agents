@@ -54,10 +54,10 @@ jobs:
       - name: 통계 정규화
         run: python tools/lotto/normalize.py
 
-      - name: ML 정합성 분석 (3모델 × 3000회 부트스트랩)
+      - name: ML 정합성 분석 (3모델 × 5000회 부트스트랩)
         run: python tools/lotto/ml_analyze.py
 
-      - name: 5게임 예측 (몬테카를로 4만 샘플)
+      - name: 5게임 예측 (Game1 전수탐색 + Game2~5 온도MC)
         run: python tools/lotto/predict.py
 
       # ── 5. 알림 전송 ──────────────────────────────────────────

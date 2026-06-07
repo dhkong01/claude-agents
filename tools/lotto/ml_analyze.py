@@ -163,6 +163,40 @@ def window_freq(w):
         for x in r["numbers"]: f[x-1] += 1
     return (f / min(w, N)).round(4).tolist()
 
+# ── 조건부 확률 행렬 P(j|i) ──────────────────────────────────────
+# P(j|i) = i번이 나왔을 때 j번이 함께 나온 비율 (라플라스 스무딩 적용)
+cooc_mat   = np.zeros((45, 45))
+appear_cnt = np.zeros(45)
+for r in records:
+    nums = [x - 1 for x in r["numbers"]]
+    for i in nums:
+        appear_cnt[i] += 1
+        for j in nums:
+            if i != j:
+                cooc_mat[i][j] += 1
+
+# 라플라스 스무딩(α=0.5): 소표본 노이즈 완화
+_alpha = 0.5
+cond_prob_mat = np.zeros((45, 45))
+for i in range(45):
+    cond_prob_mat[i] = (cooc_mat[i] + _alpha) / (appear_cnt[i] + _alpha * 45)
+
+# 무작위 기댓값 = 한 회차에 나올 때 5개와 동반 / N회
+random_pair_base = float(5.0 / N)
+
+# 역사적 당첨 조합의 평균 쌍 확률 (기준값)
+_hist_pair = []
+for r in records:
+    ns = [x - 1 for x in r["numbers"]]
+    pp = []
+    for _i in range(len(ns)):
+        for _j in range(_i + 1, len(ns)):
+            a, b = ns[_i], ns[_j]
+            pp.append(float((cond_prob_mat[a][b] + cond_prob_mat[b][a]) / 2))
+    _hist_pair.append(float(np.mean(pp)))
+avg_hist_pair_prob = float(np.mean(_hist_pair))
+print(f"역사적 평균 쌍 동반확률: {avg_hist_pair_prob:.4f}  (무작위 기댓값: {random_pair_base:.4f}  비율: {avg_hist_pair_prob/random_pair_base:.1f}x)")
+
 # ── 합계 통계 ─────────────────────────────────────────────────────
 sums = [sum(r["numbers"]) for r in records]
 sum_stats = {
@@ -200,7 +234,10 @@ out = {
     "band_avg":            ana["band_avg"],
     "sum_stats":           sum_stats,
     "backtest":            bt,
+    "cond_prob_matrix":    cond_prob_mat.round(4).tolist(),   # 45×45 조건부 확률
+    "avg_hist_pair_prob":  round(avg_hist_pair_prob, 4),
+    "random_pair_baseline": round(random_pair_base, 4),
 }
 json.dump(out, open(DIR/"lotto_ml_features.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
-print(f"\nML 피처 완료: {N}회 기반 | 5모델 다중 정합성")
+print(f"\nML 피처 완료: {N}회 기반 | 정합성 + 조건부확률행렬(45×45)")

@@ -18,7 +18,7 @@ if not PRED_PATH.exists():
 pred     = json.loads(PRED_PATH.read_text(encoding="utf-8"))
 games    = pred.get("games", [])
 draw     = pred["draw"]
-best_idx = max(range(len(games)), key=lambda i: games[i]["overall_coherence"]) if games else 0
+best_idx = max(range(len(games)), key=lambda i: games[i].get("combined_score", games[i]["overall_coherence"])) if games else 0
 bg       = games[best_idx] if games else pred
 core     = set(bg.get("core_numbers", []))
 ind      = bg.get("individual_coherence", {})
@@ -39,21 +39,33 @@ def _post(url, data=None, headers=None, as_json=False):
 
 
 # ── 메시지 조립 ───────────────────────────────────────────────
-lines1 = [f"🎱 로또 {draw}회 예측 (3모델합의정합성)"]
+method_short = "정합성+쌍확률" if "쌍" in pred.get("method", "") else "3모델합의정합성"
+lines1 = [f"🎱 로또 {draw}회 예측 ({method_short})"]
 for g, gr in enumerate(games):
-    nums   = " ".join(f"{n:02d}" for n in gr["numbers"])
-    marker = " ◀대표" if g == best_idx else ""
-    lines1.append(f"{chr(65+g)}: {nums}  합{gr['sum']}  {gr['overall_coherence']:.0f}%{marker}")
+    nums     = " ".join(f"{n:02d}" for n in gr["numbers"])
+    marker   = " ◀대표" if g == best_idx else ""
+    combined = gr.get("combined_score", gr["overall_coherence"])
+    lines1.append(f"{chr(65+g)}: {nums}  합{gr['sum']}  통합{combined:.0f}%{marker}")
 msg1 = "\n".join(lines1)
+
+pair_lines = ""
+if bg.get("pair_detail"):
+    top_pairs = sorted(bg["pair_detail"].items(), key=lambda x: -x[1])[:3]
+    pair_lines = "\n" + "\n".join(f"  {p}: {v:.1f}%" for p, v in top_pairs)
 
 nums_detail = "  ".join(
     f"{'★' if n in core else ''}{n}번:{ind.get(str(n), 0):.0f}%"
     for n in bg["numbers"]
 )
+combined_s = bg.get("combined_score", bg["overall_coherence"])
+pair_vs    = bg.get("pair_vs_random", "")
+pair_info  = f"쌍확률 {bg.get('pair_score',0):.1f}% (무작위대비{pair_vs}배)\n" if pair_vs else ""
 msg2 = (
     f"📊 대표 Game {chr(65+best_idx)} 상세\n"
     f"{nums_detail}\n"
-    f"핵심 {len(core)}개  전체 정합성 {bg['overall_coherence']:.0f}%\n"
+    f"핵심 {len(core)}개  정합성 {bg['overall_coherence']:.0f}%  통합 {combined_s:.0f}%\n"
+    f"{pair_info}"
+    f"상위쌍{pair_lines}\n"
     f"합계 {bg['sum']} (유효범위 {lo}~{hi})\n"
     f"백테스트 TOP12 평균 {bt.get('avg_hits', 0)}개 적중\n"
     f"⚠️ 정합성=모델일치도, 당첨 확률 아님"

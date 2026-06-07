@@ -1,5 +1,6 @@
 import json, numpy as np
 from pathlib import Path
+from itertools import combinations
 
 DIR = Path(__file__).parent / "data"
 ml_path  = DIR / "lotto_ml_features.json"
@@ -26,9 +27,11 @@ else:
     SUM_LO, SUM_HI = 100, 175
     use_ml = False
 
-CORE_THRESH = 0.70   # 다중 모델 정합성 기준 핵심 번호 (70%+)
+CORE_THRESH = 0.65   # 4모델 top-12 기준 핵심 번호
 N_GAMES     = 5      # 게임 수
-N_SAMPLES   = 40000  # 몬테카를로 샘플 수
+N_SAMPLES   = 50000  # 몬테카를로 샘플 수 (Game 2~5)
+TOP_N       = 22     # 전수탐색 풀 크기 (Game 1)
+TEMP        = 1.5    # 온도 스케일링 지수 (>1 → 상위 번호 집중)
 
 # ── 종합 점수 ──────────────────────────────────────────────────────
 score = coh.copy()
@@ -72,20 +75,45 @@ def combo_score(combo):
                 s += 0.005 * top_pairs[k]
     return s
 
-def monte_carlo_best(n_samples, seed, exclude_combos=None, prev_used=None, diversity=0.4):
-    """몬테카를로 샘플링으로 제약 만족 최적 조합 탐색
-    diversity: 이전 게임 사용 번호 점수 감쇠 비율 (0~1, 높을수록 다양성 강조)
-    """
-    rng = np.random.default_rng(seed)
-    nums = np.arange(1, 46)
+def combo_coherence(combo):
+    """조합 평균 정합성"""
+    return float(np.mean([coh[n-1] for n in combo]))
+
+# ── Game 1: 전수탐색 (상위 TOP_N에서 C(22,6)=74613 조합 모두 확인) ────
+def exhaustive_best(exclude_combos=None):
+    """상위 번호 풀에서 제약 만족 최고 정합성 조합을 전수탐색으로 보장"""
+    top_nums = sorted(range(1, 46), key=lambda i: -score[i-1])[:TOP_N]
+    exclude  = set(tuple(sorted(c)) for c in (exclude_combos or []))
+    best, best_s = None, -1
+
+    for combo in combinations(top_nums, 6):
+        key = tuple(sorted(combo))
+        if key in exclude:
+            continue
+        if not is_valid(combo):
+            continue
+        s = combo_coherence(combo)  # 정합성 최대화 우선
+        if s > best_s:
+            best_s, best = s, list(combo)
+
+    return sorted(best) if best else None
+
+# ── Game 2~5: 온도 스케일링 + 몬테카를로 ──────────────────────────────
+def monte_carlo_best(n_samples, seed, exclude_combos=None, prev_used=None, diversity=0.35):
+    """온도 스케일링 적용 몬테카를로: 상위 번호에 더 집중"""
+    rng     = np.random.default_rng(seed)
+    nums    = np.arange(1, 46)
     exclude = set(tuple(sorted(c)) for c in (exclude_combos or []))
 
-    # 이전 게임에서 많이 쓴 번호 감쇠
+    # 이전 게임 사용 번호 감쇠
     adj_score = score.copy()
     if prev_used:
         for n, cnt in prev_used.items():
             adj_score[n-1] *= (1 - diversity) ** cnt
     adj_score = np.clip(adj_score, 1e-6, None)
+
+    # 온도 스케일링: 상위 번호 집중 (TEMP=1.5)
+    adj_score = adj_score ** TEMP
     adj_score /= adj_score.sum()
 
     best, best_s = None, -1
@@ -95,28 +123,38 @@ def monte_carlo_best(n_samples, seed, exclude_combos=None, prev_used=None, diver
             continue
         if not is_valid(combo):
             continue
-        s = combo_score(combo)
+        s = combo_coherence(combo)
         if s > best_s:
             best_s, best = s, combo
 
-    if best is None:
+    if best is None:   # 폴백: 합계 조건만
         for _ in range(n_samples):
             combo = tuple(sorted(int(x) for x in rng.choice(nums, size=6, replace=False, p=adj_score)))
             if combo in exclude:
                 continue
             if SUM_LO <= sum(combo) <= SUM_HI:
-                s = combo_score(combo)
+                s = combo_coherence(combo)
                 if s > best_s:
                     best_s, best = s, combo
+
     return list(best) if best else None
 
 # ── 5게임 생성 ────────────────────────────────────────────────────
-print("조합 탐색 중 (몬테카를로)...")
+print("Game 1: 전수탐색 (C(22,6)=74,613 조합)...")
 games      = []
 all_combos = []
-used_count = {}  # 번호별 사용 횟수 추적
+used_count = {}
 
-for g in range(N_GAMES):
+# Game 1: 전수탐색 → 정합성 수학적 최적
+g1 = exhaustive_best()
+if g1:
+    all_combos.append(g1)
+    games.append(g1)
+    for n in g1:
+        used_count[n] = used_count.get(n, 0) + 1
+
+print(f"Game 2~{N_GAMES}: 온도스케일링 몬테카를로...")
+for g in range(1, N_GAMES):
     combo = monte_carlo_best(N_SAMPLES, seed=g * 137,
                              exclude_combos=all_combos, prev_used=used_count)
     if combo:
@@ -132,9 +170,9 @@ if not games:
 # ── 게임 메타데이터 ───────────────────────────────────────────────
 game_results = []
 for combo in games:
-    combo = sorted(combo)
+    combo   = sorted(combo)
     core_in = [n for n in combo if coh[n-1] >= CORE_THRESH]
-    bonus = int(max(
+    bonus   = int(max(
         (i for i in range(1, 46) if i not in combo),
         key=lambda i: float(score[i-1])
     ))
@@ -151,11 +189,10 @@ for combo in games:
         "individual_coherence": {str(n): round(float(coh[n-1]) * 100, 1) for n in combo},
     })
 
-# 대표 게임: 정합성 최고
+# 대표 게임: 정합성 최고 (= Game 1, 전수탐색 결과)
 best_idx  = max(range(len(game_results)), key=lambda i: game_results[i]["overall_coherence"])
 best_game = game_results[best_idx]
 
-# 백테스트 결과 ml_features에서 가져오기
 backtest = ml.get("backtest", {}) if use_ml else {}
 
 out = {
@@ -165,7 +202,7 @@ out = {
     "core_numbers":      best_game["core_numbers"],
     "core_coherence":    best_game["core_coherence"],
     "overall_coherence": best_game["overall_coherence"],
-    "method":            "5모델합의정합성+몬테카를로" if use_ml else "통계+몬테카를로",
+    "method":            "4모델합의정합성+전수탐색+온도MC" if use_ml else "통계+몬테카를로",
     "hot_included":      best_game["hot_included"],
     "gap_included":      best_game["gap_included"],
     "individual_coherence": best_game["individual_coherence"],

@@ -53,8 +53,17 @@ def model_pair(recs):
         f[b-1] += cnt
     return softmax((f - f.mean()) / (f.std() + 1e-8))
 
-# 핵심 정합성 모델: 장기 안정성 높은 3개만 사용
-# (빈도30, EMA는 단기 변동이 커서 정합성 50% 수준으로 노이즈)
+def model_recency(recs, tau=25):
+    """지수 감쇠 가중 빈도 — 최근 회차일수록 강하게 반영, 장기 평균 대비 안정"""
+    f = np.zeros(45)
+    for i, r in enumerate(recs[:100]):
+        w = np.exp(-i / tau)
+        for x in r["numbers"]:
+            f[x-1] += w
+    return softmax((f - f.mean()) / (f.std() + 1e-8))
+
+# 핵심 정합성 모델: 장기 안정성 높은 3개 사용
+# - 지수감쇠는 단기 변동이 커서 합의율을 낮춤 → 앙상블에는 사용, 정합성 계산에서는 제외
 STABLE_MODELS      = [model_freq_100, model_freq_all, model_pair]
 STABLE_MODEL_NAMES = ["빈도100", "빈도전체", "공출현"]
 
@@ -96,10 +105,10 @@ def single_model_coherence(recs, model_fn, n_boot=2000, top_k=12, seed=42):
         cnt[np.argsort(model_fn(br))[-top_k:]] += 1
     return (cnt / n_boot).round(4).tolist()
 
-print("정합성 계산 중 (안정 3모델 × 부트스트랩, 약 30~60초)...")
-# 안정 모델 3개 × top_k=15: 장기 빈도가 지배적인 번호 → 90% 근접 가능
+print("정합성 계산 중 (3안정모델 × 5000 부트스트랩, 약 60~90초)...")
+# 3안정모델 × top_k=15 × 5000 부트스트랩: 더 안정적인 추정값
 number_coherence = multi_model_coherence(
-    records, n_boot=3000, top_k=15, seed=42,
+    records, n_boot=5000, top_k=15, seed=42,
     model_list=STABLE_MODELS
 ).round(4).tolist()
 
@@ -178,7 +187,7 @@ for name in STABLE_MODEL_NAMES:
 out = {
     "last_draw":           hist["last_draw"],
     "based_on":            N,
-    "coherence_method":    "3안정모델×부트스트랩 합의 (top-15 포함비율)",
+    "coherence_method":    "3안정모델×부트스트랩 합의 (top-15 포함비율, n_boot=5000)",
     "ensemble_weights":    {str(i+1): round(float(ens_full[i]), 6) for i in range(45)},
     "number_coherence":    number_coherence,
     "coherence_by_model":  coherence_by_model,

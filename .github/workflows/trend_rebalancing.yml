@@ -54,7 +54,6 @@ jobs:
         env:
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
-          PORTFOLIO_JSON:      ${{ secrets.PORTFOLIO_JSON }}
         run: |
           cd tools/stock_portfolio
           python trend_pipeline.py --mode ${{ steps.mode.outputs.mode }}

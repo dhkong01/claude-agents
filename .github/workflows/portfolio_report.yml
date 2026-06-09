@@ -2,7 +2,7 @@ name: Portfolio Daily Report
 
 on:
   schedule:
-    - cron: '30 22 * * 1-5'   # UTC 22:30 = KST 07:30 (월~금, 미장 마감 2.5시간 후)
+    - cron: '30 22 * * 0-4'   # UTC 22:30 = KST 07:30 (KST 월~금) — UTC 일~목이 KST 월~금 07:30
   workflow_dispatch:           # 수동 실행 가능
 
 permissions:

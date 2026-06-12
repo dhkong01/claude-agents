@@ -1,1 +1,186 @@
-{"top10": [], "_note": "이 파일은 GitHub Actions가 매일 자동 업데이트합니다."}
+{
+  "date": "2026-06-12",
+  "analyzed": 47,
+  "top10": [
+    {
+      "ticker": "AMAT",
+      "canslim_score": 67,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 438773743616,
+      "price": 552.64,
+      "rs_rating": 96.1
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 453356978176,
+      "price": 362.52,
+      "rs_rating": 96.4
+    },
+    {
+      "ticker": "MPWR",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 78094589952,
+      "price": 1589.55,
+      "rs_rating": 94.5
+    },
+    {
+      "ticker": "NUE",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "market_cap": 59417612288,
+      "price": 260.9,
+      "rs_rating": 93.9
+    },
+    {
+      "ticker": "JBL",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": 39762886656,
+      "price": 376.89,
+      "rs_rating": 93.5
+    },
+    {
+      "ticker": "CASY",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "market_cap": 33963689984,
+      "price": 916.28,
+      "rs_rating": 91.9
+    },
+    {
+      "ticker": "MU",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 1123076407296,
+      "price": 995.87,
+      "rs_rating": 98.8
+    },
+    {
+      "ticker": "DELL",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 253701865472,
+      "price": 391.45,
+      "rs_rating": 97.6
+    },
+    {
+      "ticker": "TER",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 59705180160,
+      "price": 381.4,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "STLD",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "market_cap": 40314683392,
+      "price": 279.55,
+      "rs_rating": 94.9
+    }
+  ]
+}

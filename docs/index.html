@@ -234,7 +234,7 @@ document.getElementById('installBtn').onclick = async () => {
 
 // ── Service Worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(() => {});
+  navigator.serviceWorker.register('/claude-agents/sw.js', { scope: '/claude-agents/' }).catch(() => {});
 }
 
 // ── 탭 전환
@@ -244,7 +244,7 @@ function switchTab(i) {
 }
 
 // ── 데이터 로드
-const BASE = location.pathname.replace(/\/$/, '') || '';
+const BASE = '/claude-agents';
 
 async function fetchJSON(path) {
   const r = await fetch(path + '?t=' + Date.now());

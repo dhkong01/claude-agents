@@ -126,11 +126,19 @@ def export_portfolio(today: str) -> bool:
         holdings_out.append({
             "ticker": ticker,
             "shares": shares,
-            "avg_cost": ac,
-            "price":  round(price, 2),
-            "value":  round(value, 2),
-            "cost":   round(cost, 2),
+            "avg_cost": round(ac, 4),
+            "price":   round(price, 2),
+            "value":   round(value, 2),
+            "cost":    round(cost, 2),
         })
+
+    # total_cost 가 0이면 개별 cost 합산으로 계산
+    if not total_cost:
+        total_cost = round(sum(h["cost"] for h in holdings_out), 2)
+
+    # next_rebalance 기본값
+    if not next_rb:
+        next_rb = "2026-08-21"
 
     out_data = {
         "date":           today,

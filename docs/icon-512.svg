@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#0f172a"/>
+  <rect x="40" y="40" width="432" height="432" rx="60" fill="#1e293b"/>
+  <polyline points="80,360 190,210 270,270 380,130 432,180" fill="none" stroke="#38bdf8" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="380" cy="130" r="22" fill="#22c55e"/>
+  <text x="256" y="450" font-family="Arial" font-size="60" fill="#94a3b8" text-anchor="middle" font-weight="bold">TREND</text>
+</svg>

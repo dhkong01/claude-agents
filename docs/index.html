@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#38bdf8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="StockApp">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.svg">
+<title>Stock Dashboard</title>
+<style>
+:root {
+  --bg:     #0f172a;
+  --bg2:    #1e293b;
+  --bg3:    #334155;
+  --text:   #e2e8f0;
+  --text2:  #94a3b8;
+  --accent: #38bdf8;
+  --green:  #22c55e;
+  --yellow: #f59e0b;
+  --red:    #ef4444;
+  --border: #334155;
+  --r:      12px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;line-height:1.5}
+body{display:flex;flex-direction:column;overflow:hidden}
+
+/* ── 헤더 */
+.hdr{background:var(--bg2);padding:12px 16px 8px;border-bottom:1px solid var(--border);flex-shrink:0}
+.hdr-row{display:flex;justify-content:space-between;align-items:center}
+.hdr-title{font-size:17px;font-weight:700;color:var(--accent)}
+.hdr-meta{font-size:11px;color:var(--text2);text-align:right}
+.hdr-date{color:var(--text);font-weight:600}
+
+/* ── 탭 바 */
+.tabs{display:flex;background:var(--bg2);border-bottom:1px solid var(--border);flex-shrink:0}
+.tab{flex:1;padding:10px 4px;text-align:center;font-size:12px;color:var(--text2);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-icon{font-size:18px;display:block;margin-bottom:2px}
+
+/* ── 스크롤 영역 */
+.content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.page{display:none;padding:12px}
+.page.active{display:block}
+
+/* ── 공통 카드 */
+.card{background:var(--bg2);border-radius:var(--r);padding:14px;margin-bottom:12px;border:1px solid var(--border)}
+.card-title{font-size:14px;font-weight:600;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px}
+.muted{color:var(--text2)}
+.empty{text-align:center;padding:32px;color:var(--text2);font-size:13px}
+
+/* ── 배지 */
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600}
+.bg-green{background:rgba(34,197,94,.2);color:var(--green);border:1px solid var(--green)}
+.bg-red{background:rgba(239,68,68,.2);color:var(--red);border:1px solid var(--red)}
+.bg-yellow{background:rgba(245,158,11,.2);color:var(--yellow);border:1px solid var(--yellow)}
+.bg-gray{background:rgba(148,163,184,.15);color:var(--text2);border:1px solid var(--border)}
+
+/* ── 새로고침 버튼 */
+.refresh-btn{background:var(--bg3);border:none;color:var(--accent);padding:6px 14px;border-radius:8px;font-size:12px;cursor:pointer;display:flex;align-items:center;gap:4px}
+.refresh-btn:active{opacity:.7}
+.spin{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── 로딩 */
+.loading{text-align:center;padding:40px;color:var(--text2)}
+.loading-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 1.2s ease-in-out infinite}
+.loading-dot:nth-child(2){animation-delay:.2s}
+.loading-dot:nth-child(3){animation-delay:.4s}
+@keyframes pulse{0%,80%,100%{transform:scale(0);opacity:.5}40%{transform:scale(1);opacity:1}}
+
+/* ══════════════════════════════
+   탭1: 추세추종
+══════════════════════════════ */
+
+/* 지정학 리스크 */
+.geo-grid{display:grid;grid-template-columns:100px 1fr;gap:12px;align-items:start}
+.gauge-wrap{text-align:center}
+.gauge-val{font-size:32px;font-weight:700;line-height:1}
+.gauge-sub{font-size:11px;color:var(--text2);margin-top:2px}
+.gauge-arc{width:80px;height:48px;margin:0 auto 6px}
+.geo-info{}
+.geo-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.geo-events{font-size:11px;color:var(--text2);margin-top:8px}
+.geo-events li{margin-bottom:3px;padding-left:8px}
+
+/* 헤지 바 */
+.alloc-bar-wrap{display:flex;height:28px;border-radius:6px;overflow:hidden;margin:8px 0}
+.alloc-seg{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#fff;min-width:0;overflow:hidden}
+.seg-long{background:rgba(34,197,94,.7)}
+.seg-sqqq{background:rgba(239,68,68,.7)}
+.seg-cash{background:rgba(148,163,184,.4);color:var(--text2)}
+.alloc-legend{display:flex;gap:12px;font-size:11px;flex-wrap:wrap}
+.leg-long{color:var(--green)}
+.leg-sqqq{color:var(--red)}
+.leg-cash{color:var(--text2)}
+
+/* TOP5 카드 */
+.top5-item{background:var(--bg3);border-radius:10px;padding:12px;margin-bottom:10px;border:1px solid var(--border)}
+.top5-item.rank-1{border-color:var(--green)}
+.top5-header{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+.rank-num{font-size:11px;color:var(--text2);min-width:20px}
+.ticker{font-size:20px;font-weight:700;color:var(--accent)}
+.top5-price{font-size:22px;font-weight:700;margin-bottom:4px}
+.top5-subs{display:flex;gap:12px;font-size:11px;color:var(--text2);margin-bottom:8px}
+
+/* Donchian 바 */
+.dc-wrap{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.dc-label{font-size:10px;color:var(--text2);white-space:nowrap;min-width:60px}
+.dc-label:last-child{text-align:right}
+.dc-track{flex:1;height:6px;background:var(--bg2);border-radius:4px;position:relative;overflow:visible}
+.dc-fill{height:100%;border-radius:4px}
+.dc-marker{position:absolute;top:-4px;width:3px;height:14px;background:#fff;border-radius:2px;transform:translateX(-50%)}
+.dc-pos{font-size:10px;text-align:center;font-weight:600;margin-bottom:6px}
+
+.score-row{display:flex;flex-wrap:wrap;gap:6px}
+.sc{font-size:11px;color:var(--text2)}
+.sc b{color:var(--text)}
+
+/* ══════════════════════════════
+   탭2: 포트폴리오
+══════════════════════════════ */
+.pf-summary{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.pf-stat{background:var(--bg3);border-radius:8px;padding:10px 12px}
+.pf-stat-label{font-size:11px;color:var(--text2);margin-bottom:2px}
+.pf-stat-val{font-size:18px;font-weight:700}
+
+.holding-item{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border)}
+.holding-item:last-child{border:none}
+.holding-ticker{font-size:16px;font-weight:700;color:var(--accent);min-width:50px}
+.holding-shares{font-size:11px;color:var(--text2)}
+.holding-mid{flex:1}
+.holding-price{font-size:14px;font-weight:600}
+.holding-pl{font-size:12px;font-weight:600}
+.pos{color:var(--green)}
+.neg{color:var(--red)}
+
+.mini-bar-wrap{height:4px;background:var(--bg3);border-radius:2px;margin-top:4px}
+.mini-bar{height:4px;border-radius:2px}
+
+/* ══════════════════════════════
+   탭3: VCP / CANSLIM
+══════════════════════════════ */
+.screen-item{padding:10px 0;border-bottom:1px solid var(--border)}
+.screen-item:last-child{border:none}
+.screen-row1{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.screen-ticker{font-size:15px;font-weight:700;color:var(--accent);min-width:50px}
+.screen-price{font-size:13px;font-weight:600}
+.screen-row2{display:flex;gap:10px;font-size:11px;color:var(--text2)}
+.vcp-tag{background:rgba(34,197,94,.15);color:var(--green);padding:1px 6px;border-radius:4px;font-size:10px;font-weight:600}
+.s2-tag{background:rgba(56,189,248,.1);color:var(--accent);padding:1px 6px;border-radius:4px;font-size:10px}
+.pivot-val{color:var(--yellow)}
+
+.score-bar-wrap{height:4px;background:var(--bg3);border-radius:2px;display:inline-block;width:60px;vertical-align:middle;margin:0 4px}
+.score-bar{height:4px;border-radius:2px}
+
+/* ── 인스톨 배너 */
+.install-banner{background:linear-gradient(135deg,#1e3a5f,#1e293b);border:1px solid var(--accent);border-radius:var(--r);padding:12px 14px;margin-bottom:12px;display:none;align-items:center;gap:10px}
+.install-banner.show{display:flex}
+.install-btn{background:var(--accent);color:#0f172a;border:none;padding:8px 14px;border-radius:8px;font-weight:700;font-size:12px;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.install-text{font-size:12px;color:var(--text2)}
+
+/* ── 에러 */
+.err-box{background:rgba(239,68,68,.1);border:1px solid var(--red);border-radius:8px;padding:12px;font-size:12px;color:var(--red);margin-bottom:12px}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-row">
+    <div class="hdr-title">📊 Stock Dashboard</div>
+    <button class="refresh-btn" id="refreshBtn" onclick="loadAll()">
+      <span id="refreshIcon">↻</span> 새로고침
+    </button>
+  </div>
+  <div class="hdr-meta">
+    마지막 업데이트: <span class="hdr-date" id="lastUpdate">—</span>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab(0)">
+    <span class="tab-icon">📈</span>추세추종
+  </div>
+  <div class="tab" onclick="switchTab(1)">
+    <span class="tab-icon">💼</span>포트폴리오
+  </div>
+  <div class="tab" onclick="switchTab(2)">
+    <span class="tab-icon">🔍</span>VCP/CANSLIM
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ── 탭1: 추세추종 ── -->
+  <div class="page active" id="page0">
+    <div class="install-banner" id="installBanner">
+      <div class="install-text">홈 화면에 추가하면 앱처럼 사용할 수 있어요</div>
+      <button class="install-btn" id="installBtn">설치</button>
+    </div>
+    <div id="trendContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
+  </div>
+
+  <!-- ── 탭2: 포트폴리오 ── -->
+  <div class="page" id="page1">
+    <div id="pfContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
+  </div>
+
+  <!-- ── 탭3: VCP/CANSLIM ── -->
+  <div class="page" id="page2">
+    <div id="vcpContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
+  </div>
+
+</div>
+
+<script>
+// ── PWA 설치 프롬프트
+let deferredPrompt = null;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  document.getElementById('installBanner').classList.add('show');
+});
+document.getElementById('installBtn').onclick = async () => {
+  if (!deferredPrompt) return;
+  deferredPrompt.prompt();
+  const { outcome } = await deferredPrompt.userChoice;
+  if (outcome === 'accepted') document.getElementById('installBanner').classList.remove('show');
+  deferredPrompt = null;
+};
+
+// ── Service Worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+
+// ── 탭 전환
+function switchTab(i) {
+  document.querySelectorAll('.tab').forEach((t, j) => t.classList.toggle('active', i === j));
+  document.querySelectorAll('.page').forEach((p, j) => p.classList.toggle('active', i === j));
+}
+
+// ── 데이터 로드
+const BASE = location.pathname.replace(/\/$/, '') || '';
+
+async function fetchJSON(path) {
+  const r = await fetch(path + '?t=' + Date.now());
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+
+let trendData = null, pfData = null, vcpData = null, canslimData = null;
+
+async function loadAll() {
+  const icon = document.getElementById('refreshIcon');
+  icon.classList.add('spin');
+  try {
+    [trendData, pfData, vcpData, canslimData] = await Promise.allSettled([
+      fetchJSON('data/trend_latest.json'),
+      fetchJSON('data/portfolio_latest.json'),
+      fetchJSON('data/vcp_top20.json'),
+      fetchJSON('data/canslim_top10.json'),
+    ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
+
+    renderTrend();
+    renderPortfolio();
+    renderVCP();
+
+    const date = trendData?.date || pfData?.date || '—';
+    document.getElementById('lastUpdate').textContent = date;
+  } catch(e) {
+    console.error(e);
+  } finally {
+    icon.classList.remove('spin');
+  }
+}
+
+// ════════════════════════════════════
+// 탭1: 추세추종 렌더
+// ════════════════════════════════════
+function renderTrend() {
+  const el = document.getElementById('trendContent');
+  if (!trendData) {
+    el.innerHTML = '<div class="err-box">데이터를 불러올 수 없습니다. GitHub Actions가 아직 실행되지 않았을 수 있습니다.</div>';
+    return;
+  }
+
+  const geo   = trendData.geo_risk || {};
+  const top5  = trendData.top5 || [];
+  const sqqq  = trendData.sqqq_channel || {};
+  const hedge = geo.hedge || {};
+  const mode  = trendData.mode || 'weekly';
+
+  el.innerHTML = `
+    ${renderGeo(geo)}
+    ${renderHedge(hedge, sqqq)}
+    ${renderTop5(top5)}
+    ${renderTracking(trendData.tracking || [])}
+  `;
+}
+
+function renderGeo(geo) {
+  const level  = geo.risk_level || '?';
+  const score  = geo.risk_score || 0;
+  const bias   = geo.market_bias || '?';
+  const events = geo.top_risk_events || [];
+  const color  = level === 'HIGH' ? 'var(--red)' : level === 'LOW' ? 'var(--green)' : 'var(--yellow)';
+  const badgeCls = level === 'HIGH' ? 'bg-red' : level === 'LOW' ? 'bg-green' : 'bg-yellow';
+  const biasCls  = bias === 'RISK_ON' ? 'bg-green' : bias === 'RISK_OFF' ? 'bg-red' : 'bg-yellow';
+
+  const pct = score / 10;
+  // SVG 반원 게이지 (r=36, cx=46, cy=46)
+  const circ = Math.PI * 36; // ~113
+  const dashOff = circ - circ * pct;
+
+  const evHtml = events.slice(0,3).map(e => `<li>${e}</li>`).join('') || '<li class="muted">주요 이벤트 없음</li>';
+
+  return `
+  <div class="card">
+    <div class="card-title">🌍 지정학 리스크</div>
+    <div class="geo-grid">
+      <div class="gauge-wrap">
+        <svg class="gauge-arc" viewBox="0 0 92 52">
+          <path d="M8,46 A38,38 0 0,1 84,46" fill="none" stroke="var(--bg3)" stroke-width="10" stroke-linecap="round"/>
+          <path d="M8,46 A38,38 0 0,1 84,46" fill="none" stroke="${color}" stroke-width="10"
+                stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${dashOff}"/>
+        </svg>
+        <div class="gauge-val" style="color:${color}">${score}</div>
+        <div class="gauge-sub">/ 10</div>
+      </div>
+      <div class="geo-info">
+        <div class="geo-row">
+          <span class="badge ${badgeCls}">${level === 'HIGH' ? '🔴' : level === 'LOW' ? '🟢' : '🟡'} ${level}</span>
+          <span class="badge ${biasCls}">${bias}</span>
+        </div>
+        <div style="font-size:12px;color:var(--text2);margin-top:8px">${geo.recommendation || ''}</div>
+        <ul class="geo-events" style="margin-top:8px;list-style:disc;padding-left:12px">${evHtml}</ul>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderHedge(hedge, sqqq) {
+  if (!hedge || !hedge.action || hedge.action === 'FULL_LONG') return '';
+  const longP  = hedge.long_pct  || 100;
+  const sqqP   = hedge.sqqq_pct  || 0;
+  const cashP  = hedge.cash_pct  || 0;
+  const actionMap = {
+    FULL_LONG:      '전체 롱',
+    LIGHT_HEDGE:    '소형 헤지',
+    MODERATE_HEDGE: '중간 방어',
+    DEFENSIVE:      '방어 포지션',
+    MAX_DEFENSIVE:  '최대 방어',
+  };
+  const label = actionMap[hedge.action] || hedge.action;
+  const actionColor = sqqP >= 20 ? 'var(--red)' : sqqP > 0 ? 'var(--yellow)' : 'var(--green)';
+  const sqqqPrice = sqqq.current ? ` $${sqqq.current}` : '';
+
+  return `
+  <div class="card" style="border-left:3px solid var(--yellow)">
+    <div class="card-title">🛡 헤지 전략 권고</div>
+    <div style="font-size:16px;font-weight:700;color:${actionColor};margin-bottom:6px">${label}</div>
+    <div style="font-size:12px;color:var(--text2);margin-bottom:10px">${hedge.reasoning || ''}</div>
+    <div class="alloc-bar-wrap">
+      ${longP ? `<div class="alloc-seg seg-long" style="width:${longP}%">${longP}% 롱</div>` : ''}
+      ${sqqP  ? `<div class="alloc-seg seg-sqqq" style="width:${sqqP}%">${sqqP}% SQQQ</div>` : ''}
+      ${cashP ? `<div class="alloc-seg seg-cash" style="width:${cashP}%">${cashP}% 현금</div>` : ''}
+    </div>
+    <div class="alloc-legend">
+      <span class="leg-long">롱 ${longP}%</span>
+      ${sqqP ? `<span class="leg-sqqq">SQQQ ${sqqP}%${sqqqPrice}</span>` : ''}
+      ${cashP ? `<span class="leg-cash">현금 ${cashP}%</span>` : ''}
+    </div>
+  </div>`;
+}
+
+function renderTop5(top5) {
+  if (!top5.length) return '<div class="card"><div class="empty">TOP5 데이터 없음</div></div>';
+
+  const items = top5.map((s, i) => {
+    const sig   = s.donchian_signal || 'HOLD';
+    const sigCls = sig === 'BREAKOUT' ? 'bg-green' : sig === 'EXIT' ? 'bg-red' : 'bg-gray';
+    const sigLbl = sig === 'BREAKOUT' ? '🚀 돌파' : sig === 'EXIT' ? '⚠ 청산' : 'HOLD';
+    const cur   = s.current_price || 0;
+    const upr   = s.donchian_upper || 0;
+    const lwr   = s.donchian_lower || 0;
+    const span  = upr - lwr;
+    const pos   = span > 0 ? Math.max(0, Math.min(100, Math.round((cur - lwr) / span * 100))) : 50;
+    const barC  = pos >= 90 ? '#22c55e' : pos >= 50 ? '#f59e0b' : '#ef4444';
+    const distU = s.dist_to_upper_pct || 0;
+    const distL = s.dist_to_lower_pct || 0;
+
+    return `
+    <div class="top5-item ${i === 0 ? 'rank-1' : ''}">
+      <div class="top5-header">
+        <span class="rank-num">#${i+1}</span>
+        <span class="ticker">${s.ticker}</span>
+        <span class="badge ${sigCls}">${sigLbl}</span>
+        ${s.in_both ? '<span class="badge bg-gray">CS+VCP</span>' : ''}
+        <span style="font-size:11px;color:var(--text2)">${s.sector || ''}</span>
+      </div>
+      <div class="top5-price">$${cur.toLocaleString('en', {minimumFractionDigits:2, maximumFractionDigits:2})}</div>
+      <div class="top5-subs">
+        <span>돌파까지 ${distU > 0 ? '-' : '+'}${Math.abs(distU).toFixed(1)}%</span>
+        <span>손절까지 +${Math.abs(distL).toFixed(1)}%</span>
+        ${s.pivot ? `<span style="color:var(--yellow)">Pivot $${s.pivot.toFixed(2)}</span>` : ''}
+      </div>
+      <div class="dc-wrap">
+        <span class="dc-label">$${lwr.toFixed(1)}</span>
+        <div class="dc-track">
+          <div class="dc-fill" style="width:${pos}%;background:${barC}"></div>
+          <div class="dc-marker" style="left:${pos}%"></div>
+        </div>
+        <span class="dc-label">$${upr.toFixed(1)}</span>
+      </div>
+      <div class="dc-pos" style="color:${barC}">채널 위치 ${pos}%</div>
+      <div class="score-row">
+        <span class="sc">종합 <b>${(s.final_score||0).toFixed(1)}</b></span>
+        <span class="sc">RS <b>${(s.rs_rating||0).toFixed(0)}</b></span>
+        <span class="sc">CANSLIM <b>${s.canslim_score||0}/70</b></span>
+        <span class="sc">VCP <b>${s.vcp_score||0}/45</b></span>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card">
+    <div class="card-title">🏆 Donchian TOP 5</div>
+    ${items}
+    <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+      <div style="font-size:12px;color:var(--text2);margin-bottom:6px">📋 리밸런싱 플랜 (동일비중 20%)</div>
+      ${top5.map((s,i) => `
+        <div style="display:flex;justify-content:space-between;font-size:12px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.05)">
+          <span style="color:var(--accent)">#${i+1} ${s.ticker}</span>
+          <span>20%</span>
+          <span style="color:var(--red)">손절 $${(s.donchian_lower||0).toFixed(2)}</span>
+        </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+function renderTracking(tracking) {
+  const exits     = tracking.filter(t => t.signal === 'EXIT');
+  const breakouts = tracking.filter(t => t.signal === 'BREAKOUT');
+  if (!exits.length && !breakouts.length) return '';
+
+  return `
+  <div class="card" style="border-left:3px solid var(--red)">
+    <div class="card-title">⚡ 액션 필요</div>
+    ${exits.length ? `<div style="margin-bottom:8px"><span class="badge bg-red">⚠ 청산신호</span> <b style="margin-left:6px">${exits.map(t=>t.ticker).join(', ')}</b></div>` : ''}
+    ${breakouts.length ? `<div><span class="badge bg-green">🚀 신규진입</span> <b style="margin-left:6px">${breakouts.map(t=>t.ticker).join(', ')}</b></div>` : ''}
+  </div>`;
+}
+
+// ════════════════════════════════════
+// 탭2: 포트폴리오 렌더
+// ════════════════════════════════════
+function renderPortfolio() {
+  const el = document.getElementById('pfContent');
+  if (!pfData) {
+    el.innerHTML = '<div class="err-box">포트폴리오 데이터가 없습니다.</div>';
+    return;
+  }
+
+  const holdings   = pfData.holdings || [];
+  const totalCost  = pfData.total_cost || 0;
+  const totalVal   = holdings.reduce((s, h) => s + (h.value || 0), 0);
+  const totalPL    = totalVal - totalCost;
+  const totalPLPct = totalCost ? totalPL / totalCost * 100 : 0;
+  const plCls      = totalPL >= 0 ? 'pos' : 'neg';
+  const nextRB     = pfData.next_rebalance || '—';
+  const date       = pfData.date || '—';
+
+  const holdRows = holdings.map(h => {
+    const pl    = (h.value || 0) - (h.cost || 0);
+    const plPct = h.cost ? pl / h.cost * 100 : 0;
+    const cls   = pl >= 0 ? 'pos' : 'neg';
+    const wt    = totalVal ? (h.value || 0) / totalVal * 100 : 0;
+    const barC  = pl >= 0 ? '#22c55e' : '#ef4444';
+    return `
+    <div class="holding-item">
+      <div>
+        <div class="holding-ticker">${h.ticker || h.t}</div>
+        <div class="holding-shares muted">${h.shares || h.sh || 0}주</div>
+      </div>
+      <div class="holding-mid">
+        <div class="holding-price">$${(h.price || 0).toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</div>
+        <div class="mini-bar-wrap"><div class="mini-bar" style="width:${Math.min(100,wt*2)}%;background:${barC}"></div></div>
+      </div>
+      <div style="text-align:right">
+        <div class="holding-pl ${cls}">${pl>=0?'+':''}${plPct.toFixed(1)}%</div>
+        <div class="muted" style="font-size:11px">$${Math.round(h.value||0).toLocaleString()}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  el.innerHTML = `
+  <div class="card">
+    <div class="card-title">💼 포트폴리오 현황 <span class="muted" style="font-size:11px;font-weight:400">${date}</span></div>
+    <div class="pf-summary">
+      <div class="pf-stat">
+        <div class="pf-stat-label">평가금액</div>
+        <div class="pf-stat-val" style="font-size:16px">$${Math.round(totalVal).toLocaleString()}</div>
+      </div>
+      <div class="pf-stat">
+        <div class="pf-stat-label">총 손익</div>
+        <div class="pf-stat-val ${plCls}">${totalPL>=0?'+':''}${totalPLPct.toFixed(1)}%</div>
+      </div>
+      <div class="pf-stat">
+        <div class="pf-stat-label">투자원금</div>
+        <div class="pf-stat-val" style="font-size:14px">$${Math.round(totalCost).toLocaleString()}</div>
+      </div>
+      <div class="pf-stat">
+        <div class="pf-stat-label">다음 리밸런싱</div>
+        <div class="pf-stat-val" style="font-size:13px">${nextRB}</div>
+      </div>
+    </div>
+    <div>${holdRows}</div>
+  </div>`;
+}
+
+// ════════════════════════════════════
+// 탭3: VCP / CANSLIM 렌더
+// ════════════════════════════════════
+function renderVCP() {
+  const el = document.getElementById('vcpContent');
+  const vcp = vcpData?.stocks || [];
+  const cs  = canslimData?.top10 || [];
+
+  let html = '';
+
+  // VCP
+  if (vcp.length) {
+    const vcpRows = vcp.map(s => {
+      const tag    = s.has_vcp ? '<span class="vcp-tag">VCP ✓</span>' : '<span class="s2-tag">Stage2</span>';
+      const score  = s.total_score || 0;
+      const rs     = (s.rs_rating || 0).toFixed(0);
+      const barW   = Math.min(100, score / 85 * 100);
+      const barC   = score >= 60 ? '#22c55e' : score >= 40 ? '#f59e0b' : '#ef4444';
+      return `
+      <div class="screen-item">
+        <div class="screen-row1">
+          <span class="screen-ticker">${s.ticker}</span>
+          ${tag}
+          <span class="screen-price">$${(s.current_price||0).toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
+          ${s.pivot ? `<span class="pivot-val">P:$${s.pivot.toFixed(1)}</span>` : ''}
+        </div>
+        <div class="screen-row2">
+          <span>종합 <b style="color:var(--text)">${score}</b></span>
+          <span>RS <b style="color:var(--text)">${rs}</b></span>
+          <span>수축 ${s.contractions||0}회</span>
+          <span>조정 ${s.final_depth_pct||0}%</span>
+        </div>
+        <div style="margin-top:4px;display:flex;align-items:center;gap:6px">
+          <div class="score-bar-wrap"><div class="score-bar" style="width:${barW}%;background:${barC}"></div></div>
+          <span style="font-size:10px;color:var(--text2)">${score}/85</span>
+        </div>
+      </div>`;
+    }).join('');
+
+    html += `
+    <div class="card">
+      <div class="card-title">📈 Minervini VCP TOP 20</div>
+      ${vcpRows}
+    </div>`;
+  }
+
+  // CANSLIM
+  if (cs.length) {
+    const csRows = cs.map(s => {
+      const score  = s.canslim_score || 0;
+      const barW   = Math.min(100, score / 70 * 100);
+      const barC   = score >= 50 ? '#22c55e' : score >= 35 ? '#f59e0b' : '#ef4444';
+      const scrs   = s.scores || {};
+      const detail = Object.entries(scrs).map(([k,v]) => `${k}:${v}`).join(' ');
+      return `
+      <div class="screen-item">
+        <div class="screen-row1">
+          <span class="screen-ticker">${s.ticker}</span>
+          <span class="screen-price" style="font-size:12px">${score}/70</span>
+          <span class="muted" style="font-size:11px">RS ${(s.rs_rating||0).toFixed(0)}</span>
+        </div>
+        <div class="screen-row2" style="font-size:10px">${detail}</div>
+        <div style="margin-top:4px;display:flex;align-items:center;gap:6px">
+          <div class="score-bar-wrap"><div class="score-bar" style="width:${barW}%;background:${barC}"></div></div>
+          <span style="font-size:10px;color:var(--text2)">${s.sector||''}</span>
+        </div>
+      </div>`;
+    }).join('');
+
+    html += `
+    <div class="card">
+      <div class="card-title">📊 CANSLIM TOP 10</div>
+      ${csRows}
+    </div>`;
+  }
+
+  if (!html) {
+    html = '<div class="err-box">VCP/CANSLIM 데이터가 없습니다. GitHub Actions 실행 후 확인해 주세요.</div>';
+  }
+
+  el.innerHTML = html;
+}
+
+// ── 초기 로드
+loadAll();
+</script>
+</body>
+</html>

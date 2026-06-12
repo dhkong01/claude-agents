@@ -58,10 +58,17 @@ jobs:
           cd tools/stock_portfolio
           python trend_pipeline.py --mode ${{ steps.mode.outputs.mode }}
 
+      - name: PWA 데이터 내보내기
+        env:
+          PORTFOLIO_JSON: ${{ secrets.PORTFOLIO_JSON }}
+        run: |
+          cd tools/stock_portfolio
+          python export_pwa_data.py
+
       - name: 결과 커밋
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add tools/stock_portfolio/cache/ || true
+          git add tools/stock_portfolio/cache/ docs/data/ || true
           git diff --staged --quiet || git commit -m "trend: ${{ steps.mode.outputs.mode }} $(date -u +%Y-%m-%d)"
           git push || true

@@ -155,6 +155,31 @@
     100% { transform: scale(1.5) translateY(-80px); opacity: 0; }
   }
 
+  /* ── DOTS VISUALIZATION ── */
+  .dots-area {
+    min-height: 56px; display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    gap: 6px; margin: 6px 0 2px; padding: 4px;
+  }
+  .dots-group { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center; }
+  .dots-sep { font-size: 1.6rem; color: #ccc; font-weight: 900; margin: 0 4px; }
+  .dot {
+    width: 18px; height: 18px; border-radius: 50%;
+    display: inline-block;
+    animation: dotPop .25s ease both;
+  }
+  @keyframes dotPop {
+    0%   { transform: scale(0); opacity: 0; }
+    70%  { transform: scale(1.2); }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  .dot-a  { background: #11998e; }
+  .dot-b  { background: #ee0979; }
+  .dot-dim{ background: #ddd; }
+  /* grid layout for multiplication */
+  .dots-grid { display: flex; flex-direction: column; gap: 4px; align-items: center; }
+  .dots-grid-row { display: flex; gap: 5px; }
+
   /* ── DIFFICULTY SELECTOR ── */
   .diff-row { display: flex; gap: 10px; width: 100%; }
   .diff-btn {
@@ -221,6 +246,7 @@
   <div class="question-card">
     <div class="q-label" id="q-num">문제 1 / 10</div>
     <div class="q-text" id="q-text">?</div>
+    <div class="dots-area" id="dots-area"></div>
     <div class="feedback-area" id="feedback"></div>
   </div>
 
@@ -253,6 +279,7 @@
   <div class="question-card">
     <div class="q-label" id="tq-num">문제 1 / 9</div>
     <div class="q-text" id="tq-text">?</div>
+    <div class="dots-area" id="tq-dots-area"></div>
     <div class="feedback-area" id="tq-feedback"></div>
   </div>
 
@@ -295,6 +322,72 @@
 </div>
 
 <script>
+// ── Dot visualization ──
+function makeDot(cls, delay) {
+  const d = document.createElement('span');
+  d.className = 'dot ' + cls;
+  d.style.animationDelay = delay + 'ms';
+  return d;
+}
+
+function renderDots(op, a, b) {
+  const area = document.getElementById('dots-area');
+  area.innerHTML = '';
+  const MAX = 25;
+
+  if (op === 'add') {
+    if (a + b > MAX) return;
+    const gA = document.createElement('div'); gA.className = 'dots-group';
+    const gB = document.createElement('div'); gB.className = 'dots-group';
+    for (let i=0;i<a;i++) gA.appendChild(makeDot('dot-a', i*30));
+    for (let i=0;i<b;i++) gB.appendChild(makeDot('dot-b', (a+i)*30));
+    const sep = document.createElement('span'); sep.className='dots-sep'; sep.textContent='+';
+    area.appendChild(gA); area.appendChild(sep); area.appendChild(gB);
+
+  } else if (op === 'sub') {
+    if (a > MAX) return;
+    const g = document.createElement('div'); g.className = 'dots-group';
+    for (let i=0;i<a;i++) g.appendChild(makeDot(i < a-b ? 'dot-a' : 'dot-dim', i*30));
+    area.appendChild(g);
+
+  } else if (op === 'mul') {
+    if (a*b > MAX || a > 9 || b > 9) return;
+    const grid = document.createElement('div'); grid.className = 'dots-grid';
+    for (let r=0;r<a;r++) {
+      const row = document.createElement('div'); row.className='dots-grid-row';
+      for (let c=0;c<b;c++) row.appendChild(makeDot('dot-a', (r*b+c)*40));
+      grid.appendChild(row);
+    }
+    area.appendChild(grid);
+
+  } else if (op === 'div') {
+    // answer = a/b → show `answer` groups of `b` dots
+    const ans = a / b;
+    if (a > MAX || b > 9) return;
+    const colors = ['dot-a','dot-b'];
+    for (let g=0;g<ans;g++) {
+      const grp = document.createElement('div'); grp.className='dots-group';
+      grp.style.background='rgba(0,0,0,.04)';
+      grp.style.borderRadius='10px'; grp.style.padding='4px';
+      for (let i=0;i<b;i++) grp.appendChild(makeDot(colors[g%2], (g*b+i)*35));
+      area.appendChild(grp);
+    }
+  }
+}
+
+function renderTimeDots(n, m) {
+  const area = document.getElementById('tq-dots-area');
+  area.innerHTML = '';
+  if (n*m > 25 || n > 9 || m > 9) return;
+  const grid = document.createElement('div'); grid.className = 'dots-grid';
+  for (let r=0;r<n;r++) {
+    const row = document.createElement('div'); row.className='dots-grid-row';
+    for (let c=0;c<m;c++) row.appendChild(makeDot('dot-a', (r*m+c)*40));
+    grid.appendChild(row);
+  }
+  area.appendChild(grid);
+}
+
 // ── State ──
 let totalStars = +localStorage.getItem('math-stars') || 0;
 let currentOp = 'add';
@@ -370,7 +463,7 @@ function makeQuestion(op) {
     const c = answer + delta;
     if (c >= 0 && c !== answer) choices.add(c);
   }
-  return { text, answer, choices: shuffle([...choices]) };
+  return { text, answer, choices: shuffle([...choices]), a, b };
 }
 
 // ── Start Quiz ──
@@ -405,6 +498,7 @@ function renderQuestion() {
   document.getElementById('q-text').textContent = q.text;
   document.getElementById('feedback').textContent = '';
   document.getElementById('feedback').className = 'feedback-area';
+  renderDots(currentOp, q.a, q.b);
   document.getElementById('progress-bar').style.width = (qIdx/TOTAL_Q*100)+'%';
 
   const area = document.getElementById('choices-area');
@@ -500,6 +594,7 @@ function renderTQ() {
   document.getElementById('tq-text').textContent = q.text;
   document.getElementById('tq-feedback').textContent = '';
   document.getElementById('tq-feedback').className = 'feedback-area';
+  renderTimeDots(timesN, q.multiplier);
   document.getElementById('tq-progress').style.width = (tqIdx/9*100)+'%';
   tqInput = ''; renderTQInput(); tqLocked = false;
 }

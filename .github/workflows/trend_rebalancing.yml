@@ -4,8 +4,10 @@ on:
   schedule:
     # 주간 리밸런싱: 월요일 KST 07:30 (UTC 22:30, 일요일)
     - cron: '30 22 * * 0'
-    # 일일 추적: 화~금 KST 07:30 (UTC 22:30)
+    # 일일 추적: 화~금 KST 07:30 (UTC 22:30, 월~목)
     - cron: '30 22 * * 1-4'
+    # 토요일 KST 07:30 (UTC 금요일 22:30) — 주말 공백 방지
+    - cron: '30 22 * * 5'
   workflow_dispatch:
     inputs:
       mode:
@@ -44,9 +46,10 @@ jobs:
           if [ -n "$INPUT_MODE" ]; then
             echo "mode=$INPUT_MODE" >> $GITHUB_OUTPUT
           elif [ "$(date -u +%u)" = "7" ]; then
-            # 일요일 = 월요일 KST → 주간 리밸런싱
+            # 일요일 UTC = 월요일 KST → 주간 리밸런싱
             echo "mode=weekly" >> $GITHUB_OUTPUT
           else
+            # 월~금 UTC (화~토 KST) → 일일 추적
             echo "mode=daily" >> $GITHUB_OUTPUT
           fi
 

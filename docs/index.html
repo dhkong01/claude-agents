@@ -309,18 +309,29 @@ function renderGeo(geo) {
   const events = geo.top_risk_events || [];
   const color  = level === 'HIGH' ? 'var(--red)' : level === 'LOW' ? 'var(--green)' : 'var(--yellow)';
   const badgeCls = level === 'HIGH' ? 'bg-red' : level === 'LOW' ? 'bg-green' : 'bg-yellow';
-  const biasCls  = bias === 'RISK_ON' ? 'bg-green' : bias === 'RISK_OFF' ? 'bg-red' : 'bg-yellow';
+  // RISK_ON = 위험선호(공격적 매수), RISK_OFF = 위험회피(방어·현금)
+  const biasLabel = bias === 'RISK_ON'  ? '🟢 위험선호 (공격적 투자)' :
+                    bias === 'RISK_OFF' ? '🔴 위험회피 (방어·현금 확대)' : '🟡 중립';
+  const biasCls   = bias === 'RISK_ON'  ? 'bg-green' :
+                    bias === 'RISK_OFF' ? 'bg-red'   : 'bg-yellow';
 
   const pct = score / 10;
-  // SVG 반원 게이지 (r=36, cx=46, cy=46)
   const circ = Math.PI * 36; // ~113
   const dashOff = circ - circ * pct;
 
   const evHtml = events.slice(0,3).map(e => `<li>${e}</li>`).join('') || '<li class="muted">주요 이벤트 없음</li>';
 
+  // 점수 해석 안내
+  const scoreGuide = score >= 7 ? '⚠️ 극도 위험 — 포지션 대폭 축소 권장' :
+                     score >= 4 ? '⚡ 주의 구간 — 헤지 비중 확대 권장' :
+                                  '✅ 안전 구간 — 정상 투자 가능';
+
   return `
   <div class="card">
     <div class="card-title">🌍 지정학 리스크</div>
+    <div style="font-size:11px;color:var(--text2);margin:-8px 0 10px;padding:6px 10px;background:var(--bg3);border-radius:6px">
+      📌 점수 높을수록 위험 ↑ → 위험회피(RISK OFF) → 방어 포지션 필요
+    </div>
     <div class="geo-grid">
       <div class="gauge-wrap">
         <svg class="gauge-arc" viewBox="0 0 92 52">
@@ -333,10 +344,13 @@ function renderGeo(geo) {
       </div>
       <div class="geo-info">
         <div class="geo-row">
-          <span class="badge ${badgeCls}">${level === 'HIGH' ? '🔴' : level === 'LOW' ? '🟢' : '🟡'} ${level}</span>
-          <span class="badge ${biasCls}">${bias}</span>
+          <span class="badge ${badgeCls}">${level === 'HIGH' ? '🔴' : level === 'LOW' ? '🟢' : '🟡'} ${level === 'HIGH' ? '고위험' : level === 'LOW' ? '저위험' : '중위험'}</span>
         </div>
-        <div style="font-size:12px;color:var(--text2);margin-top:8px">${geo.recommendation || ''}</div>
+        <div style="margin-top:6px">
+          <span class="badge ${biasCls}" style="font-size:11px">${biasLabel}</span>
+        </div>
+        <div style="font-size:11px;color:var(--yellow);margin-top:8px;font-weight:600">${scoreGuide}</div>
+        <div style="font-size:11px;color:var(--text2);margin-top:6px">${geo.recommendation || ''}</div>
         <ul class="geo-events" style="margin-top:8px;list-style:disc;padding-left:12px">${evHtml}</ul>
       </div>
     </div>

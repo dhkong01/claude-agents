@@ -72,9 +72,47 @@
   .menu-btn.times-btn img.char-img { object-fit: contain; object-position: center center; transform: scale(0.75); filter: brightness(.9); }
 
   .stars-bar { display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,.15); border-radius: 40px; padding: 10px 20px; }
-  .stars-bar .star-icon { font-size: 1.6rem; }
-  .stars-bar .star-count { font-size: 1.4rem; font-weight: 900; color: #ffd700; }
+  .stars-bar .star-count { font-size: 1.4rem; font-weight: 900; color: #fff; }
   .stars-bar .star-label { font-size: 0.9rem; color: rgba(255,255,255,.8); }
+
+  /* ── DIAMOND ── */
+  @keyframes colorCycle {
+    0%   { background: #ff3366; box-shadow: 0 0 10px #ff3366, 0 0 20px #ff336688; }
+    14%  { background: #ff8800; box-shadow: 0 0 10px #ff8800, 0 0 20px #ff880088; }
+    28%  { background: #ffdd00; box-shadow: 0 0 10px #ffdd00, 0 0 20px #ffdd0088; }
+    42%  { background: #00dd44; box-shadow: 0 0 10px #00dd44, 0 0 20px #00dd4488; }
+    57%  { background: #00ccff; box-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff88; }
+    71%  { background: #6644ff; box-shadow: 0 0 10px #6644ff, 0 0 20px #6644ff88; }
+    85%  { background: #ff00cc; box-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc88; }
+    100% { background: #ff3366; box-shadow: 0 0 10px #ff3366, 0 0 20px #ff336688; }
+  }
+  /* 외부 컨테이너: 레이아웃 기준 */
+  .diamond {
+    display: inline-flex; align-items: center; justify-content: center;
+    vertical-align: middle;
+  }
+  /* 실제 다이아몬드 모양 */
+  .diamond::before {
+    content: '';
+    display: block;
+    background: #ff3366;
+    border-radius: 3px;
+    animation: colorCycle 7s linear infinite;
+  }
+  /* 크기 변형 */
+  .diamond.lg::before { width: 28px; height: 28px; transform: rotate(45deg); }
+  .diamond.md::before { width: 18px; height: 18px; transform: rotate(45deg); }
+  .diamond.sm::before { width: 13px; height: 13px; transform: rotate(45deg); }
+  /* 애니메이션 딜레이로 여러 개일 때 색이 다르게 */
+  .diamond:nth-child(2)::before  { animation-delay: -1s; }
+  .diamond:nth-child(3)::before  { animation-delay: -2s; }
+  .diamond:nth-child(4)::before  { animation-delay: -3s; }
+  .diamond:nth-child(5)::before  { animation-delay: -4s; }
+  .diamond:nth-child(6)::before  { animation-delay: -5s; }
+  .diamond:nth-child(7)::before  { animation-delay: -6s; }
+  .diamond:nth-child(8)::before  { animation-delay: -1.5s; }
+  .diamond:nth-child(9)::before  { animation-delay: -2.5s; }
+  .diamond:nth-child(10)::before { animation-delay: -3.5s; }
 
   /* ── QUIZ SCREEN ── */
   #quiz { justify-content: flex-start; padding-top: 16px; }
@@ -156,15 +194,18 @@
   /* ── TIMES QUIZ ── */
   #times-quiz { justify-content: flex-start; padding-top: 16px; }
 
-  /* ── STAR BURST ── */
+  /* ── DIAMOND BURST ── */
   .star-burst {
-    position: fixed; pointer-events: none; font-size: 2rem; z-index: 999;
-    animation: burst 0.8s ease-out forwards;
+    position: fixed; pointer-events: none; z-index: 999;
+    width: 28px; height: 28px;
+    background: #ffdd00; border-radius: 4px;
+    transform: rotate(45deg);
+    animation: burst 0.8s ease-out forwards, colorCycle 7s linear infinite;
   }
   @keyframes burst {
-    0%   { transform: scale(0) translateY(0); opacity: 1; }
+    0%   { transform: rotate(45deg) scale(0) translateY(0); opacity: 1; }
     80%  { opacity: 1; }
-    100% { transform: scale(1.5) translateY(-80px); opacity: 0; }
+    100% { transform: rotate(45deg) scale(1.8) translateY(-60px); opacity: 0; }
   }
 
   /* ── DOTS VISUALIZATION ── */
@@ -215,7 +256,7 @@
   <div class="app-sub">재미있게 수학을 배워요!</div>
 
   <div class="stars-bar">
-    <span class="star-icon">⭐</span>
+    <span class="diamond lg"></span>
     <span class="star-count" id="total-stars">0</span>
     <span class="star-label">개 모았어요</span>
   </div>
@@ -249,7 +290,7 @@
   <div class="top-bar">
     <button class="back-btn" onclick="goHome()">←</button>
     <div id="quiz-title" style="color:#fff;font-weight:800;font-size:1.1rem;"></div>
-    <div class="score-pill">⭐ <span id="quiz-stars">0</span></div>
+    <div class="score-pill"><span class="diamond sm"></span> <span id="quiz-stars">0</span></div>
   </div>
 
   <div class="diff-row">
@@ -288,7 +329,7 @@
   <div class="top-bar">
     <button class="back-btn" onclick="showScreen('times-select')">←</button>
     <div id="tq-title" style="color:#fff;font-weight:800;font-size:1.1rem;"></div>
-    <div class="score-pill">⭐ <span id="tq-stars">0</span></div>
+    <div class="score-pill"><span class="diamond sm"></span> <span id="tq-stars">0</span></div>
   </div>
 
   <div class="progress-wrap" style="margin-top:4px;">
@@ -330,8 +371,8 @@
   <div class="result-card">
     <div class="result-row"><span>맞은 문제</span><span id="r-correct">0개</span></div>
     <div class="result-row"><span>틀린 문제</span><span id="r-wrong">0개</span></div>
-    <div class="result-row"><span>획득한 별</span><span id="r-stars">0⭐</span></div>
-    <div class="result-row"><span>누적 별</span><span id="r-total">0⭐</span></div>
+    <div class="result-row"><span>획득한 다이아</span><span id="r-stars">0 <span class="diamond sm"></span></span></div>
+    <div class="result-row"><span>누적 다이아</span><span id="r-total">0 <span class="diamond sm"></span></span></div>
   </div>
   <div class="result-sub" id="result-msg"></div>
   <div class="result-actions">
@@ -567,11 +608,11 @@ function showResult() {
 
   document.getElementById('result-emoji').textContent = emoji;
   document.getElementById('result-title').textContent = title;
-  document.getElementById('result-stars').textContent = '⭐'.repeat(Math.min(sessionStars,10));
+  document.getElementById('result-stars').innerHTML = '<span class="diamond md"></span> '.repeat(Math.min(sessionStars,10));
   document.getElementById('r-correct').textContent = sessionCorrect+'개';
   document.getElementById('r-wrong').textContent = wrong+'개';
-  document.getElementById('r-stars').textContent = sessionStars+'⭐';
-  document.getElementById('r-total').textContent = totalStars+'⭐';
+  document.getElementById('r-stars').innerHTML = sessionStars+' <span class="diamond sm"></span>';
+  document.getElementById('r-total').innerHTML = totalStars+' <span class="diamond sm"></span>';
   document.getElementById('result-msg').textContent = msg;
   showScreen('result');
 }
@@ -660,11 +701,11 @@ function showTimesResult() {
 
   document.getElementById('result-emoji').textContent = emoji;
   document.getElementById('result-title').textContent = title;
-  document.getElementById('result-stars').textContent = '⭐'.repeat(Math.min(tqStars,9));
+  document.getElementById('result-stars').innerHTML = '<span class="diamond md"></span> '.repeat(Math.min(tqStars,9));
   document.getElementById('r-correct').textContent = tqCorrect+'개';
   document.getElementById('r-wrong').textContent = wrong+'개';
-  document.getElementById('r-stars').textContent = tqStars+'⭐';
-  document.getElementById('r-total').textContent = totalStars+'⭐';
+  document.getElementById('r-stars').innerHTML = tqStars+' <span class="diamond sm"></span>';
+  document.getElementById('r-total').innerHTML = totalStars+' <span class="diamond sm"></span>';
   document.getElementById('result-msg').textContent = msg;
   showScreen('result');
 }
@@ -674,8 +715,9 @@ function spawnStar(refEl) {
   const rect = refEl.getBoundingClientRect();
   const el = document.createElement('div');
   el.className = 'star-burst';
-  el.textContent = '⭐';
-  el.style.left = (rect.left + rect.width/2 - 16) + 'px';
+  // 랜덤 색상 딜레이로 다양한 색이 튀어오르게
+  el.style.animationDelay = `-${Math.random()*7}s, -${Math.random()*7}s`;
+  el.style.left = (rect.left + rect.width/2 - 14) + 'px';
   el.style.top  = rect.top + 'px';
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 850);

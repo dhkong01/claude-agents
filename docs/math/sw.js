@@ -1,4 +1,4 @@
-const CACHE = 'math-v6';
+const CACHE = 'math-v7';
 const FILES = ['./index.html'];
 
 self.addEventListener('install', e => {

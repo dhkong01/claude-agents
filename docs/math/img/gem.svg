@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 115">
+  <defs>
+    <!-- 외부 glow 필터 -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- 작은 sparkle glow -->
+    <filter id="sparkle" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── GLOW AURA ── -->
+  <ellipse cx="50" cy="64" rx="46" ry="36" fill="#00aaff" opacity="0.28" filter="url(#glow)"/>
+
+  <!-- ── PAVILION (하단 뾰족 부분) ── -->
+  <!-- 왼쪽 파빌리온 -->
+  <polygon points="13,57 50,82 50,110" fill="#003d66"/>
+  <!-- 오른쪽 파빌리온 -->
+  <polygon points="87,57 50,82 50,110" fill="#0066aa"/>
+  <!-- 왼쪽 하단 사이드 -->
+  <polygon points="4,47 13,57 50,82 50,110" fill="#002a4d"/>
+  <!-- 오른쪽 하단 사이드 -->
+  <polygon points="96,47 87,57 50,82 50,110" fill="#007fbf"/>
+  <!-- 중앙 파빌리온 선 -->
+  <polygon points="13,57 87,57 50,82" fill="#004f80" opacity="0.6"/>
+
+  <!-- ── CROWN (상단 크라운) ── -->
+  <!-- 테이블 (평평한 맨 위) -->
+  <polygon points="27,28 73,28 87,45 13,45" fill="#00bfff"/>
+  <!-- 왼쪽 크라운 패싯 -->
+  <polygon points="4,47 13,45 27,28 13,45" fill="#0077aa"/>
+  <!-- 오른쪽 크라운 패싯 -->
+  <polygon points="96,47 87,45 73,28 87,45" fill="#33ccff"/>
+  <!-- 왼쪽 베젤 패싯 -->
+  <polygon points="13,45 27,28 50,36 50,57" fill="#0088bb"/>
+  <!-- 오른쪽 베젤 패싯 -->
+  <polygon points="87,45 73,28 50,36 50,57" fill="#00aadd"/>
+  <!-- 좌측면 -->
+  <polygon points="4,47 13,45 13,57" fill="#005580"/>
+  <!-- 우측면 -->
+  <polygon points="96,47 87,45 87,57" fill="#0099cc"/>
+
+  <!-- ── HIGHLIGHTS (광택) ── -->
+  <!-- 테이블 내부 밝은 부분 -->
+  <polygon points="32,30 68,30 76,42 24,42" fill="#80dfff" opacity="0.55"/>
+  <!-- 상단 삼각 하이라이트 -->
+  <polygon points="36,31 60,31 50,38" fill="white" opacity="0.65"/>
+  <!-- 왼쪽 상단 밝은 엣지 -->
+  <polygon points="4,47 13,45 27,28 20,36" fill="white" opacity="0.18"/>
+
+  <!-- ── FACET LINES (패싯 경계선) ── -->
+  <line x1="27" y1="28" x2="50" y2="36"  stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="73" y1="28" x2="50" y2="36"  stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="50"  y1="36" x2="50" y2="57"  stroke="white" stroke-width="0.4" opacity="0.3"/>
+  <line x1="13"  y1="45" x2="87" y2="45"  stroke="white" stroke-width="0.3" opacity="0.25"/>
+  <line x1="13"  y1="57" x2="87" y2="57"  stroke="white" stroke-width="0.3" opacity="0.25"/>
+
+  <!-- ── SPARKLES (반짝임) ── -->
+  <!-- 큰 별 반짝이 -->
+  <g filter="url(#sparkle)">
+    <circle cx="33" cy="22" r="2.2" fill="white" opacity="0.95"/>
+    <line x1="33" y1="17" x2="33" y2="14" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="33" y1="27" x2="33" y2="30" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="28" y1="22" x2="25" y2="22" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="38" y1="22" x2="41" y2="22" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- 대각선 -->
+    <line x1="29.5" y1="18.5" x2="27.5" y2="16.5" stroke="white" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+    <line x1="36.5" y1="25.5" x2="38.5" y2="27.5" stroke="white" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <!-- 작은 반짝이 -->
+  <g filter="url(#sparkle)" opacity="0.85">
+    <circle cx="72" cy="19" r="1.4" fill="white"/>
+    <line x1="72" y1="15.5" x2="72" y2="14" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="72" y1="22.5" x2="72" y2="24" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="68.5" y1="19" x2="67" y2="19" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="75.5" y1="19" x2="77" y2="19" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+  <!-- 미니 반짝이 -->
+  <circle cx="82" cy="36" r="1" fill="white" opacity="0.75" filter="url(#sparkle)"/>
+  <circle cx="20" cy="34" r="0.8" fill="white" opacity="0.6"/>
+</svg>

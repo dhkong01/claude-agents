@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "analyzed": 47,
   "top10": [
     {
@@ -16,9 +16,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 438773743616,
-      "price": 552.64,
-      "rs_rating": 96.1
+      "market_cap": 450373484544,
+      "price": 567.25,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "TER",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 63117799424,
+      "price": 403.2,
+      "rs_rating": 96.6
     },
     {
       "ticker": "LRCX",
@@ -34,63 +52,45 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 453356978176,
-      "price": 362.52,
+      "market_cap": 458721951744,
+      "price": 366.81,
       "rs_rating": 96.4
     },
     {
-      "ticker": "MPWR",
+      "ticker": "CAT",
       "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "market_cap": 419401236480,
+      "price": 910.57,
+      "rs_rating": 93.9
+    },
+    {
+      "ticker": "ADI",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 78094589952,
-      "price": 1589.55,
-      "rs_rating": 94.5
-    },
-    {
-      "ticker": "NUE",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Basic Materials",
-      "industry": "Steel",
-      "market_cap": 59417612288,
-      "price": 260.9,
-      "rs_rating": 93.9
-    },
-    {
-      "ticker": "JBL",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Electronic Components",
-      "market_cap": 39762886656,
-      "price": 376.89,
-      "rs_rating": 93.5
+      "market_cap": 203500093440,
+      "price": 417.79,
+      "rs_rating": 91.7
     },
     {
       "ticker": "CASY",
@@ -106,9 +106,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Specialty Retail",
-      "market_cap": 33963689984,
-      "price": 916.28,
-      "rs_rating": 91.9
+      "market_cap": 33180094464,
+      "price": 895.14,
+      "rs_rating": 91.5
     },
     {
       "ticker": "MU",
@@ -124,30 +124,30 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1123076407296,
-      "price": 995.87,
+      "market_cap": 1106994921472,
+      "price": 981.61,
       "rs_rating": 98.8
     },
     {
-      "ticker": "DELL",
+      "ticker": "STX",
       "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 4,
-        "S": 10,
+        "N": 10,
+        "S": 4,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 253701865472,
-      "price": 391.45,
-      "rs_rating": 97.6
+      "market_cap": 210649759744,
+      "price": 931.04,
+      "rs_rating": 98.0
     },
     {
-      "ticker": "TER",
+      "ticker": "FIX",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -158,11 +158,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 59705180160,
-      "price": 381.4,
-      "rs_rating": 96.2
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "market_cap": 66061770752,
+      "price": 1877.61,
+      "rs_rating": 95.7
     },
     {
       "ticker": "STLD",
@@ -178,9 +178,9 @@
       },
       "sector": "Basic Materials",
       "industry": "Steel",
-      "market_cap": 40314683392,
-      "price": 279.55,
-      "rs_rating": 94.9
+      "market_cap": 40777609216,
+      "price": 282.76,
+      "rs_rating": 95.1
     }
   ]
 }

@@ -243,6 +243,16 @@ function switchTab(i) {
   document.querySelectorAll('.page').forEach((p, j) => p.classList.toggle('active', i === j));
 }
 
+// ── 티커 링크 (TradingView)
+function tvLink(ticker, display) {
+  const label = display || ticker;
+  // NASDAQ/NYSE 구분 없이 NASDAQ 우선, TradingView가 자동 매칭
+  const url = `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(ticker)}`;
+  return `<a href="${url}" target="_blank" rel="noopener"
+    style="color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)"
+    onclick="event.stopPropagation()">${label}</a>`;
+}
+
 // ── 데이터 로드
 const BASE = '/claude-agents';
 
@@ -411,7 +421,7 @@ function renderTop5(top5) {
     <div class="top5-item ${i === 0 ? 'rank-1' : ''}">
       <div class="top5-header">
         <span class="rank-num">#${i+1}</span>
-        <span class="ticker">${s.ticker}</span>
+        <span class="ticker">${tvLink(s.ticker)}</span>
         <span class="badge ${sigCls}">${sigLbl}</span>
         ${s.in_both ? '<span class="badge bg-gray">CS+VCP</span>' : ''}
         <span style="font-size:11px;color:var(--text2)">${s.sector || ''}</span>
@@ -497,7 +507,7 @@ function renderPortfolio() {
     return `
     <div class="holding-item">
       <div>
-        <div class="holding-ticker">${h.ticker || h.t}</div>
+        <div class="holding-ticker">${tvLink(h.ticker || h.t)}</div>
         <div class="holding-shares muted">${h.shares || h.sh || 0}주</div>
       </div>
       <div class="holding-mid">
@@ -557,7 +567,7 @@ function renderVCP() {
       return `
       <div class="screen-item">
         <div class="screen-row1">
-          <span class="screen-ticker">${s.ticker}</span>
+          <span class="screen-ticker">${tvLink(s.ticker)}</span>
           ${tag}
           <span class="screen-price">$${(s.current_price||0).toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
           ${s.pivot ? `<span class="pivot-val">P:$${s.pivot.toFixed(1)}</span>` : ''}
@@ -593,7 +603,7 @@ function renderVCP() {
       return `
       <div class="screen-item">
         <div class="screen-row1">
-          <span class="screen-ticker">${s.ticker}</span>
+          <span class="screen-ticker">${tvLink(s.ticker)}</span>
           <span class="screen-price" style="font-size:12px">${score}/70</span>
           <span class="muted" style="font-size:11px">RS ${(s.rs_rating||0).toFixed(0)}</span>
         </div>

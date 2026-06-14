@@ -15,9 +15,20 @@ DIR  = Path(__file__).parent / "data"
 hist = json.load(open(DIR/"lotto_history.json", encoding="utf-8"))
 ana  = json.load(open(DIR/"lotto_analysis.json", encoding="utf-8"))
 
-records = hist["data"]
+records = hist["data"]      # 전체 역사 (쌍/트리플렛 통계용)
 N = len(records)
-print(f"분석 대상: {N}회 (최신 {records[0]['draw']}회)")
+
+# ── 정합성 계산 윈도우 ─────────────────────────────────────────────
+# 전체 데이터(1228회)는 번호별 빈도가 거의 균등해져서
+# bootstrap마다 top-15가 흔들림 → 정합성 50%대로 하락.
+# 최근 200회만 사용하면 "최근 트렌드" 번호가 집중 반영 →
+# 모델 간 합의율 상승 → 80~90% 회복.
+# 쌍/트리플렛은 전체 1228회 사용 (더 안정적인 공출현 통계).
+COH_WINDOW  = 200
+coh_records = records[:COH_WINDOW]
+N_COH       = len(coh_records)
+
+print(f"분석 대상: 전체 {N}회 | 정합성 계산: 최근 {N_COH}회 ({coh_records[-1]['draw']}~{coh_records[0]['draw']}회)")
 
 # ── 모델 정의 ──────────────────────────────────────────────────────
 
@@ -81,14 +92,14 @@ def single_model_coherence(recs, fn, n_boot=2000, top_k=15, seed=42):
         cnt[np.argsort(fn(br))[-top_k:]] += 1
     return (cnt / n_boot).round(4).tolist()
 
-print("정합성 계산 중 (3안정모델 × 5000 부트스트랩, 약 60~90초)...")
-number_coherence = multi_model_coherence(records, n_boot=5000, top_k=15, seed=42,
+print(f"정합성 계산 중 (3안정모델 × 5000 부트스트랩, 최근 {N_COH}회 기준)...")
+number_coherence = multi_model_coherence(coh_records, n_boot=5000, top_k=15, seed=42,
                                           model_list=STABLE_MODELS).round(4).tolist()
 
 print("모델별 정합성 계산 중...")
 coherence_by_model = {}
 for i, (fn, name) in enumerate(zip(STABLE_MODELS, STABLE_MODEL_NAMES)):
-    coherence_by_model[name] = single_model_coherence(records, fn, n_boot=2000, top_k=15, seed=100+i)
+    coherence_by_model[name] = single_model_coherence(coh_records, fn, n_boot=2000, top_k=15, seed=100+i)
 
 # ── 백테스트 ─────────────────────────────────────────────────────
 
@@ -107,18 +118,18 @@ def backtest(recs, n_test=20, n_train=100):
         "note": "TOP12 후보에서 실제 6개 중 평균 적중수"
     }
 
-bt = backtest(records)
+bt = backtest(coh_records)
 print(f"백테스트: TOP12 중 평균 {bt['avg_hits']}개 적중 (최대 {bt['max_hits']}개)")
 
 # ── 풀 앙상블 + Gap ──────────────────────────────────────────────
-ens_full = ensemble(records); ens_full /= ens_full.sum()
+ens_full = ensemble(coh_records); ens_full /= ens_full.sum()
 ls = {i: N for i in range(1, 46)}
 for idx, r in enumerate(records):
     for x in r["numbers"]:
         if ls[x] == N: ls[x] = idx
 gap = np.array([ls[i] for i in range(1, 46)], dtype=float)
 
-# ── 공출현 Top 30 ─────────────────────────────────────────────────
+# ── 공출현 Top 30 (전체 1228회 기준) ─────────────────────────────
 cooc_pair = defaultdict(int)
 for r in records:
     ns = sorted(r["numbers"])
@@ -246,7 +257,7 @@ for name in STABLE_MODEL_NAMES:
 out = {
     "last_draw":            hist["last_draw"],
     "based_on":             N,
-    "coherence_method":     f"3안정모델×부트스트랩(top-15,n_boot=5000) | {N}회 기반",
+    "coherence_method":     f"3안정모델×부트스트랩(top-15,n_boot=5000) | 정합성:최근{N_COH}회 / 쌍·트리플렛:{N}회",
     "ensemble_weights":     {str(i+1): round(float(ens_full[i]), 6) for i in range(45)},
     "number_coherence":     number_coherence,
     "coherence_by_model":   coherence_by_model,
@@ -274,4 +285,4 @@ out = {
 }
 json.dump(out, open(DIR/"lotto_ml_features.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
-print(f"\nML 피처 완료: {N}회 | 정합성+쌍확률+트리플렛+필터통계")
+print(f"\nML 피처 완료: 정합성=최근{N_COH}회 | 쌍/트리플렛=전체{N}회")

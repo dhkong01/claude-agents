@@ -60,6 +60,21 @@ def get_macro_from_cache() -> dict:
         return {}
 
 
+def get_geo_risk_from_cache() -> dict:
+    p = CACHE_DIR / "geo_risk.json"
+    try:
+        if not p.exists():
+            return {}
+        d = json.loads(p.read_text(encoding="utf-8"))
+        return {
+            "risk_score":  d.get("risk_score", 0),
+            "risk_level":  d.get("risk_level", ""),
+            "market_bias": d.get("market_bias", ""),
+        }
+    except Exception:
+        return {}
+
+
 def get_canslim_by_sector() -> dict:
     p = CACHE_DIR / "canslim_top10.json"
     result: dict[str, list] = {}
@@ -150,8 +165,9 @@ def export_sector(today: date) -> bool:
     # ── CANSLIM 섹터별 종목
     us_by_sector = get_canslim_by_sector()
 
-    # ── 매크로
-    macro = get_macro_from_cache()
+    # ── 매크로 + 지정학 리스크
+    macro    = get_macro_from_cache()
+    geo_risk = get_geo_risk_from_cache()
 
     out = {
         "date":         today.isoformat(),
@@ -160,11 +176,12 @@ def export_sector(today: date) -> bool:
         "sectors":      sectors,
         "us_by_sector": us_by_sector,
         "macro": {
-            "phase":    macro.get("phase", ""),
-            "vix":      macro.get("signals", {}).get("vix_level", ""),
-            "yield10y": macro.get("signals", {}).get("yield10y", ""),
+            "phase":       macro.get("phase", ""),
+            "vix":         macro.get("signals", {}).get("vix_level", ""),
+            "yield10y":    macro.get("signals", {}).get("yield10y", ""),
             "rec_sectors": macro.get("recommended_sectors", []),
         },
+        "geo_risk": geo_risk,
     }
 
     dest = DOCS_DATA / "sector_latest.json"

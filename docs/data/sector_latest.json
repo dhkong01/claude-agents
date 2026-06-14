@@ -170,5 +170,10 @@
       "Industrials",
       "Financials"
     ]
+  },
+  "geo_risk": {
+    "risk_score": 10.0,
+    "risk_level": "HIGH",
+    "market_bias": "RISK_OFF"
   }
 }

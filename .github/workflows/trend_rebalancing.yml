@@ -67,6 +67,7 @@ jobs:
         run: |
           cd tools/stock_portfolio
           python export_pwa_data.py
+          python export_sector_data.py
 
       - name: 결과 커밋
         run: |

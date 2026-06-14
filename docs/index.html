@@ -157,6 +157,30 @@ body{display:flex;flex-direction:column;overflow:hidden}
 .score-bar-wrap{height:4px;background:var(--bg3);border-radius:2px;display:inline-block;width:60px;vertical-align:middle;margin:0 4px}
 .score-bar{height:4px;border-radius:2px}
 
+/* ══════════════════════════════
+   탭4: 섹터
+══════════════════════════════ */
+.sector-item{padding:10px 0;border-bottom:1px solid var(--border)}
+.sector-item:last-child{border:none}
+.sector-row1{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.sector-rank{font-size:13px;font-weight:700;color:var(--accent);min-width:22px}
+.sector-name{font-size:14px;font-weight:600;flex:1}
+.sector-etf{font-size:11px;color:var(--text2);background:var(--bg3);padding:1px 6px;border-radius:4px}
+.sector-ret{font-size:14px;font-weight:700;min-width:54px;text-align:right}
+.ret-hot{color:#22c55e}
+.ret-warm{color:#f59e0b}
+.ret-cold{color:#ef4444}
+.ret-zero{color:var(--text2)}
+.sector-bars{display:flex;gap:4px;align-items:center;margin-top:4px}
+.sector-bar-label{font-size:10px;color:var(--text2);min-width:28px}
+.sector-bar-track{flex:1;height:5px;background:var(--bg3);border-radius:3px;overflow:hidden}
+.sector-bar-fill{height:100%;border-radius:3px;transition:width .3s}
+.sector-stocks{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.sector-stock-chip{background:var(--bg3);border-radius:5px;padding:3px 8px;font-size:11px;display:flex;align-items:center;gap:4px}
+.macro-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:4px}
+.macro-chip{background:var(--bg3);border-radius:6px;padding:5px 10px;font-size:11px}
+.macro-chip b{color:var(--accent)}
+
 /* ── 인스톨 배너 */
 .install-banner{background:linear-gradient(135deg,#1e3a5f,#1e293b);border:1px solid var(--accent);border-radius:var(--r);padding:12px 14px;margin-bottom:12px;display:none;align-items:center;gap:10px}
 .install-banner.show{display:flex}
@@ -191,6 +215,9 @@ body{display:flex;flex-direction:column;overflow:hidden}
   <div class="tab" onclick="switchTab(2)">
     <span class="tab-icon">🔍</span>VCP/CANSLIM
   </div>
+  <div class="tab" onclick="switchTab(3)">
+    <span class="tab-icon">🏭</span>섹터
+  </div>
 </div>
 
 <div class="content">
@@ -212,6 +239,11 @@ body{display:flex;flex-direction:column;overflow:hidden}
   <!-- ── 탭3: VCP/CANSLIM ── -->
   <div class="page" id="page2">
     <div id="vcpContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
+  </div>
+
+  <!-- ── 탭4: 섹터 ── -->
+  <div class="page" id="page3">
+    <div id="sectorContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
   </div>
 
 </div>
@@ -262,22 +294,24 @@ async function fetchJSON(path) {
   return r.json();
 }
 
-let trendData = null, pfData = null, vcpData = null, canslimData = null;
+let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null;
 
 async function loadAll() {
   const icon = document.getElementById('refreshIcon');
   icon.classList.add('spin');
   try {
-    [trendData, pfData, vcpData, canslimData] = await Promise.allSettled([
+    [trendData, pfData, vcpData, canslimData, sectorData] = await Promise.allSettled([
       fetchJSON('data/trend_latest.json'),
       fetchJSON('data/portfolio_latest.json'),
       fetchJSON('data/vcp_top20.json'),
       fetchJSON('data/canslim_top10.json'),
+      fetchJSON('data/sector_latest.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
 
     renderTrend();
     renderPortfolio();
     renderVCP();
+    renderSector();
 
     const date = trendData?.date || pfData?.date || '—';
     document.getElementById('lastUpdate').textContent = date;
@@ -627,6 +661,116 @@ function renderVCP() {
   }
 
   el.innerHTML = html;
+}
+
+// ════════════════════════════════════
+// 탭4: 섹터 렌더
+// ════════════════════════════════════
+function renderSector() {
+  const el = document.getElementById('sectorContent');
+  if (!sectorData) {
+    el.innerHTML = '<div class="err-box">섹터 데이터가 없습니다. GitHub Actions 실행 후 확인해 주세요.</div>';
+    return;
+  }
+
+  const sectors   = sectorData.sectors || [];
+  const usBySec   = sectorData.us_by_sector || {};
+  const macro     = sectorData.macro || {};
+  const quarter   = sectorData.quarter || '';
+  const date      = sectorData.date || '';
+
+  // 수익률 색상
+  function retCls(v) {
+    if (v == null) return 'ret-zero';
+    return v > 5 ? 'ret-hot' : v > 0 ? 'ret-warm' : v < 0 ? 'ret-cold' : 'ret-zero';
+  }
+  function retStr(v) {
+    if (v == null) return 'N/A';
+    return (v >= 0 ? '+' : '') + v.toFixed(1) + '%';
+  }
+  function barColor(v) {
+    return (v || 0) >= 0 ? '#22c55e' : '#ef4444';
+  }
+
+  // 매크로 칩
+  const macroHtml = `
+  <div class="card">
+    <div class="card-title">📊 분기 섹터 현황 <span class="muted" style="font-size:11px;font-weight:400">${quarter} · ${date}</span></div>
+    <div class="macro-chips">
+      ${macro.phase ? `<div class="macro-chip">시장 국면 <b>${macro.phase}</b></div>` : ''}
+      ${macro.vix   ? `<div class="macro-chip">VIX <b>${macro.vix}</b></div>` : ''}
+      ${macro.yield10y ? `<div class="macro-chip">10Y 금리 <b>${macro.yield10y}%</b></div>` : ''}
+      ${macro.rec_sectors?.length ? `<div class="macro-chip">추천섹터 <b>${macro.rec_sectors.slice(0,3).join(' · ')}</b></div>` : ''}
+    </div>
+  </div>`;
+
+  // 섹터 리스트
+  const sectorItems = sectors.map(s => {
+    const qtd   = s.qtd;
+    const w1    = s.week1;
+    const maxAbs = 25;
+    const barW   = Math.min(Math.abs(qtd || 0) / maxAbs * 100, 100);
+    const barW1  = Math.min(Math.abs(w1  || 0) / maxAbs * 100, 100);
+
+    // 이 섹터의 CANSLIM 종목 칩
+    const usStocks = usBySec[s.sector] || [];
+    const stockChips = usStocks.slice(0, 3).map(st =>
+      `<div class="sector-stock-chip">
+        ${tvLink(st.ticker)}
+        <span style="color:var(--text2);font-size:10px">RS${st.rs}</span>
+      </div>`
+    ).join('');
+
+    return `
+    <div class="sector-item">
+      <div class="sector-row1">
+        <span class="sector-rank">#${s.rank}</span>
+        <span class="sector-name">${s.sector}</span>
+        <span class="sector-etf">${s.etf}</span>
+        <span class="sector-ret ${retCls(qtd)}">${retStr(qtd)}</span>
+      </div>
+      <div class="sector-bars">
+        <span class="sector-bar-label" style="font-size:10px;color:var(--text2)">QTD</span>
+        <div class="sector-bar-track">
+          <div class="sector-bar-fill" style="width:${barW}%;background:${barColor(qtd)}"></div>
+        </div>
+        <span style="font-size:10px;color:var(--text2);min-width:44px;text-align:right">${retStr(qtd)}</span>
+      </div>
+      <div class="sector-bars">
+        <span class="sector-bar-label" style="font-size:10px;color:var(--text2)">1주</span>
+        <div class="sector-bar-track">
+          <div class="sector-bar-fill" style="width:${barW1}%;background:${barColor(w1)}"></div>
+        </div>
+        <span style="font-size:10px;color:var(--text2);min-width:44px;text-align:right">${retStr(w1)}</span>
+      </div>
+      ${stockChips ? `<div class="sector-stocks">${stockChips}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  // 상태 요약 카드 (상위 3 / 하위 3)
+  const top3    = sectors.slice(0, 3);
+  const bottom3 = sectors.slice(-3).reverse();
+  const summaryHtml = `
+  <div class="card" style="margin-bottom:12px">
+    <div class="card-title" style="margin-bottom:10px">🏆 강세 섹터 TOP 3</div>
+    ${top3.map(s => `
+      <div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--border);font-size:13px">
+        <span><b style="color:var(--accent)">#${s.rank}</b> ${s.sector} <span style="font-size:11px;color:var(--text2)">${s.etf}</span></span>
+        <span class="${retCls(s.qtd)}" style="font-weight:700">${retStr(s.qtd)}</span>
+      </div>`).join('')}
+    <div class="card-title" style="margin:14px 0 10px">📉 약세 섹터 BOTTOM 3</div>
+    ${bottom3.map(s => `
+      <div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--border);font-size:13px">
+        <span><b style="color:var(--text2)">#${s.rank}</b> ${s.sector} <span style="font-size:11px;color:var(--text2)">${s.etf}</span></span>
+        <span class="${retCls(s.qtd)}" style="font-weight:700">${retStr(s.qtd)}</span>
+      </div>`).join('')}
+  </div>`;
+
+  el.innerHTML = macroHtml + summaryHtml + `
+  <div class="card">
+    <div class="card-title">🏭 전체 섹터 순위 (${quarter} QTD)</div>
+    ${sectorItems}
+  </div>`;
 }
 
 // ── 초기 로드

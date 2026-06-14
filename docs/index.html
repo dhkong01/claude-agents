@@ -275,6 +275,39 @@ function switchTab(i) {
   document.querySelectorAll('.page').forEach((p, j) => p.classList.toggle('active', i === j));
 }
 
+// ── 진입점·손절 미니차트 (인라인 SVG)
+// price: 현재가, pivot: 피벗(진입점), stop: 손절가
+function miniPriceChart(price, pivot, stop) {
+  if (!price || !pivot) return '';
+  const W = 96, H = 28, PAD = 8;
+  const lo = Math.min(stop, price, pivot) * 0.985;
+  const hi = Math.max(stop, price, pivot) * 1.015;
+  const rng = hi - lo || 1;
+  const px = v => PAD + (v - lo) / rng * (W - PAD * 2);
+  const mid = H / 2;
+  const xs = px(stop), xp = px(pivot), xc = px(price);
+
+  // 색상: 현재가가 피벗 위=진입완료(초록), 손절~피벗=대기(노랑), 손절아래=위험(빨강)
+  const priceDot = price >= pivot ? '#22c55e' : price >= stop ? '#f59e0b' : '#ef4444';
+
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"
+      style="vertical-align:middle;flex-shrink:0" aria-label="진입:$${pivot.toFixed(0)} 손절:$${stop.toFixed(0)}">
+    <!-- 배경 트랙 -->
+    <line x1="${PAD}" y1="${mid}" x2="${W-PAD}" y2="${mid}" stroke="var(--border)" stroke-width="3" stroke-linecap="round"/>
+    <!-- 손절~피벗 구간: 연한 노랑 -->
+    <rect x="${Math.min(xs,xp)}" y="${mid-3}" width="${Math.abs(xp-xs)}" height="6" rx="2" fill="rgba(245,158,11,0.25)"/>
+    <!-- 손절선 (빨강 tick) -->
+    <line x1="${xs}" y1="${mid-7}" x2="${xs}" y2="${mid+7}" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 피벗선 (초록 tick) -->
+    <line x1="${xp}" y1="${mid-7}" x2="${xp}" y2="${mid+7}" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 현재가 점 -->
+    <circle cx="${xc}" cy="${mid}" r="5" fill="${priceDot}" stroke="var(--bg2)" stroke-width="2"/>
+    <!-- 라벨: S / E -->
+    <text x="${xs}" y="${H-1}" text-anchor="middle" font-size="8" fill="#ef4444" font-family="monospace">S</text>
+    <text x="${xp}" y="${H-1}" text-anchor="middle" font-size="8" fill="#22c55e" font-family="monospace">E</text>
+  </svg>`;
+}
+
 // ── 티커 링크 (TradingView)
 function tvLink(ticker, display) {
   const label = display || ticker;
@@ -598,14 +631,33 @@ function renderVCP() {
       const rs     = (s.rs_rating || 0).toFixed(0);
       const barW   = Math.min(100, score / 85 * 100);
       const barC   = score >= 60 ? '#22c55e' : score >= 40 ? '#f59e0b' : '#ef4444';
+      const price  = s.current_price || 0;
+      const pivot  = s.pivot || 0;
+      // 손절: 피벗 -7% 또는 MA50 중 높은 값 (표준 O'Neil 룰)
+      const stopPct = pivot * 0.93;
+      const stop   = s.ma50 && s.ma50 > stopPct && s.ma50 < pivot ? s.ma50 : stopPct;
+      const chart  = pivot ? miniPriceChart(price, pivot, stop) : '';
+      const priceRelLabel = pivot
+        ? (price >= pivot ? '<span style="color:#22c55e;font-size:10px">▲진입위</span>'
+          : price >= stop  ? '<span style="color:#f59e0b;font-size:10px">대기중</span>'
+          : '<span style="color:#ef4444;font-size:10px">손절권</span>')
+        : '';
       return `
       <div class="screen-item">
         <div class="screen-row1">
           <span class="screen-ticker">${tvLink(s.ticker)}</span>
           ${tag}
-          <span class="screen-price">$${(s.current_price||0).toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
-          ${s.pivot ? `<span class="pivot-val">P:$${s.pivot.toFixed(1)}</span>` : ''}
+          <span class="screen-price">$${price.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
+          ${priceRelLabel}
         </div>
+        ${pivot ? `
+        <div style="margin:5px 0 2px;display:flex;align-items:center;gap:8px">
+          ${chart}
+          <div style="font-size:10px;color:var(--text2);line-height:1.5">
+            <div><span style="color:#22c55e">E</span> 진입 $${pivot.toFixed(1)}</div>
+            <div><span style="color:#ef4444">S</span> 손절 $${stop.toFixed(1)}</div>
+          </div>
+        </div>` : ''}
         <div class="screen-row2">
           <span>종합 <b style="color:var(--text)">${score}</b></span>
           <span>RS <b style="color:var(--text)">${rs}</b></span>

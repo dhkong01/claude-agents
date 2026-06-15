@@ -266,7 +266,20 @@ document.getElementById('installBtn').onclick = async () => {
 
 // ── Service Worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/claude-agents/sw.js', { scope: '/claude-agents/' }).catch(() => {});
+  navigator.serviceWorker.register('/claude-agents/sw.js', {
+    scope: '/claude-agents/',
+    updateViaCache: 'none',   // 매 방문마다 sw.js 최신 버전 확인
+  }).then(reg => {
+    // 새 SW가 설치되면 즉시 페이지 새로고침
+    reg.addEventListener('updatefound', () => {
+      const newSW = reg.installing;
+      newSW.addEventListener('statechange', () => {
+        if (newSW.state === 'activated') {
+          window.location.reload();
+        }
+      });
+    });
+  }).catch(() => {});
 }
 
 // ── 탭 전환

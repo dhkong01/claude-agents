@@ -347,7 +347,13 @@ async function loadAll() {
     renderSector();
 
     const date = trendData?.date || pfData?.date || '—';
-    document.getElementById('lastUpdate').textContent = date;
+    // 2일 이상 지연 시 경고 표시
+    let dateLabel = date;
+    if (date && date !== '—') {
+      const diffDays = Math.floor((new Date() - new Date(date)) / 86400000);
+      if (diffDays >= 2) dateLabel = `${date} ⚠️ ${diffDays}일 지연`;
+    }
+    document.getElementById('lastUpdate').textContent = dateLabel;
   } catch(e) {
     console.error(e);
   } finally {

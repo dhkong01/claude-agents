@@ -7,48 +7,48 @@
       "ticker": "TSLA",
       "shares": 160,
       "avg_cost": 183.6738,
-      "price": 411.15,
-      "value": 65784.0,
+      "price": 404.66,
+      "value": 64745.6,
       "cost": 29387.81
     },
     {
       "ticker": "PLTR",
       "shares": 60,
       "avg_cost": 168.19,
-      "price": 134.71,
-      "value": 8082.6,
+      "price": 133.25,
+      "value": 7995.0,
       "cost": 10091.4
     },
     {
       "ticker": "VKTX",
       "shares": 350,
       "avg_cost": 33.4824,
-      "price": 29.63,
-      "value": 10370.5,
+      "price": 29.65,
+      "value": 10377.5,
       "cost": 11718.84
     },
     {
       "ticker": "META",
       "shares": 15,
       "avg_cost": 637.28,
-      "price": 593.48,
-      "value": 8902.2,
+      "price": 600.21,
+      "value": 9003.15,
       "cost": 9559.2
     },
     {
       "ticker": "MRVL",
       "shares": 220,
       "avg_cost": 236.58,
-      "price": 308.88,
-      "value": 67953.6,
+      "price": 278.67,
+      "value": 61307.4,
       "cost": 52047.6
     },
     {
       "ticker": "ARM",
       "shares": 90,
       "avg_cost": 396.62,
-      "price": 412.55,
-      "value": 37129.5,
+      "price": 396.34,
+      "value": 35670.6,
       "cost": 35695.8
     }
   ]

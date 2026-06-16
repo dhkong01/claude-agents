@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-16",
   "analyzed": 47,
   "top10": [
     {
@@ -16,9 +16,45 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 450373484544,
-      "price": 567.25,
+      "market_cap": 465085562880,
+      "price": 585.78,
       "rs_rating": 96.2
+    },
+    {
+      "ticker": "MU",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 1226963288064,
+      "price": 1087.99,
+      "rs_rating": 98.6
+    },
+    {
+      "ticker": "ARM",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 440635883520,
+      "price": 412.55,
+      "rs_rating": 97.2
     },
     {
       "ticker": "TER",
@@ -34,8 +70,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 63117799424,
-      "price": 403.2,
+      "market_cap": 67690397696,
+      "price": 432.41,
       "rs_rating": 96.6
     },
     {
@@ -52,9 +88,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 458721951744,
-      "price": 366.81,
+      "market_cap": 486372081664,
+      "price": 388.92,
       "rs_rating": 96.4
+    },
+    {
+      "ticker": "MPWR",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 81177010176,
+      "price": 1652.29,
+      "rs_rating": 94.9
     },
     {
       "ticker": "CAT",
@@ -70,9 +124,9 @@
       },
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 419401236480,
-      "price": 910.57,
-      "rs_rating": 93.9
+      "market_cap": 430160642048,
+      "price": 933.93,
+      "rs_rating": 94.5
     },
     {
       "ticker": "ADI",
@@ -88,44 +142,26 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 203500093440,
-      "price": 417.79,
-      "rs_rating": 91.7
-    },
-    {
-      "ticker": "CASY",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Specialty Retail",
-      "market_cap": 33180094464,
-      "price": 895.14,
+      "market_cap": 208268673024,
+      "price": 427.58,
       "rs_rating": 91.5
     },
     {
-      "ticker": "MU",
+      "ticker": "WDC",
       "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 7,
+        "N": 10,
+        "S": 4,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 1106994921472,
-      "price": 981.61,
+      "industry": "Computer Hardware",
+      "market_cap": 225260126208,
+      "price": 653.53,
       "rs_rating": 98.8
     },
     {
@@ -142,45 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 210649759744,
-      "price": 931.04,
-      "rs_rating": 98.0
-    },
-    {
-      "ticker": "FIX",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "market_cap": 66061770752,
-      "price": 1877.61,
-      "rs_rating": 95.7
-    },
-    {
-      "ticker": "STLD",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Basic Materials",
-      "industry": "Steel",
-      "market_cap": 40777609216,
-      "price": 282.76,
-      "rs_rating": 95.1
+      "market_cap": 228444487680,
+      "price": 1018.8,
+      "rs_rating": 98.2
     }
   ]
 }

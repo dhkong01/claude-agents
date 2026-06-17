@@ -268,19 +268,30 @@ document.getElementById('installBtn').onclick = async () => {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/claude-agents/sw.js', {
     scope: '/claude-agents/',
-    updateViaCache: 'none',   // 매 방문마다 sw.js 최신 버전 확인
+    updateViaCache: 'none',   // 매 방문마다 sw.js 최신 버전 서버에서 확인
   }).then(reg => {
-    // 새 SW가 설치되면 즉시 페이지 새로고침
+    // 새 SW가 activated되면 즉시 페이지 새로고침
     reg.addEventListener('updatefound', () => {
       const newSW = reg.installing;
       newSW.addEventListener('statechange', () => {
-        if (newSW.state === 'activated') {
-          window.location.reload();
-        }
+        if (newSW.state === 'activated') window.location.reload();
       });
     });
   }).catch(() => {});
 }
+
+// ── 포그라운드 복귀 시 데이터 자동 갱신
+// Android PWA: 앱을 백그라운드에서 복귀하면 loadAll() 재실행
+let _lastLoadTime = Date.now();
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') {
+    const elapsed = Date.now() - _lastLoadTime;
+    // 5분 이상 지났으면 자동 새로고침
+    if (elapsed > 5 * 60 * 1000) loadAll();
+  } else {
+    _lastLoadTime = Date.now();
+  }
+});
 
 // ── 탭 전환
 function switchTab(i) {

@@ -46,8 +46,8 @@
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": NaN,
-      "week1": NaN,
+      "qtd": null,
+      "week1": null,
       "rank": 6,
       "status": "약세"
     },
@@ -62,8 +62,8 @@
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": NaN,
-      "week1": NaN,
+      "qtd": null,
+      "week1": null,
       "rank": 8,
       "status": "약세"
     },

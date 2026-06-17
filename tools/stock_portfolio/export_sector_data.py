@@ -185,7 +185,10 @@ def export_sector(today: date) -> bool:
     }
 
     dest = DOCS_DATA / "sector_latest.json"
-    dest.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    # NaN/Infinity는 표준 JSON이 아니므로 null로 변환 (브라우저 파싱 오류 방지)
+    raw = json.dumps(out, ensure_ascii=False, indent=2)
+    raw = raw.replace(': NaN,', ': null,').replace(': NaN\n', ': null\n')
+    dest.write_text(raw, encoding="utf-8")
     print(f"[sector] 저장 완료 → {dest}")
     return True
 

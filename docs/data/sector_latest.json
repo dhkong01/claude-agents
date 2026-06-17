@@ -20,19 +20,11 @@
       "status": "강세"
     },
     {
-      "sector": "Consumer Staples",
-      "etf": "XLP",
-      "qtd": 5.07,
-      "week1": 0.12,
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": 9.87,
+      "week1": 0.04,
       "rank": 3,
-      "status": "강세"
-    },
-    {
-      "sector": "Materials",
-      "etf": "XLB",
-      "qtd": 4.48,
-      "week1": 6.29,
-      "rank": 4,
       "status": "강세"
     },
     {
@@ -40,48 +32,56 @@
       "etf": "XLI",
       "qtd": 9.38,
       "week1": 6.01,
-      "rank": 5,
+      "rank": 4,
       "status": "강세"
-    },
-    {
-      "sector": "Communication",
-      "etf": "XLC",
-      "qtd": null,
-      "week1": null,
-      "rank": 6,
-      "status": "약세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
       "qtd": 7.89,
       "week1": 4.38,
-      "rank": 7,
+      "rank": 5,
       "status": "강세"
     },
     {
-      "sector": "Real Estate",
-      "etf": "XLRE",
-      "qtd": null,
-      "week1": null,
-      "rank": 8,
-      "status": "약세"
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 5.07,
+      "week1": 0.12,
+      "rank": 6,
+      "status": "강세"
     },
     {
-      "sector": "Utilities",
-      "etf": "XLU",
-      "qtd": -2.28,
-      "week1": 2.41,
-      "rank": 9,
-      "status": "약세"
+      "sector": "Materials",
+      "etf": "XLB",
+      "qtd": 4.48,
+      "week1": 6.29,
+      "rank": 7,
+      "status": "강세"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
       "qtd": 3.53,
       "week1": 0.06,
-      "rank": 10,
+      "rank": 8,
       "status": "강세"
+    },
+    {
+      "sector": "Communication",
+      "etf": "XLC",
+      "qtd": 0.85,
+      "week1": 0.64,
+      "rank": 9,
+      "status": "중립"
+    },
+    {
+      "sector": "Utilities",
+      "etf": "XLU",
+      "qtd": -2.28,
+      "week1": 2.41,
+      "rank": 10,
+      "status": "약세"
     },
     {
       "sector": "Energy",

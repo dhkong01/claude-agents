@@ -101,58 +101,43 @@ def export_sector(today: date) -> bool:
 
     print(f"[sector] 분기: {q_label} (시작: {q_start})")
 
-    # ── ETF 수익률
-    tickers = list(SECTOR_ETFS.values())
-    try:
-        raw = yf.download(
-            tickers,
-            start=str(q_start - timedelta(days=5)),
-            auto_adjust=True,
-            progress=False,
-        )
-        # 1주 수익률도 추가
-        raw_1w = yf.download(
-            tickers,
-            period="5d",
-            auto_adjust=True,
-            progress=False,
-        )
-    except Exception as e:
-        print(f"[sector] ETF 다운로드 실패: {e}", file=sys.stderr)
-        raw = None
-        raw_1w = None
-
+    # ── ETF 수익률 (개별 다운로드 — MultiIndex 파싱 오류 방지)
+    import time
     sectors = []
     for sector, etf in SECTOR_ETFS.items():
         qtd = None
         w1  = None
         try:
+            raw = yf.download(
+                etf,
+                start=str(q_start - timedelta(days=5)),
+                auto_adjust=True,
+                progress=False,
+                threads=False,
+            )
             if raw is not None and not raw.empty:
-                if len(tickers) > 1:
-                    hist = raw["Close"][[etf]].rename(columns={etf: "Close"})
-                else:
-                    hist = raw[["Close"]]
-                qtd = qtd_return(hist, q_start)
-        except Exception:
-            pass
-        try:
-            if raw_1w is not None and not raw_1w.empty:
-                if len(tickers) > 1:
-                    h1w = raw_1w["Close"][[etf]].rename(columns={etf: "Close"})
-                else:
-                    h1w = raw_1w[["Close"]]
-                if not h1w.empty:
-                    p0 = float(h1w["Close"].iloc[0])
-                    p1 = float(h1w["Close"].iloc[-1])
-                    w1 = round((p1 / p0 - 1) * 100, 2) if p0 else None
-        except Exception:
-            pass
+                # yfinance 1.4+: 단일 티커도 MultiIndex (Close, TICKER)
+                closes = raw["Close"][etf] if etf in raw["Close"].columns else raw["Close"].iloc[:, 0]
+                closes = closes.dropna()
+                if not closes.empty:
+                    # QTD
+                    idx = closes.index.normalize()
+                    base = closes[idx >= str(q_start)]
+                    if not base.empty:
+                        qtd = round((float(base.iloc[-1]) / float(base.iloc[0]) - 1) * 100, 2)
+                    # 1주
+                    h1w = closes.tail(5)
+                    if len(h1w) >= 2:
+                        w1 = round((float(h1w.iloc[-1]) / float(h1w.iloc[0]) - 1) * 100, 2)
+        except Exception as e:
+            print(f"[sector] {etf} 다운로드 실패: {e}", file=sys.stderr)
         sectors.append({
             "sector": sector,
             "etf":    etf,
             "qtd":    qtd,
             "week1":  w1,
         })
+        time.sleep(0.3)  # rate-limit 방지
 
     # QTD 기준 정렬
     sectors.sort(key=lambda x: x["qtd"] or -999, reverse=True)

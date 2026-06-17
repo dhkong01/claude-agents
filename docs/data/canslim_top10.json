@@ -1,14 +1,14 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "analyzed": 47,
   "top10": [
     {
       "ticker": "AMAT",
-      "canslim_score": 64,
+      "canslim_score": 67,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
+        "N": 10,
         "S": 10,
         "L": 10,
         "I": 10,
@@ -16,9 +16,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 451151560704,
-      "price": 568.23,
+      "market_cap": 470754394112,
+      "price": 592.92,
       "rs_rating": 96.2
+    },
+    {
+      "ticker": "WDC",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 245458501632,
+      "price": 712.13,
+      "rs_rating": 98.8
     },
     {
       "ticker": "CAT",
@@ -34,27 +52,9 @@
       },
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 435471286272,
-      "price": 945.46,
-      "rs_rating": 94.9
-    },
-    {
-      "ticker": "WDC",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 234756112384,
-      "price": 681.08,
-      "rs_rating": 98.8
+      "market_cap": 440289067008,
+      "price": 955.92,
+      "rs_rating": 94.7
     },
     {
       "ticker": "MU",
@@ -70,9 +70,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1151145738240,
-      "price": 1020.76,
+      "market_cap": 1176440799232,
+      "price": 1043.19,
       "rs_rating": 98.6
+    },
+    {
+      "ticker": "STX",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 241200578560,
+      "price": 1066.07,
+      "rs_rating": 98.4
     },
     {
       "ticker": "ARM",
@@ -88,9 +106,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 423322353664,
-      "price": 396.34,
-      "rs_rating": 97.2
+      "market_cap": 447396839424,
+      "price": 418.88,
+      "rs_rating": 97.6
     },
     {
       "ticker": "TER",
@@ -106,9 +124,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 64080535552,
-      "price": 409.35,
-      "rs_rating": 96.8
+      "market_cap": 63956865024,
+      "price": 408.56,
+      "rs_rating": 96.6
     },
     {
       "ticker": "LRCX",
@@ -124,8 +142,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 461885898752,
-      "price": 369.34,
+      "market_cap": 467938639872,
+      "price": 374.18,
       "rs_rating": 96.4
     },
     {
@@ -142,45 +160,27 @@
       },
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "market_cap": 67340001280,
-      "price": 1913.94,
+      "market_cap": 67967336448,
+      "price": 1931.77,
       "rs_rating": 95.9
     },
     {
-      "ticker": "NUE",
+      "ticker": "TXN",
       "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Basic Materials",
-      "industry": "Steel",
-      "market_cap": 59003121664,
-      "price": 259.08,
-      "rs_rating": 94.3
-    },
-    {
-      "ticker": "FTNT",
-      "canslim_score": 61,
-      "scores": {
-        "C": 7,
-        "A": 10,
-        "N": 10,
+        "N": 7,
         "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 107713970176,
-      "price": 147.02,
-      "rs_rating": 93.9
+      "industry": "Semiconductors",
+      "market_cap": 274738823168,
+      "price": 301.88,
+      "rs_rating": 92.9
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-06-05 기준.",
+  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-06-17 기준.",
   "holdings": [
     {
       "ticker": "TSLA",
-      "shares": 160,
+      "shares": 140,
       "avg_cost": 183.6738,
       "entry_date": "2025-11-01"
     },
@@ -36,6 +36,14 @@
       "shares": 90,
       "avg_cost": 396.62,
       "entry_date": "2026-06-05"
+    },
+    {
+      "ticker": "LRCX",
+      "shares": 20,
+      "avg_cost": 389.0,
+      "entry_date": "2026-06-17"
     }
-  ]
+  ],
+  "total_cost": 152607,
+  "next_rebalance": "2026-08-21"
 }

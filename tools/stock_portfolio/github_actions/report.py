@@ -17,15 +17,16 @@ def _load_portfolio():
         except: pass
     return {
         "holdings": [
-            {'t':'TSLA', 'sh':160, 'ac':183.6738},
+            {'t':'TSLA', 'sh':140, 'ac':183.6738},
             {'t':'PLTR', 'sh':60,  'ac':168.19},
             {'t':'VKTX', 'sh':350, 'ac':33.4824},
             {'t':'META', 'sh':15,  'ac':637.28},
             {'t':'MRVL', 'sh':220, 'ac':236.58},
             {'t':'ARM',  'sh':90,  'ac':396.62},
+            {'t':'LRCX', 'sh':20,  'ac':389.0},
         ],
         "next_rebalance": "2026-08-21",
-        "total_cost": 148501
+        "total_cost": 152607
     }
 
 _pf   = _load_portfolio()

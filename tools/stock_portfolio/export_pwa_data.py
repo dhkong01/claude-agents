@@ -38,6 +38,12 @@ def export_trend(today: str) -> bool:
         return False
 
     out = DOCS_DATA / "trend_latest.json"
+    # 기존 파일이 더 최신 날짜면 덮어쓰지 않음 (로컬 수동 실행 시 퇴행 방지)
+    existing = _read(out)
+    if existing and existing.get("date", "") > data.get("date", ""):
+        print(f"[export] trend_latest.json 유지 (기존={existing['date']} > 캐시={data.get('date')})")
+        return True
+
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[export] trend_latest.json → {out}")
     return True

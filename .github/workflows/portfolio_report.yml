@@ -2,7 +2,7 @@ name: Portfolio Daily Report
 
 on:
   schedule:
-    - cron: '35 22 * * 0-5'   # UTC 22:35 = KST 07:35 (trend_rebalancing 22:30보다 5분 뒤 — git 충돌 방지)
+    - cron: '0 23 * * 0-5'    # UTC 23:00 = KST 08:00 (trend_rebalancing 22:30~23:00 완전히 끝난 뒤 실행)
   workflow_dispatch:           # 수동 실행 가능
 
 permissions:

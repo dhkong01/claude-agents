@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-16",
-  "total_cost": 148501,
+  "date": "2026-06-17",
+  "total_cost": 152607,
   "next_rebalance": "2026-08-21",
   "holdings": [
     {
       "ticker": "TSLA",
-      "shares": 160,
+      "shares": 140,
       "avg_cost": 183.6738,
       "price": 404.66,
-      "value": 64745.6,
-      "cost": 29387.81
+      "value": 56652.4,
+      "cost": 25714.33
     },
     {
       "ticker": "PLTR",
@@ -50,6 +50,14 @@
       "price": 396.34,
       "value": 35670.6,
       "cost": 35695.8
+    },
+    {
+      "ticker": "LRCX",
+      "shares": 20,
+      "avg_cost": 389.0,
+      "price": 369.34,
+      "value": 7386.8,
+      "cost": 7780.0
     }
   ]
 }

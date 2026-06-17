@@ -1,9 +1,45 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-12",
   "analyzed": 47,
   "top10": [
     {
       "ticker": "AMAT",
+      "canslim_score": 67,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 438773743616,
+      "price": 552.64,
+      "rs_rating": 96.1
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 453356978176,
+      "price": 362.52,
+      "rs_rating": 96.4
+    },
+    {
+      "ticker": "MPWR",
       "canslim_score": 64,
       "scores": {
         "C": 10,
@@ -15,13 +51,13 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 451151560704,
-      "price": 568.23,
-      "rs_rating": 96.2
+      "industry": "Semiconductors",
+      "market_cap": 78094589952,
+      "price": 1589.55,
+      "rs_rating": 94.5
     },
     {
-      "ticker": "CAT",
+      "ticker": "NUE",
       "canslim_score": 64,
       "scores": {
         "C": 10,
@@ -32,29 +68,47 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 435471286272,
-      "price": 945.46,
-      "rs_rating": 94.9
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "market_cap": 59417612288,
+      "price": 260.9,
+      "rs_rating": 93.9
     },
     {
-      "ticker": "WDC",
-      "canslim_score": 61,
+      "ticker": "JBL",
+      "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
+        "N": 10,
         "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 234756112384,
-      "price": 681.08,
-      "rs_rating": 98.8
+      "industry": "Electronic Components",
+      "market_cap": 39762886656,
+      "price": 376.89,
+      "rs_rating": 93.5
+    },
+    {
+      "ticker": "CASY",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "market_cap": 33963689984,
+      "price": 916.28,
+      "rs_rating": 91.9
     },
     {
       "ticker": "MU",
@@ -70,27 +124,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1151145738240,
-      "price": 1020.76,
-      "rs_rating": 98.6
+      "market_cap": 1123076407296,
+      "price": 995.87,
+      "rs_rating": 98.8
     },
     {
-      "ticker": "ARM",
+      "ticker": "DELL",
       "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 7,
+        "N": 4,
+        "S": 10,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 423322353664,
-      "price": 396.34,
-      "rs_rating": 97.2
+      "industry": "Computer Hardware",
+      "market_cap": 253701865472,
+      "price": 391.45,
+      "rs_rating": 97.6
     },
     {
       "ticker": "TER",
@@ -106,48 +160,12 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 64080535552,
-      "price": 409.35,
-      "rs_rating": 96.8
+      "market_cap": 59705180160,
+      "price": 381.4,
+      "rs_rating": 96.2
     },
     {
-      "ticker": "LRCX",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 461885898752,
-      "price": 369.34,
-      "rs_rating": 96.4
-    },
-    {
-      "ticker": "FIX",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "market_cap": 67340001280,
-      "price": 1913.94,
-      "rs_rating": 95.9
-    },
-    {
-      "ticker": "NUE",
+      "ticker": "STLD",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -160,27 +178,9 @@
       },
       "sector": "Basic Materials",
       "industry": "Steel",
-      "market_cap": 59003121664,
-      "price": 259.08,
-      "rs_rating": 94.3
-    },
-    {
-      "ticker": "FTNT",
-      "canslim_score": 61,
-      "scores": {
-        "C": 7,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 107713970176,
-      "price": 147.02,
-      "rs_rating": 93.9
+      "market_cap": 40314683392,
+      "price": 279.55,
+      "rs_rating": 94.9
     }
   ]
 }

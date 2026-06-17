@@ -1,4 +1,4 @@
-const CACHE = 'stock-pwa-v3';
+const CACHE = 'stock-pwa-v4';
 // 아이콘·manifest만 캐시, HTML/JS는 항상 네트워크 우선
 const PRECACHE = ['/claude-agents/icon-192.svg', '/claude-agents/icon-512.svg', '/claude-agents/manifest.json'];
 

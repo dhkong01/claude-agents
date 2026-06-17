@@ -13,7 +13,15 @@ def _load_portfolio():
     raw = os.environ.get("PORTFOLIO_JSON", "")
     if raw:
         try:
-            return _json.loads(raw)
+            data = _json.loads(raw)
+            # my_portfolio.json 형식(ticker/shares/avg_cost) → 내부 형식(t/sh/ac) 변환
+            holdings = data.get("holdings", [])
+            if holdings and 'ticker' in holdings[0]:
+                data["holdings"] = [
+                    {'t': h['ticker'], 'sh': h['shares'], 'ac': h['avg_cost']}
+                    for h in holdings
+                ]
+            return data
         except Exception:
             pass
     return {

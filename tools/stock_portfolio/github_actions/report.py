@@ -200,7 +200,7 @@ def build_messages(closes):
     # 포트폴리오 계산
     tv = 0.0
     rows = []
-    CSF_MAP = {'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':47}
+    CSF_MAP = {'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':47,'LRCX':42}
     for p in PF:
         t = p['t']
         price = fv(t)
@@ -271,6 +271,9 @@ def build_messages(closes):
     # 메시지5: 시장강세 TOP10 (동적 계산)
     top10_ranked = sorted(rs_map.items(), key=lambda x: -x[1])[:10]
     t10 = [f"{t} {cs_for(t, rs)}/{rs}" for t, rs in top10_ranked]
+    # 10개 미만일 경우 빈 칸 채워서 IndexError 방지
+    while len(t10) < 10:
+        t10.append("—")
     msg5 = (
         f"[시장강세TOP10 · {date_us}기준]\n"
         f"1.{t10[0]}  2.{t10[1]}\n"
@@ -284,19 +287,33 @@ def build_messages(closes):
 
 # ── Git 커밋 ─────────────────────────────────────────────────
 def git_push(full_text):
+    from datetime import timezone, timedelta
+    KST = timezone(timedelta(hours=9))
+    kst_date = datetime.now(KST).strftime('%Y-%m-%d')
+
     path = 'latest_report.txt'
     with open(path, 'w', encoding='utf-8') as f:
         f.write(full_text)
+
     subprocess.run(['git','config','user.email','github-actions@github.com'], check=True)
     subprocess.run(['git','config','user.name','github-actions'], check=True)
     subprocess.run(['git','add', path], check=True)
     res = subprocess.run(['git','diff','--cached','--quiet'])
-    if res.returncode != 0:
-        subprocess.run(['git','commit','-m',f'report: {date.today()}'], check=True)
-        subprocess.run(['git','push'], check=True)
-        print("[Git] latest_report.txt 커밋 완료")
-    else:
+    if res.returncode == 0:
         print("[Git] 변경 없음")
+        return
+
+    subprocess.run(['git','commit','-m',f'report: {kst_date}'], check=True)
+
+    # trend_rebalancing 워크플로와 동시 실행 충돌 대비: rebase 후 재시도
+    for attempt in range(3):
+        r = subprocess.run(['git','push'])
+        if r.returncode == 0:
+            print(f"[Git] 커밋 완료 (시도 {attempt+1})")
+            return
+        print(f"[Git] push 실패(시도 {attempt+1}), rebase 후 재시도...")
+        subprocess.run(['git','pull','--rebase'], check=False)
+    print("[Git] push 3회 실패 — 리포트 전송은 완료, 커밋만 스킵")
 
 # ── 메인 ──────────────────────────────────────────────────────
 if __name__ == '__main__':

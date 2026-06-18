@@ -345,8 +345,11 @@ function tvLink(ticker, display) {
 // ── 데이터 로드
 const BASE = '/claude-agents';
 
+const RAW_BASE = 'https://raw.githubusercontent.com/dhkong01/claude-agents/main/docs/';
 async function fetchJSON(path) {
-  const r = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' });
+  // raw.githubusercontent.com 사용 — GitHub Pages CDN(Fastly) 10분 캐시 완전 우회
+  const url = RAW_BASE + path + '?t=' + Date.now();
+  const r = await fetch(url, { cache: 'no-store' });
   if (!r.ok) throw new Error(r.status);
   return r.json();
 }

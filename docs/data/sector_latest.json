@@ -108,7 +108,7 @@
       },
       {
         "ticker": "AMAT",
-        "rs": 96.2,
+        "rs": 96.0,
         "canslim": 67,
         "price": 617.11
       },
@@ -126,19 +126,19 @@
       },
       {
         "ticker": "TXN",
-        "rs": 94.3,
+        "rs": 94.1,
         "canslim": 64,
         "price": 322.86
       },
       {
         "ticker": "MPWR",
-        "rs": 93.9,
+        "rs": 93.7,
         "canslim": 64,
         "price": 1563.7
       },
       {
         "ticker": "ADI",
-        "rs": 91.5,
+        "rs": 91.3,
         "canslim": 64,
         "price": 434.46
       }
@@ -146,13 +146,13 @@
     "Industrials": [
       {
         "ticker": "CAT",
-        "rs": 94.7,
+        "rs": 94.5,
         "canslim": 64,
         "price": 985.82
       },
       {
         "ticker": "GEV",
-        "rs": 93.1,
+        "rs": 92.9,
         "canslim": 64,
         "price": 1109.73
       }

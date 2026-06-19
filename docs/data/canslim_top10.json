@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "analyzed": 47,
+  "analyzed": 46,
   "top10": [
     {
       "ticker": "TER",
@@ -54,7 +54,7 @@
       "industry": "Semiconductor Equipment & Materials",
       "market_cap": 489960275968,
       "price": 617.11,
-      "rs_rating": 96.2
+      "rs_rating": 96.0
     },
     {
       "ticker": "MU",
@@ -108,7 +108,7 @@
       "industry": "Farm & Heavy Construction Machinery",
       "market_cap": 454060769280,
       "price": 985.82,
-      "rs_rating": 94.7
+      "rs_rating": 94.5
     },
     {
       "ticker": "TXN",
@@ -126,7 +126,7 @@
       "industry": "Semiconductors",
       "market_cap": 293832556544,
       "price": 322.86,
-      "rs_rating": 94.3
+      "rs_rating": 94.1
     },
     {
       "ticker": "MPWR",
@@ -144,7 +144,7 @@
       "industry": "Semiconductors",
       "market_cap": 76824576000,
       "price": 1563.7,
-      "rs_rating": 93.9
+      "rs_rating": 93.7
     },
     {
       "ticker": "GEV",
@@ -162,7 +162,7 @@
       "industry": "Specialty Industrial Machinery",
       "market_cap": 298206625792,
       "price": 1109.73,
-      "rs_rating": 93.1
+      "rs_rating": 92.9
     },
     {
       "ticker": "ADI",
@@ -180,7 +180,7 @@
       "industry": "Semiconductors",
       "market_cap": 211619823616,
       "price": 434.46,
-      "rs_rating": 91.5
+      "rs_rating": 91.3
     }
   ]
 }

@@ -366,43 +366,34 @@ function localPfSave(data) {
   localStorage.setItem(PF_KEY, JSON.stringify(data));
 }
 
-// 서버 portfolio_latest.json에서 현재가를 가져와 로컬 포트폴리오에 적용
-async function rebuildPfDataFromLocal() {
+// 서버에서 받은 가격 데이터(serverPf)를 기반으로 로컬 수량/평단가 적용
+// → loadAll()이 이미 받은 데이터를 직접 넘겨 이중 fetch 없이 동작
+function applyLocalPortfolio(serverPf) {
   const local = localPfLoad();
-  if (!local || !local.holdings?.length) return;
+  if (!local || !local.holdings?.length) return false;
 
-  // 서버에서 최신 가격 데이터를 직접 가져옴
-  let serverData = null;
-  try { serverData = await fetchJSON('data/portfolio_latest.json'); } catch {}
-
-  // 서버 가격 맵 (ticker → price)
+  // ticker → price 맵 구성
   const priceMap = {};
-  (serverData?.holdings || []).forEach(h => {
+  (serverPf?.holdings || []).forEach(h => {
     if (h.ticker && h.price) priceMap[h.ticker] = h.price;
   });
 
   const holdings = local.holdings.map(h => {
     const price = priceMap[h.ticker] || 0;
-    const value = price * h.shares;
-    const cost  = h.avg_cost * h.shares;
-    return {
-      ticker:   h.ticker,
-      shares:   h.shares,
-      avg_cost: h.avg_cost,
-      price:    +price.toFixed(2),
-      value:    +value.toFixed(2),
-      cost:     +cost.toFixed(2),
-    };
+    const cost  = +(h.avg_cost * h.shares).toFixed(2);
+    const value = +(price     * h.shares).toFixed(2);
+    return { ticker: h.ticker, shares: h.shares, avg_cost: h.avg_cost,
+             price, value, cost };
   });
 
-  const totalCost = holdings.reduce((s, h) => s + h.cost, 0);
   pfData = {
-    date:           serverData?.date || new Date().toISOString().slice(0, 10),
+    date:           serverPf?.date || new Date().toISOString().slice(0,10),
     holdings,
-    total_cost:     +totalCost.toFixed(2),
-    next_rebalance: local.next_rebalance || serverData?.next_rebalance || '—',
+    total_cost:     +holdings.reduce((s,h)=>s+h.cost,0).toFixed(2),
+    next_rebalance: local.next_rebalance || serverPf?.next_rebalance || '—',
     _local:         true,
   };
+  return true;
 }
 
 async function loadAll() {
@@ -417,8 +408,8 @@ async function loadAll() {
       fetchJSON('data/sector_latest.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
 
-    // localStorage 포트폴리오가 있으면 서버 가격 + 사용자 수량/평단가로 재계산
-    if (localPfLoad()) await rebuildPfDataFromLocal();
+    // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
+    if (localPfLoad()) applyLocalPortfolio(pfData);
 
     renderTrend();
     renderPortfolio();

@@ -367,8 +367,20 @@ function localPfSave(data) {
 }
 
 // 서버에서 받은 가격 데이터(serverPf)를 기반으로 로컬 수량/평단가 적용
+// Yahoo Finance에서 단일 종목 현재가 조회 (CORS 허용 여부에 따라 실패 가능)
+async function fetchYFPrice(ticker) {
+  try {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=1d&interval=1d`;
+    const r = await fetch(url);
+    if (!r.ok) return null;
+    const j = await r.json();
+    const meta = j?.chart?.result?.[0]?.meta;
+    return meta?.regularMarketPrice || meta?.previousClose || null;
+  } catch { return null; }
+}
+
 // → loadAll()이 이미 받은 데이터를 직접 넘겨 이중 fetch 없이 동작
-function applyLocalPortfolio(serverPf) {
+async function applyLocalPortfolio(serverPf) {
   const local = localPfLoad();
   if (!local || !local.holdings?.length) return false;
 
@@ -378,8 +390,17 @@ function applyLocalPortfolio(serverPf) {
     if (h.ticker && h.price) priceMap[h.ticker] = h.price;
   });
 
+  // 서버 데이터에 없는 신규 종목 → Yahoo Finance 자동 조회
+  const missing = local.holdings.filter(h => !priceMap[h.ticker]);
+  if (missing.length) {
+    await Promise.all(missing.map(async h => {
+      const p = await fetchYFPrice(h.ticker);
+      if (p) priceMap[h.ticker] = p;
+    }));
+  }
+
   const holdings = local.holdings.map(h => {
-    // 서버 가격 우선, 없으면 수동 입력 가격, 없으면 0
+    // 서버/YF 가격 우선, 없으면 수동 입력 가격, 없으면 0
     const price = priceMap[h.ticker] || h.manual_price || 0;
     const cost  = +(h.avg_cost * h.shares).toFixed(2);
     const value = +(price     * h.shares).toFixed(2);
@@ -411,7 +432,7 @@ async function loadAll() {
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
 
     // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
-    if (localPfLoad()) applyLocalPortfolio(pfData);
+    if (localPfLoad()) await applyLocalPortfolio(pfData);
 
     renderTrend();
     renderPortfolio();

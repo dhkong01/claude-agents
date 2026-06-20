@@ -1,22 +1,22 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "mode": "daily",
   "geo_risk": {
-    "date": "2026-06-19",
-    "risk_score": 10.0,
+    "date": "2026-06-20",
+    "risk_score": 9.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 3,
-    "medium_risk_signals": 5,
+    "high_risk_signals": 2,
+    "medium_risk_signals": 4,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Defense": "ELEVATED",
-      "Financials": "WATCH"
+      "Semiconductors": "WATCH",
+      "Defense": "ELEVATED"
     },
     "top_risk_events": [
-      "Extreme Heat Warnings Issued Across Europe: What To Know",
-      "Lebanon Emerges As Weak Link In U.S.-Iran Deal To End War",
-      "Our Allies Are Wondering Whether Supporting The American War Machine Is Worth It"
+      "World Leaders Awaited Iran Deal For Months. Here’S Why They’Re Still Wary.",
+      "Shipping Remains Far Below Prewar Levels In The Strait Of Hormuz.",
+      "Lebanon Emerges As Weak Link In U.S.-Iran Deal To End War"
     ],
     "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
@@ -30,7 +30,7 @@
         "Energy",
         "Defense"
       ],
-      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 9.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -435,7 +435,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-06-18",
-    "checked_at": "2026-06-19 23:39",
+    "checked_at": "2026-06-20 23:41",
     "sample": {
       "SPY": 746.74,
       "QQQ": 740.62,

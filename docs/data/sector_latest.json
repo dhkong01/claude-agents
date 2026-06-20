@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "quarter": "2026-Q2",
   "q_start": "2026-04-01",
   "sectors": [
@@ -113,6 +113,12 @@
         "price": 617.11
       },
       {
+        "ticker": "ADI",
+        "rs": 91.3,
+        "canslim": 67,
+        "price": 434.46
+      },
+      {
         "ticker": "MU",
         "rs": 98.6,
         "canslim": 64,
@@ -135,12 +141,6 @@
         "rs": 93.7,
         "canslim": 64,
         "price": 1563.7
-      },
-      {
-        "ticker": "ADI",
-        "rs": 91.3,
-        "canslim": 64,
-        "price": 434.46
       }
     ],
     "Industrials": [
@@ -165,7 +165,7 @@
     "rec_sectors": []
   },
   "geo_risk": {
-    "risk_score": 10.0,
+    "risk_score": 9.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

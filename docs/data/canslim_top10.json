@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "analyzed": 46,
   "top10": [
     {
@@ -55,6 +55,24 @@
       "market_cap": 489960275968,
       "price": 617.11,
       "rs_rating": 96.0
+    },
+    {
+      "ticker": "ADI",
+      "canslim_score": 67,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 211619823616,
+      "price": 434.46,
+      "rs_rating": 91.3
     },
     {
       "ticker": "MU",
@@ -163,24 +181,6 @@
       "market_cap": 298206625792,
       "price": 1109.73,
       "rs_rating": 92.9
-    },
-    {
-      "ticker": "ADI",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 211619823616,
-      "price": 434.46,
-      "rs_rating": 91.3
     }
   ]
 }

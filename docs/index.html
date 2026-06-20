@@ -379,10 +379,12 @@ function applyLocalPortfolio(serverPf) {
   });
 
   const holdings = local.holdings.map(h => {
-    const price = priceMap[h.ticker] || 0;
+    // 서버 가격 우선, 없으면 수동 입력 가격, 없으면 0
+    const price = priceMap[h.ticker] || h.manual_price || 0;
     const cost  = +(h.avg_cost * h.shares).toFixed(2);
     const value = +(price     * h.shares).toFixed(2);
     return { ticker: h.ticker, shares: h.shares, avg_cost: h.avg_cost,
+             manual_price: h.manual_price || 0,
              price, value, cost };
   });
 
@@ -934,12 +936,14 @@ function openPfEditor() {
 
   const rows = local.holdings.map((h, i) => `
     <div class="pf-edit-row" id="pfrow-${i}">
-      <input class="pf-edit-in" style="width:72px;font-weight:700;text-transform:uppercase"
+      <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase"
              placeholder="티커" value="${h.ticker}" data-i="${i}" data-f="ticker">
-      <input class="pf-edit-in" style="width:64px;text-align:right"
+      <input class="pf-edit-in" style="width:56px;text-align:right"
              placeholder="수량" type="number" min="0" value="${h.shares}" data-i="${i}" data-f="shares">
-      <input class="pf-edit-in" style="width:80px;text-align:right"
+      <input class="pf-edit-in" style="width:72px;text-align:right"
              placeholder="평단가$" type="number" min="0" step="0.01" value="${h.avg_cost}" data-i="${i}" data-f="avg_cost">
+      <input class="pf-edit-in" style="width:68px;text-align:right"
+             placeholder="현재가$" type="number" min="0" step="0.01" value="${h.manual_price || ''}" data-i="${i}" data-f="manual_price" title="신규 종목의 현재가를 직접 입력하세요">
       <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>
     </div>`).join('');
 
@@ -951,9 +955,10 @@ function openPfEditor() {
     </div>
     <div style="font-size:11px;color:var(--text2);margin-bottom:10px">변경사항은 이 기기에만 저장됩니다</div>
     <div style="display:flex;gap:6px;font-size:11px;color:var(--text2);padding:0 0 4px 4px">
-      <span style="width:72px">티커</span>
-      <span style="width:64px;text-align:right">수량</span>
-      <span style="width:80px;text-align:right">평단가($)</span>
+      <span style="width:64px">티커</span>
+      <span style="width:56px;text-align:right">수량</span>
+      <span style="width:72px;text-align:right">평단가($)</span>
+      <span style="width:68px;text-align:right">현재가($)</span>
     </div>
     <div id="pfEditRows">${rows}</div>
     <button onclick="pfRowAdd()" style="width:100%;margin-top:8px;padding:8px;background:var(--card);border:1px dashed var(--border);border-radius:8px;color:var(--accent);cursor:pointer;font-size:13px">+ 종목 추가</button>
@@ -974,11 +979,15 @@ function closePfEditor() {
 }
 
 function _readRows() {
-  return [...document.querySelectorAll('.pf-edit-row')].map(row => ({
-    ticker:   row.querySelector('[data-f="ticker"]').value.trim().toUpperCase(),
-    shares:   parseFloat(row.querySelector('[data-f="shares"]').value) || 0,
-    avg_cost: parseFloat(row.querySelector('[data-f="avg_cost"]').value) || 0,
-  })).filter(h => h.ticker);
+  return [...document.querySelectorAll('.pf-edit-row')].map(row => {
+    const mp = parseFloat(row.querySelector('[data-f="manual_price"]')?.value) || 0;
+    return {
+      ticker:       row.querySelector('[data-f="ticker"]').value.trim().toUpperCase(),
+      shares:       parseFloat(row.querySelector('[data-f="shares"]').value) || 0,
+      avg_cost:     parseFloat(row.querySelector('[data-f="avg_cost"]').value) || 0,
+      manual_price: mp || undefined,
+    };
+  }).filter(h => h.ticker);
 }
 
 function pfRowDel(i) {
@@ -992,9 +1001,10 @@ function pfRowAdd() {
   div.className = 'pf-edit-row';
   div.id = `pfrow-${i}`;
   div.innerHTML = `
-    <input class="pf-edit-in" style="width:72px;font-weight:700;text-transform:uppercase" placeholder="티커" data-i="${i}" data-f="ticker">
-    <input class="pf-edit-in" style="width:64px;text-align:right" placeholder="수량" type="number" min="0" data-i="${i}" data-f="shares">
-    <input class="pf-edit-in" style="width:80px;text-align:right" placeholder="평단가$" type="number" min="0" step="0.01" data-i="${i}" data-f="avg_cost">
+    <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase" placeholder="티커" data-i="${i}" data-f="ticker">
+    <input class="pf-edit-in" style="width:56px;text-align:right" placeholder="수량" type="number" min="0" data-i="${i}" data-f="shares">
+    <input class="pf-edit-in" style="width:72px;text-align:right" placeholder="평단가$" type="number" min="0" step="0.01" data-i="${i}" data-f="avg_cost">
+    <input class="pf-edit-in" style="width:68px;text-align:right" placeholder="현재가$" type="number" min="0" step="0.01" data-i="${i}" data-f="manual_price" title="신규 종목의 현재가를 직접 입력하세요">
     <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>`;
   container.appendChild(div);
   div.querySelector('[data-f="ticker"]').focus();

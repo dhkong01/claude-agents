@@ -1,5 +1,5 @@
 """
-인기 종목 100개의 현재가를 docs/data/price_lookup.json 으로 저장
+인기 종목의 현재가를 docs/data/price_lookup.json 으로 저장
 GitHub Actions에서 매일 실행 → PWA 편집기에서 신규 종목 자동완성에 사용
 """
 import json
@@ -9,52 +9,101 @@ from pathlib import Path
 
 import yfinance as yf
 
-POPULAR_TICKERS = [
+POPULAR_TICKERS = sorted(set([
     # Mega cap
-    "AAPL","MSFT","NVDA","GOOGL","GOOG","AMZN","META","TSLA","AVGO","BRK-B",
-    # Tech
-    "AMD","INTC","QCOM","MU","SMCI","ARM","MRVL","LRCX","AMAT","KLAC","ASML",
-    "ORCL","CRM","SAP","NOW","ADBE","INTU","SNOW","DDOG","ZS","CRWD","PANW",
-    "NET","GTLB","PLTR","COIN","MSTR","HOOD","RBLX",
-    # AI / Growth
-    "SOUN","IONQ","RGTI","QBTS","ARQQ","BBAI","RKLB","LUNR","ASTS","ACHR",
+    "AAPL", "MSFT", "NVDA", "GOOGL", "GOOG", "AMZN", "META", "TSLA", "AVGO", "BRK-B",
+    # Semiconductor / Hardware
+    "AMD", "INTC", "QCOM", "MU", "SMCI", "ARM", "MRVL", "LRCX", "AMAT", "KLAC", "ASML",
+    "TXN", "MCHP", "ON", "SWKS", "MPWR",
+    # Software / Cloud
+    "ORCL", "CRM", "SAP", "NOW", "ADBE", "INTU", "SNOW", "DDOG", "ZS", "CRWD", "PANW",
+    "NET", "GTLB", "PLTR", "WDAY", "HUBS", "MDB", "ESTC", "TEAM", "OKTA",
+    # AI / Speculative Growth
+    "SOUN", "IONQ", "RGTI", "QBTS", "RKLB", "LUNR", "ASTS", "ACHR",
+    "MSTR", "COIN", "HOOD", "RBLX",
     # Healthcare / Biotech
-    "LLY","UNH","JNJ","ABBV","MRK","PFE","VKTX","RXRX","BEAM","EDIT",
+    "LLY", "UNH", "JNJ", "ABBV", "MRK", "PFE", "AMGN", "GILD",
+    "VKTX", "RXRX", "BEAM", "EDIT", "MRNA", "BNTX",
     # Finance
-    "JPM","V","MA","GS","BAC","WFC","BX","KKR","SCHW",
+    "JPM", "V", "MA", "GS", "BAC", "WFC", "BX", "KKR", "SCHW", "AXP", "BLK",
     # Consumer / Retail
-    "AMZN","WMT","COST","TGT","HD","LOW",
+    "WMT", "COST", "TGT", "HD", "LOW", "NKE", "SBUX",
     # Energy
-    "XOM","CVX","OXY",
+    "XOM", "CVX", "OXY", "SLB",
     # Transport / EV
-    "UBER","LYFT","RIVN","LCID","NIO","XPEV","LI",
+    "UBER", "LYFT", "RIVN", "LCID", "NIO", "XPEV", "LI",
     # ETF
-    "SPY","QQQ","SOXX","SMH","XLK","ARKK","ARKW","ARKG","SOXL","TQQQ",
-]
-# 중복 제거, 정렬
-POPULAR_TICKERS = sorted(set(POPULAR_TICKERS))
+    "SPY", "QQQ", "IWM", "SOXX", "SMH", "XLK", "XLF", "XLE",
+    "ARKK", "ARKW", "ARKG", "SOXL", "TQQQ", "UVXY",
+]))
+
+
+def _extract_price(data, ticker: str) -> float | None:
+    """yfinance 버전 차이(MultiIndex/단일) 모두 처리"""
+    try:
+        close = data["Close"]
+    except (KeyError, AttributeError):
+        return None
+
+    # 배치 다운로드: columns = ['AAPL', 'MSFT', ...]
+    if hasattr(close, "columns"):
+        # 일반 컬럼
+        if ticker in close.columns:
+            s = close[ticker].dropna()
+            return round(float(s.iloc[-1]), 2) if len(s) else None
+        # MultiIndex 컬럼: ('Close', 'AAPL') 형태
+        for col in close.columns:
+            if isinstance(col, tuple) and ticker in col:
+                s = close[col].dropna()
+                return round(float(s.iloc[-1]), 2) if len(s) else None
+        return None
+
+    # 단일 종목 다운로드: Series
+    if hasattr(close, "iloc"):
+        s = close.dropna()
+        return round(float(s.iloc[-1]), 2) if len(s) else None
+
+    return None
 
 
 def run():
     today = datetime.now().strftime("%Y-%m-%d")
-    print(f"[price_lookup] {len(POPULAR_TICKERS)}개 종목 가격 조회 시작...")
+    print(f"[price_lookup] {len(POPULAR_TICKERS)}개 종목 가격 조회 시작 ({today})...")
 
+    # 배치 다운로드
     try:
-        data = yf.download(POPULAR_TICKERS, period="1d", progress=False, auto_adjust=True)
+        data = yf.download(
+            POPULAR_TICKERS, period="1d",
+            progress=False, auto_adjust=True, threads=True,
+        )
     except Exception as e:
-        print(f"[price_lookup] 다운로드 실패: {e}", file=sys.stderr)
-        return False
+        print(f"[price_lookup] 배치 다운로드 실패: {e}", file=sys.stderr)
+        data = None
 
     prices = {}
-    close = data.get("Close", data)
-    for t in POPULAR_TICKERS:
-        try:
-            if hasattr(close, "columns") and t in close.columns:
-                prices[t] = round(float(close[t].dropna().iloc[-1]), 2)
-            elif hasattr(close, "iloc"):
-                prices[t] = round(float(close.dropna().iloc[-1]), 2)
-        except Exception:
-            pass
+
+    if data is not None and not data.empty:
+        for t in POPULAR_TICKERS:
+            p = _extract_price(data, t)
+            if p:
+                prices[t] = p
+
+    # 누락 종목 개별 재시도
+    missing = [t for t in POPULAR_TICKERS if t not in prices]
+    if missing:
+        print(f"[price_lookup] 개별 재시도: {missing}")
+        for t in missing:
+            try:
+                d = yf.download(t, period="1d", progress=False, auto_adjust=True)
+                p = _extract_price(d, t)
+                if p:
+                    prices[t] = p
+            except Exception:
+                pass
+
+    failed = [t for t in POPULAR_TICKERS if t not in prices]
+    if failed:
+        print(f"[price_lookup] 조회 실패 종목: {failed}", file=sys.stderr)
 
     out = {
         "date": today,
@@ -64,9 +113,10 @@ def run():
 
     dest = Path(__file__).parent.parent.parent / "docs" / "data" / "price_lookup.json"
     dest.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[price_lookup] {len(prices)}개 종목 저장 완료 → {dest}")
-    return True
+    print(f"[price_lookup] 완료: {len(prices)}/{len(POPULAR_TICKERS)}개 → {dest.name}")
+    return len(prices) > 0
 
 
 if __name__ == "__main__":
-    run()
+    success = run()
+    sys.exit(0 if success else 1)

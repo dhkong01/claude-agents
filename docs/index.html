@@ -355,6 +355,7 @@ async function fetchJSON(path) {
 }
 
 let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null;
+let priceLookup = {}; // 인기 종목 가격 캐시 (price_lookup.json)
 
 // ── localStorage 포트폴리오 관리 ──────────────────────────
 const PF_KEY = 'pwa_portfolio_v1';
@@ -379,8 +380,8 @@ function applyLocalPortfolio(serverPf) {
   });
 
   const holdings = local.holdings.map(h => {
-    // 서버 가격 우선, 없으면 수동 입력 가격(manual_price), 없으면 0
-    const price = priceMap[h.ticker] || h.manual_price || 0;
+    // 서버 가격 → price_lookup → 수동 입력 → 0
+    const price = priceMap[h.ticker] || priceLookup[h.ticker] || h.manual_price || 0;
     const cost  = +(h.avg_cost * h.shares).toFixed(2);
     const value = +(price     * h.shares).toFixed(2);
     return { ticker: h.ticker, shares: h.shares, avg_cost: h.avg_cost,
@@ -402,13 +403,16 @@ async function loadAll() {
   const icon = document.getElementById('refreshIcon');
   icon.classList.add('spin');
   try {
-    [trendData, pfData, vcpData, canslimData, sectorData] = await Promise.allSettled([
+    const results = await Promise.allSettled([
       fetchJSON('data/trend_latest.json'),
       fetchJSON('data/portfolio_latest.json'),
       fetchJSON('data/vcp_top20.json'),
       fetchJSON('data/canslim_top10.json'),
       fetchJSON('data/sector_latest.json'),
+      fetchJSON('data/price_lookup.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
+    [trendData, pfData, vcpData, canslimData, sectorData] = results;
+    if (results[5]?.prices) priceLookup = results[5].prices;
 
     // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
     if (localPfLoad()) applyLocalPortfolio(pfData);
@@ -1011,6 +1015,32 @@ function pfRowDel(i) {
   document.getElementById(`pfrow-${i}`)?.remove();
 }
 
+// 티커 입력 후 포커스 이탈 시 price_lookup에서 자동으로 현재가 채우기
+function onTickerBlur(el) {
+  const ticker = el.value.trim().toUpperCase();
+  if (!ticker) return;
+  el.value = ticker;
+  const row = el.closest('.pf-edit-row');
+  const priceEl = row?.querySelector('[data-f="manual_price"]');
+  if (!priceEl) return;
+
+  const serverPrice = (pfData?.holdings || []).find(h => h.ticker === ticker)?.price;
+  const lookupPrice = priceLookup[ticker];
+  const found = serverPrice || lookupPrice;
+
+  if (found) {
+    priceEl.value = found;
+    priceEl.style.borderColor = '#22c55e';
+    priceEl.style.background = '#f0fdf4';
+    priceEl.placeholder = '자동';
+    priceEl.removeAttribute('data-new');
+  } else {
+    priceEl.style.borderColor = '#f97316';
+    priceEl.style.background = '#fff7ed';
+    priceEl.placeholder = '⚡직접 입력';
+  }
+}
+
 function pfRowAdd() {
   const container = document.getElementById('pfEditRows');
   const i = Date.now();
@@ -1018,10 +1048,10 @@ function pfRowAdd() {
   div.className = 'pf-edit-row';
   div.id = `pfrow-${i}`;
   div.innerHTML = `
-    <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase" placeholder="티커" data-i="${i}" data-f="ticker">
+    <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase" placeholder="티커" data-i="${i}" data-f="ticker" onblur="onTickerBlur(this)">
     <input class="pf-edit-in" style="width:56px;text-align:right" placeholder="수량" type="number" min="0" data-i="${i}" data-f="shares">
     <input class="pf-edit-in" style="width:72px;text-align:right" placeholder="평단가$" type="number" min="0" step="0.01" data-i="${i}" data-f="avg_cost">
-    <input class="pf-edit-in" style="width:68px;text-align:right;border-color:#f97316;background:#fff7ed;" placeholder="⚡현재가 필수" type="number" min="0" step="0.01" data-i="${i}" data-f="manual_price" data-new="1" title="서버에 없는 종목 — 현재 주가를 직접 입력하세요">
+    <input class="pf-edit-in" style="width:68px;text-align:right;border-color:#f97316;background:#fff7ed;" placeholder="⚡직접 입력" type="number" min="0" step="0.01" data-i="${i}" data-f="manual_price" data-new="1" title="티커 입력 후 Tab키 → 자동으로 현재가를 찾습니다">
     <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>`;
   container.appendChild(div);
   div.querySelector('[data-f="ticker"]').focus();

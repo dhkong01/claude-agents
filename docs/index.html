@@ -356,6 +356,55 @@ async function fetchJSON(path) {
 
 let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null;
 
+// ── localStorage 포트폴리오 관리 ──────────────────────────
+const PF_KEY = 'pwa_portfolio_v1';
+
+function localPfLoad() {
+  try { return JSON.parse(localStorage.getItem(PF_KEY)); } catch { return null; }
+}
+function localPfSave(data) {
+  localStorage.setItem(PF_KEY, JSON.stringify(data));
+}
+
+// 현재가 조회 (Yahoo Finance JSON API)
+async function fetchPrices(tickers) {
+  const prices = {};
+  await Promise.all(tickers.map(async t => {
+    try {
+      const r = await fetch(
+        `https://query1.finance.yahoo.com/v8/finance/chart/${t}?interval=1d&range=1d`,
+        { cache: 'no-store' }
+      );
+      const d = await r.json();
+      const q = d?.chart?.result?.[0]?.meta;
+      prices[t] = q?.regularMarketPrice || q?.previousClose || 0;
+    } catch { prices[t] = 0; }
+  }));
+  return prices;
+}
+
+// localStorage 포트폴리오로 pfData 재구성
+async function rebuildPfDataFromLocal() {
+  const local = localPfLoad();
+  if (!local || !local.holdings?.length) return;
+  const tickers = local.holdings.map(h => h.ticker);
+  const prices  = await fetchPrices(tickers);
+  const holdings = local.holdings.map(h => {
+    const price = prices[h.ticker] || 0;
+    const value = price * h.shares;
+    const cost  = h.avg_cost * h.shares;
+    return { ...h, price: +price.toFixed(2), value: +value.toFixed(2), cost: +cost.toFixed(2) };
+  });
+  const totalCost = holdings.reduce((s, h) => s + h.cost, 0);
+  pfData = {
+    date: new Date().toISOString().slice(0, 10),
+    holdings,
+    total_cost: +totalCost.toFixed(2),
+    next_rebalance: local.next_rebalance || pfData?.next_rebalance || '—',
+    _local: true,
+  };
+}
+
 async function loadAll() {
   const icon = document.getElementById('refreshIcon');
   icon.classList.add('spin');
@@ -367,6 +416,9 @@ async function loadAll() {
       fetchJSON('data/canslim_top10.json'),
       fetchJSON('data/sector_latest.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
+
+    // localStorage 포트폴리오가 있으면 우선 사용
+    if (localPfLoad()) await rebuildPfDataFromLocal();
 
     renderTrend();
     renderPortfolio();
@@ -621,9 +673,15 @@ function renderPortfolio() {
     </div>`;
   }).join('');
 
+  const localBadge = pfData._local
+    ? '<span style="font-size:10px;background:#3b82f6;color:#fff;padding:2px 6px;border-radius:8px;margin-left:6px">로컬</span>' : '';
+
   el.innerHTML = `
   <div class="card">
-    <div class="card-title">💼 포트폴리오 현황 <span class="muted" style="font-size:11px;font-weight:400">${date}</span></div>
+    <div class="card-title" style="display:flex;align-items:center;justify-content:space-between">
+      <span>💼 포트폴리오 현황 <span class="muted" style="font-size:11px;font-weight:400">${date}</span>${localBadge}</span>
+      <button onclick="openPfEditor()" style="font-size:12px;padding:4px 10px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text1);cursor:pointer">✏️ 편집</button>
+    </div>
     <div class="pf-summary">
       <div class="pf-stat">
         <div class="pf-stat-label">평가금액</div>
@@ -874,8 +932,138 @@ function renderSector() {
   </div>`;
 }
 
+// ── 포트폴리오 편집 모달 ──────────────────────────────────
+function openPfEditor() {
+  const local = localPfLoad() || {
+    holdings: (pfData?.holdings || []).map(h => ({
+      ticker: h.ticker, shares: h.shares, avg_cost: h.avg_cost
+    })),
+    next_rebalance: pfData?.next_rebalance || '2026-08-21'
+  };
+
+  const rows = local.holdings.map((h, i) => `
+    <div class="pf-edit-row" id="pfrow-${i}">
+      <input class="pf-edit-in" style="width:72px;font-weight:700;text-transform:uppercase"
+             placeholder="티커" value="${h.ticker}" data-i="${i}" data-f="ticker">
+      <input class="pf-edit-in" style="width:64px;text-align:right"
+             placeholder="수량" type="number" min="0" value="${h.shares}" data-i="${i}" data-f="shares">
+      <input class="pf-edit-in" style="width:80px;text-align:right"
+             placeholder="평단가$" type="number" min="0" step="0.01" value="${h.avg_cost}" data-i="${i}" data-f="avg_cost">
+      <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>
+    </div>`).join('');
+
+  document.getElementById('pfModal').innerHTML = `
+  <div class="pf-modal-box">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+      <b style="font-size:16px">✏️ 포트폴리오 편집</b>
+      <button onclick="closePfEditor()" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--text1)">✕</button>
+    </div>
+    <div style="font-size:11px;color:var(--text2);margin-bottom:10px">변경사항은 이 기기에만 저장됩니다</div>
+    <div style="display:flex;gap:6px;font-size:11px;color:var(--text2);padding:0 0 4px 4px">
+      <span style="width:72px">티커</span>
+      <span style="width:64px;text-align:right">수량</span>
+      <span style="width:80px;text-align:right">평단가($)</span>
+    </div>
+    <div id="pfEditRows">${rows}</div>
+    <button onclick="pfRowAdd()" style="width:100%;margin-top:8px;padding:8px;background:var(--card);border:1px dashed var(--border);border-radius:8px;color:var(--accent);cursor:pointer;font-size:13px">+ 종목 추가</button>
+    <div style="margin-top:12px;display:flex;align-items:center;gap:8px">
+      <span style="font-size:12px;color:var(--text2);white-space:nowrap">다음 리밸런싱</span>
+      <input id="pfNextRB" class="pf-edit-in" style="flex:1" type="date" value="${local.next_rebalance}">
+    </div>
+    <div style="display:flex;gap:8px;margin-top:16px">
+      <button onclick="pfSave()" style="flex:1;padding:10px;background:var(--accent);color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer">저장 & 새로고침</button>
+      <button onclick="pfReset()" style="padding:10px 14px;background:var(--card);border:1px solid var(--border);border-radius:10px;font-size:12px;cursor:pointer;color:var(--text2)">서버 데이터로 초기화</button>
+    </div>
+  </div>`;
+  document.getElementById('pfModal').style.display = 'flex';
+}
+
+function closePfEditor() {
+  document.getElementById('pfModal').style.display = 'none';
+}
+
+function _readRows() {
+  return [...document.querySelectorAll('.pf-edit-row')].map(row => ({
+    ticker:   row.querySelector('[data-f="ticker"]').value.trim().toUpperCase(),
+    shares:   parseFloat(row.querySelector('[data-f="shares"]').value) || 0,
+    avg_cost: parseFloat(row.querySelector('[data-f="avg_cost"]').value) || 0,
+  })).filter(h => h.ticker);
+}
+
+function pfRowDel(i) {
+  document.getElementById(`pfrow-${i}`)?.remove();
+}
+
+function pfRowAdd() {
+  const container = document.getElementById('pfEditRows');
+  const i = Date.now();
+  const div = document.createElement('div');
+  div.className = 'pf-edit-row';
+  div.id = `pfrow-${i}`;
+  div.innerHTML = `
+    <input class="pf-edit-in" style="width:72px;font-weight:700;text-transform:uppercase" placeholder="티커" data-i="${i}" data-f="ticker">
+    <input class="pf-edit-in" style="width:64px;text-align:right" placeholder="수량" type="number" min="0" data-i="${i}" data-f="shares">
+    <input class="pf-edit-in" style="width:80px;text-align:right" placeholder="평단가$" type="number" min="0" step="0.01" data-i="${i}" data-f="avg_cost">
+    <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>`;
+  container.appendChild(div);
+  div.querySelector('[data-f="ticker"]').focus();
+}
+
+async function pfSave() {
+  const holdings = _readRows();
+  if (!holdings.length) return;
+  const nextRB = document.getElementById('pfNextRB')?.value || '2026-08-21';
+  localPfSave({ holdings, next_rebalance: nextRB });
+  closePfEditor();
+  const icon = document.getElementById('refreshIcon');
+  icon.classList.add('spin');
+  await rebuildPfDataFromLocal();
+  icon.classList.remove('spin');
+  renderPortfolio();
+}
+
+function pfReset() {
+  if (!confirm('서버 데이터로 초기화하면 로컬 편집 내용이 삭제됩니다. 계속하시겠어요?')) return;
+  localStorage.removeItem(PF_KEY);
+  closePfEditor();
+  loadAll();
+}
+
 // ── 초기 로드
 loadAll();
 </script>
+
+<!-- 포트폴리오 편집 모달 -->
+<div id="pfModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:999;align-items:center;justify-content:center;padding:16px">
+</div>
+
+<style>
+.pf-modal-box {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 360px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,.4);
+}
+.pf-edit-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.pf-edit-in {
+  padding: 7px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text1);
+  font-size: 13px;
+  outline: none;
+}
+.pf-edit-in:focus { border-color: var(--accent); }
+</style>
 </body>
 </html>

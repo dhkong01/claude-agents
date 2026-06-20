@@ -367,40 +367,19 @@ function localPfSave(data) {
 }
 
 // 서버에서 받은 가격 데이터(serverPf)를 기반으로 로컬 수량/평단가 적용
-// Yahoo Finance에서 단일 종목 현재가 조회 (CORS 허용 여부에 따라 실패 가능)
-async function fetchYFPrice(ticker) {
-  try {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=1d&interval=1d`;
-    const r = await fetch(url);
-    if (!r.ok) return null;
-    const j = await r.json();
-    const meta = j?.chart?.result?.[0]?.meta;
-    return meta?.regularMarketPrice || meta?.previousClose || null;
-  } catch { return null; }
-}
-
 // → loadAll()이 이미 받은 데이터를 직접 넘겨 이중 fetch 없이 동작
-async function applyLocalPortfolio(serverPf) {
+function applyLocalPortfolio(serverPf) {
   const local = localPfLoad();
   if (!local || !local.holdings?.length) return false;
 
-  // ticker → price 맵 구성
+  // ticker → price 맵 구성 (서버 데이터)
   const priceMap = {};
   (serverPf?.holdings || []).forEach(h => {
     if (h.ticker && h.price) priceMap[h.ticker] = h.price;
   });
 
-  // 서버 데이터에 없는 신규 종목 → Yahoo Finance 자동 조회
-  const missing = local.holdings.filter(h => !priceMap[h.ticker]);
-  if (missing.length) {
-    await Promise.all(missing.map(async h => {
-      const p = await fetchYFPrice(h.ticker);
-      if (p) priceMap[h.ticker] = p;
-    }));
-  }
-
   const holdings = local.holdings.map(h => {
-    // 서버/YF 가격 우선, 없으면 수동 입력 가격, 없으면 0
+    // 서버 가격 우선, 없으면 수동 입력 가격(manual_price), 없으면 0
     const price = priceMap[h.ticker] || h.manual_price || 0;
     const cost  = +(h.avg_cost * h.shares).toFixed(2);
     const value = +(price     * h.shares).toFixed(2);
@@ -432,7 +411,7 @@ async function loadAll() {
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
 
     // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
-    if (localPfLoad()) await applyLocalPortfolio(pfData);
+    if (localPfLoad()) applyLocalPortfolio(pfData);
 
     renderTrend();
     renderPortfolio();
@@ -948,6 +927,9 @@ function renderSector() {
 
 // ── 포트폴리오 편집 모달 ──────────────────────────────────
 function openPfEditor() {
+  // 서버(GitHub)에 있는 종목 티커 목록
+  const serverTickers = new Set((pfData?.holdings || []).map(h => h.ticker));
+
   const local = localPfLoad() || {
     holdings: (pfData?.holdings || []).map(h => ({
       ticker: h.ticker, shares: h.shares, avg_cost: h.avg_cost
@@ -955,7 +937,15 @@ function openPfEditor() {
     next_rebalance: pfData?.next_rebalance || '2026-08-21'
   };
 
-  const rows = local.holdings.map((h, i) => `
+  const rows = local.holdings.map((h, i) => {
+    const isNew = !serverTickers.has(h.ticker);
+    // 신규 종목: 현재가 입력란 주황색 강조
+    const priceStyle = isNew
+      ? 'width:68px;text-align:right;border-color:#f97316;background:#fff7ed;'
+      : 'width:68px;text-align:right;color:var(--text2);';
+    const pricePlaceholder = isNew ? '⚡현재가 필수' : '자동';
+    const priceTitle = isNew ? '서버에 없는 종목 — 현재 주가를 직접 입력하세요' : '서버에서 자동 업데이트됩니다';
+    return `
     <div class="pf-edit-row" id="pfrow-${i}">
       <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase"
              placeholder="티커" value="${h.ticker}" data-i="${i}" data-f="ticker">
@@ -963,18 +953,24 @@ function openPfEditor() {
              placeholder="수량" type="number" min="0" value="${h.shares}" data-i="${i}" data-f="shares">
       <input class="pf-edit-in" style="width:72px;text-align:right"
              placeholder="평단가$" type="number" min="0" step="0.01" value="${h.avg_cost}" data-i="${i}" data-f="avg_cost">
-      <input class="pf-edit-in" style="width:68px;text-align:right"
-             placeholder="현재가$" type="number" min="0" step="0.01" value="${h.manual_price || ''}" data-i="${i}" data-f="manual_price" title="신규 종목의 현재가를 직접 입력하세요">
+      <input class="pf-edit-in" style="${priceStyle}"
+             placeholder="${pricePlaceholder}" type="number" min="0" step="0.01"
+             value="${h.manual_price || ''}" data-i="${i}" data-f="manual_price" title="${priceTitle}"
+             ${isNew ? 'data-new="1"' : ''}>
       <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 
   document.getElementById('pfModal').innerHTML = `
   <div class="pf-modal-box">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
       <b style="font-size:16px">✏️ 포트폴리오 편집</b>
       <button onclick="closePfEditor()" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--text1)">✕</button>
     </div>
-    <div style="font-size:11px;color:var(--text2);margin-bottom:10px">변경사항은 이 기기에만 저장됩니다</div>
+    <div style="font-size:11px;color:var(--text2);margin-bottom:6px">변경사항은 이 기기에만 저장됩니다</div>
+    <div style="font-size:11px;color:#f97316;background:#fff7ed;border-radius:6px;padding:6px 8px;margin-bottom:8px">
+      ⚡ <b>새로 추가한 종목</b>은 현재가($)를 직접 입력해야 평가금액이 계산됩니다
+    </div>
     <div style="display:flex;gap:6px;font-size:11px;color:var(--text2);padding:0 0 4px 4px">
       <span style="width:64px">티커</span>
       <span style="width:56px;text-align:right">수량</span>
@@ -983,13 +979,13 @@ function openPfEditor() {
     </div>
     <div id="pfEditRows">${rows}</div>
     <button onclick="pfRowAdd()" style="width:100%;margin-top:8px;padding:8px;background:var(--card);border:1px dashed var(--border);border-radius:8px;color:var(--accent);cursor:pointer;font-size:13px">+ 종목 추가</button>
-    <div style="margin-top:12px;display:flex;align-items:center;gap:8px">
+    <div style="margin-top:10px;display:flex;align-items:center;gap:8px">
       <span style="font-size:12px;color:var(--text2);white-space:nowrap">다음 리밸런싱</span>
       <input id="pfNextRB" class="pf-edit-in" style="flex:1" type="date" value="${local.next_rebalance}">
     </div>
-    <div style="display:flex;gap:8px;margin-top:16px">
+    <div style="display:flex;gap:8px;margin-top:14px">
       <button onclick="pfSave()" style="flex:1;padding:10px;background:var(--accent);color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer">저장 & 새로고침</button>
-      <button onclick="pfReset()" style="padding:10px 14px;background:var(--card);border:1px solid var(--border);border-radius:10px;font-size:12px;cursor:pointer;color:var(--text2)">서버 데이터로 초기화</button>
+      <button onclick="pfReset()" style="padding:10px 14px;background:var(--card);border:1px solid var(--border);border-radius:10px;font-size:12px;cursor:pointer;color:var(--text2)">서버 초기화</button>
     </div>
   </div>`;
   document.getElementById('pfModal').style.display = 'flex';
@@ -1025,7 +1021,7 @@ function pfRowAdd() {
     <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase" placeholder="티커" data-i="${i}" data-f="ticker">
     <input class="pf-edit-in" style="width:56px;text-align:right" placeholder="수량" type="number" min="0" data-i="${i}" data-f="shares">
     <input class="pf-edit-in" style="width:72px;text-align:right" placeholder="평단가$" type="number" min="0" step="0.01" data-i="${i}" data-f="avg_cost">
-    <input class="pf-edit-in" style="width:68px;text-align:right" placeholder="현재가$" type="number" min="0" step="0.01" data-i="${i}" data-f="manual_price" title="신규 종목의 현재가를 직접 입력하세요">
+    <input class="pf-edit-in" style="width:68px;text-align:right;border-color:#f97316;background:#fff7ed;" placeholder="⚡현재가 필수" type="number" min="0" step="0.01" data-i="${i}" data-f="manual_price" data-new="1" title="서버에 없는 종목 — 현재 주가를 직접 입력하세요">
     <button onclick="pfRowDel(${i})" style="background:#ef4444;color:#fff;border:none;border-radius:6px;padding:4px 8px;cursor:pointer;font-size:13px">✕</button>`;
   container.appendChild(div);
   div.querySelector('[data-f="ticker"]').focus();
@@ -1034,10 +1030,27 @@ function pfRowAdd() {
 async function pfSave() {
   const holdings = _readRows();
   if (!holdings.length) return;
+
+  // 신규 종목(data-new=1) 중 현재가 미입력 확인
+  const missing = [...document.querySelectorAll('[data-new="1"]')]
+    .map(el => {
+      const row = el.closest('.pf-edit-row');
+      return row?.querySelector('[data-f="ticker"]')?.value?.trim().toUpperCase();
+    })
+    .filter(t => {
+      if (!t) return false;
+      const h = holdings.find(x => x.ticker === t);
+      return h && !h.manual_price;
+    });
+
+  if (missing.length) {
+    alert(`⚡ 다음 종목의 현재가($)를 입력해 주세요:\n${missing.join(', ')}\n\n현재가를 입력해야 평가금액과 손익이 계산됩니다.`);
+    return;
+  }
+
   const nextRB = document.getElementById('pfNextRB')?.value || '2026-08-21';
   localPfSave({ holdings, next_rebalance: nextRB });
   closePfEditor();
-  // loadAll()로 서버 최신 가격 재조회 후 로컬 수량/평단가 적용
   await loadAll();
 }
 

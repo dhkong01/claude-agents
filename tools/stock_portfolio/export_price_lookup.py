@@ -32,9 +32,20 @@ POPULAR_TICKERS = sorted(set([
     "XOM", "CVX", "OXY", "SLB",
     # Transport / EV
     "UBER", "LYFT", "RIVN", "LCID", "NIO", "XPEV", "LI",
-    # ETF
-    "SPY", "QQQ", "IWM", "SOXX", "SMH", "XLK", "XLF", "XLE",
-    "ARKK", "ARKW", "ARKG", "SOXL", "TQQQ", "UVXY",
+    # ETF (섹터 + 레버리지)
+    "SPY", "QQQ", "IWM", "SOXX", "SMH", "XLK", "XLF", "XLE", "XLC", "XLRE",
+    "ARKK", "ARKW", "ARKG", "SOXL", "TQQQ", "UVXY", "SPXL", "LABU",
+    # 레버리지 개별주 ETF
+    "TSLL", "NVDL", "MSFO", "AMZU",
+    # Fintech / 결제
+    "XYZ", "PYPL", "AFRM", "SOFI", "NU", "UPST",
+    # 항공우주 / 방산
+    "LMT", "RTX", "GD", "NOC", "BA", "KTOS", "JOBY",
+    # 커머디티 / 금
+    "GLD", "SLV", "GDX", "GDXJ", "USO",
+    # 중소형 인기 성장주
+    "OPEN", "OPRA", "HIMS", "WOLF", "CELH", "DECK", "ONON",
+    "TTWO", "ZG", "EXPI", "FIGS", "BROS", "CPNG",
 ]))
 
 

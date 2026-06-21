@@ -1,36 +1,38 @@
 {
-  "date": "2026-06-20",
-  "mode": "daily",
+  "date": "2026-06-21",
+  "mode": "weekly",
   "geo_risk": {
-    "date": "2026-06-20",
-    "risk_score": 9.0,
+    "date": "2026-06-21",
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 2,
-    "medium_risk_signals": 4,
+    "high_risk_signals": 3,
+    "medium_risk_signals": 5,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Semiconductors": "WATCH",
-      "Defense": "ELEVATED"
+      "Semiconductors": "ELEVATED",
+      "Defense": "ELEVATED",
+      "Financials": "WATCH"
     },
     "top_risk_events": [
-      "World Leaders Awaited Iran Deal For Months. Here’S Why They’Re Still Wary.",
-      "Shipping Remains Far Below Prewar Levels In The Strait Of Hormuz.",
-      "Lebanon Emerges As Weak Link In U.S.-Iran Deal To End War"
+      "Neither The War Nor Trump’S Deal Terminated The Main Threats In Iran, Analysts Say",
+      "U.S. And Iran Have Plenty To Negotiate Beyond Nuclear Issues",
+      "Iran Nuclear Talks Expected To Hinge On These 4 Questions"
     ],
-    "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Energy, Semiconductors, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 20,
-      "sqqq_pct": 20,
+      "long_pct": 15,
+      "sqqq_pct": 25,
       "cash_pct": 60,
-      "per_stock_pct": 4.0,
+      "per_stock_pct": 3.0,
       "action": "MAX_DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
+        "Semiconductors",
         "Defense"
       ],
-      "reasoning": "Risk 9.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 25% + 현금 60%. 롱 최소화. [Energy, Semiconductors, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -313,7 +315,7 @@
       "has_vcp": false,
       "pivot": 201.76,
       "current_price": 194.92,
-      "rs_rating": 95.9,
+      "rs_rating": 95.8,
       "ma50": 179.01,
       "ma200": 120.23,
       "final_depth_pct": 16.2,
@@ -351,7 +353,7 @@
       "pivot": 352.23,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "KLAC",
@@ -368,7 +370,7 @@
       "pivot": null,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "TER",
@@ -385,7 +387,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "LRCX",
@@ -402,7 +404,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "SNDK",
@@ -419,7 +421,7 @@
       "pivot": 1840.66,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     }
   ],
   "sqqq_channel": {
@@ -431,127 +433,5 @@
     "dist_to_lower_pct": 1.2,
     "channel_width_pct": 24.6,
     "ticker": "SQQQ"
-  },
-  "price_freshness": {
-    "status": "FRESH",
-    "latest_date": "2026-06-18",
-    "checked_at": "2026-06-20 23:41",
-    "sample": {
-      "SPY": 746.74,
-      "QQQ": 740.62,
-      "NVDA": 210.69
-    }
-  },
-  "tracking": [
-    {
-      "ticker": "TSLA",
-      "current": 400.49,
-      "donchian_upper": 442.1,
-      "donchian_lower": 381.59,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 10.4,
-      "dist_to_lower_pct": 4.7,
-      "channel_width_pct": 15.9
-    },
-    {
-      "ticker": "PLTR",
-      "current": 128.47,
-      "donchian_upper": 160.65,
-      "donchian_lower": 127.99,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 25.0,
-      "dist_to_lower_pct": 0.4,
-      "channel_width_pct": 25.5
-    },
-    {
-      "ticker": "VKTX",
-      "current": 30.38,
-      "donchian_upper": 32.74,
-      "donchian_lower": 27.75,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 7.8,
-      "dist_to_lower_pct": 8.7,
-      "channel_width_pct": 18.0
-    },
-    {
-      "ticker": "META",
-      "current": 577.22,
-      "donchian_upper": 634.7,
-      "donchian_lower": 566.45,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 10.0,
-      "dist_to_lower_pct": 1.9,
-      "channel_width_pct": 12.0
-    },
-    {
-      "ticker": "MRVL",
-      "current": 310.58,
-      "donchian_upper": 316.43,
-      "donchian_lower": 252.59,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.9,
-      "dist_to_lower_pct": 18.7,
-      "channel_width_pct": 25.3
-    },
-    {
-      "ticker": "ARM",
-      "current": 439.46,
-      "donchian_upper": 418.88,
-      "donchian_lower": 307.43,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -4.7,
-      "dist_to_lower_pct": 30.0,
-      "channel_width_pct": 36.3
-    },
-    {
-      "ticker": "LRCX",
-      "current": 389.04,
-      "donchian_upper": 388.65,
-      "donchian_lower": 303.07,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.1,
-      "dist_to_lower_pct": 22.1,
-      "channel_width_pct": 28.2
-    },
-    {
-      "ticker": "KEYS",
-      "current": 363.67,
-      "donchian_upper": 356.94,
-      "donchian_lower": 324.0,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.9,
-      "dist_to_lower_pct": 10.9,
-      "channel_width_pct": 10.2
-    },
-    {
-      "ticker": "KLAC",
-      "current": 259.56,
-      "donchian_upper": 256.42,
-      "donchian_lower": 192.92,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.2,
-      "dist_to_lower_pct": 25.7,
-      "channel_width_pct": 32.9
-    },
-    {
-      "ticker": "TER",
-      "current": 437.92,
-      "donchian_upper": 432.41,
-      "donchian_lower": 347.59,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.3,
-      "dist_to_lower_pct": 20.6,
-      "channel_width_pct": 24.4
-    },
-    {
-      "ticker": "SNDK",
-      "current": 2184.75,
-      "donchian_upper": 2107.86,
-      "donchian_lower": 1559.32,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -3.5,
-      "dist_to_lower_pct": 28.6,
-      "channel_width_pct": 35.2
-    }
-  ]
+  }
 }

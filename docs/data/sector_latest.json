@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "quarter": "2026-Q2",
   "q_start": "2026-04-01",
   "sectors": [
@@ -165,7 +165,7 @@
     "rec_sectors": []
   },
   "geo_risk": {
-    "risk_score": 9.0,
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

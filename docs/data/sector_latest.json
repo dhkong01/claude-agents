@@ -1,93 +1,93 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "quarter": "2026-Q2",
   "q_start": "2026-04-01",
   "sectors": [
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 41.9,
-      "week1": 3.59,
+      "qtd": 42.43,
+      "week1": 0.19,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": 10.02,
-      "week1": 2.68,
+      "qtd": 10.56,
+      "week1": 1.75,
       "rank": 2,
       "status": "과열"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 8.35,
-      "week1": 0.43,
+      "qtd": 8.62,
+      "week1": 0.26,
       "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 7.11,
-      "week1": -3.31,
+      "qtd": 7.5,
+      "week1": -2.16,
       "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": 6.7,
-      "week1": 0.48,
+      "qtd": 4.68,
+      "week1": -3.06,
       "rank": 5,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 2.68,
-      "week1": -0.71,
+      "qtd": 2.3,
+      "week1": -1.68,
       "rank": 6,
-      "status": "중립"
-    },
-    {
-      "sector": "Consumer Staples",
-      "etf": "XLP",
-      "qtd": 2.26,
-      "week1": -2.94,
-      "rank": 7,
       "status": "중립"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 1.13,
-      "week1": -2.87,
+      "qtd": 1.58,
+      "week1": -1.85,
+      "rank": 7,
+      "status": "중립"
+    },
+    {
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 0.88,
+      "week1": -3.86,
       "rank": 8,
       "status": "중립"
     },
     {
-      "sector": "Communication",
-      "etf": "XLC",
-      "qtd": -1.61,
-      "week1": -1.97,
+      "sector": "Utilities",
+      "etf": "XLU",
+      "qtd": -3.01,
+      "week1": -0.04,
       "rank": 9,
       "status": "약세"
     },
     {
-      "sector": "Utilities",
-      "etf": "XLU",
-      "qtd": -2.93,
-      "week1": 0.52,
+      "sector": "Communication",
+      "etf": "XLC",
+      "qtd": -3.94,
+      "week1": -4.75,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": -8.82,
-      "week1": -6.57,
+      "qtd": -8.33,
+      "week1": -2.68,
       "rank": 11,
       "status": "약세"
     }
@@ -96,65 +96,65 @@
     "Technology": [
       {
         "ticker": "TER",
-        "rs": 97.0,
+        "rs": 96.8,
         "canslim": 67,
-        "price": 437.92
+        "price": 457.0
       },
       {
         "ticker": "LRCX",
-        "rs": 96.6,
+        "rs": 96.4,
         "canslim": 67,
-        "price": 389.04
+        "price": 409.54
       },
       {
         "ticker": "AMAT",
         "rs": 96.0,
         "canslim": 67,
-        "price": 617.11
-      },
-      {
-        "ticker": "ADI",
-        "rs": 91.3,
-        "canslim": 67,
-        "price": 434.46
+        "price": 640.18
       },
       {
         "ticker": "MU",
-        "rs": 98.6,
+        "rs": 98.8,
         "canslim": 64,
-        "price": 1133.99
+        "price": 1211.38
       },
       {
-        "ticker": "ARM",
-        "rs": 97.6,
+        "ticker": "STX",
+        "rs": 98.4,
         "canslim": 64,
-        "price": 439.46
+        "price": 1094.04
       },
       {
         "ticker": "TXN",
-        "rs": 94.1,
+        "rs": 94.5,
         "canslim": 64,
-        "price": 322.86
-      },
-      {
-        "ticker": "MPWR",
-        "rs": 93.7,
-        "canslim": 64,
-        "price": 1563.7
+        "price": 332.28
       }
     ],
     "Industrials": [
       {
-        "ticker": "CAT",
-        "rs": 94.5,
-        "canslim": 64,
-        "price": 985.82
+        "ticker": "GEV",
+        "rs": 92.5,
+        "canslim": 67,
+        "price": 1127.59
       },
       {
-        "ticker": "GEV",
-        "rs": 92.9,
+        "ticker": "FIX",
+        "rs": 95.7,
         "canslim": 64,
-        "price": 1109.73
+        "price": 2066.51
+      },
+      {
+        "ticker": "CAT",
+        "rs": 94.7,
+        "canslim": 64,
+        "price": 1022.28
+      },
+      {
+        "ticker": "GNRC",
+        "rs": 94.3,
+        "canslim": 64,
+        "price": 295.54
       }
     ]
   },

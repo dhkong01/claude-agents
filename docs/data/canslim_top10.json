@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "analyzed": 46,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 68552945664,
-      "price": 437.92,
-      "rs_rating": 97.0
+      "market_cap": 71539769344,
+      "price": 457.0,
+      "rs_rating": 96.8
     },
     {
       "ticker": "LRCX",
@@ -34,9 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 486522159104,
-      "price": 389.04,
-      "rs_rating": 96.6
+      "market_cap": 512158859264,
+      "price": 409.54,
+      "rs_rating": 96.4
     },
     {
       "ticker": "AMAT",
@@ -52,12 +52,12 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 489960275968,
-      "price": 617.11,
+      "market_cap": 508276932608,
+      "price": 640.18,
       "rs_rating": 96.0
     },
     {
-      "ticker": "ADI",
+      "ticker": "GEV",
       "canslim_score": 67,
       "scores": {
         "C": 10,
@@ -68,11 +68,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 211619823616,
-      "price": 434.46,
-      "rs_rating": 91.3
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "market_cap": 303005990912,
+      "price": 1127.59,
+      "rs_rating": 92.5
     },
     {
       "ticker": "MU",
@@ -88,12 +88,12 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1278839095296,
-      "price": 1133.99,
-      "rs_rating": 98.6
+      "market_cap": 1366114435072,
+      "price": 1211.38,
+      "rs_rating": 98.8
     },
     {
-      "ticker": "ARM",
+      "ticker": "STX",
       "canslim_score": 64,
       "scores": {
         "C": 10,
@@ -105,10 +105,28 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 469377908736,
-      "price": 439.46,
-      "rs_rating": 97.6
+      "industry": "Computer Hardware",
+      "market_cap": 247528865792,
+      "price": 1094.04,
+      "rs_rating": 98.4
+    },
+    {
+      "ticker": "FIX",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "market_cap": 72708022272,
+      "price": 2066.51,
+      "rs_rating": 95.7
     },
     {
       "ticker": "CAT",
@@ -124,9 +142,9 @@
       },
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 454060769280,
-      "price": 985.82,
-      "rs_rating": 94.5
+      "market_cap": 470853976064,
+      "price": 1022.28,
+      "rs_rating": 94.7
     },
     {
       "ticker": "TXN",
@@ -142,45 +160,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 293832556544,
-      "price": 322.86,
-      "rs_rating": 94.1
+      "market_cap": 302405648384,
+      "price": 332.28,
+      "rs_rating": 94.5
     },
     {
-      "ticker": "MPWR",
+      "ticker": "GNRC",
       "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 76824576000,
-      "price": 1563.7,
-      "rs_rating": 93.7
-    },
-    {
-      "ticker": "GEV",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
+        "N": 10,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "market_cap": 298206625792,
-      "price": 1109.73,
-      "rs_rating": 92.9
+      "market_cap": 17398050816,
+      "price": 295.54,
+      "rs_rating": 94.3
     }
   ]
 }

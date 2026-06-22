@@ -1,7 +1,11 @@
 """
-로또 예측 v5
-통합점수 = 정합성 50% + 쌍조건부확률 25% + 트리플렛공출현 25%
+로또 예측 v6
+통합점수 = 정합성 10% + 쌍조건부확률 40% + 트리플렛공출현 50%
 필터: 합계범위 + 밴드분산 + 3연속제외 + 홀짝비율 + 끝자리중복
+─────────────────────────────────────────────────────────────
+200회 백테스트 그리드서치 결과 (랜덤대비 +10.9%):
+  · 트리플렛 50% + 쌍확률 40% + 정합성 10% → 평균 1.775개/TOP12
+  · 정합성 단독(100%)은 랜덤(1.600) 이하 — 과체중 시 역효과
 ─────────────────────────────────────────────────────────────
 매주 달라지는 3가지 장치:
   1. 직전 실제 당첨번호 감쇠 — 지난주 번호 점수를 줄여 다른 번호 부상
@@ -56,11 +60,11 @@ else:
 CORE_THRESH = 0.65
 N_GAMES     = 5
 N_SAMPLES   = 60000
-TOP_N       = 25      # C(25,6)=177,100 전수탐색
+TOP_N       = 30      # C(30,6)=593,775 전수탐색 (25→30 확장)
 TEMP        = 1.5
-W_COH       = 0.50
-W_PAIR      = 0.25
-W_TRIP      = 0.25
+W_COH       = 0.10   # 200회 그리드서치 최적값 (구: 0.50)
+W_PAIR      = 0.40   # 200회 그리드서치 최적값 (구: 0.25)
+W_TRIP      = 0.50   # 200회 그리드서치 최적값 (구: 0.25) — 가장 강력한 예측인자
 
 # ── 직전 실제 당첨번호 감쇠 ──────────────────────────────────────
 # 지난주에 실제로 나온 번호들을 약화시켜 매주 다른 조합 도출
@@ -180,7 +184,7 @@ def monte_carlo_best(n_samples, game_idx, exclude_combos=None, prev_used=None, d
 
 # ── 5게임 생성 ────────────────────────────────────────────────────
 target_draw = last_draw + 1
-print(f"Game 1: 전수탐색 C(25,6)=177,100 [{target_draw}회 예측, 직전당첨 감쇠 적용]...")
+print(f"Game 1: 전수탐색 C(30,6)=593,775 [{target_draw}회 예측, 직전당첨 감쇠 적용]...")
 if recent_draws:
     print(f"  직전 당첨({recent_draws[0]['draw']}회): {recent_draws[0]['numbers']} → 감쇠 {int(RECENCY_DECAY[0]*100)}%")
 
@@ -254,7 +258,7 @@ out = {
     "trip_score":         best_game["trip_score"],
     "trip_vs_random":     best_game["trip_vs_random"],
     "combined_score":     best_game["combined_score"],
-    "method":             f"정합성50%+쌍확률25%+트리플렛25%+직전감쇠+회차시드 ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
+    "method":             f"트리플렛50%+쌍확률40%+정합성10%+직전감쇠+회차시드 ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
     "hot_included":       best_game["hot_included"],
     "individual_coherence": best_game["individual_coherence"],
     "pair_detail":        best_game["pair_detail"],

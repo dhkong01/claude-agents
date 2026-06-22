@@ -72,7 +72,7 @@ def format_lotto_message(pred: dict) -> str:
 
     # 대표 게임 인덱스
     best_idx = max(range(len(games)),
-                   key=lambda i: games[i]["overall_coherence"]) if games else 0
+                   key=lambda i: games[i].get("combined_score", games[i]["overall_coherence"])) if games else 0
 
     lines = [
         f"🎱 로또 예측 — 제{draw}회",
@@ -167,7 +167,7 @@ def save_report(pred: dict) -> Path:
 
     games   = pred.get("games", [])
     best_idx = max(range(len(games)),
-                   key=lambda i: games[i]["overall_coherence"]) if games else 0
+                   key=lambda i: games[i].get("combined_score", games[i]["overall_coherence"])) if games else 0
     bg = games[best_idx] if games else pred
     core = set(bg.get("core_numbers", []))
     ind  = bg.get("individual_coherence", {})

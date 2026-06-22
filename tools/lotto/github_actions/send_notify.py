@@ -39,7 +39,10 @@ def _post(url, data=None, headers=None, as_json=False):
 
 
 # ── 메시지 조립 ───────────────────────────────────────────────
-method_short = "정합성+쌍확률" if "쌍" in pred.get("method", "") else "3모델합의정합성"
+_m = pred.get("method", "")
+method_short = ("트리플렛+쌍확률" if "트리플렛" in _m
+                else "정합성+쌍확률" if "쌍" in _m
+                else "3모델합의정합성")
 lines1 = [f"🎱 로또 {draw}회 예측 ({method_short})"]
 for g, gr in enumerate(games):
     nums     = " ".join(f"{n:02d}" for n in gr["numbers"])

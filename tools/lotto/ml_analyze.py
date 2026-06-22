@@ -61,8 +61,28 @@ def model_pair(recs):
         f[a-1] += cnt; f[b-1] += cnt
     return softmax((f - f.mean()) / (f.std() + 1e-8))
 
-STABLE_MODELS      = [model_freq_100, model_freq_all, model_pair]
-STABLE_MODEL_NAMES = ["빈도100", "빈도전체", "공출현"]
+def model_momentum(recs, window=20):
+    """빈도 상승 추세 모델 — 최근 window회 vs 이전 window회 빈도 차이.
+    최근에 더 자주 나오는 번호(상승 추세)에 높은 점수 부여.
+    매주 실제 당첨 결과가 바뀌면 이 모델의 점수도 자연스럽게 변함."""
+    if len(recs) < window * 2:
+        return _freq(recs, len(recs))
+    recent = np.zeros(45)
+    older  = np.zeros(45)
+    for r in recs[:window]:
+        for x in r["numbers"]: recent[x-1] += 1
+    for r in recs[window:window*2]:
+        for x in r["numbers"]: older[x-1] += 1
+    recent /= window; older /= window
+    delta    = recent - older           # 양수 = 상승 추세
+    combined = recent + delta * 1.5    # 기본 빈도 + 추세 보너스
+    combined = np.clip(combined, 0, None)
+    return softmax((combined - combined.mean()) / (combined.std() + 1e-8))
+
+# 4번째 모델로 모멘텀 추가 → 주차마다 상승/하락 추세 번호가 달라지므로
+# 정합성 순위가 매주 자연스럽게 변동됨
+STABLE_MODELS      = [model_freq_100, model_freq_all, model_pair, model_momentum]
+STABLE_MODEL_NAMES = ["빈도100", "빈도전체", "공출현", "모멘텀"]
 ALL_MODELS  = [lambda r: _freq(r,30), lambda r: _freq(r,50),
                model_freq_100, model_freq_all, model_ema, model_pair]
 
@@ -257,7 +277,9 @@ for name in STABLE_MODEL_NAMES:
 out = {
     "last_draw":            hist["last_draw"],
     "based_on":             N,
-    "coherence_method":     f"3안정모델×부트스트랩(top-15,n_boot=5000) | 정합성:최근{N_COH}회 / 쌍·트리플렛:{N}회",
+    "coherence_method":     f"4모델×부트스트랩(top-15,n_boot=5000) | 정합성:최근{N_COH}회 / 쌍·트리플렛:{N}회",
+    # 최근 5회 실제 당첨번호 — predict.py에서 감쇠 적용용
+    "recent_draws":         [{"draw": r["draw"], "numbers": r["numbers"]} for r in records[:5]],
     "ensemble_weights":     {str(i+1): round(float(ens_full[i]), 6) for i in range(45)},
     "number_coherence":     number_coherence,
     "coherence_by_model":   coherence_by_model,

@@ -1,63 +1,9 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "analyzed": 46,
   "top10": [
     {
-      "ticker": "TER",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 71539769344,
-      "price": 457.0,
-      "rs_rating": 96.8
-    },
-    {
-      "ticker": "LRCX",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 512158859264,
-      "price": 409.54,
-      "rs_rating": 96.4
-    },
-    {
-      "ticker": "AMAT",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 508276932608,
-      "price": 640.18,
-      "rs_rating": 96.0
-    },
-    {
-      "ticker": "GEV",
+      "ticker": "CAT",
       "canslim_score": 67,
       "scores": {
         "C": 10,
@@ -69,36 +15,90 @@
         "M": 7
       },
       "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "market_cap": 303005990912,
-      "price": 1127.59,
-      "rs_rating": 92.5
+      "industry": "Farm & Heavy Construction Machinery",
+      "market_cap": 453333024768,
+      "price": 984.24,
+      "rs_rating": 94.9
     },
     {
-      "ticker": "MU",
+      "ticker": "TER",
       "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 7,
+        "N": 7,
+        "S": 10,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 1366114435072,
-      "price": 1211.38,
-      "rs_rating": 98.8
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 65766490112,
+      "price": 420.12,
+      "rs_rating": 96.6
     },
     {
-      "ticker": "STX",
+      "ticker": "LRCX",
       "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 464374530048,
+      "price": 371.33,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "AMAT",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 465164959744,
+      "price": 585.88,
+      "rs_rating": 96.0
+    },
+    {
+      "ticker": "WDC",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 231195541504,
+      "price": 670.75,
+      "rs_rating": 98.8
+    },
+    {
+      "ticker": "STX",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
         "S": 7,
         "L": 10,
         "I": 10,
@@ -106,17 +106,35 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 247528865792,
-      "price": 1094.04,
+      "market_cap": 234983178240,
+      "price": 1038.59,
       "rs_rating": 98.4
     },
     {
-      "ticker": "FIX",
-      "canslim_score": 64,
+      "ticker": "GLW",
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": 167023984640,
+      "price": 194.07,
+      "rs_rating": 95.9
+    },
+    {
+      "ticker": "FIX",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
         "S": 7,
         "L": 10,
         "I": 10,
@@ -124,33 +142,15 @@
       },
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "market_cap": 72708022272,
-      "price": 2066.51,
-      "rs_rating": 95.7
+      "market_cap": 67133472768,
+      "price": 1908.07,
+      "rs_rating": 95.5
     },
     {
-      "ticker": "CAT",
-      "canslim_score": 64,
+      "ticker": "FTNT",
+      "canslim_score": 61,
       "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 470853976064,
-      "price": 1022.28,
-      "rs_rating": 94.7
-    },
-    {
-      "ticker": "TXN",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
+        "C": 7,
         "A": 10,
         "N": 10,
         "S": 7,
@@ -159,28 +159,28 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 302405648384,
-      "price": 332.28,
-      "rs_rating": 94.5
+      "industry": "Software - Infrastructure",
+      "market_cap": 108431958016,
+      "price": 148.0,
+      "rs_rating": 94.3
     },
     {
-      "ticker": "GNRC",
-      "canslim_score": 64,
+      "ticker": "CSCO",
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
         "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "market_cap": 17398050816,
-      "price": 295.54,
-      "rs_rating": 94.3
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "market_cap": 477504798720,
+      "price": 121.15,
+      "rs_rating": 93.1
     }
   ]
 }

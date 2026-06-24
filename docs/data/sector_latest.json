@@ -1,93 +1,93 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "quarter": "2026-Q2",
   "q_start": "2026-04-01",
   "sectors": [
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 36.69,
-      "week1": -1.09,
+      "qtd": 35.84,
+      "week1": -1.36,
       "rank": 1,
       "status": "과열"
     },
     {
+      "sector": "Industrials",
+      "etf": "XLI",
+      "qtd": 9.87,
+      "week1": 0.59,
+      "rank": 2,
+      "status": "강세"
+    },
+    {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 9.97,
-      "week1": -0.15,
-      "rank": 2,
+      "qtd": 9.65,
+      "week1": 2.12,
+      "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 9.36,
-      "week1": -0.52,
-      "rank": 3,
-      "status": "강세"
-    },
-    {
-      "sector": "Industrials",
-      "etf": "XLI",
-      "qtd": 8.61,
-      "week1": -0.7,
+      "qtd": 9.04,
+      "week1": -0.26,
       "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": 3.81,
-      "week1": -3.78,
+      "qtd": 5.01,
+      "week1": -0.17,
       "rank": 5,
       "status": "강세"
     },
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 3.49,
-      "week1": -1.51,
+      "qtd": 4.38,
+      "week1": 1.61,
       "rank": 6,
       "status": "강세"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 3.47,
-      "week1": -0.06,
+      "qtd": 4.26,
+      "week1": 2.2,
       "rank": 7,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 1.19,
-      "week1": -3.15,
+      "qtd": 1.77,
+      "week1": -1.29,
       "rank": 8,
       "status": "중립"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": -1.63,
-      "week1": 0.66,
+      "qtd": -0.61,
+      "week1": 3.08,
       "rank": 9,
       "status": "약세"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -3.32,
-      "week1": -4.25,
+      "qtd": -3.98,
+      "week1": -2.18,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": -6.98,
-      "week1": -0.92,
+      "qtd": -8.5,
+      "week1": -1.31,
       "rank": 11,
       "status": "약세"
     }
@@ -98,63 +98,63 @@
         "ticker": "CAT",
         "rs": 94.9,
         "canslim": 67,
-        "price": 984.24
+        "price": 994.45
+      },
+      {
+        "ticker": "GNRC",
+        "rs": 93.7,
+        "canslim": 64,
+        "price": 284.14
       },
       {
         "ticker": "FIX",
-        "rs": 95.5,
+        "rs": 95.7,
         "canslim": 61,
-        "price": 1908.07
+        "price": 1954.47
       }
     ],
     "Technology": [
       {
         "ticker": "TER",
-        "rs": 96.6,
+        "rs": 96.8,
         "canslim": 64,
-        "price": 420.12
+        "price": 427.2
       },
       {
         "ticker": "LRCX",
         "rs": 96.2,
         "canslim": 64,
-        "price": 371.33
+        "price": 374.8
       },
       {
         "ticker": "AMAT",
-        "rs": 96.0,
+        "rs": 95.9,
         "canslim": 64,
-        "price": 585.88
+        "price": 588.97
       },
       {
         "ticker": "WDC",
         "rs": 98.8,
         "canslim": 61,
-        "price": 670.75
-      },
-      {
-        "ticker": "STX",
-        "rs": 98.4,
-        "canslim": 61,
-        "price": 1038.59
+        "price": 643.83
       },
       {
         "ticker": "GLW",
-        "rs": 95.9,
+        "rs": 96.0,
         "canslim": 61,
-        "price": 194.07
+        "price": 205.83
       },
       {
         "ticker": "FTNT",
-        "rs": 94.3,
+        "rs": 94.5,
         "canslim": 61,
-        "price": 148.0
+        "price": 145.28
       },
       {
         "ticker": "CSCO",
         "rs": 93.1,
         "canslim": 61,
-        "price": 121.15
+        "price": 119.73
       }
     ]
   },
@@ -165,7 +165,7 @@
     "rec_sectors": []
   },
   "geo_risk": {
-    "risk_score": 7.5,
+    "risk_score": 9.5,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

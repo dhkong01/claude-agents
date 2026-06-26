@@ -1,93 +1,93 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "quarter": "2026-Q2",
   "q_start": "2026-04-01",
   "sectors": [
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 36.97,
-      "week1": -3.47,
+      "qtd": 34.41,
+      "week1": -5.75,
       "rank": 1,
-      "status": "과열"
-    },
-    {
-      "sector": "Industrials",
-      "etf": "XLI",
-      "qtd": 12.25,
-      "week1": 2.02,
-      "rank": 2,
       "status": "과열"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 9.84,
-      "week1": 2.56,
+      "qtd": 11.44,
+      "week1": 2.77,
+      "rank": 2,
+      "status": "과열"
+    },
+    {
+      "sector": "Industrials",
+      "etf": "XLI",
+      "qtd": 10.47,
+      "week1": -0.33,
       "rank": 3,
+      "status": "과열"
+    },
+    {
+      "sector": "Healthcare",
+      "etf": "XLV",
+      "qtd": 9.01,
+      "week1": 6.85,
+      "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 8.49,
-      "week1": 0.13,
-      "rank": 4,
-      "status": "강세"
-    },
-    {
-      "sector": "Healthcare",
-      "etf": "XLV",
-      "qtd": 5.81,
-      "week1": 4.63,
+      "qtd": 8.73,
+      "week1": -0.24,
       "rank": 5,
       "status": "강세"
     },
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 3.76,
-      "week1": 1.47,
+      "qtd": 4.71,
+      "week1": 3.08,
       "rank": 6,
       "status": "강세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": 3.44,
-      "week1": -3.06,
+      "qtd": 4.37,
+      "week1": -0.5,
       "rank": 7,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 3.12,
-      "week1": 0.43,
+      "qtd": 2.64,
+      "week1": -0.04,
       "rank": 8,
-      "status": "강세"
+      "status": "중립"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 0.07,
-      "week1": 3.09,
+      "qtd": 0.83,
+      "week1": 3.31,
       "rank": 9,
       "status": "중립"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -4.84,
-      "week1": -3.28,
+      "qtd": -4.3,
+      "week1": -0.64,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": -7.61,
-      "week1": 1.32,
+      "qtd": -8.04,
+      "week1": -0.41,
       "rank": 11,
       "status": "약세"
     }
@@ -95,68 +95,68 @@
   "us_by_sector": {
     "Technology": [
       {
-        "ticker": "TER",
-        "rs": 97.0,
+        "ticker": "GLW",
+        "rs": 96.4,
         "canslim": 67,
-        "price": 471.96
+        "price": 221.05
+      },
+      {
+        "ticker": "TER",
+        "rs": 96.8,
+        "canslim": 64,
+        "price": 436.86
       },
       {
         "ticker": "AMAT",
         "rs": 96.2,
-        "canslim": 67,
-        "price": 668.0
+        "canslim": 64,
+        "price": 626.84
       },
       {
         "ticker": "LRCX",
         "rs": 96.0,
-        "canslim": 67,
-        "price": 401.82
+        "canslim": 64,
+        "price": 379.09
       },
       {
         "ticker": "MU",
         "rs": 98.8,
-        "canslim": 64,
-        "price": 1213.56
+        "canslim": 61,
+        "price": 1132.33
       },
       {
-        "ticker": "GLW",
-        "rs": 95.8,
-        "canslim": 64,
-        "price": 228.01
-      },
-      {
-        "ticker": "ADI",
-        "rs": 90.5,
-        "canslim": 64,
-        "price": 417.93
+        "ticker": "FTNT",
+        "rs": 94.1,
+        "canslim": 61,
+        "price": 151.35
       }
     ],
     "Industrials": [
       {
         "ticker": "CAT",
-        "rs": 94.7,
-        "canslim": 67,
-        "price": 1057.01
-      },
-      {
-        "ticker": "FIX",
-        "rs": 95.5,
+        "rs": 94.5,
         "canslim": 64,
-        "price": 2017.57
+        "price": 997.47
       },
       {
         "ticker": "GNRC",
-        "rs": 94.3,
-        "canslim": 64,
-        "price": 295.16
+        "rs": 93.3,
+        "canslim": 61,
+        "price": 278.62
+      },
+      {
+        "ticker": "JBHT",
+        "rs": 92.9,
+        "canslim": 61,
+        "price": 280.3
       }
     ],
     "Basic Materials": [
       {
         "ticker": "NUE",
-        "rs": 92.9,
-        "canslim": 64,
-        "price": 248.89
+        "rs": 92.5,
+        "canslim": 61,
+        "price": 239.78
       }
     ]
   },
@@ -167,7 +167,7 @@
     "rec_sectors": []
   },
   "geo_risk": {
-    "risk_score": 10.0,
+    "risk_score": 8.5,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

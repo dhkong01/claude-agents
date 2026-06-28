@@ -149,6 +149,9 @@ for idx, r in enumerate(records):
         if ls[x] == N: ls[x] = idx
 gap = np.array([ls[i] for i in range(1, 46)], dtype=float)
 
+# Gap 정규화 벡터 (predict.py에서 Gap-전략 게임에 사용)
+gap_norm = (gap / gap.max()).round(4).tolist()  # 0~1, 높을수록 오래 안 나온 번호
+
 # ── 공출현 Top 30 (전체 1228회 기준) ─────────────────────────────
 cooc_pair = defaultdict(int)
 for r in records:
@@ -324,6 +327,7 @@ out = {
     "number_coherence":     number_coherence,
     "coherence_by_model":   coherence_by_model,
     "gap_ranks":            sorted(range(1, 46), key=lambda i: -gap[i-1])[:10],
+    "gap_scores":           gap_norm,   # 45개 전체 — 0=최근등장, 1=가장오래안나온번호
     "top_pairs":            [[list(p), c] for p, c in top_pairs],
     "window_freq":          {"w5": window_freq(5), "w10": window_freq(10), "w20": window_freq(20)},
     "hot":                  ana["hot"],

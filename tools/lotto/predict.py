@@ -1,17 +1,15 @@
 """
-로또 예측 v7
-통합점수 = 정합성 5% + 쌍확률 15% + 트리플렛 35% + Lift트리플렛 45%
-필터: 합계범위 + 밴드분산 + 3연속제외 + 홀짝비율 + 끝자리중복
+로또 예측 v8 — 5가지 다전략
+통합점수 = Lift 45% + 트리플렛 35% + 쌍확률 15% + 정합성 5%
 ─────────────────────────────────────────────────────────────
-200회 백테스트 그리드서치 결과 (랜덤대비 +14.4%):
-  · Lift트리플렛 45% = 실제공출현 / 개별빈도기댓값 → 편향 제거
-  · 트리플렛(raw) 35% + 쌍확률 15% + 정합성 5%
-  · 1.785 → 1.830개/TOP12 (+14.4% vs 랜덤 1.600)
-─────────────────────────────────────────────────────────────
-매주 달라지는 3가지 장치:
-  1. 직전 실제 당첨번호 감쇠 — 지난주 번호 점수를 줄여 다른 번호 부상
-  2. 회차 기반 시드 — MC 탐색이 draw_no 따라 매주 다른 경로
-  3. 직전 예측 제외 — 지난 4주 Game1과 동일 조합 자동 건너뜀
+[핵심 개선] 합계 필터 p20-p80 → p10-p90 (실제 당첨 제외 방지)
+[핵심 개선] 5게임이 서로 다른 전략으로 더 넓은 확률 공간 커버
+
+Game A: HOT    — Lift 전수탐색 (고정합성 최적)
+Game B: HOT-MC — 핫넘버 MC 탐색
+Game C: GAP    — 오래 안 나온 번호 우대 MC
+Game D: COLD   — 저정합성 번호 우대 MC (비인기 번호 커버)
+Game E: MIX    — 균등 가중 MC (완전 다양성)
 ─────────────────────────────────────────────────────────────
 """
 import json, numpy as np
@@ -30,8 +28,8 @@ if ml_path.exists():
     gap_top    = set(ml["gap_ranks"])
     last_draw  = ml["last_draw"]
     ss         = ml.get("sum_stats", {})
-    SUM_LO     = int(ss.get("p20", 100))
-    SUM_HI     = int(ss.get("p80", 175))
+    SUM_LO     = int(ss.get("p10", 95))   # v8: p20→p10 (합=112 같은 유효 당첨 차단 방지)
+    SUM_HI     = int(ss.get("p90", 180))  # v8: p80→p90
     cond_prob  = np.array(ml.get("cond_prob_matrix", np.zeros((45,45)).tolist()))
     avg_pair   = ml.get("avg_hist_pair_prob", 0.09)
     rand_pair  = ml.get("random_pair_baseline", 0.005)
@@ -41,11 +39,12 @@ if ml_path.exists():
     rand_trip  = ml.get("random_trip_baseline", 1.7)
     _tl        = ml.get("triplet_lift", {})
     triplet_lift = {tuple(int(x) for x in k.split(",")): v for k, v in _tl.items()}
-    avg_lift   = ml.get("avg_hist_trip_lift", 5.0)
+    avg_lift   = ml.get("avg_hist_trip_lift", 0.92)
     lift_cent  = np.array(ml.get("lift_centrality", np.zeros(45).tolist()))
+    gap_scores = np.array(ml.get("gap_scores", np.zeros(45).tolist()))  # v8: GAP 전략용
     odd_stats  = {int(k): float(v) for k, v in ml.get("odd_stats", {}).items()}
     tail_stats = {int(k): float(v) for k, v in ml.get("tail_stats", {}).items()}
-    recent_draws = ml.get("recent_draws", [])   # 최근 실제 당첨번호
+    recent_draws = ml.get("recent_draws", [])
     use_ml     = True
 else:
     ana  = json.load(open(ana_path, encoding="utf-8"))
@@ -53,12 +52,13 @@ else:
     coh  = np.array([ana["weights"][str(i)] for i in range(1, 46)])
     hot, gap_top = set(ana["hot"]), set()
     last_draw = hist["last_draw"]
-    SUM_LO, SUM_HI = 100, 175
+    SUM_LO, SUM_HI = 95, 180
     cond_prob = np.zeros((45, 45)); triplet_cnt = {}
     avg_pair, rand_pair = 0.09, 0.005
     avg_trip, rand_trip = 2.0, 1.7
-    triplet_lift = {}; avg_lift = 5.0
+    triplet_lift = {}; avg_lift = 0.92
     lift_cent = np.zeros(45)
+    gap_scores = np.zeros(45)
     odd_stats  = {2:0.22, 3:0.34, 4:0.27, 5:0.08}
     tail_stats = {0:0.22, 1:0.48, 2:0.26, 3:0.04}
     recent_draws = []
@@ -170,20 +170,15 @@ def exhaustive_best(exclude_combos=None):
         if s > best_s: best_s, best = s, list(combo)
     return sorted(best) if best else None
 
-# ── Game 2~5: 회차 기반 시드 몬테카를로 ─────────────────────────
-# seed에 last_draw+1을 포함 → 매주 draw_no가 바뀌면 탐색 경로도 바뀜
-def monte_carlo_best(n_samples, game_idx, exclude_combos=None, prev_used=None, diversity=0.35):
-    draw_seed = (last_draw + 1) * 137 + game_idx   # ← 핵심: 매주 달라짐
+# ── MC 공통 헬퍼 ─────────────────────────────────────────────────
+def _mc_search(weights, game_idx, n_samples, exclude_combos, seed_offset=0):
+    """weights로 샘플링 후 combined_score 최대 조합 반환"""
+    draw_seed = (last_draw + 1) * 137 + game_idx + seed_offset
     rng     = np.random.default_rng(draw_seed)
     nums    = np.arange(1, 46)
-    exclude = set(tuple(sorted(c)) for c in (exclude_combos or []))
-    exclude |= set(prev_combos)
-    adj     = score.copy()
-    if prev_used:
-        for n, cnt in prev_used.items():
-            adj[n-1] *= (1 - diversity) ** cnt
-    adj = np.clip(adj, 1e-6, None) ** TEMP
-    adj /= adj.sum()
+    exclude = set(tuple(sorted(c)) for c in (exclude_combos or [])) | set(prev_combos)
+    adj     = np.clip(weights, 1e-9, None) ** TEMP
+    adj    /= adj.sum()
     best, best_s = None, -1
     for _ in range(n_samples):
         combo = tuple(sorted(int(x) for x in rng.choice(nums, 6, replace=False, p=adj)))
@@ -191,42 +186,83 @@ def monte_carlo_best(n_samples, game_idx, exclude_combos=None, prev_used=None, d
         s = combined_score(combo)
         if s > best_s: best_s, best = s, combo
     if best is None:
-        for _ in range(n_samples):
+        for _ in range(n_samples // 2):
             combo = tuple(sorted(int(x) for x in rng.choice(nums, 6, replace=False, p=adj)))
-            if combo in exclude: continue
-            if SUM_LO <= sum(combo) <= SUM_HI:
+            if combo not in exclude and SUM_LO <= sum(combo) <= SUM_HI:
                 s = combined_score(combo)
                 if s > best_s: best_s, best = s, combo
     return list(best) if best else None
 
+# ── 전략별 가중치 ─────────────────────────────────────────────────
+# HOT-MC: 핫넘버(정합성+Lift 중심도) 위주
+hot_weights   = score.copy()
+
+# GAP: 오래 안 나온 번호 우대 (0=최근, 1=오래됨)
+# 정합성 50% + 갭점수 50% 혼합
+gap_weights   = 0.5 * (coh / (coh.max() + 1e-9)) + 0.5 * gap_scores
+gap_weights   = np.clip(gap_weights, 1e-9, None)
+
+# COLD: 정합성 하위 번호 우대 (비인기 번호 커버)
+# 당첨번호 중 ~50%는 정합성 낮은 번호 → 이를 보완
+cold_weights  = np.clip(coh.max() - coh + 0.01, 1e-9, None)
+
+# MIX: 균등 (랜덤성 커버)
+mix_weights   = np.ones(45)
+
 # ── 5게임 생성 ────────────────────────────────────────────────────
 target_draw = last_draw + 1
-print(f"Game 1: 전수탐색 C(30,6)=593,775 [{target_draw}회 예측, 직전당첨 감쇠 적용]...")
-if recent_draws:
-    print(f"  직전 당첨({recent_draws[0]['draw']}회): {recent_draws[0]['numbers']} → 감쇠 {int(RECENCY_DECAY[0]*100)}%")
+game_strategies = [
+    ("HOT",    "전수탐색(Lift최적)"),
+    ("HOT-MC", "핫넘버 MC"),
+    ("GAP",    "오래안나온번호 MC"),
+    ("COLD",   "저정합성번호 MC"),
+    ("MIX",    "균등샘플 MC"),
+]
 
-games, all_combos, used_count = [], [], {}
+print(f"[{target_draw}회 예측] 합계범위 {SUM_LO}~{SUM_HI}  직전감쇠 {int(RECENCY_DECAY[0]*100)}%")
+if recent_draws:
+    print(f"  직전 당첨({recent_draws[0]['draw']}회): {recent_draws[0]['numbers']}")
+
+games, all_combos = [], []
+
+# Game A: 전수탐색 (HOT)
+print("Game A: 전수탐색 C(30,6)=593,775 [HOT+Lift 최적]...")
 g1 = exhaustive_best()
 if g1:
     all_combos.append(g1); games.append(g1)
-    for n in g1: used_count[n] = used_count.get(n, 0) + 1
 
-print(f"Game 2~{N_GAMES}: 회차 시드({target_draw}×137) 몬테카를로...")
-for g in range(1, N_GAMES):
-    combo = monte_carlo_best(N_SAMPLES, game_idx=g,
-                             exclude_combos=all_combos, prev_used=used_count)
-    if combo:
-        all_combos.append(combo); games.append(combo)
-        for n in combo: used_count[n] = used_count.get(n, 0) + 1
+# Game B: HOT-MC
+print("Game B: HOT-MC 샘플링...")
+g2 = _mc_search(hot_weights, 1, N_SAMPLES, all_combos, seed_offset=0)
+if g2:
+    all_combos.append(g2); games.append(g2)
+
+# Game C: GAP
+print("Game C: GAP 전략 (장기 미출현 번호 우대)...")
+g3 = _mc_search(gap_weights, 2, N_SAMPLES, all_combos, seed_offset=200)
+if g3:
+    all_combos.append(g3); games.append(g3)
+
+# Game D: COLD
+print("Game D: COLD 전략 (저정합성 번호 우대)...")
+g4 = _mc_search(cold_weights, 3, N_SAMPLES, all_combos, seed_offset=300)
+if g4:
+    all_combos.append(g4); games.append(g4)
+
+# Game E: MIX
+print("Game E: MIX 전략 (균등 샘플)...")
+g5 = _mc_search(mix_weights, 4, N_SAMPLES, all_combos, seed_offset=400)
+if g5:
+    all_combos.append(g5); games.append(g5)
 
 if not games:
-    ranked = sorted(range(1, 46), key=lambda i: -score[i-1])
-    games  = [sorted(ranked[:6])]
+    games = [sorted(range(1, 46), key=lambda i: -score[i-1])[:6]]
 
 # ── 게임 메타데이터 ───────────────────────────────────────────────
 game_results = []
-for combo in games:
+for gi, combo in enumerate(games):
     combo    = sorted(combo)
+    strategy = game_strategies[gi][0] if gi < len(game_strategies) else "?"
     core_in  = [n for n in combo if coh[n-1] >= CORE_THRESH]
     bonus    = int(max((i for i in range(1,46) if i not in combo), key=lambda i: float(score[i-1])))
     ps       = combo_pair_score(combo)
@@ -260,6 +296,7 @@ for combo in games:
             for i in range(6) for j in range(i+1,6) for k in range(j+1,6)
         },
         "lift_score":         round(combo_trip_lift_score(combo), 2),
+        "strategy":           strategy,
     })
 
 best_idx  = max(range(len(game_results)), key=lambda i: game_results[i]["combined_score"])
@@ -276,7 +313,7 @@ out = {
     "trip_score":         best_game["trip_score"],
     "trip_vs_random":     best_game["trip_vs_random"],
     "combined_score":     best_game["combined_score"],
-    "method":             f"Lift트리플렛45%+트리플렛35%+쌍확률15%+정합성5%+직전감쇠+회차시드 ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
+    "method":             f"Lift45%+Trip35%+Pair15%+Coh5%+5전략(HOT/GAP/COLD/MIX) ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
     "hot_included":       best_game["hot_included"],
     "individual_coherence": best_game["individual_coherence"],
     "pair_detail":        best_game["pair_detail"],
@@ -298,17 +335,15 @@ json.dump(pred_history_new, open(HIST_PATH, "w", encoding="utf-8"), ensure_ascii
 print(f"\n{'='*65}")
 print(f" {target_draw}회 예측  [{out['method']}]")
 print(f"{'='*65}")
-print(f" {'게임':4}  {'번호':30}  {'합':>4}  홀  {'정합성':>7}  {'쌍확률':>7}  {'트리플':>6}  {'Lift':>6}  {'통합':>7}")
-print(f"{'─'*75}")
+print(f" {'게임':4}  {'전략':7}  {'번호':28}  {'합':>4}  홀  {'정합성':>6}  {'Lift':>5}  {'통합':>6}")
+print(f"{'─'*80}")
 for g, gr in enumerate(game_results):
     marker = " <" if g == best_idx else ""
-    print(f"  {chr(65+g):3}  {str(gr['numbers']):30}  {gr['sum']:>4} "
+    print(f"  {chr(65+g):3}  {gr.get('strategy','?'):7}  {str(gr['numbers']):28}  {gr['sum']:>4} "
           f" {gr['odd_count']}홀  "
-          f"{gr['overall_coherence']:>6.1f}%  "
-          f"{gr['pair_score']:>5.2f}%  "
-          f"{gr['trip_score']:>4.1f}  "
+          f"{gr['overall_coherence']:>5.1f}%  "
           f"{gr.get('lift_score', 0):>4.1f}  "
-          f"{gr['combined_score']:>6.1f}%{marker}")
+          f"{gr['combined_score']:>5.1f}%{marker}")
 print(f"{'─'*65}")
 print(f"\n 대표 (Game {chr(65+best_idx)}) 상세:")
 print(f"  번호별 정합성 (감쇠 적용 후):")
@@ -326,7 +361,7 @@ print(f"\n  트리플렛 등장 횟수 (역사 평균 {avg_trip:.1f}회):")
 for trip, cnt in sorted(best_game["triplet_detail"].items(), key=lambda x: -x[1]):
     flag = " *" if cnt > avg_trip else ""
     print(f"    {trip:15s}: {cnt:3d}회{flag}")
-print(f"{'─'*75}")
+print(f"{'─'*80}")
 print(f" 정합성  : {best_game['overall_coherence']}%")
 print(f" 쌍확률  : {best_game['pair_score']}%  (무작위대비 {best_game['pair_vs_random']}배)")
 print(f" 트리플렛: {best_game['trip_score']}회  (무작위대비 {best_game['trip_vs_random']}배)")

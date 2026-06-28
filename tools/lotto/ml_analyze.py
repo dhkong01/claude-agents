@@ -214,6 +214,46 @@ print(f"역사적 평균 트리플렛 등장: {avg_hist_trip:.2f}회  (무작위
 triplet_dict = {f"{a},{b},{c}": int(v) for (a,b,c), v in triplet_cnt.items() if v > 0}
 print(f"트리플렛 비-제로 항목: {len(triplet_dict)} / 14190")
 
+# ── Lift 조정 트리플렛 ────────────────────────────────────────────
+# Lift(a,b,c) = 실제등장횟수 / 독립가정시기댓값
+# 개별 번호 빈도 편향을 제거해 진짜 "연관성"만 포착
+print("Lift 조정 트리플렛 계산 중...")
+ind_freq_arr = np.zeros(45)
+for r in records:
+    for x in r["numbers"]: ind_freq_arr[x-1] += 1
+ind_p = ind_freq_arr / (N * 6)  # 번호별 추출 확률 추정
+
+triplet_lift_dict = {}
+lift_c = np.zeros(45)   # 각 번호가 참여한 lift 총합 (중심도 계산용)
+lift_n = np.zeros(45)   # 각 번호가 참여한 트리플렛 수
+
+# Lift = count(a,b,c) × N² / (count_a × count_b × count_c)
+# 독립 가정 하 기댓값 = count_a/N × count_b/N × count_c/N × N = count_a*count_b*count_c / N²
+for (a, b, c), cnt in triplet_cnt.items():
+    if cnt == 0:
+        continue
+    expected = ind_freq_arr[a] * ind_freq_arr[b] * ind_freq_arr[c] / max(N * N, 1)
+    lift = float(cnt) / max(expected, 0.001)
+    triplet_lift_dict[f"{a},{b},{c}"] = round(lift, 4)
+    for idx in (a, b, c):
+        lift_c[idx] += lift
+        lift_n[idx] += 1
+
+# 번호별 평균 Lift — TOP_N 선택 시 가중치로 활용
+lift_centrality = (lift_c / (lift_n + 1))
+lc_max = lift_centrality.max()
+lift_centrality_norm = (lift_centrality / lc_max).round(4).tolist()
+
+# 역사적 당첨 조합의 Lift 평균 (정규화 기준)
+_hist_lift = []
+for r in records:
+    ns = sorted([x - 1 for x in r["numbers"]])
+    lifts = [triplet_lift_dict.get(f"{t[0]},{t[1]},{t[2]}", 1.0)
+             for t in combinations(ns, 3)]
+    _hist_lift.append(float(np.mean(lifts)))
+avg_hist_trip_lift = float(np.mean(_hist_lift))
+print(f"역사적 평균 Lift: {avg_hist_trip_lift:.2f}  (무작위 기댓값 lift~1.0)")
+
 # ── 홀짝 분포 통계 ────────────────────────────────────────────────
 odd_dist = defaultdict(int)
 for r in records:
@@ -296,10 +336,14 @@ out = {
     "cond_prob_matrix":     cond_prob_mat.round(4).tolist(),
     "avg_hist_pair_prob":   round(avg_hist_pair_prob, 4),
     "random_pair_baseline": round(random_pair_base, 4),
-    # 트리플렛 공출현
+    # 트리플렛 공출현 (raw)
     "triplet_counts":       triplet_dict,
     "avg_hist_trip":        round(avg_hist_trip, 4),
     "random_trip_baseline": round(random_trip_base, 4),
+    # Lift 조정 트리플렛 (개별 번호 빈도 편향 제거)
+    "triplet_lift":         triplet_lift_dict,
+    "avg_hist_trip_lift":   round(avg_hist_trip_lift, 4),
+    "lift_centrality":      lift_centrality_norm,
     # 패턴 분포
     "odd_stats":            odd_stats,
     "tail_stats":           tail_stats,
@@ -307,4 +351,4 @@ out = {
 }
 json.dump(out, open(DIR/"lotto_ml_features.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
-print(f"\nML 피처 완료: 정합성=최근{N_COH}회 | 쌍/트리플렛=전체{N}회")
+print(f"\nML 피처 완료: 정합성=최근{N_COH}회 | 쌍/트리플렛/Lift=전체{N}회")

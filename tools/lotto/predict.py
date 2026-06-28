@@ -1,11 +1,12 @@
 """
-로또 예측 v6
-통합점수 = 정합성 10% + 쌍조건부확률 40% + 트리플렛공출현 50%
+로또 예측 v7
+통합점수 = 정합성 5% + 쌍확률 15% + 트리플렛 35% + Lift트리플렛 45%
 필터: 합계범위 + 밴드분산 + 3연속제외 + 홀짝비율 + 끝자리중복
 ─────────────────────────────────────────────────────────────
-200회 백테스트 그리드서치 결과 (랜덤대비 +10.9%):
-  · 트리플렛 50% + 쌍확률 40% + 정합성 10% → 평균 1.775개/TOP12
-  · 정합성 단독(100%)은 랜덤(1.600) 이하 — 과체중 시 역효과
+200회 백테스트 그리드서치 결과 (랜덤대비 +14.4%):
+  · Lift트리플렛 45% = 실제공출현 / 개별빈도기댓값 → 편향 제거
+  · 트리플렛(raw) 35% + 쌍확률 15% + 정합성 5%
+  · 1.785 → 1.830개/TOP12 (+14.4% vs 랜덤 1.600)
 ─────────────────────────────────────────────────────────────
 매주 달라지는 3가지 장치:
   1. 직전 실제 당첨번호 감쇠 — 지난주 번호 점수를 줄여 다른 번호 부상
@@ -38,6 +39,10 @@ if ml_path.exists():
     triplet_cnt= {tuple(int(x) for x in k.split(",")): v for k, v in _td.items()}
     avg_trip   = ml.get("avg_hist_trip", 2.0)
     rand_trip  = ml.get("random_trip_baseline", 1.7)
+    _tl        = ml.get("triplet_lift", {})
+    triplet_lift = {tuple(int(x) for x in k.split(",")): v for k, v in _tl.items()}
+    avg_lift   = ml.get("avg_hist_trip_lift", 5.0)
+    lift_cent  = np.array(ml.get("lift_centrality", np.zeros(45).tolist()))
     odd_stats  = {int(k): float(v) for k, v in ml.get("odd_stats", {}).items()}
     tail_stats = {int(k): float(v) for k, v in ml.get("tail_stats", {}).items()}
     recent_draws = ml.get("recent_draws", [])   # 최근 실제 당첨번호
@@ -52,6 +57,8 @@ else:
     cond_prob = np.zeros((45, 45)); triplet_cnt = {}
     avg_pair, rand_pair = 0.09, 0.005
     avg_trip, rand_trip = 2.0, 1.7
+    triplet_lift = {}; avg_lift = 5.0
+    lift_cent = np.zeros(45)
     odd_stats  = {2:0.22, 3:0.34, 4:0.27, 5:0.08}
     tail_stats = {0:0.22, 1:0.48, 2:0.26, 3:0.04}
     recent_draws = []
@@ -60,11 +67,12 @@ else:
 CORE_THRESH = 0.65
 N_GAMES     = 5
 N_SAMPLES   = 60000
-TOP_N       = 30      # C(30,6)=593,775 전수탐색 (25→30 확장)
+TOP_N       = 30      # C(30,6)=593,775 전수탐색
 TEMP        = 1.5
-W_COH       = 0.10   # 200회 그리드서치 최적값 (구: 0.50)
-W_PAIR      = 0.40   # 200회 그리드서치 최적값 (구: 0.25)
-W_TRIP      = 0.50   # 200회 그리드서치 최적값 (구: 0.25) — 가장 강력한 예측인자
+W_COH       = 0.05   # v7 그리드서치 최적값
+W_PAIR      = 0.15   # v7 그리드서치 최적값
+W_TRIP      = 0.35   # v7 그리드서치 최적값
+W_LIFT      = 0.45   # v7 신규 — Lift 조정 트리플렛 (가장 강력한 예측인자)
 
 # ── 직전 실제 당첨번호 감쇠 ──────────────────────────────────────
 # 지난주에 실제로 나온 번호들을 약화시켜 매주 다른 조합 도출
@@ -74,6 +82,7 @@ RECENCY_DECAY = [0.60, 0.78, 0.90]   # 1주전, 2주전, 3주전 점수 배율
 score = coh.copy()
 score += np.array([0.05 if (i+1) in hot     else 0.0 for i in range(45)])
 score += np.array([0.03 if (i+1) in gap_top else 0.0 for i in range(45)])
+score += lift_cent * 0.15   # Lift 중심도 보너스 — TOP_N 선택 품질 향상
 
 # coh_adj: 감쇠를 combined_score 평가에도 반영하기 위한 조정 정합성
 # (원본 coh는 출력 표시용으로 유지)
@@ -131,13 +140,21 @@ def combo_trip_score(combo):
     counts = [triplet_cnt.get(t, 0) for t in combinations(ns, 3)]
     return float(np.mean(counts)) if counts else 0.0
 
+def combo_trip_lift_score(combo):
+    """Lift 조정 트리플렛: 실제공출현 / 개별빈도기댓값 — 핫넘버 편향 제거"""
+    ns = sorted([n-1 for n in combo])
+    lifts = [triplet_lift.get(t, 1.0) for t in combinations(ns, 3)]
+    return float(np.mean(lifts)) if lifts else 1.0
+
 def combined_score(combo):
     coh_s  = combo_coherence(combo)
     pair_s = combo_pair_score(combo)
     trip_s = combo_trip_score(combo)
+    lift_s = combo_trip_lift_score(combo)
     pair_norm = min(pair_s / max(avg_pair * 1.5, 0.05), 1.0)
     trip_norm = min(trip_s / max(avg_trip * 1.5, 0.5), 1.0)
-    return W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm
+    lift_norm = min(lift_s / max(avg_lift * 1.5, 0.5), 1.0)
+    return W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm + W_LIFT * lift_norm
 
 # ── Game 1: 전수탐색 ──────────────────────────────────────────────
 def exhaustive_best(exclude_combos=None):
@@ -242,6 +259,7 @@ for combo in games:
             )
             for i in range(6) for j in range(i+1,6) for k in range(j+1,6)
         },
+        "lift_score":         round(combo_trip_lift_score(combo), 2),
     })
 
 best_idx  = max(range(len(game_results)), key=lambda i: game_results[i]["combined_score"])
@@ -258,7 +276,7 @@ out = {
     "trip_score":         best_game["trip_score"],
     "trip_vs_random":     best_game["trip_vs_random"],
     "combined_score":     best_game["combined_score"],
-    "method":             f"트리플렛50%+쌍확률40%+정합성10%+직전감쇠+회차시드 ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
+    "method":             f"Lift트리플렛45%+트리플렛35%+쌍확률15%+정합성5%+직전감쇠+회차시드 ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
     "hot_included":       best_game["hot_included"],
     "individual_coherence": best_game["individual_coherence"],
     "pair_detail":        best_game["pair_detail"],
@@ -280,15 +298,16 @@ json.dump(pred_history_new, open(HIST_PATH, "w", encoding="utf-8"), ensure_ascii
 print(f"\n{'='*65}")
 print(f" {target_draw}회 예측  [{out['method']}]")
 print(f"{'='*65}")
-print(f" {'게임':4}  {'번호':30}  {'합':>4}  홀  {'정합성':>7}  {'쌍확률':>7}  {'트리플':>7}  {'통합':>7}")
-print(f"{'─'*65}")
+print(f" {'게임':4}  {'번호':30}  {'합':>4}  홀  {'정합성':>7}  {'쌍확률':>7}  {'트리플':>6}  {'Lift':>6}  {'통합':>7}")
+print(f"{'─'*75}")
 for g, gr in enumerate(game_results):
     marker = " <" if g == best_idx else ""
     print(f"  {chr(65+g):3}  {str(gr['numbers']):30}  {gr['sum']:>4} "
           f" {gr['odd_count']}홀  "
           f"{gr['overall_coherence']:>6.1f}%  "
           f"{gr['pair_score']:>5.2f}%  "
-          f"{gr['trip_score']:>5.1f}  "
+          f"{gr['trip_score']:>4.1f}  "
+          f"{gr.get('lift_score', 0):>4.1f}  "
           f"{gr['combined_score']:>6.1f}%{marker}")
 print(f"{'─'*65}")
 print(f"\n 대표 (Game {chr(65+best_idx)}) 상세:")
@@ -307,10 +326,11 @@ print(f"\n  트리플렛 등장 횟수 (역사 평균 {avg_trip:.1f}회):")
 for trip, cnt in sorted(best_game["triplet_detail"].items(), key=lambda x: -x[1]):
     flag = " *" if cnt > avg_trip else ""
     print(f"    {trip:15s}: {cnt:3d}회{flag}")
-print(f"{'─'*65}")
+print(f"{'─'*75}")
 print(f" 정합성  : {best_game['overall_coherence']}%")
 print(f" 쌍확률  : {best_game['pair_score']}%  (무작위대비 {best_game['pair_vs_random']}배)")
 print(f" 트리플렛: {best_game['trip_score']}회  (무작위대비 {best_game['trip_vs_random']}배)")
+print(f" Lift점수: {best_game.get('lift_score', 0):.2f}  (역사평균 {avg_lift:.2f})")
 print(f" 통합점수: {best_game['combined_score']}%")
 print(f" 합계    : {best_game['sum']}  (유효범위 {SUM_LO}~{SUM_HI})")
 print(f"{'='*65}")

@@ -1,13 +1,175 @@
 {
-  "date": "2026-06-27",
-  "analyzed": 1,
+  "date": "2026-06-28",
+  "analyzed": 46,
   "top10": [
     {
-      "ticker": "HUBB",
-      "canslim_score": 49,
+      "ticker": "GLW",
+      "canslim_score": 67,
       "scores": {
-        "C": 4,
-        "A": 4,
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": 190243995648,
+      "price": 221.05,
+      "rs_rating": 96.6
+    },
+    {
+      "ticker": "TER",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 68387004416,
+      "price": 436.86,
+      "rs_rating": 97.0
+    },
+    {
+      "ticker": "AMAT",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 497685561344,
+      "price": 626.84,
+      "rs_rating": 96.4
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 474078969856,
+      "price": 379.09,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "CAT",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "market_cap": 459426660352,
+      "price": 997.47,
+      "rs_rating": 94.5
+    },
+    {
+      "ticker": "MU",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 1278845648896,
+      "price": 1132.33,
+      "rs_rating": 98.8
+    },
+    {
+      "ticker": "FIX",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "market_cap": 65239166976,
+      "price": 1854.23,
+      "rs_rating": 95.3
+    },
+    {
+      "ticker": "FTNT",
+      "canslim_score": 61,
+      "scores": {
+        "C": 7,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 110886338560,
+      "price": 151.35,
+      "rs_rating": 94.1
+    },
+    {
+      "ticker": "VRT",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "market_cap": 116749877248,
+      "price": 303.95,
+      "rs_rating": 93.7
+    },
+    {
+      "ticker": "GNRC",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
         "N": 7,
         "S": 7,
         "L": 10,
@@ -15,10 +177,10 @@
         "M": 7
       },
       "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
-      "market_cap": 27320256512,
-      "price": 517.02,
-      "rs_rating": 99.0
+      "industry": "Specialty Industrial Machinery",
+      "market_cap": 16401991680,
+      "price": 278.62,
+      "rs_rating": 93.3
     }
   ]
 }

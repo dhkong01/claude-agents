@@ -1,93 +1,93 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "quarter": "2026-Q2",
   "q_start": "2026-04-01",
   "sectors": [
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 34.41,
-      "week1": -5.75,
+      "qtd": 37.6,
+      "week1": 0.66,
       "rank": 1,
-      "status": "과열"
-    },
-    {
-      "sector": "Real Estate",
-      "etf": "XLRE",
-      "qtd": 11.44,
-      "week1": 2.77,
-      "rank": 2,
       "status": "과열"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": 10.47,
-      "week1": -0.33,
+      "qtd": 11.42,
+      "week1": 2.59,
+      "rank": 2,
+      "status": "과열"
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": 10.66,
+      "week1": 0.63,
       "rank": 3,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 9.01,
-      "week1": 6.85,
+      "qtd": 9.29,
+      "week1": 5.62,
       "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 8.73,
-      "week1": -0.24,
+      "qtd": 9.04,
+      "week1": -0.3,
       "rank": 5,
-      "status": "강세"
-    },
-    {
-      "sector": "Consumer Staples",
-      "etf": "XLP",
-      "qtd": 4.71,
-      "week1": 3.08,
-      "rank": 6,
       "status": "강세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": 4.37,
-      "week1": -0.5,
+      "qtd": 6.88,
+      "week1": 2.95,
+      "rank": 6,
+      "status": "강세"
+    },
+    {
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 4.29,
+      "week1": 0.78,
       "rank": 7,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 2.64,
-      "week1": -0.04,
+      "qtd": 0.77,
+      "week1": -0.41,
       "rank": 8,
       "status": "중립"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 0.83,
-      "week1": 3.31,
+      "qtd": 0.44,
+      "week1": 2.11,
       "rank": 9,
       "status": "중립"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -4.3,
-      "week1": -0.64,
+      "qtd": -2.77,
+      "week1": 0.57,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": -8.04,
-      "week1": -0.41,
+      "qtd": -8.48,
+      "week1": -1.62,
       "rank": 11,
       "status": "약세"
     }
@@ -96,65 +96,65 @@
     "Technology": [
       {
         "ticker": "GLW",
-        "rs": 96.6,
+        "rs": 97.4,
         "canslim": 67,
-        "price": 221.05
-      },
-      {
-        "ticker": "TER",
-        "rs": 97.0,
-        "canslim": 64,
-        "price": 436.86
+        "price": 255.69
       },
       {
         "ticker": "AMAT",
-        "rs": 96.4,
-        "canslim": 64,
-        "price": 626.84
+        "rs": 97.0,
+        "canslim": 67,
+        "price": 694.64
+      },
+      {
+        "ticker": "TER",
+        "rs": 96.8,
+        "canslim": 67,
+        "price": 463.21
       },
       {
         "ticker": "LRCX",
-        "rs": 96.2,
-        "canslim": 64,
-        "price": 379.09
+        "rs": 96.4,
+        "canslim": 67,
+        "price": 410.91
       },
       {
         "ticker": "MU",
         "rs": 98.8,
         "canslim": 61,
-        "price": 1132.33
+        "price": 1145.28
       },
       {
-        "ticker": "FTNT",
-        "rs": 94.1,
+        "ticker": "WDC",
+        "rs": 98.6,
         "canslim": 61,
-        "price": 151.35
+        "price": 651.88
       }
     ],
     "Industrials": [
       {
         "ticker": "CAT",
-        "rs": 94.5,
-        "canslim": 64,
-        "price": 997.47
+        "rs": 94.9,
+        "canslim": 67,
+        "price": 1033.19
       },
       {
         "ticker": "FIX",
-        "rs": 95.3,
-        "canslim": 61,
-        "price": 1854.23
-      },
-      {
-        "ticker": "VRT",
-        "rs": 93.7,
-        "canslim": 61,
-        "price": 303.95
+        "rs": 95.5,
+        "canslim": 64,
+        "price": 1948.69
       },
       {
         "ticker": "GNRC",
-        "rs": 93.3,
-        "canslim": 61,
-        "price": 278.62
+        "rs": 93.7,
+        "canslim": 64,
+        "price": 283.81
+      },
+      {
+        "ticker": "PWR",
+        "rs": 91.9,
+        "canslim": 64,
+        "price": 714.45
       }
     ]
   },
@@ -165,8 +165,8 @@
     "rec_sectors": []
   },
   "geo_risk": {
-    "risk_score": 4.0,
-    "risk_level": "MEDIUM",
-    "market_bias": "NEUTRAL"
+    "risk_score": 6.0,
+    "risk_level": "HIGH",
+    "market_bias": "RISK_OFF"
   }
 }

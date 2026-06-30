@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "analyzed": 46,
   "top10": [
     {
-      "ticker": "GLW",
+      "ticker": "TER",
       "canslim_score": 67,
       "scores": {
         "C": 10,
@@ -15,10 +15,10 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Electronic Components",
-      "market_cap": 220056485888,
-      "price": 255.69,
-      "rs_rating": 97.4
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 75741356032,
+      "price": 483.84,
+      "rs_rating": 97.0
     },
     {
       "ticker": "AMAT",
@@ -34,26 +34,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 551515979776,
-      "price": 694.64,
-      "rs_rating": 97.0
-    },
-    {
-      "ticker": "TER",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 72511889408,
-      "price": 463.21,
+      "market_cap": 574032642048,
+      "price": 723.0,
       "rs_rating": 96.8
     },
     {
@@ -70,9 +52,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 513872134144,
-      "price": 410.91,
-      "rs_rating": 96.4
+      "market_cap": 541909909504,
+      "price": 433.33,
+      "rs_rating": 96.6
+    },
+    {
+      "ticker": "FIX",
+      "canslim_score": 67,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "market_cap": 69732859904,
+      "price": 1981.95,
+      "rs_rating": 95.5
     },
     {
       "ticker": "CAT",
@@ -88,12 +88,12 @@
       },
       "sector": "Industrials",
       "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 475878981632,
-      "price": 1033.19,
+      "market_cap": 490484400128,
+      "price": 1064.9,
       "rs_rating": 94.9
     },
     {
-      "ticker": "FIX",
+      "ticker": "GLW",
       "canslim_score": 64,
       "scores": {
         "C": 10,
@@ -104,11 +104,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "market_cap": 68562644992,
-      "price": 1948.69,
-      "rs_rating": 95.5
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": 219832713216,
+      "price": 255.43,
+      "rs_rating": 97.2
     },
     {
       "ticker": "GNRC",
@@ -124,9 +124,27 @@
       },
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "market_cap": 16707519488,
-      "price": 283.81,
-      "rs_rating": 93.7
+      "market_cap": 17237338112,
+      "price": 292.81,
+      "rs_rating": 93.5
+    },
+    {
+      "ticker": "GEV",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "market_cap": 315708375040,
+      "price": 1174.86,
+      "rs_rating": 93.3
     },
     {
       "ticker": "PWR",
@@ -142,9 +160,9 @@
       },
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "market_cap": 107210473472,
-      "price": 714.45,
-      "rs_rating": 91.9
+      "market_cap": 108049301504,
+      "price": 720.04,
+      "rs_rating": 91.7
     },
     {
       "ticker": "MU",
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1293471449088,
-      "price": 1145.28,
+      "market_cap": 1303647223808,
+      "price": 1154.29,
       "rs_rating": 98.8
-    },
-    {
-      "ticker": "WDC",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 224691404800,
-      "price": 651.88,
-      "rs_rating": 98.6
     }
   ]
 }

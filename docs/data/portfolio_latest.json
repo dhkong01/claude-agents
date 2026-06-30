@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "total_cost": 152607,
   "next_rebalance": "2026-08-21",
   "holdings": [
@@ -7,56 +7,56 @@
       "ticker": "TSLA",
       "shares": 140,
       "avg_cost": 183.6738,
-      "price": 411.84,
-      "value": 57657.6,
+      "price": 420.6,
+      "value": 58884.0,
       "cost": 25714.33
     },
     {
       "ticker": "PLTR",
       "shares": 60,
       "avg_cost": 168.19,
-      "price": 115.7,
-      "value": 6942.0,
+      "price": 116.67,
+      "value": 7000.2,
       "cost": 10091.4
     },
     {
       "ticker": "VKTX",
       "shares": 350,
       "avg_cost": 33.4824,
-      "price": 39.54,
-      "value": 13839.0,
+      "price": 39.01,
+      "value": 13653.5,
       "cost": 11718.84
     },
     {
       "ticker": "META",
       "shares": 15,
       "avg_cost": 637.28,
-      "price": 562.6,
-      "value": 8439.0,
+      "price": 563.29,
+      "value": 8449.35,
       "cost": 9559.2
     },
     {
       "ticker": "MRVL",
       "shares": 220,
       "avg_cost": 236.58,
-      "price": 277.75,
-      "value": 61105.0,
+      "price": 297.89,
+      "value": 65535.8,
       "cost": 52047.6
     },
     {
       "ticker": "ARM",
       "shares": 90,
       "avg_cost": 396.62,
-      "price": 343.58,
-      "value": 30922.2,
+      "price": 354.57,
+      "value": 31911.3,
       "cost": 35695.8
     },
     {
       "ticker": "LRCX",
       "shares": 20,
       "avg_cost": 389.0,
-      "price": 410.91,
-      "value": 8218.2,
+      "price": 433.33,
+      "value": 8666.6,
       "cost": 7780.0
     }
   ]

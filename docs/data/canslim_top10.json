@@ -1,99 +1,9 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "analyzed": 46,
   "top10": [
     {
-      "ticker": "TER",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 75741356032,
-      "price": 483.84,
-      "rs_rating": 97.0
-    },
-    {
-      "ticker": "AMAT",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 574032642048,
-      "price": 723.0,
-      "rs_rating": 96.8
-    },
-    {
-      "ticker": "LRCX",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 541909909504,
-      "price": 433.33,
-      "rs_rating": 96.6
-    },
-    {
-      "ticker": "FIX",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "market_cap": 69732859904,
-      "price": 1981.95,
-      "rs_rating": 95.5
-    },
-    {
       "ticker": "CAT",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 490484400128,
-      "price": 1064.9,
-      "rs_rating": 94.9
-    },
-    {
-      "ticker": "GLW",
       "canslim_score": 64,
       "scores": {
         "C": 10,
@@ -104,29 +14,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Electronic Components",
-      "market_cap": 219832713216,
-      "price": 255.43,
-      "rs_rating": 97.2
-    },
-    {
-      "ticker": "GNRC",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
       "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "market_cap": 17237338112,
-      "price": 292.81,
-      "rs_rating": 93.5
+      "industry": "Farm & Heavy Construction Machinery",
+      "market_cap": 456635482112,
+      "price": 991.41,
+      "rs_rating": 93.9
     },
     {
       "ticker": "GEV",
@@ -142,30 +34,48 @@
       },
       "sector": "Industrials",
       "industry": "Specialty Industrial Machinery",
-      "market_cap": 315708375040,
-      "price": 1174.86,
-      "rs_rating": 93.3
+      "market_cap": 304822517760,
+      "price": 1134.35,
+      "rs_rating": 92.9
     },
     {
-      "ticker": "PWR",
+      "ticker": "CVS",
       "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 10,
+        "N": 10,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "market_cap": 108049301504,
-      "price": 720.04,
-      "rs_rating": 91.7
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "market_cap": 133729935360,
+      "price": 104.81,
+      "rs_rating": 90.3
     },
     {
-      "ticker": "MU",
+      "ticker": "WST",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "market_cap": 25786372096,
+      "price": 365.0,
+      "rs_rating": 90.1
+    },
+    {
+      "ticker": "DELL",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -177,10 +87,100 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 1303647223808,
-      "price": 1154.29,
-      "rs_rating": 98.8
+      "industry": "Computer Hardware",
+      "market_cap": 274772049920,
+      "price": 425.25,
+      "rs_rating": 97.4
+    },
+    {
+      "ticker": "AMAT",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 516796121088,
+      "price": 650.91,
+      "rs_rating": 97.0
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 489298427904,
+      "price": 391.26,
+      "rs_rating": 96.8
+    },
+    {
+      "ticker": "TER",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 66896728064,
+      "price": 427.34,
+      "rs_rating": 96.6
+    },
+    {
+      "ticker": "GLW",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": 189882531840,
+      "price": 220.63,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "FIX",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "market_cap": 65623379968,
+      "price": 1865.15,
+      "rs_rating": 95.2
     }
   ]
 }

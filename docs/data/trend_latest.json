@@ -1,37 +1,38 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "mode": "daily",
   "geo_risk": {
-    "date": "2026-07-02",
-    "risk_score": 10.0,
+    "date": "2026-07-03",
+    "risk_score": 7.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 3,
-    "medium_risk_signals": 2,
+    "high_risk_signals": 1,
+    "medium_risk_signals": 3,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Semiconductors": "WATCH",
+      "Semiconductors": "ELEVATED",
       "Defense": "ELEVATED",
       "Financials": "WATCH"
     },
     "top_risk_events": [
-      "Iran Prepares To Bury Supreme Leader, Ayatollah Ali Khamenei, Killed At Iran War’S Outset",
-      "With Attacks On Crimea, Ukraine Hopes To Pressure Putin To End The War",
-      "Putin Retaliates With New Strikes After Ukraine Takes The War To Russia"
+      "Long Lines For Gas Shatter The Illusion Of Normalcy In Wartime Russia",
+      "Four Reasons Crimea Has Become Crucial In The Ukraine War",
+      "As Ukraine War Escalates, Witkoff And Kushner Are Focused On Iran"
     ],
-    "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Energy, Semiconductors, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 20,
+      "long_pct": 35,
       "sqqq_pct": 20,
-      "cash_pct": 60,
-      "per_stock_pct": 4.0,
-      "action": "MAX_DEFENSIVE",
+      "cash_pct": 45,
+      "per_stock_pct": 7.0,
+      "action": "DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
+        "Semiconductors",
         "Defense"
       ],
-      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 7.0 — SQQQ 20% 방어 포지션, 현금 45% 유지. [Energy, Semiconductors, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -208,7 +209,7 @@
       "proximity_score": 0,
       "has_vcp": false,
       "pivot": null,
-      "current_price": 136.85,
+      "current_price": 136.86,
       "rs_rating": 96.2,
       "ma50": 134.88,
       "ma200": 81.5,
@@ -352,7 +353,7 @@
       "pivot": 336.33,
       "sector": "Healthcare",
       "in_both": true,
-      "allocation_pct": 4.0
+      "allocation_pct": 7.0
     },
     {
       "ticker": "MRNA",
@@ -369,7 +370,7 @@
       "pivot": 51.85,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 7.0
     },
     {
       "ticker": "CRWD",
@@ -386,7 +387,7 @@
       "pivot": 174.09,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 7.0
     },
     {
       "ticker": "VTRS",
@@ -403,7 +404,7 @@
       "pivot": 16.56,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 7.0
     },
     {
       "ticker": "BEN",
@@ -420,7 +421,7 @@
       "pivot": 33.76,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 7.0
     }
   ],
   "sqqq_channel": {
@@ -436,7 +437,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-07-02",
-    "checked_at": "2026-07-02 23:40",
+    "checked_at": "2026-07-03 23:37",
     "sample": {
       "SPY": 744.78,
       "QQQ": 712.6,

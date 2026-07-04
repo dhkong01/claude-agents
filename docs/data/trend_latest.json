@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "mode": "daily",
   "geo_risk": {
-    "date": "2026-07-03",
+    "date": "2026-07-04",
     "risk_score": 7.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
@@ -11,15 +11,13 @@
     "sector_impacts": {
       "Energy": "ELEVATED",
       "Semiconductors": "ELEVATED",
-      "Defense": "ELEVATED",
+      "Defense": "WATCH",
       "Financials": "WATCH"
     },
     "top_risk_events": [
-      "Long Lines For Gas Shatter The Illusion Of Normalcy In Wartime Russia",
-      "Four Reasons Crimea Has Become Crucial In The Ukraine War",
-      "As Ukraine War Escalates, Witkoff And Kushner Are Focused On Iran"
+      "Long Lines For Gas Shatter The Illusion Of Normalcy In Wartime Russia"
     ],
-    "recommendation": "고위험 국면 (Energy, Semiconductors, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Energy, Semiconductors 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
       "long_pct": 35,
       "sqqq_pct": 20,
@@ -29,10 +27,9 @@
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
-        "Semiconductors",
-        "Defense"
+        "Semiconductors"
       ],
-      "reasoning": "Risk 7.0 — SQQQ 20% 방어 포지션, 현금 45% 유지. [Energy, Semiconductors, Defense ELEVATED]"
+      "reasoning": "Risk 7.0 — SQQQ 20% 방어 포지션, 현금 45% 유지. [Energy, Semiconductors ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -437,7 +434,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-07-02",
-    "checked_at": "2026-07-03 23:37",
+    "checked_at": "2026-07-04 23:28",
     "sample": {
       "SPY": 744.78,
       "QQQ": 712.6,

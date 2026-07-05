@@ -161,6 +161,63 @@ def _proximity_score(current: float, pivot: float | None) -> int:
     return 5
 
 
+# ── 쿨러메기(Qullamaggie) 분석 ────────────────────────────────
+
+def _qullamaggie_analysis(rs: float, has_vcp: bool, pivot, current: float,
+                           final_depth: float, contractions: int,
+                           vol_spike: float, vol_declining: bool) -> dict:
+    """
+    쿨러메기(Kristjan Kullamägi) 스타일 분석.
+    EP 이후 타이트 베이스 → 피벗 돌파 전략.
+
+    Signals:
+      BUY_ZONE  — 피벗 5% 이내 대기, RS≥85, VCP 확정
+      BREAKOUT  — 피벗 돌파 중 (0~15% 위)
+      EXTENDED  — 피벗 대비 15%+ 상승 (추격 위험)
+      WATCH     — 조건 부분 충족, 모니터링
+      AVOID     — 조건 미달
+    """
+    score = 0
+    # RS (20점)
+    score += (20 if rs >= 90 else 15 if rs >= 85 else 10 if rs >= 80 else 5 if rs >= 75 else 0)
+    # 타이트 베이스 조정폭 (25점) — EP 이후 작은 수축이 이상적
+    score += (25 if final_depth < 5 else 20 if final_depth < 10
+              else 12 if final_depth < 15 else 5 if final_depth < 20 else 0)
+    # 수축 횟수 (10점)
+    score += (10 if contractions >= 3 else 6 if contractions >= 2 else 2 if contractions >= 1 else 0)
+    # EP 거래량 급등 (30점) — 최근 5일 최고 / 50일 평균
+    score += (30 if vol_spike >= 3.0 else 25 if vol_spike >= 2.5 else 20 if vol_spike >= 2.0
+              else 12 if vol_spike >= 1.5 else 5 if vol_spike >= 1.2 else 0)
+    # 거래량 감소 (5점) — 수축 중 거래량 감소
+    if vol_declining:
+        score += 5
+    # 피벗 근접도 (10점)
+    if pivot:
+        d = (pivot - current) / pivot
+        score += (10 if d < 0 else 10 if d < 0.02 else 7 if d < 0.05 else 4 if d < 0.10 else 0)
+
+    # 신호 판정
+    if pivot:
+        dist = (pivot - current) / pivot
+        if dist < -0.15:
+            signal = "EXTENDED"
+        elif dist < 0:
+            signal = "BREAKOUT"
+        elif dist < 0.05 and has_vcp and rs >= 85 and vol_spike >= 1.3:
+            signal = "BUY_ZONE"
+        elif dist < 0.10 and (has_vcp or rs >= 85):
+            signal = "WATCH"
+        else:
+            signal = "AVOID"
+    else:
+        signal = "WATCH" if (rs >= 85 and has_vcp) else "AVOID"
+
+    return {
+        "qullamaggie_score":  min(100, score),
+        "qullamaggie_signal": signal,
+    }
+
+
 # ── 메인 스크리닝 ─────────────────────────────────────────────
 
 def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
@@ -209,8 +266,31 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                     if not stage["is_stage2"]:
                         continue
 
-                    vcp = detect_vcp(close, volume)
+                    vcp  = detect_vcp(close, volume)
                     prox = _proximity_score(float(close.iloc[-1]), vcp.get("pivot"))
+
+                    # 거래량 급등 비율 (최근 5일 최고 / 50일 평균) — EP 감지용
+                    vol_arr = volume.values.astype(float)
+                    if len(vol_arr) >= 55:
+                        vol_avg50 = float(np.mean(vol_arr[-55:-5]))
+                        vol_spike = float(np.max(vol_arr[-5:])) / vol_avg50 if vol_avg50 > 0 else 1.0
+                    elif len(vol_arr) >= 10:
+                        vol_avg50 = float(np.mean(vol_arr[:-5]))
+                        vol_spike = float(np.max(vol_arr[-5:])) / vol_avg50 if vol_avg50 > 0 else 1.0
+                    else:
+                        vol_spike = 1.0
+
+                    rs_val = float(rs_map.get(ticker, 0))
+                    qg = _qullamaggie_analysis(
+                        rs           = rs_val,
+                        has_vcp      = bool(vcp["has_vcp"]),
+                        pivot        = vcp.get("pivot"),
+                        current      = float(close.iloc[-1]),
+                        final_depth  = float(vcp.get("final_depth_pct", 0)),
+                        contractions = int(vcp.get("contractions", 0)),
+                        vol_spike    = vol_spike,
+                        vol_declining= bool(vcp.get("vol_declining", False)),
+                    )
 
                     results.append({
                         "ticker":              ticker,
@@ -221,11 +301,14 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         "has_vcp":             bool(vcp["has_vcp"]),
                         "pivot":               vcp.get("pivot"),
                         "current_price":       round(float(close.iloc[-1]), 2),
-                        "rs_rating":           float(rs_map.get(ticker, 0)),
+                        "rs_rating":           rs_val,
                         "ma50":                float(stage["ma50"]),
                         "ma200":               float(stage["ma200"]),
                         "final_depth_pct":     float(vcp.get("final_depth_pct", 0)),
                         "contractions":        int(vcp.get("contractions", 0)),
+                        "vol_declining":       bool(vcp.get("vol_declining", False)),
+                        "vol_spike_ratio":     round(vol_spike, 2),
+                        **qg,
                     })
                 except Exception:
                     continue

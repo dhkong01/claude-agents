@@ -32,15 +32,25 @@ auth_url = (f"https://kauth.kakao.com/oauth/authorize?client_id={REST_KEY}"
             f"&redirect_uri={urllib.parse.quote(REDIRECT_URI,safe='')}"
             "&response_type=code&scope=talk_message")
 
-print("브라우저가 열립니다 - 카카오 로그인 후 동의하기 클릭하세요.")
+print("\n" + "="*60)
+print("카카오 인증 URL (브라우저가 자동으로 열립니다):")
+print(auth_url)
+print("="*60)
+print("\n1. 위 URL로 카카오 로그인 후 '동의하기' 클릭")
+print("2. 완료되면 이 창이 자동으로 닫힙니다 (5분 대기)")
+print("="*60 + "\n")
 webbrowser.open(auth_url)
 
+import time
 srv = HTTPServer(("localhost", PORT), _H)
-srv.timeout = 120
-srv.handle_request()
+srv.timeout = 2
+deadline = time.time() + 300  # 5분 대기
+print("대기 중... (최대 5분)")
+while not _code and time.time() < deadline:
+    srv.handle_request()
 
 if not _code:
-    print("ERR: 인증 코드 수신 실패 (120초 초과)")
+    print("ERR: 인증 코드 수신 실패 (5분 초과 - 위 URL로 직접 브라우저에 접속해 시도하세요)")
     sys.exit(1)
 
 print(f"인증 코드 수신 완료. 토큰 교환 중...")

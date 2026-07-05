@@ -223,13 +223,13 @@ def test_connection() -> bool:
     )
     try:
         ok = _send_raw(text)
-        print("  ✅ 테스트 메시지 전송 성공 — 카카오톡을 확인하세요.")
+        print("  [OK] 테스트 메시지 전송 성공 -- 카카오톡을 확인하세요.")
         return ok
     except FileNotFoundError as e:
-        print(f"  ❌ 설정 필요: {e}", file=sys.stderr)
+        print(f"  [설정 필요] {e}", file=sys.stderr)
         return False
     except Exception as e:
-        print(f"  ❌ 전송 실패: {e}", file=sys.stderr)
+        print(f"  [전송 실패] {e}", file=sys.stderr)
         return False
 
 

@@ -55,16 +55,11 @@ Each question set builds on previous answers. Grounding phases validate assumpti
 Ask these questions (present all at once, user can answer together):
 
 > **Foundation Questions:**
->
-> 1. **Who** has this problem? Be specific - not just "users" but what type of person/role?
->
-> 2. **What** problem are they facing? Describe the observable pain, not the assumed need.
->
-> 3. **Why** can't they solve it today? What alternatives exist and why do they fail?
->
-> 4. **Why now?** What changed that makes this worth building?
->
-> 5. **How** will you know if you solved it? What would success look like?
+> > 1. **Who** has this problem? Be specific - not just "users" but what type of person/role?
+> > 2. **What** problem are they facing? Describe the observable pain, not the assumed need.
+> > 3. **Why** can't they solve it today? What alternatives exist and why do they fail?
+> > 4. **Why now?** What changed that makes this worth building?
+> > 5. **How** will you know if you solved it? What would success look like?
 
 **GATE**: Wait for user responses before proceeding.
 
@@ -97,8 +92,7 @@ Record file locations, code patterns, and conventions observed.
 > - {Market insight 1}
 > - {Competitor approach}
 > - {Relevant pattern from codebase, if applicable}
->
-> Does this change or refine your thinking?
+> > Does this change or refine your thinking?
 
 **GATE**: Brief pause for user input (can be "continue" or adjustments).
 
@@ -109,16 +103,11 @@ Record file locations, code patterns, and conventions observed.
 Based on foundation + research, ask:
 
 > **Vision & Users:**
->
-> 1. **Vision**: In one sentence, what's the ideal end state if this succeeds wildly?
->
-> 2. **Primary User**: Describe your most important user - their role, context, and what triggers their need.
->
-> 3. **Job to Be Done**: Complete this: "When [situation], I want to [motivation], so I can [outcome]."
->
-> 4. **Non-Users**: Who is explicitly NOT the target? Who should we ignore?
->
-> 5. **Constraints**: What limitations exist? (time, budget, technical, regulatory)
+> > 1. **Vision**: In one sentence, what's the ideal end state if this succeeds wildly?
+> > 2. **Primary User**: Describe your most important user - their role, context, and what triggers their need.
+> > 3. **Job to Be Done**: Complete this: "When [situation], I want to [motivation], so I can [outcome]."
+> > 4. **Non-Users**: Who is explicitly NOT the target? Who should we ignore?
+> > 5. **Constraints**: What limitations exist? (time, budget, technical, regulatory)
 
 **GATE**: Wait for user responses before proceeding.
 
@@ -158,8 +147,7 @@ Compile findings with citations and gap analysis.
 > - Feasibility: {HIGH/MEDIUM/LOW} because {reason}
 > - Can leverage: {existing patterns/infrastructure}
 > - Key technical risk: {main concern}
->
-> Any technical constraints I should know about?
+> > Any technical constraints I should know about?
 
 **GATE**: Brief pause for user input.
 
@@ -170,16 +158,11 @@ Compile findings with citations and gap analysis.
 Ask final clarifying questions:
 
 > **Scope & Approach:**
->
-> 1. **MVP Definition**: What's the absolute minimum to test if this works?
->
-> 2. **Must Have vs Nice to Have**: What 2-3 things MUST be in v1? What can wait?
->
-> 3. **Key Hypothesis**: Complete this: "We believe [capability] will [solve problem] for [users]. We'll know we're right when [measurable outcome]."
->
-> 4. **Out of Scope**: What are you explicitly NOT building (even if users ask)?
->
-> 5. **Open Questions**: What uncertainties could change the approach?
+> > 1. **MVP Definition**: What's the absolute minimum to test if this works?
+> > 2. **Must Have vs Nice to Have**: What 2-3 things MUST be in v1? What can wait?
+> > 3. **Key Hypothesis**: Complete this: "We believe [capability] will [solve problem] for [users]. We'll know we're right when [measurable outcome]."
+> > 4. **Out of Scope**: What are you explicitly NOT building (even if users ask)?
+> > 5. **Open Questions**: What uncertainties could change the approach?
 
 **GATE**: Wait for user responses before generating.
 

@@ -110,10 +110,8 @@
 ### 第二步：安装规则（必需）
 
 > WARNING: **重要提示：** Claude Code 插件无法自动分发 `rules`。
->
-> 如果你已经通过 `/plugin install` 安装了 ECC，**不要再运行 `./install.sh --profile full`、`.\install.ps1 --profile full` 或 `npx ecc-install --profile full`**。插件已经会自动加载 ECC 的技能、命令和 hooks；此时再执行完整安装，会把同一批内容再次复制到用户目录，导致技能重复以及运行时行为重复。
->
-> 对于插件安装路径，请只手动复制你需要的 `rules/` 目录。只有在你完全不走插件安装、而是选择“纯手动安装 ECC”时，才应该使用完整安装器。
+> > 如果你已经通过 `/plugin install` 安装了 ECC，**不要再运行 `./install.sh --profile full`、`.\install.ps1 --profile full` 或 `npx ecc-install --profile full`**。插件已经会自动加载 ECC 的技能、命令和 hooks；此时再执行完整安装，会把同一批内容再次复制到用户目录，导致技能重复以及运行时行为重复。
+> > 对于插件安装路径，请只手动复制你需要的 `rules/` 目录。只有在你完全不走插件安装、而是选择“纯手动安装 ECC”时，才应该使用完整安装器。
 
 ```bash
 # 首先克隆仓库
@@ -160,21 +158,17 @@ Copy-Item -Recurse rules/typescript "$HOME/.claude/rules/"
 /plugin list everything-claude-code@everything-claude-code
 ```
 
-**完成！** 你现在可以使用 48 个代理、183 个技能和 79 个命令。
+**完成！** 你现在可以使用 66 个代理、183 个技能和 79 个命令。
 
 ### multi-* 命令需要额外配置
 
 > WARNING: 上面的基础插件 / rules 安装**不包含** `multi-*` 命令所需的运行时。
->
-> 如果要使用 `/multi-plan`、`/multi-execute`、`/multi-backend`、`/multi-frontend` 和 `/multi-workflow`，还需要额外安装 `ccg-workflow` 运行时。
->
-> 可通过 `npx ccg-workflow` 完成初始化安装。
->
-> 该运行时会提供这些命令依赖的关键组件，包括：
+> > 如果要使用 `/multi-plan`、`/multi-execute`、`/multi-backend`、`/multi-frontend` 和 `/multi-workflow`，还需要额外安装 `ccg-workflow` 运行时。
+> > 可通过 `npx ccg-workflow` 完成初始化安装。
+> > 该运行时会提供这些命令依赖的关键组件，包括：
 > - `~/.claude/bin/codeagent-wrapper`
 > - `~/.claude/.ccg/prompts/*`
->
-> 未安装 `ccg-workflow` 时，这些 `multi-*` 命令将无法正常运行。
+> > 未安装 `ccg-workflow` 时，这些 `multi-*` 命令将无法正常运行。
 
 ---
 
@@ -568,20 +562,17 @@ Claude Code v2.1+ 会**按照约定自动加载**已安装插件中的 `hooks/ho
 这让你可以立即访问所有命令、代理、技能和钩子。
 
 > **注意：** Claude Code 插件系统不支持通过插件分发 `rules`（[上游限制](https://code.claude.com/docs/en/plugins-reference)）。你需要手动安装规则：
->
-> ```bash
+> > ```bash
 > # 首先克隆仓库
 > git clone https://github.com/affaan-m/everything-claude-code.git
->
-> # 方案 A：用户级规则（对所有项目生效）
+> > # 方案 A：用户级规则（对所有项目生效）
 > mkdir -p ~/.claude/rules
 > cp -r everything-claude-code/rules/common ~/.claude/rules/
 > cp -r everything-claude-code/rules/typescript ~/.claude/rules/   # 选择你使用的技术栈
 > cp -r everything-claude-code/rules/python ~/.claude/rules/
 > cp -r everything-claude-code/rules/golang ~/.claude/rules/
 > cp -r everything-claude-code/rules/php ~/.claude/rules/
->
-> # 方案 B：项目级规则（仅对当前项目生效）
+> > # 方案 B：项目级规则（仅对当前项目生效）
 > mkdir -p .claude/rules
 > cp -r everything-claude-code/rules/common .claude/rules/
 > cp -r everything-claude-code/rules/typescript .claude/rules/     # 选择你使用的技术栈

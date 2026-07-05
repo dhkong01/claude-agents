@@ -1,6 +1,6 @@
 # Everything Claude Code (ECC) — Agent Instructions
 
-This is a **production-ready AI coding plugin** providing 48 specialized agents, 183 skills, 79 commands, and automated hook workflows for software development.
+This is a **production-ready AI coding plugin** providing 66 specialized agents, 183 skills, 79 commands, and automated hook workflows for software development.
 
 **Version:** 1.10.0
 
@@ -145,7 +145,7 @@ Troubleshoot failures: check test isolation → verify mocks → fix implementat
 ## Project Structure
 
 ```
-agents/          — 48 specialized subagents
+agents/          — 66 specialized subagents
 skills/          — 183 workflow skills and domain knowledge
 commands/        — 79 slash commands
 hooks/           — Trigger-based automations

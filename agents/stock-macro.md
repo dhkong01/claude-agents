@@ -61,3 +61,42 @@ RISK_OFF    → S&P500 < MA200 또는 VIX > 25      → m_score = 2
 | RISK_ON | Technology, Consumer Discretionary, Industrials, Financials |
 | TRANSITIONAL | Healthcare, Financials, Energy, Real Estate |
 | RISK_OFF | Utilities, Consumer Staples, Healthcare, Energy |
+
+---
+
+## 분기별 섹터 강세 분석
+
+### 섹터 ETF (QTD 수익률 기준 랭킹)
+
+| 섹터 | ETF | 국내 대표주 |
+|------|-----|------------|
+| Technology | XLK | 삼성전자·SK하이닉스·NAVER |
+| Financials | XLF | KB금융·신한지주·하나금융 |
+| Energy | XLE | SK이노베이션·S-Oil·HD현대 |
+| Healthcare | XLV | 셀트리온·삼성바이오·한미약품 |
+| Industrials | XLI | 한화오션·한화에어로·HMM |
+| Communication | XLC | SK텔레콤·KT·카카오 |
+| Consumer Disc. | XLY | 한국타이어·대한항공·오리온 |
+| Real Estate | XLRE | SK리츠·신한알파리츠·맥쿼리인프라 |
+| Utilities | XLU | 한국전력·두산에너빌리티 |
+| Materials | XLB | 고려아연·한화솔루션·SKC |
+| Consumer Staples | XLP | CJ제일제당·LG생활건강·이마트 |
+
+### 분기 리포트 생성
+```bash
+cd tools/stock_portfolio && python quarterly_sector_report.py
+# 또는 전체 파이프라인 + 분기 리포트
+python run_pipeline.py --quarterly
+```
+출력: `agent_Stocks/quarterly_YYYY-QN.html`
+
+### 출력 스키마 추가 (cache/sector_rankings.json)
+```json
+{
+  "date": "YYYY-MM-DD",
+  "rankings": [
+    {"rank": 1, "sector": "Technology", "etf": "XLK", "qtd": 8.4},
+    {"rank": 2, "sector": "Financials",  "etf": "XLF", "qtd": 5.1}
+  ]
+}
+```

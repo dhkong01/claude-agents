@@ -192,12 +192,9 @@ This is intentional. Anthropic marketplace/plugin installs are keyed by a canoni
 ### Step 2: Install Rules (Required)
 
 > WARNING: **Important:** Claude Code plugins cannot distribute `rules` automatically.
->
-> If you already installed ECC via `/plugin install`, **do not run `./install.sh --profile full`, `.\install.ps1 --profile full`, or `npx ecc-install --profile full` afterward**. The plugin already loads ECC skills, commands, and hooks. Running the full installer after a plugin install copies those same surfaces into your user directories and can create duplicate skills plus duplicate runtime behavior.
->
-> For plugin installs, manually copy only the `rules/` directories you want. Use the full installer only when you are doing a fully manual ECC install instead of the plugin path.
->
-> If your local Claude setup was wiped or reset, that does not mean you need to repurchase ECC. Start with `ecc list-installed`, then run `ecc doctor` and `ecc repair` before reinstalling anything. That usually restores ECC-managed files without rebuilding your setup. If the problem is account or marketplace access for ECC Tools, handle billing/account recovery separately.
+> > If you already installed ECC via `/plugin install`, **do not run `./install.sh --profile full`, `.\install.ps1 --profile full`, or `npx ecc-install --profile full` afterward**. The plugin already loads ECC skills, commands, and hooks. Running the full installer after a plugin install copies those same surfaces into your user directories and can create duplicate skills plus duplicate runtime behavior.
+> > For plugin installs, manually copy only the `rules/` directories you want. Use the full installer only when you are doing a fully manual ECC install instead of the plugin path.
+> > If your local Claude setup was wiped or reset, that does not mean you need to repurchase ECC. Start with `ecc list-installed`, then run `ecc doctor` and `ecc repair` before reinstalling anything. That usually restores ECC-managed files without rebuilding your setup. If the problem is account or marketplace access for ECC Tools, handle billing/account recovery separately.
 
 ```bash
 # Clone the repo first
@@ -247,7 +244,7 @@ For manual install instructions see the README in the `rules/` folder. When copy
 /plugin list everything-claude-code@everything-claude-code
 ```
 
-**That's it!** You now have access to 48 agents, 183 skills, and 79 legacy command shims.
+**That's it!** You now have access to 66 agents, 183 skills, and 79 legacy command shims.
 
 ### Dashboard GUI
 
@@ -269,16 +266,12 @@ python3 ./ecc_dashboard.py
 ### Multi-model commands require additional setup
 
 > WARNING: `multi-*` commands are **not** covered by the base plugin/rules install above.
->
-> To use `/multi-plan`, `/multi-execute`, `/multi-backend`, `/multi-frontend`, and `/multi-workflow`, you must also install the `ccg-workflow` runtime.
->
-> Initialize it with `npx ccg-workflow`.
->
-> That runtime provides the external dependencies these commands expect, including:
+> > To use `/multi-plan`, `/multi-execute`, `/multi-backend`, `/multi-frontend`, and `/multi-workflow`, you must also install the `ccg-workflow` runtime.
+> > Initialize it with `npx ccg-workflow`.
+> > That runtime provides the external dependencies these commands expect, including:
 > - `~/.claude/bin/codeagent-wrapper`
 > - `~/.claude/.ccg/prompts/*`
->
-> Without `ccg-workflow`, these `multi-*` commands will not run correctly.
+> > Without `ccg-workflow`, these `multi-*` commands will not run correctly.
 
 ---
 
@@ -680,20 +673,17 @@ Or add directly to your `~/.claude/settings.json`:
 This gives you instant access to all commands, agents, skills, and hooks.
 
 > **Note:** The Claude Code plugin system does not support distributing `rules` via plugins ([upstream limitation](https://code.claude.com/docs/en/plugins-reference)). You need to install rules manually:
->
-> ```bash
+> > ```bash
 > # Clone the repo first
 > git clone https://github.com/affaan-m/everything-claude-code.git
->
-> # Option A: User-level rules (applies to all projects)
+> > # Option A: User-level rules (applies to all projects)
 > mkdir -p ~/.claude/rules
 > cp -r everything-claude-code/rules/common ~/.claude/rules/
 > cp -r everything-claude-code/rules/typescript ~/.claude/rules/   # pick your stack
 > cp -r everything-claude-code/rules/python ~/.claude/rules/
 > cp -r everything-claude-code/rules/golang ~/.claude/rules/
 > cp -r everything-claude-code/rules/php ~/.claude/rules/
->
-> # Option B: Project-level rules (applies to current project only)
+> > # Option B: Project-level rules (applies to current project only)
 > mkdir -p .claude/rules
 > cp -r everything-claude-code/rules/common .claude/rules/
 > cp -r everything-claude-code/rules/typescript .claude/rules/     # pick your stack
@@ -1213,7 +1203,7 @@ The configuration is automatically detected from `.opencode/opencode.json`.
 
 | Feature | Claude Code | OpenCode | Status |
 |---------|-------------|----------|--------|
-| Agents | PASS: 48 agents | PASS: 12 agents | **Claude Code leads** |
+| Agents | PASS: 66 agents | PASS: 12 agents | **Claude Code leads** |
 | Commands | PASS: 79 commands | PASS: 31 commands | **Claude Code leads** |
 | Skills | PASS: 183 skills | PASS: 37 skills | **Claude Code leads** |
 | Hooks | PASS: 8 event types | PASS: 11 events | **OpenCode has more!** |
@@ -1322,7 +1312,7 @@ ECC is the **first plugin to maximize every major AI coding tool**. Here's how e
 
 | Feature | Claude Code | Cursor IDE | Codex CLI | OpenCode |
 |---------|------------|------------|-----------|----------|
-| **Agents** | 48 | Shared (AGENTS.md) | Shared (AGENTS.md) | 12 |
+| **Agents** | 66 | Shared (AGENTS.md) | Shared (AGENTS.md) | 12 |
 | **Commands** | 79 | Shared | Instruction-based | 31 |
 | **Skills** | 183 | Shared | 10 (native format) | 37 |
 | **Hook Events** | 8 types | 15 types | None yet | 11 types |

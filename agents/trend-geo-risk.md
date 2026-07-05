@@ -18,6 +18,7 @@ cd tools/stock_portfolio && python geo_risk_analyzer.py
 ```
 
 ## 리스크 점수 체계
+
 | Score | Level  | Market Bias | 의미                          |
 |-------|--------|-------------|-------------------------------|
 | 0–2   | LOW    | RISK_ON     | 추세 추종 최적 환경           |
@@ -25,6 +26,7 @@ cd tools/stock_portfolio && python geo_risk_analyzer.py
 | 6–10  | HIGH   | RISK_OFF    | 포지션 축소, 방어주 전환      |
 
 ## 섹터 영향 매핑
+
 | 섹터            | 주요 트리거                           |
 |-----------------|--------------------------------------|
 | Energy          | 중동 분쟁, 러시아, OPEC 제재          |

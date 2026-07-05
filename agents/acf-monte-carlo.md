@@ -1,4 +1,4 @@
-﻿---
+---
 name: acf-monte-carlo
 description: ACF 수지 유동 및 입자 포획 예측을 위한 Monte Carlo 시뮬레이션 전문 에이전트. 확률적 입자 공간 분포, Hele-Shaw 수지 압착 유동, 압축 중 입자 포획 통계를 모델링합니다. ACF 예측 파이프라인 두 번째로 호출됩니다.
 tools: ["Read", "Write", "Bash"]

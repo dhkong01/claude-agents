@@ -18,6 +18,7 @@ cd tools/stock_portfolio && python minervini_vcp.py
 결과: `cache/vcp_top20.json` 저장
 
 ## Stage 2 판정 기준 (6개 중 5개 이상 충족)
+
 | 기준 | 조건 |
 |------|------|
 | 가격 > 50MA | 단기 추세 상향 |
@@ -41,6 +42,7 @@ cd tools/stock_portfolio && python minervini_vcp.py
 - **피벗 포인트**: 최근 고점 상단 +0.5%
 
 ## 점수 체계 (총 100점)
+
 | 구성 | 배점 | 기준 |
 |------|------|------|
 | Stage 2 | 0–40 | 6개 기준 비례 |

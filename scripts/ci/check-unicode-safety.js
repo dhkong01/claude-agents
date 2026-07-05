@@ -15,6 +15,8 @@ const ignoredDirs = new Set([
   '.dmux',
   '.next',
   'coverage',
+  'tools',   // standalone Python tools — intentional emojis in user-facing output
+  'docs',    // GitHub Pages assets — intentional display content
 ]);
 
 const textExtensions = new Set([

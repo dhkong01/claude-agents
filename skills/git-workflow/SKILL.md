@@ -141,8 +141,7 @@ Create `.gitmessage` in repo root:
 # # Types: feat, fix, docs, style, refactor, test, chore, perf, ci, revert
 # Scope: api, ui, db, auth, etc.
 # Subject: imperative mood, no period, max 50 chars
-#
-# [optional body] - explain why, not what
+# # [optional body] - explain why, not what
 # [optional footer] - Breaking changes, closes #issue
 ```
 

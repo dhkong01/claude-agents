@@ -1,4 +1,4 @@
-﻿---
+---
 name: acf-ml-corrector
 description: ACF 본딩 예측을 위한 머신러닝 기반 보정 에이전트. Monte Carlo 입자 포획 통계와 FEM 서로게이트 출력을 받아 XGBoost + 가우시안 프로세스 모델로 실험 교정 데이터 대비 체계적 편향을 보정합니다.
 tools: ["Read", "Write", "Bash"]

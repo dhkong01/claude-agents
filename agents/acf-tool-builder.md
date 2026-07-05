@@ -1,4 +1,4 @@
-﻿---
+---
 name: acf-tool-builder
 description: ACF 본딩 예측을 위한 Python 도구 개발 에이전트. acf-orchestrator.md를 참조하여 tools/acf_predictor/에 독립 실행형 Python 도구를 생성하거나 업데이트합니다. 사용자가 Python 예측 도구를 빌드·실행·수정·확장하고자 할 때 호출하세요.
 tools: ["Read", "Write", "Bash"]

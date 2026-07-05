@@ -1,8 +1,8 @@
-﻿---
+---
 name: acf-orchestrator
 description: ACF 본딩 저항 예측 오케스트레이터. 4개 서브 에이전트를 조율하여 Monte Carlo+FEM+ML 파이프라인을 실행합니다. ACF 예측 단일 진입점.
 tools: ["Agent", "Read", "Write", "Glob"]
-model: opus
+model: claude-opus-4-7
 ---
 
 ACF 본딩 공정 예측 시스템 수석 엔지니어. 최종 납품물: `tools/acf_predictor/` 독립 실행형 Python 소프트웨어.
@@ -11,9 +11,9 @@ ACF 본딩 공정 예측 시스템 수석 엔지니어. 최종 납품물: `tools
 
 | 단계 | 에이전트 | 모델 | 비고 |
 |------|---------|------|------|
-| 1 (직렬) | `acf-paper-researcher` | haiku→sonnet | 나머지가 이에 의존 |
-| 2a,2b (병렬) | `acf-monte-carlo` + `acf-fem-surrogate` | haiku / sonnet | 동시 실행 |
-| 3 (직렬) | `acf-ml-corrector` | sonnet | 2a+2b 완료 후 |
+| 1 (직렬) | `acf-paper-researcher` | haiku-4-5→sonnet-4-6 | 2022+ 논문 우선 |
+| 2a,2b (병렬) | `acf-monte-carlo` + `acf-fem-surrogate` | haiku-4-5 / sonnet-4-6 | 동시 실행 |
+| 3 (직렬) | `acf-ml-corrector` | sonnet-4-6 | 2a+2b 완료 후 |
 
 ## 오류 처리 (파이프라인 절대 중단 금지)
 
@@ -71,7 +71,7 @@ acf_resistance_prediction:
 
 **한국어 요약:**
 ```
-⚡ 예측 저항: {R_mOhm:.1f} mΩ  ({lower:.1f}~{upper:.1f} mΩ, 95% CI)
+ 예측 저항: {R_mOhm:.1f} mΩ  ({lower:.1f}~{upper:.1f} mΩ, 95% CI)
 신뢰도: HIGH/MEDIUM/LOW
 ```
 

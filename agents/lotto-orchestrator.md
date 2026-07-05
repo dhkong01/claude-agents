@@ -46,14 +46,14 @@ python tools/lotto/predict.py     # 4단계: 5게임 예측 → lotto_prediction
 ## 출력 형식 (카카오톡)
 
 ```
-🎱 로또 예측 — 제{N}회
+ 로또 예측 — 제{N}회
 ━━━━━━━━━━━━━━━━━━━━
-📅 YYYY-MM-DD (추첨일: 토요일)
+ YYYY-MM-DD (추첨일: 토요일)
 방법: 3모델합의정합성+몬테카를로
 
 [5게임 예측]
 A  XX XX XX XX XX XX  합:XXX  홀X짝X  XX.X%
-B  XX XX XX XX XX XX  합:XXX  홀X짝X  XX.X%  ◀대표
+B  XX XX XX XX XX XX  합:XXX  홀X짝X  XX.X%  대표
 ...
 
 [대표 게임 상세]

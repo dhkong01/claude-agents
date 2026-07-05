@@ -9,6 +9,8 @@ const path = require('path');
 const AGENTS_DIR = path.join(__dirname, '../../agents');
 const REQUIRED_FIELDS = ['model', 'tools'];
 const VALID_MODELS = ['haiku', 'sonnet', 'opus'];
+// Also accept full Anthropic model IDs (e.g. claude-sonnet-4-6, claude-haiku-4-5-20251001)
+const VALID_MODEL_PATTERN = /^claude-/;
 
 function extractFrontmatter(content) {
   // Strip BOM if present (UTF-8 BOM: \uFEFF)
@@ -65,8 +67,8 @@ function validateAgents() {
     }
 
     // Validate model is a known value
-    if (frontmatter.model && !VALID_MODELS.includes(frontmatter.model)) {
-      console.error(`ERROR: ${file} - Invalid model '${frontmatter.model}'. Must be one of: ${VALID_MODELS.join(', ')}`);
+    if (frontmatter.model && !VALID_MODELS.includes(frontmatter.model) && !VALID_MODEL_PATTERN.test(frontmatter.model)) {
+      console.error(`ERROR: ${file} - Invalid model '${frontmatter.model}'. Must be one of: ${VALID_MODELS.join(', ')} or a full claude-* model ID`);
       hasErrors = true;
     }
   }

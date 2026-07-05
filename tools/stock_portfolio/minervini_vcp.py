@@ -196,10 +196,10 @@ def _qullamaggie_analysis(rs: float, has_vcp: bool, pivot, current: float,
         d = (pivot - current) / pivot
         score += (10 if d < 0 else 10 if d < 0.02 else 7 if d < 0.05 else 4 if d < 0.10 else 0)
 
-    # 신호 판정
+    # 신호 판정 (David Ryan: 피벗 20% 초과 = EXTENDED)
     if pivot:
         dist = (pivot - current) / pivot
-        if dist < -0.15:
+        if dist < -0.20:
             signal = "EXTENDED"
         elif dist < 0:
             signal = "BREAKOUT"
@@ -292,6 +292,16 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         vol_declining= bool(vcp.get("vol_declining", False)),
                     )
 
+                    # David Ryan 20% 뻗음 체크 (피벗 대비 20% 이상 상승 → 진입 제외)
+                    pivot_val = vcp.get("pivot")
+                    current_price = float(close.iloc[-1])
+                    if pivot_val and float(pivot_val) > 0:
+                        extension_pct = (current_price - float(pivot_val)) / float(pivot_val) * 100
+                        david_ryan_extended = extension_pct > 20.0
+                    else:
+                        extension_pct = None
+                        david_ryan_extended = False
+
                     results.append({
                         "ticker":              ticker,
                         "total_score":         int(stage["score"] + vcp["score"] + prox),
@@ -300,7 +310,7 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         "proximity_score":     int(prox),
                         "has_vcp":             bool(vcp["has_vcp"]),
                         "pivot":               vcp.get("pivot"),
-                        "current_price":       round(float(close.iloc[-1]), 2),
+                        "current_price":       round(current_price, 2),
                         "rs_rating":           rs_val,
                         "ma50":                float(stage["ma50"]),
                         "ma200":               float(stage["ma200"]),
@@ -308,6 +318,8 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         "contractions":        int(vcp.get("contractions", 0)),
                         "vol_declining":       bool(vcp.get("vol_declining", False)),
                         "vol_spike_ratio":     round(vol_spike, 2),
+                        "pivot_extension_pct": round(extension_pct, 1) if extension_pct is not None else None,
+                        "david_ryan_extended": david_ryan_extended,
                         **qg,
                     })
                 except Exception:

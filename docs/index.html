@@ -167,6 +167,10 @@ body{display:flex;flex-direction:column;overflow:hidden}
 .qg-score-bar-wrap{height:3px;background:var(--bg3);border-radius:2px;display:inline-block;width:48px;vertical-align:middle;margin:0 3px}
 .qg-score-bar{height:3px;border-radius:2px}
 
+/* ── David Ryan 20% 룰 */
+.dr-extended{opacity:.45;pointer-events:none}
+.dr-badge{display:inline-block;padding:2px 7px;border-radius:999px;font-size:10px;font-weight:700;background:rgba(239,68,68,.15);color:var(--red);border:1px solid var(--red)}
+
 /* ══════════════════════════════
    탭4: 섹터
 ══════════════════════════════ */
@@ -728,9 +732,20 @@ function qgBadge(sig) {
   return `<span class="qg-badge ${m.cls}">${m.label}</span>`;
 }
 
+function isDavidRyanExtended(s) {
+  if (s.david_ryan_extended) return true;
+  if (s.pivot && s.pivot > 0 && s.current_price) {
+    return (s.current_price - s.pivot) / s.pivot > 0.20;
+  }
+  return false;
+}
+
 function renderQullamaggie(vcp) {
-  const actionable = vcp.filter(s => s.qullamaggie_signal === 'BUY_ZONE' || s.qullamaggie_signal === 'BREAKOUT');
-  const watch      = vcp.filter(s => s.qullamaggie_signal === 'WATCH');
+  const actionable = vcp.filter(s =>
+    (s.qullamaggie_signal === 'BUY_ZONE' || s.qullamaggie_signal === 'BREAKOUT') &&
+    !isDavidRyanExtended(s)
+  );
+  const watch = vcp.filter(s => s.qullamaggie_signal === 'WATCH' && !isDavidRyanExtended(s));
   const rows = actionable.map(s => {
     const sig     = s.qullamaggie_signal;
     const qScore  = s.qullamaggie_score || 0;
@@ -809,16 +824,24 @@ function renderVCP() {
           : price >= stop  ? '<span style="color:#f59e0b;font-size:10px">대기중</span>'
           : '<span style="color:#ef4444;font-size:10px">손절권</span>')
         : '';
+      // David Ryan 20% 룰
+      const isExtended = isDavidRyanExtended(s);
+      const extPct = s.pivot_extension_pct != null
+        ? s.pivot_extension_pct
+        : (s.pivot ? ((s.current_price - s.pivot) / s.pivot * 100) : null);
+      const drBadge = isExtended
+        ? `<span class="dr-badge">📏 +${extPct != null ? extPct.toFixed(0) : '20'}% 초과</span>` : '';
       // 쿨러메기 배지
       const qSig  = s.qullamaggie_signal;
       const qBdg  = qSig ? qgBadge(qSig) : '';
       const volTag = (s.vol_spike_ratio || 0) >= 2.0
         ? `<span style="color:#f97316;font-size:10px">⚡EP</span>` : '';
       return `
-      <div class="screen-item">
+      <div class="screen-item${isExtended ? ' dr-extended' : ''}">
         <div class="screen-row1">
           <span class="screen-ticker">${tvLink(s.ticker)}</span>
           ${tag}
+          ${drBadge}
           ${qBdg}
           ${volTag}
           <span class="screen-price">$${price.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
@@ -861,10 +884,19 @@ function renderVCP() {
       const barC   = score >= 50 ? '#22c55e' : score >= 35 ? '#f59e0b' : '#ef4444';
       const scrs   = s.scores || {};
       const detail = Object.entries(scrs).map(([k,v]) => `${k}:${v}`).join(' ');
+      // VCP 데이터와 교차 확인 — David Ryan 20% 룰
+      const vcpRef   = (vcpData?.stocks || []).find(v => v.ticker === s.ticker);
+      const csExtended = vcpRef ? isDavidRyanExtended(vcpRef) : false;
+      const csExtPct = vcpRef?.pivot_extension_pct != null
+        ? vcpRef.pivot_extension_pct
+        : (vcpRef?.pivot ? ((vcpRef.current_price - vcpRef.pivot) / vcpRef.pivot * 100) : null);
+      const csDrBadge = csExtended
+        ? `<span class="dr-badge">📏 +${csExtPct != null ? csExtPct.toFixed(0) : '20'}% 초과</span>` : '';
       return `
-      <div class="screen-item">
+      <div class="screen-item${csExtended ? ' dr-extended' : ''}">
         <div class="screen-row1">
           <span class="screen-ticker">${tvLink(s.ticker)}</span>
+          ${csDrBadge}
           <span class="screen-price" style="font-size:12px">${score}/70</span>
           <span class="muted" style="font-size:11px">RS ${(s.rs_rating||0).toFixed(0)}</span>
         </div>

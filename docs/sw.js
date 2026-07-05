@@ -1,5 +1,5 @@
-const CACHE = 'stock-pwa-v4';
-// 아이콘·manifest만 캐시, HTML/JS는 항상 네트워크 우선
+const CACHE = 'stock-pwa-v5';
+// 아이콘·manifest만 캐시, HTML/JS/data는 항상 네트워크 우선
 const PRECACHE = ['/claude-agents/icon-192.svg', '/claude-agents/icon-512.svg', '/claude-agents/manifest.json'];
 
 self.addEventListener('install', e => {
@@ -18,17 +18,17 @@ self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   const path = url.pathname;
 
-  // data/ → 네트워크 우선 (항상 최신), 실패 시 캐시
+  // data/ → CDN 캐시 완전 우회 (cache: 'reload')
   if (path.includes('/data/')) {
     e.respondWith(
-      fetch(e.request).catch(() => caches.match(e.request))
+      fetch(e.request, { cache: 'reload' }).catch(() => caches.match(e.request))
     );
     return;
   }
 
-  // index.html / sw.js → 항상 네트워크 (캐시 사용 안 함)
+  // index.html / JS → CDN 캐시 완전 우회 (cache: 'reload')
   if (path.endsWith('.html') || path.endsWith('.js') || path === '/claude-agents/' || path === '/claude-agents') {
-    e.respondWith(fetch(e.request));
+    e.respondWith(fetch(new Request(e.request, { cache: 'reload' })));
     return;
   }
 

@@ -1,63 +1,9 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "analyzed": 46,
   "top10": [
     {
       "ticker": "CAT",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 446737350656,
-      "price": 969.92,
-      "rs_rating": 93.7
-    },
-    {
-      "ticker": "GEV",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "market_cap": 309576204288,
-      "price": 1152.04,
-      "rs_rating": 93.1
-    },
-    {
-      "ticker": "TXN",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 276213170176,
-      "price": 303.5,
-      "rs_rating": 92.7
-    },
-    {
-      "ticker": "AMAT",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -68,11 +14,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 470651174912,
-      "price": 592.79,
-      "rs_rating": 96.4
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "market_cap": 433011720192,
+      "price": 940.12,
+      "rs_rating": 93.5
     },
     {
       "ticker": "VRT",
@@ -88,9 +34,27 @@
       },
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "market_cap": 122327130112,
-      "price": 318.47,
-      "rs_rating": 93.5
+      "market_cap": 117375959040,
+      "price": 305.58,
+      "rs_rating": 93.3
+    },
+    {
+      "ticker": "GEV",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "market_cap": 289432928256,
+      "price": 1077.08,
+      "rs_rating": 92.7
     },
     {
       "ticker": "PWR",
@@ -106,27 +70,9 @@
       },
       "sector": "Industrials",
       "industry": "Engineering & Construction",
-      "market_cap": 101146533888,
-      "price": 674.04,
-      "rs_rating": 90.5
-    },
-    {
-      "ticker": "IBKR",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 7,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "market_cap": 162820358144,
-      "price": 95.99,
-      "rs_rating": 90.1
+      "market_cap": 98558001152,
+      "price": 656.79,
+      "rs_rating": 90.3
     },
     {
       "ticker": "WDC",
@@ -142,12 +88,66 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 199040155648,
-      "price": 577.46,
+      "market_cap": 183405363200,
+      "price": 532.1,
       "rs_rating": 98.6
     },
     {
-      "ticker": "AMD",
+      "ticker": "AMAT",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 440250499072,
+      "price": 554.5,
+      "rs_rating": 96.4
+    },
+    {
+      "ticker": "GLW",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "market_cap": 159545049088,
+      "price": 185.38,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 407848714240,
+      "price": 326.13,
+      "rs_rating": 95.8
+    },
+    {
+      "ticker": "DDOG",
       "canslim_score": 58,
       "scores": {
         "C": 10,
@@ -159,10 +159,10 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 900173004800,
-      "price": 552.05,
-      "rs_rating": 97.8
+      "industry": "Software - Application",
+      "market_cap": 91414134784,
+      "price": 256.81,
+      "rs_rating": 95.6
     },
     {
       "ticker": "TER",
@@ -178,9 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 59410878464,
-      "price": 379.52,
-      "rs_rating": 96.0
+      "market_cap": 53711179776,
+      "price": 343.11,
+      "rs_rating": 95.5
     }
   ]
 }

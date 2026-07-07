@@ -107,10 +107,13 @@ def send_kakao():
     def _kakao_send(text):
         tmpl = json.dumps({"object_type":"text","text":text[:2000],
                            "link":{"web_url":"","mobile_web_url":""}}, ensure_ascii=False)
-        _post("https://kapi.kakao.com/v2/api/talk/memo/default/send",
+        resp = _post("https://kapi.kakao.com/v2/api/talk/memo/default/send",
               {"template_object": tmpl},
               {"Authorization": f"Bearer {token}",
                "Content-Type": "application/x-www-form-urlencoded;charset=utf-8"})
+        code = resp.get("result_code", resp.get("code", 0))
+        if code != 0:
+            raise RuntimeError(f"Kakao send error: {resp}")
 
     _kakao_send(msg1)
     _kakao_send(msg2)

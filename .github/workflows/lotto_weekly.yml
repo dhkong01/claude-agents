@@ -2,7 +2,7 @@ name: Lotto Weekly Prediction
 
 on:
   schedule:
-    - cron: '0 0 * * 1'   # UTC 00:00 월요일 = KST 09:00 월요일 (한국 DST 없음, 항상 +9)
+    - cron: '0 3 * * 1'   # UTC 03:00 월요일 = KST 12:00 월요일 (토요일 당첨 smok95 반영 대기)
   workflow_dispatch:       # Actions 탭 > Run workflow 버튼으로 수동 실행 가능
 
 permissions:
@@ -59,6 +59,10 @@ jobs:
 
       - name: 5게임 예측 (Game1 전수탐색 + Game2~5 온도MC)
         run: python tools/lotto/predict.py
+
+      # ── 4.5. 예측 회차 확인 (디버그) ──────────────────────────────
+      - name: 예측 회차 확인
+        run: python -c "import json; d=json.load(open('tools/lotto/data/lotto_prediction.json',encoding='utf-8')); print(f'예측 회차: {d[\"draw\"]}회, 게임 수: {len(d.get(\"games\",[]))}')"
 
       # ── 5. 알림 전송 ──────────────────────────────────────────
       - name: 카카오톡 / Telegram 전송

@@ -368,7 +368,7 @@ async function fetchJSON(path) {
   return r.json();
 }
 
-let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null;
+let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null, rsData = null;
 let priceLookup = {}; // 인기 종목 가격 캐시 (price_lookup.json)
 
 // ── localStorage 포트폴리오 관리 ──────────────────────────
@@ -424,8 +424,10 @@ async function loadAll() {
       fetchJSON('data/canslim_top10.json'),
       fetchJSON('data/sector_latest.json'),
       fetchJSON('data/price_lookup.json'),
+      fetchJSON('data/rs_top30.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
     [trendData, pfData, vcpData, canslimData, sectorData] = results;
+    rsData = results[6];
     if (results[5]?.prices) priceLookup = results[5].prices;
 
     // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
@@ -912,6 +914,45 @@ function renderVCP() {
     <div class="card">
       <div class="card-title">📊 CANSLIM TOP 10</div>
       ${csRows}
+    </div>`;
+  }
+
+  // RS 순위표 (rs_top30.json)
+  if (rsData?.stocks?.length) {
+    const date   = rsData.date || '';
+    const count  = rsData.rs90_count || rsData.stocks.length;
+    const pRs    = rsData.portfolio_rs || {};
+    const rows   = rsData.stocks.map((s, i) => {
+      const bar  = Math.min(100, ((s.rs_rating - 90) / 10) * 100);
+      const col  = s.rs_rating >= 97 ? '#22c55e' : s.rs_rating >= 93 ? '#f59e0b' : '#94a3b8';
+      return `
+      <div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.05)">
+        <span style="min-width:22px;font-size:11px;color:var(--text2)">#${i+1}</span>
+        <span style="min-width:56px;font-weight:700;font-size:13px">${tvLink(s.ticker)}</span>
+        <div style="flex:1;background:var(--bg3);border-radius:3px;height:5px">
+          <div style="width:${bar}%;height:100%;border-radius:3px;background:${col}"></div>
+        </div>
+        <span style="min-width:34px;text-align:right;font-weight:700;color:${col}">${s.rs_rating.toFixed(0)}</span>
+      </div>`;
+    }).join('');
+
+    const pfEntries = Object.entries(pRs).sort((a,b) => b[1]-a[1]);
+    const pfRows = pfEntries.map(([t, r]) => {
+      const col = r >= 90 ? '#22c55e' : r >= 70 ? '#f59e0b' : '#94a3b8';
+      return `<span style="background:var(--bg3);border-radius:5px;padding:3px 8px;font-size:11px">
+        ${tvLink(t)} <b style="color:${col}">${r}</b></span>`;
+    }).join('');
+
+    html += `
+    <div class="card">
+      <div class="card-title">📊 RS 순위 TOP ${rsData.stocks.length}
+        <span style="font-size:11px;color:var(--text2);font-weight:400;margin-left:8px">RS≥90 전체 ${count}종목 · ${date}</span>
+      </div>
+      ${rows}
+      ${pfRows ? `<div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border)">
+        <div style="font-size:11px;color:var(--text2);margin-bottom:6px">내 포트폴리오 RS</div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px">${pfRows}</div>
+      </div>` : ''}
     </div>`;
   }
 

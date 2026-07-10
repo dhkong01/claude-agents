@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-05",
+  "rs90_count": 46,
+  "stocks": [
+    {
+      "ticker": "SNDK",
+      "rs_rating": 99.0
+    },
+    {
+      "ticker": "MU",
+      "rs_rating": 98.8
+    },
+    {
+      "ticker": "WDC",
+      "rs_rating": 98.6
+    },
+    {
+      "ticker": "INTC",
+      "rs_rating": 98.4
+    },
+    {
+      "ticker": "LITE",
+      "rs_rating": 98.2
+    },
+    {
+      "ticker": "STX",
+      "rs_rating": 98.0
+    },
+    {
+      "ticker": "AMD",
+      "rs_rating": 97.8
+    },
+    {
+      "ticker": "MRVL",
+      "rs_rating": 97.6
+    },
+    {
+      "ticker": "DELL",
+      "rs_rating": 97.4
+    },
+    {
+      "ticker": "AMAT",
+      "rs_rating": 97.2
+    },
+    {
+      "ticker": "CIEN",
+      "rs_rating": 97.0
+    },
+    {
+      "ticker": "MRNA",
+      "rs_rating": 96.8
+    },
+    {
+      "ticker": "ARM",
+      "rs_rating": 96.6
+    },
+    {
+      "ticker": "LRCX",
+      "rs_rating": 96.4
+    },
+    {
+      "ticker": "FLEX",
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "GLW",
+      "rs_rating": 96.0
+    },
+    {
+      "ticker": "COHR",
+      "rs_rating": 95.8
+    },
+    {
+      "ticker": "TER",
+      "rs_rating": 95.6
+    },
+    {
+      "ticker": "KLAC",
+      "rs_rating": 95.5
+    },
+    {
+      "ticker": "DDOG",
+      "rs_rating": 95.3
+    },
+    {
+      "ticker": "FIX",
+      "rs_rating": 95.1
+    },
+    {
+      "ticker": "PANW",
+      "rs_rating": 94.9
+    },
+    {
+      "ticker": "CNC",
+      "rs_rating": 94.7
+    },
+    {
+      "ticker": "HUM",
+      "rs_rating": 94.5
+    },
+    {
+      "ticker": "FTNT",
+      "rs_rating": 94.3
+    },
+    {
+      "ticker": "CAT",
+      "rs_rating": 94.1
+    },
+    {
+      "ticker": "HPE",
+      "rs_rating": 93.9
+    },
+    {
+      "ticker": "DVA",
+      "rs_rating": 93.7
+    },
+    {
+      "ticker": "CRWD",
+      "rs_rating": 93.5
+    },
+    {
+      "ticker": "VRT",
+      "rs_rating": 93.3
+    }
+  ],
+  "portfolio_rs": {
+    "TSLA": 37.5,
+    "PLTR": 8.1,
+    "VKTX": 67.1,
+    "META": 15.4,
+    "MRVL": 97.6,
+    "ARM": 96.6,
+    "LRCX": 96.4
+  }
+}

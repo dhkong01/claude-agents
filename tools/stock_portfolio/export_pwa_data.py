@@ -158,6 +158,34 @@ def export_portfolio(today: str) -> bool:
     return True
 
 
+def export_rs(top_n: int = 30) -> bool:
+    """RS 순위 데이터 내보내기: cache/rs90.json → docs/data/rs_top30.json"""
+    src = CACHE_DIR / "rs90.json"
+    data = _read(src)
+    if not data:
+        print("[export] rs90.json 없음", file=sys.stderr)
+        return False
+
+    stocks = data.get("stocks", [])
+    # 이미 rs_rating 내림차순 정렬되어 있음. top_n만 내보냄
+    out_data = {
+        "date":      data.get("date", ""),
+        "rs90_count": data.get("rs90_count", len(stocks)),
+        "stocks":    stocks[:top_n],
+    }
+
+    # 유저 포트폴리오 RS 보완 (RS<90 종목도 포함)
+    user_rs_file = CACHE_DIR / "user_portfolio_rs.json"
+    if user_rs_file.exists():
+        user_rs = _read(user_rs_file) or {}
+        out_data["portfolio_rs"] = user_rs.get("ratings", {})
+
+    out = DOCS_DATA / "rs_top30.json"
+    out.write_text(json.dumps(out_data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[export] rs_top30.json → {out} ({len(out_data['stocks'])}종목)")
+    return True
+
+
 if __name__ == "__main__":
     today = datetime.now().strftime("%Y-%m-%d")
     print(f"[export] PWA 데이터 내보내기 시작 ({today})")
@@ -165,4 +193,5 @@ if __name__ == "__main__":
     export_vcp()
     export_canslim()
     export_portfolio(today)
+    export_rs()
     print("[export] 완료")

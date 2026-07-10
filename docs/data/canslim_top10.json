@@ -1,186 +1,132 @@
 {
-  "date": "2026-07-09",
-  "analyzed": 46,
+  "date": "2026-07-10",
+  "analyzed": 7,
   "top10": [
     {
-      "ticker": "TRGP",
-      "canslim_score": 64,
+      "ticker": "META",
+      "canslim_score": 51,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
+        "N": 4,
+        "S": 10,
+        "L": 0,
         "I": 10,
         "M": 7
       },
-      "sector": "Energy",
-      "industry": "Oil & Gas Midstream",
-      "market_cap": 58602078208,
-      "price": 273.02,
-      "rs_rating": 90.3
-    },
-    {
-      "ticker": "DELL",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 290906243072,
-      "price": 450.22,
-      "rs_rating": 98.0
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 95753289728,
-      "price": 269.0,
-      "rs_rating": 96.2
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "market_cap": 1698738339840,
+      "price": 669.21,
+      "rs_rating": 28.3
     },
     {
       "ticker": "LRCX",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 441664176128,
-      "price": 353.17,
-      "rs_rating": 95.8
-    },
-    {
-      "ticker": "CAT",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "market_cap": 432214900736,
-      "price": 938.39,
-      "rs_rating": 93.1
-    },
-    {
-      "ticker": "CSCO",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "market_cap": 466311118848,
-      "price": 118.31,
-      "rs_rating": 92.7
-    },
-    {
-      "ticker": "TXN",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 280790925312,
-      "price": 308.53,
-      "rs_rating": 92.3
-    },
-    {
-      "ticker": "PWR",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Engineering & Construction",
-      "market_cap": 100265680896,
-      "price": 668.17,
-      "rs_rating": 90.5
-    },
-    {
-      "ticker": "AMD",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 891481882624,
-      "price": 546.72,
-      "rs_rating": 97.6
-    },
-    {
-      "ticker": "AMAT",
-      "canslim_score": 58,
+      "canslim_score": 48,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 1,
-        "S": 10,
-        "L": 10,
+        "S": 7,
+        "L": 3,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 467372146688,
-      "price": 588.66,
-      "rs_rating": 96.6
+      "market_cap": 438112518144,
+      "price": 350.33,
+      "rs_rating": 70.7
+    },
+    {
+      "ticker": "ARM",
+      "canslim_score": 46,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 1,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 345406013440,
+      "price": 323.39,
+      "rs_rating": 84.9
+    },
+    {
+      "ticker": "PLTR",
+      "canslim_score": 45,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 7,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 303955181568,
+      "price": 126.79,
+      "rs_rating": 14.1
+    },
+    {
+      "ticker": "VKTX",
+      "canslim_score": 41,
+      "scores": {
+        "C": 5,
+        "A": 5,
+        "N": 7,
+        "S": 7,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": 4511865344,
+      "price": 38.86,
+      "rs_rating": 56.6
+    },
+    {
+      "ticker": "MRVL",
+      "canslim_score": 34,
+      "scores": {
+        "C": 1,
+        "A": 1,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 206464188416,
+      "price": 235.81,
+      "rs_rating": 99.0
+    },
+    {
+      "ticker": "TSLA",
+      "canslim_score": 33,
+      "scores": {
+        "C": 7,
+        "A": 4,
+        "N": 4,
+        "S": 4,
+        "L": 0,
+        "I": 7,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "market_cap": 1531433975808,
+      "price": 407.76,
+      "rs_rating": 42.4
     }
   ]
 }

@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, batch_download, get_sp500_tickers
+from data_utils import CACHE_DIR, batch_download, get_ndx100_tickers
 
 
 def calc_rs_ratings(price_df: pd.DataFrame) -> pd.Series:
@@ -29,9 +29,10 @@ def calc_rs_ratings(price_df: pd.DataFrame) -> pd.Series:
 
 
 def screen_rs90(min_rating: float = 90.0) -> list[dict]:
-    tickers = get_sp500_tickers()
+    # NDX 100 기준 유니버스 (S&P 500 대신 나스닥 100 사용)
+    tickers = get_ndx100_tickers()
 
-    # 유저 포트폴리오 종목도 포함 (S&P500 외 종목 RS 계산)
+    # 유저 포트폴리오 종목도 포함 (NDX100 외 종목 RS 계산)
     my_port = Path(__file__).parent / "my_portfolio.json"
     user_tickers: list[str] = []
     if my_port.exists():
@@ -43,6 +44,12 @@ def screen_rs90(min_rating: float = 90.0) -> list[dict]:
     prices = prices.dropna(axis=1, thresh=int(len(prices) * 0.8))
 
     ratings = calc_rs_ratings(prices)
+
+    # NDX100 전체 RS 순위 저장 (export_rs가 top30 추출용으로 사용)
+    all_sorted = ratings.sort_values(ascending=False)
+    all_stocks = [{"ticker": str(t), "rs_rating": float(r)} for t, r in all_sorted.items()]
+
+    # RS≥min_rating 필터 (CANSLIM 입력용)
     rs90 = ratings[ratings >= min_rating].sort_values(ascending=False)
 
     # 유저 보유 종목 RS 별도 저장 (RS<90도 포함)
@@ -53,7 +60,12 @@ def screen_rs90(min_rating: float = 90.0) -> list[dict]:
         )
 
     result = [{"ticker": str(t), "rs_rating": float(r)} for t, r in rs90.items()]
-    out = {"date": datetime.now().strftime("%Y-%m-%d"), "rs90_count": len(result), "stocks": result}
+    out = {
+        "date":      datetime.now().strftime("%Y-%m-%d"),
+        "universe":  "NDX100",
+        "rs90_count": len(result),
+        "stocks":    all_stocks,   # NDX100 전체 (export_rs top30 표시용)
+    }
     (CACHE_DIR / "rs90.json").write_text(json.dumps(out, indent=2))
     return result
 

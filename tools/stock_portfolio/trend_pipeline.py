@@ -51,6 +51,8 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
         screen_rs90()
     rs_data = _load("rs90.json") or {}
     rs_count = rs_data.get("rs90_count", 0)
+    result["rs_top10"]   = rs_data.get("stocks", [])[:10]
+    result["rs90_count"] = rs_count
     print(f"      RS≥90: {rs_count}개")
 
     # ── 2. CANSLIM TOP 10 ────────────────────────────────────
@@ -240,6 +242,21 @@ def _build_message(result: dict, mode: str) -> str:
         ]
         if hedge.get("elevated_sectors"):
             lines.append(f"  주시섹터: {', '.join(hedge['elevated_sectors'])}")
+
+    # ── RS 순위 TOP10 ───────────────────────────────────────
+    rs_top10   = result.get("rs_top10", [])
+    rs90_count = result.get("rs90_count", 0)
+    if rs_top10:
+        lines += ["", "━━━━━━━━━━━━━━━",
+                  f"📊 RS TOP10  (RS≥90: {rs90_count}종목)"]
+        pairs = []
+        for i, s in enumerate(rs_top10, 1):
+            pairs.append(f"{i}.{s['ticker']} {s.get('rs_rating', 0):.0f}")
+        # 2열 배치
+        for j in range(0, len(pairs), 2):
+            left  = pairs[j]
+            right = pairs[j+1] if j+1 < len(pairs) else ""
+            lines.append(f"  {left:<12}{right}")
 
     # ── 일일 추적 신호 ──────────────────────────────────────
     tracking  = result.get("tracking", [])

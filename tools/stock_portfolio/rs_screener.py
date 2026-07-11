@@ -45,26 +45,27 @@ def screen_rs90(min_rating: float = 90.0) -> list[dict]:
 
     ratings = calc_rs_ratings(prices)
 
-    # NDX100 전체 RS 순위 저장 (export_rs가 top30 추출용으로 사용)
-    all_sorted = ratings.sort_values(ascending=False)
-    all_stocks = [{"ticker": str(t), "rs_rating": float(r)} for t, r in all_sorted.items()]
-
-    # RS≥min_rating 필터 (CANSLIM 입력용)
-    rs90 = ratings[ratings >= min_rating].sort_values(ascending=False)
-
-    # 유저 보유 종목 RS 별도 저장 (RS<90도 포함)
+    # 유저 보유 종목 RS 별도 저장 (RS<90도 포함) — 포트폴리오 RS만 분리
     if user_tickers:
         user_rs = {t: round(float(ratings[t]), 1) for t in user_tickers if t in ratings.index}
         (CACHE_DIR / "user_portfolio_rs.json").write_text(
             json.dumps({"date": datetime.now().strftime("%Y-%m-%d"), "ratings": user_rs}, indent=2)
         )
 
+    # NDX100 종목만 필터 (포트폴리오 추가 종목 제외) — CANSLIM/VCP 입력 오염 방지
+    ndx_set = set(tickers)
+    ndx_ratings = ratings[ratings.index.isin(ndx_set)].sort_values(ascending=False)
+    all_stocks = [{"ticker": str(t), "rs_rating": float(r)} for t, r in ndx_ratings.items()]
+
+    # RS≥min_rating 필터 (CANSLIM 입력용) — NDX100 기준
+    rs90 = ndx_ratings[ndx_ratings >= min_rating]
     result = [{"ticker": str(t), "rs_rating": float(r)} for t, r in rs90.items()]
+
     out = {
-        "date":      datetime.now().strftime("%Y-%m-%d"),
-        "universe":  "NDX100",
+        "date":       datetime.now().strftime("%Y-%m-%d"),
+        "universe":   "NDX100",
         "rs90_count": len(result),
-        "stocks":    all_stocks,   # NDX100 전체 (export_rs top30 표시용)
+        "stocks":     all_stocks,   # NDX100 전체 정렬 (export_rs top30 표시용)
     }
     (CACHE_DIR / "rs90.json").write_text(json.dumps(out, indent=2))
     return result

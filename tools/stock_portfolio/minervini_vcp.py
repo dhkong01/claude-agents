@@ -233,9 +233,9 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
 
     candidates = [t for t, r in rs_map.items() if r >= min_rs]
     if not candidates:
-        print("  RS 캐시 없음 — universe 상위 200종목 대체 사용")
-        from data_utils import get_universe_tickers
-        candidates = get_universe_tickers()[:200]
+        print("  RS 캐시 없음 — NDX100 전종목 대체 사용")
+        from data_utils import get_ndx100_tickers
+        candidates = get_ndx100_tickers()
 
     print(f"  VCP 스크리닝 대상: {len(candidates)}개")
     results: list[dict] = []

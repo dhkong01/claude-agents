@@ -113,17 +113,12 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
         freshness = verify_price_freshness()
         result["price_freshness"] = freshness
 
-        port_file = BASE_DIR / "my_portfolio.json"
-        port_tickers: list[str] = []
-        # my_portfolio.json 은 git에 커밋되어 있어 Actions checkout 시 자동 로드됨
-        if port_file.exists():
-            try:
-                holdings = json.loads(port_file.read_text(encoding="utf-8")).get("holdings", [])
-                port_tickers = [h["ticker"] for h in holdings if h.get("ticker")]
-            except Exception as e:
-                print(f"  [포트폴리오] 로드 실패: {e}")
+        # NDX100 기준 TOP5만 트래킹 (포트폴리오 종목 제외 — 추세추종 탭 오염 방지)
         top5_tickers = [s["ticker"] for s in top5]
-        track_list   = list(dict.fromkeys(port_tickers + top5_tickers))
+        # RS 상위 추가 추적: rs90.json에서 top5 제외 상위 5종목 보완
+        extra_ndx = [s["ticker"] for s in (rs_data.get("stocks", [])[:10])
+                     if s["ticker"] not in top5_tickers][:5]
+        track_list = list(dict.fromkeys(top5_tickers + extra_ndx))
 
         tracking = track_portfolio(track_list)
         result["tracking"] = tracking

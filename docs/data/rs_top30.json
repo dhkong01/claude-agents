@@ -1,43 +1,135 @@
 {
-  "date": "2026-07-10",
-  "rs90_count": 1,
+  "date": "2026-07-11",
+  "rs90_count": 10,
   "stocks": [
     {
-      "ticker": "MRVL",
+      "ticker": "SNDK",
       "rs_rating": 99.0
     },
     {
+      "ticker": "MU",
+      "rs_rating": 98.0
+    },
+    {
+      "ticker": "WDC",
+      "rs_rating": 97.1
+    },
+    {
+      "ticker": "LITE",
+      "rs_rating": 96.1
+    },
+    {
+      "ticker": "STX",
+      "rs_rating": 95.1
+    },
+    {
+      "ticker": "INTC",
+      "rs_rating": 94.1
+    },
+    {
+      "ticker": "AMD",
+      "rs_rating": 93.2
+    },
+    {
+      "ticker": "MRVL",
+      "rs_rating": 92.2
+    },
+    {
       "ticker": "ARM",
-      "rs_rating": 84.9
+      "rs_rating": 91.2
+    },
+    {
+      "ticker": "AMAT",
+      "rs_rating": 90.3
     },
     {
       "ticker": "LRCX",
-      "rs_rating": 70.7
+      "rs_rating": 89.3
     },
     {
-      "ticker": "VKTX",
-      "rs_rating": 56.6
+      "ticker": "DDOG",
+      "rs_rating": 88.3
     },
     {
-      "ticker": "TSLA",
-      "rs_rating": 42.4
+      "ticker": "FTNT",
+      "rs_rating": 87.4
     },
     {
-      "ticker": "META",
-      "rs_rating": 28.3
+      "ticker": "KLAC",
+      "rs_rating": 86.4
     },
     {
-      "ticker": "PLTR",
-      "rs_rating": 14.1
+      "ticker": "PANW",
+      "rs_rating": 85.4
+    },
+    {
+      "ticker": "CRWD",
+      "rs_rating": 84.4
+    },
+    {
+      "ticker": "CSCO",
+      "rs_rating": 83.5
+    },
+    {
+      "ticker": "ASML",
+      "rs_rating": 82.5
+    },
+    {
+      "ticker": "TXN",
+      "rs_rating": 81.5
+    },
+    {
+      "ticker": "ADI",
+      "rs_rating": 80.6
+    },
+    {
+      "ticker": "MNST",
+      "rs_rating": 79.6
+    },
+    {
+      "ticker": "GOOGL",
+      "rs_rating": 78.6
+    },
+    {
+      "ticker": "NXPI",
+      "rs_rating": 77.6
+    },
+    {
+      "ticker": "GOOG",
+      "rs_rating": 76.7
+    },
+    {
+      "ticker": "MPWR",
+      "rs_rating": 75.7
+    },
+    {
+      "ticker": "CSX",
+      "rs_rating": 74.7
+    },
+    {
+      "ticker": "WBD",
+      "rs_rating": 73.8
+    },
+    {
+      "ticker": "ODFL",
+      "rs_rating": 72.8
+    },
+    {
+      "ticker": "QCOM",
+      "rs_rating": 71.8
+    },
+    {
+      "ticker": "CDNS",
+      "rs_rating": 70.9
     }
   ],
   "portfolio_rs": {
-    "TSLA": 42.4,
-    "PLTR": 14.1,
-    "VKTX": 56.6,
-    "META": 28.3,
-    "MRVL": 99.0,
-    "ARM": 84.9,
-    "LRCX": 70.7
+    "TSLA": 51.4,
+    "PLTR": 18.4,
+    "VKTX": 64.1,
+    "META": 36.9,
+    "MRVL": 92.2,
+    "ARM": 91.2,
+    "LRCX": 89.3
   }
 }

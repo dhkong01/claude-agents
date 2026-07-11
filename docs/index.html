@@ -855,6 +855,22 @@ function renderVCP() {
       const descColor  = s.desc_tri_breaking ? '#22c55e' : (s.desc_near_support ? '#f59e0b' : 'var(--text2)');
       const descLabel  = s.desc_tri_breaking ? '🔻DESC 돌파↑' : (s.desc_near_support ? '🔻DESC 지지권' : '🔻DESC');
       const descBdg    = `<span style="font-size:10px;color:${descColor};border:1px solid ${descColor};border-radius:3px;padding:1px 4px">${descLabel}</span>`;
+      // 패턴 점수 (5점 만점, 역사적 돌파 성공률 기반)
+      // VCP 2.0 / CwH 1.5 / ASC 1.0 / DESC돌파 1.0 / DESC지지 0.5
+      let pScore = 0;
+      if (s.has_vcp)                pScore += 2.0;
+      if (s.has_cwh)                pScore += 1.5;
+      if (s.has_asc_tri)            pScore += 1.0;
+      if (s.desc_tri_breaking)      pScore += 1.0;
+      else if (s.desc_near_support) pScore += 0.5;
+      pScore = Math.min(5, pScore);
+      const fullStars = Math.floor(pScore);
+      const halfStar  = (pScore - fullStars) >= 0.5;
+      const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
+      const starStr = '★'.repeat(fullStars) + (halfStar ? '½' : '') + '☆'.repeat(emptyStars);
+      const pScoreColor = pScore >= 3 ? '#22c55e' : pScore >= 2 ? '#f59e0b' : 'var(--text2)';
+      const patternScoreBdg = `<span style="margin-left:auto;font-size:11px;color:${pScoreColor};font-weight:600">${starStr} ${pScore.toFixed(1)}/5</span>`;
+
       // VCP 돌파 시점 표시
       const vcpDist = s.pivot ? ((s.current_price - s.pivot) / s.pivot * 100) : null;
       const vcpBreaking = vcpDist !== null && vcpDist >= -1 && vcpDist <= 3;
@@ -903,8 +919,9 @@ function renderVCP() {
           <span class="screen-price">$${price.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
           ${priceRelLabel}
         </div>
-        <div style="display:flex;gap:4px;flex-wrap:wrap;margin:4px 0 2px">
+        <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:4px 0 2px">
           ${cwhBdg}${ascBdg}${descBdg}
+          ${patternScoreBdg}
         </div>
         ${pivot ? `
         <div style="margin:3px 0 2px;display:flex;align-items:center;gap:8px">

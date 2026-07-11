@@ -148,6 +148,168 @@ def detect_vcp(close: pd.Series, volume: pd.Series | None = None) -> dict:
     }
 
 
+# ── Cup with Handle 탐지 ─────────────────────────────────────
+
+def detect_cup_with_handle(close: pd.Series) -> dict:
+    """
+    Cup with Handle 패턴 탐지.
+    - Cup: U자형 베이스, 깊이 12~50%, 기간 7~52주
+    - Handle: 컵 고점 대비 소폭 조정(3~20%), 우측 반등
+    - Pivot: 핸들 최고점 +0.5%
+    """
+    if len(close) < 100:
+        return {"has_cwh": False, "cwh_score": 0}
+
+    p = close.values.astype(float)
+    cup_len = min(len(p), 252)
+    p_cup   = p[-cup_len:]
+
+    # 왼쪽 고점 (전체의 앞 60% 구간)
+    left_end      = max(int(len(p_cup) * 0.60), 40)
+    left_peak_idx = int(np.argmax(p_cup[:left_end]))
+    left_peak_val = float(p_cup[left_peak_idx])
+
+    if left_peak_idx >= len(p_cup) - 40:
+        return {"has_cwh": False, "cwh_score": 0}
+
+    # 컵 바닥: 왼쪽 고점 이후~75% 지점 사이 최저점
+    after_peak   = p_cup[left_peak_idx:]
+    handle_start = max(int(len(after_peak) * 0.75), 10)
+    cup_section  = after_peak[:handle_start]
+    if len(cup_section) < 15:
+        return {"has_cwh": False, "cwh_score": 0}
+
+    cup_bot_rel = int(np.argmin(cup_section))
+    cup_bot_val = float(cup_section[cup_bot_rel])
+    cup_depth   = (left_peak_val - cup_bot_val) / left_peak_val
+
+    if not (0.12 <= cup_depth <= 0.50):
+        return {"has_cwh": False, "cwh_score": 0,
+                "cup_depth_pct": round(cup_depth * 100, 1)}
+
+    # 오른쪽 고점 (컵 바닥 ~ 핸들 시작 전 최고점)
+    cup_bot_abs  = left_peak_idx + cup_bot_rel
+    right_search = p_cup[cup_bot_abs : left_peak_idx + handle_start]
+    if len(right_search) < 8:
+        return {"has_cwh": False, "cwh_score": 0,
+                "cup_depth_pct": round(cup_depth * 100, 1)}
+
+    right_lip_val = float(np.max(right_search))
+    lip_diff      = abs(right_lip_val - left_peak_val) / left_peak_val
+
+    if lip_diff > 0.10:
+        return {"has_cwh": False, "cwh_score": 0,
+                "cup_depth_pct": round(cup_depth * 100, 1)}
+
+    # 핸들: 마지막 구간 (오른쪽 75% 이후)
+    handle_section = p_cup[left_peak_idx + handle_start :]
+    if len(handle_section) < 5:
+        handle_section = p_cup[-20:]
+
+    handle_high  = float(np.max(handle_section))
+    handle_low   = float(np.min(handle_section))
+    handle_depth = (handle_high - handle_low) / handle_high if handle_high > 0 else 0
+    has_handle   = (0.02 <= handle_depth <= 0.20) and (handle_low > cup_bot_val)
+
+    pivot         = round(handle_high * 1.005, 2)
+    current       = float(p[-1])
+    dist_to_pivot = (pivot - current) / pivot if pivot > 0 else 0
+
+    score = 0
+    if 0.15 <= cup_depth <= 0.33: score += 25
+    elif 0.12 <= cup_depth <= 0.50: score += 12
+    if lip_diff <= 0.05: score += 20
+    elif lip_diff <= 0.10: score += 10
+    if has_handle:
+        score += 20
+        if handle_depth <= 0.12: score += 10
+    if -0.10 <= dist_to_pivot <= 0.05: score += 10
+
+    has_cwh = bool(has_handle and lip_diff <= 0.10 and 0.12 <= cup_depth <= 0.50)
+    return {
+        "has_cwh":          has_cwh,
+        "cwh_score":        min(85, score),
+        "cup_depth_pct":    round(cup_depth * 100, 1),
+        "handle_depth_pct": round(handle_depth * 100, 1) if has_handle else 0,
+        "cwh_pivot":        float(pivot),
+        "cwh_dist_pct":     round(dist_to_pivot * 100, 1),
+        "lip_diff_pct":     round(lip_diff * 100, 1),
+    }
+
+
+# ── 상승 삼각수렴 탐지 ────────────────────────────────────────
+
+def detect_ascending_triangle(close: pd.Series) -> dict:
+    """
+    상승 삼각수렴(Ascending Triangle) 탐지.
+    - 상단: 수평 저항선 (고점 2~4회 터치, 편차 ≤3%)
+    - 하단: 상승하는 지지선 (저점이 우상향)
+    - 수렴: 고점-저점 간격 축소 → 상승 돌파 대기
+    """
+    if len(close) < 30:
+        return {"has_asc_tri": False, "asc_tri_score": 0}
+
+    p       = close.values.astype(float)
+    lookback = min(len(p), 80)
+    p_lb    = p[-lookback:]
+
+    highs = _local_highs(p_lb, w=4)
+    lows  = _local_lows(p_lb, w=4)
+
+    if len(highs) < 2 or len(lows) < 2:
+        return {"has_asc_tri": False, "asc_tri_score": 0}
+
+    # 수평 저항선: 최근 고점들이 좁은 범위 내
+    rh     = highs[-4:] if len(highs) >= 4 else highs
+    h_vals = [v for _, v in rh]
+    resistance  = float(np.mean(h_vals))
+    h_spread    = (max(h_vals) - min(h_vals)) / resistance if resistance > 0 else 1
+    flat_res    = h_spread <= 0.03
+
+    # 상승 지지선: 저점에 선형 회귀 → 기울기 > 0
+    rl    = lows[-4:] if len(lows) >= 4 else lows
+    l_idx = np.array([i for i, _ in rl], dtype=float)
+    l_val = np.array([v for _, v in rl], dtype=float)
+    if len(l_idx) >= 2:
+        slope = float(np.polyfit(l_idx, l_val, 1)[0])
+        asc_support = slope > 0
+    else:
+        slope = 0.0
+        asc_support = False
+
+    # 수렴 확인: 저항-지지 간격이 좁아지는지
+    if len(rh) >= 2 and len(rl) >= 2:
+        first_gap = h_vals[0] - l_val[0]
+        last_gap  = h_vals[-1] - l_val[-1]
+        converging = (0 < last_gap < first_gap)
+    else:
+        converging = False
+
+    current    = float(p[-1])
+    dist_to_res = (resistance - current) / resistance if resistance > 0 else 0
+    near_break  = dist_to_res < 0.03
+    breaking    = dist_to_res < 0
+
+    score = 0
+    if flat_res:       score += 30
+    if asc_support:    score += 30
+    if converging:     score += 15
+    if near_break:     score += 10
+    if breaking:       score += 10
+    if len(rh) >= 3:   score += 5
+
+    has_asc_tri = bool(flat_res and asc_support and converging)
+    return {
+        "has_asc_tri":        has_asc_tri,
+        "asc_tri_score":      min(85, score),
+        "resistance_level":   round(resistance, 2),
+        "h_spread_pct":       round(h_spread * 100, 1),
+        "support_slope":      round(slope, 5),
+        "asc_tri_dist_pct":   round(dist_to_res * 100, 1),
+        "asc_tri_breaking":   breaking,
+    }
+
+
 # ── 피벗 근접도 점수 ──────────────────────────────────────────
 
 def _proximity_score(current: float, pivot: float | None) -> int:
@@ -302,6 +464,9 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         extension_pct = None
                         david_ryan_extended = False
 
+                    cwh      = detect_cup_with_handle(close)
+                    asc_tri  = detect_ascending_triangle(close)
+
                     results.append({
                         "ticker":              ticker,
                         "total_score":         int(stage["score"] + vcp["score"] + prox),
@@ -321,6 +486,8 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         "pivot_extension_pct": round(extension_pct, 1) if extension_pct is not None else None,
                         "david_ryan_extended": david_ryan_extended,
                         **qg,
+                        **cwh,
+                        **asc_tri,
                     })
                 except Exception:
                     continue

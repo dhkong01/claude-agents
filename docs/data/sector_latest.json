@@ -92,87 +92,15 @@
       "status": "약세"
     }
   ],
-  "us_by_sector": {
-    "Technology": [
-      {
-        "ticker": "AMD",
-        "rs": 93.2,
-        "canslim": 61,
-        "price": 557.89
-      },
-      {
-        "ticker": "AMAT",
-        "rs": 90.3,
-        "canslim": 61,
-        "price": 602.5
-      },
-      {
-        "ticker": "CSCO",
-        "rs": 83.5,
-        "canslim": 58,
-        "price": 121.31
-      },
-      {
-        "ticker": "TXN",
-        "rs": 81.5,
-        "canslim": 58,
-        "price": 311.46
-      },
-      {
-        "ticker": "WDC",
-        "rs": 97.1,
-        "canslim": 55,
-        "price": 582.585
-      },
-      {
-        "ticker": "STX",
-        "rs": 95.1,
-        "canslim": 55,
-        "price": 910.34
-      },
-      {
-        "ticker": "DDOG",
-        "rs": 88.3,
-        "canslim": 55,
-        "price": 257.54
-      },
-      {
-        "ticker": "FTNT",
-        "rs": 87.4,
-        "canslim": 55,
-        "price": 157.51
-      }
-    ],
-    "Consumer Defensive": [
-      {
-        "ticker": "MNST",
-        "rs": 79.6,
-        "canslim": 57,
-        "price": 97.39
-      }
-    ],
-    "Consumer Cyclical": [
-      {
-        "ticker": "SBUX",
-        "rs": 65.0,
-        "canslim": 57,
-        "price": 106.01
-      }
-    ]
-  },
+  "us_by_sector": {},
   "macro": {
-    "phase": "RISK_ON",
-    "vix": 16.15,
-    "yield10y": 4.48,
-    "rec_sectors": [
-      "Technology",
-      "Consumer Discretionary",
-      "Industrials",
-      "Financials"
-    ]
+    "phase": "",
+    "vix": "",
+    "yield10y": "",
+    "rec_sectors": []
   },
   "geo_risk": {
-    "risk_score": 10.0,
+    "risk_score": 7.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

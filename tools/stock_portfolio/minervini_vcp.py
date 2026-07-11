@@ -237,77 +237,69 @@ def detect_cup_with_handle(close: pd.Series) -> dict:
     }
 
 
-# ── 상승 삼각수렴 탐지 ────────────────────────────────────────
+# ── Flat Base 탐지 (IBD 최선호 베이스 패턴) ──────────────────
 
-def detect_ascending_triangle(close: pd.Series) -> dict:
+def detect_flat_base(close: pd.Series) -> dict:
     """
-    상승 삼각수렴(Ascending Triangle) 탐지.
-    - 상단: 수평 저항선 (고점 2~4회 터치, 편차 ≤3%)
-    - 하단: 상승하는 지지선 (저점이 우상향)
-    - 수렴: 고점-저점 간격 축소 → 상승 돌파 대기
+    Flat Base (플랫 베이스) 탐지.
+    - 기간: 5~15주 (25~75 거래일) 타이트한 가격 수렴
+    - 조정폭: 최대 15% 이내 (이상적으로 10% 이하)
+    - 거래량: 베이스 기간 중 감소 추세 (매집 완료 신호)
+    - 돌파: 현재가가 베이스 최고점 근처 또는 초과
+    조건 충족 시 누적 매집 완료, 돌파 임박 신호
     """
     if len(close) < 30:
-        return {"has_asc_tri": False, "asc_tri_score": 0}
+        return {"has_flat_base": False, "flat_base_score": 0}
 
-    p       = close.values.astype(float)
-    lookback = min(len(p), 80)
-    p_lb    = p[-lookback:]
+    p = close.values.astype(float)
 
-    highs = _local_highs(p_lb, w=4)
-    lows  = _local_lows(p_lb, w=4)
+    # 베이스 구간: 최근 25~75봉 탐색 (5~15주)
+    best = {"has_flat_base": False, "flat_base_score": 0,
+            "fb_depth_pct": 0.0, "fb_weeks": 0,
+            "fb_breakout_pct": 0.0, "fb_breaking": False}
 
-    if len(highs) < 2 or len(lows) < 2:
-        return {"has_asc_tri": False, "asc_tri_score": 0}
+    for span in (50, 35, 25):
+        if len(p) < span + 5:
+            continue
+        base = p[-(span):]
+        b_high = float(np.max(base))
+        b_low  = float(np.min(base))
+        depth  = (b_high - b_low) / b_high if b_high > 0 else 1
 
-    # 수평 저항선: 최근 고점들이 좁은 범위 내
-    rh     = highs[-4:] if len(highs) >= 4 else highs
-    h_vals = [v for _, v in rh]
-    resistance  = float(np.mean(h_vals))
-    h_spread    = (max(h_vals) - min(h_vals)) / resistance if resistance > 0 else 1
-    flat_res    = h_spread <= 0.03
+        if depth > 0.15:          # 조정 15% 초과 → 플랫 베이스 아님
+            continue
 
-    # 상승 지지선: 저점에 선형 회귀 → 기울기 > 0
-    rl    = lows[-4:] if len(lows) >= 4 else lows
-    l_idx = np.array([i for i, _ in rl], dtype=float)
-    l_val = np.array([v for _, v in rl], dtype=float)
-    if len(l_idx) >= 2:
-        slope = float(np.polyfit(l_idx, l_val, 1)[0])
-        asc_support = slope > 0
-    else:
-        slope = 0.0
-        asc_support = False
+        current = float(p[-1])
+        dist_to_break = (b_high - current) / b_high if b_high > 0 else 0
+        breaking = current >= b_high * 0.99   # 1% 이내 돌파 포함
 
-    # 수렴 확인: 저항-지지 간격이 좁아지는지
-    if len(rh) >= 2 and len(rl) >= 2:
-        first_gap = h_vals[0] - l_val[0]
-        last_gap  = h_vals[-1] - l_val[-1]
-        converging = (0 < last_gap < first_gap)
-    else:
-        converging = False
+        # 거래량 감소 확인은 close만 있으므로 가격 변동성으로 대리
+        # 후반부 변동성 < 전반부 변동성 → 수렴
+        half = span // 2
+        vol_early = float(np.std(base[:half]))
+        vol_late  = float(np.std(base[half:]))
+        vol_contracting = vol_late < vol_early
 
-    current    = float(p[-1])
-    dist_to_res = (resistance - current) / resistance if resistance > 0 else 0
-    near_break  = dist_to_res < 0.03
-    breaking    = dist_to_res < 0
+        score = 0
+        if depth <= 0.10:         score += 30   # 10% 이하 매우 타이트
+        elif depth <= 0.15:       score += 20
+        if vol_contracting:       score += 25   # 변동성 수렴
+        if span >= 35:            score += 15   # 충분한 기간
+        if dist_to_break <= 0.03: score += 15   # 돌파 임박
+        if breaking:              score += 10
 
-    score = 0
-    if flat_res:       score += 30
-    if asc_support:    score += 30
-    if converging:     score += 15
-    if near_break:     score += 10
-    if breaking:       score += 10
-    if len(rh) >= 3:   score += 5
+        has_fb = bool(depth <= 0.15 and vol_contracting)
+        if has_fb and score > best["flat_base_score"]:
+            best = {
+                "has_flat_base":    True,
+                "flat_base_score":  min(95, score),
+                "fb_depth_pct":     round(depth * 100, 1),
+                "fb_weeks":         round(span / 5),
+                "fb_breakout_pct":  round(dist_to_break * 100, 1),
+                "fb_breaking":      bool(breaking),
+            }
 
-    has_asc_tri = bool(flat_res and asc_support and converging)
-    return {
-        "has_asc_tri":        has_asc_tri,
-        "asc_tri_score":      min(85, score),
-        "resistance_level":   round(resistance, 2),
-        "h_spread_pct":       round(h_spread * 100, 1),
-        "support_slope":      round(slope, 5),
-        "asc_tri_dist_pct":   round(dist_to_res * 100, 1),
-        "asc_tri_breaking":   breaking,
-    }
+    return best
 
 
 # ── 하강 삼각수렴 탐지 (상승 반전 시그널) ────────────────────
@@ -545,7 +537,7 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         david_ryan_extended = False
 
                     cwh       = detect_cup_with_handle(close)
-                    asc_tri   = detect_ascending_triangle(close)
+                    asc_tri   = detect_flat_base(close)
                     desc_tri  = detect_descending_triangle(close)
 
                     results.append({

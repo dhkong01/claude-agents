@@ -845,22 +845,22 @@ function renderVCP() {
       const cwhOn   = hasCwh ? '#22c55e' : 'var(--text2)';
       const cwhBdg  = `<span style="font-size:10px;color:${cwhOn};border:1px solid ${cwhOn};border-radius:3px;padding:1px 4px">
                          ☕CwH${hasCwh ? ' ✓' : ''}</span>`;
-      // Ascending Triangle
-      const hasAsc  = s.has_asc_tri === true;
-      const ascOn   = hasAsc ? '#3b82f6' : 'var(--text2)';
-      const ascBdg  = `<span style="font-size:10px;color:${ascOn};border:1px solid ${ascOn};border-radius:3px;padding:1px 4px">
-                         △ASC${hasAsc ? ' ✓' : ''}</span>`;
+      // Flat Base (IBD 최선호 베이스 패턴)
+      const hasFB   = s.has_flat_base === true;
+      const fbOn    = hasFB ? '#3b82f6' : 'var(--text2)';
+      const fbLabel = hasFB ? (s.fb_breaking ? '▬FB 돌파↑' : `▬FB ${s.fb_depth_pct||0}%`) : '▬FB';
+      const ascBdg  = `<span style="font-size:10px;color:${fbOn};border:1px solid ${fbOn};border-radius:3px;padding:1px 4px">${fbLabel}</span>`;
       // Descending Triangle (반등 / 상승 반전 시그널)
       const hasDesc    = s.has_desc_tri === true;
       const descColor  = s.desc_tri_breaking ? '#22c55e' : (s.desc_near_support ? '#f59e0b' : 'var(--text2)');
       const descLabel  = s.desc_tri_breaking ? '🔻DESC 돌파↑' : (s.desc_near_support ? '🔻DESC 지지권' : '🔻DESC');
       const descBdg    = `<span style="font-size:10px;color:${descColor};border:1px solid ${descColor};border-radius:3px;padding:1px 4px">${descLabel}</span>`;
       // 패턴 점수 (5점 만점, 역사적 돌파 성공률 기반)
-      // VCP 2.0 / CwH 1.5 / ASC 1.0 / DESC돌파 1.0 / DESC지지 0.5
+      // VCP 2.0 / CwH 1.5 / FlatBase 1.0 / DESC돌파 1.0 / DESC지지 0.5
       let pScore = 0;
       if (s.has_vcp)                pScore += 2.0;
       if (s.has_cwh)                pScore += 1.5;
-      if (s.has_asc_tri)            pScore += 1.0;
+      if (s.has_flat_base)          pScore += 1.0;
       if (s.desc_tri_breaking)      pScore += 1.0;
       else if (s.desc_near_support) pScore += 0.5;
       pScore = Math.min(5, pScore);
@@ -886,12 +886,12 @@ function renderVCP() {
                              : `<span style="color:#f59e0b">피벗까지 ${d.toFixed(1)}%</span>`;
           parts.push(`☕<b>CwH</b> 컵${s.cup_depth_pct||0}% 핸들${s.handle_depth_pct||0}% 피벗$${(s.cwh_pivot||0).toFixed(1)} ${dir}`);
         }
-        if (hasAsc) {
-          const d = s.asc_tri_dist_pct != null ? s.asc_tri_dist_pct : 0;
-          const dir = s.asc_tri_breaking
-            ? `<span style="color:#22c55e">돌파중</span>`
-            : `<span style="color:#3b82f6">저항까지 ${d.toFixed(1)}%</span>`;
-          parts.push(`△<b>ASC</b> 저항$${(s.resistance_level||0).toFixed(1)} 편차${s.h_spread_pct||0}% ${dir}`);
+        if (hasFB) {
+          const d = s.fb_breakout_pct != null ? s.fb_breakout_pct : 0;
+          const dir = s.fb_breaking
+            ? `<span style="color:#22c55e">돌파↑</span>`
+            : `<span style="color:#3b82f6">돌파까지 ${d.toFixed(1)}%</span>`;
+          parts.push(`▬<b>FlatBase</b> 조정${s.fb_depth_pct||0}% ${s.fb_weeks||0}주 ${dir}`);
         }
         if (hasDesc) {
           const st = s.desc_tri_breaking
@@ -901,7 +901,7 @@ function renderVCP() {
               : `<span style="color:var(--text2)">수렴 중</span>`;
           parts.push(`🔻<b>DESC</b> 지지$${(s.support_level||0).toFixed(1)} 편차${s.l_spread_pct||0}% ${st}`);
         }
-        if (!hasCwh && !hasAsc && !hasDesc) return '';
+        if (!hasCwh && !hasFB && !hasDesc) return '';
         return `<div style="margin-top:5px;padding:5px 6px;background:var(--bg3);border-radius:5px;font-size:10px;color:var(--text2);line-height:1.8">
           ${parts.join('<br>')}
         </div>`;

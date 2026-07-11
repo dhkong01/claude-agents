@@ -850,6 +850,11 @@ function renderVCP() {
       const ascOn   = hasAsc ? '#3b82f6' : 'var(--text2)';
       const ascBdg  = `<span style="font-size:10px;color:${ascOn};border:1px solid ${ascOn};border-radius:3px;padding:1px 4px">
                          △ASC${hasAsc ? ' ✓' : ''}</span>`;
+      // Descending Triangle (반등 / 상승 반전 시그널)
+      const hasDesc    = s.has_desc_tri === true;
+      const descColor  = s.desc_tri_breaking ? '#22c55e' : (s.desc_near_support ? '#f59e0b' : 'var(--text2)');
+      const descLabel  = s.desc_tri_breaking ? '🔻DESC 돌파↑' : (s.desc_near_support ? '🔻DESC 지지권' : '🔻DESC');
+      const descBdg    = `<span style="font-size:10px;color:${descColor};border:1px solid ${descColor};border-radius:3px;padding:1px 4px">${descLabel}</span>`;
       // VCP 돌파 시점 표시
       const vcpDist = s.pivot ? ((s.current_price - s.pivot) / s.pivot * 100) : null;
       const vcpBreaking = vcpDist !== null && vcpDist >= -1 && vcpDist <= 3;
@@ -872,7 +877,15 @@ function renderVCP() {
             : `<span style="color:#3b82f6">저항까지 ${d.toFixed(1)}%</span>`;
           parts.push(`△<b>ASC</b> 저항$${(s.resistance_level||0).toFixed(1)} 편차${s.h_spread_pct||0}% ${dir}`);
         }
-        if (!hasCwh && !hasAsc) return '';
+        if (hasDesc) {
+          const st = s.desc_tri_breaking
+            ? `<span style="color:#22c55e">저항 돌파↑ — 상승 반전</span>`
+            : s.desc_near_support
+              ? `<span style="color:#f59e0b">지지선 근접 — 반등 감시</span>`
+              : `<span style="color:var(--text2)">수렴 중</span>`;
+          parts.push(`🔻<b>DESC</b> 지지$${(s.support_level||0).toFixed(1)} 편차${s.l_spread_pct||0}% ${st}`);
+        }
+        if (!hasCwh && !hasAsc && !hasDesc) return '';
         return `<div style="margin-top:5px;padding:5px 6px;background:var(--bg3);border-radius:5px;font-size:10px;color:var(--text2);line-height:1.8">
           ${parts.join('<br>')}
         </div>`;
@@ -891,7 +904,7 @@ function renderVCP() {
           ${priceRelLabel}
         </div>
         <div style="display:flex;gap:4px;flex-wrap:wrap;margin:4px 0 2px">
-          ${cwhBdg}${ascBdg}
+          ${cwhBdg}${ascBdg}${descBdg}
         </div>
         ${pivot ? `
         <div style="margin:3px 0 2px;display:flex;align-items:center;gap:8px">

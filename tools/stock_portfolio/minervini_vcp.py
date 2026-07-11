@@ -310,6 +310,86 @@ def detect_ascending_triangle(close: pd.Series) -> dict:
     }
 
 
+# ── 하강 삼각수렴 탐지 (상승 반전 시그널) ────────────────────
+
+def detect_descending_triangle(close: pd.Series) -> dict:
+    """
+    하강 삼각수렴(Descending Triangle / Falling Wedge) 탐지.
+    - 하단: 수평 지지선 (저점 2회 이상 터치, 편차 ≤3%)
+    - 상단: 하락하는 저항선 (고점이 우하향)
+    - 수렴: 간격 축소 → 지지선 이탈 OR 저항선 상향 돌파 시 강한 모멘텀
+    - 상승 시그널: 지지선 근처에서 저항선 기울기가 플래트해질 때 반등 확률↑
+    """
+    if len(close) < 30:
+        return {"has_desc_tri": False, "desc_tri_score": 0}
+
+    p       = close.values.astype(float)
+    lookback = min(len(p), 80)
+    p_lb    = p[-lookback:]
+
+    highs = _local_highs(p_lb, w=4)
+    lows  = _local_lows(p_lb, w=4)
+
+    if len(highs) < 2 or len(lows) < 2:
+        return {"has_desc_tri": False, "desc_tri_score": 0}
+
+    # 수평 지지선: 최근 저점들이 좁은 범위 내
+    rl     = lows[-4:] if len(lows) >= 4 else lows
+    l_vals = [v for _, v in rl]
+    support     = float(np.mean(l_vals))
+    l_spread    = (max(l_vals) - min(l_vals)) / support if support > 0 else 1
+    flat_sup    = l_spread <= 0.03
+
+    # 하락 저항선: 고점에 선형 회귀 → 기울기 < 0
+    rh    = highs[-4:] if len(highs) >= 4 else highs
+    h_idx = np.array([i for i, _ in rh], dtype=float)
+    h_val = np.array([v for _, v in rh], dtype=float)
+    if len(h_idx) >= 2:
+        slope = float(np.polyfit(h_idx, h_val, 1)[0])
+        desc_resist = slope < 0
+    else:
+        slope = 0.0
+        desc_resist = False
+
+    # 수렴 확인
+    if len(rh) >= 2 and len(rl) >= 2:
+        first_gap = h_val[0] - l_vals[0]
+        last_gap  = h_val[-1] - l_vals[-1]
+        converging = (0 < last_gap < first_gap)
+    else:
+        converging = False
+
+    current      = float(p[-1])
+    # 상승 반전 시그널: 현재가가 지지선 근처 (±5%) + 저항선 기울기 완만해지는 중
+    dist_to_sup  = (current - support) / support if support > 0 else 0
+    near_support = dist_to_sup < 0.05          # 지지선 5% 이내
+    slope_flat   = slope > -0.05 * support / len(p_lb)  # 기울기 완만
+    # 저항선 돌파 (상승 반전 확인)
+    resist_now   = h_val[-1] + slope * (lookback - h_idx[-1]) if len(h_idx) else current
+    breaking_up  = current > resist_now
+
+    score = 0
+    if flat_sup:       score += 30
+    if desc_resist:    score += 25
+    if converging:     score += 15
+    if near_support:   score += 10
+    if slope_flat:     score += 10
+    if breaking_up:    score += 15
+    if len(rl) >= 3:   score += 5
+
+    has_desc_tri = bool(flat_sup and desc_resist and converging)
+    return {
+        "has_desc_tri":       has_desc_tri,
+        "desc_tri_score":     min(100, score),
+        "support_level":      round(support, 2),
+        "l_spread_pct":       round(l_spread * 100, 1),
+        "resist_slope":       round(slope, 5),
+        "desc_tri_dist_pct":  round(dist_to_sup * 100, 1),
+        "desc_tri_breaking":  bool(breaking_up),
+        "desc_near_support":  bool(near_support),
+    }
+
+
 # ── 피벗 근접도 점수 ──────────────────────────────────────────
 
 def _proximity_score(current: float, pivot: float | None) -> int:
@@ -464,8 +544,9 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         extension_pct = None
                         david_ryan_extended = False
 
-                    cwh      = detect_cup_with_handle(close)
-                    asc_tri  = detect_ascending_triangle(close)
+                    cwh       = detect_cup_with_handle(close)
+                    asc_tri   = detect_ascending_triangle(close)
+                    desc_tri  = detect_descending_triangle(close)
 
                     results.append({
                         "ticker":              ticker,
@@ -488,6 +569,7 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
                         **qg,
                         **cwh,
                         **asc_tri,
+                        **desc_tri,
                     })
                 except Exception:
                     continue

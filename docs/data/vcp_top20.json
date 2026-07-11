@@ -33,7 +33,15 @@
       "h_spread_pct": 46.9,
       "support_slope": 0.53518,
       "asc_tri_dist_pct": 3.6,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 177.84,
+      "l_spread_pct": 12.3,
+      "resist_slope": 3.66124,
+      "desc_tri_dist_pct": 30.2,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "CRWD",
@@ -68,7 +76,15 @@
       "h_spread_pct": 48.3,
       "support_slope": 1.5336,
       "asc_tri_dist_pct": -9.3,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 150.57,
+      "l_spread_pct": 37.7,
+      "resist_slope": 1.58688,
+      "desc_tri_dist_pct": 24.3,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "AMAT",
@@ -99,7 +115,15 @@
       "h_spread_pct": 58.8,
       "support_slope": 1.86768,
       "asc_tri_dist_pct": -15.6,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 407.37,
+      "l_spread_pct": 17.8,
+      "resist_slope": 6.59197,
+      "desc_tri_dist_pct": 47.9,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "CSCO",
@@ -130,7 +154,15 @@
       "h_spread_pct": 43.6,
       "support_slope": 0.86617,
       "asc_tri_dist_pct": -14.6,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 108.93,
+      "l_spread_pct": 29.2,
+      "resist_slope": 0.89001,
+      "desc_tri_dist_pct": 11.4,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "AMD",
@@ -161,7 +193,15 @@
       "h_spread_pct": 22.9,
       "support_slope": 5.32243,
       "asc_tri_dist_pct": -4.6,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 30,
+      "support_level": 354.16,
+      "l_spread_pct": 72.4,
+      "resist_slope": 3.35826,
+      "desc_tri_dist_pct": 57.5,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "SNDK",
@@ -192,7 +232,15 @@
       "h_spread_pct": 82.8,
       "support_slope": 22.24479,
       "asc_tri_dist_pct": -14.7,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 1344.82,
+      "l_spread_pct": 99.8,
+      "resist_slope": 25.98202,
+      "desc_tri_dist_pct": 42.5,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "TXN",
@@ -223,7 +271,15 @@
       "h_spread_pct": 16.5,
       "support_slope": 1.72837,
       "asc_tri_dist_pct": 0.0,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 30,
+      "support_level": 262.83,
+      "l_spread_pct": 43.0,
+      "resist_slope": 1.29794,
+      "desc_tri_dist_pct": 18.5,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "LRCX",
@@ -254,7 +310,15 @@
       "h_spread_pct": 29.4,
       "support_slope": 1.53406,
       "asc_tri_dist_pct": 7.1,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 270.75,
+      "l_spread_pct": 20.1,
+      "resist_slope": 4.7971,
+      "desc_tri_dist_pct": 29.4,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "WDC",
@@ -285,7 +349,15 @@
       "h_spread_pct": 37.3,
       "support_slope": 4.95775,
       "asc_tri_dist_pct": 5.8,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 30,
+      "support_level": 399.13,
+      "l_spread_pct": 59.8,
+      "resist_slope": 8.27451,
+      "desc_tri_dist_pct": 46.0,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "ASML",
@@ -316,7 +388,15 @@
       "h_spread_pct": 19.1,
       "support_slope": 7.97076,
       "asc_tri_dist_pct": 3.5,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 1503.63,
+      "l_spread_pct": 25.2,
+      "resist_slope": 14.49844,
+      "desc_tri_dist_pct": 19.5,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "STX",
@@ -347,7 +427,15 @@
       "h_spread_pct": 27.2,
       "support_slope": 5.38139,
       "asc_tri_dist_pct": 4.7,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 736.75,
+      "l_spread_pct": 32.8,
+      "resist_slope": 9.13869,
+      "desc_tri_dist_pct": 23.6,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "INTC",
@@ -378,7 +466,15 @@
       "h_spread_pct": 13.1,
       "support_slope": 1.39779,
       "asc_tri_dist_pct": 17.7,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 30,
+      "support_level": 78.45,
+      "l_spread_pct": 85.4,
+      "resist_slope": 0.43737,
+      "desc_tri_dist_pct": 40.0,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "ARM",
@@ -409,7 +505,15 @@
       "h_spread_pct": 61.9,
       "support_slope": 3.59093,
       "asc_tri_dist_pct": 2.3,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 219.74,
+      "l_spread_pct": 74.4,
+      "resist_slope": 6.15114,
+      "desc_tri_dist_pct": 47.2,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "MU",
@@ -440,7 +544,15 @@
       "h_spread_pct": 84.0,
       "support_slope": 11.54003,
       "asc_tri_dist_pct": -10.0,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 578.85,
+      "l_spread_pct": 93.7,
+      "resist_slope": 15.42508,
+      "desc_tri_dist_pct": 69.2,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "LITE",
@@ -471,7 +583,15 @@
       "h_spread_pct": 16.1,
       "support_slope": -3.11879,
       "asc_tri_dist_pct": 18.5,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 25,
+      "support_level": 859.34,
+      "l_spread_pct": 8.2,
+      "resist_slope": 1.56102,
+      "desc_tri_dist_pct": -6.7,
+      "desc_tri_breaking": false,
+      "desc_near_support": true
     },
     {
       "ticker": "ADI",
@@ -502,7 +622,15 @@
       "h_spread_pct": 6.2,
       "support_slope": 0.64761,
       "asc_tri_dist_pct": 8.7,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 30,
+      "support_level": 375.0,
+      "l_spread_pct": 12.2,
+      "resist_slope": 0.72884,
+      "desc_tri_dist_pct": 5.5,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "FTNT",
@@ -533,7 +661,15 @@
       "h_spread_pct": 56.1,
       "support_slope": 1.84843,
       "asc_tri_dist_pct": -34.1,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 123.69,
+      "l_spread_pct": 48.4,
+      "resist_slope": 1.56957,
+      "desc_tri_dist_pct": 27.3,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "MRVL",
@@ -564,7 +700,15 @@
       "h_spread_pct": 52.6,
       "support_slope": 3.26112,
       "asc_tri_dist_pct": 14.0,
-      "asc_tri_breaking": false
+      "asc_tri_breaking": false,
+      "has_desc_tri": false,
+      "desc_tri_score": 30,
+      "support_level": 163.36,
+      "l_spread_pct": 100.9,
+      "resist_slope": 3.613,
+      "desc_tri_dist_pct": 44.4,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     },
     {
       "ticker": "DDOG",
@@ -599,7 +743,15 @@
       "h_spread_pct": 70.1,
       "support_slope": 2.18134,
       "asc_tri_dist_pct": -14.9,
-      "asc_tri_breaking": true
+      "asc_tri_breaking": true,
+      "has_desc_tri": false,
+      "desc_tri_score": 15,
+      "support_level": 166.94,
+      "l_spread_pct": 73.1,
+      "resist_slope": 2.44809,
+      "desc_tri_dist_pct": 54.3,
+      "desc_tri_breaking": false,
+      "desc_near_support": false
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12",
+  "updated": "2026-07-13",
   "gates": [
     {
       "id": "T1",
@@ -11,7 +11,7 @@
       "value": "+65%",
       "note": "M7 4사 연간 캐펙스 합산 $358B YoY +65% -- 정상 (임계 +15% 미달) (실제 지출 기준, 가이던스 아님)",
       "auto": true,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
     },
     {
       "id": "T2",
@@ -23,7 +23,7 @@
       "value": "0.76% (d3M:-4bp)",
       "note": "ICE BofA IG OAS 0.76% -- 3개월 변화 -4bp (여유 54bp)",
       "auto": true,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
     },
     {
       "id": "T3",
@@ -35,7 +35,7 @@
       "value": "3.69%",
       "note": "단기금리(^IRX) 3.69% -- 목표(4.25%)까지 0.56pp 여유",
       "auto": true,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
     },
     {
       "id": "T4",
@@ -47,7 +47,7 @@
       "value": "GM 84.6% YoY+46.8pp",
       "note": "MU 분기 그로스마진 84.6% YoY+46.8pp -- 정상 (HBM ASP 대리지표)",
       "auto": true,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
     },
     {
       "id": "T5",
@@ -59,7 +59,7 @@
       "value": "DIO 122d(17.4wk) YoY-15d",
       "note": "MU DIO 122일(17.4주) YoY-15d -- 정상 (D램 재고 대리지표)",
       "auto": true,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
     },
     {
       "id": "T6",
@@ -71,7 +71,7 @@
       "value": "이상 없음",
       "note": "M7 D&A/OI -- 전사 YoY +20pp 미만 (정상) | AMZN:79% | MSFT:26% | GOOGL:16% | META:26%",
       "auto": true,
-      "updated": "2026-07-12"
+      "updated": "2026-07-13"
     }
   ],
   "lit_count": 0,

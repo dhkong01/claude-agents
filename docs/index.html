@@ -203,6 +203,20 @@ body{display:flex;flex-direction:column;overflow:hidden}
 
 /* ── 에러 */
 .err-box{background:rgba(239,68,68,.1);border:1px solid var(--red);border-radius:8px;padding:12px;font-size:12px;color:var(--red);margin-bottom:12px}
+
+/* ── KONG Gate 대시보드 */
+.gate-header-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.gate-lit-pill{font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px}
+.gate-action-label{font-size:13px;font-weight:700}
+.gate-item{display:flex;align-items:flex-start;gap:9px;padding:7px 0;border-bottom:1px solid var(--border)}
+.gate-item:last-child{border-bottom:none}
+.gate-id-chip{font-family:ui-monospace,monospace;font-size:10px;font-weight:800;min-width:28px;text-align:center;padding:3px 0;border-radius:4px;margin-top:1px;flex-shrink:0}
+.gate-body-col{flex:1;min-width:0}
+.gate-name{font-size:12px;font-weight:600;line-height:1.3}
+.gate-note{font-size:10.5px;color:var(--text2);margin-top:2px;line-height:1.4}
+.gate-val-col{font-size:11px;font-weight:700;white-space:nowrap;flex-shrink:0;text-align:right;min-width:58px}
+.gate-threshold{font-size:9.5px;color:var(--text2);margin-top:1px}
+.gate-rule-row{background:var(--bg3);border-radius:6px;padding:8px 10px;font-size:10.5px;color:var(--text2);margin-top:10px;line-height:1.7}
 </style>
 </head>
 <body>
@@ -368,7 +382,7 @@ async function fetchJSON(path) {
   return r.json();
 }
 
-let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null, rsData = null;
+let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null, rsData = null, gatesData = null;
 let priceLookup = {}; // 인기 종목 가격 캐시 (price_lookup.json)
 
 // ── localStorage 포트폴리오 관리 ──────────────────────────
@@ -425,9 +439,11 @@ async function loadAll() {
       fetchJSON('data/sector_latest.json'),
       fetchJSON('data/price_lookup.json'),
       fetchJSON('data/rs_top30.json'),
+      fetchJSON('data/strategy_gates.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
     [trendData, pfData, vcpData, canslimData, sectorData] = results;
     rsData = results[6];
+    gatesData = results[7];
     if (results[5]?.prices) priceLookup = results[5].prices;
 
     // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
@@ -471,10 +487,62 @@ function renderTrend() {
 
   el.innerHTML = `
     ${renderGeo(geo)}
+    ${renderGates(gatesData)}
     ${renderHedge(hedge, sqqq)}
     ${renderTop5(top5)}
     ${renderTracking(trendData.tracking || [])}
   `;
+}
+
+function renderGates(data) {
+  if (!data) return '';
+  const gates = data.gates || [];
+  const lit   = data.lit_count || 0;
+  const level = data.action_level || 0;
+  const action = data.action || '🟢 정상 운용';
+
+  const litColor = level >= 3 ? 'var(--red)' : level >= 2 ? '#f59e0b' : level >= 1 ? '#f59e0b' : 'var(--green)';
+  const litBg    = level >= 3 ? 'rgba(239,68,68,.18)' : level >= 2 ? 'rgba(245,158,11,.18)' : level >= 1 ? 'rgba(245,158,11,.12)' : 'rgba(34,197,94,.12)';
+
+  const rows = gates.map(g => {
+    const on    = g.status === true;
+    const color = on ? 'var(--red)' : 'var(--green)';
+    const chipBg = on ? 'rgba(239,68,68,.18)' : 'rgba(34,197,94,.1)';
+    const dot   = on ? '🔴' : '🟢';
+    const border = g.critical ? `box-shadow:0 0 0 1.5px ${color}` : '';
+    const autoTag = g.auto
+      ? `<span style="font-size:9px;color:var(--text2);margin-left:4px;font-weight:400">자동</span>`
+      : '';
+
+    return `
+    <div class="gate-item">
+      <div class="gate-id-chip" style="background:${chipBg};color:${color};${border}">${g.id}</div>
+      <div class="gate-body-col">
+        <div class="gate-name">${dot} ${g.name}${autoTag}</div>
+        <div class="gate-note">${g.note}</div>
+      </div>
+      <div class="gate-val-col">
+        <div style="color:${on ? 'var(--red)' : 'var(--text2)'}">${g.value}</div>
+        <div class="gate-threshold">임계: ${g.threshold}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const ruleParts = (data.rule || '').split('|');
+  const ruleHtml  = ruleParts.map(r => `<span>${r.trim()}</span>`).join('<br>');
+
+  return `
+  <div class="card">
+    <div class="card-title">🔒 KONG Gate 전략 적합성
+      <span style="margin-left:auto;font-size:10px;color:var(--text2)">기준일 ${data.updated || '—'}</span>
+    </div>
+    <div class="gate-header-row">
+      <span class="gate-lit-pill" style="background:${litBg};color:${litColor}">점등 ${lit}/6</span>
+      <span class="gate-action-label" style="color:${litColor}">${action}</span>
+    </div>
+    ${rows}
+    <div class="gate-rule-row">${ruleHtml}</div>
+  </div>`;
 }
 
 function renderGeo(geo) {

@@ -1,0 +1,81 @@
+{
+  "updated": "2026-07-12",
+  "gates": [
+    {
+      "id": "T1",
+      "critical": true,
+      "name": "M7 캐펙스 가이던스 YoY",
+      "desc": "AMZN·MSFT·GOOGL·META 합산 가이던스 YoY < +15%",
+      "threshold": "< +15%",
+      "status": false,
+      "value": "+77%",
+      "note": "2026 가이던스 +77% (2027E 컨센서스 +38~50%) — 임계 미달",
+      "auto": false,
+      "updated": "2026-07-12"
+    },
+    {
+      "id": "T2",
+      "critical": true,
+      "name": "IG 테크 크레딧 스프레드",
+      "desc": "+50bp 이상 확대 (3개월 이내)",
+      "threshold": "+50bp↑",
+      "status": false,
+      "value": "정상",
+      "note": "IG 테크 크레딧 스프레드 정상 범위 — BofA/ICE 지수 미확대",
+      "auto": false,
+      "updated": "2026-07-12"
+    },
+    {
+      "id": "T3",
+      "critical": false,
+      "name": "연준 기준금리",
+      "desc": "기준금리 4.25% 초과 또는 연속 2회 인상",
+      "threshold": "≥ 4.25%",
+      "status": false,
+      "value": "3.50~3.75%",
+      "note": "연준 기준금리 3.50~3.75% — 목표(4.25%)까지 0.50~0.75%p 여유 (자동갱신)",
+      "auto": true,
+      "updated": "2026-07-12"
+    },
+    {
+      "id": "T4",
+      "critical": false,
+      "name": "HBM ASP 인상률",
+      "desc": "HBM 연간 계약 ASP 인상률 한 자릿수 or 동결 전환",
+      "threshold": "한 자릿수/동결",
+      "status": false,
+      "value": "두 자릿수",
+      "note": "HBM ASP 두 자릿수 인상 유지 — 2027 협상 진행 중 (생산자 우위)",
+      "auto": false,
+      "updated": "2026-07-12"
+    },
+    {
+      "id": "T5",
+      "critical": false,
+      "name": "D램 재고 주수",
+      "desc": "D램 재고 8주 이상 반등 또는 이중발주 취소 뉴스",
+      "threshold": "8주↑ 또는 취소",
+      "status": false,
+      "value": "정상",
+      "note": "D램 재고 정상 범위 — 이중발주 취소 뉴스 없음",
+      "auto": false,
+      "updated": "2026-07-12"
+    },
+    {
+      "id": "T6",
+      "critical": false,
+      "name": "M7 EPS 미스 (D&A급증)",
+      "desc": "M7 1사 이상 D&A/영업이익 급증으로 EPS 미스",
+      "threshold": "1사↑ EPS미스",
+      "status": false,
+      "value": "양호",
+      "note": "최근 M7 실적 양호 — 감가상각 파도 2027년부터 예상",
+      "auto": false,
+      "updated": "2026-07-12"
+    }
+  ],
+  "lit_count": 0,
+  "action_level": 0,
+  "action": "🟢 정상 운용",
+  "rule": "2개↑: 신규 진입 중지 | 3개↑: M게이트 OFF | T1+T2 동시: 즉시 방어 전환"
+}

@@ -79,10 +79,15 @@ def batch_download(tickers: list[str], period: str = "1y", chunk: int = 50) -> p
                 period=period,
                 auto_adjust=True,
                 progress=False,
-                threads=True,
+                threads=False,  # threads=True → GitHub Actions rate-limit 방지
             )
-            if "Close" in data.columns:
-                frames.append(data["Close"])
+            # yfinance MultiIndex vs single-ticker 대응
+            if hasattr(data.columns, "levels"):
+                # MultiIndex: (field, ticker)
+                if "Close" in data.columns.get_level_values(0):
+                    frames.append(data["Close"])
+            elif "Close" in data.columns:
+                frames.append(data[["Close"]])
         except Exception:
             continue
     return pd.concat(frames, axis=1) if frames else pd.DataFrame()

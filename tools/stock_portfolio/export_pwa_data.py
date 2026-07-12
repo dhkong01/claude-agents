@@ -43,6 +43,11 @@ def export_trend(today: str) -> bool:
     if existing and existing.get("date", "") > data.get("date", ""):
         print(f"[export] trend_latest.json 유지 (기존={existing['date']} > 캐시={data.get('date')})")
         return True
+    # 새 데이터가 비어있는데 기존 데이터에 내용이 있으면 덮어쓰지 않음 (다운로드 실패 방지)
+    new_rs90 = data.get("rs90_count", 0)
+    if new_rs90 == 0 and existing and existing.get("rs90_count", 0) > 0:
+        print(f"[export] trend_latest.json 유지 (새 데이터 rs90=0, 기존 rs90={existing['rs90_count']})")
+        return True
 
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[export] trend_latest.json → {out}")
@@ -56,6 +61,11 @@ def export_vcp() -> bool:
         print("[export] vcp_top20.json 없음", file=sys.stderr)
         return False
     out = DOCS_DATA / "vcp_top20.json"
+    existing = _read(out)
+    # 새 데이터가 비어있는데 기존 데이터가 있으면 덮어쓰지 않음
+    if not data.get("stocks") and existing and existing.get("stocks"):
+        print(f"[export] vcp_top20.json 유지 (새 데이터 빈값, 기존 {len(existing['stocks'])}종목)")
+        return True
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[export] vcp_top20.json → {out}")
     return True

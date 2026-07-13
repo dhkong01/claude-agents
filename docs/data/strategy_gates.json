@@ -32,8 +32,8 @@
       "desc": "^IRX(13주 T-bill) 4.25% 초과 -- 연준 기준금리 근사",
       "threshold": ">= 4.25%",
       "status": false,
-      "value": "3.69%",
-      "note": "단기금리(^IRX) 3.69% -- 목표(4.25%)까지 0.56pp 여유",
+      "value": "3.72%",
+      "note": "단기금리(^IRX) 3.72% -- 목표(4.25%)까지 0.53pp 여유",
       "auto": true,
       "updated": "2026-07-13"
     },
@@ -72,10 +72,34 @@
       "note": "M7 D&A/OI -- 전사 YoY +20pp 미만 (정상) | AMZN:79% | MSFT:26% | GOOGL:16% | META:26%",
       "auto": true,
       "updated": "2026-07-13"
+    },
+    {
+      "id": "T7",
+      "critical": true,
+      "name": "GPU 렌탈 단가 디플레이션",
+      "desc": "H100 GPU 렌탈 단가($/GPU-hour) 분기 -15% 이상 하락 (RunPod/Vast.ai)",
+      "threshold": "-15% 분기",
+      "status": false,
+      "value": "$2.59/hr (누적 1일)",
+      "note": "H100 렌탈 단가 $2.59/GPU-hr -- 분기 비교 데이터 누적 중 (1/90일)",
+      "auto": true,
+      "updated": "2026-07-13"
+    },
+    {
+      "id": "T8",
+      "critical": false,
+      "name": "중국 스택 성숙 이정표",
+      "desc": "어센드 960 정상 출시·양산 확인 or CXMT HBM3E 양산 개시",
+      "threshold": "이벤트 발생",
+      "status": false,
+      "value": "미발생",
+      "note": "어센드 960 출시(2027 Q4 예정) 또는 CXMT HBM3E 양산 확인 -- 수동 확인 게이트",
+      "auto": false,
+      "updated": "2026-07-13"
     }
   ],
   "lit_count": 0,
   "action_level": 0,
   "action": "🟢 정상 운용",
-  "rule": "2개: 신규 진입 중지 | 3개: M게이트 OFF | T1+T2 동시: 즉시 방어 전환"
+  "rule": "2개: 신규 진입 중지 | 3개: M게이트 OFF | T1+T2 동시: 즉시 방어 전환 | T7+T8 동시: 메모리/네오클라우드 익스포저 축소"
 }

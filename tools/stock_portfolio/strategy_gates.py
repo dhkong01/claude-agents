@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-strategy_gates.py - KONG Gate T1~T6 전체 자동갱신
-파단 해석 보고서 SEC 08 기반 -- 매일 자동 실행 (trend_rebalancing.yml)
+strategy_gates.py - KONG Gate T1~T8 전체 자동갱신
+파단 해석 보고서 REV 1.2 SEC 08 기반 -- 매일 자동 실행 (trend_rebalancing.yml)
 
 T1: M7 4사 연간 캐펙스 YoY < +15% (yfinance annual cashflow)
 T2: ICE BofA IG OAS 3개월 변화 +50bp (FRED 공개 CSV)
@@ -9,6 +9,8 @@ T3: ^IRX 단기금리 >= 4.25%
 T4: MU 그로스마진 proxy (HBM ASP 대리 지표)
 T5: MU DIO YoY 변화 proxy (D램 재고 주수 대리 지표)
 T6: M7 D&A/영업이익 비율 급증 여부
+T7: H100 GPU 렌탈 단가 분기 -15% 이상 하락 (Vast.ai)  [critical]
+T8: 어센드 960 출시 or CXMT HBM3E 양산 개시           [수동]
 """
 import json
 import time
@@ -55,6 +57,18 @@ GATE_DEFS = [
         "name": "M7 D&A/영업이익 급증",
         "desc": "M7 1사 이상 D&A/영업이익 비율 YoY +20pp 이상 급증",
         "threshold": "1사 +20pp YoY",
+    },
+    {
+        "id": "T7", "critical": True,
+        "name": "GPU 렌탈 단가 디플레이션",
+        "desc": "H100 GPU 렌탈 단가($/GPU-hour) 분기 -15% 이상 하락 (RunPod/Vast.ai)",
+        "threshold": "-15% 분기",
+    },
+    {
+        "id": "T8", "critical": False,
+        "name": "중국 스택 성숙 이정표",
+        "desc": "어센드 960 정상 출시·양산 확인 or CXMT HBM3E 양산 개시",
+        "threshold": "이벤트 발생",
     },
 ]
 
@@ -434,6 +448,141 @@ def auto_update_t6(state: dict) -> None:
     _print(f'[T6] 경고 {len(alerts)}사: {alerts if alerts else "없음"}')
 
 
+# ── T7: H100 GPU 렌탈 단가 (컴퓨트 디플레이션 직접 계측) ────────
+
+def auto_update_t7(state: dict) -> None:
+    """
+    Vast.ai 공개 API로 H100 SXM5 80GB 렌탈 단가(중앙값) 추적.
+    분기(90일) 비교 -15% 이상 하락 시 경고.
+    가격 이력: cache/gpu_rental_price.json
+    """
+    import requests
+    today = datetime.now(KST).strftime('%Y-%m-%d')
+
+    # 1. GPU 렌탈 단가 조회 (RunPod 공개 GraphQL → Vast.ai 순 시도)
+    median_dph = None
+
+    # 1a. RunPod GraphQL (공개, 인증 불필요)
+    try:
+        gql = '{ gpuTypes { id displayName memoryInGb lowestPrice { minimumBidPrice uninterruptablePrice } } }'
+        rp = requests.post(
+            'https://api.runpod.io/graphql',
+            json={'query': gql},
+            timeout=20,
+            headers={'User-Agent': 'portfolio-bot/1.0'},
+        )
+        if rp.status_code == 200:
+            gpu_types = rp.json().get('data', {}).get('gpuTypes', [])
+            h100_prices = []
+            for g in gpu_types:
+                name = (g.get('displayName') or '').lower()
+                mem  = g.get('memoryInGb', 0)
+                if 'h100' in name and mem >= 80:
+                    lp = g.get('lowestPrice') or {}
+                    price = lp.get('uninterruptablePrice') or lp.get('minimumBidPrice')
+                    if price and float(price) > 0.5:
+                        h100_prices.append(float(price))
+            if h100_prices:
+                median_dph = sorted(h100_prices)[len(h100_prices) // 2]
+                _print(f'[T7] RunPod H100 {len(h100_prices)}개 가격 수집 -- 중앙값 ${median_dph:.2f}/hr')
+    except Exception as e:
+        _print(f'[T7] RunPod 실패: {e}')
+
+    # 1b. Vast.ai fallback
+    if median_dph is None:
+        try:
+            import json as _json
+            q = _json.dumps({"rentable": True, "num_gpus": 1, "gpu_name": "H100_SXM5_80GB"})
+            r = requests.get(
+                'https://vast.ai/api/v0/bundles/',
+                params={'q': q, 'order': 'dph_total asc', 'limit': '40'},
+                timeout=20,
+                headers={'User-Agent': 'portfolio-bot/1.0'},
+            )
+            if r.status_code == 200:
+                offers = r.json().get('offers', [])
+                prices = sorted(float(o['dph_total']) for o in offers
+                                if o.get('dph_total') and float(o['dph_total']) > 0.5)
+                if prices:
+                    median_dph = prices[len(prices) // 2]
+                    _print(f'[T7] Vast.ai H100 {len(prices)}개 -- 중앙값 ${median_dph:.2f}/hr')
+        except Exception as e:
+            _print(f'[T7] Vast.ai 실패: {e}')
+
+    if median_dph is None:
+        _print('[T7] 가격 조회 전체 실패 -- 기존 유지')
+        return
+
+    # 2. 가격 이력 캐시 관리
+    cache_file = Path(__file__).parent / 'cache' / 'gpu_rental_price.json'
+    try:
+        history = json.loads(cache_file.read_text(encoding='utf-8')) if cache_file.exists() else []
+    except Exception:
+        history = []
+
+    history = [h for h in history if h.get('date') != today]
+    history.append({'date': today, 'dph': round(median_dph, 3)})
+    history = sorted(history, key=lambda x: x['date'])[-150:]
+    cache_file.write_text(json.dumps(history, indent=2, ensure_ascii=False), encoding='utf-8')
+
+    # 3. 90일(1분기) 전 가격과 비교
+    cutoff = (datetime.now(KST) - timedelta(days=90)).strftime('%Y-%m-%d')
+    old_entries = [h for h in history if h['date'] <= cutoff]
+
+    if not old_entries:
+        days_tracked = len(history)
+        state['T7'] = {
+            'status': False,
+            'value': f'${median_dph:.2f}/hr (누적 {days_tracked}일)',
+            'note': (
+                f'H100 렌탈 단가 ${median_dph:.2f}/GPU-hr'
+                f' -- 분기 비교 데이터 누적 중 ({days_tracked}/90일)'
+            ),
+            'auto': True,
+            'updated': today,
+        }
+        _print(f'[T7] H100 ${median_dph:.2f}/hr -- 데이터 누적 중 ({days_tracked}일)')
+        return
+
+    old_dph = old_entries[-1]['dph']
+    old_date = old_entries[-1]['date']
+    change_pct = (median_dph - old_dph) / old_dph * 100
+    triggered = change_pct <= -15
+
+    state['T7'] = {
+        'status': triggered,
+        'value': f'${median_dph:.2f}/hr (d90:{change_pct:+.0f}%)',
+        'note': (
+            f'H100 렌탈 단가 ${median_dph:.2f}/GPU-hr'
+            f' -- 90일 전({old_date}: ${old_dph:.2f}) 대비 {change_pct:+.0f}%'
+            f' {"WARNING: 분기 -15% 임계 도달" if triggered else f"(여유 {(-15 - change_pct):+.0f}%p)"}'
+        ),
+        'auto': True,
+        'updated': today,
+    }
+    _print(f'[T7] H100 ${median_dph:.2f}/hr d90={change_pct:+.0f}% -> {"TRIGGERED" if triggered else "SAFE"}')
+
+
+# ── T8: 어센드 960 / CXMT HBM3E -- 수동 게이트 ───────────────────
+
+def auto_update_t8(state: dict) -> None:
+    """
+    중국 스택 성숙 이정표 -- 수동 확인 게이트.
+    어센드 960 정상 출시 or CXMT HBM3E 양산 개시 시 수동으로 status=True.
+    기존 상태를 보존하고 초기값만 설정.
+    """
+    today = datetime.now(KST).strftime('%Y-%m-%d')
+    if 'T8' not in state:
+        state['T8'] = {
+            'status': False,
+            'value': '미발생',
+            'note': '어센드 960 출시(2027 Q4 예정) 또는 CXMT HBM3E 양산 확인 -- 수동 확인 게이트',
+            'auto': False,
+            'updated': today,
+        }
+    _print(f'[T8] 수동 게이트 -- status={state["T8"]["status"]}')
+
+
 # ── 공통 ──────────────────────────────────────────────────────────
 
 def load_existing_state() -> dict:
@@ -449,9 +598,11 @@ def load_existing_state() -> dict:
         return {}
 
 
-def compute_action(lit, t1_on, t2_on):
+def compute_action(lit, t1_on, t2_on, t7_on=False, t8_on=False):
     if t1_on and t2_on:
         return '!!! 즉시 방어 전환 (T1+T2 동시)', 4
+    if t7_on and t8_on:
+        return '!!! 메모리/네오클라우드 익스포저 축소 (T7+T8 동시)', 4
     if lit >= 3:
         return 'M게이트 OFF -- 반도체 익스포저 단계 축소', 3
     if lit >= 2:
@@ -479,7 +630,9 @@ def build_output(state: dict) -> dict:
     lit   = sum(1 for g in gates_out if g['status'])
     t1_on = next((g['status'] for g in gates_out if g['id'] == 'T1'), False)
     t2_on = next((g['status'] for g in gates_out if g['id'] == 'T2'), False)
-    action_text, level = compute_action(lit, t1_on, t2_on)
+    t7_on = next((g['status'] for g in gates_out if g['id'] == 'T7'), False)
+    t8_on = next((g['status'] for g in gates_out if g['id'] == 'T8'), False)
+    action_text, level = compute_action(lit, t1_on, t2_on, t7_on, t8_on)
 
     level_emoji = {4: '🚨', 3: '🔴', 2: '🟠', 1: '🟡', 0: '🟢'}
     action = f'{level_emoji.get(level, "")} {action_text}'
@@ -490,7 +643,7 @@ def build_output(state: dict) -> dict:
         'lit_count': lit,
         'action_level': level,
         'action': action,
-        'rule': '2개: 신규 진입 중지 | 3개: M게이트 OFF | T1+T2 동시: 즉시 방어 전환',
+        'rule': '2개: 신규 진입 중지 | 3개: M게이트 OFF | T1+T2 동시: 즉시 방어 전환 | T7+T8 동시: 메모리/네오클라우드 익스포저 축소',
     }
 
 
@@ -505,6 +658,8 @@ def run() -> dict:
         ('T4', auto_update_t4),
         ('T5', auto_update_t5),
         ('T6', auto_update_t6),
+        ('T7', auto_update_t7),
+        ('T8', auto_update_t8),
     ]:
         try:
             fn(state)
@@ -516,7 +671,7 @@ def run() -> dict:
         json.dumps(result, ensure_ascii=False, indent=2),
         encoding='utf-8',
     )
-    _print(f'[strategy_gates] 완료 -- 점등 {result["lit_count"]}/6 -- {result["action"]}')
+    _print(f'[strategy_gates] 완료 -- 점등 {result["lit_count"]}/8 -- {result["action"]}')
     return result
 
 

@@ -67,6 +67,16 @@ def screen_rs90(min_rating: float = 90.0) -> list[dict]:
         "rs90_count": len(result),
         "stocks":     all_stocks,   # NDX100 전체 정렬 (export_rs top30 표시용)
     }
+    # 빈 데이터 보호: 새 결과가 0개인데 기존 캐시에 데이터가 있으면 보존
+    existing_path = CACHE_DIR / "rs90.json"
+    if len(result) == 0 and existing_path.exists():
+        try:
+            existing = json.loads(existing_path.read_text())
+            if existing.get("rs90_count", 0) > 0:
+                print(f"[rs_screener] rate-limit 의심 — 기존 캐시 유지 (rs90={existing['rs90_count']})", file=sys.stderr)
+                return [s for s in existing.get("stocks", []) if s.get("rs_rating", 0) >= min_rating]
+        except Exception:
+            pass
     (CACHE_DIR / "rs90.json").write_text(json.dumps(out, indent=2))
     return result
 

@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-05",
+  "phase": "RISK_ON",
+  "m_score": 10,
+  "signals": {
+    "market_trend": "BULL",
+    "market_ret3m": 0.1368,
+    "vix_level": 16.15,
+    "volatility": "NORMAL",
+    "yield10y": 4.48,
+    "rate_env": "NORMAL",
+    "dollar_trend": "STRENGTHENING"
+  },
+  "recommended_sectors": [
+    "Technology",
+    "Consumer Discretionary",
+    "Industrials",
+    "Financials"
+  ]
+}

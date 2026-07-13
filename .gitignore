@@ -74,7 +74,10 @@ tools/stock_portfolio/kakao_config.json
 # 개인 포트폴리오 데이터
 tools/stock_portfolio/my_portfolio.json
 tools/stock_portfolio/portfolio.json
-tools/stock_portfolio/cache/
+# cache/ 전체 제외 대신 민감/대용량 파일만 제외
+tools/stock_portfolio/cache/user_portfolio_rs.json
+tools/stock_portfolio/cache/trend_result_*.json
+tools/stock_portfolio/cache/latest_result.json
 
 # 로또 예측 데이터 (개인 사용)
 tools/lotto/data/

@@ -78,6 +78,11 @@ def export_canslim() -> bool:
         print("[export] canslim_top10.json 없음", file=sys.stderr)
         return False
     out = DOCS_DATA / "canslim_top10.json"
+    existing = _read(out)
+    # 빈 데이터 보호: top10이 비어있는데 기존에 데이터 있으면 유지
+    if not data.get("top10") and existing and existing.get("top10"):
+        print(f"[export] canslim_top10.json 유지 (새 데이터 빈값, 기존 {len(existing['top10'])}종목)")
+        return True
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[export] canslim_top10.json → {out}")
     return True
@@ -177,6 +182,13 @@ def export_rs(top_n: int = 30) -> bool:
         return False
 
     stocks = data.get("stocks", [])
+    out = DOCS_DATA / "rs_top30.json"
+    existing = _read(out)
+    # 빈 데이터 보호: rs90=0인데 기존 데이터 있으면 유지
+    if data.get("rs90_count", 0) == 0 and existing and existing.get("rs90_count", 0) > 0:
+        print(f"[export] rs_top30.json 유지 (새 데이터 rs90=0, 기존 rs90={existing['rs90_count']})")
+        return True
+
     # 이미 rs_rating 내림차순 정렬되어 있음. top_n만 내보냄
     out_data = {
         "date":      data.get("date", ""),
@@ -190,7 +202,6 @@ def export_rs(top_n: int = 30) -> bool:
         user_rs = _read(user_rs_file) or {}
         out_data["portfolio_rs"] = user_rs.get("ratings", {})
 
-    out = DOCS_DATA / "rs_top30.json"
     out.write_text(json.dumps(out_data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[export] rs_top30.json → {out} ({len(out_data['stocks'])}종목)")
     return True

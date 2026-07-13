@@ -1,0 +1,71 @@
+{
+  "date": "2026-07-05",
+  "rankings": [
+    {
+      "sector": "Healthcare",
+      "etf": "XLV",
+      "qtd": 2.632576397003228,
+      "rank": 1
+    },
+    {
+      "sector": "Utilities",
+      "etf": "XLU",
+      "qtd": 2.2112974171253352,
+      "rank": 2
+    },
+    {
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 2.028805222205876,
+      "rank": 3
+    },
+    {
+      "sector": "Materials",
+      "etf": "XLB",
+      "qtd": 1.9404113188691285,
+      "rank": 4
+    },
+    {
+      "sector": "Financials",
+      "etf": "XLF",
+      "qtd": 1.5334066654002054,
+      "rank": 5
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": 1.1317338083889128,
+      "rank": 6
+    },
+    {
+      "sector": "Energy",
+      "etf": "XLE",
+      "qtd": 0.776367802973521,
+      "rank": 7
+    },
+    {
+      "sector": "Industrials",
+      "etf": "XLI",
+      "qtd": 0.2999580333371554,
+      "rank": 8
+    },
+    {
+      "sector": "Communication",
+      "etf": "XLC",
+      "qtd": -0.12757371275169405,
+      "rank": 9
+    },
+    {
+      "sector": "Consumer Disc.",
+      "etf": "XLY",
+      "qtd": -0.8214019996521604,
+      "rank": 10
+    },
+    {
+      "sector": "Technology",
+      "etf": "XLK",
+      "qtd": -2.7098367156627057,
+      "rank": 11
+    }
+  ]
+}

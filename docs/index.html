@@ -537,7 +537,7 @@ function renderGates(data) {
       <span style="margin-left:auto;font-size:10px;color:var(--text2)">기준일 ${data.updated || '—'}</span>
     </div>
     <div class="gate-header-row">
-      <span class="gate-lit-pill" style="background:${litBg};color:${litColor}">점등 ${lit}/6</span>
+      <span class="gate-lit-pill" style="background:${litBg};color:${litColor}">점등 ${lit}/${gates.length}</span>
       <span class="gate-action-label" style="color:${litColor}">${action}</span>
     </div>
     ${rows}

@@ -92,9 +92,9 @@
       "desc": "어센드 960 정상 출시·양산 확인 or CXMT HBM3E 양산 개시",
       "threshold": "이벤트 발생",
       "status": false,
-      "value": "미발생",
-      "note": "어센드 960 출시(2027 Q4 예정) 또는 CXMT HBM3E 양산 확인 -- 수동 확인 게이트",
-      "auto": false,
+      "value": "미감지",
+      "note": "어센드 960(2027 Q4 예정) / CXMT HBM3E 양산 뉴스 없음 -- 매일 자동 탐지 중",
+      "auto": true,
       "updated": "2026-07-13"
     }
   ],

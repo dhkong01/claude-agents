@@ -563,24 +563,107 @@ def auto_update_t7(state: dict) -> None:
     _print(f'[T7] H100 ${median_dph:.2f}/hr d90={change_pct:+.0f}% -> {"TRIGGERED" if triggered else "SAFE"}')
 
 
-# ── T8: 어센드 960 / CXMT HBM3E -- 수동 게이트 ───────────────────
+# ── T8: 어센드 960 / CXMT HBM3E -- Google News RSS 자동 탐지 ────
 
 def auto_update_t8(state: dict) -> None:
     """
-    중국 스택 성숙 이정표 -- 수동 확인 게이트.
-    어센드 960 정상 출시 or CXMT HBM3E 양산 개시 시 수동으로 status=True.
-    기존 상태를 보존하고 초기값만 설정.
+    Google News RSS로 어센드 960 출시 / CXMT HBM3E 양산 뉴스 탐지.
+    최근 90일 내 핵심 키워드 기사 발견 시 경고.
+    status=True는 자동으로 False로 되돌리지 않음 (래칫).
     """
+    import requests
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+
     today = datetime.now(KST).strftime('%Y-%m-%d')
-    if 'T8' not in state:
-        state['T8'] = {
-            'status': False,
-            'value': '미발생',
-            'note': '어센드 960 출시(2027 Q4 예정) 또는 CXMT HBM3E 양산 확인 -- 수동 확인 게이트',
-            'auto': False,
-            'updated': today,
-        }
-    _print(f'[T8] 수동 게이트 -- status={state["T8"]["status"]}')
+    cutoff = datetime.now(timezone.utc) - timedelta(days=90)
+
+    SEARCHES = [
+        {
+            'tag': 'Ascend960',
+            'queries': [
+                '"Ascend 960" launch release ships available',
+                '"Ascend 960" mass production volume',
+            ],
+            'must': ['ascend 960'],
+            'confirm': [
+                'launch', 'release', 'ship', 'available', 'debut',
+                'mass production', 'volume production', 'ramp',
+            ],
+            'exclude': ['expect', 'plan', 'upcoming', 'will release', 'announced'],
+        },
+        {
+            'tag': 'CXMT-HBM3E',
+            'queries': [
+                'CXMT HBM3E mass production ramp',
+                'CXMT HBM production volume',
+            ],
+            'must': ['cxmt'],
+            'confirm': [
+                'hbm3e', 'hbm mass', 'hbm production', 'hbm ramp', 'hbm volume', 'hbm3 mass',
+            ],
+            'exclude': ['expect', 'plan', 'target'],
+        },
+    ]
+
+    hits = []
+
+    for s in SEARCHES:
+        for query in s['queries']:
+            try:
+                enc_q = query.replace(' ', '+').replace('"', '%22')
+                url = f'https://news.google.com/rss/search?q={enc_q}&hl=en-US&gl=US&ceid=US:en'
+                r = requests.get(url, timeout=18, headers={
+                    'User-Agent': 'Mozilla/5.0 (compatible; portfolio-bot/1.0)',
+                })
+                if r.status_code != 200:
+                    continue
+                root = ET.fromstring(r.content)
+                for item in root.iter('item'):
+                    title_el = item.find('title')
+                    date_el  = item.find('pubDate')
+                    if title_el is None:
+                        continue
+                    title = (title_el.text or '').lower()
+                    # 날짜 필터 (90일 내)
+                    try:
+                        pub_dt = parsedate_to_datetime(date_el.text) if date_el is not None else None
+                        if pub_dt and pub_dt.replace(tzinfo=timezone.utc) < cutoff:
+                            continue
+                    except Exception:
+                        pass
+                    # 키워드 매칭: must + confirm 있고 exclude 없으면 hit
+                    if (any(k in title for k in s['must'])
+                            and any(k in title for k in s['confirm'])
+                            and not any(k in title for k in s['exclude'])):
+                        hits.append(f'[{s["tag"]}] {(title_el.text or "")[:70]}')
+                        break  # 이 쿼리에서 1건이면 충분
+            except Exception as e:
+                _print(f'[T8] RSS 실패 ({s["tag"]}): {e}')
+            time.sleep(0.5)
+
+    # 래칫: 이전에 True였으면 자동으로 False로 돌리지 않음
+    prev_status = state.get('T8', {}).get('status', False)
+    triggered = prev_status or len(hits) > 0
+
+    if len(hits) > 0:
+        value = f'{len(hits)}건 감지'
+        note  = f'뉴스 감지 -- {" | ".join(hits[:2])}'
+    elif prev_status:
+        value = '이전 확인 유지'
+        note  = state.get('T8', {}).get('note', '이전 감지 상태')
+    else:
+        value = '미감지'
+        note  = '어센드 960(2027 Q4 예정) / CXMT HBM3E 양산 뉴스 없음 -- 매일 자동 탐지 중'
+
+    state['T8'] = {
+        'status': triggered,
+        'value':  value,
+        'note':   note,
+        'auto':   True,
+        'updated': today,
+    }
+    _print(f'[T8] RSS 탐지 {len(hits)}건, status={triggered}')
 
 
 # ── 공통 ──────────────────────────────────────────────────────────

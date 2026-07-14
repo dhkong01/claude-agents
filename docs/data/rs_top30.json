@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "rs90_count": 10,
   "stocks": [
     {
@@ -23,11 +23,11 @@
       "rs_rating": 95.1
     },
     {
-      "ticker": "AMD",
+      "ticker": "INTC",
       "rs_rating": 94.1
     },
     {
-      "ticker": "INTC",
+      "ticker": "AMD",
       "rs_rating": 93.2
     },
     {
@@ -39,39 +39,39 @@
       "rs_rating": 91.2
     },
     {
-      "ticker": "ARM",
+      "ticker": "DDOG",
       "rs_rating": 90.3
     },
     {
-      "ticker": "DDOG",
+      "ticker": "LRCX",
       "rs_rating": 89.3
     },
     {
-      "ticker": "LRCX",
+      "ticker": "FTNT",
       "rs_rating": 88.3
     },
     {
-      "ticker": "FTNT",
+      "ticker": "PANW",
       "rs_rating": 87.4
     },
     {
-      "ticker": "PANW",
+      "ticker": "ARM",
       "rs_rating": 86.4
     },
     {
-      "ticker": "KLAC",
+      "ticker": "CRWD",
       "rs_rating": 85.4
     },
     {
-      "ticker": "CRWD",
+      "ticker": "KLAC",
       "rs_rating": 84.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "ASML",
       "rs_rating": 83.5
     },
     {
-      "ticker": "ASML",
+      "ticker": "CSCO",
       "rs_rating": 82.5
     },
     {
@@ -79,15 +79,15 @@
       "rs_rating": 81.5
     },
     {
-      "ticker": "MNST",
+      "ticker": "ADI",
       "rs_rating": 80.6
     },
     {
-      "ticker": "ADI",
+      "ticker": "MNST",
       "rs_rating": 79.6
     },
     {
-      "ticker": "ODFL",
+      "ticker": "MPWR",
       "rs_rating": 78.6
     },
     {
@@ -107,7 +107,7 @@
       "rs_rating": 74.7
     },
     {
-      "ticker": "AAPL",
+      "ticker": "ODFL",
       "rs_rating": 73.8
     },
     {
@@ -115,7 +115,7 @@
       "rs_rating": 72.8
     },
     {
-      "ticker": "MPWR",
+      "ticker": "AAPL",
       "rs_rating": 71.8
     },
     {
@@ -124,12 +124,12 @@
     }
   ],
   "portfolio_rs": {
-    "TSLA": 44.6,
-    "PLTR": 18.4,
-    "VKTX": 59.2,
-    "META": 34.9,
+    "TSLA": 46.6,
+    "PLTR": 21.4,
+    "VKTX": 58.2,
+    "META": 34.0,
     "MRVL": 92.2,
-    "ARM": 90.3,
-    "LRCX": 88.3
+    "ARM": 86.4,
+    "LRCX": 89.3
   }
 }

@@ -66,6 +66,7 @@ jobs:
 
       # ── 5. 알림 전송 ──────────────────────────────────────────
       - name: 카카오톡 / Telegram 전송
+        continue-on-error: true   # 전송 실패해도 commit 단계 진행 (60일 활성 유지)
         env:
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}

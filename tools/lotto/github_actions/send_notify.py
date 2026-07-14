@@ -104,7 +104,7 @@ def send_kakao():
         print("   새 토큰을 수동으로 업데이트하세요 (60일 연장)")
         print("=" * 50)
 
-    def _kakao_send(text):
+    def _kakao_send(text, label=""):
         tmpl = json.dumps({"object_type":"text","text":text[:2000],
                            "link":{"web_url":"","mobile_web_url":""}}, ensure_ascii=False)
         resp = _post("https://kapi.kakao.com/v2/api/talk/memo/default/send",
@@ -113,11 +113,17 @@ def send_kakao():
                "Content-Type": "application/x-www-form-urlencoded;charset=utf-8"})
         code = resp.get("result_code", resp.get("code", 0))
         if code != 0:
-            raise RuntimeError(f"Kakao send error: {resp}")
+            print(f"[경고] Kakao send error {label}: code={code} resp={resp}")
+            return False
+        return True
 
-    _kakao_send(msg1)
-    _kakao_send(msg2)
-    print(f"Kakao 전송 완료: 로또 {draw}회")
+    ok1 = _kakao_send(msg1, "msg1")
+    ok2 = _kakao_send(msg2, "msg2")
+    if ok1 and ok2:
+        print(f"Kakao 전송 완료: 로또 {draw}회")
+    else:
+        print(f"[경고] Kakao 전송 실패 — GitHub Secrets 점검 필요 (KAKAO_REST_API_KEY/KAKAO_REFRESH_TOKEN)")
+        # exit 0: 워크플로우가 commit 단계까지 도달해야 60일 비활성화 방지
 
 
 # ── 자동 선택 ─────────────────────────────────────────────────

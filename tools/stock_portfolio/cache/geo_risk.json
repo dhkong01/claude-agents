@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
+  "high_risk_signals": 3,
   "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
@@ -11,9 +11,9 @@
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "U.S. And Iran Reignite War Over Strait Of Hormuz",
-    "Japan Builds Intelligence Agency It Hasn\u2019T Had Since World War Ii",
-    "The Next Phase In Ukraine\u2019S War With Russia: The Battle For Minds"
+    "Iran War Live Updates: U.S. And Iran Exchange Strikes For Fifth Straight Day",
+    "Ukraine\u2019S Minister Of Defense, A Proponent Of Drone Warfare, Steps Down",
+    "Will Iran Be A Forever War?"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "mode": "daily",
   "rs_top10": [
     {
@@ -45,35 +45,36 @@
   ],
   "rs90_count": 10,
   "geo_risk": {
-    "date": "2026-07-17",
-    "risk_score": 6.0,
+    "date": "2026-07-18",
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 1,
-    "medium_risk_signals": 2,
+    "high_risk_signals": 2,
+    "medium_risk_signals": 4,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Semiconductors": "WATCH",
-      "Defense": "ELEVATED"
+      "Defense": "ELEVATED",
+      "Financials": "ELEVATED"
     },
     "top_risk_events": [
-      "Iran War Live Updates: Bridges And Water Plants Hit As Strikes Stretch To 7Th Straight Day",
-      "The 20-Somethings Running Ukraine’S War Machine",
-      "Dubai Migrant Worker Layoffs Reveal Costs Of Middle East War"
+      "Iran War Live Updates: 2 U.S. Soldiers Killed And 1 Service Member Missing In Iranian Attack On Jordan",
+      "Israel Counters Iranian Spying By Warning Against Recruitment",
+      "Why Jordan Is Becoming A New Focus In The U.S.-Iran War"
     ],
-    "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Energy, Defense, Financials 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 60,
-      "sqqq_pct": 10,
-      "cash_pct": 30,
-      "per_stock_pct": 12.0,
-      "action": "MODERATE_HEDGE",
+      "long_pct": 20,
+      "sqqq_pct": 20,
+      "cash_pct": 60,
+      "per_stock_pct": 4.0,
+      "action": "MAX_DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
-        "Defense"
+        "Defense",
+        "Financials"
       ],
-      "reasoning": "Risk 6.0 — SQQQ 10% 중형 헤지, 현금 30% 방어. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense, Financials ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -92,7 +93,7 @@
       "final_depth_pct": 10.3,
       "contractions": 2,
       "vol_declining": true,
-      "vol_spike_ratio": 0.91,
+      "vol_spike_ratio": 0.92,
       "pivot_extension_pct": -0.2,
       "david_ryan_extended": false,
       "qullamaggie_score": 53,
@@ -134,7 +135,7 @@
       "final_depth_pct": 11.2,
       "contractions": 2,
       "vol_declining": true,
-      "vol_spike_ratio": 0.87,
+      "vol_spike_ratio": 0.92,
       "pivot_extension_pct": -11.6,
       "david_ryan_extended": false,
       "qullamaggie_score": 43,
@@ -172,7 +173,7 @@
       "final_depth_pct": 2.6,
       "contractions": 3,
       "vol_declining": false,
-      "vol_spike_ratio": 1.57,
+      "vol_spike_ratio": 1.85,
       "pivot_extension_pct": -0.6,
       "david_ryan_extended": false,
       "qullamaggie_score": 67,
@@ -370,7 +371,7 @@
       "final_depth_pct": 23.3,
       "contractions": 3,
       "vol_declining": false,
-      "vol_spike_ratio": 0.99,
+      "vol_spike_ratio": 1.02,
       "pivot_extension_pct": -27.1,
       "david_ryan_extended": false,
       "qullamaggie_score": 25,
@@ -408,7 +409,7 @@
       "final_depth_pct": 0.0,
       "contractions": 0,
       "vol_declining": false,
-      "vol_spike_ratio": 0.78,
+      "vol_spike_ratio": 0.87,
       "pivot_extension_pct": null,
       "david_ryan_extended": false,
       "qullamaggie_score": 40,
@@ -490,7 +491,7 @@
       "pivot": 359.32,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "FTNT",
@@ -507,7 +508,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "CRWD",
@@ -524,7 +525,7 @@
       "pivot": 200.38,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "ROST",
@@ -541,7 +542,7 @@
       "pivot": null,
       "sector": "Consumer Cyclical",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "STX",
@@ -558,7 +559,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     }
   ],
   "sqqq_channel": {
@@ -574,7 +575,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-07-17",
-    "checked_at": "2026-07-17 23:27",
+    "checked_at": "2026-07-18 23:16",
     "sample": {
       "SPY": 743.29,
       "QQQ": 695.33,

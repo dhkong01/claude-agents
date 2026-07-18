@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "stocks": [
     {
       "ticker": "PANW",
@@ -16,7 +16,7 @@
       "pivot": 359.32,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "FTNT",
@@ -33,7 +33,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "CRWD",
@@ -50,7 +50,7 @@
       "pivot": 200.38,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "ROST",
@@ -67,7 +67,7 @@
       "pivot": null,
       "sector": "Consumer Cyclical",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "STX",
@@ -84,20 +84,21 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": false,
-      "allocation_pct": 12.0
+      "allocation_pct": 4.0
     }
   ],
   "hedge": {
-    "long_pct": 60,
-    "sqqq_pct": 10,
-    "cash_pct": 30,
-    "per_stock_pct": 12.0,
-    "action": "MODERATE_HEDGE",
+    "long_pct": 20,
+    "sqqq_pct": 20,
+    "cash_pct": 60,
+    "per_stock_pct": 4.0,
+    "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
-      "Defense"
+      "Defense",
+      "Financials"
     ],
-    "reasoning": "Risk 6.0 \u2014 SQQQ 10% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense, Financials ELEVATED]"
   }
 }

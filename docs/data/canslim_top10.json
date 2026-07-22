@@ -1,7 +1,25 @@
 {
-  "date": "2026-07-21",
-  "analyzed": 101,
+  "date": "2026-07-22",
+  "analyzed": 100,
   "top10": [
+    {
+      "ticker": "MNST",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "market_cap": 93566033920,
+      "price": 95.67,
+      "rs_rating": 80.6
+    },
     {
       "ticker": "AMD",
       "canslim_score": 58,
@@ -16,8 +34,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 887747837952,
-      "price": 544.43,
+      "market_cap": 900629659648,
+      "price": 552.33,
       "rs_rating": 93.2
     },
     {
@@ -34,45 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 199974141952,
-      "price": 891.83,
+      "market_cap": 205459537920,
+      "price": 908.1,
       "rs_rating": 95.1
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 90695098368,
-      "price": 254.79,
-      "rs_rating": 88.3
-    },
-    {
-      "ticker": "MNST",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Defensive",
-      "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 92382650368,
-      "price": 94.46,
-      "rs_rating": 77.6
     },
     {
       "ticker": "ROST",
@@ -88,27 +70,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
-      "market_cap": 75643387904,
-      "price": 235.81,
-      "rs_rating": 76.7
-    },
-    {
-      "ticker": "SBUX",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "market_cap": 119041654784,
-      "price": 104.45,
-      "rs_rating": 62.1
+      "market_cap": 76413263872,
+      "price": 238.21,
+      "rs_rating": 79.6
     },
     {
       "ticker": "EA",
@@ -124,8 +88,8 @@
       },
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
-      "market_cap": 52417089536,
-      "price": 209.04,
+      "market_cap": 52394524672,
+      "price": 208.95,
       "rs_rating": 57.3
     },
     {
@@ -142,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1096437465088,
-      "price": 970.82,
+      "market_cap": 1083630092288,
+      "price": 959.48,
       "rs_rating": 98.0
     },
     {
@@ -160,9 +124,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 189020241920,
-      "price": 548.39,
-      "rs_rating": 96.1
+      "market_cap": 191874203648,
+      "price": 556.67,
+      "rs_rating": 97.1
     },
     {
       "ticker": "AMAT",
@@ -178,9 +142,45 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 448229769216,
-      "price": 564.55,
+      "market_cap": 439789977600,
+      "price": 553.92,
       "rs_rating": 91.2
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 399294824448,
+      "price": 319.29,
+      "rs_rating": 90.3
+    },
+    {
+      "ticker": "DDOG",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 87484334080,
+      "price": 245.77,
+      "rs_rating": 89.3
     }
   ]
 }

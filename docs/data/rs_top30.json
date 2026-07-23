@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "rs90_count": 10,
   "stocks": [
     {
@@ -59,11 +59,11 @@
       "rs_rating": 86.4
     },
     {
-      "ticker": "ASML",
+      "ticker": "KLAC",
       "rs_rating": 85.4
     },
     {
-      "ticker": "KLAC",
+      "ticker": "ASML",
       "rs_rating": 84.4
     },
     {
@@ -71,15 +71,15 @@
       "rs_rating": 83.5
     },
     {
-      "ticker": "TXN",
+      "ticker": "CSCO",
       "rs_rating": 82.5
     },
     {
-      "ticker": "CSCO",
+      "ticker": "CSX",
       "rs_rating": 81.5
     },
     {
-      "ticker": "MNST",
+      "ticker": "TXN",
       "rs_rating": 80.6
     },
     {
@@ -87,47 +87,47 @@
       "rs_rating": 79.6
     },
     {
-      "ticker": "ADI",
+      "ticker": "MNST",
       "rs_rating": 78.6
     },
     {
-      "ticker": "CSX",
+      "ticker": "FANG",
       "rs_rating": 77.6
     },
     {
-      "ticker": "ODFL",
+      "ticker": "MPWR",
       "rs_rating": 76.7
     },
     {
-      "ticker": "MPWR",
+      "ticker": "AAPL",
       "rs_rating": 75.7
     },
     {
-      "ticker": "AAPL",
+      "ticker": "ADI",
       "rs_rating": 74.7
     },
     {
-      "ticker": "FANG",
+      "ticker": "ODFL",
       "rs_rating": 73.8
     },
     {
-      "ticker": "NXPI",
+      "ticker": "WBD",
       "rs_rating": 72.8
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "NXPI",
       "rs_rating": 71.8
     },
     {
-      "ticker": "GOOG",
+      "ticker": "MAR",
       "rs_rating": 70.9
     }
   ],
   "portfolio_rs": {
-    "TSLA": 36.9,
-    "PLTR": 15.5,
-    "VKTX": 58.2,
-    "META": 31.1,
+    "TSLA": 20.4,
+    "PLTR": 16.5,
+    "VKTX": 52.4,
+    "META": 29.1,
     "MRVL": 92.2,
     "ARM": 86.4,
     "LRCX": 90.3

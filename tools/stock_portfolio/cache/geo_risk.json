@@ -1,18 +1,20 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
+  "high_risk_signals": 5,
   "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Defense": "ELEVATED"
+    "Defense": "ELEVATED",
+    "Consumer": "WATCH",
+    "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Iran War Live Updates: Red Sea Turmoil Pushes Oil Past $100 A Barrel",
-    "Oil-Rich Saudi Arabia Isn\u2019T Short On Energy. Here\u2019S Why It Wants To Go Nuclear.",
-    "For South Korea, U.S.-Saudi Nuclear Deal Exposes A Double Standard"
+    "Iran War Live Updates: Trump Meets With Cabinet Over Whether To Intensify Iran Strikes",
+    "\u2018We\u2019Re Trapped In Hell\u2019: Iranians Say Life Is Put On Hold By Months Of War",
+    "Iran\u2019S New Leader Is More Open To Pursuing A Nuclear Weapon, U.S. Intelligence Says"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

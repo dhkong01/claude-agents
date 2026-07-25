@@ -1,11 +1,11 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "stocks": [
     {
       "ticker": "CSX",
-      "final_score": 55.3,
+      "final_score": 55.5,
       "canslim_score": 55,
-      "rs_rating": 81.5,
+      "rs_rating": 82.7,
       "vcp_score": 55,
       "donchian_signal": "BREAKOUT",
       "current_price": 53.23,
@@ -19,27 +19,10 @@
       "allocation_pct": 4.0
     },
     {
-      "ticker": "AMD",
-      "final_score": 63.6,
-      "canslim_score": 55,
-      "rs_rating": 93.2,
-      "vcp_score": 95,
-      "donchian_signal": "HOLD",
-      "current_price": 521.95,
-      "donchian_upper": 580.91,
-      "donchian_lower": 495.76,
-      "dist_to_upper_pct": 11.3,
-      "dist_to_lower_pct": 5.0,
-      "pivot": 560.68,
-      "sector": "Technology",
-      "in_both": true,
-      "allocation_pct": 4.0
-    },
-    {
       "ticker": "CSCO",
-      "final_score": 50.2,
+      "final_score": 50.5,
       "canslim_score": 52,
-      "rs_rating": 82.5,
+      "rs_rating": 83.7,
       "vcp_score": 58,
       "donchian_signal": "HOLD",
       "current_price": 114.17,
@@ -56,7 +39,7 @@
       "ticker": "STX",
       "final_score": 49.9,
       "canslim_score": 55,
-      "rs_rating": 95.1,
+      "rs_rating": 94.9,
       "vcp_score": 48,
       "donchian_signal": "HOLD",
       "current_price": 851.69,
@@ -84,6 +67,23 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
+      "allocation_pct": 4.0
+    },
+    {
+      "ticker": "AAPL",
+      "final_score": 43.6,
+      "canslim_score": 0,
+      "rs_rating": 80.6,
+      "vcp_score": 75,
+      "donchian_signal": "HOLD",
+      "current_price": 333.02,
+      "donchian_upper": 333.74,
+      "donchian_lower": 314.86,
+      "dist_to_upper_pct": 0.2,
+      "dist_to_lower_pct": 5.5,
+      "pivot": 335.41,
+      "sector": "",
+      "in_both": false,
       "allocation_pct": 4.0
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "data": [
     {
       "ticker": "CSX",
@@ -10,16 +10,6 @@
       "dist_to_upper_pct": -0.8,
       "dist_to_lower_pct": 7.2,
       "channel_width_pct": 6.9
-    },
-    {
-      "ticker": "AMD",
-      "current": 521.95,
-      "donchian_upper": 580.91,
-      "donchian_lower": 495.76,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 11.3,
-      "dist_to_lower_pct": 5.0,
-      "channel_width_pct": 17.2
     },
     {
       "ticker": "CSCO",
@@ -52,13 +42,23 @@
       "channel_width_pct": 42.9
     },
     {
+      "ticker": "AAPL",
+      "current": 333.02,
+      "donchian_upper": 333.74,
+      "donchian_lower": 314.86,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.2,
+      "dist_to_lower_pct": 5.5,
+      "channel_width_pct": 6.0
+    },
+    {
       "ticker": "SNDK",
-      "current": 1436.56,
+      "current": 1610.33,
       "donchian_upper": 2335.0,
       "donchian_lower": 1354.82,
       "signal": "HOLD",
-      "dist_to_upper_pct": 62.5,
-      "dist_to_lower_pct": 5.7,
+      "dist_to_upper_pct": 45.0,
+      "dist_to_lower_pct": 15.9,
       "channel_width_pct": 72.3
     },
     {

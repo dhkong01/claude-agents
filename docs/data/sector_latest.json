@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
@@ -12,19 +12,11 @@
       "status": "과열"
     },
     {
-      "sector": "Real Estate",
-      "etf": "XLRE",
-      "qtd": 4.01,
-      "week1": 1.59,
-      "rank": 2,
-      "status": "강세"
-    },
-    {
       "sector": "Utilities",
       "etf": "XLU",
       "qtd": 3.4,
       "week1": 3.0,
-      "rank": 3,
+      "rank": 2,
       "status": "강세"
     },
     {
@@ -32,7 +24,7 @@
       "etf": "XLF",
       "qtd": 2.79,
       "week1": 0.48,
-      "rank": 4,
+      "rank": 3,
       "status": "중립"
     },
     {
@@ -40,6 +32,14 @@
       "etf": "XLV",
       "qtd": 1.9,
       "week1": 2.08,
+      "rank": 4,
+      "status": "중립"
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": 1.74,
+      "week1": -1.03,
       "rank": 5,
       "status": "중립"
     },
@@ -96,7 +96,7 @@
     "Communication Services": [
       {
         "ticker": "EA",
-        "rs": 61.1,
+        "rs": 62.3,
         "canslim": 57,
         "price": 209.06
       }
@@ -104,15 +104,9 @@
     "Technology": [
       {
         "ticker": "STX",
-        "rs": 95.1,
+        "rs": 94.9,
         "canslim": 55,
         "price": 851.69
-      },
-      {
-        "ticker": "AMD",
-        "rs": 93.2,
-        "canslim": 55,
-        "price": 521.95
       },
       {
         "ticker": "MU",
@@ -122,33 +116,39 @@
       },
       {
         "ticker": "WDC",
-        "rs": 97.1,
+        "rs": 97.0,
         "canslim": 52,
         "price": 519.8
       },
       {
         "ticker": "AMAT",
-        "rs": 91.2,
+        "rs": 91.9,
         "canslim": 52,
         "price": 536.25
       },
       {
         "ticker": "LRCX",
-        "rs": 90.3,
+        "rs": 90.8,
         "canslim": 52,
         "price": 305.21
       },
       {
         "ticker": "CSCO",
-        "rs": 82.5,
+        "rs": 83.7,
         "canslim": 52,
         "price": 114.17
+      },
+      {
+        "ticker": "TXN",
+        "rs": 81.6,
+        "canslim": 52,
+        "price": 279.58
       }
     ],
     "Industrials": [
       {
         "ticker": "CSX",
-        "rs": 81.5,
+        "rs": 82.7,
         "canslim": 55,
         "price": 53.23
       }
@@ -156,7 +156,7 @@
     "Consumer Defensive": [
       {
         "ticker": "MNST",
-        "rs": 76.7,
+        "rs": 78.6,
         "canslim": 54,
         "price": 93.49
       }

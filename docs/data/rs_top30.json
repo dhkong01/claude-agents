@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-24",
-  "rs90_count": 10,
+  "date": "2026-07-25",
+  "rs90_count": 9,
   "stocks": [
     {
       "ticker": "SNDK",
@@ -12,124 +12,124 @@
     },
     {
       "ticker": "WDC",
-      "rs_rating": 97.1
+      "rs_rating": 97.0
     },
     {
       "ticker": "LITE",
-      "rs_rating": 96.1
+      "rs_rating": 95.9
     },
     {
       "ticker": "STX",
-      "rs_rating": 95.1
+      "rs_rating": 94.9
     },
     {
       "ticker": "INTC",
-      "rs_rating": 94.1
-    },
-    {
-      "ticker": "AMD",
-      "rs_rating": 93.2
+      "rs_rating": 93.9
     },
     {
       "ticker": "MRVL",
-      "rs_rating": 92.2
+      "rs_rating": 92.9
     },
     {
       "ticker": "AMAT",
-      "rs_rating": 91.2
+      "rs_rating": 91.9
     },
     {
       "ticker": "LRCX",
-      "rs_rating": 90.3
+      "rs_rating": 90.8
     },
     {
       "ticker": "DDOG",
-      "rs_rating": 89.3
-    },
-    {
-      "ticker": "FTNT",
-      "rs_rating": 88.3
+      "rs_rating": 89.8
     },
     {
       "ticker": "PANW",
-      "rs_rating": 87.4
+      "rs_rating": 88.8
     },
     {
       "ticker": "CRWD",
-      "rs_rating": 86.4
+      "rs_rating": 87.8
     },
     {
       "ticker": "ASML",
-      "rs_rating": 85.4
+      "rs_rating": 86.8
     },
     {
       "ticker": "KLAC",
-      "rs_rating": 84.4
+      "rs_rating": 85.7
     },
     {
       "ticker": "ARM",
-      "rs_rating": 83.5
+      "rs_rating": 84.7
     },
     {
       "ticker": "CSCO",
-      "rs_rating": 82.5
+      "rs_rating": 83.7
     },
     {
       "ticker": "CSX",
-      "rs_rating": 81.5
+      "rs_rating": 82.7
     },
     {
       "ticker": "TXN",
-      "rs_rating": 80.6
+      "rs_rating": 81.6
     },
     {
       "ticker": "AAPL",
-      "rs_rating": 79.6
+      "rs_rating": 80.6
     },
     {
       "ticker": "ROST",
-      "rs_rating": 78.6
-    },
-    {
-      "ticker": "ODFL",
-      "rs_rating": 77.6
+      "rs_rating": 79.6
     },
     {
       "ticker": "MNST",
-      "rs_rating": 76.7
+      "rs_rating": 78.6
     },
     {
       "ticker": "FANG",
-      "rs_rating": 75.7
+      "rs_rating": 77.6
     },
     {
       "ticker": "ADI",
-      "rs_rating": 74.7
+      "rs_rating": 76.5
     },
     {
       "ticker": "MPWR",
-      "rs_rating": 73.8
+      "rs_rating": 75.5
     },
     {
       "ticker": "MAR",
-      "rs_rating": 72.8
+      "rs_rating": 74.5
     },
     {
       "ticker": "WBD",
-      "rs_rating": 71.8
+      "rs_rating": 73.5
     },
     {
       "ticker": "AMGN",
-      "rs_rating": 70.9
+      "rs_rating": 72.5
+    },
+    {
+      "ticker": "PCAR",
+      "rs_rating": 71.4
+    },
+    {
+      "ticker": "NXPI",
+      "rs_rating": 70.4
+    },
+    {
+      "ticker": "GOOGL",
+      "rs_rating": 69.4
     }
   ],
   "portfolio_rs": {
-    "TSLA": 17.5,
-    "PLTR": 13.6,
-    "VKTX": 52.4,
-    "META": 24.3,
-    "MRVL": 92.2,
-    "ARM": 83.5,
-    "LRCX": 90.3
+    "TSLA": 18.4,
+    "PLTR": 14.3,
+    "VKTX": 53.1,
+    "META": 25.5,
+    "MRVL": 92.9,
+    "ARM": 84.7,
+    "LRCX": 90.8
   }
 }

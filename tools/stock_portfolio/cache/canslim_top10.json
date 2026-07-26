@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "analyzed": 101,
   "top10": [
     {
@@ -34,7 +34,7 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 192696664064,
+      "market_cap": 190973591552,
       "price": 851.69,
       "rs_rating": 94.9
     },
@@ -129,24 +129,6 @@
       "rs_rating": 91.9
     },
     {
-      "ticker": "LRCX",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 381686775808,
-      "price": 305.21,
-      "rs_rating": 90.8
-    },
-    {
       "ticker": "CSCO",
       "canslim_score": 52,
       "scores": {
@@ -181,6 +163,24 @@
       "market_cap": 255282479104,
       "price": 279.58,
       "rs_rating": 81.6
+    },
+    {
+      "ticker": "AAPL",
+      "canslim_score": 52,
+      "scores": {
+        "C": 7,
+        "A": 7,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 4891182891008,
+      "price": 333.02,
+      "rs_rating": 80.6
     }
   ]
 }

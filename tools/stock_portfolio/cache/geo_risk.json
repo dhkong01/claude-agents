@@ -1,20 +1,19 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
-  "medium_risk_signals": 2,
+  "high_risk_signals": 4,
+  "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
     "Defense": "ELEVATED",
     "Consumer": "WATCH"
   },
   "top_risk_events": [
+    "U.S.-Iran War Pauses For 2Nd Straight Day With Both Sides Holding Off On Strikes",
     "Iran Journey Reveals Society\u2019S Wartime Defiance And Hope",
-    "Iran War Live Updates: U.S.-Iran Strikes Abate, But Supporters Of Both Sides Exchange Attacks",
-    "Trump Holds Off On Major War Escalation Against Iran As Advisers Raise Concerns"
+    "Trump Is Pushing Nuclear Energy, Including Saudi Deal. His Family And Supporters Could Benefit."
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

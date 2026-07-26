@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26",
+  "updated": "2026-07-27",
   "gates": [
     {
       "id": "T1",
@@ -11,7 +11,7 @@
       "value": "+65%",
       "note": "M7 4사 연간 캐펙스 합산 $358B YoY +65% -- 정상 (임계 +15% 미달) (실제 지출 기준, 가이던스 아님)",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T2",
@@ -23,7 +23,7 @@
       "value": "0.79% (d3M:-2bp)",
       "note": "ICE BofA IG OAS 0.79% -- 3개월 변화 -2bp (여유 52bp)",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T3",
@@ -32,10 +32,10 @@
       "desc": "^IRX(13주 T-bill) 4.25% 초과 -- 연준 기준금리 근사",
       "threshold": ">= 4.25%",
       "status": false,
-      "value": "3.81%",
-      "note": "단기금리(^IRX) 3.81% -- 목표(4.25%)까지 0.44pp 여유",
+      "value": "3.80%",
+      "note": "단기금리(^IRX) 3.80% -- 목표(4.25%)까지 0.45pp 여유",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T4",
@@ -47,7 +47,7 @@
       "value": "GM 84.6% YoY+46.8pp",
       "note": "MU 분기 그로스마진 84.6% YoY+46.8pp -- 정상 (HBM ASP 대리지표)",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T5",
@@ -59,7 +59,7 @@
       "value": "DIO 122d(17.4wk) YoY-15d",
       "note": "MU DIO 122일(17.4주) YoY-15d -- 정상 (D램 재고 대리지표)",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T6",
@@ -71,7 +71,7 @@
       "value": "이상 없음",
       "note": "M7 D&A/OI -- 전사 YoY +20pp 미만 (정상) | AMZN:79% | MSFT:26% | GOOGL:17% | META:26%",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T7",
@@ -80,10 +80,10 @@
       "desc": "H100 GPU 렌탈 단가($/GPU-hour) 분기 -15% 이상 하락 (RunPod/Vast.ai)",
       "threshold": "-15% 분기",
       "status": false,
-      "value": "$2.69/hr (누적 13일)",
-      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 분기 비교 데이터 누적 중 (13/90일)",
+      "value": "$2.69/hr (누적 14일)",
+      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 분기 비교 데이터 누적 중 (14/90일)",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     },
     {
       "id": "T8",
@@ -95,7 +95,7 @@
       "value": "미감지",
       "note": "어센드 960(2027 Q4 예정) / CXMT HBM3E 양산 뉴스 없음 -- 매일 자동 탐지 중",
       "auto": true,
-      "updated": "2026-07-26"
+      "updated": "2026-07-27"
     }
   ],
   "lit_count": 0,

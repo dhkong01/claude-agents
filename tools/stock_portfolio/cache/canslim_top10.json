@@ -1,7 +1,25 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "analyzed": 101,
   "top10": [
+    {
+      "ticker": "ROST",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "market_cap": 80525672448,
+      "price": 251.03,
+      "rs_rating": 82.5
+    },
     {
       "ticker": "MNST",
       "canslim_score": 57,
@@ -16,9 +34,9 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 93233520640,
-      "price": 95.33,
-      "rs_rating": 77.6
+      "market_cap": 95590514688,
+      "price": 97.74,
+      "rs_rating": 79.6
     },
     {
       "ticker": "EA",
@@ -27,16 +45,16 @@
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 7,
-        "L": 3,
+        "S": 10,
+        "L": 0,
         "I": 10,
         "M": 7
       },
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
-      "market_cap": 52424613888,
-      "price": 209.07,
-      "rs_rating": 60.2
+      "market_cap": 52374462464,
+      "price": 208.87,
+      "rs_rating": 56.3
     },
     {
       "ticker": "STX",
@@ -52,27 +70,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 184845713408,
-      "price": 816.99,
+      "market_cap": 169078194176,
+      "price": 747.3,
       "rs_rating": 95.1
-    },
-    {
-      "ticker": "AMD",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 807065747456,
-      "price": 494.95,
-      "rs_rating": 93.2
     },
     {
       "ticker": "DDOG",
@@ -88,27 +88,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 89652133888,
-      "price": 251.86,
-      "rs_rating": 90.3
-    },
-    {
-      "ticker": "ROST",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 1,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "market_cap": 78062075904,
-      "price": 243.35,
-      "rs_rating": 81.5
+      "market_cap": 89303293952,
+      "price": 250.88,
+      "rs_rating": 92.2
     },
     {
       "ticker": "MU",
@@ -124,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1016679759872,
-      "price": 900.2,
+      "market_cap": 926700994560,
+      "price": 820.53,
       "rs_rating": 98.0
     },
     {
@@ -142,9 +124,27 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 171624136704,
-      "price": 497.92,
+      "market_cap": 159763628032,
+      "price": 463.51,
       "rs_rating": 97.1
+    },
+    {
+      "ticker": "AMD",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 741303648256,
+      "price": 454.62,
+      "rs_rating": 93.2
     },
     {
       "ticker": "AMAT",
@@ -160,9 +160,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 410389708800,
-      "price": 516.89,
-      "rs_rating": 91.2
+      "market_cap": 378289913856,
+      "price": 476.46,
+      "rs_rating": 90.3
     },
     {
       "ticker": "CSCO",
@@ -178,9 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "market_cap": 451570171904,
-      "price": 114.57,
-      "rs_rating": 84.4
+      "market_cap": 455551025152,
+      "price": 115.58,
+      "rs_rating": 85.4
     }
   ]
 }

@@ -1,18 +1,19 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
-  "medium_risk_signals": 3,
+  "high_risk_signals": 6,
+  "medium_risk_signals": 5,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Defense": "ELEVATED"
+    "Defense": "ELEVATED",
+    "Consumer": "WATCH"
   },
   "top_risk_events": [
-    "Ukraine\u2019S Strike On An Iranian Ship Could Bring Two Wars Closer",
-    "Southeast Asian Resort Towns Suffer As Iran War Keeps European Tourists Away",
-    "The Iran War Is Making Asia\u2019S Street Food More Expensive"
+    "Iran War Live Updates: More Countries Pulled Into Conflict With Spate Of Attacks",
+    "Bts Won\u2019T Enter Music From Comeback Album For Grammy Awards",
+    "Amid Myanmar\u2019S Civil War, The Rich Seek Parties And \u2018Positive Vibes Only\u2019"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

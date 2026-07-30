@@ -1,70 +1,70 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-23",
   "rankings": [
     {
-      "sector": "Healthcare",
-      "etf": "XLV",
-      "qtd": 2.632576397003228,
+      "sector": "Energy",
+      "etf": "XLE",
+      "qtd": 12.09997959379001,
       "rank": 1
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 2.2112974171253352,
+      "qtd": 2.591020405520128,
       "rank": 2
-    },
-    {
-      "sector": "Consumer Staples",
-      "etf": "XLP",
-      "qtd": 2.028805222205876,
-      "rank": 3
-    },
-    {
-      "sector": "Materials",
-      "etf": "XLB",
-      "qtd": 1.9404113188691285,
-      "rank": 4
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 1.5334066654002054,
-      "rank": 5
+      "qtd": 2.3183652538591337,
+      "rank": 3
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 1.1317338083889128,
+      "qtd": 1.87867363201486,
+      "rank": 4
+    },
+    {
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 1.2965115991521836,
+      "rank": 5
+    },
+    {
+      "sector": "Healthcare",
+      "etf": "XLV",
+      "qtd": -0.06894861162133337,
       "rank": 6
     },
     {
-      "sector": "Energy",
-      "etf": "XLE",
-      "qtd": 0.776367802973521,
+      "sector": "Materials",
+      "etf": "XLB",
+      "qtd": -0.39200462788121504,
       "rank": 7
-    },
-    {
-      "sector": "Industrials",
-      "etf": "XLI",
-      "qtd": 0.2999580333371554,
-      "rank": 8
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -0.12757371275169405,
-      "rank": 9
+      "qtd": -0.4920730144333474,
+      "rank": 8
     },
     {
-      "sector": "Consumer Disc.",
-      "etf": "XLY",
-      "qtd": -0.8214019996521604,
-      "rank": 10
+      "sector": "Industrials",
+      "etf": "XLI",
+      "qtd": -2.459639229833932,
+      "rank": 9
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": -2.7098367156627057,
+      "qtd": -2.882227661599146,
+      "rank": 10
+    },
+    {
+      "sector": "Consumer Disc.",
+      "etf": "XLY",
+      "qtd": -3.446523686205172,
       "rank": 11
     }
   ]

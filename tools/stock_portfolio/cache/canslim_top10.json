@@ -1,114 +1,42 @@
 {
-  "date": "2026-07-29",
-  "analyzed": 101,
+  "date": "2026-07-23",
+  "analyzed": 10,
   "top10": [
     {
-      "ticker": "MNST",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Defensive",
-      "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 95091736576,
-      "price": 97.23,
-      "rs_rating": 81.5
-    },
-    {
-      "ticker": "STX",
+      "ticker": "AMD",
       "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 900629659648,
+      "price": 552.33,
+      "rs_rating": 93.2
+    },
+    {
+      "ticker": "STX",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
         "N": 1,
-        "S": 10,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 0,
-      "price": 764.43,
-      "rs_rating": 96.1
-    },
-    {
-      "ticker": "ROST",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "market_cap": 80824008704,
-      "price": 251.96,
-      "rs_rating": 83.5
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 94044684288,
-      "price": 264.2,
-      "rs_rating": 93.2
-    },
-    {
-      "ticker": "EA",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 0,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Communication Services",
-      "industry": "Electronic Gaming & Multimedia",
-      "market_cap": 0,
-      "price": 208.91,
-      "rs_rating": 58.2
-    },
-    {
-      "ticker": "MDLZ",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 0,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Defensive",
-      "industry": "Confectioners",
-      "market_cap": 83424395264,
-      "price": 64.99,
-      "rs_rating": 52.4
+      "market_cap": 203622334464,
+      "price": 908.1,
+      "rs_rating": 95.1
     },
     {
       "ticker": "MU",
@@ -124,8 +52,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 834621538304,
-      "price": 739.0,
+      "market_cap": 1083630092288,
+      "price": 959.48,
       "rs_rating": 98.0
     },
     {
@@ -142,30 +70,12 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 0,
-      "price": 462.04,
+      "market_cap": 191874203648,
+      "price": 556.67,
       "rs_rating": 97.1
     },
     {
-      "ticker": "FTNT",
-      "canslim_score": 52,
-      "scores": {
-        "C": 7,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 112256385024,
-      "price": 153.22,
-      "rs_rating": 92.2
-    },
-    {
-      "ticker": "AMD",
+      "ticker": "AMAT",
       "canslim_score": 52,
       "scores": {
         "C": 10,
@@ -177,10 +87,100 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 0,
-      "price": 429.56,
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 439789977600,
+      "price": 553.92,
+      "rs_rating": 91.2
+    },
+    {
+      "ticker": "LRCX",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "market_cap": 399294824448,
+      "price": 319.29,
       "rs_rating": 90.3
+    },
+    {
+      "ticker": "SNDK",
+      "canslim_score": 45,
+      "scores": {
+        "C": 5,
+        "A": 5,
+        "N": 1,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 236835520512,
+      "price": 1599.27,
+      "rs_rating": 99.0
+    },
+    {
+      "ticker": "LITE",
+      "canslim_score": 42,
+      "scores": {
+        "C": 5,
+        "A": 5,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "market_cap": 64550662144,
+      "price": 829.7,
+      "rs_rating": 96.1
+    },
+    {
+      "ticker": "INTC",
+      "canslim_score": 42,
+      "scores": {
+        "C": 5,
+        "A": 5,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 515768123392,
+      "price": 102.62,
+      "rs_rating": 94.1
+    },
+    {
+      "ticker": "MRVL",
+      "canslim_score": 31,
+      "scores": {
+        "C": 1,
+        "A": 1,
+        "N": 1,
+        "S": 1,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 189372907520,
+      "price": 210.99,
+      "rs_rating": 92.2
     }
   ]
 }

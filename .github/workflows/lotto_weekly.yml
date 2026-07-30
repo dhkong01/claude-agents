@@ -29,7 +29,7 @@ jobs:
       - name: 의존성 설치
         run: pip install -r tools/lotto/requirements.txt
 
-      # ── 3. Secrets 상태 확인 ─────────────────────────────────
+      # ── 3. Secrets 상태 확인 (경고만 — 실패 안 함) ──────────────
       - name: Secrets 상태 출력
         env:
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
@@ -41,10 +41,11 @@ jobs:
           [ -n "$KAKAO_REFRESH_TOKEN" ] && echo "  KAKAO_REFRESH_TOKEN: SET"  || echo "  KAKAO_REFRESH_TOKEN: NOT SET"
           [ -n "$TELEGRAM_BOT_TOKEN"  ] && echo "  TELEGRAM_BOT_TOKEN : SET"  || echo "  TELEGRAM_BOT_TOKEN : NOT SET"
           if [ -z "$KAKAO_REST_API_KEY" ] && [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-            echo "ERROR: 알림 수단 없음. GitHub Settings > Secrets > Actions 에서 등록하세요."
-            exit 1
+            echo "[경고] 알림 수단 없음 — 예측·커밋은 정상 진행, 전송만 스킵됩니다"
+            echo "       설정: GitHub Settings > Secrets > Actions"
+          else
+            echo "Secrets OK"
           fi
-          echo "Secrets OK"
 
       # ── 4. 데이터 수집 (증분) ───────────────────────────────
       - name: 데이터 수집 (lotto_history.json 증분 업데이트)

@@ -132,8 +132,12 @@ if os.environ.get("TELEGRAM_BOT_TOKEN"):
 elif os.environ.get("KAKAO_REST_API_KEY"):
     send_kakao()
 else:
-    print("오류: TELEGRAM_BOT_TOKEN 또는 KAKAO_REST_API_KEY 환경변수 필요")
-    sys.exit(1)
+    print("[경고] 전송 수단 없음 (TELEGRAM_BOT_TOKEN / KAKAO_REST_API_KEY 미설정)")
+    print("       GitHub Settings > Secrets > Actions 에서 등록하세요")
+    print(f"       예측 결과: {draw}회")
+    for i, g in enumerate(games):
+        print(f"       {chr(65+i)}: {g['numbers']}")
+    sys.exit(0)  # exit 0: 워크플로우는 성공으로 완료
 
 
 # ── 리포트 저장 ───────────────────────────────────────────────

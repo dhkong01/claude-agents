@@ -80,7 +80,11 @@ tools/stock_portfolio/cache/trend_result_*.json
 tools/stock_portfolio/cache/latest_result.json
 
 # 로또 예측 데이터 (개인 사용)
-tools/lotto/data/
+# lotto_history.json 은 git 추적 — GitHub Actions 증분 수집용 (매주 1건만 다운로드)
+tools/lotto/data/lotto_analysis.json
+tools/lotto/data/lotto_ml_features.json
+tools/lotto/data/lotto_prediction.json
+tools/lotto/data/prediction_history.json
 tools/lotto/reports/
 private/
 

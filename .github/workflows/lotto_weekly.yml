@@ -2,16 +2,16 @@ name: Lotto Weekly Prediction
 
 on:
   schedule:
-    - cron: '0 3 * * 1'   # UTC 03:00 월요일 = KST 12:00 월요일 (토요일 당첨 smok95 반영 대기)
+    - cron: '0 3 * * 1'   # UTC 03:00 월요일 = KST 12:00 월요일 (토요일 당첨 smok95 반영 후)
   workflow_dispatch:       # Actions 탭 > Run workflow 버튼으로 수동 실행 가능
 
 permissions:
-  contents: write          # last_run.txt 커밋 → 60일 비활성 자동비활성화 방지
+  contents: write          # history.json + last_run.txt 커밋
 
 jobs:
   predict:
     runs-on: ubuntu-latest
-    timeout-minutes: 20    # ml_analyze ~3분 + 예측 ~1분 + 여유
+    timeout-minutes: 35    # history.json 증분(빠름) + ml_analyze(~5분) + 여유
 
     steps:
       # ── 1. 체크아웃 ────────────────────────────────────────────
@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 2. Python + 의존성 (캐시) ──────────────────────────────
+      # ── 2. Python + 의존성 ───────────────────────────────────
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -29,44 +29,71 @@ jobs:
       - name: 의존성 설치
         run: pip install -r tools/lotto/requirements.txt
 
-      # ── 3. Secrets 사전 확인 ───────────────────────────────────
-      - name: Kakao Secrets 확인
+      # ── 3. Secrets 상태 확인 ─────────────────────────────────
+      - name: Secrets 상태 출력
         env:
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
+          echo "=== GitHub Secrets 설정 상태 ==="
+          [ -n "$KAKAO_REST_API_KEY"  ] && echo "  KAKAO_REST_API_KEY : SET"  || echo "  KAKAO_REST_API_KEY : NOT SET"
+          [ -n "$KAKAO_REFRESH_TOKEN" ] && echo "  KAKAO_REFRESH_TOKEN: SET"  || echo "  KAKAO_REFRESH_TOKEN: NOT SET"
+          [ -n "$TELEGRAM_BOT_TOKEN"  ] && echo "  TELEGRAM_BOT_TOKEN : SET"  || echo "  TELEGRAM_BOT_TOKEN : NOT SET"
           if [ -z "$KAKAO_REST_API_KEY" ] && [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-            echo "ERROR: KAKAO_REST_API_KEY 또는 TELEGRAM_BOT_TOKEN 이 설정되지 않았습니다."
-            echo "GitHub Settings > Secrets > Actions 에서 등록하세요."
-            exit 1
-          fi
-          if [ -n "$KAKAO_REST_API_KEY" ] && [ -z "$KAKAO_REFRESH_TOKEN" ]; then
-            echo "ERROR: KAKAO_REST_API_KEY 는 있지만 KAKAO_REFRESH_TOKEN 이 없습니다."
+            echo "ERROR: 알림 수단 없음. GitHub Settings > Secrets > Actions 에서 등록하세요."
             exit 1
           fi
           echo "Secrets OK"
 
-      # ── 4. 파이프라인 실행 ─────────────────────────────────────
-      - name: 데이터 수집 (smok95 API → 최근 200회)
-        run: python tools/lotto/collect.py
+      # ── 4. 데이터 수집 (증분) ───────────────────────────────
+      - name: 데이터 수집 (lotto_history.json 증분 업데이트)
+        run: |
+          echo "=== 수집 전 현황 ==="
+          python -c "
+          import json, pathlib
+          p = pathlib.Path('tools/lotto/data/lotto_history.json')
+          if p.exists():
+              d = json.loads(p.read_text(encoding='utf-8'))
+              print(f'  기존 history: 최신={d[\"last_draw\"]}회, 총{d[\"total_records\"]}건')
+          else:
+              print('  history.json 없음 — 전체 수집 필요 (시간 소요)')
+          "
+          python tools/lotto/collect.py
+          echo "=== 수집 완료 ==="
+          python -c "
+          import json
+          d = json.load(open('tools/lotto/data/lotto_history.json', encoding='utf-8'))
+          print(f'  최신={d[\"last_draw\"]}회, 총{d[\"total_records\"]}건')
+          "
 
+      # ── 5. 통계 정규화 ───────────────────────────────────────
       - name: 통계 정규화
         run: python tools/lotto/normalize.py
 
-      - name: ML 정합성 분석 (3모델 × 5000회 부트스트랩)
+      # ── 6. ML 분석 ──────────────────────────────────────────
+      - name: ML 정합성 분석 (3모델 x 5000 부트스트랩)
         run: python tools/lotto/ml_analyze.py
 
-      - name: 5게임 예측 (Game1 전수탐색 + Game2~5 온도MC)
+      # ── 7. 예측 생성 ─────────────────────────────────────────
+      - name: 5게임 예측
         run: python tools/lotto/predict.py
 
-      # ── 4.5. 예측 회차 확인 (디버그) ──────────────────────────────
-      - name: 예측 회차 확인
-        run: python -c "import json; d=json.load(open('tools/lotto/data/lotto_prediction.json',encoding='utf-8')); print(f'예측 회차: {d[\"draw\"]}회, 게임 수: {len(d.get(\"games\",[]))}')"
+      # ── 8. 예측 결과 확인 ────────────────────────────────────
+      - name: 예측 결과 출력
+        run: |
+          python -c "
+          import json
+          d = json.load(open('tools/lotto/data/lotto_prediction.json', encoding='utf-8'))
+          print(f'=== 제{d[\"draw\"]}회 예측 ({len(d.get(\"games\",[]))}게임) ===')
+          for g in d.get('games', []):
+              idx = d['games'].index(g)
+              print(f'  {chr(65+idx)} [{g.get(\"strategy\",\"?\")}]: {g[\"numbers\"]}  합{g[\"sum\"]}  {g.get(\"combined_score\", g[\"overall_coherence\"]):.1f}%')
+          "
 
-      # ── 5. 알림 전송 ──────────────────────────────────────────
+      # ── 9. 카카오톡 / Telegram 전송 ─────────────────────────
       - name: 카카오톡 / Telegram 전송
-        continue-on-error: true   # 전송 실패해도 commit 단계 진행 (60일 활성 유지)
+        continue-on-error: true   # 전송 실패해도 history 커밋은 진행
         env:
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -74,12 +101,15 @@ jobs:
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: python tools/lotto/github_actions/send_notify.py
 
-      # ── 6. 실행 기록 커밋 (60일 비활성화 방지) ──────────────────
-      - name: 마지막 실행 기록 저장
+      # ── 10. history.json + 실행 기록 커밋 ────────────────────
+      - name: history.json 및 실행 기록 저장
         run: |
-          echo "$(date -u '+%Y-%m-%d %H:%M UTC')" > tools/lotto/last_run.txt
           git config user.email "github-actions@github.com"
           git config user.name  "github-actions[bot]"
+          echo "$(date -u '+%Y-%m-%d %H:%M UTC')" > tools/lotto/last_run.txt
           git add tools/lotto/last_run.txt
-          git commit -m "chore(lotto): 실행 기록 $(date -u '+%Y-%m-%d')" || echo "변경 없음 — 커밋 생략"
-          git push || echo "push 생략 (변경 없음)"
+          git add tools/lotto/data/lotto_history.json 2>/dev/null || echo "history.json: 추가 불필요"
+          git diff --cached --quiet && echo "변경 없음 — 커밋 생략" || \
+            git commit -m "chore(lotto): 실행 기록 $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main || true
+          git push || echo "[경고] push 실패 — 다음 실행에서 재시도"

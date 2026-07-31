@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "rs90_count": 10,
   "stocks": [
     {
@@ -31,19 +31,19 @@
       "rs_rating": 93.2
     },
     {
-      "ticker": "AMD",
+      "ticker": "FTNT",
       "rs_rating": 92.2
     },
     {
-      "ticker": "AMAT",
+      "ticker": "MRVL",
       "rs_rating": 91.2
     },
     {
-      "ticker": "MRVL",
+      "ticker": "AMAT",
       "rs_rating": 90.3
     },
     {
-      "ticker": "FTNT",
+      "ticker": "AMD",
       "rs_rating": 89.3
     },
     {
@@ -63,11 +63,11 @@
       "rs_rating": 85.4
     },
     {
-      "ticker": "ASML",
+      "ticker": "CSCO",
       "rs_rating": 84.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "ASML",
       "rs_rating": 83.5
     },
     {
@@ -75,35 +75,35 @@
       "rs_rating": 82.5
     },
     {
-      "ticker": "MNST",
+      "ticker": "KLAC",
       "rs_rating": 81.5
     },
     {
-      "ticker": "KLAC",
+      "ticker": "MNST",
       "rs_rating": 80.6
     },
     {
-      "ticker": "AAPL",
+      "ticker": "TXN",
       "rs_rating": 79.6
     },
     {
-      "ticker": "TXN",
+      "ticker": "CSX",
       "rs_rating": 78.6
     },
     {
-      "ticker": "CSX",
+      "ticker": "ODFL",
       "rs_rating": 77.6
     },
     {
-      "ticker": "ODFL",
+      "ticker": "ADI",
       "rs_rating": 76.7
     },
     {
-      "ticker": "ADI",
+      "ticker": "WBD",
       "rs_rating": 75.7
     },
     {
-      "ticker": "MAR",
+      "ticker": "DXCM",
       "rs_rating": 74.7
     },
     {
@@ -111,24 +111,24 @@
       "rs_rating": 73.8
     },
     {
-      "ticker": "AMGN",
+      "ticker": "MAR",
       "rs_rating": 72.8
     },
     {
-      "ticker": "CCEP",
+      "ticker": "AMGN",
       "rs_rating": 71.8
     },
     {
-      "ticker": "FANG",
+      "ticker": "MPWR",
       "rs_rating": 70.9
     }
   ],
   "portfolio_rs": {
-    "TSLA": 13.6,
-    "PLTR": 11.6,
-    "VKTX": 45.6,
-    "META": 9.7,
-    "MRVL": 90.3,
+    "TSLA": 11.6,
+    "PLTR": 10.7,
+    "VKTX": 37.9,
+    "META": 13.6,
+    "MRVL": 91.2,
     "ARM": 85.4,
     "LRCX": 87.4
   }

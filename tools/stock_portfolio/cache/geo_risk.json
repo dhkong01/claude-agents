@@ -1,20 +1,18 @@
 {
-  "date": "2026-07-30",
-  "risk_score": 10.0,
+  "date": "2026-07-31",
+  "risk_score": 9.5,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
-  "medium_risk_signals": 5,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
-    "Defense": "ELEVATED",
-    "Consumer": "WATCH"
+    "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "Iran War Live Updates: Saudis Form Military Alliance To Protect Red Sea Shipping",
-    "Wildfire In Suffolk, Uk, Breaks Out A Few Miles From Nuclear Power Station",
-    "U.S.-Saudi Attack On Iraqi Militias Risks Drawing Them Into War"
+    "Ukraine\u2019S Strike On Iranian Ship Shows How Two Wars Could Spiral",
+    "Iran War Is Entangling A Growing List Of Mideast Nations"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
@@ -28,6 +26,6 @@
       "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 9.5 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
   }
 }

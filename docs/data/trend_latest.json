@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "mode": "daily",
   "rs_top10": [
     {
@@ -45,20 +45,20 @@
   ],
   "rs90_count": 10,
   "geo_risk": {
-    "date": "2026-07-31",
-    "risk_score": 9.5,
+    "date": "2026-08-01",
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 2,
+    "high_risk_signals": 3,
     "medium_risk_signals": 3,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Semiconductors": "WATCH",
       "Defense": "ELEVATED"
     },
     "top_risk_events": [
-      "Ukraine’S Strike On Iranian Ship Shows How Two Wars Could Spiral",
-      "Iran War Is Entangling A Growing List Of Mideast Nations"
+      "Iran Plotted Wider War With Help Of Its Proxies",
+      "Fact-Checking Trump’S Claims About The Effect Of The Iran War On Oil Prices, Munitions And More",
+      "Ukraine’S Strike On Iranian Ship Shows How Two Wars Could Spiral"
     ],
     "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
@@ -72,7 +72,7 @@
         "Energy",
         "Defense"
       ],
-      "reasoning": "Risk 9.5 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -561,7 +561,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-07-31",
-    "checked_at": "2026-07-31 23:33",
+    "checked_at": "2026-08-01 23:24",
     "sample": {
       "SPY": 747.03,
       "QQQ": 687.99,

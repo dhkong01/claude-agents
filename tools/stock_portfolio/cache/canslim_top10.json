@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "analyzed": 101,
   "top10": [
     {
@@ -34,7 +34,7 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 118652403712,
+      "market_cap": 118824927232,
       "price": 161.95,
       "rs_rating": 92.2
     },
@@ -52,7 +52,7 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 193701216256,
+      "market_cap": 194341502976,
       "price": 856.13,
       "rs_rating": 96.1
     },
@@ -142,7 +142,7 @@
       },
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
-      "market_cap": 52622708736,
+      "market_cap": 52965273600,
       "price": 209.86,
       "rs_rating": 54.4
     },
@@ -160,7 +160,7 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 32201099264,
+      "market_cap": 31490754560,
       "price": 83.45,
       "rs_rating": 74.7
     },
@@ -178,7 +178,7 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 929524482048,
+      "market_cap": 0,
       "price": 823.03,
       "rs_rating": 98.0
     }

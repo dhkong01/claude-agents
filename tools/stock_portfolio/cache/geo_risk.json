@@ -1,19 +1,16 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 3,
-  "medium_risk_signals": 3,
+  "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
     "Defense": "ELEVATED"
   },
-  "top_risk_events": [
-    "Iran Plotted Wider War With Help Of Its Proxies",
-    "Fact-Checking Trump\u2019S Claims About The Effect Of The Iran War On Oil Prices, Munitions And More"
-  ],
+  "top_risk_events": [],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
     "long_pct": 20,

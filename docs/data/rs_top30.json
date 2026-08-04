@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "rs90_count": 10,
   "stocks": [
     {
@@ -11,11 +11,11 @@
       "rs_rating": 98.0
     },
     {
-      "ticker": "WDC",
+      "ticker": "LITE",
       "rs_rating": 97.1
     },
     {
-      "ticker": "LITE",
+      "ticker": "WDC",
       "rs_rating": 96.1
     },
     {
@@ -27,23 +27,23 @@
       "rs_rating": 94.1
     },
     {
-      "ticker": "DDOG",
+      "ticker": "MRVL",
       "rs_rating": 93.2
     },
     {
-      "ticker": "MRVL",
+      "ticker": "AMD",
       "rs_rating": 92.2
     },
     {
-      "ticker": "AMD",
+      "ticker": "DDOG",
       "rs_rating": 91.2
     },
     {
-      "ticker": "AMAT",
+      "ticker": "PANW",
       "rs_rating": 90.3
     },
     {
-      "ticker": "PANW",
+      "ticker": "AMAT",
       "rs_rating": 89.3
     },
     {
@@ -51,7 +51,7 @@
       "rs_rating": 88.3
     },
     {
-      "ticker": "CRWD",
+      "ticker": "ARM",
       "rs_rating": 87.4
     },
     {
@@ -59,7 +59,7 @@
       "rs_rating": 86.4
     },
     {
-      "ticker": "ARM",
+      "ticker": "CRWD",
       "rs_rating": 85.4
     },
     {
@@ -79,57 +79,57 @@
       "rs_rating": 81.5
     },
     {
-      "ticker": "MNST",
+      "ticker": "DXCM",
       "rs_rating": 80.6
     },
     {
-      "ticker": "DXCM",
+      "ticker": "TXN",
       "rs_rating": 79.6
     },
     {
-      "ticker": "CSX",
+      "ticker": "MNST",
       "rs_rating": 78.6
     },
     {
-      "ticker": "TXN",
+      "ticker": "ADI",
       "rs_rating": 77.6
     },
     {
-      "ticker": "ODFL",
+      "ticker": "CSX",
       "rs_rating": 76.7
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "ODFL",
       "rs_rating": 75.7
     },
     {
-      "ticker": "GOOG",
+      "ticker": "GOOGL",
       "rs_rating": 74.7
     },
     {
-      "ticker": "ADI",
+      "ticker": "PCAR",
       "rs_rating": 73.8
     },
     {
-      "ticker": "WBD",
+      "ticker": "GOOG",
       "rs_rating": 72.8
     },
     {
-      "ticker": "PCAR",
+      "ticker": "AMGN",
       "rs_rating": 71.8
     },
     {
-      "ticker": "AMGN",
+      "ticker": "AXON",
       "rs_rating": 70.9
     }
   ],
   "portfolio_rs": {
-    "TSLA": 12.6,
-    "PLTR": 9.7,
-    "VKTX": 34.9,
-    "META": 21.4,
-    "MRVL": 92.2,
-    "ARM": 85.4,
+    "TSLA": 10.7,
+    "PLTR": 36.9,
+    "VKTX": 34.0,
+    "META": 17.5,
+    "MRVL": 93.2,
+    "ARM": 87.4,
     "LRCX": 86.4
   }
 }

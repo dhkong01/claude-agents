@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
@@ -7,13 +7,15 @@
   "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Defense": "WATCH",
-    "Financials": "WATCH"
+    "Semiconductors": "WATCH",
+    "Defense": "ELEVATED"
   },
   "top_risk_events": [
+    "The War That\u2019S Happening Above Russia And Ukraine",
+    "Russia\u2019S Deadly Missile Attack On Kyiv Exploits Ukraine\u2019S Depleted Air Defenses",
     "Mexico Declares War On Stinky Seaweed"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
     "long_pct": 20,
     "sqqq_pct": 20,
@@ -22,8 +24,9 @@
     "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
-      "Energy"
+      "Energy",
+      "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
   }
 }

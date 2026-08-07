@@ -122,14 +122,5 @@
       "ticker": "AVGO",
       "rs_rating": 70.6
     }
-  ],
-  "portfolio_rs": {
-    "TSLA": 8.8,
-    "PLTR": 36.3,
-    "VKTX": 41.2,
-    "META": 15.7,
-    "MRVL": 93.1,
-    "ARM": 89.2,
-    "LRCX": 86.3
-  }
+  ]
 }

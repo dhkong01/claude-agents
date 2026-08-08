@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "rs90_count": 10,
   "stocks": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "ticker": "LITE",
-      "rs_rating": 97.0
+      "rs_rating": 97.1
     },
     {
       "ticker": "STX",
@@ -28,99 +28,108 @@
     },
     {
       "ticker": "MRVL",
-      "rs_rating": 93.1
+      "rs_rating": 93.2
     },
     {
       "ticker": "PANW",
-      "rs_rating": 92.1
-    },
-    {
-      "ticker": "AMD",
-      "rs_rating": 91.2
+      "rs_rating": 92.2
     },
     {
       "ticker": "AMAT",
-      "rs_rating": 90.2
+      "rs_rating": 91.2
     },
     {
-      "ticker": "ARM",
-      "rs_rating": 89.2
-    },
-    {
-      "ticker": "FTNT",
-      "rs_rating": 88.2
+      "ticker": "AMD",
+      "rs_rating": 90.3
     },
     {
       "ticker": "CRWD",
-      "rs_rating": 87.2
+      "rs_rating": 89.3
+    },
+    {
+      "ticker": "FTNT",
+      "rs_rating": 88.3
+    },
+    {
+      "ticker": "ARM",
+      "rs_rating": 87.4
     },
     {
       "ticker": "LRCX",
-      "rs_rating": 86.3
+      "rs_rating": 86.4
     },
     {
       "ticker": "DDOG",
-      "rs_rating": 85.3
+      "rs_rating": 85.4
     },
     {
       "ticker": "ASML",
-      "rs_rating": 84.3
+      "rs_rating": 84.4
     },
     {
       "ticker": "CSCO",
-      "rs_rating": 83.3
+      "rs_rating": 83.5
     },
     {
       "ticker": "KLAC",
-      "rs_rating": 82.3
+      "rs_rating": 82.5
     },
     {
       "ticker": "ROST",
-      "rs_rating": 81.4
+      "rs_rating": 81.5
     },
     {
-      "ticker": "WBD",
-      "rs_rating": 80.4
+      "ticker": "ABNB",
+      "rs_rating": 80.6
     },
     {
       "ticker": "TXN",
-      "rs_rating": 79.4
+      "rs_rating": 79.6
     },
     {
-      "ticker": "MNST",
-      "rs_rating": 78.4
-    },
-    {
-      "ticker": "CSX",
-      "rs_rating": 77.4
-    },
-    {
-      "ticker": "AMGN",
-      "rs_rating": 76.5
+      "ticker": "WBD",
+      "rs_rating": 78.6
     },
     {
       "ticker": "ADI",
-      "rs_rating": 75.5
+      "rs_rating": 77.6
     },
     {
       "ticker": "DXCM",
-      "rs_rating": 74.5
+      "rs_rating": 76.7
+    },
+    {
+      "ticker": "CSX",
+      "rs_rating": 75.7
+    },
+    {
+      "ticker": "AMGN",
+      "rs_rating": 74.7
     },
     {
       "ticker": "ODFL",
-      "rs_rating": 73.5
+      "rs_rating": 73.8
     },
     {
       "ticker": "PCAR",
-      "rs_rating": 72.5
+      "rs_rating": 72.8
     },
     {
       "ticker": "MPWR",
-      "rs_rating": 71.6
+      "rs_rating": 71.8
     },
     {
-      "ticker": "AVGO",
-      "rs_rating": 70.6
+      "ticker": "SHOP",
+      "rs_rating": 70.9
     }
-  ]
+  ],
+  "portfolio_rs": {
+    "TSLA": 8.7,
+    "PLTR": 49.5,
+    "VKTX": 37.9,
+    "META": 14.6,
+    "MRVL": 93.2,
+    "ARM": 87.4,
+    "LRCX": 86.4
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
@@ -93,72 +93,72 @@
     }
   ],
   "us_by_sector": {
+    "Consumer Cyclical": [
+      {
+        "ticker": "ABNB",
+        "rs": 80.6,
+        "canslim": 64,
+        "price": 178.07
+      },
+      {
+        "ticker": "ROST",
+        "rs": 81.5,
+        "canslim": 58,
+        "price": 255.23
+      }
+    ],
     "Technology": [
       {
         "ticker": "STX",
         "rs": 96.1,
         "canslim": 58,
-        "price": 852.95
+        "price": 812.76
       },
       {
         "ticker": "AMD",
-        "rs": 91.2,
+        "rs": 90.3,
         "canslim": 58,
-        "price": 489.28
+        "price": 483.36
       },
       {
         "ticker": "FTNT",
-        "rs": 88.2,
+        "rs": 88.3,
         "canslim": 58,
-        "price": 160.11
+        "price": 159.64
       },
       {
         "ticker": "WDC",
         "rs": 95.1,
         "canslim": 55,
-        "price": 451.52
-      },
-      {
-        "ticker": "DDOG",
-        "rs": 85.3,
-        "canslim": 55,
-        "price": 229.29
+        "price": 434.3
       },
       {
         "ticker": "CSCO",
-        "rs": 83.3,
+        "rs": 83.5,
         "canslim": 55,
-        "price": 120.88
+        "price": 121.43
       }
     ],
     "Healthcare": [
       {
-        "ticker": "AMGN",
-        "rs": 76.5,
+        "ticker": "DXCM",
+        "rs": 76.7,
         "canslim": 57,
-        "price": 404.85
+        "price": 84.75
       },
       {
-        "ticker": "DXCM",
-        "rs": 74.5,
-        "canslim": 54,
-        "price": 83.02
+        "ticker": "AMGN",
+        "rs": 74.7,
+        "canslim": 57,
+        "price": 410.945
       }
     ],
     "Communication Services": [
       {
         "ticker": "EA",
-        "rs": null,
+        "rs": 42.7,
         "canslim": 57,
         "price": 209.7
-      }
-    ],
-    "Consumer Cyclical": [
-      {
-        "ticker": "ROST",
-        "rs": 81.4,
-        "canslim": 55,
-        "price": 254.31
       }
     ]
   },

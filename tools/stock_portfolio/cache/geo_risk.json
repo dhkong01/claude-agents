@@ -1,18 +1,19 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 3,
-  "medium_risk_signals": 3,
+  "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Defense": "ELEVATED"
+    "Defense": "ELEVATED",
+    "Consumer": "WATCH"
   },
   "top_risk_events": [
-    "The State Of Iran\u2019S Three Key Nuclear Sites",
-    "Iranians Say Trump\u2019S Promises Have Fallen By The Wayside As Iran War Drags On",
-    "Houthi Attacks On Yemeni Military Threaten To Reignite Civil War"
+    "Yemen Teeters On Civil War As Regional Stability Hangs In The Balance",
+    "Punjabi Soldiers Who Fought For Britain In World War I Are Recognized For First Time",
+    "Iranians Say Trump\u2019S Promises Have Fallen By The Wayside As Iran War Drags On"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

@@ -1,7 +1,25 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "analyzed": 101,
   "top10": [
+    {
+      "ticker": "ABNB",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "market_cap": 106625769472,
+      "price": 178.07,
+      "rs_rating": 80.6
+    },
     {
       "ticker": "STX",
       "canslim_score": 58,
@@ -16,8 +34,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 193316438016,
-      "price": 852.95,
+      "market_cap": 184496521216,
+      "price": 812.76,
       "rs_rating": 96.1
     },
     {
@@ -34,9 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 0,
-      "price": 489.28,
-      "rs_rating": 91.2
+      "market_cap": 789073100800,
+      "price": 483.36,
+      "rs_rating": 90.3
     },
     {
       "ticker": "FTNT",
@@ -52,9 +70,45 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 117474893824,
-      "price": 160.11,
-      "rs_rating": 88.2
+      "market_cap": 117130051584,
+      "price": 159.64,
+      "rs_rating": 88.3
+    },
+    {
+      "ticker": "ROST",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "market_cap": 81872953344,
+      "price": 255.23,
+      "rs_rating": 81.5
+    },
+    {
+      "ticker": "DXCM",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 31981324288,
+      "price": 84.75,
+      "rs_rating": 76.7
     },
     {
       "ticker": "AMGN",
@@ -70,9 +124,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 219023851520,
-      "price": 404.85,
-      "rs_rating": 76.5
+      "market_cap": 221790420992,
+      "price": 410.945,
+      "rs_rating": 74.7
     },
     {
       "ticker": "EA",
@@ -90,7 +144,7 @@
       "industry": "Electronic Gaming & Multimedia",
       "market_cap": 52925640704,
       "price": 209.7,
-      "rs_rating": NaN
+      "rs_rating": 42.7
     },
     {
       "ticker": "WDC",
@@ -106,27 +160,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 0,
-      "price": 451.52,
+      "market_cap": 149695447040,
+      "price": 434.3,
       "rs_rating": 95.1
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 81618108416,
-      "price": 229.29,
-      "rs_rating": 85.3
     },
     {
       "ticker": "CSCO",
@@ -142,45 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "market_cap": 476440592384,
-      "price": 120.88,
-      "rs_rating": 83.3
-    },
-    {
-      "ticker": "ROST",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 1,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "market_cap": 81577836544,
-      "price": 254.31,
-      "rs_rating": 81.4
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 31328489472,
-      "price": 83.02,
-      "rs_rating": 74.5
+      "market_cap": 478608392192,
+      "price": 121.43,
+      "rs_rating": 83.5
     }
   ]
 }

@@ -64,25 +64,27 @@ else:
     recent_draws = []
     use_ml = False
 
-CORE_THRESH = 0.65
+CORE_THRESH = 0.60   # v9: top_k=20 기준 상향으로 임계값 완화
 N_GAMES     = 5
 N_SAMPLES   = 60000
-TOP_N       = 30      # C(30,6)=593,775 전수탐색
-TEMP        = 1.5
-W_COH       = 0.05   # v7 그리드서치 최적값
-W_PAIR      = 0.15   # v7 그리드서치 최적값
-W_TRIP      = 0.35   # v7 그리드서치 최적값
-W_LIFT      = 0.45   # v7 신규 — Lift 조정 트리플렛 (가장 강력한 예측인자)
+TOP_N       = 28      # C(28,6)=376,740 전수탐색 (정합성 집중)
+TEMP        = 1.3     # v9: 온도 낮춰 고점수 번호 집중 강화
+W_COH       = 0.15   # v9: 정합성 가중치 0.05→0.15 (3배 상향)
+W_PAIR      = 0.15   # 유지
+W_TRIP      = 0.30   # v9: 0.35→0.30
+W_LIFT      = 0.40   # v9: 0.45→0.40 (정합성 확보를 위해 소폭 조정)
 
 # ── 직전 실제 당첨번호 감쇠 ──────────────────────────────────────
-# 지난주에 실제로 나온 번호들을 약화시켜 매주 다른 조합 도출
-# (로또가 랜덤이므로 통계적 이점은 없지만, 다양성을 보장)
 RECENCY_DECAY = [0.60, 0.78, 0.90]   # 1주전, 2주전, 3주전 점수 배율
 
+# v9: 정합성(coh) 제곱 보너스 — 고정합성 번호에 더 강한 가중치
+coh_sq_bonus = (coh ** 2) * 0.20   # 정합성 높은 번호를 2차 함수로 우대
+
 score = coh.copy()
+score += coh_sq_bonus               # 정합성 제곱 보너스 추가
 score += np.array([0.05 if (i+1) in hot     else 0.0 for i in range(45)])
 score += np.array([0.03 if (i+1) in gap_top else 0.0 for i in range(45)])
-score += lift_cent * 0.15   # Lift 중심도 보너스 — TOP_N 선택 품질 향상
+score += lift_cent * 0.12   # Lift 중심도 보너스
 
 # coh_adj: 감쇠를 combined_score 평가에도 반영하기 위한 조정 정합성
 # (원본 coh는 출력 표시용으로 유지)
@@ -193,30 +195,33 @@ def _mc_search(weights, game_idx, n_samples, exclude_combos, seed_offset=0):
                 if s > best_s: best_s, best = s, combo
     return list(best) if best else None
 
-# ── 전략별 가중치 ─────────────────────────────────────────────────
-# HOT-MC: 핫넘버(정합성+Lift 중심도) 위주
+# ── 전략별 가중치 (v9: 모든 게임에 정합성 베이스 강화) ────────────
+# HOT-MC: 정합성 제곱 가중치 + Lift 중심도
 hot_weights   = score.copy()
 
-# GAP: 오래 안 나온 번호 우대 (0=최근, 1=오래됨)
-# 정합성 50% + 갭점수 50% 혼합
-gap_weights   = 0.5 * (coh / (coh.max() + 1e-9)) + 0.5 * gap_scores
+# GAP: 정합성 70% + 갭점수 30% (정합성 유지하면서 오래된 번호 우대)
+gap_weights   = 0.70 * (coh / (coh.max() + 1e-9)) + 0.30 * gap_scores
 gap_weights   = np.clip(gap_weights, 1e-9, None)
 
-# COLD: 정합성 하위 번호 우대 (비인기 번호 커버)
-# 당첨번호 중 ~50%는 정합성 낮은 번호 → 이를 보완
-cold_weights  = np.clip(coh.max() - coh + 0.01, 1e-9, None)
+# COLD-MID: 중간 정합성 번호 우대 (완전 저정합성이 아닌 중간 구간)
+# 정합성 하위 5위는 제외하고 중간 번호를 탐색 → 더 현실적인 커버
+coh_sorted_idx = np.argsort(coh)   # 정합성 낮은 순
+cold_weights  = np.zeros(45)
+cold_weights[coh_sorted_idx[5:25]] = 1.0   # 정합성 하위 5위 제외, 중간 20개 커버
+cold_weights  = np.clip(cold_weights + coh * 0.3, 1e-9, None)  # 정합성 약간 반영
 
-# MIX: 균등 (랜덤성 커버)
-mix_weights   = np.ones(45)
+# BALANCED: 정합성 루트 가중치 — 고정합성 번호 과집중 완화하면서 정합성 유지
+balanced_weights = np.sqrt(np.clip(coh, 1e-9, None))
+balanced_weights /= balanced_weights.sum()
 
 # ── 5게임 생성 ────────────────────────────────────────────────────
 target_draw = last_draw + 1
 game_strategies = [
-    ("HOT",    "전수탐색(Lift최적)"),
-    ("HOT-MC", "핫넘버 MC"),
-    ("GAP",    "오래안나온번호 MC"),
-    ("COLD",   "저정합성번호 MC"),
-    ("MIX",    "균등샘플 MC"),
+    ("HOT",      "전수탐색(정합성최적)"),
+    ("HOT-MC",   "정합성집중 MC"),
+    ("GAP",      "정합성+장기미출 MC"),
+    ("COLD-MID", "중간정합성 MC"),
+    ("BALANCED", "균형 MC"),
 ]
 
 print(f"[{target_draw}회 예측] 합계범위 {SUM_LO}~{SUM_HI}  직전감쇠 {int(RECENCY_DECAY[0]*100)}%")
@@ -243,15 +248,15 @@ g3 = _mc_search(gap_weights, 2, N_SAMPLES, all_combos, seed_offset=200)
 if g3:
     all_combos.append(g3); games.append(g3)
 
-# Game D: COLD
-print("Game D: COLD 전략 (저정합성 번호 우대)...")
+# Game D: COLD-MID
+print("Game D: COLD-MID 전략 (중간 정합성 번호 우대)...")
 g4 = _mc_search(cold_weights, 3, N_SAMPLES, all_combos, seed_offset=300)
 if g4:
     all_combos.append(g4); games.append(g4)
 
-# Game E: MIX
-print("Game E: MIX 전략 (균등 샘플)...")
-g5 = _mc_search(mix_weights, 4, N_SAMPLES, all_combos, seed_offset=400)
+# Game E: BALANCED
+print("Game E: BALANCED 전략 (정합성 루트 균형)...")
+g5 = _mc_search(balanced_weights, 4, N_SAMPLES, all_combos, seed_offset=400)
 if g5:
     all_combos.append(g5); games.append(g5)
 

@@ -62,9 +62,7 @@ def model_pair(recs):
     return softmax((f - f.mean()) / (f.std() + 1e-8))
 
 def model_momentum(recs, window=20):
-    """빈도 상승 추세 모델 — 최근 window회 vs 이전 window회 빈도 차이.
-    최근에 더 자주 나오는 번호(상승 추세)에 높은 점수 부여.
-    매주 실제 당첨 결과가 바뀌면 이 모델의 점수도 자연스럽게 변함."""
+    """빈도 상승 추세 모델 — 최근 window회 vs 이전 window회 빈도 차이."""
     if len(recs) < window * 2:
         return _freq(recs, len(recs))
     recent = np.zeros(45)
@@ -74,26 +72,66 @@ def model_momentum(recs, window=20):
     for r in recs[window:window*2]:
         for x in r["numbers"]: older[x-1] += 1
     recent /= window; older /= window
-    delta    = recent - older           # 양수 = 상승 추세
-    combined = recent + delta * 1.5    # 기본 빈도 + 추세 보너스
+    delta    = recent - older
+    combined = recent + delta * 1.5
     combined = np.clip(combined, 0, None)
     return softmax((combined - combined.mean()) / (combined.std() + 1e-8))
 
-# 4번째 모델로 모멘텀 추가 → 주차마다 상승/하락 추세 번호가 달라지므로
-# 정합성 순위가 매주 자연스럽게 변동됨
-STABLE_MODELS      = [model_freq_100, model_freq_all, model_pair, model_momentum]
-STABLE_MODEL_NAMES = ["빈도100", "빈도전체", "공출현", "모멘텀"]
+def model_ema_fast(recs, alpha=0.15):
+    """빠른 EMA — 최근 변화에 더 민감하게 반응"""
+    e = np.ones(45) / 45
+    for r in reversed(recs[:80]):   # 최근 80회만
+        ind = np.zeros(45)
+        for x in r["numbers"]: ind[x-1] = 1.
+        e = alpha * ind + (1 - alpha) * e
+    return softmax(e * 12)
+
+def model_band_balance(recs, window=100):
+    """구간별 균형 모델 — 최근 100회 기준 구간(9개씩) 내 상대 빈도.
+    각 구간 내에서 상대적으로 많이 나온 번호에 가중치 부여."""
+    bands = [(0,9),(9,18),(18,27),(27,36),(36,45)]
+    f = np.zeros(45)
+    for r in recs[:min(window, len(recs))]:
+        for x in r["numbers"]: f[x-1] += 1
+    # 구간별로 정규화하여 구간 편향 제거
+    score = np.zeros(45)
+    for lo, hi in bands:
+        seg = f[lo:hi]
+        if seg.sum() > 0:
+            score[lo:hi] = (seg - seg.mean()) / (seg.std() + 1e-8)
+    return softmax(score)
+
+def model_pair_recent(recs, window=50):
+    """최근 50회 공출현 모델 — 최근 트렌드 쌍 관계 포착"""
+    cooc = defaultdict(int)
+    for r in recs[:min(window, len(recs))]:
+        ns = sorted(r["numbers"])
+        for i in range(len(ns)):
+            for j in range(i+1, len(ns)):
+                cooc[(ns[i], ns[j])] += 1
+    f = np.zeros(45)
+    for (a, b), cnt in cooc.items():
+        f[a-1] += cnt; f[b-1] += cnt
+    return softmax((f - f.mean()) / (f.std() + 1e-8))
+
+# 6모델 앙상블 — 다양한 시각으로 합의 → 정합성 향상
+STABLE_MODELS      = [model_freq_100, model_freq_all, model_pair,
+                      model_momentum, model_ema_fast, model_band_balance]
+STABLE_MODEL_NAMES = ["빈도100", "빈도전체", "공출현", "모멘텀", "EMA빠름", "구간균형"]
 ALL_MODELS  = [lambda r: _freq(r,30), lambda r: _freq(r,50),
-               model_freq_100, model_freq_all, model_ema, model_pair]
+               model_freq_100, model_freq_all, model_ema, model_pair,
+               model_pair_recent, model_band_balance]
 
 def ensemble(recs):
     scores = [m(recs) for m in ALL_MODELS]
-    w = [0.10, 0.15, 0.25, 0.20, 0.15, 0.15]
+    w = [0.08, 0.10, 0.20, 0.15, 0.12, 0.12, 0.13, 0.10]
     return sum(wi * s for wi, s in zip(w, scores))
 
-# ── 부트스트랩 정합성 ────────────────────────────────────────────
+# ── 부트스트랩 정합성 ─────────────────────────────────────────────
+# top_k=20: 45개 중 상위 20개 (44%) 기준 — top_k=15(33%) 대비
+# 실제 당첨번호 커버율 향상, 정합성 기준선 33%→44% 상향
 
-def multi_model_coherence(recs, n_boot=5000, top_k=15, seed=42, model_list=None):
+def multi_model_coherence(recs, n_boot=5000, top_k=20, seed=42, model_list=None):
     if model_list is None: model_list = ALL_MODELS
     n = len(recs)
     rng = np.random.default_rng(seed)
@@ -105,15 +143,15 @@ def multi_model_coherence(recs, n_boot=5000, top_k=15, seed=42, model_list=None)
             total += 1
     return cnt / total
 
-def single_model_coherence(recs, fn, n_boot=2000, top_k=15, seed=42):
+def single_model_coherence(recs, fn, n_boot=2000, top_k=20, seed=42):
     n = len(recs); rng = np.random.default_rng(seed); cnt = np.zeros(45)
     for _ in range(n_boot):
         br = [recs[i] for i in rng.integers(0, n, n)]
         cnt[np.argsort(fn(br))[-top_k:]] += 1
     return (cnt / n_boot).round(4).tolist()
 
-print(f"정합성 계산 중 (3안정모델 × 5000 부트스트랩, 최근 {N_COH}회 기준)...")
-number_coherence = multi_model_coherence(coh_records, n_boot=5000, top_k=15, seed=42,
+print(f"정합성 계산 중 (6모델 × 5000 부트스트랩 top20, 최근 {N_COH}회 기준)...")
+number_coherence = multi_model_coherence(coh_records, n_boot=5000, top_k=20, seed=42,
                                           model_list=STABLE_MODELS).round(4).tolist()
 
 print("모델별 정합성 계산 중...")

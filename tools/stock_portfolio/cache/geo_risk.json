@@ -1,18 +1,17 @@
 {
-  "date": "2026-08-11",
-  "risk_score": 10.0,
+  "date": "2026-08-12",
+  "risk_score": 9.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
-  "medium_risk_signals": 1,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
-    "Defense": "ELEVATED"
+    "Defense": "ELEVATED",
+    "Consumer": "WATCH"
   },
   "top_risk_events": [
-    "Russian Civilian Deaths Are Growing Rapidly As Ukraine Expands Its Air War",
-    "Yabloko, Russian Antiwar Party, Is Banned From Parliament Elections"
+    "Russian Civilian Deaths Are Growing Rapidly As Ukraine Expands Its Air War"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
@@ -26,6 +25,6 @@
       "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 9.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "gates": [
     {
       "id": "T1",
@@ -11,7 +11,7 @@
       "value": "+72%",
       "note": "M7 4사 연간 캐펙스 합산 $409B YoY +72% -- 정상 (임계 +15% 미달) (실제 지출 기준, 가이던스 아님)",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T2",
@@ -20,10 +20,10 @@
       "desc": "ICE BofA IG OAS 3개월 변화 +50bp 이상 (FRED BAMLC0A0CM)",
       "threshold": "+50bp 3M",
       "status": false,
-      "value": "0.78% (d3M:+3bp)",
-      "note": "ICE BofA IG OAS 0.78% -- 3개월 변화 +3bp (여유 47bp)",
+      "value": "0.79% (d3M:+4bp)",
+      "note": "ICE BofA IG OAS 0.79% -- 3개월 변화 +4bp (여유 46bp)",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T3",
@@ -32,10 +32,10 @@
       "desc": "^IRX(13주 T-bill) 4.25% 초과 -- 연준 기준금리 근사",
       "threshold": ">= 4.25%",
       "status": false,
-      "value": "3.73%",
-      "note": "단기금리(^IRX) 3.73% -- 목표(4.25%)까지 0.52pp 여유",
+      "value": "3.71%",
+      "note": "단기금리(^IRX) 3.71% -- 목표(4.25%)까지 0.54pp 여유",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T4",
@@ -47,7 +47,7 @@
       "value": "GM 84.6% YoY+46.8pp",
       "note": "MU 분기 그로스마진 84.6% YoY+46.8pp -- 정상 (HBM ASP 대리지표)",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T5",
@@ -59,7 +59,7 @@
       "value": "DIO 122d(17.4wk) YoY-15d",
       "note": "MU DIO 122일(17.4주) YoY-15d -- 정상 (D램 재고 대리지표)",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T6",
@@ -71,7 +71,7 @@
       "value": "이상 없음",
       "note": "M7 D&A/OI -- 전사 YoY +20pp 미만 (정상) | MSFT:27% | GOOGL:17% | META:34% | AAPL:9%",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T7",
@@ -80,10 +80,10 @@
       "desc": "H100 GPU 렌탈 단가($/GPU-hour) 분기 -15% 이상 하락 (RunPod/Vast.ai)",
       "threshold": "-15% 분기",
       "status": false,
-      "value": "$2.59/hr (누적 30일)",
-      "note": "H100 렌탈 단가 $2.59/GPU-hr -- 분기 비교 데이터 누적 중 (30/90일)",
+      "value": "$2.59/hr (누적 31일)",
+      "note": "H100 렌탈 단가 $2.59/GPU-hr -- 분기 비교 데이터 누적 중 (31/90일)",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     },
     {
       "id": "T8",
@@ -95,7 +95,7 @@
       "value": "미감지",
       "note": "어센드 960(2027 Q4 예정) / CXMT HBM3E 양산 뉴스 없음 -- 매일 자동 탐지 중",
       "auto": true,
-      "updated": "2026-08-12"
+      "updated": "2026-08-13"
     }
   ],
   "lit_count": 0,

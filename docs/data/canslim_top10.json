@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "analyzed": 101,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 107838308352,
-      "price": 180.095,
-      "rs_rating": 80.4
+      "market_cap": 110853193728,
+      "price": 185.13,
+      "rs_rating": 82.3
     },
     {
       "ticker": "DXCM",
@@ -34,12 +34,30 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 34264358912,
-      "price": 90.8,
+      "market_cap": 34520965120,
+      "price": 91.48,
       "rs_rating": 81.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "STX",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 208823451648,
+      "price": 921.37,
+      "rs_rating": 96.1
+    },
+    {
+      "ticker": "FTNT",
       "canslim_score": 58,
       "scores": {
         "C": 10,
@@ -51,28 +69,10 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Communication Equipment",
-      "market_cap": 488264925184,
-      "price": 123.88,
-      "rs_rating": 83.3
-    },
-    {
-      "ticker": "AMGN",
-      "canslim_score": 57,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 225153368064,
-      "price": 416.18,
-      "rs_rating": 77.4
+      "industry": "Software - Infrastructure",
+      "market_cap": 121385590784,
+      "price": 165.44,
+      "rs_rating": 87.2
     },
     {
       "ticker": "EA",
@@ -93,24 +93,6 @@
       "rs_rating": NaN
     },
     {
-      "ticker": "STX",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 199041482752,
-      "price": 878.21,
-      "rs_rating": 96.1
-    },
-    {
       "ticker": "WDC",
       "canslim_score": 55,
       "scores": {
@@ -125,7 +107,7 @@
       "sector": "Technology",
       "industry": "Computer Hardware",
       "market_cap": 0,
-      "price": 454.1,
+      "price": 487.29,
       "rs_rating": 95.1
     },
     {
@@ -142,27 +124,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 788371144704,
-      "price": 482.93,
+      "market_cap": 788501757952,
+      "price": 483.01,
       "rs_rating": 90.2
-    },
-    {
-      "ticker": "FTNT",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 118010503168,
-      "price": 160.84,
-      "rs_rating": 87.2
     },
     {
       "ticker": "DDOG",
@@ -178,9 +142,45 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 86504759296,
-      "price": 240.91,
-      "rs_rating": 82.3
+      "market_cap": 90573078528,
+      "price": 252.24,
+      "rs_rating": 83.3
+    },
+    {
+      "ticker": "SHOP",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 205717192704,
+      "price": 158.53,
+      "rs_rating": 79.4
+    },
+    {
+      "ticker": "AMGN",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 226051440640,
+      "price": 417.84,
+      "rs_rating": 74.5
     }
   ]
 }

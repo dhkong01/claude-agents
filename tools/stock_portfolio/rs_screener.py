@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, batch_download, get_ndx100_tickers
+from data_utils import CACHE_DIR, batch_download, get_ndx100_tickers, market_today
 
 
 def calc_rs_ratings(price_df: pd.DataFrame) -> pd.Series:
@@ -49,7 +49,7 @@ def screen_rs90(min_rating: float = 90.0) -> list[dict]:
     if user_tickers:
         user_rs = {t: round(float(ratings[t]), 1) for t in user_tickers if t in ratings.index}
         (CACHE_DIR / "user_portfolio_rs.json").write_text(
-            json.dumps({"date": datetime.now().strftime("%Y-%m-%d"), "ratings": user_rs}, indent=2)
+            json.dumps({"date": market_today(), "ratings": user_rs}, indent=2)
         )
 
     # NDX100 종목만 필터 (포트폴리오 추가 종목 제외) — CANSLIM/VCP 입력 오염 방지
@@ -62,7 +62,7 @@ def screen_rs90(min_rating: float = 90.0) -> list[dict]:
     result = [{"ticker": str(t), "rs_rating": float(r)} for t, r in rs90.items()]
 
     out = {
-        "date":       datetime.now().strftime("%Y-%m-%d"),
+        "date":       market_today(),
         "universe":   "NDX100",
         "rs90_count": len(result),
         "stocks":     all_stocks,   # NDX100 전체 정렬 (export_rs top30 표시용)

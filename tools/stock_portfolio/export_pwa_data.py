@@ -8,6 +8,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from data_utils import market_today
+
 BASE_DIR  = Path(__file__).parent
 CACHE_DIR = BASE_DIR / "cache"
 REPO_ROOT = BASE_DIR.parent.parent
@@ -208,7 +211,7 @@ def export_rs(top_n: int = 30) -> bool:
 
 
 if __name__ == "__main__":
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = market_today()
     print(f"[export] PWA 데이터 내보내기 시작 ({today})")
     export_trend(today)
     export_vcp()

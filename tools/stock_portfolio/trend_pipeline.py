@@ -16,7 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 sys.path.insert(0, str(BASE_DIR))
 
-from data_utils import CACHE_DIR
+from data_utils import CACHE_DIR, market_today
 
 
 # ── 캐시 로더 ─────────────────────────────────────────────────
@@ -37,7 +37,7 @@ def _cache_fresh(name: str, today: str) -> bool:
 # ── 파이프라인 ─────────────────────────────────────────────────
 
 def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = market_today()
     print(f"\n{'='*60}")
     print(f"  추세 추종 파이프라인 [{mode.upper()}]  {today}")
     print(f"{'='*60}")

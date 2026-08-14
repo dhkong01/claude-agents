@@ -4,9 +4,13 @@ RSS 뉴스 스캔 → 리스크 점수(0-10) → 섹터 영향 매핑 → RISK_O
 """
 import json
 import re
+import sys
 import urllib.request
 from datetime import datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from data_utils import market_today
 
 CACHE_DIR = Path(__file__).parent / "cache"
 CACHE_DIR.mkdir(exist_ok=True)
@@ -98,7 +102,7 @@ def analyze_geo_risk() -> dict:
     hedge = _calc_hedge(risk_score, sector_impacts)
 
     result = {
-        "date":               datetime.now().strftime("%Y-%m-%d"),
+        "date":               market_today(),
         "risk_score":         risk_score,
         "risk_level":         risk_level,
         "market_bias":        market_bias,
@@ -118,7 +122,7 @@ def analyze_geo_risk() -> dict:
 def _default_risk(reason: str = "") -> dict:
     hedge = _calc_hedge(3.0, {})
     result = {
-        "date":               datetime.now().strftime("%Y-%m-%d"),
+        "date":               market_today(),
         "risk_score":         3.0,
         "risk_level":         "MEDIUM",
         "market_bias":        "NEUTRAL",

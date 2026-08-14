@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR
+from data_utils import CACHE_DIR, market_today
 
 ENTRY_PERIOD = 20   # 진입 기준: N일 고점
 EXIT_PERIOD  = 10   # 청산 기준: N일 저점
@@ -225,7 +225,7 @@ def select_top5(
     top5 = scored[:5]
 
     out = {
-        "date":   datetime.now().strftime("%Y-%m-%d"),
+        "date":   market_today(),
         "stocks": top5,
         "hedge":  hedge,
     }
@@ -261,7 +261,7 @@ def track_portfolio(tickers: list[str]) -> list[dict]:
             continue
 
     (CACHE_DIR / "tracking_daily.json").write_text(
-        json.dumps({"date": datetime.now().strftime("%Y-%m-%d"), "data": results}, indent=2)
+        json.dumps({"date": market_today(), "data": results}, indent=2)
     )
     return results
 

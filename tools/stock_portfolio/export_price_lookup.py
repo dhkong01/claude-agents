@@ -9,6 +9,9 @@ from pathlib import Path
 
 import yfinance as yf
 
+sys.path.insert(0, str(Path(__file__).parent))
+from data_utils import market_today
+
 POPULAR_TICKERS = sorted(set([
     # Mega cap
     "AAPL", "MSFT", "NVDA", "GOOGL", "GOOG", "AMZN", "META", "TSLA", "AVGO", "BRK-B",
@@ -80,7 +83,7 @@ def _extract_price(data, ticker: str) -> float | None:
 
 
 def run():
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = market_today()
     print(f"[price_lookup] {len(POPULAR_TICKERS)}개 종목 가격 조회 시작 ({today})...")
 
     # 배치 다운로드

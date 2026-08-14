@@ -78,7 +78,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add tools/stock_portfolio/cache/ docs/data/ || true
-          git diff --staged --quiet || git commit -m "trend: ${{ steps.mode.outputs.mode }} $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "trend: ${{ steps.mode.outputs.mode }} $(TZ='America/New_York' date +%Y-%m-%d)"
           git push || true
 
       - name: 실패 시 카카오톡 알림

@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR
+from data_utils import CACHE_DIR, market_today
 
 
 # ── Stage 2 판정 ──────────────────────────────────────────────
@@ -575,7 +575,7 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
     top = results[:top_n]
 
     out = {
-        "date":          datetime.now().strftime("%Y-%m-%d"),
+        "date":          market_today(),
         "total_screened":len(candidates),
         "stage2_count":  len(results),
         "vcp_count":     sum(1 for r in results if r["has_vcp"]),

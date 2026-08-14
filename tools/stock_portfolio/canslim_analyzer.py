@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR
+from data_utils import CACHE_DIR, market_today
 
 
 def _score_c(info: dict) -> int:
@@ -107,7 +107,7 @@ def analyze_canslim(rs90_stocks: list[dict], top_n: int = 10) -> list[dict]:
     results.sort(key=lambda x: x["canslim_score"], reverse=True)
     top = results[:top_n]
 
-    out = {"date": datetime.now().strftime("%Y-%m-%d"), "analyzed": len(results), "top10": top}
+    out = {"date": market_today(), "analyzed": len(results), "top10": top}
     (CACHE_DIR / "canslim_top10.json").write_text(json.dumps(out, indent=2, default=str))
     return top
 

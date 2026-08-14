@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR
+from data_utils import CACHE_DIR, market_today
 
 MACRO_TICKERS = {
     "market":   "^GSPC",
@@ -82,7 +82,7 @@ def analyze_macro() -> dict:
         sectors = ["Healthcare", "Financials", "Energy", "Real Estate"]
 
     result = {
-        "date": datetime.now().strftime("%Y-%m-%d"),
+        "date": market_today(),
         "phase": phase,
         "m_score": m_score,
         "signals": signals,

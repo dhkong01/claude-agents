@@ -1,9 +1,25 @@
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 import pandas as pd
 from pathlib import Path
 
 CACHE_DIR = Path(__file__).parent / "cache"
 CACHE_DIR.mkdir(exist_ok=True)
+
+US_EASTERN = ZoneInfo("America/New_York")
+
+
+def market_today() -> str:
+    """미국 동부시간(America/New_York) 기준 오늘 날짜 (YYYY-MM-DD).
+
+    GitHub Actions 스케줄 실행이 지연되어 UTC 자정을 넘기면
+    naive datetime.now()(UTC)는 트레이딩 데이 라벨이 하루 앞당겨져
+    같은 날짜로 두 거래일 데이터가 충돌(덮어쓰기)하는 문제가 있었다.
+    항상 미 동부시간 기준으로 계산해 이 경합을 방지한다.
+    """
+    return datetime.now(US_EASTERN).strftime("%Y-%m-%d")
 
 
 def get_ndx100_tickers() -> list[str]:

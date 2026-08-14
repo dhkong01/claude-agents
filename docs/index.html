@@ -395,6 +395,22 @@ function localPfSave(data) {
   localStorage.setItem(PF_KEY, JSON.stringify(data));
 }
 
+// 서버/price_lookup에 없는 임의 티커의 실시간 가격 조회 (Yahoo Finance, CORS 프록시 경유)
+async function fetchLivePrice(ticker) {
+  try {
+    const url = 'https://corsproxy.io/?url=' + encodeURIComponent(
+      'https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(ticker)
+    );
+    const r = await fetch(url, { cache: 'no-store' });
+    if (!r.ok) return null;
+    const data  = await r.json();
+    const price = data?.chart?.result?.[0]?.meta?.regularMarketPrice;
+    return (typeof price === 'number' && price > 0) ? +price.toFixed(2) : null;
+  } catch {
+    return null;
+  }
+}
+
 // 서버에서 받은 가격 데이터(serverPf)를 기반으로 로컬 수량/평단가 적용
 // → loadAll()이 이미 받은 데이터를 직접 넘겨 이중 fetch 없이 동작
 function applyLocalPortfolio(serverPf) {
@@ -407,9 +423,13 @@ function applyLocalPortfolio(serverPf) {
     if (h.ticker && h.price) priceMap[h.ticker] = h.price;
   });
 
+  // 서버/인기목록에 없는 티커 → 다음 단계에서 실시간 조회 대상
+  const needsLiveFetch = [];
   const holdings = local.holdings.map(h => {
-    // 서버 가격 → price_lookup → 수동 입력 → 0
-    const price = priceMap[h.ticker] || priceLookup[h.ticker] || h.manual_price || 0;
+    const known = priceMap[h.ticker] || priceLookup[h.ticker];
+    if (!known) needsLiveFetch.push(h.ticker);
+    // 서버 가격 → price_lookup → 수동 입력(직전 실시간 조회값 포함) → 0
+    const price = known || h.manual_price || 0;
     const cost  = +(h.avg_cost * h.shares).toFixed(2);
     const value = +(price     * h.shares).toFixed(2);
     return { ticker: h.ticker, shares: h.shares, avg_cost: h.avg_cost,
@@ -423,8 +443,40 @@ function applyLocalPortfolio(serverPf) {
     total_cost:     +holdings.reduce((s,h)=>s+h.cost,0).toFixed(2),
     next_rebalance: local.next_rebalance || serverPf?.next_rebalance || '—',
     _local:         true,
+    _needsLiveFetch: needsLiveFetch,
   };
   return true;
+}
+
+// 서버/price_lookup에 없는 보유 종목의 실시간가를 백그라운드로 조회 후 자동 반영
+async function refreshLocalHoldingPrices() {
+  const tickers = [...new Set(pfData?._needsLiveFetch || [])];
+  if (!tickers.length) return;
+
+  const results = await Promise.all(tickers.map(async t => [t, await fetchLivePrice(t)]));
+  const priceByTicker = {};
+  results.forEach(([t, p]) => { if (p) priceByTicker[t] = p; });
+  if (!Object.keys(priceByTicker).length) return;
+
+  // 화면에 표시 중인 pfData 갱신
+  pfData.holdings = (pfData.holdings || []).map(h => {
+    const p = priceByTicker[h.ticker];
+    if (!p) return h;
+    return { ...h, price: p, value: +(p * h.shares).toFixed(2) };
+  });
+  pfData.total_cost = +(pfData.holdings || []).reduce((s, h) => s + h.cost, 0).toFixed(2);
+
+  // localStorage에도 최신가를 저장해 다음 로드 시 폴백으로 사용
+  const local = localPfLoad();
+  if (local?.holdings) {
+    local.holdings = local.holdings.map(h => {
+      const p = priceByTicker[h.ticker];
+      return p ? { ...h, manual_price: p } : h;
+    });
+    localPfSave(local);
+  }
+
+  renderPortfolio();
 }
 
 async function loadAll() {
@@ -453,6 +505,9 @@ async function loadAll() {
     renderPortfolio();
     renderVCP();
     renderSector();
+
+    // 서버/인기목록에 없는 보유 종목은 실시간가를 백그라운드 조회 후 자동 반영
+    if (pfData?._needsLiveFetch?.length) refreshLocalHoldingPrices();
 
     const date = trendData?.date || pfData?.date || '—';
     // 2일 이상 지연 시 경고 표시
@@ -1255,7 +1310,7 @@ function openPfEditor() {
     return `
     <div class="pf-edit-row" id="pfrow-${i}">
       <input class="pf-edit-in" style="width:64px;font-weight:700;text-transform:uppercase"
-             placeholder="티커" value="${h.ticker}" data-i="${i}" data-f="ticker">
+             placeholder="티커" value="${h.ticker}" data-i="${i}" data-f="ticker" onblur="onTickerBlur(this)">
       <input class="pf-edit-in" style="width:56px;text-align:right"
              placeholder="수량" type="number" min="0" value="${h.shares}" data-i="${i}" data-f="shares">
       <input class="pf-edit-in" style="width:72px;text-align:right"
@@ -1318,8 +1373,8 @@ function pfRowDel(i) {
   document.getElementById(`pfrow-${i}`)?.remove();
 }
 
-// 티커 입력 후 포커스 이탈 시 price_lookup에서 자동으로 현재가 채우기
-function onTickerBlur(el) {
+// 티커 입력 후 포커스 이탈 시 price_lookup → (없으면) 실시간 조회로 현재가 자동 채우기
+async function onTickerBlur(el) {
   const ticker = el.value.trim().toUpperCase();
   if (!ticker) return;
   el.value = ticker;
@@ -1336,6 +1391,23 @@ function onTickerBlur(el) {
     priceEl.style.borderColor = '#22c55e';
     priceEl.style.background = '#f0fdf4';
     priceEl.placeholder = '자동';
+    priceEl.removeAttribute('data-new');
+    return;
+  }
+
+  // 인기 종목 목록에 없는 티커 → 실시간 조회 시도 (NBIS, CRDO, ALAB 등)
+  priceEl.placeholder = '조회중...';
+  priceEl.style.borderColor = 'var(--accent)';
+  priceEl.style.background = '';
+  const live = await fetchLivePrice(ticker);
+  // 조회하는 동안 사용자가 티커를 바꿨으면 결과를 버림
+  if (el.value.trim().toUpperCase() !== ticker) return;
+
+  if (live) {
+    priceEl.value = live;
+    priceEl.style.borderColor = '#22c55e';
+    priceEl.style.background = '#f0fdf4';
+    priceEl.placeholder = '자동(실시간)';
     priceEl.removeAttribute('data-new');
   } else {
     priceEl.style.borderColor = '#f97316';

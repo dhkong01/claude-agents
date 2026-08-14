@@ -46,6 +46,8 @@ POPULAR_TICKERS = sorted(set([
     # 중소형 인기 성장주
     "OPEN", "OPRA", "HIMS", "WOLF", "CELH", "DECK", "ONON",
     "TTWO", "ZG", "EXPI", "FIGS", "BROS", "CPNG",
+    # AI 인프라 / 신규 상장 성장주
+    "NBIS", "CRDO", "ALAB",
 ]))
 
 

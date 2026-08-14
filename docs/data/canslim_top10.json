@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "analyzed": 101,
   "top10": [
     {
@@ -16,27 +16,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 110853193728,
-      "price": 185.13,
+      "market_cap": 110212489216,
+      "price": 184.06,
       "rs_rating": 82.3
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 34520965120,
-      "price": 91.48,
-      "rs_rating": 81.4
     },
     {
       "ticker": "STX",
@@ -52,12 +34,12 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 208823451648,
-      "price": 921.37,
+      "market_cap": 220970876928,
+      "price": 973.44,
       "rs_rating": 96.1
     },
     {
-      "ticker": "FTNT",
+      "ticker": "DXCM",
       "canslim_score": 58,
       "scores": {
         "C": 10,
@@ -68,11 +50,29 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 121385590784,
-      "price": 165.44,
-      "rs_rating": 87.2
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 33868128256,
+      "price": 89.75,
+      "rs_rating": 81.4
+    },
+    {
+      "ticker": "AMGN",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 224092274688,
+      "price": 415.21,
+      "rs_rating": 75.5
     },
     {
       "ticker": "EA",
@@ -106,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 0,
-      "price": 487.29,
+      "market_cap": 175374270464,
+      "price": 508.8,
       "rs_rating": 95.1
     },
     {
@@ -124,9 +124,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 788501757952,
-      "price": 483.01,
-      "rs_rating": 90.2
+      "market_cap": 839728824320,
+      "price": 514.39,
+      "rs_rating": 92.1
+    },
+    {
+      "ticker": "FTNT",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 117401518080,
+      "price": 160.01,
+      "rs_rating": 86.3
     },
     {
       "ticker": "DDOG",
@@ -142,45 +160,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 90573078528,
-      "price": 252.24,
-      "rs_rating": 83.3
+      "market_cap": 91729305600,
+      "price": 255.46,
+      "rs_rating": 84.3
     },
     {
-      "ticker": "SHOP",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 205717192704,
-      "price": 158.53,
-      "rs_rating": 79.4
-    },
-    {
-      "ticker": "AMGN",
-      "canslim_score": 54,
+      "ticker": "ROST",
+      "canslim_score": 55,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 4,
-        "L": 3,
+        "S": 1,
+        "L": 7,
         "I": 10,
         "M": 7
       },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 226051440640,
-      "price": 417.84,
-      "rs_rating": 74.5
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "market_cap": 78706851840,
+      "price": 245.36,
+      "rs_rating": 80.4
     }
   ]
 }

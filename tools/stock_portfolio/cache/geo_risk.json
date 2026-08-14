@@ -1,33 +1,26 @@
 {
-  "date": "2026-08-13",
-  "risk_score": 10.0,
-  "risk_level": "HIGH",
-  "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
-  "medium_risk_signals": 3,
+  "date": "2026-08-14",
+  "risk_score": 4.0,
+  "risk_level": "MEDIUM",
+  "market_bias": "NEUTRAL",
+  "high_risk_signals": 1,
+  "medium_risk_signals": 1,
   "sector_impacts": {
-    "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
-    "Defense": "ELEVATED",
-    "Financials": "WATCH"
+    "Energy": "WATCH",
+    "Defense": "ELEVATED"
   },
-  "top_risk_events": [
-    "A Patient\u2019S Final Breath In A Congolese Ebola Ward",
-    "Putin Visits Islands Seized From Japan In World War Ii, Angering Tokyo",
-    "Who Are The Houthis, Iran-Backed Militia Entering Mideast War?"
-  ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "top_risk_events": [],
+  "recommendation": "\uc911\uac04 \ub9ac\uc2a4\ud06c. \ubd84\uc0b0 \ud3ec\ud2b8\ud3f4\ub9ac\uc624 \uc720\uc9c0. Defense \uc139\ud130 \ubaa8\ub2c8\ud130\ub9c1.",
   "hedge": {
-    "long_pct": 20,
-    "sqqq_pct": 20,
-    "cash_pct": 60,
-    "per_stock_pct": 4.0,
-    "action": "MAX_DEFENSIVE",
+    "long_pct": 80,
+    "sqqq_pct": 5,
+    "cash_pct": 15,
+    "per_stock_pct": 16.0,
+    "action": "LIGHT_HEDGE",
     "sqqq_active": true,
     "elevated_sectors": [
-      "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 4.0 \u2014 SQQQ 5% \uc18c\ud615 \ud5e4\uc9c0, \ud604\uae08 15% \ud655\ubcf4. [Defense ELEVATED]"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "universe": "NDX100",
   "rs90_count": 10,
   "stocks": [
@@ -192,15 +192,15 @@
       "rs_rating": 53.9
     },
     {
-      "ticker": "NVDA",
+      "ticker": "SBUX",
       "rs_rating": 52.9
     },
     {
-      "ticker": "MAR",
+      "ticker": "NVDA",
       "rs_rating": 52.0
     },
     {
-      "ticker": "SBUX",
+      "ticker": "MAR",
       "rs_rating": 51.0
     },
     {
@@ -402,10 +402,6 @@
     {
       "ticker": "MSTR",
       "rs_rating": 1.0
-    },
-    {
-      "ticker": "EA",
-      "rs_rating": NaN
     }
   ]
 }

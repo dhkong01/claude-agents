@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "mode": "daily",
   "rs_top10": [
     {
@@ -45,29 +45,35 @@
   ],
   "rs90_count": 10,
   "geo_risk": {
-    "date": "2026-08-14",
-    "risk_score": 4.0,
-    "risk_level": "MEDIUM",
-    "market_bias": "NEUTRAL",
+    "date": "2026-08-15",
+    "risk_score": 7.0,
+    "risk_level": "HIGH",
+    "market_bias": "RISK_OFF",
     "high_risk_signals": 1,
-    "medium_risk_signals": 1,
+    "medium_risk_signals": 3,
     "sector_impacts": {
-      "Energy": "WATCH",
+      "Energy": "ELEVATED",
+      "Semiconductors": "WATCH",
       "Defense": "ELEVATED"
     },
-    "top_risk_events": [],
-    "recommendation": "중간 리스크. 분산 포트폴리오 유지. Defense 섹터 모니터링.",
+    "top_risk_events": [
+      "Syrian Convicted In Austria Of Civil War Abuses Is Detained In Syria",
+      "Wary Of Trump, Europe Seeks Role In Eventual Russia-Ukraine Talks",
+      "Heat Deaths In A ‘Cold’ Country Are A Warning To The Rest Of Europe"
+    ],
+    "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 80,
-      "sqqq_pct": 5,
-      "cash_pct": 15,
-      "per_stock_pct": 16.0,
-      "action": "LIGHT_HEDGE",
+      "long_pct": 40,
+      "sqqq_pct": 15,
+      "cash_pct": 45,
+      "per_stock_pct": 8.0,
+      "action": "DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
+        "Energy",
         "Defense"
       ],
-      "reasoning": "Risk 4.0 — SQQQ 5% 소형 헤지, 현금 15% 확보. [Defense ELEVATED]"
+      "reasoning": "Risk 7.0 — SQQQ 15% 방어 포지션, 현금 45% 유지. [Energy, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -123,12 +129,12 @@
       "pivot": 256.51,
       "current_price": 245.36,
       "rs_rating": 80.4,
-      "ma50": 234.0,
-      "ma200": 206.63,
+      "ma50": 233.63,
+      "ma200": 205.84,
       "final_depth_pct": 13.0,
       "contractions": 2,
       "vol_declining": true,
-      "vol_spike_ratio": 0.87,
+      "vol_spike_ratio": 0.86,
       "pivot_extension_pct": -4.3,
       "david_ryan_extended": false,
       "qullamaggie_score": 40,
@@ -144,10 +150,10 @@
       "fb_breaking": false,
       "has_desc_tri": false,
       "desc_tri_score": 30,
-      "support_level": 228.92,
-      "l_spread_pct": 18.4,
-      "resist_slope": 0.48362,
-      "desc_tri_dist_pct": 7.2,
+      "support_level": 223.48,
+      "l_spread_pct": 18.9,
+      "resist_slope": 0.50853,
+      "desc_tri_dist_pct": 9.8,
       "desc_tri_breaking": false,
       "desc_near_support": false
     },
@@ -166,7 +172,7 @@
       "final_depth_pct": 22.2,
       "contractions": 3,
       "vol_declining": false,
-      "vol_spike_ratio": 0.82,
+      "vol_spike_ratio": 0.84,
       "pivot_extension_pct": -1.3,
       "david_ryan_extended": false,
       "qullamaggie_score": 40,
@@ -474,7 +480,7 @@
       "final_depth_pct": 18.2,
       "contractions": 3,
       "vol_declining": false,
-      "vol_spike_ratio": 1.05,
+      "vol_spike_ratio": 1.06,
       "pivot_extension_pct": 13.1,
       "david_ryan_extended": false,
       "qullamaggie_score": 45,
@@ -590,12 +596,12 @@
       "pivot": 860.41,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 16.0
+      "allocation_pct": 8.0
     },
     {
       "ticker": "DXCM",
-      "final_score": 62.7,
-      "canslim_score": 58,
+      "final_score": 63.6,
+      "canslim_score": 61,
       "rs_rating": 81.4,
       "vcp_score": 80,
       "donchian_signal": "HOLD",
@@ -607,24 +613,7 @@
       "pivot": null,
       "sector": "Healthcare",
       "in_both": true,
-      "allocation_pct": 16.0
-    },
-    {
-      "ticker": "ROST",
-      "final_score": 59.6,
-      "canslim_score": 55,
-      "rs_rating": 80.4,
-      "vcp_score": 80,
-      "donchian_signal": "HOLD",
-      "current_price": 245.36,
-      "donchian_upper": 255.23,
-      "donchian_lower": 244.96,
-      "dist_to_upper_pct": 4.0,
-      "dist_to_lower_pct": 0.2,
-      "pivot": 256.51,
-      "sector": "Consumer Cyclical",
-      "in_both": true,
-      "allocation_pct": 16.0
+      "allocation_pct": 8.0
     },
     {
       "ticker": "ABNB",
@@ -641,7 +630,7 @@
       "pivot": 153.88,
       "sector": "Consumer Cyclical",
       "in_both": true,
-      "allocation_pct": 16.0
+      "allocation_pct": 8.0
     },
     {
       "ticker": "AMD",
@@ -658,7 +647,24 @@
       "pivot": 521.17,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 16.0
+      "allocation_pct": 8.0
+    },
+    {
+      "ticker": "DDOG",
+      "final_score": 48.4,
+      "canslim_score": 55,
+      "rs_rating": 84.3,
+      "vcp_score": 50,
+      "donchian_signal": "HOLD",
+      "current_price": 255.46,
+      "donchian_upper": 288.15,
+      "donchian_lower": 229.29,
+      "dist_to_upper_pct": 12.8,
+      "dist_to_lower_pct": 10.2,
+      "pivot": 289.59,
+      "sector": "Technology",
+      "in_both": true,
+      "allocation_pct": 8.0
     }
   ],
   "sqqq_channel": {
@@ -674,7 +680,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-08-14",
-    "checked_at": "2026-08-14 22:52",
+    "checked_at": "2026-08-15 22:44",
     "sample": {
       "SPY": 776.34,
       "QQQ": 731.07,
@@ -703,16 +709,6 @@
       "channel_width_pct": 10.7
     },
     {
-      "ticker": "ROST",
-      "current": 245.36,
-      "donchian_upper": 255.23,
-      "donchian_lower": 244.96,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 4.0,
-      "dist_to_lower_pct": 0.2,
-      "channel_width_pct": 4.2
-    },
-    {
       "ticker": "ABNB",
       "current": 184.06,
       "donchian_upper": 185.13,
@@ -731,6 +727,16 @@
       "dist_to_upper_pct": 7.4,
       "dist_to_lower_pct": 8.7,
       "channel_width_pct": 17.6
+    },
+    {
+      "ticker": "DDOG",
+      "current": 255.46,
+      "donchian_upper": 288.15,
+      "donchian_lower": 229.29,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 12.8,
+      "dist_to_lower_pct": 10.2,
+      "channel_width_pct": 25.7
     },
     {
       "ticker": "SNDK",

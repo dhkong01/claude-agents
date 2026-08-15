@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-14",
-  "analyzed": 101,
+  "date": "2026-08-15",
+  "analyzed": 100,
   "top10": [
     {
       "ticker": "ABNB",
@@ -21,6 +21,24 @@
       "rs_rating": 82.3
     },
     {
+      "ticker": "DXCM",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 33868128256,
+      "price": 89.75,
+      "rs_rating": 81.4
+    },
+    {
       "ticker": "STX",
       "canslim_score": 58,
       "scores": {
@@ -34,27 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 220970876928,
+      "market_cap": 220624830464,
       "price": 973.44,
       "rs_rating": 96.1
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 33868128256,
-      "price": 89.75,
-      "rs_rating": 81.4
     },
     {
       "ticker": "AMGN",
@@ -70,27 +70,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 224092274688,
+      "market_cap": 224628604928,
       "price": 415.21,
       "rs_rating": 75.5
-    },
-    {
-      "ticker": "EA",
-      "canslim_score": 57,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 0,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Communication Services",
-      "industry": "Electronic Gaming & Multimedia",
-      "market_cap": 52925640704,
-      "price": 209.7,
-      "rs_rating": NaN
     },
     {
       "ticker": "WDC",
@@ -106,7 +88,7 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 175374270464,
+      "market_cap": 0,
       "price": 508.8,
       "rs_rating": 95.1
     },
@@ -181,6 +163,24 @@
       "market_cap": 78706851840,
       "price": 245.36,
       "rs_rating": 80.4
+    },
+    {
+      "ticker": "SHOP",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 200254078976,
+      "price": 154.32,
+      "rs_rating": 77.4
     }
   ]
 }

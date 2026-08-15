@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "data": [
     {
       "ticker": "STX",
@@ -22,16 +22,6 @@
       "channel_width_pct": 10.7
     },
     {
-      "ticker": "ROST",
-      "current": 245.36,
-      "donchian_upper": 255.23,
-      "donchian_lower": 244.96,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 4.0,
-      "dist_to_lower_pct": 0.2,
-      "channel_width_pct": 4.2
-    },
-    {
       "ticker": "ABNB",
       "current": 184.06,
       "donchian_upper": 185.13,
@@ -50,6 +40,16 @@
       "dist_to_upper_pct": 7.4,
       "dist_to_lower_pct": 8.7,
       "channel_width_pct": 17.6
+    },
+    {
+      "ticker": "DDOG",
+      "current": 255.46,
+      "donchian_upper": 288.15,
+      "donchian_lower": 229.29,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 12.8,
+      "dist_to_lower_pct": 10.2,
+      "channel_width_pct": 25.7
     },
     {
       "ticker": "SNDK",

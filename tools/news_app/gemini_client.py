@@ -13,8 +13,10 @@ import requests
 API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
 # 지역 에이전트(가벼운 요약)는 Flash-Lite, 섹터매퍼/오케스트레이터(교차 분석)는 Flash
-MODEL_LIGHT = os.environ.get("GEMINI_MODEL_LIGHT", "gemini-2.5-flash-lite")
-MODEL_HEAVY = os.environ.get("GEMINI_MODEL_HEAVY", "gemini-2.5-flash")
+# 참고: gemini-2.5-flash(-lite)는 신규 API 키에는 더 이상 제공되지 않음(2026-08 기준 404
+# "no longer available to new users") — env var로 언제든 override 가능하게 해둠
+MODEL_LIGHT = os.environ.get("GEMINI_MODEL_LIGHT", "gemini-3.5-flash-lite")
+MODEL_HEAVY = os.environ.get("GEMINI_MODEL_HEAVY", "gemini-3.5-flash")
 
 
 def call_gemini(system_prompt: str, user_prompt: str, model: str = MODEL_LIGHT) -> str | None:

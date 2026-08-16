@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "대만의 TSMC와 한국의 SK하이닉스를 중심으로 글로벌 AI 반도체 수요가 견조하게 이어지며 신성장 동력을 확보하고 있습니다. 다만, 미국의 엔비디아 관련 중국 시장 리스크 및 감가상각 우려가 일부 상승폭을 제한합니다.",
+      "score": 8.0,
+      "rationale": "미국의 GPU 담보 AI 자금 조달 모델 도입과 한국의 HBM 수출 견조세, 대만 TSMC의 AI 반도체 수요 수혜 등 공급망 다변화 속에서도 견고한 AI 수요가 확인되고 있습니다.",
       "related_tickers": [
-        "TSM",
         "NVDA",
-        "000660"
+        "TSM",
+        "005930"
       ],
       "source_regions": [
         "US",
@@ -19,26 +19,51 @@
     {
       "name": "Real Estate",
       "direction": "negative",
-      "score": -7.2,
-      "rationale": "미국은 상승한 모기지 금리와 규제 영향으로 주택 시장의 투자 환경이 악화되었으며, 아시아 지역에서도 가계대출 규제 혼선 및 부동산 시장 침체 대응이 리스크 요인으로 작용하고 있습니다.",
+      "score": -7.0,
+      "rationale": "미국의 모기지 금리 상승과 규제 강화로 인한 주택 투자 심리 위축이 지속되고 있으며, 중국 또한 대도시 고가 주택 거래 반등에도 불구하고 전체 부동산 시장의 구조적 회복에 대한 불확실성이 지속되고 있습니다.",
       "related_tickers": [
-        "VNQ",
-        "IYR"
+        "PLD",
+        "VNQ"
       ],
       "source_regions": [
         "US",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "중동 갈등 장기화로 인한 유가 및 연료비 상승 우려가 에너지 부문 기업들의 단기 매출 및 정제 마진 개선 기대감으로 연결되고 있습니다.",
+      "related_tickers": [
+        "XOM",
+        "CVX",
+        "SHEL"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "미국 주요 유통 업체의 실적 발표를 앞두고 소비 건전성에 대한 우려가 상존하는 가운데, 유럽 자동차 업계의 전기차 판매 목표 완화 검토와 노동법 개정으로 인한 비용 부담 가중이 부정적 요인으로 작용하고 있습니다.",
+      "related_tickers": [
+        "TSLA",
+        "RIVN",
+        "TGT"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Technology",
-      "note": "아시아(중국, 한국 등)에서는 자체 AI 모델 출시 및 신사업 추진 등 기술 경쟁력 강화가 긍정적인 반면, 미국과 유럽에서는 데이터 규제, AI 콘텐츠 활용 관련 리스크, 자금 조달 및 감가상각 비용 부담이 부각되며 대조를 보입니다."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국 자동차 및 유통 업계는 공급망 다변화와 비용 절감을 위한 파트너십 등으로 돌파구를 마련하고 있으나, 유럽은 전기차 판매 목표 완화 검토 등 환경 규제 및 정책 변화에 따른 부담이 가중되는 온도차를 보이고 있습니다."
+      "note": "미국과 아시아는 엔비디아 중심의 AI 금융 모델 혁신과 중국의 AI 인재 유치 등 기술 생태계 확장 모멘텀이 강한 반면, 유럽은 빅테크 기업들의 AI 학습 데이터 활용에 대한 사용자 반발 및 규제 리스크가 강화되며 하방 압력을 받고 있습니다."
     }
   ]
 }

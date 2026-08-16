@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Electric vehicle sales targets could be cut after pressure from car makers",
-      "summary": "The government says it is considering cutting the new electric car sales target from 80% to 50% by 2030.",
-      "link": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss",
+      "title": "Changing pubs into homes to be made harder under new rules",
+      "summary": "The rules will come into force on Monday along with other changes to planning policy.",
+      "link": "https://www.bbc.co.uk/news/articles/clyllg1v0kdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -33,15 +33,21 @@
       "source": "BBC Business"
     },
     {
-      "title": "US says dozens of countries helped China dodge Trump's tariffs",
-      "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
-      "link": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
       "title": "Protein or pickled garlic? What's new in ice cream",
       "summary": "There's a constant battle in ice cream to come up with new flavours and to keep costs down.",
       "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Electric vehicle sales targets could be cut after pressure from car makers",
+      "summary": "The government says it is considering cutting the new electric car sales target from 80% to 50% by 2030.",
+      "link": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
+      "link": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -115,22 +121,17 @@
       "summary": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
       "link": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "Burnham warned Iran war could hit UK growth next year",
-      "summary": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
-      "link": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "summary": "영국 및 유럽 시장은 중동 분쟁으로 인한 유가 및 에너지 비용 상승 압력과 함께, 전기차 판매 목표 완화 검토 등 자동차 섹터의 정책 변화에 직면해 있습니다. 또한 AI 기술 도입 확산에 따른 빅테크 규제 및 데이터 활용 논란이 지속되며 관련 산업 전반의 비용 부담이 커지고 있습니다.",
+  "summary": "영국 및 유럽 경제는 완만한 성장세를 보이고 있으나, 중동 갈등에 따른 에너지 가격 상승과 공급망 교란이 향후 경기 회복의 하방 압력으로 작용하고 있습니다. 특히 친환경 정책과 맞물린 자동차 산업의 전기차 판매 목표 조정 압박, 그리고 빅테크 기업들의 AI 데이터 활용 및 규제 이슈가 주요 섹터의 핵심 변수로 부각되고 있습니다.",
   "key_points": [
-    "전기차 판매 목표 하향 조정 압박 및 중동 분쟁에 따른 유가 상승이 자동차 및 에너지 섹터에 부담",
-    "빅테크 기업들의 AI 콘텐츠 활용 및 데이터 규제 관련 리스크 부각"
+    "중동 분쟁으로 인한 유가 및 연료비 상승이 물가 자극 및 공급망 차질 우려를 심화시키며 경제 성장 전망에 부담",
+    "영국 정부의 전기차 판매 목표치 완화 검토 및 노동법 개정에 따른 기업 비용 증가 압박 발생",
+    "아마존과 메타 등 빅테크 기업들의 AI 학습 데이터 활용 관련 사용자 반발 및 규제 리스크 대두"
   ],
   "sector_hints": [
     "Energy",
-    "Consumer Discretionary",
+    "Automotive",
     "Technology"
   ]
 }

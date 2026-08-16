@@ -5,6 +5,16 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+  # GITHUB_TOKEN으로 만든 커밋(아래 워크플로들의 자동 일일 커밋)은 push 이벤트로
+  # 다른 워크플로를 트리거하지 않는 GitHub의 기본 정책 때문에, docs/ 데이터가
+  # 갱신돼도 위 push 트리거만으로는 재배포되지 않는다. 해당 워크플로들이
+  # 끝날 때마다 명시적으로 재배포하도록 workflow_run으로 보완한다.
+  workflow_run:
+    workflows:
+      - "News & Investment Ideas — Daily"
+      - "Trend Following — Weekly Rebalancing"
+      - "Portfolio Daily Report"
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -18,6 +28,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

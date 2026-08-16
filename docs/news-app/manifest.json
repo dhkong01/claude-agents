@@ -1,0 +1,15 @@
+{
+  "name": "뉴스 · 투자아이디어",
+  "short_name": "NewsIdea",
+  "description": "미국·아시아·유럽 뉴스 종합 + 섹터 매핑 + 호라이즌별 투자 아이디어",
+  "start_url": "/claude-agents/news-app/",
+  "scope": "/claude-agents/news-app/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

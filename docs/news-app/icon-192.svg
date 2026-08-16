@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#0f172a"/>
+  <rect x="16" y="16" width="160" height="160" rx="24" fill="#1e293b"/>
+  <rect x="42" y="52" width="108" height="14" rx="3" fill="#f59e0b"/>
+  <rect x="42" y="76" width="108" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="42" y="90" width="80" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="42" y="110" width="46" height="30" rx="3" fill="#38bdf8"/>
+  <rect x="96" y="118" width="54" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="96" y="132" width="54" height="8" rx="2" fill="#94a3b8"/>
+  <text x="96" y="165" font-family="Arial" font-size="20" fill="#94a3b8" text-anchor="middle" font-weight="bold">NEWS</text>
+</svg>

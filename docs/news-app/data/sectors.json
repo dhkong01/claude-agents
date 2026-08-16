@@ -1,5 +1,59 @@
 {
   "date": "2026-08-16",
-  "sectors": [],
-  "conflicting_signals": []
+  "sectors": [
+    {
+      "name": "Semiconductors",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "글로벌 AI 반도체 수요가 급증하는 가운데 대만의 TSMC와 한국의 SK하이닉스 등 주요 아시아 파운드리 및 메모리 기업들의 기술 경쟁력 강화가 지속되고 있습니다. 미국 엔비디아의 새로운 자금 조달 모델 도입 등 공급망 안정 노력이 긍정적인 요인으로 작용하고 있습니다.",
+      "related_tickers": [
+        "NVDA",
+        "TSM",
+        "MU"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "미국의 모기지 금리 상승과 규제 강화로 주택 시장의 투자 심리가 위축되고 있으며, 중국 역시 일부 주요 도시의 럭셔리 주택 시장 회복 조짐에도 불구하고 전반적인 부동산 시장의 완전한 회복에는 불확실성이 지속되고 있습니다.",
+      "related_tickers": [
+        "VNQ",
+        "SPG",
+        "XLRE"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "중동 분쟁 등 지정학적 불안 요인이 지속되면서 글로벌 에너지 가격을 자극하고 있어, 에너지 공급망 차질 우려와 함께 에너지 기업들의 단기 수익성에 긍정적 영향이 기대됩니다.",
+      "related_tickers": [
+        "XLE",
+        "XOM",
+        "SHEL"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    }
+  ],
+  "conflicting_signals": [
+    {
+      "sector": "Technology",
+      "note": "미국과 아시아에서는 AI 및 신기술 개발을 중심으로 한 성장세와 자금 조달 모델 도입이 긍정적으로 작용하는 반면, 유럽에서는 빅테크의 AI 데이터 활용 및 저작권에 대한 규제 리스크가 강화되며 지역 간 온도차를 보이고 있습니다."
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "note": "중국에서는 EV 신모델 출시 및 내수 부양 노력이 이어지고 있으나, 미국에서는 관세 부담과 식품 안전 이슈에 따른 실적 타격 우려가 존재하고 유럽에서는 완성차 업계의 EV 판매 목표 하향 압박이 발생하는 등 혼조세를 보입니다."
+    }
+  ]
 }

@@ -125,9 +125,17 @@
         "source": "CNBC"
       }
     ],
-    "summary": "",
-    "key_points": [],
-    "sector_hints": []
+    "summary": "주택 시장은 모기지 금리 상승과 규제 우려로 어려움을 겪고 있으며, 인프라 및 공급망 부문에서는 GM의 대규모 부품 계약과 엔비디아의 AI 자금 조달 모델이 주목받고 있습니다. 소비재 및 리테일 부문은 식품 안전 이슈와 관세 부담에 따른 실적 타격 및 인수합병(M&A) 소식이 시장의 주요 변수로 작용하고 있습니다.",
+    "key_points": [
+      "모기지 금리 상승과 규제 강화로 주택 및 부동산 시장의 투자심리 위축",
+      "엔비디아의 AI 칩 담보 자금 조달 모델과 공급망 안정을 위한 주요 기업들의 행보 주목"
+    ],
+    "sector_hints": [
+      "Technology",
+      "Consumer Discretionary",
+      "Real Estate",
+      "Financials"
+    ]
   },
   "asia": {
     "date": "2026-08-16",
@@ -196,10 +204,16 @@
             "source": "한국경제"
           }
         ],
-        "summary": ""
+        "summary": "한국은 가공식품 및 서비스 물가 상승 압력이 지속되는 가운데, 금융당국의 가계대출 및 전세대출 규제 관련 정책 혼선이 이어지고 있습니다. 반도체 부문에서는 SK하이닉스가 AI 신사업 발굴을 강화하며 기술 경쟁력 확보에 주력하고 있습니다."
       },
       "JP": {
         "headlines": [
+          {
+            "title": "Japan's cat cafes find new ways to delight animal lovers",
+            "summary": "",
+            "link": "https://asia.nikkei.com/business/travel-leisure/japan-s-cat-cafes-find-new-ways-to-delight-animal-lovers",
+            "source": "Nikkei Asia"
+          },
           {
             "title": "No room for data centers? South Korea wants to build one underwater",
             "summary": "",
@@ -253,15 +267,9 @@
             "summary": "",
             "link": "https://asia.nikkei.com/economy/natural-disasters/at-least-47-dead-in-eastern-indonesia-earthquake-of-magnitude-7.7",
             "source": "Nikkei Asia"
-          },
-          {
-            "title": "Modi pitches 7 growth mantras, wants '50 Indian firms in Fortune 500'",
-            "summary": "",
-            "link": "https://asia.nikkei.com/politics/modi-pitches-7-growth-mantras-wants-50-indian-firms-in-fortune-500",
-            "source": "Nikkei Asia"
           }
         ],
-        "summary": ""
+        "summary": "일본은 인플레이션 압력 속에서 기업들이 단기 기업부채 보유를 확대하는 양상을 보이고 있습니다. 또한 토토(Toto) 등 주요 수출 기업들이 미국 시장을 겨냥한 마케팅을 강화하고 있으며, 다카이치 경제안보를 중심으로 한 대중국 외교 압력 대응이 주목받고 있습니다."
       },
       "TW": {
         "headlines": [
@@ -326,7 +334,7 @@
             "source": "Google News"
           }
         ],
-        "summary": ""
+        "summary": "대만은 글로벌 AI 반도체 수요 급증에 힘입어 TSMC를 중심으로 한 파운드리 생태계가 호조를 보이고 있으나, 고평가 논란 및 대형 기관 투자자들의 지분 조정이 병행되고 있습니다. 안보 측면에서는 중국발 사이버 공격 리스크가 지속적으로 부각되고 있습니다."
       },
       "CN": {
         "headlines": [
@@ -391,12 +399,21 @@
             "source": "SCMP Business"
           }
         ],
-        "summary": ""
+        "summary": "중국은 상하이 등 주요 도시의 럭셔리 주택 시장을 중심으로 부분적인 회복 조짐이 나타나고 있으나 전반적인 부동산 시장의 완전한 회복은 신중론이 우세합니다. AI 및 전기차(EV) 분야에서는 Zhipu의 신모델 발표와 스마트 엔터테인먼트 기능을 강화한 EV 출시 등 기술 자립과 내수 부양 노력이 병행되고 있습니다."
       }
     },
-    "summary": "",
-    "cross_country_themes": [],
-    "sector_hints": []
+    "summary": "아시아 주요국은 AI 및 반도체 산업의 지속적인 성장을 바탕으로 관련 인프라와 기술 개발에 총력을 기울이고 있습니다. 반면 중국의 부동산 시장 침체 우려와 미국 자산 및 통화정책 변화에 따른 글로벌 금융시장 변동성은 아시아 각국의 환율, 자본 흐름, 그리고 통화정책 운영에 복합적인 부담과 기회를 동시에 제공하고 있습니다.",
+    "cross_country_themes": [
+      "인공지능(AI) 및 반도체 생태계 확장",
+      "부동산 시장 및 내수 경기 회복의 불확실성",
+      "미국 통화정책 및 글로벌 자산 변동성에 대한 대응"
+    ],
+    "sector_hints": [
+      "Semiconductors",
+      "Real Estate",
+      "Electric Vehicles",
+      "Artificial Intelligence"
+    ]
   },
   "europe": {
     "date": "2026-08-16",
@@ -523,8 +540,15 @@
         "source": "BBC Business"
       }
     ],
-    "summary": "",
-    "key_points": [],
-    "sector_hints": []
+    "summary": "유럽 및 글로벌 시장은 지정학적 리스크로 인한 에너지 가격 변동성과 공급망 차질 우려가 경제 성장에 부담으로 작용하고 있습니다. 자동차 섹터는 전기차 판매 목표 하향 압박을 받고 있으며, 빅테크 기업들은 AI 데이터 활용 및 저작권 규제 강화로 인해 규제 리스크가 고조되고 있습니다.",
+    "key_points": [
+      "중동 분쟁 등 지정학적 불안이 에너지 가격을 자극하며 유럽 및 글로벌 경제 성장의 하방 압력으로 작용",
+      "완성차 업계의 반발로 전기차 보급 목표 완화 가능성이 제기되는 한편, 빅테크의 AI 데이터 활용에 대한 규제 및 반발 심화"
+    ],
+    "sector_hints": [
+      "Energy",
+      "Automotive",
+      "Technology"
+    ]
   }
 }

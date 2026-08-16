@@ -54,9 +54,28 @@ def run_pipeline(dry_run: bool = False) -> dict:
     export_app_data(us, asia, europe, sectors, ideas)
     print("      docs/news-app/data/{regions,sectors,ideas}.json 저장 완료")
 
+    checks = {
+        "미국 요약": bool(us.get("summary")),
+        "아시아 요약": bool(asia.get("summary")) or any(v.get("summary") for v in asia.get("countries", {}).values()),
+        "유럽 요약": bool(europe.get("summary")),
+        "섹터 매핑": bool(sectors.get("sectors")),
+        "투자 아이디어": any(ideas.get("horizons", {}).values()),
+    }
+    ok_count = sum(checks.values())
+
     print(f"\n{'='*60}")
-    print("  파이프라인 완료")
+    print(f"  Gemini 종합 결과: {ok_count}/5 단계 성공")
+    for name, ok in checks.items():
+        print(f"    [{'OK' if ok else 'FAIL'}] {name}")
     print(f"{'='*60}\n")
+
+    if not dry_run and ok_count == 0:
+        print(
+            "[run_pipeline] 5개 단계 전부 실패 — RSS 수집은 됐지만 Gemini 종합이 전혀 반영되지 않았습니다.\n"
+            "               GEMINI_API_KEY 시크릿 값/이름과 위 [gemini_client] 오류 로그를 확인하세요.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     return {"us": us, "asia": asia, "europe": europe, "sectors": sectors, "ideas": ideas}
 

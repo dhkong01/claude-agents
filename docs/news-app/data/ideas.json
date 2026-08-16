@@ -1,16 +1,7 @@
 {
   "date": "2026-08-16",
   "horizons": {
-    "1w": [
-      {
-        "theme": "샘플 아이디어 — 실제 데이터 대기 중",
-        "sectors": ["Technology"],
-        "tickers": [],
-        "rationale": "GEMINI_API_KEY 시크릿 등록 후 첫 파이프라인 실행이 완료되면 실제 투자 아이디어로 교체됩니다.",
-        "risk": "",
-        "conviction": "low"
-      }
-    ],
+    "1w": [],
     "1m": [],
     "3m": [],
     "6m": [],

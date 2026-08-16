@@ -1,14 +1,5 @@
 {
   "date": "2026-08-16",
-  "sectors": [
-    {
-      "name": "Technology",
-      "direction": "neutral",
-      "score": 0,
-      "rationale": "샘플 데이터입니다. GEMINI_API_KEY 시크릿 등록 후 첫 파이프라인 실행이 완료되면 실제 섹터 매핑으로 교체됩니다.",
-      "related_tickers": [],
-      "source_regions": []
-    }
-  ],
+  "sectors": [],
   "conflicting_signals": []
 }

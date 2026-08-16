@@ -1,32 +1,33 @@
 {
-  "date": "2026-08-15",
-  "risk_score": 7.0,
+  "date": "2026-08-16",
+  "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 1,
-  "medium_risk_signals": 3,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 5,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
+    "Semiconductors": "ELEVATED",
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
+    "As Iran War Turns Into Economic Battle, A New U.S. Strategy Recalls Old Ones",
     "Syrian Convicted In Austria Of Civil War Abuses Is Detained In Syria",
-    "Wary Of Trump, Europe Seeks Role In Eventual Russia-Ukraine Talks",
     "Heat Deaths In A \u2018Cold\u2019 Country Are A Warning To The Rest Of Europe"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
-    "long_pct": 40,
-    "sqqq_pct": 15,
-    "cash_pct": 45,
-    "per_stock_pct": 8.0,
-    "action": "DEFENSIVE",
+    "long_pct": 15,
+    "sqqq_pct": 25,
+    "cash_pct": 60,
+    "per_stock_pct": 3.0,
+    "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
+      "Semiconductors",
       "Defense"
     ],
-    "reasoning": "Risk 7.0 \u2014 SQQQ 15% \ubc29\uc5b4 \ud3ec\uc9c0\uc158, \ud604\uae08 45% \uc720\uc9c0. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 25% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Semiconductors, Defense ELEVATED]"
   }
 }

@@ -1,19 +1,19 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 2,
-  "medium_risk_signals": 5,
+  "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "ELEVATED",
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "As Iran War Turns Into Economic Battle, A New U.S. Strategy Recalls Old Ones",
-    "Syrian Convicted In Austria Of Civil War Abuses Is Detained In Syria",
-    "Heat Deaths In A \u2018Cold\u2019 Country Are A Warning To The Rest Of Europe"
+    "Iran\u2019S Supreme Leader Signals Intention To Keep Country On A War Footing",
+    "How Ukraine\u2019S Satellites Help Drive Its War Drones",
+    "U.S. And Iran Blow Through Deadline To Agree To A Broad Deal To End War"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

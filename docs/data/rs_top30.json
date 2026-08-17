@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "rs90_count": 10,
   "stocks": [
     {
@@ -23,11 +23,11 @@
       "rs_rating": 95.1
     },
     {
-      "ticker": "INTC",
+      "ticker": "MRVL",
       "rs_rating": 94.1
     },
     {
-      "ticker": "MRVL",
+      "ticker": "INTC",
       "rs_rating": 93.1
     },
     {
@@ -35,7 +35,7 @@
       "rs_rating": 92.1
     },
     {
-      "ticker": "PANW",
+      "ticker": "AMAT",
       "rs_rating": 91.2
     },
     {
@@ -43,7 +43,7 @@
       "rs_rating": 90.2
     },
     {
-      "ticker": "AMAT",
+      "ticker": "PANW",
       "rs_rating": 89.2
     },
     {
@@ -55,19 +55,19 @@
       "rs_rating": 87.2
     },
     {
-      "ticker": "FTNT",
+      "ticker": "ASML",
       "rs_rating": 86.3
     },
     {
-      "ticker": "ASML",
+      "ticker": "FTNT",
       "rs_rating": 85.3
     },
     {
-      "ticker": "DDOG",
+      "ticker": "KLAC",
       "rs_rating": 84.3
     },
     {
-      "ticker": "KLAC",
+      "ticker": "DDOG",
       "rs_rating": 83.3
     },
     {
@@ -75,60 +75,60 @@
       "rs_rating": 82.3
     },
     {
-      "ticker": "DXCM",
+      "ticker": "WBD",
       "rs_rating": 81.4
     },
     {
-      "ticker": "ROST",
+      "ticker": "CSCO",
       "rs_rating": 80.4
     },
     {
-      "ticker": "WBD",
+      "ticker": "DXCM",
       "rs_rating": 79.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "ROST",
       "rs_rating": 78.4
     },
     {
-      "ticker": "SHOP",
+      "ticker": "AMGN",
       "rs_rating": 77.4
     },
     {
-      "ticker": "AXON",
+      "ticker": "TXN",
       "rs_rating": 76.5
     },
     {
-      "ticker": "AMGN",
+      "ticker": "ADI",
       "rs_rating": 75.5
     },
     {
-      "ticker": "ADI",
+      "ticker": "MPWR",
       "rs_rating": 74.5
     },
     {
-      "ticker": "TXN",
+      "ticker": "AXON",
       "rs_rating": 73.5
     },
     {
-      "ticker": "WDAY",
+      "ticker": "CSX",
       "rs_rating": 72.5
     },
     {
-      "ticker": "CSX",
+      "ticker": "SHOP",
       "rs_rating": 71.6
     },
     {
-      "ticker": "PYPL",
+      "ticker": "FANG",
       "rs_rating": 70.6
     }
   ],
   "portfolio_rs": {
-    "TSLA": 10.8,
-    "PLTR": 58.8,
-    "VKTX": 29.4,
-    "META": 14.7,
-    "MRVL": 93.1,
+    "TSLA": 11.8,
+    "PLTR": 62.7,
+    "VKTX": 54.9,
+    "META": 15.7,
+    "MRVL": 94.1,
     "ARM": 88.2,
     "LRCX": 90.2
   }

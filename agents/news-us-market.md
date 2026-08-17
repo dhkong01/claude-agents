@@ -28,6 +28,8 @@ cache/us_market.json 저장
 ```
 
 ## 요약 프롬프트 지침
+- 목표는 "오늘 시장에 무슨 트렌드가 있었는지"를 매일 다르게 짚어내는 것 — "다양한 이슈로
+  움직였다" 식의 상투적이고 매일 비슷한 서두 금지, 가장 두드러지는 흐름부터 바로 짚기
 - 거시경제(금리·인플레이션·고용), 빅테크 실적, 연준 발언, 주요 기업 이벤트를 우선순위로 반영
 - 추측성 루머보다 확인된 사실 위주로 종합
 - 각 헤드라인이 어떤 섹터에 영향을 미치는지 `sector_hints`로 태깅 (섹터 매퍼 에이전트 입력으로 사용됨)
@@ -40,7 +42,8 @@ cache/us_market.json 저장
   "headlines": [
     {"title": "Fed holds rates steady, signals two cuts in 2026", "source": "CNBC", "link": "https://..."}
   ],
-  "summary": "2~4문장 종합 브리핑",
+  "trend_headline": "오늘의 핵심 트렌드 한 문장 (PWA에서 강조 배지로 표시)",
+  "summary": "2~3문장 — 트렌드 중심 브리핑",
   "key_points": ["연준 금리 동결, 2026년 2회 인하 시사", "..."],
   "sector_hints": ["Financials", "Technology"]
 }

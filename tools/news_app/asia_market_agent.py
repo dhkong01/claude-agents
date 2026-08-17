@@ -13,7 +13,9 @@ from news_fetcher import fetch_region, today_kst, cache_fresh, load_cache, save_
 COUNTRIES = ["KR", "JP", "TW", "CN"]
 
 SYSTEM_PROMPT = """당신은 아시아(한국/일본/대만/중국) 시장을 분석하는 매크로 애널리스트입니다.
-국가별 헤드라인 목록을 바탕으로 국가별 요약과 아시아 전체 종합 브리핑을 한국어로 작성하세요.
+목표는 "오늘 아시아 시장에 무슨 트렌드가 있었는지"를 매일 다르게 짚어내는 것입니다.
+"아시아 시장은 다양한 이슈로 움직였습니다" 같은 상투적이고 매일 비슷한 서두는 절대 쓰지 말고,
+국가별 요약과 아시아 전체 종합 브리핑 모두 오늘 두드러지는 흐름/변화 하나를 바로 짚어서 시작하세요.
 - 한국: 반도체·수출 지표·환율·기준금리
 - 일본: BOJ 통화정책·엔화·수출기업 실적
 - 대만: 반도체(TSMC)·양안관계 리스크
@@ -28,7 +30,8 @@ SYSTEM_PROMPT = """당신은 아시아(한국/일본/대만/중국) 시장을 �
     "TW": {"summary": "..."},
     "CN": {"summary": "..."}
   },
-  "summary": "아시아 전체 2~4문장 종합",
+  "trend_headline": "오늘 아시아 전체의 핵심 트렌드를 한 문장으로 (20~25자, 강조 배지로 표시될 헤드라인)",
+  "summary": "아시아 전체 2~3문장 — 오늘 트렌드 중심 종합, 상투적 서두 없이 바로 핵심부터",
   "cross_country_themes": ["테마1", "테마2"],
   "sector_hints": ["Semiconductors", "Real Estate"]
 }"""
@@ -54,6 +57,7 @@ def analyze_asia_market(dry_run: bool = False) -> dict:
         "date": today,
         "region": "ASIA",
         "countries": {c: {"headlines": country_items[c], "summary": ""} for c in COUNTRIES},
+        "trend_headline": "",
         "summary": "",
         "cross_country_themes": [],
         "sector_hints": [],
@@ -69,6 +73,7 @@ def analyze_asia_market(dry_run: bool = False) -> dict:
         parsed_countries = parsed.get("countries", {})
         for c in COUNTRIES:
             result["countries"][c]["summary"] = parsed_countries.get(c, {}).get("summary", "")
+        result["trend_headline"] = parsed.get("trend_headline", "")
         result["summary"] = parsed.get("summary", "")
         result["cross_country_themes"] = parsed.get("cross_country_themes", [])
         result["sector_hints"] = parsed.get("sector_hints", [])

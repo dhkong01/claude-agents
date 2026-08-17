@@ -28,6 +28,8 @@ cache/europe_market.json 저장
 ```
 
 ## 요약 프롬프트 지침
+- 목표는 "오늘 유럽에 무슨 트렌드가 있었는지"를 매일 다르게 짚어내는 것 — 상투적이고 매일
+  비슷한 서두 금지, 가장 두드러지는 흐름부터 바로 짚기
 - ECB 통화정책·유로존 인플레이션·독일/프랑스 경기지표를 우선순위로 반영
 - EU 규제(반독점·AI법·관세)가 특정 섹터(빅테크·자동차·에너지)에 미치는 영향 명시
 - 우크라이나 전쟁·에너지 수급 등 지정학 이슈는 Energy/Defense 섹터 시사점 위주로 요약 (지정학 리스크
@@ -41,7 +43,8 @@ cache/europe_market.json 저장
   "headlines": [
     {"title": "ECB holds rates, flags energy price risks", "source": "Euronews", "link": "https://..."}
   ],
-  "summary": "2~4문장 종합 브리핑",
+  "trend_headline": "오늘의 핵심 트렌드 한 문장 (PWA에서 강조 배지로 표시)",
+  "summary": "2~3문장 — 트렌드 중심 브리핑",
   "key_points": ["ECB 금리 동결, 에너지 가격 리스크 경고", "..."],
   "sector_hints": ["Energy", "Financials"]
 }

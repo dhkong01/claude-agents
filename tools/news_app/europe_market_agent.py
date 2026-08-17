@@ -11,7 +11,9 @@ from gemini_client import call_gemini_json, MODEL_LIGHT
 from news_fetcher import fetch_region, today_kst, cache_fresh, load_cache, save_cache
 
 SYSTEM_PROMPT = """당신은 유럽 시장·정책을 분석하는 매크로 애널리스트입니다.
-주어진 헤드라인 목록을 바탕으로 실제 시장에 의미있는 종합 브리핑을 한국어로 작성하세요.
+목표는 "오늘 유럽에 무슨 트렌드가 있었는지"를 매일 다르게 짚어내는 것입니다.
+"유럽 시장은 다양한 이슈로 움직였습니다" 같은 상투적이고 매일 비슷한 서두는 절대 쓰지 말고,
+오늘 헤드라인들 중 가장 두드러지는 흐름/변화 하나를 바로 짚어서 시작하세요.
 ECB 통화정책·유로존 인플레이션·독일/프랑스 경기지표를 우선순위로 반영하고,
 EU 규제(반독점·AI법·관세)가 특정 섹터(빅테크·자동차·에너지)에 미치는 영향을 명시하세요.
 지정학 이슈(우크라이나 전쟁 등)는 자체 리스크 스코어링이 아니라 Energy/Defense 섹터
@@ -19,8 +21,9 @@ EU 규제(반독점·AI법·관세)가 특정 섹터(빅테크·자동차·에�
 반드시 아래 JSON 스키마로만 응답하고 다른 설명은 절대 추가하지 마세요.
 
 {
-  "summary": "2~4문장 종합 브리핑",
-  "key_points": ["핵심 포인트1", "핵심 포인트2"],
+  "trend_headline": "오늘의 핵심 트렌드를 한 문장으로 (20~25자, 강조 배지로 표시될 헤드라인)",
+  "summary": "2~3문장 — 오늘 트렌드 중심 브리핑, 상투적 서두 없이 바로 핵심부터",
+  "key_points": ["구체적 수치/고유명사가 들어간 핵심 포인트1", "핵심 포인트2", "핵심 포인트3"],
   "sector_hints": ["Energy", "Financials"]
 }"""
 
@@ -38,6 +41,7 @@ def analyze_europe_market(dry_run: bool = False) -> dict:
         "date": today,
         "region": "EUROPE",
         "headlines": items[:20],
+        "trend_headline": "",
         "summary": "",
         "key_points": [],
         "sector_hints": [],
@@ -49,6 +53,7 @@ def analyze_europe_market(dry_run: bool = False) -> dict:
 
     parsed = call_gemini_json(SYSTEM_PROMPT, _build_user_prompt(items), model=MODEL_LIGHT)
     if parsed:
+        result["trend_headline"] = parsed.get("trend_headline", "")
         result["summary"] = parsed.get("summary", "")
         result["key_points"] = parsed.get("key_points", [])
         result["sector_hints"] = parsed.get("sector_hints", [])

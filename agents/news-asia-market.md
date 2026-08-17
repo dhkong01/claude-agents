@@ -29,6 +29,8 @@ cache/asia_market.json 저장
 ```
 
 ## 요약 프롬프트 지침
+- 목표는 "오늘 아시아에 무슨 트렌드가 있었는지"를 매일 다르게 짚어내는 것 — 상투적이고 매일
+  비슷한 서두 금지, 가장 두드러지는 흐름부터 바로 짚기
 - 한국: 반도체·수출 지표·환율·기준금리
 - 일본: BOJ 통화정책·엔화·수출기업 실적
 - 대만: 반도체(TSMC)·양안관계 리스크
@@ -46,7 +48,8 @@ cache/asia_market.json 저장
     "TW": {"headlines": [...], "summary": "..."},
     "CN": {"headlines": [...], "summary": "..."}
   },
-  "summary": "아시아 전체 2~4문장 종합",
+  "trend_headline": "오늘 아시아 전체 핵심 트렌드 한 문장 (PWA에서 강조 배지로 표시)",
+  "summary": "아시아 전체 2~3문장 — 트렌드 중심 종합",
   "cross_country_themes": ["반도체 수출 회복", "중국 부동산 규제 완화 신호"],
   "sector_hints": ["Semiconductors", "Real Estate"]
 }

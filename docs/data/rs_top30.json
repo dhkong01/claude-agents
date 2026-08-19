@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "rs90_count": 10,
   "stocks": [
     {
@@ -35,11 +35,11 @@
       "rs_rating": 92.1
     },
     {
-      "ticker": "AMAT",
+      "ticker": "PANW",
       "rs_rating": 91.2
     },
     {
-      "ticker": "PANW",
+      "ticker": "AMAT",
       "rs_rating": 90.2
     },
     {
@@ -47,31 +47,31 @@
       "rs_rating": 89.2
     },
     {
-      "ticker": "CRWD",
+      "ticker": "FTNT",
       "rs_rating": 88.2
     },
     {
-      "ticker": "FTNT",
+      "ticker": "CRWD",
       "rs_rating": 87.2
     },
     {
-      "ticker": "ARM",
+      "ticker": "ASML",
       "rs_rating": 86.3
     },
     {
-      "ticker": "ASML",
+      "ticker": "ARM",
       "rs_rating": 85.3
     },
     {
-      "ticker": "DDOG",
+      "ticker": "ABNB",
       "rs_rating": 84.3
     },
     {
-      "ticker": "KLAC",
+      "ticker": "DDOG",
       "rs_rating": 83.3
     },
     {
-      "ticker": "ABNB",
+      "ticker": "KLAC",
       "rs_rating": 82.3
     },
     {
@@ -79,11 +79,11 @@
       "rs_rating": 81.4
     },
     {
-      "ticker": "DXCM",
+      "ticker": "AXON",
       "rs_rating": 80.4
     },
     {
-      "ticker": "AXON",
+      "ticker": "AMGN",
       "rs_rating": 79.4
     },
     {
@@ -95,41 +95,41 @@
       "rs_rating": 77.4
     },
     {
-      "ticker": "AMGN",
+      "ticker": "DXCM",
       "rs_rating": 76.5
     },
     {
-      "ticker": "CSX",
+      "ticker": "VRTX",
       "rs_rating": 75.5
     },
     {
-      "ticker": "FANG",
+      "ticker": "CSX",
       "rs_rating": 74.5
     },
     {
-      "ticker": "SHOP",
+      "ticker": "WDAY",
       "rs_rating": 73.5
     },
     {
-      "ticker": "TXN",
+      "ticker": "REGN",
       "rs_rating": 72.5
     },
     {
-      "ticker": "REGN",
+      "ticker": "FANG",
       "rs_rating": 71.6
     },
     {
-      "ticker": "VRTX",
+      "ticker": "PYPL",
       "rs_rating": 70.6
     }
   ],
   "portfolio_rs": {
     "TSLA": 13.7,
-    "PLTR": 59.8,
-    "VKTX": 51.0,
-    "META": 11.8,
+    "PLTR": 63.7,
+    "VKTX": 61.8,
+    "META": 10.8,
     "MRVL": 94.1,
-    "ARM": 86.3,
+    "ARM": 85.3,
     "LRCX": 89.2
   }
 }

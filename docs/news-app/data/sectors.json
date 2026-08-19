@@ -1,61 +1,90 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "sectors": [
     {
-      "name": "Financials",
+      "name": "Semiconductors",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "글로벌 국채 금리 상승에 따른 금융기관의 마진 개선 기대감과 함께 중국 당국의 홍콩 자산 투자 독려 정책, 미국 내 활발한 M&A 이벤트 등이 금융 섹터에 긍정적인 환경을 조성하고 있습니다.",
+      "score": 8.5,
+      "rationale": "TSMC의 AI 반도체 수요 집중으로 인한 공급 병목과 삼성전자의 파운드리 가격 인상 등 글로벌 반도체 밸류체인의 가격 결정력 강화가 돋보입니다. 또한 마블 테크놀로지의 구글 칩 수주 소식이 긍정적 촉매로 작용하고 있습니다.",
       "related_tickers": [
-        "JPM",
-        "GS",
-        "HSBC"
+        "TSM",
+        "MRVL",
+        "NVDA"
       ],
       "source_regions": [
         "US",
-        "ASIA",
-        "EU"
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "일본 기업들의 데이터센터 및 물리적 AI 인프라 투자 확대와 중국 상하이의 블록체인·AI 중심 디지털 경제 마스터플랜 발표 등 아시아 중심의 기술 투자 모멘텀이 강합니다. 미국의 전통 소프트웨어주 AI 우려 완화도 긍정적입니다.",
+      "related_tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 7.8,
+      "rationale": "모더나의 mRNA 개인맞춤형 암 백신 임상 성공이 바이오파마 섹터의 강한 랠리를 유도했으며, 한국 시장에서도 바이오헬스케어 수출 모멘텀이 증시 하단을 지지하는 등 긍정적 흐름이 이어지고 있습니다.",
+      "related_tickers": [
+        "MRNA",
+        "MRK"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "미국의 주택 시장 침체와 고금리 압박으로 홈 디포, 로우스 등 주요 홈 임프루브먼트 기업들의 실적 전망이 불투명해졌고, 유럽의 에너지 가격 상승에 따른 가계 실질 구매력 압박 역시 소비재 섹터에 부담입니다.",
+      "related_tickers": [
+        "HD",
+        "LOW"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "중동의 호르무즈 지정학적 리스크로 인한 고유가 고착화 가능성과 유럽의 물가 상승 압력 요인 중 하나로 오일 가격 상승이 지목되면서 에너지 섹터에 수혜로 작용하고 있습니다.",
+      "score": 6.0,
+      "rationale": "이란발 지정학적 충격으로 인한 에너지 가격 급등이 유럽 인플레이션을 자극하고 있어, 원유 및 가스 관련 에너지 생산 기업들의 단기 매출 및 정제 마진 개선에 유리한 환경이 조성되고 있습니다.",
       "related_tickers": [
         "XOM",
         "CVX",
         "BP"
       ],
       "source_regions": [
-        "ASIA",
-        "EU"
+        "EUROPE"
       ]
     },
     {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "미국 국채 금리 상승과 고밸류에이션 부담으로 테크주가 조정 압력을 받고 있으며, 유럽에서도 금리 급등에 따른 차입 비용 상승이 자본 집약적인 빅테크 기업들의 마진 압박 요인으로 부각되고 있습니다.",
+      "name": "Financials",
+      "direction": "neutral",
+      "score": 0.5,
+      "rationale": "유럽 채권 금리 상승은 은행들의 순이자마진(NIM) 확보에 긍정적일 수 있으나, 고금리 장기화 우려 속에 기업들의 자금 조달 비용 증가와 국채 시장의 높은 변동성은 잠재적 리스크 요인으로 작용해 영향이 제한적입니다.",
       "related_tickers": [
-        "MSFT",
-        "AAPL",
-        "SAP"
+        "JPM",
+        "BARC"
       ],
       "source_regions": [
-        "US",
-        "EU"
+        "EUROPE"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Semiconductors",
-      "note": "미국은 국채 금리 급등과 고밸류 부담으로 반도체주가 숨고르기 국면에 진입했으나, 아시아(대만)에서는 월가 자본이 TSMC 지분을 크게 확대하는 등 글로벌 반도체 동맹 재편 기대감이 교차하고 있습니다."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국은 홈디포의 깜짝 실적과 웬디스 M&A 소식으로 소비재 투자 심리가 긍정적인 반면, 일본 등 아시아 지역은 엔저 장기화로 인한 중산층의 실질 구매력 저하 우려가 상존하고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

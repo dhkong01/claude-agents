@@ -1,17 +1,113 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Global borrowing costs hit fresh highs on oil, AI and inflation",
+      "title": "Inflation is heating up but don't expect another crisis",
+      "summary": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
+      "link": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
+      "summary": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
+      "link": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Trainline, Virgin Atlantic and RED Driving School investigated over 'drip pricing'",
+      "summary": "The consumer watchdog said they were trying to find out if the three companies were not showing full prices upfront to customers.",
+      "link": "https://www.bbc.co.uk/news/articles/cwyjqe62574o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "US long-term borrowing costs ease after government steps in",
+      "summary": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
+      "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Track defect found near derailment site - report",
+      "summary": "Initial findings from an RAIB investigation show an \"irregularity\" at the site near Lewes.",
+      "link": "https://www.bbc.co.uk/news/articles/c4gx12v8z51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "The critical tech staying safe by going underground",
+      "summary": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
+      "link": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "'Banned over a pair of £2 sandals': Why some sellers are complaining about Vinted",
+      "summary": "Several thousands of Vinted users say they have been wrongly suspended or permanently banned from the preloved app.",
+      "link": "https://www.bbc.co.uk/news/articles/cx2kwnrn5zpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "US retail giant receives $1bn boost from tariff refunds",
+      "summary": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
+      "link": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "81,000 warning letters sent to crypto holders in HMRC tax crackdown",
+      "summary": "According to a Freedom of Information (FOI) request the number of letters sent has almost tripled since 2024.",
+      "link": "https://www.bbc.co.uk/news/articles/c0ej09nywdno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Canada and US say they are finalising a trade deal, but details remain murky",
+      "summary": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
+      "link": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "OpenAI slows down training after its AI carried out hack",
+      "summary": "The ChatGPT-maker said training will be slowed for two weeks while it puts the upgrades in place.",
+      "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Monzo says issue with card payments and transfers now resolved",
+      "summary": "The digital bank said all of its services were now \"back up and running\"",
+      "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Mobile payments on the rise but cash decline slows",
+      "summary": "Nine in 10 mobile wallet users have their debit card loaded as their default payment method, new data shows.",
+      "link": "https://www.bbc.co.uk/news/articles/cd7l9en2qrjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Global borrowing costs hit fresh highs over oil, AI and inflation concerns",
       "summary": "Interest rates on long-term US, UK, German and Japanese government debt have soared.",
       "link": "https://www.bbc.co.uk/news/articles/c1k1x1zdywdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Job vacancies at five-year low as smaller firms scale back recruitment",
-      "summary": "Small firms cite labour and operating costs as reasons for scaling back hiring, the UK's statistics body says.",
-      "link": "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss",
+      "title": "Overhaul for Belfast cranes ahead of major contract",
+      "summary": "It is part of an investment of almost £100m as Harland & Wolff's Spanish owners prepare it for a major defence contract.",
+      "link": "https://www.bbc.co.uk/news/articles/cedj7je0zlzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
+      "summary": "The US president says the two sides are finalising documents to avert import taxes targeting a range of Canadian goods.",
+      "link": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Chinese robotics giant Unitree soars in stock market debut",
+      "summary": "Shares in the world's biggest humanoid robot maker started trading on Shanghai's Star market on Wednesday.",
+      "link": "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Meta hooked children on Facebook and Instagram, US court hears",
+      "summary": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states started.",
+      "link": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -21,118 +117,21 @@
       "source": "BBC Business"
     },
     {
-      "title": "'I'm in Barbados': The dos and don'ts of writing an out-of-office reply",
-      "summary": "As we hit peak holiday season, the BBC looks at the dos and don'ts of composing a good out-of-office message.",
-      "link": "https://www.bbc.co.uk/news/articles/c934xy32919o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "From jumpers to slug pellets - how British wool is back in demand",
-      "summary": "An increased demand in wool has meant prices have increased more than 70% in the last year.",
-      "link": "https://www.bbc.co.uk/news/articles/c8xnkjwdn5wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Carney's final chance to convince Trump as US-Canada trade deadline looms",
-      "summary": "Negotiators want a deal to avoid fresh US tariffs - though Canadians are not in the mood to offer many concessions.",
-      "link": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
       "title": "American Airlines to bring back TV screens on US flights",
       "summary": "It is also adding more premium seats, with the changes aimed at improving the travel experience and boosting revenue.",
       "link": "https://www.bbc.co.uk/news/articles/c70glp55y95o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
-      "summary": "The network accuses the administration of retaliating against ABC because it \"disapproves of what ABC broadcasts\".",
-      "link": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "AI to help planes avoid climate-warming 'sky graffiti'",
-      "summary": "A new UK trial hopes to reduce the condensation trails from planes, which can trap heat in the Earth's atmosphere.",
-      "link": "https://www.bbc.co.uk/news/articles/c62em5lpvnjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "US states call for big changes to Instagram and Facebook as Meta child privacy trial begins",
-      "summary": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
-      "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Ferguson shipyard to cut a quarter of its workforce",
-      "summary": "The state-owned yard on the Clyde will lose 70 of its 283 staff through a voluntary redundancy process as it awaits confirmation of promised new orders.",
-      "link": "https://www.bbc.co.uk/news/articles/c20e2qe1lqpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Disabled people in England to get 24-hour free bus travel",
-      "summary": "The change, which has been welcomed by campaign groups, will come into effect in England from April.",
-      "link": "https://www.bbc.co.uk/news/articles/cjwx5vx21y2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Film commission backs Amazon MGM expansion of Berkshire studios",
-      "summary": "The Berkshire film studio was previously home to iconic horror studio Hammer Films.",
-      "link": "https://www.bbc.co.uk/news/articles/c9d8wjvd2q4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Does Reform's plan to cut £50bn in welfare spending add up?",
-      "summary": "BBC Verify breaks down what the party says it wants to do to cut the benefits bill - and how realistic it is.",
-      "link": "https://www.bbc.co.uk/news/articles/crl76jkxel3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Fifa official sacked after Infantino plan criticism",
-      "summary": "Senior Fifa figure Kevin Lamour is sacked by football's world governing body three weeks after criticising its president Gianni Infantino.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Virgin takes step towards running Channel Tunnel rail services",
-      "summary": "Firm wants to run up to 20 daily journeys to Europe but it must get additional approval for overseas tracks.",
-      "link": "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "How switching your bank account could earn you up to £220",
-      "summary": "New research suggests staying put is costing British savers billions in missed interest every year.",
-      "link": "https://www.bbc.co.uk/news/articles/c5y3ex8ry82o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Ferrari's first ever electric car sold for record $40m",
-      "summary": "The Luce's launch drew backlash from some commentators who said it broke from the brand's signature dramatic styling.",
-      "link": "https://www.bbc.co.uk/news/articles/c77ggpgrp2do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Changing pubs into homes to be made harder under new rules",
-      "summary": "The rules will come into force on Monday along with other changes to planning policy.",
-      "link": "https://www.bbc.co.uk/news/articles/clyllg1v0kdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Sainsbury's branch halts AI use as shopper ejected",
-      "summary": "Matt Arnold says he was asked to leave the store after being wrongly flagged as a shoplifter.",
-      "link": "https://www.bbc.co.uk/news/articles/cddjlmeqjgyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "글로벌 차입비용 급등과 인플레이션 압박 심화",
-  "summary": "미국, 영국, 독일 등 주요국의 장기 국채 금리가 오일 가격 상승과 AI 투자 및 인플레이션 압박으로 인해 연초 최고치를 경신했습니다. 이는 기업들의 자금 조달 비용을 높이며 전반적인 경제 활동에 부담으로 작용하고 있습니다.",
+  "trend_headline": "에너지 요금 급등이 촉발한 글로벌 금리 상승 압박",
+  "summary": "지정학적 리스크로 인한 에너지 비용 상승이 인플레이션을 자극하며 영국 등 주요국의 채권 금리를 연고점 부근으로 끌어올렸습니다. 이는 가계의 실질 구매력을 압박하는 동시에 국채 시장의 변동성을 확대시키는 주요 요인으로 작용하고 있습니다.",
   "key_points": [
-    "미국, 영국, 독일, 일본 국채의 장기 금리가 오일, AI, 인플레이션 압박 속에서 일제히 급등했습니다.",
-    "중소기업들은 높은 차입 비용과 인건비 부담으로 인해 채용을 5년 만의 최저 수준으로 축소하고 있습니다.",
-    "글로벌 차입 비용 상승은 자본 집약적인 빅테크와 제조업 섹터의 마진 압박을 심화시키고 있습니다."
+    "영국 인플레이션율이 에너지 요금 급등 여파로 4개월 만에 최고치인 2.9%를 기록했습니다.",
+    "이란발 지정학적 충격이 에너지 가격을 자극하며 글로벌 장기 국채 금리 상승을 주도했습니다.",
+    "고금리 장기화 우려 속에서 기업들은 자금 조달 비용 증가와 채권 시장 변동성 확대에 직면해 있습니다."
   ],
   "sector_hints": [
-    "Financials",
     "Energy",
-    "Technology"
+    "Financials"
   ]
 }

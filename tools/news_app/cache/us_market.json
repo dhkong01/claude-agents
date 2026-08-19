@@ -1,7 +1,19 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "region": "US",
   "headlines": [
+    {
+      "title": "Target says its turnaround is picking up steam, with help from a big tariff refund",
+      "summary": "Target posted better-than-expected fiscal second-quarter sales and raised its full-year outlook.",
+      "link": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Lowe s gives muted outlook as it sees pressure in home improvement spending",
+      "summary": "Lowe's reported mixed quarterly results as the retailer said it continued to see pressure in home improvement spending.",
+      "link": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
+      "source": "CNBC"
+    },
     {
       "title": "Hims & Hers CEO says FTC lawsuit misunderstands how the company works",
       "summary": "Hims & Hers CEO Andrew Dudum spoke to CNBC about the FTC's lawsuit against the company, compounded GLP-1 drugs and AI.",
@@ -109,30 +121,18 @@
       "summary": "Venture capital founder Joshua Kushner and former Disney CEO Bob Iger acquire Mark Walter's stake in Los Angeles Lakers at valuation of more than $12 billion.",
       "link": "https://www.cnbc.com/2026/08/12/bob-iger-joshua-kushner-buy-los-angeles-lakers-from-mark-walter.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Wendy s stock jumps on report of potential takeover bid from Nelson Peltz s Trian Fund Management",
-      "summary": "Peltz's relationship with Wendy's dates back to an activist campaign he led more than two decades ago.",
-      "link": "https://www.cnbc.com/2026/08/12/wendys-stock-jumps-on-nelson-peltz-takeover-bid-report.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
-      "summary": "Nvidia CEO Jensen Huang is pitching GPUs as long-term collateral to unlock $500 billion in funding. The question is how fast will his chips depreciate?",
-      "link": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "AI 칩 고점 우려 속 홈디포 실적 호조와 인수합병 열기",
-  "summary": "AI 칩 및 반도체 관련주가 높은 기대감과 국채 금리 상승 여파로 숨고르기에 들어간 가운데, 홈디포는 주택 경기 침체 속에서도 시장 예상을 웃도는 실적을 발표하며 선방했습니다. 한편, 웬디스의 경영권 인수 추진 보도와 LA 레이커스 지분 거래 등 대형 인수합병(M&A) 이벤트가 시장의 이목을 끌었습니다.",
+  "trend_headline": "모더나 백신 호재와 반도체·소프트웨어 혼조세",
+  "summary": "오늘 미국 시장은 모더나의 개인맞춤형 암 백신 임상 성공에 따른 바이오·제약주의 급등과 함께, 마블 테크놀로지의 구글 칩 수주 계약 및 전통 소프트웨어주의 AI 디스플레이 우려 완화가 시장의 주목을 받았습니다. 반면 주택 시장의 침체와 모기지 금리 상승 압력은 소비재 및 홈 임프루브먼트 기업들의 실적 전망에 부담으로 작용했습니다.",
   "key_points": [
-    "마이크론 등 AI 반도체 관련주, 높은 밸류에이션 부담과 국채 금리 상승으로 숨고르기 진입",
-    "홈디포, 주택 시장 침체 및 CEO 임시 휴직 속에서도 시장 예상을 상회하는 2분기 실적 발표",
-    "웬디스, 넬슨 펠츠의 트라이언 펀드 경영권 인수 추진 보도에 힘입어 주가 급등"
+    "모더나는 mRNA 암 치료 백신과  Merck의 키트루다 병용 임상 성공으로 주가가 급등하며 바이오파마 섹터 랠리를 주도했습니다.",
+    "마블 테크놀로지는 구글과의 칩 공급 계약 및 대규모 주식 매수 옵션 소식에 주가가 급등했습니다.",
+    "홈 dépôt과 로우스 등 주요 홈 임프루브먼트 기업들은 얼어붙은 주택 시장과 소비 지출 압력을 보고했습니다."
   ],
   "sector_hints": [
+    "Healthcare",
     "Technology",
-    "Consumer Discretionary",
-    "Financials"
+    "Consumer Discretionary"
   ]
 }

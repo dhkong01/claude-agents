@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "rs90_count": 10,
   "stocks": [
     {
@@ -35,11 +35,11 @@
       "rs_rating": 92.1
     },
     {
-      "ticker": "PANW",
+      "ticker": "AMAT",
       "rs_rating": 91.2
     },
     {
-      "ticker": "AMAT",
+      "ticker": "PANW",
       "rs_rating": 90.2
     },
     {
@@ -63,11 +63,11 @@
       "rs_rating": 85.3
     },
     {
-      "ticker": "ABNB",
+      "ticker": "DDOG",
       "rs_rating": 84.3
     },
     {
-      "ticker": "DDOG",
+      "ticker": "ABNB",
       "rs_rating": 83.3
     },
     {
@@ -79,55 +79,55 @@
       "rs_rating": 81.4
     },
     {
-      "ticker": "AXON",
+      "ticker": "AMGN",
       "rs_rating": 80.4
     },
     {
-      "ticker": "AMGN",
+      "ticker": "AXON",
       "rs_rating": 79.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "CSX",
       "rs_rating": 78.4
     },
     {
-      "ticker": "ROST",
+      "ticker": "WDAY",
       "rs_rating": 77.4
     },
     {
-      "ticker": "DXCM",
+      "ticker": "CSCO",
       "rs_rating": 76.5
     },
     {
-      "ticker": "VRTX",
+      "ticker": "DXCM",
       "rs_rating": 75.5
     },
     {
-      "ticker": "CSX",
+      "ticker": "FANG",
       "rs_rating": 74.5
     },
     {
-      "ticker": "WDAY",
+      "ticker": "ROST",
       "rs_rating": 73.5
     },
     {
-      "ticker": "REGN",
+      "ticker": "PYPL",
       "rs_rating": 72.5
     },
     {
-      "ticker": "FANG",
+      "ticker": "VRTX",
       "rs_rating": 71.6
     },
     {
-      "ticker": "PYPL",
+      "ticker": "REGN",
       "rs_rating": 70.6
     }
   ],
   "portfolio_rs": {
-    "TSLA": 13.7,
-    "PLTR": 63.7,
-    "VKTX": 61.8,
-    "META": 10.8,
+    "TSLA": 11.8,
+    "PLTR": 61.8,
+    "VKTX": 52.0,
+    "META": 9.8,
     "MRVL": 94.1,
     "ARM": 85.3,
     "LRCX": 89.2

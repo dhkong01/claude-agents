@@ -1,71 +1,26 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "TSMC의 AI 반도체 수요 집중으로 인한 공급 병목과 삼성전자의 파운드리 가격 인상 등 글로벌 반도체 밸류체인의 가격 결정력 강화가 돋보입니다. 또한 마블 테크놀로지의 구글 칩 수주 소식이 긍정적 촉매로 작용하고 있습니다.",
+      "score": 8.0,
+      "rationale": "TSMC의 견조한 AI 수요와 임원진의 자사주 매입, 일본 증시 내 AI 밸류체인에 대한 외국인 투자 사상 최고치 경신 등 아시아 지역을 중심으로 한 글로벌 AI 인프라 성장 모멘텀이 강하게 유지되고 있습니다.",
       "related_tickers": [
         "TSM",
-        "MRVL",
         "NVDA"
       ],
       "source_regions": [
-        "US",
         "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "일본 기업들의 데이터센터 및 물리적 AI 인프라 투자 확대와 중국 상하이의 블록체인·AI 중심 디지털 경제 마스터플랜 발표 등 아시아 중심의 기술 투자 모멘텀이 강합니다. 미국의 전통 소프트웨어주 AI 우려 완화도 긍정적입니다.",
-      "related_tickers": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Healthcare",
-      "direction": "positive",
-      "score": 7.8,
-      "rationale": "모더나의 mRNA 개인맞춤형 암 백신 임상 성공이 바이오파마 섹터의 강한 랠리를 유도했으며, 한국 시장에서도 바이오헬스케어 수출 모멘텀이 증시 하단을 지지하는 등 긍정적 흐름이 이어지고 있습니다.",
-      "related_tickers": [
-        "MRNA",
-        "MRK"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "미국의 주택 시장 침체와 고금리 압박으로 홈 디포, 로우스 등 주요 홈 임프루브먼트 기업들의 실적 전망이 불투명해졌고, 유럽의 에너지 가격 상승에 따른 가계 실질 구매력 압박 역시 소비재 섹터에 부담입니다.",
-      "related_tickers": [
-        "HD",
-        "LOW"
-      ],
-      "source_regions": [
-        "US",
-        "EUROPE"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "이란발 지정학적 충격으로 인한 에너지 가격 급등이 유럽 인플레이션을 자극하고 있어, 원유 및 가스 관련 에너지 생산 기업들의 단기 매출 및 정제 마진 개선에 유리한 환경이 조성되고 있습니다.",
+      "score": 6.5,
+      "rationale": "이란발 지정학적 리스크 여파로 유럽 내 에너지 요금이 급등하며 인플레이션 압력을 가중시키는 한편, 에너지 공급 기업들의 단기 매출 및 정제 마진에는 긍정적인 요인으로 작용하고 있습니다.",
       "related_tickers": [
-        "XOM",
-        "CVX",
+        "SHEL",
         "BP"
       ],
       "source_regions": [
@@ -73,18 +28,27 @@
       ]
     },
     {
-      "name": "Financials",
-      "direction": "neutral",
-      "score": 0.5,
-      "rationale": "유럽 채권 금리 상승은 은행들의 순이자마진(NIM) 확보에 긍정적일 수 있으나, 고금리 장기화 우려 속에 기업들의 자금 조달 비용 증가와 국채 시장의 높은 변동성은 잠재적 리스크 요인으로 작용해 영향이 제한적입니다.",
+      "name": "Consumer Staples",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "미국 최대 유통 업체인 월마트가 시장 예상치를 밑도는 실망스러운 가이던스를 제시하며 주가가 9% 급락하는 등, 필수 소비재 섹터 전반에 소비 심리 둔화 우려를 자극했습니다.",
       "related_tickers": [
-        "JPM",
-        "BARC"
+        "WMT",
+        "COST"
       ],
       "source_regions": [
-        "EUROPE"
+        "US"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Consumer Discretionary",
+      "note": "미국 내에서 타겟(Target)은 어닝 서프라이즈와 관세 환급 효과로 연간 전망을 상향하며 급등했으나, 월마트발 소비 우려가 찬물을 끼얹었습니다. 또한 유럽에서는 드립 프라이싱(숨은 비용 청구)에 대한 당국의 규제 조사가 확대되며 여행 및 서비스 관련 기업들에 규제 리스크가 발생해 긍정적 요인과 부정적 요인이 대립하고 있습니다."
+    },
+    {
+      "sector": "Financials",
+      "note": "미국, 독일, 영국 등 글로벌 국채 금리 동반 상승은 은행권의 순이자마진(NIM) 개선에 긍정적이나, 미국의 재정 적자 우려와 차입 비용 급등에 따른 채권 시장 변동성 확대는 자산 건전성 및 리스크 관리 측면에서 경계감을 유발하고 있습니다."
+    }
+  ]
 }

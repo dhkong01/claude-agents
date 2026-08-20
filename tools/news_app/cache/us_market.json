@@ -1,7 +1,37 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "region": "US",
   "headlines": [
+    {
+      "title": "California AG tells CNBC that settling Paramount-WBD lawsuit would require robust structural remedies",
+      "summary": "California AG Rob Bonta discussed the states' antitrust case to block the Paramount Skydance-Warner Bros. Discovery merger with CNBC's David Faber.",
+      "link": "https://www.cnbc.com/2026/08/20/california-ag-bonta-paramount-wbd-lawsuit-remedies.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "How wealthy families can prepare for aging parents and avoid a succession crisis",
+      "summary": "Relatively few wealthy families are addressing the question of when an aging parent should give up control, advisors and lawyers told CNBC.",
+      "link": "https://www.cnbc.com/2026/08/20/wealthy-families-aging-parents-succession.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Where commercial real estate demand is the highest, according to new data",
+      "summary": "The National Association of Realtors has released a new index that uses factors in local economies to indicate future demand.",
+      "link": "https://www.cnbc.com/2026/08/20/commercial-real-estate-demand-nar-data.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+      "summary": "Walmart is expected to report its fiscal second-quarter earnings on Thursday, offering a read on the consumer and the K-shaped economy.",
+      "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Hyundai s new flagship vehicle is a large luxury Genesis EV",
+      "summary": "The GV90 features a new design direction for Genesis and expands the Hyundai brand's lineup to seven vehicles in the U.S.",
+      "link": "https://www.cnbc.com/2026/08/19/hyundai-luxury-genesis-ev.html",
+      "source": "CNBC"
+    },
     {
       "title": "Target says its turnaround is picking up steam, with help from a big tariff refund",
       "summary": "Target posted better-than-expected fiscal second-quarter sales and raised its full-year outlook.",
@@ -91,48 +121,18 @@
       "summary": "New CEO Josh D'Amaro has said his strategy for continued growth at Disney is centered around storytelling, intellectual property and technology.",
       "link": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Lamborghini unveils Revuelto SV, its most powerful production car ever",
-      "summary": "Lamborghini's Revuelto SV is a limited-edition V12 hybrid with over 1,050 horsepower, a 2.4-second 0-to-100 kph time and a $741,172 starting price.",
-      "link": "https://www.cnbc.com/2026/08/14/lamborghini-revuelto-sv-hybrid-price.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Housing investors say this is their worst market in at least 3 years",
-      "summary": "Mortgage rates hit a recent low at the end of February but rose sharply at the start of the war with Iran. They are now at their highest level in over a year.",
-      "link": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Monterey Car Week auctions could hit a record $500 million, with help from younger buyers",
-      "summary": "A new generation of millennials and Gen Zers is taking over the collecting market from baby boomers and bidding up modern supercars at Monterey Car Week.",
-      "link": "https://www.cnbc.com/2026/08/13/monterey-car-week-auctions-sales-estimates.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The ‘20% rule’ behind Giorgos Tsetis’ blueprint for a new kind of family office",
-      "summary": "Family offices are built to be patient with their money. Giorgos Tsetis is not.",
-      "link": "https://www.cnbc.com/2026/08/13/family-office-giorgos-tsetis-nutrafol.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Bob Iger, Joshua Kushner buy Los Angeles Lakers at a $12.5 billion valuation, source says",
-      "summary": "Venture capital founder Joshua Kushner and former Disney CEO Bob Iger acquire Mark Walter's stake in Los Angeles Lakers at valuation of more than $12 billion.",
-      "link": "https://www.cnbc.com/2026/08/12/bob-iger-joshua-kushner-buy-los-angeles-lakers-from-mark-walter.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "모더나 백신 호재와 반도체·소프트웨어 혼조세",
-  "summary": "오늘 미국 시장은 모더나의 개인맞춤형 암 백신 임상 성공에 따른 바이오·제약주의 급등과 함께, 마블 테크놀로지의 구글 칩 수주 계약 및 전통 소프트웨어주의 AI 디스플레이 우려 완화가 시장의 주목을 받았습니다. 반면 주택 시장의 침체와 모기지 금리 상승 압력은 소비재 및 홈 임프루브먼트 기업들의 실적 전망에 부담으로 작용했습니다.",
+  "trend_headline": "월마트 실적 부진과 채권금리 상승이 덮친 소매·증시",
+  "summary": "월마트가 실망스러운 가이던스로 주가가 급락하며 소비 심리에 대한 우려를 키웠고, 채권 시장에서는 국채 금리 상승과 재정 적자 우려가 겹치며 증시 전반에 경계감을 불러일으켰습니다. 반면 타겟은 실적 호조와 관세 환급으로 반등에 성공하는 등 유통 섹터 내에서도 희비가 엇갈렸습니다.",
   "key_points": [
-    "모더나는 mRNA 암 치료 백신과  Merck의 키트루다 병용 임상 성공으로 주가가 급등하며 바이오파마 섹터 랠리를 주도했습니다.",
-    "마블 테크놀로지는 구글과의 칩 공급 계약 및 대규모 주식 매수 옵션 소식에 주가가 급등했습니다.",
-    "홈 dépôt과 로우스 등 주요 홈 임프루브먼트 기업들은 얼어붙은 주택 시장과 소비 지출 압력을 보고했습니다."
+    "월마트(Walmart), 월가 예상치 밑도는 실적 전망에 주가 9% 급락",
+    "미국 국채 금리 상승과 재정 적자 우려로 채권 시장 긴장감 고조",
+    "타겟(Target), 깜짝 실적과 관세 환급 효과로 연간 전망 상향 조정"
   ],
   "sector_hints": [
-    "Healthcare",
-    "Technology",
-    "Consumer Discretionary"
+    "Consumer Discretionary",
+    "Consumer Staples",
+    "Financials"
   ]
 }

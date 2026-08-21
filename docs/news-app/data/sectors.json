@@ -1,14 +1,27 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "TSMC의 견조한 AI 수요와 임원진의 자사주 매입, 일본 증시 내 AI 밸류체인에 대한 외국인 투자 사상 최고치 경신 등 아시아 지역을 중심으로 한 글로벌 AI 인프라 성장 모멘텀이 강하게 유지되고 있습니다.",
+      "score": 6.5,
+      "rationale": "대만 TSMC의 급격한 매출 증가와 한국, 대만, 일본 등 아시아 주요국의 AI 반도체 투자 및 공급망 다변화 노력이 긍정적인 모멘텀을 지지하고 있습니다.",
       "related_tickers": [
         "TSM",
-        "NVDA"
+        "005930",
+        "8035"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -8.0,
+      "rationale": "중국 헝다그룹의 공식적인 청산 절차 돌입으로 부동산 중심의 아시아 구시대적 성장 모델이 마감되며 구조적 하강 압력이 지속되고 있습니다.",
+      "related_tickers": [
+        "3333.HK"
       ],
       "source_regions": [
         "ASIA"
@@ -17,38 +30,26 @@
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "이란발 지정학적 리스크 여파로 유럽 내 에너지 요금이 급등하며 인플레이션 압력을 가중시키는 한편, 에너지 공급 기업들의 단기 매출 및 정제 마진에는 긍정적인 요인으로 작용하고 있습니다.",
+      "score": 7.0,
+      "rationale": "중동 지정학적 리스크로 인한 에너지 요금 상승이 유럽 물가(UK 인플레이션 2.9%)를 자극하는 등 에너지 공급 타이트화에 따른 가격 상승 수혜가 예상됩니다.",
       "related_tickers": [
+        "BP",
         "SHEL",
-        "BP"
+        "TTE"
       ],
       "source_regions": [
         "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Staples",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "미국 최대 유통 업체인 월마트가 시장 예상치를 밑도는 실망스러운 가이던스를 제시하며 주가가 9% 급락하는 등, 필수 소비재 섹터 전반에 소비 심리 둔화 우려를 자극했습니다.",
-      "related_tickers": [
-        "WMT",
-        "COST"
-      ],
-      "source_regions": [
-        "US"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Consumer Discretionary",
-      "note": "미국 내에서 타겟(Target)은 어닝 서프라이즈와 관세 환급 효과로 연간 전망을 상향하며 급등했으나, 월마트발 소비 우려가 찬물을 끼얹었습니다. 또한 유럽에서는 드립 프라이싱(숨은 비용 청구)에 대한 당국의 규제 조사가 확대되며 여행 및 서비스 관련 기업들에 규제 리스크가 발생해 긍정적 요인과 부정적 요인이 대립하고 있습니다."
+      "sector": "Consumer Staples",
+      "note": "미국 월마트의 실망스러운 실적 전망에 따른 주가 급락(9%) 및 영국의 고인플레이션으로 인한 가계 소비 위축 우려가 존재하는 반면, 유럽 다논(Danone)의 헐(Huel) 인수와 같은 활발한 M&A 소식이 공존합니다."
     },
     {
-      "sector": "Financials",
-      "note": "미국, 독일, 영국 등 글로벌 국채 금리 동반 상승은 은행권의 순이자마진(NIM) 개선에 긍정적이나, 미국의 재정 적자 우려와 차입 비용 급등에 따른 채권 시장 변동성 확대는 자산 건전성 및 리스크 관리 측면에서 경계감을 유발하고 있습니다."
+      "sector": "Consumer Discretionary",
+      "note": "미국 시장에서는 테슬라가 라스베이거스 로보택시 운행 승인 호재로 급등했으나, 아시아(중국) 시장에서는 테슬라의 대규모 차량 리콜 소식이 전해지며 전기차 및 소비재 부문에서 지역별 신호가 엇갈리고 있습니다."
     }
   ]
 }

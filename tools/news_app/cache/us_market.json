@@ -1,7 +1,31 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "region": "US",
   "headlines": [
+    {
+      "title": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
+      "summary": "Matt Zames is taking an unpaid position to help his former JPMorgan colleague Frank Bisignano tackle modernization of the SSA, CNBC has learned.",
+      "link": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Most Americans aren t anti-vaccine. They re uncertain — and that s a growing public health challenge",
+      "summary": "The bigger issue at hand may be that many Americans fall into a large, uncertain middle ground – neither firmly pro-vaccine nor staunchly opposed.",
+      "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Why some of America s biggest brands are losing ground in China",
+      "summary": "Nike, Starbucks and GM have lost ground in China as domestic rivals, geopolitics and changing consumer preferences reshape the market.",
+      "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "New York unseats San Francisco as the top market for tech talent, CBRE reports",
+      "summary": "AI-related roles now account for nearly one-third of all tech-talent job listings in the U.S., per the new CBRE report.",
+      "link": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
+      "source": "CNBC"
+    },
     {
       "title": "California AG tells CNBC that settling Paramount-WBD lawsuit would require robust structural remedies",
       "summary": "California AG Rob Bonta discussed the states' antitrust case to block the Paramount Skydance-Warner Bros. Discovery merger with CNBC's David Faber.",
@@ -97,42 +121,18 @@
       "summary": "CNBC asked media insiders what they think the TV market — from pay TV subscribers to sports ratings — will look like in three years.",
       "link": "https://www.cnbc.com/2026/08/17/tv-media-insiders-predictions.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Credit card issuer Synchrony announces partnership with OpenAI",
-      "summary": "The collaboration, which is in its early stages, is a step toward enabling Synchrony customers to have smoother online shopping experiences.",
-      "link": "https://www.cnbc.com/2026/08/17/synchrony-openai.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
-      "summary": "Rivian is trying to catch up to Tesla's \"hands-free\" capabilities, but with additional safety guardrails that the Elon Musk company doesn't have.",
-      "link": "https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Group including Jeff Bezos buys minority stake in Liverpool FC, with option to become controlling owner",
-      "summary": "The group that includes Jeff Bezos has an option to become the majority shareholder within the next year.",
-      "link": "https://www.cnbc.com/2026/08/14/jeff-bezos-group-buys-stake-liverpool-fc.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Disney CEO Josh D Amaro tells CNBC parks were big surprise in last quarter, company has clarity and stability",
-      "summary": "New CEO Josh D'Amaro has said his strategy for continued growth at Disney is centered around storytelling, intellectual property and technology.",
-      "link": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "월마트 실적 부진과 채권금리 상승이 덮친 소매·증시",
-  "summary": "월마트가 실망스러운 가이던스로 주가가 급락하며 소비 심리에 대한 우려를 키웠고, 채권 시장에서는 국채 금리 상승과 재정 적자 우려가 겹치며 증시 전반에 경계감을 불러일으켰습니다. 반면 타겟은 실적 호조와 관세 환급으로 반등에 성공하는 등 유통 섹터 내에서도 희비가 엇갈렸습니다.",
+  "trend_headline": "월마트 실적 부진과 테슬라 로보택시 승인",
+  "summary": "월마트의 실망스러운 실적 전망으로 주가가 급락하며 소비재 및 소매업 섹터의 압박이 부각된 반면, 테슬라는 라스베이거스 로보택시 운행 승인 소식에 힘입어 주가가 반등했습니다. 한편, 트럼프 행정부와 재무부의 채권시장 개입 움직임이 연준의 통화정책과의 엇박자 논란을 낳으며 거시경제 불확실성을 키웠습니다.",
   "key_points": [
-    "월마트(Walmart), 월가 예상치 밑도는 실적 전망에 주가 9% 급락",
-    "미국 국채 금리 상승과 재정 적자 우려로 채권 시장 긴장감 고조",
-    "타겟(Target), 깜짝 실적과 관세 환급 효과로 연간 전망 상향 조정"
+    "월마트(Walmart) 주가 9% 급락, 실망스러운 실적 전망 제시",
+    "테슬라(Tesla) 라스베이거스 로보택시 운행 승인으로 주가 상승",
+    "재무부의 국채시장 개입이 연준의 금리 정책과 마찰을 빚으며 채권시장 자극"
   ],
   "sector_hints": [
     "Consumer Discretionary",
     "Consumer Staples",
-    "Financials"
+    "Technology"
   ]
 }

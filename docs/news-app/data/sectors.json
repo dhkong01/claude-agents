@@ -1,69 +1,55 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-22",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "미국의 GPU 담보 AI 자금 조달 모델 도입과 한국의 HBM 수출 견조세, 대만 TSMC의 AI 반도체 수요 수혜 등 공급망 다변화 속에서도 견고한 AI 수요가 확인되고 있습니다.",
+      "score": 6.5,
+      "rationale": "대만 TSMC의 급격한 매출 증가와 한국, 대만, 일본 등 아시아 주요국의 AI 반도체 투자 및 공급망 다변화 노력이 긍정적인 모멘텀을 지지하고 있습니다.",
       "related_tickers": [
-        "NVDA",
         "TSM",
-        "005930"
+        "005930",
+        "8035"
       ],
       "source_regions": [
-        "US",
         "ASIA"
       ]
     },
     {
       "name": "Real Estate",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "미국의 모기지 금리 상승과 규제 강화로 인한 주택 투자 심리 위축이 지속되고 있으며, 중국 또한 대도시 고가 주택 거래 반등에도 불구하고 전체 부동산 시장의 구조적 회복에 대한 불확실성이 지속되고 있습니다.",
+      "score": -8.0,
+      "rationale": "중국 헝다그룹의 공식적인 청산 절차 돌입으로 부동산 중심의 아시아 구시대적 성장 모델이 마감되며 구조적 하강 압력이 지속되고 있습니다.",
       "related_tickers": [
-        "PLD",
-        "VNQ"
+        "3333.HK"
       ],
       "source_regions": [
-        "US",
         "ASIA"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "중동 갈등 장기화로 인한 유가 및 연료비 상승 우려가 에너지 부문 기업들의 단기 매출 및 정제 마진 개선 기대감으로 연결되고 있습니다.",
+      "score": 7.0,
+      "rationale": "중동 지정학적 리스크로 인한 에너지 요금 상승이 유럽 물가(UK 인플레이션 2.9%)를 자극하는 등 에너지 공급 타이트화에 따른 가격 상승 수혜가 예상됩니다.",
       "related_tickers": [
-        "XOM",
-        "CVX",
-        "SHEL"
+        "BP",
+        "SHEL",
+        "TTE"
       ],
       "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "미국 주요 유통 업체의 실적 발표를 앞두고 소비 건전성에 대한 우려가 상존하는 가운데, 유럽 자동차 업계의 전기차 판매 목표 완화 검토와 노동법 개정으로 인한 비용 부담 가중이 부정적 요인으로 작용하고 있습니다.",
-      "related_tickers": [
-        "TSLA",
-        "RIVN",
-        "TGT"
-      ],
-      "source_regions": [
-        "US",
         "EUROPE"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Technology",
-      "note": "미국과 아시아는 엔비디아 중심의 AI 금융 모델 혁신과 중국의 AI 인재 유치 등 기술 생태계 확장 모멘텀이 강한 반면, 유럽은 빅테크 기업들의 AI 학습 데이터 활용에 대한 사용자 반발 및 규제 리스크가 강화되며 하방 압력을 받고 있습니다."
+      "sector": "Consumer Staples",
+      "note": "미국 월마트의 실망스러운 실적 전망에 따른 주가 급락(9%) 및 영국의 고인플레이션으로 인한 가계 소비 위축 우려가 존재하는 반면, 유럽 다논(Danone)의 헐(Huel) 인수와 같은 활발한 M&A 소식이 공존합니다."
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "note": "미국 시장에서는 테슬라가 라스베이거스 로보택시 운행 승인 호재로 급등했으나, 아시아(중국) 시장에서는 테슬라의 대규모 차량 리콜 소식이 전해지며 전기차 및 소비재 부문에서 지역별 신호가 엇갈리고 있습니다."
     }
   ]
 }

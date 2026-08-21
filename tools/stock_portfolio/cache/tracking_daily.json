@@ -1,39 +1,39 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "data": [
     {
-      "ticker": "MRVL",
-      "current": 251.01,
-      "donchian_upper": 237.27,
-      "donchian_lower": 208.56,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -5.5,
-      "dist_to_lower_pct": 16.9,
-      "channel_width_pct": 13.8
-    },
-    {
-      "ticker": "FANG",
-      "current": 211.02,
-      "donchian_upper": 210.02,
-      "donchian_lower": 187.01,
+      "ticker": "ABNB",
+      "current": 187.3,
+      "donchian_upper": 186.39,
+      "donchian_lower": 178.07,
       "signal": "BREAKOUT",
       "dist_to_upper_pct": -0.5,
-      "dist_to_lower_pct": 11.4,
-      "channel_width_pct": 12.3
+      "dist_to_lower_pct": 4.9,
+      "channel_width_pct": 4.7
     },
     {
-      "ticker": "ABNB",
-      "current": 185.0,
-      "donchian_upper": 186.39,
-      "donchian_lower": 151.64,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 0.8,
-      "dist_to_lower_pct": 18.0,
-      "channel_width_pct": 22.9
+      "ticker": "DXCM",
+      "current": 92.34,
+      "donchian_upper": 91.48,
+      "donchian_lower": 84.75,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.9,
+      "dist_to_lower_pct": 8.2,
+      "channel_width_pct": 7.9
+    },
+    {
+      "ticker": "WBD",
+      "current": 28.55,
+      "donchian_upper": 28.53,
+      "donchian_lower": 26.78,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.1,
+      "dist_to_lower_pct": 6.2,
+      "channel_width_pct": 6.5
     },
     {
       "ticker": "STX",
-      "current": 850.24,
+      "current": 850.0,
       "donchian_upper": 994.79,
       "donchian_lower": 800.99,
       "signal": "HOLD",
@@ -43,63 +43,63 @@
     },
     {
       "ticker": "AMGN",
-      "current": 433.73,
+      "current": 439.33,
       "donchian_upper": 442.36,
-      "donchian_lower": 404.85,
+      "donchian_lower": 410.95,
       "signal": "HOLD",
-      "dist_to_upper_pct": 2.0,
-      "dist_to_lower_pct": 6.7,
-      "channel_width_pct": 9.3
+      "dist_to_upper_pct": 0.7,
+      "dist_to_lower_pct": 6.5,
+      "channel_width_pct": 7.6
     },
     {
       "ticker": "SNDK",
-      "current": 1600.62,
+      "current": 1596.08,
       "donchian_upper": 1786.85,
       "donchian_lower": 1212.21,
       "signal": "HOLD",
-      "dist_to_upper_pct": 11.6,
-      "dist_to_lower_pct": 24.3,
+      "dist_to_upper_pct": 12.0,
+      "dist_to_lower_pct": 24.1,
       "channel_width_pct": 47.4
     },
     {
       "ticker": "MU",
-      "current": 974.33,
+      "current": 966.78,
       "donchian_upper": 1011.75,
       "donchian_lower": 861.0,
       "signal": "HOLD",
-      "dist_to_upper_pct": 3.8,
-      "dist_to_lower_pct": 11.6,
+      "dist_to_upper_pct": 4.7,
+      "dist_to_lower_pct": 10.9,
       "channel_width_pct": 17.5
     },
     {
       "ticker": "LITE",
-      "current": 879.28,
+      "current": 866.71,
       "donchian_upper": 968.9,
       "donchian_lower": 813.51,
       "signal": "HOLD",
-      "dist_to_upper_pct": 10.2,
-      "dist_to_lower_pct": 7.5,
+      "dist_to_upper_pct": 11.8,
+      "dist_to_lower_pct": 6.1,
       "channel_width_pct": 19.1
     },
     {
       "ticker": "WDC",
-      "current": 469.05,
-      "donchian_upper": 558.3,
+      "current": 459.44,
+      "donchian_upper": 548.56,
       "donchian_lower": 434.3,
       "signal": "HOLD",
-      "dist_to_upper_pct": 19.0,
-      "dist_to_lower_pct": 7.4,
-      "channel_width_pct": 28.6
+      "dist_to_upper_pct": 19.4,
+      "dist_to_lower_pct": 5.5,
+      "channel_width_pct": 26.3
     },
     {
-      "ticker": "INTC",
-      "current": 92.13,
-      "donchian_upper": 104.56,
-      "donchian_lower": 92.8,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 13.5,
-      "dist_to_lower_pct": -0.7,
-      "channel_width_pct": 12.7
+      "ticker": "MRVL",
+      "current": 237.04,
+      "donchian_upper": 251.01,
+      "donchian_lower": 208.56,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 5.9,
+      "dist_to_lower_pct": 12.0,
+      "channel_width_pct": 20.4
     }
   ]
 }

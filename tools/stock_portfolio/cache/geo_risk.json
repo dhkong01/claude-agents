@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
-  "medium_risk_signals": 6,
+  "high_risk_signals": 3,
+  "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
@@ -13,7 +13,7 @@
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Bare Grocery Shelves Are A New Wartime Hardship For Ukrainians",
+    "Iran Must Plan To Overcome U.S. Sanctions After Trump\u2019S \u2018Economic D-Day\u2019 Threats, Tehran Official Says",
     "The Message Behind Trump\u2019S Threats Of \u2018Economic Warfare\u2019 Against Iran",
     "Japan\u2019S U.S. Ties Could Not Save A Top Judge From Trump\u2019S I.C.C. Sanctions"
   ],

@@ -1,49 +1,43 @@
 {
-  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-06-17 기준.",
+  "note": "보유 종목, 수량, 평균 매입단가(USD). 2026-08-22 기준.",
   "holdings": [
-    {
-      "ticker": "TSLA",
-      "shares": 140,
-      "avg_cost": 183.6738,
-      "entry_date": "2025-11-01"
-    },
-    {
-      "ticker": "PLTR",
-      "shares": 60,
-      "avg_cost": 168.19,
-      "entry_date": "2025-12-15"
-    },
     {
       "ticker": "VKTX",
       "shares": 350,
-      "avg_cost": 33.4824,
+      "avg_cost": 33.48,
       "entry_date": "2026-03-05"
     },
     {
-      "ticker": "META",
-      "shares": 15,
-      "avg_cost": 637.28,
-      "entry_date": "2025-10-01"
-    },
-    {
       "ticker": "MRVL",
-      "shares": 220,
-      "avg_cost": 236.58,
-      "entry_date": "2026-06-05"
+      "shares": 120,
+      "avg_cost": 236.6,
+      "entry_date": "2026-08-22"
     },
     {
-      "ticker": "ARM",
-      "shares": 90,
-      "avg_cost": 396.62,
-      "entry_date": "2026-06-05"
+      "ticker": "CRDO",
+      "shares": 100,
+      "avg_cost": 250,
+      "entry_date": "2026-08-22"
     },
     {
-      "ticker": "LRCX",
-      "shares": 20,
-      "avg_cost": 389.0,
-      "entry_date": "2026-06-17"
+      "ticker": "NBIS",
+      "shares": 225.85,
+      "avg_cost": 100,
+      "entry_date": "2026-08-22"
+    },
+    {
+      "ticker": "RDDT",
+      "shares": 200,
+      "avg_cost": 50,
+      "entry_date": "2026-08-22"
+    },
+    {
+      "ticker": "VRT",
+      "shares": 300,
+      "avg_cost": 50,
+      "entry_date": "2026-08-22"
     }
   ],
-  "total_cost": 152607,
+  "total_cost": 112695,
   "next_rebalance": "2026-08-21"
 }

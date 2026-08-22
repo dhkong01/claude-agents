@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "analyzed": 100,
   "top10": [
     {
@@ -18,7 +18,25 @@
       "industry": "Travel Services",
       "market_cap": 112152559616,
       "price": 187.3,
-      "rs_rating": 85.3
+      "rs_rating": 83.9
+    },
+    {
+      "ticker": "DXCM",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 34845491200,
+      "price": 92.34,
+      "rs_rating": 76.4
     },
     {
       "ticker": "AMGN",
@@ -34,27 +52,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 237110034432,
+      "market_cap": 237515849728,
       "price": 439.33,
-      "rs_rating": 78.4
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 34845491200,
-      "price": 92.34,
-      "rs_rating": 77.4
+      "rs_rating": 78.3
     },
     {
       "ticker": "ROST",
@@ -72,7 +72,7 @@
       "industry": "Apparel Retail",
       "market_cap": 76679512064,
       "price": 239.04,
-      "rs_rating": 73.5
+      "rs_rating": 72.6
     },
     {
       "ticker": "STX",
@@ -90,7 +90,7 @@
       "industry": "Computer Hardware",
       "market_cap": 192949993472,
       "price": 850.0,
-      "rs_rating": 96.1
+      "rs_rating": 96.2
     },
     {
       "ticker": "WDC",
@@ -108,7 +108,7 @@
       "industry": "Computer Hardware",
       "market_cap": 165646925824,
       "price": 459.44,
-      "rs_rating": 95.1
+      "rs_rating": 95.2
     },
     {
       "ticker": "AMD",
@@ -126,25 +126,7 @@
       "industry": "Semiconductors",
       "market_cap": 772568776704,
       "price": 473.25,
-      "rs_rating": 92.1
-    },
-    {
-      "ticker": "AMAT",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "market_cap": 390882099200,
-      "price": 492.32,
-      "rs_rating": 90.2
+      "rs_rating": 91.5
     },
     {
       "ticker": "FTNT",
@@ -162,7 +144,7 @@
       "industry": "Software - Infrastructure",
       "market_cap": 112632381440,
       "price": 153.51,
-      "rs_rating": 88.2
+      "rs_rating": 87.7
     },
     {
       "ticker": "DDOG",
@@ -180,7 +162,25 @@
       "industry": "Software - Application",
       "market_cap": 84605255680,
       "price": 235.62,
-      "rs_rating": 86.3
+      "rs_rating": 84.9
+    },
+    {
+      "ticker": "WDAY",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 49397161984,
+      "price": 200.01,
+      "rs_rating": 75.4
     }
   ]
 }

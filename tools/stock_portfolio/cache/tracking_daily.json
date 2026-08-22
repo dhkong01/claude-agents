@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "data": [
     {
       "ticker": "ABNB",
@@ -22,16 +22,6 @@
       "channel_width_pct": 7.9
     },
     {
-      "ticker": "WBD",
-      "current": 28.55,
-      "donchian_upper": 28.53,
-      "donchian_lower": 26.78,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.1,
-      "dist_to_lower_pct": 6.2,
-      "channel_width_pct": 6.5
-    },
-    {
       "ticker": "STX",
       "current": 850.0,
       "donchian_upper": 994.79,
@@ -44,22 +34,12 @@
     {
       "ticker": "AMGN",
       "current": 439.33,
-      "donchian_upper": 442.36,
-      "donchian_lower": 410.95,
+      "donchian_upper": 439.79,
+      "donchian_lower": 408.56,
       "signal": "HOLD",
-      "dist_to_upper_pct": 0.7,
-      "dist_to_lower_pct": 6.5,
+      "dist_to_upper_pct": 0.1,
+      "dist_to_lower_pct": 7.0,
       "channel_width_pct": 7.6
-    },
-    {
-      "ticker": "SNDK",
-      "current": 1596.08,
-      "donchian_upper": 1786.85,
-      "donchian_lower": 1212.21,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 12.0,
-      "dist_to_lower_pct": 24.1,
-      "channel_width_pct": 47.4
     },
     {
       "ticker": "MU",
@@ -70,6 +50,16 @@
       "dist_to_upper_pct": 4.7,
       "dist_to_lower_pct": 10.9,
       "channel_width_pct": 17.5
+    },
+    {
+      "ticker": "SNDK",
+      "current": 1596.08,
+      "donchian_upper": 1786.85,
+      "donchian_lower": 1212.21,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 12.0,
+      "dist_to_lower_pct": 24.1,
+      "channel_width_pct": 47.4
     },
     {
       "ticker": "LITE",
@@ -100,6 +90,16 @@
       "dist_to_upper_pct": 5.9,
       "dist_to_lower_pct": 12.0,
       "channel_width_pct": 20.4
+    },
+    {
+      "ticker": "INTC",
+      "current": 90.07,
+      "donchian_upper": 104.56,
+      "donchian_lower": 92.13,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 16.1,
+      "dist_to_lower_pct": -2.3,
+      "channel_width_pct": 13.5
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "stocks": [
     {
       "ticker": "ABNB",
-      "final_score": 60.3,
+      "final_score": 60.0,
       "canslim_score": 64,
-      "rs_rating": 85.3,
+      "rs_rating": 83.9,
       "vcp_score": 60,
       "donchian_signal": "BREAKOUT",
       "current_price": 187.3,
@@ -20,9 +20,9 @@
     },
     {
       "ticker": "DXCM",
-      "final_score": 37.7,
-      "canslim_score": 54,
-      "rs_rating": 77.4,
+      "final_score": 38.4,
+      "canslim_score": 57,
+      "rs_rating": 76.4,
       "vcp_score": 0,
       "donchian_signal": "BREAKOUT",
       "current_price": 92.34,
@@ -36,27 +36,10 @@
       "allocation_pct": 4.0
     },
     {
-      "ticker": "WBD",
-      "final_score": 36.5,
-      "canslim_score": 0,
-      "rs_rating": 80.4,
-      "vcp_score": 48,
-      "donchian_signal": "BREAKOUT",
-      "current_price": 28.55,
-      "donchian_upper": 28.53,
-      "donchian_lower": 26.78,
-      "dist_to_upper_pct": -0.1,
-      "dist_to_lower_pct": 6.2,
-      "pivot": null,
-      "sector": "",
-      "in_both": false,
-      "allocation_pct": 4.0
-    },
-    {
       "ticker": "STX",
       "final_score": 56.7,
       "canslim_score": 52,
-      "rs_rating": 96.1,
+      "rs_rating": 96.2,
       "vcp_score": 73,
       "donchian_signal": "HOLD",
       "current_price": 850.0,
@@ -73,16 +56,33 @@
       "ticker": "AMGN",
       "final_score": 36.9,
       "canslim_score": 54,
-      "rs_rating": 78.4,
+      "rs_rating": 78.3,
       "vcp_score": 0,
       "donchian_signal": "HOLD",
       "current_price": 439.33,
-      "donchian_upper": 442.36,
-      "donchian_lower": 410.95,
-      "dist_to_upper_pct": 0.7,
-      "dist_to_lower_pct": 6.5,
+      "donchian_upper": 439.79,
+      "donchian_lower": 408.56,
+      "dist_to_upper_pct": 0.1,
+      "dist_to_lower_pct": 7.0,
       "pivot": null,
       "sector": "Healthcare",
+      "in_both": false,
+      "allocation_pct": 4.0
+    },
+    {
+      "ticker": "MU",
+      "final_score": 36.1,
+      "canslim_score": 0,
+      "rs_rating": 98.1,
+      "vcp_score": 45,
+      "donchian_signal": "HOLD",
+      "current_price": 966.78,
+      "donchian_upper": 1011.75,
+      "donchian_lower": 861.0,
+      "dist_to_upper_pct": 4.7,
+      "dist_to_lower_pct": 10.9,
+      "pivot": null,
+      "sector": "",
       "in_both": false,
       "allocation_pct": 4.0
     }
@@ -96,8 +96,9 @@
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
-      "Defense"
+      "Defense",
+      "Consumer"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense, Consumer ELEVATED]"
   }
 }

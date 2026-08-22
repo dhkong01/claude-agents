@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
@@ -96,67 +96,67 @@
     "Consumer Cyclical": [
       {
         "ticker": "ABNB",
-        "rs": 85.3,
+        "rs": 83.9,
         "canslim": 64,
         "price": 187.3
       },
       {
         "ticker": "ROST",
-        "rs": 73.5,
+        "rs": 72.6,
         "canslim": 54,
         "price": 239.04
       }
     ],
     "Healthcare": [
       {
-        "ticker": "AMGN",
-        "rs": 78.4,
-        "canslim": 54,
-        "price": 439.33
+        "ticker": "DXCM",
+        "rs": 76.4,
+        "canslim": 57,
+        "price": 92.34
       },
       {
-        "ticker": "DXCM",
-        "rs": 77.4,
+        "ticker": "AMGN",
+        "rs": 78.3,
         "canslim": 54,
-        "price": 92.34
+        "price": 439.33
       }
     ],
     "Technology": [
       {
         "ticker": "STX",
-        "rs": 96.1,
+        "rs": 96.2,
         "canslim": 52,
         "price": 850.0
       },
       {
         "ticker": "WDC",
-        "rs": 95.1,
+        "rs": 95.2,
         "canslim": 52,
         "price": 459.44
       },
       {
         "ticker": "AMD",
-        "rs": 92.1,
+        "rs": 91.5,
         "canslim": 52,
         "price": 473.25
       },
       {
-        "ticker": "AMAT",
-        "rs": 90.2,
-        "canslim": 52,
-        "price": 492.32
-      },
-      {
         "ticker": "FTNT",
-        "rs": 88.2,
+        "rs": 87.7,
         "canslim": 52,
         "price": 153.51
       },
       {
         "ticker": "DDOG",
-        "rs": 86.3,
+        "rs": 84.9,
         "canslim": 52,
         "price": 235.62
+      },
+      {
+        "ticker": "WDAY",
+        "rs": 75.4,
+        "canslim": 51,
+        "price": 200.01
       }
     ]
   },

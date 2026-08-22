@@ -1,63 +1,55 @@
 {
-  "date": "2026-08-21",
-  "total_cost": 152607,
+  "date": "2026-08-22",
+  "total_cost": 112695,
   "next_rebalance": "2026-08-21",
   "holdings": [
     {
-      "ticker": "TSLA",
-      "shares": 140,
-      "avg_cost": 183.6738,
-      "price": 362.86,
-      "value": 50800.4,
-      "cost": 25714.33
-    },
-    {
-      "ticker": "PLTR",
-      "shares": 60,
-      "avg_cost": 168.19,
-      "price": 179.94,
-      "value": 10796.4,
-      "cost": 10091.4
-    },
-    {
       "ticker": "VKTX",
       "shares": 350,
-      "avg_cost": 33.4824,
+      "avg_cost": 33.48,
       "price": 33.89,
       "value": 11861.5,
-      "cost": 11718.84
-    },
-    {
-      "ticker": "META",
-      "shares": 15,
-      "avg_cost": 637.28,
-      "price": 549.9,
-      "value": 8248.5,
-      "cost": 9559.2
+      "cost": 11718.0
     },
     {
       "ticker": "MRVL",
-      "shares": 220,
-      "avg_cost": 236.58,
+      "shares": 120,
+      "avg_cost": 236.6,
       "price": 237.04,
-      "value": 52148.8,
-      "cost": 52047.6
+      "value": 28444.8,
+      "cost": 28392.0
     },
     {
-      "ticker": "ARM",
-      "shares": 90,
-      "avg_cost": 396.62,
-      "price": 243.32,
-      "value": 21898.8,
-      "cost": 35695.8
+      "ticker": "CRDO",
+      "shares": 100,
+      "avg_cost": 250,
+      "price": 230.57,
+      "value": 23057.0,
+      "cost": 25000
     },
     {
-      "ticker": "LRCX",
-      "shares": 20,
-      "avg_cost": 389.0,
-      "price": 314.0,
-      "value": 6280.0,
-      "cost": 7780.0
+      "ticker": "NBIS",
+      "shares": 100,
+      "avg_cost": 225.85,
+      "price": 219.13,
+      "value": 21913.0,
+      "cost": 22585.0
+    },
+    {
+      "ticker": "RDDT",
+      "shares": 50,
+      "avg_cost": 200,
+      "price": 153.29,
+      "value": 7664.5,
+      "cost": 10000
+    },
+    {
+      "ticker": "VRT",
+      "shares": 50,
+      "avg_cost": 300,
+      "price": 261.95,
+      "value": 13097.5,
+      "cost": 15000
     }
   ]
 }

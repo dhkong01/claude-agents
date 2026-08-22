@@ -26,16 +26,15 @@ def _load_portfolio():
             pass
     return {
         "holdings": [
-            {'t':'TSLA', 'sh':140, 'ac':183.6738},
-            {'t':'PLTR', 'sh':60,  'ac':168.19},
-            {'t':'VKTX', 'sh':350, 'ac':33.4824},
-            {'t':'META', 'sh':15,  'ac':637.28},
-            {'t':'MRVL', 'sh':220, 'ac':236.58},
-            {'t':'ARM',  'sh':90,  'ac':396.62},
-            {'t':'LRCX', 'sh':20,  'ac':389.0},
+            {'t':'VKTX', 'sh':350, 'ac':33.48},
+            {'t':'MRVL', 'sh':120, 'ac':236.6},
+            {'t':'CRDO', 'sh':100, 'ac':250},
+            {'t':'NBIS', 'sh':100, 'ac':225.85},
+            {'t':'RDDT', 'sh':50,  'ac':200},
+            {'t':'VRT',  'sh':50,  'ac':300},
         ],
         "next_rebalance": "2026-08-21",
-        "total_cost": 152607
+        "total_cost": 112695
     }
 
 _pf        = _load_portfolio()
@@ -55,6 +54,7 @@ NDX100_SET = {
 # 유니버스 CSF 참조 테이블
 CSF_UNIVERSE = {
     'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':42,'LRCX':42,
+    'CRDO':38,'NBIS':30,'RDDT':38,'VRT':40,
     'MU':42,'AMD':42,'ONDS':29,'LRCX':42,'ON':27,'AMAT':39,'DDOG':42,'KLAC':35,
     'NVDA':45,'AVGO':43,'AAPL':42,'MSFT':42,'AMZN':42,'GOOGL':42,'COST':40,'NFLX':42,
     'ADBE':40,'QCOM':38,'CSCO':36,'INTU':42,'TXN':38,'SNPS':42,'CDNS':42,
@@ -211,7 +211,8 @@ def build_messages(closes):
     # 포트폴리오 계산
     tv   = 0.0
     rows = []
-    CSF_MAP = {'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':47,'LRCX':42}
+    CSF_MAP = {'TSLA':30,'PLTR':39,'VKTX':24,'META':42,'MRVL':34,'ARM':47,'LRCX':42,
+               'CRDO':38,'NBIS':30,'RDDT':38,'VRT':40}
     for p in PF:
         t     = p['t']
         price = fv(t)

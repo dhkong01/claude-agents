@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "region": "EUROPE",
   "headlines": [
     {
@@ -9,8 +9,8 @@
       "source": "BBC Business"
     },
     {
-      "title": "Canada 'should fight' as US trade deadline looms, Manitoba premier says",
-      "summary": "Premier Wab Kinew's comments signal a tough battle for Prime Minister Mark Carney to get buy-in from Canadians on a possible trade deal with the US.",
+      "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
+      "summary": "Negotiations to finalise a deal between the US and Canada are going down to the wire ahead of a Friday night deadline.",
       "link": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
@@ -123,15 +123,15 @@
       "source": "BBC Business"
     }
   ],
-  "trend_headline": "에너지 가격 급등이 촉발한 UK 인플레이션 압박",
-  "summary": "치솟는 에너지 요금의 여파로 UK 인플레이션이 4개월 만에 최고치인 2.9%를 기록하며 가계와 예산안을 압박하고 있습니다. 중동 지정학적 리스크가 에너지 가격을 자극하는 가운데, 당국은 재정 건전성 규제 준수를 위한 예산안 편성에 고심하고 있습니다.",
+  "trend_headline": "에너지 요금 급등으로 UK 인플레이션 4개월래 최고치 기록",
+  "summary": "치솟는 에너지 비용과 지정학적 여파로 영국의 인플레이션이 4개월 만에 최고치로 뛰어오르며 물가 압력이 가중되고 있습니다. 지출 증가와 재정 적자 우려 속에서 재무부의 첫 예산안을 앞두고 긴축 기조가 강화되는 양상입니다.",
   "key_points": [
-    "UK 인플레이션 4개월 만에 최고치인 2.9% 기록 (에너지 요금 상승 주도)",
-    "중동 분쟁 여파로 인한 에너지 가격 상승이 국내 물가에 직접적 타격",
-    "댄논(Danone)의 1억 유로 규모 헐(Huel) 인수 승인 등 기업 M&A는 지속"
+    "에너지 요금 급등 여파로 UK 인플레이션율이 2.9%로 4개월 만에 최고치 기록",
+    "지정학적 리스크와 중동 갈등이 국내 에너지 가격에 직접적인 상승 압력으로 작용",
+    "영국 정부의 예산안 발표를 앞두고 재정 건전성 및 공공 차입 규모 확대 우려 지속"
   ],
   "sector_hints": [
     "Energy",
-    "Consumer Staples"
+    "Financials"
   ]
 }

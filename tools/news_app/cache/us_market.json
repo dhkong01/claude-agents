@@ -1,7 +1,13 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "region": "US",
   "headlines": [
+    {
+      "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
+      "summary": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
+      "link": "https://www.cnbc.com/2026/08/22/coca-cola-innovation-labs-dirty-sodas-refreshers.html",
+      "source": "CNBC"
+    },
     {
       "title": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
       "summary": "Matt Zames is taking an unpaid position to help his former JPMorgan colleague Frank Bisignano tackle modernization of the SSA, CNBC has learned.",
@@ -115,24 +121,17 @@
       "summary": "Paramount agreed to delay its proposed acquisition of WBD to as late as June 2027 while the state AGs' case heads to trial.",
       "link": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html",
       "source": "CNBC"
-    },
-    {
-      "title": "What will TV look like in three years? Media insiders share their predictions",
-      "summary": "CNBC asked media insiders what they think the TV market — from pay TV subscribers to sports ratings — will look like in three years.",
-      "link": "https://www.cnbc.com/2026/08/17/tv-media-insiders-predictions.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "월마트 실적 부진과 테슬라 로보택시 승인",
-  "summary": "월마트의 실망스러운 실적 전망으로 주가가 급락하며 소비재 및 소매업 섹터의 압박이 부각된 반면, 테슬라는 라스베이거스 로보택시 운행 승인 소식에 힘입어 주가가 반등했습니다. 한편, 트럼프 행정부와 재무부의 채권시장 개입 움직임이 연준의 통화정책과의 엇박자 논란을 낳으며 거시경제 불확실성을 키웠습니다.",
+  "trend_headline": "월마트 9% 급락과 유통업계 실적 혼조",
+  "summary": "월마트가 실망스러운 실적 전망을 내놓으며 주가가 9% 급락한 반면, 타겟과 홈디포는 예상치를 웃도는 성적을 기록하며 소비재 및 유통 섹터 내에서 엇갈린 흐름을 보였습니다. 한편 미 재무부의 채권 바이백 확대 발표는 금과 비트코인 상승세를 이끌었습니다.",
   "key_points": [
-    "월마트(Walmart) 주가 9% 급락, 실망스러운 실적 전망 제시",
-    "테슬라(Tesla) 라스베이거스 로보택시 운행 승인으로 주가 상승",
-    "재무부의 국채시장 개입이 연준의 금리 정책과 마찰을 빚으며 채권시장 자극"
+    "월마트(Walmart), 실망스러운 실적 전망 발표 여파로 주가 9% 하락",
+    "타겟(Target)과 홈디포(Home Depot), 시장 예상 상회하는 실적 및 가이던스 제시",
+    "미 재무부의 채권 바이백 두 배 확대 계획 발표로 금과 비트코인 가격 상승"
   ],
   "sector_hints": [
     "Consumer Discretionary",
-    "Consumer Staples",
-    "Technology"
+    "Consumer Staples"
   ]
 }

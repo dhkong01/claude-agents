@@ -1,21 +1,20 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
+  "high_risk_signals": 1,
   "medium_risk_signals": 6,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
     "Defense": "ELEVATED",
     "Consumer": "ELEVATED",
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Carney Stands Up To Trump In U.S.-Canada Trade War",
-    "Lebanon\u2019S Efforts To Tame Hezbollah Stall Amid Israel War",
-    "Canada-U.S. Trade War Escalates As Talks Collapse"
+    "Iran Warns Gulf States Not To Join Trump\u2019S Economic War",
+    "The World\u2019S Breadbaskets Are Getting Pounded By War, Weather And Trade Spats",
+    "U.S.-Canada Trade War: What To Know About Tariffs And The Negotiations"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense, Consumer \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

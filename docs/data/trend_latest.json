@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-22",
-  "mode": "daily",
+  "date": "2026-08-23",
+  "mode": "weekly",
   "rs_top10": [
     {
       "ticker": "SNDK",
@@ -45,23 +45,22 @@
   ],
   "rs90_count": 9,
   "geo_risk": {
-    "date": "2026-08-22",
+    "date": "2026-08-23",
     "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 2,
+    "high_risk_signals": 1,
     "medium_risk_signals": 6,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Semiconductors": "WATCH",
       "Defense": "ELEVATED",
       "Consumer": "ELEVATED",
       "Financials": "WATCH"
     },
     "top_risk_events": [
-      "Carney Stands Up To Trump In U.S.-Canada Trade War",
-      "Lebanon’S Efforts To Tame Hezbollah Stall Amid Israel War",
-      "Canada-U.S. Trade War Escalates As Talks Collapse"
+      "Iran Warns Gulf States Not To Join Trump’S Economic War",
+      "The World’S Breadbaskets Are Getting Pounded By War, Weather And Trade Spats",
+      "U.S.-Canada Trade War: What To Know About Tariffs And The Negotiations"
     ],
     "recommendation": "고위험 국면 (Energy, Defense, Consumer 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
@@ -599,117 +598,5 @@
     "dist_to_lower_pct": 7.6,
     "channel_width_pct": 37.2,
     "ticker": "SQQQ"
-  },
-  "price_freshness": {
-    "status": "FRESH",
-    "latest_date": "2026-08-21",
-    "checked_at": "2026-08-22 22:44",
-    "sample": {
-      "SPY": 765.72,
-      "QQQ": 713.44,
-      "NVDA": 214.72
-    }
-  },
-  "tracking": [
-    {
-      "ticker": "ABNB",
-      "current": 187.3,
-      "donchian_upper": 186.39,
-      "donchian_lower": 178.07,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.5,
-      "dist_to_lower_pct": 4.9,
-      "channel_width_pct": 4.7
-    },
-    {
-      "ticker": "DXCM",
-      "current": 92.34,
-      "donchian_upper": 91.48,
-      "donchian_lower": 84.75,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.9,
-      "dist_to_lower_pct": 8.2,
-      "channel_width_pct": 7.9
-    },
-    {
-      "ticker": "STX",
-      "current": 850.0,
-      "donchian_upper": 994.79,
-      "donchian_lower": 800.99,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 17.0,
-      "dist_to_lower_pct": 5.8,
-      "channel_width_pct": 24.2
-    },
-    {
-      "ticker": "AMGN",
-      "current": 439.33,
-      "donchian_upper": 439.79,
-      "donchian_lower": 408.56,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 0.1,
-      "dist_to_lower_pct": 7.0,
-      "channel_width_pct": 7.6
-    },
-    {
-      "ticker": "MU",
-      "current": 966.78,
-      "donchian_upper": 1011.75,
-      "donchian_lower": 861.0,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 4.7,
-      "dist_to_lower_pct": 10.9,
-      "channel_width_pct": 17.5
-    },
-    {
-      "ticker": "SNDK",
-      "current": 1596.08,
-      "donchian_upper": 1786.85,
-      "donchian_lower": 1212.21,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 12.0,
-      "dist_to_lower_pct": 24.1,
-      "channel_width_pct": 47.4
-    },
-    {
-      "ticker": "LITE",
-      "current": 866.71,
-      "donchian_upper": 968.9,
-      "donchian_lower": 813.51,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 11.8,
-      "dist_to_lower_pct": 6.1,
-      "channel_width_pct": 19.1
-    },
-    {
-      "ticker": "WDC",
-      "current": 459.44,
-      "donchian_upper": 548.56,
-      "donchian_lower": 434.3,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 19.4,
-      "dist_to_lower_pct": 5.5,
-      "channel_width_pct": 26.3
-    },
-    {
-      "ticker": "MRVL",
-      "current": 237.04,
-      "donchian_upper": 251.01,
-      "donchian_lower": 208.56,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 5.9,
-      "dist_to_lower_pct": 12.0,
-      "channel_width_pct": 20.4
-    },
-    {
-      "ticker": "INTC",
-      "current": 90.07,
-      "donchian_upper": 104.56,
-      "donchian_lower": 92.13,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 16.1,
-      "dist_to_lower_pct": -2.3,
-      "channel_width_pct": 13.5
-    }
-  ]
+  }
 }

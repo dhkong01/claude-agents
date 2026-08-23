@@ -1,9 +1,27 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "us": {
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "region": "US",
     "headlines": [
+      {
+        "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+        "summary": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+        "link": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "United s next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
+        "summary": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified, but that has been delayed by years.",
+        "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
+        "summary": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
+        "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html",
+        "source": "CNBC"
+      },
       {
         "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
         "summary": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
@@ -105,202 +123,197 @@
         "summary": "Brunswick Corp. CEO David Foulkes told CNBC premium boat sales are staying afloat, while value options are lagging.",
         "link": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html",
         "source": "CNBC"
-      },
-      {
-        "title": "Lakers governor Jeanie Buss says siblings cannot sell family’s stake to Bob Iger, Joshua Kushner",
-        "summary": "Jeanie Buss's lawyer says she has not agreed to sell the team and that any vote suggesting the Buss family is selling \"would be and is void.\"",
-        "link": "https://www.cnbc.com/2026/08/17/jeanie-buss-opposes-sale-family-stake.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Disney s new parks boss outlines investment strategy, with superfans at the fore",
-        "summary": "Disney Experiences chief Thomas Mazloum is focused on balancing the needs of its most ardent parkgoers with its less frequent visitors.",
-        "link": "https://www.cnbc.com/2026/08/17/disney-parks-strategy-superfans-mazloum.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
-        "summary": "Paramount agreed to delay its proposed acquisition of WBD to as late as June 2027 while the state AGs' case heads to trial.",
-        "link": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html",
-        "source": "CNBC"
       }
     ],
-    "trend_headline": "월마트 9% 급락과 유통업계 실적 혼조",
-    "summary": "월마트가 실망스러운 실적 전망을 내놓으며 주가가 9% 급락한 반면, 타겟과 홈디포는 예상치를 웃도는 성적을 기록하며 소비재 및 유통 섹터 내에서 엇갈린 흐름을 보였습니다. 한편 미 재무부의 채권 바이백 확대 발표는 금과 비트코인 상승세를 이끌었습니다.",
+    "trend_headline": "월마트 충격과 유통주 혼조, 그리고 다가오는 엔비디아 실적 대기",
+    "summary": "월마트 주가가 부진한 실적 전망으로 9% 급락하며 K자형 경제 속 소비 심리에 대한 우려를 키운 반면, 타겟은 관세 환급 효과로 반등을 시도했습니다. 시장은 소비재 섹터의 희비가 엇갈린 가운데, AI 생태계의 향방을 가를 엔비디아의 실적 발표를 숨죽여 주시하고 있습니다.",
     "key_points": [
-      "월마트(Walmart), 실망스러운 실적 전망 발표 여파로 주가 9% 하락",
-      "타겟(Target)과 홈디포(Home Depot), 시장 예상 상회하는 실적 및 가이던스 제시",
-      "미 재무부의 채권 바이백 두 배 확대 계획 발표로 금과 비트코인 가격 상승"
+      "월마트(Walmart), 월스트리트 예상 밑도는 실적 전망에 주가 9% 급락",
+      "타겟(Target), 대규모 관세 환급 덕분에 2분기 매출 호조 및 연간 가이던스 상향",
+      "엔비디아(Nvidia) 수요일 실적 발표를 앞두고 AI 섹터 전반의 긴장감 고조"
     ],
     "sector_hints": [
       "Consumer Discretionary",
-      "Consumer Staples"
+      "Consumer Staples",
+      "Technology"
     ]
   },
   "asia": {
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "region": "ASIA",
     "countries": {
       "KR": {
         "headlines": [
           {
-            "title": "[단독] 기계 고장 전 이상음 잡는 디플리…이젠 로봇 불량까지 잡는다",
+            "title": "시몬스, 포스코 손잡고 '초격차' 소재 개발",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202608215401i",
+            "link": "https://www.hankyung.com/article/2026082372151",
             "source": "한국경제"
           },
           {
-            "title": "글로벌 물류지도 싹 바뀐다…국내 첫 컨테이너선 북극항로 출항",
+            "title": "“밑이 별처럼 벌어졌다면 사세요”…지금 아니면 못 먹는 '과일' [프라이스&]",
             "summary": "",
-            "link": "https://www.hankyung.com/article/2026082262687",
+            "link": "https://www.hankyung.com/article/202608215507i",
             "source": "한국경제"
           },
           {
-            "title": "\"남들 놀 때 일 할래요\"…직장인들 여름휴가 확 달라진 까닭 [류은혁의 유통기한]",
+            "title": "\"서울이 더 쌀 줄이야\"…장 보러 마트 갔다가 '화들짝'",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202608226179i",
+            "link": "https://www.hankyung.com/article/2026082372927",
             "source": "한국경제"
           },
           {
-            "title": "'김어준 콘서트'로 떴다더니…정치인 몰리는 뜻밖의 명소 [트렌드+]",
+            "title": "G7 정부부채 GDP 대비 124%",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202608214990H",
+            "link": "https://www.hankyung.com/article/2026082372491",
             "source": "한국경제"
           },
           {
-            "title": "\"번 돈 국민과 나누겠다\"던 삼성전자…'110조 잭팟' 터뜨린다",
+            "title": "\"1년 새 2배 뛰었다\"…中 싹쓸이에 올 겨울 '줄인상 예고'",
             "summary": "",
-            "link": "https://www.hankyung.com/article/2026082259237",
+            "link": "https://www.hankyung.com/article/2026082372371",
             "source": "한국경제"
           },
           {
-            "title": "美·캐나다 '무역전쟁' 터졌다…50% 관세 폭탄에 맞대응 예고",
+            "title": "100m 9.39초 대기록…中서 우사인 볼트 제친 '반전 정체'",
             "summary": "",
-            "link": "https://www.hankyung.com/article/2026082261517",
+            "link": "https://www.hankyung.com/article/2026082371101",
             "source": "한국경제"
           },
           {
-            "title": "한국이 낳았지만 독일이 키웠다…인기 폭발한 'K화장품' 뭐길래",
+            "title": "무너지는 코넥스…올 코스닥행 0건",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202608215079i",
+            "link": "https://www.hankyung.com/article/2026082371691",
             "source": "한국경제"
           },
           {
-            "title": "간판만 바꿨을 뿐인데 '이럴 줄은'…\"또 갈래요\" 대박 난 식당 [권용훈의 트렌드워치]",
+            "title": "'우회상장 통로' 스팩마저 꽁꽁…상장·합병 모두 가뭄",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202608202097i",
+            "link": "https://www.hankyung.com/article/2026082371701",
             "source": "한국경제"
           },
           {
-            "title": "\"김수현은 되고 유아인은 안 된다\"…'극과 극' 반응 이유 [김소연의 얼굴전략]",
+            "title": "'빚 1300조' 韓도 불안…\"고령화 대비 상환 나서야\"",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202608215249g",
+            "link": "https://www.hankyung.com/article/2026082371251",
             "source": "한국경제"
           },
           {
-            "title": "삼전닉스 턱밑까지 쫓아온 中 YMTC…6.8조 실탄 마련 나선다",
+            "title": "내년도 지출구조조정, 50조 넘어 '역대 최대'",
             "summary": "",
-            "link": "https://www.hankyung.com/article/2026082260327",
+            "link": "https://www.hankyung.com/article/2026082371031",
             "source": "한국경제"
           }
         ],
-        "summary": "삼성전자의 대규모 실탄 확보 및 주주환원 기대감과 함께, 중국 YMTC의 거센 추격 속에서 반도체 및 첨단 기술 산업의 생존 경쟁이 격화되는 양상입니다."
+        "summary": "가계부채 부담과 고령화 대비 필요성이 부각되는 가운데, 역대 최대 규모의 지출 구조조정을 예고하며 재정 건전성 확보에 주력하는 모습입니다."
       },
       "JP": {
         "headlines": [
           {
-            "title": "Japan release of new breast cancer, diabetes drugs delayed over pricing",
+            "title": "Thailand, Singapore exchanges seek tech listings as AI booms",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/pharmaceuticals/japan-release-of-new-breast-cancer-diabetes-drugs-delayed-over-pricing",
+            "link": "https://asia.nikkei.com/business/markets/trading-asia/thailand-singapore-exchanges-seek-tech-listings-as-ai-booms",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Japan to offer loan insurance to Latin America development lender",
+            "title": "Itochu, Taiwan IT firm support Taiwanese chip expansion into southern Japan",
             "summary": "",
-            "link": "https://asia.nikkei.com/politics/international-relations/japan-to-offer-loan-insurance-to-latin-america-development-lender",
+            "link": "https://asia.nikkei.com/spotlight/supply-chain/itochu-taiwan-it-firm-support-taiwanese-chip-expansion-into-southern-japan",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Anime and manga pass on Japan's wartime memories to Gen Z",
+            "title": "It's time for Vietnam to fend off China over its new oil discovery",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/media-entertainment/anime-and-manga-pass-on-japan-s-wartime-memories-to-gen-z",
+            "link": "https://asia.nikkei.com/opinion/it-s-time-for-vietnam-to-fend-off-china-over-its-new-oil-discovery",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Global oil inventories on the decline again amid Hormuz stalemate",
+            "title": "Japan backs fusion, recycling startups in $125m public-private funding",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/markets/commodities/global-oil-inventories-on-the-decline-again-amid-hormuz-stalemate",
+            "link": "https://asia.nikkei.com/business/startups/japan-backs-fusion-recycling-startups-in-125m-public-private-funding",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Refurbished Ueno Station paints itself as Tokyo art hub",
+            "title": "Alibaba to raise $10bn via new Hong Kong shares to fund AI investments",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/travel-leisure/refurbished-ueno-station-paints-itself-as-tokyo-art-hub",
+            "link": "https://asia.nikkei.com/business/technology/alibaba-to-raise-10bn-via-new-hong-kong-shares-to-fund-ai-investments",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Thailand, Asia's gun ownership leader, cracks down after deadly shootings",
+            "title": "Vietnam assembly ends, China oil and gas earnings, BOJ deputy speech",
             "summary": "",
-            "link": "https://asia.nikkei.com/spotlight/society/crime/thailand-asia-s-gun-ownership-leader-cracks-down-after-deadly-shootings",
+            "link": "https://asia.nikkei.com/spotlight/your-week-in-asia/vietnam-assembly-ends-china-oil-and-gas-earnings-boj-deputy-speech",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Japan's Kubota to boost exports from India, seeks price edge in Europe, US",
+            "title": "Preservation of Japan's A-bombed buildings faces cost challenge",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/agriculture/japan-s-kubota-to-boost-exports-from-india-seeks-price-edge-in-europe-us",
+            "link": "https://asia.nikkei.com/spotlight/society/preservation-of-japan-s-a-bombed-buildings-faces-cost-challenge",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Who bears environmental cost of push for rare earths beyond China?",
+            "title": "India's 'cockroach' movement exposes cracks in Modi's political machine",
             "summary": "",
-            "link": "https://asia.nikkei.com/spotlight/environment/who-bears-environmental-cost-of-push-for-rare-earths-beyond-china",
+            "link": "https://asia.nikkei.com/spotlight/comment/india-s-cockroach-movement-exposes-cracks-in-modi-s-political-machine",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Jakarta puts its own spin on Japan's listening bars",
+            "title": "Manila airport aims to shed 'world's worst' label with upgrades",
             "summary": "",
-            "link": "https://asia.nikkei.com/life-arts/life/jakarta-puts-its-own-spin-on-japan-s-listening-bars",
+            "link": "https://asia.nikkei.com/business/transportation/manila-airport-aims-to-shed-world-s-worst-label-with-upgrades",
             "source": "Nikkei Asia"
           },
           {
-            "title": "China automakers' EV rush culminates in 'Crazy Thursday'",
+            "title": "Taiwan's security council quietly steps up as architect of China strategy",
             "summary": "",
-            "link": "https://asia.nikkei.com/spotlight/electric-cars-in-china/china-automakers-ev-rush-culminates-in-crazy-thursday",
+            "link": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-s-security-council-quietly-steps-up-as-architect-of-china-strategy",
             "source": "Nikkei Asia"
           }
         ],
-        "summary": "글로벌 공급망 불확실성 속에서 쿠보타의 인도발 수출 확대 전략 등 일본 기업들이 해외 생산거점 다변화와 가격 경쟁력 확보에 주력하고 있습니다."
+        "summary": "AI 붐에 대응하기 위해 싱가포르·태국 등과의 기술 상장 협력이 가속화되고 있으며, 대만 반도체 기업들의 규슈 등 일본 남부 진출 지원이 본격화되고 있습니다."
       },
       "TW": {
         "headlines": [
           {
-            "title": "Prediction: Taiwan Semiconductor Stock Will Reach a Fresh High Before 2026 Ends - The Motley Fool",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTRQTnRKWU01Wnpia0dUV1piU1cyYXR5ZU5xOWN3ZXQ0eGVLZzhpYmI3VDlKYUd2d215QlV5Wm5qeHV5cU9NOWZiZzJqVzRzMXoxbF85cjN0V3hqdHBsejVaZjFHcVZmSk43dDQ2ZFoyNFVHYXVZM0hWamcxejZ0Q2dJdm1BRWlLWnBtdjJMS3FTQk9DMld4TA?oc=5\" target=\"_blank\" Prediction: Taiwan Sem",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTRQTnRKWU01Wnpia0dUV1piU1cyYXR5ZU5xOWN3ZXQ0eGVLZzhpYmI3VDlKYUd2d215QlV5Wm5qeHV5cU9NOWZiZzJqVzRzMXoxbF85cjN0V3hqdHBsejVaZjFHcVZmSk43dDQ2ZFoyNFVHYXVZM0hWamcxejZ0Q2dJdm1BRWlLWnBtdjJMS3FTQk9DMld4TA?oc=5",
+            "title": "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk? - The Motley Fool",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFNmYmFZMXJvbHJaY2lBVTM4d3lNZHhJM2p5cENiUmd0S0thclJtODM3UTdLMGRvZDdzN3VCMlFZM3FQclpSVm1jdEYyQkdiSnlOVVFzZ0hCNHp4M2pmaU5aaUw4dkhSTlp2dVRlaWZ2NmItdWszZUFmN29ra3JFUkdMeTc5U0tYcjdNd2U0UnE2VWE2WDBkMQ?oc=5\" target=\"_blank\" Taiwan Semiconductor S",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFNmYmFZMXJvbHJaY2lBVTM4d3lNZHhJM2p5cENiUmd0S0thclJtODM3UTdLMGRvZDdzN3VCMlFZM3FQclpSVm1jdEYyQkdiSnlOVVFzZ0hCNHp4M2pmaU5aaUw4dkhSTlp2dVRlaWZ2NmItdWszZUFmN29ra3JFUkdMeTc5U0tYcjdNd2U0UnE2VWE2WDBkMQ?oc=5",
             "source": "Google News"
           },
           {
-            "title": "Prediction: Taiwan Semiconductor Stock Will Reach a Fresh High Before 2026 Ends - Currently.com",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxORGJBcEtCV3NiSEFMTnhRZ3oydVRoU3ppanRKT29oUUhEWmltaW51ckppMF96aVAtYUdtU0drZTdSenNWRVJ1TmJZa016VlhmZERGZ2F5czVna0t0MWZEOFdCWDF4SUpwb3p3RGw4T2V2TjNXaWdTMVgwbTQzOHY1VXppRmhlQW1TQWdNZExrTzRJMFJnRFB5VFpn?oc=5\" target=\"_blank\" Prediction: Taiwan S",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORGJBcEtCV3NiSEFMTnhRZ3oydVRoU3ppanRKT29oUUhEWmltaW51ckppMF96aVAtYUdtU0drZTdSenNWRVJ1TmJZa016VlhmZERGZ2F5czVna0t0MWZEOFdCWDF4SUpwb3p3RGw4T2V2TjNXaWdTMVgwbTQzOHY1VXppRmhlQW1TQWdNZExrTzRJMFJnRFB5VFpn?oc=5",
+            "title": "Taiwan Semiconductor Manufacturing (TSM) Stock Could Be 27% Overvalued On Fresh AI Demand News - simplywall.st",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPM1BFNVY3ZkI5QVJyY2FEQmZ5Ukp2ek5rdDExNDhNdkpoci1lQ0RTSEE0ZVVkY0dBbDJHdFlHaEVVQmVJUEJJWnhwbURTTmZER3A4Mm0wcGljc2hBOHV4VHhWdTRPMkNyU2hBZ1dfeV9wMDhZTmZZSVR4TkRBSi1KZE5meXlNd29vajVhT3JyU3ZTLVVfZGVfWEZIeWdvdXNYS0JGRkNEVmlIaHRGMWJkTUtYd2dCVTJqUmN",
+            "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPM1BFNVY3ZkI5QVJyY2FEQmZ5Ukp2ek5rdDExNDhNdkpoci1lQ0RTSEE0ZVVkY0dBbDJHdFlHaEVVQmVJUEJJWnhwbURTTmZER3A4Mm0wcGljc2hBOHV4VHhWdTRPMkNyU2hBZ1dfeV9wMDhZTmZZSVR4TkRBSi1KZE5meXlNd29vajVhT3JyU3ZTLVVfZGVfWEZIeWdvdXNYS0JGRkNEVmlIaHRGMWJkTUtYd2dCVTJqUmNROE5ocUYxdkUzZU1QcVg0bWZvWnlGWTJjdmxoQ3c1Xy1TdEpGZmgtWDhFck9rbVZhbNIB8gFBVV95cUxNdVB4eHlhLW1hQlJXckI2bGphVExoOVlNellkM3JuclRaLWlhaWRqOVlwdU43QVlzRGg5M2lmc0c2ajlLQ0R2bTFRa2NubmlQN0pLY0x4Ullnd3hEaTgwNUVJQUxMQ2tsRVlySlhSTXJReWI0TGZtVENxS2VONjNlX2JQXzBDYURnYkp0clVKbHdBM0RXLWdqd3JzdWNWRVV5Yk83NzBaTXZnSzNnNVRhTENZYUwtY0dMTGVkVTl4YUxkMm9SOUQxZXNYNVJ1eTA4WkZUVm4wcnMxQlgwQzZuREdzWlhPYWhKSm5mUzA0N2lKUQ?oc=5",
             "source": "Google News"
           },
           {
-            "title": "TSMC's $100 Billion Arizona Expansion Shows The Stock Is a No-Brainer Buy - The Globe and Mail",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQjRSVm9rTGFfUHQtY3ZrZjhRaUZNUXVncEgydFJzcG40Vk1Sa1dqSm5EUUhDTHBtaGZ0OURBOXQ0QUxUT2xzZGpTdGlmRmFXWHhGRWhrbUViazVHcXJ4OW5udExaZXlUNlhGWjdqaHlza0d5LWM3TndReU9TYTFUZ21xSFBSU2owNE00YmRTa3VtQ20yNXRCYl9Sb2xPMEZ3QzMwVGt6d04zdzJtN05zT1RyUXFHSUFmRER",
-            "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQjRSVm9rTGFfUHQtY3ZrZjhRaUZNUXVncEgydFJzcG40Vk1Sa1dqSm5EUUhDTHBtaGZ0OURBOXQ0QUxUT2xzZGpTdGlmRmFXWHhGRWhrbUViazVHcXJ4OW5udExaZXlUNlhGWjdqaHlza0d5LWM3TndReU9TYTFUZ21xSFBSU2owNE00YmRTa3VtQ20yNXRCYl9Sb2xPMEZ3QzMwVGt6d04zdzJtN05zT1RyUXFHSUFmRERGSjRfY2lrSW11V1E5UnRkR1JYc19qVFNTNjNleWtpclFYSVJvTV81QVpydw?oc=5",
+            "title": "Taiwan Semiconductor (TSM) Sales Just Jumped 45%. Why is the Chip Sector Still Selling Off? - Yahoo Finance",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEhpWVBjX1Vic3dJUC1VODI0Uy1pRHY2U0JPUG5NLWFGemNSWkZyT1BtOXlINWJDd3R4TmlrZHNEWmlGTWJUSXhERV8wbTZTZU1GRG03TG5GRTNQYUo3WVdoWW1vMHF4NEN3SVBIaFgxd3VXN05mY01McFIwQ1BQNGVBemVVWHQ3Q2QxWVF3ZU9vVk1Ob0dCZzZLQVFKaVZL?oc=5\" target=\"_blank\" Taiwan Semic",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEhpWVBjX1Vic3dJUC1VODI0Uy1pRHY2U0JPUG5NLWFGemNSWkZyT1BtOXlINWJDd3R4TmlrZHNEWmlGTWJUSXhERV8wbTZTZU1GRG03TG5GRTNQYUo3WVdoWW1vMHF4NEN3SVBIaFgxd3VXN05mY01McFIwQ1BQNGVBemVVWHQ3Q2QxWVF3ZU9vVk1Ob0dCZzZLQVFKaVZL?oc=5",
             "source": "Google News"
           },
           {
-            "title": "Arizona-Taiwan partnership advances semiconductor talent and innovation - University of Arizona News",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNRjRyZVJwVE5WVUk4T3FFVi1janp5YWxzd3F4QzhfTy01cUFYeTZpOGRHQzZnYnBHVHZyTmlaQjM3SE9xMzVFZ0l6QnUwN1o4RFE3MUxJeTc1cUF6LVR6bTYxNkgteDFlSEFnZU9wLTFMdG5wZkpMMzdocWc2WEZfN0tiaVUwbGI1NTQ1dHlRUDJzb0hxRHRhR1ZVTEI5bEN1MXBZ?oc=5\" target=\"_blank\" Arizona-",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRjRyZVJwVE5WVUk4T3FFVi1janp5YWxzd3F4QzhfTy01cUFYeTZpOGRHQzZnYnBHVHZyTmlaQjM3SE9xMzVFZ0l6QnUwN1o4RFE3MUxJeTc1cUF6LVR6bTYxNkgteDFlSEFnZU9wLTFMdG5wZkpMMzdocWc2WEZfN0tiaVUwbGI1NTQ1dHlRUDJzb0hxRHRhR1ZVTEI5bEN1MXBZ?oc=5",
+            "title": "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk? - The Globe and Mail",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbDZObTE5UV8xSGZGV09TSEllRVhtZ3RiVzZuQXQ0Y04xdlRrZXZwT19jVF9vb2QtWkd5bnhPLUhwbUllc19qVGdKZ2xhdnRjaGl1SWJMcjlwdHZSaU4zenFoNGl6NVN4cXQtN0dGX0RJRldTZ193bHRzRGZ4aXNaZTF0WGM0Vy1fcFhFNXZ3amNpVW5OQXVyY1JUU2lldlh4Zmx6MVpaVUlfWV9UM0hYODRHZ05UN1lyZG9",
+            "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbDZObTE5UV8xSGZGV09TSEllRVhtZ3RiVzZuQXQ0Y04xdlRrZXZwT19jVF9vb2QtWkd5bnhPLUhwbUllc19qVGdKZ2xhdnRjaGl1SWJMcjlwdHZSaU4zenFoNGl6NVN4cXQtN0dGX0RJRldTZ193bHRzRGZ4aXNaZTF0WGM0Vy1fcFhFNXZ3amNpVW5OQXVyY1JUU2lldlh4Zmx6MVpaVUlfWV9UM0hYODRHZ05UN1lyZG9WQ1lvSmsyNENQSHRJbk5STXVVZkp6MjdsUU5hcTgxd1lZRV8wZDZDSTl2N05CV0s4a2ozS3AtclR1d3I1UQ?oc=5",
             "source": "Google News"
           },
           {
-            "title": "174K Reasons To Be Bullish On Taiwan Semiconductor Stock - Benzinga",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPTEd6Z0tNVzd1WVJqQXFGa0g5UURSeGRhaVRSNVJQcENvN256NjY2eklhM2tpWldVaWxnM3BkckhRUWJaNW5obktYT3hvREpSc1hXNUc4c1lDV1Z6empjZ2lfX1BrRmJodV9GZWZNR3VKblZ1YVQ5YkxpaGh0UTNZMFFJdWdKM3d1ak9LYW1NNUdVREJDU2R3WEg5cw?oc=5\" target=\"_blank\" 174K Reasons To Be",
-            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTEd6Z0tNVzd1WVJqQXFGa0g5UURSeGRhaVRSNVJQcENvN256NjY2eklhM2tpWldVaWxnM3BkckhRUWJaNW5obktYT3hvREpSc1hXNUc4c1lDV1Z6empjZ2lfX1BrRmJodV9GZWZNR3VKblZ1YVQ5YkxpaGh0UTNZMFFJdWdKM3d1ak9LYW1NNUdVREJDU2R3WEg5cw?oc=5",
+            "title": "Itochu, Taiwan IT firm support Taiwanese chip expansion into southern Japan - Nikkei Asia",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQc083bkJreEpUU1R1OEpUN3IzZm9sTHlNTWdoTS1qYl9uQkxwdkZsWXp3SlpRVXJGX2NpV2NIV0ZMV0RvVGlDMDNWVUdZa3ktem1hS3d5Unp2akRfcFQ2S0NCNENDRHJSOTBnMk9HMTQwQmYzal9jNWFMQ2NwVXFPRE93ZjNmTFJiSElDVnJNd1RvZ0xyUkNqMnNqSXlUV3ZKMXRFWThWUjlHV0E0YkFLLTFTYjBaYzgwSUE",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc083bkJreEpUU1R1OEpUN3IzZm9sTHlNTWdoTS1qYl9uQkxwdkZsWXp3SlpRVXJGX2NpV2NIV0ZMV0RvVGlDMDNWVUdZa3ktem1hS3d5Unp2akRfcFQ2S0NCNENDRHJSOTBnMk9HMTQwQmYzal9jNWFMQ2NwVXFPRE93ZjNmTFJiSElDVnJNd1RvZ0xyUkNqMnNqSXlUV3ZKMXRFWThWUjlHV0E0YkFLLTFTYjBaYzgwSUE5TUJR?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC. Here's What Lisa Su Is Actually Buying With That Money. - The Motley Fool",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW1DSUlhZXc5NFNVbE04NG51VU51WnJZM2hhWnBNUG5GcVRSS3ZGTTFFTzVsOG0wcEVGY3E2dFhWcmEyWDBISHU0M2dKVFRncHlzYzVXQ29mcHBJVnZoSFQxSk5GdmZnQWJuaGFERld1enRIWTQ2T2JrSmJJaDJ1MHBFemhDSUhSMHZJSk9ZNW1aYzlwTno3dw?oc=5\" target=\"_blank\" AMD Is Investing More ",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW1DSUlhZXc5NFNVbE04NG51VU51WnJZM2hhWnBNUG5GcVRSS3ZGTTFFTzVsOG0wcEVGY3E2dFhWcmEyWDBISHU0M2dKVFRncHlzYzVXQ29mcHBJVnZoSFQxSk5GdmZnQWJuaGFERld1enRIWTQ2T2JrSmJJaDJ1MHBFemhDSUhSMHZJSk9ZNW1aYzlwTno3dw?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "VP Of Taiwan Semiconductor Makes $174K Buy - Benzinga",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1FKV0UtbWRKby1RWlg1SDBGZG1pa1BpbTg1QVlzX0pDSWFDcWxMNUlqOUVySDZqUTE2UEFsSFZzZERwbHlWajVwZUtfbmdJcTVsSE4tbnZSSWFvX2NQRjlzbWl0eTFldmFoV19zbk84X3pybE5DQVN3Tl9aeFlUT2U2OXE2TEpCb05j?oc=5\" target=\"_blank\" VP Of Taiwan Semiconductor Makes $174K B",
+            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1FKV0UtbWRKby1RWlg1SDBGZG1pa1BpbTg1QVlzX0pDSWFDcWxMNUlqOUVySDZqUTE2UEFsSFZzZERwbHlWajVwZUtfbmdJcTVsSE4tbnZSSWFvX2NQRjlzbWl0eTFldmFoV19zbk84X3pybE5DQVN3Tl9aeFlUT2U2OXE2TEpCb05j?oc=5",
             "source": "Google News"
           },
           {
@@ -310,9 +323,9 @@
             "source": "Google News"
           },
           {
-            "title": "Does Taiwan Semiconductor Manufacturing (TSM) Risk Losing AI Chip Orders To Capacity Limits? - simplywall.st",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRDR1Vklwc29YMzU0Wi1ydnRhcWszcnhjdlUxZGw5b0lNRXRpVWh0ekdWdVlSeEhZWGxZNjliU2dZcjVnNUREN2J2U0ZhSlByNmRlVjAxZkxrTmZraTZ5V1hOZjhITEtYSkRlaTlSd3VRWlZmajZMY25xdEV5UnpxSXZsWDdhemQ4VklOWVM3Qnl2YnJrTEtOQXltME5ILUViMzhQTlBqblBCV25CT0xRcVVaUTVVT1JPTWR",
-            "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRDR1Vklwc29YMzU0Wi1ydnRhcWszcnhjdlUxZGw5b0lNRXRpVWh0ekdWdVlSeEhZWGxZNjliU2dZcjVnNUREN2J2U0ZhSlByNmRlVjAxZkxrTmZraTZ5V1hOZjhITEtYSkRlaTlSd3VRWlZmajZMY25xdEV5UnpxSXZsWDdhemQ4VklOWVM3Qnl2YnJrTEtOQXltME5ILUViMzhQTlBqblBCV25CT0xRcVVaUTVVT1JPTWRxdUFLVTZjUTlha3dMT0pvWTJWM0xVR3R2SFN5Zm4yXzUtTjFHMVY3S3pFbHJPdTVoZtIB8gFBVV95cUxPM1hqSXdTYUJRcXh1SFBoc1FrenBWSlFiZGgxQWJsWlZvc3FzemFUZE9FNGxQTWVrNi1wS3lydXlDT01xTUtWb1padEwyci1tQXZiejhmbVdpUWgwRTh0VFJrM1h5aGY4N3dtQ1Y3ZVZHZzdiOF80d2tpTGJXZzdWOFNQRi0tcEh4aXhSbTg2YXdWLUNPUTVsSWtWUWNVZEVBZlU3NjdyaVFkZ2MtZ0JoS1FwT0NGUDRGbVVKRDdLRFZvVVUxRXRaeFZReERVZTczZHJyZjdGNkZ6bzJzY0lYYVVZRmI2TUZmNndMX0plN1dOdw?oc=5",
+            "title": "Why chips have become the world’s most contested resource - Fortune",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOOHBmMERQUkVoNzU3M0JvdEttTVVmcy1Ub3JHVDJzSGFscFNhVWFKNTQ2dVhseFpDUUl2VklOcHk0VzBWWUVDYXpxMF9aQzFmaDlzdDQ5Qk1jUE9Ia3pTcVdGRTM4Z1pEcm5OUktsODdBWi13ZGctT2xZc3FqbXBpVFNYd2ttdHVNTzF1TzlJTG1iZw?oc=5\" target=\"_blank\" Why chips have become the worl",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOHBmMERQUkVoNzU3M0JvdEttTVVmcy1Ub3JHVDJzSGFscFNhVWFKNTQ2dVhseFpDUUl2VklOcHk0VzBWWUVDYXpxMF9aQzFmaDlzdDQ5Qk1jUE9Ia3pTcVdGRTM4Z1pEcm5OUktsODdBWi13ZGctT2xZc3FqbXBpVFNYd2ttdHVNTzF1TzlJTG1iZw?oc=5",
             "source": "Google News"
           },
           {
@@ -320,24 +333,42 @@
             "summary": "a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTJkcUdaXzRyMGxqMmJGVkZZWU9sZ1hiWVFBTWFURFNkQWxlY19kbG5NMm9TX1FOSG9MU1ZKYkNjMDRSUzZ2X3RVZVhncUljY2lvWTJMSG4zU1prakdvUDJPaFAwd1VqclR3di1aRGNOYUl2OEs2SGxoT3padVZtWFBCN0QwUzVkeWRjaFFjSUYwTlE0SkFaT1F4ZGw5YnBqOFlFYWdGQlQ?oc=5\" target=\"_blank\" S",
             "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTJkcUdaXzRyMGxqMmJGVkZZWU9sZ1hiWVFBTWFURFNkQWxlY19kbG5NMm9TX1FOSG9MU1ZKYkNjMDRSUzZ2X3RVZVhncUljY2lvWTJMSG4zU1prakdvUDJPaFAwd1VqclR3di1aRGNOYUl2OEs2SGxoT3padVZtWFBCN0QwUzVkeWRjaFFjSUYwTlE0SkFaT1F4ZGw5YnBqOFlFYWdGQlQ?oc=5",
             "source": "Google News"
-          },
-          {
-            "title": "Ninepoint Partners LP Invests $6.25 Million in Taiwan Semiconductor Manufacturing Company Ltd. $TSM - MarketBeat",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNmJ3M2FQZFc5ZkVGRGJHQURMVTJqOXpSZkowVmY2U3hzRnhGZTBXODFGYzE5Q1Q5WWtaNEU0SGZCZjJVWXBNYmhlWE5weXNKM3YyUk8tUGZOQUdERkk4MkRLQ2UzOXdYYkdPcTlOaXpNQ25ydWpqVE5BRExtSWhucjF5eVRsX1lkM1FHUnB2eDZHTlQ2dE1XYkZzekI5RmdhNXc4bXl5blRZdmlFaVBkMVVQMFowUXV5Ull",
-            "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNmJ3M2FQZFc5ZkVGRGJHQURMVTJqOXpSZkowVmY2U3hzRnhGZTBXODFGYzE5Q1Q5WWtaNEU0SGZCZjJVWXBNYmhlWE5weXNKM3YyUk8tUGZOQUdERkk4MkRLQ2UzOXdYYkdPcTlOaXpNQ25ydWpqVE5BRExtSWhucjF5eVRsX1lkM1FHUnB2eDZHTlQ2dE1XYkZzekI5RmdhNXc4bXl5blRZdmlFaVBkMVVQMFowUXV5UllzVkxVeG9lV2I0TzdTWXR0ODdiUFdmdVIzc1R5UkFaZ3MySVMzRG9zRldKdE5fTXRwUQ?oc=5",
-            "source": "Google News"
-          },
-          {
-            "title": "Why There Might Be a Case for Taiwan Semiconductor Stock at $450 in September - Barchart.com",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjZMREw3UDZjS3pHbk9HRGlvdHBIWVFrdlVPcWtFeFhqVmlLdGx6NDB2V01yMWpyLUxVT1M3Qnd4STB1OHNCV2tzbXBfS0pETl8tWmpDSWdid0F6Wmg2SFVjNGRRNDV3bU9MdFo2NVg0MjRqNERNOE9KZENfU0ZWamU5QWxOY3RPLVAxSlpMOGJVeVNPT2pKYzF1Q21QZ1ZPZ25MSlQwRHpJRDJBWUxlVG1Rb3RCQXMzZmw",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjZMREw3UDZjS3pHbk9HRGlvdHBIWVFrdlVPcWtFeFhqVmlLdGx6NDB2V01yMWpyLUxVT1M3Qnd4STB1OHNCV2tzbXBfS0pETl8tWmpDSWdid0F6Wmg2SFVjNGRRNDV3bU9MdFo2NVg0MjRqNERNOE9KZENfU0ZWamU5QWxOY3RPLVAxSlpMOGJVeVNPT2pKYzF1Q21QZ1ZPZ25MSlQwRHpJRDJBWUxlVG1Rb3RCQXMzZmwtSw?oc=5",
-            "source": "Google News"
           }
         ],
-        "summary": "애리조나 대규모 투자와 소로스 캐피털 등의 지분 확대로 TSMC를 향한 글로벌 자본의 강한 베팅과 밸류에이션 리레이팅 기대감이 이어지고 있습니다."
+        "summary": "TSMC의 급증하는 매출과 소로스·AMD 등 글로벌 자본의 대규모 투자가 이어지는 반면, 지정학적 리스크에 대한 경계감도 동시에 고조되고 있습니다."
       },
       "CN": {
         "headlines": [
+          {
+            "title": "US economist Barry Eichengreen on reality of de-dollarisation and next currency reshuffle",
+            "summary": "Barry Eichengreen is a leading American economist and one of the world’s foremost experts on international monetary systems. He is a professor of economics and political science at the University of California, Berkeley, where he has taught since 1987. He served as a senior policy adviser at the Int",
+            "link": "https://www.scmp.com/economy/china-economy/article/3364761/us-economist-barry-eichengreen-reality-de-dollarisation-and-next-currency-reshuffle?utm_source=rss_feed",
+            "source": "SCMP Business"
+          },
+          {
+            "title": "Wall Street helped build modern China. But is it now being cast aside?",
+            "summary": "For decades, Wall Street titans – from former Goldman Sachs chief Henry Paulson to Blackstone co-founder Stephen Schwarzman and Bridgewater founder Ray Dalio – were hailed as “old friends of China”, feted by senior officials and granted rare access to the country’s top leadership. Today, while Ameri",
+            "link": "https://www.scmp.com/business/banking-finance/article/3364838/wall-street-helped-build-modern-china-it-now-being-cast-aside?utm_source=rss_feed",
+            "source": "SCMP Business"
+          },
+          {
+            "title": "‘Huge influx’: expat retirees projected to drive Hong Kong’s premium home demand",
+            "summary": "Hong Kong is tipped to see more luxury home sales with expatriates increasingly choosing the city as their retirement base, drawn to its low-tax environment as well as business opportunities, according to analysts. “A huge influx of expats who used to live in Hong Kong are moving back with a long-te",
+            "link": "https://www.scmp.com/business/article/3364547/huge-influx-expat-retirees-projected-drive-hong-kongs-premium-home-demand?utm_source=rss_feed",
+            "source": "SCMP Business"
+          },
+          {
+            "title": "After gaining EV dominance, Chinese carmakers shift goal to take on full-hybrid behemoths",
+            "summary": "Chinese carmakers, already at the vanguard of electric vehicle (EV) technology and production, are looking to make a dent in international marques’ full-hybrid vehicle stronghold as they continue to disrupt the global car industry’s pecking order. Major car builders including Geely Auto and Changan ",
+            "link": "https://www.scmp.com/business/china-business/article/3364906/after-gaining-ev-dominance-chinese-carmakers-shift-goal-take-full-hybrid-behemoths?utm_source=rss_feed",
+            "source": "SCMP Business"
+          },
+          {
+            "title": "Exodus from New Territories brownfield relieves pressure on industrial property market",
+            "summary": "For years, brownfield sites in Hong Kong’s New Territories have hosted a range of businesses looking for cheap space – from storage depots to recycling centres to scrapyards. Now, the massive Northern Metropolis project is forcing many of these brownfield tenants to relocate, lifting demand for floo",
+            "link": "https://www.scmp.com/business/article/3364907/exodus-new-territories-brownfield-relieves-pressure-industrial-property-market?utm_source=rss_feed",
+            "source": "SCMP Business"
+          },
           {
             "title": "Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent",
             "summary": "In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull market to retain key personnel. Recent corporate filings revealed an unprecedented wav",
@@ -367,73 +398,73 @@
             "summary": "Ping An Insurance (Group), China’s largest insurer in terms of market capitalisation, is eyeing investments in Hong Kong-listed exchange-traded funds (ETFs) to boost returns following Beijing’s green light for cross-border allocations, according to senior executives. “Allowing mainland insurance fun",
             "link": "https://www.scmp.com/business/banking-finance/article/3364844/chinese-insurer-ping-eyes-hong-kong-etfs-beijing-greenlights-cross-border-investment?utm_source=rss_feed",
             "source": "SCMP Business"
-          },
-          {
-            "title": "Alibaba signals faster AI payoff, margin gains halfway through US$56 billion capex plan",
-            "summary": "Alibaba Group Holding is expected to further accelerate cloud growth, expand operating margins and achieve faster payback on artificial intelligence investments, analysts say, as the Chinese tech giant reaches the halfway mark of its massive 380 billion yuan (US$56 billion) AI infrastructure spendin",
-            "link": "https://www.scmp.com/tech/article/3364825/alibaba-signals-faster-ai-payoff-margin-gains-halfway-through-us56-billion-capex-plan?utm_source=rss_feed",
-            "source": "SCMP Business"
-          },
-          {
-            "title": "Hong Kong stock exchange extends listing application window to 12 months",
-            "summary": "The Hong Kong stock exchange plans to grant a three-year waiver to temporarily extend its listing application window from six months to 12 months, according to a statement released on Friday. The extension was designed to give listing candidates, their sponsors and advisers more time to complete the",
-            "link": "https://www.scmp.com/business/banking-finance/article/3364835/hong-kong-stock-exchange-extends-listing-application-window-12-months?utm_source=rss_feed",
-            "source": "SCMP Business"
-          },
-          {
-            "title": "HKEX gold futures smash delivery record as US sanctions reshape trade",
-            "summary": "Hong Kong Exchanges and Clearing (HKEX) has reported record-breaking physical deliveries and a trading surge in its US dollar-denominated gold futures contract, underscoring the city’s ambition to become a global hub for the precious metal amid widening trade restrictions by the United States. The b",
-            "link": "https://www.scmp.com/business/banking-finance/article/3364790/hkex-gold-futures-smash-delivery-record-us-sanctions-reshape-trade?utm_source=rss_feed",
-            "source": "SCMP Business"
-          },
-          {
-            "title": "Evergrande’s US$1.31b fine, China cuts US Treasury holdings: the numbers moving markets",
-            "summary": "While investors saw Beijing’s holdings of US government debt shrink and US Treasuries yield rise, a life sentence for China Evergrande Group founder Hui Ka-yan marked a symbolic end to an era of breakneck expansion in the country’s property sector. Here are some of the figures that have drawn the mo",
-            "link": "https://www.scmp.com/business/china-business/article/3364759/evergrandes-us131b-fine-china-cuts-us-treasury-holdings-numbers-moving-markets?utm_source=rss_feed",
-            "source": "SCMP Business"
-          },
-          {
-            "title": "Chinese court accepts Evergrande liquidation petition 1 day after founder’s life sentence",
-            "summary": "A court in southern China’s Guangdong province formally accepted a bankruptcy liquidation petition against China Evergrande Group’s main onshore unit, closing the final chapter in the unravelling of what was once the country’s largest property developer. The Guangzhou Intermediate People’s Court sai",
-            "link": "https://www.scmp.com/business/companies/article/3364786/chinese-court-accepts-evergrande-liquidation-petition-1-day-after-founders-life-sentence?utm_source=rss_feed",
-            "source": "SCMP Business"
           }
         ],
-        "summary": "알리바바의 AI 인프라 투자 가속화와 헝다 창업자 무기징역 및 청산 절차 개시가 맞물리며, 신성장 동력 육성과 구경제 부실 정리가 동시에 진행 중입니다."
+        "summary": "중국 전기차·배터리 업계가 하이브리드 시장 공략과 AI 반도체 인재 확보에 총력을 기울이는 한편, 테슬라의 대규모 리콜 등 규제 변동성이 지속되고 있습니다."
       }
     },
-    "trend_headline": "AI와 반도체 중심의 자본 집중·인재 유치 경쟁 가속화",
-    "summary": "오늘 아시아 시장은 한국과 중국의 첨단 기술 및 반도체 인재 확보 경쟁, 대만 TSMC로의 글로벌 자본 유입 가속화가 맞물리며 AI·반도체 밸류체인 전반의 모멘텀이 극대화되는 하루였습니다.",
+    "trend_headline": "글로벌 자본의 대만 반도체 집중과 중·일 테크 공급망 각축전",
+    "summary": "아시아 시장은 TSMC를 향한 글로벌 빅테크의 공격적인 투자와 반도체·AI 패권 경쟁이 화두로 떠오른 가운데, 중국의 친환경차·부품 공급망 재편과 일본의 기술 협력 확대가 맞물려 숨 가쁘게 움직인 하루였습니다.",
     "cross_country_themes": [
-      "반도체 및 AI 인재·자본 경쟁",
-      "글로벌 공급망 재편"
+      "AI 및 반도체 공급망 확장",
+      "중국 테크·자동차 산업의 글로벌 공세"
     ],
     "sector_hints": [
       "Semiconductors",
-      "Artificial Intelligence",
-      "EV & Auto Components"
+      "Automotive & EV",
+      "Artificial Intelligence"
     ]
   },
   "europe": {
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "region": "EUROPE",
     "headlines": [
       {
-        "title": "Royal Mail misses delivery targets again but hails 'encouraging' signs",
-        "summary": "The struggling firm said it had improved its performance but missed regulator-set delivery targets.",
-        "link": "https://www.bbc.co.uk/news/articles/c1w1rg208xdo?at_medium=RSS&at_campaign=rss",
+        "title": "Struggling households need more help with bills, energy industry says",
+        "summary": "Industry body Energy UK says the current support for households most in need does not go far enough.",
+        "link": "https://www.bbc.co.uk/news/articles/cm2g5x7l4mko?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
-        "summary": "Negotiations to finalise a deal between the US and Canada are going down to the wire ahead of a Friday night deadline.",
-        "link": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
+        "title": "CrossCountry cancels 'almost all' UK services after power cut",
+        "summary": "Customers say the disruption to virtually all UK CrossCountry services is the \"worst case scenario\".",
+        "link": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "US borrowing costs rise as attempts to ease rates prove short-lived",
-        "summary": "Economists said there were ongoing concerns over the level of borrowing as national debt passed $40tn.",
-        "link": "https://www.bbc.co.uk/news/articles/cvg92p3ez17o?at_medium=RSS&at_campaign=rss",
+        "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+        "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
+        "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Iran-linked hackers behind cyber attack that shut down power plant, reports say",
+        "summary": "The government says at no point was there a risk to the UK's energy system during the attack in July.",
+        "link": "https://www.bbc.co.uk/news/articles/ce9793g34yvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Mayors to get powers to overrule local councils on planning decisions",
+        "summary": "Housing minister Matthew Pennycook said the change was \"essential\" for helping mayors \"effectively deliver new homes\".",
+        "link": "https://www.bbc.co.uk/news/articles/cy8m0gxexl4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "How landscape gardening is being electrified",
+        "summary": "The switch to quieter electric equipment is not going as fast as some would like.",
+        "link": "https://www.bbc.co.uk/news/articles/cpq3w3v19veo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Les used a QR code to download a parking app - but it was a scam",
+        "summary": "Scammers set up a monthly subscription of £60 from Les Howard's account after he downloaded an app.",
+        "link": "https://www.bbc.co.uk/news/articles/cwyjqg578e1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "More students planning to live at home for university over 'insane' living costs",
+        "summary": "Students like Jessica say they worry about missing out on student life, but feel they have no choice but to stay at home.",
+        "link": "https://www.bbc.co.uk/news/articles/c70gy180e8lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
@@ -443,15 +474,21 @@
         "source": "BBC Business"
       },
       {
-        "title": "Stifling heat and broken toilets: TUI River Cruise passengers tell of their holiday hell",
-        "summary": "Holidaymakers tell the BBC they paid for luxury breaks but faulty air conditioning left them in sweltering heat.",
-        "link": "https://www.bbc.co.uk/news/articles/cy07exrz5lpo?at_medium=RSS&at_campaign=rss",
+        "title": "Royal Mail misses delivery targets again but hails 'encouraging' signs",
+        "summary": "The struggling firm said it had improved its performance but missed regulator-set delivery targets.",
+        "link": "https://www.bbc.co.uk/news/articles/c1w1rg208xdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "How landscape gardening is being electrified",
-        "summary": "The switch to quieter electric equipment is not going as fast as some would like.",
-        "link": "https://www.bbc.co.uk/news/articles/cpq3w3v19veo?at_medium=RSS&at_campaign=rss",
+        "title": "US borrowing costs rise as attempts to ease rates prove short-lived",
+        "summary": "Economists said there were ongoing concerns over the level of borrowing as national debt passed $40tn.",
+        "link": "https://www.bbc.co.uk/news/articles/cvg92p3ez17o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Stifling heat and broken toilets: TUI River Cruise passengers tell of their holiday hell",
+        "summary": "Holidaymakers tell the BBC they paid for luxury breaks but faulty air conditioning left them in sweltering heat.",
+        "link": "https://www.bbc.co.uk/news/articles/cy07exrz5lpo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
@@ -501,54 +538,18 @@
         "summary": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
         "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
-      },
-      {
-        "title": "I quit my £80,000 job to make ice cream - here's how",
-        "summary": "The co-founder of Little Moons shares her advice for anyone thinking about starting a business of their own.",
-        "link": "https://www.bbc.co.uk/news/articles/cz97148eye0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Bernard Matthews confirms closure of Derby factory",
-        "summary": "Bernard Matthews Foods says its Shaftesbury Street factory will close by the end of 2026.",
-        "link": "https://www.bbc.co.uk/news/articles/c998e0my7k5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Danone €1bn takeover of Huel approved by watchdog",
-        "summary": "French firm says the acquisition of Huel will help it grow in the nutritional sector.",
-        "link": "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Reform UK proposes tax rebates for firms to boost apprenticeships",
-        "summary": "Suella Braverman also advised student's \"not to get ripped off by the great university scam\".",
-        "link": "https://www.bbc.co.uk/news/articles/c86nz8n960go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Trump vows tougher economic measures on Iran and supporting countries",
-        "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
-        "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
-        "summary": "Hui's sentencing marks a key moment in the fallout from Evergrande's collapse, which shook China's property sector.",
-        "link": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
       }
     ],
-    "trend_headline": "에너지 요금 급등으로 UK 인플레이션 4개월래 최고치 기록",
-    "summary": "치솟는 에너지 비용과 지정학적 여파로 영국의 인플레이션이 4개월 만에 최고치로 뛰어오르며 물가 압력이 가중되고 있습니다. 지출 증가와 재정 적자 우려 속에서 재무부의 첫 예산안을 앞두고 긴축 기조가 강화되는 양상입니다.",
+    "trend_headline": "식품·영양 섹터 M&A 가속화 속 에너지망 취약성 노출",
+    "summary": "단오느(Danone)의 1억 유로 규모 휠(Huel) 인수 승인으로 유럽 식품·영양 섹터의 재편이 가속화되는 한편, 영국 내 전력망 차단 사태와 에너지 업계의 취약한 가구가 직면한 고비용 압박이 주요 리스크로 부각되었습니다. 미·캐나다 무역 갈등과 인프라 보안 이슈가 겹치며 에너지 및 유통망 전반의 경계감이 높아지고 있습니다.",
     "key_points": [
-      "에너지 요금 급등 여파로 UK 인플레이션율이 2.9%로 4개월 만에 최고치 기록",
-      "지정학적 리스크와 중동 갈등이 국내 에너지 가격에 직접적인 상승 압력으로 작용",
-      "영국 정부의 예산안 발표를 앞두고 재정 건전성 및 공공 차입 규모 확대 우려 지속"
+      "프랑스 다국적기업 단오느의 1억 유로 규모 휠(Huel) 인수 건이 규제 당국의 최종 승인을 획득",
+      "영국 CrossCountry 철도망의 대규모 전력 차단 사고로 인프라 취약성과 에너지망 안정성 우려 증폭",
+      "에너지 UK(Energy UK)는 고물가 속 취약 가구를 위한 추가적인 에너지 요금 지원 확대 촉구"
     ],
     "sector_hints": [
       "Energy",
-      "Financials"
+      "Consumer Staples"
     ]
   }
 }

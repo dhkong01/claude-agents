@@ -1,57 +1,67 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "대만 TSMC에 대한 글로벌 자본 유입 가속화, 미국 애리조나 대규모 투자 및 알리바바의 AI 인프라 투자 지속 등 아시아 지역을 중심으로 AI 및 반도체 밸류체인의 강한 모멘텀이 유지되고 있습니다.",
+      "score": 8.0,
+      "rationale": "TSMC를 향한 글로벌 빅테크의 공격적인 투자와 대만 반도체 기업들의 일본 남부 진출 등 아시아 공급망 확장이 긍정적이며, 미국 엔비디아의 실적 발표를 앞둔 대기 수요와 기대감이 반영되고 있습니다.",
       "related_tickers": [
         "TSM",
-        "BABA"
+        "NVDA",
+        "AMD"
       ],
       "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "일본과 동남아 국가 간의 기술 상장 협력 가속화 및 AI 붐 대응 움직임이 구체화되고 있으며, 미국 엔비디아의 실적 발표를 앞두고 AI 생태계 전반의 성장 기대감이 유지되고 있습니다.",
+      "related_tickers": [
+        "NVDA",
+        "MSFT"
+      ],
+      "source_regions": [
+        "US",
         "ASIA"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "미국 시장에서 타겟(Target)과 홈디포(Home Depot)가 예상을 뛰어넘는 호실적과 긍정적인 가이던스를 제시하며 소비 및 유통 섹터 전반의 탄력성을 증명했습니다.",
+      "score": 5.5,
+      "rationale": "미국 타겟(Target)의 관세 환급 효과에 따른 호실적 및 연간 가이던스 상향과 중국 친환경차 업계의 하이브리드 시장 공략 가속화가 긍정적 요인으로 작용하고 있습니다. 다만 테슬라 리콜 등 일부 규제 변동성이 상존합니다.",
       "related_tickers": [
         "TGT",
-        "HD"
+        "TSLA"
       ],
       "source_regions": [
-        "US"
+        "US",
+        "ASIA"
       ]
     },
     {
-      "name": "Consumer Staples",
+      "name": "Utilities",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "유통 공룡인 월마트(Walmart)가 실망스러운 실적 가이던스를 발표하고 주가가 9% 급락하면서 필수소비재 업황 둔화에 대한 우려가 커졌습니다.",
+      "score": -4.5,
+      "rationale": "영국 CrossCountry 철도망의 대규모 전력 차단 사고로 인프라 취약성 우려가 커졌으며, 고물가 상황 속 취약 가구를 위한 추가 요금 지원 요구 등으로 유틸리티 및 에너지 송배전 기업들의 규제적 부담이 늘어나고 있습니다.",
       "related_tickers": [
-        "WMT"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "지정학적 리스크 및 중동 갈등 여파로 영국의 에너지 요금이 급등하며 인플레이션을 자극하는 등, 유럽 내 에너지 가격 상승 압력이 관련 기업들의 단기 수익성에 긍정적 요인으로 작용하고 있습니다.",
-      "related_tickers": [
-        "BP",
-        "SHEL"
+        "NGG",
+        "UU.L"
       ],
       "source_regions": [
         "EUROPE"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Consumer Staples",
+      "note": "미국은 대표 소비재 기업인 월마트가 부진한 실적 전망을 제시하며 급락해 소비 심리 위축 우려를 자극했으나, 유럽은 프랑스 다농(Danone)의 휠(Huel) 인수 승인으로 식품·영양 부문의 M&A 활성화 및 섹터 재편 기대감이 유입되며 대조를 보였습니다."
+    }
+  ]
 }

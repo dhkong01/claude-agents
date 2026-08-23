@@ -1,7 +1,25 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "region": "US",
   "headlines": [
+    {
+      "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+      "summary": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+      "link": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "United s next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
+      "summary": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified, but that has been delayed by years.",
+      "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
+      "summary": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
+      "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html",
+      "source": "CNBC"
+    },
     {
       "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
       "summary": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
@@ -103,35 +121,18 @@
       "summary": "Brunswick Corp. CEO David Foulkes told CNBC premium boat sales are staying afloat, while value options are lagging.",
       "link": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Lakers governor Jeanie Buss says siblings cannot sell family’s stake to Bob Iger, Joshua Kushner",
-      "summary": "Jeanie Buss's lawyer says she has not agreed to sell the team and that any vote suggesting the Buss family is selling \"would be and is void.\"",
-      "link": "https://www.cnbc.com/2026/08/17/jeanie-buss-opposes-sale-family-stake.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Disney s new parks boss outlines investment strategy, with superfans at the fore",
-      "summary": "Disney Experiences chief Thomas Mazloum is focused on balancing the needs of its most ardent parkgoers with its less frequent visitors.",
-      "link": "https://www.cnbc.com/2026/08/17/disney-parks-strategy-superfans-mazloum.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
-      "summary": "Paramount agreed to delay its proposed acquisition of WBD to as late as June 2027 while the state AGs' case heads to trial.",
-      "link": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "월마트 9% 급락과 유통업계 실적 혼조",
-  "summary": "월마트가 실망스러운 실적 전망을 내놓으며 주가가 9% 급락한 반면, 타겟과 홈디포는 예상치를 웃도는 성적을 기록하며 소비재 및 유통 섹터 내에서 엇갈린 흐름을 보였습니다. 한편 미 재무부의 채권 바이백 확대 발표는 금과 비트코인 상승세를 이끌었습니다.",
+  "trend_headline": "월마트 충격과 유통주 혼조, 그리고 다가오는 엔비디아 실적 대기",
+  "summary": "월마트 주가가 부진한 실적 전망으로 9% 급락하며 K자형 경제 속 소비 심리에 대한 우려를 키운 반면, 타겟은 관세 환급 효과로 반등을 시도했습니다. 시장은 소비재 섹터의 희비가 엇갈린 가운데, AI 생태계의 향방을 가를 엔비디아의 실적 발표를 숨죽여 주시하고 있습니다.",
   "key_points": [
-    "월마트(Walmart), 실망스러운 실적 전망 발표 여파로 주가 9% 하락",
-    "타겟(Target)과 홈디포(Home Depot), 시장 예상 상회하는 실적 및 가이던스 제시",
-    "미 재무부의 채권 바이백 두 배 확대 계획 발표로 금과 비트코인 가격 상승"
+    "월마트(Walmart), 월스트리트 예상 밑도는 실적 전망에 주가 9% 급락",
+    "타겟(Target), 대규모 관세 환급 덕분에 2분기 매출 호조 및 연간 가이던스 상향",
+    "엔비디아(Nvidia) 수요일 실적 발표를 앞두고 AI 섹터 전반의 긴장감 고조"
   ],
   "sector_hints": [
     "Consumer Discretionary",
-    "Consumer Staples"
+    "Consumer Staples",
+    "Technology"
   ]
 }

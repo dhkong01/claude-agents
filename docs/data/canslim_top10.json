@@ -1,45 +1,45 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "analyzed": 100,
   "top10": [
     {
       "ticker": "ABNB",
-      "canslim_score": 64,
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 10,
+        "S": 7,
         "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 112152559616,
-      "price": 187.3,
-      "rs_rating": 83.9
+      "market_cap": 113895022592,
+      "price": 190.21,
+      "rs_rating": 85.8
     },
     {
-      "ticker": "DXCM",
-      "canslim_score": 57,
+      "ticker": "AMGN",
+      "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 7,
-        "L": 3,
+        "S": 4,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 34845491200,
-      "price": 92.34,
-      "rs_rating": 76.4
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 239954100224,
+      "price": 443.84,
+      "rs_rating": 80.1
     },
     {
-      "ticker": "AMGN",
+      "ticker": "DXCM",
       "canslim_score": 54,
       "scores": {
         "C": 10,
@@ -51,10 +51,10 @@
         "M": 7
       },
       "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 237515849728,
-      "price": 439.33,
-      "rs_rating": 78.3
+      "industry": "Medical Devices",
+      "market_cap": 34362470400,
+      "price": 91.06,
+      "rs_rating": 76.4
     },
     {
       "ticker": "ROST",
@@ -70,9 +70,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
-      "market_cap": 76679512064,
-      "price": 239.04,
-      "rs_rating": 72.6
+      "market_cap": 77475053568,
+      "price": 241.52,
+      "rs_rating": 74.5
     },
     {
       "ticker": "STX",
@@ -88,8 +88,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 192949993472,
-      "price": 850.0,
+      "market_cap": 180385562624,
+      "price": 794.65,
       "rs_rating": 96.2
     },
     {
@@ -106,66 +106,12 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 165646925824,
-      "price": 459.44,
+      "market_cap": 156972318720,
+      "price": 435.38,
       "rs_rating": 95.2
     },
     {
-      "ticker": "AMD",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 772568776704,
-      "price": 473.25,
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "FTNT",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 112632381440,
-      "price": 153.51,
-      "rs_rating": 87.7
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 84605255680,
-      "price": 235.62,
-      "rs_rating": 84.9
-    },
-    {
-      "ticker": "WDAY",
+      "ticker": "CSCO",
       "canslim_score": 51,
       "scores": {
         "C": 10,
@@ -177,10 +123,64 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 49397161984,
-      "price": 200.01,
-      "rs_rating": 75.4
+      "industry": "Communication Equipment",
+      "market_cap": 434464358400,
+      "price": 110.23,
+      "rs_rating": 73.5
+    },
+    {
+      "ticker": "SBUX",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "market_cap": 122538598400,
+      "price": 107.49,
+      "rs_rating": 59.4
+    },
+    {
+      "ticker": "MU",
+      "canslim_score": 49,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 1,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 1028233428992,
+      "price": 910.43,
+      "rs_rating": 98.1
+    },
+    {
+      "ticker": "AMD",
+      "canslim_score": 49,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 1,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 745624764416,
+      "price": 456.745,
+      "rs_rating": 90.5
     }
   ]
 }

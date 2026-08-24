@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "universe": "NDX100",
   "rs90_count": 9,
   "stocks": [
@@ -29,14 +29,14 @@
     },
     {
       "ticker": "INTC",
-      "rs_rating": 93.3
-    },
-    {
-      "ticker": "AMD",
-      "rs_rating": 91.5
+      "rs_rating": 92.4
     },
     {
       "ticker": "PANW",
+      "rs_rating": 91.5
+    },
+    {
+      "ticker": "AMD",
       "rs_rating": 90.5
     },
     {
@@ -56,39 +56,39 @@
       "rs_rating": 86.7
     },
     {
+      "ticker": "ABNB",
+      "rs_rating": 85.8
+    },
+    {
       "ticker": "DDOG",
       "rs_rating": 84.9
     },
     {
-      "ticker": "ABNB",
-      "rs_rating": 83.9
-    },
-    {
       "ticker": "ASML",
-      "rs_rating": 83.0
+      "rs_rating": 83.9
     },
     {
       "ticker": "ARM",
       "rs_rating": 82.0
     },
     {
-      "ticker": "KLAC",
+      "ticker": "WBD",
       "rs_rating": 81.1
     },
     {
-      "ticker": "AXON",
+      "ticker": "AMGN",
       "rs_rating": 80.1
     },
     {
-      "ticker": "WBD",
+      "ticker": "KLAC",
       "rs_rating": 79.2
     },
     {
-      "ticker": "AMGN",
+      "ticker": "CSX",
       "rs_rating": 78.3
     },
     {
-      "ticker": "CSX",
+      "ticker": "WDAY",
       "rs_rating": 77.3
     },
     {
@@ -96,47 +96,47 @@
       "rs_rating": 76.4
     },
     {
-      "ticker": "WDAY",
+      "ticker": "DASH",
       "rs_rating": 75.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "ROST",
       "rs_rating": 74.5
     },
     {
-      "ticker": "VRTX",
+      "ticker": "CSCO",
       "rs_rating": 73.5
     },
     {
-      "ticker": "ROST",
+      "ticker": "AXON",
       "rs_rating": 72.6
     },
     {
-      "ticker": "REGN",
+      "ticker": "VRTX",
       "rs_rating": 71.7
     },
     {
-      "ticker": "FANG",
-      "rs_rating": 69.8
+      "ticker": "PAYX",
+      "rs_rating": 70.7
     },
     {
       "ticker": "SHOP",
+      "rs_rating": 69.8
+    },
+    {
+      "ticker": "REGN",
       "rs_rating": 68.8
     },
     {
-      "ticker": "PLTR",
+      "ticker": "FANG",
       "rs_rating": 67.9
     },
     {
-      "ticker": "PCAR",
-      "rs_rating": 66.9
-    },
-    {
-      "ticker": "PAYX",
+      "ticker": "PLTR",
       "rs_rating": 66.0
     },
     {
-      "ticker": "DASH",
+      "ticker": "ADP",
       "rs_rating": 65.1
     },
     {
@@ -144,23 +144,23 @@
       "rs_rating": 64.1
     },
     {
-      "ticker": "ADI",
+      "ticker": "BKNG",
       "rs_rating": 63.2
     },
     {
-      "ticker": "BKNG",
+      "ticker": "PCAR",
       "rs_rating": 62.2
     },
     {
-      "ticker": "ODFL",
+      "ticker": "ADI",
       "rs_rating": 61.3
     },
     {
-      "ticker": "ADP",
+      "ticker": "CCEP",
       "rs_rating": 60.3
     },
     {
-      "ticker": "TXN",
+      "ticker": "SBUX",
       "rs_rating": 59.4
     },
     {
@@ -168,23 +168,23 @@
       "rs_rating": 58.5
     },
     {
-      "ticker": "MPWR",
+      "ticker": "TXN",
       "rs_rating": 57.5
     },
     {
-      "ticker": "SBUX",
+      "ticker": "ODFL",
       "rs_rating": 56.6
     },
     {
-      "ticker": "CCEP",
+      "ticker": "GOOGL",
       "rs_rating": 55.6
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "GOOG",
       "rs_rating": 54.7
     },
     {
-      "ticker": "GOOG",
+      "ticker": "GILD",
       "rs_rating": 53.7
     },
     {
@@ -192,71 +192,71 @@
       "rs_rating": 52.8
     },
     {
-      "ticker": "GILD",
+      "ticker": "KDP",
       "rs_rating": 51.9
     },
     {
-      "ticker": "BKR",
+      "ticker": "MPWR",
       "rs_rating": 50.9
     },
     {
-      "ticker": "KDP",
+      "ticker": "MAR",
       "rs_rating": 50.0
     },
     {
-      "ticker": "MAR",
+      "ticker": "MSFT",
       "rs_rating": 49.0
     },
     {
-      "ticker": "MSFT",
+      "ticker": "CTAS",
       "rs_rating": 48.1
     },
     {
-      "ticker": "AMZN",
+      "ticker": "ROP",
       "rs_rating": 47.1
     },
     {
-      "ticker": "CTAS",
+      "ticker": "AMZN",
       "rs_rating": 46.2
     },
     {
-      "ticker": "ROP",
+      "ticker": "BKR",
       "rs_rating": 45.3
     },
     {
-      "ticker": "NVDA",
+      "ticker": "MDLZ",
       "rs_rating": 44.3
     },
     {
-      "ticker": "MDLZ",
-      "rs_rating": 43.4
-    },
-    {
-      "ticker": "TTWO",
-      "rs_rating": 41.5
+      "ticker": "TRI",
+      "rs_rating": 42.4
     },
     {
       "ticker": "KHC",
+      "rs_rating": 41.5
+    },
+    {
+      "ticker": "NVDA",
       "rs_rating": 40.5
     },
     {
-      "ticker": "MCHP",
+      "ticker": "TTWO",
       "rs_rating": 39.6
     },
     {
-      "ticker": "GEHC",
+      "ticker": "MELI",
       "rs_rating": 38.7
     },
     {
-      "ticker": "TRI",
+      "ticker": "CTSH",
       "rs_rating": 37.7
     },
     {
-      "ticker": "AVGO",
+      "ticker": "GEHC",
       "rs_rating": 36.8
     },
     {
-      "ticker": "CTSH",
+      "ticker": "MCHP",
       "rs_rating": 35.8
     },
     {
@@ -264,7 +264,7 @@
       "rs_rating": 34.9
     },
     {
-      "ticker": "MELI",
+      "ticker": "CMCSA",
       "rs_rating": 33.9
     },
     {
@@ -272,15 +272,15 @@
       "rs_rating": 33.0
     },
     {
-      "ticker": "CMCSA",
+      "ticker": "AVGO",
       "rs_rating": 32.1
     },
     {
-      "ticker": "ADBE",
+      "ticker": "COST",
       "rs_rating": 31.1
     },
     {
-      "ticker": "FER",
+      "ticker": "ADBE",
       "rs_rating": 30.2
     },
     {
@@ -288,11 +288,11 @@
       "rs_rating": 29.2
     },
     {
-      "ticker": "COST",
+      "ticker": "XEL",
       "rs_rating": 28.3
     },
     {
-      "ticker": "XEL",
+      "ticker": "PEP",
       "rs_rating": 27.3
     },
     {
@@ -300,47 +300,47 @@
       "rs_rating": 26.4
     },
     {
-      "ticker": "CDNS",
+      "ticker": "FER",
       "rs_rating": 25.5
     },
     {
-      "ticker": "PEP",
+      "ticker": "VRSK",
       "rs_rating": 24.5
     },
     {
-      "ticker": "VRSK",
+      "ticker": "ORLY",
       "rs_rating": 23.6
     },
     {
-      "ticker": "HON",
+      "ticker": "WMT",
       "rs_rating": 22.6
     },
     {
-      "ticker": "INSM",
+      "ticker": "HON",
       "rs_rating": 21.7
     },
     {
-      "ticker": "WMT",
+      "ticker": "CDNS",
       "rs_rating": 19.8
     },
     {
-      "ticker": "ORLY",
+      "ticker": "INTU",
       "rs_rating": 18.9
     },
     {
-      "ticker": "NXPI",
+      "ticker": "INSM",
       "rs_rating": 17.9
     },
     {
-      "ticker": "ZS",
+      "ticker": "IDXX",
       "rs_rating": 17.0
     },
     {
-      "ticker": "TSLA",
+      "ticker": "NXPI",
       "rs_rating": 16.0
     },
     {
-      "ticker": "IDXX",
+      "ticker": "CPRT",
       "rs_rating": 15.1
     },
     {
@@ -348,23 +348,23 @@
       "rs_rating": 14.1
     },
     {
-      "ticker": "CPRT",
+      "ticker": "META",
       "rs_rating": 13.2
     },
     {
-      "ticker": "INTU",
+      "ticker": "TMUS",
       "rs_rating": 12.3
     },
     {
-      "ticker": "CEG",
+      "ticker": "ZS",
       "rs_rating": 11.3
     },
     {
-      "ticker": "TMUS",
+      "ticker": "CEG",
       "rs_rating": 10.4
     },
     {
-      "ticker": "META",
+      "ticker": "TSLA",
       "rs_rating": 9.4
     },
     {
@@ -372,15 +372,15 @@
       "rs_rating": 8.5
     },
     {
-      "ticker": "SNPS",
+      "ticker": "PDD",
       "rs_rating": 7.5
     },
     {
-      "ticker": "PDD",
+      "ticker": "CHTR",
       "rs_rating": 6.6
     },
     {
-      "ticker": "CHTR",
+      "ticker": "SNPS",
       "rs_rating": 5.7
     },
     {
@@ -396,11 +396,11 @@
       "rs_rating": 2.8
     },
     {
-      "ticker": "APP",
+      "ticker": "MNST",
       "rs_rating": 1.9
     },
     {
-      "ticker": "MNST",
+      "ticker": "APP",
       "rs_rating": 0.9
     }
   ]

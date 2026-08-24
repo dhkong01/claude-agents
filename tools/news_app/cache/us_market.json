@@ -1,7 +1,43 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "region": "US",
   "headlines": [
+    {
+      "title": "Paramount CEO David Ellison is at the final hurdle before buying WBD. So far, he can t clear it",
+      "summary": "An antitrust challenge by a group of state attorneys general has left Paramount CEO David Ellison hunting for avenues to get his deal for WBD done.",
+      "link": "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+      "summary": "Main Street has been in the process of winding down its portfolio of regional sports networks since the the NHL and NBA seasons ended earlier this year.",
+      "link": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "A media M&A chill: The Paramount-WBD antitrust challenge may hold up more deals than one",
+      "summary": "Paramount's proposed merger with WBD is delayed while an antitrust lawsuit plays out. The holdup could mean a freeze across the media industry.",
+      "link": "https://www.cnbc.com/2026/08/24/paramount-wbd-antitrust-media-deals.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "California AG Rob Bonta cancels Paramount settlement meeting, citing lack of good faith",
+      "summary": "California AG Rob Bonta was scheduled to meet with Paramount representatives on Monday, he said, but canceled the meeting.",
+      "link": "https://www.cnbc.com/2026/08/24/california-ag-bonta-paramount-settlement-meeting.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Goldman Sachs partner warns of huge danger in letting AI replace bankers reasoning skills",
+      "summary": "Goldman Sachs is embracing AI, but one of its senior tech leaders warns that it comes with an unintended risk: weakening the reasoning skills of future bankers.",
+      "link": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "UPS is investing $2 billion in international, healthcare and supply chain businesses",
+      "summary": "UPS told CNBC exclusively that the company is investing more than $2 billion into its international, healthcare and supply chain businesses.",
+      "link": "https://www.cnbc.com/2026/08/24/ups-global-logistics-investment.html",
+      "source": "CNBC"
+    },
     {
       "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
       "summary": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
@@ -85,54 +121,18 @@
       "summary": "Target posted better-than-expected fiscal second-quarter sales and raised its full-year outlook.",
       "link": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Lowe s gives muted outlook as it sees pressure in home improvement spending",
-      "summary": "Lowe's reported mixed quarterly results as the retailer said it continued to see pressure in home improvement spending.",
-      "link": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Hims & Hers CEO says FTC lawsuit misunderstands how the company works",
-      "summary": "Hims & Hers CEO Andrew Dudum spoke to CNBC about the FTC's lawsuit against the company, compounded GLP-1 drugs and AI.",
-      "link": "https://www.cnbc.com/2026/08/18/hims-hers-ceo-andrew-dudum-ftc-lawsuit-glp-1s-ai.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Disney-owned ABC files First Amendment lawsuit against FCC",
-      "summary": "Disney's ABC has sued the FCC claiming its investigation and early broadcast licenses renewal are a \"retaliatory campaign\" due to its programming.",
-      "link": "https://www.cnbc.com/2026/08/18/disney-abc-first-amendment-lawsuit-fcc.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "American Airlines to add seatback screens, bigger first class in race to catch up to Delta and United",
-      "summary": "American is trying to add more premium seating and passenger perks after falling behind rivals Delta and United.",
-      "link": "https://www.cnbc.com/2026/08/18/american-airlines-seatback-screens.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Home Depot reaffirms guidance amid frozen housing market conditions",
-      "summary": "Home Depot reported second fiscal quarter results that beat Wall Street expectations on the top and bottom lines.",
-      "link": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Sea Ray parent Brunswick bets on AI navigation and new revenue streams to help stalling boat sales",
-      "summary": "Brunswick Corp. CEO David Foulkes told CNBC premium boat sales are staying afloat, while value options are lagging.",
-      "link": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "월마트 충격과 유통주 혼조, 그리고 다가오는 엔비디아 실적 대기",
-  "summary": "월마트 주가가 부진한 실적 전망으로 9% 급락하며 K자형 경제 속 소비 심리에 대한 우려를 키운 반면, 타겟은 관세 환급 효과로 반등을 시도했습니다. 시장은 소비재 섹터의 희비가 엇갈린 가운데, AI 생태계의 향방을 가를 엔비디아의 실적 발표를 숨죽여 주시하고 있습니다.",
+  "trend_headline": "월마트 충격 속 엇갈린 유통·반독점 리스크",
+  "summary": "월마트의 실망스러운 실적 전망에 주가가 급락하며 소비재 및 유통 섹터의 경계감이 확산된 반면, 타겟은 관세 환급 효과 등으로 양호한 실적을 기록하며 엇갈린 흐름을 보였다. 한편 캘리포니아주 등 주 정부 법무장관들의 반독점 소송으로 파라마운트와 워너브라더스 디스커버리(WBD)의 합병이 제동이 걸리며 미디어 M&A 시장에 한파가 불고 있다.",
   "key_points": [
-    "월마트(Walmart), 월스트리트 예상 밑도는 실적 전망에 주가 9% 급락",
-    "타겟(Target), 대규모 관세 환급 덕분에 2분기 매출 호조 및 연간 가이던스 상향",
-    "엔비디아(Nvidia) 수요일 실적 발표를 앞두고 AI 섹터 전반의 긴장감 고조"
+    "월마트(Walmart) 주가 실망스러운 실적 전망 발표 여파로 9% 급락",
+    "파라마운트(Paramount)와 WBD의 합병 건이 주 정부 법무장관들의 반독점 소송으로 지연",
+    "타겟(Target)은 예상치를 상회한 2분기 실적과 함께 연간 전망을 상향 조정"
   ],
   "sector_hints": [
     "Consumer Discretionary",
     "Consumer Staples",
-    "Technology"
+    "Communication Services"
   ]
 }

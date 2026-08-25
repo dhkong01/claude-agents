@@ -1,23 +1,42 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "sectors": [
     {
-      "name": "Consumer Staples",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "월마트의 실망스러운 실적 전망 발표로 인해 주가가 9% 급락하며 필수 소비재 및 유통 섹터 전반에 실적 경계감이 확산되었습니다.",
+      "name": "Semiconductors",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "대만을 중심으로 한 TSMC AI 인프라 생태계의 견조한 확장세와 글로벌 소재·장비 공급망 다변화 노력이 지속되며 반도체 업계의 독보적인 성장성이 재확인되었습니다.",
       "related_tickers": [
-        "WMT"
+        "TSM",
+        "NVDA",
+        "ASML"
       ],
       "source_regions": [
-        "US"
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "미국 유통 대기업(월마트 등)의 실적 부진 및 가이던스 하향으로 소비 둔화 우려가 확산되었고, 미-캐나다 관세 전쟁 격화로 유럽과 북미의 자동차 섹터 타격 우려가 고조되고 있습니다.",
+      "related_tickers": [
+        "WMT",
+        "DKS",
+        "TSLA",
+        "F"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE",
+        "ASIA"
       ]
     },
     {
       "name": "Communication Services",
       "direction": "negative",
       "score": -5.5,
-      "rationale": "파라마운트와 워너브라더스 디스커버리(WBD)의 합병이 미 주정부 법무장관들의 반독점 소송으로 제동이 걸리며 미디어 M&A 시장의 위축 우려가 커졌습니다.",
+      "rationale": "파라마운트와 워너브러더스 디스커버리(WBD)의 합병이 반독점 규제 소송으로 난항을 겪으면서 미디어 업계 전반의 M&A 활성화 및 투자 심리가 위축되고 있습니다.",
       "related_tickers": [
         "PARA",
         "WBD"
@@ -27,58 +46,37 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
+      "name": "Healthcare",
       "direction": "positive",
       "score": 6.0,
-      "rationale": "미국 타겟의 양호한 실적 및 전망치 상향과 더불어, 한국 현대차의 노사 임단협 잠정 합의에 따른 생산 리스크 해소, 일본의 EV 및 자율주행 AI 도입 등 자동차·소비재 부문의 긍정적 모멘텀이 부각되었습니다.",
+      "rationale": "중국 우시바이오로직스의 견조한 상반기 실적과 함께 바이오 및 첨단 분야의 체질 개선 시도가 나타나며 긍정적인 모멘텀을 형성하고 있습니다.",
       "related_tickers": [
-        "TGT",
-        "005380",
-        "7269"
+        "WXIBF",
+        "IBB"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "뉴욕시를 중심으로 AI 인재 시장 및 일자리가 급성장하고 있으며, 아시아의 AI 인프라 투자 지속 등 첨단 기술 분야의 성장 동력이 유지되고 있습니다.",
+      "related_tickers": [
+        "MSFT",
+        "GOOGL"
       ],
       "source_regions": [
         "US",
         "ASIA"
       ]
-    },
-    {
-      "name": "Semiconductors",
-      "direction": "neutral",
-      "score": -1.0,
-      "rationale": "TSMC를 비롯한 글로벌 AI 칩 수요 기대감은 견고하나, 엔비디아 실적 발표를 앞두고 대만을 중심으로 단기 차익실현 및 매물 출회 압력이 나타나며 조정 흐름을 보였습니다.",
-      "related_tickers": [
-        "TSM",
-        "NVDA"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "한국의 지방 건설사 폐업 및 건설업 침체 압박이 지속되고 있고, 중국 본토의 부동산 부진 여파가 이어지며 아시아 지역 부동산 섹터 전반에 하방 압력으로 작용하고 있습니다.",
-      "related_tickers": [
-        "1109"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "negative",
-      "score": -3.0,
-      "rationale": "이란 금융 제재와 영국 발전소 해킹 등 지정학적 리스크가 재부각되는 가운데, 취약 가계에 대한 가스·전기 요금 지원 압박 등 유럽 내 에너지 인프라 안보와 규제 부담이 가중되었습니다.",
-      "related_tickers": [
-        "BP",
-        "SHEL"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Energy",
+      "note": "아시아(일본)는 LNG 수입 비용 상승에 따른 전력 도매가 급등 전망이 제기된 반면, 유럽(영국)은 전력망 사이버 공격으로 에너지 안보가 위협받는 동시에 전력 인프라 지하화 투자 압박과 취약 가구 지원 등 규제적·비용적 부담이 복합적으로 나타나고 있습니다."
+    }
+  ]
 }

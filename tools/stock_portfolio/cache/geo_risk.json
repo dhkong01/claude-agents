@@ -1,37 +1,35 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
-  "medium_risk_signals": 9,
+  "high_risk_signals": 4,
+  "medium_risk_signals": 10,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "ELEVATED",
+    "Semiconductors": "WATCH",
     "Defense": "ELEVATED",
     "Consumer": "ELEVATED",
-    "Financials": "ELEVATED"
+    "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Uk Prime Minister Burnham Arrives In Ukraine As Russia Amps Up Warnings",
-    "Iran Pledges To Defy Trump\u2019S Economic Sanctions",
-    "U.S. Marines Cancel Drill With South Korea, Citing Iran War Demands"
+    "Canada Fires Back In Trade War Against Trump With Up To 50% Tariffs",
+    "How U.S.-Canada Tariff Negotiations Turned Into An All-Out Trade War",
+    "Iran Pledges To Defy Trump\u2019S Economic Sanctions"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense, Consumer, Financials \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense, Consumer \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
-    "long_pct": 15,
-    "sqqq_pct": 25,
+    "long_pct": 20,
+    "sqqq_pct": 20,
     "cash_pct": 60,
-    "per_stock_pct": 3.0,
+    "per_stock_pct": 4.0,
     "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
-      "Semiconductors",
       "Defense",
-      "Consumer",
-      "Financials"
+      "Consumer"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 25% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Semiconductors, Defense, Consumer, Financials ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense, Consumer ELEVATED]"
   }
 }

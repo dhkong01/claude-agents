@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "analyzed": 100,
   "top10": [
     {
@@ -16,27 +16,27 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 113895022592,
-      "price": 190.21,
+      "market_cap": 114068668416,
+      "price": 190.5,
       "rs_rating": 85.8
     },
     {
       "ticker": "AMGN",
-      "canslim_score": 58,
+      "canslim_score": 54,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
         "S": 4,
-        "L": 7,
+        "L": 3,
         "I": 10,
         "M": 7
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 239954100224,
-      "price": 443.84,
-      "rs_rating": 80.1
+      "market_cap": 239089090560,
+      "price": 442.24,
+      "rs_rating": 79.2
     },
     {
       "ticker": "DXCM",
@@ -52,9 +52,9 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 34362470400,
-      "price": 91.06,
-      "rs_rating": 76.4
+      "market_cap": 33645488128,
+      "price": 89.16,
+      "rs_rating": 75.4
     },
     {
       "ticker": "ROST",
@@ -70,9 +70,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
-      "market_cap": 77475053568,
-      "price": 241.52,
-      "rs_rating": 74.5
+      "market_cap": 77369188352,
+      "price": 241.19,
+      "rs_rating": 71.7
     },
     {
       "ticker": "STX",
@@ -88,8 +88,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 180385562624,
-      "price": 794.65,
+      "market_cap": 186519093248,
+      "price": 821.67,
       "rs_rating": 96.2
     },
     {
@@ -106,9 +106,27 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 156972318720,
-      "price": 435.38,
+      "market_cap": 162513829888,
+      "price": 450.75,
       "rs_rating": 95.2
+    },
+    {
+      "ticker": "AMD",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 1,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 782249361408,
+      "price": 479.18,
+      "rs_rating": 92.4
     },
     {
       "ticker": "CSCO",
@@ -124,9 +142,27 @@
       },
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "market_cap": 434464358400,
-      "price": 110.23,
-      "rs_rating": 73.5
+      "market_cap": 437932818432,
+      "price": 111.11,
+      "rs_rating": 76.4
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 56231718912,
+      "price": 199.89,
+      "rs_rating": 65.1
     },
     {
       "ticker": "SBUX",
@@ -142,45 +178,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "market_cap": 122538598400,
-      "price": 107.49,
-      "rs_rating": 59.4
-    },
-    {
-      "ticker": "MU",
-      "canslim_score": 49,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 1028233428992,
-      "price": 910.43,
-      "rs_rating": 98.1
-    },
-    {
-      "ticker": "AMD",
-      "canslim_score": 49,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 745624764416,
-      "price": 456.745,
-      "rs_rating": 90.5
+      "market_cap": 120566398976,
+      "price": 105.76,
+      "rs_rating": 53.7
     }
   ]
 }

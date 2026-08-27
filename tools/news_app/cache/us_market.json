@@ -1,7 +1,19 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "region": "US",
   "headlines": [
+    {
+      "title": "Lost in limbo: Where the Paramount merger delay leaves WBD, and what may come next",
+      "summary": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
+      "link": "https://www.cnbc.com/2026/08/26/paramount-merger-delay-wbd-limbo.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Hyundai has grown more than any automaker in the U.S. — and it s not done yet",
+      "summary": "The South Korean automaker wants to keep going by ramping up production at a new $7.6 billion plant in Georgia to capture more sales and market share.",
+      "link": "https://www.cnbc.com/2026/08/26/hyundai-sales-us-investment.html",
+      "source": "CNBC"
+    },
     {
       "title": "HHS plans new FDA deputy commissioner roles for technology and drugs, sources say",
       "summary": "HHS plans to name two deputy commissioners for technology and drugs, said two sources familiar with the matter.",
@@ -109,30 +121,17 @@
       "summary": "The bigger issue at hand may be that many Americans fall into a large, uncertain middle ground – neither firmly pro-vaccine nor staunchly opposed.",
       "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Why some of America s biggest brands are losing ground in China",
-      "summary": "Nike, Starbucks and GM have lost ground in China as domestic rivals, geopolitics and changing consumer preferences reshape the market.",
-      "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "New York unseats San Francisco as the top market for tech talent, CBRE reports",
-      "summary": "AI-related roles now account for nearly one-third of all tech-talent job listings in the U.S., per the new CBRE report.",
-      "link": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "소비재 실적 부진과 규제 리스크 확산",
-  "summary": "월마트와 딕스 스포팅굿즈 등 주요 유통기업들의 실적 부진과 가이던스 하향이 소비 위축 우려를 자극했으며, 반독점 소송과 규제 이슈가 미디어 및 테크 전반의 M&A와 투자 심리를 짓누르고 있습니다.",
+  "trend_headline": "소매주 실적 부진과 테크 기업들의 AI 호조",
+  "summary": "딕스 스포팅 굿즈와 월마트 등 주요 유통업체들의 실적 및 가이던스 부진으로 소비 여력에 대한 우려가 커진 반면, 크라우드스트라이크와 세일즈포스는 인공지능(AI) 모멘텀을 바탕으로 호실적을 기록하며 테크 섹터의 강세를 주도했습니다.",
   "key_points": [
-    "월마트와 딕스 스포팅굿즈 주가가 월스트리트 예상치를 밑돌며 약세를 기록",
-    "파라마운트와 워너브러더스 디스커버리(WBD) 합병 건이 반독점 소송으로 난항",
-    "뉴욕시가 샌프란시스코를 제치고 AI 관련 일자리를 중심으로 미국 최고 테크 인재 시장으로 부상"
+    "딕스 스포팅 굿즈, 월가의 기대치를 밑돌며 주가 30% 급락",
+    "크라우드스트라이크, AI 수요 힘입어 사상 최대 분기 실적 기록하며 주가 급등",
+    "세일즈포스, AI 기업 앤스로픽과의 파트너십 강화 및 예상을 웃도는 2분기 실적 발표"
   ],
   "sector_hints": [
     "Consumer Discretionary",
-    "Communication Services",
     "Technology"
   ]
 }

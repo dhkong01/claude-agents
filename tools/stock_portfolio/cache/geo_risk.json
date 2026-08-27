@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
-  "medium_risk_signals": 10,
+  "high_risk_signals": 3,
+  "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
@@ -13,9 +13,9 @@
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Canada Fires Back In Trade War Against Trump With Up To 50% Tariffs",
-    "How U.S.-Canada Tariff Negotiations Turned Into An All-Out Trade War",
-    "Iran Pledges To Defy Trump\u2019S Economic Sanctions"
+    "Ukraine\u2019S Most Potent Weapon: The Software Orchestrating Its Drone Army",
+    "Canadians Stand Their Ground Amid New Trump Tariffs And Expanding U.S.-Canada Trade War",
+    "What To Know About Bank Melli, Singled Out In U.S. Call For Economic War"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense, Consumer \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

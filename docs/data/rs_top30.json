@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "rs90_count": 9,
   "stocks": [
     {
@@ -27,23 +27,23 @@
       "rs_rating": 94.3
     },
     {
-      "ticker": "AMD",
-      "rs_rating": 92.4
+      "ticker": "INTC",
+      "rs_rating": 93.3
     },
     {
-      "ticker": "INTC",
-      "rs_rating": 91.5
+      "ticker": "AMD",
+      "rs_rating": 92.4
     },
     {
       "ticker": "PANW",
       "rs_rating": 90.5
     },
     {
-      "ticker": "LRCX",
+      "ticker": "AMAT",
       "rs_rating": 89.6
     },
     {
-      "ticker": "AMAT",
+      "ticker": "LRCX",
       "rs_rating": 88.6
     },
     {
@@ -51,23 +51,23 @@
       "rs_rating": 87.7
     },
     {
-      "ticker": "CRWD",
+      "ticker": "ASML",
       "rs_rating": 86.7
     },
     {
-      "ticker": "ABNB",
+      "ticker": "CRWD",
       "rs_rating": 85.8
     },
     {
-      "ticker": "ASML",
+      "ticker": "ABNB",
       "rs_rating": 84.9
     },
     {
-      "ticker": "DDOG",
+      "ticker": "ARM",
       "rs_rating": 83.0
     },
     {
-      "ticker": "ARM",
+      "ticker": "DDOG",
       "rs_rating": 82.0
     },
     {
@@ -103,32 +103,32 @@
       "rs_rating": 74.5
     },
     {
-      "ticker": "SHOP",
-      "rs_rating": 73.5
-    },
-    {
-      "ticker": "WDAY",
+      "ticker": "ROST",
       "rs_rating": 72.6
     },
     {
-      "ticker": "ROST",
+      "ticker": "REGN",
       "rs_rating": 71.7
     },
     {
-      "ticker": "AXON",
+      "ticker": "PAYX",
       "rs_rating": 70.7
     },
     {
-      "ticker": "REGN",
+      "ticker": "PYPL",
       "rs_rating": 69.8
+    },
+    {
+      "ticker": "FANG",
+      "rs_rating": 68.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 45.3,
+    "VKTX": 44.3,
     "MRVL": 94.3,
     "CRDO": 83.9,
-    "NBIS": 93.3,
-    "RDDT": 23.6,
-    "VRT": 67.9
+    "NBIS": 91.5,
+    "RDDT": 11.3,
+    "VRT": 73.5
   }
 }

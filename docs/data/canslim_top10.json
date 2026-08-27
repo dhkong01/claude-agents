@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "analyzed": 100,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 114068668416,
-      "price": 190.5,
-      "rs_rating": 85.8
+      "market_cap": 112613621760,
+      "price": 188.07,
+      "rs_rating": 84.9
     },
     {
       "ticker": "AMGN",
@@ -34,8 +34,8 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 239089090560,
-      "price": 442.24,
+      "market_cap": 238061895680,
+      "price": 440.34,
       "rs_rating": 79.2
     },
     {
@@ -52,8 +52,8 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 33645488128,
-      "price": 89.16,
+      "market_cap": 33570013184,
+      "price": 88.96,
       "rs_rating": 75.4
     },
     {
@@ -70,9 +70,27 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
-      "market_cap": 77369188352,
-      "price": 241.19,
-      "rs_rating": 71.7
+      "market_cap": 75790950400,
+      "price": 236.27,
+      "rs_rating": 72.6
+    },
+    {
+      "ticker": "SBUX",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "market_cap": 123678597120,
+      "price": 108.49,
+      "rs_rating": 62.2
     },
     {
       "ticker": "STX",
@@ -88,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 186519093248,
-      "price": 821.67,
+      "market_cap": 192125992960,
+      "price": 846.37,
       "rs_rating": 96.2
     },
     {
@@ -106,8 +124,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 162513829888,
-      "price": 450.75,
+      "market_cap": 169050439680,
+      "price": 468.88,
       "rs_rating": 95.2
     },
     {
@@ -124,27 +142,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 782249361408,
-      "price": 479.18,
+      "market_cap": 785106206720,
+      "price": 480.93,
       "rs_rating": 92.4
     },
     {
-      "ticker": "CSCO",
-      "canslim_score": 51,
+      "ticker": "FTNT",
+      "canslim_score": 52,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 4,
-        "S": 7,
-        "L": 3,
+        "N": 7,
+        "S": 1,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Communication Equipment",
-      "market_cap": 437932818432,
-      "price": 111.11,
-      "rs_rating": 76.4
+      "industry": "Software - Infrastructure",
+      "market_cap": 115589242880,
+      "price": 157.54,
+      "rs_rating": 87.7
     },
     {
       "ticker": "FANG",
@@ -160,27 +178,9 @@
       },
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "market_cap": 56231718912,
-      "price": 199.89,
-      "rs_rating": 65.1
-    },
-    {
-      "ticker": "SBUX",
-      "canslim_score": 51,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 0,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "market_cap": 120566398976,
-      "price": 105.76,
-      "rs_rating": 53.7
+      "market_cap": 56217653248,
+      "price": 199.84,
+      "rs_rating": 68.8
     }
   ]
 }

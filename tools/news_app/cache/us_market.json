@@ -1,7 +1,37 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "region": "US",
   "headlines": [
+    {
+      "title": "FDA approves daily HIV pill from Gilead designed to simplify treatment for some patients",
+      "summary": "The new pill is also aimed at people who are doing well on a single-tablet regimen, including Biktarvy, and want to switch to a new treatment.",
+      "link": "https://www.cnbc.com/2026/08/27/fda-approves-gilead-hiv-pill-bixlenvo-designed-to-simplify-treatment.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+      "summary": "Gap announced a new CEO for Old Navy on Thursday as the brand reported a decline in comparable sales for the most recent quarter.",
+      "link": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Family offices are making a bullish bet on the stock market, according to CNBC Family Office Portfolio Tracker",
+      "summary": "The data includes the portfolios of hundreds of family offices, representing a total of $1.4 trillion in assets.",
+      "link": "https://www.cnbc.com/2026/08/27/family-offices-making-bullish-bet-on-stocks-according-to-cnbc-tracker.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "American Airlines adds batch of new international routes on its XLR planes",
+      "summary": "American is adding seven routes to its 2027 schedule, with the majority heading to smaller European cities from its Philadelphia hub or from New York City.",
+      "link": "https://www.cnbc.com/2026/08/27/american-airlines-routes-xlr.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "What the Buss family Lakers dispute can teach the wealthy about trusts",
+      "summary": "Jeanie Buss, governor of the Lakers, is contesting her siblings' decision to sell the family's remaining stake in the NBA team.",
+      "link": "https://www.cnbc.com/2026/08/27/buss-family-lakers-trust-dispute.html",
+      "source": "CNBC"
+    },
     {
       "title": "Lost in limbo: Where the Paramount merger delay leaves WBD, and what may come next",
       "summary": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
@@ -91,47 +121,17 @@
       "summary": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
       "link": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
       "source": "CNBC"
-    },
-    {
-      "title": "United s next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
-      "summary": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified, but that has been delayed by years.",
-      "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
-      "summary": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
-      "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Inside Coca-Cola’s secretive innovation labs: How the beverage giant wants to automate dirty soda and refreshers",
-      "summary": "From McDonald's to Wendy's, longtime Coke customers have been expanding their beverage offerings to boost their profit margins.",
-      "link": "https://www.cnbc.com/2026/08/22/coca-cola-innovation-labs-dirty-sodas-refreshers.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
-      "summary": "Matt Zames is taking an unpaid position to help his former JPMorgan colleague Frank Bisignano tackle modernization of the SSA, CNBC has learned.",
-      "link": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Most Americans aren t anti-vaccine. They re uncertain — and that s a growing public health challenge",
-      "summary": "The bigger issue at hand may be that many Americans fall into a large, uncertain middle ground – neither firmly pro-vaccine nor staunchly opposed.",
-      "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "소매주 실적 부진과 테크 기업들의 AI 호조",
-  "summary": "딕스 스포팅 굿즈와 월마트 등 주요 유통업체들의 실적 및 가이던스 부진으로 소비 여력에 대한 우려가 커진 반면, 크라우드스트라이크와 세일즈포스는 인공지능(AI) 모멘텀을 바탕으로 호실적을 기록하며 테크 섹터의 강세를 주도했습니다.",
+  "trend_headline": "세일즈포스 실적 호조에 소프트웨어 섹터 반등",
+  "summary": "세일즈포스가 시장 예상을 뛰어넘는 실적을 발표하며 주가가 20% 급등했고, AI가 전통 소프트웨어를 대체할 것이라는 우려를 불식시키며 소프트웨어 섹터 전반에 강한 상승 동력을 제공했습니다. 이와 함께 크라우드스트라이크 역시 역대 최고 실적과 함께 목표주가 상향 조정이 이어지며 기술주 중심의 투자 심리를 크게 개선시켰습니다.",
   "key_points": [
-    "딕스 스포팅 굿즈, 월가의 기대치를 밑돌며 주가 30% 급락",
-    "크라우드스트라이크, AI 수요 힘입어 사상 최대 분기 실적 기록하며 주가 급등",
-    "세일즈포스, AI 기업 앤스로픽과의 파트너십 강화 및 예상을 웃도는 2분기 실적 발표"
+    "세일즈포스, 강력한 실적 발표와 함께 주가 20% 급등하며 소프트웨어 섹터 견인",
+    "크라우드스트라이크, 호실적 기록 후 주요 월가 투자은행들의 목표주가 상향",
+    "엔비디아, 연간 매출 1조 달러 도달 가능성 제기되며 주가 고공행진 지속"
   ],
   "sector_hints": [
-    "Consumer Discretionary",
-    "Technology"
+    "Technology",
+    "Software"
   ]
 }

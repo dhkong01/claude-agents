@@ -1,15 +1,54 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "대만 TSMC의 소니 공동 투자 및 유럽·독일 반도체 동맹 강화, 그리고 일본의 AI 패키징 기술 선점 노력이 글로벌 공급망 재편 속에서 반도체 생태계 리더십을 공고히 하고 있습니다.",
+      "score": 9.0,
+      "rationale": "AI 칩 수요 폭발로 글로벌 파운드리 시장이 급성장하는 가운데, TSMC의 3나노 공정 독주와 엔비디아의 연간 매출 1조 달러 도달 가능성 등 글로벌 반도체 밸류체인의 강력한 강세 모멘텀이 확인되었습니다.",
       "related_tickers": [
         "TSM",
-        "2330.TW",
-        "8035.T"
+        "NVDA"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 8.5,
+      "rationale": "세일즈포스의 어닝 서프라이즈에 따른 20% 급등 및 크라우드스트라이크의 역대 최고 실적 달성이 소프트웨어 섹터 전반의 AI 대체 우려를 불식시키며 강한 투자심리 회복을 이끌었습니다.",
+      "related_tickers": [
+        "CRM",
+        "CRWD"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "영국의 가계 에너지 요금 인상과 스페인·포르투갈 전력망 불안정에 따른 배터리 백업 수요 급증, 정부 주도의 플러그인 태양광 보급이 전력 및 친환경 유틸리티 관련 기업에 긍정적인 모멘텀을 제공하고 있습니다.",
+      "related_tickers": [
+        "NGG",
+        "ENLAY"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "홍콩 주택가격이 13개월 만에 하락세로 전환되는 등 중국 및 아시아 부동산 시장의 둔화 우려와 인프라 부담이 재부각되었습니다.",
+      "related_tickers": [
+        "0016.HK",
+        "BEKE"
       ],
       "source_regions": [
         "ASIA"
@@ -17,49 +56,16 @@
     },
     {
       "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.5,
-      "rationale": "딕스 스포팅 굿즈의 어닝 쇼크(주가 30% 급락)와 월마트 등 주요 유통업체의 가이던스 부진이 겹치며 소비 여력 둔화 및 소비재 섹터 전반의 위축 우려가 커졌습니다.",
-      "related_tickers": [
-        "DKS",
-        "WMT"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Financials",
       "direction": "positive",
       "score": 6.5,
-      "rationale": "한국은행의 매파적 금리 인상 단행과 성장률 전망치 상향(3.3%) 조정은 순이자마진(NIM) 개선 및 자산 건전성 제고로 이어져 금융 섹터에 긍정적인 환경을 조성합니다.",
+      "rationale": "토요타가 기가캐스팅 기술을 활용한 차세대 EV의 중국 현지 양산 계획을 발표하며 글로벌 완성차 시장에서의 현지화 및 공정 효율화 전략을 구체화하고 있습니다.",
       "related_tickers": [
-        "105560.KS",
-        "055550.KS"
+        "TM"
       ],
       "source_regions": [
         "ASIA"
       ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 7.5,
-      "rationale": "중국 CNOOC의 역대급 실적에 따른 고배당 매력과 함께, 유럽 이베리아 반도의 전력망 불안정으로 인한 ESS 및 배터리 백업 인프라 투자 급증, 영국의 에너지 요금 인상이 호재로 작용하고 있습니다.",
-      "related_tickers": [
-        "0883.HK",
-        "IBE.MC"
-      ],
-      "source_regions": [
-        "ASIA",
-        "EU"
-      ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Technology",
-      "note": "미국은 크라우드스트라이크, 세일즈포스 등 AI 모멘텀 기반의 소프트웨어 기업들이 호실적을 기록하며 강력한 상승세를 주도하는 반면, 중국 시장은 AI 테마 열기가 소폭 주춤하며 고배당·구경제 주로 자금이 회귀하는 디커플링 양상을 보이고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

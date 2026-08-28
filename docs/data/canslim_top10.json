@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-28",
   "analyzed": 100,
   "top10": [
     {
@@ -16,9 +16,27 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 112613621760,
-      "price": 188.07,
-      "rs_rating": 84.9
+      "market_cap": 110416076800,
+      "price": 184.4,
+      "rs_rating": 82.0
+    },
+    {
+      "ticker": "FTNT",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 126771044352,
+      "price": 172.78,
+      "rs_rating": 89.6
     },
     {
       "ticker": "AMGN",
@@ -34,8 +52,8 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 238061895680,
-      "price": 440.34,
+      "market_cap": 236250775552,
+      "price": 436.99,
       "rs_rating": 79.2
     },
     {
@@ -52,30 +70,12 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 33570013184,
-      "price": 88.96,
-      "rs_rating": 75.4
+      "market_cap": 33694543872,
+      "price": 89.29,
+      "rs_rating": 74.5
     },
     {
-      "ticker": "ROST",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 7,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "market_cap": 75790950400,
-      "price": 236.27,
-      "rs_rating": 72.6
-    },
-    {
-      "ticker": "SBUX",
+      "ticker": "NVDA",
       "canslim_score": 54,
       "scores": {
         "C": 10,
@@ -86,11 +86,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "market_cap": 123678597120,
-      "price": 108.49,
-      "rs_rating": 62.2
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 5505032912896,
+      "price": 227.98,
+      "rs_rating": 67.9
     },
     {
       "ticker": "STX",
@@ -106,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 192125992960,
-      "price": 846.37,
+      "market_cap": 192013238272,
+      "price": 847.2,
       "rs_rating": 96.2
     },
     {
@@ -124,8 +124,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 169050439680,
-      "price": 468.88,
+      "market_cap": 166569902080,
+      "price": 462.0,
       "rs_rating": 95.2
     },
     {
@@ -142,45 +142,45 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 785106206720,
-      "price": 480.93,
-      "rs_rating": 92.4
+      "market_cap": 778151854080,
+      "price": 476.67,
+      "rs_rating": 91.5
     },
     {
-      "ticker": "FTNT",
+      "ticker": "DDOG",
       "canslim_score": 52,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 1,
+        "N": 4,
+        "S": 4,
         "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 115589242880,
-      "price": 157.54,
-      "rs_rating": 87.7
+      "industry": "Software - Application",
+      "market_cap": 87230087168,
+      "price": 242.93,
+      "rs_rating": 83.9
     },
     {
-      "ticker": "FANG",
+      "ticker": "PANW",
       "canslim_score": 51,
       "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
+        "C": 5,
+        "A": 5,
+        "N": 10,
         "S": 4,
-        "L": 3,
+        "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 56217653248,
-      "price": 199.84,
-      "rs_rating": 68.8
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 312022761472,
+      "price": 382.85,
+      "rs_rating": 90.5
     }
   ]
 }

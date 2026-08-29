@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 9.0,
-      "rationale": "AI 칩 수요 폭발로 글로벌 파운드리 시장이 급성장하는 가운데, TSMC의 3나노 공정 독주와 엔비디아의 연간 매출 1조 달러 도달 가능성 등 글로벌 반도체 밸류체인의 강력한 강세 모멘텀이 확인되었습니다.",
+      "rationale": "미국 엔비디아의 막대한 AI 칩 수요 및 투자 기대감과 대만 TSMC의 3나노 파트너십 확장, 중국 CXMT의 폭발적인 매출 성장 등 글로벌 반도체 밸류체인 전반에 강력한 수요가 확인되며 긍정적인 모멘텀을 형성하고 있습니다.",
       "related_tickers": [
-        "TSM",
-        "NVDA"
+        "NVDA",
+        "TSM"
       ],
       "source_regions": [
         "US",
@@ -19,48 +19,23 @@
       "name": "Technology",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "세일즈포스의 어닝 서프라이즈에 따른 20% 급등 및 크라우드스트라이크의 역대 최고 실적 달성이 소프트웨어 섹터 전반의 AI 대체 우려를 불식시키며 강한 투자심리 회복을 이끌었습니다.",
+      "rationale": "마이크로소프트가 AI 소프트웨어 우려를 불식시키며 상승세를 기록하고 있고, 뉴욕시의 AI 관련 직무 수요 급증 등 AI 인프라 및 소프트웨어 시장에 대한 신뢰도가 크게 회복되었습니다.",
       "related_tickers": [
-        "CRM",
-        "CRWD"
+        "MSFT"
       ],
       "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Utilities",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "영국의 가계 에너지 요금 인상과 스페인·포르투갈 전력망 불안정에 따른 배터리 백업 수요 급증, 정부 주도의 플러그인 태양광 보급이 전력 및 친환경 유틸리티 관련 기업에 긍정적인 모멘텀을 제공하고 있습니다.",
-      "related_tickers": [
-        "NGG",
-        "ENLAY"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "홍콩 주택가격이 13개월 만에 하락세로 전환되는 등 중국 및 아시아 부동산 시장의 둔화 우려와 인프라 부담이 재부각되었습니다.",
-      "related_tickers": [
-        "0016.HK",
-        "BEKE"
-      ],
-      "source_regions": [
+        "US",
         "ASIA"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "토요타가 기가캐스팅 기술을 활용한 차세대 EV의 중국 현지 양산 계획을 발표하며 글로벌 완성차 시장에서의 현지화 및 공정 효율화 전략을 구체화하고 있습니다.",
+      "score": 7.0,
+      "rationale": "중국 전기차 업체 BYD의 호실적과 자율주행 기업들의 대규모 자금 조달, 일본 완성차 업체(혼다·닛산)들의 소프트웨어 동맹 강화 등 아시아 자동차 기업들의 체질 개선 노력이 긍정적으로 작용하고 있습니다.",
       "related_tickers": [
-        "TM"
+        "BYDDF",
+        "HMC"
       ],
       "source_regions": [
         "ASIA"

@@ -2,12 +2,15 @@ name: News & Investment Ideas — Daily
 
 on:
   schedule:
-    # 매일 KST 07:00 (UTC 22:00, 전일)
-    - cron: '0 22 * * *'
+    # 분침을 정각(0분)에서 비껴 잡고 45분 뒤 백업을 둬 GitHub 스케줄 지연/누락에 대비
+    # (portfolio_report.yml/trend_rebalancing.yml과 동일한 패턴).
+    - cron: '55 21 * * *'   # UTC 21:55 ≈ KST 06:55
+    - cron: '40 22 * * *'   # 백업 (+45분, 아래 가드로 중복 실행 방지)
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write   # 데이터 커밋 권한
+  actions: read      # 중복 실행 가드에서 실행 이력 조회용
 
 jobs:
   news:
@@ -15,19 +18,45 @@ jobs:
     timeout-minutes: 15
 
     steps:
+      - name: 중복 실행 방지 — 오늘 이미 성공한 실행이 있으면 스킵
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 수동 실행 — 스킵 안 함"
+            exit 0
+          fi
+          TODAY=$(date -u +%Y-%m-%d)
+          COUNT=$(gh run list --repo "${{ github.repository }}" \
+            --workflow=news_daily.yml --status success --limit 20 \
+            --json createdAt --jq "[.[] | select(.createdAt | startswith(\"$TODAY\"))] | length")
+          if [ "${COUNT:-0}" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "[가드] 오늘($TODAY) 이미 성공한 실행 ${COUNT}건 — 백업 실행 스킵"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 오늘($TODAY) 성공 실행 없음 — 진행"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.11'
           cache: pip
 
       - name: 의존성 설치
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r tools/news_app/requirements.txt
 
       - name: 뉴스·투자아이디어 파이프라인 실행
+        if: steps.guard.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -35,6 +64,7 @@ jobs:
           python run_pipeline.py
 
       - name: 결과 커밋
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

@@ -1,55 +1,71 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-28",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "대만 TSMC의 급격한 매출 증가와 한국, 대만, 일본 등 아시아 주요국의 AI 반도체 투자 및 공급망 다변화 노력이 긍정적인 모멘텀을 지지하고 있습니다.",
+      "score": 9.0,
+      "rationale": "AI 칩 수요 폭발로 글로벌 파운드리 시장이 급성장하는 가운데, TSMC의 3나노 공정 독주와 엔비디아의 연간 매출 1조 달러 도달 가능성 등 글로벌 반도체 밸류체인의 강력한 강세 모멘텀이 확인되었습니다.",
       "related_tickers": [
         "TSM",
-        "005930",
-        "8035"
+        "NVDA"
       ],
       "source_regions": [
+        "US",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 8.5,
+      "rationale": "세일즈포스의 어닝 서프라이즈에 따른 20% 급등 및 크라우드스트라이크의 역대 최고 실적 달성이 소프트웨어 섹터 전반의 AI 대체 우려를 불식시키며 강한 투자심리 회복을 이끌었습니다.",
+      "related_tickers": [
+        "CRM",
+        "CRWD"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "영국의 가계 에너지 요금 인상과 스페인·포르투갈 전력망 불안정에 따른 배터리 백업 수요 급증, 정부 주도의 플러그인 태양광 보급이 전력 및 친환경 유틸리티 관련 기업에 긍정적인 모멘텀을 제공하고 있습니다.",
+      "related_tickers": [
+        "NGG",
+        "ENLAY"
+      ],
+      "source_regions": [
+        "EUROPE"
       ]
     },
     {
       "name": "Real Estate",
       "direction": "negative",
-      "score": -8.0,
-      "rationale": "중국 헝다그룹의 공식적인 청산 절차 돌입으로 부동산 중심의 아시아 구시대적 성장 모델이 마감되며 구조적 하강 압력이 지속되고 있습니다.",
+      "score": -6.0,
+      "rationale": "홍콩 주택가격이 13개월 만에 하락세로 전환되는 등 중국 및 아시아 부동산 시장의 둔화 우려와 인프라 부담이 재부각되었습니다.",
       "related_tickers": [
-        "3333.HK"
+        "0016.HK",
+        "BEKE"
       ],
       "source_regions": [
         "ASIA"
       ]
     },
     {
-      "name": "Energy",
+      "name": "Consumer Discretionary",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "중동 지정학적 리스크로 인한 에너지 요금 상승이 유럽 물가(UK 인플레이션 2.9%)를 자극하는 등 에너지 공급 타이트화에 따른 가격 상승 수혜가 예상됩니다.",
+      "score": 6.5,
+      "rationale": "토요타가 기가캐스팅 기술을 활용한 차세대 EV의 중국 현지 양산 계획을 발표하며 글로벌 완성차 시장에서의 현지화 및 공정 효율화 전략을 구체화하고 있습니다.",
       "related_tickers": [
-        "BP",
-        "SHEL",
-        "TTE"
+        "TM"
       ],
       "source_regions": [
-        "EUROPE"
+        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Consumer Staples",
-      "note": "미국 월마트의 실망스러운 실적 전망에 따른 주가 급락(9%) 및 영국의 고인플레이션으로 인한 가계 소비 위축 우려가 존재하는 반면, 유럽 다논(Danone)의 헐(Huel) 인수와 같은 활발한 M&A 소식이 공존합니다."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국 시장에서는 테슬라가 라스베이거스 로보택시 운행 승인 호재로 급등했으나, 아시아(중국) 시장에서는 테슬라의 대규모 차량 리콜 소식이 전해지며 전기차 및 소비재 부문에서 지역별 신호가 엇갈리고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

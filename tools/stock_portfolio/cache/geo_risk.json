@@ -1,21 +1,20 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-28",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
+  "high_risk_signals": 2,
   "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
     "Defense": "ELEVATED",
     "Consumer": "WATCH",
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Iran Must Plan To Overcome U.S. Sanctions After Trump\u2019S \u2018Economic D-Day\u2019 Threats, Tehran Official Says",
-    "The Message Behind Trump\u2019S Threats Of \u2018Economic Warfare\u2019 Against Iran",
-    "Japan\u2019S U.S. Ties Could Not Save A Top Judge From Trump\u2019S I.C.C. Sanctions"
+    "Where Drones Cannot See, The Ukraine War Is A Deadly Game Of Cat And Mouse",
+    "Russian Sanctions Are Fueling A Canadian Car Theft Epidemic",
+    "Saudi Response To Houthis\u2019 Attacks On Ships May Be A New War"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

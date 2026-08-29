@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "analyzed": 100,
   "top10": [
     {
@@ -16,8 +16,8 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 110416076800,
-      "price": 184.4,
+      "market_cap": 113427963904,
+      "price": 189.43,
       "rs_rating": 82.0
     },
     {
@@ -34,8 +34,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 126771044352,
-      "price": 172.78,
+      "market_cap": 121796468736,
+      "price": 166.0,
       "rs_rating": 89.6
     },
     {
@@ -52,8 +52,8 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 236250775552,
-      "price": 436.99,
+      "market_cap": 233780101120,
+      "price": 432.42,
       "rs_rating": 79.2
     },
     {
@@ -70,8 +70,8 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 33694543872,
-      "price": 89.29,
+      "market_cap": 34271905792,
+      "price": 90.82,
       "rs_rating": 74.5
     },
     {
@@ -80,16 +80,16 @@
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 4,
+        "N": 7,
+        "S": 7,
         "L": 3,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 5505032912896,
-      "price": 227.98,
+      "market_cap": 5253179637760,
+      "price": 217.55,
       "rs_rating": 67.9
     },
     {
@@ -106,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 192013238272,
-      "price": 847.2,
+      "market_cap": 188060549120,
+      "price": 829.76,
       "rs_rating": 96.2
     },
     {
@@ -124,63 +124,63 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 166569902080,
-      "price": 462.0,
+      "market_cap": 165650530304,
+      "price": 459.45,
       "rs_rating": 95.2
     },
     {
-      "ticker": "AMD",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 778151854080,
-      "price": 476.67,
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 52,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 87230087168,
-      "price": 242.93,
-      "rs_rating": 83.9
-    },
-    {
-      "ticker": "PANW",
+      "ticker": "CRWD",
       "canslim_score": 51,
       "scores": {
         "C": 5,
         "A": 5,
         "N": 10,
-        "S": 4,
-        "L": 10,
+        "S": 7,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 312022761472,
-      "price": 382.85,
-      "rs_rating": 90.5
+      "market_cap": 223627362304,
+      "price": 218.4,
+      "rs_rating": 88.6
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 55351508992,
+      "price": 197.67,
+      "rs_rating": 68.8
+    },
+    {
+      "ticker": "ROST",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "market_cap": 73314516992,
+      "price": 228.55,
+      "rs_rating": 66.0
     }
   ]
 }

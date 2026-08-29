@@ -1,20 +1,19 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
-  "medium_risk_signals": 4,
+  "high_risk_signals": 3,
+  "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
+    "Semiconductors": "WATCH",
     "Defense": "ELEVATED",
-    "Consumer": "WATCH",
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Where Drones Cannot See, The Ukraine War Is A Deadly Game Of Cat And Mouse",
-    "Russian Sanctions Are Fueling A Canadian Car Theft Epidemic",
-    "Saudi Response To Houthis\u2019 Attacks On Ships May Be A New War"
+    "Why Many Iranians Are Losing Hope After Six Months Of War",
+    "Russian Sanctions Are Fueling A Canadian Car Theft Epidemic"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

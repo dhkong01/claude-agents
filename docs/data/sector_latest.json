@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
@@ -98,7 +98,13 @@
         "ticker": "ABNB",
         "rs": 82.0,
         "canslim": 61,
-        "price": 184.4
+        "price": 189.43
+      },
+      {
+        "ticker": "ROST",
+        "rs": 66.0,
+        "canslim": 51,
+        "price": 228.55
       }
     ],
     "Technology": [
@@ -106,43 +112,31 @@
         "ticker": "FTNT",
         "rs": 89.6,
         "canslim": 58,
-        "price": 172.78
+        "price": 166.0
       },
       {
         "ticker": "NVDA",
         "rs": 67.9,
         "canslim": 54,
-        "price": 227.98
+        "price": 217.55
       },
       {
         "ticker": "STX",
         "rs": 96.2,
         "canslim": 52,
-        "price": 847.2
+        "price": 829.76
       },
       {
         "ticker": "WDC",
         "rs": 95.2,
         "canslim": 52,
-        "price": 462.0
+        "price": 459.45
       },
       {
-        "ticker": "AMD",
-        "rs": 91.5,
-        "canslim": 52,
-        "price": 476.67
-      },
-      {
-        "ticker": "DDOG",
-        "rs": 83.9,
-        "canslim": 52,
-        "price": 242.93
-      },
-      {
-        "ticker": "PANW",
-        "rs": 90.5,
+        "ticker": "CRWD",
+        "rs": 88.6,
         "canslim": 51,
-        "price": 382.85
+        "price": 218.4
       }
     ],
     "Healthcare": [
@@ -150,13 +144,21 @@
         "ticker": "AMGN",
         "rs": 79.2,
         "canslim": 54,
-        "price": 436.99
+        "price": 432.42
       },
       {
         "ticker": "DXCM",
         "rs": 74.5,
         "canslim": 54,
-        "price": 89.29
+        "price": 90.82
+      }
+    ],
+    "Energy": [
+      {
+        "ticker": "FANG",
+        "rs": 68.8,
+        "canslim": 51,
+        "price": 197.67
       }
     ]
   },

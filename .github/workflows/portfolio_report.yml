@@ -2,11 +2,15 @@ name: Portfolio Daily Report
 
 on:
   schedule:
-    - cron: '0 23 * * 0-5'    # UTC 23:00 = KST 08:00 (trend_rebalancing 22:30~23:00 완전히 끝난 뒤 실행)
+    # 기존 '0-5'(일~금)는 토요일이 통째로 빠지는 버그였음 → '0-6'(매일)으로 수정.
+    # 분침도 정각(0분)에서 비껴 잡고 45분 뒤 백업을 둬 GitHub 스케줄 지연/누락에 대비.
+    - cron: '7 23 * * 0-6'     # UTC 23:07 ≈ KST 08:07 (trend_rebalancing 이후 실행)
+    - cron: '52 23 * * 0-6'    # 백업 (+45분, 아래 가드로 중복 발송 방지)
   workflow_dispatch:           # 수동 실행 가능
 
 permissions:
   contents: write              # latest_report.txt 커밋 권한
+  actions: read                 # 중복 실행 가드에서 실행 이력 조회용
 
 jobs:
   report:
@@ -14,19 +18,45 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: 중복 실행 방지 — 오늘 이미 성공한 실행이 있으면 스킵
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 수동 실행 — 스킵 안 함"
+            exit 0
+          fi
+          TODAY=$(date -u +%Y-%m-%d)
+          COUNT=$(gh run list --repo "${{ github.repository }}" \
+            --workflow=portfolio_report.yml --status success --limit 20 \
+            --json createdAt --jq "[.[] | select(.createdAt | startswith(\"$TODAY\"))] | length")
+          if [ "${COUNT:-0}" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "[가드] 오늘($TODAY) 이미 성공한 실행 ${COUNT}건 — 백업 실행 스킵 (카카오톡 중복 발송 방지)"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 오늘($TODAY) 성공 실행 없음 — 진행"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.11'
           cache: pip
 
       - name: 의존성 설치
+        if: steps.guard.outputs.skip != 'true'
         run: pip install yfinance requests
 
       - name: 리포트 생성 + 카카오톡 전송 + Git 커밋
+        if: steps.guard.outputs.skip != 'true'
         env:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}

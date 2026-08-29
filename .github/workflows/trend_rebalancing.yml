@@ -2,14 +2,20 @@ name: Trend Following — Weekly Rebalancing
 
 on:
   schedule:
-    # 주간 리밸런싱: 월요일 KST 07:30 (UTC 22:30, 일요일)
-    - cron: '30 22 * * 0'
-    # 일일 추적: 화~금 KST 07:30 (UTC 22:30, 월~목)
-    - cron: '30 22 * * 1-4'
-    # 토요일 KST 07:30 (UTC 금요일 22:30)
-    - cron: '30 22 * * 5'
-    # 일요일 KST 07:30 (UTC 토요일 22:30) — 기존 누락 보완
-    - cron: '30 22 * * 6'
+    # GitHub Actions는 정각/30분처럼 몰리는 시각에 스케줄이 지연·누락되는 경우가 잦아
+    # (공식 문서상 알려진 현상), 분침을 비껴 잡고 45분 뒤 백업 cron을 추가로 둔다.
+    # 주간 리밸런싱: 월요일 KST 07:37 (UTC 22:37, 일요일) + 백업(23:22)
+    - cron: '37 22 * * 0'
+    - cron: '22 23 * * 0'
+    # 일일 추적: 화~금 KST 07:37 (UTC 22:37, 월~목) + 백업(23:22)
+    - cron: '37 22 * * 1-4'
+    - cron: '22 23 * * 1-4'
+    # 토요일 KST 07:37 (UTC 금요일 22:37) + 백업(23:22)
+    - cron: '37 22 * * 5'
+    - cron: '22 23 * * 5'
+    # 일요일 KST 07:37 (UTC 토요일 22:37) + 백업(23:22)
+    - cron: '37 22 * * 6'
+    - cron: '22 23 * * 6'
   workflow_dispatch:
     inputs:
       mode:
@@ -21,6 +27,7 @@ on:
 
 permissions:
   contents: write
+  actions: read    # 중복 실행 가드에서 실행 이력 조회용
 
 jobs:
   trend:
@@ -28,20 +35,46 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      - name: 중복 실행 방지 — 오늘 이미 성공한 실행이 있으면 스킵
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 수동 실행 — 스킵 안 함"
+            exit 0
+          fi
+          TODAY=$(date -u +%Y-%m-%d)
+          COUNT=$(gh run list --repo "${{ github.repository }}" \
+            --workflow=trend_rebalancing.yml --status success --limit 20 \
+            --json createdAt --jq "[.[] | select(.createdAt | startswith(\"$TODAY\"))] | length")
+          if [ "${COUNT:-0}" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "[가드] 오늘($TODAY) 이미 성공한 실행 ${COUNT}건 — 백업 실행 스킵"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 오늘($TODAY) 성공 실행 없음 — 진행"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.11'
           cache: pip
 
       - name: 의존성 설치
+        if: steps.guard.outputs.skip != 'true'
         run: pip install yfinance pandas numpy requests lxml beautifulsoup4
 
       - name: 실행 모드 결정
         id: mode
+        if: steps.guard.outputs.skip != 'true'
         run: |
           # workflow_dispatch 입력 우선, 없으면 요일 기반
           INPUT_MODE="${{ github.event.inputs.mode }}"
@@ -56,6 +89,7 @@ jobs:
           fi
 
       - name: 추세 추종 파이프라인 실행
+        if: steps.guard.outputs.skip != 'true'
         env:
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
@@ -64,6 +98,7 @@ jobs:
           python trend_pipeline.py --mode ${{ steps.mode.outputs.mode }}
 
       - name: PWA 데이터 내보내기
+        if: steps.guard.outputs.skip != 'true'
         env:
           PORTFOLIO_JSON: ${{ secrets.PORTFOLIO_JSON }}
         run: |
@@ -74,6 +109,7 @@ jobs:
           python strategy_gates.py
 
       - name: 결과 커밋
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -82,7 +118,7 @@ jobs:
           git push || true
 
       - name: 실패 시 카카오톡 알림
-        if: failure()
+        if: failure() && steps.guard.outputs.skip != 'true'
         env:
           KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}

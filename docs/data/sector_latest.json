@@ -1,93 +1,93 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 17.95,
-      "week1": -2.12,
+      "qtd": 18.69,
+      "week1": -0.68,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 7.55,
-      "week1": -1.74,
+      "qtd": 7.28,
+      "week1": -2.03,
       "rank": 2,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 5.66,
-      "week1": 0.7,
+      "qtd": 6.06,
+      "week1": -0.21,
       "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 4.33,
-      "week1": -0.58,
+      "qtd": 4.23,
+      "week1": -0.75,
       "rank": 4,
       "status": "강세"
     },
     {
-      "sector": "Consumer Staples",
-      "etf": "XLP",
-      "qtd": 2.14,
-      "week1": -1.06,
+      "sector": "Communication",
+      "etf": "XLC",
+      "qtd": 2.96,
+      "week1": 0.6,
       "rank": 5,
       "status": "중립"
     },
     {
-      "sector": "Technology",
-      "etf": "XLK",
-      "qtd": 1.61,
-      "week1": 2.89,
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 2.58,
+      "week1": -2.29,
       "rank": 6,
-      "status": "중립"
-    },
-    {
-      "sector": "Communication",
-      "etf": "XLC",
-      "qtd": 1.52,
-      "week1": 0.01,
-      "rank": 7,
       "status": "중립"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 1.09,
-      "week1": -0.93,
+      "qtd": 0.68,
+      "week1": -1.88,
+      "rank": 7,
+      "status": "중립"
+    },
+    {
+      "sector": "Technology",
+      "etf": "XLK",
+      "qtd": 0.04,
+      "week1": 3.13,
       "rank": 8,
       "status": "중립"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": -1.87,
-      "week1": -1.81,
+      "qtd": -0.75,
+      "week1": -0.92,
       "rank": 9,
       "status": "약세"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -2.49,
-      "week1": -0.8,
+      "qtd": -3.39,
+      "week1": -1.04,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": -3.55,
-      "week1": 0.96,
+      "qtd": -4.56,
+      "week1": -1.13,
       "rank": 11,
       "status": "약세"
     }
@@ -174,7 +174,7 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 10.0,
+    "risk_score": 6.5,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

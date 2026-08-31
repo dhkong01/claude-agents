@@ -164,6 +164,79 @@ def _sector_bonus(ticker: str, sector_map: dict) -> dict:
     }
 
 
+# ── 실적 가속(매출·영업이익 지속증가 + 증가폭 확대) 가점 ──────
+
+def _growth_series(vals: list[float]) -> list[float | None]:
+    """연도별 값 리스트(오래된→최신) → YoY 성장률 리스트."""
+    g: list[float | None] = []
+    for i in range(1, len(vals)):
+        prev = vals[i - 1]
+        g.append(None if prev == 0 else (vals[i] - prev) / abs(prev))
+    return g
+
+
+def _accel_flags(g: list[float | None]) -> tuple[bool, bool]:
+    """(지속 증가 여부, 최근 성장률이 직전보다 더 커졌는지=가속 여부)"""
+    gg = [x for x in g if x is not None]
+    if len(gg) < 2:
+        return False, False
+    growing = all(x > 0 for x in gg)
+    accel   = gg[-1] > gg[-2]
+    return growing, accel
+
+
+def _fundamentals_bonus(ticker: str) -> dict:
+    """연간 매출·영업이익이 지속적으로 증가하면서 증가폭까지 확대(가속)되는
+    종목에 가점을 부여. yfinance 연간 재무제표(최근 4개년) 기반.
+    - 매출·영업이익 모두 지속증가 + 가속: +15 (fund_accel=True, "실적가속")
+    - 둘 중 하나만 지속증가+가속: +8
+    - 그 외: 0
+    """
+    try:
+        tk  = yf.Ticker(ticker)
+        fin = tk.financials  # 연간 손익계산서, 컬럼 최신순
+        if fin is None or fin.empty:
+            return {"fund_bonus": 0, "fund_accel": False}
+
+        def _row(names: list[str]):
+            for n in names:
+                if n in fin.index:
+                    return fin.loc[n]
+            return None
+
+        rev_row = _row(["Total Revenue", "TotalRevenue"])
+        opi_row = _row(["Operating Income", "OperatingIncome"])
+        if rev_row is None or opi_row is None:
+            return {"fund_bonus": 0, "fund_accel": False}
+
+        rev = rev_row.dropna().iloc[:4][::-1].values.astype(float)  # 오래된→최신
+        opi = opi_row.dropna().iloc[:4][::-1].values.astype(float)
+        if len(rev) < 3 or len(opi) < 3:
+            return {"fund_bonus": 0, "fund_accel": False}
+
+        rg = _growth_series(list(rev))
+        og = _growth_series(list(opi))
+        rev_growing, rev_accel = _accel_flags(rg)
+        opi_growing, opi_accel = _accel_flags(og)
+
+        both = rev_growing and rev_accel and opi_growing and opi_accel
+        one  = (rev_growing and rev_accel) or (opi_growing and opi_accel)
+        bonus = 15 if both else (8 if one else 0)
+
+        rg_valid = [x for x in rg if x is not None]
+        og_valid = [x for x in og if x is not None]
+        return {
+            "fund_bonus":              bonus,
+            "fund_accel":              bool(both),
+            "rev_growing":             bool(rev_growing),
+            "opinc_growing":           bool(opi_growing),
+            "rev_growth_recent_pct":   round(rg_valid[-1] * 100, 1) if rg_valid else None,
+            "opinc_growth_recent_pct": round(og_valid[-1] * 100, 1) if og_valid else None,
+        }
+    except Exception:
+        return {"fund_bonus": 0, "fund_accel": False}
+
+
 # ── 메인 스크리닝 ─────────────────────────────────────────────
 
 def screen_reversal(top_n: int = 20) -> list[dict]:
@@ -243,11 +316,13 @@ def screen_reversal(top_n: int = 20) -> list[dict]:
         if (i // 50 + 1) % 4 == 0:
             print(f"  진행: {min(i + 50, len(tickers))}/{len(tickers)}  후보:{len(candidates)}")
 
-    print(f"[reversal] 1차 후보 {len(candidates)}종목 - 섹터 로테이션 가점 계산 중...")
+    print(f"[reversal] 1차 후보 {len(candidates)}종목 - 섹터 로테이션/실적가속 가점 계산 중...")
     sector_map = _load_sector_map()
     for c in candidates:
         c.update(_sector_bonus(c["ticker"], sector_map))
         c["total_score"] += c.get("sector_bonus", 0)
+        c.update(_fundamentals_bonus(c["ticker"]))
+        c["total_score"] += c.get("fund_bonus", 0)
 
     candidates.sort(key=lambda x: x["total_score"], reverse=True)
     top = candidates[:top_n]

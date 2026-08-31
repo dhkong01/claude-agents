@@ -1,23 +1,35 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-31",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Trump says US has 'historic' deal to control 65bn barrels of Venezuela's oil",
-      "summary": "Venezuelan interim President Delcy Rodriguez says the deal will help revive her country's economy.",
-      "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+      "title": "'My parents won't lend me £10k but helped my brother': When families play financial favourites",
+      "summary": "So-called financial favouritism can cause jealousy and resentment long into adulthood. Here is how experts say you can avoid it",
+      "link": "https://www.bbc.co.uk/news/articles/cx279dml00ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Wife of man who died after turbulence sues airline",
-      "summary": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
-      "link": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
+      "title": "How the US-Canada trade war is being felt on both sides of the border",
+      "summary": "The US-Canada trade war is being felt on both sides of the border.",
+      "link": "https://www.bbc.co.uk/news/articles/c4g4r4lxx25o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
+      "summary": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+      "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
       "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
       "summary": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
       "link": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Wife of man who died after turbulence sues airline",
+      "summary": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
+      "link": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -30,12 +42,6 @@
       "title": "Trump administration illegally retaliated against Anthropic, judge rules",
       "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
       "link": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Overcooked? Why robotic pizza makers are failing",
-      "summary": "A string of failures has sapped confidence that robots will take over production at pizza restaurants.",
-      "link": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -93,6 +99,12 @@
       "source": "BBC Business"
     },
     {
+      "title": "Overcooked? Why robotic pizza makers are failing",
+      "summary": "A string of failures has sapped confidence that robots will take over production at pizza restaurants.",
+      "link": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
       "title": "How Dolly Parton's business savvy helped her succeed far beyond the charts",
       "summary": "While country music and films brought her fame, her entrepreneurial zeal brought her fortune.",
       "link": "https://www.bbc.co.uk/news/articles/c0klj72p66lo?at_medium=RSS&at_campaign=rss",
@@ -109,22 +121,17 @@
       "summary": "Tips are central to US dining culture but some eateries think that they are unfair.",
       "link": "https://www.bbc.co.uk/news/articles/c4g36yze692o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "Drought leaves 'barely any apples' to make cider",
-      "summary": "Some orchards are harvesting just a 10th of their usual crop, and facing an uncertain future.",
-      "link": "https://www.bbc.co.uk/news/articles/cm2g6mmjjzdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "How landscape gardening is being electrified",
-      "summary": "The switch to quieter electric equipment is not going as fast as some would like.",
-      "link": "https://www.bbc.co.uk/news/articles/cpq3w3v19veo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "",
-  "summary": "",
-  "key_points": [],
-  "sector_hints": []
+  "trend_headline": "프랑스 신용등급 주시 속 유로존 재정 리스크 점검",
+  "summary": "Fitch의 프랑스 국가신용등급 발표를 앞두고 유로존의 재정 건전성 우려가 고조되는 가운데, 이베리아 반도의 전력망 안정화 및 배터리 인프라 구축 수요가 에너지 섹터의 핵심 변수로 부각되었습니다.",
+  "key_points": [
+    "Fitch의 프랑스 신용등급 평가를 앞두고 유로존 재정 및 채권 시장 경계감 지속",
+    "스페인·포르투갈 기업들의 대규모 정전 사태 이후 백업 배터리 긴급 조달로 에너지 인프라 수요 급증",
+    "유니레버와 맥코믹 합병 전 콜만스 머스타드(Colman's Mustard) 매각 등 기업 구조조정 활발"
+  ],
+  "sector_hints": [
+    "Energy",
+    "Financials"
+  ]
 }

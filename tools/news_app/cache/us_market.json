@@ -1,7 +1,19 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-31",
   "region": "US",
   "headlines": [
+    {
+      "title": "The choose your own adventure earnings: Why retailers are handling tariff refunds so differently",
+      "summary": "Retailers have diverged on how they've reported tariff refunds in their earnings this quarter, with some choosing to lower prices and others boosting margins.",
+      "link": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Goodyear burning rubber and cash as turnaround plan continues",
+      "summary": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt.",
+      "link": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html",
+      "source": "CNBC"
+    },
     {
       "title": "Imax says it s open to a sale. Why is no one buying?",
       "summary": "Imax's stock and box office are breaking records, but studio conflicts and a soaring valuation complicate the list of who could bid for the company.",
@@ -109,29 +121,18 @@
       "summary": "Paramount's proposed merger with WBD is delayed while an antitrust lawsuit plays out. The holdup could mean a freeze across the media industry.",
       "link": "https://www.cnbc.com/2026/08/24/paramount-wbd-antitrust-media-deals.html",
       "source": "CNBC"
-    },
-    {
-      "title": "California AG Rob Bonta cancels Paramount settlement meeting, citing lack of good faith",
-      "summary": "California AG Rob Bonta was scheduled to meet with Paramount representatives on Monday, he said, but canceled the meeting.",
-      "link": "https://www.cnbc.com/2026/08/24/california-ag-bonta-paramount-settlement-meeting.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Goldman Sachs partner warns of huge danger in letting AI replace bankers reasoning skills",
-      "summary": "Goldman Sachs is embracing AI, but one of its senior tech leaders warns that it comes with an unintended risk: weakening the reasoning skills of future bankers.",
-      "link": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "AI 우려 완화와 초대형 칩 수요에 힘입은 빅테크 반등",
-  "summary": "마이크로소프트가 AI 소프트웨어 경쟁력에 대한 신뢰 회복으로 연장 상승세를 기록한 가운데, 엔비디아는 천문학적인 매출 전망과 함께 막대한 칩 수요 기대감을 이어갔습니다. 뉴욕시가 AI 관련 일자리 급증에 힘입어 샌프란시스코를 제치고 최고의 테크 인재 시장으로 부상하는 등 기술주 중심의 모멘텀이 강화되었습니다.",
+  "trend_headline": "금리 인상 우려 속 미 증시 둔화와 기업 실적 엇갈림",
+  "summary": "잭슨홀 미팅 여파로 금리 인상 경계감이 커진 가운데, 유통 및 소비재 기업들의 실적과 전략이 극명하게 엇갈리는 양상을 보였습니다. 대형 소매업체들은 관세 환급 대응에서 희비가 갈렸고, 디딕스 스포팅 굿즈는 부진한 실적으로 주가가 급락했습니다.",
   "key_points": [
-    "마이크로소프트, AI 소프트웨어 우려 불식시키며 연중 최장 상승세 기록",
-    "뉴욕시, AI 관련 직무 수요에 힘입어 미국 최고의 테크 인재 시장으로 등극",
-    "엔비디아, 막대한 AI 칩 수요 전망과 대규모 투자 기대감 지속"
+    "워시의 잭슨홀 발언 여파로 금리 인상 가능성이 대두되며 미국 주가지수 선물 하락",
+    "디딕스 스포팅 굿즈(Dick's Sporting Goods) 실적 부진으로 주가 30% 급락",
+    "파라마운트와 워너브라더스 디스커버리(WBD)의 합병이 반독점 소송으로 난항"
   ],
   "sector_hints": [
-    "Technology",
+    "Consumer Discretionary",
+    "Financials",
     "Communication Services"
   ]
 }

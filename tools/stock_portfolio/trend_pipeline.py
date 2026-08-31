@@ -85,6 +85,17 @@ def run_trend_pipeline(mode: str = "weekly", send_kakao: bool = True) -> dict:
     print(f"      VCP 패턴 확인: {vcp_hits}개")
     result["vcp_top20"] = vcp_top20
 
+    # ── 4-1. 저평가 반전주 스크리닝 (역배열→정배열 전환 + VCP 돌파) ──
+    # 전체 유니버스(S&P500+NDX100) 다운로드가 무거워 weekly에만 재계산
+    print("\n[4-1] 저평가 반전주 스크리닝 (역배열→정배열 + VCP 돌파)...")
+    if mode == "weekly" or not _cache_fresh("reversal_top20.json", today):
+        from reversal_screener import screen_reversal
+        reversal_top20 = screen_reversal(top_n=20)
+    else:
+        reversal_top20 = (_load("reversal_top20.json") or {}).get("stocks", [])
+    print(f"      선별: {len(reversal_top20)}개")
+    result["reversal_top20"] = reversal_top20
+
     # ── 5. Donchian TOP 5 선정 ───────────────────────────────
     print("\n[5/5] Donchian 추세 추종 TOP 5 선정...")
     from donchian_tracker import select_top5, track_portfolio, verify_price_freshness, get_sqqq_channel

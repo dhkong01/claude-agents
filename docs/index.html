@@ -246,6 +246,9 @@ body{display:flex;flex-direction:column;overflow:hidden}
   <div class="tab" onclick="switchTab(3)">
     <span class="tab-icon">🏭</span>섹터
   </div>
+  <div class="tab" onclick="switchTab(4)">
+    <span class="tab-icon">🚀</span>반전주
+  </div>
 </div>
 
 <div class="content">
@@ -272,6 +275,11 @@ body{display:flex;flex-direction:column;overflow:hidden}
   <!-- ── 탭4: 섹터 ── -->
   <div class="page" id="page3">
     <div id="sectorContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
+  </div>
+
+  <!-- ── 탭5: 저평가 반전주 ── -->
+  <div class="page" id="page4">
+    <div id="reversalContent"><div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div></div>
   </div>
 
 </div>
@@ -382,7 +390,7 @@ async function fetchJSON(path) {
   return r.json();
 }
 
-let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null, rsData = null, gatesData = null;
+let trendData = null, pfData = null, vcpData = null, canslimData = null, sectorData = null, rsData = null, gatesData = null, reversalData = null;
 let priceLookup = {}; // 인기 종목 가격 캐시 (price_lookup.json)
 
 // ── localStorage 포트폴리오 관리 ──────────────────────────
@@ -492,10 +500,12 @@ async function loadAll() {
       fetchJSON('data/price_lookup.json'),
       fetchJSON('data/rs_top30.json'),
       fetchJSON('data/strategy_gates.json'),
+      fetchJSON('data/reversal_top20.json'),
     ]).then(r => r.map(x => x.status === 'fulfilled' ? x.value : null));
     [trendData, pfData, vcpData, canslimData, sectorData] = results;
     rsData = results[6];
     gatesData = results[7];
+    reversalData = results[8];
     if (results[5]?.prices) priceLookup = results[5].prices;
 
     // localStorage 포트폴리오가 있으면 서버 가격(pfData) + 로컬 수량/평단가로 덮어씀
@@ -505,6 +515,7 @@ async function loadAll() {
     renderPortfolio();
     renderVCP();
     renderSector();
+    renderReversal();
 
     // 서버/인기목록에 없는 보유 종목은 실시간가를 백그라운드 조회 후 자동 반영
     if (pfData?._needsLiveFetch?.length) refreshLocalHoldingPrices();
@@ -918,6 +929,87 @@ function renderQullamaggie(vcp) {
       <div style="display:flex;flex-wrap:wrap;gap:5px">${watchChips}</div>
     </div>` : ''}
   </div>`;
+}
+
+// ════════════════════════════════════
+// 탭5: 저평가 반전주 (역배열→정배열 전환 + VCP 돌파) 렌더
+// ════════════════════════════════════
+function renderReversal() {
+  const el = document.getElementById('reversalContent');
+  const stocks = reversalData?.stocks || [];
+
+  const stageInfo = {
+    '전환중':   { color: '#22c55e', label: '🔄 전환중', desc: '단기선(112)이 중기선(224) 돌파 — 정배열 전환 진행' },
+    '바닥반전': { color: '#f59e0b', label: '🌱 바닥반전', desc: '역배열이지만 단기선(112) 반등 시작 — 바닥 다지기' },
+  };
+  const crossLabel = (status, dist) => {
+    if (status === '돌파')   return `<span style="color:#22c55e;font-weight:700">돌파✓</span> <span style="color:var(--text2);font-size:10px">(+${dist}%)</span>`;
+    if (status === '돌파준비') return `<span style="color:#f59e0b;font-weight:700">돌파준비</span> <span style="color:var(--text2);font-size:10px">(${dist}%)</span>`;
+    if (status === '위')     return `<span style="color:var(--text2)">위</span>`;
+    if (status === '아래')   return `<span style="color:var(--text2)">아래 (${dist}%)</span>`;
+    return `<span style="color:var(--text2)">—</span>`;
+  };
+
+  let html = `
+    <div class="card" style="margin-bottom:12px">
+      <div style="font-size:13px;color:var(--text2);line-height:1.7">
+        📊 <b>로그 스케일 112일·224일·448일 이동평균선</b> 기준으로<br>
+        <span style="color:#f59e0b">🌱 바닥반전</span>(역배열 상태에서 단기선 반등 시작) 또는
+        <span style="color:#22c55e">🔄 전환중</span>(단기선이 중기선 돌파, 정배열로 전환 진행) 단계이면서,<br>
+        224일선·448일선을 VCP 패턴 이후 <b>돌파했거나 돌파 준비</b>가 된 종목만 선별합니다.
+        섹터 로테이션 상위(랭크 1~3위) 종목에는 가점이 붙습니다.
+      </div>
+    </div>
+  `;
+
+  if (!stocks.length) {
+    html += '<div class="err-box">아직 조건을 만족하는 종목이 없습니다. (주간 리밸런싱 시 갱신)</div>';
+    el.innerHTML = html;
+    return;
+  }
+
+  html += stocks.map((s, idx) => {
+    const st = stageInfo[s.stage] || { color: 'var(--text2)', label: s.stage, desc: '' };
+    const vcpBdg = s.has_vcp
+      ? `<span class="vcp-tag">VCP ✓</span>`
+      : `<span style="font-size:10px;color:var(--text2);border:1px solid var(--border);border-radius:3px;padding:1px 4px">VCP -</span>`;
+    const sectorBdg = (s.sector_rank && s.sector_rank <= 6)
+      ? `<span style="font-size:10px;color:${s.sector_rank<=3?'#22c55e':'#f59e0b'};border:1px solid ${s.sector_rank<=3?'#22c55e':'#f59e0b'};border-radius:3px;padding:1px 4px">🏭${s.sector||''} #${s.sector_rank}</span>`
+      : '';
+    const barW = Math.min(100, (s.total_score || 0) / 90 * 100);
+    const barC = s.total_score >= 60 ? '#22c55e' : s.total_score >= 40 ? '#f59e0b' : 'var(--text2)';
+
+    return `
+      <div class="card" style="margin-bottom:10px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <div style="display:flex;align-items:center;gap:6px">
+            <span style="font-weight:700;font-size:15px">${idx+1}. ${tvLink(s.ticker)}</span>
+            <span style="font-size:11px;font-weight:700;color:${st.color};border:1px solid ${st.color};border-radius:4px;padding:1px 6px">${st.label}</span>
+          </div>
+          <span style="font-size:11px;color:var(--text2)">$${(s.current_price||0).toFixed(2)}</span>
+        </div>
+        <div style="font-size:10px;color:var(--text2);margin-bottom:6px">${st.desc}</div>
+        <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:6px">${vcpBdg}${sectorBdg}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;font-size:11px;color:var(--text2);background:var(--bg3);border-radius:6px;padding:6px 8px;margin-bottom:6px">
+          <div>MA112 <b style="color:var(--text1)">$${s.ma112}</b></div>
+          <div>MA224 <b style="color:var(--text1)">$${s.ma224}</b></div>
+          <div>MA448 <b style="color:var(--text1)">$${s.ma448}</b></div>
+          <div>기울기(20d) <b style="color:${s.slope112>0?'#22c55e':'#ef4444'}">${s.slope112>0?'▲':'▼'}${Math.abs(s.slope112*100).toFixed(1)}%</b></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:6px">
+          <span>224일선 ${crossLabel(s.cross224_status, s.cross224_dist_pct)}</span>
+          <span>448일선 ${crossLabel(s.cross448_status, s.cross448_dist_pct)}</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <div style="flex:1;height:5px;background:var(--bg3);border-radius:3px;overflow:hidden">
+            <div style="width:${barW}%;height:100%;background:${barC}"></div>
+          </div>
+          <span style="font-size:11px;font-weight:700;color:${barC}">${s.total_score}점</span>
+        </div>
+      </div>`;
+  }).join('');
+
+  el.innerHTML = html;
 }
 
 function renderVCP() {

@@ -210,6 +210,23 @@ def export_rs(top_n: int = 30) -> bool:
     return True
 
 
+def export_reversal() -> bool:
+    """역배열→정배열 전환 + VCP 돌파 스크리너: cache/reversal_top20.json → docs/data/reversal_top20.json"""
+    src  = CACHE_DIR / "reversal_top20.json"
+    data = _read(src)
+    if not data:
+        print("[export] reversal_top20.json 없음", file=sys.stderr)
+        return False
+    out = DOCS_DATA / "reversal_top20.json"
+    existing = _read(out)
+    if not data.get("stocks") and existing and existing.get("stocks"):
+        print(f"[export] reversal_top20.json 유지 (새 데이터 빈값, 기존 {len(existing['stocks'])}종목)")
+        return True
+    out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[export] reversal_top20.json → {out} ({len(data.get('stocks', []))}종목)")
+    return True
+
+
 if __name__ == "__main__":
     today = market_today()
     print(f"[export] PWA 데이터 내보내기 시작 ({today})")
@@ -218,4 +235,5 @@ if __name__ == "__main__":
     export_canslim()
     export_portfolio(today)
     export_rs()
+    export_reversal()
     print("[export] 완료")

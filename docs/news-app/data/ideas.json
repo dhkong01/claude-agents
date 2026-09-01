@@ -1,143 +1,159 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "horizons": {
     "1w": [
       {
-        "theme": "유로존 재정 불안정에 따른 유럽 금융주 변동성 확대",
+        "theme": "중동 긴장 고조에 따른 에너지/LNG 공급 차질 수혜",
         "sectors": [
-          "Financials"
+          "Energy",
+          "Utilities"
         ],
         "tickers": [
-          "BNP",
-          "DB"
+          "XLE",
+          "UNG",
+          "EQNR"
         ],
-        "rationale": "피치(Fitch)의 프랑스 국가신용등급 발표를 앞두고 유로존 재정 건전성 우려가 고조되는 가운데, 잭슨홀 미팅발 금리 우려가 겹치며 단기적 채권 시장 불안정과 금융 섹터 약세 우려.",
-        "risk": "프랑스 신용등급의 예상외 유지 또는 ECB의 시장 안정화 구두 개입",
+        "rationale": "호르무즈 해협의 LNG 공급 우려 등 중동 지정학 리스크로 인해 단기 천연가스 및 에너지 가격 상승 모멘텀이 강화됨.",
+        "risk": "지정학적 갈등의 급격한 봉합 및 유가 하락",
         "conviction": "medium"
       },
       {
-        "theme": "미국 유통 및 소비재 섹터 실적 차별화와 단기 매도 압력",
+        "theme": "TSMC 주도 첨단 반도체/AI 밸류체인 모멘텀",
         "sectors": [
-          "Consumer Discretionary"
+          "Semiconductors",
+          "Technology"
         ],
         "tickers": [
-          "DKS"
+          "TSM",
+          "NVDA",
+          "SOXX"
         ],
-        "rationale": "디딕스 스포팅 굿즈의 부진한 실적 발표와 관세 환급 대응 실패 이슈가 부각되면서, 미국 소매/소비재 섹터 전반의 단기 투자 심리 위축.",
-        "risk": "타 소매 대기업들의 관세 대응 호재성 발표 및 저가 매수세 유입",
-        "conviction": "medium"
+        "rationale": "글로벌 매크로 불확실성에도 불구하고 TSMC의 첨단 공정 주도권과 AI 칩 수요는 단기적으로 가장 확실한 펀더멘털을 제공함.",
+        "risk": "미국의 대중국 반도체 추가 규제 발표",
+        "conviction": "high"
       }
     ],
     "1m": [
       {
-        "theme": "AI 반도체 독점력 기반 글로벌 자금 집중",
+        "theme": "고금리 장기화에 따른 미국 주택/모기지 시장 약세",
         "sectors": [
-          "Semiconductors"
+          "Real Estate",
+          "Financials"
         ],
         "tickers": [
-          "TSM",
-          "NVDA"
+          "ITB",
+          "VNQ",
+          "XHB"
         ],
-        "rationale": "TSMC의 3나노 공정 파트너십 강화와 AI 하드웨어 수요 폭증이 실적으로 증명되며 관련 반도체 대형주로의 단기 자금 유입 가속화.",
-        "risk": "글로벌 매크로 유동성 위축에 따른 밸류에이션 부담 지적",
-        "conviction": "high"
+        "rationale": "유가 상승 발 인플레이션 압력으로 미국 모기지 금리가 6월 이후 최고치를 기록함에 따라 단기 주택 수요 및 리츠 자산 압박.",
+        "risk": "예상을 하회하는 미국 인플레이션 지표 발표",
+        "conviction": "medium"
       },
       {
-        "theme": "이베리아 전력망 안정화 및 배터리 인프라 조달",
+        "theme": "ECB 완화 기대감에 따른 유럽 채권 매수",
         "sectors": [
-          "Energy"
+          "Fixed Income"
         ],
         "tickers": [
-          "IBDRY",
-          "EDPFY"
+          "BNDX",
+          "BWX"
         ],
-        "rationale": "스페인 및 포르투갈의 대규모 정전 사태 이후, 백업 배터리 긴급 조달 및 전력망 인프라 재구축 수요가 급증하며 단기 수혜 기대.",
-        "risk": "정부 예산 집행 지연 및 신재생 인프라 규제 변화",
-        "conviction": "high"
+        "rationale": "독일의 8월 인플레이션이 예상을 하회하며 ECB의 금리 인하 경로가 확보되어, 미국 대비 유럽 국채의 상대적 강세 예상.",
+        "risk": "유로화 약세 심화 및 수입 물가 상승",
+        "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "미디어 업종 대형 M&A 모멘텀 위축",
+        "theme": "자본비용 상승을 극복하는 AI 대형주 실적 차별화",
         "sectors": [
-          "Communication Services"
+          "Technology",
+          "Semiconductors"
         ],
         "tickers": [
-          "PARA",
-          "WBD"
+          "ASML",
+          "TSM",
+          "AMD"
         ],
-        "rationale": "파라마운트와 워너브라더스 디스커버리(WBD)의 합병이 반독점 소송 직면 등으로 난항을 겪으며, 3개월 내 미디어 업종 전반의 구조조정 및 M&A 기대감 소멸.",
-        "risk": "소송 합의 타결 또는 제3의 플랫폼 기업에 의한 인수합병 추진",
-        "conviction": "medium"
+        "rationale": "고금리 환경이 지속되면서 자본비용(Cost of Capital) 부담이 커진 만큼, 확실한 AI 매출을 증명할 수 있는 독점적 테크 기업들로 수급이 집중될 전망.",
+        "risk": "빅테크 기업들의 AI 설비투자(CAPEX) 축소 우려",
+        "conviction": "high"
       },
       {
-        "theme": "소비재 양극화 - 아시아 전기차 및 유통망 확장",
+        "theme": "금리 인하 지연에 따른 숏듀레이션/고금리 헤지",
         "sectors": [
-          "Consumer Discretionary"
+          "Fixed Income",
+          "Financials"
         ],
         "tickers": [
-          "BYDDF"
+          "SHY",
+          "TBT"
         ],
-        "rationale": "미국 내 소비재 위축 우려와 달리 견조한 해외 확장 실적을 보이고 있는 아시아 전기차(BYD) 등 글로벌 경쟁력을 갖춘 아시아 소비재의 분기 실적 차별화.",
-        "risk": "유럽 및 미국의 중국산 EV 대상 추가 관세 장벽 장기화",
+        "rationale": "중동발 인플레이션 압력으로 연초 기대했던 미국 금리 인하 시점이 늦춰지며 국채 금리가 상방 압력을 받을 것에 대비.",
+        "risk": "미국 고용 지표의 급격한 악화로 인한 침체 우려",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "글로벌 반도체 공급망 재편과 틈새 시장 공략",
+        "theme": "유럽의 에너지 다변화 및 미국산 LNG 반사이익",
         "sectors": [
-          "Semiconductors"
+          "Energy",
+          "Industrials"
         ],
         "tickers": [
-          "TSM",
-          "MU"
+          "LNG",
+          "XOM"
         ],
-        "rationale": "미국의 대중국 제재 속에서도 중국 메모리 진영(CXMT)의 매출 폭증 등 공급망 우회 구조가 확인되는 한편, 독점 기술력을 확보한 대만 파운드리의 구조적 수혜 지속.",
-        "risk": "미국의 우회 수출 규제 통제 수위의 추가적 격상",
-        "conviction": "high"
+        "rationale": "호르무즈 해협 리스크 등 중동발 공급 불안이 장기화되면서 유럽은 미국산 LNG 수입 확대 및 공급망 재편을 가속화할 수밖에 없음.",
+        "risk": "유럽 경기 침체로 인한 전체 에너지 수요 감소",
+        "conviction": "medium"
       },
       {
-        "theme": "유럽 전력 그리드 현대화 및 에너지 안보 강화",
+        "theme": "글로벌 규제 리스크에 대응하는 반도체 공급망 현지화",
         "sectors": [
-          "Energy"
+          "Semiconductors",
+          "Industrials"
         ],
         "tickers": [
-          "IBDRY"
+          "AMAT",
+          "LRCX",
+          "TOELY"
         ],
-        "rationale": "지정학적 리스크 및 전력 신뢰도 저하에 따라 이베리아 반도를 중심으로 유럽 내 백업 전력 시스템(BESS) 및 배터리 인프라 구축의 구조적 수급 증가 단계 진입.",
-        "risk": "유로존 재정 불안정에 따른 국가 주도 전력망 투자 예산 감축 가능성",
-        "conviction": "medium"
+        "rationale": "아시아 반도체 벨트에 대한 글로벌 규제 및 지정학 리스크가 지속됨에 따라 미국, 유럽 내 자체 반도체 팹 건설 및 장비 수요가 중기적으로 지속 성장함.",
+        "risk": "주요국의 반도체 보조금 지급 지연 및 정책 변경",
+        "conviction": "high"
       }
     ],
     "1y": [
       {
-        "theme": "AI 테크 레짐 전환과 하드웨어 지배력 고착화",
+        "theme": "미국-유럽 통화정책 디커플링 (달러 강세)",
         "sectors": [
+          "Currency",
+          "Fixed Income"
+        ],
+        "tickers": [
+          "UUP",
+          "FXE"
+        ],
+        "rationale": "독일발 물가 안정으로 완화적 기조를 굳히는 ECB와 달리, 유가 상승 압력으로 고금리를 유지해야 하는 연준(Fed) 간의 통화정책 차이로 달러 강세가 장기화될 전망.",
+        "risk": "미국 경기 급락으로 인한 연준의 급격한 금리 인하 피벗",
+        "conviction": "high"
+      },
+      {
+        "theme": "고금리 레짐 속 핵심 AI 인프라 독점 기업의 지배력 강화",
+        "sectors": [
+          "Technology",
           "Semiconductors"
         ],
         "tickers": [
           "TSM",
           "NVDA",
-          "MU"
+          "ASML"
         ],
-        "rationale": "금리 사이클 전환 및 거시경제 변동성에도 불구하고 AI 파라다임 고착화에 따른 3나노 이하 선단 공정 및 AI용 메모리(HBM 등)의 장기 독점 수혜 누적.",
-        "risk": "대만 지정학적 리스크 급증 및 글로벌 빅테크의 자체 칩 전환 가속화",
+        "rationale": "높은 자본비용 시대가 고착화되면 한계 기업들은 도태되고, 압도적인 현금 창출력과 첨단 기술 장벽을 가진 가치사슬 최상위 포식자들의 독점력이 더욱 공고해짐.",
+        "risk": "대만 해협 등 아시아 지역의 직접적인 군사적 긴장 고조",
         "conviction": "high"
-      },
-      {
-        "theme": "유로존 재정 리스크 재평가와 보수적 은행 포트폴리오",
-        "sectors": [
-          "Financials"
-        ],
-        "tickers": [
-          "BAC",
-          "BNP",
-          "DB"
-        ],
-        "rationale": "유로존 주요국의 재정 건전성 악화 지속과 금리 경로 불확실성 속에서 유럽 은행들의 건전성 재평가 및 미국 대형 은행(BAC)과의 건전성 차별화 심화.",
-        "risk": "유럽 연합 차원의 재정 준칙 완화 및 ECB의 강력한 유동성 지원책",
-        "conviction": "medium"
       }
     ]
   }

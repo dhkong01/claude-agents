@@ -1,7 +1,25 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "region": "US",
   "headlines": [
+    {
+      "title": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
+      "summary": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that.",
+      "link": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump strikes new drug pricing deals with nine midsized drugmakers",
+      "summary": "The string of deals builds on the Trump administration's push to link the nation's drug prices to cheaper ones abroad.",
+      "link": "https://www.cnbc.com/2026/08/31/trump-drug-pricing-deals.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Manhattan s luxury rental market is booming, with units reaching $100,000 a month",
+      "summary": "New York City brokers said they've seen a surge in the number of wealthy renters, which is driving Manhattan rents to new records.",
+      "link": "https://www.cnbc.com/2026/08/31/manhattan-luxury-rentals-100000-month.html",
+      "source": "CNBC"
+    },
     {
       "title": "The choose your own adventure earnings: Why retailers are handling tariff refunds so differently",
       "summary": "Retailers have diverged on how they've reported tariff refunds in their earnings this quarter, with some choosing to lower prices and others boosting margins.",
@@ -103,36 +121,18 @@
       "summary": "Lego CEO Niels Christiansen told CNBC the company is seeing strong sales at both ends of the pricing spectrum.",
       "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
       "source": "CNBC"
-    },
-    {
-      "title": "Paramount CEO David Ellison is at the final hurdle before buying WBD. So far, he can t clear it",
-      "summary": "An antitrust challenge by a group of state attorneys general has left Paramount CEO David Ellison hunting for avenues to get his deal for WBD done.",
-      "link": "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
-      "summary": "Main Street has been in the process of winding down its portfolio of regional sports networks since the the NHL and NBA seasons ended earlier this year.",
-      "link": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "A media M&A chill: The Paramount-WBD antitrust challenge may hold up more deals than one",
-      "summary": "Paramount's proposed merger with WBD is delayed while an antitrust lawsuit plays out. The holdup could mean a freeze across the media industry.",
-      "link": "https://www.cnbc.com/2026/08/24/paramount-wbd-antitrust-media-deals.html",
-      "source": "CNBC"
     }
   ],
-  "trend_headline": "금리 인상 우려 속 미 증시 둔화와 기업 실적 엇갈림",
-  "summary": "잭슨홀 미팅 여파로 금리 인상 경계감이 커진 가운데, 유통 및 소비재 기업들의 실적과 전략이 극명하게 엇갈리는 양상을 보였습니다. 대형 소매업체들은 관세 환급 대응에서 희비가 갈렸고, 디딕스 스포팅 굿즈는 부진한 실적으로 주가가 급락했습니다.",
+  "trend_headline": "중동발 유가 상승과 모기지 금리 급등",
+  "summary": "중동 지역 긴장 고조로 유가가 상승하면서 인플레이션 압박이 커져 미국 모기지 금리가 6월 이후 최고치로 치솟았습니다. 이 여파로 연초 기대됐던 금리 인하 전망이 불투명해지며 채권 및 주택 시장에 부담으로 작용하고 있습니다.",
   "key_points": [
-    "워시의 잭슨홀 발언 여파로 금리 인상 가능성이 대두되며 미국 주가지수 선물 하락",
-    "디딕스 스포팅 굿즈(Dick's Sporting Goods) 실적 부진으로 주가 30% 급락",
-    "파라마운트와 워너브라더스 디스커버리(WBD)의 합병이 반독점 소송으로 난항"
+    "이란과의 충돌 및 중동발 공격으로 유가 상승 압력 가중",
+    "미국 모기지 금리가 2025년 6월 이후 최고 수준으로 급등",
+    "연초 예상되었던 금리 인하 기대감이 약화되며 거시경제 불확실성 증대"
   ],
   "sector_hints": [
-    "Consumer Discretionary",
-    "Financials",
-    "Communication Services"
+    "Real Estate",
+    "Energy",
+    "Financials"
   ]
 }

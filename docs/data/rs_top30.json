@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-31",
   "rs90_count": 9,
   "stocks": [
     {
@@ -32,18 +32,18 @@
     },
     {
       "ticker": "AMD",
-      "rs_rating": 91.5
+      "rs_rating": 92.4
     },
     {
       "ticker": "PANW",
       "rs_rating": 90.5
     },
     {
-      "ticker": "FTNT",
+      "ticker": "CRWD",
       "rs_rating": 89.6
     },
     {
-      "ticker": "CRWD",
+      "ticker": "FTNT",
       "rs_rating": 88.6
     },
     {
@@ -55,23 +55,23 @@
       "rs_rating": 86.7
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ASML",
       "rs_rating": 84.9
     },
     {
-      "ticker": "ASML",
+      "ticker": "DDOG",
       "rs_rating": 83.9
     },
     {
-      "ticker": "DDOG",
+      "ticker": "ABNB",
       "rs_rating": 83.0
     },
     {
-      "ticker": "WBD",
+      "ticker": "ARM",
       "rs_rating": 82.0
     },
     {
-      "ticker": "ARM",
+      "ticker": "WBD",
       "rs_rating": 81.1
     },
     {
@@ -91,7 +91,7 @@
       "rs_rating": 77.3
     },
     {
-      "ticker": "CSCO",
+      "ticker": "VRTX",
       "rs_rating": 76.4
     },
     {
@@ -99,12 +99,12 @@
       "rs_rating": 75.4
     },
     {
-      "ticker": "VRTX",
+      "ticker": "CSCO",
       "rs_rating": 74.5
     },
     {
       "ticker": "REGN",
-      "rs_rating": 72.6
+      "rs_rating": 73.5
     },
     {
       "ticker": "PAYX",
@@ -115,20 +115,20 @@
       "rs_rating": 70.7
     },
     {
-      "ticker": "ADP",
+      "ticker": "PLTR",
       "rs_rating": 69.8
     },
     {
-      "ticker": "WDAY",
+      "ticker": "ADP",
       "rs_rating": 68.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 34.9,
+    "VKTX": 45.3,
     "MRVL": 94.3,
     "CRDO": 85.8,
-    "NBIS": 92.4,
-    "RDDT": 8.5,
-    "VRT": 73.5
+    "NBIS": 91.5,
+    "RDDT": 3.8,
+    "VRT": 72.6
   }
 }

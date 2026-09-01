@@ -1,164 +1,162 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-09-01",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 18.69,
-      "week1": -0.68,
+      "qtd": 21.11,
+      "week1": 3.06,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 7.28,
-      "week1": -2.03,
+      "qtd": 6.89,
+      "week1": -2.71,
       "rank": 2,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 6.06,
-      "week1": -0.21,
+      "qtd": 5.35,
+      "week1": -1.03,
       "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 4.23,
-      "week1": -0.75,
+      "qtd": 3.27,
+      "week1": -1.66,
       "rank": 4,
       "status": "강세"
     },
     {
-      "sector": "Communication",
-      "etf": "XLC",
-      "qtd": 2.96,
-      "week1": 0.6,
+      "sector": "Consumer Staples",
+      "etf": "XLP",
+      "qtd": 2.02,
+      "week1": -1.78,
       "rank": 5,
       "status": "중립"
     },
     {
-      "sector": "Consumer Staples",
-      "etf": "XLP",
-      "qtd": 2.58,
-      "week1": -2.29,
+      "sector": "Communication",
+      "etf": "XLC",
+      "qtd": 1.57,
+      "week1": -1.52,
       "rank": 6,
-      "status": "중립"
-    },
-    {
-      "sector": "Real Estate",
-      "etf": "XLRE",
-      "qtd": 0.68,
-      "week1": -1.88,
-      "rank": 7,
       "status": "중립"
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 0.04,
-      "week1": 3.13,
-      "rank": 8,
+      "qtd": 0.47,
+      "week1": 2.62,
+      "rank": 7,
       "status": "중립"
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": -0.16,
+      "week1": -2.76,
+      "rank": 8,
+      "status": "약세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": -0.75,
-      "week1": -0.92,
+      "qtd": -1.27,
+      "week1": -1.15,
       "rank": 9,
       "status": "약세"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -3.39,
-      "week1": -1.04,
+      "qtd": -4.49,
+      "week1": -1.83,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": -4.56,
-      "week1": -1.13,
+      "qtd": -5.67,
+      "week1": -2.49,
       "rank": 11,
       "status": "약세"
     }
   ],
   "us_by_sector": {
-    "Consumer Cyclical": [
-      {
-        "ticker": "ABNB",
-        "rs": 82.0,
-        "canslim": 61,
-        "price": 189.43
-      },
-      {
-        "ticker": "ROST",
-        "rs": 66.0,
-        "canslim": 51,
-        "price": 228.55
-      }
-    ],
     "Technology": [
       {
         "ticker": "FTNT",
-        "rs": 89.6,
+        "rs": 88.6,
         "canslim": 58,
-        "price": 166.0
+        "price": 170.93
       },
       {
         "ticker": "NVDA",
-        "rs": 67.9,
+        "rs": 61.3,
         "canslim": 54,
-        "price": 217.55
+        "price": 220.78
       },
       {
         "ticker": "STX",
         "rs": 96.2,
         "canslim": 52,
-        "price": 829.76
+        "price": 828.38
       },
       {
         "ticker": "WDC",
         "rs": 95.2,
         "canslim": 52,
-        "price": 459.45
+        "price": 450.55
       },
       {
-        "ticker": "CRWD",
-        "rs": 88.6,
-        "canslim": 51,
-        "price": 218.4
+        "ticker": "MRVL",
+        "rs": 94.3,
+        "canslim": 52,
+        "price": 211.66
+      },
+      {
+        "ticker": "AMD",
+        "rs": 92.4,
+        "canslim": 52,
+        "price": 470.72
+      }
+    ],
+    "Consumer Cyclical": [
+      {
+        "ticker": "ABNB",
+        "rs": 83.0,
+        "canslim": 58,
+        "price": 183.22
+      },
+      {
+        "ticker": "SBUX",
+        "rs": 65.1,
+        "canslim": 54,
+        "price": 106.25
       }
     ],
     "Healthcare": [
       {
         "ticker": "AMGN",
-        "rs": 79.2,
-        "canslim": 54,
-        "price": 432.42
+        "rs": 80.1,
+        "canslim": 58,
+        "price": 429.88
       },
       {
         "ticker": "DXCM",
-        "rs": 74.5,
+        "rs": 75.4,
         "canslim": 54,
-        "price": 90.82
-      }
-    ],
-    "Energy": [
-      {
-        "ticker": "FANG",
-        "rs": 68.8,
-        "canslim": 51,
-        "price": 197.67
+        "price": 91.06
       }
     ]
   },
@@ -174,7 +172,7 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 6.5,
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

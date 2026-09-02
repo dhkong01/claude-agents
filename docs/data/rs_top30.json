@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "rs90_count": 9,
   "stocks": [
     {
@@ -36,14 +36,14 @@
     },
     {
       "ticker": "PANW",
-      "rs_rating": 90.5
-    },
-    {
-      "ticker": "CRWD",
-      "rs_rating": 89.6
+      "rs_rating": 91.5
     },
     {
       "ticker": "FTNT",
+      "rs_rating": 89.6
+    },
+    {
+      "ticker": "CRWD",
       "rs_rating": 88.6
     },
     {
@@ -55,19 +55,19 @@
       "rs_rating": 86.7
     },
     {
+      "ticker": "ABNB",
+      "rs_rating": 85.8
+    },
+    {
       "ticker": "ASML",
       "rs_rating": 84.9
     },
     {
       "ticker": "DDOG",
-      "rs_rating": 83.9
-    },
-    {
-      "ticker": "ABNB",
       "rs_rating": 83.0
     },
     {
-      "ticker": "ARM",
+      "ticker": "AMGN",
       "rs_rating": 82.0
     },
     {
@@ -75,60 +75,60 @@
       "rs_rating": 81.1
     },
     {
-      "ticker": "AMGN",
+      "ticker": "ARM",
       "rs_rating": 80.1
     },
     {
-      "ticker": "KLAC",
+      "ticker": "VRTX",
       "rs_rating": 79.2
     },
     {
-      "ticker": "CSX",
+      "ticker": "KLAC",
       "rs_rating": 78.3
     },
     {
-      "ticker": "DASH",
+      "ticker": "REGN",
       "rs_rating": 77.3
     },
     {
-      "ticker": "VRTX",
+      "ticker": "DXCM",
       "rs_rating": 76.4
     },
     {
-      "ticker": "DXCM",
+      "ticker": "CSCO",
       "rs_rating": 75.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "DASH",
       "rs_rating": 74.5
     },
     {
-      "ticker": "REGN",
+      "ticker": "CSX",
       "rs_rating": 73.5
     },
     {
       "ticker": "PAYX",
-      "rs_rating": 71.7
+      "rs_rating": 72.6
     },
     {
-      "ticker": "ROST",
+      "ticker": "GILD",
       "rs_rating": 70.7
     },
     {
-      "ticker": "PLTR",
+      "ticker": "ADP",
       "rs_rating": 69.8
     },
     {
-      "ticker": "ADP",
+      "ticker": "PLTR",
       "rs_rating": 68.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 45.3,
+    "VKTX": 57.5,
     "MRVL": 94.3,
-    "CRDO": 85.8,
-    "NBIS": 91.5,
-    "RDDT": 3.8,
-    "VRT": 72.6
+    "CRDO": 83.9,
+    "NBIS": 90.5,
+    "RDDT": 4.7,
+    "VRT": 71.7
   }
 }

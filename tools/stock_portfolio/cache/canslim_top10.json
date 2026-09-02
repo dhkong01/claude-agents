@@ -1,25 +1,7 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "analyzed": 100,
   "top10": [
-    {
-      "ticker": "FTNT",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 125413670912,
-      "price": 170.93,
-      "rs_rating": 88.6
-    },
     {
       "ticker": "ABNB",
       "canslim_score": 58,
@@ -34,9 +16,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 109709508608,
-      "price": 183.22,
-      "rs_rating": 83.0
+      "market_cap": 109305331712,
+      "price": 182.545,
+      "rs_rating": 85.8
     },
     {
       "ticker": "AMGN",
@@ -52,9 +34,27 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 232406892544,
-      "price": 429.88,
-      "rs_rating": 80.1
+      "market_cap": 236861685760,
+      "price": 438.12,
+      "rs_rating": 82.0
+    },
+    {
+      "ticker": "FTNT",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 118751559680,
+      "price": 161.85,
+      "rs_rating": 89.6
     },
     {
       "ticker": "DXCM",
@@ -70,9 +70,9 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 34362470400,
-      "price": 91.06,
-      "rs_rating": 75.4
+      "market_cap": 34015299584,
+      "price": 90.14,
+      "rs_rating": 76.4
     },
     {
       "ticker": "SBUX",
@@ -88,9 +88,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "market_cap": 121125003264,
-      "price": 106.25,
-      "rs_rating": 65.1
+      "market_cap": 121011003392,
+      "price": 106.15,
+      "rs_rating": 64.1
     },
     {
       "ticker": "NVDA",
@@ -106,9 +106,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 5331174293504,
-      "price": 220.78,
-      "rs_rating": 61.3
+      "market_cap": 5250523594752,
+      "price": 217.44,
+      "rs_rating": 60.3
     },
     {
       "ticker": "STX",
@@ -124,8 +124,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 187747778560,
-      "price": 828.38,
+      "market_cap": 185086984192,
+      "price": 816.64,
       "rs_rating": 96.2
     },
     {
@@ -142,8 +142,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 162441707520,
-      "price": 450.55,
+      "market_cap": 162402058240,
+      "price": 450.44,
       "rs_rating": 95.2
     },
     {
@@ -160,27 +160,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 190219829248,
-      "price": 211.66,
+      "market_cap": 189078470656,
+      "price": 210.39,
       "rs_rating": 94.3
     },
     {
-      "ticker": "AMD",
-      "canslim_score": 52,
+      "ticker": "FANG",
+      "canslim_score": 51,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 4,
-        "S": 1,
-        "L": 10,
+        "N": 7,
+        "S": 4,
+        "L": 3,
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 768438632448,
-      "price": 470.72,
-      "rs_rating": 92.4
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 56888819712,
+      "price": 203.16,
+      "rs_rating": 67.9
     }
   ]
 }

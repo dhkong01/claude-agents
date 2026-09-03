@@ -125,16 +125,18 @@
         "source": "CNBC"
       }
     ],
-    "trend_headline": "AI 인프라 실적 호조 속 종목별 차별화",
-    "summary": "빅테크 및 하드웨어 기업들이 AI 수요 확장에 힘입어 엇갈린 주가 흐름을 보인 하루였습니다. 중동발 지정학적 리스크로 인한 유가 상승과 모기지 금리 급등이 거시경제 부담을 키운 반면, 개별 기업들은 AI 서버와 클라우드 실적에 따라 차별화된 평가를 받았습니다.",
+    "trend_headline": "중동발 유가 상승과 AI 인프라 실적 랠리 교차",
+    "summary": "중동발 충격으로 유가가 상승하며 모기지 금리가 6월 이후 최고치로 치솟은 반면, Snowflake와 HPE 등은 강력한 AI 인프라 수요를 바탕으로 어닝 서프라이즈를 기록하며 기술주 내 차별화 장세를 주도했습니다. 또한 트럼프 행정부의 중형 제약사 약가 인하 합의와 포드의 슈퍼 딜리버리 트럭 생산 20년 만에 최고치 경신 등 개별 기업 이벤트도 시장의 주목을 받았습니다.",
     "key_points": [
-      "모기지 금리가 2025년 6월 이후 최고치로 급등하며 중동발 유가 상승 압력을 반영했습니다.",
-      "HPE와 스노우플레이크(Snowflake)는 AI 인프라 수요에 힘입어 시장 예상을 뛰어넘는 실적을 기록했습니다.",
-      "브로드컴과 팔란티어는 견조한 실적에도 불구하고 밸류에이션 부담 등으로 주가가 하락 압력을 받았습니다."
+      "중동발 새로운 공격과 유가 상승 여파로 모기지 금리가 2025년 6월 이후 최고치로 급등",
+      "Snowflake와 HPE가 AI 기반 데이터 및 서버 수요에 힘입어 시장 예상을 상회하는 실적 발표",
+      "트럼프 행정부가 9개의 중형 제약사와 새로운 약가 인하 계약을 체결하며 헬스케어 섹터 변동성 확대"
     ],
     "sector_hints": [
       "Technology",
-      "Financials"
+      "Energy",
+      "Financials",
+      "Healthcare"
     ]
   },
   "asia": {
@@ -143,6 +145,42 @@
     "countries": {
       "KR": {
         "headlines": [
+          {
+            "title": "“지금이 제일 싸네”…'명품 아이언' 미우라, 또 가격 인상 [프라이스&]",
+            "summary": "",
+            "link": "https://www.hankyung.com/article/202608289514i",
+            "source": "한국경제"
+          },
+          {
+            "title": "무기 주는 후티, 돈 대는 알샤바브…세계 '석유 동맥' 위협",
+            "summary": "",
+            "link": "https://www.hankyung.com/article/202609031082i",
+            "source": "한국경제"
+          },
+          {
+            "title": "한국전력, 삼전닉스에 25조 전기료 선납 제안",
+            "summary": "",
+            "link": "https://www.hankyung.com/article/202609030939i",
+            "source": "한국경제"
+          },
+          {
+            "title": "[외신 에스프레소 영상] 금리 상승기에 마주한 엔 캐리 청산…글로벌 자산시장 긴장",
+            "summary": "",
+            "link": "https://www.hankyung.com/article/202609030954i",
+            "source": "한국경제"
+          },
+          {
+            "title": "\"연간 사상 최대 눈앞\"…수산식품 수출 18% 늘어 22억달러",
+            "summary": "",
+            "link": "https://www.hankyung.com/article/202609030896g",
+            "source": "한국경제"
+          },
+          {
+            "title": "[외신 에스프레소] 美·日·유럽 국채금리 동반 급등… '부채의 역습' 시작됐다",
+            "summary": "",
+            "link": "https://www.hankyung.com/article/202609030852i",
+            "source": "한국경제"
+          },
           {
             "title": "[단독] 삼성·SK 신규 팹에 주문 몰렸다…'워트' 공장 90% 가동",
             "summary": "",
@@ -166,45 +204,9 @@
             "summary": "",
             "link": "https://www.hankyung.com/article/202609020615i",
             "source": "한국경제"
-          },
-          {
-            "title": "\"사과값 떨어졌다\" 안심했더니…추석 앞두고 '화들짝' [박상경의 영수증 리뷰]",
-            "summary": "",
-            "link": "https://www.hankyung.com/article/202609029539g",
-            "source": "한국경제"
-          },
-          {
-            "title": "임단협 부결 뒤 첫 메시지…SK하이닉스 \"불이익 없도록 할 것\"",
-            "summary": "",
-            "link": "https://www.hankyung.com/article/2026090307317",
-            "source": "한국경제"
-          },
-          {
-            "title": "광어 먹으려 했더니…\"이젠 회도 못 먹겠네\" 심상찮은 상황 [프라이스&]",
-            "summary": "",
-            "link": "https://www.hankyung.com/article/202609020654i",
-            "source": "한국경제"
-          },
-          {
-            "title": "'국민차' 쏘렌토 턱밑까지 쫓아왔다…불티나게 팔린 '이 車'",
-            "summary": "",
-            "link": "https://www.hankyung.com/article/202609029781g",
-            "source": "한국경제"
-          },
-          {
-            "title": "사람 손 닿기 전에 포장까지 '척척'…고창 상하치즈 공장의 로봇 군단 [현장+]",
-            "summary": "",
-            "link": "https://www.hankyung.com/article/202609029794i",
-            "source": "한국경제"
-          },
-          {
-            "title": "삼성·LG 낳은 '전설의 바위' 입소문…165억 대박 난 '부자 성지'",
-            "summary": "",
-            "link": "https://www.hankyung.com/article/2026090202011",
-            "source": "한국경제"
           }
         ],
-        "summary": "글로벌 AI 인프라 수요 급증에 힘입어 반도체 소부장(소재·부품·장비) 생태계 전반의 가동률이 치솟는 등 수출 중심 제조업의 온기가 확산하고 있습니다."
+        "summary": "글로벌 국채 금리 상승과 엔 캐리 청산 우려 속에서 AI 및 첨단 인프라(삼성·SK 팹 증설, 전력 선납 등) 수요 대응에 총력을 기울이는 모습입니다."
       },
       "JP": {
         "headlines": [
@@ -269,26 +271,14 @@
             "source": "Nikkei Asia"
           }
         ],
-        "summary": "엔화가 158엔 부근까지 약세를 보이며 외환당국의 개입 경계감이 고조된 가운데, 일본 기업들은 대대적인 플래그십 스토어 중심의 브랜드 재편과 체질 개선에 집중하고 있습니다."
+        "summary": "엔화가 158엔 부근까지 급락하며 외환 당국의 개입 경계감이 고조된 가운데, 일본 국채 금리 상승세가 글로벌 자산 시장에 연쇄적인 파장을 미치고 있습니다."
       },
       "TW": {
         "headlines": [
           {
-            "title": "The Firm That Filed a Bet Against Taiwan Semiconductor Then Launched a Foundry Fund Five Days Later - 24/7 Wall St.",
+            "title": "The Firm That Filed a Bet Against Taiwan Semiconductor Then Launched a Foundry Fund Five Days Later - 247wallst.com",
             "summary": "a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNU1BOHp2clhwUDNkVzNQVXU4RTlzd3ctVFgzY1lmQ2djek1RRktnaERaeGZFWXd0anltZVZUd29fWk9iNmFnSU9xbm82TTNHNzdIVV9TMDRzNjNQNG8xeDNnTDVldjVxcFlBTXI0SEhwbVNOSkNUNTFiMV9XVGpQaGNnUlEwNjFkdFJoaDhTOVoxV3ZMVTRrMTRuaENOQmNfRFRGeVFUOC15WGhzWlVJcGdscmh3M19wRlh",
             "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNU1BOHp2clhwUDNkVzNQVXU4RTlzd3ctVFgzY1lmQ2djek1RRktnaERaeGZFWXd0anltZVZUd29fWk9iNmFnSU9xbm82TTNHNzdIVV9TMDRzNjNQNG8xeDNnTDVldjVxcFlBTXI0SEhwbVNOSkNUNTFiMV9XVGpQaGNnUlEwNjFkdFJoaDhTOVoxV3ZMVTRrMTRuaENOQmNfRFRGeVFUOC15WGhzWlVJcGdscmh3M19wRlhRNUNsY3MxODNLRVN4OG96bXM4Z3RUeFdhWEVocVJCWWhQNHZWcQ?oc=5",
-            "source": "Google News"
-          },
-          {
-            "title": "Taiwan’s six-year hunt for China’s undercover chip labs - Rest of World",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBCMHZNTGlOck0yWEdhYWRrWGZDaFNjQW5qRnlfZ0c1dXRfdmE0SkVGUXotYUJ5UWMyanNFREFqQWdhdURmdTJ6ZFBxdWhaajNFZVZtdFE0VzloVHdXcXlsWnFTZmNLUXNMU19nWW8xaw?oc=5\" target=\"_blank\" Taiwan’s six-year hunt for China’s undercover chip labs /a font color=\"#6f6f6f",
-            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCMHZNTGlOck0yWEdhYWRrWGZDaFNjQW5qRnlfZ0c1dXRfdmE0SkVGUXotYUJ5UWMyanNFREFqQWdhdURmdTJ6ZFBxdWhaajNFZVZtdFE0VzloVHdXcXlsWnFTZmNLUXNMU19nWW8xaw?oc=5",
-            "source": "Google News"
-          },
-          {
-            "title": "Taiwan's chip prowess is built on democracy and rule of law, president says - Reuters",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNZlNBQUloQjZQaTRsNEI5dlVwSTZqc0d5WXp6VmxqRXJra0V0b0cyaXlBQ1gzSzVDeHplZW53di1WUkZJX1cwd0QyQkwtb2VWRVN1S2Z0T1hwTmRKTVZnaUNBYzJvamRNOUltaGJ6bEdyTXU2enRZMnlNMkxsWFVPNFVMTTBFcEprRW9aODB6MXZtRDhIUGQta0IwcElxUng1c21GREYwanF2U2F3eWhjbnd0ZldUZ21aS2c",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZlNBQUloQjZQaTRsNEI5dlVwSTZqc0d5WXp6VmxqRXJra0V0b0cyaXlBQ1gzSzVDeHplZW53di1WUkZJX1cwd0QyQkwtb2VWRVN1S2Z0T1hwTmRKTVZnaUNBYzJvamRNOUltaGJ6bEdyTXU2enRZMnlNMkxsWFVPNFVMTTBFcEprRW9aODB6MXZtRDhIUGQta0IwcElxUng1c21GREYwanF2U2F3eWhjbnd0ZldUZ21aS2c?oc=5",
             "source": "Google News"
           },
           {
@@ -298,15 +288,15 @@
             "source": "Google News"
           },
           {
-            "title": "TSMC Rose Higher With a 67.7% Margin--and Taiwan's Trust Pitch - TradingView",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3h3dkx6alYwMWtEQlNlemRteGVOSXdtdklJUElEZmpfanpYTjZZeHVnVUNjZ1htZUNfSWN1cGJyS01VLWNyeWk1VTZuLXJNb0dMV1JMNGg3U21xSXVYUkNORmxKZ3ZoUm5KZ1pmcEQ4N1o2ZHJiVzBMRFo1ZlYwLVFpQnZ4N1FGNEl5b0hkZ25tSG1LUUZIMHF4UnR3RXJ1cVBoQW90ZDgtbGJwdmZPa2xpaDdTa0NQdmt",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3h3dkx6alYwMWtEQlNlemRteGVOSXdtdklJUElEZmpfanpYTjZZeHVnVUNjZ1htZUNfSWN1cGJyS01VLWNyeWk1VTZuLXJNb0dMV1JMNGg3U21xSXVYUkNORmxKZ3ZoUm5KZ1pmcEQ4N1o2ZHJiVzBMRFo1ZlYwLVFpQnZ4N1FGNEl5b0hkZ25tSG1LUUZIMHF4UnR3RXJ1cVBoQW90ZDgtbGJwdmZPa2xpaDdTa0NQdmtzcw?oc=5",
-            "source": "Google News"
-          },
-          {
             "title": "Taiwan Semiconductor: Stifel Says TSM Is a 'Must-Own' for the Long Term - Barchart.com",
             "summary": "a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNaFpuQUgzLUdwSXFacHdRcWR2QmNsNkRXa3p6eGd3bmZ4VEQ2dmhsSW05YnoyZlpVcEhQZDczWFJxcEtCNDMzWTZOSlFvRlRJVjNxZ1RYdU1YcjZ6Zll1MlNwWDlkMndmdTRoajJXWmZGM1FYOVhWdjhDMVBVVGtCNnRHZnpXQlJrZWN5bWFiSVVnb0xQa3JQRE5Sc05TQ3A3MXhTeURZTlQzQUtOTnlLbzd3?oc=5\" targ",
             "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaFpuQUgzLUdwSXFacHdRcWR2QmNsNkRXa3p6eGd3bmZ4VEQ2dmhsSW05YnoyZlpVcEhQZDczWFJxcEtCNDMzWTZOSlFvRlRJVjNxZ1RYdU1YcjZ6Zll1MlNwWDlkMndmdTRoajJXWmZGM1FYOVhWdjhDMVBVVGtCNnRHZnpXQlJrZWN5bWFiSVVnb0xQa3JQRE5Sc05TQ3A3MXhTeURZTlQzQUtOTnlLbzd3?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "TSMC Rose Higher With a 67.7% Margin--and Taiwan's Trust Pitch - TradingView",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3h3dkx6alYwMWtEQlNlemRteGVOSXdtdklJUElEZmpfanpYTjZZeHVnVUNjZ1htZUNfSWN1cGJyS01VLWNyeWk1VTZuLXJNb0dMV1JMNGg3U21xSXVYUkNORmxKZ3ZoUm5KZ1pmcEQ4N1o2ZHJiVzBMRFo1ZlYwLVFpQnZ4N1FGNEl5b0hkZ25tSG1LUUZIMHF4UnR3RXJ1cVBoQW90ZDgtbGJwdmZPa2xpaDdTa0NQdmt",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3h3dkx6alYwMWtEQlNlemRteGVOSXdtdklJUElEZmpfanpYTjZZeHVnVUNjZ1htZUNfSWN1cGJyS01VLWNyeWk1VTZuLXJNb0dMV1JMNGg3U21xSXVYUkNORmxKZ3ZoUm5KZ1pmcEQ4N1o2ZHJiVzBMRFo1ZlYwLVFpQnZ4N1FGNEl5b0hkZ25tSG1LUUZIMHF4UnR3RXJ1cVBoQW90ZDgtbGJwdmZPa2xpaDdTa0NQdmtzcw?oc=5",
             "source": "Google News"
           },
           {
@@ -328,16 +318,34 @@
             "source": "Google News"
           },
           {
-            "title": "TSMC’s Quarterly Chipmaking Tool Needs Almost Doubled This Year - Bloomberg.com",
-            "summary": "a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNanZ4ZFBpUU1PbXBwRy1ESzlOaDhsMERxQkw5cU43X3ZvdWRabWhTSVRrcWZuNUpJaGg2T0V1MHZmMWplcnpib3dlSTU4TXBra0RQRGYyQ1Z2QzR5a3AzYnRGWENkUlJBeC1ZbDBmSjVPRGZzWllZeGVBZzlvTF9qUjhEc3NNdzAtSGhPNThPakVpTWVRem9YNHBidTdtS2pEeE5fQzNIaWptMVVPLTZRMEZhSDQ?oc=5\" t",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNanZ4ZFBpUU1PbXBwRy1ESzlOaDhsMERxQkw5cU43X3ZvdWRabWhTSVRrcWZuNUpJaGg2T0V1MHZmMWplcnpib3dlSTU4TXBra0RQRGYyQ1Z2QzR5a3AzYnRGWENkUlJBeC1ZbDBmSjVPRGZzWllZeGVBZzlvTF9qUjhEc3NNdzAtSGhPNThPakVpTWVRem9YNHBidTdtS2pEeE5fQzNIaWptMVVPLTZRMEZhSDQ?oc=5",
+            "title": "TSMC Opens Kaohsiung Supplier Campus to Close Packaging Validation Gap - Tech Times",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQQW1oejRtd2NDX2FRamcxMUlVenB2RkswSlQwdE5nZ21YTHdzaTVNTHFWa2lsLU1zbkh0bmh1NEFaWWx6ck9XZHJMbUFFY2ZYYVE4eUN1dXoxbjM3WFNGc0Rqb3ZUdnNVOURGWmNTdnlmS2tUYUtWQnJIS3dvZTZkSlp1R0U1dXRYeXJMeGw1RTN1ZnFGelZEMzltWk5saFBCSWtVVVc3MDR5S3loa3A0czA5NmFuMV9VSFd",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQW1oejRtd2NDX2FRamcxMUlVenB2RkswSlQwdE5nZ21YTHdzaTVNTHFWa2lsLU1zbkh0bmh1NEFaWWx6ck9XZHJMbUFFY2ZYYVE4eUN1dXoxbjM3WFNGc0Rqb3ZUdnNVOURGWmNTdnlmS2tUYUtWQnJIS3dvZTZkSlp1R0U1dXRYeXJMeGw1RTN1ZnFGelZEMzltWk5saFBCSWtVVVc3MDR5S3loa3A0czA5NmFuMV9VSFdRSGYzNA?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "Taiwan Semi, GlobalFoundries, Tower Semi in focus as Stifel starts with Buy rating (TSM:NYSE) - Seeking Alpha",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOeEhZLXRZUzhaR3YwS3FPbnBZQjJfczZfNVA1c0RQSmZpY0lYaWtZV1BlSlZUcDhKcDEtbnVJNF9pVHdGVC1MUnczTFhOSEpldC00cnhfbXFrSlFqekFGVnJRQ3FfVmJlMENneEdjenZiRDJvekFlUGNZcEdKM1VzcGFuZER3WnU1M2FNYjB0N005UFNSMkxRUE9TYlFCcWQtVk9yOUpIT3ZjY1ZyOFBoSUozdDJyTU95dnc",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeEhZLXRZUzhaR3YwS3FPbnBZQjJfczZfNVA1c0RQSmZpY0lYaWtZV1BlSlZUcDhKcDEtbnVJNF9pVHdGVC1MUnczTFhOSEpldC00cnhfbXFrSlFqekFGVnJRQ3FfVmJlMENneEdjenZiRDJvekFlUGNZcEdKM1VzcGFuZER3WnU1M2FNYjB0N005UFNSMkxRUE9TYlFCcWQtVk9yOUpIT3ZjY1ZyOFBoSUozdDJyTU95dnc?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "Taiwan Semiconductor Manufacturing (TSM) Stock May Be Fully Priced On Fresh AI Chip News - simplywall.st",
+            "summary": "a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMkMzYjhCekwwV1R5WWFIcmdHM0lUamhtSGVwODg3M2tMenZYR0htUU1wUVNUX2VLUk9hRVFKajBDSEZ2UURybEZKQXRkMUZNSXg3OWdRWWE1dTVVMjk1RFZsemRGU0lrdU82TjI2ajc0LTBuUlExN2FZTmN1N0o1RHh4aDJlSWs1Q1cwWDNfVkIwWjhmVUJfNGJicHp5alBaWlh6Y01XazVhQlBpWXNXZXZpMGc5SlBVX19",
+            "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMkMzYjhCekwwV1R5WWFIcmdHM0lUamhtSGVwODg3M2tMenZYR0htUU1wUVNUX2VLUk9hRVFKajBDSEZ2UURybEZKQXRkMUZNSXg3OWdRWWE1dTVVMjk1RFZsemRGU0lrdU82TjI2ajc0LTBuUlExN2FZTmN1N0o1RHh4aDJlSWs1Q1cwWDNfVkIwWjhmVUJfNGJicHp5alBaWlh6Y01XazVhQlBpWXNXZXZpMGc5SlBVX19QXzZTdFB1cHBXbzdIUEktLXBRV2JnX0V0ZjBwN1MwSVJGVUZ1blBtZ2hVOXBhRVNmSm5RdngwZ9IB8gFBVV95cUxNMkMzYjhCekwwV1R5WWFIcmdHM0lUamhtSGVwODg3M2tMenZYR0htUU1wUVNUX2VLUk9hRVFKajBDSEZ2UURybEZKQXRkMUZNSXg3OWdRWWE1dTVVMjk1RFZsemRGU0lrdU82TjI2ajc0LTBuUlExN2FZTmN1N0o1RHh4aDJlSWs1Q1cwWDNfVkIwWjhmVUJfNGJicHp5alBaWlh6Y01XazVhQlBpWXNXZXZpMGc5SlBVX19QXzZTdFB1cHBXbzdIUEktLXBRV2JnX0V0ZjBwN1MwSVJGVUZ1blBtZ2hVOXBhRVNmSm5RdngwZw?oc=5",
             "source": "Google News"
           }
         ],
-        "summary": "TSMC는 첨단 반도체 수요 폭증에 힘입어 장비 도입 수요가 전년 대비 두 배 가까이 급증하는 등 글로벌 파운드리 독점력을 더욱 공고히 하고 있습니다."
+        "summary": "TSMC를 둘러싼 월가의 강력한 매수 권고와 AI 칩 수요 급증에 따른 밸류체인 확장(가오슝 패키징 캠퍼스 등)이 반도체 섹터의 독주를 이끌고 있습니다."
       },
       "CN": {
         "headlines": [
+          {
+            "title": "Rare large-scale MTR topside tender draws heavyweight Hong Kong developers",
+            "summary": "Tender submissions for the MTR Corporation’s Tuen Mun Area 16 Station phase two property development closed on Wednesday, with market sources saying top Hong Kong developers including CK Asset, Sun Hung Kai Properties and Henderson Land Development submitted bids. A consortium comprising Sino Land, ",
+            "link": "https://www.scmp.com/property/article/3366126/rare-large-scale-mtr-topside-tender-draws-heavyweight-hong-kong-developers?utm_source=rss_feed",
+            "source": "SCMP Business"
+          },
           {
             "title": "China’s new home finance rules reduce buyer risks but may not revive the market: analysts",
             "summary": "China’s new housing finance rules reduce the risk of buying a new home but analysts are not convinced they will be enough to tempt hesitant buyers still weighed down by falling prices and weak confidence. The changes are designed to reduce the risk in buying pre-sold homes. Mortgage funds for pre-so",
@@ -391,27 +399,21 @@
             "summary": "China’s health regulators have granted approvals for a string of brain-technology products this year, as domestic start-ups push to transform the treatment of conditions ranging from paraplegia to Alzheimer’s and depression. The approvals come as Beijing bids to lead the world in brain-computer inte",
             "link": "https://www.scmp.com/business/companies/article/3366040/china-approves-string-telepathy-devices-amid-push-leapfrog-elon-musk?utm_source=rss_feed",
             "source": "SCMP Business"
-          },
-          {
-            "title": "China’s tech push fuels fastest profit growth in 4 years amid signs of economic divide",
-            "summary": "Artificial intelligence demand and technological domestic substitution drove profit growth for Chinese listed companies to its fastest pace in four years in the first half of 2026, underscoring the nation’s “K-shaped” economic structure as it transitions away from credit-fuelled expansion. Profit fo",
-            "link": "https://www.scmp.com/business/china-business/article/3365975/chinas-tech-push-fuels-fastest-profit-growth-4-years-amid-signs-economic-divide?utm_source=rss_feed",
-            "source": "SCMP Business"
           }
         ],
-        "summary": "부동산 시장 침체 속에서도 신에차(EV) 선두 업체들과 AI·테크 부문이 실적 성장을 견인하며, 자본시장에서는 해외 자산 다변화와 QDII쿼터 확대 조치가 이어지고 있습니다."
+        "summary": "부동산 시장의 신규 금융 규제 완화에도 불구하고 소비 심리 위축이 지속되는 한편, BYD 등 선두 EV 기업들은 공격적인 확장과 해외 자산 다변화로 돌파구를 모색하고 있습니다."
       }
     },
-    "trend_headline": "AI·반도체 슈퍼사이클과 각국별 통화·부동산 방어전 동시 전개",
-    "summary": "오늘 아시아 시장은 AI 및 반도체 인프라 수요 폭증이 한국과 대만의 관련 장비·소부장 가동률을 끌어올리는 동시에, 중국의 EV·테크 중심 실적 차별화와 일본의 엔화 약세 방어 및 체질 개선 노력이 교차하는 복합적 흐름을 보였습니다.",
+    "trend_headline": "글로벌 자산시장 변동성 속 아시아 첨단·수출 밸류체인 재편",
+    "summary": "금리 상승과 엔화 환율 변동성 등 거시경제적 긴장감이 고조되는 가운데, 한국과 대만은 강력한 반도체·AI 수요를 바탕으로 공급망 확장에 집중하고 있으며, 일본과 중국은 각각 통화 방어와 내수·수출 구조조정에 주력하는 양상을 보였다.",
     "cross_country_themes": [
-      "AI & Semiconductors",
-      "Export & Supply Chain Dynamics"
+      "AI 및 반도체 밸류체인 확장",
+      "글로벌 금리 및 환율 변동성 대응"
     ],
     "sector_hints": [
       "Semiconductors",
-      "Automotive & EV",
-      "Real Estate"
+      "Automotive & EVs",
+      "Finance & Foreign Exchange"
     ]
   },
   "europe": {
@@ -419,15 +421,51 @@
     "region": "EUROPE",
     "headlines": [
       {
+        "title": "B&Q and Five Guys among firms that paid staff below minimum wage",
+        "summary": "More than 600 companies underpaid staff, with £4m returned to workers, according to the government.",
+        "link": "https://www.bbc.co.uk/news/articles/c39mv4vm7exo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Almost half of households do not see benefits of economic growth, report says",
+        "summary": "Analysis has found a \"stark\" gap in the spending power of households in the north and south of England on average.",
+        "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "'I don't even like them': How much should you give to office gift collections?",
+        "summary": "Office whip-rounds are a staple of working life but they can raise a lot of awkward questions.",
+        "link": "https://www.bbc.co.uk/news/articles/c2el0v48v0xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "How Victoria Beckham turned her fashion firm around and made it profitable",
+        "summary": "The pop star formerly known as Posh Spice has taken nearly two decades to turn a profit.",
+        "link": "https://www.bbc.co.uk/articles/cj647xd596xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Uber launches UK's first robotaxis with a driver - here's what it's like to ride in one",
+        "summary": "The ride-hailing app has launched 15 self-driving taxis, but they will have safety drivers inside.",
+        "link": "https://www.bbc.co.uk/news/articles/ce9e838jzpzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Why wait? Business grads buying firms to install themselves as CEO",
+        "summary": "Impatient to be the boss of an established company they are borrowing money to fund their purchases.",
+        "link": "https://www.bbc.co.uk/news/articles/czxqpqrzq01o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
         "title": "Faisal Islam: Why bond market wildfire is keeping world leaders up at night",
         "summary": "Huge AI spending plans and the ongoing war in Iran are driving up borrowing costs around the world.",
         "link": "https://www.bbc.co.uk/news/articles/c0rez9zegj5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Why are UK borrowing costs rising and what does it mean for me?",
-        "summary": "Some government borrowing costs have hit their highest level for 28 years - what does it mean for you?",
-        "link": "https://www.bbc.co.uk/news/articles/cwyxydr7gv9o?at_medium=RSS&at_campaign=rss",
+        "title": "Uber to cut over 3,000 jobs in major global restructuring",
+        "summary": "The company says cutting roles would make its operations \"simpler and faster\".",
+        "link": "https://www.bbc.co.uk/news/articles/cp3ky2w4y9no?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
@@ -437,15 +475,15 @@
         "source": "BBC Business"
       },
       {
-        "title": "Lords call for AI 'kill switch' powers in UK",
-        "summary": "Its backers say it would provide a \"vital safety net\" against runaway AI systems such as those from OpenAI and Anthropic.",
-        "link": "https://www.bbc.co.uk/news/articles/cn9wv80j9w9o?at_medium=RSS&at_campaign=rss",
+        "title": "Why are UK borrowing costs rising and what does it mean for me?",
+        "summary": "Some government borrowing costs have hit their highest level for 28 years - what does it mean for you?",
+        "link": "https://www.bbc.co.uk/news/articles/cwyxydr7gv9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Uber to cut over 3,000 jobs in major global restructuring",
-        "summary": "The company says cutting roles would make its operations \"simpler and faster\".",
-        "link": "https://www.bbc.co.uk/news/articles/cp3ky2w4y9no?at_medium=RSS&at_campaign=rss",
+        "title": "Lords call for AI 'kill switch' powers in UK",
+        "summary": "Its backers say it would provide a \"vital safety net\" against runaway AI systems such as those from OpenAI and Anthropic.",
+        "link": "https://www.bbc.co.uk/news/articles/cn9wv80j9w9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
@@ -501,54 +539,17 @@
         "summary": "The governor of the Bank of England warned of AI's “volatility” caused by energy shocks from the US-Iran war.",
         "link": "https://www.bbc.co.uk/news/articles/c99dym3prl1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
-      },
-      {
-        "title": "Feeling nostalgic for summer? How to beat the back-to-work blues",
-        "summary": "Going back to work after a summer holiday can be tricky - here are a few tips to make it easier.",
-        "link": "https://www.bbc.co.uk/news/articles/cx2d1vy0827o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Ikea cuts prices as customers struggle with rising cost of living",
-        "summary": "The Swedish retailer has seen revenue decline as the rising cost of living reduces people's ability to buy new furniture.",
-        "link": "https://www.bbc.co.uk/news/articles/cm279dk9r8no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "I climbed the career ladder and got my dream job at 30 - then I hit burnout",
-        "summary": "Just after Jo Hooper landed her dream role at 30, she struggled with burnout and had to take time off work.",
-        "link": "https://www.bbc.co.uk/news/articles/c5yvpr0751go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
-        "summary": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
-        "link": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "US borrowing costs hit fresh highs over inflation fears",
-        "summary": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
-        "link": "https://www.bbc.co.uk/news/articles/c980y8r98y2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Victoria Beckham's company makes its first profit after 18 years",
-        "summary": "Beckham's fashion and beauty business makes a £7.3m operating profit after years of losses.",
-        "link": "https://www.bbc.co.uk/news/articles/cj645yl6d6do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
       }
     ],
-    "trend_headline": "치솟는 국채 금리와 패션 규제 강화",
-    "summary": "글로벌 지정학적 리스크와 AI 인프라 투자 급증으로 국채 금리가 다년 내 최고치로 치솟은 가운데, 프랑스는 울트라 패스트 패션에 최대 20유로의 환경 부과금을 겨누며 유통·소비재 섹터에 규제 압박을 가중시키고 있습니다.",
+    "trend_headline": "국채금리 급등과 지정학적 에너지 충격",
+    "summary": "AI 인프라 투자 급증과 미·이란 전쟁 등 지정학적 리스크가 맞물려 글로벌 채권 금리와 인플레이션 압력이 치솟고 있습니다. 영은란(BoE) 총재가 AI발 변동성과 에너지 충격에 따른 경기 침체 가능성을 경고한 가운데, 네덜란드 중앙은행은 지정학적 불안에 대비해 대규모 금괴를 런던으로 이전했습니다.",
     "key_points": [
-      "프랑스, Shein·Temu 등 울트라 패스트 패션 대상 최대 €20 환경 규제 추진",
-      "이란 전쟁 여파 및 AI 투자 확대로 영국 등 글로벌 차입 비용 28년 만에 최고 수준 기록",
-      "지정학적 불안 고조로 네덜란드 중앙은행, 미국·영국 간 대규모 금 보유고 이동 단행"
+      "영국 장기 국채금리가 1998년 이후 최고치로 치솟으며 예산안 압박 가중",
+      "미·이란 전쟁으로 인한 유가 급등과 AI 인프라 지출이 글로벌 차입 비용 상승 유발",
+      "네덜란드 중앙은행, 지정학적 리스크 고조로 미·캐나다 보유 금을 런던으로 대거 이전"
     ],
     "sector_hints": [
       "Energy",
-      "Consumer Discretionary",
       "Financials"
     ]
   }

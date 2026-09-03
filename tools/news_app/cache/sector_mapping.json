@@ -5,11 +5,11 @@
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "글로벌 AI 인프라 수요 폭증에 힘입어 한국의 반도체 소부장 가동률이 치솟고, 대만 TSMC의 첨단 반도체 장비 도입 수요가 전년 대비 두 배 가까이 급증하는 등 반도체 제조 생태계 전반의 강력한 성장세가 확인되었습니다.",
+      "rationale": "대만 TSMC의 가오슝 패키징 캠퍼스 확장과 한국 삼성·SK의 첨단 인프라 및 팹 증설 등 글로벌 AI 반도체 밸류체인 전반에 걸친 강력한 수요가 업황을 견인하고 있습니다.",
       "related_tickers": [
         "TSM",
-        "ASML",
-        "NVDA"
+        "NVDA",
+        "AMD"
       ],
       "source_regions": [
         "ASIA",
@@ -19,12 +19,12 @@
     {
       "name": "Technology",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "AI 인프라 및 클라우드 수요 확대로 HPE, 스노우플레이크 등이 시장 예상을 뛰어넘는 호실적을 기록했으며, 중국 내에서도 AI 및 테크 부문이 실적 성장을 주도하고 있습니다. 다만 견조한 실적에도 불구하고 일부 밸류에이션 부담이 공존합니다.",
+      "score": 8.0,
+      "rationale": "미국 Snowflake와 HPE가 강력한 AI 기반 데이터 및 서버 인프라 수요에 힘입어 시장 예상을 상회하는 어닝 서프라이즈를 기록하며 기술주 전반의 온기를 주도하고 있습니다.",
       "related_tickers": [
-        "HPE",
         "SNOW",
-        "PLTR"
+        "HPE",
+        "MSFT"
       ],
       "source_regions": [
         "US",
@@ -34,8 +34,8 @@
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "중동 지역의 지정학적 긴장 고조와 이란 전쟁 여파로 유가 상승 압력이 지속되면서 정유 및 에너지 생산 기업들의 수익성에 우호적인 매크로 환경이 조성되었습니다.",
+      "score": 7.5,
+      "rationale": "중동발 지정학적 긴장 및 미·이란 전쟁 우려로 인한 국제 유가 상승이 정유 및 에너지 기업들의 단기 수익성 개선 기대로 연결되고 있습니다.",
       "related_tickers": [
         "XOM",
         "CVX",
@@ -47,39 +47,39 @@
       ]
     },
     {
-      "name": "Real Estate",
+      "name": "Healthcare",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "미국의 모기지 금리가 급등하며 매수 심리를 위축시키고 있는 가운데, 중국 부동산 시장 역시 여전히 침체 국면에서 벗어나지 못해 글로벌 부동산 섹터 전반에 부정적인 영향을 미치고 있습니다.",
+      "score": -5.0,
+      "rationale": "트럼프 행정부가 중형 제약사들과 새로운 약가 인하 계약을 체결함에 따라 제약 및 바이오 섹터 내 마진 압박 및 규제 리스크가 부각되며 변동성이 커지고 있습니다.",
       "related_tickers": [
-        "VNQ",
-        "BEKE"
+        "PFE",
+        "MRK",
+        "LLY"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "미국 포드의 슈퍼 딜리버리 트럭 생산 호조와 중국 BYD 등 선두 EV 제조사들의 공격적인 해외 자산 다변화 및 글로벌 확장 노력이 긍정적인 모멘텀을 형성하고 있습니다.",
+      "related_tickers": [
+        "F",
+        "BYDDY",
+        "TSLA"
       ],
       "source_regions": [
         "US",
         "ASIA"
       ]
-    },
-    {
-      "name": "Financials",
-      "direction": "neutral",
-      "score": 1.0,
-      "rationale": "지정학적 리스크와 AI 투자 급증 여파로 미국 모기지 금리 및 유럽(영국)의 차입 비용이 수십 년 만에 최고 수준으로 상승했습니다. 이는 순이자마진(NIM) 상승에 긍정적일 수 있으나 대출 수요 둔화 및 자산 건전성 우려를 자극하는 복합적 요인입니다.",
-      "related_tickers": [
-        "JPM",
-        "HSBC",
-        "BARC"
-      ],
-      "source_regions": [
-        "US",
-        "EU"
-      ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Consumer Discretionary",
-      "note": "중국 시장을 중심으로 신에너지차(EV) 선두 기업들의 실적 호조가 긍정적인 모멘텀을 형성하고 있는 반면, 유럽(프랑스)에서는 Shein, Temu 등 울트라 패스트 패션 브랜드를 겨냥한 최대 20유로의 환경 규제 법안이 추진되는 등 하위 산업별·지역별 신호가 대조를 이룹니다."
+      "sector": "Financials",
+      "note": "미국 모기지 금리 급등과 영국의 장기 국채 금리 상승은 은행 순이자마진(NIM)에 긍정적일 수 있으나, 다른 한편으로는 엔 캐리 청산 우려, 채권 시장 변동성 확대, 영국 경기 침체 가능성 등 매크로 리스크가 공존하여 방향성이 엇갈립니다."
     }
   ]
 }

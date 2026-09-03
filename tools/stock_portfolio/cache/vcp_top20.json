@@ -246,10 +246,10 @@
     },
     {
       "ticker": "AMD",
-      "total_score": 58,
+      "total_score": 53,
       "stage2_score": 33,
       "vcp_score": 15,
-      "proximity_score": 10,
+      "proximity_score": 5,
       "has_vcp": false,
       "pivot": 483.33,
       "current_price": 457.06,

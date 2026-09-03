@@ -37,7 +37,7 @@
     },
     {
       "ticker": "PANW",
-      "rs_rating": 90.5
+      "rs_rating": 91.5
     },
     {
       "ticker": "FTNT",
@@ -344,7 +344,7 @@
       "rs_rating": 16.0
     },
     {
-      "ticker": "META",
+      "ticker": "TMUS",
       "rs_rating": 15.1
     },
     {
@@ -380,12 +380,8 @@
       "rs_rating": 6.6
     },
     {
-      "ticker": "INTU",
-      "rs_rating": 5.7
-    },
-    {
       "ticker": "ISRG",
-      "rs_rating": 4.7
+      "rs_rating": 5.7
     },
     {
       "ticker": "MSTR",

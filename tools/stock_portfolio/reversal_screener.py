@@ -18,7 +18,7 @@ import yfinance as yf
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, market_today
+from data_utils import CACHE_DIR, market_today, YF_SESSION
 from minervini_vcp import detect_vcp
 
 REPO_ROOT = Path(__file__).parent.parent.parent
@@ -146,7 +146,7 @@ def _sector_bonus(ticker: str, sector_map: dict) -> dict:
     """개별 종목의 yfinance 섹터를 조회해 섹터 로테이션 랭크 기반 가점 산출.
     (숏리스트 통과 종목에 한해서만 호출 — 전체 유니버스 호출 시 너무 느림)"""
     try:
-        info = yf.Ticker(ticker).get_info()
+        info = yf.Ticker(ticker, session=YF_SESSION).get_info()
         yf_sector = info.get("sector")
     except Exception:
         yf_sector = None
@@ -193,7 +193,7 @@ def _fundamentals_bonus(ticker: str) -> dict:
     - 그 외: 0
     """
     try:
-        tk  = yf.Ticker(ticker)
+        tk  = yf.Ticker(ticker, session=YF_SESSION)
         fin = tk.financials  # 연간 손익계산서, 컬럼 최신순
         if fin is None or fin.empty:
             return {"fund_bonus": 0, "fund_accel": False}
@@ -254,7 +254,7 @@ def screen_reversal(top_n: int = 20) -> list[dict]:
         batch = tickers[i:i + 50]
         try:
             raw = yf.download(batch, period="2y", auto_adjust=True,
-                               progress=False, threads=False)
+                               progress=False, threads=False, session=YF_SESSION)
             if raw.empty:
                 continue
         except Exception:

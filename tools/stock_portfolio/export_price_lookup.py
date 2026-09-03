@@ -10,7 +10,7 @@ from pathlib import Path
 import yfinance as yf
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import market_today
+from data_utils import market_today, YF_SESSION
 
 POPULAR_TICKERS = sorted(set([
     # Mega cap
@@ -90,7 +90,7 @@ def run():
     try:
         data = yf.download(
             POPULAR_TICKERS, period="1d",
-            progress=False, auto_adjust=True, threads=True,
+            progress=False, auto_adjust=True, threads=True, session=YF_SESSION,
         )
     except Exception as e:
         print(f"[price_lookup] 배치 다운로드 실패: {e}", file=sys.stderr)
@@ -110,7 +110,7 @@ def run():
         print(f"[price_lookup] 개별 재시도: {missing}")
         for t in missing:
             try:
-                d = yf.download(t, period="1d", progress=False, auto_adjust=True)
+                d = yf.download(t, period="1d", progress=False, auto_adjust=True, session=YF_SESSION)
                 p = _extract_price(d, t)
                 if p:
                     prices[t] = p

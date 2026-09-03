@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-09-03",
   "rs90_count": 9,
   "stocks": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "ticker": "AMD",
-      "rs_rating": 91.5
+      "rs_rating": 92.4
     },
     {
       "ticker": "PANW",
@@ -43,11 +43,11 @@
       "rs_rating": 89.6
     },
     {
-      "ticker": "CRWD",
+      "ticker": "LRCX",
       "rs_rating": 88.6
     },
     {
-      "ticker": "LRCX",
+      "ticker": "CRWD",
       "rs_rating": 87.7
     },
     {
@@ -56,79 +56,79 @@
     },
     {
       "ticker": "ABNB",
-      "rs_rating": 84.9
+      "rs_rating": 85.8
     },
     {
       "ticker": "ASML",
-      "rs_rating": 83.9
-    },
-    {
-      "ticker": "DDOG",
-      "rs_rating": 83.0
-    },
-    {
-      "ticker": "WBD",
-      "rs_rating": 82.0
-    },
-    {
-      "ticker": "ARM",
-      "rs_rating": 81.1
+      "rs_rating": 84.9
     },
     {
       "ticker": "AMGN",
-      "rs_rating": 80.1
+      "rs_rating": 83.9
     },
     {
-      "ticker": "KLAC",
-      "rs_rating": 79.2
+      "ticker": "WBD",
+      "rs_rating": 83.0
     },
     {
-      "ticker": "CSX",
-      "rs_rating": 78.3
-    },
-    {
-      "ticker": "DASH",
-      "rs_rating": 77.3
-    },
-    {
-      "ticker": "CSCO",
-      "rs_rating": 76.4
-    },
-    {
-      "ticker": "DXCM",
-      "rs_rating": 75.4
-    },
-    {
-      "ticker": "VRTX",
-      "rs_rating": 74.5
+      "ticker": "ARM",
+      "rs_rating": 82.0
     },
     {
       "ticker": "REGN",
+      "rs_rating": 81.1
+    },
+    {
+      "ticker": "VRTX",
+      "rs_rating": 80.1
+    },
+    {
+      "ticker": "DDOG",
+      "rs_rating": 79.2
+    },
+    {
+      "ticker": "KLAC",
+      "rs_rating": 78.3
+    },
+    {
+      "ticker": "DXCM",
+      "rs_rating": 77.3
+    },
+    {
+      "ticker": "CSX",
+      "rs_rating": 76.4
+    },
+    {
+      "ticker": "CSCO",
+      "rs_rating": 75.4
+    },
+    {
+      "ticker": "DASH",
+      "rs_rating": 73.5
+    },
+    {
+      "ticker": "GILD",
       "rs_rating": 72.6
     },
     {
-      "ticker": "PAYX",
+      "ticker": "FANG",
       "rs_rating": 71.7
     },
     {
-      "ticker": "ROST",
+      "ticker": "PAYX",
       "rs_rating": 70.7
     },
     {
-      "ticker": "ADP",
+      "ticker": "SBUX",
       "rs_rating": 69.8
-    },
-    {
-      "ticker": "WDAY",
-      "rs_rating": 68.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 34.9,
+    "VKTX": 58.5,
     "MRVL": 94.3,
-    "CRDO": 85.8,
-    "NBIS": 92.4,
-    "RDDT": 8.5,
-    "VRT": 73.5
+    "CRDO": 38.7,
+    "NBIS": 91.5,
+    "RDDT": 7.5,
+    "VRT": 74.5
   }
 }

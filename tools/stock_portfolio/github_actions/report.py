@@ -4,9 +4,13 @@ PC 없이 클라우드에서 실행: 가격조회 → RS/CANSLIM 계산 → 카�
 """
 import subprocess, sys, os, json as _json, traceback
 from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 
 import yfinance as yf
 import requests
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from data_utils import YF_SESSION
 
 # ── 포트폴리오 설정 ──────────────────────────────────────────
 def _load_portfolio():
@@ -134,7 +138,7 @@ def fetch_closes():
     # threads=False: GitHub Actions에서 Yahoo Finance 병렬 요청 rate-limit 방지
     df = yf.download(
         tickers, period='1y', auto_adjust=True,
-        progress=False, threads=False
+        progress=False, threads=False, session=YF_SESSION,
     )
     closes = df['Close'].copy()   # pandas CoW 안전을 위해 명시적 copy
     print(f"  다운로드 완료: {closes.shape}")
@@ -145,12 +149,12 @@ def fetch_closes():
     for t in must_have:
         price = None
         try:
-            price = float(yf.Ticker(t).fast_info.last_price)
+            price = float(yf.Ticker(t, session=YF_SESSION).fast_info.last_price)
         except Exception:
             pass
         if not price:
             try:
-                s = yf.Ticker(t).history(period='1d', auto_adjust=True)['Close'].dropna()
+                s = yf.Ticker(t, session=YF_SESSION).history(period='1d', auto_adjust=True)['Close'].dropna()
                 if not s.empty:
                     price = float(s.iloc[-1])
             except Exception:

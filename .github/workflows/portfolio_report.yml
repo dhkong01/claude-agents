@@ -53,7 +53,7 @@ jobs:
 
       - name: 의존성 설치
         if: steps.guard.outputs.skip != 'true'
-        run: pip install yfinance requests
+        run: pip install yfinance requests curl_cffi
 
       - name: 리포트 생성 + 카카오톡 전송 + Git 커밋
         if: steps.guard.outputs.skip != 'true'

@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import market_today
+from data_utils import market_today, YF_SESSION
 
 BASE_DIR  = Path(__file__).parent
 CACHE_DIR = BASE_DIR / "cache"
@@ -122,7 +122,7 @@ def export_portfolio(today: str) -> bool:
         import yfinance as yf
         tickers = [h.get("ticker") or h.get("t") for h in holdings_raw]
         prices  = {}
-        data    = yf.download(tickers, period="1d", progress=False, auto_adjust=True)
+        data    = yf.download(tickers, period="1d", progress=False, auto_adjust=True, session=YF_SESSION)
         if "Close" in data:
             for t in tickers:
                 try:

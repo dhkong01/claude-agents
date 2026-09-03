@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, market_today
+from data_utils import CACHE_DIR, market_today, YF_SESSION
 
 ENTRY_PERIOD = 20   # 진입 기준: N일 고점
 EXIT_PERIOD  = 10   # 청산 기준: N일 저점
@@ -28,7 +28,7 @@ def verify_price_freshness(tickers: list[str] | None = None) -> dict:
     probe = tickers or ["SPY", "QQQ", "NVDA"]
     try:
         raw = yf.download(probe, period="5d", auto_adjust=True,
-                          progress=False, threads=True)
+                          progress=False, threads=True, session=YF_SESSION)
         if raw.empty:
             return {"status": "FAIL", "reason": "empty response"}
 
@@ -102,7 +102,7 @@ def get_sqqq_channel() -> dict:
     """SQQQ(3× 역 NASDAQ) Donchian 채널 상태 조회"""
     try:
         raw  = yf.download(["SQQQ"], period="3mo", auto_adjust=True,
-                            progress=False, threads=False)
+                            progress=False, threads=False, session=YF_SESSION)
         if raw.empty:
             return {}
         close = (raw["Close"]["SQQQ"] if isinstance(raw.columns, pd.MultiIndex)
@@ -148,7 +148,7 @@ def select_top5(
 
     try:
         raw = yf.download(candidates, period="3mo", auto_adjust=True,
-                          progress=False, threads=True)
+                          progress=False, threads=True, session=YF_SESSION)
     except Exception:
         return []
 
@@ -245,7 +245,7 @@ def track_portfolio(tickers: list[str]) -> list[dict]:
 
     try:
         raw = yf.download(tickers, period="3mo", auto_adjust=True,
-                          progress=False, threads=True)
+                          progress=False, threads=True, session=YF_SESSION)
     except Exception:
         return []
 

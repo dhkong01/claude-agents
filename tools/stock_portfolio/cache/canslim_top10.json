@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-09-03",
   "analyzed": 100,
   "top10": [
     {
       "ticker": "ABNB",
-      "canslim_score": 61,
+      "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
         "S": 7,
         "L": 7,
         "I": 10,
@@ -16,12 +16,12 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 113427963904,
-      "price": 189.43,
-      "rs_rating": 82.0
+      "market_cap": 109733453824,
+      "price": 183.26,
+      "rs_rating": 85.8
     },
     {
-      "ticker": "FTNT",
+      "ticker": "AMGN",
       "canslim_score": 58,
       "scores": {
         "C": 10,
@@ -32,29 +32,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 121796468736,
-      "price": 166.0,
-      "rs_rating": 89.6
-    },
-    {
-      "ticker": "AMGN",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 233780101120,
-      "price": 432.42,
-      "rs_rating": 79.2
+      "market_cap": 239413477376,
+      "price": 442.84,
+      "rs_rating": 83.9
     },
     {
       "ticker": "DXCM",
@@ -70,9 +52,27 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 34271905792,
-      "price": 90.82,
-      "rs_rating": 74.5
+      "market_cap": 33845487616,
+      "price": 89.69,
+      "rs_rating": 77.3
+    },
+    {
+      "ticker": "SBUX",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "market_cap": 121660801024,
+      "price": 106.72,
+      "rs_rating": 69.8
     },
     {
       "ticker": "NVDA",
@@ -88,9 +88,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 5253179637760,
-      "price": 217.55,
-      "rs_rating": 67.9
+      "market_cap": 5418828431360,
+      "price": 224.41,
+      "rs_rating": 64.1
     },
     {
       "ticker": "STX",
@@ -106,12 +106,12 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 188060549120,
-      "price": 829.76,
+      "market_cap": 183251140608,
+      "price": 808.54,
       "rs_rating": 96.2
     },
     {
-      "ticker": "WDC",
+      "ticker": "MRVL",
       "canslim_score": 52,
       "scores": {
         "C": 10,
@@ -123,28 +123,28 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 165650530304,
-      "price": 459.45,
-      "rs_rating": 95.2
+      "industry": "Semiconductors",
+      "market_cap": 185564528640,
+      "price": 206.48,
+      "rs_rating": 94.3
     },
     {
-      "ticker": "CRWD",
-      "canslim_score": 51,
+      "ticker": "FTNT",
+      "canslim_score": 52,
       "scores": {
-        "C": 5,
-        "A": 5,
-        "N": 10,
-        "S": 7,
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
         "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 223627362304,
-      "price": 218.4,
-      "rs_rating": 88.6
+      "market_cap": 113388101632,
+      "price": 154.54,
+      "rs_rating": 89.6
     },
     {
       "ticker": "FANG",
@@ -160,9 +160,9 @@
       },
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "market_cap": 55351508992,
-      "price": 197.67,
-      "rs_rating": 68.8
+      "market_cap": 56961622016,
+      "price": 203.42,
+      "rs_rating": 71.7
     },
     {
       "ticker": "ROST",
@@ -178,9 +178,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
-      "market_cap": 73314516992,
-      "price": 228.55,
-      "rs_rating": 66.0
+      "market_cap": 74052313088,
+      "price": 230.85,
+      "rs_rating": 68.8
     }
   ]
 }

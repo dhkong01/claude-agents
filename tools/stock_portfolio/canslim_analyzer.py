@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, market_today
+from data_utils import CACHE_DIR, market_today, YF_SESSION
 
 
 def _score_c(info: dict) -> int:
@@ -69,7 +69,7 @@ def score_canslim(ticker: str) -> dict:
     import yfinance as yf
 
     try:
-        stk = yf.Ticker(ticker)
+        stk = yf.Ticker(ticker, session=YF_SESSION)
         info = stk.info
         hist = stk.history(period="3mo")
         scores = {

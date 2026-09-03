@@ -11,6 +11,26 @@ CACHE_DIR.mkdir(exist_ok=True)
 US_EASTERN = ZoneInfo("America/New_York")
 
 
+def get_yf_session():
+    """curl_cffi 세션으로 브라우저(Chrome)를 위장해 Yahoo Finance에 요청.
+
+    GitHub Actions 등 클라우드 CI의 공유 IP는 Yahoo Finance가 빈번히
+    429(Too Many Requests)로 차단/레이트리밋한다. yfinance 기본 세션으로는
+    이 경우 요청이 조용히 실패(빈 DataFrame)하고, 각 모듈의 "기존 캐시 유지"
+    보호 로직이 발동해 며칠씩 데이터가 갱신되지 않는 현상으로 이어졌다.
+    curl_cffi로 실제 브라우저 TLS/HTTP 핑거프린트를 재현하면 이 차단을 우회한다.
+    curl_cffi 미설치 환경에서는 None을 반환해 yfinance 기본 동작으로 폴백한다.
+    """
+    try:
+        from curl_cffi import requests as cc_requests
+        return cc_requests.Session(impersonate="chrome")
+    except Exception:
+        return None
+
+
+YF_SESSION = get_yf_session()
+
+
 def market_today() -> str:
     """미국 동부시간(America/New_York) 기준 오늘 날짜 (YYYY-MM-DD).
 
@@ -96,6 +116,7 @@ def batch_download(tickers: list[str], period: str = "1y", chunk: int = 50) -> p
                 auto_adjust=True,
                 progress=False,
                 threads=False,  # threads=True → GitHub Actions rate-limit 방지
+                session=YF_SESSION,
             )
             # yfinance MultiIndex vs single-ticker 대응
             if hasattr(data.columns, "levels"):

@@ -70,7 +70,7 @@ jobs:
 
       - name: 의존성 설치
         if: steps.guard.outputs.skip != 'true'
-        run: pip install yfinance pandas numpy requests lxml beautifulsoup4
+        run: pip install yfinance pandas numpy requests lxml beautifulsoup4 curl_cffi
 
       - name: 실행 모드 결정
         id: mode

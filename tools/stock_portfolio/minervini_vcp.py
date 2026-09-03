@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, market_today
+from data_utils import CACHE_DIR, market_today, YF_SESSION
 
 
 # ── Stage 2 판정 ──────────────────────────────────────────────
@@ -479,7 +479,7 @@ def screen_vcp(min_rs: float = 80.0, top_n: int = 20) -> list[dict]:
         try:
             raw = yf.download(
                 batch, period="1y", auto_adjust=True,
-                progress=False, threads=True
+                progress=False, threads=True, session=YF_SESSION,
             )
             if raw.empty:
                 continue

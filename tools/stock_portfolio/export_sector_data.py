@@ -94,6 +94,10 @@ def get_canslim_by_sector() -> dict:
 
 
 def export_sector(today: date) -> bool:
+    import sys as _sys
+    from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).parent))
+    from data_utils import YF_SESSION
     import yfinance as yf
 
     q_start = quarter_start(today)
@@ -114,6 +118,7 @@ def export_sector(today: date) -> bool:
                 auto_adjust=True,
                 progress=False,
                 threads=False,
+                session=YF_SESSION,
             )
             if raw is not None and not raw.empty:
                 # yfinance 1.4+: 단일 티커도 MultiIndex (Close, TICKER)

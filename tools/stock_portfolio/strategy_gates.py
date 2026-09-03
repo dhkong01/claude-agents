@@ -118,6 +118,9 @@ def auto_update_t1(state: dict) -> None:
     Guidance 아닌 실제 지출 기준 -- 당년/전년 비교.
     """
     import yfinance as yf
+    import sys as _sys; from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).parent))
+    from data_utils import YF_SESSION
     today = datetime.now(KST).strftime('%Y-%m-%d')
 
     capex_keywords = ['capital expenditure', 'purchase of property', 'capex']
@@ -126,7 +129,7 @@ def auto_update_t1(state: dict) -> None:
     for t in M7_CAPEX:
         try:
             time.sleep(0.4)
-            cf = yf.Ticker(t).cashflow  # 연간 (4년치)
+            cf = yf.Ticker(t, session=YF_SESSION).cashflow  # 연간 (4년치)
             if cf is None or cf.empty or len(cf.columns) < 2:
                 continue
             row = _find_row(cf, capex_keywords)
@@ -214,9 +217,12 @@ def auto_update_t2(state: dict) -> None:
 
 def auto_update_t3(state: dict) -> None:
     import yfinance as yf
+    import sys as _sys; from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).parent))
+    from data_utils import YF_SESSION
     today = datetime.now(KST).strftime('%Y-%m-%d')
     try:
-        irx = yf.Ticker('^IRX').history(period='5d')['Close'].dropna()
+        irx = yf.Ticker('^IRX', session=YF_SESSION).history(period='5d')['Close'].dropna()
         if irx.empty:
             return
         rate = float(irx.iloc[-1])
@@ -244,13 +250,16 @@ def auto_update_t4(state: dict) -> None:
     GM < 40% 또는 YoY -10pp 이상 하락 시 경고.
     """
     import yfinance as yf
+    import sys as _sys; from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).parent))
+    from data_utils import YF_SESSION
     today = datetime.now(KST).strftime('%Y-%m-%d')
     try:
         time.sleep(0.4)
-        fin = yf.Ticker('MU').quarterly_income_stmt
+        fin = yf.Ticker('MU', session=YF_SESSION).quarterly_income_stmt
         if fin is None or fin.empty:
             # 구 API fallback
-            fin = yf.Ticker('MU').quarterly_financials
+            fin = yf.Ticker('MU', session=YF_SESSION).quarterly_financials
         if fin is None or fin.empty:
             return
 
@@ -309,10 +318,13 @@ def auto_update_t5(state: dict) -> None:
     DIO YoY +28일(4주) 이상 증가 시 경고.
     """
     import yfinance as yf
+    import sys as _sys; from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).parent))
+    from data_utils import YF_SESSION
     today = datetime.now(KST).strftime('%Y-%m-%d')
     try:
         time.sleep(0.4)
-        mu = yf.Ticker('MU')
+        mu = yf.Ticker('MU', session=YF_SESSION)
 
         # 재고: quarterly_balance_sheet
         try:
@@ -377,6 +389,9 @@ def auto_update_t5(state: dict) -> None:
 def auto_update_t6(state: dict) -> None:
     """M7 분기 D&A/영업이익 비율 YoY +20pp 이상 증가한 회사 탐지."""
     import yfinance as yf
+    import sys as _sys; from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).parent))
+    from data_utils import YF_SESSION
     today = datetime.now(KST).strftime('%Y-%m-%d')
 
     alerts, ratios = [], []
@@ -384,7 +399,7 @@ def auto_update_t6(state: dict) -> None:
     for t in M7_TICKERS:
         try:
             time.sleep(0.4)
-            ticker = yf.Ticker(t)
+            ticker = yf.Ticker(t, session=YF_SESSION)
 
             try:
                 fin = ticker.quarterly_income_stmt

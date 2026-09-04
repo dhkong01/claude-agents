@@ -1,29 +1,28 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "대만 TSMC의 가오슝 패키징 캠퍼스 확장과 한국 삼성·SK의 첨단 인프라 및 팹 증설 등 글로벌 AI 반도체 밸류체인 전반에 걸친 강력한 수요가 업황을 견인하고 있습니다.",
+      "rationale": "TSMC의 첨단 패키징 생태계 급성장과 한국의 반도체 수출 호조, 엔비디아의 자산 재배치 및 AI 유통망 인수 등 아시아-미국 반도체 공급망 전반에 강력한 모멘텀이 작용하고 있습니다.",
       "related_tickers": [
         "TSM",
         "NVDA",
-        "AMD"
+        "ASML"
       ],
       "source_regions": [
-        "ASIA",
-        "US"
+        "US",
+        "ASIA"
       ]
     },
     {
       "name": "Technology",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "미국 Snowflake와 HPE가 강력한 AI 기반 데이터 및 서버 인프라 수요에 힘입어 시장 예상을 상회하는 어닝 서프라이즈를 기록하며 기술주 전반의 온기를 주도하고 있습니다.",
+      "rationale": "원레일(OneRail)의 엔비디아 협업 AI 플랫폼 출시와 중국 정부의 하드테크 스타트업 지원을 위한 국가 기금 조성 등 글로벌 AI 및 하이테크 인프라 투자가 활성화되고 있습니다.",
       "related_tickers": [
-        "SNOW",
-        "HPE",
+        "NVDA",
         "MSFT"
       ],
       "source_regions": [
@@ -35,51 +34,45 @@
       "name": "Energy",
       "direction": "positive",
       "score": 7.5,
-      "rationale": "중동발 지정학적 긴장 및 미·이란 전쟁 우려로 인한 국제 유가 상승이 정유 및 에너지 기업들의 단기 수익성 개선 기대로 연결되고 있습니다.",
+      "rationale": "중동의 지정학적 불안으로 인한 유가 상승 압력과 유럽의 북해 잭도우 가스전 수주 승인 임박 및 가스 저장고 저하에 따른 천연가스 가격 상승세가 호재로 작용하고 있습니다.",
       "related_tickers": [
         "XOM",
-        "CVX",
-        "SHEL"
+        "SHEL",
+        "BP"
       ],
       "source_regions": [
         "US",
-        "EU"
-      ]
-    },
-    {
-      "name": "Healthcare",
-      "direction": "negative",
-      "score": -5.0,
-      "rationale": "트럼프 행정부가 중형 제약사들과 새로운 약가 인하 계약을 체결함에 따라 제약 및 바이오 섹터 내 마진 압박 및 규제 리스크가 부각되며 변동성이 커지고 있습니다.",
-      "related_tickers": [
-        "PFE",
-        "MRK",
-        "LLY"
-      ],
-      "source_regions": [
-        "US"
+        "EUROPE"
       ]
     },
     {
       "name": "Consumer Discretionary",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "미국 포드의 슈퍼 딜리버리 트럭 생산 호조와 중국 BYD 등 선두 EV 제조사들의 공격적인 해외 자산 다변화 및 글로벌 확장 노력이 긍정적인 모멘텀을 형성하고 있습니다.",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "미국의 딕스 스포팅 굿즈가 실적 부진으로 주가가 급락한 가운데, 유럽 폭스바겐 그룹이 대규모 비용 절감을 위해 10만 명 규모의 감원을 승인하는 등 소비재 및 자동차 제조업의 위축 우려가 커졌습니다.",
       "related_tickers": [
-        "F",
-        "BYDDY",
+        "DKS",
+        "VOW3",
         "TSLA"
       ],
       "source_regions": [
         "US",
-        "ASIA"
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중동발 유가 상승 영향으로 미국의 모기지 금리가 고공행진을 기록하면서 모기지 조달 비용 상승에 따른 주택 시장 수요 위축 및 부동산 자산 가치 하락 압력이 가중되고 있습니다.",
+      "related_tickers": [
+        "VNQ",
+        "KBH"
+      ],
+      "source_regions": [
+        "US"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Financials",
-      "note": "미국 모기지 금리 급등과 영국의 장기 국채 금리 상승은 은행 순이자마진(NIM)에 긍정적일 수 있으나, 다른 한편으로는 엔 캐리 청산 우려, 채권 시장 변동성 확대, 영국 경기 침체 가능성 등 매크로 리스크가 공존하여 방향성이 엇갈립니다."
-    }
-  ]
+  "conflicting_signals": []
 }

@@ -10,13 +10,13 @@
       "donchian_signal": "BREAKOUT",
       "current_price": 556.75,
       "donchian_upper": 552.85,
-      "donchian_lower": 528.19,
+      "donchian_lower": 540.26,
       "dist_to_upper_pct": -0.7,
-      "dist_to_lower_pct": 5.1,
+      "dist_to_lower_pct": 3.0,
       "pivot": 532.3,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "REGN",
@@ -27,30 +27,13 @@
       "donchian_signal": "BREAKOUT",
       "current_price": 852.03,
       "donchian_upper": 840.84,
-      "donchian_lower": 799.08,
+      "donchian_lower": 794.19,
       "dist_to_upper_pct": -1.3,
-      "dist_to_lower_pct": 6.2,
+      "dist_to_lower_pct": 6.8,
       "pivot": 845.04,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
-    },
-    {
-      "ticker": "AMGN",
-      "final_score": 51.2,
-      "canslim_score": 58,
-      "rs_rating": 83.9,
-      "vcp_score": 40,
-      "donchian_signal": "HOLD",
-      "current_price": 442.84,
-      "donchian_upper": 443.84,
-      "donchian_lower": 422.81,
-      "dist_to_upper_pct": 0.2,
-      "dist_to_lower_pct": 4.5,
-      "pivot": null,
-      "sector": "Healthcare",
-      "in_both": true,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "MU",
@@ -67,7 +50,7 @@
       "pivot": 1016.81,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "LITE",
@@ -84,20 +67,38 @@
       "pivot": 973.74,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
+    },
+    {
+      "ticker": "CRWD",
+      "final_score": 35.5,
+      "canslim_score": 0,
+      "rs_rating": 87.7,
+      "vcp_score": 60,
+      "donchian_signal": "HOLD",
+      "current_price": 203.42,
+      "donchian_upper": 231.0,
+      "donchian_lower": 185.38,
+      "dist_to_upper_pct": 13.6,
+      "dist_to_lower_pct": 8.9,
+      "pivot": 226.66,
+      "sector": "",
+      "in_both": false,
+      "allocation_pct": 3.0
     }
   ],
   "hedge": {
-    "long_pct": 20,
-    "sqqq_pct": 20,
+    "long_pct": 15,
+    "sqqq_pct": 25,
     "cash_pct": 60,
-    "per_stock_pct": 4.0,
+    "per_stock_pct": 3.0,
     "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
+      "Semiconductors",
       "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 25% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Semiconductors, Defense ELEVATED]"
   }
 }

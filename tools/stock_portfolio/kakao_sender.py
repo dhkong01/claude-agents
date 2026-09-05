@@ -9,6 +9,9 @@ import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from data_utils import YF_SESSION
+
 CONFIG_PATH = Path(__file__).parent / "kakao_config.json"
 MY_PORT     = Path(__file__).parent / "my_portfolio.json"
 CACHE_DIR   = Path(__file__).parent / "cache"
@@ -67,7 +70,7 @@ def _fetch_prices(tickers: list[str]) -> dict[str, dict]:
     result: dict[str, dict] = {}
     for t in tickers:
         try:
-            fi    = yf.Ticker(t).fast_info
+            fi    = yf.Ticker(t, session=YF_SESSION).fast_info
             price = float(getattr(fi, "last_price", 0) or 0)
             prev  = float(getattr(fi, "previous_close", price) or price)
             result[t] = {

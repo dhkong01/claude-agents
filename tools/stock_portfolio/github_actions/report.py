@@ -360,9 +360,21 @@ if __name__ == '__main__':
             print()
 
         print("[카카오톡 전송]")
+        sent_ok = 0
         for i, msg in enumerate(messages, 1):
             print(f"  메시지{i}...", end='')
-            send_kakao(kakao_token, msg)
+            if send_kakao(kakao_token, msg):
+                sent_ok += 1
+
+        if messages and sent_ok == 0:
+            # 전송 결과를 확인하지 않고 넘어가면 카카오 발송이 전부 실패해도
+            # 워크플로가 "success"로 표시되는 문제가 있었음 — 명시적으로 실패 처리.
+            raise RuntimeError(
+                f"카카오톡 메시지 {len(messages)}건 전체 전송 실패 "
+                f"(토큰 발급 실패 또는 API 오류)"
+            )
+        elif sent_ok < len(messages):
+            print(f"[Kakao] 일부 메시지 전송 실패: {sent_ok}/{len(messages)}건 성공", file=sys.stderr)
 
         git_push(full_text)
         print("[완료]")

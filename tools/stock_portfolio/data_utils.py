@@ -127,4 +127,11 @@ def batch_download(tickers: list[str], period: str = "1y", chunk: int = 50) -> p
                 frames.append(data[["Close"]])
         except Exception:
             continue
-    return pd.concat(frames, axis=1) if frames else pd.DataFrame()
+    if not frames:
+        return pd.DataFrame()
+    result = pd.concat(frames, axis=1)
+    # yfinance는 미국 장 마감 전(당일 데이터 미확정 시) 오늘 날짜를 전종목 NaN인
+    # "자리표시자" 행으로 추가하는 경우가 있다. 이 행이 남아있으면 iloc[-1]을
+    # "현재가"로 쓰는 모든 호출부(RS 계산 등)가 전부 NaN이 되어 스크리닝이
+    # 조용히 실패한다 — 완전히 빈 행을 제거해 항상 마지막 유효 거래일이 남게 한다.
+    return result.dropna(axis=0, how="all")

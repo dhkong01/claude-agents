@@ -141,7 +141,8 @@ jobs:
         run: |
           python - <<'EOF'
           import json, os, sys
-          from datetime import datetime, timedelta, timezone
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
 
           try:
               with open('docs/data/trend_latest.json', encoding='utf-8') as f:
@@ -151,7 +152,8 @@ jobs:
               sys.exit(0)
 
           file_date = data.get('date', '')
-          today_et  = datetime.now(timezone(timedelta(hours=-4))).strftime('%Y-%m-%d')  # US Eastern(DST) 근사
+          # data_utils.market_today()와 동일한 기준(America/New_York, DST 자동 반영)
+          today_et  = datetime.now(ZoneInfo('America/New_York')).strftime('%Y-%m-%d')
           try:
               stale_days = (datetime.strptime(today_et, '%Y-%m-%d')
                             - datetime.strptime(file_date, '%Y-%m-%d')).days

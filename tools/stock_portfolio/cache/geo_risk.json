@@ -14,10 +14,10 @@
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
-    "long_pct": 15,
-    "sqqq_pct": 25,
+    "long_pct": 20,
+    "sqqq_pct": 20,
     "cash_pct": 60,
-    "per_stock_pct": 3.0,
+    "per_stock_pct": 4.0,
     "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [

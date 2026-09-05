@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "rs90_count": 9,
   "stocks": [
     {
@@ -23,31 +23,31 @@
       "rs_rating": 95.2
     },
     {
-      "ticker": "MRVL",
-      "rs_rating": 94.3
-    },
-    {
       "ticker": "INTC",
-      "rs_rating": 93.3
+      "rs_rating": 94.3
     },
     {
       "ticker": "AMD",
       "rs_rating": 92.4
     },
     {
-      "ticker": "PANW",
+      "ticker": "MRVL",
       "rs_rating": 91.5
     },
     {
-      "ticker": "FTNT",
-      "rs_rating": 89.6
+      "ticker": "CRWD",
+      "rs_rating": 90.5
     },
     {
       "ticker": "LRCX",
+      "rs_rating": 89.6
+    },
+    {
+      "ticker": "FTNT",
       "rs_rating": 88.6
     },
     {
-      "ticker": "CRWD",
+      "ticker": "PANW",
       "rs_rating": 87.7
     },
     {
@@ -59,31 +59,27 @@
       "rs_rating": 85.8
     },
     {
-      "ticker": "ASML",
+      "ticker": "ARM",
       "rs_rating": 84.9
     },
     {
-      "ticker": "AMGN",
+      "ticker": "ASML",
       "rs_rating": 83.9
     },
     {
-      "ticker": "WBD",
+      "ticker": "AMGN",
       "rs_rating": 83.0
     },
     {
-      "ticker": "ARM",
+      "ticker": "WBD",
       "rs_rating": 82.0
     },
     {
-      "ticker": "REGN",
-      "rs_rating": 81.1
-    },
-    {
-      "ticker": "VRTX",
+      "ticker": "DDOG",
       "rs_rating": 80.1
     },
     {
-      "ticker": "DDOG",
+      "ticker": "REGN",
       "rs_rating": 79.2
     },
     {
@@ -91,11 +87,11 @@
       "rs_rating": 78.3
     },
     {
-      "ticker": "DXCM",
+      "ticker": "VRTX",
       "rs_rating": 77.3
     },
     {
-      "ticker": "CSX",
+      "ticker": "DXCM",
       "rs_rating": 76.4
     },
     {
@@ -103,11 +99,15 @@
       "rs_rating": 75.4
     },
     {
-      "ticker": "DASH",
+      "ticker": "CSX",
+      "rs_rating": 74.5
+    },
+    {
+      "ticker": "NVDA",
       "rs_rating": 73.5
     },
     {
-      "ticker": "GILD",
+      "ticker": "WDAY",
       "rs_rating": 72.6
     },
     {
@@ -115,20 +115,20 @@
       "rs_rating": 71.7
     },
     {
-      "ticker": "PAYX",
+      "ticker": "PLTR",
       "rs_rating": 70.7
     },
     {
-      "ticker": "SBUX",
+      "ticker": "GILD",
       "rs_rating": 69.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": NaN,
-    "MRVL": NaN,
-    "CRDO": NaN,
-    "NBIS": NaN,
-    "RDDT": NaN,
-    "VRT": NaN
+    "VKTX": 56.6,
+    "MRVL": 91.5,
+    "CRDO": 33.9,
+    "NBIS": 93.3,
+    "RDDT": 7.5,
+    "VRT": 81.1
   }
 }

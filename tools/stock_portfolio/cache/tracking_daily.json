@@ -52,16 +52,6 @@
       "channel_width_pct": 14.6
     },
     {
-      "ticker": "CRWD",
-      "current": 203.42,
-      "donchian_upper": 231.0,
-      "donchian_lower": 185.38,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 13.6,
-      "dist_to_lower_pct": 8.9,
-      "channel_width_pct": 24.6
-    },
-    {
       "ticker": "SNDK",
       "current": 1554.99,
       "donchian_upper": 1786.85,
@@ -102,14 +92,14 @@
       "channel_width_pct": 23.1
     },
     {
-      "ticker": "MRVL",
-      "current": 208.83,
-      "donchian_upper": 251.01,
-      "donchian_lower": 206.48,
+      "ticker": "INTC",
+      "current": 91.67,
+      "donchian_upper": 104.56,
+      "donchian_lower": 87.26,
       "signal": "HOLD",
-      "dist_to_upper_pct": 20.2,
-      "dist_to_lower_pct": 1.1,
-      "channel_width_pct": 21.6
+      "dist_to_upper_pct": 14.1,
+      "dist_to_lower_pct": 4.8,
+      "channel_width_pct": 19.8
     }
   ]
 }

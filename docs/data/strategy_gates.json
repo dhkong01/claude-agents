@@ -80,8 +80,8 @@
       "desc": "H100 GPU 렌탈 단가($/GPU-hour) 분기 -15% 이상 하락 (RunPod/Vast.ai)",
       "threshold": "-15% 분기",
       "status": false,
-      "value": "$2.69/hr (누적 50일)",
-      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 분기 비교 데이터 누적 중 (50/90일)",
+      "value": "$2.59/hr (누적 50일)",
+      "note": "H100 렌탈 단가 $2.59/GPU-hr -- 분기 비교 데이터 누적 중 (50/90일)",
       "auto": true,
       "updated": "2026-09-05"
     },
@@ -93,7 +93,7 @@
       "threshold": "이벤트 발생",
       "status": true,
       "value": "2건 감지",
-      "note": "뉴스 감지 -- [CXMT-HBM3E] China’s CXMT begins HBM3E production as chip battle with Korean powerh | [CXMT-HBM3E] China’s CXMT begins small-scale HBM3E production: report - koreaherald",
+      "note": "뉴스 감지 -- [CXMT-HBM3E] China’s CXMT begins HBM3E production as chip battle with Korean powerh | [CXMT-HBM3E] China’s CXMT begins small-scale HBM3E production: report - The Korea H",
       "auto": true,
       "updated": "2026-09-05"
     }

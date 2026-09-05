@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import CACHE_DIR, market_today
+from data_utils import CACHE_DIR, market_today, YF_SESSION
 
 MACRO_TICKERS = {
     "market":   "^GSPC",
@@ -25,7 +25,7 @@ def _fetch_indicator(ticker: str) -> dict | None:
     import yfinance as yf
 
     try:
-        hist = yf.Ticker(ticker).history(period="1y")
+        hist = yf.Ticker(ticker, session=YF_SESSION).history(period="1y")
         if hist.empty:
             return None
         close = hist["Close"]

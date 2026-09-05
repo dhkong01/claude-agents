@@ -7,10 +7,15 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+import sys
+
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import yfinance as yf
+
+sys.path.insert(0, str(Path(__file__).parent))
+from data_utils import YF_SESSION
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -228,11 +233,11 @@ def _get_rs(ticker: str, rs90: list) -> float:
         return rs_map[ticker]
     # 미등재 종목: 간이 추정
     try:
-        hist = yf.Ticker(ticker).history(period="1y")["Close"]
+        hist = yf.Ticker(ticker, session=YF_SESSION).history(period="1y")["Close"]
         if len(hist) < 50:
             return 0
         r12 = (hist.iloc[-1] / hist.iloc[0] - 1) * 100
-        spx = yf.Ticker("^GSPC").history(period="1y")["Close"]
+        spx = yf.Ticker("^GSPC", session=YF_SESSION).history(period="1y")["Close"]
         spx_r = (spx.iloc[-1] / spx.iloc[0] - 1) * 100
         diff = r12 - spx_r
         return round(min(99, max(1, 50 + diff * 0.5)), 1)

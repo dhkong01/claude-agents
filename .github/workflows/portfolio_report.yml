@@ -62,3 +62,48 @@ jobs:
           KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
           PORTFOLIO_JSON: ${{ secrets.PORTFOLIO_JSON }}
         run: python tools/stock_portfolio/github_actions/report.py
+
+      - name: 실패 시 카카오톡 알림
+        if: failure() && steps.guard.outputs.skip != 'true'
+        env:
+          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import os, requests, json
+
+          rest_key      = os.environ.get("KAKAO_REST_API_KEY", "")
+          refresh_token = os.environ.get("KAKAO_REFRESH_TOKEN", "")
+          if not rest_key or not refresh_token:
+              print("[Kakao] Secret 미설정 — 알림 생략")
+              raise SystemExit(0)
+
+          r = requests.post("https://kauth.kakao.com/oauth/token", data={
+              "grant_type": "refresh_token",
+              "client_id": rest_key,
+              "refresh_token": refresh_token,
+          }, timeout=10)
+          token = r.json().get("access_token", "")
+          if not token:
+              print("[Kakao] 토큰 갱신 실패:", r.text)
+              raise SystemExit(0)
+
+          msg = (
+              "[포트폴리오 리포트 실패]\n"
+              "portfolio_report 워크플로가 실패했습니다.\n"
+              "카카오톡 발송 또는 리포트 커밋이 안 됐을 수 있습니다.\n"
+              "GitHub Actions 로그를 확인해 주세요.\n"
+              "https://github.com/dhkong01/claude-agents/actions"
+          )
+          requests.post(
+              "https://kapi.kakao.com/v2/api/talk/memo/default/send",
+              headers={"Authorization": f"Bearer {token}"},
+              data={"template_object": json.dumps({
+                  "object_type": "text",
+                  "text": msg,
+                  "link": {"web_url": "https://github.com/dhkong01/claude-agents/actions"},
+              })},
+              timeout=10,
+          )
+          print("[Kakao] 실패 알림 전송 완료")
+          EOF

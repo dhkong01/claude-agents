@@ -108,14 +108,93 @@ jobs:
           python export_price_lookup.py
           python strategy_gates.py
 
-      - name: 결과 커밋
+      - name: 결과 커밋 및 푸시 (충돌 시 최대 3회 재시도 — 실패를 숨기지 않음)
         if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add tools/stock_portfolio/cache/ docs/data/ || true
-          git diff --staged --quiet || git commit -m "trend: ${{ steps.mode.outputs.mode }} $(TZ='America/New_York' date +%Y-%m-%d)"
-          git push || true
+
+          if git diff --staged --quiet; then
+            echo "[commit] 변경사항 없음 — 커밋 스킵"
+            exit 0
+          fi
+          git commit -m "trend: ${{ steps.mode.outputs.mode }} $(TZ='America/New_York' date +%Y-%m-%d)"
+
+          for i in 1 2 3; do
+            if git push; then
+              echo "[commit] push 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "[commit] push 실패 (시도 $i/3) — origin 최신화 후 재시도"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; git merge -X ours origin/main --no-edit; }
+          done
+          echo "::error::push 3회 모두 실패 — 데이터가 원격에 반영되지 않았습니다" >&2
+          exit 1
+
+      - name: 데이터 신선도 최종 검증 (2일 이상 지연 시 카카오 경고)
+        if: always() && steps.guard.outputs.skip != 'true'
+        env:
+          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import json, os, sys
+          from datetime import datetime, timedelta, timezone
+
+          try:
+              with open('docs/data/trend_latest.json', encoding='utf-8') as f:
+                  data = json.load(f)
+          except Exception as e:
+              print(f"[freshness] trend_latest.json 읽기 실패: {e}", file=sys.stderr)
+              sys.exit(0)
+
+          file_date = data.get('date', '')
+          today_et  = datetime.now(timezone(timedelta(hours=-4))).strftime('%Y-%m-%d')  # US Eastern(DST) 근사
+          try:
+              stale_days = (datetime.strptime(today_et, '%Y-%m-%d')
+                            - datetime.strptime(file_date, '%Y-%m-%d')).days
+          except Exception:
+              stale_days = 99
+
+          print(f"[freshness] 파일 날짜={file_date}  기준일={today_et}  지연={stale_days}일")
+          if stale_days < 2:
+              sys.exit(0)   # 주말 등 1일 지연은 정상 범위
+
+          rest_key      = os.environ.get("KAKAO_REST_API_KEY", "")
+          refresh_token = os.environ.get("KAKAO_REFRESH_TOKEN", "")
+          if not (rest_key and refresh_token):
+              print("[freshness] Kakao secret 미설정 — 알림 생략")
+              sys.exit(0)
+
+          import requests
+          r = requests.post("https://kauth.kakao.com/oauth/token", data={
+              "grant_type": "refresh_token", "client_id": rest_key, "refresh_token": refresh_token,
+          }, timeout=10)
+          token = r.json().get("access_token", "")
+          if not token:
+              print("[freshness] 토큰 갱신 실패:", r.text)
+              sys.exit(0)
+
+          msg = (
+              f"[앱 데이터 지연 경고]\n"
+              f"trend_latest.json이 {stale_days}일째 갱신되지 않았습니다 (파일 날짜: {file_date}).\n"
+              f"워크플로 단계는 성공했지만 실제 데이터가 반영되지 않았을 수 있습니다.\n"
+              f"GitHub Actions 로그를 확인해 주세요.\n"
+              f"https://github.com/dhkong01/claude-agents/actions"
+          )
+          requests.post(
+              "https://kapi.kakao.com/v2/api/talk/memo/default/send",
+              headers={"Authorization": f"Bearer {token}"},
+              data={"template_object": json.dumps({
+                  "object_type": "text", "text": msg,
+                  "link": {"web_url": "https://github.com/dhkong01/claude-agents/actions"},
+              })},
+              timeout=10,
+          )
+          print("[freshness] 지연 알림 전송 완료")
+          EOF
 
       - name: 실패 시 카카오톡 알림
         if: failure() && steps.guard.outputs.skip != 'true'

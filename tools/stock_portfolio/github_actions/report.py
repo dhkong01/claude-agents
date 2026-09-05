@@ -336,8 +336,12 @@ def git_push(full_text):
                 return
             print(f"[Git] push 실패(시도 {attempt+1}), rebase 후 재시도...")
             subprocess.run(['git','pull','--rebase','--autostash'])
-        print("[Git] push 3회 실패 — 카카오 전송은 완료, 커밋만 스킵")
+        # 카카오 발송은 이미 완료됐지만, latest_report.txt 커밋 반영 실패는
+        # 조용히 넘기지 않고 워크플로 실패로 표면화해 알림이 뜨도록 한다.
+        raise RuntimeError("git push 3회 모두 실패 — latest_report.txt가 원격에 반영되지 않음")
 
+    except RuntimeError:
+        raise
     except Exception as e:
         print(f"[Git] 예외 발생 (무시): {e}")
 

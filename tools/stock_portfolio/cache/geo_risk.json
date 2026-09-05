@@ -1,23 +1,18 @@
 {
-  "date": "2026-09-03",
-  "risk_score": 10.0,
+  "date": "2026-09-04",
+  "risk_score": 8.5,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
-  "medium_risk_signals": 4,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
-    "Defense": "ELEVATED",
-    "Consumer": "WATCH",
-    "Financials": "WATCH"
+    "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "How Do You Run For Office In A Gang War?",
-    "Status Of Iran\u2019S Nuclear Program Is Unclear, U.N. Watchdog Says",
-    "Trump Returns To A Familiar Playbook As The War With Iran Flares Up Again"
+    "Yemen\u2019S Houthis Push Toward Red Sea Strait As Ground Fighting Escalates"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense, Consumer \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
     "long_pct": 20,
     "sqqq_pct": 20,
@@ -27,9 +22,8 @@
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
-      "Defense",
-      "Consumer"
+      "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 8.5 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
   }
 }

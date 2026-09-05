@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "TSMC의 첨단 패키징 생태계 급성장과 한국의 반도체 수출 호조, 엔비디아의 자산 재배치 및 AI 유통망 인수 등 아시아-미국 반도체 공급망 전반에 강력한 모멘텀이 작용하고 있습니다.",
+      "rationale": "마이크론의 고수익 AI 메모리 칩 생산 능력 확대 발표와 TSMC를 필두로 한 아시아 지역의 강력한 AI 반도체 수요 및 글로벌 공급망 투자가 업황을 견인하고 있습니다.",
       "related_tickers": [
+        "MU",
         "TSM",
-        "NVDA",
-        "ASML"
+        "NVDA"
       ],
       "source_regions": [
         "US",
@@ -20,10 +20,10 @@
       "name": "Technology",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "원레일(OneRail)의 엔비디아 협업 AI 플랫폼 출시와 중국 정부의 하드테크 스타트업 지원을 위한 국가 기금 조성 등 글로벌 AI 및 하이테크 인프라 투자가 활성화되고 있습니다.",
+      "rationale": "미국의 AI 인프라 투자 지속과 일본의 대규모 데이터센터 지원, 중국의 기술 스타트업(리틀 자이언트) 자본 수혈 등 글로벌 기술 패권 경쟁에 따른 자금 유입이 긍정적입니다.",
       "related_tickers": [
-        "NVDA",
-        "MSFT"
+        "MSFT",
+        "GOOGL"
       ],
       "source_regions": [
         "US",
@@ -34,26 +34,11 @@
       "name": "Energy",
       "direction": "positive",
       "score": 7.5,
-      "rationale": "중동의 지정학적 불안으로 인한 유가 상승 압력과 유럽의 북해 잭도우 가스전 수주 승인 임박 및 가스 저장고 저하에 따른 천연가스 가격 상승세가 호재로 작용하고 있습니다.",
+      "rationale": "중동 지정학적 긴장에 따른 유가 급등과 유럽의 북해 가스전 승인 압박, 영국 휘발유 가격 최고치 경신 등으로 정제마진 및 에너지 기업의 단기 수익성 개선이 기대됩니다.",
       "related_tickers": [
         "XOM",
-        "SHEL",
+        "CVX",
         "BP"
-      ],
-      "source_regions": [
-        "US",
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.5,
-      "rationale": "미국의 딕스 스포팅 굿즈가 실적 부진으로 주가가 급락한 가운데, 유럽 폭스바겐 그룹이 대규모 비용 절감을 위해 10만 명 규모의 감원을 승인하는 등 소비재 및 자동차 제조업의 위축 우려가 커졌습니다.",
-      "related_tickers": [
-        "DKS",
-        "VOW3",
-        "TSLA"
       ],
       "source_regions": [
         "US",
@@ -64,15 +49,20 @@
       "name": "Real Estate",
       "direction": "negative",
       "score": -7.0,
-      "rationale": "중동발 유가 상승 영향으로 미국의 모기지 금리가 고공행진을 기록하면서 모기지 조달 비용 상승에 따른 주택 시장 수요 위축 및 부동산 자산 가치 하락 압력이 가중되고 있습니다.",
+      "rationale": "중동발 유가 급등과 인플레이션 우려 재부각으로 인해 미국의 모기지 금리가 급등하며 부동산 자산 가치 및 자금 조달에 부담을 주고 있습니다.",
       "related_tickers": [
         "VNQ",
-        "KBH"
+        "SPG"
       ],
       "source_regions": [
         "US"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Consumer Discretionary",
+      "note": "미국 포드는 고수익 차종 생산량을 20년 만에 최고치로 올리며 선전하고 있는 반면, 유럽 폭스바겐은 실물 경기 둔화 우려 속에 10만 명 감축이라는 고강도 구조조정을 단행하는 등 극명한 온도차를 보이고 있습니다."
+    }
+  ]
 }

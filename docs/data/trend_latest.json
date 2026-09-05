@@ -60,10 +60,10 @@
     ],
     "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 20,
-      "sqqq_pct": 20,
+      "long_pct": 15,
+      "sqqq_pct": 25,
       "cash_pct": 60,
-      "per_stock_pct": 4.0,
+      "per_stock_pct": 3.0,
       "action": "MAX_DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
@@ -1198,7 +1198,7 @@
       "pivot": 555.61,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "NVDA",
@@ -1322,6 +1322,16 @@
       "dist_to_upper_pct": 10.5,
       "dist_to_lower_pct": 3.6,
       "channel_width_pct": 14.6
+    },
+    {
+      "ticker": "CRWD",
+      "current": 203.42,
+      "donchian_upper": 231.0,
+      "donchian_lower": 185.38,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 13.6,
+      "dist_to_lower_pct": 8.9,
+      "channel_width_pct": 24.6
     },
     {
       "ticker": "SNDK",

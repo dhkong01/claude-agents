@@ -33,7 +33,7 @@
       "pivot": 555.61,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 3.0
     },
     {
       "ticker": "NVDA",
@@ -88,10 +88,10 @@
     }
   ],
   "hedge": {
-    "long_pct": 20,
-    "sqqq_pct": 20,
+    "long_pct": 15,
+    "sqqq_pct": 25,
     "cash_pct": 60,
-    "per_stock_pct": 4.0,
+    "per_stock_pct": 3.0,
     "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [

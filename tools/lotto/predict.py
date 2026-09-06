@@ -333,7 +333,12 @@ json.dump(out, open(DIR/"lotto_prediction.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
 
 # ── 예측 이력 저장 ────────────────────────────────────────────────
-pred_history_new = pred_history[-19:] + [{"draw": target_draw, "numbers": best_game["numbers"]}]
+# 주의: 대표게임 1건만 "직전 4개 제외"용으로 저장 — B~E 게임은 다음주 재선택 가능
+pred_history_new = pred_history[-19:] + [{
+    "draw": target_draw,
+    "numbers": best_game["numbers"],
+    "strategy": best_game.get("strategy"),
+}]
 json.dump(pred_history_new, open(HIST_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # ── 출력 ─────────────────────────────────────────────────────────

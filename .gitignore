@@ -80,11 +80,14 @@ tools/stock_portfolio/cache/trend_result_*.json
 tools/stock_portfolio/cache/latest_result.json
 
 # 로또 예측 데이터 (개인 사용)
-# lotto_history.json 은 git 추적 — GitHub Actions 증분 수집용 (매주 1건만 다운로드)
+# lotto_history.json, prediction_history.json 은 git 추적:
+#  - lotto_history.json: GitHub Actions 증분 수집용 (매주 1건만 다운로드)
+#  - prediction_history.json: 로컬 실행과 GitHub Actions 자동실행이 "직전 4개
+#    조합 제외" 이력을 공유하지 못하면 같은 회차에 서로 다른 번호가 중복
+#    발송될 수 있음 (2026-08-31 자동실행 vs 수동실행 불일치로 발견) — git 추적으로 통일
 tools/lotto/data/lotto_analysis.json
 tools/lotto/data/lotto_ml_features.json
 tools/lotto/data/lotto_prediction.json
-tools/lotto/data/prediction_history.json
 tools/lotto/reports/
 private/
 

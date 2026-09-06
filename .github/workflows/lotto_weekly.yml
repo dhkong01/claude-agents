@@ -110,6 +110,7 @@ jobs:
           echo "$(date -u '+%Y-%m-%d %H:%M UTC')" > tools/lotto/last_run.txt
           git add tools/lotto/last_run.txt
           git add tools/lotto/data/lotto_history.json 2>/dev/null || echo "history.json: 추가 불필요"
+          git add tools/lotto/data/prediction_history.json 2>/dev/null || echo "prediction_history.json: 추가 불필요"
           git diff --cached --quiet && echo "변경 없음 — 커밋 생략" || \
             git commit -m "chore(lotto): 실행 기록 $(date -u '+%Y-%m-%d')"
           git pull --rebase origin main || true

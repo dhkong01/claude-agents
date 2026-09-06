@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "rs90_count": 9,
   "stocks": [
     {
@@ -11,11 +11,11 @@
       "rs_rating": 98.1
     },
     {
-      "ticker": "LITE",
+      "ticker": "STX",
       "rs_rating": 97.1
     },
     {
-      "ticker": "STX",
+      "ticker": "LITE",
       "rs_rating": 96.2
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "ticker": "INTC",
-      "rs_rating": 94.3
+      "rs_rating": 93.3
     },
     {
       "ticker": "AMD",
@@ -35,19 +35,19 @@
       "rs_rating": 91.5
     },
     {
-      "ticker": "CRWD",
+      "ticker": "LRCX",
       "rs_rating": 90.5
     },
     {
-      "ticker": "LRCX",
+      "ticker": "CRWD",
       "rs_rating": 89.6
     },
     {
-      "ticker": "FTNT",
+      "ticker": "PANW",
       "rs_rating": 88.6
     },
     {
-      "ticker": "PANW",
+      "ticker": "FTNT",
       "rs_rating": 87.7
     },
     {
@@ -55,11 +55,11 @@
       "rs_rating": 86.7
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ARM",
       "rs_rating": 85.8
     },
     {
-      "ticker": "ARM",
+      "ticker": "ABNB",
       "rs_rating": 84.9
     },
     {
@@ -67,68 +67,68 @@
       "rs_rating": 83.9
     },
     {
-      "ticker": "AMGN",
-      "rs_rating": 83.0
-    },
-    {
-      "ticker": "WBD",
+      "ticker": "KLAC",
       "rs_rating": 82.0
     },
     {
-      "ticker": "DDOG",
+      "ticker": "AMGN",
+      "rs_rating": 81.1
+    },
+    {
+      "ticker": "WBD",
       "rs_rating": 80.1
     },
     {
-      "ticker": "REGN",
+      "ticker": "DDOG",
       "rs_rating": 79.2
     },
     {
-      "ticker": "KLAC",
+      "ticker": "REGN",
       "rs_rating": 78.3
     },
     {
-      "ticker": "VRTX",
+      "ticker": "CSCO",
       "rs_rating": 77.3
     },
     {
-      "ticker": "DXCM",
+      "ticker": "CSX",
       "rs_rating": 76.4
     },
     {
-      "ticker": "CSCO",
+      "ticker": "VRTX",
       "rs_rating": 75.4
     },
     {
-      "ticker": "CSX",
+      "ticker": "NVDA",
       "rs_rating": 74.5
     },
     {
-      "ticker": "NVDA",
+      "ticker": "DXCM",
       "rs_rating": 73.5
     },
     {
-      "ticker": "WDAY",
+      "ticker": "GILD",
       "rs_rating": 72.6
     },
     {
-      "ticker": "FANG",
+      "ticker": "TXN",
       "rs_rating": 71.7
     },
     {
-      "ticker": "PLTR",
+      "ticker": "ROST",
       "rs_rating": 70.7
     },
     {
-      "ticker": "GILD",
+      "ticker": "FANG",
       "rs_rating": 69.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 56.6,
+    "VKTX": 57.5,
     "MRVL": 91.5,
-    "CRDO": 33.9,
-    "NBIS": 93.3,
-    "RDDT": 7.5,
-    "VRT": 81.1
+    "CRDO": 37.7,
+    "NBIS": 94.3,
+    "RDDT": 9.4,
+    "VRT": 83.0
   }
 }

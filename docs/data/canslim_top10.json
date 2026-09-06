@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-04",
-  "analyzed": 99,
+  "date": "2026-09-05",
+  "analyzed": 100,
   "top10": [
     {
       "ticker": "ABNB",
@@ -18,7 +18,7 @@
       "industry": "Travel Services",
       "market_cap": 108943065088,
       "price": 181.94,
-      "rs_rating": 85.8
+      "rs_rating": 84.9
     },
     {
       "ticker": "AMGN",
@@ -36,7 +36,7 @@
       "industry": "Drug Manufacturers - General",
       "market_cap": 236380536832,
       "price": 437.23,
-      "rs_rating": 83.9
+      "rs_rating": 81.1
     },
     {
       "ticker": "NVDA",
@@ -54,7 +54,7 @@
       "industry": "Semiconductors",
       "market_cap": 5562502742016,
       "price": 230.36,
-      "rs_rating": 64.1
+      "rs_rating": 74.5
     },
     {
       "ticker": "MU",
@@ -93,6 +93,24 @@
       "rs_rating": 92.4
     },
     {
+      "ticker": "MRVL",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 200905424896,
+      "price": 223.55,
+      "rs_rating": 91.5
+    },
+    {
       "ticker": "FTNT",
       "canslim_score": 52,
       "scores": {
@@ -108,6 +126,24 @@
       "industry": "Software - Infrastructure",
       "market_cap": 114672107520,
       "price": 156.29,
+      "rs_rating": 87.7
+    },
+    {
+      "ticker": "CRWD",
+      "canslim_score": 51,
+      "scores": {
+        "C": 5,
+        "A": 5,
+        "N": 7,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 218200522752,
+      "price": 213.1,
       "rs_rating": 89.6
     },
     {
@@ -124,9 +160,9 @@
       },
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "market_cap": 55785541632,
+      "market_cap": 56043237376,
       "price": 199.22,
-      "rs_rating": 71.7
+      "rs_rating": 69.8
     },
     {
       "ticker": "SBUX",
@@ -144,43 +180,7 @@
       "industry": "Restaurants",
       "market_cap": 119095803904,
       "price": 104.47,
-      "rs_rating": 69.8
-    },
-    {
-      "ticker": "STX",
-      "canslim_score": 49,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 192484655104,
-      "price": 849.28,
-      "rs_rating": 96.2
-    },
-    {
-      "ticker": "WDC",
-      "canslim_score": 49,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 168538456064,
-      "price": 467.46,
-      "rs_rating": 95.2
+      "rs_rating": 66.9
     }
   ]
 }

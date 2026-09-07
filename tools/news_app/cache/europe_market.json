@@ -1,11 +1,35 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "region": "EUROPE",
   "headlines": [
+    {
+      "title": "Chancellor to unveil growth plan with £150m fund for northern firms",
+      "summary": "John Healey will detail plans to spread growth more widely across the UK, ahead of his first Budget.",
+      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
+      "summary": "The company is struggling with the impact of tariffs as well as the fallout from a major cyber attack last year.",
+      "link": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "The £70 refund letter that isn't a scam",
+      "summary": "About one million people - mostly women - are owed pension tax relief and will be contacted by HMRC.",
+      "link": "https://www.bbc.co.uk/news/articles/c23x0kd8eleo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
     {
       "title": "Stock up on food to prepare for extreme weather, minister says",
       "summary": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
       "link": "https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
+      "summary": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
+      "link": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -21,21 +45,15 @@
       "source": "BBC Business"
     },
     {
-      "title": "Prosecco, cakes and beauty products - how to get birthday freebies and why there's a catch",
-      "summary": "Cake, coffee, make-up and burgers are just some of the free things you can get on your birthday.",
-      "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
       "title": "UK petrol prices hit highest level since Iran war began",
       "summary": "The price of unleaded hits 163p a litre, according to motoring group the RAC, as oil prices remain elevated.",
       "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "From 'dog fruit' to darling: India's avocado boom",
-      "summary": "Demand for avocados is booming in India and local growers hope to grab more of the market.",
-      "link": "https://www.bbc.co.uk/news/articles/clyjzpgv29do?at_medium=RSS&at_campaign=rss",
+      "title": "Jaguar Land Rover confirms planned job cuts",
+      "summary": "The firm says it needs to save about £1.7bn over the next two years.",
+      "link": "https://www.bbc.co.uk/news/articles/c4gkr3p0ql7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -103,35 +121,17 @@
       "summary": "Office whip-rounds are a staple of working life but they can raise a lot of awkward questions.",
       "link": "https://www.bbc.co.uk/news/articles/c2el0v48v0xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "How Victoria Beckham turned her fashion firm around and made it profitable",
-      "summary": "The pop star formerly known as Posh Spice has taken nearly two decades to turn a profit.",
-      "link": "https://www.bbc.co.uk/articles/cj647xd596xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Trump $1 coin makes him first living president on US currency in a century",
-      "summary": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\"",
-      "link": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Hundreds of North Sea workers too heavy for new helicopter rules",
-      "summary": "Workers should weigh no more than 19.5st fully clothed so that they can be winched to safety in an emergency.",
-      "link": "https://www.bbc.co.uk/news/articles/c4gk2zlv0e6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "폭등하는 에너지 가격과 폭스바겐의 대규모 구조조정",
-  "summary": "중동 분쟁 여파로 유가와 가스 가격이 급등하면서 가계 에너지 요금과 연료비 부담이 가중되는 가운데, 자동차 섹터에서는 폭스바겐이 2030년까지 총 10만 명 감원 계획 중 추가 5만 명 감원을 승인하며 제조업 전반의 비용 압박이 심화되고 있습니다.",
+  "trend_headline": "유럽 완성차 구조조정과 에너지발 물가 압박 심화",
+  "summary": "자동차 섹터가 관세 충격과 비용 압박으로 대규모 감원에 돌입한 가운데, 중동 분쟁 여파로 유가와 가스 가격이 급등하며 유럽 가계와 기업의 에너지 비용 부담이 가중되고 있습니다.",
   "key_points": [
-    "폭스바겐(VW) 이사회, 2030년까지 추가 5만 명 포함 총 10만 명 감원 계획 승인",
-    "이란 전쟁 여파로 영국 휘발유 가격이 리터당 163펜스로 최고치 경신",
-    "가스 저장고 부족 및 지정학적 리스크로 유럽 가스 가격 급등, 가계 에너지 요금 압박 심화"
+    "폭스바겐이 2030년까지 총 10만 명 감원 계획 중 추가로 5만 명 감원 안을 승인",
+    "재규어랜드로버(JLR)가 관세 타격과 사이버 테러 여파로 향후 2년간 17억 파운드 비용 절감 및 대규모 감원 확인",
+    "이란발 지정학 리스크 여파로 영국 휘발유 가격이 연중 최고치를 기록하고 북해 가스전 승인 및 저장고 부족으로 에너지 비용 인플레이션 압박 확대"
   ],
   "sector_hints": [
-    "Energy",
-    "Consumer Discretionary"
+    "Automobiles",
+    "Energy"
   ]
 }

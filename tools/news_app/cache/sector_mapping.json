@@ -1,94 +1,81 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "TSMC를 필두로 한 아시아 AI 반도체 밸류체인의 확장세가 지속되는 가운데, 엔비디아가 소매업용 AI 플랫폼을 출시하는 등 글로벌 AI 수요 지지가 반도체 섹터에 강한 긍정적 모멘텀을 제공하고 있습니다.",
+      "rationale": "TSMC의 시가총액 3조 달러 돌파 전망 및 실리콘 포토닉스 등 차세대 기술 도입 기대감과 화웨이의 신형 칩 아키텍처 공개 등 아시아 AI 및 반도체 인프라 투자 모멘텀이 강화되고 있습니다.",
       "related_tickers": [
         "TSM",
         "NVDA",
         "ASML"
       ],
       "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "중동 무력 충돌 여파로 유가와 유럽 천연가스 가격이 동시에 급등하면서, 글로벌 에너지 생산 및 공급 기업들의 단기 수익성 개선 기대감이 높아지고 있습니다.",
-      "related_tickers": [
-        "XOM",
-        "CVX",
-        "SHEL",
-        "BP"
-      ],
-      "source_regions": [
-        "US",
-        "EU"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -8.0,
-      "rationale": "미국의 중동 리스크발 모기지 금리 급등(2025년 6월 이후 최고치)으로 인한 주택 시장 부담과 중국의 부동산 시장 침체 및 디레버리징 압력이 겹치며 섹터 전반에 부정적 영향이 지속되고 있습니다.",
-      "related_tickers": [
-        "VNQ",
-        "Z",
-        "BEKE"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Healthcare",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "트럼프 행정부가 중견 제약사들과의 추가적인 해외 연계 약가 인하 계약을 체결함에 따라, 제약 업계 전반의 마진 압박 우려가 커지고 있습니다.",
-      "related_tickers": [
-        "PFE",
-        "LLY",
-        "MRK"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "유럽 최대 자동차 제조사인 폭스바겐의 대규모 추가 감원(총 10만 명 규모) 승인으로 제조업 비용 압박이 부각되었으며, 아시아 시장의 체감 물가 상승에 따른 소비 양극화 역시 부정적 요소입니다.",
-      "related_tickers": [
-        "VOW3",
-        "TSLA",
-        "MBG"
-      ],
-      "source_regions": [
-        "EU",
         "ASIA"
       ]
     },
     {
       "name": "Financials",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "일본은행(BOJ) 내 매파 세력의 금리 인상 촉구와 통화정책 정상화 압력은 은행권의 이자 마진(NIM) 개선 기대로 이어져 금융 섹터에 우호적인 환경을 조성하고 있습니다.",
+      "score": 6.5,
+      "rationale": "중국 정부가 대형 국유 금융기관 및 보험사에 540억 달러 규모의 대규모 자본 확충 패키지를 단행하면서 아시아 금융 시장 활성화 및 자본 건전성 제고 기대감이 커지고 있습니다.",
       "related_tickers": [
-        "MUFG",
-        "SMFG"
+        "JPM",
+        "BAC",
+        "601398.SS"
       ],
       "source_regions": [
         "ASIA"
       ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "길리어드가 치료 편의성을 높인 1일 1회 복용 HIV 알약에 대해 미국 FDA 승인을 획득하면서 제약·바이오 섹터 내 개별 기업 모멘텀이 긍정적으로 작용하고 있습니다.",
+      "related_tickers": [
+        "GILD",
+        "LLY"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중동발 지정학적 리스크와 유가 상승의 여파로 미국의 모기지 금리가 급등세를 보이며 부동산 시장의 자본 조달 비용 및 가계 경제 부담을 가중시키고 있습니다.",
+      "related_tickers": [
+        "VNQ",
+        "SPG",
+        "AMT"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 7.5,
+      "rationale": "이란과의 중동 충돌 우려로 인해 국제 유가 및 북해 가스 가격이 급등하면서 글로벌 에너지 생산 및 정유 기업들의 단기 수익성 개선 우호 환경이 지속되고 있습니다.",
+      "related_tickers": [
+        "XOM",
+        "CVX",
+        "SHEL"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE"
+      ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Consumer Discretionary",
+      "note": "미국 자동차 제조사들은 중국산 커넥티드 차량 수입 차단 등 정책적 방어벽 형성을 요구하며 기회를 모색하는 반면, 유럽 자동차 섹터는 관세 타격과 인플레이션 비용 압박으로 폭스바겐, JLR 등 주요 기업들의 대규모 인력 감축과 구조조정이 본격화되는 극심한 침체를 겪고 있어 신호가 엇갈립니다."
+    }
+  ]
 }

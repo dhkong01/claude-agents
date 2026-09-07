@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-05",
-  "mode": "weekly",
+  "date": "2026-09-06",
+  "mode": "daily",
   "rs_top10": [
     {
       "ticker": "SNDK",
@@ -45,22 +45,24 @@
   ],
   "rs90_count": 9,
   "geo_risk": {
-    "date": "2026-09-05",
+    "date": "2026-09-06",
     "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
     "high_risk_signals": 3,
-    "medium_risk_signals": 3,
+    "medium_risk_signals": 5,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Defense": "ELEVATED"
+      "Semiconductors": "WATCH",
+      "Defense": "ELEVATED",
+      "Consumer": "ELEVATED"
     },
     "top_risk_events": [
+      "In Ukraine, Fraud And Waste Are Rewarded With More Weapons Contracts",
       "Putin Meets Witkoff And Kushner In Moscow To Discuss Ukraine War",
-      "German Far-Right Surges, In Threat To Postwar Taboo On Extremists In Power",
       "After Months At War, Brief Solace In A Party Town Far From Home"
     ],
-    "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Energy, Defense, Consumer 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
       "long_pct": 20,
       "sqqq_pct": 20,
@@ -70,9 +72,10 @@
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
-        "Defense"
+        "Defense",
+        "Consumer"
       ],
-      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense, Consumer ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -564,7 +567,7 @@
       "total_score": 89,
       "sector": "Healthcare",
       "sector_rank": 2,
-      "sector_qtd": 8.6,
+      "sector_qtd": 7.47,
       "sector_bonus": 15,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -595,7 +598,7 @@
       "total_score": 88,
       "sector": "Healthcare",
       "sector_rank": 2,
-      "sector_qtd": 8.6,
+      "sector_qtd": 7.47,
       "sector_bonus": 15,
       "fund_bonus": 15,
       "fund_accel": true,
@@ -626,7 +629,7 @@
       "total_score": 85,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 15,
       "fund_accel": true,
@@ -657,7 +660,7 @@
       "total_score": 81,
       "sector": "Healthcare",
       "sector_rank": 2,
-      "sector_qtd": 8.6,
+      "sector_qtd": 7.47,
       "sector_bonus": 15,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -688,7 +691,7 @@
       "total_score": 76,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -719,7 +722,7 @@
       "total_score": 75,
       "sector": "Real Estate",
       "sector_rank": 8,
-      "sector_qtd": 0.16,
+      "sector_qtd": -0.57,
       "sector_bonus": 0,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -750,7 +753,7 @@
       "total_score": 73,
       "sector": "Technology",
       "sector_rank": 7,
-      "sector_qtd": 0.19,
+      "sector_qtd": 0.89,
       "sector_bonus": 0,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -781,7 +784,7 @@
       "total_score": 71,
       "sector": "Technology",
       "sector_rank": 7,
-      "sector_qtd": 0.19,
+      "sector_qtd": 0.89,
       "sector_bonus": 0,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -812,7 +815,7 @@
       "total_score": 70,
       "sector": "Real Estate",
       "sector_rank": 8,
-      "sector_qtd": 0.16,
+      "sector_qtd": -0.57,
       "sector_bonus": 0,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -843,7 +846,7 @@
       "total_score": 70,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 15,
       "fund_accel": true,
@@ -874,7 +877,7 @@
       "total_score": 69,
       "sector": "Real Estate",
       "sector_rank": 8,
-      "sector_qtd": 0.16,
+      "sector_qtd": -0.57,
       "sector_bonus": 0,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -904,8 +907,8 @@
       "vcp_score": 18,
       "total_score": 69,
       "sector": "Materials",
-      "sector_rank": 5,
-      "sector_qtd": 3.14,
+      "sector_rank": 4,
+      "sector_qtd": 2.78,
       "sector_bonus": 8,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -936,7 +939,7 @@
       "total_score": 68,
       "sector": "Healthcare",
       "sector_rank": 2,
-      "sector_qtd": 8.6,
+      "sector_qtd": 7.47,
       "sector_bonus": 15,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -967,7 +970,7 @@
       "total_score": 68,
       "sector": "Consumer Staples",
       "sector_rank": 6,
-      "sector_qtd": 2.35,
+      "sector_qtd": 1.54,
       "sector_bonus": 8,
       "fund_bonus": 0,
       "fund_accel": false,
@@ -998,7 +1001,7 @@
       "total_score": 68,
       "sector": "Healthcare",
       "sector_rank": 2,
-      "sector_qtd": 8.6,
+      "sector_qtd": 7.47,
       "sector_bonus": 15,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -1029,7 +1032,7 @@
       "total_score": 67,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -1060,7 +1063,7 @@
       "total_score": 67,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -1091,7 +1094,7 @@
       "total_score": 67,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -1122,7 +1125,7 @@
       "total_score": 66,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 0,
       "fund_accel": false
@@ -1149,7 +1152,7 @@
       "total_score": 64,
       "sector": "Financials",
       "sector_rank": 3,
-      "sector_qtd": 6.9,
+      "sector_qtd": 6.06,
       "sector_bonus": 15,
       "fund_bonus": 8,
       "fund_accel": false,
@@ -1255,5 +1258,117 @@
     "dist_to_lower_pct": 1.0,
     "channel_width_pct": 6.4,
     "ticker": "SQQQ"
-  }
+  },
+  "price_freshness": {
+    "status": "FRESH",
+    "latest_date": "2026-09-04",
+    "checked_at": "2026-09-07 00:21",
+    "sample": {
+      "SPY": 770.19,
+      "QQQ": 718.96,
+      "NVDA": 230.36
+    }
+  },
+  "tracking": [
+    {
+      "ticker": "MU",
+      "current": 1016.59,
+      "donchian_upper": 1011.75,
+      "donchian_lower": 910.43,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.5,
+      "dist_to_lower_pct": 10.4,
+      "channel_width_pct": 11.1
+    },
+    {
+      "ticker": "NVDA",
+      "current": 230.36,
+      "donchian_upper": 228.45,
+      "donchian_lower": 208.48,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.8,
+      "dist_to_lower_pct": 9.5,
+      "channel_width_pct": 9.6
+    },
+    {
+      "ticker": "AMD",
+      "current": 477.57,
+      "donchian_upper": 514.39,
+      "donchian_lower": 456.16,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 7.7,
+      "dist_to_lower_pct": 4.5,
+      "channel_width_pct": 12.8
+    },
+    {
+      "ticker": "MRVL",
+      "current": 223.55,
+      "donchian_upper": 251.01,
+      "donchian_lower": 206.48,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 12.3,
+      "dist_to_lower_pct": 7.6,
+      "channel_width_pct": 21.6
+    },
+    {
+      "ticker": "CRWD",
+      "current": 213.1,
+      "donchian_upper": 231.0,
+      "donchian_lower": 185.38,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 8.4,
+      "dist_to_lower_pct": 13.0,
+      "channel_width_pct": 24.6
+    },
+    {
+      "ticker": "SNDK",
+      "current": 1740.0,
+      "donchian_upper": 1786.85,
+      "donchian_lower": 1480.77,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 2.7,
+      "dist_to_lower_pct": 14.9,
+      "channel_width_pct": 20.7
+    },
+    {
+      "ticker": "STX",
+      "current": 849.28,
+      "donchian_upper": 994.79,
+      "donchian_lower": 794.65,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 17.1,
+      "dist_to_lower_pct": 6.4,
+      "channel_width_pct": 25.2
+    },
+    {
+      "ticker": "LITE",
+      "current": 881.26,
+      "donchian_upper": 968.9,
+      "donchian_lower": 830.17,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 9.9,
+      "dist_to_lower_pct": 5.8,
+      "channel_width_pct": 16.7
+    },
+    {
+      "ticker": "WDC",
+      "current": 467.46,
+      "donchian_upper": 536.01,
+      "donchian_lower": 435.38,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 14.7,
+      "dist_to_lower_pct": 6.9,
+      "channel_width_pct": 23.1
+    },
+    {
+      "ticker": "INTC",
+      "current": 95.8,
+      "donchian_upper": 104.56,
+      "donchian_lower": 87.26,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 9.1,
+      "dist_to_lower_pct": 8.9,
+      "channel_width_pct": 19.8
+    }
+  ]
 }

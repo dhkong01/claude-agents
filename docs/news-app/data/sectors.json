@@ -1,41 +1,58 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "TSMC의 시가총액 3조 달러 돌파 전망 및 실리콘 포토닉스 등 차세대 기술 도입 기대감과 화웨이의 신형 칩 아키텍처 공개 등 아시아 AI 및 반도체 인프라 투자 모멘텀이 강화되고 있습니다.",
+      "rationale": "대만 TSMC의 압도적인 파운드리 점유율(73%)과 AI 반도체 수요 호조, 그리고 한국의 AI 메모리 수요 급증이 아시아 시장의 성장을 견인하며 글로벌 반도체 섹터 전반에 강력한 상승 모멘텀을 제공하고 있습니다.",
       "related_tickers": [
         "TSM",
-        "NVDA",
-        "ASML"
+        "005930",
+        "000660",
+        "NVDA"
       ],
       "source_regions": [
+        "ASIA",
+        "US"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "미국 라스트마일 배송 기업 원레일(OneRail)이 엔비디아와 협력해 AI 기반 물류 플랫폼을 론칭하고, 아시아 테크 시장 전반의 AI 및 기술 확장세가 가속화되면서 소프트웨어 및 플랫폼 솔루션 분야의 성장이 기대됩니다.",
+      "related_tickers": [
+        "NVDA",
+        "MSFT",
+        "1810"
+      ],
+      "source_regions": [
+        "US",
         "ASIA"
       ]
     },
     {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "중국 정부가 대형 국유 금융기관 및 보험사에 540억 달러 규모의 대규모 자본 확충 패키지를 단행하면서 아시아 금융 시장 활성화 및 자본 건전성 제고 기대감이 커지고 있습니다.",
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중동발 지정학적 리스크와 이로 인한 유가 상승 여파로 인플레이션 우려가 자극되면서, 미국 30년 고정 모기지 금리가 6월 이후 최고치로 급등하여 주택 수요 위축 및 리츠 채무 조달 비용 상승 압박이 커졌습니다.",
       "related_tickers": [
-        "JPM",
-        "BAC",
-        "601398.SS"
+        "VNQ",
+        "IYR"
       ],
       "source_regions": [
-        "ASIA"
+        "US"
       ]
     },
     {
       "name": "Healthcare",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "길리어드가 치료 편의성을 높인 1일 1회 복용 HIV 알약에 대해 미국 FDA 승인을 획득하면서 제약·바이오 섹터 내 개별 기업 모멘텀이 긍정적으로 작용하고 있습니다.",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "미국 트럼프 행정부가 중견 제약사 9곳과 대대적인 새로운 약가 인하 계약을 체결함에 따라 제약 업계 전반의 마진 축소와 수익성 하락 우려가 커졌습니다.",
       "related_tickers": [
-        "GILD",
+        "PFE",
+        "MRK",
         "LLY"
       ],
       "source_regions": [
@@ -43,39 +60,49 @@
       ]
     },
     {
-      "name": "Real Estate",
+      "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "중동발 지정학적 리스크와 유가 상승의 여파로 미국의 모기지 금리가 급등세를 보이며 부동산 시장의 자본 조달 비용 및 가계 경제 부담을 가중시키고 있습니다.",
+      "score": -7.5,
+      "rationale": "유럽 최대 자동차 그룹인 폭스바겐의 추가 감원(5만 명) 승인 및 재규어랜드로버의 대규모 비용 절감/구조조정 계획은 중국산 저가 전기차 공세와 무역 관세 압박으로 인한 전통 완성차 제조업의 심각한 구조적 마진 침체를 대변합니다.",
       "related_tickers": [
-        "VNQ",
-        "SPG",
-        "AMT"
+        "VOW3",
+        "TSLA",
+        "MBG"
       ],
       "source_regions": [
-        "US"
+        "EUROPE"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 7.5,
-      "rationale": "이란과의 중동 충돌 우려로 인해 국제 유가 및 북해 가스 가격이 급등하면서 글로벌 에너지 생산 및 정유 기업들의 단기 수익성 개선 우호 환경이 지속되고 있습니다.",
+      "score": 6.5,
+      "rationale": "중동 및 이란발 지정학적 리스크 심화로 인해 글로벌 유가 및 각종 차량/제트 연료 가격이 상승함에 따라 원유 탐사 및 정유 기업들의 단기 매출 및 정제마진 개선세가 예상됩니다.",
       "related_tickers": [
         "XOM",
         "CVX",
-        "SHEL"
+        "SHEL",
+        "BP"
       ],
       "source_regions": [
         "US",
         "EUROPE"
       ]
+    },
+    {
+      "name": "Financials",
+      "direction": "positive",
+      "score": 5.5,
+      "rationale": "중국 정부가 540억 달러 규모의 국책 금융기관 자본 확충에 직접 나서며 대규모 유동성을 주입하고 자본 건전성을 강화하는 등 금융 시스템 리스크를 방어하려는 정책적 지지선이 마련되었습니다.",
+      "related_tickers": [
+        "601398",
+        "3988",
+        "CHB"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국 자동차 제조사들은 중국산 커넥티드 차량 수입 차단 등 정책적 방어벽 형성을 요구하며 기회를 모색하는 반면, 유럽 자동차 섹터는 관세 타격과 인플레이션 비용 압박으로 폭스바겐, JLR 등 주요 기업들의 대규모 인력 감축과 구조조정이 본격화되는 극심한 침체를 겪고 있어 신호가 엇갈립니다."
-    }
-  ]
+  "conflicting_signals": []
 }

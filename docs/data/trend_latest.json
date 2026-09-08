@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "mode": "daily",
   "rs_top10": [
     {
@@ -45,24 +45,22 @@
   ],
   "rs90_count": 9,
   "geo_risk": {
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
-    "high_risk_signals": 3,
+    "high_risk_signals": 1,
     "medium_risk_signals": 5,
     "sector_impacts": {
-      "Energy": "ELEVATED",
+      "Energy": "WATCH",
       "Semiconductors": "WATCH",
       "Defense": "ELEVATED",
       "Consumer": "ELEVATED"
     },
     "top_risk_events": [
-      "In Ukraine, Fraud And Waste Are Rewarded With More Weapons Contracts",
-      "Putin Meets Witkoff And Kushner In Moscow To Discuss Ukraine War",
-      "After Months At War, Brief Solace In A Party Town Far From Home"
+      "In Ukraine, Fraud And Waste Are Rewarded With More Weapons Contracts"
     ],
-    "recommendation": "고위험 국면 (Energy, Defense, Consumer 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Defense, Consumer 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
       "long_pct": 20,
       "sqqq_pct": 20,
@@ -71,11 +69,10 @@
       "action": "MAX_DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
-        "Energy",
         "Defense",
         "Consumer"
       ],
-      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense, Consumer ELEVATED]"
+      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Defense, Consumer ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -1262,7 +1259,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-09-04",
-    "checked_at": "2026-09-07 00:21",
+    "checked_at": "2026-09-08 00:40",
     "sample": {
       "SPY": 770.19,
       "QQQ": 718.96,

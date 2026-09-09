@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
@@ -96,69 +96,69 @@
     "Consumer Cyclical": [
       {
         "ticker": "ABNB",
-        "rs": 84.9,
+        "rs": 85.8,
         "canslim": 58,
-        "price": 181.94
+        "price": 174.54
       },
       {
         "ticker": "SBUX",
         "rs": 66.9,
         "canslim": 51,
-        "price": 104.47
-      }
-    ],
-    "Healthcare": [
-      {
-        "ticker": "AMGN",
-        "rs": 81.1,
-        "canslim": 58,
-        "price": 437.23
+        "price": 102.01
       }
     ],
     "Technology": [
       {
         "ticker": "NVDA",
-        "rs": 74.5,
+        "rs": 73.5,
         "canslim": 57,
-        "price": 230.36
+        "price": 225.73
       },
       {
-        "ticker": "MU",
-        "rs": 98.1,
+        "ticker": "FTNT",
+        "rs": 87.7,
+        "canslim": 55,
+        "price": 157.47
+      },
+      {
+        "ticker": "MRVL",
+        "rs": 93.3,
         "canslim": 52,
-        "price": 1016.59
+        "price": 225.41
       },
       {
         "ticker": "AMD",
         "rs": 92.4,
         "canslim": 52,
-        "price": 477.57
-      },
-      {
-        "ticker": "MRVL",
-        "rs": 91.5,
-        "canslim": 52,
-        "price": 223.55
-      },
-      {
-        "ticker": "FTNT",
-        "rs": 87.7,
-        "canslim": 52,
-        "price": 156.29
+        "price": 505.74
       },
       {
         "ticker": "CRWD",
-        "rs": 89.6,
+        "rs": 90.5,
         "canslim": 51,
-        "price": 213.1
+        "price": 210.02
+      },
+      {
+        "ticker": "MU",
+        "rs": 98.1,
+        "canslim": 49,
+        "price": 1000.26
+      }
+    ],
+    "Healthcare": [
+      {
+        "ticker": "AMGN",
+        "rs": 83.0,
+        "canslim": 52,
+        "price": 393.17
       }
     ],
     "Energy": [
       {
         "ticker": "FANG",
-        "rs": 69.8,
+        "rs": 68.8,
         "canslim": 51,
-        "price": 199.22
+        "price": 199.65
       }
     ]
   },

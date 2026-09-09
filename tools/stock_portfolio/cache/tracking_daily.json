@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "data": [
     {
       "ticker": "MU",
@@ -72,16 +72,6 @@
       "channel_width_pct": 25.2
     },
     {
-      "ticker": "LITE",
-      "current": 881.26,
-      "donchian_upper": 968.9,
-      "donchian_lower": 830.17,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 9.9,
-      "dist_to_lower_pct": 5.8,
-      "channel_width_pct": 16.7
-    },
-    {
       "ticker": "WDC",
       "current": 467.46,
       "donchian_upper": 536.01,
@@ -90,6 +80,16 @@
       "dist_to_upper_pct": 14.7,
       "dist_to_lower_pct": 6.9,
       "channel_width_pct": 23.1
+    },
+    {
+      "ticker": "LITE",
+      "current": 881.26,
+      "donchian_upper": 968.9,
+      "donchian_lower": 830.17,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 9.9,
+      "dist_to_lower_pct": 5.8,
+      "channel_width_pct": 16.7
     },
     {
       "ticker": "INTC",

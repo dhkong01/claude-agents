@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "universe": "NDX100",
   "rs90_count": 9,
   "stocks": [
@@ -16,15 +16,19 @@
       "rs_rating": 97.1
     },
     {
-      "ticker": "LITE",
+      "ticker": "WDC",
       "rs_rating": 96.2
     },
     {
-      "ticker": "WDC",
+      "ticker": "LITE",
       "rs_rating": 95.2
     },
     {
       "ticker": "INTC",
+      "rs_rating": 94.3
+    },
+    {
+      "ticker": "MRVL",
       "rs_rating": 93.3
     },
     {
@@ -32,15 +36,11 @@
       "rs_rating": 92.4
     },
     {
-      "ticker": "MRVL",
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "LRCX",
+      "ticker": "CRWD",
       "rs_rating": 90.5
     },
     {
-      "ticker": "CRWD",
+      "ticker": "LRCX",
       "rs_rating": 89.6
     },
     {
@@ -56,11 +56,11 @@
       "rs_rating": 86.7
     },
     {
-      "ticker": "ARM",
+      "ticker": "ABNB",
       "rs_rating": 85.8
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ARM",
       "rs_rating": 84.9
     },
     {
@@ -68,23 +68,23 @@
       "rs_rating": 83.9
     },
     {
+      "ticker": "AMGN",
+      "rs_rating": 83.0
+    },
+    {
       "ticker": "KLAC",
       "rs_rating": 82.0
     },
     {
-      "ticker": "AMGN",
+      "ticker": "WBD",
       "rs_rating": 81.1
     },
     {
-      "ticker": "WBD",
-      "rs_rating": 80.1
-    },
-    {
-      "ticker": "DDOG",
+      "ticker": "REGN",
       "rs_rating": 79.2
     },
     {
-      "ticker": "REGN",
+      "ticker": "DDOG",
       "rs_rating": 78.3
     },
     {
@@ -100,19 +100,19 @@
       "rs_rating": 75.4
     },
     {
-      "ticker": "NVDA",
+      "ticker": "DXCM",
       "rs_rating": 74.5
     },
     {
-      "ticker": "DXCM",
+      "ticker": "NVDA",
       "rs_rating": 73.5
     },
     {
-      "ticker": "GILD",
+      "ticker": "TXN",
       "rs_rating": 72.6
     },
     {
-      "ticker": "TXN",
+      "ticker": "GILD",
       "rs_rating": 71.7
     },
     {
@@ -120,11 +120,11 @@
       "rs_rating": 70.7
     },
     {
-      "ticker": "FANG",
+      "ticker": "AAPL",
       "rs_rating": 69.8
     },
     {
-      "ticker": "AAPL",
+      "ticker": "FANG",
       "rs_rating": 68.8
     },
     {
@@ -140,47 +140,47 @@
       "rs_rating": 66.0
     },
     {
-      "ticker": "DASH",
+      "ticker": "ADP",
       "rs_rating": 65.1
     },
     {
-      "ticker": "PLTR",
+      "ticker": "DASH",
       "rs_rating": 64.1
     },
     {
-      "ticker": "ADP",
+      "ticker": "ADI",
       "rs_rating": 63.2
     },
     {
-      "ticker": "ADI",
+      "ticker": "MNST",
       "rs_rating": 62.2
     },
     {
-      "ticker": "MNST",
+      "ticker": "MSFT",
       "rs_rating": 61.3
     },
     {
-      "ticker": "MSFT",
+      "ticker": "KDP",
       "rs_rating": 60.3
     },
     {
-      "ticker": "BKR",
+      "ticker": "PLTR",
       "rs_rating": 59.4
     },
     {
-      "ticker": "KDP",
-      "rs_rating": 58.5
+      "ticker": "CCEP",
+      "rs_rating": 57.5
     },
     {
-      "ticker": "CCEP",
+      "ticker": "BKR",
       "rs_rating": 56.6
     },
     {
-      "ticker": "PCAR",
+      "ticker": "SHOP",
       "rs_rating": 55.6
     },
     {
-      "ticker": "SHOP",
+      "ticker": "PCAR",
       "rs_rating": 54.7
     },
     {
@@ -196,19 +196,19 @@
       "rs_rating": 51.9
     },
     {
-      "ticker": "GOOGL",
+      "ticker": "MPWR",
       "rs_rating": 50.9
     },
     {
-      "ticker": "GOOG",
+      "ticker": "GOOGL",
       "rs_rating": 50.0
     },
     {
-      "ticker": "MPWR",
+      "ticker": "CTAS",
       "rs_rating": 49.0
     },
     {
-      "ticker": "CTAS",
+      "ticker": "GOOG",
       "rs_rating": 48.1
     },
     {
@@ -240,7 +240,7 @@
       "rs_rating": 41.5
     },
     {
-      "ticker": "CEG",
+      "ticker": "MCHP",
       "rs_rating": 40.5
     },
     {
@@ -248,11 +248,15 @@
       "rs_rating": 39.6
     },
     {
-      "ticker": "MCHP",
+      "ticker": "CMCSA",
       "rs_rating": 38.7
     },
     {
-      "ticker": "CMCSA",
+      "ticker": "CEG",
+      "rs_rating": 37.7
+    },
+    {
+      "ticker": "CTSH",
       "rs_rating": 36.8
     },
     {
@@ -260,27 +264,23 @@
       "rs_rating": 35.8
     },
     {
-      "ticker": "CTSH",
+      "ticker": "TRI",
       "rs_rating": 34.9
     },
     {
-      "ticker": "TRI",
-      "rs_rating": 33.9
-    },
-    {
-      "ticker": "XEL",
+      "ticker": "ZS",
       "rs_rating": 33.0
     },
     {
-      "ticker": "ZS",
+      "ticker": "XEL",
       "rs_rating": 32.1
     },
     {
-      "ticker": "EXC",
+      "ticker": "ODFL",
       "rs_rating": 31.1
     },
     {
-      "ticker": "ODFL",
+      "ticker": "EXC",
       "rs_rating": 30.2
     },
     {
@@ -288,19 +288,19 @@
       "rs_rating": 29.2
     },
     {
-      "ticker": "AVGO",
+      "ticker": "PEP",
       "rs_rating": 28.3
     },
     {
-      "ticker": "PEP",
+      "ticker": "META",
       "rs_rating": 27.3
     },
     {
-      "ticker": "META",
+      "ticker": "HON",
       "rs_rating": 26.4
     },
     {
-      "ticker": "HON",
+      "ticker": "GEHC",
       "rs_rating": 25.5
     },
     {
@@ -308,11 +308,11 @@
       "rs_rating": 24.5
     },
     {
-      "ticker": "GEHC",
+      "ticker": "TTWO",
       "rs_rating": 23.6
     },
     {
-      "ticker": "TTWO",
+      "ticker": "AVGO",
       "rs_rating": 22.6
     },
     {
@@ -356,35 +356,35 @@
       "rs_rating": 13.2
     },
     {
-      "ticker": "TSLA",
+      "ticker": "SNPS",
       "rs_rating": 12.3
     },
     {
-      "ticker": "IDXX",
+      "ticker": "TSLA",
       "rs_rating": 11.3
     },
     {
-      "ticker": "CHTR",
+      "ticker": "IDXX",
       "rs_rating": 10.4
     },
     {
-      "ticker": "PDD",
-      "rs_rating": 8.5
-    },
-    {
-      "ticker": "ADSK",
-      "rs_rating": 7.5
+      "ticker": "CHTR",
+      "rs_rating": 9.4
     },
     {
       "ticker": "CDNS",
+      "rs_rating": 7.5
+    },
+    {
+      "ticker": "ADSK",
       "rs_rating": 6.6
     },
     {
-      "ticker": "NFLX",
+      "ticker": "PDD",
       "rs_rating": 5.7
     },
     {
-      "ticker": "SNPS",
+      "ticker": "NFLX",
       "rs_rating": 4.7
     },
     {

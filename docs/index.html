@@ -538,6 +538,27 @@ async function loadAll() {
 // ════════════════════════════════════
 // 탭1: 추세추종 렌더
 // ════════════════════════════════════
+// 백엔드가 계산한 가격 신선도(STALE 여부)를 화면에 표시.
+// 이전에는 verify_price_freshness()가 STALE을 감지해도 JSON에만 기록되고
+// 화면에는 전혀 노출되지 않아, 실제로는 며칠 전 가격으로 계산된 화면을
+// 사용자가 알아챌 방법이 없었다.
+function renderPriceFreshness(pf) {
+  if (!pf || pf.status === 'FRESH' || !pf.status) return '';
+  const isStale = pf.status === 'STALE';
+  const color   = isStale ? '#f59e0b' : '#ef4444';
+  const label   = isStale ? '가격 데이터 지연' : '가격 데이터 조회 실패';
+  const detail  = pf.latest_date
+    ? `최신 확인된 거래일: ${pf.latest_date} (데이터 소스 지연 — 자동으로 다음 갱신 시 해결됩니다)`
+    : (pf.reason || '데이터 소스 응답 없음');
+  return `
+    <div class="card" style="margin-bottom:12px;border:1px solid ${color};background:${color}1a">
+      <div style="display:flex;align-items:center;gap:6px;font-weight:700;color:${color};font-size:13px">
+        ⚠️ ${label}
+      </div>
+      <div style="font-size:11px;color:var(--text2);margin-top:4px">${detail}</div>
+    </div>`;
+}
+
 function renderTrend() {
   const el = document.getElementById('trendContent');
   if (!trendData) {
@@ -552,6 +573,7 @@ function renderTrend() {
   const mode  = trendData.mode || 'weekly';
 
   el.innerHTML = `
+    ${renderPriceFreshness(trendData.price_freshness)}
     ${renderGeo(geo)}
     ${renderGates(gatesData)}
     ${renderHedge(hedge, sqqq)}

@@ -1,11 +1,107 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-08",
   "region": "EUROPE",
   "headlines": [
+    {
+      "title": "'I performed on stage to get my first job' - the firms turning recruitment into competitions",
+      "summary": "Applicants have to pitch their ideas on stage in front of a panel of judges and an audience. But is this exciting or unfair?",
+      "link": "https://www.bbc.co.uk/news/articles/cgk43mn42g7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "AI cancer cures slowed by chip shortage, says UK's biggest tech boss",
+      "summary": "The head of chip designer Arm says modelling how a DNA marker is impacted by cancer cannot be done now, but computers are \"going to solve it\".",
+      "link": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
+      "summary": "The threat against one of Canada's largest companies comes amid an escalating trade war between the two neighbours.",
+      "link": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Next wins key appeal to overturn £30m equal pay ruling",
+      "summary": "A judge ruled Next can pay warehouse workers more because it is harder to recruit and retain them.",
+      "link": "https://www.bbc.co.uk/news/articles/c05r61rqe4yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Faisal Islam: Chancellor's attempts to boost vibes may limit tax rises",
+      "summary": "The new leadership is trying to maintain both confidence and the promotion of economic animal spirits.",
+      "link": "https://www.bbc.co.uk/news/articles/c39mz7xlvjzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Why the 'Temu Range Rover' is such a threat to Jaguar Land Rover",
+      "summary": "Job cuts come as JLR faces falling sales and intense Chinese competition while trying to switch to electric vehicles.",
+      "link": "https://www.bbc.co.uk/news/articles/c5y4l22p262o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs",
+      "summary": "John Healey detailed plans to spread growth more widely across the UK, ahead of his first Budget.",
+      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Why are European countries moving their gold out of North America?",
+      "summary": "The Netherlands has relocated 86 tonnes of the shiny stuff - what's going on?",
+      "link": "https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "The £70 refund letter that isn't a scam",
+      "summary": "About one million people - mostly women - are owed pension tax relief and will be contacted by HMRC.",
+      "link": "https://www.bbc.co.uk/news/articles/c23x0kd8eleo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Jaguar Land Rover to cut 4,000 jobs over next two years",
+      "summary": "The cuts come as the carmaker struggles with Chinese competition, US tariffs, and the transition to electric vehicles.",
+      "link": "https://www.bbc.co.uk/news/articles/c36lx560jjko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "China to pump $54bn into state banks and insurers to boost economy",
+      "summary": "It comes as Beijing is aiming to reshape its economy in the face of a number of challenges.",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z37qj4wno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Investigators begin work on why cargo plane overran Miami runway",
+      "summary": "Five people died and five others were injured as the Amazon plane overshot the runway after landing at Miami International Airport.",
+      "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Flight price rises due to 'foolish leaders' starting wars, Virgin's Branson says",
+      "summary": "Middle East tensions have choked the production and transportation of oil, causing a surge in the price of car and jet fuels.",
+      "link": "https://www.bbc.co.uk/news/articles/cje8wx2qw9vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "More funding needed to boost construction jobs for young people, housing boss says",
+      "summary": "Recent analysis showed the construction sector needs an extra 2,200 workers a year to meet demand.",
+      "link": "https://www.bbc.co.uk/news/articles/cwyzd53rq9jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Australians will be able to switch off social media algorithms under planned legislation",
+      "summary": "Firms like Meta, Google and TikTok should face \"substantial\" penalties if they don't give the option, minister says.",
+      "link": "https://www.bbc.co.uk/news/articles/cn9wyvxn95vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
     {
       "title": "Stock up on food to prepare for extreme weather, minister says",
       "summary": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
       "link": "https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
+      "summary": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
+      "link": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -21,117 +117,21 @@
       "source": "BBC Business"
     },
     {
-      "title": "Prosecco, cakes and beauty products - how to get birthday freebies and why there's a catch",
-      "summary": "Cake, coffee, make-up and burgers are just some of the free things you can get on your birthday.",
-      "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
       "title": "UK petrol prices hit highest level since Iran war began",
       "summary": "The price of unleaded hits 163p a litre, according to motoring group the RAC, as oil prices remain elevated.",
       "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "From 'dog fruit' to darling: India's avocado boom",
-      "summary": "Demand for avocados is booming in India and local growers hope to grab more of the market.",
-      "link": "https://www.bbc.co.uk/news/articles/clyjzpgv29do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Volkswagen board approves plan to cut another 50,000 jobs",
-      "summary": "The group - which includes Audi, Porsche, Skoda as well as the VW brand - plans to cut a total of 100,000 posts by 2030.",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Xbox caps cloud gaming at 15 hours a month for Game Pass subscribers",
-      "summary": "Xbox said the limits were due to the rising cost of cloud gaming, and would allow it to invest more in its performance",
-      "link": "https://www.bbc.co.uk/news/articles/cj06zd4l99lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "'I lost my savings after a job interview scam'",
-      "summary": "Jobseekers, especially Gen Z, are being targeted with fake, booby-trapped recruitment apps.",
-      "link": "https://www.bbc.co.uk/news/articles/crk3xd8j3k5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "US diesel prices hit an all-time-high",
-      "summary": "Fuel prices have soared since the Iran conflict began at the end of February, mirroring the surge in wholesale oil prices.",
-      "link": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
-      "summary": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it.",
-      "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Is India's internet boom running into an undersea problem?",
-      "summary": "At least 13 of India's 18 intercontinental cables come ashore within six kilometres of Mumbai's Versova beach.",
-      "link": "https://www.bbc.co.uk/news/articles/cx2r2mzelxko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
-      "summary": "The deal gives Nvidia control of a leading open-source AI platform and developer community.",
-      "link": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Households warned gas price spike could pile fresh pressure on energy bills",
-      "summary": "Experts warn low storage levels could push up gas prices further, leaving households with higher bills.",
-      "link": "https://www.bbc.co.uk/news/articles/cm274mwxy1vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "B&Q and Five Guys among firms that paid staff below minimum wage",
-      "summary": "More than 600 companies underpaid staff, with £4m returned to workers, according to the government.",
-      "link": "https://www.bbc.co.uk/news/articles/c39mv4vm7exo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Almost half of households do not see benefits of economic growth, report says",
-      "summary": "Analysis has found a \"stark\" gap in the spending power of households in the north and south of England on average.",
-      "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Stingy bosses and spare change: How much should you give to the office whip-round?",
-      "summary": "Office whip-rounds are a staple of working life but they can raise a lot of awkward questions.",
-      "link": "https://www.bbc.co.uk/news/articles/c2el0v48v0xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "How Victoria Beckham turned her fashion firm around and made it profitable",
-      "summary": "The pop star formerly known as Posh Spice has taken nearly two decades to turn a profit.",
-      "link": "https://www.bbc.co.uk/articles/cj647xd596xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Trump $1 coin makes him first living president on US currency in a century",
-      "summary": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\"",
-      "link": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Hundreds of North Sea workers too heavy for new helicopter rules",
-      "summary": "Workers should weigh no more than 19.5st fully clothed so that they can be winched to safety in an emergency.",
-      "link": "https://www.bbc.co.uk/news/articles/c4gk2zlv0e6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "폭등하는 에너지 가격과 폭스바겐의 대규모 구조조정",
-  "summary": "중동 분쟁 여파로 유가와 가스 가격이 급등하면서 가계 에너지 요금과 연료비 부담이 가중되는 가운데, 자동차 섹터에서는 폭스바겐이 2030년까지 총 10만 명 감원 계획 중 추가 5만 명 감원을 승인하며 제조업 전반의 비용 압박이 심화되고 있습니다.",
+  "trend_headline": "유럽 완성차 구조조정 가속화",
+  "summary": "폭스바겐과 재규어랜드로버가 대규모 감축 계획을 공식화하며 유럽 자동차 섹터의 구조적 위기가 심화되고 있습니다. 중국산 저가 전기차 공세와 미국 중심의 관세 압박, 그리고 지정학적 리스크에 따른 에너지 비용 상승이 동시에 겹친 결과입니다.",
   "key_points": [
-    "폭스바겐(VW) 이사회, 2030년까지 추가 5만 명 포함 총 10만 명 감원 계획 승인",
-    "이란 전쟁 여파로 영국 휘발유 가격이 리터당 163펜스로 최고치 경신",
-    "가스 저장고 부족 및 지정학적 리스크로 유럽 가스 가격 급등, 가계 에너지 요금 압박 심화"
+    "폭스바겐 그룹, 2030년까지 총 10만 명 감축 목표 중 추가로 5만 명 구조조정 승인",
+    "재규어랜드로버(JLR), 중국산 저가 전기차 공세와 미국 관세 여파로 향후 2년간 4,000명 감축 및 17억 파운드 비용 절감 발표",
+    "이란발 지정학 갈등으로 유가 및 제트·차량용 연료 가격이 급등하며 유럽 운송·제조업 마진 압박 가중"
   ],
   "sector_hints": [
-    "Energy",
-    "Consumer Discretionary"
+    "Consumer Discretionary",
+    "Energy"
   ]
 }

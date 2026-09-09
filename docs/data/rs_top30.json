@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-08",
   "rs90_count": 9,
   "stocks": [
     {
@@ -15,15 +15,19 @@
       "rs_rating": 97.1
     },
     {
-      "ticker": "LITE",
+      "ticker": "WDC",
       "rs_rating": 96.2
     },
     {
-      "ticker": "WDC",
+      "ticker": "LITE",
       "rs_rating": 95.2
     },
     {
       "ticker": "INTC",
+      "rs_rating": 94.3
+    },
+    {
+      "ticker": "MRVL",
       "rs_rating": 93.3
     },
     {
@@ -31,15 +35,11 @@
       "rs_rating": 92.4
     },
     {
-      "ticker": "MRVL",
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "LRCX",
+      "ticker": "CRWD",
       "rs_rating": 90.5
     },
     {
-      "ticker": "CRWD",
+      "ticker": "LRCX",
       "rs_rating": 89.6
     },
     {
@@ -55,11 +55,11 @@
       "rs_rating": 86.7
     },
     {
-      "ticker": "ARM",
+      "ticker": "ABNB",
       "rs_rating": 85.8
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ARM",
       "rs_rating": 84.9
     },
     {
@@ -67,23 +67,23 @@
       "rs_rating": 83.9
     },
     {
+      "ticker": "AMGN",
+      "rs_rating": 83.0
+    },
+    {
       "ticker": "KLAC",
       "rs_rating": 82.0
     },
     {
-      "ticker": "AMGN",
+      "ticker": "WBD",
       "rs_rating": 81.1
     },
     {
-      "ticker": "WBD",
-      "rs_rating": 80.1
-    },
-    {
-      "ticker": "DDOG",
+      "ticker": "REGN",
       "rs_rating": 79.2
     },
     {
-      "ticker": "REGN",
+      "ticker": "DDOG",
       "rs_rating": 78.3
     },
     {
@@ -99,19 +99,19 @@
       "rs_rating": 75.4
     },
     {
-      "ticker": "NVDA",
+      "ticker": "DXCM",
       "rs_rating": 74.5
     },
     {
-      "ticker": "DXCM",
+      "ticker": "NVDA",
       "rs_rating": 73.5
     },
     {
-      "ticker": "GILD",
+      "ticker": "TXN",
       "rs_rating": 72.6
     },
     {
-      "ticker": "TXN",
+      "ticker": "GILD",
       "rs_rating": 71.7
     },
     {
@@ -119,16 +119,16 @@
       "rs_rating": 70.7
     },
     {
-      "ticker": "FANG",
+      "ticker": "AAPL",
       "rs_rating": 69.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 57.5,
-    "MRVL": 91.5,
-    "CRDO": 37.7,
-    "NBIS": 94.3,
-    "RDDT": 9.4,
-    "VRT": 83.0
+    "VKTX": 58.5,
+    "MRVL": 93.3,
+    "CRDO": 33.9,
+    "NBIS": 91.5,
+    "RDDT": 8.5,
+    "VRT": 80.1
   }
 }

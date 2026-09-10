@@ -1,13 +1,37 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "[속보] 美 30년물 국채금리 5.35%로 급등…2007년 이후 최고",
+          "title": "고작 0.5%p 격차…삼성, 파운드리 2위 자리도 '흔들'",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026091076667",
+          "link": "https://www.hankyung.com/article/202609107434i",
+          "source": "한국경제"
+        },
+        {
+          "title": "유가·국채금리 급등에 무너진 투심…美 3대증시 하락 [월가월부]",
+          "summary": "호르무즈·홍해 봉쇄 우려에 브렌트유·WTI 100달러 돌파이란전쟁이 확전과 장기전 양상으로 흘러가면서 국제유가가 또다시 100달러를 돌파하며 인플레이션 우려가 확산되는 가운데 미..",
+          "link": "https://www.mk.co.kr/news/economy/12150011",
+          "source": "매일경제"
+        },
+        {
+          "title": "\"삼성·SK 가자\" 대학생들 난리…떴다 하면 순식간에 '완판'",
+          "summary": "",
+          "link": "https://www.hankyung.com/article/2026091073231",
+          "source": "한국경제"
+        },
+        {
+          "title": "“매년 880만원 아끼는데 안해요?” … 파이어족 다들 한다는데",
+          "summary": "레버리지에서 커버드콜로 머니무브“커버드콜 2만주 있으면 마음 놓고 은퇴하는데 왜 안하는지 모르겠어요”. 최근 대기업 IT 회사를 ‘쿨하게’ 그만둔 김모 씨(56)는 이처럼 말하면서..",
+          "link": "https://www.mk.co.kr/news/stock/12149438",
+          "source": "매일경제"
+        },
+        {
+          "title": "도산공원 옆 들어선 거대한 텐트…내부엔 '웨어러블 기어' 천국",
+          "summary": "",
+          "link": "https://www.hankyung.com/article/202609107693i",
           "source": "한국경제"
         },
         {
@@ -17,9 +41,9 @@
           "source": "매일경제"
         },
         {
-          "title": "WTI 100달러 넘자 10년물 미국채 수익률 4.9% 돌파",
+          "title": "김정관, 美 도착…\"대미 투자 협상 마무리하기 위해 왔다\"",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609107646i",
+          "link": "https://www.hankyung.com/article/2026091177877",
           "source": "한국경제"
         },
         {
@@ -29,9 +53,9 @@
           "source": "매일경제"
         },
         {
-          "title": "[속보] 두바이·브렌트유 이어 WTI도 배럴당 100달러 돌파",
+          "title": "\"이러다 제주 경제 폭망한다\"…'범죄의 섬' 낙인에 '초비상' [불신 청구서]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026091076407",
+          "link": "https://www.hankyung.com/article/202609107125H",
           "source": "한국경제"
         },
         {
@@ -39,111 +63,99 @@
           "summary": "한국인은 몇 살에 가장 많은 빚을 지고 있을까요. 보유 자산이 가장 많아지는 시기는 언제일까요. 취업해 월급을 받기 시작하면 조금씩 자산을 쌓습니다. 결혼하고 집을 마련하는 과정에..",
           "link": "https://www.mk.co.kr/news/economy/12149835",
           "source": "매일경제"
-        },
-        {
-          "title": "美, 8월 생산자물가 0.4%p 상승…전년 대비 5.4%↑",
-          "summary": "",
-          "link": "https://www.hankyung.com/article/202609107628i",
-          "source": "한국경제"
-        },
-        {
-          "title": "텅 빈 지식산업센터, 오피스텔 전환 길 열린다",
-          "summary": "지식산업센터의 공실과 미분양 사태가 좀처럼 풀리지 않자 정부가 해당 시설을 오피스텔 등 다른 용도로 전환할 수 있도록 관련 규제를 완화하기로 했다. 텅 빈 지식산업센터의 활용도를..",
-          "link": "https://www.mk.co.kr/news/economy/12149777",
-          "source": "매일경제"
-        },
-        {
-          "title": "ECB, 전쟁 이후 두번째 0.25%p 금리 인상…기준금리 2.5%로",
-          "summary": "",
-          "link": "https://www.hankyung.com/article/202609107631i",
-          "source": "한국경제"
-        },
-        {
-          "title": "송미령 “CPTPP 두려움 있지만 우리 농업에 도전 기회도 된다”",
-          "summary": "“가입 전제로 논의하는 단계 아니야” 선 그어 농가 피해 연구 진행… “보완 대책은 추후에” 한·칠레 FTA 포도 수출 1억달러 성공 사례 국익·민의 종합해 농업계와 면밀히 소통할..",
-          "link": "https://www.mk.co.kr/news/economy/12149737",
-          "source": "매일경제"
         }
       ],
-      "summary": "미국과 이란 간 무력 충돌 격화 여파로 WTI가 배럴당 100달러를 돌파하고 미 국채 금리가 급등하면서, 인플레이션 우려와 함께 국내 금융시장의 변동성이 크게 확대되었습니다."
+      "summary": "미국과 이란 간 무력 충돌 격화로 국제유가(WTI·브렌트유)가 배럴당 100달러를 돌파하며 인플레이션 우려가 확산, 국내 증시 투자 심리가 급격히 얼어붙었습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "China sells J-10C fighter jet to Uzbekistan, eyes more markets for weapons",
+          "title": "BRICS Summit marks dual milestones and tests limits of cohesion",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/defense/china-sells-j-10c-fighter-jet-to-uzbekistan-eyes-more-markets-for-weapons",
+          "link": "https://asia.nikkei.com/spotlight/policy-asia/brics-summit-marks-dual-milestones-and-tests-limits-of-cohesion",
           "source": "Nikkei Asia"
         },
         {
-          "title": "US 'will not return' to promoting free trade, New Right strategist says",
+          "title": "Giant robot arm to probe Fukushima nuclear debris after 5-year delay",
           "summary": "",
-          "link": "https://asia.nikkei.com/editor-s-picks/interview/us-will-not-return-to-promoting-free-trade-new-right-strategist-says",
+          "link": "https://asia.nikkei.com/business/energy/giant-robot-arm-to-probe-fukushima-nuclear-debris-after-5-year-delay",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Vietnam and Russia deepen energy ties as To Lam visits Moscow",
+          "title": "Apple folding Duo opens opportunity for Nitto Denko, Nippon Electric Glass",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/international-relations/vietnam-and-russia-deepen-energy-ties-as-to-lam-visits-moscow",
+          "link": "https://asia.nikkei.com/business/technology/apple-folding-duo-opens-opportunity-for-nitto-denko-nippon-electric-glass",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Huawei unveils new optical tech standard in challenge to Nvidia, Broadcom",
+          "title": "Kansai Airport CEO envisions travelers taking flying taxis to Osaka casino",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/huawei-unveils-new-optical-tech-standard-in-challenge-to-nvidia-broadcom",
+          "link": "https://asia.nikkei.com/business/travel-leisure/kansai-airport-ceo-envisions-travelers-taking-flying-taxis-to-osaka-casino",
           "source": "Nikkei Asia"
         },
         {
-          "title": "5 dead in Philippine ferry fire off Palawan with scores still missing",
+          "title": "Japan's Sekisui Chemical to buy Australian builder, eyeing modular homes",
           "summary": "",
-          "link": "https://asia.nikkei.com/economy/fires/5-dead-in-philippine-ferry-fire-off-palawan-with-scores-still-missing",
+          "link": "https://asia.nikkei.com/business/business-deals/japan-s-sekisui-chemical-to-buy-australian-builder-eyeing-modular-homes",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japanese life insurers expand investments in property amid inflation",
+          "title": "Nissan looks to maintain Japan capacity at 1m vehicles",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/property/japanese-life-insurers-expand-investments-in-property-amid-inflation2",
+          "link": "https://asia.nikkei.com/business/automobiles/nissan-looks-to-maintain-japan-capacity-at-1m-vehicles",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Huawei vs. Apple and Musk 'Chinamaxxes'",
+          "title": "Japan developer Hulic and peers spend $1.5bn on Tokyo office tower deal",
           "summary": "",
-          "link": "https://asia.nikkei.com/techasia/huawei-vs.-apple-and-musk-chinamaxxes",
+          "link": "https://asia.nikkei.com/business/markets/property/japan-developer-hulic-and-peers-spend-1.5bn-on-tokyo-office-tower-deal",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Asia faces 'geopolitical recession,' Eurasia Group warns",
+          "title": "FamilyMart's first Hanoi location kicks off new Vietnam push",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/international-relations/asia-faces-geopolitical-recession-eurasia-group-warns",
+          "link": "https://asia.nikkei.com/business/retail/familymart-s-first-hanoi-location-kicks-off-new-vietnam-push",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Hong Kong court finds WSJ parent violated reporter's right to union role",
+          "title": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/media-entertainment/hong-kong-court-finds-wsj-parent-violated-reporter-s-right-to-union-role",
+          "link": "https://asia.nikkei.com/business/tech/semiconductors/china-s-cxmt-tops-sk-hynix-micron-to-take-memory-profit-margin-crown",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Samsung beats German city in lawsuit over schools' iPad procurement",
+          "title": "Hungary's new government turns up pressure on China's BYD, CATL",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/technology/samsung-beats-german-city-in-lawsuit-over-schools-ipad-procurement",
+          "link": "https://asia.nikkei.com/business/automobiles/electric-vehicles/hungary-s-new-government-turns-up-pressure-on-china-s-byd-catl",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "지정학적 리스크 고조와 글로벌 인플레이션 압력 속에서 일본 생명보험사들이 자산 방어를 위해 부동산 투자 비중을 확대하는 등 포트폴리오 다변화에 주력하고 있습니다."
+      "summary": "미국 국채금리 상승과 지정학적 불안 속에서 중국 메모리 업체의 공세 강화와 글로벌 공급망 재편 움직임이 일본 기업들의 실적 및 투자 지형에 부담으로 작용하고 있습니다."
     },
     "TW": {
       "headlines": [
         {
-          "title": "Prediction: This Will Be Taiwan Semiconductor's Stock Price at the End of 2027",
+          "title": "Taiwan Semiconductor September Revenue Surges 53% and Can’t Keep Up With Demand",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMll6LWdWZ1pja1Z1YkFRdU1TTG8tT2JCa192aDV5Ym8yTC1qREdfSlIybXFvVkJGUDJGWkhOdEg2WXJaSGVfU0w4elNzR2NDWTFyQ2xZZGdJRXFCRGhrdE4tYmZmaEIyMTRaNTRrUlRYRkVRbDRIWDduZlZMZUFxbmcxNm9mN2JVT3RRTTRaaFM5azNvalY5cg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaUZDcjl5UjI0bEVUV0lmVUxwLW16ZXVDQ0QxVGlueFBPOHlpWnprUzBHUDAwc1QtVC1wV1Zkc1lWWDJyZmxNWldMaDJXX3F1NjJWbXlPNERyVWN0a2ozMFdJY1dQdnJIRDdlY1ZWc1F6Mm43TmdEU05qTWpVbEFXX2hCN0ctZjNrcE0wNnhmYkJUZEVORVVNYkNIS1FwQUlYTkdkWlJkU3VIa1g5OVRSbkZTdWZFNnI1NzV3ZVpn?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Stocks Fall As Oil Prices, Yields Surge; Snowflake, Hinge, Taiwan Semiconductor In Focus - Video - IBD",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRlN1cmRTUTZCaEFUeGtQM09icHFsT1haUTZXRS14OTkyRndqaExQMEdDSTNITDNCdUdEUEVnVGFNdXB1UHdaX1BPTjFlTnVGTHVMdVAtYWw0SGxVWjVBVjlmejFPOUhHcTNhSURUWkJXWGlsSkRNaUJWdjlwWDhvSUhGaUlXY3FObVdoMXhaMjVjd2pUeGU3aWYtd2IxRWtY?oc=5",
           "source": "Google News"
         },
         {
           "title": "World’s largest contract chipmaker TSMC sees August revenue surge over 53% to record high",
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ycjd0eDNoeHBMd2Y4OE5TT2JvVUlNbVlhREFBc19jRTU3b0lrRTkxU1JrSmdmZ1AwcGFsWUlvZXBfT3FVS093cWxNZDA0WlRmb3haODhHVHREaDlyV3RYWVNjdEtYWTMtdGxwUEhPb3kzd9IBd0FVX3lxTE51eV9XN2ZtTHdhbUJaX1dtaTFWT0k5THItMFBIb3RRN3ZZT2dlamlnLXRaMkROcHFCQjBTWkcyQ3BlTWc1bmRsMUpsTnRwU2VKUWRxSW5lQ3FiTV9MRzVKX1QwUi1LYThTaEhpdUs0dTcyd0hER2Jn?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Prediction: This Will Be Taiwan Semiconductor's Stock Price at the End of 2027",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMll6LWdWZ1pja1Z1YkFRdU1TTG8tT2JCa192aDV5Ym8yTC1qREdfSlIybXFvVkJGUDJGWkhOdEg2WXJaSGVfU0w4elNzR2NDWTFyQ2xZZGdJRXFCRGhrdE4tYmZmaEIyMTRaNTRrUlRYRkVRbDRIWDduZlZMZUFxbmcxNm9mN2JVT3RRTTRaaFM5azNvalY5cg?oc=5",
           "source": "Google News"
         },
         {
@@ -159,46 +171,40 @@
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor (TSM) Reports 53.3% Revenue Growth Amid AI Demand",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQVdheG5aR18tVllINXo4dDcxaFRGdUdUVmpWSUhZeW0zRm5ya0F2aUFrNHA3T1cxZE9neUFKd0NqbmZlSzYyWUZMcUZTSjdEU2JNemJHYnVqam1sakVtVTMtRDh1TnM4Z19iclE1UEZHOXFTN3Y5SUE2ODRoeVN0dzhqQ0wwZS1RNEhHX29Na1lpSmhaVDBYR1Y5VVdWc0FXb3M0ZC1KeHI?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Business Bank Says August Revenue Up 8.82% Y/Y",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQnhON2xkQjNTT2JwN0d2N0tQR3VOQTNOdjU3a0xiLUhXUGxjaEFfcWRNcmN2YjRPTnRKbDljWUtjTXRFR1JEN2pVcXpwaFJjeXA2MGp6ZDllYldLNXRPUjVlemxpcDFnYkpLeFlJZlR6anNuRG5CMDR2Rnc0ZjJwNnIza1o3ZkNuUFU5VjQzVDB4UnJrUVFiWXRnOW5DYmVwdUIwcG96dkJVWmhHQVRwd19SQUJpcVZKWGlIdVZzVQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing Company Limited Reports Consolidated Revenue Results for the Month and Year-To-Date Ended August 2026",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTG9xX0tPcWRUNXVTQkh2Q0sxX1k1TFNnNHhIZkt6a19vb3hmVWhiUVFwXzhUN0t2M2lRUWZlUF9hUE1xdkU0WnRhRjBuUWRvX2ppd3FvMnRlQmNRTFJDMHdSVXYzelVuV2U4QXFZMGlaSWs1dGJGdm13OUJXdzZLcUdLMFR0elo4NExObmgzNGs3aUkwaEFmcEJuTnlBalotSDA4ZkxyYjRGTWhPa2NmMlRRaGFraEtVbTZpWllGZ3NuZDQ0eGJQZ0sydkVQc0FhN2cwNVVDMENkZ2pmOW55QXVnd002WHdn?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "TNL Mediagene's Business Insider Taiwan Surpasses 1.2 Million Monthly Website Page Views Less Than One Year After Launch, Announces Two Original Programs to Drive New Commercial Growth",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdWlLZ3RKR1VhdTdoWXVvN1VhX2tRYmtDeDhMWUJiR0JyaU40alpoa2EteU9jYmJUM0dUb0g2cE5aaEN4bkFvcjFhamhBZXlaRFFYUE9GUE9lQlJXOTM0LVFKb2ZCcXRBSTRGSWh0bkhVNWNvM0lCbko0T2dmaVg5YjBFUEtQbzNnMTE5UFdkRVZSeURYaE9VeWxrZzRlVExmcGNrVW5KdllqdUNYVkZ2b3h1ZmZzaURBYWtBTUVfR3VXSk1mVmE5WUY5dHh0MGh2S254Unp6b2RQZFdxY3o4QThOMHdkUURaT1daSWluZDRCbTZsOHZNSlVVeDZYdW8wa3pvc3pzclJwZlBGSC02OTlvQ2xfTUtXYkpnb3NTRnJyU1VYcjh4WFVUNlpwaVVBd2laZS1EMUdqZDJSVHRrd2lMQWpTZV9zQ2c?oc=5",
-          "source": "Google News"
-        },
-        {
           "title": "Taiwan virtual asset tax: MOF clarifies business tax treatment",
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUGFoLVZ6MkNTampwY21XRTJnQ3BhV1AyXzRPaURJRDhSZU8wSVR2eVlhU3J5SzhJRmNyLWduZFc2aUFFM2dzeHJBTGxXc2lKa0NWdjQtTGlKX09NNXRrN1FJLUdFZmtOdFV2QXZPZnltQVd3a0RjVDg1TC1tUEQwcw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor's August revenue reached a record high of TWD 514.8 billion, surging more than 53% year-on-year.",
+          "title": "Taiwan Semiconductor (TSM) Reports 53.3% Revenue Growth Amid AI Demand",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNG92NFRrVGR0WWtaUjZVb0o0UFB5aUZJb205TVJlZGg3c1VHS0J2SC1sOEVVZmt2eHRBN0M2TkRIRzFSVC1MUWN2eFZDQ3RVN1QtZUdPNDdzcG1XR1dZLWJWSG0taFQwWXA1Y3pZU0MyODEwWTVfMEpXM0NNb2FxMGZuRG9YRDFZbzBSb05pMHRoellENEhFYXNCRmtRZm0tT0FhaE42VQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQVdheG5aR18tVllINXo4dDcxaFRGdUdUVmpWSUhZeW0zRm5ya0F2aUFrNHA3T1cxZE9neUFKd0NqbmZlSzYyWUZMcUZTSjdEU2JNemJHYnVqam1sakVtVTMtRDh1TnM4Z19iclE1UEZHOXFTN3Y5SUE2ODRoeVN0dzhqQ0wwZS1RNEhHX29Na1lpSmhaVDBYR1Y5VVdWc0FXb3M0ZC1KeHI?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semi’s August Revenue Surges: 8 Key Items Shaping the Pro Portfolio Today",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSUdLQWZTMW5KdWlqVTZFZVVFaGhtT25ROXhRcGh0ZTFYNHp2OXdsTG1NVHRiQ1JiTDJjTG1DY1dIeUJQN2Q3djc1RjNQZ3AwWDg4X3hiX0lxSHVmeF9TdFctSURheVVkdDR0Sko4Nl8xWHRFTmpBamtaTTlpYnRmYVkzU0xXYkRydGRGTzE3RDlVbHRqc0pWUGlIQlc3U3dKaFlOWkFEcWNCQ0dVZ3pDS3JiMFk?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "AI and industrial sector gap widens: ratings firm",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mbi1kRGdEeXR4ai16QU1fQjN3ZjhZSDI2bkNjOU0xNDFKVUNXSnRCUEdtUFhFQUdsSXcxRFR6YmxKaURWblYtX1dkQTdVREZ0RGlVQzQ1WFFnQmZhYWZIRE5EcGl1OUpRRGNuSHh5dUFMYzhVUEE?oc=5",
           "source": "Google News"
         }
       ],
-      "summary": "강력한 글로벌 AI 인프라 수요를 바탕으로 TSMC의 8월 매출이 전년 동기 대비 53% 이상 급증하며 사상 최고치를 경신, 반도체 독주 체제를 이어갔습니다."
+      "summary": "폭발적인 AI 수요를 등에 업은 TSMC의 8월 매출이 전년 동기 대비 53% 이상 급증하며 사상 최고치를 경신했으나, 글로벌 유가 및 금리 급등세로 인해 증시 전반의 하방 압력은 피하지 못했습니다."
     },
     "CN": {
       "headlines": [
+        {
+          "title": "Hong Kong home prices headed for 15% gain this year, Midland forecast says",
+          "summary": "Hong Kong’s home prices will end the year 15 per cent higher than a year earlier, but still 16 per cent below their high-water mark in 2021, according to local property agency Midland Realty. Underpinning the positive forecast, the city’s banks were not likely to follow an increase in US interest ra",
+          "link": "https://www.scmp.com/business/article/3367086/hong-kong-home-prices-headed-15-gain-year-midland-forecast-says?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
         {
           "title": "Record China-US gap in bond yields unlikely to trigger capital flight: Marsh Investment",
           "summary": "The widening yield spread between Chinese and American government bonds is unlikely to trigger catastrophic capital flight from China, according to investment executives at Marsh Investment, who attribute the record spread to the United States’ fiscal pressures and global macro trends rather than a ",
@@ -252,27 +258,20 @@
           "summary": "As concerted state buying puts a floor under mainland China’s onshore stock market amid Beijing’s stabilisation measures, investors in Hong Kong worry about coping with high volatility at a delicate time, with multiple market-roiling factors. These include geopolitical tensions, sluggish earnings gr",
           "link": "https://www.scmp.com/business/china-business/article/3366991/can-hong-kong-stocks-contend-wild-swings-without-help-state-hands?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "AIIB eyes new platform to pool private capital for Asia’s US$1.7tr infrastructure needs",
-          "summary": "The Asian Infrastructure Investment Bank (AIIB) is developing a new platform to pool capital from institutional investors, aiming to roughly quadruple the private capital it mobilises for infrastructure projects across Asia, according to a senior officer. The mechanism will allow insurers, pension f",
-          "link": "https://www.scmp.com/business/banking-finance/article/3366985/aiib-eyes-new-platform-pool-private-capital-asias-us17tr-infrastructure-needs?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "중국 내 고금리·고물가 환경 속에서 소비재 트렌드가 주얼리에서 골드바·코인 중심으로 재편되는 한편, AI 부문에서는 딥시크가 신규 모델을 출시하며 기술 경쟁을 가속화했습니다."
+      "summary": "홍콩 부동산 시장의 회복세와 선샤인 프라이버시 규제, 그리고 딥시크의 신형 AI 모델 출시 등 기술·부동산 부문의 개별 모멘텀이 이어지는 가운데, 고금리 및 지정학적 변동성이 시장을 압박하고 있습니다."
     }
   },
-  "trend_headline": "유가 100불 돌파와 AI 실적 호조의 동반 충격",
-  "summary": "중동 충돌 여파로 국제유가가 배럴당 100달러를 넘어서고 글로벌 인플레이션 및 국채 금리 급등 우려가 확산된 반면, 대만 TSMC는 AI 수요에 힘입어 사상 최대 월간 매출을 기록하며 아시아 증시에서 매크로 불안과 섹터별 차별화가 동시에 전개되었습니다.",
+  "trend_headline": "국제유가 100달러 돌파와 인플레 공포 속, AI 반도체 질주",
+  "summary": "미·이란 충돌로 인한 국제유가 배럴당 100달러 돌파와 미 국채금리 상승이 글로벌 인플레이션 우려를 자극하며 아시아 증시 전반의 투자 심리를 위축시켰습니다. 반면 대만의 TSMC는 폭발적인 AI 수요를 바탕으로 50%가 넘는 경이로운 매출 성장세를 기록하며 대비를 이뤘습니다.",
   "cross_country_themes": [
-    "Inflation & Bond Yields",
-    "Geopolitical Risks",
-    "AI Infrastructure Demand"
+    "Geopolitical Risk & Oil Shock",
+    "AI Demand vs Macro Volatility"
   ],
   "sector_hints": [
     "Energy",
     "Semiconductors",
-    "Finance"
+    "Real Estate"
   ]
 }

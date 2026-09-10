@@ -1,46 +1,30 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "sectors": [
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 9.0,
-      "rationale": "중동 지정학적 리스크 심화와 호르무즈 해협 봉쇄 우려로 국제 유가가 배럴당 100달러를 돌파함에 따라 정유 및 에너지 기업들의 수혜가 예상됩니다.",
-      "related_tickers": [
-        "XOM",
-        "CVX",
-        "SHEL"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA",
-        "EU"
-      ]
-    },
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "글로벌 고금리 부담에도 불구하고 대만 TSMC가 강력한 AI 인프라 수요에 힘입어 사상 최대 매출을 기록하는 등 업황의 견조한 독주 체제가 확인되었습니다.",
+      "score": 8.5,
+      "rationale": "대만 TSMC의 8월 매출이 전년 대비 53% 급증하며 사상 최고치를 경신한 가운데, 미국 마이크로소프트의 컴퓨팅 파워 3배 확장 계획 및 미 국방부의 50억 달러 규모 AI 인프라 자금 지원 논의 등 글로벌 AI 하드웨어 수요가 매우 강력하게 유지되고 있습니다.",
       "related_tickers": [
         "TSM",
         "NVDA",
         "ASML"
       ],
       "source_regions": [
-        "ASIA",
-        "US"
+        "US",
+        "ASIA"
       ]
     },
     {
-      "name": "Financials",
+      "name": "Technology",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "미국 10년물 국채금리의 2007년 이후 최고치 경신과 ECB의 추가 금리 인상 단행으로 은행 및 보험사들의 순이자마진(NIM) 및 자산 운용 수익률 개선 기대를 자극하고 있습니다.",
+      "score": 7.0,
+      "rationale": "오라클이 AI 수요에 힘입어 예상치를 상회하는 클라우드 실적을 발표했고, EU의 공공 조달 내 중국 기업 배제 움직임은 역내 기술 기업들에게 반사이익으로 작용할 수 있습니다. 다만 어도비의 가이던스 부진에서 보듯 소프트웨어 기업별로 실적 차별화가 진행 중입니다.",
       "related_tickers": [
-        "JPM",
-        "BAC",
-        "MS"
+        "ORCL",
+        "MSFT",
+        "ADBE"
       ],
       "source_regions": [
         "US",
@@ -49,25 +33,34 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "유가 급등에 따른 인플레이션 재점화 우려와 고금리 부담으로 소비 심리가 위축되고 있으며, 중국 내 소비 패턴도 주얼리 등 사치품에서 안전자산(골드바) 선호로 이동하고 있습니다.",
+      "name": "Energy",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "미국과 이란 간의 무력 충돌 격화 및 중동 지정학적 리스크로 인해 국제 유가(WTI, 브렌트유)가 배럴당 100~105달러 선을 돌파하며 정유 및 에너지 개발 기업들의 단기 마진 개선 기대감이 커지고 있습니다.",
       "related_tickers": [
-        "AMZN",
-        "M",
-        "HD"
+        "XOM",
+        "CVX",
+        "SHEL"
       ],
       "source_regions": [
-        "US",
-        "ASIA"
+        "ASIA",
+        "EU"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -5.0,
+      "rationale": "ECB의 추가 금리 인상 단행과 미 국채 금리 상승 등 글로벌 고금리 장기화 우려가 지속되고 있습니다. 홍콩 부동산 시장의 개별적인 회복세에도 불구하고, 전반적인 자본 조달 비용 상승이 섹터에 하방 압력으로 작용하고 있습니다.",
+      "related_tickers": [
+        "PLD",
+        "EQIX"
+      ],
+      "source_regions": [
+        "ASIA",
+        "EU"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Technology",
-      "note": "미국의 금리 급등에 따른 고밸류에이션 기술주 하방 압력(부정적)과, 아시아 내 AI 모델 경쟁 가속화 및 EU의 공공조달 시장 내 중국 배제에 따른 역내 기술 기업 반사이익 기대(긍정적)가 공존합니다."
-    }
-  ]
+  "conflicting_signals": []
 }

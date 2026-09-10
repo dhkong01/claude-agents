@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "rs90_count": 9,
   "stocks": [
     {
@@ -11,15 +11,15 @@
       "rs_rating": 98.1
     },
     {
-      "ticker": "STX",
+      "ticker": "LITE",
       "rs_rating": 97.1
     },
     {
-      "ticker": "WDC",
+      "ticker": "STX",
       "rs_rating": 96.2
     },
     {
-      "ticker": "LITE",
+      "ticker": "WDC",
       "rs_rating": 95.2
     },
     {
@@ -27,19 +27,19 @@
       "rs_rating": 94.3
     },
     {
-      "ticker": "MRVL",
+      "ticker": "AMD",
       "rs_rating": 93.3
     },
     {
-      "ticker": "AMD",
-      "rs_rating": 92.4
-    },
-    {
-      "ticker": "CRWD",
-      "rs_rating": 90.5
+      "ticker": "MRVL",
+      "rs_rating": 91.5
     },
     {
       "ticker": "LRCX",
+      "rs_rating": 90.5
+    },
+    {
+      "ticker": "CRWD",
       "rs_rating": 89.6
     },
     {
@@ -55,80 +55,80 @@
       "rs_rating": 86.7
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ARM",
       "rs_rating": 85.8
     },
     {
-      "ticker": "ARM",
+      "ticker": "ASML",
       "rs_rating": 84.9
     },
     {
-      "ticker": "ASML",
+      "ticker": "ABNB",
       "rs_rating": 83.9
-    },
-    {
-      "ticker": "AMGN",
-      "rs_rating": 83.0
     },
     {
       "ticker": "KLAC",
       "rs_rating": 82.0
     },
     {
-      "ticker": "WBD",
+      "ticker": "DDOG",
       "rs_rating": 81.1
+    },
+    {
+      "ticker": "CSCO",
+      "rs_rating": 80.1
     },
     {
       "ticker": "REGN",
       "rs_rating": 79.2
     },
     {
-      "ticker": "DDOG",
+      "ticker": "CSX",
       "rs_rating": 78.3
     },
     {
-      "ticker": "CSCO",
+      "ticker": "TXN",
       "rs_rating": 77.3
     },
     {
-      "ticker": "CSX",
+      "ticker": "AMGN",
       "rs_rating": 76.4
     },
     {
-      "ticker": "VRTX",
+      "ticker": "FANG",
       "rs_rating": 75.4
     },
     {
-      "ticker": "DXCM",
+      "ticker": "WBD",
       "rs_rating": 74.5
     },
     {
-      "ticker": "NVDA",
+      "ticker": "VRTX",
       "rs_rating": 73.5
     },
     {
-      "ticker": "TXN",
+      "ticker": "ROST",
       "rs_rating": 72.6
     },
     {
-      "ticker": "GILD",
+      "ticker": "AAPL",
       "rs_rating": 71.7
     },
     {
-      "ticker": "ROST",
+      "ticker": "NVDA",
       "rs_rating": 70.7
     },
     {
-      "ticker": "AAPL",
+      "ticker": "GILD",
       "rs_rating": 69.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 58.5,
-    "MRVL": 93.3,
-    "CRDO": 33.9,
-    "NBIS": 91.5,
-    "RDDT": 8.5,
-    "VRT": 80.1
+    "VKTX": 54.7,
+    "MRVL": 91.5,
+    "CRDO": 33.0,
+    "NBIS": 92.4,
+    "RDDT": 4.7,
+    "VRT": 83.0
   }
 }

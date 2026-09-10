@@ -349,7 +349,9 @@ def git_push(full_text):
 # ── 메인 ──────────────────────────────────────────────────────
 if __name__ == '__main__':
     try:
-        kakao_token = get_kakao_token()
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+        from notify import send_message
+
         closes      = fetch_closes()
         messages    = build_messages(closes)
         full_text   = '\n\n'.join(messages)
@@ -359,22 +361,22 @@ if __name__ == '__main__':
             print(msg)
             print()
 
-        print("[카카오톡 전송]")
+        print("[알림 전송] Telegram 우선 / Kakao 폴백")
         sent_ok = 0
         for i, msg in enumerate(messages, 1):
-            print(f"  메시지{i}...", end='')
-            if send_kakao(kakao_token, msg):
+            print(f"  메시지{i}...")
+            if send_message(msg):
                 sent_ok += 1
 
         if messages and sent_ok == 0:
-            # 전송 결과를 확인하지 않고 넘어가면 카카오 발송이 전부 실패해도
-            # 워크플로가 "success"로 표시되는 문제가 있었음 — 명시적으로 실패 처리.
+            # 전 채널 전송 실패를 조용히 넘기면 워크플로가 "success"로 표시되는
+            # 문제가 있었음 — 명시적으로 실패 처리해 알림 스텝이 뜨게 한다.
             raise RuntimeError(
-                f"카카오톡 메시지 {len(messages)}건 전체 전송 실패 "
-                f"(토큰 발급 실패 또는 API 오류)"
+                f"알림 메시지 {len(messages)}건 전체 전송 실패 "
+                f"(TELEGRAM_BOT_TOKEN/CHAT_ID 또는 KAKAO_* 시크릿 확인 필요)"
             )
         elif sent_ok < len(messages):
-            print(f"[Kakao] 일부 메시지 전송 실패: {sent_ok}/{len(messages)}건 성공", file=sys.stderr)
+            print(f"[알림] 일부 전송 실패: {sent_ok}/{len(messages)}건 성공", file=sys.stderr)
 
         git_push(full_text)
         print("[완료]")

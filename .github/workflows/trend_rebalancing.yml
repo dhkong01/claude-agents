@@ -29,6 +29,13 @@ permissions:
   contents: write
   actions: read    # 중복 실행 가드에서 실행 이력 조회용
 
+# 알림: Telegram 우선(만료 없음) / Kakao 폴백
+env:
+  TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+  KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+  KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+
 jobs:
   trend:
     runs-on: ubuntu-latest
@@ -90,9 +97,6 @@ jobs:
 
       - name: 추세 추종 파이프라인 실행
         if: steps.guard.outputs.skip != 'true'
-        env:
-          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
-          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: |
           cd tools/stock_portfolio
           python trend_pipeline.py --mode ${{ steps.mode.outputs.mode }}
@@ -133,14 +137,11 @@ jobs:
           echo "::error::push 3회 모두 실패 — 데이터가 원격에 반영되지 않았습니다" >&2
           exit 1
 
-      - name: 데이터 신선도 최종 검증 (2일 이상 지연 시 카카오 경고)
+      - name: 데이터 신선도 최종 검증 (2일 이상 지연 시 알림)
         if: always() && steps.guard.outputs.skip != 'true'
-        env:
-          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
-          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: |
           python - <<'EOF'
-          import json, os, sys
+          import json, sys, subprocess
           from datetime import datetime
           from zoneinfo import ZoneInfo
 
@@ -152,7 +153,6 @@ jobs:
               sys.exit(0)
 
           file_date = data.get('date', '')
-          # data_utils.market_today()와 동일한 기준(America/New_York, DST 자동 반영)
           today_et  = datetime.now(ZoneInfo('America/New_York')).strftime('%Y-%m-%d')
           try:
               stale_days = (datetime.strptime(today_et, '%Y-%m-%d')
@@ -164,82 +164,18 @@ jobs:
           if stale_days < 2:
               sys.exit(0)   # 주말 등 1일 지연은 정상 범위
 
-          rest_key      = os.environ.get("KAKAO_REST_API_KEY", "")
-          refresh_token = os.environ.get("KAKAO_REFRESH_TOKEN", "")
-          if not (rest_key and refresh_token):
-              print("[freshness] Kakao secret 미설정 — 알림 생략")
-              sys.exit(0)
-
-          import requests
-          r = requests.post("https://kauth.kakao.com/oauth/token", data={
-              "grant_type": "refresh_token", "client_id": rest_key, "refresh_token": refresh_token,
-          }, timeout=10)
-          token = r.json().get("access_token", "")
-          if not token:
-              print("[freshness] 토큰 갱신 실패:", r.text)
-              sys.exit(0)
-
           msg = (
               f"[앱 데이터 지연 경고]\n"
               f"trend_latest.json이 {stale_days}일째 갱신되지 않았습니다 (파일 날짜: {file_date}).\n"
               f"워크플로 단계는 성공했지만 실제 데이터가 반영되지 않았을 수 있습니다.\n"
-              f"GitHub Actions 로그를 확인해 주세요.\n"
               f"https://github.com/dhkong01/claude-agents/actions"
           )
-          requests.post(
-              "https://kapi.kakao.com/v2/api/talk/memo/default/send",
-              headers={"Authorization": f"Bearer {token}"},
-              data={"template_object": json.dumps({
-                  "object_type": "text", "text": msg,
-                  "link": {"web_url": "https://github.com/dhkong01/claude-agents/actions"},
-              })},
-              timeout=10,
-          )
-          print("[freshness] 지연 알림 전송 완료")
+          subprocess.run(["python", "tools/stock_portfolio/notify.py", msg])
           EOF
 
-      - name: 실패 시 카카오톡 알림
+      - name: 실패 시 알림
         if: failure() && steps.guard.outputs.skip != 'true'
-        env:
-          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
-          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
         run: |
-          python - <<'EOF'
-          import os, requests
-
-          rest_key      = os.environ.get("KAKAO_REST_API_KEY", "")
-          refresh_token = os.environ.get("KAKAO_REFRESH_TOKEN", "")
-          if not rest_key or not refresh_token:
-              print("[Kakao] Secret 미설정 — 알림 생략")
-              raise SystemExit(0)
-
-          # 액세스 토큰 갱신
-          r = requests.post("https://kauth.kakao.com/oauth/token", data={
-              "grant_type": "refresh_token",
-              "client_id": rest_key,
-              "refresh_token": refresh_token,
-          }, timeout=10)
-          token = r.json().get("access_token", "")
-          if not token:
-              print("[Kakao] 토큰 갱신 실패:", r.text)
-              raise SystemExit(0)
-
-          msg = (
-              "WARNING: [주식 파이프라인 실패]\n"
-              "trend_rebalancing 워크플로가 실패했습니다.\n"
-              "앱 데이터가 업데이트되지 않았을 수 있습니다.\n"
-              "GitHub Actions 로그를 확인해 주세요.\n"
-              "https://github.com/dhkong01/claude-agents/actions"
-          )
-          requests.post(
-              "https://kapi.kakao.com/v2/api/talk/memo/default/send",
-              headers={"Authorization": f"Bearer {token}"},
-              data={"template_object": __import__('json').dumps({
-                  "object_type": "text",
-                  "text": msg,
-                  "link": {"web_url": "https://github.com/dhkong01/claude-agents/actions"},
-              })},
-              timeout=10,
-          )
-          print("[Kakao] 실패 알림 전송 완료")
-          EOF
+          python tools/stock_portfolio/notify.py "trend_rebalancing 워크플로가 실패했습니다.
+          앱 데이터가 업데이트되지 않았을 수 있습니다.
+          https://github.com/dhkong01/claude-agents/actions" || true

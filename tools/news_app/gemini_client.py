@@ -14,14 +14,14 @@ import requests
 API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
 # 지역 에이전트(가벼운 요약)는 Flash-Lite, 섹터매퍼/오케스트레이터(교차 분석)는 Flash.
-# Google이 모델을 수시로 폐기(404 "no longer available to new users")하므로
-# 핀 고정 모델 → -latest 별칭 → 구세대 안정 모델 순으로 폴백. env var로도 override 가능.
+# Google이 모델을 수시로 폐기(404 "no longer available to new users")하므로 여러 세대를
+# 폴백 후보로 둔다. env var로도 override 가능. (gemini-2.0-* 은 2026년 폐기됨 → 제외)
 MODEL_LIGHT = os.environ.get("GEMINI_MODEL_LIGHT", "gemini-3.5-flash-lite")
 MODEL_HEAVY = os.environ.get("GEMINI_MODEL_HEAVY", "gemini-3.5-flash")
 
 _FALLBACKS = {
-    MODEL_LIGHT: [MODEL_LIGHT, "gemini-flash-lite-latest", "gemini-2.0-flash"],
-    MODEL_HEAVY: [MODEL_HEAVY, "gemini-flash-latest", "gemini-2.0-flash"],
+    MODEL_LIGHT: [MODEL_LIGHT, "gemini-flash-lite-latest", "gemini-2.5-flash-lite", "gemini-3.5-flash"],
+    MODEL_HEAVY: [MODEL_HEAVY, "gemini-flash-latest", "gemini-2.5-flash", "gemini-3.6-flash"],
 }
 
 _RETRY_STATUS = {429, 500, 502, 503, 504}

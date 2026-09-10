@@ -1,139 +1,137 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-10",
   "region": "US",
   "headlines": [
     {
-      "title": "GM vs. Ford: U.S. defense, energy sectors add to automakers century-old rivalry",
-      "summary": "General Motors and Ford are looking for new potential growth areas, including by seeking military contracts and getting into energy storage businesses.",
-      "link": "https://www.cnbc.com/2026/09/05/gm-ford-defense-energy.html",
+      "title": "NFL s Roger Goodell is playing the international long game ahead of league s Australia debut",
+      "summary": "Goodell spoke with CNBC Sport ahead of the league's first-ever, regular-season game in Australia this week.",
+      "link": "https://www.cnbc.com/2026/09/10/nfl-commissioner-roger-goodell-international-future.html",
       "source": "CNBC"
     },
     {
-      "title": "Longtime Fox News host Maria Bartiromo disputes reports of termination",
-      "summary": "Maria Bartiromo, the longtime host of Fox News and Fox Business programming, has disputed reports she was fired from the cable TV networks.",
-      "link": "https://www.cnbc.com/2026/09/04/maria-bartiromo-fox-news-termination.html",
+      "title": "Here s how to avoid a six-figure error that many retirees make with their company stock",
+      "summary": "You can save a lot of money in retirement by ignoring one piece of conventional wisdom.",
+      "link": "https://www.marketwatch.com/story/heres-how-to-avoid-a-six-figure-error-that-many-retirees-make-with-their-company-stock-5f24b10d?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ Markets"
+    },
+    {
+      "title": "US “clear protein” drinks firm Protein2o names new CEO",
+      "summary": "",
+      "link": "https://finance.yahoo.com/small-business/articles/us-clear-protein-drinks-firm-135611225.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Key Gauge of US Producer Prices Rises Less Than Forecast",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb1JzdFdpTGFyWnc3dDI0Q09oNi1BQXZILVIyWXNzalNablNJX3ZLSnA4VTZIWG05QkZVcVZvSGNMdmE5RVgtbzM3UzQ3Qk9zZTU3QVhGeExYQnVfSHItdW1TUnczc0cwY2pMX1ZvbDNtZnJnU2ZJbXczY3h5dENNQ01aWWZFM2NIZXFwQVVZckdrcG1UZW5ncVNBSC1YVEh0UkhsREVaMnd3RlU?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Bidders Pounce on 10-Year Notes as Auction Achieves Highest Yield Since 2007",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTENlajdYcDBWY1NBQ0NjcWpHNGZSS3U1WWFqeGFfQWJBRkZyRnlZY05tRWdkVWViQ3JHSGx2dnRBbVhoSDdJUmsyMkQ4aGtKbG5aQ3ZrYy0wMmpDUW5OM2swdVZDQUpVZVJ5SzdUV3ZEdXM2dURnSlV3aE9HM0hsdGNsTUdFcEsxeUUxdVJ1LVZWUWZINmNubjBfZ3pJZm5oRDg0b0Q3T0xFRU80Z3otR2dyam9Wa0Z1d0E?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Macy s posts strong results, raises guidance as turnaround begins to take hold",
+      "summary": "Macy's posted strong fiscal second-quarter results on Thursday and raised its full-year guidance.",
+      "link": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html",
       "source": "CNBC"
     },
     {
-      "title": "WNBA Commissioner Cathy Engelbert to retire at the end of 2026",
-      "summary": "Engelbert oversaw a period of unprecedented growth for the WNBA, but has faced criticism from players over her leadership.",
-      "link": "https://www.cnbc.com/2026/09/04/wbna-commissioner-cathy-engelbert-to-retire-at-the-end-of-2026-.html",
+      "title": "This simple mistake can cost your loved ones their share of your estate. Here s how to protect your money.",
+      "summary": "Estate-planning crises usually come down to small oversights.",
+      "link": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "source": "WSJ Markets"
+    },
+    {
+      "title": "Tech stocks today: Apple debuts foldable iPhone Duo, AI researchers issue fresh warnings",
+      "summary": "",
+      "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-debuts-foldable-iphone-duo-ai-researchers-issue-fresh-warnings-125343211.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bending Spoons Agrees to Buy Miro for $1.36 Billion",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbTVJcmI4azlaTkE4dlhWbVd5SnREOHJialVHS01NVVAzaFpGNC1PcjRNVGdhNGZBb1JiRzhKVU9mbk0xY3lSeE1hdWdySXFEeVZvem9kTUJVWEFEOG5taGlBQ3BkUVJkZWM5WTdZSDBlX3ZEU3ZRSmZzUmcwUE9oMl9RT3gwMnM1MVB5MnpxYWV1ZnFSRGsxR1lZVG1pUFJONVhqWEpDWU9rLVBfc1VudQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Chewy Stock Tumbles on Earnings. Why the Stock Is Having Its Worst Day in a Year.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnaHA4TjdRSjB4eXRDbGo3c2xrQnN1ZFZCQmdEVGxyTVhfajBheElFUGZ3bXVibUplblRRNWhyNGs5SzlsRlI4NUFBUlVuRVFuR1VHdjNGcURzZTU1TkVuWElYbE5ZTGhlZG9XU3djNzc1MFdPZFNv?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Wealthy investors seek oil and gas assets, but bargains are scarce",
+      "summary": "The Iran war and the AI boom have created a crowded market for mineral rights and other energy assets.",
+      "link": "https://www.cnbc.com/2026/09/10/wealthy-investors-oil-gas-assets.html",
       "source": "CNBC"
     },
     {
-      "title": "THC drinks could soon be harder to find as Congress delays hemp ban again",
-      "summary": "THC drinks are booming as an alcohol alternative, but a looming federal crackdown is squeezing makers, distributors and consumers.",
-      "link": "https://www.cnbc.com/2026/09/04/thc-drinks-congress-hemp-ban.html",
+      "title": "Markets see a near 50-50 chance the European Central Bank will hike again in October",
+      "summary": "Financial markets are virtually evenly divided that the European Central Bank will lift interest rates once more next month after a statement issued Thursday that was perceived as being hawkish.",
+      "link": "https://www.marketwatch.com/story/markets-see-a-near-50-50-chance-the-european-central-bank-will-hike-again-in-october-38a87c27?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "source": "WSJ Markets"
+    },
+    {
+      "title": "10-year treasury at highest level since 2023 as oil prices jump to $105: Chart of the Day",
+      "summary": "",
+      "link": "https://finance.yahoo.com/markets/article/10-year-treasury-at-highest-level-since-2023-as-oil-prices-jump-to-105-chart-of-the-day-134740387.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Saudis Tell OPEC That Output Slumped Again to Lowest Since 1990",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1ZqVjU3TVF1aTFJYnBYRVRYSkhJNkVsQ0pyQTRVd2RyTmdKT1Jya2UwRk9EUzY2Y2NaZlNVdk1fNkNmekFlTG81YkxyRE1IQTl1QnNDWEdtSk9fcUhVb0FvcGc1Y1NVTUZBRXozZW04SkdvYVBXZ0t5RExHT0ZIYUlIcUNqRFJ2UE1lc0RZbG5feUdlZkx4QnNXQ0Y0bV9RUVZxVmpHejFhX3VNcEhLei1vODQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Why ServiceTitan Stock Is Diving 30% After Earnings Beat",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzJIenZGTm1uTEVidVZ6SlpBZDhJam9EY0dvMmVlZ3pHN3duSTVlNUtIekl1dld3X0FtWmdJclRWYUs5YzhSTXJIYktYemZVNTdicmtITUx2Wk1nYV9XYmloaktYbGU2TjRFdXZON21xcWQ0Yk8zYVBGYlU5WXlPNw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "What a historic summer box office reveals about massive shifts in the theatrical industry",
+      "summary": "The domestic box office posted a record-breaking summer movie season, which was bolstered by an extra week of ticket sales and higher-priced premium screenings.",
+      "link": "https://www.cnbc.com/2026/09/09/summer-box-theatrical-shifts.html",
       "source": "CNBC"
     },
     {
-      "title": "Labor Day marks the start of fallcations as wealthy travelers avoid summer crowds",
-      "summary": "Wealthy travelers are moving their typical summer getaways to autumn.",
-      "link": "https://www.cnbc.com/2026/09/04/fall-travel-wealthy-europe.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The wealth of the world s billionaires reached $15.1 trillion last year, per a new report",
-      "summary": "The global billionaire count hit a record of 3,795 people last year, with the biggest wealth gains for the richest of the rich, per a recent Altrata report.",
-      "link": "https://www.cnbc.com/2026/09/04/billionaire-wealth-altrata-report.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
-      "summary": "Major automakers in the U.S. are urging Congress to ban the domestic sale, import and manufacturing of Chinese connected vehicles, hardware and software.",
-      "link": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "ChargePoint CEO says 70% stock surge is the beginning of the momentum",
-      "summary": "The infrastructure company is toward the end of a three-year business plan that has boosted revenue and significantly cut the company's losses.",
-      "link": "https://www.cnbc.com/2026/09/03/chargepoint-ceo-50percent-stock-surge-is-the-beginning-of-the-momentum.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "NFL set for first-ever game in Melbourne, Australia, in international expansion",
-      "summary": "The San Francisco 49ers and the L.A. Rams are playing the NFL's first-ever game in Australia, marking an expanded push to grow the game internationally.",
-      "link": "https://www.cnbc.com/2026/09/03/nfl-rams-49ers-australia-international-expansion.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Billionaire family offices back healthcare and biotech startups in August",
-      "summary": "The personal investment firms of titans like Stanley Druckenmiller are backing innovations in gene editing, drug discovery and more.",
-      "link": "https://www.cnbc.com/2026/09/03/family-offices-health-care-biotech-startups-august.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
-      "summary": "The NBA also fined the Los Angeles Clippers $30 million and said the team will forfeit five first-round picks, one in each year in drafts starting in 2029.",
-      "link": "https://www.cnbc.com/2026/09/02/nba-suspends-clippers-ballmer-kawhi-leonard-salary-cap.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Southwest to debut airport lounges in four cities, with more to come",
-      "summary": "The airline is partnering with Chase on the effort, saying it wants to build on that company's Sapphire Reserve Lounge Network.",
-      "link": "https://www.cnbc.com/2026/09/02/southwest-airport-lounges.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Ford s production of highly profitable Super Duty trucks hits 20-year high as it recovers from supplier fires",
-      "summary": "Ford reported its eighth consecutive month of year-over-year U.S. new vehicle sales declines in August.",
-      "link": "https://www.cnbc.com/2026/09/02/ford-sales-f-150-production.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "American Airlines continues premium push with redesigned Boeing planes",
-      "summary": "American Airlines is adding its most premium seats to its largest planes, which it uses for its most popular long international flights.",
-      "link": "https://www.cnbc.com/2026/09/02/american-airlines-flagship-suite.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Stan Kroenke agrees to buy MLB s Angels, valuing team and regional network at $4 billion",
-      "summary": "Kroenke Sports and Entertainment was valued at more than $26 billion in CNBC's most recent list of the world's most valuable sports empires.",
-      "link": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Toyota s hybrid RAV4 is in demand as dealers wait for more supply",
-      "summary": "When Toyota announced the new version of its SUV, it said the RAV4 would only be available as a hybrid and that production would be limited at first.",
-      "link": "https://www.cnbc.com/2026/09/01/toyota-rav4-dealer-inventory.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Livestream shopping is gaining steam in the U.S., thanks to apps like TikTok and Whatnot",
-      "summary": "Whatnot and TikTok are tapping into its potential livestream shopping in the U.S. after a decade of massive success in China.",
-      "link": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "How one of the largest investors in student housing is playing this school year",
-      "summary": "Mike Gordon of Harrison Street Asset Management said funding cuts and enrollment trends are making specialization more vital than ever.",
-      "link": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "OneRail launches AI platform with Nvidia for retailers to make faster delivery decisions",
-      "summary": "Last-mile delivery company OneRail is launching a new platform with Nvidia to use AI to help retailers make faster and more efficient delivery decisions.",
-      "link": "https://www.cnbc.com/2026/09/01/onerail-nvidia-ai-delivery-platform.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
-      "summary": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that.",
-      "link": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
-      "source": "CNBC"
+      "title": "Apple is walking a tightrope when it comes to the prices of its new iPhones",
+      "summary": "The company raised prices on its phone but might still have to eat costs itself, analysts say.",
+      "link": "https://www.marketwatch.com/story/apples-stock-rises-after-iphone-reveal-the-company-is-walking-a-tightrope-on-pricing-say-analysts-813898ac?mod=mw_rss_topstories",
+      "source": "MarketWatch"
     }
   ],
-  "trend_headline": "지정학적 리스크와 유가 상승으로 모기지 금리 급등",
-  "summary": "중동발 충돌과 유가 상승 여파로 인플레이션 우려가 커지면서 모기지 금리가 6월 이후 최고치로 치솟았습니다. 이와 함께 트럼프 행정부의 제약사 약가 인하 합작 및 엔비디아와 손잡은 원레일(OneRail)의 AI 물류 플랫폼 론칭 등이 주요 섹터별 움직임을 주도했습니다.",
+  "trend_headline": "중국 딥시크 충격에 AI 인프라주 급락",
+  "summary": "중국 스타트업 딥시크의 신규 AI 모델 등장 여파로 엔비디아(-16%)를 비롯한 AI 인프라 관련주들이 두 자리 수 폭락세를 기록하며 나스닥 하락을 주도했습니다. 지정학적 긴장과 맞물려 안전자산 선호 심리가 확산된 가운데 시장은 과도한 공포인지에 대한 논쟁을 벌이고 있습니다.",
   "key_points": [
-    "중동발 지정학적 리스크와 유가 상승 여파로 미국 모기지 금리가 6월 이후 최고치로 급등",
-    "트럼프 행정부, 중견 제약사 9곳과 새로운 약가 인하 계약 체결",
-    "라스트마일 배송 기업 원레일(OneRail), 엔비디아와 협력하여 AI 기반 물류 플랫폼 론칭"
+    "중국 AI 스타트업 딥시크 충격으로 엔비디아 주가 16% 급락",
+    "나스닥 및 주요 AI 인프라 관련주 수십 퍼센트대 폭락세 기록",
+    "지정학적 리스크와 기술주 충격 겹치며 스위스 프랑 및 엔화 등 안전자산 강세"
   ],
   "sector_hints": [
-    "Real Estate",
-    "Energy",
-    "Healthcare",
-    "Technology"
+    "Technology",
+    "Semiconductors"
   ]
 }

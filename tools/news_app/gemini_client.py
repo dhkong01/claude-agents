@@ -7,50 +7,83 @@ import json
 import os
 import re
 import sys
+import time
 
 import requests
 
 API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
-# 지역 에이전트(가벼운 요약)는 Flash-Lite, 섹터매퍼/오케스트레이터(교차 분석)는 Flash
-# 참고: gemini-2.5-flash(-lite)는 신규 API 키에는 더 이상 제공되지 않음(2026-08 기준 404
-# "no longer available to new users") — env var로 언제든 override 가능하게 해둠
+# 지역 에이전트(가벼운 요약)는 Flash-Lite, 섹터매퍼/오케스트레이터(교차 분석)는 Flash.
+# Google이 모델을 수시로 폐기(404 "no longer available to new users")하므로
+# 핀 고정 모델 → -latest 별칭 → 구세대 안정 모델 순으로 폴백. env var로도 override 가능.
 MODEL_LIGHT = os.environ.get("GEMINI_MODEL_LIGHT", "gemini-3.5-flash-lite")
 MODEL_HEAVY = os.environ.get("GEMINI_MODEL_HEAVY", "gemini-3.5-flash")
 
+_FALLBACKS = {
+    MODEL_LIGHT: [MODEL_LIGHT, "gemini-flash-lite-latest", "gemini-2.0-flash"],
+    MODEL_HEAVY: [MODEL_HEAVY, "gemini-flash-latest", "gemini-2.0-flash"],
+}
+
+_RETRY_STATUS = {429, 500, 502, 503, 504}
+
+
+def _post_once(model: str, api_key: str, system_prompt: str, user_prompt: str):
+    return requests.post(
+        f"{API_BASE}/{model}:generateContent",
+        params={"key": api_key},
+        headers={"Content-Type": "application/json"},
+        json={
+            "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
+            "systemInstruction": {"parts": [{"text": system_prompt}]},
+        },
+        timeout=60,
+    )
+
 
 def call_gemini(system_prompt: str, user_prompt: str, model: str = MODEL_LIGHT) -> str | None:
-    """Gemini generateContent API 호출. 실패 시 None 반환 (예외를 던지지 않음)."""
+    """Gemini generateContent API 호출. 일시적 오류는 재시도, 모델 폐기 시 폴백. 실패 시 None."""
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
         print("[gemini_client] GEMINI_API_KEY 미설정 — 호출 생략", file=sys.stderr)
         return None
 
-    try:
-        resp = requests.post(
-            f"{API_BASE}/{model}:generateContent",
-            params={"key": api_key},
-            headers={"Content-Type": "application/json"},
-            json={
-                "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-                "systemInstruction": {"parts": [{"text": system_prompt}]},
-            },
-            timeout=60,
-        )
-        if resp.status_code != 200:
-            print(f"[gemini_client] API 오류 {resp.status_code}: {resp.text[:300]}", file=sys.stderr)
-            return None
-        data = resp.json()
-        candidates = data.get("candidates", [])
-        if not candidates:
-            print(f"[gemini_client] 응답에 candidates 없음: {json.dumps(data)[:300]}", file=sys.stderr)
-            return None
-        parts = candidates[0].get("content", {}).get("parts", [])
-        text = "".join(p.get("text", "") for p in parts)
-        return text or None
-    except Exception as e:
-        print(f"[gemini_client] 호출 실패: {e}", file=sys.stderr)
-        return None
+    # 중복 제거하며 폴백 후보 구성
+    candidates_models: list[str] = []
+    for m in _FALLBACKS.get(model, [model]):
+        if m not in candidates_models:
+            candidates_models.append(m)
+
+    for mi, m in enumerate(candidates_models):
+        for attempt in range(3):
+            try:
+                resp = _post_once(m, api_key, system_prompt, user_prompt)
+            except Exception as e:
+                print(f"[gemini_client] {m} 요청 예외(시도 {attempt+1}/3): {e}", file=sys.stderr)
+                time.sleep(2 * (attempt + 1))
+                continue
+
+            if resp.status_code == 200:
+                data = resp.json()
+                cand = data.get("candidates", [])
+                if not cand:
+                    print(f"[gemini_client] {m} 응답에 candidates 없음: {json.dumps(data)[:200]}", file=sys.stderr)
+                    return None
+                parts = cand[0].get("content", {}).get("parts", [])
+                text = "".join(p.get("text", "") for p in parts)
+                return text or None
+
+            if resp.status_code in _RETRY_STATUS:
+                print(f"[gemini_client] {m} 일시적 오류 {resp.status_code} (시도 {attempt+1}/3)", file=sys.stderr)
+                time.sleep(2 * (attempt + 1))
+                continue
+
+            # 404/400 등 → 이 모델은 폐기/미지원. 다음 폴백 모델로.
+            print(f"[gemini_client] {m} 사용 불가 {resp.status_code}: {resp.text[:200]}", file=sys.stderr)
+            if mi < len(candidates_models) - 1:
+                print(f"[gemini_client] → 폴백 모델 {candidates_models[mi+1]} 시도", file=sys.stderr)
+            break
+
+    return None
 
 
 def call_gemini_json(system_prompt: str, user_prompt: str, model: str = MODEL_LIGHT) -> dict | None:

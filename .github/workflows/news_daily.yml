@@ -2,15 +2,16 @@ name: News & Investment Ideas — Daily
 
 on:
   schedule:
-    # 분침을 정각(0분)에서 비껴 잡고 45분 뒤 백업을 둬 GitHub 스케줄 지연/누락에 대비
-    # (portfolio_report.yml/trend_rebalancing.yml과 동일한 패턴).
-    - cron: '55 21 * * *'   # UTC 21:55 ≈ KST 06:55
-    - cron: '40 22 * * *'   # 백업 (+45분, 아래 가드로 중복 실행 방지)
+    # GitHub Actions 스케줄은 정각/30분처럼 몰리는 시각에 지연·누락이 잦아
+    # 분침을 비껴 잡고 45분 뒤 백업 cron을 둔다.
+    # 중복 실행 가드는 두지 않는다 — 파이프라인이 KST 당일 캐시가 있으면 Gemini 호출을
+    # 건너뛰고, 산출물이 동일하면 커밋 자체가 no-op이라 백업 실행은 사실상 무해하다.
+    - cron: '55 20 * * *'   # UTC 20:55 ≈ KST 05:55
+    - cron: '40 21 * * *'   # 백업 (+45분)
   workflow_dispatch:
 
 permissions:
   contents: write   # 데이터 커밋 권한
-  actions: read      # 중복 실행 가드에서 실행 이력 조회용
 
 jobs:
   news:
@@ -18,56 +19,45 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: 중복 실행 방지 — 오늘 이미 성공한 실행이 있으면 스킵
-        id: guard
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "[가드] 수동 실행 — 스킵 안 함"
-            exit 0
-          fi
-          TODAY=$(date -u +%Y-%m-%d)
-          COUNT=$(gh run list --repo "${{ github.repository }}" \
-            --workflow=news_daily.yml --status success --limit 20 \
-            --json createdAt --jq "[.[] | select(.createdAt | startswith(\"$TODAY\"))] | length")
-          if [ "${COUNT:-0}" -gt 0 ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "[가드] 오늘($TODAY) 이미 성공한 실행 ${COUNT}건 — 백업 실행 스킵"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "[가드] 오늘($TODAY) 성공 실행 없음 — 진행"
-          fi
-
       - uses: actions/checkout@v4
-        if: steps.guard.outputs.skip != 'true'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
-        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.11'
           cache: pip
 
       - name: 의존성 설치
-        if: steps.guard.outputs.skip != 'true'
         run: pip install -r tools/news_app/requirements.txt
 
       - name: 뉴스·투자아이디어 파이프라인 실행
-        if: steps.guard.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd tools/news_app
           python run_pipeline.py
 
-      - name: 결과 커밋
-        if: steps.guard.outputs.skip != 'true'
+      - name: 결과 커밋 및 푸시 (충돌 시 최대 3회 재시도 — 실패를 숨기지 않음)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add tools/news_app/cache/ docs/news-app/data/ || true
-          git diff --staged --quiet || git commit -m "news: daily $(TZ='Asia/Seoul' date +%Y-%m-%d)"
-          git push || true
+
+          if git diff --staged --quiet; then
+            echo "[commit] 변경사항 없음 — 커밋 스킵"
+            exit 0
+          fi
+          git commit -m "news: daily $(TZ='Asia/Seoul' date +%Y-%m-%d)"
+
+          for i in 1 2 3; do
+            if git push; then
+              echo "[commit] push 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "[commit] push 실패 (시도 $i/3) — origin 최신화 후 재시도"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; git merge -X ours origin/main --no-edit; }
+          done
+          echo "::error::push 3회 모두 실패 — 데이터가 원격에 반영되지 않았습니다" >&2
+          exit 1

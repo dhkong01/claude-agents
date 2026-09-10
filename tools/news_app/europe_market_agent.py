@@ -29,7 +29,7 @@ EU 규제(반독점·AI법·관세)가 특정 섹터(빅테크·자동차·에�
 
 
 def _build_user_prompt(items: list[dict]) -> str:
-    lines = [f"- [{it['source']}] {it['title']} — {it['summary']}" for it in items]
+    lines = [f"- [{it['source']}] {it['title']}" + (f" — {it['summary']}" if it['summary'] else "") for it in items]
     return "오늘자 유럽 헤드라인 목록:\n" + "\n".join(lines)
 
 

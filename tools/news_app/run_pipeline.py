@@ -13,7 +13,17 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 sys.path.insert(0, str(BASE_DIR))
 
-from news_fetcher import today_kst
+from news_fetcher import today_kst, cache_fresh, load_cache
+
+
+def _step(idx: int, label: str, cache_file: str, today: str, dry_run: bool, fn, fallback):
+    """당일 KST 캐시가 있으면 재사용(백업 실행이 Gemini를 다시 호출하지 않도록),
+    없으면 fn() 실행. fn/캐시 모두 실패하면 fallback 반환."""
+    print(f"\n[{idx}/5] {label}...")
+    if not dry_run and cache_fresh(cache_file, today):
+        print(f"      당일 캐시 재사용 ({cache_file})")
+        return load_cache(cache_file)
+    return fn() or fallback
 
 
 def run_pipeline(dry_run: bool = False) -> dict:
@@ -22,37 +32,47 @@ def run_pipeline(dry_run: bool = False) -> dict:
     print(f"  뉴스·투자아이디어 파이프라인  {today}{'  [DRY-RUN]' if dry_run else ''}")
     print(f"{'='*60}")
 
-    print("\n[1/5] 미국 시장 에이전트...")
     from us_market_agent import analyze_us_market
-    us = analyze_us_market(dry_run=dry_run)
-    print(f"      헤드라인 {len(us['headlines'])}건")
-
-    print("\n[2/5] 아시아 시장 에이전트...")
     from asia_market_agent import analyze_asia_market
-    asia = analyze_asia_market(dry_run=dry_run)
-    asia_count = sum(len(v["headlines"]) for v in asia["countries"].values())
+    from europe_market_agent import analyze_europe_market
+    from sector_mapper import map_sectors
+    from orchestrator import generate_ideas
+
+    empty_ideas = {"date": today, "horizons": {h: [] for h in ["1w", "1m", "3m", "6m", "1y"]}}
+
+    us = _step(1, "미국 시장 에이전트", "us_market.json", today, dry_run,
+               lambda: analyze_us_market(dry_run=dry_run),
+               {"date": today, "region": "US", "headlines": [], "summary": ""})
+    print(f"      헤드라인 {len(us.get('headlines', []))}건")
+
+    asia = _step(2, "아시아 시장 에이전트", "asia_market.json", today, dry_run,
+                 lambda: analyze_asia_market(dry_run=dry_run),
+                 {"date": today, "region": "ASIA", "countries": {}, "summary": ""})
+    asia_count = sum(len(v.get("headlines", [])) for v in asia.get("countries", {}).values())
     print(f"      헤드라인 {asia_count}건 (KR/JP/TW/CN)")
 
-    print("\n[3/5] 유럽 에이전트...")
-    from europe_market_agent import analyze_europe_market
-    europe = analyze_europe_market(dry_run=dry_run)
-    print(f"      헤드라인 {len(europe['headlines'])}건")
+    europe = _step(3, "유럽 에이전트", "europe_market.json", today, dry_run,
+                   lambda: analyze_europe_market(dry_run=dry_run),
+                   {"date": today, "region": "EUROPE", "headlines": [], "summary": ""})
+    print(f"      헤드라인 {len(europe.get('headlines', []))}건")
 
-    print("\n[4/5] 섹터 매퍼...")
-    from sector_mapper import map_sectors
-    sectors = map_sectors(dry_run=dry_run) or {"date": today, "sectors": [], "conflicting_signals": []}
-    print(f"      섹터 {len(sectors['sectors'])}개 매핑")
+    sectors = _step(4, "섹터 매퍼", "sector_mapping.json", today, dry_run,
+                    lambda: map_sectors(dry_run=dry_run),
+                    {"date": today, "sectors": [], "conflicting_signals": []})
+    print(f"      섹터 {len(sectors.get('sectors', []))}개 매핑")
 
-    print("\n[5/5] 오케스트레이터 (투자 아이디어)...")
-    from orchestrator import generate_ideas
-    ideas = generate_ideas(dry_run=dry_run) or {"date": today, "horizons": {h: [] for h in ["1w", "1m", "3m", "6m", "1y"]}}
-    counts = {h: len(v) for h, v in ideas["horizons"].items()}
+    ideas = _step(5, "오케스트레이터 (투자 아이디어)", "investment_ideas.json", today, dry_run,
+                  lambda: generate_ideas(dry_run=dry_run), empty_ideas)
+    counts = {h: len(v) for h, v in ideas.get("horizons", {}).items()}
     print(f"      호라이즌별 아이디어 수: {counts}")
 
-    print("\n[export] PWA 데이터 내보내기...")
-    from export_app_data import export_app_data
-    export_app_data(us, asia, europe, sectors, ideas)
-    print("      docs/news-app/data/{regions,sectors,ideas}.json 저장 완료")
+    if dry_run:
+        print("\n[export] --dry-run — docs/news-app/data 저장 생략 (커밋된 데이터 보존)")
+    else:
+        print("\n[export] PWA 데이터 내보내기...")
+        from export_app_data import export_app_data
+        export_app_data(us, asia, europe, sectors, ideas)
+        print("      docs/news-app/data/{regions,sectors,ideas}.json 저장 완료")
 
     checks = {
         "미국 요약": bool(us.get("summary")),

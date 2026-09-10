@@ -1,6 +1,6 @@
 """
 미국 시장 뉴스 에이전트
-CNBC/MarketWatch/WSJ/Yahoo RSS 수집 → Gemini 종합 → cache/us_market.json
+CNBC/MarketWatch/WSJ/Yahoo/Bloomberg/Barron's RSS 수집 → Gemini 종합 → cache/us_market.json
 """
 import argparse
 import sys
@@ -27,7 +27,7 @@ SYSTEM_PROMPT = """당신은 미국 주식시장을 분석하는 전문 애널�
 
 
 def _build_user_prompt(items: list[dict]) -> str:
-    lines = [f"- [{it['source']}] {it['title']} — {it['summary']}" for it in items]
+    lines = [f"- [{it['source']}] {it['title']}" + (f" — {it['summary']}" if it['summary'] else "") for it in items]
     return "오늘자 미국 시장 헤드라인 목록:\n" + "\n".join(lines)
 
 

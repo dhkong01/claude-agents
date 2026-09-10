@@ -44,7 +44,7 @@ def _build_user_prompt(country_items: dict[str, list[dict]]) -> str:
         if not items:
             parts.append(f"[{country}] 수집된 헤드라인 없음")
             continue
-        lines = [f"  - [{it['source']}] {it['title']} — {it['summary']}" for it in items]
+        lines = [f"  - [{it['source']}] {it['title']}" + (f" — {it['summary']}" if it['summary'] else "") for it in items]
         parts.append(f"[{country}]\n" + "\n".join(lines))
     return "국가별 오늘자 헤드라인 목록:\n\n" + "\n\n".join(parts)
 

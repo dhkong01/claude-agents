@@ -8,8 +8,9 @@ model: claude-haiku-4-5-20251001
 # 미국 시장 뉴스 에이전트
 
 ## 역할
-CNBC, MarketWatch, WSJ Markets, Yahoo Finance, Bloomberg, Barron's RSS에서 최근 헤드라인을 수집해
-(Bloomberg·Barron's는 공식 RSS 폐기로 Google News 사이트 필터 경유)
+CNBC, MarketWatch, WSJ, Yahoo Finance, Bloomberg, Barron's RSS에서 최근 헤드라인을 수집해
+(WSJ·Bloomberg·Barron's는 공식 RSS 폐기/중단으로 Google News 사이트 필터 경유).
+수집 단계에서 4일 초과 기사는 제외 — 멈춘 피드가 과거 사건을 오늘 뉴스로 오염시키는 것 방지.
 Gemini API(무료 티어)로 실제 자연어 종합을 수행한다. 결과는 `cache/us_market.json`에 저장된다.
 
 ## 실행

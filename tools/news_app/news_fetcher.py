@@ -7,11 +7,15 @@ import json
 import re
 import sys
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 KST = ZoneInfo("Asia/Seoul")
+
+# 이 일수보다 오래된 기사는 버린다 (죽은/멈춘 피드가 과거 기사를 오늘 뉴스로 오염시키는 것 방지).
+MAX_ARTICLE_AGE_DAYS = 4
 
 CACHE_DIR = Path(__file__).parent / "cache"
 CACHE_DIR.mkdir(exist_ok=True)
@@ -47,7 +51,8 @@ REGION_FEEDS: dict[str, list[tuple[str, str]]] = {
     "US": [
         ("CNBC", "https://www.cnbc.com/id/10001147/device/rss/rss.html"),
         ("MarketWatch", "https://feeds.marketwatch.com/marketwatch/topstories/"),
-        ("WSJ Markets", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
+        # WSJ 공식 마켓 피드(feeds.a.dj.com)는 2025-01-27에 멈춤 → Google News 사이트 필터로 대체
+        ("WSJ", "https://news.google.com/rss/search?q=when:2d%20site:wsj.com&hl=en-US&gl=US&ceid=US:en"),
         ("Yahoo Finance", "https://finance.yahoo.com/news/rssindex"),
         # Bloomberg·Barron's는 공식 RSS를 대부분 폐기해서 Google News 사이트 필터로 수집
         ("Bloomberg", "https://news.google.com/rss/search?q=when:2d%20site:bloomberg.com&hl=en-US&gl=US&ceid=US:en"),
@@ -85,13 +90,23 @@ def _fetch_one(source: str, url: str) -> list[dict]:
         return []
 
     is_gnews = "news.google.com" in url
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_ARTICLE_AGE_DAYS)
     items: list[dict] = []
-    for block in re.findall(r"<item[^>]*>(.*?)</item>", content, re.IGNORECASE | re.DOTALL):
+    dropped_stale = 0
+    blocks = re.findall(r"<item[^>]*>(.*?)</item>", content, re.IGNORECASE | re.DOTALL)
+    blocks += re.findall(r"<entry[^>]*>(.*?)</entry>", content, re.IGNORECASE | re.DOTALL)
+    for block in blocks:
         title_m = re.search(r"<title[^>]*>(.*?)</title>", block, re.IGNORECASE | re.DOTALL)
         desc_m = re.search(r"<description[^>]*>(.*?)</description>", block, re.IGNORECASE | re.DOTALL)
         link_m = re.search(r"<link[^>]*>(.*?)</link>", block, re.IGNORECASE | re.DOTALL)
         if not title_m:
             continue
+
+        pub_dt = _parse_pub_date(block)
+        if pub_dt is not None and pub_dt < cutoff:
+            dropped_stale += 1
+            continue
+
         title = _clean(title_m.group(1))
         if is_gnews:
             # Google News item은 <source>매체명</source>을 제공 → 제목 끝의 " - 매체명" 제거
@@ -111,7 +126,37 @@ def _fetch_one(source: str, url: str) -> list[dict]:
             "link": _clean(link_m.group(1)) if link_m else "",
             "source": source,
         })
+
+    if dropped_stale:
+        print(f"[news_fetcher] {source}: {MAX_ARTICLE_AGE_DAYS}일 초과 기사 {dropped_stale}건 제외", file=sys.stderr)
+        if not items:
+            print(f"[news_fetcher] {source}: 최신 기사 0건 — 피드가 멈췄을 수 있음", file=sys.stderr)
     return items
+
+
+_ISO_DATE_RE = re.compile(r"<(?:pubDate|dc:date|published|updated|lastBuildDate)[^>]*>(.*?)</", re.IGNORECASE | re.DOTALL)
+
+
+def _parse_pub_date(block: str) -> datetime | None:
+    """RSS <pubDate>(RFC822) / Atom·RDF <published>·<updated>·<dc:date>(ISO8601) 파싱. 실패 시 None."""
+    m = _ISO_DATE_RE.search(block)
+    if not m:
+        return None
+    raw = _clean(m.group(1))
+    if not raw:
+        return None
+    try:
+        dt = parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
 
 
 def _clean(text: str) -> str:

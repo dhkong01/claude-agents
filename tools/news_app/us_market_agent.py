@@ -28,7 +28,12 @@ SYSTEM_PROMPT = """당신은 미국 주식시장을 분석하는 전문 애널�
 
 def _build_user_prompt(items: list[dict]) -> str:
     lines = [f"- [{it['source']}] {it['title']}" + (f" — {it['summary']}" if it['summary'] else "") for it in items]
-    return "오늘자 미국 시장 헤드라인 목록:\n" + "\n".join(lines)
+    return (
+        f"오늘은 {today_kst()}입니다. 아래는 오늘자로 수집한 미국 시장 헤드라인입니다.\n"
+        "혹시 명백히 과거 사건(예: 날짜가 몇 달 전, 이미 지난 이벤트)으로 보이는 항목이 섞여 있으면 "
+        "그 항목은 무시하고 최근 이슈만으로 판단하세요.\n\n"
+        + "\n".join(lines)
+    )
 
 
 def analyze_us_market(dry_run: bool = False) -> dict:

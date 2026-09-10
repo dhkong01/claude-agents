@@ -46,7 +46,11 @@ def _build_user_prompt(country_items: dict[str, list[dict]]) -> str:
             continue
         lines = [f"  - [{it['source']}] {it['title']}" + (f" — {it['summary']}" if it['summary'] else "") for it in items]
         parts.append(f"[{country}]\n" + "\n".join(lines))
-    return "국가별 오늘자 헤드라인 목록:\n\n" + "\n\n".join(parts)
+    return (
+        f"오늘은 {today_kst()}입니다. 아래는 오늘자로 수집한 국가별 헤드라인입니다.\n"
+        "명백히 과거 사건으로 보이는 항목이 섞여 있으면 무시하고 최근 이슈만으로 판단하세요.\n\n"
+        + "\n\n".join(parts)
+    )
 
 
 def analyze_asia_market(dry_run: bool = False) -> dict:

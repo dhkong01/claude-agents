@@ -67,7 +67,7 @@ def run_pipeline(dry_run: bool = False) -> dict:
     print(f"      호라이즌별 아이디어 수: {counts}")
 
     if dry_run:
-        print("\n[export] --dry-run — docs/news-app/data 저장 생략 (커밋된 데이터 보존)")
+        print("\n[export] --dry-run: docs/news-app/data 저장 생략 (커밋된 데이터 보존)")
     else:
         print("\n[export] PWA 데이터 내보내기...")
         from export_app_data import export_app_data

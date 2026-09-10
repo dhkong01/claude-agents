@@ -89,6 +89,7 @@ tools/lotto/data/lotto_analysis.json
 tools/lotto/data/lotto_ml_features.json
 tools/lotto/data/lotto_prediction.json
 tools/lotto/reports/
+tools/lotto/notify_config.json
 private/
 
 # Session templates (not committed)

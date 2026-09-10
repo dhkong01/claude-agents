@@ -1,16 +1,39 @@
 """
-GitHub Actions 전용 알림 전송.
-Telegram 또는 Kakao 중 설정된 방식으로 자동 선택.
-환경변수:
-  - TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID  → Telegram
-  - KAKAO_REST_API_KEY + KAKAO_REFRESH_TOKEN → Kakao
+로또 예측 알림 전송 (CI + 로컬 공용).
+Telegram(우선) 또는 Kakao(폴백) 중 설정된 방식으로 자동 선택.
+
+자격증명 우선순위:
+  1. 환경변수 (CI: GitHub Secrets)
+     - TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID  → Telegram
+     - KAKAO_REST_API_KEY + KAKAO_REFRESH_TOKEN → Kakao
+  2. tools/lotto/notify_config.json (로컬, gitignore됨)
+     - telegram_bot_token / telegram_chat_id
+     - kakao_rest_api_key / kakao_refresh_token
 """
 import json, os, sys, urllib.parse, urllib.request
 from pathlib import Path
 from datetime import date
 
-PRED_PATH  = Path("tools/lotto/data/lotto_prediction.json")
-REPORT_DIR = Path("tools/lotto/reports")
+ROOT       = Path(__file__).resolve().parents[3]   # repo 루트
+PRED_PATH  = ROOT / "tools/lotto/data/lotto_prediction.json"
+REPORT_DIR = ROOT / "tools/lotto/reports"
+
+# ── 로컬 config 폴백 — 환경변수 없으면 notify_config.json에서 로드 ──
+_cfg_path = ROOT / "tools/lotto/notify_config.json"
+if _cfg_path.exists():
+    try:
+        _cfg = json.loads(_cfg_path.read_text(encoding="utf-8"))
+        _map = {
+            "TELEGRAM_BOT_TOKEN":  "telegram_bot_token",
+            "TELEGRAM_CHAT_ID":    "telegram_chat_id",
+            "KAKAO_REST_API_KEY":  "kakao_rest_api_key",
+            "KAKAO_REFRESH_TOKEN": "kakao_refresh_token",
+        }
+        for env_k, cfg_k in _map.items():
+            if not os.environ.get(env_k) and _cfg.get(cfg_k):
+                os.environ[env_k] = str(_cfg[cfg_k])
+    except Exception as e:
+        print(f"[경고] notify_config.json 로드 실패: {e}")
 
 if not PRED_PATH.exists():
     print("오류: lotto_prediction.json 없음"); sys.exit(1)

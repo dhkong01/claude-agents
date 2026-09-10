@@ -97,11 +97,15 @@ for i, draw in enumerate(recent_draws[:len(RECENCY_DECAY)]):
 score = np.clip(score, 0, None)
 score /= score.sum()
 
-# 직전 예측 기록 로드 (최근 4개 조합 제외용)
+# 직전 예측 기록 로드 (최근 4개 조합 제외용 — 주차별 다양성 확보)
+# 현재 회차(last_draw+1)의 이전 시도는 제외 대상에서 빼서, 같은 주 재실행 시
+# 결과가 오락가락하지 않고 결정론적으로 나오게 함
 pred_history = []
 if HIST_PATH.exists():
     pred_history = json.load(open(HIST_PATH, encoding="utf-8"))
-prev_combos = [tuple(sorted(h["numbers"])) for h in pred_history[-4:]]
+_target = last_draw + 1
+prev_combos = [tuple(sorted(h["numbers"]))
+               for h in pred_history if h.get("draw") != _target][-4:]
 
 VALID_ODD   = {k for k, v in odd_stats.items() if v >= 0.05}
 MAX_TAIL_DUP = 2

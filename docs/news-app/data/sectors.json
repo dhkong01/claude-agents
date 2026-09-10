@@ -1,68 +1,108 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-08",
   "sectors": [
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.5,
-      "rationale": "중국 전기차의 거센 공세와 비용 압박으로 인해 독일 폭스바겐이 최대 10만 명 규모의 감원 구조조정을 검토하는 등 유럽 자동차 산업의 위기감이 고조되고 있습니다.",
-      "related_tickers": [
-        "VOW3",
-        "MBG",
-        "BMW"
-      ],
-      "source_regions": [
-        "EUR"
-      ]
-    },
-    {
-      "name": "Energy",
+      "name": "Semiconductors",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "WTI 유가가 배럴당 100달러를 돌파하는 등 글로벌 원자재 가격 상승세가 지속되면서 에너지 섹터의 매출 및 마진 개선 기대감이 강화되었습니다.",
+      "score": 8.5,
+      "rationale": "대만 TSMC의 압도적인 파운드리 점유율(73%)과 AI 반도체 수요 호조, 그리고 한국의 AI 메모리 수요 급증이 아시아 시장의 성장을 견인하며 글로벌 반도체 섹터 전반에 강력한 상승 모멘텀을 제공하고 있습니다.",
       "related_tickers": [
-        "XOM",
-        "CVX",
-        "SHEL"
+        "TSM",
+        "005930",
+        "000660",
+        "NVDA"
       ],
       "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "미국 국채 금리 급등에 따른 순이자마진(NIM) 개선 기대와 일본 생명보험사들의 자산 운용 다변화(부동산 비중 확대) 움직임이 금융 섹터에 긍정적으로 작용하고 있습니다.",
-      "related_tickers": [
-        "JPM",
-        "8306",
-        "MS"
-      ],
-      "source_regions": [
-        "ASIA"
+        "ASIA",
+        "US"
       ]
     },
     {
       "name": "Technology",
-      "direction": "negative",
-      "score": -8.0,
-      "rationale": "중국 딥시크의 저비용 AI 모델 등장으로 기존 빅테크의 AI 투자 수익성(ROI) 의문이 제기되었으며, 이로 인해 기술주 중심의 나스닥 시장이 큰 조정을 받았습니다.",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "미국 라스트마일 배송 기업 원레일(OneRail)이 엔비디아와 협력해 AI 기반 물류 플랫폼을 론칭하고, 아시아 테크 시장 전반의 AI 및 기술 확장세가 가속화되면서 소프트웨어 및 플랫폼 솔루션 분야의 성장이 기대됩니다.",
       "related_tickers": [
+        "NVDA",
         "MSFT",
-        "GOOGL",
-        "AAPL"
+        "1810"
       ],
       "source_regions": [
         "US",
         "ASIA"
       ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중동발 지정학적 리스크와 이로 인한 유가 상승 여파로 인플레이션 우려가 자극되면서, 미국 30년 고정 모기지 금리가 6월 이후 최고치로 급등하여 주택 수요 위축 및 리츠 채무 조달 비용 상승 압박이 커졌습니다.",
+      "related_tickers": [
+        "VNQ",
+        "IYR"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "미국 트럼프 행정부가 중견 제약사 9곳과 대대적인 새로운 약가 인하 계약을 체결함에 따라 제약 업계 전반의 마진 축소와 수익성 하락 우려가 커졌습니다.",
+      "related_tickers": [
+        "PFE",
+        "MRK",
+        "LLY"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "유럽 최대 자동차 그룹인 폭스바겐의 추가 감원(5만 명) 승인 및 재규어랜드로버의 대규모 비용 절감/구조조정 계획은 중국산 저가 전기차 공세와 무역 관세 압박으로 인한 전통 완성차 제조업의 심각한 구조적 마진 침체를 대변합니다.",
+      "related_tickers": [
+        "VOW3",
+        "TSLA",
+        "MBG"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "중동 및 이란발 지정학적 리스크 심화로 인해 글로벌 유가 및 각종 차량/제트 연료 가격이 상승함에 따라 원유 탐사 및 정유 기업들의 단기 매출 및 정제마진 개선세가 예상됩니다.",
+      "related_tickers": [
+        "XOM",
+        "CVX",
+        "SHEL",
+        "BP"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "positive",
+      "score": 5.5,
+      "rationale": "중국 정부가 540억 달러 규모의 국책 금융기관 자본 확충에 직접 나서며 대규모 유동성을 주입하고 자본 건전성을 강화하는 등 금융 시스템 리스크를 방어하려는 정책적 지지선이 마련되었습니다.",
+      "related_tickers": [
+        "601398",
+        "3988",
+        "CHB"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Semiconductors",
-      "note": "미국 시장은 중국 딥시크발 충격으로 엔비디아가 16% 폭락하는 등 AI 인프라 반도체 기업들의 밸류에이션 우려가 지배한 반면, 아시아 시장에서는 TSMC가 AI 수요에 힘입어 8월 매출이 전년 대비 53% 급증하는 등 강력한 실적 디커플링을 보여 상반된 신호가 나타나고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "I asked my husband to pay into my pension when we had a child - here's why",
-      "summary": "Molly and Taylor Haylett explain the changes to how they managed their finances when they started a family.",
-      "link": "https://www.bbc.co.uk/news/articles/cde02k65427o?at_medium=RSS&at_campaign=rss",
+      "title": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+      "summary": "O'Leary has said airline passengers \"can't afford to fly with the high-fare rapists around Europe\".",
+      "link": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Italy extends diesel excise cut by one week: set to be last general discount",
-      "summary": "The Italian government has extended the discount on diesel at petrol stations: the 17.1 cent per litre cut will remain in force until 17 September. It is the 15th measure to curb rising fuel prices, with an overall cost of about €2.7 billion.",
-      "link": "https://www.euronews.com/business/2026/09/10/italy-extends-diesel-excise-cut-by-one-week-set-to-be-last-general-discount",
+      "title": "French blockade looms over Commission’s plan to fast-track trade deals in English",
+      "summary": "Eager to unlock new markets for EU businesses, the European Commission plans to accelerate trade deal ratification by circulating only English versions for approval by EU governments and the European Parliament – but sources told Euronews that Paris is set to oppose the move if it goes ahead.",
+      "link": "https://www.euronews.com/my-europe/2026/09/11/french-blockade-looms-over-commissions-plan-to-fast-track-trade-deals-in-english",
       "source": "Euronews Business"
     },
     {
@@ -21,81 +21,87 @@
       "source": "DW Business"
     },
     {
-      "title": "Tusk warns of future attacks after direct threat averted at Poland-Ukraine border",
-      "summary": "Polish prime minister spoke of U.S. intel pointing to various scenarios, not just on the Russia-Ukraine border but the whole Eastern flank.",
-      "link": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "‘I don’t have any’: Trump brushes aside concerns over AI’s existential risks",
+      "summary": "The president is instead focusing on American tech maintaining its lead over China.",
+      "link": "https://www.politico.com/news/2026/09/11/donald-trump-ai-concerns-01072301?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Are interest rates on the way up again?",
+      "title": "US prices remain high as fuel costs squeeze household budgets",
+      "summary": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official report on inflation.",
+      "link": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "50 CEOs and investors urge Brussels not to dilute the EU Inc law",
+      "summary": "Founders and investors call EU policymakers to not water down the EU Inc., the legislative proposal which aims to facilitate businesses in Europe to scale up.",
+      "link": "https://www.euronews.com/business/2026/09/11/50-ceos-and-investors-urge-brussels-not-to-dilute-the-eu-inc-law",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Why are European banks moving gold out of United States?",
+      "summary": "The Netherlands and France have moved their gold out of US vaults. Part of the reason is fears about the reliability of the US, but equally important is the need to keep gold closer to home in the event of a crisis.",
+      "link": "https://www.dw.com/en/why-are-european-banks-moving-gold-out-of-united-states/a-79213013?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Trump, Hegseth push Iran war at Pentagon 9/11 memorial",
+      "summary": "“We are ensuring that Iran will never have a nuclear weapon,” Hegseth said.",
+      "link": "https://www.politico.com/news/2026/09/11/trump-hegseth-iran-war-9-11-01072088?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Interest rates could rise again across the world – here's why",
       "summary": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
       "link": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "EU falls short on Draghi reform agenda, new report shows",
-      "summary": "The European Union is implementing the recommendations of former Italian Prime Minister Mario Draghi, but at a pace that is failing to keep up with the rest of the world.",
-      "link": "https://www.euronews.com/my-europe/2026/09/10/eu-falls-short-on-draghi-reform-agenda-new-report-shows",
+      "title": "European Commission pushes for all-English trade deals despite French opposition",
+      "summary": "France's umbrage at the anglophone-only presentation might complicate the ratification of the EU-India trade deal, even though it supports the deal itself and considers India a strategic partner.",
+      "link": "https://www.euronews.com/my-europe/2026/09/11/european-commission-pushes-for-all-english-trade-deals-despite-french-opposition",
       "source": "Euronews Business"
     },
     {
-      "title": "Kazakhstan can’t sing its way into Eurovision in 2027",
-      "summary": "The EBU says the country “does not qualify for full membership at this time.”",
-      "link": "https://www.politico.eu/article/kazakhstan-eurovision-2027-not-qualified-for-entry-ebu/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "‘Abuse of power’: Von der Leyen rapped after backing space mega deal",
+      "summary": "The European Parliament’s leading competition lawmaker accuses the Commission chief of pre-empting merger review.",
+      "link": "https://www.politico.eu/article/ursula-von-der-leyen-project-bromo-space-deal-abuse-of-power/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Oil, gas and borrowing costs surge as fears over Middle East escalate",
-      "summary": "The price of oil jumps to $105 a barrel amid signs the Iran war will not be resolved quickly.",
-      "link": "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss",
+      "title": "AI boom helps drive surprise UK growth in July",
+      "summary": "The economy expanded by 0.4%, official figures show, whereas analysts had predicted no growth.",
+      "link": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Formula 1 sends Madrid holiday rents soaring: Up to €20,000 near circuit",
-      "summary": "The Spanish Grand Prix is driving luxury short-term rents in Madrid up by as much as 1,000%, and in Valdebebas some flats are being listed at up to 20,000 euros for the race.",
-      "link": "https://www.euronews.com/business/2026/09/10/formula-1-sends-madrid-holiday-rents-soaring-up-to-20000-near-circuit",
+      "title": "Azerbaijan’s state oil fund helps launch China-ASEAN investment council",
+      "summary": "SOFAZ is the only founder from outside East and Southeast Asia, reflecting Azerbaijan’s position on the trade corridor between Asia and Europe.",
+      "link": "https://www.euronews.com/business/2026/09/11/azerbaijans-state-oil-fund-helps-launch-china-asean-investment-council",
       "source": "Euronews Business"
     },
     {
-      "title": "Bernie Sanders, Alexandria Ocasio-Cortez invited to Paris for Gabriel Zucman’s tax-the-rich summit",
-      "summary": "The economist's big event comes shortly after the launch of his new book.",
-      "link": "https://www.politico.eu/article/bernie-sanders-alexandria-ocasio-cortez-invited-to-paris-for-gabriel-zucmans-tax-the-rich-summit/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Sweden’s NATO missions are at risk if the left wins election, warns PM Kristersson",
+      "summary": "The center-right leader told POLITICO that Magdalena Andersson’s political partners can’t be trusted on defense.",
+      "link": "https://www.politico.eu/article/sweden-election-nato-missions-risk-ulf-kristersson/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Alstom to build new battery-electric train fleet",
-      "summary": "The government says the work will support thousands of jobs across the UK.",
-      "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
+      "title": "I asked my husband to pay into my pension when we had a child - here's why",
+      "summary": "Molly and Taylor Haylett explain the changes to how they managed their finances when they started a family.",
+      "link": "https://www.bbc.co.uk/news/articles/cde02k65427o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Will Seat disappear? Government confident as Volkswagen weighs brand's future",
-      "summary": "The government says it is confident Seat will continue after Volkswagen kept several options open for the brand beyond 2030, adding no decision has yet been made on its future.",
-      "link": "https://www.euronews.com/business/2026/09/10/will-seat-disappear-government-confident-as-volkswagen-weighs-brands-future",
+      "title": "Europeans are skipping family visits and medical appointments to pay energy and fuel bills, study finds",
+      "summary": "The rising cost of fuel and energy bills is hammering Europeans, with some taking extreme measures to offset higher prices, such as giving up on medical care. However, not all of them are affected equally.",
+      "link": "https://www.euronews.com/my-europe/2026/09/11/europeans-are-skipping-family-visits-and-medical-appointments-to-pay-energy-and-fuel-bills",
       "source": "Euronews Business"
     },
     {
-      "title": "Bad actors in China and Russia are already weaponizing Anthropic’s AI",
-      "summary": "Anthropic says foreign scientists, hackers and security services circumvented restrictions to use Claude for dangerous work, including possible bioweapons research.",
-      "link": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Air traffic chaos and compensation: 'Shutdown cost us more than £1,000'",
-      "summary": "Flight disruption has ruined holidays and left passengers sleeping on airport floors - so what are their rights?",
-      "link": "https://www.bbc.co.uk/news/articles/cy9znljypnjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Portuguese economist Ricardo Reis dropped by IMF after criticising Trump tariffs",
-      "summary": "Ricardo Reis warned that tariffs could drive up prices in the United States and potentially trigger a new wave of inflation.",
-      "link": "https://www.euronews.com/business/2026/09/10/portuguese-economist-ricardo-reis-dropped-by-imf-after-criticising-trump-tariffs",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Macron’s space summit showed Europe isn t ready for takeoff without the US",
-      "summary": "The two-day gathering in Paris left some participants disappointed.",
-      "link": "https://www.politico.eu/article/emmanuel-macron-international-space-summit-europe-us/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "UK MPs reject bill legalizing assisted dying bill despite previous support",
+      "summary": "The House of Commons opposed helping terminally ill adults to end their lives despite previous votes endorsing the social change.",
+      "link": "https://www.politico.eu/article/uk-mps-reject-assisted-dying-bill-england-wales/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
@@ -105,34 +111,27 @@
       "source": "BBC Business"
     },
     {
-      "title": "European Commission proposes EU preference in public procurement, excluding Chinese firms",
-      "summary": "The EU executive has proposed a legislation introducing a European preference in public procurement for strategic public services, a move that clearly targets Chinese companies in a market valued at €2 billion annually.",
-      "link": "https://www.euronews.com/my-europe/2026/09/09/european-commission-proposes-eu-preference-in-public-procurement-excluding-chinese-firms",
+      "title": "Anthropic says AI could bring both 15% growth and mass unemployment by 2030",
+      "summary": "Anthropic has published an economic model projecting how AI might reshape the US economy by 2030, and its three scenarios range from barely perceptible to a boom with no historical precedent, including one in which GDP grows 15% a year while nearly a fifth of office workers are out of a job.",
+      "link": "https://www.euronews.com/business/2026/09/11/anthropic-says-ai-could-bring-both-15-growth-and-mass-unemployment-by-2030",
       "source": "Euronews Business"
     },
     {
-      "title": "EU prosecutors should go after sanctions busters, top diplomat suggests",
-      "summary": "Kaja Kallas wants the European Public Prosecutor’s Office to be given a mandate to squeeze Russia's war machine.",
-      "link": "https://www.politico.eu/article/european-prosecutors-public-office-sanctions-kaja-kallas/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Iran-backed Houthis seize Red Sea port, putting another key trade route at risk",
+      "summary": "With the Strait of Hormuz already snarled up, simultaneous disruption looms at the southern gateway to the Red Sea.",
+      "link": "https://www.politico.eu/article/houthi-yemen-red-sea-seize-port-us-iran-war-second-shipping-route-risk/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "Primark finally set to launch home deliveries",
-      "summary": "The retailer launches the service four years after making its first foray into internet shopping.",
-      "link": "https://www.bbc.co.uk/news/articles/c89jdl0j5x4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "ECB 금리 인상 속 中 견제·에너지발 물가 압박 심화",
-  "summary": "ECB가 금리 인상을 단행한 가운데, 중동 리스크로 인한 에너지 가격 급등이 인플레이션 압력을 가중시키고 있습니다. 동시에 EU는 공공 조달에서 중국산 배제를 추진하며 대중국 경제 방어벽을 높이고 있습니다.",
+  "trend_headline": "중동 전운과 에너지 급등, 유럽 경제를 강타하다",
+  "summary": "중동발 지정학 리스크 심화로 원유 및 가스 가격이 급등하며 유로존 전반의 인플레이션 압박과 가계 가처분 소득 감소를 유발하고 있습니다. 이와 함께 프랑스의 반발에도 불구하고 EU 집행위원회는 무역 협정 가속화를 추진하며 규제 및 무역 정책 전반의 긴장감을 높이고 있습니다.",
   "key_points": [
-    "ECB, 인플레이션 압력 속에서 추가 금리 인상 단행",
-    "EU 집행위원회, 연간 2조 유로 규모 공공 조달에서 중국 기업을 배제하는 'EU 우선주의' 입법 추진",
-    "중동 분기 격화로 원유 가격이 배럴당 105달러까지 급등하며 에너지·차입 비용 상승 유발"
+    "중동 분케 격화 우려로 유가가 배럴당 105달러까지 급등하며 에너지 및 차입 비용 압박 가중",
+    "이탈리아 정부, 치솟는 연료비 대응 위해 디젤 소비세 인하 조치 연장 (총 비용 약 27억 유로)",
+    "유럽연합 집행위원회, 공공조달 시장에서 중국 기업을 겨냥한 유럽산 우선(EU preference) 입법 제안"
   ],
   "sector_hints": [
     "Energy",
-    "Financials",
-    "Technology"
+    "Consumer Discretionary"
   ]
 }

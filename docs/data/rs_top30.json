@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "rs90_count": 9,
   "stocks": [
     {
@@ -27,19 +27,19 @@
       "rs_rating": 94.3
     },
     {
-      "ticker": "AMD",
+      "ticker": "MRVL",
       "rs_rating": 93.3
     },
     {
-      "ticker": "MRVL",
-      "rs_rating": 91.5
+      "ticker": "AMD",
+      "rs_rating": 92.4
     },
     {
       "ticker": "LRCX",
       "rs_rating": 90.5
     },
     {
-      "ticker": "CRWD",
+      "ticker": "FTNT",
       "rs_rating": 89.6
     },
     {
@@ -47,7 +47,7 @@
       "rs_rating": 88.6
     },
     {
-      "ticker": "FTNT",
+      "ticker": "CRWD",
       "rs_rating": 87.7
     },
     {
@@ -63,24 +63,24 @@
       "rs_rating": 84.9
     },
     {
-      "ticker": "ABNB",
+      "ticker": "DDOG",
       "rs_rating": 83.9
+    },
+    {
+      "ticker": "ABNB",
+      "rs_rating": 83.0
     },
     {
       "ticker": "KLAC",
       "rs_rating": 82.0
     },
     {
-      "ticker": "DDOG",
+      "ticker": "CSCO",
       "rs_rating": 81.1
     },
     {
-      "ticker": "CSCO",
-      "rs_rating": 80.1
-    },
-    {
       "ticker": "REGN",
-      "rs_rating": 79.2
+      "rs_rating": 80.1
     },
     {
       "ticker": "CSX",
@@ -99,7 +99,7 @@
       "rs_rating": 75.4
     },
     {
-      "ticker": "WBD",
+      "ticker": "GILD",
       "rs_rating": 74.5
     },
     {
@@ -107,28 +107,28 @@
       "rs_rating": 73.5
     },
     {
-      "ticker": "ROST",
+      "ticker": "NVDA",
       "rs_rating": 72.6
     },
     {
-      "ticker": "AAPL",
+      "ticker": "DXCM",
       "rs_rating": 71.7
     },
     {
-      "ticker": "NVDA",
+      "ticker": "AAPL",
       "rs_rating": 70.7
     },
     {
-      "ticker": "GILD",
+      "ticker": "BKR",
       "rs_rating": 69.8
     }
   ],
   "portfolio_rs": {
     "VKTX": 54.7,
-    "MRVL": 91.5,
-    "CRDO": 33.0,
-    "NBIS": 92.4,
-    "RDDT": 4.7,
-    "VRT": 83.0
+    "MRVL": 93.3,
+    "CRDO": 31.1,
+    "NBIS": 91.5,
+    "RDDT": 5.7,
+    "VRT": 79.2
   }
 }

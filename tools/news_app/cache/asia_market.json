@@ -1,149 +1,167 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "오라클 회사채 금리 8% 육박…AI 열풍 뒤흔드는 '자금조달 경고등' [김주완의 글로벌머니 X파일]",
+          "title": "'나이키의 굴욕' 한국에서도 현실로…3년째 매출 감소",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609119348i",
+          "link": "https://www.hankyung.com/article/202609120483H",
           "source": "한국경제"
         },
         {
-          "title": "“월급 쪼개 넣었더니 세금을 또?”…국민연금 실수령액 매달 깎아먹는 ‘이것’",
-          "summary": "국민연금 과세 원칙 핵심은 ‘소득공제 여부’ 임의가입 등 국세청 확인서로 ‘이중 과세’ 방지 20~30년 받는 연금…적은 세금 차이도 눈덩이퇴직 후 통장에 들어오는 국민연금, 과연..",
-          "link": "https://www.mk.co.kr/news/economy/12150966",
+          "title": "사고로 자식 죽으니 30년 만에 나타난 엄마…“사망보험금 달라” [어쩌다 세상이]",
+          "summary": "이혼 하고 양육비·교류 없던 엄마 아들 사망하자 상속인으로 나타나 전처에 상속권 상실 청구한 아버지 법원, ‘구하라법’ 적용…상속권 박탈이혼한 부모 중 한쪽이 자녀를 키우지 않았다..",
+          "link": "https://www.mk.co.kr/news/economy/12151217",
           "source": "매일경제"
         },
         {
-          "title": "\"외동딸처럼 키웠다\"…'1개 1만9000원' 명품 복숭아 불티 [프라이스&]",
+          "title": "2030 여성들 몰리더니…프로야구 1100만 '신기록' 세웠다",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609093982i",
+          "link": "https://www.hankyung.com/article/2026091204577",
           "source": "한국경제"
         },
         {
-          "title": "“주담대 금리 내리겠습니다”…0.45%P 역주행 택한 NH농협은행",
-          "summary": "시장금리 오름세 속 금리 인하 실수요자 부담 낮추기 나서NH농협은행이 주택담보대출 금리를 최대 0.45%포인트 낮춘다. 시장금리 상승으로 은행권 대출금리가 전반적으로 오르는 추세지..",
-          "link": "https://www.mk.co.kr/news/economy/12150826",
+          "title": "AI와 함께 배당주 골라볼까? ... 꼼꼼히 검증 안하면 착시 빠진다",
+          "summary": "배당주 투자를 위한 인공지능 활용법은행 예금 금리가 낮아지거나 주식 시장의 변동성이 확대될 때면 투자자들의 시선은 자연스럽게 ‘배당주’로 향합니다. 정기적으로 계좌에 현금이 입금된..",
+          "link": "https://www.mk.co.kr/news/economy/12150611",
           "source": "매일경제"
         },
         {
-          "title": "\"그 돈 주고 누가 신어요\"…'50만원→9만원' 나이키의 굴욕",
+          "title": "맥도날드 매장서 직원 사라졌더니…'뜻밖의 결과' 나왔다",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026091196731",
+          "link": "https://www.hankyung.com/article/2026091204367",
           "source": "한국경제"
         },
         {
-          "title": "젊은 층 30% 이상 “아이 원치 않아”…韓·日 닮은꼴",
-          "summary": "출생 동향 기본 조사 출산 의향 역대 최저일본 젊은 층의 30% 이상이 자녀를 원하지 않는 것으로 나타났다. 11일 일본 국립사회보장·인구문제연구소가 이날 발표한 ‘출생 동향 기본..",
-          "link": "https://www.mk.co.kr/news/economy/12150816",
+          "title": "“우리 아이들 최대 고민, 공부가 아니었다”…대인관계·가족갈등이 52%",
+          "summary": "다들어줄개 상담 분석 지난해 상담 4만837건 고립·관계단절 예방 강화청소년 고민 가운데 가장 큰 비중을 차지하는 것은 ‘대인관계’인 것으로 나타났다. 가족갈등까지 합치면 절반을 ..",
+          "link": "https://www.mk.co.kr/news/economy/12151108",
           "source": "매일경제"
         },
         {
-          "title": "여전한 인플레, 워시의 결정은?…AI 멸망론의 '진실'[월가 백브리핑]",
+          "title": "\"국민연금 왜 이것밖에 안 들어왔지?\"…모르면 수백만원 손해",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609129938i",
+          "link": "https://www.hankyung.com/article/2026091204347",
           "source": "한국경제"
         },
         {
-          "title": "은행장 출신 정통 KB맨 … 세대교체로 KB 혁신 이끈다",
-          "summary": "인공지능(AI) 도입 등 급변하는 금융 환경 속에서 KB금융그룹이 1966년생 지주회장을 내세우며 세대교체를 선택했다. 11일 KB금융지주 회장후보추천위원회는 이재근 KB금융지주 ..",
-          "link": "https://www.mk.co.kr/news/economy/12150805",
+          "title": "주유소 휘발유값 17주 연속 하락…서울만 1900원대",
+          "summary": "국제유가가 큰 폭으로 올랐지만 정부의 석유제품 최고가격제 영향으로 국내 주유소 휘발유와 경유 가격은 17주 연속 하락했다. 12일 한국석유공사 유가정보시스템 오피넷에 따르면 9월 ..",
+          "link": "https://www.mk.co.kr/news/economy/12151024",
           "source": "매일경제"
         },
         {
-          "title": "마이크로소프트의 뒤늦은 후회 [박신영의 개장전 요것만]",
+          "title": "남자는 데이트 한 번에 '14만원'…여성은 얼마 쓰나 봤더니",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609129941i",
+          "link": "https://www.hankyung.com/article/2026091203927",
           "source": "한국경제"
         },
         {
-          "title": "“매년 880만원 아끼는데 안해요?”…파이어족 다들 한다는데 [이번주 찜할 ETF]",
-          "summary": "레버리지에서 커버드콜로 머니무브“커버드콜 2만주 있으면 마음 놓고 은퇴하는데 왜 안하는지 모르겠어요”. 최근 대기업 IT 회사를 ‘쿨하게’ 그만둔 김모 씨(56)는 이처럼 말하면서..",
-          "link": "https://www.mk.co.kr/news/stock/12150792",
+          "title": "“나랏빚 106조 늘었는데 재정 좋아졌다?”…국가채무비율에 숨은 ‘GDP 착시’",
+          "summary": "올해 채무비율엔 작년 GDP 전망 반도체 호황 반영땐 51.6→46.9% 내년엔 되레 48.3%로 1.4%P 상승 “호황기엔 기금보다 국채상환 우선”정부가 160조원대 미래대응기금..",
+          "link": "https://www.mk.co.kr/news/economy/12151012",
           "source": "매일경제"
         }
       ],
-      "summary": "글로벌 AI 인프라 투자 과열 속에서 오라클 등 자금조달 비용이 급등하는 등 자본시장의 경고등이 켜진 가운데, 국내에서는 NH농협은행이 주담대 금리를 인하하며 실수요자 부담 완화에 나섰습니다."
+      "summary": "반도체 호황에 따른 GDP 착시 효과와 재정 건전성 논란이 부각되는 가운데, 프로야구 관중 신기록 등 내수 소비의 단면이 교차하고 있습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "Japan eyes next-gen fast breeder reactors as China, Russia lead",
+          "title": "Footloose in Kandy: Lingering in Sri Lanka's sacred city",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/energy/japan-eyes-next-gen-fast-breeder-reactors-as-china-russia-lead",
+          "link": "https://asia.nikkei.com/life-arts/life/destinations/footloose-in-kandy-lingering-in-sri-lanka-s-sacred-city",
           "source": "Nikkei Asia"
         },
         {
-          "title": "New $11bn canal underscores China's turn toward Southeast Asia",
+          "title": "Japan's Nidec to exit Cambodia production over Thailand border conflict",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/big-in-asia/new-11bn-canal-underscores-china-s-turn-toward-southeast-asia",
+          "link": "https://asia.nikkei.com/politics/international-relations/thailand-cambodia-conflict/japan-s-nidec-to-exit-cambodia-production-over-thailand-border-conflict",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Toyota brings back physical buttons for Lexus, with a low-key twist",
+          "title": "Fujitsu to export AI chips built on supercomputer tech to US, Asia",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/automobiles/toyota-brings-back-physical-buttons-for-lexus-with-a-low-key-twist",
+          "link": "https://asia.nikkei.com/business/tech/semiconductors/fujitsu-to-export-ai-chips-built-on-supercomputer-tech-to-us-asia",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Seoul's Incheon airport, now busiest global hub, looks to sell know-how",
+          "title": "Modi and Xi agree to look beyond 'differences' at New Delhi talks",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/transportation/seoul-s-incheon-airport-now-busiest-global-hub-looks-to-sell-know-how",
+          "link": "https://asia.nikkei.com/politics/international-relations/modi-and-xi-agree-to-look-beyond-differences-at-new-delhi-talks",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Mitsui, Tokyo Gas join Japan power market players to talk long-term trading",
+          "title": "BRICS joint declaration calls for 'maximum restraint' in Iran war",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/energy/mitsui-tokyo-gas-join-japan-power-market-players-to-talk-long-term-trading",
+          "link": "https://asia.nikkei.com/politics/international-relations/brics-joint-declaration-calls-for-maximum-restraint-in-iran-war",
           "source": "Nikkei Asia"
         },
         {
-          "title": "China hikes visa fee sevenfold for Japanese visitors, citing 'reciprocity'",
+          "title": "Vietnam's richest man Pham Nhat Vuong turns businesses over to sons",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/international-relations/china-hikes-visa-fee-sevenfold-for-japanese-visitors-citing-reciprocity",
+          "link": "https://asia.nikkei.com/business/automobiles/electric-vehicles/vietnam-s-richest-man-pham-nhat-vuong-turns-businesses-over-to-sons",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Over 20% of young Japanese plan to never marry: survey",
+          "title": "Japan's future US investments to focus on power sector: trade minister",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/society/over-20-of-young-japanese-plan-to-never-marry-survey",
+          "link": "https://asia.nikkei.com/editor-s-picks/interview/japan-s-future-us-investments-to-focus-on-power-sector-trade-minister",
           "source": "Nikkei Asia"
         },
         {
-          "title": "How 9/11 accelerated China's rise and the decline of US hegemony",
+          "title": "Dogs sniff out explosives to help protect Narita Airport",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/comment/how-9-11-accelerated-china-s-rise-and-the-decline-of-us-hegemony",
+          "link": "https://asia.nikkei.com/business/transportation/dogs-sniff-out-explosives-to-help-protect-narita-airport",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Sumitomo Metal launches Japan's first EV battery recycling plant",
+          "title": "Huawei rolls out AI-based tourism promotion service for Xi'an region",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/automobiles/electric-vehicles/sumitomo-metal-launches-japan-s-first-ev-battery-recycling-plant",
+          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/huawei-rolls-out-ai-based-tourism-promotion-service-for-xi-an-region",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan eyes subsidies to create emergency capacity for drones, ammunition",
+          "title": "Bandai finds right recipe to turn toothbrushes into Gundam models",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/defense/japan-eyes-subsidies-to-create-emergency-capacity-for-drones-ammunition",
+          "link": "https://asia.nikkei.com/business/media-entertainment/bandai-finds-right-recipe-to-turn-toothbrushes-into-gundam-models",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "일본은 차세대 고속증식로 개발 및 방산·드론 공급망 구축 등 안보 및 기술 자립에 박차를 가하는 한편, 젊은 층의 비혼 트렌드 심화와 방일객 비자 수수료 인상 등 인구 구조 변화와 대외 정책 조정이 눈에 띕니다."
+      "summary": "후지쯔의 대미 AI 칩 수출 추진과 일본 기업들의 공급망 재편 움직임이 이어지는 가운데, 글로벌 통화 흐름과 안보 이슈가 주목받고 있습니다."
     },
     "TW": {
       "headlines": [
         {
-          "title": "Astera Labs vs. Taiwan Semiconductor Manufacturing: Which AI Supplier Stock Is a Better Buy in 2026?",
+          "title": "Apple and Taiwan Semiconductor Manufacturing Just Announced a Cutting-Edge Chip. 1 Stock Offers Far Greater Upside.",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObVJta2dGTW1scl80OXRZWm5vRlNZaWpwR2tJd2tBRDM1ZzRRVnVFNlJhZi1nbGI4dXdGdGJWc01BS0ZBOTIyTEcxT1JqNXRzV05FbnJIdmpxMnpIUFZIV1hWYjhTcjM3OEdaNFRUNmQ3dkcxU3Y0TFpqUmVUVWJ2RGlzdXp6Um1XdGZpcjEyZlQ0SXR4b0N0Ty1KdVUtVHVpcEJzUVBoRWQxVUl0dG55YXZTc0pWNlQ1UUpCUDRCVWlfelhSZ0lVOTVsbkk4dnN5QzJpRDI1cWtxNG9TMi00X0hjZGg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3VnVS1Kd3JUNldqTGRQYVpjNUlDeHZXWHVLSkVTY21DS0FLcTZzcEp3eFgxQzRpVFYwYlk3NDZqQmxqTUE2Q1lUZWNUeGRQd0N5aExwNVZKbUx0bVRYRHVPNmtpaUZiNWZMMXhNSXdqY0dkZmh1XzAzUURrOUszRlI1QmZBcmRBTzU2VmxnajhvaVpZZHQ3TEtDWEt3MGRUZ04xV2JCY0l5dDQ2U2hn?oc=5",
           "source": "Google News"
         },
         {
-          "title": "World’s largest contract chipmaker TSMC sees August revenue surge over 53% to record high",
+          "title": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ycjd0eDNoeHBMd2Y4OE5TT2JvVUlNbVlhREFBc19jRTU3b0lrRTkxU1JrSmdmZ1AwcGFsWUlvZXBfT3FVS093cWxNZDA0WlRmb3haODhHVHREaDlyV3RYWVNjdEtYWTMtdGxwUEhPb3kzd9IBd0FVX3lxTE51eV9XN2ZtTHdhbUJaX1dtaTFWT0k5THItMFBIb3RRN3ZZT2dlamlnLXRaMkROcHFCQjBTWkcyQ3BlTWc1bmRsMUpsTnRwU2VKUWRxSW5lQ3FiTV9MRzVKX1QwUi1LYThTaEhpdUs0dTcyd0hER2Jn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa0NXTTRONDBkLTlvbEZqcG8tS2JiNDFmMlRNV2Rnenc4SVpaZEZ4M001aG9PNDNhV1I5cDZKMHA2aEhqRU55am9wQWFSb1F6UnRsQ2ZPeEp3UGFEZ2xTZHJWV0tLZnZWempmXzlqUVMtSzU4QkNQMzJXLVRXd21LNzFCek9FOFhVdUd3RDlXZXQyT0QxTko4?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Hits Record August Revenue, Is The AI Upside Already Priced In?",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYnMxVG9PSmNnOW5pRGVtbE1XVXpCQmFGTW1ZWkhYbWp1eVgyRzMzRFpCNDRkc29FUkNjTFN3VlQ5TUo1RUExaFBzVW9qTDl0VlU1TnY5RTNGVENZOFZzdE9rcnE3REJGY3JPQjYybi11SWFjT2FfVHZWMW1sSDllR2VyMUVzcFk4aGNPazRURENHVkxNbm9wVmc2VXBBdkZreERtSnJvaWtzZnhycjBLQkRoTnpJd09CZzNOaElTTkJaRHF6eVFHeEczU1Rlbm1Lc3BGMHlPVy1kX3JtLWU3dW9zRXJQaHc5Vzg3VdIB8gFBVV95cUxNcXo4WV91OHRlb1JyeDQtOXhRRk9iSzM1REs3LTlNLU15T3Bmb1Ztd0VRS0xLQjFlZ2RNSGM4YzRZS1VISy12c3FDNEdjS0hBZGFPTnIydXN2RUZ2OGxHVVJEU3UxU1NQQmZNeFB0TURablpvanhOa0Zjc1FSZDI2MTZVUmpzNWxMbDBXZ0dlNEY3XzdEMkhjXzdyZzhQNEFkNl9xbFpXamNHLWg2NFIwWGwtNGhucjlPdUNKbTNldlh5Y3Jfd0pIYXViZHJuVGM1MGFFSG5FWEp2azJZQ2RXRnQyQmMyLTlOZ09ya3dOdDA0QQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Remembering a pioneer",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uMmVLcURtN0VRckZTUHQtb19lVVJMU2tKR0NZVVFLSGxYaW9rRF84cFU2V1pxTjZDSXhLYUJVSWRPVFc0TGVGZWtXYjlUZWFVWF9aNUJCaGt3WUJmTS1oNlhSYVdDMGI5VmRlTW1fMmpRTEVTMlF0TUhn?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semiconductor September Revenue Surges 53% and Can’t Keep Up With Demand",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaUZDcjl5UjI0bEVUV0lmVUxwLW16ZXVDQ0QxVGlueFBPOHlpWnprUzBHUDAwc1QtVC1wV1Zkc1lWWDJyZmxNWldMaDJXX3F1NjJWbXlPNERyVWN0a2ozMFdJY1dQdnJIRDdlY1ZWc1F6Mm43TmdEU05qTWpVbEFXX2hCN0ctZjNrcE0wNnhmYkJUZEVORVVNYkNIS1FwQUlYTkdkWlJkU3VIa1g5OVRSbkZTdWZFNnI1NzV3ZVpn?oc=5",
           "source": "Google News"
         },
         {
@@ -153,52 +171,46 @@
           "source": "Google News"
         },
         {
-          "title": "AI Demand Keeps Breaking Records at Taiwan Semiconductor",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEp1eDJUQUEwQXA2Y3lOWTZOY0gzbjdOOHhFaXNEcE1RTDltekNKUm9Wb2tPWmRHNk9HS2J3X1FLSFZYSU40cjJVX2oybjhVOFV6TlB0aHM4TDYyQjFuTlZkVnB6Q1gzZnFqZ3dxTndzVGVPYWR1aU1POHBJUHZPdDBsVndtSEctV3pNZHNOeWY3Nk9EQVIyUGN0VnUtcW1ydGhSUnRkcHl5Z0p6UGc?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Intel Climbs 3% on Chip Price Hike Report a Day After Piper Sandler Went Neutral; AMD Rises 2%, Taiwan Semiconductor Drifts",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPaDRhOWxtNGMzWVByYVVYNmRKV2p5eWJvLW9LNEk0VjFxbkV2NlVsanVtcjBMWFRscVhQNjZlRGloaVdhTi1qX096bU9BUExaOG9fSm1MZXR1eGZ5THZOYTdJazZSaTlKVklKMzMyWnpSUTZ5QXVlYTFLakFVaG9nQ004QXZueVVwUEFPZTVUMFg0Y04ydGQxQ2hQNDZjV0VobDBzMi1fUFlubFFJRExpZEdMUGlkejlhVWZBYmpxRE1TREIwWWZIZkt6YjlWUUNwMVF2MjYtcXNXSWt1REhZX0ozc2w5N2JZMWphUDJIVVlRdWJZM0E?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "What Could Taiwan Semiconductor Manufacturing (TSM) 2 Nanometer GAA Ramp Change?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONlJ1YVFGS0I5eUlfQ3VkTG5hUl91TkJZRlRRNThLS3lLdzhjWmEwMnRxVGE3M1V1c0Y5dkNBTDY5QjFKT0dsZ2x0VFZvcnV2UGFldElBUVpER3FYbjBvVHFfZXM4anJLcnBRYVl3MWVHc1dxcElORkw0YnJOU2VhTEtTZkp0VGdDU3ZtcVZXNG1XMlJXd3RIUi0tckxFWGl4bmNaR3c2ckpOSjhMcHlkenVvWEM4RTBxWFI3czFvNFl2aWRmUWZ6cklkVW1GYkw3cXg4Mzd2ZkFLY1l1U3RNRVJLSEVsWlJzaDhJSdIB8gFBVV95cUxNTjcycGlBeFZwSXZZZ0pzREhkX1FqY0duRU9XWV9VU1V5b0djaFF0dUMxajl4cVVVb3NnRHJrcHlPbUYxcm9pYktPVXl6YldiZXl2ZGd0VVA4X3NHY3dENVZTYzlxOEhlT2pRX3ZFVEI4NlJSNmZ6Vlo2b3luRS1hVjI2RlFhSnNFTjVVV3M1V2tGYVdickxQNnpmUjY0eXJLQU51Y2tIdUZxUDJwTFFmT1JKYmlheUhoZ2hYOUxsVzROMHhOV1ZwdUpDU2h2SVU5Z2pQREJJcHl5RXlkRkJBX0hSQzRFOHRlbVFSM2k3R21FQQ?oc=5",
-          "source": "Google News"
-        },
-        {
           "title": "TSMC Stock: Why Taiwan Semi’s Record Sales Isn’t Boosting AMD, Other Chip Makers",
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SekxhU1RoU2NEc2RGMEVCS2NDVFVjUmZaX0N6MGg1NEtMbk41YnZWN2xRazhMaVA3NnExUDFmakpqZi1ldGs0WERJMmxzZEluRXh3cmplNUIzX3kxa0NXN1huZFRvUWNOak94QlVNcGVxOGI3SjRZQ0NR?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Avance Clinical Wins ANZCham’s Australia-Taiwan Business Excellence Award in Taiwan",
+          "title": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) is Attracting Investor Attention: Here is What You Should Know",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXlRMldsQ05pOC1XU2htZDVWbmdRbTQ2NnRDMS1ReE1KeXNkVW56emNoVGRxQjZ5VkhEamx6VHZWNUJaM1VEXzN4SEFWTHNiNkJQMkNqeDJrMXNtY2dyR3BBSHNXZVZKRmpmdmpRWjFsLVFqbDlOY0xIbWZCUVEwWEJQYUp3ZEtRMlFmM2RaYTF3S2RHZGlQM2VDLXBkeEx6TEVXNzdNbGZiRFVqSlE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOTVCcGRlbG1tUHlIbDJGaXpKZ1hKbGFLX1ZhNXF4OFRYR0ljVVZOOWxLX2o1SkNlQmRCUEJ1UTNuaGUyVzFFMmFIem5MV2RlY2FMQ1BCZ2ZLeS00YmVhZFRoeTNTcmk3SkZrQW15dHR5aVRXVFNpeEh5MkFHQzlveV9SQmtsQTZ5MTM3UHlfVldXbjl3Mzk1bkg2QnpUbTQ5UnBVbkI2d0hRYUVaYWFpSw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Stifel reiterates Taiwan Semi stock rating on strong August sales",
+          "title": "Astera Labs vs. Taiwan Semiconductor Manufacturing: Which AI Supplier Stock Is a Better Buy in 2026?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2V3NWNmN0VfbFZaTlVZV2xKX01vQmdJY0xCaU1ueDZIZ244d0w1OVJIV3JtYVZXRGNZOWFHSFVCRl9FMzUwRFRvU01JS1lKVjk4bk9oY1VHcnNrQnR0cmVvdW1vanNlbmdRbWJFRnpYMUVJdk9xVHBnbFlkSFNwb0lxYVlVcWVZQVI0LUxtYzFrM29BblhSRFhnMmRzMTljeU5OWHh0SnZxSlZmODV5ZVRGU2pTYm5oQVQyU00yQ3RPTGc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObVJta2dGTW1scl80OXRZWm5vRlNZaWpwR2tJd2tBRDM1ZzRRVnVFNlJhZi1nbGI4dXdGdGJWc01BS0ZBOTIyTEcxT1JqNXRzV05FbnJIdmpxMnpIUFZIV1hWYjhTcjM3OEdaNFRUNmQ3dkcxU3Y0TFpqUmVUVWJ2RGlzdXp6Um1XdGZpcjEyZlQ0SXR4b0N0Ty1KdVUtVHVpcEJzUVBoRWQxVUl0dG55YXZTc0pWNlQ1UUpCUDRCVWlfelhSZ0lVOTVsbkk4dnN5QzJpRDI1cWtxNG9TMi00X0hjZGg?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan and Europe Strengthen Chip Collaboration as Supply Chain Resilience Takes Center Stage",
+          "title": "AI Chip Demand Keeps TSMC Stock And Large Cap Tech Shares In Play",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMnlTT2NkbU5SNEZXQUJRRHlOMWVON1JJenVWUV80Vzc2SW5kRFNHa0R5TnJ4TUVPVUNWX0VzM1UwREc5WWdKYmZKUnk0LS00M0NWNjNienJidVMyTmR0dTN4dU5tZ0hBYTh5blRrTUw4SW1qN1pqTDlMWDdZU3FBNmpGbm9ZNjR6YnhTeU15bEtTbFd2dkg5SGRONUY0alFrU3dZS1d3NDQwYnFWLXFRN28xTUtfXzgyc3Y5Rl9IbHh2SUx5RnVDSzJhbUJhc2tsY3Q0VUVJcFd0Z25hb2pyRXdGd2I5SWRn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNGJxd3VvSnZMbFUwQzIxUTYyRU5CbWVNd0FzMjNEM2dreXc5R3pFd3NGa1NReUU1MDhVSGlnRUt5eGxpakVlUVFsUEgzc2VOckJoVENLc19oX2R2RDR0YWYzaVNqZWNZYUZyWTlDdG9qS01VMjVXc1k2MmlYLVpqandQS2Y3RUEtQVREZ0hndXZ4bGx0aGdxSzJ2ZG0tMkJOZW9WU2diZEozRlY3bnFGUGYwcGUzU3FEQWhvM251MHBLd2EyaV8zellBUWxsR3ZzTHFSVEs1QXR5amZhTzRjSDZBWEhoa0FSTjllTWFGMVhHS01hZERZ0gH8AUFVX3lxTE9rV2VCbzl6LTEwS2VvQ1RpTVlnSDZpcmROVkVkUl8yTVE0SGJBSFlNalFvRnc0cWg2NkNfT05iZVh1NHktYjVwRGxLem1aM0UyeEZWVktDY21tcWFZZHJrTVNEdW15TW43Y3VCLTdMUHdpM2tTU1oxNGUxVGREWk8xOGpTNnNsY2lqMWJfeVc0ZFMwd2ZsV1ZhbEViUWxHWjVnQXdzOU5uY2JEQk41MXF5WXpWaXFoekFBN2JtTWxPWmwyNHJwM3FGcGNyVW1LdWdTaWhBOHFITEw3WnBBRlc1VmduLXNJdHlJOXk3SVBxQS15dnB4Zk8xd3c2cw?oc=5",
           "source": "Google News"
         }
       ],
-      "summary": "TSMC가 강력한 AI 수요를 바탕으로 8월 매출이 전년 동기 대비 53% 이상 급증하며 사상 최고치를 경신, 글로벌 반도체 공급망에서의 독보적인 입지를 다시 한번 증명했습니다."
+      "summary": "TSMC가 사상 최대 수준의 월간 매출 급증세를 기록하며 흔들림 없는 AI 반도체 수요의 핵심 축임을 다시 한번 증명했습니다."
     },
     "CN": {
       "headlines": [
+        {
+          "title": "How AI tools are reshaping stock trading, investment research in China",
+          "summary": "When Ryan Lei has an investment idea, he no longer has to spend days writing code and trawling through historical data to corroborate it. The 27-year-old quantitative trader in Hong Kong now delegates much of the grunt work to artificial intelligence. For a recent bet tied to a major technology init",
+          "link": "https://www.scmp.com/business/china-business/article/3367211/how-ai-tools-are-reshaping-stock-trading-investment-research-china?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Taobao’s ‘ugly’ goods find a growing market among China’s young consumers",
+          "summary": "Products widely considered “ugly” or “bizarre” have gone viral online in China as millions of young consumers embrace the items’ quirky humour and distinctive character. Cumulative sales of such products on Taobao – an e-commerce platform of Alibaba Group Holding – have surpassed 230 million yuan (U",
+          "link": "https://www.scmp.com/business/china-business/article/3367218/taobaos-ugly-goods-find-growing-market-among-chinas-young-consumers?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
         {
           "title": "Private equity’s Fang Fenglei on investing in China, capital market reforms",
           "summary": "Over the past three decades, investor Fang Fenglei has had a major role in shaping China’s capital markets. He worked with Morgan Stanley in the early 1990s to help create the country’s first joint venture investment bank – China International Capital Corp. Then, at the start of the millennium, he s",
@@ -246,33 +258,20 @@
           "summary": "China’s buoyant stock market lifted brokers’ earnings in the first half, while Hong Kong saw continued growth in retirement assets. Beyond China, a strengthening yen and Washington’s Treasury buy-back programme highlighted shifting dynamics in global currency and bond markets. Here are some of the f",
           "link": "https://www.scmp.com/business/china-business/article/3367158/us-treasury-yield-hits-19-year-high-japanese-yen-strengthens-numbers-moving-markets?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "Haidilao’s stock rout exposes funding risk from Beijing’s taxation crackdown as payments loom",
-          "summary": "The turmoil surrounding Chinese hotpot chain restaurant operator Haidilao International Holding could serve as a warning to investors of the funding risks stemming from Beijing’s new taxation regime on overseas assets held by wealthy individuals. A plan by Shu Ping, the co-founder and wife of Haidil",
-          "link": "https://www.scmp.com/business/china-business/article/3367159/haidilaos-stock-rout-exposes-risk-beijings-taxation-crackdown-payment-day-looms?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Yuen Kee Food enters final stage of Hong Kong IPO after HKEX approval, sources say",
-          "summary": "Yuen Kee Food Group, the owner of well-known restaurant brand Yuen Kee Dumpling, has cleared its listing hearing with the Hong Kong Exchanges and Clearing (HKEX), aiming to raise between HK$300 million (US$38.3 million) and HK$400 million, according to people familiar with the matter. The conclusion",
-          "link": "https://www.scmp.com/business/banking-finance/article/3367133/yuen-kee-food-enters-final-stage-hong-kong-ipo-after-hkex-approval-sources-say?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "중국 정부가 에너지저장장치(ESS) 공장 신설 승인을 동결하며 과잉 공급과 출혈 경쟁 차단에 나섰고, 자동차 산업의 5개년 발전 계획을 통해 질적 성장을 도모하는 등 산업 구조조정이 가속화되고 있습니다."
+      "summary": "베이징 당국이 배터리 공장 신규 승인을 동결하며 과잉 생산 방지에 나선 한편, AI와 핀테크를 결합한 모바일 결제 혁신이 가속화되고 있습니다."
     }
   },
-  "trend_headline": "AI 호황 이면의 자본 경색과 반도체 독주",
-  "summary": "대만 TSMC가 AI 수요 폭증으로 사상 최대 8월 매출을 기록한 반면, 한국과 글로벌 시장에서는 AI 열풍에 따른 자금조달 금리 상승과 공급 과잉 산업에 대한 통제가 동시에 진행되며 명암이 엇갈리고 있습니다.",
+  "trend_headline": "AI 반도체 초호황과 공급망 재편, 아시아 경제의 새로운 명암",
+  "summary": "오늘 아시아 시장은 TSMC의 기록적인 매출 폭발로 대변되는 AI 반도체 수요의 강세가 전 지역 기술·수출 지표를 견인하는 동시에, 중국의 배터리 설비 동결 등 과잉 공급 해소를 위한 구조조정 압력이 동시에 전개되는 하루였습니다.",
   "cross_country_themes": [
-    "AI 인프라 및 반도체 밸류체인",
-    "산업 과잉 공급 및 자본조달 리스크"
+    "AI 기술 및 반도체 수요",
+    "공급망 및 생산 거점 재편"
   ],
   "sector_hints": [
     "Semiconductors",
     "Automotive",
-    "Banking & Finance",
-    "Energy Storage"
+    "Fintech"
   ]
 }

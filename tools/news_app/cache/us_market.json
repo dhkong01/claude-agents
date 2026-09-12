@@ -1,7 +1,43 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "region": "US",
   "headlines": [
+    {
+      "title": "GM plans U.S. battery development as Trump s DOT attacks Ford for China ties",
+      "summary": "Most battery cells currently rely on raw materials from China. GM is seeking to establish domestic supply chains both for EVs and energy storage.",
+      "link": "https://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Why OpenAI s Sam Altman says an IPO isn t in the cards this year",
+      "summary": "Concerns about AI safety have ramped up, and OpenAI s CEO says now would be an ill-advised time for the ChatGPT creator to go public",
+      "link": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "U.K.’s Reform Party Rakes In Record $97 Million Donations From Crypto World",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmlFZkNQU3YtVlNmZjk3ai0tN19BV2owRmQtdHMzNzFaQ183Uk9MSlBuV1lkY0ltNTJGc0hkMDVrTEJJUFFFTGR4OUYtR1RBUG8xeDNNRGllWEZ6ZWUxc3p1aDZrdndpSUdFVUdtUDhmMHkyR2h4Vmp5ckpUT2JycGJVQjRZVUszUmdwMWhIUERQd0RKcXNJRDFkSU1nTFFib3J5UnFrY3N3TUZyX1Rqag?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "172-year-old bank sees 400% upside for 'federal bank' token",
+      "summary": "",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/172-old-bank-sees-400-173349444.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "OpenAI IPO Won’t Happen Until 2027, Sam Altman Tells Fortune",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZzhjTS1GNC1rcHlXYWQzQ2lZZ3RjWm16N25vNzZXTGZPZHRnM3Z2WndKb2Fsb1Q4VE9ENDdUamR0enFSeUdINWpabW93eDRueFlSYmkyWGtWaFRvVGs3UlR1MXpUWHhYdlFvdWNTTEhUZHRzRllyZ2hjQUFyNTV2eklxazV0dWNabXNtTURUU2tGVEJNTWdfTWRkRGE3MlpGanpqR2JqOHdXQThxRm9F?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Buy Rocket Lab Stock. It Has Something SpaceX Doesn’t.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJT3pXeDlmTVZBQjF1NlhucTd5OUk5OE1kOEE3VkVJbUE1cFQ0dl96YWJFWnpxdlFJcDNvXzVfTjRUMnZCQVFUWHBPa3hQY0hDdGttTzVhRjdOallHQlBjRFc2UUdRRjIyVi10Ti1CcHZ6MjNjalV2aw?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Record U.S. cyclosporiasis outbreak is over, CDC says",
       "summary": "The largest outbreak, linked to shredded iceberg lettuce from Taylor Farms, sickened more than 12,000 people.",
@@ -9,33 +45,33 @@
       "source": "CNBC"
     },
     {
-      "title": "This investment is safe from both Trump and the Democrats and it pays 4.7%",
-      "summary": "There s a safe haven hiding in plain sight.",
-      "link": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
+      "title": "Elon Musk backs Anthropic s call to slow down AI progress before rogue bots take over the entire internet",
+      "summary": "Leaders of major AI companies say they agree with Anthropic CEO Dario Amodei, who just called for the tech industry to move more slowly with model development.",
+      "link": "https://www.marketwatch.com/story/elon-musk-backs-anthropics-call-to-slow-down-ai-progress-before-rogue-bots-take-over-the-entire-internet-46f12d98?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Saudi Arabia Shuts Down Pipeline That Was a Crucial Hormuz Bypass",
+      "title": "News Quiz for September 12, 2026",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN1NjdWJTUm9QQ1h1RGVVWEY5ZTQ2ODJIMHJ1bENvcVpURFZCVHU0dUphTlUtM19OdW1ManZxaUlHLTBNTWlERDZ3cXNTM0Y5Nk1GcnFXazQyenc3dm0zT0lvcjFwY2FEdHNqOHB2YU11RjlfdUdyeUs4dDJXbUlmN2Y4d3RaV0s1YnZDRklhRXV4OVp0SnlTdnpKOTN0X0ROcEh1UFB2eVF1aEd1TDFuQWFR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR0t2NWxQZnZUXy0zVnFQQkxxdHZlNnQzY2I2SzVKSUV5NDBGelhWN3hiUjNvYlVKR0FYaHVqZHh1SGZHRUZNelA1ZGdsd0otaEJOT1lIZ2xYUFR5NDJIdmV0T3ZsbWJfbzBnSFo0ZzY0RGdmbjdnVGozSzBrTWlfdQ?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Popular women's clothing chain closes 177 stores",
+      "title": "U.S. Bancorp (USB)’s Dividend Increase Has More Behind It",
       "summary": "",
-      "link": "https://finance.yahoo.com/small-business/articles/popular-womens-clothing-chain-closes-231700943.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-usb-dividend-increase-221600807.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Oracle to Spend an Additional $700 Million on More Job Cuts",
+      "title": "Anthropic CEO Says It’s Time to Slow AI Model Advances",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd3N3WlJTUFZVNHEybUtHS3dfczVCa3Npc1l5LWVxRkhxZENGM2NjZDdGYUJ0RHVlTEQ3S2dqYVZfVUVEVlRUdnlDd29scU96MHVFcGJtQURrQ1o3Z1ptRnVlaW82UWdSQ1J6MzExZmI1V29ZTW9wcWtZRU5Kano5T1Y4WlhmMU5XZEtCY21lVjJaejlFODZN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlBPOGtIVFdERkFSODVUMU84NkRpM282MzgybkR1RXAxN1FMZXNON3lMZUpoMjFxU3ltWDVkT1RuNEJwcEhGR21qeVVuQjI2VkwtRG1KbE9nLVhEQjAyQjdpdjExYWRjSFRRLTJ6OHkxcmlkWkRYUS1sdV8wUGUyTEdNWWFzNGJjYWFYckxIRGZFWC1sTzJQSmtESWRCX1ZkekptTVlHWjQwakxYLUtVQ3J4SWc3UQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
+      "title": "Why Nvidia’s Chip Rivals Have Left It in the Dust This Week",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNlJIeHBqb0gxSDA2LVJERmRUb08xLTVwVmFqV2ZvQzFXRHlPRm1ZNldBNnBQRGZuUTFVd01hVGhVZXFqZVBKajB6SzM0RnB2bDF4bEpKZ0Y5MHVLdTZMdl9TVjFnS2gzN0lvbEg0RDFXZ0wzNU1fc3ZUeVJLWjJXRjlvalhGZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UNXo2RG9fVnBrYWE5cjlpS0ZpLWxhVk9Hb2FqdFZXVEFKSkNRQ0lxeXh2eDU5UTJySVA0WkNSNnIzNU1rVnpQNEtEYmt3azFSV01PdHZOb3U0VjJEbFBvWHVHeE5XNmgxaG5tZVFiODVXVWEzeXV6Z2J4ZUo?oc=5",
       "source": "Barron's"
     },
     {
@@ -45,33 +81,33 @@
       "source": "CNBC"
     },
     {
-      "title": "Marvell is sitting on an incredibly sticky business that could help it unlock a $30 billion opportunity",
-      "summary": "Marvell is best known for making custom chips but an analyst notes there s arguably more potential in supporting components and optical networking.",
-      "link": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
+      "title": "I still don t have my MRI : My health insurer canceled my plan without warning. Is that legal?",
+      "summary": "It wasn t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.",
+      "link": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "The Fed Is Poised for a Rate Hike. It Rarely Stops at One.",
+      "title": "Meet the Factions Driving the Democratic Socialists of America",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcEhIYUVxZFpYNlctYTJFOTRGckJQS3FRZGVRbl9MOWtWQTZNVkVKdFBMb3IxWFBJLVAtQlp5eTVWQkVSSmF4SDFOcFp1STdFSnk0OUZKempaejFVVzNiN3A1a2dQOE5TbVVMX2RXZm91allzMDNQM1doOXVadEIzNVlTYmdQWkgyVC1sZkhsSWwzOWhVeVVaRUxZamFfaXdCNkR3dkZONmlZejVJV3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbEpNaVJ1aUNyckVLUzlWS3NFM2t2R0FnT0ppLTkyem15bEpDLXFOakFZOG1NVU4yUDZwLVdPRC1IZFozNmhRUTJoRVFyV0RKZkFzZVBldFQzcDI2S0FNekNOOTZBeDM0Mld2X3ZJZG9mcU9ENFhSbnMwaXNkU2o0ZlVTU3ZSUkpFbFJucE1LbExleWh6RlFRWVV6TzFNbzBZM01vV1VSQ2FHZ1FGRjVF?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "HIVE brings in enterprise veteran to scale BUZZ HPC's AI cloud business",
+      "title": "Here is Why Piper Sandler Named Q2 Holdings (QTWO) Its Top Pick",
       "summary": "",
-      "link": "https://finance.yahoo.com/technology/ai/articles/hive-brings-enterprise-veteran-scale-233612805.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-piper-sandler-named-q2-221304680.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Citrini Founder Who Shook Markets Sells Firm, Plans New Fund",
+      "title": "Trump Brushes Off AI Doomsaying to Guard US Lead Over China",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRGVXOWQxbkczM3J6al9XeHQ0YkVnZ05XUG4xQUdNeDBpWDZDcjRVWTlENVlaQWxtRGV1OVNqOEl6Mi1OcmtNOUdodGV5OVd0WFlyLVhucUtLdmlhUWJMb2lSVGRXdFdiT1A2elRiY3JTRC1UZ0J4XzBMTTdQUVVIcHgycHBsbTQ3cDVnRE9xTi1uTXJzV29ETTlvV0VkSkRtbFJ4YnJnLWNMLS1iWnln?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNkttUlVrZDkyYS1jWjFESjByNUd4TWZZM1pxSlhKQ1BrbGVaWjNzMWhkRHhLdUJld3lvSkhvQ0drM3Z1cWU4Y2E1WGNnZTZ0X3FXOVNqMEM5TnZkd1lzYW9EZEpoaVJwUjlsT3B1WDhTT3dzMEtISTFxVkVWTk95a2tiQkNubnhVRlZvNTlPSUJ1Y1NCa0F3cnJSbnNuSWZCUGQ0TjRtU0VGUEN5VDRsMG9kV1U?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Boeing or Northrop? The Navy’s Next Fighter Race Is Down to the Wire.",
+      "title": "As Mortgage Rates Hit 7%, Home Builders Flash a Buy Signal",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSVhQd2xocEk3ZTZyVW42aklhaVJTeF8wX09sU2RRTnA0WmtBVDIzWmJKM1A0d2ZnTXdTWkI4ZTV1TVRXRXpSVy1vQzM0TmVqYXE0Tk9iREFxUGxCTmhXNXpHT2RVT0g2b0NzOXNHc1FNSjA2blpkVVVDcTdSTk5wMmRTRjlvZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUVZRb2t5OXczZm05dWs1N29NaXlzWW4tY09QZjRPT19xRWNHT3puYi1BZGhEN0pRQzVjUTlvU0ZXVFdzWTd1b0JiM3pXVGFMYkRTNU5Zb0tHX1pZdzNzY200cTZTUVpjejRnS1ptR1RCWXVScGtfT2QzeG1jNjg1dXoxRWRxbWNIb2VTUTllSzQ?oc=5",
       "source": "Barron's"
     },
     {
@@ -85,55 +121,17 @@
       "summary": "Am I required to create three new inherited IRAs so that the firm can divide it equally?",
       "link": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Inflation Comes In Hot",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fNnRXSkpvQUJidkxSOXQ1Z1lKWG1VQzJrbXNLWUNaaE5GYUtZLU9JQ0JlVEM2MTlyMFFVcm9zZ0pOQklaOGE1Q0NGdlJIS282eXlSNWlYUFVzUURKOXJUQ2N5U1JXdGVQSGJmMHE5azhoUXBn?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Man declares bankruptcy with 34 cents while hiding millions",
-      "summary": "",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/man-declares-bankruptcy-34-cents-234136167.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Saudi Shuts Oil Pipeline That Bypasses Hormuz After Attacks",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2Y0Q1NrVV83eFZoaHJNQ0EtNHRpQXkzd1ZBNUlkdkRRcjZmZ0REVk1SZlowTlVUUEhOLU1fNWx3OHBwR1RUNlVaUWswVTUzdU92OENNQldSLW4wRXBUWkd1T3czaExNQXd3ZENRNEtGMkF6TS0xakM0Q2xtUnlqVmt4ajNZVmZqVVA0LU0zUjBHVFQ4bXRfc1M0ZzlmT2xlY3lzZHFtSThzYm13cWc?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "European Natural Gas Surges to 4-Year High, Lifting These Energy Stocks",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWGdjY3ZwSTQ2RGVlMGlCUlNqYlN1T1NZOHlnVHpHY29KU2lJbDVqN1lmRTVfQzZ4TGxyOHRXbVYycmw5Z2dqLWZ0UzhMTnRxcDdFTnlJU2Mzd2pydWJSNzJyUGlkQzE4VzUxeHZaUkNWNV9TRld3ejJpZTlVUEc5MXZMdDk?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
-      "summary": "OpenAI launched ChatGPT for Financial Services, targeting the labor-intensive research, modeling and pitchbook tasks traditionally handled by junior bankers.",
-      "link": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Tesla could transform the trucking business and capitalize on high diesel prices",
-      "summary": "The EV maker aims to finally kick its long-awaited Semi truck into high gear unlocking a potentially huge opportunity, according to Morgan Stanley.",
-      "link": "https://www.marketwatch.com/story/tesla-could-transform-the-trucking-business-and-capitalize-on-high-diesel-prices-e4c48d79?mod=mw_rss_topstories",
-      "source": "MarketWatch"
     }
   ],
-  "trend_headline": "뜨거운 물가와 연준의 추가 금리 인상 우려",
-  "summary": "미국의 인플레이션 지표가 예상보다 높게 발표되면서 연방준비제도(Fed)의 추가 금리 인상 가능성이 대두되었고, 중동의 원유 파이프라인 폐쇄로 지정학적 리스크까지 겹치며 시장에 긴장감이 고조되었습니다. 기업 단에서는 오라클의 대규모 감원과 어도비의 강한 실적에도 불구하고 AI 시대의 높은 기대치에 미치지 못해 주가가 조정을 받는 등 매크로와 실적 우려가 교차했습니다.",
+  "trend_headline": "오픈AI 상장 연기와 AI 속도 조절론 대두",
+  "summary": "샘 알트먼 오픈AI CEO가 안전성 우려 등을 이유로 올해가 아닌 2027년 이후로 IPO를 연기하겠다고 밝혔으며, 앤스로픽 CEO의 개발 속도 조절 제안에 일론 머스크 등 업계 리더들이 동조하고 나섰습니다. 한편 어도비는 강력한 실적에도 불구하고 AI 시대의 성장 한계 우려로 주가가 하락하는 등 빅테크 전반에 속도 조절과 내실 다지기 분위기가 확산하고 있습니다.",
   "key_points": [
-    "WSJ 보도에 따르면 인플레이션이 예상보다 높게(Hot) 집계됨",
-    "연준이 단기 금리 인상에 그치지 않고 추가 인상에 나설 가능성 제기",
-    "사우디아라비아가 호르무즈 우회 송유관을 폐쇄하며 에너지 공급망 불안 가중",
-    "오라클, AI 지출 우려 속 7억 달러 규모 추가 감원 단행"
+    "샘 알트먼, AI 안전성 우려로 오픈AI 상장 시기를 2027년으로 연기",
+    "앤스로픽 CEO의 AI 개발 속도 조절 주장에 일론 머스크 등 주요 인사 동조",
+    "어도비, 탄탄한 실적 발표에도 AI 시대의 성장 둔화 우려로 주가 약세"
   ],
   "sector_hints": [
-    "Financials",
-    "Energy",
-    "Technology"
+    "Technology",
+    "Communication Services"
   ]
 }

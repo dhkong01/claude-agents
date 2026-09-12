@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "대만 TSMC가 강력한 AI 수요에 힘입어 8월 매출이 전년 동기 대비 53% 이상 급증하며 사상 최고치를 경신하는 등 글로벌 AI 반도체 밸류체인의 성장 모멘텀이 매우 강력한 것으로 확인되었습니다.",
+      "rationale": "TSMC가 사상 최대 월간 매출을 기록하고 후지쯔가 대미 AI 칩 수출을 추진하는 등 글로벌 AI 반도체 하드웨어 수요의 견고함이 재확인됨.",
       "related_tickers": [
         "TSM",
         "NVDA",
-        "ASML"
+        "AMD"
       ],
       "source_regions": [
         "ASIA",
@@ -17,44 +17,47 @@
       ]
     },
     {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 8.5,
-      "rationale": "사우디아라비아의 호르무즈 우회 송유관 폐쇄와 중동의 지정학적 리스크 심화로 국제 유가가 배럴당 105달러까지 급등함에 따라 정제 마진 개선 및 원유 생산 기업들의 직접적인 수혜가 예상됩니다.",
+      "name": "Technology",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "오픈AI의 상장 연기(2027년 이후), 업계 리더들의 AI 개발 속도 조절론 동조, 어도비의 AI 성장 한계 우려에 따른 주가 하락 등 소프트웨어 및 빅테크 전반의 단기 성장 둔화 우려가 커짐.",
       "related_tickers": [
-        "XOM",
-        "CVX",
-        "SHEL"
+        "ADBE",
+        "MSFT",
+        "GOOGL"
       ],
       "source_regions": [
-        "US",
-        "EU"
+        "US"
       ]
     },
     {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -5.0,
-      "rationale": "미국의 고금리 장기화 가능성 속에서 오라클의 대규모 감원과 글로벌 자금조달 비용 급등이 기술 기업들에 부담으로 작용하고 있으며, 어도비의 사례처럼 높은 AI 기대치에 부합하기 위한 투자 부담 및 주가 조정 압력이 존재합니다.",
+      "name": "Energy",
+      "direction": "positive",
+      "score": 7.5,
+      "rationale": "중동발 지정학적 리스크 심화로 브렌트유 가격이 배럴당 105달러까지 급등함에 따라 에너지 기업들의 단기 수익성 개선 및 정제마진 상승 기대감이 높아짐.",
       "related_tickers": [
-        "ORCL",
-        "ADBE",
-        "MSFT"
+        "XOM",
+        "SHEL",
+        "BP"
       ],
       "source_regions": [
-        "US",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -5.0,
+      "rationale": "중국 당국이 배터리 공장 신규 승인을 동결하며 과잉 공급 제어에 나섬에 따라, 전기차(EV) 및 배터리 공급망 전반의 단기 성장통과 구조조정 압력이 예상됨.",
+      "related_tickers": [
+        "TSLA",
+        "BYDDF",
+        "CATL"
+      ],
+      "source_regions": [
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Consumer Discretionary",
-      "note": "유럽은 유가 급등으로 인해 가계 가처분 소득이 감소하고 소비가 위축될 우려가 커진 반면, 아시아(중국)는 자동차 산업의 5개년 발전 계획을 발표하며 산업 활성화를 도모하는 등 지역적 온도차가 있습니다."
-    },
-    {
-      "sector": "Financials",
-      "note": "미국의 추가 금리 인상 가능성은 순이자마진(NIM) 상승 요인으로 작용할 수 있으나, 글로벌 자본시장의 차입 비용 급등 경고와 한국 내 금융권의 주담대 금리 인하 압박 등 규제 및 자본 요건의 불확실성이 혼재합니다."
-    }
-  ]
+  "conflicting_signals": []
 }

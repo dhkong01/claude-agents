@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "total_cost": 112695,
   "next_rebalance": "2026-08-21",
   "holdings": [
@@ -7,48 +7,48 @@
       "ticker": "VKTX",
       "shares": 350,
       "avg_cost": 33.48,
-      "price": 32.13,
-      "value": 11245.5,
+      "price": 31.98,
+      "value": 11193.0,
       "cost": 11718.0
     },
     {
       "ticker": "MRVL",
       "shares": 120,
       "avg_cost": 236.6,
-      "price": 226.96,
-      "value": 27235.2,
+      "price": 236.1,
+      "value": 28332.0,
       "cost": 28392.0
     },
     {
       "ticker": "CRDO",
       "shares": 100,
       "avg_cost": 250,
-      "price": 160.31,
-      "value": 16031.0,
+      "price": 162.95,
+      "value": 16295.0,
       "cost": 25000
     },
     {
       "ticker": "NBIS",
       "shares": 100,
       "avg_cost": 225.85,
-      "price": 228.11,
-      "value": 22811.0,
+      "price": 224.55,
+      "value": 22455.0,
       "cost": 22585.0
     },
     {
       "ticker": "RDDT",
       "shares": 50,
       "avg_cost": 200,
-      "price": 155.34,
-      "value": 7767.0,
+      "price": 157.77,
+      "value": 7888.5,
       "cost": 10000
     },
     {
       "ticker": "VRT",
       "shares": 50,
       "avg_cost": 300,
-      "price": 248.13,
-      "value": 12406.5,
+      "price": 257.06,
+      "value": 12853.0,
       "cost": 15000
     }
   ]

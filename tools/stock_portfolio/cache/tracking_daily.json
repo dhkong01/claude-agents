@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "data": [
     {
+      "ticker": "FANG",
+      "current": 205.39,
+      "donchian_upper": 211.02,
+      "donchian_lower": 197.67,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 2.7,
+      "dist_to_lower_pct": 3.8,
+      "channel_width_pct": 6.8
+    },
+    {
       "ticker": "MU",
-      "current": 1027.77,
-      "donchian_upper": 1016.59,
+      "current": 977.41,
+      "donchian_upper": 1027.77,
       "donchian_lower": 932.86,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.1,
-      "dist_to_lower_pct": 9.2,
-      "channel_width_pct": 9.0
+      "signal": "HOLD",
+      "dist_to_upper_pct": 5.2,
+      "dist_to_lower_pct": 4.6,
+      "channel_width_pct": 10.2
     },
     {
       "ticker": "AMD",
-      "current": 521.1,
-      "donchian_upper": 514.39,
+      "current": 503.6,
+      "donchian_upper": 521.1,
       "donchian_lower": 456.16,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.3,
-      "dist_to_lower_pct": 12.5,
-      "channel_width_pct": 12.8
-    },
-    {
-      "ticker": "INTC",
-      "current": 106.24,
-      "donchian_upper": 104.56,
-      "donchian_lower": 87.48,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.6,
-      "dist_to_lower_pct": 17.7,
-      "channel_width_pct": 19.5
-    },
-    {
-      "ticker": "LITE",
-      "current": 988.98,
-      "donchian_upper": 978.53,
-      "donchian_lower": 847.37,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.1,
-      "dist_to_lower_pct": 14.3,
-      "channel_width_pct": 15.5
+      "signal": "HOLD",
+      "dist_to_upper_pct": 3.5,
+      "dist_to_lower_pct": 9.4,
+      "channel_width_pct": 14.2
     },
     {
       "ticker": "MRVL",
-      "current": 235.01,
+      "current": 226.96,
       "donchian_upper": 251.01,
       "donchian_lower": 206.48,
       "signal": "HOLD",
-      "dist_to_upper_pct": 6.8,
-      "dist_to_lower_pct": 12.1,
+      "dist_to_upper_pct": 10.6,
+      "dist_to_lower_pct": 9.0,
       "channel_width_pct": 21.6
     },
     {
-      "ticker": "SNDK",
-      "current": 1764.17,
-      "donchian_upper": 1786.85,
-      "donchian_lower": 1480.77,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.3,
-      "dist_to_lower_pct": 16.1,
-      "channel_width_pct": 20.7
-    },
-    {
       "ticker": "STX",
-      "current": 885.92,
+      "current": 862.33,
       "donchian_upper": 994.79,
       "donchian_lower": 798.61,
       "signal": "HOLD",
-      "dist_to_upper_pct": 12.3,
-      "dist_to_lower_pct": 9.9,
+      "dist_to_upper_pct": 15.4,
+      "dist_to_lower_pct": 7.4,
       "channel_width_pct": 24.6
     },
     {
+      "ticker": "SNDK",
+      "current": 1692.59,
+      "donchian_upper": 1786.85,
+      "donchian_lower": 1484.95,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 5.6,
+      "dist_to_lower_pct": 12.3,
+      "channel_width_pct": 20.3
+    },
+    {
+      "ticker": "LITE",
+      "current": 935.7,
+      "donchian_upper": 988.98,
+      "donchian_lower": 847.37,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 5.7,
+      "dist_to_lower_pct": 9.4,
+      "channel_width_pct": 16.7
+    },
+    {
       "ticker": "WDC",
-      "current": 482.28,
+      "current": 460.93,
       "donchian_upper": 535.84,
       "donchian_lower": 441.43,
       "signal": "HOLD",
-      "dist_to_upper_pct": 11.1,
-      "dist_to_lower_pct": 8.5,
+      "dist_to_upper_pct": 16.3,
+      "dist_to_lower_pct": 4.2,
       "channel_width_pct": 21.4
     },
     {
-      "ticker": "LRCX",
-      "current": 315.84,
-      "donchian_upper": 343.84,
-      "donchian_lower": 288.32,
+      "ticker": "INTC",
+      "current": 100.32,
+      "donchian_upper": 106.24,
+      "donchian_lower": 88.24,
       "signal": "HOLD",
-      "dist_to_upper_pct": 8.9,
-      "dist_to_lower_pct": 8.7,
-      "channel_width_pct": 19.3
+      "dist_to_upper_pct": 5.9,
+      "dist_to_lower_pct": 12.0,
+      "channel_width_pct": 20.4
     },
     {
       "ticker": "FTNT",
-      "current": 157.22,
+      "current": 158.85,
       "donchian_upper": 172.78,
-      "donchian_lower": 153.66,
+      "donchian_lower": 154.54,
       "signal": "HOLD",
-      "dist_to_upper_pct": 9.9,
-      "dist_to_lower_pct": 2.3,
-      "channel_width_pct": 12.4
+      "dist_to_upper_pct": 8.8,
+      "dist_to_lower_pct": 2.7,
+      "channel_width_pct": 11.8
     }
   ]
 }

@@ -1,35 +1,34 @@
 {
-  "date": "2026-09-10",
-  "risk_score": 10.0,
+  "date": "2026-09-11",
+  "risk_score": 8.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 2,
-  "medium_risk_signals": 5,
+  "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
+    "Semiconductors": "ELEVATED",
     "Defense": "ELEVATED",
-    "Consumer": "ELEVATED",
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "The \u2018Forever War\u2019 In Afghanistan: 25 Years In Pictures",
+    "Inside An Ancient Lebanese City Engulfed By War",
     "Moscow Claims Ukraine Planned To Start A War Between Russia And The U.K.",
-    "Why Yemen Is Back On The Brink Of War"
+    "Uk Sanctions Against Israeli Settlers Divide British Rabbis"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense, Consumer \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
-    "long_pct": 20,
+    "long_pct": 35,
     "sqqq_pct": 20,
-    "cash_pct": 60,
-    "per_stock_pct": 4.0,
-    "action": "MAX_DEFENSIVE",
+    "cash_pct": 45,
+    "per_stock_pct": 7.0,
+    "action": "DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
-      "Defense",
-      "Consumer"
+      "Semiconductors",
+      "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense, Consumer ELEVATED]"
+    "reasoning": "Risk 8.0 \u2014 SQQQ 20% \ubc29\uc5b4 \ud3ec\uc9c0\uc158, \ud604\uae08 45% \uc720\uc9c0. [Energy, Semiconductors, Defense ELEVATED]"
   }
 }

@@ -1,24 +1,42 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "analyzed": 100,
   "top10": [
+    {
+      "ticker": "FANG",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 57660788736,
+      "price": 204.97,
+      "rs_rating": 81.1
+    },
     {
       "ticker": "FTNT",
       "canslim_score": 55,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
+        "N": 4,
         "S": 4,
-        "L": 7,
+        "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 116550418432,
-      "price": 158.85,
-      "rs_rating": 89.6
+      "market_cap": 114510700544,
+      "price": 156.07,
+      "rs_rating": 90.5
     },
     {
       "ticker": "ABNB",
@@ -34,27 +52,27 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 100386414592,
-      "price": 167.65,
-      "rs_rating": 83.0
+      "market_cap": 101907333120,
+      "price": 170.19,
+      "rs_rating": 83.9
     },
     {
-      "ticker": "NVDA",
+      "ticker": "AAPL",
       "canslim_score": 54,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 7,
+        "N": 10,
+        "S": 4,
         "L": 3,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 5272738725888,
-      "price": 218.36,
-      "rs_rating": 72.6
+      "industry": "Consumer Electronics",
+      "market_cap": 4849207869440,
+      "price": 332.27,
+      "rs_rating": 77.3
     },
     {
       "ticker": "MRVL",
@@ -70,8 +88,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 203970002944,
-      "price": 226.96,
+      "market_cap": 212184170496,
+      "price": 236.1,
       "rs_rating": 93.3
     },
     {
@@ -88,30 +106,30 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 822114451456,
-      "price": 503.6,
+      "market_cap": 842569351168,
+      "price": 516.13,
       "rs_rating": 92.4
     },
     {
-      "ticker": "FANG",
+      "ticker": "AMGN",
       "canslim_score": 51,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 4,
+        "N": 4,
+        "S": 7,
         "L": 3,
         "I": 10,
         "M": 7
       },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 57513263104,
-      "price": 205.39,
-      "rs_rating": 75.4
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 204007489536,
+      "price": 377.35,
+      "rs_rating": 74.5
     },
     {
-      "ticker": "AAPL",
+      "ticker": "NVDA",
       "canslim_score": 51,
       "scores": {
         "C": 10,
@@ -123,10 +141,10 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 4766021713920,
-      "price": 326.57,
-      "rs_rating": 70.7
+      "industry": "Semiconductors",
+      "market_cap": 5271048421376,
+      "price": 218.29,
+      "rs_rating": 67.9
     },
     {
       "ticker": "MU",
@@ -142,8 +160,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1103880126464,
-      "price": 977.41,
+      "market_cap": 1101452017664,
+      "price": 975.26,
       "rs_rating": 98.1
     },
     {
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 196087824384,
-      "price": 862.33,
+      "market_cap": 188774842368,
+      "price": 830.17,
       "rs_rating": 96.2
-    },
-    {
-      "ticker": "WDC",
-      "canslim_score": 49,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 166184124416,
-      "price": 460.93,
-      "rs_rating": 95.2
     }
   ]
 }

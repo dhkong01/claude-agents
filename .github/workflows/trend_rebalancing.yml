@@ -95,6 +95,16 @@ jobs:
             echo "mode=daily" >> $GITHUB_OUTPUT
           fi
 
+      - name: 알림 채널 자격증명 확인
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          echo "TELEGRAM_BOT_TOKEN : $([ -n "$TELEGRAM_BOT_TOKEN" ] && echo SET || echo 'NOT SET')"
+          echo "TELEGRAM_CHAT_ID   : $([ -n "$TELEGRAM_CHAT_ID" ]   && echo SET || echo 'NOT SET')"
+          echo "KAKAO_REST_API_KEY : $([ -n "$KAKAO_REST_API_KEY" ] && echo SET || echo 'NOT SET')"
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] && [ -z "$KAKAO_REST_API_KEY" ]; then
+            echo "::warning::알림 채널이 하나도 설정되지 않았습니다 — 추세추종 메시지가 발송되지 않습니다. GitHub Settings > Secrets and variables > Actions에서 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID를 등록하세요."
+          fi
+
       - name: 추세 추종 파이프라인 실행
         if: steps.guard.outputs.skip != 'true'
         run: |
@@ -136,6 +146,27 @@ jobs:
           done
           echo "::error::push 3회 모두 실패 — 데이터가 원격에 반영되지 않았습니다" >&2
           exit 1
+
+      - name: 추세추종 알림 발송 확인 (앱 데이터 커밋 이후 검증 — 커밋은 막지 않음)
+        if: always() && steps.guard.outputs.skip != 'true'
+        run: |
+          python - <<'EOF'
+          import json, sys
+
+          try:
+              with open('tools/stock_portfolio/cache/notify_status.json', encoding='utf-8') as f:
+                  status = json.load(f)
+          except Exception as e:
+              print(f"::warning::notify_status.json 읽기 실패 — 알림 발송 여부를 확인할 수 없습니다: {e}")
+              sys.exit(0)
+
+          if status.get("sent"):
+              print(f"[notify-check] 추세추종 알림 발송 확인됨 (mode={status.get('mode')}, date={status.get('date')})")
+          else:
+              reason = status.get("reason", "알 수 없는 이유")
+              print(f"::error::추세추종 알림({status.get('mode')}, {status.get('date')})이 발송되지 않았습니다 — {reason}")
+              sys.exit(1)
+          EOF
 
       - name: 데이터 신선도 최종 검증 (2일 이상 지연 시 알림)
         if: always() && steps.guard.outputs.skip != 'true'

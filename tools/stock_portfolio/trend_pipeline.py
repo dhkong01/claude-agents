@@ -330,16 +330,28 @@ def _get_kakao_token() -> str:
 def _send_kakao(result: dict, mode: str) -> None:
     """알림 전송 (Telegram 우선 / Kakao 폴백).
     발송 실패는 여기서 삼킨다 — 알림 실패가 앱 데이터 커밋까지 막으면 안 되므로.
-    (워크플로 자체의 실패 감지는 별도 스텝에서 처리)"""
+    대신 결과를 notify_status.json에 기록해, 커밋 이후 별도 워크플로 스텝에서
+    실패를 워크플로 실패로 표면화할 수 있게 한다 (조용히 사라지는 것 방지)."""
+    status = {"date": result.get("date"), "mode": mode, "sent": False, "reason": ""}
     try:
         from notify import send_message
         msg = _build_message(result, mode)
         if send_message(msg):
             print("[알림] 발송 완료")
+            status["sent"] = True
         else:
-            print("[알림] 전 채널 발송 실패 (시크릿 확인 필요)", file=sys.stderr)
+            status["reason"] = "전 채널 발송 실패 (TELEGRAM_BOT_TOKEN/CHAT_ID 또는 KAKAO_* 시크릿 확인 필요)"
+            print(f"[알림] {status['reason']}", file=sys.stderr)
     except Exception as e:
-        print(f"[알림] 발송 예외: {e}", file=sys.stderr)
+        status["reason"] = f"발송 예외: {e}"
+        print(f"[알림] {status['reason']}", file=sys.stderr)
+    finally:
+        try:
+            (CACHE_DIR / "notify_status.json").write_text(
+                json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+        except Exception:
+            pass
 
 
 # ── CLI ───────────────────────────────────────────────────────

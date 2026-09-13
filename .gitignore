@@ -78,6 +78,7 @@ tools/stock_portfolio/portfolio.json
 tools/stock_portfolio/cache/user_portfolio_rs.json
 tools/stock_portfolio/cache/trend_result_*.json
 tools/stock_portfolio/cache/latest_result.json
+tools/stock_portfolio/cache/notify_status.json
 
 # 로또 예측 데이터 (개인 사용)
 # lotto_history.json, prediction_history.json 은 git 추적:

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "rs90_count": 9,
   "stocks": [
     {
@@ -19,19 +19,19 @@
       "rs_rating": 96.2
     },
     {
-      "ticker": "WDC",
+      "ticker": "INTC",
       "rs_rating": 95.2
     },
     {
-      "ticker": "INTC",
+      "ticker": "MRVL",
       "rs_rating": 94.3
     },
     {
-      "ticker": "MRVL",
+      "ticker": "AMD",
       "rs_rating": 93.3
     },
     {
-      "ticker": "AMD",
+      "ticker": "WDC",
       "rs_rating": 92.4
     },
     {
@@ -39,11 +39,11 @@
       "rs_rating": 90.5
     },
     {
-      "ticker": "PANW",
+      "ticker": "CRWD",
       "rs_rating": 89.6
     },
     {
-      "ticker": "CRWD",
+      "ticker": "PANW",
       "rs_rating": 88.6
     },
     {
@@ -71,27 +71,27 @@
       "rs_rating": 83.0
     },
     {
-      "ticker": "CSX",
+      "ticker": "CSCO",
       "rs_rating": 82.0
     },
     {
-      "ticker": "FANG",
+      "ticker": "TXN",
       "rs_rating": 81.1
     },
     {
-      "ticker": "REGN",
+      "ticker": "AAPL",
       "rs_rating": 80.1
     },
     {
-      "ticker": "CSCO",
+      "ticker": "CSX",
       "rs_rating": 79.2
     },
     {
-      "ticker": "TXN",
+      "ticker": "FANG",
       "rs_rating": 78.3
     },
     {
-      "ticker": "AAPL",
+      "ticker": "REGN",
       "rs_rating": 77.3
     },
     {
@@ -99,36 +99,36 @@
       "rs_rating": 76.4
     },
     {
-      "ticker": "DXCM",
+      "ticker": "ADI",
       "rs_rating": 75.4
     },
     {
-      "ticker": "AMGN",
-      "rs_rating": 74.5
-    },
-    {
-      "ticker": "WDAY",
+      "ticker": "ROST",
       "rs_rating": 73.5
     },
     {
-      "ticker": "VRTX",
+      "ticker": "WDAY",
       "rs_rating": 72.6
     },
     {
-      "ticker": "GILD",
+      "ticker": "VRTX",
       "rs_rating": 71.7
     },
     {
-      "ticker": "ROST",
+      "ticker": "DXCM",
       "rs_rating": 70.7
+    },
+    {
+      "ticker": "AMGN",
+      "rs_rating": 69.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 51.9,
-    "MRVL": 93.3,
-    "CRDO": 20.7,
+    "VKTX": 47.1,
+    "MRVL": 94.3,
+    "CRDO": 22.6,
     "NBIS": 91.5,
-    "RDDT": 10.4,
-    "VRT": 69.8
+    "RDDT": 13.2,
+    "VRT": 74.5
   }
 }

@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "analyzed": 100,
   "top10": [
     {
-      "ticker": "FANG",
+      "ticker": "AAPL",
       "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 7,
+        "N": 10,
+        "S": 4,
         "L": 7,
         "I": 10,
         "M": 7
       },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 57660788736,
-      "price": 204.97,
-      "rs_rating": 81.1
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 4849207869440,
+      "price": 332.27,
+      "rs_rating": 80.1
     },
     {
       "ticker": "FTNT",
@@ -57,22 +57,22 @@
       "rs_rating": 83.9
     },
     {
-      "ticker": "AAPL",
+      "ticker": "FANG",
       "canslim_score": 54,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 4,
+        "N": 7,
+        "S": 7,
         "L": 3,
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 4849207869440,
-      "price": 332.27,
-      "rs_rating": 77.3
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 57660788736,
+      "price": 204.97,
+      "rs_rating": 78.3
     },
     {
       "ticker": "MRVL",
@@ -90,7 +90,7 @@
       "industry": "Semiconductors",
       "market_cap": 212184170496,
       "price": 236.1,
-      "rs_rating": 93.3
+      "rs_rating": 94.3
     },
     {
       "ticker": "AMD",
@@ -108,7 +108,7 @@
       "industry": "Semiconductors",
       "market_cap": 842569351168,
       "price": 516.13,
-      "rs_rating": 92.4
+      "rs_rating": 93.3
     },
     {
       "ticker": "AMGN",
@@ -126,7 +126,7 @@
       "industry": "Drug Manufacturers - General",
       "market_cap": 204007489536,
       "price": 377.35,
-      "rs_rating": 74.5
+      "rs_rating": 69.8
     },
     {
       "ticker": "NVDA",
@@ -144,7 +144,7 @@
       "industry": "Semiconductors",
       "market_cap": 5271048421376,
       "price": 218.29,
-      "rs_rating": 67.9
+      "rs_rating": 66.9
     },
     {
       "ticker": "MU",

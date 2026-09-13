@@ -87,15 +87,18 @@ nums_detail = "  ".join(
 combined_s = bg.get("combined_score", bg["overall_coherence"])
 pair_vs    = bg.get("pair_vs_random", "")
 pair_info  = f"쌍확률 {bg.get('pair_score',0):.1f}% (무작위대비{pair_vs}배)\n" if pair_vs else ""
+pop_s      = bg.get("popularity_avoid_score")
+pop_info   = f"비인기도 {pop_s:.0f}% (분할위험 낮음)\n" if pop_s is not None else ""
 msg2 = (
     f"📊 대표 Game {chr(65+best_idx)} 상세\n"
     f"{nums_detail}\n"
     f"핵심 {len(core)}개  정합성 {bg['overall_coherence']:.0f}%  통합 {combined_s:.0f}%\n"
     f"{pair_info}"
+    f"{pop_info}"
     f"상위쌍{pair_lines}\n"
     f"합계 {bg['sum']} (유효범위 {lo}~{hi})\n"
     f"백테스트 TOP12 평균 {bt.get('avg_hits', 0)}개 적중\n"
-    f"⚠️ 정합성=모델일치도, 당첨 확률 아님"
+    f"⚠️ 정합성=모델일치도, 당첨 확률 아님 / 비인기도=분할인원 축소용, 적중확률과 무관"
 )
 full_msg = msg1 + "\n\n" + msg2
 

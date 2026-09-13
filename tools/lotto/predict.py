@@ -1,7 +1,12 @@
 """
-로또 예측 v8 — 5가지 다전략
-통합점수 = Lift 45% + 트리플렛 35% + 쌍확률 15% + 정합성 5%
+로또 예측 v11 — 5가지 다전략 + 비인기 조합 회피
+통합점수 = Lift 35% + 트리플렛 27% + 쌍확률 13% + 정합성 13% + 비인기도 12%
 ─────────────────────────────────────────────────────────────
+[v11] 사람들이 몰리는 인기 패턴 회피 추가:
+  - 하드필터: 전 번호 1~31(생일범위) 조합 차단, 완전 등차수열 차단
+  - 소프트페널티: 생일범위 과다·라운드넘버(5배수) 과다·연속페어·준등차수열
+  ⚠️ 로또 추첨은 완전 균등 무작위라 이 로직은 "적중 확률"을 전혀 높이지
+     않음. 목적은 오직 "당첨 시 나눠 갖는 인원 축소"(기대 수령액 개선).
 [핵심 개선] 합계 필터 p20-p80 → p10-p90 (실제 당첨 제외 방지)
 [핵심 개선] 5게임이 서로 다른 전략으로 더 넓은 확률 공간 커버
 
@@ -69,10 +74,13 @@ N_GAMES     = 5
 N_SAMPLES   = 60000
 TOP_N       = 28      # C(28,6)=376,740 전수탐색 (정합성 집중)
 TEMP        = 1.3     # v9: 온도 낮춰 고점수 번호 집중 강화
-W_COH       = 0.15   # v9: 정합성 가중치 0.05→0.15 (3배 상향)
-W_PAIR      = 0.15   # 유지
-W_TRIP      = 0.30   # v9: 0.35→0.30
-W_LIFT      = 0.40   # v9: 0.45→0.40 (정합성 확보를 위해 소폭 조정)
+# v11: 당첨 확률 자체는 조합에 무관(완전 무작위 추첨)하므로 대신
+# "당첨 시 나눠 갖는 인원"을 줄이는 방향(비인기 조합) 반영 — W_POP 신설
+W_COH       = 0.13
+W_PAIR      = 0.13
+W_TRIP      = 0.27   # v11: 0.30→0.27
+W_LIFT      = 0.35   # v11: 0.40→0.35
+W_POP       = 0.12   # v11: 신설 — 비인기(저분산 회피) 조합 가점
 
 # ── 직전 실제 당첨번호 감쇠 ──────────────────────────────────────
 RECENCY_DECAY = [0.60, 0.78, 0.90]   # 1주전, 2주전, 3주전 점수 배율
@@ -127,7 +135,36 @@ def is_valid(combo):
     if sum(1 for n in ns if n%2==1) not in VALID_ODD: return False
     tails = [n%10 for n in ns]
     if len(tails) - len(set(tails)) > MAX_TAIL_DUP: return False
+    # v11: 사람들이 몰리는 조합 하드 차단 (당첨 확률과 무관, 당첨 시
+    # 분할 인원을 줄이기 위한 목적 — 실제 로또 통계상 검증된 편향 패턴)
+    if all(n <= 31 for n in ns): return False              # 생일범위(1~31)만 사용 — 압도적 인기 패턴
+    diffs = [ns[i+1]-ns[i] for i in range(5)]
+    if len(set(diffs)) == 1: return False                  # 완전 등차수열(예: 3,10,17,24,31,38) — 슬립상 직선/패턴 인기
     return True
+
+# ── 비인기 조합 점수 (당첨 확률이 아닌 "당첨 시 분할 인원 최소화" 목적) ──
+# 실제 로또 판매 데이터에서 반복 확인된 사람들의 선택 편향:
+#  - 생일/기념일 범위(1~31)에 표가 몰림 → 32~45 비중이 높을수록 비인기
+#  - 5·10 배수(라운드 넘버) 선호 편향
+#  - 연속 페어(자동 패턴 인식 때문에 흔함)
+# ⚠️ 아래 점수는 "맞을 확률"과 무관합니다 — 로또 추첨은 완전 균등 무작위라
+#    이 점수를 아무리 최적화해도 적중 확률 자체는 절대 바뀌지 않습니다.
+def combo_popularity_penalty(combo):
+    ns = sorted(combo)
+    penalty = 0.0
+    birthday_cnt = sum(1 for n in ns if n <= 31)
+    if birthday_cnt >= 5: penalty += 0.20 * (birthday_cnt - 4)   # 5~6개면 페널티
+    round_cnt = sum(1 for n in ns if n % 5 == 0)
+    if round_cnt >= 3: penalty += 0.15 * (round_cnt - 2)
+    consec = sum(1 for i in range(5) if ns[i+1] - ns[i] == 1)
+    penalty += consec * 0.10
+    diffs = [ns[i+1]-ns[i] for i in range(5)]
+    if len(set(diffs)) <= 2: penalty += 0.15   # 준-등차수열(패턴에 가까움)
+    return min(penalty, 1.0)
+
+def combo_popularity_score(combo):
+    """비인기도 점수 — 높을수록 사람들이 덜 고르는 조합 (0~1)"""
+    return 1.0 - combo_popularity_penalty(combo)
 
 # ── 점수 함수 ─────────────────────────────────────────────────────
 def combo_coherence(combo):
@@ -157,10 +194,12 @@ def combined_score(combo):
     pair_s = combo_pair_score(combo)
     trip_s = combo_trip_score(combo)
     lift_s = combo_trip_lift_score(combo)
+    pop_s  = combo_popularity_score(combo)   # v11: 비인기도 (분할위험 최소화용, 적중확률과 무관)
     pair_norm = min(pair_s / max(avg_pair * 1.5, 0.05), 1.0)
     trip_norm = min(trip_s / max(avg_trip * 1.5, 0.5), 1.0)
     lift_norm = min(lift_s / max(avg_lift * 1.5, 0.5), 1.0)
-    return W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm + W_LIFT * lift_norm
+    return (W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm
+            + W_LIFT * lift_norm + W_POP * pop_s)
 
 # ── Game 1: 전수탐색 ──────────────────────────────────────────────
 def exhaustive_best(exclude_combos=None):
@@ -277,6 +316,7 @@ for gi, combo in enumerate(games):
     ps       = combo_pair_score(combo)
     ts       = combo_trip_score(combo)
     cs       = combined_score(combo)
+    pop_s    = combo_popularity_score(combo)
     game_results.append({
         "numbers":            [int(n) for n in combo],
         "bonus":              bonus,
@@ -289,6 +329,7 @@ for gi, combo in enumerate(games):
         "pair_vs_random":     round(ps/max(rand_pair,1e-9), 1),
         "trip_score":         round(ts, 2),
         "trip_vs_random":     round(ts/max(rand_trip,0.01), 1),
+        "popularity_avoid_score": round(pop_s*100, 1),   # 높을수록 비인기(당첨시 분할위험 낮음) — 적중확률과 무관
         "combined_score":     round(cs*100, 1),
         "hot_included":       [int(n) for n in combo if n in hot],
         "individual_coherence": {str(n): round(float(coh[n-1])*100,1) for n in combo},
@@ -322,7 +363,7 @@ out = {
     "trip_score":         best_game["trip_score"],
     "trip_vs_random":     best_game["trip_vs_random"],
     "combined_score":     best_game["combined_score"],
-    "method":             f"Lift45%+Trip35%+Pair15%+Coh5%+5전략(HOT/GAP/COLD/MIX) ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
+    "method":             f"Lift{int(W_LIFT*100)}%+Trip{int(W_TRIP*100)}%+Pair{int(W_PAIR*100)}%+Coh{int(W_COH*100)}%+비인기{int(W_POP*100)}%+5전략 ({ml.get('based_on',0)}회기반)" if use_ml else "통계+몬테카를로",
     "hot_included":       best_game["hot_included"],
     "individual_coherence": best_game["individual_coherence"],
     "pair_detail":        best_game["pair_detail"],

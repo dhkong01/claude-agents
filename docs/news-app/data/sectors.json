@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "TSMC가 사상 최대 월간 매출을 기록하고 후지쯔가 대미 AI 칩 수출을 추진하는 등 글로벌 AI 반도체 하드웨어 수요의 견고함이 재확인됨.",
+      "rationale": "대만 TSMC의 9월 매출이 AI 칩 수요 폭증에 힘입어 53% 급증하는 등 글로벌 AI 반도체 하드웨어 수요가 매우 강력하게 유지되고 있으며, 일본의 AI 반도체 소재 개발 협력도 공급망 관점에서 긍정적인 요인입니다.",
       "related_tickers": [
         "TSM",
         "NVDA",
-        "AMD"
+        "ASML"
       ],
       "source_regions": [
         "ASIA",
@@ -17,47 +17,40 @@
       ]
     },
     {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "오픈AI의 상장 연기(2027년 이후), 업계 리더들의 AI 개발 속도 조절론 동조, 어도비의 AI 성장 한계 우려에 따른 주가 하락 등 소프트웨어 및 빅테크 전반의 단기 성장 둔화 우려가 커짐.",
-      "related_tickers": [
-        "ADBE",
-        "MSFT",
-        "GOOGL"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
       "name": "Energy",
       "direction": "positive",
-      "score": 7.5,
-      "rationale": "중동발 지정학적 리스크 심화로 브렌트유 가격이 배럴당 105달러까지 급등함에 따라 에너지 기업들의 단기 수익성 개선 및 정제마진 상승 기대감이 높아짐.",
+      "score": 6.5,
+      "rationale": "지정학적 긴장 및 정유시설 타격 우려로 인한 디젤 가격 급등, 고유가 흐름 속에서 이탈리아의 디젤 소비세 인하 연장 등 에너지 공급 차질과 고유가 지속이 에너지 섹터 기업들의 수익성을 지지하고 있습니다.",
       "related_tickers": [
         "XOM",
-        "SHEL",
-        "BP"
+        "CVX",
+        "SHEL"
       ],
       "source_regions": [
+        "US",
         "EUROPE"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -5.0,
-      "rationale": "중국 당국이 배터리 공장 신규 승인을 동결하며 과잉 공급 제어에 나섬에 따라, 전기차(EV) 및 배터리 공급망 전반의 단기 성장통과 구조조정 압력이 예상됨.",
+      "score": -6.0,
+      "rationale": "유럽 내 급등하는 연료비로 인해 가계의 실질 소비 여력이 약화되고 있으며, 미·중 무역 갈등에 따른 관세 우려와 친환경차 전환 지연, 중국의 배터리 공장 승인 동결 등 자동차 및 배터리 분야 전반에 부정적 기류가 흐르고 있습니다.",
       "related_tickers": [
         "TSLA",
-        "BYDDF",
-        "CATL"
+        "STLA",
+        "BYDDF"
       ],
       "source_regions": [
+        "EUROPE",
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Technology",
+      "note": "미국은 국채 금리 5% 도달에 따른 밸류에이션 부담과 AI 스타트업(Anthropic)의 개발 속도 조절 촉구로 기술주 전반이 하락세를 보인 반면, 아시아는 빅테크들의 첨단 칩 협력 및 실질적인 AI 칩 수요 폭증으로 강한 지지력을 보여 지역 및 밸류체인 단계별로 온도차가 존재합니다."
+    }
+  ]
 }

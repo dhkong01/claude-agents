@@ -201,18 +201,38 @@ def combined_score(combo):
     return (W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm
             + W_LIFT * lift_norm + W_POP * pop_s)
 
+# ── 게임 간 다양성 ────────────────────────────────────────────────
+# 문제: exclude는 "완전히 동일한 6개 조합"만 걸러내서, HOT/HOT-MC/GAP처럼
+# 비슷한 가중치를 쓰는 전략들이 최고점 번호(예: 6,12,18,31,38)를 그대로
+# 재사용하고 1개만 바꾼 "사실상 같은 조합"을 내놓는 경우가 있었음
+# (실사례: 1242회 A/B/C가 5/6개 번호를 그대로 공유).
+# → 같은 주 5게임끼리는 최대 3개까지만 겹치도록(서로 최소 3개 번호 차이) 제한.
+MAX_OVERLAP = 3
+
+def too_similar(combo, already_picked):
+    cs = set(combo)
+    return any(len(cs & set(g)) > MAX_OVERLAP for g in already_picked)
+
 # ── Game 1: 전수탐색 ──────────────────────────────────────────────
 def exhaustive_best(exclude_combos=None):
     top_nums = sorted(range(1, 46), key=lambda i: -score[i-1])[:TOP_N]
     exclude  = set(tuple(sorted(c)) for c in (exclude_combos or []))
     # 직전 4개 예측도 제외
     exclude |= set(prev_combos)
+    already  = exclude_combos or []
     best, best_s = None, -1
     for combo in combinations(top_nums, 6):
         key = tuple(sorted(combo))
         if key in exclude or not is_valid(combo): continue
+        if too_similar(combo, already): continue
         s = combined_score(combo)
         if s > best_s: best_s, best = s, list(combo)
+    if best is None:   # 다양성 제약 아래서 후보가 없으면 겹침 제약만 완화
+        for combo in combinations(top_nums, 6):
+            key = tuple(sorted(combo))
+            if key in exclude or not is_valid(combo): continue
+            s = combined_score(combo)
+            if s > best_s: best_s, best = s, list(combo)
     return sorted(best) if best else None
 
 # ── MC 공통 헬퍼 ─────────────────────────────────────────────────
@@ -221,16 +241,24 @@ def _mc_search(weights, game_idx, n_samples, exclude_combos, seed_offset=0):
     draw_seed = (last_draw + 1) * 137 + game_idx + seed_offset
     rng     = np.random.default_rng(draw_seed)
     nums    = np.arange(1, 46)
-    exclude = set(tuple(sorted(c)) for c in (exclude_combos or [])) | set(prev_combos)
+    already = exclude_combos or []
+    exclude = set(tuple(sorted(c)) for c in already) | set(prev_combos)
     adj     = np.clip(weights, 1e-9, None) ** TEMP
     adj    /= adj.sum()
     best, best_s = None, -1
     for _ in range(n_samples):
         combo = tuple(sorted(int(x) for x in rng.choice(nums, 6, replace=False, p=adj)))
         if combo in exclude or not is_valid(combo): continue
+        if too_similar(combo, already): continue
         s = combined_score(combo)
         if s > best_s: best_s, best = s, combo
-    if best is None:
+    if best is None:   # 1차: 다양성 제약만 완화 (유효성 필터는 유지)
+        for _ in range(n_samples // 2):
+            combo = tuple(sorted(int(x) for x in rng.choice(nums, 6, replace=False, p=adj)))
+            if combo in exclude or not is_valid(combo): continue
+            s = combined_score(combo)
+            if s > best_s: best_s, best = s, combo
+    if best is None:   # 2차: 최후 수단 — 합계 범위만 확인
         for _ in range(n_samples // 2):
             combo = tuple(sorted(int(x) for x in rng.choice(nums, 6, replace=False, p=adj)))
             if combo not in exclude and SUM_LO <= sum(combo) <= SUM_HI:

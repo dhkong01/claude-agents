@@ -1,56 +1,68 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "sectors": [
-    {
-      "name": "Semiconductors",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "대만 TSMC의 9월 매출이 AI 칩 수요 폭증에 힘입어 53% 급증하는 등 글로벌 AI 반도체 하드웨어 수요가 매우 강력하게 유지되고 있으며, 일본의 AI 반도체 소재 개발 협력도 공급망 관점에서 긍정적인 요인입니다.",
-      "related_tickers": [
-        "TSM",
-        "NVDA",
-        "ASML"
-      ],
-      "source_regions": [
-        "ASIA",
-        "US"
-      ]
-    },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "지정학적 긴장 및 정유시설 타격 우려로 인한 디젤 가격 급등, 고유가 흐름 속에서 이탈리아의 디젤 소비세 인하 연장 등 에너지 공급 차질과 고유가 지속이 에너지 섹터 기업들의 수익성을 지지하고 있습니다.",
+      "score": 7.8,
+      "rationale": "사우디아라비아의 송유관 가동 중단 및 지정학적 공급망 차질 우려로 국제유가와 연료 가격이 급등하면서 정유 및 에너지 기업의 수익성 개선 기대감이 높아졌습니다.",
       "related_tickers": [
         "XOM",
         "CVX",
         "SHEL"
       ],
       "source_regions": [
-        "US",
-        "EUROPE"
+        "ASIA",
+        "EU"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -6.0,
-      "rationale": "유럽 내 급등하는 연료비로 인해 가계의 실질 소비 여력이 약화되고 있으며, 미·중 무역 갈등에 따른 관세 우려와 친환경차 전환 지연, 중국의 배터리 공장 승인 동결 등 자동차 및 배터리 분야 전반에 부정적 기류가 흐르고 있습니다.",
+      "score": -8.2,
+      "rationale": "유럽 내 유가 및 연료 가격이 2022년 이후 최고치로 치솟으면서, 가계의 에너지 비용 부담 가중으로 인해 실질 소비 여력이 극도로 위축되고 있습니다.",
       "related_tickers": [
-        "TSLA",
-        "STLA",
-        "BYDDF"
+        "LVMH",
+        "KER",
+        "BMW"
       ],
       "source_regions": [
-        "EUROPE",
-        "ASIA"
+        "EU"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "뱅크오브아메리카(BoA)의 3분기 투자은행(IB) 수수료 10% 이상 감소 전망으로 인해 대형 은행 및 금융 투자 업계의 단기 실적 둔화 우려가 반영되었습니다.",
+      "related_tickers": [
+        "BAC",
+        "JPM",
+        "MS"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "negative",
+      "score": -5.0,
+      "rationale": "AI 랠리의 지속 가능성에 대한 의구심과 고점 경계감으로 기술주 전반에 매물이 출회되었습니다. 다만 소프트웨어 섹터는 반도체 대비 상대적인 강세로 방어력을 보였습니다.",
+      "related_tickers": [
+        "MSFT",
+        "AAPL",
+        "GOOGL"
+      ],
+      "source_regions": [
+        "US"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Technology",
-      "note": "미국은 국채 금리 5% 도달에 따른 밸류에이션 부담과 AI 스타트업(Anthropic)의 개발 속도 조절 촉구로 기술주 전반이 하락세를 보인 반면, 아시아는 빅테크들의 첨단 칩 협력 및 실질적인 AI 칩 수요 폭증으로 강한 지지력을 보여 지역 및 밸류체인 단계별로 온도차가 존재합니다."
+      "sector": "Semiconductors",
+      "note": "미국은 AI 개발 속도 조절론 및 밸류에이션 부담으로 엔비디아, 마이크론 등 주요 반도체주가 큰 폭의 조정을 받았습니다. 반면 아시아(대만)에서는 TSMC가 역대급 8월 매출과 차세대 공정 기대감을 바탕으로 견조한 실적 질주를 이어가는 등 지역 간 시장 온도차가 극명합니다."
     }
   ]
 }

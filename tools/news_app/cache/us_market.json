@@ -1,7 +1,79 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "region": "US",
   "headlines": [
+    {
+      "title": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
+      "summary": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
+      "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "AI doomsday fears are arriving at the worst possible time for the stock market",
+      "summary": "The latest cracks in the AI trade are emerging at a particularly troubling time for investors.",
+      "link": "https://www.marketwatch.com/story/ai-doomsday-fears-are-arriving-at-the-worst-possible-time-for-the-stock-market-75c4ad53?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Oil Executives Say the Great Fuel Crisis Is Here",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcjVXZkhHNzRtV0NkLWNEanQybTBReTdsZzgzMVF4dF9pRHNGUk5VcUVZTkw5UUI4N2w0aXlrYjk0ajI0U1JIeHJ0U0JSUm01bUh1TFZ4cUpCRnBDY0hqeFAzV2xIOHA4a3psYlVQWHN2Q3JvZEdoQXdIZFVtdWNBMFBtY05hc3lfdUE2ZWFNSkhUMjVtdXBJMVN3MHMxZw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Another coffeehouse files for Chapter 11 as costs, prices rise",
+      "summary": "",
+      "link": "https://finance.yahoo.com/small-business/articles/another-coffeehouse-files-chapter-11-033545256.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia CEO Puts Trump on Speakerphone While Downplaying AI Risks",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGxEd1BKNmZGeU8zblRFcmJLUHlscGgzR2hUdW5Yal94Uk9YRnJ0clAzalpwbDdxSDNyQmgwT3lYS29aS2diRk9UbENDS2IwdkcwNHRZZjhpNnhOSThCeHZXVmJkNXBzdGtGczkzWm5oX1pfb2licWxBc2lzRi13Zm1SdW95RFNEQjROSlotSEg4eWFXdVFYYUZLY2NuczRrdE5pQlZaWF9tOXRWS0FiSzVycWtaUQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Big Pharma Is Pouring Billions in China’s Biotechs. Bristol Meyers, Eli Lilly, Others Look East.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMWJlRjJPSFN1VVlXc2NXRXVqUWt3OFpxLVNad1pfamFvTnRfMGZEWVVQQlFTeTd6VG1PTUplQzlwemJ5T1htV0huTWZVcllpUWlURGpUMlNtUGtVWWgzSHlsV2N6VnhjSkV3MDlQM0lydTI1UVhRTUk1dUNFVWNqamhEMHEyejFqcWRWSGk4Yw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Novo CEO tells CNBC why drugmaker is rebranding, needs to rethink obesity strategy",
+      "summary": "The Danish drugmaker called the changes the beginning of a new chapter for the company, which faces stiff competition from Eli Lilly.",
+      "link": "https://www.cnbc.com/2026/09/14/novo-nordisk-rebrands-to-novo-ceo-mike-doustdar.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "The murky AI milestone that has some of the industry s leading voices increasingly on edge",
+      "summary": "Anthropic CEO Dario Amodei and others are warning that AI models may be able to build on themselves, without the help of humans. It s a concept known as recursive self-improvement.",
+      "link": "https://www.marketwatch.com/story/the-murky-ai-milestone-that-has-some-of-the-industrys-leading-voices-increasingly-on-edge-6ffeacc7?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "U.S. Sanctions Russian Bank in Latest Target for Campaign Against Iran",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY2VlWFpWc09aZzZyc3M3YWJOSUZXai00aHRDTDZZajFjUWh3QTFQQTVHa0p1RS1EUzlyYVpZMndKMnB5UE5xVmp3UGNVQ29iYlhncm5nQ0Y2b0s4STctdG9nVXM2VjRCXzIzODdfRVRldDRITHBrVGh6MjlCQUZDeDBjLWxmTTdqcHU1amV2MTdZN0d6RFRmS0N1Q0VOVWRwR1UzOGdSdXNqSWZyUkZRZFZxT3FhUDlz?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "AI agents to start spending your money with Visa, Mastercard",
+      "summary": "",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-start-spending-money-010300686.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Apple Just Launched Its New iPhones. Here Are 16 More Products Coming Soon",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONDByRlBtckFDZTJmNm96M1VzZjR4UnMzTldtYTRubEtabU51WGNmLVVUTlNSNVZSdy1XV0FTRmVFblppRUpOYzhTbkdfM3Q3bFlGSHMtYkhldEhTNzZvODRQWE1tbW9JTmlDQVdzZHVnakIyd1llODd4bzhRdWg0ZkZBUmgwNGFvUFNydW83Wml1dng5WmFwcXJ1ZzBVZ0Z3eGRqeHpKMFJkX3J5bVFaOTZyeGxvbHp6?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Bank of America CEO Sparks Bank Stock Selloff With One Small Word",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcTh3OEh1dVJfRmRuYURMX0lwOUlxeGlMcy1YVzZqeW84d2lOaVV2VzVpZVlucUtkMmd1d3ctZWRtNE1xX1BfZDZmZ3M1TmY1UzZSWU5fUFlYeDgxMENkS290RURLUjBhRFVtRHhkeVFhWHJFa29QNFJEOFljTW1Zeg?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "GM plans U.S. battery development as Trump s DOT attacks Ford for China ties",
       "summary": "Most battery cells currently rely on raw materials from China. GM is seeking to establish domestic supply chains both for EVs and energy storage.",
@@ -9,27 +81,27 @@
       "source": "CNBC"
     },
     {
-      "title": "These are the 10 biggest retirement fears and what you can do about them",
-      "summary": "No amount of wealth can erase retirement worries.",
-      "link": "https://www.marketwatch.com/story/these-are-the-10-biggest-retirement-fears-and-what-you-can-do-about-them-4dde8b9c?mod=mw_rss_topstories",
+      "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
+      "summary": "Oil buyers are paying much more to get a barrel of crude oil immediately as the Iran conflict threatens global supplies.",
+      "link": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "How a Classic Collegiate Novel Inspired This Young New York Band",
+      "title": "Exclusive | OpenAI Buys Startup Developing Smartphone Camera",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wVTBZLWFZV1l6UkFoLTlxaDNTYXNtVUZPZlhPODZqS0VYbXBESWR0UC1zUUJqN1J5VjcxdzV6UkdieXRCWHJXcEtFRFMyVEQ3SXF3Tk5nNjNsb2V4UW1lSm9SSUZVLVVKRHByRlFkVGJMeVVTVmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTZxRTlsbk9LSDQ5WG1KdmRfc2ZtbGdUVFNnR0FtdW9zUlc5SmRsWi1RZ09ubldJQjBuOGRkaVBEckloOUFvQVhTZEJyRFBDcnFweXNmOEJ4alRyenB1ZkI4c21leU5wUzYtZGcxa282VldpR21sNzh5R1pnaWdLSXVRS20waDkyZVE?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Jewelry chain closes 53 stores after shutting down 2 brands",
+      "title": "38-year-old beloved steakhouse chain closing over 40 locations",
       "summary": "",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jewelry-chain-closes-53-stores-213700154.html",
+      "link": "https://finance.yahoo.com/small-business/articles/38-old-beloved-steakhouse-chain-020300119.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Hormuz Meeting With Iran and Gulf Nations Postponed, Oman Says",
+      "title": "Watch An ETF That Tracks Employees' 'HAPI'-Ness",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWG16MGlLTHpTd3B2dWZfai1GVzJJQ2QxVHdVN3lMcl9oZ1o2eEZYNUJfeE1TTm9yVGRTZ1ZGcUJSR1BsOEhycHZUVmh6ZnU3bEdUallFRWJnUnBGY1ZqM2w3bzZFUTh0Q3d1UUJacVZVVGZYeHpIUFB4Y3UxYVJvWUlUYU5jbm1jVjBMQTBOZlVzdkNSWVBzdkdnNFJxNHZqMnh5VnlwanJRT1pOXzBzYWhR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOXM0MXlEMDVoaXJsMERTODJ0cFBPN3EzMUxQRXduc3Z6Um5JQXJ4NE9mYnVoY3d0OXNfQmZDd0t1ZDk1YTBQZUhYdnd2OWQtdkxSUTN2U1NLaG5rZ3otYVp4emlwcjJQZ21xS2F6cXpuRlZIWHdtY01udmRfS2ZXTjZWdFZoNVlTdnBjSkJEV2JsSU9OLUlhTw?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -45,94 +117,22 @@
       "source": "CNBC"
     },
     {
-      "title": "I m locked into a 10-year annuity and now I m strapped for cash. What are my options?",
-      "summary": "A self-described spender is concerned about taxes.",
-      "link": "https://www.marketwatch.com/story/im-locked-into-a-10-year-annuity-and-now-im-strapped-for-cash-what-are-my-options-e6463c91?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Opinion | Lula Has a Banco Master Problem",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZHZ2VklGNjhJSVVJcXFNTllLVnhjdUNtenhaMkJ5aGdPTV9fTTBRU2Z1OVZ3bmVrUlA1cHJyS1ZhbkpTaDFyVVVEZTI4NEZvYlExakxEN0UtbUFvOW83aHBka0o5X01EeXEtNnIycnlzd2l4dHFv?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
-      "summary": "",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Fed’s Warsh on Collision Course With Trump as Rate Hike Looms",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWVhZzhtem1ITHl2LWpyR2M5QjJiSzBqM1Fsc1g3QkpLbGdTV2wtZUlKdVhoZGhqWjUzMzlla0diUFNDQkpXb3BYeWZtRGJidm5hbjRHZmZnTllvaFhyQ3pLbHlYNVM0SlctRXF0OXkydHZOcUZxNXRmRlhTY0R6RzQ3YVFIelpxajgxNEhCWkp6NUp1dkpKVXlNOVJQMjlLM200LTM2Y2tOdWFENHQ3Q2d3?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Anthropic CEO Calls for Global AI Slowdown to Prevent Internet ‘Swarm’ Threat",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkcFp5aDBUdldrTU1mUW9fdlVnWlBPNE15UWxSZWI4b0NOMkUzUEJYM2JmM21NajlWd1Bob3M1Y04ydjVXcFdJU0dSbWEyNkhtcEYzMGM4aURrM2IwbFhJMEZXdEhkUzdCanZSX0R4QktFbGNVMVdkUXpuamYtZjQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "25 years after 9/11, the U.S. starts rolling back travel restrictions, from liquids to gate access",
-      "summary": "Years after 9/11, the U.S. government is walking back some security screenings as threats and technology evolve.",
-      "link": "https://www.cnbc.com/2026/09/11/9/11-anniversary-air-travel.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Your Social Security COLA could go up another $71 per month in 2027. That s not necessarily good news.",
-      "summary": "A higher COLA is a sign that persistent inflation isn t going anywhere.",
-      "link": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "A $1.5 Million Renovation Gave Her Atlanta Mansion Main-Character Energy",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb0JORXF6UEpyZTdCTm5FSGl5dzVtcGQ0STBjMUM2YTFsWll0NWhtdHJ5bU1DSXJDNVpOR3U0SVFPa1hMLXZ0TUlyZHNPbjlETDc0YklVTmNkd0NjV3VrNjRvbXhyS3lUQ09TR2FCaE5qRnp2cGJBVnVaUXJfR0RpbGR1cVpJS21LVFBaRGtiR0FJNTREM0lXX2tVaHk?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
-      "summary": "",
-      "link": "https://finance.yahoo.com/economy/policy/articles/further-oil-price-spikes-could-210000970.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSjgtREVUcTBVWlQwcTgtdEg1YnFCOFRqQkt3S0FXclJwZVdJSUZEaXBCbjkzVmM5UWdKX09GSDh5Q18zT0JjaWoycjJteV9XUHAtYnQ0R3lFYmZPWEVocmNWYjRpcXFmRFU4NmF1MU1oM3FCYnppWTJ2Ql9LSHc2MU40STdoazlKYTA2MXdrWkNSekUtbmd0YmtpR1JnaDVtWjZNLW5oZnhqWl91T1hn?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Review & Preview: Time to Hike",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObzlPWWJEdy1uVHBEZlQyeVFFX3dySWRYbkN5NVZoMHJRU0NGT0dUbHlWRmxSV3pLc2lfVlVQS1JhVWRYd2xtNzRGVHRnVEhTRzliQ2RJbXJfTTZ2ZEZMU25ob3Ytd3ZMakMtYjQzdFBTa3NTNkd1eS13Yi10VG5sVE94VVBSNFdzUlZNWXdmZGNHN2hNSlNTZldPM0ozLWhweWtYUUtuNmEzbUdfcUZGU0k0Umk?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Wealthy investors are pouring billions into this new tax strategy despite risks",
-      "summary": "Total assets invested in so-called tax-aware long-short strategies — or TALS — have surged to more than $170 billion, according to Tax Alpha Insider.",
-      "link": "https://www.cnbc.com/2026/09/11/wealthy-investors-tax-aware-long-short-strategies.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "This simple mistake can give your money to the wrong person when you die. Here s how to protect your estate.",
-      "summary": "Estate-planning crises usually come down to small oversights.",
-      "link": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
+      "title": "CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat",
+      "summary": "The software sector outperformed the chip sector to a historic degree in the face of escalating AI fears.",
+      "link": "https://www.marketwatch.com/story/crowdstrike-and-palo-alto-networks-are-leading-software-stocks-toward-a-never-before-seen-feat-5b8989b2?mod=mw_rss_topstories",
       "source": "MarketWatch"
     }
   ],
-  "trend_headline": "연준 금리 결정을 앞둔 빅테크와 유가 불안",
-  "summary": "연방공개시장위원회(FOMC) 회의를 앞두고 Anthropic의 AI 속도 조절 요구와 기술주 약세가 시장을 압박하고 있습니다. 국채 금리 상승과 유가 급등 우려가 겹치며 다우존스 선물과 주요 지수가 하락세를 보였습니다.",
+  "trend_headline": "AI 거품 경계감과 반도체주 약세",
+  "summary": "AI 랠리의 지속 가능성에 대한 우려가 확산되며 뱅크오브아메리카의 투자은행 수수료 전망 악화와 함께 반도체 및 기술주 전반에 매물이 출회되었습니다. 특히 AI 개발 속도 조절론과 고점 경계감이 겹치며 그간 시장을 주도하던 칩 메이커들이 큰 조정을 받았습니다.",
   "key_points": [
-    "Anthropic CEO의 AI 개발 속도 조절 촉구 및 나스닥 IPO 추진 소식",
-    "미 국채 5% 금리 도달 및 유가 스파이크에 따른 인플레이션·경기 침체 우려",
-    "연방준비제도의 금리 결정을 앞두고 주가지수 선물 하락 및 기술주 부진"
+    "뱅크오브아메리카, 3분기 투자은행 수수료 10% 이상 감소 예상",
+    "마이크론과 엔비디아 등 주요 반도체주, AI 속도 조절론 부각에 하락세 기록",
+    "소프트웨어 섹터는 AI 피로감 속에서 반도체 대비 상대적 강세 시현"
   ],
   "sector_hints": [
     "Technology",
-    "Energy",
-    "Financials"
+    "Financials",
+    "Semiconductors"
   ]
 }

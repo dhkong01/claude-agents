@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "'Culture shift' needed in how UK does business, PM urges",
-      "summary": "Burnham has said those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
-      "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder says",
+      "summary": "Jack Clark says \"most labs have different ways of being able to pull the plug\", but says this may need to be a requirement.",
+      "link": "https://www.bbc.co.uk/news/articles/cqgk5e2j0gg8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Capgemini sells US subsidiary criticised over ICE contract",
-      "summary": "Capgemini Government Solutions provided US immigration authorities with technology to identify and track foreign nationals.",
-      "link": "https://www.euronews.com/business/2026/09/12/capgemini-sells-us-subsidiary-criticised-over-ice-contract",
+      "title": "EU halves cheap parcel influx in bid to rein in Chinese e-commerce giants",
+      "summary": "The EU has cut the number of low-value parcels entering the region by half, following the introduction of a €3 flat fee. The measure is part of a broader effort to curb the growing dominance of Chinese e-commerce platforms.",
+      "link": "https://www.euronews.com/my-europe/2026/09/14/eu-halves-cheap-parcel-influx-in-bid-to-rein-in-chinese-e-commerce-giants",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,69 @@
       "source": "DW Business"
     },
     {
-      "title": "‘Slowing things down’: Trade wars hit global electrification shift",
-      "summary": "Tariffs on everything from EVs to grid components could slow the energy transition.",
-      "link": "https://www.politico.com/news/2026/09/13/trade-wars-are-going-electric-the-planet-could-pay-the-price-01068417?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Von der Leyen U-turns, will attend landmark Carney speech",
+      "summary": "Initial decision to skip Canadian prime minister's speech had raised eyebrows among EU lawmakers.",
+      "link": "https://www.politico.eu/article/ursula-von-der-leyen-u-turns-will-attend-landmark-mark-carney-speech/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-      "summary": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
-      "link": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+      "title": "I got paid $5,000 to move to a place I'd never heard of",
+      "summary": "Relocation schemes offer support for people who want to swap big cities for a cheaper, quieter life.",
+      "link": "https://www.bbc.co.uk/news/articles/c3eq7485kewo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "French blockade looms over Commission’s plan to fast-track trade deals in English",
-      "summary": "Eager to unlock new markets for EU businesses, the European Commission plans to accelerate trade deal ratification by circulating only English versions for approval by EU governments and the European Parliament – but sources told Euronews that Paris is set to oppose the move if it goes ahead.",
-      "link": "https://www.euronews.com/my-europe/2026/09/11/french-blockade-looms-over-commissions-plan-to-fast-track-trade-deals-in-english",
+      "title": "EU trade chief to visit Manila to finalise Philippines trade deal",
+      "summary": "Manila and Brussels have already completed six rounds of talks aimed at reducing trade barriers across a broad range of sectors. The agreement would represent another step in Brussels’ efforts to diversify its trade relationships throughout the Asia-Pacific region.",
+      "link": "https://www.euronews.com/my-europe/2026/09/14/eu-trade-chief-to-visit-manila-to-finalise-philippines-trade-deal",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Can Iran replace sea trade with land routes?",
+      "summary": "Iran is shifting trade toward northern ports and land routes as its southern shipping faces a US blockade. Analysts say the corridors can keep essential goods moving, but cannot replace maritime trade.",
+      "link": "https://www.dw.com/en/can-iran-replace-sea-trade-with-land-routes/a-79211179?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "EPA scraps climate curbs for US power generation",
+      "summary": "The announcement was timed to splash down amid an energy-focused gathering of the G20 in Houston.",
+      "link": "https://www.politico.com/news/2026/09/14/epa-power-plant-climate-rules-01069146?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Pubs in England and Wales to allow digital ID apps to prove age",
+      "summary": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Saudi pipeline shutdown threatens oil exports to Europe and Asia as kingdom relies on stored supplies",
+      "summary": "The pipeline disruption comes as Gulf oil exports have already fallen sharply and shipping routes face further threats. With no restart date announced, the impact on deliveries to Europe and Asia depends on how long the shutdown lasts.",
+      "link": "https://www.euronews.com/2026/09/14/saudi-pipeline-shutdown-threatens-oil-exports-to-europe-and-asia-as-kingdom-relies-on-stor",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Why are European banks moving gold out of United States?",
+      "summary": "The Netherlands and France have moved their gold out of US vaults. Part of the reason is fears about the reliability of the US, but equally important is the need to keep gold closer to home in the event of a crisis.",
+      "link": "https://www.dw.com/en/why-are-european-banks-moving-gold-out-of-united-states/a-79213013?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Gavin Newsom says he won’t run for president if Kamala Harris runs again",
+      "summary": "“I don’t know if she runs but we’ll see,” Newsom told CNN in an interview posted Monday.",
+      "link": "https://www.politico.com/news/2026/09/14/newsom-says-he-wont-run-for-president-if-harris-runs-again-01075320?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Government set to nationalise troubled steel firm",
+      "summary": "Production at SSUK sites in South Yorkshire and the West Midlands was paused earlier this year.",
+      "link": "https://www.bbc.co.uk/news/articles/cm9w47ngje9no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Trump concedes on ethics rules, clearing the way for major crypto legislation",
+      "summary": "US President Donald Trump has accepted ethics restrictions he had long resisted, removing the final obstacle to the CLARITY Act, the most significant crypto legislation ever attempted in the US, which now faces a decisive Senate vote on Tuesday.",
+      "link": "https://www.euronews.com/business/2026/09/14/trump-concedes-on-ethics-rules-clearing-the-way-for-major-crypto-legislation",
       "source": "Euronews Business"
     },
     {
@@ -45,93 +93,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Trump cuts Ireland’s whiskey tariff as a parting gift",
-      "summary": "The president said Ireland’s distillers would no longer face tariffs as a thank-you gesture for his hosting of the Irish Open golf tournament.",
-      "link": "https://www.politico.com/news/2026/09/13/trump-irish-whiskey-tariffs-01073879?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "EU Parliament to open office in Canada",
+      "summary": "Parliament will work in Ottawa alongside the existing EU delegation.",
+      "link": "https://www.politico.eu/article/european-parliament-open-office-canada/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
-      "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
-      "link": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+      "title": "Petrol and diesel prices hit highest since 2022",
+      "summary": "The cost of filling up a vehicle has rebounded, according to the RAC, as oil prices remain elevated.",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "50 CEOs and investors urge Brussels not to dilute the EU Inc law",
-      "summary": "Founders and investors call EU policymakers to not water down the EU Inc., the legislative proposal which aims to facilitate businesses in Europe to scale up.",
-      "link": "https://www.euronews.com/business/2026/09/11/50-ceos-and-investors-urge-brussels-not-to-dilute-the-eu-inc-law",
+      "title": "SoftBank shares plunge as calls grow to slow AI development",
+      "summary": "AI development should slow down, leading developers have warned, as the industry faces growing calls to put safety ahead of profits. The comments weighed heavily on technology shares on Monday.",
+      "link": "https://www.euronews.com/business/2026/09/14/softbank-shares-plunge-as-calls-grow-to-slow-ai-development",
       "source": "Euronews Business"
     },
     {
-      "title": "AI leaders want a slower pace car. Australia is still building the track.",
-      "summary": "If you’ve been forwarded this newsletter, you can sign up for free here. ESSENTIALS — Labor looks for border control in the wrong numbers — Albanese turns Hanson’s housing attack into a fight over nastiness — Australia’s AI plan has a 30-data center loophole — David Shoebridge interview DRIVING THE ",
-      "link": "https://www.politico.com/newsletters/canberra-playbook?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Trump says Ukraine and Russia agreed to halt strikes on energy. Zelenskyy is not so sure.",
+      "summary": "If the U.S. can make Russia stop attacking Ukraine, Kyiv will be happy to reciprocate. But Zelenskyy's not holding his breath.",
+      "link": "https://www.politico.eu/article/donald-trump-ukraine-russia-strikes-energy-volodymyr-zelenskyy/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-      "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "title": "Pubs, hotels and gyms in Wales to get 30% business rates cut",
+      "summary": "The cuts comes into effect in April, but the largest businesses will pay higher rates to fund the changes.",
+      "link": "https://www.bbc.co.uk/news/articles/c6n9w87ejqn2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "European Commission pushes for all-English trade deals despite French opposition",
-      "summary": "France's umbrage at the anglophone-only presentation might complicate the ratification of the EU-India trade deal, even though it supports the deal itself and considers India a strategic partner.",
-      "link": "https://www.euronews.com/my-europe/2026/09/11/european-commission-pushes-for-all-english-trade-deals-despite-french-opposition",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Sweden election forecast says vote too close to call",
-      "summary": "A shock analysis contradicts exit polls and holds out hope to PM Ulf Kristersson that he could cling to power with help from the far right.",
-      "link": "https://www.politico.eu/article/sweden-election-too-close-to-call-ulf-kristersson-magdalena-andersson/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-      "summary": "Whiskey distilled in the Republic of Ireland faces the standard 15% tariff which applies to EU goods entering the US.",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Azerbaijan’s state oil fund helps launch China-ASEAN investment council",
-      "summary": "SOFAZ is the only founder from outside East and Southeast Asia, reflecting Azerbaijan’s position on the trade corridor between Asia and Europe.",
-      "link": "https://www.euronews.com/business/2026/09/11/azerbaijans-state-oil-fund-helps-launch-china-asean-investment-council",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Sweden exit poll: Left on course for election win in blow to far right",
-      "summary": "Social Democrat leader Magdalena Andersson is heading for a comeback as prime minister in charge of a left-wing coalition, exit polling suggests.",
-      "link": "https://www.politico.eu/article/sweden-exit-poll-election-magdalena-andersson/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Iceland to open first store in the Falklands",
-      "summary": "Boss Lord Richard Walker says it would be the the first UK high street brand to operate there.",
-      "link": "https://www.bbc.co.uk/news/articles/cd94kze0y9qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Europeans are skipping family visits and medical appointments to pay energy and fuel bills, study finds",
-      "summary": "The rising cost of fuel and energy bills is hammering Europeans, with some taking extreme measures to offset higher prices, such as giving up on medical care. However, not all of them are affected equally.",
-      "link": "https://www.euronews.com/my-europe/2026/09/11/europeans-are-skipping-family-visits-and-medical-appointments-to-pay-energy-and-fuel-bills",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Suspected Russian spy behind drone attack in Leipzig",
-      "summary": "A Belarusian citizen and a Russian national linked to the country's military intelligence services have been identified as the main suspects in the August drone attack.",
-      "link": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
     }
   ],
-  "trend_headline": "에너지·연료비 급등과 무역 관세가 유로존 인플레이션을 압박",
-  "summary": "급등하는 에너지 및 연료 비용이 유럽 가계의 실질 소득을 잠식하고 있으며, 미국의 관세 정책과 무역 갈등이 글로벌 공급망과 친환경 전환 속도를 늦추고 있습니다. 이에 따라 EU 내에서는 드라기 개혁안 이행 속도 지연과 맞물려 물가 재상승 및 통화정책 대응 압력이 가중되는 모습입니다.",
+  "trend_headline": "사우디 파이프라인 셧다운과 에너지 가격 급등",
+  "summary": "사우디아라비아의 파이프라인 가동 중단과 지정학적 공급 차질 여파로 유럽의 휘발유 및 디젤 가격이 2022년 이후 최고 수준으로 치솟았습니다. 이로 인해 가계의 에너지 비용 부담이 가중되며 필수 의료비와 가족 방문을 포기하는 등 실질 소비 여력이 급격히 타격을 받고 있습니다.",
   "key_points": [
-    "유럽 전역에서 치솟는 에너지 및 연료비 부담으로 가계가 의료비 등 필수 지출까지 줄이는 극단적 상황 발생",
-    "이탈리아 정부가 디젤 소비세 인하 조치를 연장하는 등 고유가 대응에 총 27억 유로 투입",
-    "미국의 관세 부과와 트럼프의 러시아-우크라이나 정유시설 타격 중단 촉구 등이 디젤 가격 급등과 인플레이션 우려를 자극"
+    "사우디 파이프라인 셧다운으로 유럽 및 아시아 향 원유 수출 및 저장 물량 공급 차질 발생",
+    "영국 RAC 기준 휘발유 및 디젤 가격이 2022년 이후 최고치 기록",
+    "치솟는 에너지 및 연료비로 인해 유럽 소비자들이 의료 예약과 가족 방문까지 포기하는 극단적 절약 감행"
   ],
   "sector_hints": [
     "Energy",
-    "Automotive"
+    "Consumer Discretionary"
   ]
 }

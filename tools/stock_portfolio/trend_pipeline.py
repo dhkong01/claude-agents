@@ -334,14 +334,15 @@ def _send_kakao(result: dict, mode: str) -> None:
     실패를 워크플로 실패로 표면화할 수 있게 한다 (조용히 사라지는 것 방지)."""
     status = {"date": result.get("date"), "mode": mode, "sent": False, "reason": ""}
     try:
-        from notify import send_message
+        from notify import send_message_detailed
         msg = _build_message(result, mode)
-        if send_message(msg):
-            print("[알림] 발송 완료")
+        ok, detail = send_message_detailed(msg)
+        if ok:
+            print(f"[알림] 발송 완료 ({detail})")
             status["sent"] = True
         else:
-            status["reason"] = "전 채널 발송 실패 (TELEGRAM_BOT_TOKEN/CHAT_ID 또는 KAKAO_* 시크릿 확인 필요)"
-            print(f"[알림] {status['reason']}", file=sys.stderr)
+            status["reason"] = detail
+            print(f"[알림] 발송 실패 — {detail}", file=sys.stderr)
     except Exception as e:
         status["reason"] = f"발송 예외: {e}"
         print(f"[알림] {status['reason']}", file=sys.stderr)

@@ -350,7 +350,7 @@ def git_push(full_text):
 if __name__ == '__main__':
     try:
         sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-        from notify import send_message
+        from notify import send_message_detailed
 
         closes      = fetch_closes()
         messages    = build_messages(closes)
@@ -362,18 +362,20 @@ if __name__ == '__main__':
             print()
 
         print("[알림 전송] Telegram 우선 / Kakao 폴백")
-        sent_ok = 0
+        sent_ok      = 0
+        last_detail  = ""
         for i, msg in enumerate(messages, 1):
             print(f"  메시지{i}...")
-            if send_message(msg):
+            ok, detail = send_message_detailed(msg)
+            last_detail = detail
+            if ok:
                 sent_ok += 1
 
         if messages and sent_ok == 0:
             # 전 채널 전송 실패를 조용히 넘기면 워크플로가 "success"로 표시되는
             # 문제가 있었음 — 명시적으로 실패 처리해 알림 스텝이 뜨게 한다.
             raise RuntimeError(
-                f"알림 메시지 {len(messages)}건 전체 전송 실패 "
-                f"(TELEGRAM_BOT_TOKEN/CHAT_ID 또는 KAKAO_* 시크릿 확인 필요)"
+                f"알림 메시지 {len(messages)}건 전체 전송 실패 — {last_detail}"
             )
         elif sent_ok < len(messages):
             print(f"[알림] 일부 전송 실패: {sent_ok}/{len(messages)}건 성공", file=sys.stderr)
@@ -381,7 +383,9 @@ if __name__ == '__main__':
         git_push(full_text)
         print("[완료]")
 
-    except Exception:
+    except Exception as e:
         print("\n[FATAL ERROR] 예상치 못한 오류:", file=sys.stderr)
         traceback.print_exc()
+        # 로그인 없이도 GitHub Actions Annotations에서 원인을 바로 볼 수 있게 명시적으로 남긴다.
+        print(f"::error::portfolio_report 실패 — {e}")
         sys.exit(1)

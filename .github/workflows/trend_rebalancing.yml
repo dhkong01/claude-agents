@@ -98,9 +98,16 @@ jobs:
       - name: 알림 채널 자격증명 확인
         if: steps.guard.outputs.skip != 'true'
         run: |
-          echo "TELEGRAM_BOT_TOKEN : $([ -n "$TELEGRAM_BOT_TOKEN" ] && echo SET || echo 'NOT SET')"
-          echo "TELEGRAM_CHAT_ID   : $([ -n "$TELEGRAM_CHAT_ID" ]   && echo SET || echo 'NOT SET')"
-          echo "KAKAO_REST_API_KEY : $([ -n "$KAKAO_REST_API_KEY" ] && echo SET || echo 'NOT SET')"
+          TG_TOKEN=$([ -n "$TELEGRAM_BOT_TOKEN" ] && echo SET || echo 'NOT SET')
+          TG_CHAT=$([ -n "$TELEGRAM_CHAT_ID" ]   && echo SET || echo 'NOT SET')
+          KK_KEY=$([ -n "$KAKAO_REST_API_KEY" ]  && echo SET || echo 'NOT SET')
+          KK_REFRESH=$([ -n "$KAKAO_REFRESH_TOKEN" ] && echo SET || echo 'NOT SET')
+          echo "TELEGRAM_BOT_TOKEN  : $TG_TOKEN"
+          echo "TELEGRAM_CHAT_ID    : $TG_CHAT"
+          echo "KAKAO_REST_API_KEY  : $KK_KEY"
+          echo "KAKAO_REFRESH_TOKEN : $KK_REFRESH"
+          # 로그인 없이도 Annotations에서 바로 보이도록 항상 notice로 남긴다 (값은 노출 안 함)
+          echo "::notice::알림 자격증명 — TELEGRAM_BOT_TOKEN:$TG_TOKEN TELEGRAM_CHAT_ID:$TG_CHAT KAKAO_REST_API_KEY:$KK_KEY KAKAO_REFRESH_TOKEN:$KK_REFRESH"
           if [ -z "$TELEGRAM_BOT_TOKEN" ] && [ -z "$KAKAO_REST_API_KEY" ]; then
             echo "::warning::알림 채널이 하나도 설정되지 않았습니다 — 추세추종 메시지가 발송되지 않습니다. GitHub Settings > Secrets and variables > Actions에서 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID를 등록하세요."
           fi

@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
-  "medium_risk_signals": 3,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 5,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "ELEVATED",
@@ -12,8 +12,9 @@
     "Consumer": "WATCH"
   },
   "top_risk_events": [
-    "Iran Finds Escalation Is Fruitful Path To Leverage In War With U.S.",
-    "Why Mokha, Historic Port That Shaped The Coffee Trade, Is A Prize In Yemen\u2019S War"
+    "Russian Strike On Train Station Near Ukraine-Poland Border Seen As Warning To Kyiv\u2019S Allies",
+    "China\u2019S Top Spy Chief Warns A.I. Is A Threat To Party Rule",
+    "Global Warming Will Breach The 1.5 Degree Celsius Limit. Now What?"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "rs90_count": 9,
   "stocks": [
     {
@@ -51,11 +51,11 @@
       "rs_rating": 87.7
     },
     {
-      "ticker": "AMAT",
+      "ticker": "ARM",
       "rs_rating": 86.7
     },
     {
-      "ticker": "ARM",
+      "ticker": "AMAT",
       "rs_rating": 85.8
     },
     {
@@ -103,11 +103,11 @@
       "rs_rating": 75.4
     },
     {
-      "ticker": "ROST",
+      "ticker": "WDAY",
       "rs_rating": 73.5
     },
     {
-      "ticker": "WDAY",
+      "ticker": "ROST",
       "rs_rating": 72.6
     },
     {
@@ -115,12 +115,20 @@
       "rs_rating": 71.7
     },
     {
-      "ticker": "DXCM",
+      "ticker": "GILD",
       "rs_rating": 70.7
     },
     {
-      "ticker": "AMGN",
+      "ticker": "MSFT",
       "rs_rating": 69.8
     }
-  ]
+  ],
+  "portfolio_rs": {
+    "VKTX": 48.1,
+    "MRVL": 94.3,
+    "CRDO": 22.6,
+    "NBIS": 91.5,
+    "RDDT": 13.2,
+    "VRT": 74.5
+  }
 }

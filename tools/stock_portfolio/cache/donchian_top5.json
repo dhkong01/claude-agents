@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "stocks": [
     {
       "ticker": "AAPL",
@@ -37,10 +37,10 @@
     },
     {
       "ticker": "AMD",
-      "final_score": 57.3,
-      "canslim_score": 52,
+      "final_score": 61.2,
+      "canslim_score": 55,
       "rs_rating": 93.3,
-      "vcp_score": 60,
+      "vcp_score": 70,
       "donchian_signal": "HOLD",
       "current_price": 516.13,
       "donchian_upper": 521.1,
@@ -54,8 +54,8 @@
     },
     {
       "ticker": "MRVL",
-      "final_score": 55.6,
-      "canslim_score": 52,
+      "final_score": 54.7,
+      "canslim_score": 49,
       "rs_rating": 94.3,
       "vcp_score": 68,
       "donchian_signal": "HOLD",
@@ -71,8 +71,8 @@
     },
     {
       "ticker": "STX",
-      "final_score": 46.8,
-      "canslim_score": 49,
+      "final_score": 47.7,
+      "canslim_score": 52,
       "rs_rating": 96.2,
       "vcp_score": 43,
       "donchian_signal": "HOLD",

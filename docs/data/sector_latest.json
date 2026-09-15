@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
@@ -95,46 +95,46 @@
   "us_by_sector": {
     "Technology": [
       {
+        "ticker": "FTNT",
+        "rs": 90.5,
+        "canslim": 61,
+        "price": 170.18
+      },
+      {
         "ticker": "AAPL",
         "rs": 80.1,
         "canslim": 58,
-        "price": 332.27
-      },
-      {
-        "ticker": "FTNT",
-        "rs": 90.5,
-        "canslim": 55,
-        "price": 156.07
-      },
-      {
-        "ticker": "MRVL",
-        "rs": 94.3,
-        "canslim": 52,
-        "price": 236.1
+        "price": 333.08
       },
       {
         "ticker": "AMD",
         "rs": 93.3,
-        "canslim": 52,
-        "price": 516.13
+        "canslim": 55,
+        "price": 493.41
       },
       {
-        "ticker": "NVDA",
-        "rs": 66.9,
+        "ticker": "STX",
+        "rs": 96.2,
+        "canslim": 52,
+        "price": 805.55
+      },
+      {
+        "ticker": "CRWD",
+        "rs": 89.6,
         "canslim": 51,
-        "price": 218.29
+        "price": 235.38
       },
       {
         "ticker": "MU",
         "rs": 98.1,
         "canslim": 49,
-        "price": 975.26
+        "price": 924.03
       },
       {
-        "ticker": "STX",
-        "rs": 96.2,
+        "ticker": "MRVL",
+        "rs": 94.3,
         "canslim": 49,
-        "price": 830.17
+        "price": 218.82
       }
     ],
     "Consumer Cyclical": [
@@ -142,23 +142,23 @@
         "ticker": "ABNB",
         "rs": 83.9,
         "canslim": 55,
-        "price": 170.19
+        "price": 170.65
       }
     ],
     "Energy": [
       {
         "ticker": "FANG",
         "rs": 78.3,
-        "canslim": 54,
-        "price": 204.97
+        "canslim": 51,
+        "price": 205.72
       }
     ],
     "Healthcare": [
       {
         "ticker": "AMGN",
-        "rs": 69.8,
+        "rs": 68.8,
         "canslim": 51,
-        "price": 377.35
+        "price": 381.5
       }
     ]
   },

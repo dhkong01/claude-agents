@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder says",
-      "summary": "Jack Clark says \"most labs have different ways of being able to pull the plug\", but says this may need to be a requirement.",
-      "link": "https://www.bbc.co.uk/news/articles/cqgk5e2j0gg8o?at_medium=RSS&at_campaign=rss",
+      "title": "Complaints to watchdog about water firms jump 84%",
+      "summary": "Many complaints were about affordability, after customers saw steep hikes to bills.",
+      "link": "https://www.bbc.co.uk/news/articles/cjy5z9l0395ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "EU halves cheap parcel influx in bid to rein in Chinese e-commerce giants",
-      "summary": "The EU has cut the number of low-value parcels entering the region by half, following the introduction of a €3 flat fee. The measure is part of a broader effort to curb the growing dominance of Chinese e-commerce platforms.",
-      "link": "https://www.euronews.com/my-europe/2026/09/14/eu-halves-cheap-parcel-influx-in-bid-to-rein-in-chinese-e-commerce-giants",
+      "title": "ECB staff raise stability concerns about rumours of Lagarde's early departure",
+      "summary": "Concerns are mounting that Europe's central macroeconomic institution might not be ready for turnover at the highest level.",
+      "link": "https://www.euronews.com/business/2026/09/15/ecb-staff-raise-stability-concerns-about-rumours-of-lagardes-early-departure",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,69 @@
       "source": "DW Business"
     },
     {
-      "title": "Von der Leyen U-turns, will attend landmark Carney speech",
-      "summary": "Initial decision to skip Canadian prime minister's speech had raised eyebrows among EU lawmakers.",
-      "link": "https://www.politico.eu/article/ursula-von-der-leyen-u-turns-will-attend-landmark-mark-carney-speech/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Nvidia boss on AI safety: ‘We don t need any new laws’",
+      "summary": "The head of one of the most profitable tech companies pushed arguments voiced by the president at a major AI conference as other industry leaders call for a slowdown.",
+      "link": "https://www.politico.com/news/2026/09/15/nvidia-jensen-huang-ai-safety-01078081?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "I got paid $5,000 to move to a place I'd never heard of",
-      "summary": "Relocation schemes offer support for people who want to swap big cities for a cheaper, quieter life.",
-      "link": "https://www.bbc.co.uk/news/articles/c3eq7485kewo?at_medium=RSS&at_campaign=rss",
+      "title": "Nvidia boss says AI 'doesn't need new laws' as safety concerns grow",
+      "summary": "Jensen Huang's stance on AI safety contrasts with several current and former employees of AI-focused firm",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "EU trade chief to visit Manila to finalise Philippines trade deal",
-      "summary": "Manila and Brussels have already completed six rounds of talks aimed at reducing trade barriers across a broad range of sectors. The agreement would represent another step in Brussels’ efforts to diversify its trade relationships throughout the Asia-Pacific region.",
-      "link": "https://www.euronews.com/my-europe/2026/09/14/eu-trade-chief-to-visit-manila-to-finalise-philippines-trade-deal",
+      "title": "US threatens EU with retaliation over European preference in EU budget",
+      "summary": "Washington said that the competitiveness fund included in the budget would “impede” partnership with the US because of provisions favouring “made in Europe” products.",
+      "link": "https://www.euronews.com/my-europe/2026/09/15/us-threatens-eu-with-retaliation-over-european-preference-in-eu-budget",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Why AI researchers warn humanity could face extinction",
+      "summary": "Could artificial intelligence pose an existential threat to humanity? Some leading researchers are warning against an unregulated race toward AI superintelligence.",
+      "link": "https://www.dw.com/en/why-ai-researchers-warn-humanity-could-face-extinction/a-79263146?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "OpenAI backs bipartisan push to address AI biothreats",
+      "summary": "The company is endorsing three bills to standardize biological data and defend against threats amplified by advanced artificial intelligence.",
+      "link": "https://www.politico.com/news/2026/09/15/openai-backs-bipartisan-push-to-address-ai-biothreats-01077755?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "We are all new job starters - here's how we got through the first few days",
+      "summary": "Four recent job starters share their tips on what helped them have a smooth transition and survive their first few days.",
+      "link": "https://www.bbc.co.uk/news/articles/cm2qn163053o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "ECB invites Europeans to vote on future banknote designs as deadline approaches",
+      "summary": "The European Central Bank is inviting people across Europe to vote on the designs for future euro banknotes before its public survey closes on 21 September.",
+      "link": "https://www.euronews.com/business/2026/09/15/ecb-invites-europeans-to-vote-on-future-banknote-designs-as-deadline-approaches",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Africa s richest man Dangote s IPO out of reach in Nigeria",
+      "summary": "Dangote seeks $1.6 billion from investors to finance a $14.3 billion expansion and thus double the oil refinery s capacity. The offer could give millions of Nigerians a stake in the company. But who can truly afford it?",
+      "link": "https://www.dw.com/en/africa-s-richest-man-dangote-s-ipo-out-of-reach-in-nigeria/a-79263398?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Germany s embattled leader Merz cancels New York trip amid mounting domestic pressure",
+      "summary": "Chancellor Friedrich Merz will instead stay in Germany to deal with fallout of elections in which his party is expected to fare badly.",
+      "link": "https://www.politico.eu/article/friedrich-merz-cancels-un-trip-amid-germany-political-crisis/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "US borrowing costs hit highest level since 2007",
+      "summary": "The effective interest rate on US government bonds over 10 years, known as the 10-year Treasury yield, has risen as high as 5.04% but has eased back since.",
+      "link": "https://www.bbc.co.uk/news/articles/cw804154z90ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "China's retail sales slow again as Beijing struggles to revive consumer spending",
+      "summary": "Retail sales in China grew just 0.4% in August, the slowest pace since growth resumed and the second consecutive monthly slowdown, underlining how little progress Beijing has made in reviving consumer spending even as factory output accelerates.",
+      "link": "https://www.euronews.com/business/2026/09/15/chinas-retail-sales-slow-again-as-beijing-struggles-to-revive-consumer-spending",
       "source": "Euronews Business"
     },
     {
@@ -45,21 +93,21 @@
       "source": "DW Business"
     },
     {
-      "title": "EPA scraps climate curbs for US power generation",
-      "summary": "The announcement was timed to splash down amid an energy-focused gathering of the G20 in Houston.",
-      "link": "https://www.politico.com/news/2026/09/14/epa-power-plant-climate-rules-01069146?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Iran war has cost US taxpayers $38B — and counting",
+      "summary": "The Congressional Budget Office said the prolonged military campaign will hit $2 billion to $3 billion a month.",
+      "link": "https://www.politico.com/news/2026/09/15/iran-war-cbo-01077533?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Pubs in England and Wales to allow digital ID apps to prove age",
-      "summary": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.",
-      "link": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o?at_medium=RSS&at_campaign=rss",
+      "title": "AI app ads promoting 'objectification of women' banned by watchdog",
+      "summary": "The ad regulator said it had \"zero-tolerance\" for ads promoting AI tools that could sexualise or objectify women.",
+      "link": "https://www.bbc.co.uk/news/articles/cmlyrn2n4zg5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Saudi pipeline shutdown threatens oil exports to Europe and Asia as kingdom relies on stored supplies",
-      "summary": "The pipeline disruption comes as Gulf oil exports have already fallen sharply and shipping routes face further threats. With no restart date announced, the impact on deliveries to Europe and Asia depends on how long the shutdown lasts.",
-      "link": "https://www.euronews.com/2026/09/14/saudi-pipeline-shutdown-threatens-oil-exports-to-europe-and-asia-as-kingdom-relies-on-stor",
+      "title": "Canada pitches itself as a haven for investors 'in a very uncertain world'",
+      "summary": "Canada is positioning itself as a refuge for global capital, with Finance Minister François-Philippe Champagne saying the country is a safe place to invest in a very uncertain world as Ottawa hosts the largest investment summit in its history.",
+      "link": "https://www.euronews.com/business/2026/09/15/canada-pitches-itself-as-a-haven-for-investors-in-a-very-uncertain-world",
       "source": "Euronews Business"
     },
     {
@@ -69,69 +117,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Gavin Newsom says he won’t run for president if Kamala Harris runs again",
-      "summary": "“I don’t know if she runs but we’ll see,” Newsom told CNN in an interview posted Monday.",
-      "link": "https://www.politico.com/news/2026/09/14/newsom-says-he-wont-run-for-president-if-harris-runs-again-01075320?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "OpenAI: AI capabilities are in a ‘different place’ and require urgency",
+      "summary": "The company’s top lobbyist believes there’s still a window for policy.",
+      "link": "https://www.politico.com/news/2026/09/15/openai-ai-hoax-urgency-01077352?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "Government set to nationalise troubled steel firm",
-      "summary": "Production at SSUK sites in South Yorkshire and the West Midlands was paused earlier this year.",
-      "link": "https://www.bbc.co.uk/news/articles/cm9w47ngje9no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Trump concedes on ethics rules, clearing the way for major crypto legislation",
-      "summary": "US President Donald Trump has accepted ethics restrictions he had long resisted, removing the final obstacle to the CLARITY Act, the most significant crypto legislation ever attempted in the US, which now faces a decisive Senate vote on Tuesday.",
-      "link": "https://www.euronews.com/business/2026/09/14/trump-concedes-on-ethics-rules-clearing-the-way-for-major-crypto-legislation",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "India looks to steer BRICS away from anti-Western turn",
-      "summary": "The BRICS summit 2026 takes place in Delhi this weekend. Unlike last year, Putin and Xi are expected to attend. Can India keep the expanded bloc united?",
-      "link": "https://www.dw.com/en/india-looks-to-steer-brics-away-from-anti-western-turn/a-79195234?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "EU Parliament to open office in Canada",
-      "summary": "Parliament will work in Ottawa alongside the existing EU delegation.",
-      "link": "https://www.politico.eu/article/european-parliament-open-office-canada/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Petrol and diesel prices hit highest since 2022",
-      "summary": "The cost of filling up a vehicle has rebounded, according to the RAC, as oil prices remain elevated.",
-      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "SoftBank shares plunge as calls grow to slow AI development",
-      "summary": "AI development should slow down, leading developers have warned, as the industry faces growing calls to put safety ahead of profits. The comments weighed heavily on technology shares on Monday.",
-      "link": "https://www.euronews.com/business/2026/09/14/softbank-shares-plunge-as-calls-grow-to-slow-ai-development",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Trump says Ukraine and Russia agreed to halt strikes on energy. Zelenskyy is not so sure.",
-      "summary": "If the U.S. can make Russia stop attacking Ukraine, Kyiv will be happy to reciprocate. But Zelenskyy's not holding his breath.",
-      "link": "https://www.politico.eu/article/donald-trump-ukraine-russia-strikes-energy-volodymyr-zelenskyy/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Pubs, hotels and gyms in Wales to get 30% business rates cut",
-      "summary": "The cuts comes into effect in April, but the largest businesses will pay higher rates to fund the changes.",
-      "link": "https://www.bbc.co.uk/news/articles/c6n9w87ejqn2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "사우디 파이프라인 셧다운과 에너지 가격 급등",
-  "summary": "사우디아라비아의 파이프라인 가동 중단과 지정학적 공급 차질 여파로 유럽의 휘발유 및 디젤 가격이 2022년 이후 최고 수준으로 치솟았습니다. 이로 인해 가계의 에너지 비용 부담이 가중되며 필수 의료비와 가족 방문을 포기하는 등 실질 소비 여력이 급격히 타격을 받고 있습니다.",
+  "trend_headline": "ECB 리더십 불안과 EU의 대중국 규제 고삐",
+  "summary": "라가르드 총재의 조기 사임설로 ECB 내부 통화정책 안정성에 대한 우려가 고조되는 가운데, EU는 중국발 저가 이커머스 공세에 대응해 저가 소포 유입을 절반으로 감축하는 등 역내 보호무역 장벽을 한층 강화하고 있습니다.",
   "key_points": [
-    "사우디 파이프라인 셧다운으로 유럽 및 아시아 향 원유 수출 및 저장 물량 공급 차질 발생",
-    "영국 RAC 기준 휘발유 및 디젤 가격이 2022년 이후 최고치 기록",
-    "치솟는 에너지 및 연료비로 인해 유럽 소비자들이 의료 예약과 가족 방문까지 포기하는 극단적 절약 감행"
+    "ECB 내부에서 라가르드 총재의 조기 퇴임설과 관련해 통화정책 안정성 우려 제기",
+    "EU, €3 정액 수수료 도입으로 저가 중국산 소포 유입을 절반으로 감축하며 이커머스 견제",
+    "사우디 파이프라인 가동 중단 여파로 유럽 및 아시아로 향하는 에너지 공급망 리스크 확대"
   ],
   "sector_hints": [
-    "Energy",
-    "Consumer Discretionary"
+    "Financials",
+    "Energy"
   ]
 }

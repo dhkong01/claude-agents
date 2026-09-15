@@ -1,149 +1,173 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "[밤 사이 해외 뉴스] 미국 빚 '40조 달러'…재무장관이 제시한 '기적의 해법'",
+          "title": "[밤 사이 해외 뉴스] \"기름값 또 뛴다\"…사우디 핵심 송유관 피격에 유가 109달러 폭주",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609154522i",
+          "link": "https://www.hankyung.com/article/202609167142i",
           "source": "한국경제"
         },
         {
-          "title": "브렌트유 105달러대…사우디 송유관 폐쇄에 국제유가 상승",
-          "summary": "사우디아라비아의 핵심 송유관이 폐쇄되면서 14일(현지시간) 국제유가가 상승했다. 이날 런던 ICE 선물거래소에서 11월 인도분 브렌트유 선물은 전장보다 1.02% 오른 배럴당 10..",
-          "link": "https://www.mk.co.kr/news/economy/12152718",
+          "title": "종부세 완화된걸까 … 안심하기에는 이르다",
+          "summary": "9월 1일 정부안 ‘세금 인하’보다 ‘급격한 인상 속도 조절’에 가깝다지난 8월 3일 세제개편안이 발표된 이후 주택시장에서는 적지 않은 혼란이 있었다. 특히 종합부동산세 개편안은 ..",
+          "link": "https://www.mk.co.kr/news/economy/12153076",
           "source": "매일경제"
         },
         {
-          "title": "\"200만원 패딩보다 낫다\"…한여름에도 대박 난 '사모님 패션'",
+          "title": "안전자산이라더니…강달러·고금리에 밀린 금값",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026091438651",
+          "link": "https://www.hankyung.com/article/202609167118i",
           "source": "한국경제"
         },
         {
-          "title": "“여윳돈 9억뿐? 죄송한데요”…문턱높인 PB센터, 그래도 부자 넘쳐난다",
-          "summary": "4대은행 PB고객 13만명 육박 가입 기준 계속 상향조정해도 은행 관리고객 4년새 25%↑ KB·신한, 초고액 따로 분류 VVIP 기준 100억 달하기도은행권의 고액 자산가 유치 ..",
-          "link": "https://www.mk.co.kr/news/economy/12152696",
+          "title": "교보생명, 라이프플래닛 흡수합병…디지털 역량 본사로 품는다",
+          "summary": "교보생명이 인터넷 생명보험 자회사 교보라이프플래닛생명보험을 흡수합병한다. 별도 디지털 보험사를 운영하기보다 관련 인력과 기술을 본사에 내재화해 보험사업 전반의 디지털 전환에 활용하..",
+          "link": "https://www.mk.co.kr/news/economy/12153519",
           "source": "매일경제"
         },
         {
-          "title": "\"동학농민혁명 유족에 50만원\"…빚더미에도 돈 푸는 이유",
+          "title": "상반기 영업익 43% 줄었는데…포스코 노조 \"120시간 부분파업\"",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026091439081",
+          "link": "https://www.hankyung.com/article/2026091671047",
           "source": "한국경제"
         },
         {
-          "title": "“집을 못 사게 해놨잖아요”…2030 무주택자 급증하는데 주거비는 폭등",
-          "summary": "39세 이하 유주택 비중 29%뿐 전월세·임대 거주비중은 늘어 이자는 7년만에 101.5% 급증 평균 주거면적마저 2.7%감소집값 상승과 고금리 여파로 청년층 가운데 전월세와 공공..",
-          "link": "https://www.mk.co.kr/news/economy/12152695",
+          "title": "롯데카드, MBK 등에 382억 … 경영 악화에도 첫 중간배당",
+          "summary": "롯데카드가 15일 임시 이사회를 열고 382억원 규모의 현금 중간배당을 의결했다. 롯데카드가 대주주에게 중간배당을 하는 것은 이번이 처음이다. 정보 유출 사고 등으로 영업정지 처..",
+          "link": "https://www.mk.co.kr/news/economy/12153472",
           "source": "매일경제"
         },
         {
-          "title": "그림·한우 넘어 채권·펀드로…토큰증권, 내년 2월부터 판 커진다 [분석+]",
+          "title": "\"AI에 돈 얼마나 들길래\"…빅테크가 앞다퉈 '빚' 늘리는 이유 [김주완의 글로벌 머니 X파일]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026091436246",
+          "link": "https://www.hankyung.com/article/202609156867i",
           "source": "한국경제"
         },
         {
-          "title": "“집은 있는데 쓸 돈이 없다, 그렇다면?” … 부동산 문제 뜻밖의 해법 ‘연금’",
-          "summary": "최근 정부가 부동산 문제를 놓고 대규모 국민 토론회를 열었다. 대통령이 직접 주재한 ‘부동산정책 국민 대토론회’에는 정부 관계자와 학계 전문가뿐 아니라 공인중개사, 금융기관 종사자..",
-          "link": "https://www.mk.co.kr/news/economy/12152237",
+          "title": "롯데카드, MBK 등에 382억 배당…작년보다 62% 늘어",
+          "summary": "롯데카드가 15일 임시 이사회를 열고 382억원의 현금 중간배당을 의결했다. 롯데카드가 대주주에게 중간배당을 하는 것은 이번이 처음이다. 정보유출 사고 등으로 영업정지 처분을 받는..",
+          "link": "https://www.mk.co.kr/news/economy/12153079",
           "source": "매일경제"
         },
         {
-          "title": "\"자율주행 최강자\"라더니…뒤통수 맞은 테슬라 차주들 [이슈+]",
+          "title": "\"30만원으론 어림없네요\"…추석 앞두고 장보기 겁나는 이유",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609142445g",
+          "link": "https://www.hankyung.com/article/2026091670527",
           "source": "한국경제"
         },
         {
-          "title": "“위헌이라 막혔지만 끝까지 간다”…마크롱, 15세 미만 SNS 금지 재도전",
-          "summary": "프랑스 정부가 위헌 판단으로 제동이 걸렸던 ‘15세 미만 청소년의 사회관계망서비스(SNS) 이용 금지’를 다시 추진한다. 에마뉘엘 마크롱 프랑스 대통령은 “끝까지 가겠다”며 청소년..",
-          "link": "https://www.mk.co.kr/news/economy/12152505",
+          "title": "이형일 \"시장경제 지키되 사회적 약자 보호\" … 이소영 \"벤처 지원해 코스닥 신뢰 회복할 것\"",
+          "summary": "이형일 부총리 겸 재정경제부 장관 후보자는 \"경제팀 수장으로서 각 부처의 역량을 최대한 모아 경제팀을 원팀으로 이끌겠다\"고 15일 국회 재정경제기획위원회 인사청문회에서 밝혔다. 이..",
+          "link": "https://www.mk.co.kr/news/economy/12153493",
           "source": "매일경제"
         }
       ],
-      "summary": "치솟는 국제유가와 부동산 정책 난맥 속에서 초고액 자산가 대상 VVIP PB 시장은 호황을 누리는 등 자산 양극화가 심화되는 양상입니다."
+      "summary": "사우디 송유관 피격 여파로 유가가 배럴당 109달러까지 폭등하며 국내 물가 및 수입 비용 압박이 가중되고 있습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "Japanese DOGE's cost-cutting push finds meager $110m in savings",
+          "title": "US weighs buying warships from Japan, South Korea to counter China",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/japanese-doge-s-cost-cutting-push-finds-meager-110m-in-savings",
+          "link": "https://asia.nikkei.com/politics/defense/us-weighs-buying-warships-from-japan-south-korea-to-counter-china",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Toyota sees Europe commercial vehicles as way out of hydrogen cost quagmire",
+          "title": "In labor-starved Japan, companies boost hiring perks for high school grads",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/automobiles/toyota-sees-europe-commercial-vehicles-as-way-out-of-hydrogen-cost-quagmire",
+          "link": "https://asia.nikkei.com/spotlight/work/in-labor-starved-japan-companies-boost-hiring-perks-for-high-school-grads",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Malaysia’s Solarvest goes beyond panels to batteries and power trading",
+          "title": "Japan's Inpex sees strong interest in Indonesia LNG amid Hormuz closure",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/asean-money/malaysia-s-solarvest-goes-beyond-panels-to-batteries-and-power-trading",
+          "link": "https://asia.nikkei.com/editor-s-picks/interview/japan-s-inpex-sees-strong-interest-in-indonesia-lng-amid-hormuz-closure",
           "source": "Nikkei Asia"
         },
         {
-          "title": "SWIFT's blockchain ledger enters tests with Citi, MUFG for 24-hour cross-border payments",
+          "title": "The reshaping of global trade as EU, China and US shift to enforcement",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/finance/swift-s-blockchain-ledger-enters-tests-with-citi-mufg-for-24-hour-cross-border-payments",
+          "link": "https://asia.nikkei.com/opinion/the-reshaping-of-global-trade-as-eu-china-and-us-shift-to-enforcement",
           "source": "Nikkei Asia"
         },
         {
-          "title": "FamilyMart hopes to quickly tap into trends with AI-developed sweets",
+          "title": "Japan consumers boost in-game purchases despite inflation squeeze",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/familymart-hopes-to-quickly-tap-into-trends-with-ai-developed-sweets",
+          "link": "https://asia.nikkei.com/business/media-entertainment/japan-consumers-boost-in-game-purchases-despite-inflation-squeeze",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan's LNG demand stymies response after Putin's disputed-island visit",
+          "title": "Nagoya University-linked startup regenerates Thai soil with microbes",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/international-relations/japan-s-lng-demand-stymies-response-after-putin-s-disputed-island-visit",
+          "link": "https://asia.nikkei.com/business/startups/nagoya-university-linked-startup-regenerates-thai-soil-with-microbes",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Sakana AI, Turing among Japan startup winners as investors turn choosy",
+          "title": "How the loss of a Global Hawk's eye in the sky may hurt Japan's defense",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/startups/sakana-ai-turing-among-japan-startup-winners-as-investors-turn-choosy",
+          "link": "https://asia.nikkei.com/politics/defense/how-the-loss-of-a-global-hawk-s-eye-in-the-sky-may-hurt-japan-s-defense",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Mount Fuji climbers to face fees for off-season helicopter rescues",
+          "title": "Talent shortage emerges as tech's biggest bottleneck in AI expansion boom",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/travel-leisure/mount-fuji-climbers-to-face-fees-for-off-season-helicopter-rescues",
+          "link": "https://asia.nikkei.com/business/technology/tech-asia/talent-shortage-emerges-as-tech-s-biggest-bottleneck-in-ai-expansion-boom",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan sees slower inflow of foreign professionals as AI crimps hiring",
+          "title": "Japan's JFE Engineering, startups bet on Philippine renewable energy",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/japan-immigration/japan-sees-slower-inflow-of-foreign-professionals-as-ai-crimps-hiring",
+          "link": "https://asia.nikkei.com/business/energy/japan-s-jfe-engineering-startups-bet-on-philippine-renewable-energy",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Kioxia-linked cloud startup to make it easier to crunch encrypted data",
+          "title": "Taiwan's ruling DPP rethinks nuclear power opposition in AI era",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/startups/kioxia-linked-cloud-startup-to-make-it-easier-to-crunch-encrypted-data",
+          "link": "https://asia.nikkei.com/politics/taiwan-s-ruling-dpp-rethinks-nuclear-power-opposition-in-ai-era",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "일본 기업들은 수소 비용 부담을 피해 유럽 상용차 시장을 타개책으로 삼는 등 비용 효율화와 AI 중심의 선별적 투자 국면에 진입했습니다."
+      "summary": "호르무즈 해협 폐쇄 우려에 따른 인근 에너지 확보 수요가 커지는 가운데, 일본 기업들은 인력난 속 고졸 채용 혜택을 확대하고 있습니다."
     },
     "TW": {
       "headlines": [
         {
-          "title": "Taiwan Semiconductor Manufacturing Co Ltd (TSM) Stock Down 3.5% but Still Overvalued -- GF Score: 98/100",
+          "title": "Zacks Investment Ideas feature highlights: Nvidia, Taiwan Semiconductor, Arista Networks, Dell Technologies, Hewlett Packard and Super Micro Computer",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTVh2U0tzOVc4ZmUzc2tZbVNKcVZfTUJMT2xjSVF2OGtOQ2Z0RTFfNDhHWVkzaGdaQmpZdXZFUUVpb0tRNmtPWTYxb25jZ25mUm5sNXJmU3NGZUZkLVAwYWQ0cWltN05nMFNDVEdERjZtRHVJbXZ2T1NPTDZGWGVnZGxtNDUxbXNLMjhxcjRsNEFrRWtlMUZZSnUyenBrVEgtOWZfdnVYS2ZkZDVIUFlOckltZ2VJRjBQOGJmSm1OazBObXI2VEVIZ3ZfSkhpQ00?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNamxvdEE5Y3VBeTg4bG9QUDBZX3RKSE1VSERFUHE3U3E2emxfYmJlLXVzbkVodFRSaDR4by1LSkU0c2liUHZUVzRiTDAyZzdtb0wtLTY4RzJqOUVSZzFsbnVNSEY0U0xIQWdNREpfTzJYbDVEOTNzZ3VmNGVZV2pmb2xFYS1paFA4X3FsdS1qSkYxb1YtM3UwMUVLd1FKLWZtbHlYTWQ2ckczdw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Apple and Taiwan Semiconductor Manufacturing Just Announced a Cutting-Edge Chip. 1 Stock Offers Far Greater Upside.",
+          "title": "Taiwan Semiconductor Issues Blunt Warning on AI",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3VnVS1Kd3JUNldqTGRQYVpjNUlDeHZXWHVLSkVTY21DS0FLcTZzcEp3eFgxQzRpVFYwYlk3NDZqQmxqTUE2Q1lUZWNUeGRQd0N5aExwNVZKbUx0bVRYRHVPNmtpaUZiNWZMMXhNSXdqY0dkZmh1XzAzUURrOUszRlI1QmZBcmRBTzU2VmxnajhvaVpZZHQ3TEtDWEt3MGRUZ04xV2JCY0l5dDQ2U2hn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUl9tdmNRZVNYSlBYYnpsa21lQV9LcFVWMWRCdDJSbEZDbWx4YlByeFFXWGV4a1VQTEpRSzNsaUdKeGFMTGFUUlZfNDVFSVRUYjRySjlZVWJFMm91amtvakEyVUM3bVR3c19uNkhvdXVNNXQtbUI4S2FNeG1tSFplLVBBR0czYkZYWVdpVTRsbUlmVDBRYVFHUG1nYU40TDJHbXhmMWFHbEZ3Y0k?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TSMC careful about use of AI in sensitive research",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1cjlFU0VqVk9TakZNN1UtRFU1UG0zaDZieFVFMzJHYlBuOXFqLWRWMnN1UVBwV1ZEd1U3WDVzZXJtZmMyZVdPQjN6UDFEeXZIbUV3QXN5bFQ5YS01S3hOMGJGcmZUTjVHN2xER2hYLWsyT0pTZHc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semi Revenue Keeps Surging. How to Play TSM Stock in September 2026.",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQnJKZVF3MkRsak1ORTlGRmtCT3RTR2U4OUtSS3FCTHhudENrNTJZbTdIRVJTaWtmTnpJc2ZmYnZ6Z1FYZjBrTEZESGVXSGt0ZkFkTTRjQzNkZ2hvb3dPS0tkdi1ZT1U1TWh4V2pvbEtJNTlZUFZLcVJManJ5OEhLeHd0dG5LR3VoRG1CbVpvT3M2aUNveVFhUVlkaThUQng3b0poUHRuX0psQXpsQ1VzZThtZFg3cmdP?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "GateWay Community College, Taiwan university launch semiconductor workforce partnership",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSmV4MkxmYXFmSFZiT1d0S29vSnhBSWRRR0w3N3RZejVjRnJxWW5hbjJhX2ctWnM4VmJYWTNHZkwzRVpCTExiV0N0d1pxSUN5d1A3cGdFeWFCdDdFTnBnMjhaMFlrQkNhejZrWU00ekF3OFprS1pfVXJQN3FrYzlUUEd1X01QWXVzQXNwdEpBNGZtUHJkSWlSZHBPUHRIUlVTMWo2U3ZSbGJjbjRWZ2VGeTZScGtoajZGMXlOUVJsazk?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "MediaTek's Newest Smartphone Chips Using Latest Taiwan Semiconductor Technology",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd01HS25udThWRzZ0SlByd09wVG5GWUo0QzBDZHVNeFhNUDJJVXh3aXE5WDB5T0NtSEdxUDdXNVNFcVVfNjFqWmJiSnRzQ2haOTIyaVB5SFdOSDZfLVBMdHJwZGNHekY1STdRcGd1cnRIaGh3RDBTYzFYUk5ZaHVZdGliT21NWGtUZTJHWXFFSlhkeEpkSVR4em1lbWhBVTF0c2dCOVhGQ3JLdVViTDVQU3VCX2R2OTZWTS1fX2Vfempsay1BRFhZbGFlSWk?oc=5",
           "source": "Google News"
         },
         {
@@ -153,127 +177,102 @@
           "source": "Google News"
         },
         {
-          "title": "Jensen Huang's ‘TSMC of AI’ Sees What's Next - Taiwan Semiconductor (NYSE:TSM), NVIDIA (NASDAQ:NVDA)",
+          "title": "Construction of TSMC fab in Germany on track: ESMC president",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVAyYk1zWjJMa3VqWjZyRzdQVkpIRVNBa1dKZ2UzS043MlA5ZEdiNldjdmFjTkl1T3h4MlNQdUlHZGNIa2t6TkN4WDdoVnc5LWpub0Y0ZS11MnpKR1c0a3N6WE92U283YndMQ1BlUjR1YUd2YjVJSTVlQXFiQjFlXzRR?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iWV9iLWZydnJMUUVDTUs2YzNBNUtRX3IzWmZCbkc3Smo5aUpBVGlQa0hFcVlkOG9ydTVJZ2RzdHpQaXlOOE9PWlRvdTN2SUIzTTNhakEwZw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Automakers sign US$147m in deals at German show",
+          "title": "Elon Musk Flags Taiwan as AI’s Weak Link. These Semiconductor ETFs Could Offer a Hedge",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95RHYzdTZ1VC1UdkNiY01nc1BXNHpIZlNGVENCMjdnUHhvdV92b3JJRWFiMTZXYXdPMUxjUVppUWF4NVBfZ3ZRLWNCYnkwQXBFSjBrZWJCVXpDd2hiV2ZiUXQzVkRsZ3BqVFhhM0dmb2VaT2tIMXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOTJObmVFT2FIUjZnV1dsNlV2RUMwVEZZTm5GM0g4NXhJVE56Z3lkbG5LZkk1MnVZSWFaVjRqWTdnTTVpZE9ZZTRhYzlUV3ZDQjdJSmRPeXM1SjRac2VNSExuU0RoUTFDYTZLcUdfZ3ppZVJMd0dCdHJsQm56UTR0SjlmZS1IM0lhMmhrWVp2SHFGR3NPa0ZYS0cxcHVxM3YzMkZmRXVjWjF3dzhzSF9YWGdqX1dwSkRTX0RpV0dQYWJlYXoxNEt1WDJNSVRWSjdnUk1fN2t6cW8?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Hits Record August Revenue, Is The AI Upside Already Priced In?",
+          "title": "TSMC's Strong August Revenues Signal Continued AI-Driven Chip Demand",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYnMxVG9PSmNnOW5pRGVtbE1XVXpCQmFGTW1ZWkhYbWp1eVgyRzMzRFpCNDRkc29FUkNjTFN3VlQ5TUo1RUExaFBzVW9qTDl0VlU1TnY5RTNGVENZOFZzdE9rcnE3REJGY3JPQjYybi11SWFjT2FfVHZWMW1sSDllR2VyMUVzcFk4aGNPazRURENHVkxNbm9wVmc2VXBBdkZreERtSnJvaWtzZnhycjBLQkRoTnpJd09CZzNOaElTTkJaRHF6eVFHeEczU1Rlbm1Lc3BGMHlPVy1kX3JtLWU3dW9zRXJQaHc5Vzg3VdIB8gFBVV95cUxNcXo4WV91OHRlb1JyeDQtOXhRRk9iSzM1REs3LTlNLU15T3Bmb1Ztd0VRS0xLQjFlZ2RNSGM4YzRZS1VISy12c3FDNEdjS0hBZGFPTnIydXN2RUZ2OGxHVVJEU3UxU1NQQmZNeFB0TURablpvanhOa0Zjc1FSZDI2MTZVUmpzNWxMbDBXZ0dlNEY3XzdEMkhjXzdyZzhQNEFkNl9xbFpXamNHLWg2NFIwWGwtNGhucjlPdUNKbTNldlh5Y3Jfd0pIYXViZHJuVGM1MGFFSG5FWEp2azJZQ2RXRnQyQmMyLTlOZ09ya3dOdDA0QQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Opened Down by 3.26% on Sep 14: What Signal Does It Send?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeEJ6SnBoTVJNblZkOERoY3NSdGp4UGctYTlhazVwaHI4WE9jZ19BX1RtaWs4djJDdUdnSkxXZzFfSnZRREF6dVRZa0haSFdaVlZZcXFDMjBtdHhTb0VxdmNiRGNjODFsMXhwbnItbk51RXlKM3k0bE9pMlI2YllOSFFkNTM5OTBCdGc?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa0NXTTRONDBkLTlvbEZqcG8tS2JiNDFmMlRNV2Rnenc4SVpaZEZ4M001aG9PNDNhV1I5cDZKMHA2aEhqRU55am9wQWFSb1F6UnRsQ2ZPeEp3UGFEZ2xTZHJWV0tLZnZWempmXzlqUVMtSzU4QkNQMzJXLVRXd21LNzFCek9FOFhVdUd3RDlXZXQyT0QxTko4?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "HavocAI partners with Taiwan on autonomous attack boats",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTV8xdnMxWlBvbmZnWE1JMWhMdVBJajUxQXpaS09iNXpEQnFUSUNRUjVBT2dwODBVV2ZDcFFxbDJUOTFHZmpXUVFvdF9uWDdXaENnZVlQVEVKdEJyc0NSNFRsUTE0Sy1Pck5JUlBRYVRKN2ZkRmgtNy1jb2NfR1Zia2JGdjJTRGtkNnBGZ25hWV9NVEptWW1OTEVSTGthZWJMMU9GUjNnWXhOTWxBcXdfZQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "What Could Taiwan Semiconductor Manufacturing (TSM) 2 Nanometer GAA Ramp Change?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONlJ1YVFGS0I5eUlfQ3VkTG5hUl91TkJZRlRRNThLS3lLdzhjWmEwMnRxVGE3M1V1c0Y5dkNBTDY5QjFKT0dsZ2x0VFZvcnV2UGFldElBUVpER3FYbjBvVHFfZXM4anJLcnBRYVl3MWVHc1dxcElORkw0YnJOU2VhTEtTZkp0VGdDU3ZtcVZXNG1XMlJXd3RIUi0tckxFWGl4bmNaR3c2ckpOSjhMcHlkenVvWEM4RTBxWFI3czFvNFl2aWRmUWZ6cklkVW1GYkw3cXg4Mzd2ZkFLY1l1U3RNRVJLSEVsWlJzaDhJSdIB8gFBVV95cUxNTjcycGlBeFZwSXZZZ0pzREhkX1FqY0duRU9XWV9VU1V5b0djaFF0dUMxajl4cVVVb3NnRHJrcHlPbUYxcm9pYktPVXl6YldiZXl2ZGd0VVA4X3NHY3dENVZTYzlxOEhlT2pRX3ZFVEI4NlJSNmZ6Vlo2b3luRS1hVjI2RlFhSnNFTjVVV3M1V2tGYVdickxQNnpmUjY0eXJLQU51Y2tIdUZxUDJwTFFmT1JKYmlheUhoZ2hYOUxsVzROMHhOV1ZwdUpDU2h2SVU5Z2pQREJJcHl5RXlkRkJBX0hSQzRFOHRlbVFSM2k3R21FQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSlpDbHpQWWV4clhZd1V4NWNZMk1ZQkMxTDNwWG00OHlZa2ZZYzBLeVktVTFKYnNNNEV3QjhLM25LT0FXaGhCclptSkliNGVRS0FmMU1qVjk2VGFGM0tCaXk5YzR1ZW0xdldnSGZqWFd1TnpyMjBINkFoSF9FaDhmbHNFQlRhb1hQN3FIQVJ4QTBPVnE3Z0RiaG9QdTEzM3JYNXBRbXFraU91aWdJX2hXdzBWZ0x6YlVTaDYzbnU3N0d5OXNtT2V1Y0JOcTJ3Q3lJNmwzMlVBdjVza0hqRWstT0ZUWDhaZw?oc=5",
           "source": "Google News"
         }
       ],
-      "summary": "TSMC가 역대급 8월 매출과 2만 원(2nm) GAA 공정 기대감을 이어가는 동시에, 주가 숨고르기와 밸류에이션 논쟁이 교차하고 있습니다."
+      "summary": "TSMC가 8월 호실적과 함께 AI 칩 수요의 지속성을 시사했으나, AI 시대의 잠재적 리스크에 대해서는 신중한 경고를 내놓았습니다."
     },
     "CN": {
       "headlines": [
         {
-          "title": "NYC’s wealthy Chinese grapple with Beijing’s tax rules as enforcement deadline nears",
+          "title": "Hong Kong commercial property downturn to worsen amid tightening credit: agents",
+          "summary": "Commercial property prices in Hong Kong are likely to continue their downward spiral, as the market risks getting trapped in a “vicious cycle” of tighter bank lending and weakening demand, a property agency has warned. Banks in the city had adopted a more conservative approach towards approving mort",
+          "link": "https://www.scmp.com/business/banking-finance/article/3367633/hong-kong-commercial-property-downturn-worsen-amid-tightening-credit-agents?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Tighter scrutiny of Hong Kong IPOs could slow deal flow, analysts say",
+          "summary": "Securities regulators in Hong Kong and mainland China are doubling down on efforts to raise the quality of Hong Kong initial public offerings (IPOs), which could slow the flow of new listings but would not reduce underlying demand, according to analysts. In an unusual move, the China Securities Regu",
+          "link": "https://www.scmp.com/business/banking-finance/article/3367616/tighter-scrutiny-hong-kong-ipos-could-slow-deal-flow-analysts-say?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Wrise Prestige accelerates mainland China expansion with new offices, AI lab",
+          "summary": "Wealth management provider Wrise Prestige is stepping up its investment in artificial intelligence technology as the firm looks to expand its footprint on the Chinese mainland and power its next phase of growth. The Singapore-headquartered firm planned to open an AI laboratory in Guangzhou next mont",
+          "link": "https://www.scmp.com/business/banking-finance/article/3367615/wrise-prestige-accelerates-mainland-china-expansion-new-offices-ai-lab?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "As the American century ends, Asia’s renaissance begins",
+          "summary": "The ending of the American century is coinciding with an Asian renaissance. America remains the world’s largest economy and will stay that way for another decade or two. But its economy no longer dominates the world. And its “America first” policy has partners and allies looking for alternatives for",
+          "link": "https://www.scmp.com/opinion/asia-opinion/article/3367322/american-century-ends-asias-renaissance-begins?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Chinese firms’ export share to reach 31% by 2035 as global expansion deepens: Goldman Sachs",
+          "summary": "Chinese companies “going global” are moving from the peripheral to the core in the business world, with their average market share in export markets projected to rise to 31 per cent by 2035 from 18 per cent this year, according to a Goldman Sachs report on Monday. The global expansion of Chinese fir",
+          "link": "https://www.scmp.com/business/china-business/article/3367561/chinese-firms-export-share-reach-31-2035-global-expansion-deepens-goldman-sachs?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Unitree’s US$30 billion stock wipe-off spurs regulatory caution on humanoid robot IPOs",
+          "summary": "A more than 40 per cent slump in Chinese humanoid robot maker Unitree Robotics since listing has sounded regulatory caution for the industry, with speculation swirling that Beijing may tighten approval of the peer listings. The regulators would heighten scrutiny over humanoid makers seeking initial ",
+          "link": "https://www.scmp.com/business/china-business/article/3367545/unitrees-us30-billion-stock-wipe-spurs-regulatory-caution-humanoid-robot-ipos?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Chinese carmakers GAC and FAW eye potential tie-up of their Toyota operations",
+          "summary": "Two Chinese state-owned carmakers, Guangzhou Automobile Group (GAC) and FAW Group, are weighing a restructuring that could integrate their joint venture operations with Japanese giant Toyota, industry insiders say, following Beijing’s call for consolidation amid weakening domestic demand. GAC planne",
+          "link": "https://www.scmp.com/business/china-evs/article/3367538/gac-shares-jump-faw-tie-plans-amid-beijing-drive-car-industry-mergers?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Citigroup hires veteran banker Sophia Wang to lead China institutional sales",
+          "summary": "Citigroup has appointed veteran banker Sophia Wang as a managing director and head of China financial-institutional sales and senior relationship management (SRM), marking the latest move by the Wall Street lender to deepen its footprint in mainland capital markets despite ongoing geopolitical frict",
+          "link": "https://www.scmp.com/business/banking-finance/article/3367535/citigroup-hires-veteran-banker-sophia-wang-lead-china-institutional-sales?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "China targets offshore operations of brokerages in crackdown on pay loopholes, corruption",
+          "summary": "China’s securities regulator and its industry body are moving to close compensation loopholes for brokerage management and staff, extending anti-corruption oversight to overseas operations for the first time, as Beijing pushes the sector to build world-class investment banks. The Securities Associat",
+          "link": "https://www.scmp.com/business/banking-finance/article/3367465/china-targets-offshore-operations-brokerages-crackdown-pay-loopholes-corruption?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "New York City’s rich Chinese grapple with Beijing tax rules as enforcement deadline nears",
           "summary": "Months after Beijing unveiled a bevy of new tax rules for offshore trusts, the fallout has now reached New York City – home to one of the largest concentrations of mainland Chinese wealth outside Asia – after the changes swept across Hong Kong and Singapore. Under the rules, which took effect on Jul",
           "link": "https://www.scmp.com/business/money/wealth/article/3367437/nycs-wealthy-chinese-grapple-beijings-tax-rules-enforcement-deadline-nears?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "Hong Kong malls see ‘gradual recovery’ with new stores and events: Hang Lung CEO",
-          "summary": "The outlook for shopping centres in Hong Kong is improving, and the business will thrive if operators use new stores and attractive events to counter locals’ fondness for cross-border shopping trips, according to the CEO of Hang Lung Properties. The company’s malls recorded growth in July, and busin",
-          "link": "https://www.scmp.com/business/article/3367469/hong-kong-malls-see-gradual-recovery-new-stores-and-events-hang-lung-ceo?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "China’s inbound tourism revenue projected to reach US$470 billion by 2040: UBS",
-          "summary": "Revenue from inbound travel to China is forecast to reach US$470 billion by 2040, more than doubling its current share of the economy and helping offset weak domestic demand, according to UBS. Tourism from outside mainland China would expand to 1.5 per cent of gross domestic product (GDP) on a compo",
-          "link": "https://www.scmp.com/economy/china-economy/article/3367459/chinas-inbound-tourism-revenue-projected-reach-us470-billion-2040-ubs?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Forms Syntron draws Hong Kong’s next-gen tycoons in HK$940 million IPO",
-          "summary": "Hong Kong’s younger generation of tycoons is becoming increasingly active in the city’s initial public offering market through family offices and private investments. But their investments extend beyond the property and traditional financial sectors associated with their predecessors, into technolog",
-          "link": "https://www.scmp.com/business/banking-finance/article/3367464/forms-syntron-draws-hong-kongs-next-gen-tycoons-hk940-million-ipo?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Hong Kong faces pressure to speed up trading hours review after South Korea’s move",
-          "summary": "Hong Kong’s stock market is facing renewed pressure to accelerate its review of longer trading hours after South Korea’s main bourse extended its session by four hours on Monday, according to an industry player. The Korea Exchange, South Korea’s bourse operator, launched a real-time after-market fro",
-          "link": "https://www.scmp.com/business/banking-finance/article/3367433/hong-kong-faces-pressure-speed-trading-hours-review-after-south-koreas-move?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Cosco Shipping arm readies China IPO to capitalise on global shipbuilding wave",
-          "summary": "The shipbuilding and maintenance arm of state-owned marine transport giant China Cosco Shipping has completed initial public offering (IPO) guidance registration, paving the way for a domestic listing to capitalise on a global shipbuilding boom. Cosco Shipping Heavy Industry finished its pre-IPO reg",
-          "link": "https://www.scmp.com/economy/article/3367409/cosco-shipping-arm-readies-china-ipo-capitalise-global-shipbuilding-wave?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Asian Captive Conference 2026 Highlights How Captives Are Utilised as Businesses Navigate Risks",
-          "summary": "[The content of this article has been produced by our advertising partner.] KUALA LUMPUR, 11 September 2026 — The 8th Asian Captive Conference (ACC) 2026 yesterday brought together more than 300 risk and industry professionals from the region and beyond to explore how captive insurance is enabling b",
-          "link": "https://www.scmp.com/presented/business/topics/asian-captive-conference-2026/article/3367381/asian-captive-conference-2026-highlights-how-captives-are-utilised-businesses-navigate-risks?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Handshake or arm-wrestling match? What China’s stock traders expect from Xi-Trump meeting",
-          "summary": "The coming meeting between President Xi Jinping and his US counterpart Donald Trump is on the radar of market traders in mainland China and Hong Kong, as the results – whether smiling handshakes or a tense test of wills – could add volatility to an already unpredictable market. However, observers sa",
-          "link": "https://www.scmp.com/business/china-business/article/3367417/handshake-or-arm-wrestling-match-what-chinas-stock-traders-expect-xi-trump-meeting?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Data from Greater Bay Area’s 88 million residents to help improve healthcare policy: GSK",
-          "summary": "British pharmaceutical company GSK is turning to patient data gathered from the 88 million residents of the Greater Bay Area’s 11 cities to speed up drug development in vaccines and cancer care, as officials push for closer cross-border medical cooperation. GSK Hong Kong and Macau general manager Ni",
-          "link": "https://www.scmp.com/business/companies/article/3367404/data-greater-bay-areas-88-million-residents-help-improve-healthcare-policy-gsk?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "How one company’s choice – resignation or the factory – left China’s young workers floored",
-          "summary": "Weeks after sparking a nationwide outcry over its mass dismissal of recent college graduates, Xingyu – a major automotive lighting maker in eastern China – has severely penalised four of its executives and promised to help the former employees find new jobs. Two of the firm’s top executives received",
-          "link": "https://www.scmp.com/business/companies/article/3367249/how-one-companys-choice-resignation-or-factory-left-chinas-young-workers-floored?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "베이징의 역외 신탁 과세 강화로 해외 자산가들의 긴장감이 높아진 가운데, 코스코시핑 자회사의 국내 IPO 등 조선업 호황 수혜가 두드러집니다."
+      "summary": "유니트리 로보틱스의 상장 후 급락 여파로 베이징 당국이 휴머노이드 로봇 및 홍콩 IPO에 대한 규제와 심사를 강화하고 있습니다."
     }
   },
-  "trend_headline": "공급망 리스크와 자산 양극화 속 첨단산업 재편",
-  "summary": "아시아 시장은 사우디 송유관 폐쇄 여파에 따른 국제유가 상승과 원유 공급망 불안 속에서도, TSMC의 실적 질주와 AI·반도체 중심의 기술 재편 흐름이 증시를 지탱하고 있습니다. 이와 함께 각국은 자산 과세 강화 및 고금리 장기화에 따른 양극화 대응에 주력하는 모습입니다.",
+  "trend_headline": "유가 폭등과 AI 밸류체인 긴장감이 지배한 아시아 시장",
+  "summary": "사우디 송유관 피격에 따른 유가 폭등이 한국 등 수입국에 인플레이션 압박을 가중하는 한편, 대만은 TSMC의 AI 수요 지속과 경고 공존, 중국은 로봇주 급락에 따른 규제 강화로 변동성이 커진 하루였습니다.",
   "cross_country_themes": [
-    "Supply Chain & Energy Risk",
-    "Semiconductor & AI Innovation",
-    "Asset Polarization"
+    "AI 인프라 및 반도체 밸류체인",
+    "지정학적 리스크 및 공급망 충격"
   ],
   "sector_hints": [
     "Energy",
     "Semiconductors",
-    "Real Estate",
-    "Shipping & Shipbuilding"
+    "Robotics",
+    "Automotive"
   ]
 }

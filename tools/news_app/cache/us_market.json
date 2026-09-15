@@ -1,71 +1,35 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "region": "US",
   "headlines": [
     {
-      "title": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
-      "summary": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
-      "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+      "title": "Ford increases V-8 engine availability, lowers performance prices for 2027 F-150 trucks",
+      "summary": "Ford said the changes are meant to provide customers with more choice and help expand sales of key models, a strategy CEO Jim Farley has touted.",
+      "link": "https://www.cnbc.com/2026/09/15/2027-ford-f-150-trucks.html",
       "source": "CNBC"
     },
     {
-      "title": "AI doomsday fears are arriving at the worst possible time for the stock market",
-      "summary": "The latest cracks in the AI trade are emerging at a particularly troubling time for investors.",
-      "link": "https://www.marketwatch.com/story/ai-doomsday-fears-are-arriving-at-the-worst-possible-time-for-the-stock-market-75c4ad53?mod=mw_rss_topstories",
+      "title": "Medicare is using AI to approve claims. The result has been alarmingly high denial rates.",
+      "summary": "A pilot program using artificial intelligence to approve care for Medicare beneficiaries has resulted in high levels of denials and delayed decisions and prompted warnings from a vendor about a lack of readiness, according to a lawsuit seeking information about the program.",
+      "link": "https://www.marketwatch.com/story/medicare-is-using-ai-to-approve-claims-the-result-has-been-alarmingly-high-denial-rates-db87d902?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Oil Executives Say the Great Fuel Crisis Is Here",
+      "title": "Opinion | U.S. Space Weapons Are a Force for Peace",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcjVXZkhHNzRtV0NkLWNEanQybTBReTdsZzgzMVF4dF9pRHNGUk5VcUVZTkw5UUI4N2w0aXlrYjk0ajI0U1JIeHJ0U0JSUm01bUh1TFZ4cUpCRnBDY0hqeFAzV2xIOHA4a3psYlVQWHN2Q3JvZEdoQXdIZFVtdWNBMFBtY05hc3lfdUE2ZWFNSkhUMjVtdXBJMVN3MHMxZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUmRfM1FSSDFBM1pWSVJ1eUQ4dWVNU1FsVGNqck45UVVUbk9TNWFKN3MyRXQyZzZVcUZzWEUzNXNaY3hyTFlRUUo5LWlnQ0V2a0c5LVBjaW5nZnR4M212MWM3ci1kb3h1UktsYmxFanZZeFhuVk94aWkzNnlCUVBYRmcwMDFZRi1I?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Another coffeehouse files for Chapter 11 as costs, prices rise",
+      "title": "Costco rations Kirkland motor oil, raises price to $57.99",
       "summary": "",
-      "link": "https://finance.yahoo.com/small-business/articles/another-coffeehouse-files-chapter-11-033545256.html",
+      "link": "https://finance.yahoo.com/energy/articles/costco-rations-kirkland-motor-oil-133308837.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Nvidia CEO Puts Trump on Speakerphone While Downplaying AI Risks",
+      "title": "Trump Advisers Lutnick, Michael Meet With a Top Anthropic Executive Over AI Safety",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGxEd1BKNmZGeU8zblRFcmJLUHlscGgzR2hUdW5Yal94Uk9YRnJ0clAzalpwbDdxSDNyQmgwT3lYS29aS2diRk9UbENDS2IwdkcwNHRZZjhpNnhOSThCeHZXVmJkNXBzdGtGczkzWm5oX1pfb2licWxBc2lzRi13Zm1SdW95RFNEQjROSlotSEg4eWFXdVFYYUZLY2NuczRrdE5pQlZaWF9tOXRWS0FiSzVycWtaUQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Big Pharma Is Pouring Billions in China’s Biotechs. Bristol Meyers, Eli Lilly, Others Look East.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMWJlRjJPSFN1VVlXc2NXRXVqUWt3OFpxLVNad1pfamFvTnRfMGZEWVVQQlFTeTd6VG1PTUplQzlwemJ5T1htV0huTWZVcllpUWlURGpUMlNtUGtVWWgzSHlsV2N6VnhjSkV3MDlQM0lydTI1UVhRTUk1dUNFVWNqamhEMHEyejFqcWRWSGk4Yw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Novo CEO tells CNBC why drugmaker is rebranding, needs to rethink obesity strategy",
-      "summary": "The Danish drugmaker called the changes the beginning of a new chapter for the company, which faces stiff competition from Eli Lilly.",
-      "link": "https://www.cnbc.com/2026/09/14/novo-nordisk-rebrands-to-novo-ceo-mike-doustdar.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The murky AI milestone that has some of the industry s leading voices increasingly on edge",
-      "summary": "Anthropic CEO Dario Amodei and others are warning that AI models may be able to build on themselves, without the help of humans. It s a concept known as recursive self-improvement.",
-      "link": "https://www.marketwatch.com/story/the-murky-ai-milestone-that-has-some-of-the-industrys-leading-voices-increasingly-on-edge-6ffeacc7?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "U.S. Sanctions Russian Bank in Latest Target for Campaign Against Iran",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY2VlWFpWc09aZzZyc3M3YWJOSUZXai00aHRDTDZZajFjUWh3QTFQQTVHa0p1RS1EUzlyYVpZMndKMnB5UE5xVmp3UGNVQ29iYlhncm5nQ0Y2b0s4STctdG9nVXM2VjRCXzIzODdfRVRldDRITHBrVGh6MjlCQUZDeDBjLWxmTTdqcHU1amV2MTdZN0d6RFRmS0N1Q0VOVWRwR1UzOGdSdXNqSWZyUkZRZFZxT3FhUDlz?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "AI agents to start spending your money with Visa, Mastercard",
-      "summary": "",
-      "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-start-spending-money-010300686.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Apple Just Launched Its New iPhones. Here Are 16 More Products Coming Soon",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONDByRlBtckFDZTJmNm96M1VzZjR4UnMzTldtYTRubEtabU51WGNmLVVUTlNSNVZSdy1XV0FTRmVFblppRUpOYzhTbkdfM3Q3bFlGSHMtYkhldEhTNzZvODRQWE1tbW9JTmlDQVdzZHVnakIyd1llODd4bzhRdWg0ZkZBUmgwNGFvUFNydW83Wml1dng5WmFwcXJ1ZzBVZ0Z3eGRqeHpKMFJkX3J5bVFaOTZyeGxvbHp6?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcVJCd1JzOVZOSkZWSU5pYjZnZ1NRRWt2VW9LUmlOSXNuTW52X3RVZXRoVmlVQlM1QU5yNi1BQm41cnp2YTJUZ2Y1d3p2bUt0QWRuZlVEbHRHLUFQWDZqcmtWbHZhVDZnUTdUQ1hHYXdJWHN0Nm83cnlHSkJvQXVYMkZUZjRGY0t2QldvNzlES3A2UGdlaXJPM2d0VERvMmdPaXVzU1Z0RmtnXzg4eEdPdzdQaUdHR1dTSzdZV2lfOGFvTEFm?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -75,33 +39,69 @@
       "source": "Barron's"
     },
     {
-      "title": "GM plans U.S. battery development as Trump s DOT attacks Ford for China ties",
-      "summary": "Most battery cells currently rely on raw materials from China. GM is seeking to establish domestic supply chains both for EVs and energy storage.",
-      "link": "https://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html",
+      "title": "Nike co-founder Phil Knight to donate $1.1 billion to Oregon medical center",
+      "summary": "The gift to Providence St. Vincent Medical Center will support the creation of an all-women’s hospital as well as advance cardiovascular care across Oregon.",
+      "link": "https://www.cnbc.com/2026/09/15/nike-phil-knight-donation-oregon-medical-center.html",
       "source": "CNBC"
     },
     {
-      "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
-      "summary": "Oil buyers are paying much more to get a barrel of crude oil immediately as the Iran conflict threatens global supplies.",
-      "link": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
+      "title": "My total balance should be $20 million : I invested $1.1 million in a crypto platform. Have I lost it all?",
+      "summary": "I invested on the recommendation of an executive vice president of a major New York investment bank.",
+      "link": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | OpenAI Buys Startup Developing Smartphone Camera",
+      "title": "Exclusive | U.S. Pressures Mexico to Box Out China’s AI Hardware Exports",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTZxRTlsbk9LSDQ5WG1KdmRfc2ZtbGdUVFNnR0FtdW9zUlc5SmRsWi1RZ09ubldJQjBuOGRkaVBEckloOUFvQVhTZEJyRFBDcnFweXNmOEJ4alRyenB1ZkI4c21leU5wUzYtZGcxa282VldpR21sNzh5R1pnaWdLSXVRS20waDkyZVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa0pqM1hOWmNYN0NfZDl2SFBtdHI4TG44akZhN2pOZ2FidndwV2d3YUFSWFVpODhsTVMyVi1BdFV0NFZ4cUllRVJDRnV3V0tKVFNxbld5dmU2LVpQYVpaVzlRZG9IWS11bHN0Umc1NDRKdEN1elh4YUpJNmpDcE5aV2N3RlVLQk9TQlR0TGljLXhYcjFPMkFET2cwRlk3bV8xbUkw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "38-year-old beloved steakhouse chain closing over 40 locations",
+      "title": "National specialty clothing chain closing all its stores",
       "summary": "",
-      "link": "https://finance.yahoo.com/small-business/articles/38-old-beloved-steakhouse-chain-020300119.html",
+      "link": "https://finance.yahoo.com/small-business/articles/national-specialty-clothing-chain-closing-140700669.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Watch An ETF That Tracks Employees' 'HAPI'-Ness",
+      "title": "US Senate Blocks Landmark Crypto Bill in Industry Loss",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOXM0MXlEMDVoaXJsMERTODJ0cFBPN3EzMUxQRXduc3Z6Um5JQXJ4NE9mYnVoY3d0OXNfQmZDd0t1ZDk1YTBQZUhYdnd2OWQtdkxSUTN2U1NLaG5rZ3otYVp4emlwcjJQZ21xS2F6cXpuRlZIWHdtY01udmRfS2ZXTjZWdFZoNVlTdnBjSkJEV2JsSU9OLUlhTw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVl90dWVob3JQRE9leUU1MGNxTHc0TkhFUjVXbjJyTzVWTS1KLUVraDJDbHhKQzdWNjJ1c3JFUlc2Smp3SHZGOFpyMzUtZHk4bXNGdkdxckFESVBHVGswM3lHYWFOMFdldnlGYWlSbHFYdWRuUzI2SzdrdzE5aVJoQUZSNlloUFRIRnMwelA2YkJHSFJFUUl5ZjZtWTRhOWtKaWdaemQ1MS0?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Big Pharma Is Pouring Billions in China’s Biotechs. Bristol Meyers, Eli Lilly, Others Look East.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMWJlRjJPSFN1VVlXc2NXRXVqUWt3OFpxLVNad1pfamFvTnRfMGZEWVVQQlFTeTd6VG1PTUplQzlwemJ5T1htV0huTWZVcllpUWlURGpUMlNtUGtVWWgzSHlsV2N6VnhjSkV3MDlQM0lydTI1UVhRTUk1dUNFVWNqamhEMHEyejFqcWRWSGk4Yw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO",
+      "summary": "Digital Realty and Equinix, two of the largest data center REITs, saw their stocks slump after warnings over AI advancements.",
+      "link": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "There might be a silver lining : My friend s wife died at 60 after a high-earning career. Can he claim her Social Security?",
+      "summary": "They had been married for over 30 years when she passed.",
+      "link": "https://www.marketwatch.com/story/there-might-be-a-silver-lining-my-friends-wife-died-at-60-after-a-high-earning-career-can-he-claim-her-social-security-eb95210a?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Inside OpenAI’s Ad Rush",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBeU5YQ2gyVVBIaUh1cWc4bFo2M3FXNVRxeFg2bkdUa0Fwd0dwYjluR1dvc1RGZHdtRXZ1ZHNZc2I2V1A5U1I1WFlhUjYwQlM0TzBZMEotZW9tdkF2UmVLb0lwY3JFREpIbmo2bmlPWC1fdWpv?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "How Is Tractor Supply's Stock Performance Compared to Other Specialty Retail Stocks?",
+      "summary": "",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tractor-supplys-stock-performance-compared-152555841.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bond Market’s ‘Extreme’ Short Counts on Fed to Deliver Rate Hike",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ2p5Z2FYOFFTNkdkMkc1TEdENi05UlZtdHV4d0Z6eXd3X2dOSE1UVFA4bjNfamQ3RWlfbjJRVXdqSGZuLUt0TUdiZHVMa1pZWHFVMm1zTGtYbEN4aWt4RnRSTXpaaHIzUGZqZkhldUxEWTVQT3dKYmFURzdPdFlnWlBMVjc3TmQ2TklOZkNrVTltNFZVQWR1T0ZBUi10OEdUZXpQSFNGMVF6V0FQMkRXWHdmZw?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -111,28 +111,28 @@
       "source": "Barron's"
     },
     {
-      "title": "Record U.S. cyclosporiasis outbreak is over, CDC says",
-      "summary": "The largest outbreak, linked to shredded iceberg lettuce from Taylor Farms, sickened more than 12,000 people.",
-      "link": "https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html",
+      "title": "GM launching new customer software experience with redesigned Chevy, GMC pickups",
+      "summary": "The new system comes as vehicles are becoming more digital, leading GM to also redesign its organizational processes.",
+      "link": "https://www.cnbc.com/2026/09/15/2027-chevy-silverado-gmc-sierra-to-debut-gms-new-software-experience.html",
       "source": "CNBC"
     },
     {
-      "title": "CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat",
-      "summary": "The software sector outperformed the chip sector to a historic degree in the face of escalating AI fears.",
-      "link": "https://www.marketwatch.com/story/crowdstrike-and-palo-alto-networks-are-leading-software-stocks-toward-a-never-before-seen-feat-5b8989b2?mod=mw_rss_topstories",
+      "title": "These 4 stocks could benefit most from a $3.2 trillion semiconductor opportunity",
+      "summary": "A BofA analyst expects the semiconductor market to reach $3.2 trillion by the end of the decade, shrugging off fears of an AI slowdown.",
+      "link": "https://www.marketwatch.com/story/these-four-stocks-could-benefit-most-from-a-3-2-trillion-semiconductor-opportunity-e6bf58b4?mod=mw_rss_topstories",
       "source": "MarketWatch"
     }
   ],
-  "trend_headline": "AI 거품 경계감과 반도체주 약세",
-  "summary": "AI 랠리의 지속 가능성에 대한 우려가 확산되며 뱅크오브아메리카의 투자은행 수수료 전망 악화와 함께 반도체 및 기술주 전반에 매물이 출회되었습니다. 특히 AI 개발 속도 조절론과 고점 경계감이 겹치며 그간 시장을 주도하던 칩 메이커들이 큰 조정을 받았습니다.",
+  "trend_headline": "AI 고점론과 유가 급등에 흔들린 증시",
+  "summary": "AI 성장 둔화 우려와 중동 긴장에 따른 원유 공급 차질이 겹치면서 기술주와 채권 시장에 하방 압력이 가해졌습니다. 미 상원의 가상자산 법안 부결로 크립토 시장도 큰 폭의 조정을 받았습니다.",
   "key_points": [
-    "뱅크오브아메리카, 3분기 투자은행 수수료 10% 이상 감소 예상",
-    "마이크론과 엔비디아 등 주요 반도체주, AI 속도 조절론 부각에 하락세 기록",
-    "소프트웨어 섹터는 AI 피로감 속에서 반도체 대비 상대적 강세 시현"
+    "Nvidia 및 주요 데이터센터 REITs 주가 하락세 기록",
+    "사우디 동서 파이프라인 폐쇄 등으로 원유 선물 가격 급등",
+    "미 상원의 암호화폐 법안 부결로 비트코인 6월 이후 최대 낙폭 기록"
   ],
   "sector_hints": [
     "Technology",
-    "Financials",
-    "Semiconductors"
+    "Energy",
+    "Financials"
   ]
 }

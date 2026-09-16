@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "analyzed": 100,
   "top10": [
     {
       "ticker": "FTNT",
-      "canslim_score": 61,
+      "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
         "S": 4,
-        "L": 10,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 124863389696,
-      "price": 170.18,
-      "rs_rating": 90.5
+      "market_cap": 126470217728,
+      "price": 172.37,
+      "rs_rating": 89.6
     },
     {
       "ticker": "AAPL",
@@ -34,9 +34,27 @@
       },
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 4861029515264,
-      "price": 333.08,
-      "rs_rating": 80.1
+      "market_cap": 4835635625984,
+      "price": 331.34,
+      "rs_rating": 82.0
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 59231182848,
+      "price": 211.525,
+      "rs_rating": 81.1
     },
     {
       "ticker": "AMD",
@@ -52,27 +70,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 805479514112,
-      "price": 493.41,
-      "rs_rating": 93.3
+      "market_cap": 823093886976,
+      "price": 504.2,
+      "rs_rating": 94.3
     },
     {
-      "ticker": "ABNB",
-      "canslim_score": 55,
+      "ticker": "CRWD",
+      "canslim_score": 54,
       "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
+        "C": 5,
+        "A": 5,
+        "N": 10,
         "S": 7,
-        "L": 7,
+        "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Consumer Cyclical",
-      "industry": "Travel Services",
-      "market_cap": 102182772736,
-      "price": 170.65,
-      "rs_rating": 83.9
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 248293965824,
+      "price": 242.49,
+      "rs_rating": 91.5
     },
     {
       "ticker": "STX",
@@ -88,45 +106,45 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 183176429568,
-      "price": 805.55,
+      "market_cap": 175504195584,
+      "price": 771.81,
       "rs_rating": 96.2
     },
     {
-      "ticker": "CRWD",
+      "ticker": "ABNB",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "market_cap": 100787609600,
+      "price": 168.32,
+      "rs_rating": 84.9
+    },
+    {
+      "ticker": "PANW",
       "canslim_score": 51,
       "scores": {
         "C": 5,
         "A": 5,
-        "N": 10,
+        "N": 7,
         "S": 7,
-        "L": 7,
+        "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 241013784576,
-      "price": 235.38,
-      "rs_rating": 89.6
-    },
-    {
-      "ticker": "FANG",
-      "canslim_score": 51,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 57605668864,
-      "price": 205.72,
-      "rs_rating": 78.3
+      "market_cap": 306823626752,
+      "price": 375.09,
+      "rs_rating": 90.5
     },
     {
       "ticker": "AMGN",
@@ -142,45 +160,27 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 206251114496,
-      "price": 381.5,
-      "rs_rating": 68.8
+      "market_cap": 203088412672,
+      "price": 375.65,
+      "rs_rating": 72.6
     },
     {
-      "ticker": "MU",
-      "canslim_score": 49,
+      "ticker": "DXCM",
+      "canslim_score": 51,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
+        "N": 7,
+        "S": 4,
+        "L": 3,
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 1043593166848,
-      "price": 924.03,
-      "rs_rating": 98.1
-    },
-    {
-      "ticker": "MRVL",
-      "canslim_score": 49,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 1,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 196654563328,
-      "price": 218.82,
-      "rs_rating": 94.3
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 32622837760,
+      "price": 86.45,
+      "rs_rating": 70.7
     }
   ]
 }

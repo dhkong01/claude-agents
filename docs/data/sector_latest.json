@@ -6,16 +6,16 @@
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 24.84,
-      "week1": 0.95,
+      "qtd": 21.25,
+      "week1": -1.39,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 5.09,
-      "week1": 0.65,
+      "qtd": 5.16,
+      "week1": 1.27,
       "rank": 2,
       "status": "강세"
     },
@@ -30,32 +30,32 @@
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 3.78,
-      "week1": -0.37,
+      "qtd": 2.1,
+      "week1": -1.65,
       "rank": 4,
-      "status": "강세"
+      "status": "중립"
     },
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 0.52,
-      "week1": 0.82,
+      "qtd": 0.04,
+      "week1": 0.29,
       "rank": 5,
       "status": "중립"
     },
     {
-      "sector": "Materials",
-      "etf": "XLB",
-      "qtd": -0.57,
-      "week1": -1.28,
+      "sector": "Technology",
+      "etf": "XLK",
+      "qtd": -0.91,
+      "week1": -0.7,
       "rank": 6,
       "status": "약세"
     },
     {
-      "sector": "Technology",
-      "etf": "XLK",
-      "qtd": -1.01,
-      "week1": -2.2,
+      "sector": "Materials",
+      "etf": "XLB",
+      "qtd": -1.29,
+      "week1": -0.79,
       "rank": 7,
       "status": "약세"
     },
@@ -70,8 +70,8 @@
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": -6.11,
-      "week1": -1.4,
+      "qtd": -6.7,
+      "week1": -1.59,
       "rank": 9,
       "status": "약세"
     },
@@ -79,15 +79,15 @@
       "sector": "Utilities",
       "etf": "XLU",
       "qtd": -7.71,
-      "week1": -3.77,
+      "week1": -2.82,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -7.91,
-      "week1": -1.71,
+      "qtd": -7.99,
+      "week1": -1.08,
       "rank": 11,
       "status": "약세"
     }

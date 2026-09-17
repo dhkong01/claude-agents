@@ -10,7 +10,7 @@ Telegram(우선) 또는 Kakao(폴백) 중 설정된 방식으로 자동 선택.
      - telegram_bot_token / telegram_chat_id
      - kakao_rest_api_key / kakao_refresh_token
 """
-import json, os, sys, urllib.parse, urllib.request
+import json, os, sys
 from pathlib import Path
 from datetime import date
 
@@ -47,18 +47,6 @@ core     = set(bg.get("core_numbers", []))
 ind      = bg.get("individual_coherence", {})
 lo, hi   = pred.get("sum_range", [100, 175])
 bt       = pred.get("backtest", {})
-
-
-def _post(url, data=None, headers=None, as_json=False):
-    if as_json:
-        body = json.dumps(data).encode()
-        headers = {"Content-Type": "application/json", **(headers or {})}
-    else:
-        body = urllib.parse.urlencode(data or {}).encode()
-        headers = headers or {}
-    req = urllib.request.Request(url, data=body, headers=headers)
-    with urllib.request.urlopen(req, timeout=15) as r:
-        return json.loads(r.read())
 
 
 # ── 메시지 조립 ───────────────────────────────────────────────
@@ -103,67 +91,20 @@ msg2 = (
 full_msg = msg1 + "\n\n" + msg2
 
 
-# ── Telegram 전송 ─────────────────────────────────────────────
-def send_telegram():
-    token   = os.environ["TELEGRAM_BOT_TOKEN"]
-    chat_id = os.environ["TELEGRAM_CHAT_ID"]
-    url     = f"https://api.telegram.org/bot{token}/sendMessage"
-    _post(url, {"chat_id": chat_id, "text": full_msg}, as_json=True)
-    print(f"Telegram 전송 완료: 로또 {draw}회")
+# ── 전송 (stock_portfolio/notify.py 공용 로직 재사용) ───────────
+# 예전엔 자체 구현이 실패를 조용히 삼켜서(exit 0 고정) Kakao 토큰 만료 +
+# Telegram 시크릿 미설정 상태가 몇 주째 감지되지 않았다. 주식 쪽에서 이미
+# 검증된 채널별 상세 진단(send_message_detailed)을 그대로 재사용한다.
+sys.path.insert(0, str(ROOT / "tools" / "stock_portfolio"))
+from notify import send_message_detailed  # noqa: E402
 
-
-# ── Kakao 전송 ────────────────────────────────────────────────
-def send_kakao():
-    rest_key = os.environ["KAKAO_REST_API_KEY"]
-    refresh  = os.environ["KAKAO_REFRESH_TOKEN"]
-    res = _post("https://kauth.kakao.com/oauth/token", {
-        "grant_type": "refresh_token", "client_id": rest_key, "refresh_token": refresh,
-    })
-    token = res["access_token"]
-
-    # ── refresh_token 만료 감지 ───────────────────────────────
-    # 카카오는 refresh_token 만료 1개월 미만 시 새 토큰을 함께 반환
-    if res.get("refresh_token"):
-        print("=" * 50)
-        print("⚠️  KAKAO_REFRESH_TOKEN 갱신 필요!")
-        print("   GitHub Settings > Secrets > KAKAO_REFRESH_TOKEN")
-        print("   새 토큰을 수동으로 업데이트하세요 (60일 연장)")
-        print("=" * 50)
-
-    def _kakao_send(text, label=""):
-        tmpl = json.dumps({"object_type":"text","text":text[:2000],
-                           "link":{"web_url":"","mobile_web_url":""}}, ensure_ascii=False)
-        resp = _post("https://kapi.kakao.com/v2/api/talk/memo/default/send",
-              {"template_object": tmpl},
-              {"Authorization": f"Bearer {token}",
-               "Content-Type": "application/x-www-form-urlencoded;charset=utf-8"})
-        code = resp.get("result_code", resp.get("code", 0))
-        if code != 0:
-            print(f"[경고] Kakao send error {label}: code={code} resp={resp}")
-            return False
-        return True
-
-    ok1 = _kakao_send(msg1, "msg1")
-    ok2 = _kakao_send(msg2, "msg2")
-    if ok1 and ok2:
-        print(f"Kakao 전송 완료: 로또 {draw}회")
-    else:
-        print(f"[경고] Kakao 전송 실패 — GitHub Secrets 점검 필요 (KAKAO_REST_API_KEY/KAKAO_REFRESH_TOKEN)")
-        # exit 0: 워크플로우가 commit 단계까지 도달해야 60일 비활성화 방지
-
-
-# ── 자동 선택 ─────────────────────────────────────────────────
-if os.environ.get("TELEGRAM_BOT_TOKEN"):
-    send_telegram()
-elif os.environ.get("KAKAO_REST_API_KEY"):
-    send_kakao()
+_notify_ok, _notify_detail = send_message_detailed(full_msg)
+if _notify_ok:
+    print(f"[notify] 전송 완료 ({_notify_detail}): 로또 {draw}회")
 else:
-    print("[경고] 전송 수단 없음 (TELEGRAM_BOT_TOKEN / KAKAO_REST_API_KEY 미설정)")
-    print("       GitHub Settings > Secrets > Actions 에서 등록하세요")
-    print(f"       예측 결과: {draw}회")
-    for i, g in enumerate(games):
-        print(f"       {chr(65+i)}: {g['numbers']}")
-    sys.exit(0)  # exit 0: 워크플로우는 성공으로 완료
+    # ::error:: 는 continue-on-error(step) 여부와 무관하게 Actions
+    # Annotations 탭에 항상 남아 다음 실행 때 로그인 없이 원인을 알 수 있다.
+    print(f"::error::로또 {draw}회 알림이 발송되지 않았습니다 — {_notify_detail}")
 
 
 # ── 리포트 저장 ───────────────────────────────────────────────
@@ -193,3 +134,8 @@ rpt_path.write_text("\n".join([
     f"TOP12 평균 {bt.get('avg_hits',0)}개 적중 / {bt.get('n_test',0)}회 검증",
 ]), encoding="utf-8")
 print(f"리포트 저장: {rpt_path}")
+
+# 리포트는 항상 저장(위) — 커밋 단계가 계속 진행되도록.
+# 전송 자체가 실패했으면 여기서 비정상 종료해 Annotations에 표시되게 한다.
+# (워크플로 스텝은 continue-on-error: true 라 history.json 커밋은 막히지 않음)
+sys.exit(0 if _notify_ok else 1)

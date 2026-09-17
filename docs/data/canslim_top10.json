@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "analyzed": 100,
   "top10": [
     {
@@ -16,9 +16,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 126470217728,
-      "price": 172.37,
+      "market_cap": 126029996032,
+      "price": 171.77,
       "rs_rating": 89.6
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 54475046912,
+      "price": 194.54,
+      "rs_rating": 83.0
     },
     {
       "ticker": "AAPL",
@@ -34,27 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 4835635625984,
-      "price": 331.34,
-      "rs_rating": 82.0
-    },
-    {
-      "ticker": "FANG",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 59231182848,
-      "price": 211.525,
-      "rs_rating": 81.1
+      "market_cap": 4851251544064,
+      "price": 332.41,
+      "rs_rating": 80.1
     },
     {
       "ticker": "AMD",
@@ -70,9 +70,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 823093886976,
-      "price": 504.2,
-      "rs_rating": 94.3
+      "market_cap": 836643454976,
+      "price": 512.5,
+      "rs_rating": 96.2
     },
     {
       "ticker": "CRWD",
@@ -88,9 +88,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 248293965824,
-      "price": 242.49,
-      "rs_rating": 91.5
+      "market_cap": 247136911360,
+      "price": 241.36,
+      "rs_rating": 92.4
     },
     {
       "ticker": "STX",
@@ -106,9 +106,27 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 175504195584,
-      "price": 771.81,
-      "rs_rating": 96.2
+      "market_cap": 178089656320,
+      "price": 783.18,
+      "rs_rating": 94.3
+    },
+    {
+      "ticker": "WDC",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 150334750720,
+      "price": 416.97,
+      "rs_rating": 91.5
     },
     {
       "ticker": "ABNB",
@@ -124,9 +142,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 100787609600,
-      "price": 168.32,
-      "rs_rating": 84.9
+      "market_cap": 100302585856,
+      "price": 167.51,
+      "rs_rating": 82.0
     },
     {
       "ticker": "PANW",
@@ -142,27 +160,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 306823626752,
-      "price": 375.09,
-      "rs_rating": 90.5
-    },
-    {
-      "ticker": "AMGN",
-      "canslim_score": 51,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 7,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 203088412672,
+      "market_cap": 307281690624,
       "price": 375.65,
-      "rs_rating": 72.6
+      "rs_rating": 90.5
     },
     {
       "ticker": "DXCM",
@@ -178,9 +178,9 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 32622837760,
-      "price": 86.45,
-      "rs_rating": 70.7
+      "market_cap": 32958687232,
+      "price": 87.34,
+      "rs_rating": 76.4
     }
   ]
 }

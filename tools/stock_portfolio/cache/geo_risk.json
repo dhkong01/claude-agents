@@ -1,19 +1,20 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
+  "high_risk_signals": 3,
   "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
-    "Defense": "ELEVATED"
+    "Defense": "ELEVATED",
+    "Financials": "WATCH"
   },
   "top_risk_events": [
-    "It\u2019S Boom Time In Kyrgyzstan, Courtesy In Part Of The War In Ukraine",
-    "Denmark Says Russian Warship Fired Flares At Military Helicopter",
-    "Russian Strike On Train Station Near Ukraine-Poland Border Seen As Warning To Kyiv\u2019S Allies"
+    "Belarus Frees 25 Political Prisoners In Exchange For U.S. Sanctions Relief",
+    "Kosovo\u2019S Former Leader Is Sentenced To 25 Years In War Crimes Case",
+    "Human-Caused Warming Played \u2018Very Strong\u2019 Role In Himalayan Floods, Report Finds"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

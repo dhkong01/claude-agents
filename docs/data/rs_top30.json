@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "rs90_count": 10,
   "stocks": [
     {
@@ -15,27 +15,27 @@
       "rs_rating": 97.1
     },
     {
-      "ticker": "STX",
+      "ticker": "AMD",
       "rs_rating": 96.2
     },
     {
-      "ticker": "INTC",
+      "ticker": "MRVL",
       "rs_rating": 95.2
     },
     {
-      "ticker": "AMD",
+      "ticker": "STX",
       "rs_rating": 94.3
     },
     {
-      "ticker": "MRVL",
+      "ticker": "INTC",
       "rs_rating": 93.3
     },
     {
-      "ticker": "WDC",
+      "ticker": "CRWD",
       "rs_rating": 92.4
     },
     {
-      "ticker": "CRWD",
+      "ticker": "WDC",
       "rs_rating": 91.5
     },
     {
@@ -51,35 +51,35 @@
       "rs_rating": 87.7
     },
     {
-      "ticker": "AMAT",
+      "ticker": "ARM",
       "rs_rating": 86.7
     },
     {
-      "ticker": "LRCX",
+      "ticker": "AMAT",
       "rs_rating": 85.8
     },
     {
-      "ticker": "ABNB",
+      "ticker": "LRCX",
       "rs_rating": 84.9
     },
     {
-      "ticker": "ARM",
+      "ticker": "CSCO",
       "rs_rating": 83.9
     },
     {
-      "ticker": "CSCO",
+      "ticker": "FANG",
       "rs_rating": 83.0
     },
     {
-      "ticker": "AAPL",
+      "ticker": "ABNB",
       "rs_rating": 82.0
     },
     {
-      "ticker": "FANG",
+      "ticker": "ASML",
       "rs_rating": 81.1
     },
     {
-      "ticker": "CSX",
+      "ticker": "AAPL",
       "rs_rating": 80.1
     },
     {
@@ -87,40 +87,48 @@
       "rs_rating": 79.2
     },
     {
-      "ticker": "REGN",
+      "ticker": "CSX",
       "rs_rating": 78.3
     },
     {
-      "ticker": "ASML",
+      "ticker": "TXN",
       "rs_rating": 77.3
     },
     {
-      "ticker": "TXN",
+      "ticker": "DXCM",
       "rs_rating": 76.4
     },
     {
-      "ticker": "VRTX",
+      "ticker": "GILD",
       "rs_rating": 75.4
     },
     {
-      "ticker": "GILD",
+      "ticker": "REGN",
       "rs_rating": 74.5
     },
     {
-      "ticker": "ROST",
+      "ticker": "ADP",
       "rs_rating": 73.5
     },
     {
-      "ticker": "AMGN",
+      "ticker": "VRTX",
       "rs_rating": 72.6
     },
     {
-      "ticker": "ADP",
+      "ticker": "AMGN",
       "rs_rating": 71.7
     },
     {
-      "ticker": "DXCM",
+      "ticker": "ROST",
       "rs_rating": 70.7
     }
-  ]
+  ],
+  "portfolio_rs": {
+    "VKTX": 34.9,
+    "MRVL": 95.2,
+    "CRDO": 24.5,
+    "NBIS": 88.6,
+    "RDDT": 11.3,
+    "VRT": 61.3
+  }
 }

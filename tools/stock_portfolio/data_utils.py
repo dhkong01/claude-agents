@@ -77,11 +77,24 @@ def get_ndx100_tickers() -> list[str]:
         return []
 
 
+# 중소형 AI 관련주 — S&P500/NASDAQ100에 없어 기본 유니버스에서 누락되는
+# AI 데이터센터·전력·네트워킹·응용 소프트웨어 종목을 보강한다.
+AI_SMALLCAP_WATCHLIST = [
+    # AI 데이터센터 / GPU 클라우드 / 전력
+    "IREN", "CIFR", "CORZ", "APLD", "WULF", "CRWV",
+    "OKLO", "SMR", "TLN", "VST", "NNE", "LEU",
+    # AI 네트워킹 / 하드웨어
+    "ANET", "CLS", "COHR", "AEHR", "INOD",
+    # AI 응용 소프트웨어
+    "AI", "PATH", "BBAI",
+]
+
+
 def get_universe_tickers() -> list[str]:
-    """S&P 500 + NASDAQ-100 중복 제거 유니버스"""
+    """S&P 500 + NASDAQ-100 + 중소형 AI 워치리스트, 중복 제거 유니버스"""
     sp500 = get_sp500_tickers()
     ndx100 = get_ndx100_tickers()
-    return list(dict.fromkeys(sp500 + ndx100))
+    return list(dict.fromkeys(sp500 + ndx100 + AI_SMALLCAP_WATCHLIST))
 
 
 def get_sp500_tickers() -> list[str]:

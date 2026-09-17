@@ -240,9 +240,9 @@ def _fundamentals_bonus(ticker: str) -> dict:
 # ── 메인 스크리닝 ─────────────────────────────────────────────
 
 def screen_reversal(top_n: int = 20) -> list[dict]:
-    from data_utils import get_ndx100_tickers, get_sp500_tickers
+    from data_utils import get_universe_tickers
 
-    tickers = list(dict.fromkeys(get_ndx100_tickers() + get_sp500_tickers()))
+    tickers = get_universe_tickers()  # S&P500 + NASDAQ100 + 중소형 AI 워치리스트
     if not tickers:
         print("[reversal] 유니버스 로드 실패", file=sys.stderr)
         return []

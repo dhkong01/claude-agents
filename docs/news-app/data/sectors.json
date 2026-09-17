@@ -1,55 +1,57 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "sectors": [
     {
-      "name": "Energy",
+      "name": "Semiconductors",
       "direction": "positive",
-      "score": 7.5,
-      "rationale": "중동 지역 분쟁 및 파이프라인 셧다운 우려에 따른 글로벌 원유 수급 불안이 유가 상승을 압박하며 에너지 기업들의 단기 수익성 개선 모멘텀으로 작용하고 있습니다.",
+      "score": 8.0,
+      "rationale": "미국 마이크론과 인텔의 반등으로 AI 지출 둔화 우려가 완화된 가운데, 대만 TSMC의 글로벌 거점 다변화 및 주가 강세, 그리고 중국 화웨이의 차세대 AI 칩 출시 속도전 등 글로벌 AI 반도체 생태계 전반에 긍정적 모멘텀이 유지되고 있습니다.",
       "related_tickers": [
-        "SHEL",
-        "TTE",
-        "XOM"
-      ],
-      "source_regions": [
-        "EU"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "미 연준의 매파적 금리 인상으로 고밸류에이션 기술주에 대한 할인율 부담이 커진 상황에서, 유럽연합(EU)의 15세 미만 소셜미디어 제한 및 AI 챗봇 안전 규제 추진 등 규제 리스크가 빅테크 전반에 압박을 가하고 있습니다.",
-      "related_tickers": [
-        "MSFT",
-        "META",
-        "AAPL"
+        "TSM",
+        "MU",
+        "INTC",
+        "NVDA"
       ],
       "source_regions": [
         "US",
-        "EU",
         "ASIA"
       ]
     },
     {
-      "name": "Semiconductors",
+      "name": "Industrials",
       "direction": "positive",
-      "score": 5.0,
-      "rationale": "미국 금리 인상에 따른 매크로 불안정성에도 불구하고, TSMC의 견고한 생태계 지배력과 일본 소부장 기업들의 미국 투자 유입, AI 하드웨어 중심의 글로벌 공급망 재편 압력이 반도체 수요를 뒷받침하고 있습니다.",
+      "score": 7.0,
+      "rationale": "유럽 내 지정학적 긴장 고조로 인한 독일 라인메탈 등 방산 업체의 미사일 증산 압박과, 일본 토요타의 휴머노이드 로봇 도입 및 혼다의 하이브리드 생산 조기화 등 첨단 제조업 혁신이 가속화되고 있습니다.",
       "related_tickers": [
-        "TSM",
-        "NVDA",
-        "ASML"
+        "RHM",
+        "TM",
+        "HMC"
       ],
       "source_regions": [
+        "ASIA",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "미 연준의 금리 결정을 앞둔 경계감 속에 예상 밖의 긴축 기조 우려가 확산되면서, 아시아(중화권 및 한국) 금융시장의 하방 압력 및 경계 매물 출회로 이어지고 있습니다.",
+      "related_tickers": [
+        "JPM",
+        "GS",
+        "HSBC"
+      ],
+      "source_regions": [
+        "US",
         "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Financials",
-      "note": "미국은 기준금리 인상(25bp)으로 은행들의 순이자마진(NIM) 개선 여건이 마련되었으나, 아시아 시장에서는 달러 강세에 따른 자금 유출 방어 압박 및 기업들의 달러 부채 이자 부담 가중 등 금융시장 변동성 확대라는 상반된 영향을 받고 있습니다."
+      "sector": "Energy",
+      "note": "미국은 중동 지정학적 긴장 및 대이란 정책 변화 우려로 기존 투자 공식에 균열이 생기는 등 공급 리스크가 부각되는 반면, 유럽은 대중국 희토류 수출 통제 관련 통상 협상과 아시아 지역의 친환경 에너지 전환 압박이 교차하며 글로벌 에너지 공급망의 방향성이 혼재되어 있습니다."
     }
   ]
 }

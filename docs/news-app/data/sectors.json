@@ -1,16 +1,15 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "미국 마이크론과 인텔의 반등으로 AI 지출 둔화 우려가 완화된 가운데, 대만 TSMC의 글로벌 거점 다변화 및 주가 강세, 그리고 중국 화웨이의 차세대 AI 칩 출시 속도전 등 글로벌 AI 반도체 생태계 전반에 긍정적 모멘텀이 유지되고 있습니다.",
+      "score": 6.5,
+      "rationale": "대만 TSMC의 상업용 2나노 공정 가동 및 AI 반도체 수요에 따른 가격 인상 압력은 긍정적이나, 미국 시장 내 마이크론의 상승세와 인텔의 메모리 칩 시장 경고가 대조를 보이며 차별화가 진행 중입니다.",
       "related_tickers": [
         "TSM",
         "MU",
-        "INTC",
-        "NVDA"
+        "INTC"
       ],
       "source_regions": [
         "US",
@@ -18,14 +17,14 @@
       ]
     },
     {
-      "name": "Industrials",
+      "name": "Energy",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "유럽 내 지정학적 긴장 고조로 인한 독일 라인메탈 등 방산 업체의 미사일 증산 압박과, 일본 토요타의 휴머노이드 로봇 도입 및 혼다의 하이브리드 생산 조기화 등 첨단 제조업 혁신이 가속화되고 있습니다.",
+      "score": 8.0,
+      "rationale": "중동 및 우크라이나의 지정학적 리스크로 인한 유럽 내 에너지 가격 급등, JP모건의 유가 100달러 돌파 가능성 경고, 중국의 원유 수입 재개 움직임이 맞물려 섹터 전반에 긍정적 모멘텀을 제공하고 있습니다.",
       "related_tickers": [
-        "RHM",
-        "TM",
-        "HMC"
+        "XOM",
+        "CVX",
+        "SHEL"
       ],
       "source_regions": [
         "ASIA",
@@ -33,25 +32,50 @@
       ]
     },
     {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "미 연준의 금리 결정을 앞둔 경계감 속에 예상 밖의 긴축 기조 우려가 확산되면서, 아시아(중화권 및 한국) 금융시장의 하방 압력 및 경계 매물 출회로 이어지고 있습니다.",
+      "name": "Industrials",
+      "direction": "positive",
+      "score": 7.5,
+      "rationale": "지정학적 긴장이 고조되는 가운데 독일 등 유럽 주요국의 미사일 재고 부족 우려가 제기되었으며, 라인메탈 등 주요 방산업체를 중심으로 한 방산 물자 생산 가속화 및 수주 증가가 기대됩니다.",
       "related_tickers": [
-        "JPM",
-        "GS",
-        "HSBC"
+        "RHM",
+        "LMT",
+        "RTX"
       ],
       "source_regions": [
-        "US",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "중국 정부가 바이오의약품 및 AI 헬스케어 등 첨단 미래 산업 육성을 위한 5개년 계획을 본격 가동하면서 정책적 수혜가 예상됩니다.",
+      "related_tickers": [
+        "BGNE",
+        "WUXIBY"
+      ],
+      "source_regions": [
         "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "앤트로픽의 IPO 연기 소식에도 불구하고 연간 매출 1,000억 달러 전망 등 AI 생태계의 폭발적인 성장세와 비즈니스 모델의 가치가 지속적으로 입증되고 있습니다.",
+      "related_tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "source_regions": [
+        "US"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Energy",
-      "note": "미국은 중동 지정학적 긴장 및 대이란 정책 변화 우려로 기존 투자 공식에 균열이 생기는 등 공급 리스크가 부각되는 반면, 유럽은 대중국 희토류 수출 통제 관련 통상 협상과 아시아 지역의 친환경 에너지 전환 압박이 교차하며 글로벌 에너지 공급망의 방향성이 혼재되어 있습니다."
+      "sector": "Semiconductors",
+      "note": "미국 시장에서는 인텔의 메모리 시장 경고로 내부 차별화와 신중론이 제기된 반면, 아시아 시장에서는 TSMC의 2나노 양산 본격화 및 글로벌 AI 수요 집중으로 매우 긍정적인 신호가 감지되어 온도차가 존재합니다."
     }
   ]
 }

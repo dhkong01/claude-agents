@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "mode": "weekly",
+  "mode": "daily",
   "rs_top10": [
     {
       "ticker": "SNDK",
@@ -58,9 +58,9 @@
       "Financials": "WATCH"
     },
     "top_risk_events": [
-      "Trump Sanctions On Cuba Strands Thousands Of Shipping Containers",
-      "Belarus Frees 25 Political Prisoners In Exchange For U.S. Sanctions Relief",
-      "Human-Caused Warming Played ‘Very Strong’ Role In Himalayan Floods, Report Finds"
+      "Yemen War Intensifies As Houthi Militia Advances On Marib",
+      "U.S. Strike On Iranian School May Have Been War Crime, U.N. Report Says",
+      "Russia And China Veto U.S. Bid To Renew U.N. Monitoring Of Iran Nuclear Program"
     ],
     "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
@@ -1405,5 +1405,117 @@
     "dist_to_lower_pct": 6.0,
     "channel_width_pct": 6.4,
     "ticker": "SQQQ"
-  }
+  },
+  "price_freshness": {
+    "status": "FRESH",
+    "latest_date": "2026-09-16",
+    "checked_at": "2026-09-18 00:44",
+    "sample": {
+      "SPY": 754.05,
+      "QQQ": 704.72,
+      "NVDA": 213.9
+    }
+  },
+  "tracking": [
+    {
+      "ticker": "AMD",
+      "current": 512.5,
+      "donchian_upper": 521.1,
+      "donchian_lower": 456.16,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.7,
+      "dist_to_lower_pct": 11.0,
+      "channel_width_pct": 14.2
+    },
+    {
+      "ticker": "FTNT",
+      "current": 171.77,
+      "donchian_upper": 172.78,
+      "donchian_lower": 154.54,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.6,
+      "dist_to_lower_pct": 10.0,
+      "channel_width_pct": 11.8
+    },
+    {
+      "ticker": "DXCM",
+      "current": 87.34,
+      "donchian_upper": 92.34,
+      "donchian_lower": 83.03,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 5.7,
+      "dist_to_lower_pct": 4.9,
+      "channel_width_pct": 11.2
+    },
+    {
+      "ticker": "ANET",
+      "current": 197.54,
+      "donchian_upper": 202.25,
+      "donchian_lower": 186.1,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 2.4,
+      "dist_to_lower_pct": 5.8,
+      "channel_width_pct": 8.7
+    },
+    {
+      "ticker": "CRWD",
+      "current": 241.36,
+      "donchian_upper": 242.49,
+      "donchian_lower": 203.42,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.5,
+      "dist_to_lower_pct": 15.7,
+      "channel_width_pct": 19.2
+    },
+    {
+      "ticker": "SNDK",
+      "current": 1519.97,
+      "donchian_upper": 1764.17,
+      "donchian_lower": 1530.9,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 16.1,
+      "dist_to_lower_pct": -0.7,
+      "channel_width_pct": 15.2
+    },
+    {
+      "ticker": "MU",
+      "current": 926.55,
+      "donchian_upper": 1027.77,
+      "donchian_lower": 924.03,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 10.9,
+      "dist_to_lower_pct": 0.3,
+      "channel_width_pct": 11.2
+    },
+    {
+      "ticker": "LITE",
+      "current": 919.4,
+      "donchian_upper": 988.98,
+      "donchian_lower": 835.03,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 7.6,
+      "dist_to_lower_pct": 9.2,
+      "channel_width_pct": 18.4
+    },
+    {
+      "ticker": "AEHR",
+      "current": 84.25,
+      "donchian_upper": 123.25,
+      "donchian_lower": 76.27,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 46.3,
+      "dist_to_lower_pct": 9.5,
+      "channel_width_pct": 61.6
+    },
+    {
+      "ticker": "MRVL",
+      "current": 229.71,
+      "donchian_upper": 251.01,
+      "donchian_lower": 206.48,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 9.3,
+      "dist_to_lower_pct": 10.1,
+      "channel_width_pct": 21.6
+    }
+  ]
 }

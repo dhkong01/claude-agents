@@ -1353,23 +1353,6 @@
   ],
   "top5": [
     {
-      "ticker": "AMD",
-      "final_score": 64.5,
-      "canslim_score": 61,
-      "rs_rating": 95.8,
-      "vcp_score": 70,
-      "donchian_signal": "BREAKOUT",
-      "current_price": 545.09,
-      "donchian_upper": 521.1,
-      "donchian_lower": 456.16,
-      "dist_to_upper_pct": -4.4,
-      "dist_to_lower_pct": 16.3,
-      "pivot": 523.71,
-      "sector": "Technology",
-      "in_both": true,
-      "allocation_pct": 4.0
-    },
-    {
       "ticker": "AAPL",
       "final_score": 55.9,
       "canslim_score": 58,
@@ -1421,6 +1404,23 @@
       "allocation_pct": 4.0
     },
     {
+      "ticker": "AMD",
+      "final_score": 43.5,
+      "canslim_score": 61,
+      "rs_rating": 95.8,
+      "vcp_score": 0,
+      "donchian_signal": "BREAKOUT",
+      "current_price": 545.09,
+      "donchian_upper": 521.1,
+      "donchian_lower": 456.16,
+      "dist_to_upper_pct": -4.4,
+      "dist_to_lower_pct": 16.3,
+      "pivot": null,
+      "sector": "Technology",
+      "in_both": false,
+      "allocation_pct": 4.0
+    },
+    {
       "ticker": "CRWD",
       "final_score": 39.5,
       "canslim_score": 0,
@@ -1451,7 +1451,7 @@
   "price_freshness": {
     "status": "FRESH",
     "latest_date": "2026-09-17",
-    "checked_at": "2026-09-19 09:28",
+    "checked_at": "2026-09-19 00:35",
     "sample": {
       "SPY": 762.6,
       "QQQ": 716.92,
@@ -1459,16 +1459,6 @@
     }
   },
   "tracking": [
-    {
-      "ticker": "AMD",
-      "current": 545.09,
-      "donchian_upper": 521.1,
-      "donchian_lower": 456.16,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -4.4,
-      "dist_to_lower_pct": 16.3,
-      "channel_width_pct": 14.2
-    },
     {
       "ticker": "AAPL",
       "current": 337.0,
@@ -1498,6 +1488,16 @@
       "dist_to_upper_pct": -2.4,
       "dist_to_lower_pct": 17.2,
       "channel_width_pct": 18.0
+    },
+    {
+      "ticker": "AMD",
+      "current": 545.09,
+      "donchian_upper": 521.1,
+      "donchian_lower": 456.16,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -4.4,
+      "dist_to_lower_pct": 16.3,
+      "channel_width_pct": 14.2
     },
     {
       "ticker": "CRWD",

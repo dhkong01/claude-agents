@@ -2,16 +2,6 @@
   "date": "2026-09-18",
   "data": [
     {
-      "ticker": "AMD",
-      "current": 545.09,
-      "donchian_upper": 521.1,
-      "donchian_lower": 456.16,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -4.4,
-      "dist_to_lower_pct": 16.3,
-      "channel_width_pct": 14.2
-    },
-    {
       "ticker": "AAPL",
       "current": 337.0,
       "donchian_upper": 333.08,
@@ -40,6 +30,16 @@
       "dist_to_upper_pct": -2.4,
       "dist_to_lower_pct": 17.2,
       "channel_width_pct": 18.0
+    },
+    {
+      "ticker": "AMD",
+      "current": 545.09,
+      "donchian_upper": 521.1,
+      "donchian_lower": 456.16,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -4.4,
+      "dist_to_lower_pct": 16.3,
+      "channel_width_pct": 14.2
     },
     {
       "ticker": "CRWD",

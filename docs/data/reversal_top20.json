@@ -277,7 +277,7 @@
       "sector_bonus": 8,
       "fund_bonus": 0,
       "fund_accel": false,
-      "rev_growing": false,
+      "rev_growing": true,
       "opinc_growing": false,
       "rev_growth_recent_pct": 6.8,
       "opinc_growth_recent_pct": 0.3

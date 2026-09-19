@@ -393,11 +393,11 @@
       "desc_near_support": false
     },
     {
-      "ticker": "AMD",
-      "total_score": 70,
+      "ticker": "ANET",
+      "total_score": 75,
       "stage2_score": 40,
-      "vcp_score": 25,
-      "proximity_score": 5,
+      "vcp_score": 20,
+      "proximity_score": 15,
       "has_vcp": false,
       "pivot": 523.71,
       "current_price": 545.09,

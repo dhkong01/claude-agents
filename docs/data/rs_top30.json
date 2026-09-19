@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "rs90_count": 12,
   "stocks": [
     {
@@ -15,19 +15,19 @@
       "rs_rating": 97.4
     },
     {
-      "ticker": "AMD",
+      "ticker": "AEHR",
       "rs_rating": 96.6
     },
     {
-      "ticker": "AEHR",
+      "ticker": "AMD",
       "rs_rating": 95.8
     },
     {
-      "ticker": "MRVL",
+      "ticker": "INTC",
       "rs_rating": 95.0
     },
     {
-      "ticker": "INTC",
+      "ticker": "MRVL",
       "rs_rating": 94.2
     },
     {
@@ -55,80 +55,80 @@
       "rs_rating": 88.7
     },
     {
-      "ticker": "COHR",
+      "ticker": "ARM",
       "rs_rating": 87.9
     },
     {
-      "ticker": "ANET",
+      "ticker": "COHR",
       "rs_rating": 87.1
     },
     {
-      "ticker": "ARM",
+      "ticker": "ANET",
       "rs_rating": 86.3
     },
     {
-      "ticker": "LRCX",
+      "ticker": "WDAY",
       "rs_rating": 85.5
     },
     {
-      "ticker": "AMAT",
+      "ticker": "CSCO",
       "rs_rating": 84.7
     },
     {
-      "ticker": "ABNB",
+      "ticker": "DXCM",
       "rs_rating": 84.0
     },
     {
-      "ticker": "CSCO",
+      "ticker": "LRCX",
       "rs_rating": 83.2
     },
     {
-      "ticker": "DXCM",
+      "ticker": "AMAT",
       "rs_rating": 82.4
     },
     {
-      "ticker": "AAPL",
+      "ticker": "GILD",
       "rs_rating": 81.6
     },
     {
-      "ticker": "WDAY",
+      "ticker": "ABNB",
       "rs_rating": 80.8
     },
     {
-      "ticker": "ASML",
+      "ticker": "AAPL",
       "rs_rating": 80.0
     },
     {
-      "ticker": "TXN",
+      "ticker": "CSX",
       "rs_rating": 79.2
     },
     {
-      "ticker": "CSX",
+      "ticker": "ASML",
       "rs_rating": 78.4
     },
     {
-      "ticker": "GILD",
+      "ticker": "REGN",
       "rs_rating": 77.6
     },
     {
-      "ticker": "REGN",
+      "ticker": "FANG",
       "rs_rating": 76.8
     },
     {
-      "ticker": "AMGN",
+      "ticker": "ZS",
       "rs_rating": 76.0
     },
     {
-      "ticker": "ADP",
+      "ticker": "TXN",
       "rs_rating": 75.2
     }
   ],
   "portfolio_rs": {
-    "VKTX": 36.4,
-    "MRVL": 95.0,
-    "CRDO": 42.8,
+    "VKTX": 34.8,
+    "MRVL": 94.2,
+    "CRDO": 45.1,
     "NBIS": 89.5,
-    "RDDT": 19.0,
-    "VRT": 64.2
+    "RDDT": 12.7,
+    "VRT": 59.4
   }
 }

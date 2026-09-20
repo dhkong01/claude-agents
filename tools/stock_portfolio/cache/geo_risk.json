@@ -1,22 +1,21 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 3,
-  "medium_risk_signals": 4,
+  "medium_risk_signals": 5,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
-    "Defense": "WATCH",
+    "Defense": "ELEVATED",
     "Financials": "ELEVATED"
   },
   "top_risk_events": [
-    "Scientists Warn Of Flood Risks To 8 Himalayan Countries After Nepal Disaster",
-    "Yemen War Intensifies As Houthi Militia Advances On Marib",
-    "U.S. Strike On Iranian School May Have Been War Crime, U.N. Report Says"
+    "A Small Country\u2019S Huge Windfall From The War In Iran",
+    "Russia Warns New U.S. Sanctions Law Would Harm Trump\u2019S Peace Efforts"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Financials \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense, Financials \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
     "long_pct": 20,
     "sqqq_pct": 20,
@@ -26,8 +25,9 @@
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
+      "Defense",
       "Financials"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Financials ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense, Financials ELEVATED]"
   }
 }

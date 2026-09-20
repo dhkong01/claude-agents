@@ -1,7 +1,79 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "region": "US",
   "headlines": [
+    {
+      "title": "‘It s awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+      "summary": "Tariffs, fuel prices and interest rates are squeezing American companies, particularly manufacturers, auto suppliers, retailers and transportation businesses.",
+      "link": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
+      "summary": "I racked up this debt to cover my living expenses for two years without an income stream.",
+      "link": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive | Trump Ramps Up Bid to Dismantle International Criminal Court",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMzEwYkY3dnNudDFMT252V3hyT3piVFFEVXNkbDBldV9tTG5wRGdqeVhRZXFyenJLU1RhalUyQVdDUzd1cmZLQU5sdW9zWWtEVmVxSlFHdDIzU2RmYk5rajJKWjVNMWdQMzlWU09PRzZVS3Rvc1VqT3ZoUHA4VjkwaWNkN3E3bUdZZ2ZkM0RpYy1wQndYWmRCclkwYndoRUNTTUtVUEhXWVFhd0w5M01hQlNJVEpET1lRMVFR?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "80-year-old discount fashion chain closing 120 stores",
+      "summary": "",
+      "link": "https://finance.yahoo.com/small-business/articles/tj-maxx-rival-closing-120-181700076.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Qatar Energy Chief Says Bessent ‘Wrong’ About Hormuz Future",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXBsLWRYS0lhdGFNQkNoeW5EVEpxT1dITm9PQmxWMmRnamZUR3dKRUNtREZLYm91OXZ0SnZYUnM1RnZtSDJCZ1ktdklSN0lER05DLXg2Q1g1RW5sd0hQV2I0endqZzZGdFNhWXAtbGFOSUNaYnhrSW5RZ0FFekt6MUoxWlRyTjhGN3lCWEJpSUpMUGpuSWNNcHg1V0ZFLWVPalo5Z0Y1MUV0bnd6ZnVv?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Trump’s Greenland Deal Secures the Arctic—But Mining Its Rare Earths Is a Different Story",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX1pnalprNk1OcGdxYy1HZ3E1MXZJM3kxMDRxSGI3Z1pLSS13THpZcnFtZHpfNUNrUFNQd2NSSGJGNFZvT1VvdkswLThkbW9GQVRjMHFqcERmOTJZSk1HMkJvUzZ3LXFEYmZPc09XUHRydjlGbG5DX3lLWFVLdHU4dzVRa3lVSVpPN2NJdUphZGJnMTVl?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Budget airline king Bill Franke warms to first-class seats and premium upgrades",
+      "summary": "Serial airline investor Bill Franke is embracing more upmarket changes like first-class seats.",
+      "link": "https://www.cnbc.com/2026/09/20/bill-franke-frontier-spirit-budget-airlines.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "My main goal is to help people : I m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "summary": "I also own my home and an SUV outright, with no outstanding debt.",
+      "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Disney Theme Parks Defy Industry Slump With Price Cuts and Promotions",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVUFUMkRIVS1SYV9zSGEyVmhld01mRzFNOVIwVWE4RGNRbWkxQmFyaHdpOUU2dmJhcXpCOW9pY1BWZXBVN1lmRWRBa19jLVdKaEs3Mmd3SWZWcC13UUUyNWt1dnpDY0YyajRScklRcmVfT2R1eHpjVEF6N05RQU9NTHdVXzEtbVpUMWhaZXUwdk1MT2VXbi14b3hzTHBKc3FsRl8zZTk0MmF3SmtxXzB2Vl9RZHFKdw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+      "summary": "",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Merz’s Conservatives Crash Out of German State Parliament",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQUlfQVRkZW1HVmxfU2FQcU1JYlBBbVhlZzJBejdqSDhoUWdwZUpvcHRMMGp5V3gta1JVakJhbHY5dFdGZ1pPOEI0aHFUcER2by1WRmdWS2xBZFFxejBTNm12YTdjM2UyQkl2djI4ejFZSFRyc3hEQnhXNjZfTGplX3NNUE1SZXBRcWlac2o0b3Exb2lSVVpvaHVvRkdMWWFvcnh0WFdEYnhqd0RoQUUzS2Zn?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Trump Announces New ‘AI Force’ and Czar to Fuel Tech Growth",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBocXZkUTBvd1F2ck9DSWRLaWxBME1UeVRhTjhRcVNlSFZGaDY0QlVVUnRGN1pGelhhSGVJa2lFdWlJUE4zQ0ZrU0RYczJuaWp5SWJzUVdjTmhwb1hiTklFTWlQNWFLQUp1N3JIbFN3?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Auto industry urges Trump to bar Chinese automakers in U.S. ahead of Xi visit",
       "summary": "Leaders of six major auto trade groups joined to sign a letter to the president.",
@@ -9,33 +81,33 @@
       "source": "CNBC"
     },
     {
-      "title": "It s almost impossible to sell a condo unit these days: I feel trapped",
-      "summary": "Selling a condominium unit has become a challenge for many, as buyers get spooked at the prospect of bearing ever-rising HOA fees even if the home comes with a lower price tag.",
-      "link": "https://www.marketwatch.com/story/its-almost-impossible-to-sell-a-condo-these-days-i-feel-trapped-1f96ce37?mod=mw_rss_topstories",
+      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
+      "summary": "The Federal Reserve announced a quarter-percentage-point interest-rate hike Wednesday, to a range of 3.75%-4.0%.",
+      "link": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "On the Shores of Trump’s Lake America, It’s Still Lake Ontario",
+      "title": "Opinion | Trump Scores a Win in Greenland",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNamVzeWhKdXdKVzNrRFhVOHBRWmRPVkpOMTlUbnp0ZjlkbnBEakdPdzVtdzlrZ2x1cmJpT1hhREt5MDUzNmhuWnZYekFXcjlpdGladkQtTFdEOW9iS1hjVUdoX196S2Y5c1RCVkFvbHdnY0Jlbm9oSDZQVF9QakZVNGx2WDdTVWhuQVRfbThWVWpXbndfWTlCdDFwQ0U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CZ25rNjBjakZGNEJ0TlRmZlNsUXVWMzByQ3BmV0pITDVZeURDRUhQS1g1LUxON3U1VmtZUzdDelltYXlnNGh5emM5QXJYa1BmRnczRzNGTXV2UjkwYzJsdFQ2dEpabXpybVAxMkgwMVZDakVHT29F?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Whiskey brand tied to Jack Daniel's faces a second Chapter 7",
+      "title": "Warner Music (WMG) Bets its AI Truce with Suno Can Turn into a New Revenue Line",
       "summary": "",
-      "link": "https://finance.yahoo.com/small-business/articles/170-old-whiskey-brands-saga-171043884.html",
+      "link": "https://finance.yahoo.com/technology/ai/articles/warner-music-wmg-bets-ai-215750591.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Hormuz Oil Shipments Hit Six-Month High, US Commander Says",
+      "title": "Short-Term Treasuries Emerge as Popular Bet on Fed Inflation Win",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1Q2aFBHd1FEVFduUFA0cWt2VTloSTc5bmJWeDBCU195UHNueTZ5Z3ZyRTBaWWp3TkY4NFVTUnphWFlqbVpLMzNkRUttd05tLWZtZFA2Um9oQl9fRXNOa1N2a1NrVTl3RzBEcUI4ZE0ydFh1OXJxa0JuSl9oUXZ3TVNmTjdLd2o2SXE5WDZpcG9Wd1lJcVYwcU9ldzdPSDd2R0pYTzRuMVRSLW4y?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQldzTk50ZU5hTm1JQktndzBQQXFNbjlObXhKSXpMNDFzNEVlZjBjVFNPcFdlYjhadlFJb3JlRnkwTWdwd244V3VHVFBlM09NUS1LTXQ4Y2NqcTN3eTMzQjBfTlZCUnhYaktvQTlsUGN3a1lXUHhTaXFwUGotMzVzdEtXS1pOeWU4dTZFVWthZXZQYXRUWE50STZxcDhmX0Juc1dJdHNsRFZEZnNteTV5N2F5WTlTUQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Stock: China’s CXMT Memory-Chip Push Is More of a Problem for SK Hynix",
+      "title": "How an HSA Can Help You Save for Retirement",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT2U5MHV4WFJ5YUlTZnNxQVc0SUpRQXlQUVRoMS1hVEE3ejZBdi1Zbm5VUXFzZV9idmVZLTZTcWxYamxON0ltb0lUb053QkVkQlpiaWRMb2FwM25semNtTHBCSFBhT1NhUzRRaHUyZUVNd1k4ZTlyS1pRTmo0UExNOG5LSUd1b0FFQ0pRTWtPQ2p5UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ESFpPR2t1eURvNEVfb09lRUxIeDNuUXFYTmtDcTBmcE1YVUQtWk9NQTlZakJkbGdmUVY4UVdsSzlxMm04NzU5eUw2MXRmOTI0SE5XQnVPdWtQRUFoajNyWVcwTVI1U1lKakJjTGlnR3BudVJwQWtaYl9B?oc=5",
       "source": "Barron's"
     },
     {
@@ -45,94 +117,22 @@
       "source": "CNBC"
     },
     {
-      "title": "90% of retirees are making this miscalculation with their savings",
-      "summary": "The order in which you spend your money makes a difference for your taxes and your enjoyment of life.",
-      "link": "https://www.marketwatch.com/story/90-of-retirees-are-making-this-miscalculation-with-their-savings-feb9db79?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Refineries Are Now the Main Chokepoint for Global Energy Supplies",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMlRwNWNJRExFUV9VRmxrVjZ3RllpY1d4cTdBOGRIS2J3UXNGU3VqdFowYUxYbVhPaXpWWnNfTkdRVW5sUTVWREt3aHFtajZXcFN4dEh1LUMzc01LWVFtMUlTRVo2ZVBBSzlaUWQ4VFBqNjBvVGxFOEpPdm9JNXhWNGp4YUtGT3k1djBYWXB3aU1NRlRXUUV6aHpQRkRuamJSMGgzSDVqQ3BZYU5WUkcyeUktVkU?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Nashville’s Traffic Nightmare Is Now a $9.2B Ferrovial (FER)-Led Project",
-      "summary": "",
-      "link": "https://finance.yahoo.com/real-estate/articles/nashville-traffic-nightmare-now-9-202041295.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dutch Police Break Up Violent Far-Right Protest in The Hague",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVWFnc1Vval8yUFpwNERIcDgxdm1weGNLMFV1MW5fN2RBZVpkSFVzODB4a2gtV1JKUGlMaHlScWNTaDN6eTJZM2pYM2tUd01PZzBpaVIxRUpKckVGdzNMLXczdXZEd05lRkZxWldjM05hWUU0Ui1BdUVwR3duSWZmNE9nSjRDM2RBNy0wQ2kzVDB3dDBzT3AySktnSEMyNzAtMzRiOUQ5SEF0NW1KNWtHMQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Bitcoin, Strategy Stock, Coinbase Surge. Why Cryptos Are Rallying Against All Odds.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLWxxSUpCZk1JVkJ5ajlxLWZZcU16Q09tSDBtbUxCTmxsM3lhejlxX3ZCbnEwSk1MMkVRb1BYYWkwb0NNdmU5SzdreUN6b2wxVWJ4TU91YWxxMGVBUERpcV94bjVKdG1qbnRUYThGMm10VmhtZl9nUklwLVZpU1JOVXdjaWQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Wendy s franchisee files for Chapter 11 bankruptcy protection as burger chain struggles",
-      "summary": "One of Wendy's biggest U.S. franchisees, Meritage Hospitality Group, filed for Chapter 11 bankruptcy protection.",
-      "link": "https://www.cnbc.com/2026/09/18/wendys-franchisee-files-for-chapter-11-bankruptcy-protection.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Many young investors can t afford to invest without their parents help",
-      "summary": "Parents are providing help with things like housing and groceries, and sometimes directly investing for their children, to give them a head start in a challenging economy.",
-      "link": "https://www.marketwatch.com/story/many-young-investors-cant-afford-to-invest-without-their-parents-help-dbb05687?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Don’t Count Out Corporate Bonds Just Because the Fed Is Raising Rates",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXVYbmN6R2VBQmNUNmVRdV80YXRfNGEtSXlkYUtySnZsSjhVdnZ4cFlmQk9zb1U3UUtqYlpkdnhIVlZ4MFhTVjNBMk02YU50eE51QlVGbVhRLTRjQ09XQ0w0clAyeVJSalZ1dDJOM0NHY1FGNWJCOFE4dENndHVER3ViTV9OeXA3b2x2cm1ycTRfTFdHS3NESkhjUHdwb005ZmNQSTA2VlFVWXhaVzI5STMzeUpXdw?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "IDEXX (IDXX) Bets an AI Scribe Can Sell More Pet Diagnostics",
-      "summary": "",
-      "link": "https://finance.yahoo.com/technology/ai/articles/idexx-idxx-bets-ai-scribe-201730587.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "NATO Picks Germany’s Top Defense Official to Be Military Chief",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVkxODlyaDl1MXI4N01qcV9VS2gwejhZSG5PSWREd3ZPVExOenF5Z3c0WURtS3JYV2E5REZka1dyWmc5a0d3X291Wk1kZmpBRVR1b2cyS2pJeXpVR3JqcGxMMHYxNzZHLW1Ia1RoVXNJV2E4RzRYcWF1bDZobzd4dXhkU3JObm16UlY4cVNoaWx3bkV2ZEdwWjFMUFYxNXZrTFJfYUEtOXVYNDNhMTNqNzRVVQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Netflix Stock Falls After Downgrade. Why It’s Losing the Streaming Wars to Disney.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWNNM3A4bjhaTjB1YWtNMDU2Qk1GeHlCc1czd3loTXlmVXhPbHlpMHlaNnZMaFZUM0xPbDRmdmRLbnc5NlFfVjNxVVRnTFBTMUxVREtiTWlBR3dsRkMtTG4yemx3MmVsUXNPT2RmdlhvUDRwdFVpRV92RjB1N2NOLVFRSUFRTG96bkE?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Nike parts ways with Kylian Mbappé; soccer superstar signs with On",
-      "summary": "Mbappe had been signed with Nike for roughly two decades, and his agreement with On is the first it has made with a soccer player.",
-      "link": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The future of retirement? Work until you die.",
-      "summary": "Social Security, once seen as old-age insurance, will eventually disappear, this author predicts.",
-      "link": "https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
+      "title": "Snoopy cups at Starbucks and McDonald s SpongeBob toys are commanding huge markups on eBay",
+      "summary": "Adults are scooping up promotional items out of nostalgia and playing into a frenzy around collectibles .",
+      "link": "https://www.marketwatch.com/story/starbuckss-snoopy-cups-and-mcdonalds-spongebob-toys-are-commanding-huge-markups-on-ebay-ed3e514d?mod=mw_rss_topstories",
       "source": "MarketWatch"
     }
   ],
-  "trend_headline": "트럼프 행정부의 AI 정책과 자동차 규제 움직임",
-  "summary": "트럼프 행정부가 AI 차르 임명과 함께 안전 위험을 일축하고, 자동차 업계는 시진핑 방중을 앞두고 중국산 자동차의 미국 시장 진입 차단을 촉구했습니다. 한편, GM은 전기차 수요 부진 속에 신형 V-8 엔진을 내세우며 전통 트럭 시장 경쟁을 재점화했습니다.",
+  "trend_headline": "트럼프 AI 전담조직 신설과 관세 압박",
+  "summary": "트럼프 행정부가 신규 AI 전담 조직 및 차르 임명을 통해 기술 성장을 도모하는 한편, 미국 자동차 업계는 중국산 자동차의 진입 차단을 강력히 요구하며 매크로 환경이 급변하고 있습니다. 고금리와 연료비 상승 부담 속에서도 반도체와 AI 관련 기술주는 매수세를 유입시키며 시장의 방향성을 저울질하고 있습니다.",
   "key_points": [
-    "트럼프 행정부, AI 차르 지명 및 안전 리스크 일축",
-    "미국 주요 자동차 단체, 시진핑 방중 앞두고 중국산 차량 진입 금지 촉구",
-    "GM, 전기차 판매 부진 속 신형 V-8 엔진 탑재 트럭 전격 공개"
+    "트럼프 대통령, 기술 성장 촉진을 위한 새로운 'AI Force' 및 차르(Czar) 임명",
+    "미국 6개 주요 자동차 무역 협회, 시진핑 방한 앞두고 중국산 자동차 진입 차단 촉구",
+    "연방준비제도의 금리 인상(3.75%-4.0%)과 고비용 부담으로 제조업 및 운송업 마진 압박 심화"
   ],
   "sector_hints": [
     "Technology",
-    "Consumer Discretionary",
-    "Automotive"
+    "Automobiles",
+    "Industrials"
   ]
 }

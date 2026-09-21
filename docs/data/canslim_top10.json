@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-20",
   "analyzed": 120,
   "top10": [
     {
@@ -36,7 +36,7 @@
       "industry": "Software - Infrastructure",
       "market_cap": 124613926912,
       "price": 169.84,
-      "rs_rating": 90.3
+      "rs_rating": 91.1
     },
     {
       "ticker": "DXCM",
@@ -93,24 +93,6 @@
       "rs_rating": 86.3
     },
     {
-      "ticker": "FANG",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 53881405440,
-      "price": 192.42,
-      "rs_rating": 76.8
-    },
-    {
       "ticker": "AMGN",
       "canslim_score": 54,
       "scores": {
@@ -126,7 +108,25 @@
       "industry": "Drug Manufacturers - General",
       "market_cap": 208494723072,
       "price": 385.65,
-      "rs_rating": 72.9
+      "rs_rating": 73.7
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 53881405440,
+      "price": 192.42,
+      "rs_rating": 69.7
     },
     {
       "ticker": "MU",

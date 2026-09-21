@@ -89,12 +89,25 @@ AI_SMALLCAP_WATCHLIST = [
     "AI", "PATH", "BBAI",
 ]
 
+# 비트코인/이더리움 현물·레버리지 ETF — 개별 주식이 아니라 S&P500/NASDAQ100은
+# 물론 RS/CANSLIM 유니버스에도 전혀 잡히지 않아 별도 워치리스트로 보강한다.
+CRYPTO_ETF_WATCHLIST = [
+    # 비트코인 현물 ETF
+    "IBIT", "FBTC", "GBTC", "BITB", "ARKB", "BTCO", "HODL", "BRRR", "EZBC", "BTCW",
+    # 이더리움 현물 ETF
+    "ETHA", "FETH", "ETHE", "ETHV", "QETH", "EZET",
+    # 레버리지 비트코인/이더리움 ETF
+    "BITX", "BITU", "ETHT", "ETHU",
+]
+
 
 def get_universe_tickers() -> list[str]:
-    """S&P 500 + NASDAQ-100 + 중소형 AI 워치리스트, 중복 제거 유니버스"""
+    """S&P 500 + NASDAQ-100 + 중소형 AI 워치리스트 + 크립토 ETF, 중복 제거 유니버스"""
     sp500 = get_sp500_tickers()
     ndx100 = get_ndx100_tickers()
-    return list(dict.fromkeys(sp500 + ndx100 + AI_SMALLCAP_WATCHLIST))
+    return list(dict.fromkeys(
+        sp500 + ndx100 + AI_SMALLCAP_WATCHLIST + CRYPTO_ETF_WATCHLIST
+    ))
 
 
 def get_sp500_tickers() -> list[str]:

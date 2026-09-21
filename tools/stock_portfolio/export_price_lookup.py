@@ -10,7 +10,8 @@ from pathlib import Path
 import yfinance as yf
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import AI_SMALLCAP_WATCHLIST, market_today, YF_SESSION
+from data_utils import (AI_SMALLCAP_WATCHLIST, CRYPTO_ETF_WATCHLIST,
+                         market_today, YF_SESSION)
 
 POPULAR_TICKERS = sorted(set([
     # Mega cap
@@ -51,7 +52,7 @@ POPULAR_TICKERS = sorted(set([
     "TTWO", "ZG", "EXPI", "FIGS", "BROS", "CPNG",
     # AI 인프라 / 신규 상장 성장주
     "NBIS", "CRDO", "ALAB",
-] + AI_SMALLCAP_WATCHLIST))
+] + AI_SMALLCAP_WATCHLIST + CRYPTO_ETF_WATCHLIST))
 
 
 def _extract_price(data, ticker: str) -> float | None:

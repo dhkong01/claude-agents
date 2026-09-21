@@ -11,8 +11,8 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
-from data_utils import (AI_SMALLCAP_WATCHLIST, CACHE_DIR, batch_download,
-                         get_ndx100_tickers, market_today)
+from data_utils import (AI_SMALLCAP_WATCHLIST, CACHE_DIR, CRYPTO_ETF_WATCHLIST,
+                         batch_download, get_ndx100_tickers, market_today)
 
 
 def calc_rs_ratings(price_df: pd.DataFrame) -> pd.Series:
@@ -30,8 +30,11 @@ def calc_rs_ratings(price_df: pd.DataFrame) -> pd.Series:
 
 
 def screen_rs90(min_rating: float = 90.0) -> list[dict]:
-    # NDX 100 + 중소형 AI 워치리스트(IREN 등, S&P500/NDX100 미편입) 기준 유니버스
-    tickers = list(dict.fromkeys(get_ndx100_tickers() + AI_SMALLCAP_WATCHLIST))
+    # NDX 100 + 중소형 AI 워치리스트(IREN 등) + 비트코인/이더리움 ETF
+    # (S&P500/NDX100 미편입) 기준 유니버스
+    tickers = list(dict.fromkeys(
+        get_ndx100_tickers() + AI_SMALLCAP_WATCHLIST + CRYPTO_ETF_WATCHLIST
+    ))
 
     # 유저 포트폴리오 종목도 포함 (NDX100 외 종목 RS 계산)
     my_port = Path(__file__).parent / "my_portfolio.json"

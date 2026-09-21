@@ -1,15 +1,16 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "대만 TSMC의 2나노 상용 양산 본격화와 중국 CXMT의 신형 메모리 추격 등 아시아발 첨단 반도체 패권 경쟁이 심화되는 가운데, 미국의 차세대 AI 육성 정책 기조가 글로벌 반도체 수요를 견인하고 있습니다.",
+      "score": 9.2,
+      "rationale": "미국 빅테크(메타, AMD)의 AI 성능 입증 및 인프라 투자 수요가 확인된 상황에서, 한국의 반도체 수출 역대 최대 기록 및 대만 TSMC의 첨단 패키징 라인 가동 등 아시아 공급망의 실적 성장이 강력한 상방 압력을 더하고 있습니다.",
       "related_tickers": [
+        "AMD",
         "TSM",
         "NVDA",
-        "ASML"
+        "INTC"
       ],
       "source_regions": [
         "US",
@@ -19,12 +20,11 @@
     {
       "name": "Technology",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "미국 트럼프 행정부의 새로운 'AI Force' 조직 및 차르 임명을 통한 강력한 기술 성장 촉진 정책과 일본의 물리적 AI 데이터 수집 전략이 시너지를 내며 기술 섹터 전반에 긍정적인 모멘텀을 형성하고 있습니다.",
+      "score": 8.5,
+      "rationale": "메타의 신규 AI 어시스턴트 흥행에 따른 미국 기술주 랠리와 소프트뱅크의 대규모 회사채 조달을 통한 OpenAI 투자 등 글로벌 기술 기업들의 공격적인 AI 생태계 확장 투자가 모멘텀을 주도하고 있습니다.",
       "related_tickers": [
-        "MSFT",
-        "PLTR",
-        "GOOGL"
+        "META",
+        "9984"
       ],
       "source_regions": [
         "US",
@@ -32,13 +32,40 @@
       ]
     },
     {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "폭스바겐의 실적 경고 및 유로 스톡스 50 지수 퇴출, 볼보의 실적 악화에 따른 CEO 전격 교체 등 유럽 자동차 제조 부문의 구조적 침체와 구조조정 리스크가 부각되고 있습니다.",
+      "related_tickers": [
+        "VOW3",
+        "VOLVB"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.8,
+      "rationale": "중동발 공급 우려 및 정유 비용 상승으로 프랑스의 디젤 가격이 급등하는 등 유로존 전반의 에너지 인프라 및 연료 가격 상승 압력이 에너지 생산/정유 기업들의 단기 수익성에 긍정적 요인으로 작용하고 있습니다.",
+      "related_tickers": [
+        "TTE",
+        "ENI",
+        "BP"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
       "name": "Real Estate",
       "direction": "positive",
-      "score": 5.5,
-      "rationale": "중국 베이징의 부동산 부양책 시행과 황강항 인근 주택 시장의 반등 기대감에 따라 침체되었던 아시아 지역 부동산 개발 및 관련 자산 심리가 일부 회복세를 보이고 있습니다.",
+      "score": 6.0,
+      "rationale": "중국 본토의 대형 디벨로퍼 자산 리츠(REIT) 승인 및 홍콩 증권거래소의 규제 완화 흐름 속에 아시아 자본시장에서의 부동산 자산 유동화 및 활성화 흐름이 촉진되고 있습니다.",
       "related_tickers": [
-        "BEKE",
-        "CHOTF"
+        "0388",
+        "1113"
       ],
       "source_regions": [
         "ASIA"
@@ -47,12 +74,8 @@
   ],
   "conflicting_signals": [
     {
-      "sector": "Energy",
-      "note": "중동 지정학적 리스크로 인한 글로벌 유가 급등은 정유사 매출에 긍정적이나, 독일 등 유럽 정부의 정유사 횡재세(Windfall Tax) 도입 압박과 긴급 유류세 인하 조치가 마진을 압박하는 상충된 신호가 존재합니다."
-    },
-    {
-      "sector": "Industrials",
-      "note": "유럽의 방산(미사일 비축량 부족 대응) 및 일본의 산업용 로봇 공급망 수요는 강력한 성장 요인인 반면, 미국 내 고금리(3.75%-4.0%) 유지와 고연료비 부담으로 인한 제조업/운송업 마진 압박은 하방 요인으로 작용하고 있습니다."
+      "sector": "Financials",
+      "note": "아시아 역내에서 규제 강도의 뚜렷한 온도차가 존재합니다. 한국은 가계부채 및 자금시장 규제 강화로 시중은행의 대출 거절률이 급증하며 영업 환경이 제한되는 반면, 중국과 홍콩은 자본시장 활성화를 위해 기업 상장 규제를 대폭 완화하는 등 상반된 양상을 보이고 있습니다."
     }
   ]
 }

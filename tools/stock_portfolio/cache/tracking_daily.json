@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "data": [
     {
       "ticker": "AMD",
@@ -32,14 +32,14 @@
       "channel_width_pct": 16.1
     },
     {
-      "ticker": "MU",
-      "current": 1015.8,
-      "donchian_upper": 1027.77,
-      "donchian_lower": 924.03,
+      "ticker": "ANET",
+      "current": 199.39,
+      "donchian_upper": 202.25,
+      "donchian_lower": 187.81,
       "signal": "HOLD",
-      "dist_to_upper_pct": 1.2,
-      "dist_to_lower_pct": 9.0,
-      "channel_width_pct": 11.2
+      "dist_to_upper_pct": 1.4,
+      "dist_to_lower_pct": 5.8,
+      "channel_width_pct": 7.7
     },
     {
       "ticker": "FTNT",
@@ -50,6 +50,16 @@
       "dist_to_upper_pct": 1.7,
       "dist_to_lower_pct": 8.1,
       "channel_width_pct": 10.7
+    },
+    {
+      "ticker": "MU",
+      "current": 1015.8,
+      "donchian_upper": 1027.77,
+      "donchian_lower": 924.03,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.2,
+      "dist_to_lower_pct": 9.0,
+      "channel_width_pct": 11.2
     },
     {
       "ticker": "LITE",
@@ -90,16 +100,6 @@
       "dist_to_upper_pct": 2.8,
       "dist_to_lower_pct": 14.5,
       "channel_width_pct": 20.2
-    },
-    {
-      "ticker": "STX",
-      "current": 858.79,
-      "donchian_upper": 904.38,
-      "donchian_lower": 771.81,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 5.3,
-      "dist_to_lower_pct": 10.1,
-      "channel_width_pct": 17.2
     }
   ]
 }

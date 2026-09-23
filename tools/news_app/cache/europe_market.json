@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
-      "summary": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
-      "link": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI and Anthropic bosses push UN for global terms on AI",
+      "summary": "OpenAI's Sam Altman has called for risk evaluation standards, as have Anthropic's Dario Amodei and Hugging Face's Clement Delangue.",
+      "link": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Spanish farmers demand urgent aid as war in Iran drives up costs",
-      "summary": "Asaja, COAG, UPA, Unión de Uniones and the agri-food cooperatives are urging the government for direct aid over soaring farm diesel and fertiliser prices caused by the war in Iran, warning protests will go ahead if no action is taken.",
-      "link": "https://www.euronews.com/business/2026/09/22/spanish-farmers-demand-urgent-aid-as-war-in-iran-drives-up-costs",
+      "title": "Surging prices, voters’ anger: How France’s fuel crisis could shape the presidential campaign",
+      "summary": "In recent weeks, fishermen have blocked oil depots and port entrances in the south of France, while farmers have staged demonstrations over rising fuel prices. Fuel is set to become a major political flashpoint, just seven months away from France's elections.",
+      "link": "https://www.euronews.com/2026/09/23/surging-prices-voters-anger-how-frances-fuel-crisis-could-shape-the-presidential-campaign",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Cybercriminal group claims to steal thousands of FBI employee records",
-      "summary": "The FBI said it was probing a suspected hack, after the cybercriminal group ShinyHunters claimed to have breached its systems.",
-      "link": "https://www.politico.com/news/2026/09/22/shinyhunters-fbi-cyber-hack-01088494?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Blair presses Burnham to back return to a reformed EU",
+      "summary": "The former British prime minister says Brussels must be on a \"credible path to reform\" if the U.K. is to rejoin the bloc.",
+      "link": "https://www.politico.eu/article/tony-blair-tells-andy-burnham-ditch-your-brexit-red-lines-and-seek-to-rejoin-the-eu/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "IMF tells advanced economies to 'bring debt down' as borrowing costs rise",
-      "summary": "In an interview with the BBC, Kristalina Georgieva says economic shocks had pushed \"debt levels up like a staircase not to heaven\".",
-      "link": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
+      "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+      "summary": "Stock in major firms such as Microsoft, Nvidia and SpaceX was bought and sold on behalf of the US president.",
+      "link": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "ECB calls for tougher EU crypto rules and wider ban on stablecoin interest",
-      "summary": "Europe's central banks want the EU's crypto rules tightened, calling for a wider ban on interest payments on stablecoins, new powers to curb tokens pegged to foreign currencies such as the US dollar, and EU-level supervision of crypto firms.",
-      "link": "https://www.euronews.com/business/2026/09/22/ecb-calls-for-tougher-eu-crypto-rules-and-wider-ban-on-stablecoin-interest",
+      "title": "'Largest global fuel supply disruption in history': Which Europeans are paying the most for fuel?",
+      "summary": "The global oil crisis sent petrol and diesel peaking over €2.4/L and €2.5/L, but figures adjusted for the cost of living give a better indication of which countries are feeling the pinch the worst.",
+      "link": "https://www.euronews.com/2026/09/23/largest-global-fuel-supply-disruption-in-history-which-europeans-are-paying-the-most-for-f",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Will Germany have enough gas this winter amid energy supply crunch?",
+      "summary": "Germany s gas storage sites are far less full than in recent years. Officials say supplies are secure, but analysts warn that a cold winter or import disruptions could push prices higher. So how secure is the supply?",
+      "link": "https://www.dw.com/en/will-germany-have-enough-gas-this-winter-amid-energy-supply-crunch/a-79360317?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Poland scrambles jets after Russian helicopter breaches its airspace",
+      "summary": "Polish President Karol Nawrocki accused Russia of “ruthless persistence” in its efforts to “conquer a neighboring state.\"",
+      "link": "https://www.politico.eu/article/poland-russia-mi-8-helicopter-airspace-breach-kaliningrad/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
+      "summary": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
+      "link": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Turkey arrests Tera chairman as ‘Ponzi-like’ fund probe affects 450,000 investors",
+      "summary": "Turkish authorities arrested the chairman of Tera Yatirim Menkul Degerler AS on Wednesday morning, the brokerage at the centre of the country's current investment fund scandal, with funds worth more than $18 billion (€15.7bn) and held by over 450,000 people now being liquidated.",
+      "link": "https://www.euronews.com/2026/09/23/turkey-arrests-tera-chairman-as-ponzi-like-fund-probe-affects-450000-investors",
       "source": "Euronews Business"
     },
     {
@@ -45,21 +69,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Chinese president arrives in US with new energy leverage as war rattles global markets",
-      "summary": "The Iran war has boosted China’s clean energy exports and strengthened its leverage in global energy markets, giving China little incentive to yield to President Donald Trump’s demands.",
-      "link": "https://www.politico.com/news/2026/09/22/chinese-president-arrives-in-the-u-s-with-new-energy-leverage-as-war-rattles-global-markets-01088268?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "‘Dammit, something has to happen’: White House preparing plan for 90-day diesel exports ban",
+      "summary": "Some GOP lawmakers and oil industry reps are still fighting to stave off an announcement.",
+      "link": "https://www.politico.com/news/2026/09/23/white-house-ban-diesel-01089294?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Trump says he would back ban on diesel exports",
-      "summary": "Republicans lawmakers have put pressure on the president to curb exports as diesel prices soar to record highs in the US.",
-      "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
+      "title": "Lidl banned from selling copycat Birkenstock sandals, Dutch court rules",
+      "summary": "Lidl must also compensate Birkenstock and pay its legal fees, according to the court ruling",
+      "link": "https://www.bbc.co.uk/news/articles/cqrm90m2g1dzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "France’s budget: Oxfam targets ‘super-inheritances’ in tax plan",
-      "summary": "As France hunts for billions of euros to repair its public finances, Oxfam is calling for tighter limits on a tax break for inherited family businesses, saying reform could raise more than €3bn a year.",
-      "link": "https://www.euronews.com/business/2026/09/22/frances-budget-oxfam-proposes-tax-on-super-inheritances-to-raise-billions",
+      "title": "The Trump-Xi summit: Why Europe has so much at stake",
+      "summary": "From tariffs to rare earths and AI, the agenda for US President Donald Trump's summit with China’s President Xi Jinping in Washington will have an impact on Europe.",
+      "link": "https://www.euronews.com/2026/09/23/the-trump-xi-summit-why-europe-has-so-much-at-stake",
       "source": "Euronews Business"
     },
     {
@@ -69,69 +93,46 @@
       "source": "DW Business"
     },
     {
-      "title": "British PM asks Trump to bring up Jimmy Lai with Xi",
-      "summary": "The British delegation said the Hong Kong dissident could live in the United Kingdom, a person familiar with the situation said.",
-      "link": "https://www.politico.com/news/2026/09/22/trump-burnham-xi-lai-01087922?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "A huit mois de la présidentielle, les comptes de campagne déjà sous surveillance",
+      "summary": "POLITICO a rencontré Christian Charpy, le président de l’autorité administrative qui aura la responsabilité de valider ou non les dépenses des candidats à l’Elysée.",
+      "link": "https://www.politico.eu/article/a-8-mois-de-la-presidentielle-la-commission-des-comptes-de-campagne-prete-a-jouer-au-gendarme/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Sir Jim Ratcliffe suspends production at key UK plants blaming high gas prices",
-      "summary": "Ineos said natural gas in the UK is twelve times more expensive than in the US.",
-      "link": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "summary": "Albanese said he expressed \"concern\" to OpenAI founder Sam Altman, after authorities were informed three months after the breach in June.",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "One-bedroom flat rent in Portugal costs more than minimum wage",
-      "summary": "Renting a one-bedroom flat costs a median €1,128 a month, 123% more than renting a room, which costs €505, according to property portal Idealista. Prices are highest in Lisbon, Faro and Madeira.",
-      "link": "https://www.euronews.com/business/2026/09/22/renting-a-one-bedroom-flat-in-portugal-costs-200-euros-more-than-the-minimum-wage",
+      "title": "Spanish farmers demand urgent aid as war in Iran drives up costs",
+      "summary": "Asaja, COAG, UPA, Unión de Uniones and the agri-food cooperatives are urging the government for direct aid over soaring farm diesel and fertiliser prices caused by the war in Iran, warning protests will go ahead if no action is taken.",
+      "link": "https://www.euronews.com/2026/09/22/spanish-farmers-demand-urgent-aid-as-war-in-iran-drives-up-costs",
       "source": "Euronews Business"
     },
     {
-      "title": "Trump talks peace, threatens annihilation of Iran in UNGA speech",
-      "summary": "The speech mirrored the president’s approach to foreign policy throughout his second term.",
-      "link": "https://www.politico.com/news/2026/09/22/trump-iran-annihilation-unga-speech-01087902?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "EU’s Ribera joins push for first woman to lead UN",
+      "summary": "Four women feature among the seven candidates seeking to replace António Guterres when he steps down at the end of the year.",
+      "link": "https://www.politico.eu/article/eu-teresa-ribera-push-for-first-woman-un-chief/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "New EU industry rules would damage UK, warns Burnham",
-      "summary": "The prime minister met the European Commission President during his visit to the United Nations General Assembly.",
-      "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
+      "title": "Barrecore and Boom Cycle owner suddenly shuts studios",
+      "summary": "Common Bond has emailed customers announcing its locations were closed \"until further notice\".",
+      "link": "https://www.bbc.co.uk/news/articles/ckzdzeedmqm4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "EU seals Philippines trade deal in push to diversify away from China and US",
-      "summary": "EU Trade Commissioner Maroš Šefčovič said the deal with the Philippines would give EU businesses access to a market of 113 million consumers, strengthening the strategy to seek trade deals across the region.",
-      "link": "https://www.euronews.com/my-europe/2026/09/22/eu-seals-philippines-trade-deal-in-push-to-diversify-away-from-china-and-us",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Security-Update: Nukleare Abschreckung ohne die USA? – mit Claudia Major",
-      "summary": "Präsentiert von Lockheed Martin.",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-update-nukleare-abschreckung-ohne-die-usa-mit-claudia-major/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Will a switch to light speed cut power use at data centres?",
-      "summary": "To save power and add capacity, data centres are switching from copper wires to tech using light.",
-      "link": "https://www.bbc.co.uk/news/articles/c2dwg3zexkpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "'Made in Europe' battery rules could add €2,100 to electric car prices, report says",
-      "summary": "Europe's strategy for its struggling car industry protects established manufacturers at the expense of consumers and taxpayers rather than helping them compete, according to a new report.",
-      "link": "https://www.euronews.com/business/2026/09/22/made-in-europe-battery-rules-could-add-2100-to-electric-car-prices-report-says",
-      "source": "Euronews Business"
     }
   ],
-  "trend_headline": "이란 전쟁 여파와 자동차 위기 속 깊어지는 제조업 충격",
-  "summary": "이란 전쟁으로 인한 에너지 및 디젤 가격 폭등이 유럽 전역의 물류와 농업을 압박하는 가운데, 독일 등 주요국 자동차 산업은 구조적 위기와 노동시간 개편 갈등에 직면했습니다. 이와 함께 폭스바겐의 유로스톡스 50 지수 퇴출은 침체된 유로존 제조업의 위기감을 고스란히 반영하고 있습니다.",
+  "trend_headline": "글로벌 에너지 위기와 프랑스·독일의 구조적 진통",
+  "summary": "중동 분쟁 등 글로벌 에너지 위기로 연료 및 가스 가격이 급등하면서 프랑스의 연료 시위와 스페인 농가 지원 요구가 이어지는 가운데, 독일은 전기차 전환에 따른 세수 감소와 자동차 산업의 35시간 주 40시간 연장 갈등 등 심각한 제조업 위기에 직면했습니다. 이와 함께 ECB는 암호화폐 규제 강화를 촉구하며 금융 안정을 압박하고 있습니다.",
   "key_points": [
-    "폭스바겐(Volkswagen), 유로스톡스 50(Euro Stoxx 50) 지수에서 공식 퇴출",
-    "이란 전쟁 발발로 농업용 디젤 및 비료 가격 급등, 스페인 농민들 긴급 지원 촉구",
-    "독일 자동차 업계, 경쟁력 강화를 위해 기존 35시간 주당 근무제를 40시간으로 연장 요구하며 노조와 대립"
+    "글로벌 에너지 위기로 휘발유 및 디젤 가격이 폭등하며 프랑스와 스페인 등에서 연료비 부담과 시위 확산",
+    "독일은 전기차 보급 가속화에 따른 연료세 수입 감소와 자동차 업계의 40시간 근무제 도입 요구로 노사 갈등 심화",
+    "ECB가 유럽연합에 더 강력한 암호화폐 규제와 스테이블코인 이자 지급 금지를 촉구하며 통화·금융 안정을 강조"
   ],
   "sector_hints": [
     "Energy",
-    "Automotive"
+    "Automotive",
+    "Financials"
   ]
 }

@@ -1,56 +1,15 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "대만의 첨단 패키징 인프라 착공 및 TSMC·미디어텍의 기술 우위, 중국의 자체 칩(하이광·화웨이) 경쟁력 가속화 등 아시아 전반의 공급망 펀더멘털 강화가 주가를 견인하고 있습니다.",
+      "score": 8.0,
+      "rationale": "대만 TSMC의 파운드리 가격 인상(3~6%) 추진과 첨단 패키징 투자 확대 발표가 글로벌 AI 반도체 생태계의 견조한 수요와 강력한 가격 결정력을 입증하며 업황에 긍정적인 신호를 주고 있습니다.",
       "related_tickers": [
         "TSM",
-        "2454.TW",
-        "NVDA"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Communication Services",
-      "direction": "positive",
-      "score": 7.5,
-      "rationale": "메타의 차세대 AI 어시스턴트 'Muse'가 챗GPT를 능가하는 다운로드 돌풍을 일으키며 빅테크 플랫폼의 신규 AI 서비스 수익화 기대감이 증폭되었습니다.",
-      "related_tickers": [
-        "META",
-        "GOOGL"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "인플레이션 완화 기조 속 나스닥의 사상 최고치 경신과 함께 로보틱스 프로세서, 고속 해저 케이블 구축 등 글로벌 테크 하드웨어 및 소프트웨어 전반에 강력한 모멘텀이 형성되었습니다.",
-      "related_tickers": [
-        "MSFT",
-        "AAPL",
-        "6701.T"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "일본 대형 은행의 국내 대출 점유율 반등 및 마진 체질 개선, 중국의 글로벌 자산운용사(블랙록) 대상 QDII 자격 부여 등 자본시장 개방 조치가 긍정적으로 작용했습니다.",
-      "related_tickers": [
-        "8306.T",
-        "BLK"
+        "NVDA",
+        "ASML"
       ],
       "source_regions": [
         "ASIA"
@@ -59,34 +18,39 @@
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "폭스바겐의 유로스톡스 50 지수 퇴출과 독일 완성차 업계의 근로시간 연장(35시간→40시간) 노사 대립 등 유럽 자동차 섹터의 구조적 침체와 비용 부담이 심화되었습니다.",
+      "score": -7.0,
+      "rationale": "미국 맥도날드의 고물가로 인한 고객 정체 경고와 대규모 투자 지출 우려, 그리고 독일 자동차 업계의 전기차 전환 세수 감소 및 주 40시간 근무제 도입을 둘러싼 노사 갈등 등 소비재 및 자동차 제조업 전반에 하방 압력이 존재합니다.",
       "related_tickers": [
-        "VOW3.DE",
-        "STLA",
-        "MBG.DE"
+        "MCD",
+        "MBG",
+        "BMW",
+        "TSLA"
       ],
       "source_regions": [
+        "US",
         "EUROPE"
       ]
     },
     {
-      "name": "Materials",
+      "name": "Energy",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "포스코퓨처엠과 SK온 간 대규모 LFP 양극재 공급 계약이 성사되면서 2차전지 소재 부문의 수주 가시성이 제고되었습니다.",
+      "score": 6.5,
+      "rationale": "중동 분쟁 등 글로벌 지정학적 긴장감으로 연료 및 가스 가격이 급등하면서, 유럽 내 에너지 위기 우려와 함께 에너지 공급 및 정유 기업들의 단기 수익성 개선 요인으로 작용하고 있습니다.",
       "related_tickers": [
-        "003670.KS"
+        "XOM",
+        "CVX",
+        "BP",
+        "SHEL"
       ],
       "source_regions": [
-        "ASIA"
+        "EUROPE"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Energy",
-      "note": "미국은 호르무즈 해협 개방 시사로 국제유가가 배럴당 100달러를 밑돌며 하락 안정세를 보인 반면, 유럽은 지정학적 불안 여파로 디젤 및 비료 가격이 폭등하며 물류와 농업 부문에 심각한 비용 압박을 가하는 상반된 흐름이 나타났습니다."
+      "sector": "Technology",
+      "note": "미국은 국채 금리 급등과 메타의 신규 AI 에이전트 출시에 따른 경쟁 심화 및 밸류에이션 부담으로 기술주가 조정을 받은 반면, 아시아는 TSMC의 강력한 가이던스와 미·중 정상회담 기대감에 힘입어 기술주 전반에 온기가 유입되는 상반된 흐름을 보였습니다."
     }
   ]
 }

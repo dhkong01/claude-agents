@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "data": [
     {
-      "ticker": "AMD",
-      "current": 559.82,
-      "donchian_upper": 545.09,
-      "donchian_lower": 456.16,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.6,
-      "dist_to_lower_pct": 18.5,
-      "channel_width_pct": 19.5
-    },
-    {
       "ticker": "ARM",
-      "current": 275.61,
-      "donchian_upper": 264.9,
+      "current": 322.9,
+      "donchian_upper": 275.61,
       "donchian_lower": 239.01,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -3.9,
-      "dist_to_lower_pct": 13.3,
-      "channel_width_pct": 10.8
+      "dist_to_upper_pct": -14.6,
+      "dist_to_lower_pct": 26.0,
+      "channel_width_pct": 15.3
     },
     {
-      "ticker": "SNDK",
-      "current": 1791.82,
-      "donchian_upper": 1764.17,
-      "donchian_lower": 1519.97,
+      "ticker": "AMD",
+      "current": 615.52,
+      "donchian_upper": 559.82,
+      "donchian_lower": 477.57,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.5,
-      "dist_to_lower_pct": 15.2,
-      "channel_width_pct": 16.1
-    },
-    {
-      "ticker": "ANET",
-      "current": 199.39,
-      "donchian_upper": 202.25,
-      "donchian_lower": 187.81,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.4,
-      "dist_to_lower_pct": 5.8,
-      "channel_width_pct": 7.7
+      "dist_to_upper_pct": -9.0,
+      "dist_to_lower_pct": 22.4,
+      "channel_width_pct": 17.2
     },
     {
       "ticker": "FTNT",
-      "current": 169.84,
+      "current": 175.23,
       "donchian_upper": 172.78,
       "donchian_lower": 156.07,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.7,
-      "dist_to_lower_pct": 8.1,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.4,
+      "dist_to_lower_pct": 10.9,
       "channel_width_pct": 10.7
     },
     {
+      "ticker": "CRWD",
+      "current": 249.35,
+      "donchian_upper": 245.7,
+      "donchian_lower": 206.74,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.5,
+      "dist_to_lower_pct": 17.1,
+      "channel_width_pct": 18.8
+    },
+    {
+      "ticker": "ANET",
+      "current": 205.42,
+      "donchian_upper": 202.25,
+      "donchian_lower": 187.81,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.5,
+      "dist_to_lower_pct": 8.6,
+      "channel_width_pct": 7.7
+    },
+    {
+      "ticker": "SNDK",
+      "current": 1766.64,
+      "donchian_upper": 1791.82,
+      "donchian_lower": 1519.97,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.4,
+      "dist_to_lower_pct": 14.0,
+      "channel_width_pct": 17.9
+    },
+    {
       "ticker": "MU",
-      "current": 1015.8,
+      "current": 1043.96,
       "donchian_upper": 1027.77,
       "donchian_lower": 924.03,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.2,
-      "dist_to_lower_pct": 9.0,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.6,
+      "dist_to_lower_pct": 11.5,
       "channel_width_pct": 11.2
     },
     {
       "ticker": "LITE",
-      "current": 930.91,
+      "current": 954.49,
       "donchian_upper": 988.98,
       "donchian_lower": 835.03,
       "signal": "HOLD",
-      "dist_to_upper_pct": 6.2,
-      "dist_to_lower_pct": 10.3,
+      "dist_to_upper_pct": 3.6,
+      "dist_to_lower_pct": 12.5,
       "channel_width_pct": 18.4
     },
     {
       "ticker": "AEHR",
-      "current": 93.49,
-      "donchian_upper": 105.97,
-      "donchian_lower": 76.27,
+      "current": 96.93,
+      "donchian_upper": 101.73,
+      "donchian_lower": 81.58,
       "signal": "HOLD",
-      "dist_to_upper_pct": 13.3,
-      "dist_to_lower_pct": 18.4,
-      "channel_width_pct": 38.9
+      "dist_to_upper_pct": 5.0,
+      "dist_to_lower_pct": 15.8,
+      "channel_width_pct": 24.7
     },
     {
       "ticker": "INTC",
-      "current": 108.6,
+      "current": 121.78,
       "donchian_upper": 108.8,
-      "donchian_lower": 91.67,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 0.2,
-      "dist_to_lower_pct": 15.6,
-      "channel_width_pct": 18.7
-    },
-    {
-      "ticker": "MRVL",
-      "current": 244.25,
-      "donchian_upper": 251.01,
-      "donchian_lower": 208.83,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 2.8,
-      "dist_to_lower_pct": 14.5,
-      "channel_width_pct": 20.2
+      "donchian_lower": 95.8,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -10.7,
+      "dist_to_lower_pct": 21.3,
+      "channel_width_pct": 13.6
     }
   ]
 }

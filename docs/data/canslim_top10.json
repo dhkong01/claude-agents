@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "analyzed": 140,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1004821020672,
-      "price": 615.52,
-      "rs_rating": 96.3
+      "market_cap": 1018288996352,
+      "price": 623.77,
+      "rs_rating": 97.0
     },
     {
       "ticker": "FTNT",
@@ -34,9 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 128568639488,
-      "price": 175.23,
-      "rs_rating": 92.2
+      "market_cap": 127856943104,
+      "price": 174.26,
+      "rs_rating": 91.5
     },
     {
       "ticker": "DXCM",
@@ -52,9 +52,9 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 33649258496,
-      "price": 89.17,
-      "rs_rating": 86.0
+      "market_cap": 33785108480,
+      "price": 89.53,
+      "rs_rating": 84.0
     },
     {
       "ticker": "ANET",
@@ -70,27 +70,45 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 259080781824,
-      "price": 205.42,
-      "rs_rating": 88.1
+      "market_cap": 258790703104,
+      "price": 205.19,
+      "rs_rating": 87.4
     },
     {
-      "ticker": "AAPL",
-      "canslim_score": 58,
+      "ticker": "AMGN",
+      "canslim_score": 57,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 221788864512,
+      "price": 410.24,
+      "rs_rating": 71.7
+    },
+    {
+      "ticker": "STX",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
         "S": 4,
-        "L": 7,
+        "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 4947135430656,
-      "price": 338.98,
-      "rs_rating": 81.9
+      "industry": "Computer Hardware",
+      "market_cap": 209165189120,
+      "price": 919.84,
+      "rs_rating": 94.2
     },
     {
       "ticker": "ARM",
@@ -106,9 +124,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 344856723456,
-      "price": 322.9,
-      "rs_rating": 90.1
+      "market_cap": 355857137664,
+      "price": 333.2,
+      "rs_rating": 92.2
     },
     {
       "ticker": "CRWD",
@@ -124,26 +142,26 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 255318163456,
-      "price": 249.35,
-      "rs_rating": 92.9
+      "market_cap": 256045137920,
+      "price": 250.06,
+      "rs_rating": 93.5
     },
     {
-      "ticker": "AMGN",
+      "ticker": "AAPL",
       "canslim_score": 54,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 4,
-        "S": 10,
+        "N": 10,
+        "S": 4,
         "L": 3,
         "I": 10,
         "M": 7
       },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 212554874880,
-      "price": 393.16,
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 4958372495360,
+      "price": 339.75,
       "rs_rating": 75.8
     },
     {
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 5490544738304,
-      "price": 227.38,
-      "rs_rating": 75.1
-    },
-    {
-      "ticker": "FANG",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 52999344128,
-      "price": 189.27,
-      "rs_rating": 68.3
+      "market_cap": 5526523478016,
+      "price": 228.87,
+      "rs_rating": 74.4
     }
   ]
 }

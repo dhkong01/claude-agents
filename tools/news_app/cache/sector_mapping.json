@@ -1,56 +1,66 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "대만 TSMC의 파운드리 가격 인상(3~6%) 추진과 첨단 패키징 투자 확대 발표가 글로벌 AI 반도체 생태계의 견조한 수요와 강력한 가격 결정력을 입증하며 업황에 긍정적인 신호를 주고 있습니다.",
+      "score": 8.5,
+      "rationale": "미국의 대규모 AI 컴퓨팅 인프라 계약과 대만 TSMC의 첨단 패키징 허브 착공 등 글로벌 AI 반도체 공급망에 대한 강력한 수요가 업황 개선을 이끌고 있습니다.",
       "related_tickers": [
         "TSM",
-        "NVDA",
-        "ASML"
+        "NVDA"
       ],
       "source_regions": [
+        "US",
         "ASIA"
       ]
     },
     {
-      "name": "Consumer Discretionary",
+      "name": "Real Estate",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "미국 맥도날드의 고물가로 인한 고객 정체 경고와 대규모 투자 지출 우려, 그리고 독일 자동차 업계의 전기차 전환 세수 감소 및 주 40시간 근무제 도입을 둘러싼 노사 갈등 등 소비재 및 자동차 제조업 전반에 하방 압력이 존재합니다.",
+      "score": -8.0,
+      "rationale": "미국 국채 금리 급등으로 인한 모기지 금리 8% 육박 우려, 한국의 전세대출 대위변제 급증, 중국의 부동산 침체 지속 등 글로벌 금리 인상 압박과 신용 리스크가 부각되고 있습니다.",
       "related_tickers": [
-        "MCD",
-        "MBG",
-        "BMW",
-        "TSLA"
+        "VNQ",
+        "PLD"
       ],
       "source_regions": [
         "US",
-        "EUROPE"
+        "ASIA"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "중동 분쟁 등 글로벌 지정학적 긴장감으로 연료 및 가스 가격이 급등하면서, 유럽 내 에너지 위기 우려와 함께 에너지 공급 및 정유 기업들의 단기 수익성 개선 요인으로 작용하고 있습니다.",
+      "score": 7.0,
+      "rationale": "독일의 가스 저장고 재고 감소 우려와 프랑스 중심의 정유 위기 등 공급 우려 속에서 유럽 정유사들의 주가 상승 모멘텀이 강화되고 있습니다.",
       "related_tickers": [
-        "XOM",
-        "CVX",
-        "BP",
-        "SHEL"
+        "SHEL",
+        "TTE"
       ],
       "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "독일 자동차 제조업 노동 조건 변경에 따른 제조업 경쟁력 약화 우려와 미국 관세 영향 및 유통 부문의 보수적 가이드라인이 소비재 업황을 압박하고 있습니다.",
+      "related_tickers": [
+        "TSLA",
+        "MBG"
+      ],
+      "source_regions": [
+        "US",
         "EUROPE"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Technology",
-      "note": "미국은 국채 금리 급등과 메타의 신규 AI 에이전트 출시에 따른 경쟁 심화 및 밸류에이션 부담으로 기술주가 조정을 받은 반면, 아시아는 TSMC의 강력한 가이던스와 미·중 정상회담 기대감에 힘입어 기술주 전반에 온기가 유입되는 상반된 흐름을 보였습니다."
+      "sector": "Financials",
+      "note": "장기 금리 상승에 따른 은행 순이자마진(NIM) 개선 기대감이 있으나, 한편으로는 고금리로 인한 대출 수요 위축 및 아시아 지역 연체 급증 등 가계 신용 리스크가 동시에 고조되고 있습니다."
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 18.98,
-      "week1": -4.7,
+      "qtd": 17.68,
+      "week1": -2.94,
       "rank": 1,
       "status": "과열"
     },
@@ -38,8 +38,8 @@
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 2.41,
-      "week1": -1.32,
+      "qtd": 0.39,
+      "week1": -1.67,
       "rank": 5,
       "status": "중립"
     },
@@ -96,65 +96,67 @@
     "Technology": [
       {
         "ticker": "AMD",
-        "rs": 97.0,
-        "canslim": 64,
-        "price": 623.77
-      },
-      {
-        "ticker": "FTNT",
-        "rs": 91.5,
+        "rs": 95.3,
         "canslim": 61,
-        "price": 174.26
-      },
-      {
-        "ticker": "ANET",
-        "rs": 87.4,
-        "canslim": 58,
-        "price": 205.19
-      },
-      {
-        "ticker": "STX",
-        "rs": 94.2,
-        "canslim": 55,
-        "price": 919.84
-      },
-      {
-        "ticker": "ARM",
-        "rs": 92.2,
-        "canslim": 55,
-        "price": 333.2
-      },
-      {
-        "ticker": "CRWD",
-        "rs": 93.5,
-        "canslim": 54,
-        "price": 250.06
+        "price": 614.61
       },
       {
         "ticker": "AAPL",
-        "rs": 75.8,
+        "rs": 61.6,
         "canslim": 54,
-        "price": 339.75
+        "price": 337.02
+      },
+      {
+        "ticker": "MU",
+        "rs": 97.1,
+        "canslim": 52,
+        "price": 1071.88
+      },
+      {
+        "ticker": "ARM",
+        "rs": 85.9,
+        "canslim": 52,
+        "price": 332.56
       },
       {
         "ticker": "NVDA",
-        "rs": 74.4,
-        "canslim": 54,
-        "price": 228.87
+        "rs": 57.9,
+        "canslim": 51,
+        "price": 225.51
+      },
+      {
+        "ticker": "FTNT",
+        "rs": null,
+        "canslim": 51,
+        "price": 178.74
+      },
+      {
+        "ticker": "MRVL",
+        "rs": 89.7,
+        "canslim": 49,
+        "price": 260.9
+      },
+      {
+        "ticker": "WDC",
+        "rs": 87.8,
+        "canslim": 49,
+        "price": 473.69
       }
     ],
     "Healthcare": [
       {
-        "ticker": "DXCM",
-        "rs": 84.0,
-        "canslim": 61,
-        "price": 89.53
-      },
-      {
         "ticker": "AMGN",
-        "rs": 71.7,
-        "canslim": 57,
-        "price": 410.24
+        "rs": null,
+        "canslim": 51,
+        "price": 406.09
+      }
+    ],
+    "Energy": [
+      {
+        "ticker": "FANG",
+        "rs": null,
+        "canslim": 51,
+        "price": 185.65
       }
     ]
   },

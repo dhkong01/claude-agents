@@ -1,27 +1,9 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "analyzed": 140,
   "top10": [
     {
       "ticker": "AMD",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 1018288996352,
-      "price": 623.77,
-      "rs_rating": 97.0
-    },
-    {
-      "ticker": "FTNT",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -33,118 +15,10 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 127856943104,
-      "price": 174.26,
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 33785108480,
-      "price": 89.53,
-      "rs_rating": 84.0
-    },
-    {
-      "ticker": "ANET",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 258790703104,
-      "price": 205.19,
-      "rs_rating": 87.4
-    },
-    {
-      "ticker": "AMGN",
-      "canslim_score": 57,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 221788864512,
-      "price": 410.24,
-      "rs_rating": 71.7
-    },
-    {
-      "ticker": "STX",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 209165189120,
-      "price": 919.84,
-      "rs_rating": 94.2
-    },
-    {
-      "ticker": "ARM",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 355857137664,
-      "price": 333.2,
-      "rs_rating": 92.2
-    },
-    {
-      "ticker": "CRWD",
-      "canslim_score": 54,
-      "scores": {
-        "C": 5,
-        "A": 5,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 256045137920,
-      "price": 250.06,
-      "rs_rating": 93.5
+      "market_cap": 1003335450624,
+      "price": 614.61,
+      "rs_rating": 95.3
     },
     {
       "ticker": "AAPL",
@@ -160,27 +34,153 @@
       },
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 4958372495360,
-      "price": 339.75,
-      "rs_rating": 75.8
+      "market_cap": 4918530277376,
+      "price": 337.02,
+      "rs_rating": 61.6
     },
     {
-      "ticker": "NVDA",
-      "canslim_score": 54,
+      "ticker": "MU",
+      "canslim_score": 52,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 3,
+        "N": 4,
+        "S": 1,
+        "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 5526523478016,
-      "price": 228.87,
-      "rs_rating": 74.4
+      "market_cap": 1210573914112,
+      "price": 1071.88,
+      "rs_rating": 97.1
+    },
+    {
+      "ticker": "ARM",
+      "canslim_score": 52,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 355173597184,
+      "price": 332.56,
+      "rs_rating": 85.9
+    },
+    {
+      "ticker": "NVDA",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 5445389910016,
+      "price": 225.51,
+      "rs_rating": 57.9
+    },
+    {
+      "ticker": "AMGN",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 219545239552,
+      "price": 406.09,
+      "rs_rating": NaN
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 51985670144,
+      "price": 185.65,
+      "rs_rating": NaN
+    },
+    {
+      "ticker": "FTNT",
+      "canslim_score": 51,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 0,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 131143983104,
+      "price": 178.74,
+      "rs_rating": NaN
+    },
+    {
+      "ticker": "MRVL",
+      "canslim_score": 49,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 234472030208,
+      "price": 260.9,
+      "rs_rating": 89.7
+    },
+    {
+      "ticker": "WDC",
+      "canslim_score": 49,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 170784636928,
+      "price": 473.69,
+      "rs_rating": 87.8
     }
   ]
 }

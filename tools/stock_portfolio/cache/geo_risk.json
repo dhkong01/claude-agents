@@ -1,33 +1,33 @@
 {
-  "date": "2026-09-23",
-  "risk_score": 10.0,
+  "date": "2026-09-24",
+  "risk_score": 9.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 4,
+  "high_risk_signals": 2,
   "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "ELEVATED",
-    "Defense": "ELEVATED"
+    "Semiconductors": "WATCH",
+    "Defense": "ELEVATED",
+    "Consumer": "WATCH"
   },
   "top_risk_events": [
-    "U.N. Live Updates: Zelensky Warns Of Growing Global Cost Of Russia\u2019S War In Ukraine",
-    "America\u2019S A.I. Leaders Warn U.N. Of Possible Peril Absent A Global Response",
-    "After Warm Meeting With Trump, Venezuela\u2019S Leader Is Set To Address U.N."
+    "Europe Warns Of Russia\u2019S Hybrid Attacks But Struggles To Counter Them",
+    "Iran Proposes 7-Day Plan To End War",
+    "Netanyahu, Addressing U.N., Denounces Israel\u2019S Critics As \u2018Moral Cowards\u2019"
   ],
-  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
+  "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
-    "long_pct": 15,
-    "sqqq_pct": 25,
+    "long_pct": 20,
+    "sqqq_pct": 20,
     "cash_pct": 60,
-    "per_stock_pct": 3.0,
+    "per_stock_pct": 4.0,
     "action": "MAX_DEFENSIVE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
-      "Semiconductors",
       "Defense"
     ],
-    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 25% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Semiconductors, Defense ELEVATED]"
+    "reasoning": "Risk 9.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
   }
 }

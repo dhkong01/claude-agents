@@ -1,66 +1,44 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "미국의 대규모 AI 컴퓨팅 인프라 계약과 대만 TSMC의 첨단 패키징 허브 착공 등 글로벌 AI 반도체 공급망에 대한 강력한 수요가 업황 개선을 이끌고 있습니다.",
+      "rationale": "TSMC의 웨이퍼 가격 인상 계획(3~6%)과 가파르게 치솟는 AI 인프라 투자 수요에 힘입어 반도체 업계 전반의 마진 개선 및 밸류에이션 재평가 기대감이 확산하고 있습니다.",
       "related_tickers": [
-        "TSM",
-        "NVDA"
+        "TSM"
       ],
       "source_regions": [
-        "US",
         "ASIA"
       ]
     },
     {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -8.0,
-      "rationale": "미국 국채 금리 급등으로 인한 모기지 금리 8% 육박 우려, 한국의 전세대출 대위변제 급증, 중국의 부동산 침체 지속 등 글로벌 금리 인상 압박과 신용 리스크가 부각되고 있습니다.",
+      "name": "Technology",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "마이크로소프트가 AI 투자 심리 개선에 힘입어 11개월 만에 최고가를 경신하고, 아카마이가 앤트로픽과 대규모 계약을 체결하는 등 AI 소프트웨어 및 인프라 파트너십이 강화되며 모멘텀이 회복되고 있습니다.",
       "related_tickers": [
-        "VNQ",
-        "PLD"
+        "MSFT",
+        "AKAM"
       ],
       "source_regions": [
-        "US",
-        "ASIA"
+        "US"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "독일의 가스 저장고 재고 감소 우려와 프랑스 중심의 정유 위기 등 공급 우려 속에서 유럽 정유사들의 주가 상승 모멘텀이 강화되고 있습니다.",
+      "score": 7.8,
+      "rationale": "미국의 디젤 수출 제한 검토와 독일의 낮은 가스 재고로 인해 겨울철 유럽의 에너지 안보 위기가 고조되는 가운데, 정제 마진이 급등하며 정유 및 오일 메이저 기업들의 수익성 개선이 가속화되고 있습니다.",
       "related_tickers": [
         "SHEL",
-        "TTE"
+        "BP"
       ],
       "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "독일 자동차 제조업 노동 조건 변경에 따른 제조업 경쟁력 약화 우려와 미국 관세 영향 및 유통 부문의 보수적 가이드라인이 소비재 업황을 압박하고 있습니다.",
-      "related_tickers": [
-        "TSLA",
-        "MBG"
-      ],
-      "source_regions": [
-        "US",
         "EUROPE"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Financials",
-      "note": "장기 금리 상승에 따른 은행 순이자마진(NIM) 개선 기대감이 있으나, 한편으로는 고금리로 인한 대출 수요 위축 및 아시아 지역 연체 급증 등 가계 신용 리스크가 동시에 고조되고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

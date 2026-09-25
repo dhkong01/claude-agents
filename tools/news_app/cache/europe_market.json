@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "'We're all broke': Would you chase a friend for £5?",
-      "summary": "What's the smallest amount of money you would ask a friend to pay you back?",
-      "link": "https://www.bbc.co.uk/news/articles/cmly439q4y27o?at_medium=RSS&at_campaign=rss",
+      "title": "Sir David Beckham nets £38.5m after World Cup ad deals",
+      "summary": "His stake in DRJB Holdings has entitled him to almost half of its £85.5m in dividend payments.",
+      "link": "https://www.bbc.co.uk/news/articles/crkgww5j0yzwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "What counts as ‘Made in Europe’? France, Germany and Spain are divided",
-      "summary": "France wants a strict EU preference, Germany would include trading partners, while Spain is proposing a compromise as Brussels seeks to counter Chinese competition.",
-      "link": "https://www.euronews.com/2026/09/24/what-counts-as-made-in-europe-france-germany-and-spain-are-divided",
+      "title": "Euronews explains: What would a US diesel export ban mean to European countries?",
+      "summary": "The EU has deepened energy ties with the US while seeking to reduce its exposure to geopolitical shocks. Yet US plans to limit diesel exports expose how quickly commercial dependence can become a strategic vulnerability.",
+      "link": "https://www.euronews.com/2026/09/25/euronews-explains-what-would-a-us-diesel-export-ban-mean-to-european-countries",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Netanyahu uses UN address to highlight Trump ties — and harangue everyone else",
-      "summary": "The Israeli leader, increasingly isolated on the world stage, emphasized his relationship with the U.S. president during an otherwise confrontational speech.",
-      "link": "https://www.politico.com/news/2026/09/24/netanyahu-uses-un-address-to-highlight-trump-ties-and-harangue-everyone-else-01092551?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Burnham’s AI agenda is already in disarray thanks to Trump",
+      "summary": "Key pillars of Andy Burnham’s AI plans got smashed by the Trump administration this week.",
+      "link": "https://www.politico.eu/article/burnhams-ai-agenda-is-already-in-disarray-thanks-to-trump/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Reported assaults on Britain's rail services rise by more than a third",
-      "summary": "Recorded incidents of violence and harassment against passengers and rail workers showed a sharp increase in the year to March.",
-      "link": "https://www.bbc.co.uk/news/articles/c6z0z5dz884lo?at_medium=RSS&at_campaign=rss",
+      "title": "Man City found guilty of breaking financial rules",
+      "summary": "Manchester City have been found guilty of breaking the majority of the 115 financial rules they were accused of breaching.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw7v44ezry5go?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Dangote’s Big Energy Expansion: From Nigerian Refinery to African Powerhouse {Business Africa}",
-      "summary": "Dangote is expanding its energy business across Africa, putting local capital and cross-border infrastructure at the centre of the continent’s refining future. South Sudan’s small businesses turn to solar as unreliable electricity grid leaves entrepreneurs facing blackouts, rising costs and lost in",
-      "link": "https://www.euronews.com/2026/09/24/dangotes-big-energy-expansion-from-nigerian-refinery-to-african-powerhouse-business-africa",
+      "title": "The business of peace: US investment push takes the TRIPP corridor from diplomacy to trade",
+      "summary": "Washington grants millions to the so-called Trans-Caspian Enterprise Fund to act as a catalyst for private investment in the South Caucasus and Central Asia.",
+      "link": "https://www.euronews.com/2026/09/25/the-business-of-peace-us-investment-push-takes-the-tripp-corridor-from-diplomacy-to-trade",
       "source": "Euronews Business"
     },
     {
@@ -45,51 +45,63 @@
       "source": "DW Business"
     },
     {
-      "title": "Europe grudgingly, gingerly moves toward Trump’s Board of Peace",
-      "summary": "The European Commission is working with Trump’s body in Gaza for lack of better options. But the Board of Peace’s concrete results are slim.",
-      "link": "https://www.politico.com/news/2026/09/24/europe-trump-gaza-board-of-peace-01092119?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Dutch opposition party votes to join European Socialist family",
+      "summary": "Progressive Netherlands members had to choose between center-left and green.",
+      "link": "https://www.politico.eu/article/dutch-opposition-party-progressive-netherlands-votes-to-join-european-socialist-family/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-      "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+      "summary": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
+      "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Bentley launches its first EV, and it could be its cheapest model",
-      "summary": "Bentley’s first fully electric car tests wealthy buyers’ appetite for luxury EVs, and it comes with a €408 million investment in its Crewe factory. The launch supports existing jobs at a time when several high-end rivals have delayed or dropped plans for electric models.",
-      "link": "https://www.euronews.com/2026/09/24/bentley-launches-its-first-ev-and-it-could-be-its-cheapest-model",
+      "title": "Over 2.8 million Audi and Volkswagen vehicles face recall worldwide",
+      "summary": "The German carmakers are to recall the vehicles because of a potentially faulty screw connection on the steering gear.",
+      "link": "https://www.euronews.com/2026/09/25/over-28-million-audi-and-volkswagen-vehicles-face-recall-worldwide",
       "source": "Euronews Business"
     },
     {
-      "title": "Germany s car crisis: Can the 35-hour workweek survive?",
-      "summary": "German carmakers want employees to work 40 hours instead of the current 35 without extra pay, arguing it would improve competitiveness. Unions strongly oppose the proposal and view it as an attack on workers rights.",
-      "link": "https://www.dw.com/en/germany-s-car-crisis-can-the-35-hour-workweek-survive/a-79307488?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "OpenAI’s agents went rogue — its human response caused the real damage",
-      "summary": "If you’ve been forwarded this newsletter, you can sign up free here. Confide in me: Send your tips to this generic inbox, canberraplaybook@poltico.com. ESSENTIALS — It’s time to sort out human responsibility for AI agents — China’s record nuclear expansion — Whyalla steelworks: The distressed plant ",
-      "link": "https://www.politico.eu/article/openais-agents-went-rogue-its-human-response-caused-the-real-damage/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Pope Leo calls for dialogue as France’s populist forces eye power",
+      "summary": "At the Élysée, the pope defended freedom of conscience without naming the far right, as front-runner Marine Le Pen revives a proposed headscarf ban.",
+      "link": "https://www.politico.eu/article/pope-leo-urges-urgent-dialogue-in-warning-to-populist-forces-in-france/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "They were labelled 'pervert glasses'. Will a camera-free version transform their image?",
-      "summary": "Meta has unveiled audio-only smart glasses, with some questioning whether it is a response to the backlash over privacy.",
-      "link": "https://www.bbc.co.uk/news/articles/cwp80l0my1x2o?at_medium=RSS&at_campaign=rss",
+      "title": "UK diesel price close to all-time high",
+      "summary": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Finance Watch warns of online tactics designed to influence retail investors",
-      "summary": "Online design tactics can influence consumers and retail investors, including minors, to make decisions that may not be in their best interests, while making information about potential risks less prominent, Finance Watch has warned.",
-      "link": "https://www.euronews.com/2026/09/24/finance-watch-warns-of-online-tactics-designed-to-influence-retail-investors",
+      "title": "What counts as ‘Made in Europe’? France, Germany and Spain are divided",
+      "summary": "France wants a strict EU preference, Germany would include trading partners, while Spain is proposing a compromise as Brussels seeks to counter Chinese competition.",
+      "link": "https://www.euronews.com/2026/09/24/what-counts-as-made-in-europe-france-germany-and-spain-are-divided",
       "source": "Euronews Business"
     },
     {
-      "title": "Macron says he pressed Trump not to ban diesel exports",
-      "summary": "The French leader believes the decision would hurt the U.S. economy as well as the rest of the world.",
-      "link": "https://www.politico.eu/article/emmanuel-macron-says-he-pressed-donald-trump-not-ban-diesel-exports/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Zelenskyy warns $27B funding gap could leave Ukraine short of weapons",
+      "summary": "The president said he received a positive and constructive response from the EU during his diplomatic talks this week.",
+      "link": "https://www.politico.eu/article/if-ukraine-fails-to-order-new-drones-soon-it-risks-challenges-at-war-early-next-year-zelenskyy-said/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Special agents' blood and urine test results stolen in FBI hack",
+      "summary": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
+      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Dangote’s Big Energy Expansion: From Nigerian Refinery to African Powerhouse {Business Africa}",
+      "summary": "Dangote is expanding its energy business across Africa, putting local capital and cross-border infrastructure at the centre of the continent’s refining future. South Sudan’s small businesses turn to solar as unreliable electricity grid leaves entrepreneurs facing blackouts, rising costs and lost in",
+      "link": "https://www.euronews.com/2026/09/24/dangotes-big-energy-expansion-from-nigerian-refinery-to-african-powerhouse-business-africa",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Burnham plans first Berlin visit for talks with Merz",
+      "summary": "The U.K. and Germany have built up closer ties — especially in defense — over the last two years.",
+      "link": "https://www.politico.eu/article/burnham-plans-first-berlin-visit-for-talks-with-merz/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
@@ -99,40 +111,27 @@
       "source": "BBC Business"
     },
     {
-      "title": "Unions protest EU Inc law, claiming it threatens labour rights",
-      "summary": "Unions say the Brussels plan to make it easier to start businesses across Europe could undermine national labour rights and standards.",
-      "link": "https://www.euronews.com/2026/09/24/unions-protest-eu-inc-law-claiming-it-threatens-labour-rights",
+      "title": "Bentley launches its first EV, and it could be its cheapest model",
+      "summary": "Bentley’s first fully electric car tests wealthy buyers’ appetite for luxury EVs, and it comes with a €408 million investment in its Crewe factory. The launch supports existing jobs at a time when several high-end rivals have delayed or dropped plans for electric models.",
+      "link": "https://www.euronews.com/2026/09/24/bentley-launches-its-first-ev-and-it-could-be-its-cheapest-model",
       "source": "Euronews Business"
     },
     {
-      "title": "Peter Thiel slams pope’s AI encyclical as gift to Chinese Communist Party",
-      "summary": "The tech billionaire argued that Pope Leo XIV’s call to regulate AI could slow the West while China surges ahead with the technology.",
-      "link": "https://www.politico.com/news/2026/09/24/peter-thiel-slams-popes-ai-encyclical-as-gift-to-chinese-communist-party-01091850?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Von der Leyen ally slams EU Commission s AI response",
+      "summary": "Axel Voss, a Conservative German member of the European Parliament, told POLITICO that the EU is responding too slowly to AI threats.",
+      "link": "https://www.politico.eu/article/eu-commission-axel-voss-ai-act-enforcement-criticism/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "£170 a bag? Protein users squeezed as prices soar",
-      "summary": "Consumers are feeling the pinch from the rising cost of protein.",
-      "link": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Britain's largest banks make first interbank transactions using tokenised deposits",
-      "summary": "Britain's largest banks have completed what the industry describes as the first transactions anywhere using tokenised deposits to move money between one another, a milestone for a blockchain-based form of bank money that the Bank of England favours over privately issued stablecoins.",
-      "link": "https://www.euronews.com/2026/09/24/britains-largest-banks-make-first-interbank-transactions-using-tokenised-deposits",
-      "source": "Euronews Business"
     }
   ],
-  "trend_headline": "유럽, 독·프·스 '메이드 인 유럽' 이견 속 에너지·AI 규제 격돌",
-  "summary": "프랑스와 독일, 스페인이 대중국 견제를 위한 '메이드 인 유럽' 기준을 두고 분열된 가운데, 독일은 가스 재고 우려와 자동차 노동시간 개편 압박에 직면했습니다. 또한 EU는 미·중 간 AI 패권 경쟁과 엄격한 규제 기조 속에서 빅테크 및 노동법 개정을 둘러싼 갈등을 겪고 있습니다.",
+  "trend_headline": "유럽 디젤 가격 급등과 에너지 공급망 취약성 심화",
+  "summary": "미국의 디젤 수출 제한 검토와 독일의 낮은 가스 재고율이 맞물려 유럽의 에너지 안보 위기가 고조되고 있습니다. 정제 마진 급등으로 일부 오일 메이저 주가가 87%까지 치솟은 반면, 산업계는 겨울철 공급 차질 리스크에 직면했습니다.",
   "key_points": [
-    "프랑스·독일·스페인, 대중국 견제 위한 '메이드 인 유럽' EU 선호도 기준을 두고 이견 노출",
-    "독일 가스 저장고 재고 감소 및 35시간 근무제 개편 요구 등 제조업 경쟁력 위기 심화",
-    "유럽 주요국 정유사 주가 급등 및 프랑스 유가 위기가 대선 핵심 정치 쟁점으로 부상"
+    "영국 디젤 가격이 리터당 198.32펜스로 사상 최고치에 근접하며 운송 및 물류 비용을 압박",
+    "독일 가스 저장 시설의 재고 수준이 예년보다 낮아 한파 발생 시 가격 급등 우려 확대",
+    "유럽 주요 오일 및 정유 관련 주가들이 사상 최고 수준의 정제 마진 힘입어 연초 대비 40~87% 급등"
   ],
   "sector_hints": [
     "Energy",
-    "Automotive",
-    "Financials"
+    "Automotive"
   ]
 }

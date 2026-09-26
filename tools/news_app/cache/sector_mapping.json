@@ -1,44 +1,60 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "TSMC의 웨이퍼 가격 인상 계획(3~6%)과 가파르게 치솟는 AI 인프라 투자 수요에 힘입어 반도체 업계 전반의 마진 개선 및 밸류에이션 재평가 기대감이 확산하고 있습니다.",
+      "rationale": "TSMC가 AI 인프라 수요 급증에 힘입어 웨이퍼 가격을 3~6% 인상하는 등 가격 결정력을 입증했으며, 한국의 K-AI칩 도전 등 아시아 전반의 AI 반도체 밸류체인 모멘텀이 강하게 유지되고 있습니다.",
       "related_tickers": [
-        "TSM"
+        "TSM",
+        "NVDA",
+        "ASML"
       ],
       "source_regions": [
         "ASIA"
       ]
     },
     {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "마이크로소프트가 AI 투자 심리 개선에 힘입어 11개월 만에 최고가를 경신하고, 아카마이가 앤트로픽과 대규모 계약을 체결하는 등 AI 소프트웨어 및 인프라 파트너십이 강화되며 모멘텀이 회복되고 있습니다.",
+      "name": "Consumer Staples",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "미국 내 지속적인 인플레이션과 소비 저항으로 코카콜라 등 주요 식음료 기업이 부담을 안고 있으며, 유럽에서는 중국과의 무역 갈등 여파로 프랑스 코냐크 산업이 직접적인 타격을 입어 전반적으로 부정적인 흐름입니다.",
       "related_tickers": [
-        "MSFT",
-        "AKAM"
+        "KO",
+        "PEP",
+        "RI"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "미국의 인플레이션 압박 장기화와 소비자들의 저항 증가로 맥도날드 등 주요 소비재 및 프랜차이즈 기업들의 실적 우려가 커지고 있습니다.",
+      "related_tickers": [
+        "MCD"
       ],
       "source_regions": [
         "US"
       ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 7.8,
-      "rationale": "미국의 디젤 수출 제한 검토와 독일의 낮은 가스 재고로 인해 겨울철 유럽의 에너지 안보 위기가 고조되는 가운데, 정제 마진이 급등하며 정유 및 오일 메이저 기업들의 수익성 개선이 가속화되고 있습니다.",
-      "related_tickers": [
-        "SHEL",
-        "BP"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Financials",
+      "note": "미국은 금리 변동성 확대와 회사채 시장의 신용 리스크 경고음으로 부정적인 기류가 흐르는 반면, 아시아(일본)는 AI 기반 계약 시스템 및 로보택시 보험 개발 등 금융·보험업계의 신사업 혁신이 활발해 상반된 신호를 보입니다."
+    },
+    {
+      "sector": "Technology",
+      "note": "미국의 마이크로소프트 주가 강세 및 아시아의 첨단 기술 IPO 활성화는 긍정적이나, 미국의 Z스케일러 급락 및 유럽의 EU 대형 테크 규제(X사 벌금 부과 등) 압박이 대립하고 있습니다."
+    },
+    {
+      "sector": "Energy",
+      "note": "미국의 디젤 수출 제한 검토 우려가 유럽의 에너지 안보 취약성(부정적)을 자극하는 동시에, 공급 제한 우려에 따른 정제마진 변동성은 에너지 공급 기업들에게 복합적인 영향을 미칠 수 있습니다."
+    }
+  ]
 }

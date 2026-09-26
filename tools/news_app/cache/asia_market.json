@@ -1,78 +1,120 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "\"고기 사기 겁나네\"…추석 연휴 축산물 가격 줄줄이 상승",
+          "title": "1200조 AI반도체 시장, 엔비디아 천하에 도전장 낸 K-AI칩",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026092662657",
+          "link": "https://www.hankyung.com/article/2026092769927",
           "source": "한국경제"
         },
         {
-          "title": "지난해 음주 진료비 첫 4조원대…흡연은 2024년 이후 지속 상승",
-          "summary": "지난해 음주·흡연으로 인한 진료비가 8조5000억원에 이르는 등 최근 5개년간 37조원 넘게 소요된 것으로 나타났다. 26일 국회 보건복지위원회 소속 더불어민주당 남인순 의원이 국..",
-          "link": "https://www.mk.co.kr/news/economy/12161539",
+          "title": "“월세 200만원 받는 6억 집, 비싼걸까?” … AI가 찾아낸 적정가격의 비밀",
+          "summary": "AI로 주식·부동산의 적정 가치 산출하기주식이나 집을 살 때 투자자들의 머릿속을 가장 강하게 지배하는 질문은 “지금 이 가격이 과연 적정한가?”입니다. 가격이 단기간에 급등했다는 ..",
+          "link": "https://www.mk.co.kr/news/economy/12159700",
           "source": "매일경제"
         },
         {
-          "title": "美 PCE 물가 0.2%P 낮아진다…통화정책 경로에 미칠 영향은 [심성미의 중앙은행 워치]",
+          "title": "1만원 목욕탕 놔두고 9만원 낸다…'예약 전쟁' 벌어진 이곳 [박수림의 요즘 여기]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609256104i",
+          "link": "https://www.hankyung.com/article/202609220866g",
           "source": "한국경제"
         },
         {
-          "title": "너무 일찍 죽거나, 너무 늦게 죽거나 … 꼭 필요한 안전망",
-          "summary": "⑭사회보험부터 생명·손해보험까지, 위험을 나누는 방법미히르 데사이(Mihir Desai)의 책 ‘금융의 모험(The Wisdom of Finance)’에 따르면 금융은 인간의 두 ..",
-          "link": "https://www.mk.co.kr/news/economy/12160516",
+          "title": "“달러 환전만 하던 시대는 끝”…인뱅 외환 서비스 경쟁 불붙었다",
+          "summary": "카뱅, 내달 외화통장 통화 18개로 예금 등 다양한 외환 서비스 내세워최근 ‘환테크’의 중심이 달러 일변도에서 벗어나 다양한 통화로 분산되면서, 모바일 편의성을 앞세운 인터넷전문은..",
+          "link": "https://www.mk.co.kr/news/economy/12161701",
           "source": "매일경제"
         },
         {
-          "title": "금리 올려도 안 풀리는 엔캐리…최대 2조달러 '청산 시한폭탄' 커지나 [김주완의 글로벌머니 X파일]",
+          "title": "\"대기업 퇴사 3일 만에 1억 벌었어요\"…요즘 뜨는 직업 정체",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609232798i",
+          "link": "https://www.hankyung.com/article/2026092769727",
           "source": "한국경제"
         },
         {
-          "title": "“산재보험 1억6천만원 받았는데 또?”…추락한 철근공 회사에 소송 낸 까닭 [어쩌다 세상이]",
-          "summary": "고정 안 된 상판 뒤집혀 추락 척추·쇄골 등 크게 다쳐 산재보험 외 치료비·간병비·위자료 청구 법원 “회사 책임 60% 인정”공사장에서 다치면 산재보험으로 요양급여와 휴업급여, 장..",
-          "link": "https://www.mk.co.kr/news/economy/12161486",
+          "title": "“목돈 생겼는데 어떻게 하지”…추석 여윳돈 굴릴 고금리 예적금 살펴보니",
+          "summary": "저축은행 금리 연 4.07% ‘최고’ 주식에서 예금으로 현금 이동 가속화 시중 은행 금리 경쟁…연 3.4% 수준민족 대명절인 추석을 맞아 회사에서 받은 상여금과 용돈 등 목돈을 어..",
+          "link": "https://www.mk.co.kr/news/economy/12161691",
           "source": "매일경제"
         },
         {
-          "title": "'아재들의 섬' 여의도 옛말…이제 '그녀들'이 지갑을 연다 [장서우의 하입:hype]",
+          "title": "\"AI 전기 너무 먹네\" 골치였는데…삼성도 꽂힌 신기술 나왔다",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609233846i",
+          "link": "https://www.hankyung.com/article/202609276925i",
           "source": "한국경제"
         },
         {
-          "title": "“은행 간 어머니가 돌아오질 않아요”...평균거리 18km, 국토 절반이 ‘은행사막’",
-          "summary": "농촌 은행사막, 가까운 점포도 18㎞ 거리 주민 42%가 고령층…창구 문턱 높아 ‘마지막 은행’ 의존 인구 7년새 47만명↑생활권 안에 은행 점포가 없거나 한 곳뿐인 지역에 사는 ..",
-          "link": "https://www.mk.co.kr/news/economy/12161443",
+          "title": "인도·골목길서 ‘쌩쌩’ 위험천만…배달종사자 보험료 최대 11% 할인, 요건 있다는데?",
+          "summary": "교통안전교육 이수 등 조건 충족시 기존 5%에서 11%로 혜택 확대안전운전하는 배달 종사자의 보험료 할인 혜택이 본격 시작됐다. 교육안전교육을 이수하거나 디지털 운행 기록장치를 장..",
+          "link": "https://www.mk.co.kr/news/economy/12161674",
           "source": "매일경제"
         },
         {
-          "title": "'차 한 대 값' 컴퓨터 뜯던 소년…30년 넘게 '코딩' 못놓는 이유 [권용훈의 직업불만족(族)]",
+          "title": "스테이블코인도 '은행업'처럼…Fed, 2영업일 환매·100% 준비금 추진 [김주완의 글로벌머니 X파일]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202607045653i",
+          "link": "https://www.hankyung.com/article/202609266710i",
           "source": "한국경제"
         },
         {
-          "title": "부모님 추석선물 현금 대신 '노후통장' 어때요",
-          "summary": "추석을 맞아 부모님께 드릴 선물이 고민이라면 현금이나 건강식품 대신 효심을 담은 '금융선물'을 챙겨보는 것도 방법이다. 은행권이 연금을 받는 시니어 고객에게 우대금리를 주는 특화 ..",
-          "link": "https://www.mk.co.kr/news/economy/12161400",
+          "title": "“추석 끝나면 환율 또 출렁?”…미중회담·대미투자 곳곳 변수",
+          "summary": "미중 협상, AI투자 향방에 환율 출렁일 듯 한미금리차·대미투자 부담에 약세 압력도추석 연휴에도 서울외환거래시장은 24시간 돌아간다. 하지만 거래량이 급격히 줄었다가 연휴 이후 정..",
+          "link": "https://www.mk.co.kr/news/economy/12161632",
           "source": "매일경제"
         }
       ],
-      "summary": "추석 연휴를 앞두고 축산물 가격 상승 압력이 커진 가운데, 고금리 장기화에 따른 엔캐리 트레이드 청산 리스크와 시니어 금융·복지 수요가 맞물려 내수 방어에 집중하고 있습니다."
+      "summary": "엔비디아 중심의 AI 반도체 시장에 도전장을 내민 K-AI칩 개발과 함께, 추석 연휴를 앞둔 환율 변동성 및 고금리 예적금으로의 자금 이동이 주목받고 있습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "Trump-Xi summit live: Xi departs Washington after three-day state visit",
+          "title": "Itochu, Aioi to develop robotaxi insurance aimed at US operators",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-xi-departs-washington-after-three-day-state-visit",
+          "link": "https://asia.nikkei.com/business/finance/itochu-aioi-to-develop-robotaxi-insurance-aimed-at-us-operators",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Japan's Sumitomo Life to deploy AI for tailor-made contracts",
+          "summary": "",
+          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sumitomo-life-to-deploy-ai-for-tailor-made-contracts",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Chinese EVs will come to US despite no summit deal, analysts say",
+          "summary": "",
+          "link": "https://asia.nikkei.com/business/automobiles/chinese-evs-will-come-to-us-despite-no-summit-deal-analysts-say",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "US and China agree on tariff relief for $30bn of nonsensitive goods each",
+          "summary": "",
+          "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/us-and-china-agree-on-tariff-relief-for-30bn-of-nonsensitive-goods-each",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Indian expats in Germany unnerved by far-right AfD's electoral gains",
+          "summary": "",
+          "link": "https://asia.nikkei.com/spotlight/immigration/indian-expats-in-germany-unnerved-by-far-right-afd-s-electoral-gains",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Through the Lens: Nepal, one month after the floods",
+          "summary": "",
+          "link": "https://asia.nikkei.com/photos/through-the-lens-nepal-one-month-after-the-floods",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Pomp, tariffs and AI: 5 things to know about the Trump-Xi summit",
+          "summary": "",
+          "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/pomp-tariffs-and-ai-5-things-to-know-about-the-trump-xi-summit",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Trump-Xi summit: How the Chinese leader's trip to Washington unfolded",
+          "summary": "",
+          "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-how-the-chinese-leader-s-trip-to-washington-unfolded",
           "source": "Nikkei Asia"
         },
         {
@@ -86,100 +128,16 @@
           "summary": "",
           "link": "https://asia.nikkei.com/photos/through-the-lens-trump-xi-summit",
           "source": "Nikkei Asia"
-        },
-        {
-          "title": "Trump remarks on weak yen to Takaichi raise speculation on policy impact",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/currencies/trump-remarks-on-weak-yen-to-takaichi-raise-speculation-on-policy-impact",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Japan herbal remedy makers seek to reduce China from supply chain",
-          "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/supply-chain/japan-herbal-remedy-makers-seek-to-reduce-china-from-supply-chain",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Xi's human control or Trump's 'super intelligence': What's next for AI?",
-          "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/trump-xi-summit/xi-s-human-control-or-trump-s-super-intelligence-what-s-next-for-ai",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Okinawa theme park Junglia logs loss for first year amid weak attendance",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/travel-leisure/okinawa-theme-park-junglia-logs-loss-for-first-year-amid-weak-attendance",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Indonesia coffee trade wilts under brunt of climate change",
-          "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/big-in-asia/indonesia-coffee-trade-wilts-under-brunt-of-climate-change",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Sony chip unit orders 8,000 workers back to office for physical AI push",
-          "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/work/sony-chip-unit-orders-8-000-workers-back-to-office-for-physical-ai-push",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Summits in a New York minute: Riding along with Takaichi's UN visit",
-          "summary": "",
-          "link": "https://asia.nikkei.com/politics/international-relations/summits-in-a-new-york-minute-riding-along-with-takaichi-s-un-visit",
-          "source": "Nikkei Asia"
         }
       ],
-      "summary": "트럼프·시진핑 정상회담 속에서 다카이치 총리의 환율 관련 발언이 엔화 변동성 우려를 자극했고, 소니 등 주요 기업들이 물리적 AI 주도권을 위해 사무실 복귀를 추진하고 있습니다."
+      "summary": "미중 정상회담의 관세 완화 합의와 AI 투자 협력 흐름 속에서, 이토추상사의 로보택시 보험 개발 및 스미모토생명의 AI 계약 시스템 도입 등 신사업 확장이 가속화되고 있습니다."
     },
     "TW": {
       "headlines": [
         {
-          "title": "Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
+          "title": "Bloom Energy, TSM Lead 5 Stocks Near Buy Points As AI Rebounds",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcXFSb0p4OFZPY0RHcnBGeGw5QlFMbEVUYU1iSjRjQTZwc0YzQlVMaTBZVWtDaG1lWlRkNzZaMTFua1prdm5uR0VWQWM1QjRMSy1vam14MzdRSmhRREE1ZzR0dzM3SjNhMnpNSnRFV3R5NEVaZy14N29CdGhQNjU4Ymd0NUx6alpvYUViQkVQaVNDbUtESWlZY1BTQzBvWVVNdVJPSEgzWlhZc2hIX1NpNUFMb1BEVnI2RTJsdWxaMnNSa1VUa2N4ZjJ1a0ZXMjBqaVlxaWEyTkRCYTUwRjZzOTNzTEZYbFRYMmVaeFc0cmJKUQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor: AI CapEx Keeps Climbing, And TSMC Looks Undervalued (NYSE:TSM)",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTkVEY3lxUDJRaFpJWkM3dEI5NzlFVVU1UU4xSDNSN0ZHVHJ1SGVnWjJiODdZUmhKTUc5dnRSSHZvSlNyUjJ5QXpPOFlqSWhaelVEOVJtOGNnZTBRel9keEdtX21xeDBZc0FFdEtCcGdpM0dPaEZ4RzJuMXZBSmEzQVVDTGh4cmxsN2lNU2RVMjl5TXdKc2pWZG9kWUdKQWcyajdGMVNYbUtvOGZLUWVEWDZR?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Raising Wafer Prices By 3% To 6%?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeGI1RTFZT1FHOHk3dGNwd2xoRXd1RlYwUm9LVENPaDlBVGtoWnMzMHlESkhpSzlZSjYzNGdNNklzREY2WktxRzFMTnFkSE9STDdCQ3hwaTF1c1NzUlpTT01ZMnliWVpkRkVoNG9kbFl2N3VmOE9Ia1Q1bm9tOFBrNDR6ZUYtTF9tX1BtVW1NU0xSU3B6UFcwUnJmc3QwRWUwRzF1ZlF6T0pzUU0?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "What's Behind Taiwan Semiconductor Manufacturing Company's (TSM) Big Moment in AI Stocks?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNc19wSGF4NnNQbkMwakNmQUlOazQ1U2tac2xrajNUV09Ec1NKRDJNU0M0blVqbnEtRlZ4UUZUdjBmWURwRTZxRnNFUUFZV3FzMktCcEpfcnRMbldFSEdhTlNSNG9NX3UzVGMtM1ZQR2VMVy03TWNQcXZ4Q2FHeGdCMng3ZnpaSUg5eFJFdE9fUzQ0cVNhWnBob3dQRmxtMmRHRjNsN2lEbmFERUFuSTFnR3N6RWVGSDk1cURQZ0Mxc0JTT0ZRM0ZCQ1g3cDYxWGpiV3FYT1prUkhVeG8?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Sees Early A14 Interest, Is It 18% Above Fair Value?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQUNURzRIRndfbElnamNvUzdxNGUzSGVTZW9QX2QtbXUyWGJxemdIZjhMOEp2VVUzbjVPREtuamhhWmZOQ1BwSFdRUUVXWmNpcE5FMzJhamFod0pDdms5cm8tV1JMRnRvZThJbEM4T0dueUhTZUllenhUeVFzOU5kTFBrbXBuNzdKQ2RFcm5NNXl0VGdBRHlCVS1LbEZ0TmQxTEFjRlg0R0hRcHNSek44V2FpazF1YzVXSGl2Vy12WXpmWWFVQkJQWVRSTWdmdUp0YXR3TFE3bDZCN2NheV9rdFg4TU1mX2VxSjVITdIB8gFBVV95cUxOWGduMk10d0lva1JsbUlieEl3TW5SNng1cTdhUDJtaUZXemRad2gtNzRDaFpkUHZWSkwtd290ZGpiOTVibzE4MFZyLWlLdkF2cHJMcl9leXY3YU1aWC1hdWhiSXF1U2tzNjVUckh6MEMxT3V5RDUyQ09TQVlmczRad0dxVFlBZ1JZRENBOTR0dmFiUzFlbWVUb2RMYWRySC1WSldMVnBYZHd3dlp4WmZlaDF1R2RvZ0I1WFBiQVR6OVZQLXN0M2ZRLWJlSzlXNzRJcXN5SjM3SVVMY3NFR3lfN3BTTnNhNmV3MXUtNktVdjM2UQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Leads This Group On 17 Onto Best Stock Screens",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOElCa08zYnl3SGxFNmU2UnUyN0dUdjd2VEZtUDM4clRWYi1ONWR6WGNSc2VDNC1YSWlvOXIyY3djV3RUbE16eU5vWkRHUFV0ODJiY0lkcjE5RUxIRHhfekNNNEFSS1J4eGwzaDRjRGg1a0h2bk5OSHExOEMydHlkRUhNbWxUNzhFQTk5WVM2aXNXQUZ2MkFlc1M3eGVjQnNSQ3dOaXln?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "TSMC to Raise Wafer Prices 3%-6% in 2027: Report - Taiwan Semiconductor (NYSE:TSM)",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOXBOVzRITThoVkdiQWVhcUNBQ0JWOGd5WmpQaU5Ya3Q5dkJjZzNLYm5iMmtWdVFRSU9OMXI0U1BxVU9vcG9yUUR5dHNtcEdhVHByNEtQVVdDd3Zvdmc4MTBzZVNPM01sZnF1VGswVTZoYlNlZmdRVmRRY0MwdUpqaUF3eFN3ZzMxVnRfeTVxcXQ1NFIwQmdhb1h0LXplME82NWlYaUhzNA?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Institutional Investors Invest in Long-Dated Taiwan Semiconductor Call Options - A Bullish Signal on TSM",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmdxOGs5ODF0RzBhdDhLdmpFNXFwbzlRQ0czQm9KRC1iQjNKSl9OR00tenlnbGpNTEZYNDBndDdOTEtNQkZLTTJPUFY4dUowMjl5dTFpcWJxV0hyUDBmTl9uVER4cjdYa1ZfM0lqMWJ2bU1PS3BQdWFhZ25NWGI1T1plZVQ5SnJnSUtTZ0N5Sk9SVHJ4UWRHZzNDYWpyOVBXMWdKMmtWc2V1M09sOXdDX3FRSG5XM1dKZnkxVy1mVVJNREFpUVJXVUd4cDJpR3Y0VkxBS0VMWnhqTGR6QUlj?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObkpkbFl3eEY5Wl9lM0JucmVqbGI5bHhTbWNfb1g2dnNGQU1NVURDczQtemtwYmhyVDhHdE0zUEItVGxuUTBhLUpPM0R2bmNWZ1hnRkY4VEQyMHlKaDlrOVlYcmV3ekxJZG11ckp1ZzIzUUotYTJVVy1rb1poTk1aS1huYkQzNVc5Y3lOQl9hQ1VIZw?oc=5",
           "source": "Google News"
         },
         {
@@ -189,16 +147,70 @@
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor: AI Hiccups Lately, But Strong Growth Persists",
+          "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Raising Wafer Prices By 3% To 6%?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSlhoeVltQ0pLWlpvVTZWdWIzYXVNMnlHYXVKNmZnQ3BtYWlKQ19jWXBVbzZ4LURUNUNGVlhxeGpOeWZRaHMzekRHdm55YUtwelh1MG94cy1saURkcDh4aC1xT3VtNUk4ckZsOUFuZVluVjlpY1I3Uk4tT1pxZDVUWVRmcFVFZGswMUFNOEFKU1VxUWFXNXZHVURsUHJSWUNpNXBOVDlkXzM2UQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeGI1RTFZT1FHOHk3dGNwd2xoRXd1RlYwUm9LVENPaDlBVGtoWnMzMHlESkhpSzlZSjYzNGdNNklzREY2WktxRzFMTnFkSE9STDdCQ3hwaTF1c1NzUlpTT01ZMnliWVpkRkVoNG9kbFl2N3VmOE9Ia1Q1bm9tOFBrNDR6ZUYtTF9tX1BtVW1NU0xSU3B6UFcwUnJmc3QwRWUwRzF1ZlF6T0pzUU0?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semiconductor: AI CapEx Keeps Climbing, And TSMC Looks Undervalued (NYSE:TSM)",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTkVEY3lxUDJRaFpJWkM3dEI5NzlFVVU1UU4xSDNSN0ZHVHJ1SGVnWjJiODdZUmhKTUc5dnRSSHZvSlNyUjJ5QXpPOFlqSWhaelVEOVJtOGNnZTBRel9keEdtX21xeDBZc0FFdEtCcGdpM0dPaEZ4RzJuMXZBSmEzQVVDTGh4cmxsN2lNU2RVMjl5TXdKc2pWZG9kWUdKQWcyajdGMVNYbUtvOGZLUWVEWDZR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "How Taiwan’s ‘silicon shield’ has kept it safe from China, indispensable to US in age of AI",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNcWpCM1JlRWpxWC14YlNWeVVzU3lRTGtYMlB1b0Z0SEdzd1V4WGg5X3d5d2hjRUFhMUYzRUx6Q2ZHaUdjUHU0WUxGZ2ZSNHU3Ym1UV3o1RHhPajRoN0FsQmsxM2FlQlo4amEwbVF5VnFEZmxuRnUtZTJTZFM3RmxPa3A3Y2dlXy1PU0R1SWVRanQ2SGQ2WDYzZ1QyZ3dvRFZOa3J2QXkwdWZLQTVQT2pjNWk2VTZnd0dlckR6blF6SnhtbmtVeFVuOFFnd3hHci1xWWxGajQ4UHY4QWJpM1FCczRiNFJIWXZ6SGpiNWI0cDdsZUJIS3paZks0TzR4QQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Economics Ministry approves US$44B in TSMC U.S. investments since 2020",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QTjJhX0V0My1oVnZqeDR4eFNadUZNV0g1LU1oaEl0NFNYc3VNQU5BQ0lSajhrWHF6UlRzb3ZkeGJGbmJPUFZYUHczTzNVMFBDSlJCOTVmOA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Says US Arms Sales Protect Its Defense and Semiconductor Industry",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhMWVacUY3VThxU1hMbGZiV2hmdEpaZGtmVm95WmlKMkcxZTRhcEpRQm1jLVduVHUxTU1BWlRpSGFpMm5jTEw4ZC1CYmhCZE1KY29EWmFSWkhKSFVuWm13aQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Sees Early A14 Interest, Is It 18% Above Fair Value?",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQUNURzRIRndfbElnamNvUzdxNGUzSGVTZW9QX2QtbXUyWGJxemdIZjhMOEp2VVUzbjVPREtuamhhWmZOQ1BwSFdRUUVXWmNpcE5FMzJhamFod0pDdms5cm8tV1JMRnRvZThJbEM4T0dueUhTZUllenhUeVFzOU5kTFBrbXBuNzdKQ2RFcm5NNXl0VGdBRHlCVS1LbEZ0TmQxTEFjRlg0R0hRcHNSek44V2FpazF1YzVXSGl2Vy12WXpmWWFVQkJQWVRSTWdmdUp0YXR3TFE3bDZCN2NheV9rdFg4TU1mX2VxSjVITdIB8gFBVV95cUxOWGduMk10d0lva1JsbUlieEl3TW5SNng1cTdhUDJtaUZXemRad2gtNzRDaFpkUHZWSkwtd290ZGpiOTVibzE4MFZyLWlLdkF2cHJMcl9leXY3YU1aWC1hdWhiSXF1U2tzNjVUckh6MEMxT3V5RDUyQ09TQVlmczRad0dxVFlBZ1JZRENBOTR0dmFiUzFlbWVUb2RMYWRySC1WSldMVnBYZHd3dlp4WmZlaDF1R2RvZ0I1WFBiQVR6OVZQLXN0M2ZRLWJlSzlXNzRJcXN5SjM3SVVMY3NFR3lfN3BTTnNhNmV3MXUtNktVdjM2UQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semiconductor (TSM): The Key Enabler of AI Chips and a Durable Long-Term Share Gainer",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUEtNmtCNHF1U2V0U3BrNTRyZjJCNlBSdFBmS2I5cy1ZWnRzXzloREZtcVNHd0pVX05qZkhWNEwwdmd3ZjZSREtFS0lSb18ydlVkVDFCeUNQdXgxTll3SC1wUnJQOFFFTWNUV21nczB3MGRkbmptMHBmTWk1b09ZZ2dvQkhQLXM1SzBTZ2p2cnlOUDNXdEljN3BoSDBiSUhLZ3c?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZXdkaU9VdkJVUC1JVGNkQlA4LUZaSHFoQWNLY0tXUW1JVVhaQjRPeUJ4R3E4ZEVVMU9zRlFxWVJRLWZaMHh3dHIwQTV4aFd2QmtVRTRRY1hIb1k0c3FyOUNua2FjYlB4cy1tTWdqYmxiU0t4RUYxbGo4STA4eEpxVFZfYmVFMkVLdTFaWXV1YkFucmNCVmhNSmdxVkNoX3dFMnBmUHpSYTRwVW1UbDVIVXppbk5RX1Jldk5iel8wd3MtTng5Sk9xLXJRQ0dMenlN?oc=5",
           "source": "Google News"
         }
       ],
-      "summary": "TSMC가 2027년 웨이퍼 가격을 3~6% 인상할 계획인 가운데, 가파르게 치솟는 AI 인프라 투자 수요와 맞물려 반도체 밸류에이션 재평가 기대감이 확산하고 있습니다."
+      "summary": "TSMC가 AI 인프라 수요 급증과 웨이퍼 가격 3~6% 인상을 바탕으로 저평가 매력이 부각되고 있으며, 대규모 미국 투자 및 실리콘 밸류체인 내 핵심 지위가 재확인되고 있습니다."
     },
     "CN": {
       "headlines": [
+        {
+          "title": "Hong Kong tycoon-backed start-up bets on new battery to challenge energy-storage giants",
+          "summary": "EnerVenue, a start-up co-founded by Full Vision Capital, the family office of Hong Kong tycoon Peter Lee Ka-kit, has begun manufacturing a new battery it expects to challenge existing energy-storage technologies dominated by mainland Chinese players, amid surging global demand for green energy. The ",
+          "link": "https://www.scmp.com/business/china-evs/article/3368843/hong-kong-tycoon-backed-start-bets-new-battery-challenge-energy-storage-giants?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "China’s biotech firms move up value chain as drug deals evolve beyond licensing: analysts",
+          "summary": "Chinese biotech deal making is moving beyond the licensing of individual drug candidates, as the country transforms from a follower to a global innovation leader, according to analysts. The latest transaction underscores that shift. Beijing-based cancer drug developer InnoCare Pharma said on Thursda",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3368781/chinas-biotech-firms-move-value-chain-drug-deals-evolve-beyond-licensing-analysts?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
         {
           "title": "Chinese RISC-V chipmaker Eswin seeks US$300m in Hong Kong IPO ahead of October debut",
           "summary": "Beijing Eswin Computing Technology will start soliciting orders from institutional and public investors on Monday ahead of its Hong Kong initial public offering (IPO), aiming to raise around US$300 million, according to people familiar with the matter. The Chinese chipmaker had already started gaugi",
@@ -246,32 +258,22 @@
           "summary": "Hong Kong has significantly narrowed Dubai’s lead as the world’s top market for “super-prime” residential property in recent months, as rising conflict weighs on activity in the Middle East market, according to Knight Frank. Dubai retained first place for deals involving homes sold for US$10 million",
           "link": "https://www.scmp.com/business/markets/article/3368687/hong-kong-catching-dubai-super-prime-property-sales-amid-iran-war?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "China’s EV and battery makers tussle over paying resumed lithium-ion tax: sources",
-          "summary": "China’s electric vehicle (EV) makers and battery manufacturers are locked in negotiations over which party should pay a resumed consumption tax, according to industry sources, a conflict that underlines carmakers’ struggles amid weak home market demand. Beijing is ending an 11-year exemption on a 4 ",
-          "link": "https://www.scmp.com/business/china-evs/article/3368627/chinas-ev-and-battery-makers-tussle-over-paying-resumed-lithium-ion-tax-sources?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Blue Bottle bets that Chinese consumers will drink more premium coffee",
-          "summary": "US premium coffee brand Blue Bottle Coffee will open its first Beijing store in the capital’s central business district, as it seeks to tap into China’s still growing market for the drink. The California-based brand is taking a spacious unit at China World Mall. The location, currently enclosed by c",
-          "link": "https://www.scmp.com/business/china-business/article/3368658/blue-bottle-bets-chinese-consumers-will-drink-more-premium-coffee?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "홍콩 증시에서 RISC-V 칩메이커 에스윈의 3억 달러 규모 IPO가 추진되는 한편, 상하이금거래소의 소매 레버리지 거래 축소 권고와 전기차·배터리 업계의 소비세 납부 공방이 이어지고 있습니다."
+      "summary": "배터리 및 바이오 등 첨단 산업 분야에서 글로벌 가치사슬 고도화가 이뤄지는 가운데, 에스윈(Eswin)의 홍콩 IPO 추진과 상하이금거래소의 리테일 레버리지 거래 축소 조치가 이어지고 있습니다."
     }
   },
-  "trend_headline": "AI 반도체 가격 인상과 공급망 재편 속 기술 패권 경쟁 심화",
-  "summary": "대만 TSMC의 웨이퍼 가격 인상과 AI 인프라 투자 확대로 반도체 섹터의 마진 개선 기대가 커지는 한편, 일본과 중국에서는 미·중 정상회담 후폭풍과 공급망 다변화, 반도체 자립화 움직임이 동시에 전개되고 있습니다.",
+  "trend_headline": "AI 인프라 확장과 미중 공급망 재편 속 가속화되는 아시아 반도체·금융 지각변동",
+  "summary": "오늘 아시아 시장은 TSMC의 웨이퍼 가격 인상과 K-AI칩의 도전 등 AI 반도체 밸류체인의 주도권 경쟁이 심화되는 가운데, 미중 정상회담의 무역·관세 완화 합의가 각국 증시와 통화 정책에 복합적인 영향을 미치고 있습니다. 특히 중국의 첨단 기술 기업 IPO와 한국·일본의 AI 기반 금융·보험 혁신이 맞물려 전반적인 리스크 온(Risk-on) 심리를 자극하는 모습입니다.",
   "cross_country_themes": [
-    "AI 인프라 및 반도체 공급망",
-    "미·중 외교 및 환율·통화정책 불확실성"
+    "AI 인프라 및 반도체 밸류체인 확장",
+    "미중 정상회담 및 관세·무역 협상 영향",
+    "첨단 산업(배터리·바이오) 글로벌 경쟁력 강화"
   ],
   "sector_hints": [
     "Semiconductors",
-    "Automotive",
-    "Financials"
+    "Artificial Intelligence",
+    "Finance & Insurance",
+    "Energy Storage"
   ]
 }

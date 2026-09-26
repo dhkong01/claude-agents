@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "rs90_count": 13,
   "stocks": [
     {
@@ -19,15 +19,15 @@
       "rs_rating": 97.0
     },
     {
-      "ticker": "LITE",
+      "ticker": "INTC",
       "rs_rating": 96.3
     },
     {
-      "ticker": "STX",
+      "ticker": "LITE",
       "rs_rating": 95.6
     },
     {
-      "ticker": "INTC",
+      "ticker": "STX",
       "rs_rating": 94.9
     },
     {
@@ -43,16 +43,16 @@
       "rs_rating": 92.9
     },
     {
-      "ticker": "ARM",
-      "rs_rating": 92.2
-    },
-    {
       "ticker": "PANW",
       "rs_rating": 91.5
     },
     {
       "ticker": "FTNT",
       "rs_rating": 90.8
+    },
+    {
+      "ticker": "ARM",
+      "rs_rating": 90.1
     },
     {
       "ticker": "DDOG",
@@ -67,19 +67,19 @@
       "rs_rating": 88.1
     },
     {
-      "ticker": "LRCX",
+      "ticker": "ANET",
       "rs_rating": 87.4
     },
     {
-      "ticker": "COHR",
+      "ticker": "LRCX",
       "rs_rating": 86.7
     },
     {
-      "ticker": "ANET",
+      "ticker": "AMAT",
       "rs_rating": 86.0
     },
     {
-      "ticker": "AMAT",
+      "ticker": "COHR",
       "rs_rating": 85.3
     },
     {
@@ -87,48 +87,48 @@
       "rs_rating": 84.7
     },
     {
-      "ticker": "ASML",
+      "ticker": "MSTR",
       "rs_rating": 84.0
     },
     {
-      "ticker": "ZS",
+      "ticker": "ASML",
       "rs_rating": 83.3
     },
     {
-      "ticker": "WDAY",
+      "ticker": "META",
       "rs_rating": 82.6
     },
     {
-      "ticker": "MSTR",
+      "ticker": "DXCM",
       "rs_rating": 81.9
     },
     {
-      "ticker": "DXCM",
+      "ticker": "ZS",
       "rs_rating": 81.2
     },
     {
-      "ticker": "AAPL",
+      "ticker": "TXN",
       "rs_rating": 80.6
     },
     {
-      "ticker": "AMGN",
+      "ticker": "CLS",
       "rs_rating": 79.2
     },
     {
-      "ticker": "ETHA",
+      "ticker": "EZET",
       "rs_rating": 78.5
     },
     {
-      "ticker": "ETHV",
+      "ticker": "FETH",
       "rs_rating": 77.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 79.9,
+    "VKTX": 47.8,
     "MRVL": 94.2,
-    "CRDO": 64.9,
-    "NBIS": 90.1,
-    "RDDT": 11.6,
-    "VRT": 53.3
+    "CRDO": 79.9,
+    "NBIS": 92.2,
+    "RDDT": 13.7,
+    "VRT": 62.1
   }
 }

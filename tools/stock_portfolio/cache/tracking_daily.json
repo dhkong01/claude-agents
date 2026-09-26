@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "data": [
     {
-      "ticker": "FTNT",
-      "current": 178.74,
-      "donchian_upper": 175.23,
-      "donchian_lower": 156.07,
+      "ticker": "AMD",
+      "current": 629.26,
+      "donchian_upper": 623.77,
+      "donchian_lower": 493.41,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.0,
-      "dist_to_lower_pct": 12.7,
-      "channel_width_pct": 12.3
+      "dist_to_upper_pct": -0.9,
+      "dist_to_lower_pct": 21.6,
+      "channel_width_pct": 26.4
     },
     {
-      "ticker": "CRWD",
-      "current": 262.49,
-      "donchian_upper": 249.35,
-      "donchian_lower": 206.74,
+      "ticker": "ANET",
+      "current": 205.7,
+      "donchian_upper": 205.42,
+      "donchian_lower": 187.81,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -5.0,
-      "dist_to_lower_pct": 21.2,
-      "channel_width_pct": 20.6
-    },
-    {
-      "ticker": "PANW",
-      "current": 393.3,
-      "donchian_upper": 382.85,
-      "donchian_lower": 330.65,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.7,
-      "dist_to_lower_pct": 15.9,
-      "channel_width_pct": 15.8
-    },
-    {
-      "ticker": "STX",
-      "current": 923.86,
-      "donchian_upper": 904.38,
-      "donchian_lower": 771.81,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.1,
-      "dist_to_lower_pct": 16.5,
-      "channel_width_pct": 17.2
+      "dist_to_upper_pct": -0.1,
+      "dist_to_lower_pct": 8.7,
+      "channel_width_pct": 9.4
     },
     {
       "ticker": "DDOG",
-      "current": 251.49,
-      "donchian_upper": 245.05,
-      "donchian_lower": 210.23,
+      "current": 256.92,
+      "donchian_upper": 251.49,
+      "donchian_lower": 221.21,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.6,
-      "dist_to_lower_pct": 16.4,
-      "channel_width_pct": 16.6
+      "dist_to_upper_pct": -2.1,
+      "dist_to_lower_pct": 13.9,
+      "channel_width_pct": 13.7
+    },
+    {
+      "ticker": "INTC",
+      "current": 127.39,
+      "donchian_upper": 123.86,
+      "donchian_lower": 97.14,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -2.8,
+      "dist_to_lower_pct": 23.7,
+      "channel_width_pct": 27.5
+    },
+    {
+      "ticker": "PLTR",
+      "current": 192.59,
+      "donchian_upper": 191.79,
+      "donchian_lower": 165.86,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.4,
+      "dist_to_lower_pct": 13.9,
+      "channel_width_pct": 15.6
     },
     {
       "ticker": "SNDK",
-      "current": 1816.57,
+      "current": 1753.62,
       "donchian_upper": 1887.04,
       "donchian_lower": 1519.97,
       "signal": "HOLD",
-      "dist_to_upper_pct": 3.9,
-      "dist_to_lower_pct": 16.3,
+      "dist_to_upper_pct": 7.6,
+      "dist_to_lower_pct": 13.3,
       "channel_width_pct": 24.1
     },
     {
       "ticker": "MU",
-      "current": 1071.88,
+      "current": 1080.53,
       "donchian_upper": 1096.16,
       "donchian_lower": 924.03,
       "signal": "HOLD",
-      "dist_to_upper_pct": 2.3,
-      "dist_to_lower_pct": 13.8,
+      "dist_to_upper_pct": 1.4,
+      "dist_to_lower_pct": 14.5,
       "channel_width_pct": 18.6
     },
     {
       "ticker": "AEHR",
-      "current": 97.38,
-      "donchian_upper": 96.93,
+      "current": 97.42,
+      "donchian_upper": 100.6,
       "donchian_lower": 81.58,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.5,
-      "dist_to_lower_pct": 16.2,
-      "channel_width_pct": 18.8
-    },
-    {
-      "ticker": "AMD",
-      "current": 614.61,
-      "donchian_upper": 623.77,
-      "donchian_lower": 493.41,
       "signal": "HOLD",
-      "dist_to_upper_pct": 1.5,
-      "dist_to_lower_pct": 19.7,
-      "channel_width_pct": 26.4
+      "dist_to_upper_pct": 3.3,
+      "dist_to_lower_pct": 16.3,
+      "channel_width_pct": 23.3
     },
     {
       "ticker": "LITE",
-      "current": 937.0,
+      "current": 929.04,
       "donchian_upper": 988.98,
       "donchian_lower": 835.03,
       "signal": "HOLD",
-      "dist_to_upper_pct": 5.5,
-      "dist_to_lower_pct": 10.9,
+      "dist_to_upper_pct": 6.5,
+      "dist_to_lower_pct": 10.1,
       "channel_width_pct": 18.4
+    },
+    {
+      "ticker": "STX",
+      "current": 905.92,
+      "donchian_upper": 923.12,
+      "donchian_lower": 771.19,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.9,
+      "dist_to_lower_pct": 14.9,
+      "channel_width_pct": 19.7
     }
   ]
 }

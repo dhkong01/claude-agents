@@ -1,11 +1,47 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "OpenAI bots meddled with multiple US government agency sites",
-      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
+      "summary": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
+      "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Collateral damage: How Cognac is paying the price for Europe’s trade wars",
+      "summary": "French Cognac producers are battling falling sales as trade disputes with China and the US squeeze the export-dependent industry and leave growers seeking EU support.",
+      "link": "https://www.euronews.com/2026/09/27/cognac-pays-the-price-for-europes-trade-wars",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "EU is drawing up membership action plans for most promising candidates",
+      "summary": "For the first time, Brussels is considering setting target dates for Montenegro, Ukraine, Moldova and Albania to complete key stages of accession talks.",
+      "link": "https://www.politico.eu/article/eu-membership-action-plans-montenegro-ukraine-moldova-albania/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "You need £17,000 for a first home - here's how to do it",
+      "summary": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
+      "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Azerbaijan agrees multi-billion-dollar deals with investment giants",
+      "summary": "Nearly $11 billion (€9.7 billion) worth in contracts have emerged from the Azerbaijan International Investment Forum, where some of the world’s biggest investment managers gathered for talks ranging from infrastructure and technology to energy and transport.",
+      "link": "https://www.euronews.com/2026/09/27/azerbaijan-agrees-multi-billion-dollar-deals-with-investment-giants",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Independent wins Kraków mayorship first round, as far right sees setback for Tusk",
+      "summary": "Łukasz Gibała and a candidate backed by PM Donald Tusk move on to a runoff as parties jostle ahead of a fall 2027 general election.",
+      "link": "https://www.politico.eu/article/independent-lukasz-gibala-win-krakow-mayor-election-poland-donald-tusk/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Andy Burnham refuses to back third runway at Heathrow",
+      "summary": "Andy Burnham said he would wait for the results of a consultation on a scheme estimated to cost £33bn",
+      "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -15,39 +51,15 @@
       "source": "Euronews Business"
     },
     {
-      "title": "DW",
-      "summary": "News, Analysis and Service from Germany and Europe - in 30 Languages",
-      "link": "https://www.dw.com/s-1431?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Germany s Wadephul meets Russia s Lavrov amid tensions over escalation",
-      "summary": "The German foreign minister blames Moscow for the Leipzig drone attack but welcomes the G20 invite to Vladimir Putin",
-      "link": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says",
+      "summary": "Business Secretary Jonathan Reynolds said the U.K.’s position on the issue was \"finely balanced\" as officials pursue talks with Brussels.",
+      "link": "https://www.politico.eu/article/uk-tariffs-china-ev-review-jonathan-reynolds/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Could an iced coffee freeze you out of the job market?",
-      "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
-      "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Caught in the crossfire: Cognac pays the price for Europe’s trade wars",
-      "summary": "French Cognac producers are battling falling sales as trade disputes with China and the US squeeze the export-dependent industry and leave growers seeking EU support.",
-      "link": "https://www.euronews.com/2026/09/26/caught-in-the-crossfire-cognac-pays-the-price-for-europes-trade-wars",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "You can t win : Ireland s football team to play Israel despite player protest",
-      "summary": "“Nobody is comfortable playing this game,” Ireland’s coach declares after a tense locker-room vote to proceed with Sunday’s Nations League match against Israel.",
-      "link": "https://www.politico.eu/article/ireland-israel-football-match-players-vote-to-play/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Clubs seek legal advice over Man City charges compensation",
-      "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: The two big decisions the chancellor must make",
+      "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
+      "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -57,15 +69,15 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Eleven charged with murder aggravated by speech against white race in France",
-      "summary": "Thomas Perotto's killing in 2023 was followed by mobilization from far-right groups.",
-      "link": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "UK business minister warns potential US diesel export ban ‘significant concern’",
+      "summary": "The U.K. receives around one-sixth of its diesel from the U.S. and would be one of the countries most exposed to an export ban.",
+      "link": "https://www.politico.eu/article/uk-business-minister-jonathan-reynolds-us-diesel-export-ban-significant-concern/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "'We're all broke': Would you chase a friend for £5?",
-      "summary": "What's the smallest amount of money you would ask a friend to pay you back?",
-      "link": "https://www.bbc.co.uk/news/articles/cmly439q4y27o?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -75,15 +87,15 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Trump rejects Iran’s latest Strait of Hormuz deal offer",
-      "summary": "“They wanna make a deal where they open the Strait immediately because they're losing so badly,\" Trump said.",
-      "link": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "EU rejoin push risks causing uncertainty, warns business secretary",
+      "summary": "Jonathan Reynolds said the focus should be on improving Britain's trading relationship with Brussels.",
+      "link": "https://www.politico.eu/article/eu-uk-rejoin-business-uncertainty-jonathan-reynolds/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Sir David Beckham nets £38.5m after World Cup ad deals",
-      "summary": "His stake in DRJB Holdings has entitled him to almost half of its £85.5m in dividend payments.",
-      "link": "https://www.bbc.co.uk/news/articles/crkgww5j0yzwo?at_medium=RSS&at_campaign=rss",
+      "title": "Could an iced coffee freeze you out of the job market?",
+      "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
+      "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -93,15 +105,15 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Trump’s G20 invite to Putin is an opportunity, German foreign minister says",
-      "summary": "Johann Wadephul’s remarks diverged from the German government’s official line.",
-      "link": "https://www.politico.eu/article/valdimir-putin-g20-opportunity-says-germany-johann-wadephul/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Bill Gates says an AI ‘kill switch’ isn’t enough",
+      "summary": "The Microsoft co-founder called for mandatory monitoring of powerful artificial intelligence systems in an NBC interview that aired Sunday.",
+      "link": "https://www.politico.com/news/2026/09/27/bill-gates-ai-kill-switch-01094236?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
-      "summary": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
-      "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
+      "title": "Clubs seek legal advice over Man City charges compensation",
+      "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -109,31 +121,17 @@
       "summary": "France wants a strict EU preference, Germany would include trading partners, while Spain is proposing a compromise as Brussels seeks to counter Chinese competition.",
       "link": "https://www.euronews.com/2026/09/24/what-counts-as-made-in-europe-france-germany-and-spain-are-divided",
       "source": "Euronews Business"
-    },
-    {
-      "title": "Ein Spaziergang mit Karl Lauterbach",
-      "summary": "Präsentiert von Lockheed Martin.",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-karl-lauterbach/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "UK diesel price close to all-time high",
-      "summary": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
-      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "무역 갈등과 에너지·규제 리스크로 흔들리는 유럽",
-  "summary": "중국과의 무역 분쟁으로 프랑스 코냐크 산업이 타격을 입고 있으며, 미국 디젤 수출 제한 우려가 유럽의 에너지 안보 취약성을 자극하고 있습니다. 동시에 EU의 대형 테크 규제와 공급망 원산지 규정(Made in Europe)을 둘러싼 회원국 간의 이견이 심화되는 양상입니다.",
+  "trend_headline": "미국 디젤 수출 금지 우려와 에너지 공급망 위기",
+  "summary": "미국의 디젤 수출 제한 검토가 유럽 전역의 에너지 수급 취약성을 자극하며 가격 급등 압박을 키우고 있습니다. EU 집행위원회는 공급 제약에 대응해 회원국들에 에너지 수요 절감을 촉구했으며, 중국과의 무역 갈등 및 규제 리스크가 복합적으로 작용하고 있습니다.",
   "key_points": [
-    "중·미 무역 갈등과 수출 부진으로 프랑스 코냐크 생산업체들이 EU 차원의 지원을 호소",
-    "미국의 디젤 수출 제한 검토로 유럽의 상업적 에너지 의존도가 전략적 리스크로 부각",
-    "EU의 'Made in Europe' 규정(프랑스·독일·스페인 이견) 및 X사에 대한 €120m 벌금 관련 美 정부의 X사 지원 공방"
+    "영국은 전체 디젤의 약 6분의 1을 미국에서 수입해 수출 금지 조치에 가장 취약한 국가로 지목됨",
+    "영국 내 디젤 평균 판매가가 리터당 198.32펜스로 사상 최고가 수준에 근접",
+    "EU 에너지 commissioner가 글로벌 공급 제약 속에서 회원국들에게 에너지 수요 감축 조치 도입을 촉구"
   ],
   "sector_hints": [
     "Energy",
-    "Consumer Staples",
-    "Technology",
     "Automotive"
   ]
 }

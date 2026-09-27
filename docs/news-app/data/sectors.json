@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "TSMC가 AI 인프라 수요 급증에 힘입어 웨이퍼 가격을 3~6% 인상하는 등 가격 결정력을 입증했으며, 한국의 K-AI칩 도전 등 아시아 전반의 AI 반도체 밸류체인 모멘텀이 강하게 유지되고 있습니다.",
+      "score": 8.0,
+      "rationale": "AI 인프라 수요 급증에 따른 TSMC의 웨이퍼 가격 인상 계획(2027년 3~6% 인상)과 중국 에스윈의 IPO 추진 등 아시아 시장을 중심으로 반도체 설비투자 확대 및 업황 호조가 지속되고 있습니다.",
       "related_tickers": [
         "TSM",
         "NVDA",
@@ -16,45 +16,65 @@
       ]
     },
     {
-      "name": "Consumer Staples",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "미국 내 지속적인 인플레이션과 소비 저항으로 코카콜라 등 주요 식음료 기업이 부담을 안고 있으며, 유럽에서는 중국과의 무역 갈등 여파로 프랑스 코냐크 산업이 직접적인 타격을 입어 전반적으로 부정적인 흐름입니다.",
+      "name": "Industrials",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "이란 관련 지정학적 리스크 재부각으로 인한 긴장 고조와 일본의 이중용도 기술 확보를 위한 경제안보 역량 강화 움직임이 글로벌 방산 및 국방 기술 섹터에 긍정적인 모멘텀을 제공합니다.",
       "related_tickers": [
-        "KO",
-        "PEP",
-        "RI"
+        "LMT",
+        "RTX",
+        "NOC"
       ],
       "source_regions": [
         "US",
-        "EUROPE"
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "중국이 바이오 혁신과 글로벌 공급망 재편을 겨냥한 기술 고도화를 활발히 추진하면서 아시아 지역 바이오테크 섹터의 성장 기대감을 높이고 있습니다.",
+      "related_tickers": [
+        "BGNE",
+        "IBB"
+      ],
+      "source_regions": [
+        "ASIA"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
       "score": -5.5,
-      "rationale": "미국의 인플레이션 압박 장기화와 소비자들의 저항 증가로 맥도날드 등 주요 소비재 및 프랜차이즈 기업들의 실적 우려가 커지고 있습니다.",
+      "rationale": "유럽 내 디젤 가격의 사상 최고가 근접 및 미국의 디젤 수출 제한 검토에 따른 공급 불안정성은 완성차 제조업 등 에너지 비용에 민감한 업종에 비용 압박으로 작용할 우려가 있습니다.",
       "related_tickers": [
-        "MCD"
+        "STLA",
+        "MBG",
+        "BMW"
       ],
       "source_regions": [
-        "US"
+        "US",
+        "EU"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -5.0,
+      "rationale": "한국의 상가 공실률 악화 및 내수 양극화 그림자가 깊어지면서 아시아 일부 지역의 상업용 부동산 시장에 대한 경계감이 지속되고 있습니다.",
+      "related_tickers": [
+        "VNQ"
+      ],
+      "source_regions": [
+        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Financials",
-      "note": "미국은 금리 변동성 확대와 회사채 시장의 신용 리스크 경고음으로 부정적인 기류가 흐르는 반면, 아시아(일본)는 AI 기반 계약 시스템 및 로보택시 보험 개발 등 금융·보험업계의 신사업 혁신이 활발해 상반된 신호를 보입니다."
-    },
-    {
-      "sector": "Technology",
-      "note": "미국의 마이크로소프트 주가 강세 및 아시아의 첨단 기술 IPO 활성화는 긍정적이나, 미국의 Z스케일러 급락 및 유럽의 EU 대형 테크 규제(X사 벌금 부과 등) 압박이 대립하고 있습니다."
-    },
-    {
       "sector": "Energy",
-      "note": "미국의 디젤 수출 제한 검토 우려가 유럽의 에너지 안보 취약성(부정적)을 자극하는 동시에, 공급 제한 우려에 따른 정제마진 변동성은 에너지 공급 기업들에게 복합적인 영향을 미칠 수 있습니다."
+      "note": "미국의 디젤 수출 금지 검토는 미국 내 정유사들의 수출 제한으로 작용해 부정적일 수 있는 반면, 유럽에는 디젤 수급 취약성을 자극하고 가격 급등을 유발해 글로벌 에너지 가격 상승을 견인하는 등 지역별/가치사슬별 영향이 상충됩니다."
     }
   ]
 }

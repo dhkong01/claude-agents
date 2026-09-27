@@ -102,6 +102,26 @@ for i, draw in enumerate(recent_draws[:len(RECENCY_DECAY)]):
         score[n-1]   *= RECENCY_DECAY[i]
         coh_adj[n-1] *= RECENCY_DECAY[i]   # 평가 함수에도 감쇠 적용
 
+# ── 추첨 편향 교정 (bias_monitor.py) ─────────────────────────────
+# 2개 독립 검정 + 2주 연속 확인을 통과한 "진짜 편향"일 때만 활성.
+# 평소엔 전부 1.0이라 예측에 아무 영향 없음. 이번 회차 평가분만 사용.
+BIAS_PATH = DIR / "lotto_bias.json"
+bias_w, bias_info = np.ones(45), {"active": False}
+if BIAS_PATH.exists():
+    try:
+        _b = json.load(open(BIAS_PATH, encoding="utf-8"))
+        if _b.get("evaluated_draw") == last_draw:
+            bias_info = {k: _b.get(k) for k in
+                         ("active", "newly_active", "streak", "confirm_weeks",
+                          "detected_this_week", "biased_numbers", "window")}
+            bias_info["p_chi2"] = _b["tests"]["chi2"]["p"]
+            bias_info["p_persist"] = _b["tests"]["persistence"]["p"]
+            if _b.get("active"):
+                bias_w = np.array(_b["weights"], dtype=float)
+    except Exception as e:
+        print(f"[경고] lotto_bias.json 로드 실패 — 교정 없이 진행: {e}")
+score *= bias_w
+
 score = np.clip(score, 0, None)
 score /= score.sum()
 
@@ -198,8 +218,10 @@ def combined_score(combo):
     pair_norm = min(pair_s / max(avg_pair * 1.5, 0.05), 1.0)
     trip_norm = min(trip_s / max(avg_trip * 1.5, 0.5), 1.0)
     lift_norm = min(lift_s / max(avg_lift * 1.5, 0.5), 1.0)
-    return (W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm
+    base = (W_COH * coh_s + W_PAIR * pair_norm + W_TRIP * trip_norm
             + W_LIFT * lift_norm + W_POP * pop_s)
+    # 편향 교정: 조합 번호들의 평균 교정가중치를 곱함 (비활성 시 정확히 1.0)
+    return base * float(np.mean([bias_w[n-1] for n in combo]))
 
 # ── 게임 간 다양성 ────────────────────────────────────────────────
 # 문제: exclude는 "완전히 동일한 6개 조합"만 걸러내서, HOT/HOT-MC/GAP처럼
@@ -284,6 +306,11 @@ cold_weights  = np.clip(cold_weights + coh * 0.3, 1e-9, None)  # 정합성 약�
 # BALANCED: 정합성 루트 가중치 — 고정합성 번호 과집중 완화하면서 정합성 유지
 balanced_weights = np.sqrt(np.clip(coh, 1e-9, None))
 balanced_weights /= balanced_weights.sum()
+
+# 편향 교정을 MC 전략 가중치에도 반영 (hot_weights는 score에 이미 반영됨)
+gap_weights      = gap_weights * bias_w
+cold_weights     = cold_weights * bias_w
+balanced_weights = balanced_weights * bias_w
 
 # ── 5게임 생성 ────────────────────────────────────────────────────
 target_draw = last_draw + 1
@@ -401,6 +428,7 @@ out = {
     "backtest":           backtest,
     "recency_applied":    [{"draw": d["draw"], "numbers": d["numbers"], "decay": RECENCY_DECAY[i]}
                            for i, d in enumerate(recent_draws[:3])],
+    "bias_correction":    bias_info,
 }
 json.dump(out, open(DIR/"lotto_prediction.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)

@@ -77,12 +77,27 @@ pair_vs    = bg.get("pair_vs_random", "")
 pair_info  = f"쌍확률 {bg.get('pair_score',0):.1f}% (무작위대비{pair_vs}배)\n" if pair_vs else ""
 pop_s      = bg.get("popularity_avoid_score")
 pop_info   = f"비인기도 {pop_s:.0f}% (분할위험 낮음)\n" if pop_s is not None else ""
+
+# 추첨 편향 감시 상태 (bias_monitor.py)
+_bc = pred.get("bias_correction") or {}
+if _bc.get("active"):
+    _bn = _bc.get("biased_numbers") or {}
+    bias_info = (f"{'🚨 추첨 편향 신규 감지! ' if _bc.get('newly_active') else ''}"
+                 f"🔧 편향 교정 적용중 — 과다 {_bn.get('over', [])} / 과소 {_bn.get('under', [])}\n")
+elif _bc.get("detected_this_week"):
+    bias_info = (f"👀 편향 의심 {_bc.get('streak')}/{_bc.get('confirm_weeks')}주 "
+                 f"(확인 전이라 미적용)\n")
+elif "p_chi2" in _bc:
+    bias_info = f"편향감시: 이상 없음 (p={_bc['p_chi2']:.2f})\n"
+else:
+    bias_info = ""
 msg2 = (
     f"📊 대표 Game {chr(65+best_idx)} 상세\n"
     f"{nums_detail}\n"
     f"핵심 {len(core)}개  정합성 {bg['overall_coherence']:.0f}%  통합 {combined_s:.0f}%\n"
     f"{pair_info}"
     f"{pop_info}"
+    f"{bias_info}"
     f"상위쌍{pair_lines}\n"
     f"합계 {bg['sum']} (유효범위 {lo}~{hi})\n"
     f"백테스트 TOP12 평균 {bt.get('avg_hits', 0)}개 적중\n"

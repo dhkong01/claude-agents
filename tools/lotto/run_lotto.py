@@ -24,6 +24,7 @@ STEPS = [
     ("데이터 수집",       BASE / "collect.py"),
     ("통계 정규화",       BASE / "normalize.py"),
     ("ML 정합성 분석",    BASE / "ml_analyze.py"),
+    ("추첨 편향 감시",    BASE / "bias_monitor.py"),
     ("5게임 예측",        BASE / "predict.py"),
     ("알림 전송",         BASE / "github_actions" / "send_notify.py"),
 ]

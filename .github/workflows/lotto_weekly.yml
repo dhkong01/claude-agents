@@ -76,6 +76,12 @@ jobs:
       - name: ML 정합성 분석 (3모델 x 5000 부트스트랩)
         run: python tools/lotto/ml_analyze.py
 
+      # ── 6-1. 추첨 편향 감시 ─────────────────────────────────
+      # 실패해도 예측은 진행 — predict.py는 이번 회차 평가분이 없으면 교정 없이 동작
+      - name: 추첨 편향 감시 (빈도 균등성 + 지속성, 2주 연속 확인 시 교정)
+        continue-on-error: true
+        run: python tools/lotto/bias_monitor.py
+
       # ── 7. 예측 생성 ─────────────────────────────────────────
       - name: 5게임 예측
         run: python tools/lotto/predict.py
@@ -111,6 +117,7 @@ jobs:
           git add tools/lotto/last_run.txt
           git add tools/lotto/data/lotto_history.json 2>/dev/null || echo "history.json: 추가 불필요"
           git add tools/lotto/data/prediction_history.json 2>/dev/null || echo "prediction_history.json: 추가 불필요"
+          git add tools/lotto/data/lotto_bias.json 2>/dev/null || echo "lotto_bias.json: 추가 불필요"   # 연속감지 주수 유지용
           git diff --cached --quiet && echo "변경 없음 — 커밋 생략" || \
             git commit -m "chore(lotto): 실행 기록 $(date -u '+%Y-%m-%d')"
           git pull --rebase origin main || true

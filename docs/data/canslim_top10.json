@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "analyzed": 140,
   "top10": [
     {
@@ -22,12 +22,12 @@
     },
     {
       "ticker": "FTNT",
-      "canslim_score": 61,
+      "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 4,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
@@ -36,7 +36,7 @@
       "industry": "Software - Infrastructure",
       "market_cap": 127269978112,
       "price": 173.46,
-      "rs_rating": 90.8
+      "rs_rating": 90.1
     },
     {
       "ticker": "ANET",
@@ -54,7 +54,7 @@
       "industry": "Computer Hardware",
       "market_cap": 260505960448,
       "price": 206.55,
-      "rs_rating": 87.4
+      "rs_rating": 88.1
     },
     {
       "ticker": "DXCM",
@@ -73,6 +73,24 @@
       "market_cap": 32686991360,
       "price": 86.62,
       "rs_rating": 81.9
+    },
+    {
+      "ticker": "AAPL",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 4977636933632,
+      "price": 341.07,
+      "rs_rating": 81.2
     },
     {
       "ticker": "CRWD",
@@ -144,7 +162,7 @@
       "industry": "Semiconductors",
       "market_cap": 331421319168,
       "price": 310.32,
-      "rs_rating": 90.1
+      "rs_rating": 92.2
     },
     {
       "ticker": "DDOG",
@@ -163,24 +181,6 @@
       "market_cap": 96278781952,
       "price": 268.13,
       "rs_rating": 89.4
-    },
-    {
-      "ticker": "PLTR",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 455788101632,
-      "price": 189.67,
-      "rs_rating": 84.7
     }
   ]
 }

@@ -1,93 +1,93 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 19.24,
-      "week1": -2.08,
+      "qtd": 18.18,
+      "week1": -0.67,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 6.88,
-      "week1": 1.26,
+      "qtd": 7.4,
+      "week1": 1.0,
       "rank": 2,
       "status": "강세"
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 5.02,
-      "week1": 2.81,
+      "qtd": 5.86,
+      "week1": 0.73,
       "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": 4.22,
-      "week1": 3.21,
+      "qtd": 3.27,
+      "week1": -1.56,
       "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": -0.1,
-      "week1": -2.04,
+      "qtd": 0.46,
+      "week1": -1.9,
       "rank": 5,
-      "status": "약세"
+      "status": "중립"
     },
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": -1.28,
-      "week1": -0.68,
+      "qtd": -0.84,
+      "week1": 0.17,
       "rank": 6,
       "status": "약세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": -2.18,
-      "week1": -0.16,
+      "qtd": -1.94,
+      "week1": 0.18,
       "rank": 7,
       "status": "약세"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": -4.93,
-      "week1": -1.24,
+      "qtd": -5.14,
+      "week1": -2.42,
       "rank": 8,
       "status": "약세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": -6.37,
-      "week1": -0.42,
+      "qtd": -6.17,
+      "week1": -1.49,
       "rank": 9,
       "status": "약세"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -7.68,
-      "week1": -0.27,
+      "qtd": -6.8,
+      "week1": 0.26,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": -11.44,
-      "week1": -3.53,
+      "qtd": -11.1,
+      "week1": -2.83,
       "rank": 11,
       "status": "약세"
     }
@@ -102,15 +102,21 @@
       },
       {
         "ticker": "FTNT",
-        "rs": 90.8,
-        "canslim": 61,
+        "rs": 90.1,
+        "canslim": 64,
         "price": 173.46
       },
       {
         "ticker": "ANET",
-        "rs": 87.4,
+        "rs": 88.1,
         "canslim": 58,
         "price": 206.55
+      },
+      {
+        "ticker": "AAPL",
+        "rs": 81.2,
+        "canslim": 58,
+        "price": 341.07
       },
       {
         "ticker": "CRWD",
@@ -132,7 +138,7 @@
       },
       {
         "ticker": "ARM",
-        "rs": 90.1,
+        "rs": 92.2,
         "canslim": 55,
         "price": 310.32
       },
@@ -141,12 +147,6 @@
         "rs": 89.4,
         "canslim": 55,
         "price": 268.13
-      },
-      {
-        "ticker": "PLTR",
-        "rs": 84.7,
-        "canslim": 55,
-        "price": 189.67
       }
     ],
     "Healthcare": [

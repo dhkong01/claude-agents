@@ -1,20 +1,19 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
-  "medium_risk_signals": 2,
+  "high_risk_signals": 5,
+  "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "ELEVATED",
-    "Defense": "ELEVATED",
-    "Financials": "WATCH"
+    "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "Netanyahu Said To Have Been Warned By Emirati Leader About Hamas Attack Before Oct. 7",
-    "A Russian Software Company Duped The Secret Service, U.S. Prosecutors Say",
-    "Stuck On The Battlefield, Russia Wages \u2018Total War\u2019 On Ukraine\u2019S Economy"
+    "Recreational Aerial Craft Become Weapons In Myanmar\u2019S War",
+    "Russian Foreign Minister Vows Russia Will See Ukraine War Through",
+    "Netanyahu Said To Have Been Warned By Emirati Leader About Hamas Attack Before Oct. 7"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

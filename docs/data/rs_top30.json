@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "rs90_count": 13,
   "stocks": [
     {
@@ -19,15 +19,15 @@
       "rs_rating": 97.0
     },
     {
-      "ticker": "LITE",
+      "ticker": "STX",
       "rs_rating": 96.3
     },
     {
-      "ticker": "INTC",
+      "ticker": "LITE",
       "rs_rating": 95.6
     },
     {
-      "ticker": "STX",
+      "ticker": "INTC",
       "rs_rating": 94.9
     },
     {
@@ -43,15 +43,15 @@
       "rs_rating": 92.9
     },
     {
-      "ticker": "ARM",
-      "rs_rating": 92.2
-    },
-    {
       "ticker": "PANW",
-      "rs_rating": 90.8
+      "rs_rating": 91.5
     },
     {
       "ticker": "FTNT",
+      "rs_rating": 90.8
+    },
+    {
+      "ticker": "ARM",
       "rs_rating": 90.1
     },
     {
@@ -63,7 +63,7 @@
       "rs_rating": 88.8
     },
     {
-      "ticker": "ANET",
+      "ticker": "ETHT",
       "rs_rating": 88.1
     },
     {
@@ -71,7 +71,7 @@
       "rs_rating": 87.4
     },
     {
-      "ticker": "ETHT",
+      "ticker": "ANET",
       "rs_rating": 86.7
     },
     {
@@ -84,10 +84,14 @@
     },
     {
       "ticker": "ASML",
-      "rs_rating": 84.0
+      "rs_rating": 84.7
     },
     {
       "ticker": "PLTR",
+      "rs_rating": 84.0
+    },
+    {
+      "ticker": "DXCM",
       "rs_rating": 83.3
     },
     {
@@ -95,40 +99,36 @@
       "rs_rating": 82.6
     },
     {
-      "ticker": "DXCM",
+      "ticker": "MSTR",
       "rs_rating": 81.9
     },
     {
-      "ticker": "AAPL",
+      "ticker": "ADI",
       "rs_rating": 81.2
     },
     {
-      "ticker": "MPWR",
+      "ticker": "AMGN",
       "rs_rating": 80.6
     },
     {
-      "ticker": "ADI",
+      "ticker": "AAPL",
       "rs_rating": 79.9
     },
     {
-      "ticker": "AMGN",
+      "ticker": "BITX",
       "rs_rating": 79.2
     },
     {
-      "ticker": "MSFT",
-      "rs_rating": 78.5
-    },
-    {
-      "ticker": "ROST",
+      "ticker": "ETHA",
       "rs_rating": 77.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 42.3,
+    "VKTX": 34.1,
     "MRVL": 94.2,
-    "CRDO": 84.7,
-    "NBIS": 91.5,
-    "RDDT": 11.6,
-    "VRT": 64.9
+    "CRDO": 78.5,
+    "NBIS": 92.2,
+    "RDDT": 8.9,
+    "VRT": 49.2
   }
 }

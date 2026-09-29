@@ -1,93 +1,93 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "quarter": "2026-Q3",
   "q_start": "2026-07-01",
   "sectors": [
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 18.18,
-      "week1": -0.67,
+      "qtd": 18.29,
+      "week1": 0.52,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 7.4,
-      "week1": 1.0,
+      "qtd": 7.76,
+      "week1": 0.81,
       "rank": 2,
       "status": "강세"
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 5.86,
-      "week1": 0.73,
+      "qtd": 4.92,
+      "week1": -0.89,
       "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": 3.27,
-      "week1": -1.56,
+      "qtd": 1.65,
+      "week1": -2.07,
       "rank": 4,
-      "status": "강세"
-    },
-    {
-      "sector": "Financials",
-      "etf": "XLF",
-      "qtd": 0.46,
-      "week1": -1.9,
-      "rank": 5,
       "status": "중립"
     },
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": -0.84,
-      "week1": 0.17,
+      "qtd": -0.57,
+      "week1": -0.54,
+      "rank": 5,
+      "status": "약세"
+    },
+    {
+      "sector": "Financials",
+      "etf": "XLF",
+      "qtd": -0.73,
+      "week1": -1.11,
       "rank": 6,
       "status": "약세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": -1.94,
-      "week1": 0.18,
+      "qtd": -2.59,
+      "week1": -2.1,
       "rank": 7,
       "status": "약세"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": -5.14,
-      "week1": -2.42,
+      "qtd": -5.62,
+      "week1": -2.71,
       "rank": 8,
       "status": "약세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": -6.17,
-      "week1": -1.49,
+      "qtd": -7.49,
+      "week1": -2.96,
       "rank": 9,
       "status": "약세"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -6.8,
-      "week1": 0.26,
+      "qtd": -7.7,
+      "week1": -0.88,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": -11.1,
-      "week1": -2.83,
+      "qtd": -11.69,
+      "week1": -3.16,
       "rank": 11,
       "status": "약세"
     }
@@ -98,63 +98,63 @@
         "ticker": "AMD",
         "rs": 97.0,
         "canslim": 64,
-        "price": 630.63
+        "price": 607.87
       },
       {
         "ticker": "FTNT",
+        "rs": 90.8,
+        "canslim": 61,
+        "price": 176.33
+      },
+      {
+        "ticker": "ARM",
         "rs": 90.1,
-        "canslim": 64,
-        "price": 173.46
+        "canslim": 58,
+        "price": 283.33
       },
       {
         "ticker": "ANET",
-        "rs": 88.1,
+        "rs": 86.7,
         "canslim": 58,
-        "price": 206.55
-      },
-      {
-        "ticker": "AAPL",
-        "rs": 81.2,
-        "canslim": 58,
-        "price": 341.07
-      },
-      {
-        "ticker": "CRWD",
-        "rs": 93.5,
-        "canslim": 57,
-        "price": 252.13
+        "price": 204.92
       },
       {
         "ticker": "STX",
-        "rs": 94.9,
+        "rs": 96.3,
         "canslim": 55,
-        "price": 916.83
+        "price": 921.51
       },
       {
         "ticker": "WDC",
         "rs": 92.9,
         "canslim": 55,
-        "price": 456.81
-      },
-      {
-        "ticker": "ARM",
-        "rs": 92.2,
-        "canslim": 55,
-        "price": 310.32
+        "price": 453.23
       },
       {
         "ticker": "DDOG",
         "rs": 89.4,
         "canslim": 55,
-        "price": 268.13
+        "price": 268.7
+      },
+      {
+        "ticker": "CRWD",
+        "rs": 93.5,
+        "canslim": 54,
+        "price": 259.25
       }
     ],
     "Healthcare": [
       {
         "ticker": "DXCM",
-        "rs": 81.9,
+        "rs": 83.3,
         "canslim": 58,
-        "price": 86.62
+        "price": 86.68
+      },
+      {
+        "ticker": "AMGN",
+        "rs": 80.6,
+        "canslim": 58,
+        "price": 418.13
       }
     ]
   },

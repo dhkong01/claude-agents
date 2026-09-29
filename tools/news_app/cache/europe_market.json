@@ -1,11 +1,107 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
-      "summary": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
-      "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham to unveil public body to invest in electricity grid",
+      "summary": "The prime minister will say he wants to reduce energy costs in his first conference speech as Labour leader.",
+      "link": "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "TotalEnergies raises buybacks and pledges higher dividends as oil trades around $100",
+      "summary": "TotalEnergies will buy back $2.5 billion (€2.2bn) of its own shares in the fourth quarter, up from $1.5 billion (€1.3bn) authorised for the third, and raise its dividend by more than 5% a year through 2030, as high oil prices boost the French energy giant’s earnings.",
+      "link": "https://www.euronews.com/2026/09/28/totalenergies-raises-buybacks-and-pledges-higher-dividends-as-oil-trades-around-100",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "DW",
+      "summary": "News, Analysis and Service from Germany and Europe - in 30 Languages",
+      "link": "https://www.dw.com/s-1431?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Block US sanctions on ICC, EU lawmakers tell Commission",
+      "summary": "Automatically applying U.S. sanctions \"stems from the time when we thought that the Americans were still our friends,\" said Dutch lawmaker Dirk Gotink.",
+      "link": "https://www.politico.eu/article/block-us-sanctions-on-the-icc-eu-lawmakers-tell-commission/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Warning more homes will be uninsurable due to flood risk",
+      "summary": "Aviva boss Amanda Blanc said England was \"for sure\" building homes that might be uninsurable at some point in the future.",
+      "link": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Uzbekistan bets on tax breaks and new rules to become Central Asia’s tech gateway",
+      "summary": "A new business framework is intended to let foreign companies test innovative products, recruit international specialists and expand across regional markets. Investors see opportunities, while authorities finalise the rules ahead of a planned launch in early 2027.",
+      "link": "https://www.euronews.com/2026/09/28/uzbekistan-bets-on-tax-breaks-and-new-rules-to-become-central-asias-tech-gateway",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Farage is still Labour s main opponent, says party chair",
+      "summary": "Bridget Phillipson also throws her weight behind caps on political party spending limits.",
+      "link": "https://www.politico.eu/article/nigel-farage-reform-uk-is-still-labours-main-opponent-says-party-chair-bridget-phillipson/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Unis are offering degrees in content creation for £30,000. But are they worth it?",
+      "summary": "Content creation degrees aim to help people make money from their social media posts.",
+      "link": "https://www.bbc.co.uk/news/articles/c61mvy1emr2zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "US and China list $30bn worth of goods for tariff cuts, what it could mean for Europe",
+      "summary": "Washington has published lists of goods the US and China could tax at lower rates under their 30-for-30 framework, covering about $30bn (€26.3bn) in annual trade each way. No rates or start date have been set, but US pork, dairy and whiskey on Beijing's list could squeeze European exports.",
+      "link": "https://www.euronews.com/2026/09/28/us-and-china-name-goods-for-possible-tariff-cuts-what-it-could-mean-for-europe",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Budget : le gouvernement envisage un gel “réversible” des retraites",
+      "summary": "L'exécutif travaille à une revalorisation à l’inflation des retraites sous les 1260 euros, et un décret pour déterminer une éventuelle indexation au-delà.",
+      "link": "https://www.politico.eu/article/budget-le-gouvernement-envisage-un-gel-reversible-des-retraites/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "UK tries to stop Trump's diesel export ban",
+      "summary": "John Healey said the government is in talks with the US over Donald Trump's threat to stop exports.",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "EU pushes China to accept import quotas in bid to rebalance trade",
+      "summary": "Brussels is pressing Beijing to accept quotas on Chinese exports as negotiations enter their final stretch, with the EU threatening trade measures unless tangible progress is made by next month.",
+      "link": "https://www.euronews.com/2026/09/28/eu-pushes-china-to-accept-import-quotas-in-bid-to-rebalance-trade",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Labour conference: 6 things we learned down the POLITICO Pub",
+      "summary": "We swilled pints and grilled Labour politicians — from Ed Miliband to Bridget Phillipson — so you didn’t have to.",
+      "link": "https://www.politico.eu/article/labour-conference-politico-pub/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "What a US diesel export ban could mean for you",
+      "summary": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
+      "link": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Where are salaries and job opportunities highest in Portugal?",
+      "summary": "Information technology remains one of the most attractive fields in the Portuguese job market, offering high average salaries and strong job creation, according to Randstad's latest Salary Trends Study.",
+      "link": "https://www.euronews.com/2026/09/28/where-are-salaries-and-job-opportunities-highest-in-portugal",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Northern Ireland leader accused of joining mob to block Protestant parade",
+      "summary": "Unionists demand criminal consequences for First Minister Michelle O’Neill of Sinn Féin — who joined the road blockade against the Orange Order — as Northern Ireland’s government threatens to unravel.",
+      "link": "https://www.politico.eu/article/northern-ireland-leader-accused-joining-mob-to-block-protestant-parade/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Aldi boss says some of rivals' loyalty discounts 'dupe' customers",
+      "summary": "Aldi is the only major supermarket chain that doesn't operate a loyalty scheme, which are hugely popular and used by millions of shoppers.",
+      "link": "https://www.bbc.co.uk/news/articles/c6dj4vkwg8j0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -15,123 +111,28 @@
       "source": "Euronews Business"
     },
     {
-      "title": "EU is drawing up membership action plans for most promising candidates",
-      "summary": "For the first time, Brussels is considering setting target dates for Montenegro, Ukraine, Moldova and Albania to complete key stages of accession talks.",
-      "link": "https://www.politico.eu/article/eu-membership-action-plans-montenegro-ukraine-moldova-albania/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "UK Treasury minister says her old job as City of London rep is not a conflict",
+      "summary": "The City of London is lobbying hard against the prospect of a windfall tax on the banks ahead of the October budget.",
+      "link": "https://www.politico.eu/article/uk-treasury-minister-emma-reynolds-city-experience-not-conflict/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "You need £17,000 for a first home - here's how to do it",
-      "summary": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
-      "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
+      "title": "UK diesel price hits all-time high, the RAC says",
+      "summary": "The US-Israel war with Iran has caused fuel prices to soar due to disruption of global oil supplies.",
+      "link": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "Azerbaijan agrees multi-billion-dollar deals with investment giants",
-      "summary": "Nearly $11 billion (€9.7 billion) worth in contracts have emerged from the Azerbaijan International Investment Forum, where some of the world’s biggest investment managers gathered for talks ranging from infrastructure and technology to energy and transport.",
-      "link": "https://www.euronews.com/2026/09/27/azerbaijan-agrees-multi-billion-dollar-deals-with-investment-giants",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Independent wins Kraków mayorship first round, as far right sees setback for Tusk",
-      "summary": "Łukasz Gibała and a candidate backed by PM Donald Tusk move on to a runoff as parties jostle ahead of a fall 2027 general election.",
-      "link": "https://www.politico.eu/article/independent-lukasz-gibala-win-krakow-mayor-election-poland-donald-tusk/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Andy Burnham refuses to back third runway at Heathrow",
-      "summary": "Andy Burnham said he would wait for the results of a consultation on a scheme estimated to cost £33bn",
-      "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Baku's week of F1 racing, global security, and record investments",
-      "summary": "Baku has completed a week of octane-fuelled racing, high-level security facilitation and secured record investments in one of its most dynamic events-filled weeks of the year.",
-      "link": "https://www.euronews.com/2026/09/26/bakus-week-of-f1-racing-global-security-and-record-investments",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says",
-      "summary": "Business Secretary Jonathan Reynolds said the U.K.’s position on the issue was \"finely balanced\" as officials pursue talks with Brussels.",
-      "link": "https://www.politico.eu/article/uk-tariffs-china-ev-review-jonathan-reynolds/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Faisal Islam: The two big decisions the chancellor must make",
-      "summary": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
-      "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Euronews explains: What would a US diesel export ban mean to European countries?",
-      "summary": "The EU has deepened energy ties with the US while seeking to reduce its exposure to geopolitical shocks. Yet US plans to limit diesel exports expose how quickly commercial dependence can become a strategic vulnerability.",
-      "link": "https://www.euronews.com/2026/09/25/euronews-explains-what-would-a-us-diesel-export-ban-mean-to-european-countries",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "UK business minister warns potential US diesel export ban ‘significant concern’",
-      "summary": "The U.K. receives around one-sixth of its diesel from the U.S. and would be one of the countries most exposed to an export ban.",
-      "link": "https://www.politico.eu/article/uk-business-minister-jonathan-reynolds-us-diesel-export-ban-significant-concern/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "OpenAI bots meddled with multiple US government agency sites",
-      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "The business of peace: US investment push takes the TRIPP corridor from diplomacy to trade",
-      "summary": "Washington grants millions to the so-called Trans-Caspian Enterprise Fund to act as a catalyst for private investment in the South Caucasus and Central Asia.",
-      "link": "https://www.euronews.com/2026/09/25/the-business-of-peace-us-investment-push-takes-the-tripp-corridor-from-diplomacy-to-trade",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "EU rejoin push risks causing uncertainty, warns business secretary",
-      "summary": "Jonathan Reynolds said the focus should be on improving Britain's trading relationship with Brussels.",
-      "link": "https://www.politico.eu/article/eu-uk-rejoin-business-uncertainty-jonathan-reynolds/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Could an iced coffee freeze you out of the job market?",
-      "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
-      "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Over 2.8 million Audi and Volkswagen vehicles face recall worldwide",
-      "summary": "The German carmakers are to recall the vehicles because of a potentially faulty screw connection on the steering gear.",
-      "link": "https://www.euronews.com/2026/09/25/over-28-million-audi-and-volkswagen-vehicles-face-recall-worldwide",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Bill Gates says an AI ‘kill switch’ isn’t enough",
-      "summary": "The Microsoft co-founder called for mandatory monitoring of powerful artificial intelligence systems in an NBC interview that aired Sunday.",
-      "link": "https://www.politico.com/news/2026/09/27/bill-gates-ai-kill-switch-01094236?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Clubs seek legal advice over Man City charges compensation",
-      "summary": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "What counts as ‘Made in Europe’? France, Germany and Spain are divided",
-      "summary": "France wants a strict EU preference, Germany would include trading partners, while Spain is proposing a compromise as Brussels seeks to counter Chinese competition.",
-      "link": "https://www.euronews.com/2026/09/24/what-counts-as-made-in-europe-france-germany-and-spain-are-divided",
-      "source": "Euronews Business"
     }
   ],
-  "trend_headline": "미국 디젤 수출 금지 우려와 에너지 공급망 위기",
-  "summary": "미국의 디젤 수출 제한 검토가 유럽 전역의 에너지 수급 취약성을 자극하며 가격 급등 압박을 키우고 있습니다. EU 집행위원회는 공급 제약에 대응해 회원국들에 에너지 수요 절감을 촉구했으며, 중국과의 무역 갈등 및 규제 리스크가 복합적으로 작용하고 있습니다.",
+  "trend_headline": "고유가와 무역 갈등이 덮친 유럽 에너지·수출 방어선",
+  "summary": "100달러를 웃도는 국제유가와 미국의 디젤 수출 중단 위협이 맞물리며 유럽 에너지 안보에 경고등이 켜졌습니다. 여기에 EU와 중국 간의 무역 긴장으로 프랑스 코냐크 등 주요 수출 섹터가 타격을 입고 있으며, 독일 자동차 기업들의 대규모 리콜까지 겹쳐 실물경제 부담이 가중되고 있습니다.",
   "key_points": [
-    "영국은 전체 디젤의 약 6분의 1을 미국에서 수입해 수출 금지 조치에 가장 취약한 국가로 지목됨",
-    "영국 내 디젤 평균 판매가가 리터당 198.32펜스로 사상 최고가 수준에 근접",
-    "EU 에너지 commissioner가 글로벌 공급 제약 속에서 회원국들에게 에너지 수요 감축 조치 도입을 촉구"
+    "총에너지(TotalEnergies)는 100달러대 고유가 호실적을 바탕으로 4분기 자사주 매입 규모를 25억 달러로 확대",
+    "미국의 디젤 수출 제한 검토와 중동발 공급 차질로 영국 등 유럽 내 디젤 가격이 사상 최고치 경신",
+    "EU의 대중국 수입 할당제 압박 및 무역 분쟁 여파로 프랑스 코냐크 등 수출 주도 산업이 직격탄"
   ],
   "sector_hints": [
     "Energy",
-    "Automotive"
+    "Automotive",
+    "Industrials"
   ]
 }

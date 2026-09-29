@@ -1,143 +1,155 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "[밤 사이 해외뉴스 영상] 미국, 이란 항공·은행망 동시 차단… 중동 고립 가속화",
+          "title": "'삼성·LG도 공들이는데 어쩌나'…中 '세계 75%' 쓸어담았다",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609288192i",
+          "link": "https://www.hankyung.com/article/202609290959g",
           "source": "한국경제"
         },
         {
-          "title": "매경이 전하는 세상의 지식 (매-세-지, 9월 28일)",
-          "summary": "1. 정부가 사상 처음 농지 전수조사에 착수한 가운데 70세 이상 고령농 상당수가 노후 생계 불안으로 농지를 놓지 못하면서 ‘농지 세대교체’가 속도를 내지 못하고 있는 것으로 나타..",
-          "link": "https://www.mk.co.kr/news/economy/12162096",
+          "title": "‘멀티 폭풍’이 몰려온다…美 ‘금리 쇼크·중간선거’ 조합 충격 대비해야 [이재철칼럼]",
+          "summary": "고금리 충격 휩싸인 美 중간선거 이후 동맹국에 새로운 청구서 내밀지도 각국 과잉 희생 주장했던 마이런식 요구 대비해야2년 전 11월. 도널드 트럼프 대통령이 재선에 성공하고 ‘글로..",
+          "link": "https://www.mk.co.kr/news/economy/12163377",
           "source": "매일경제"
         },
         {
-          "title": "4~5개월마다 성능 두 배씩 뛰는 AI…규제 난도는 급상승",
+          "title": "포드 멕시코 공장의 인기쟁이 직원, 사람이 아니라고?",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609288169i",
+          "link": "https://www.hankyung.com/article/202609290951i",
           "source": "한국경제"
         },
         {
-          "title": "“부장님이 웬일로 법카를 주네요”…반도체 호황에 기업 결제액 사상 최대",
-          "summary": "법인 신용카드 이용액 분석 2분기 10% 늘며 60조 첫 돌파 실적개선에 기업 지갑 열려K반도체발 경기 호황에 법인 신용카드 이용 금액이 사상 최대치를 기록한 것으로 나타났다. 반..",
-          "link": "https://www.mk.co.kr/news/economy/12162185",
+          "title": "주택전세보증 12배 뛸 때…보증보험 ‘못 받은 돈’은 83배 껑충",
+          "summary": "김재섭 “회수율 높일 실효성 있는 대책 마련해야”한국주택금융공사가 전세보증금을 돌려받지 못한 세입자에게 집주인 대신 보증금을 지급한 뒤 임대인에게서 회수하지 못한 돈이 4년여 만에..",
+          "link": "https://www.mk.co.kr/news/economy/12163368",
           "source": "매일경제"
         },
         {
-          "title": "\"무릎 아파도 등산하겠네\"…백두산에 등장한 '2만원 장비' [차이나 워치]",
+          "title": "내년 해외여행 가려고 했는데…\"7000원이 2만원?\" 화들짝 [김익환의 부처 핸즈업]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609277824i",
+          "link": "https://www.hankyung.com/article/202609255871i",
           "source": "한국경제"
         },
         {
-          "title": "[단독] “평생 농사 접으라면서 월 31만원 준다니”…고령농 은퇴정책의 현실",
-          "summary": "힘 못쓰는 고령농 은퇴지원 직불금으로 생계 유지도 못해 농지연금은 예산 소진돼 대기 고령농 은퇴 이끌 유인책 부족 청년농 육성 사실상 중단 상태 전문가 “국가농업 존폐의 문제 노후..",
-          "link": "https://www.mk.co.kr/news/economy/12162184",
+          "title": "또 국채금리 쇼크...힘못쓴 기술주, 美 증시 급락 [월가월부]",
+          "summary": "10년물 5.2%, 30년물 5.5% 상회 국채 투매에 20여년만에 최고치 엔비디아 자사주 매입에 반등국제유가 변동성에 따른 인플레이션 우려 확산으로 미 국채금리가 연일 급등하..",
+          "link": "https://www.mk.co.kr/news/economy/12163292",
           "source": "매일경제"
         },
         {
-          "title": "전국 상가 8곳 중 1곳 '텅텅'…5년 만에 최악",
+          "title": "\"수출길 막힐라\" 날벼락에…1165억달러 베트남 시장 살린 묘수",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609288159H",
+          "link": "https://www.hankyung.com/article/202609288746i",
           "source": "한국경제"
         },
         {
-          "title": "70대 이상 농가 40% 달하는데…‘고령화 농지’ 매년 0.08%만 세대교체",
-          "summary": "농지이양 은퇴직불제로 1197㏊ 이양 전체 농지 150만㏊와 비교하면 미미 39세 이하 농가인구는 10년 새 반토막 80세 이상 농가인구도 14.3%로 껑충정부가 사상 처음 농지 ..",
-          "link": "https://www.mk.co.kr/news/economy/12162163",
+          "title": "미국채 금리발작은 인과응보 … 그래도 증시 낙관론 외치는 이유",
+          "summary": "스티브 잉글랜더 스탠다드차타드 북미 거시전략 헤드 인터뷰전 세계적인 인플레이션 확산 속에 미 연방준비제도(Fed)가 3년 2개월 만에 기준금리를 인상했다. 트럼프 대통령이 발탁한 ..",
+          "link": "https://www.mk.co.kr/news/society/12162878",
           "source": "매일경제"
         },
         {
-          "title": "[밤 사이 해외뉴스] 젠슨 황의 경고 \"AI 공포는 과도, 통제 불능 아닌 공학적 해결 과제\"",
+          "title": "사모펀드 돈 묶이자…부유층도 지분 담보 현금 확보",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202609288106i",
+          "link": "https://www.hankyung.com/article/202609290856i",
           "source": "한국경제"
         },
         {
-          "title": "[단독] “尹·吳 때 공급 줄었다”더니 … LH 평가선 李정부 9·7대책에 민간토지 공급 ‘축소’",
-          "summary": "LH 작년 공급목표 17.9만호 실적 14.6만호…달성률 82% 민간토지 공급은 목표의 절반 평가단 “정책 보정땐 90%” LH 직접시행은 올해 5100호 신축매입 착공도 목표의..",
-          "link": "https://www.mk.co.kr/news/economy/12162092",
+          "title": "“미국이 예전 같지 않다” … 美 국채금리 5% 돌파가 보내는 섬뜩한 신호",
+          "summary": "미국 고금리 시대 개막의 의미미국 국채금리가 잇달아 연 5%를 넘고 있다. 미국채 30년물은 지난 7월 5%를 넘어 현재 5.5%까지 올랐다. 장기 기준금리 역할을 하는 10년물 ..",
+          "link": "https://www.mk.co.kr/news/economy/12162927",
           "source": "매일경제"
         }
       ],
-      "summary": "반도체 호황에 힘입어 2분기 법인 신용카드 이용액이 사상 최초로 60조 원을 돌파하는 등 기업 실적 개선이 뚜렷합니다. 다만 고령농 구조조정 지연과 상가 공실률 악화 등 내수 양극화 그림자는 여전히 깊습니다."
+      "summary": "미국 국채금리 급등(10년물 5.2%·30년물 5.5% 상회)과 금리 쇼크 여파로 국내 기술주가 약세를 보였으며, 전세보증금 미회수액 급증 및 부유층의 주식 담보 대출 증가 등 고금리 장기화에 따른 자금 경색 조짐이 뚜렷해졌습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "BOJ ups climate loans as debate swirls on how green central banks should be",
+          "title": "China flaunts purchasing power with soybean buys ahead of US midterms",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/trading-asia/boj-ups-climate-loans-as-debate-swirls-on-how-green-central-banks-should-be",
+          "link": "https://asia.nikkei.com/business/markets/commodities/china-flaunts-purchasing-power-with-soybean-buys-ahead-of-us-midterms",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Southeast Asia's EV race risks pricing out drivers",
+          "title": "Which nations love Sakanaction? Data drives J-pop's overseas push",
           "summary": "",
-          "link": "https://asia.nikkei.com/opinion/southeast-asia-s-ev-race-risks-pricing-out-drivers",
+          "link": "https://asia.nikkei.com/business/media-entertainment/which-nations-love-sakanaction-data-drives-j-pop-s-overseas-push",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan Foreign Ministry to recruit overseas experts in dual-use tech",
+          "title": "Vietnam's 'silver economy' emerges to fill gaps in family care",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/technology/japan-foreign-ministry-to-recruit-overseas-experts-in-dual-use-tech",
+          "link": "https://asia.nikkei.com/spotlight/asean-money/vietnam-s-silver-economy-emerges-to-fill-gaps-in-family-care",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Tokyo startup to broker trades of unlisted Japan stocks in US, UK",
+          "title": "Japan's Resonac develops large wafers that can yield 4 times as many chips",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/equities/tokyo-startup-to-broker-trades-of-unlisted-japan-stocks-in-us-uk",
+          "link": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-resonac-develops-large-wafers-that-can-yield-4-times-as-many-chips",
           "source": "Nikkei Asia"
         },
         {
-          "title": "More sugar, salt or fat? India tells brands to flag content clearly",
+          "title": "Kawasaki Heavy's hospital robots save 2,700 hours of work in Japan",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/food-beverage/more-sugar-salt-or-fat-india-tells-brands-to-flag-content-clearly",
+          "link": "https://asia.nikkei.com/business/health-care/kawasaki-heavy-s-hospital-robots-save-2-700-hours-of-work-in-japan",
           "source": "Nikkei Asia"
         },
         {
-          "title": "China's exoskeleton robots muscle into the consumer mainstream",
+          "title": "Japan buys drones quickly but is less interested in integration systems",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/china-tech/china-s-exoskeleton-robots-muscle-into-the-consumer-mainstream",
+          "link": "https://asia.nikkei.com/opinion/japan-buys-drones-quickly-but-is-less-interested-in-integration-systems",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan's Nozawa Onsen ski resort curbs development of tall hotels",
+          "title": "Nidec CEO Kishida set to resign over losses at e-axle EV drive unit",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/property/japan-s-nozawa-onsen-ski-resort-curbs-development-of-tall-hotels",
+          "link": "https://asia.nikkei.com/business/companies/nidec-ceo-kishida-set-to-resign-over-losses-at-e-axle-ev-drive-unit",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Turkey aims to turn WWI shipwrecks into diving hub",
+          "title": "Half of new US-approved drugs remain unavailable to Japanese patients",
           "summary": "",
-          "link": "https://asia.nikkei.com/life-arts/life/turkey-aims-to-turn-wwi-shipwrecks-into-diving-hub",
+          "link": "https://asia.nikkei.com/business/pharmaceuticals/half-of-new-us-approved-drugs-remain-unavailable-to-japanese-patients",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Chicken and fermented tea leaves: KFC serves up a local twist in Myanmar",
+          "title": "Honda pauses Bangkok motorcycle production due to flooding",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/food-beverage/chicken-and-fermented-tea-leaves-kfc-serves-up-a-local-twist-in-myanmar",
+          "link": "https://asia.nikkei.com/business/companies/honda-pauses-bangkok-motorcycle-production-due-to-flooding",
           "source": "Nikkei Asia"
         },
         {
-          "title": "BTS pullout from Grammys shows new reality in music industry",
+          "title": "Looming 'Made in EU' bill threatens Toyota and other Japanese EV makers",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/comment/bts-pullout-from-grammys-shows-new-reality-in-music-industry",
+          "link": "https://asia.nikkei.com/business/automobiles/electric-vehicles/looming-made-in-eu-bill-threatens-toyota-and-other-japanese-ev-makers",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "일본은행(BOJ)이 친환경 대출 프로그램을 확대하며 통화정책의 녹색 전환 논의를 주도하고 있습니다. 외무성은 이중용도 기술 확보를 위해 해외 전문가 채용에 나서는 등 경제안보 역량 강화에 집중하는 모습입니다."
+      "summary": "미국산 의약품 접근성 제고와 방산·로봇 자동화 도입이 가속화되는 한편, 레소낙의 대형 웨이퍼 개발 등 첨단 소재 혁신이 이어지고 있으나, 닛덱 CEO 사임과 도요타 등 EV 메이커들의 규제 리스크가 부담으로 작용하고 있습니다."
     },
     "TW": {
       "headlines": [
         {
+          "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQXzRzbk8yU3RhekhEaXNXMF9WNUFObjZhLW9NWG9Fclp6U2xyckZmSDRRNDFxd2sxanY5VUpXMlJLOGR4TUVDaGpMeUYwc1M2azRGVzFrRm9JeVphSndQckUzRU9wYlE5aXE5UGVUZkN4ZHNGNWVZTnRWS24ydHc3MGVkZTljQk9kR3o0TklBOFRtamw2OHF3NXc1Ykk4eEVWUEJGa3N3Sll5TkVvRlZ0cGJDWm9UQlFhZTVTRkdEV09MRm8yTzNvZHRIWmFOQ3FESm9HRG5mM3c1eHRpaFMzQg?oc=5",
+          "source": "Google News"
+        },
+        {
           "title": "Is Taiwan Semiconductor Manufacturing (NYSE:TSM) Priced For Perfection Or Still A Bargain?",
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSUN3aUIxeTBHUE5IdllMaThldlVKeVNFNlBfTjZUaS1JTXkwTDVwV2tnQVg2aTBkZEZ3Vjk5TzZxM215cEJDYldfZnBDaVhiS0xLVFZ4SDZZVUlCZzJvbmdXczZ1aXU4bHpvekZqMkw5MjRKcDVnT25jSVZEVEQwNjVIejNac28zVng5empnYkNkWnJya0lXQ2JvRC1CSXltbnR6bktiLXRIS0hO?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TSMC 2nm wafer capacity to exceed earlier estimates, EDN reports",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPenphOGlBNmk1eWR0RzJQYVN0OHBjeTBSZE81SnhaY1ktSmIyeGZnY2I2OFFEaEp6ZjI3WjVBRGVRbzVpcjFTeHlmejBfemZVS1JBdEJMNmZVSDF5S1hJdUM3RWFlcDJsQkJHWXBsLWxqbEZ0WGRlUVFlczBZR3ZNMWNjRzNRbVc1bng0RzJRYjlNRnJreHRnUERicE43QVU2TzVrV0s5eEtkNW1ULU1ydHJSNmcwdW5oY3VwNw?oc=5",
           "source": "Google News"
         },
         {
@@ -147,45 +159,15 @@
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor: AI CapEx Keeps Climbing, And TSMC Looks Undervalued (NYSE:TSM)",
+          "title": "The Zacks Analyst Blog Highlights Analog Devices, Semtech, Taiwan Semiconductor and ASM",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTkVEY3lxUDJRaFpJWkM3dEI5NzlFVVU1UU4xSDNSN0ZHVHJ1SGVnWjJiODdZUmhKTUc5dnRSSHZvSlNyUjJ5QXpPOFlqSWhaelVEOVJtOGNnZTBRel9keEdtX21xeDBZc0FFdEtCcGdpM0dPaEZ4RzJuMXZBSmEzQVVDTGh4cmxsN2lNU2RVMjl5TXdKc2pWZG9kWUdKQWcyajdGMVNYbUtvOGZLUWVEWDZR?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnNMQ19vajNaZ1V0RGVqTm5FYkFwWlQ1UXhPQWtDRmhKa3YzVzdoUmZ1Z0lfN1B4ZmxmRF9lLVd4WG9LMUxtYzVFZHdnM3BzRkpyWnFZa0pBS1R6V3dEVV9pcUpzUk1nc0x4X0M3dkZfQnVUWHZ0eDgyMXR4Y0JVM3RNVC1Ud3BHTVRvSi1oR19CMU5iS3kyVjRhQU9sU1c1V2luOEtDanMyWjcxMl9PcU41YTJxTUdoMzA1dkRtcEd5M285?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Chiayi Science Park signaling Phase III development",
+          "title": "TSMC, others hold recruitment campaign in Silicon Valley",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81TDUydVE4d2VuN0VRLWoxUjZ6ZG9FN3RrTnJBdnhJR1BFaVgycDU0ekRiVkRHOG9YYmJua1Q3Qy1qMXlzLVVpclhIVnJpb0VKcTBjN2lodnFDWGEwR2tUQ2ZNUXdvdjdIWFNFN1piZjVVTzdmaDUybg?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Foreign minister departs for Belize, Guatemala with business delegation",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKMk1RMUJhODhhWmhkX01VUVJPRURPVXkzbjU5ekpZemlEWGpZQnZPQk5nOUdzUGJZZWRuZC0tQ1JQMmxMMU1VbE96Nk5sbmEyUmFmTTNETQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Bloom Energy, TSM Lead 5 Stocks Near Buy Points As AI Rebounds",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObkpkbFl3eEY5Wl9lM0JucmVqbGI5bHhTbWNfb1g2dnNGQU1NVURDczQtemtwYmhyVDhHdE0zUEItVGxuUTBhLUpPM0R2bmNWZ1hnRkY4VEQyMHlKaDlrOVlYcmV3ekxJZG11ckp1ZzIzUUotYTJVVy1rb1poTk1aS1huYkQzNVc5Y3lOQl9hQ1VIZw?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Sees Early A14 Interest, Is It 18% Above Fair Value?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQUNURzRIRndfbElnamNvUzdxNGUzSGVTZW9QX2QtbXUyWGJxemdIZjhMOEp2VVUzbjVPREtuamhhWmZOQ1BwSFdRUUVXWmNpcE5FMzJhamFod0pDdms5cm8tV1JMRnRvZThJbEM4T0dueUhTZUllenhUeVFzOU5kTFBrbXBuNzdKQ2RFcm5NNXl0VGdBRHlCVS1LbEZ0TmQxTEFjRlg0R0hRcHNSek44V2FpazF1YzVXSGl2Vy12WXpmWWFVQkJQWVRSTWdmdUp0YXR3TFE3bDZCN2NheV9rdFg4TU1mX2VxSjVITdIB8gFBVV95cUxOWGduMk10d0lva1JsbUlieEl3TW5SNng1cTdhUDJtaUZXemRad2gtNzRDaFpkUHZWSkwtd290ZGpiOTVibzE4MFZyLWlLdkF2cHJMcl9leXY3YU1aWC1hdWhiSXF1U2tzNjVUckh6MEMxT3V5RDUyQ09TQVlmczRad0dxVFlBZ1JZRENBOTR0dmFiUzFlbWVUb2RMYWRySC1WSldMVnBYZHd3dlp4WmZlaDF1R2RvZ0I1WFBiQVR6OVZQLXN0M2ZRLWJlSzlXNzRJcXN5SjM3SVVMY3NFR3lfN3BTTnNhNmV3MXUtNktVdjM2UQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "TSMC to Raise Wafer Prices 3%-6% in 2027: Report - Taiwan Semiconductor (NYSE:TSM)",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOXBOVzRITThoVkdiQWVhcUNBQ0JWOGd5WmpQaU5Ya3Q5dkJjZzNLYm5iMmtWdVFRSU9OMXI0U1BxVU9vcG9yUUR5dHNtcEdhVHByNEtQVVdDd3Zvdmc4MTBzZVNPM01sZnF1VGswVTZoYlNlZmdRVmRRY0MwdUpqaUF3eFN3ZzMxVnRfeTVxcXQ1NFIwQmdhb1h0LXplME82NWlYaUhzNA?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Raising Wafer Prices By 3% To 6%?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeGI1RTFZT1FHOHk3dGNwd2xoRXd1RlYwUm9LVENPaDlBVGtoWnMzMHlESkhpSzlZSjYzNGdNNklzREY2WktxRzFMTnFkSE9STDdCQ3hwaTF1c1NzUlpTT01ZMnliWVpkRkVoNG9kbFl2N3VmOE9Ia1Q1bm9tOFBrNDR6ZUYtTF9tX1BtVW1NU0xSU3B6UFcwUnJmc3QwRWUwRzF1ZlF6T0pzUU0?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LX204cjNaNXZWVHZESGp2UGFOR0t6RXFadXlzckNhY3J4R25ELWFpSmZIYWNXQzhWV1F0Z0Z5RF93bXlXRlIyeC1kYnB0WTN0bE1xN0RzSQ?oc=5",
           "source": "Google News"
         },
         {
@@ -193,85 +175,103 @@
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSlhoeVltQ0pLWlpvVTZWdWIzYXVNMnlHYXVKNmZnQ3BtYWlKQ19jWXBVbzZ4LURUNUNGVlhxeGpOeWZRaHMzekRHdm55YUtwelh1MG94cy1saURkcDh4aC1xT3VtNUk4ckZsOUFuZVluVjlpY1I3Uk4tT1pxZDVUWVRmcFVFZGswMUFNOEFKU1VxUWFXNXZHVURsUHJSWUNpNXBOVDlkXzM2UQ?oc=5",
           "source": "Google News"
+        },
+        {
+          "title": "American Airlines and Taiwan-Based Starlux in Codeshare Agreement",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYnVYOWVNNFVlWTIxTnFiRGstSlcwdFU4UkxqRmh6X0lJVVB4YmZJcXVMN0YzcDdNSFR5NjBuenZVQlJmdkhQdmJjZHpHZC1JLTFDaDZ6WW9iVDh4cUpxekJPY0VVQ1dReVpoS3dYQnFsZVA1R1VyN1RRM1VFOFZ4a0huN0NwTmFqZDBSODBPOGwxbXJMaWc1ajdfWEl4TV9SMWlmQnRCNXhhRGZaNWt6dw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TSMC Plans Five More Packaging Plants in Taiwan",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02blJvMHZucm0tZ0oybndFUFUyQUtfcmdXVEpreUpSWHlJdm5tT1JUbGhpME9RdkpSN3lvZDc1am9JblF6WlBCdkFrLVp4Q3ZKWV82N2JicHNuRGVoNXpnVFdqZWR4VHVrcEJWYWhheldHUVVL?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Just Signed Off On TSMC’s $44 Billion US Push",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWYtTmE0cWdfY2ZXYTczYzk5T3QtQUJtOEVtajNnQUJKNzZ2NDFvMGhsYmEyS2lKcGtnb3p0RldjeFd1aFEyVEZXeDlTc3hhTDYwd2l1clV1WkpHOUs4Q3dGdkRFNEhwWl8tOXZ2clRNdjhPTnZId2pDLTViTWhpNmNIdE1CQQ?oc=5",
+          "source": "Google News"
         }
       ],
-      "summary": "TSMC가 AI 인프라 수요 급증과 설비투자(CapEx) 확대 기조에 힘입어 2027년 웨이퍼 가격을 3~6% 인상할 계획인 가운데, 저평가 매력과 밸류에이션 정당성 논란이 동시에 제기되고 있습니다."
+      "summary": "TSMC가 2나노 웨이퍼 생산 능력을 확대하고 미국 투자(44억 달러) 및 대만 내 패키징 공장 5곳 신설 계획을 승인받는 등 AI 반도체 주도권 강화를 위한 대규모 투자를 단행했습니다."
     },
     "CN": {
       "headlines": [
         {
-          "title": "Mapping Biology’s Next Frontier",
-          "summary": "After two decades backing some of the world’s earliest artificial-intelligence companies, Liu Wei has moved from investor to builder. A longtime technology enthusiast, Wei spent 18 years as an early-stage investor, including as general partner of Legend Star Ventures and founding CEO of Baidu Ventur",
-          "link": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3368346/mapping-biologys-next-frontier?utm_source=rss_feed",
+          "title": "Plan to turn Hong Kong office block into flats rejected amid high commercial vacancy rates",
+          "summary": "Hong Kong’s Town Planning Board has rejected an application from a consortium of developers to rezone a commercial project in Kowloon for development as residential flats, leaving sellers struggling with high vacancy rates, according to analysts. A consortium formed by CSI Properties, Asia Standard ",
+          "link": "https://www.scmp.com/business/china-business/article/3369122/plan-turn-hong-kong-office-block-flats-rejected-amid-high-commercial-vacancy-rates?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "How Beijing is neutralising Washington’s sanctions machine",
-          "summary": "Last week, the president of the United States stood at the podium of the United Nations General Assembly and asked aloud whether he should “annihilate the Islamic Republic and do it quickly”. Donald Trump then turned to Venezuela’s oil and declared: “To the victor belong the spoils, you’ve all heard",
-          "link": "https://www.scmp.com/opinion/china-opinion/article/3368749/how-beijing-neutralising-washingtons-sanctions-machine?utm_source=rss_feed",
+          "title": "JPMorgan’s Jamie Dimon on how growth can untangle US-China strife, thorny global issues",
+          "summary": "Jamie Dimon’s recent whirlwind visit to Hong Kong followed a similar script: a schedule packed with meetings involving the entrepreneurs and business leaders connecting China with global markets. But it was his increasingly visible stance on global issues that appeared to extend his career beyond ma",
+          "link": "https://www.scmp.com/business/banking-finance/article/3369097/jpmorgans-jamie-dimon-how-growth-can-untangle-us-china-strife-thorny-global-issues?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "Buyers snap up new Hong Kong flats ahead of likely interest rate rises",
-          "summary": "Hong Kong developers have already sold all of the more than 290 new flats they launched over the weekend, as buyers look to lock in mortgages ahead of an anticipated rise in interest rates later this year, according to property agents. The decision by the city’s major banks to hold rates steady desp",
-          "link": "https://www.scmp.com/business/article/3368954/buyers-snap-new-hong-kong-flats-ahead-likely-interest-rate-rises?utm_source=rss_feed",
+          "title": "VW, Gotion ramp up battery production in Europe, Morocco amid rising EV demand",
+          "summary": "Volkswagen Group and its Chinese partner Gotion High-tech have stepped up a gear in tapping global demand for electric vehicle (EV) batteries with plans to invest a combined €3.22 billion (US$3.66 billion) to set up three production lines in Europe and North Africa. The factories, to be jointly owne",
+          "link": "https://www.scmp.com/business/china-business/article/3369104/vw-gotion-ramp-battery-production-europe-morocco-amid-rising-ev-demand?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "Global property investors see signs of recovery in China, but wary of oversupply: JLL",
-          "summary": "International investors who have seen early signs of recovery in mainland China’s office and retail property markets are expected to start buying when oversupply concerns are eased, according to global real estate firm JLL. Stuart Crow, JLL’s CEO for capital markets in the Asia-Pacific region, said ",
-          "link": "https://www.scmp.com/business/china-business/article/3368806/global-property-investors-see-signs-recovery-china-wary-oversupply-jll?utm_source=rss_feed",
+          "title": "China is no longer just the world’s factory. It’s the HQ",
+          "summary": "The global electronics industry is entering a structural transition. For over two decades, China served as the dominant manufacturing centre, with an unmatched concentration of suppliers, skilled labour, infrastructure, logistics and engineering capabilities. That concentration is being diluted. But",
+          "link": "https://www.scmp.com/opinion/china-opinion/article/3368704/china-no-longer-just-worlds-factory-its-hq?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "How Asia-Pacific property markets are drawing fresh capital despite US rate uncertainty",
-          "summary": "Property markets in the Asia-Pacific region are likely to remain attractive despite heightened uncertainty over monetary policy after the US Federal Reserve delivered its first interest rate increase in more than three years this month, analysts say, with several asset classes and sectors expected t",
-          "link": "https://www.scmp.com/business/article/3368796/how-asia-pacific-property-markets-are-drawing-fresh-capital-despite-us-rate-uncertainty?utm_source=rss_feed",
+          "title": "AIIB plans to double financing by 2030. Can it bridge Asia’s infrastructure gap?",
+          "summary": "The Asian Infrastructure Investment Bank (AIIB) plans to double its annual financing to about US$20 billion by 2030 as the Beijing-headquartered multilateral lender enters its second decade, its president said on Monday. Announcing the target at the opening of the bank’s 11th annual meeting in Doha,",
+          "link": "https://www.scmp.com/business/banking-finance/article/3369088/aiib-plans-double-financing-2030-can-it-bridge-asias-infrastructure-gap?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "Hong Kong tycoon-backed start-up bets on new battery to challenge energy-storage giants",
-          "summary": "EnerVenue, a start-up co-founded by Full Vision Capital, the family office of Hong Kong tycoon Peter Lee Ka-kit, has begun manufacturing a new battery it expects to challenge existing energy-storage technologies dominated by mainland Chinese players, amid surging global demand for green energy. The ",
-          "link": "https://www.scmp.com/business/china-evs/article/3368843/hong-kong-tycoon-backed-start-bets-new-battery-challenge-energy-storage-giants?utm_source=rss_feed",
+          "title": "Hong Kong office expansion lags hiring push as tenants optimise current space: Colliers",
+          "summary": "More than a third of Hong Kong’s office tenants are expecting to increase headcounts over the next 12 months, but only a fifth are likely to expand their real estate footprint, according to a survey by Colliers. The results of the fourth annual Hong Kong occupier survey by the property consultancy p",
+          "link": "https://www.scmp.com/business/article/3369081/hong-kong-office-expansion-lags-hiring-push-tenants-optimise-current-space-colliers?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "China’s biotech firms move up value chain as drug deals evolve beyond licensing: analysts",
-          "summary": "Chinese biotech deal making is moving beyond the licensing of individual drug candidates, as the country transforms from a follower to a global innovation leader, according to analysts. The latest transaction underscores that shift. Beijing-based cancer drug developer InnoCare Pharma said on Thursda",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3368781/chinas-biotech-firms-move-value-chain-drug-deals-evolve-beyond-licensing-analysts?utm_source=rss_feed",
+          "title": "Chinese chip foundry CanSemi’s IPO oversubscribed 2,360 times as investors chase AI boom",
+          "summary": "Chinese chip foundry CanSemi Technology’s Shenzhen initial public offering (IPO) is emerging as one of mainland China’s most sought-after tech listings this year, as investors bet on its push into silicon photonics and its role in domestic artificial intelligence infrastructure. The Guangzhou-based ",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3369074/chinese-chip-foundry-cansemis-ipo-oversubscribed-2360-times-investors-chase-ai-boom?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "Chinese RISC-V chipmaker Eswin seeks US$300m in Hong Kong IPO ahead of October debut",
-          "summary": "Beijing Eswin Computing Technology will start soliciting orders from institutional and public investors on Monday ahead of its Hong Kong initial public offering (IPO), aiming to raise around US$300 million, according to people familiar with the matter. The Chinese chipmaker had already started gaugi",
-          "link": "https://www.scmp.com/business/companies/article/3368834/chinese-risc-v-chipmaker-eswin-seeks-us300m-hong-kong-ipo-ahead-october-debut?utm_source=rss_feed",
+          "title": "Hong Kong finds gold-trading leader in former exchange executive Bryan Chan",
+          "summary": "The Hong Kong government has appointed Bryan Chan Ping-keung, a former executive at bourse operator Hong Kong Exchanges and Clearing (HKEX), as CEO to lead the development and operation of the city’s new central clearing and settlement system for gold. Chan will head Hong Kong Precious Metals Centra",
+          "link": "https://www.scmp.com/business/banking-finance/article/3369079/hong-kong-finds-gold-trading-leader-former-exchange-executive-bryan-chan?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "Why Hong Kong banks have shut down 40% of branches in recent years",
-          "summary": "New York may be known as the city that never sleeps, but many Hongkongers like to take care of banking transactions at 2am – a truth that helps explain why 40 per cent of physical branches have disappeared in recent years, according to local bank executives. While the number of Hong Kong licensed ba",
-          "link": "https://www.scmp.com/business/banking-finance/article/3368820/why-hong-kong-banks-have-shut-down-40-branches-recent-years?utm_source=rss_feed",
+          "title": "‘Accomplices’ in espionage: Beijing’s stance on cryptocurrencies hardens",
+          "summary": "China’s top intelligence and security agency on Monday issued a stark new warning on the risks of cryptocurrencies, highlighting their role in crime and stressing that transactions are not anonymous. Here are three things to know about the fresh warning from the Ministry of State Security (MSS) and ",
+          "link": "https://www.scmp.com/business/banking-finance/article/3369048/accomplices-espionage-beijings-stance-cryptocurrencies-hardens?utm_source=rss_feed",
           "source": "SCMP Business"
         },
         {
-          "title": "Asia-Pacific hotels a ‘most compelling’ investment amid travel growth, flat supply: CBRE",
-          "summary": "Investor appetite for hotel assets increased in Hong Kong and the wider Asia-Pacific region in the first half of the year as consumers showed growing eagerness to travel and constrained supply supported property values, according to CBRE. The region netted US$8 billion of investment in the period, u",
-          "link": "https://www.scmp.com/business/article/3368759/asia-pacific-hotels-most-compelling-investment-amid-travel-growth-flat-supply-cbre?utm_source=rss_feed",
+          "title": "China’s Nio and Geely deepen commitment to EV battery swapping tech in stake sale",
+          "summary": "Chinese electric vehicle (EV) maker Nio has deepened its partnership with Zhejiang Geely Holding Group after agreeing to sell a stake in its battery swap subsidiary to the automotive conglomerate in a deal that values the unit at 16 billion yuan (US$2.4 billion). Geely Holding, controlled by Chinese",
+          "link": "https://www.scmp.com/business/china-evs/article/3369047/chinas-nio-and-geely-deepen-commitment-ev-battery-swapping-tech-stake-sale?utm_source=rss_feed",
           "source": "SCMP Business"
         }
       ],
-      "summary": "중국 팹리스 에스윈(Eswin)이 홍콩 증시에서 3억 달러 규모의 IPO를 추진하며 자금 조달에 나섰습니다. 바이오테크와 에너지저장장치(ESS) 분야에서도 글로벌 공급망 재편을 겨냥한 기술 고도화가 활발합니다."
+      "summary": "반도체 파운드리 캔세미(CanSemi)의 IPO가 2,360배 청약 과열을 기록하며 AI 인프라 투자 열기를 입증했고, 폭스바겐과 고션의 배터리 협력 강화 등 공급망 다변화가 지속되는 반면 부동산 시장 침체와 암호화폐 경계령은 지속되고 있습니다."
     }
   },
-  "trend_headline": "AI 인프라 슈퍼사이클과 공급망 기술 패권 경쟁",
-  "summary": "오늘 아시아 시장은 반도체 중심의 설비투자 확대와 기술 패권 경쟁이 전면으로 부각된 하루였습니다. 대만 TSMC의 가격 인상 움직임과 한국의 법인카드 실적 반등이 반도체발 훈풍을 입증했고, 중국은 첨단 칩메이커 IPO와 바이오 혁신을 통해 글로벌 공급망 재편을 가속화하고 있습니다.",
+  "trend_headline": "미국 국채금리 발작과 반도체·AI 인프라 투자 열풍의 교차",
+  "summary": "미국 국채금리 급등에 따른 글로벌 금융시장 충격과 기술주 변동성 확대 속에서도, 아시아 각국은 TSMC의 공격적인 2나노 증설 및 중국 캔세미 IPO 과열 등 AI 반도체와 첨단 인프라 주도권을 선점하기 위한 투자를 가속화하고 있습니다.",
   "cross_country_themes": [
-    "AI and Semiconductor CapEx",
-    "Supply Chain and Tech Security"
+    "미국 국채금리 급등 및 금리 쇼크",
+    "AI 반도체 및 첨단 인프라 투자"
   ],
   "sector_hints": [
     "Semiconductors",
-    "Biotech",
+    "Automotive",
     "Real Estate"
   ]
 }

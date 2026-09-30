@@ -1,41 +1,41 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "region": "US",
   "headlines": [
     {
-      "title": "Boeing 737 Max 10 certification delayed by software issue, FAA says",
-      "summary": "The FAA administrator said the Max 10 will be delayed until the agency can assess a software issue on the aircraft.",
-      "link": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html",
+      "title": "Goldman Sachs CEO succession planning faces one big problem",
+      "summary": "The Goldman Sachs board has reportedly discussed replacing CEO David Solomon, 64, with president John Waldron, 57, as early as next year.",
+      "link": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
       "source": "CNBC"
     },
     {
-      "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
-      "summary": "The chip maker is buying the startup and adding AI pioneer Fei-Fei Li as its chief scientist.",
-      "link": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+      "title": "I m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
+      "summary": "I am a retired senior citizen living check-to-check.",
+      "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | OpenAI Scraps Release of New AI Model Over Safety Concerns",
+      "title": "Robinhood’s Next Big Bet: AI Bots That Trade While You Sleep",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcC0xNDExdTJodUowZi1yeWdFN3M5RlpvY3FvZ1lQeHltWGVkeG01ZTVlaHJ0TldqVVRhekJhWl9ZRTRLNHRqX1NQQVFKMW5NRnhBTmlUNWNpX1FBX3Myc3VlaGIxbFZTZDZYRlYwTGNVLTUtNnJScGJWcm5rX0hMMmNadFFmZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUG5Zb3pfVVZKb2x2TFR5OGJ3dzhGZDhBMUVXZ0NmUkI5WnNLWjVPRFdNcTFYU09nWU9lZGZhOEsxRlE5V0dvcTM1UUdwd1FpczdGNm41MHBuY3V1VDBXSVVHQVhTeHFhcl9FdWhIaXRkc2xtS0FjbFJ5Q3lXYVFTa2hDT3JISk5fc0Y2V0djYVZ3UXk1QTl1dnktVm5RU0lTTFo3dTJiTGs?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "OpenAI Scrapped Latest Model Release Over Safety Fears, WSJ Says",
+      "title": "David Fincher, Director of ‘Fight Club,’ to Exit Netflix Deal",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjA2Z0FLVXc0M054OXNXQWpjclRZeDQ2eWpOMXZpd3NXN291LUo2ejBaWmpvcVVIQjY4bUhoRGQ3RENGVWtIVUlUWXZ0ZHQ3VzRLMF9VaGo0MEVWdGsxdkpLaTVXLThNRnYwaHZnYmZJRFZZaXU0SU1mYjcxdXliTmlMbENMY052bWdkTEVBcFhEMHp5U1Mxd1RHNi1JdmFhc0k1aEYyVFd5dUZ4WkR6MVhUSHk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUzhDd3RLaHNjY3RGVHhoMXJHTzhQT1dOUkZQMDVxUVl6RXhObDd0R0UxZWFLbkNtTTRqdldSbXpRWlZoUmNjbTN4eFdDSFRfS0F5dU43a2dMalFXRkRLN0haYzhiaHlhdmxEVWFQam9IWVU1RXFLZVlyTGFETnRhUGhEcl9XaVZUaWNDa0xqdFBPNld5bGNwRXNIN1FxdGhzcFY3aFl3MEswa3FGY1ZVanJlMF9PRWhwMGIwQQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Stock Falls on AI Jitters, But Q4 Earnings Could Spark a Rebound",
+      "title": "Fair Isaac Stock Had Its Worst Day Since 1989. Is the FICO Score’s Near Monopoly Over?",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04bkI1em1nVkNpenlNVWZ0U2t3eVZPZnBJZVU1am9lcHJhOEtLdmxXMTFYS296T3lUc1ZIZmdZRENuMW9jU0lmSjdhUVN3N3FOTGJ5eG1SYWc5TDJ5SDVQdmM1RDNaNFZyR1YyWGhBbVBxUE9KSEFpUG5WZUw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnIyX292OHFyVENsbVlvLUdaRF9UdXRDT0Nxa01Wam53c0dvVUw3Mll0WTBhXzF4enBxbGRtYlhtVU52bXVLU25WQWlwTFIyMEUxbW05MExkNi1EZFpYQ3loLVNFMFhqNTU0YlZtQ3NDWmdNNnNzeUtmQkFFRmpHLTd0M3dNVDd4S0RPQmI3MA?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board weekly during Iger power battle",
-      "summary": "Former Disney CEO Bob Chapek was ousted from his role as CEO in late 2022, less than three years after taking the post, and replaced by Iger.",
-      "link": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
+      "title": "Ford CEO says it s too late for Europe to fend off Chinese automakers, but not for U.S.",
+      "summary": "CEO Jim Farley's warning comes on the heels of a high-profile visit last week by Chinese President Xi Jinping with President Donald Trump",
+      "link": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
       "source": "CNBC"
     },
     {
@@ -45,45 +45,15 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Vail Resorts’ Ski Pass Sales Tumble, Signaling Another Tough Winter Ahead",
+      "title": "Mystery Deepens Over Alleged U.K. Terror Incident After Suspects Are Freed",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNDRjel9PNk93VmtBdllCSWs0Z29tZUE0UThPbnVaY091X0pEQTdNQUhhM0JkUnRWWVJvVDQ3TFdYUEJPZjl4aDY3SGVCQzFJdUVrUnVndV84WXI1clhHaXpuQ3NZaTdQS3pKbXg3S29HaFNxb09zTHEzSkFtVEh1V2FXMkhhLXBoOWV4ZXJEWThEdHlQNzgtX3lpSzBWN3lVTkRB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa2w1U2NOX25zQl91Z0JSZlhraFlfRThwZzZWSkdLLUQ3SUdreFBXY041eXpGTEd0ZU1pOEJ6cEppLVB3TzZIWXlLeVB4SS1YSWNaMUVweElaTmxuSE1JUGJhQTF5aXNZZjJNd0ctU0tLaEZ5OWpOMGl6R0tNNlZWZWJjWEhjQUZDUGRMY2oxWnRJUGxCbFpoRmxRb0tZcVp6N2s3VUh5eEJuRExuZXNxY3dIWFJOQQ?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Tax-Slashing ‘Holy Grail’ Popularized by AQR Dealt IRS Warning",
+      "title": "Rollout of NYC’s Pied-a-Terre Tax Suffers Setback in Lawsuit",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQV9OUGpud3hHaGhUcWpZcmg5WXhNcnBySDBiWUs3dUgwaWhGQ0QzMzlBZGNaOTFlN0ZWMUpjXy1wb0lKZ1VqMzJ1TklQeXlWVW9WYklGdzVIaVpOc200VzRna1BRWHR6bFpZRlQxaXNHMFZ1dkdOME95RGZ5SERFTnBmZ3NaZnRJNk1LY0ZSc1hzRDI4blU4cmphTjFObDFHNUpiZjd2QnlhZUpKMENIbA?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "SpaceX Stock Falls Despite Starship Reaching Orbit for First Time. Time to Buy?",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QdGpJNUFhcmRfcnBCU0pfcGFYWWZ1UFlGRGQ2QWd0aXRaQlZkTjVnX19pVnR4Y3hpbC1RYU95Z29WT1M0MDBaU1ZXeGJrRkRWbHRfRmVzOFZVcVNIRXZ6TzNld1ZoMlhwWG1FVmhOOU51VEp1dDYtVlh3MVd0QQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Boeing flags 737 Max software glitch affecting some automated approach functions",
-      "summary": "Boeing identified a software issue on some 737 Max aircraft that can affect automated vertical navigation functions after a missed approach.",
-      "link": "https://www.cnbc.com/2026/09/26/boeing-737-max-navigation-software-glitch.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "I want to make her proud : My mother, a divorc e, died and I m her executor. Do I need to file for probate?",
-      "summary": "The only debts were utility and credit-card bills, which we will pay off.",
-      "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | AAR to Pay $1.8 Billion for Stake in Aircraft-Maintenance Company",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeWItQW53WkRJczFvWDlweUxjZkdablQta2RxdWVyZVFuOW1ISGk0Rl81MkwwdVM5U3pBTDZybGVKZHl4cXB5QS1iVmpGVXZWWDNtYzJ2T1Fmc1piNXRkcm9sTUMtZTNVZU9KdXFFdjRINVdGVFN5NnNlTm5VcXdyWTNyZVpZbHFlTDlacENhSDdoZ1VJaVF4UFhrdmVGTzVJM3Bqc1hoeVJOMHJZ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "GOP Leader Thune Says Taxpayers Shouldn’t Pay for Trump TV Ads",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRmNLM3NXNWtrV2xZcGNpX3hWTFFVek9xNXNmSm5Ed1N4TUdMVEVYdERxZWVPanltWm9CNWpTcU94QTNQeWlaRDAxc3ZndU9FalcyUUl2YmRkd1RVNURLWGZ3UXBWc19WU3hUT1dFVXlCaXN5bkNPYUlSeGJYMkpwZ3lRd25TUVVTS3Ruc1Q4bUswLVNtV2tYYWRfTUxkTXE5X2RIczJwZ2paVUQ4WlAyTTFEVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkRoSmNoUjFXcHRQTUxGdFp3YVhrQm9DdVpQRS0yeWc0amo4WHo5UzN0SnFfNnR4eTB6blVmT1ZHT3BpeTVJTjBlemJyamFfelZEeE9hWkU4cU9MVDl5bk1IajJaVFplVlVrS1l2dUxDLXZQbkNDejViU3g2eWJPdzVuYy02STN3ZFYyV21RSThlMUlqby16MVJhdnNfalN5N0RscXFMWkE2OUVYcF81eg?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -93,45 +63,76 @@
       "source": "Barron's"
     },
     {
-      "title": "Trump says he approved new fuel economy standards, rolling back Biden-era rules",
-      "summary": "The new fuel economy standards will reverse the Biden administration's stricter policies meant to spur electric vehicle adoption.",
-      "link": "https://www.cnbc.com/2026/09/26/trump-fuel-economy-cafe-standards.html",
+      "title": "El Pollo Loco to open first New York restaurant as it aims to become national chicken chain",
+      "summary": "El Pollo Loco will open its first New York City restaurant next year in Queens as it aims to become a national chicken chain.",
+      "link": "https://www.cnbc.com/2026/09/29/el-pollo-loco-opens-first-new-york-restaurant.html",
       "source": "CNBC"
     },
     {
-      "title": "I m never selling : I m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-      "summary": "When my paycheck lands, it takes a detour through bitcoin.",
-      "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+      "title": "I d rather be on a beach in Bali : My husband resents my $8 million net worth. Should I pay for his retirement?",
+      "summary": "We have an ironclad prenup.",
+      "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Raytheon Gets $20.7 Billion Contract to Accelerate AMRAAM Missile Production",
+      "title": "U.S. Stocks Edge Lower as Consumer Confidence Sinks",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOTk3eWpkQldvWm5sM3ZFTjJIQVg1VlpCX01QS2s3WENYSUYyU1BjQTgzenU0aXBvVVVGRDFrNDIzb21BcDVOaWwtOWZNVlMxZmg2Yi04RUNuZWNTeHhIcG96OXc3WDY1MlFuS3BVSG14WGpkN0RNd3p6TnpobVhsck5iTEZEU0U1WnM5dUh0czhPcVljdVlCUk1QS1dmMG9EYnRRWDdhMDEtZk5xeWlwY2FxVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWko3cmRCbHVySThrYWU1NU0yTUlDT3pvQ25aQmlQSnppNU5jcnJ4cHRPdUphUnc2bFNXcko1TDg0WVZQczIybXhjRHR5TXB0aGV4RjIza21EaDZ1UlRudERidGNVZWlSbDFrV0plNUxBaVVpaU05RmJ4RWFmWmdiQkRBVXVLT0hGWWk0eG1ObzBGNVgyRUxvSFF3?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion",
+      "title": "Supreme Court Lets Trump’s Third-Country Deportations Resume",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZW1PMmt1Q2c4TzNIaDNIbEs2TWQ3V0xQc1F6QXpzdHdHalpEWlk5ZlhoYnVHVXlsUGdmRm1Fd05aek1UdGFWT2dTZmFBUk9HZDAtRE85NFEwWXhnaHFqdWdSNzkzbWFMUWRxaDQ1VU4tblBrSFhRYkR3VEltUnhtMlI3dmhkcDE5OEx5T2l3RjZ6amdzVFhyeXE1Z2ZTQ0liUVFlREVzZU52THFDM29XSXpB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRHh6ZkJGU2loWEI3RFZFSmx3VkNHMzBtMmVPNTNqc3hwenJMeDNlRml2NFh4VGRCSVBuVERaU0RvY1hEWU14bFRVZHktYk1qRTZaTU53U1lyUERaM2I3R0wtSVlOY1F5ZG5fNVBCMFB5a3ctWkZhS193dW1TdmE2TXc4eDd5VHNicTJfTE10c29iXzZaUnBBWnJnYi1UUHQ5SlpfZzJacWpBLXZoQXRqeQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Why Chinese EV Maker NIO Is Selling Part of Its Battery Unit",
+      "title": "10-Year Treasury Yield Surges Toward 6%: What It Means for Stocks and Debt Markets",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR01icHN5UHR6Y0RsQktwQzI3cldIb2xubWZaNEhFcERXX1BRbWVJajcxVEJQNk5kcWQ4Skc2TkJLQTZnRG44Q2hRNDg5N3R5M2dXQnRjTG53Y2lFclNUSjVfb0RCYTNyMlY5UnZhcVVHVVQzY3JfOG5aVFFVVUo2dg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSjdBLUdwUzZodVE0RlNfR1pxQVJsZFlONjRiS3B1eno1NFB6aTBoNkV0QU8yUjVpbzVxNkV4TFNQWnBoSEVxQzh3empkZm94amxNNmN0VVd5LUNoLUx1djRZa2lEZHdaM09PcjlWZUVXb1BTS1hrMlRsNFlHVkh4a2ZRMzMtQQ?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Disney laying off around 300 employees in latest cuts under new CEO Josh D Amaro",
+      "summary": "Disney warned about the most recent round of cuts in its August earnings report as one of the levers it was evaluating to reduce costs at the company.",
+      "link": "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Hollywood s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
+      "summary": "The Paramount financing will be a closely watched barometer of dealmaking appetite despite rising borrowing costs in 2026.",
+      "link": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Treasury Will Auto-Enroll 60 Million Children in Trump Accounts",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYkZENkZvVmlZTEtzRTZGaWpZbjVPTWxpYVAzUlJWQ2RjYndiZDdKRTJsR2ozcGdnWG9NTGhaamprSXpxbXllOWxWMXV2ZDFUcGpGRnY5X0owSTZUQmVpdjlHaERxMnlUQ0hiRlVCXzJpWEw0b1pzTzYwS0N6SHNZd3pZUzNBaWZvMjJ2ajdxMjl3QXVTV2gwUnBsektfYWdD?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Hegseth to Cut Pentagon Posts Reserved for Generals, Admirals By 20%",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaDlwM1NNcDBVZ181MERTTmFRZ3FFNGYtUWowTlh3Rkx1c1FReUlCZlc5Z3hIWjlOWWlyVDhlWnZmdnZWaHhZSHZrTWNIamNaaWhHNTVVUFU0MnI5bVN0S1VoV01aamNZb0xrWjdyM3M5Q2NIdWlBZXRxbTBBcjNYeXVidjNoN0Y3a1JsbXo3a243N2J6QVJ6UldvMm9MSkNtSGJwU1d5T1J2NUs3U3dlUA?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Iovance Stock Surges as Strong Melanoma Drug Demand Drives Growth",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVUUyNW9VOWg0T0hOX0JOcG0zR2Q5TXRaek5UZXNCZHNlc1BEeGZ5T1d4R1dIMVdrQTVzcG8tTHZpSzB2TEY2ZFFQRE5OczVGMWU2V29pbXIyTjdjZ29ybVB2aG12RC13cUxxYnozMW5KSS1wTEJ1WlM0SFl5cW9RTjI2TWo0SXh2cE80WTdn?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "AMD, 82억 달러 규모 World Labs 인수로 AI 판도 공략",
-  "summary": "AMD가 AI 개척자 펠릭스 리가 이끄는 World Labs를 82억 달러에 인수하며 차세대 AI 시장 공략에 본격적으로 나섰습니다. 한편, 오픈AI는 안전성 우려로 신형 AI 모델 출시를 보류했으며, 국채 매도세 심화 속에서 미국 증시는 하락 압력을 받았습니다.",
+  "trend_headline": "국채금리 급등과 소비자심리 악화의 충격",
+  "summary": "10년물 국채금리가 6%를 향해 급등하고 소비자심리가 침체되면서 미국 증시가 하락 압력을 받았습니다. 이와 함께 공정거래법 리스크에 직면한 FICO(Fair Isaac) 주가가 폭락하는 등 개별 기업들의 변동성도 확대되었습니다.",
   "key_points": [
-    "AMD, 펠릭스 리의 AI 스타트업 World Labs를 82억 달러에 인수",
-    "오픈AI, 안전성 우려로 최신 AI 모델 출시 전격 보류",
-    "국채 금리 상승 및 매도세 심화 여파로 미 증시 하락세 기록"
+    "10년물 국채금리가 6%를 향해 급등하며 주식 및 채무 시장에 부담을 가중시켰습니다.",
+    "소비자심리 악화로 미국 증시가 하락세를 기록했습니다.",
+    "FICO Score 독점력 우려로 Fair Isaac 주가가 1989년 이후 최악의 하락 폭을 기록했습니다."
   ],
   "sector_hints": [
+    "Financials",
     "Technology",
-    "Semiconductors"
+    "Consumer Discretionary"
   ]
 }

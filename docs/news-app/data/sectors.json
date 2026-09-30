@@ -1,66 +1,92 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 7.8,
-      "rationale": "AMD의 World Labs 인수와 TSMC의 2나노 공정 및 대규모 패키징 공장 신설 등 AI 하드웨어 수요를 뒷받침하는 공격적인 투자가 이어지고 있으며, 중국 캔세미 IPO 흥행 등 반도체 업황에 대한 강력한 투자 열기가 확인됨.",
+      "score": 7.5,
+      "rationale": "대만 TSMC의 2nm 공정 확장 및 애리조나 투자 기대감, 일본 기업들의 AI 부품 동맹, 중국 메모리 설비 투자 등 아시아 중심의 공급망 재편과 투자 확대 호재가 지속되고 있습니다.",
       "related_tickers": [
-        "AMD",
-        "TSM"
+        "TSM",
+        "NVDA",
+        "ASML"
       ],
       "source_regions": [
-        "US",
         "ASIA"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "국제유가가 100달러를 상회하는 고유가 기조 속에서 미국의 디젤 수출 제한 우려 등 공급 차질 위험이 부각됨. 이에 따라 토탈에너지스 등 유럽 대형 정유사들의 호실적 기반 자사주 매입 확대 등 주주환원 매력도가 증가함.",
+      "score": 6.5,
+      "rationale": "유럽 내 정유 시설 장애 및 지정학적 긴장으로 인해 디젤, 가스, 전력 가격 급등세가 지속되며 정유 및 에너지 생산 기업들의 수익성 개선이 기대됩니다.",
       "related_tickers": [
+        "SHEL",
         "TTE",
-        "SHEL"
+        "BP"
       ],
       "source_regions": [
-        "EUROPE"
+        "EU"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "독일 대표 자동차 기업들의 대규모 리콜 사태와 EU-중국 간 무역 갈등으로 인한 프랑스 수출 산업(코냐크 등)의 타격, 대만/일본 내 EV 규제 리스크가 복합적으로 작용하여 소비재 및 자동차 섹터에 부정적 압력으로 작용함.",
+      "score": -7.5,
+      "rationale": "미국의 국채금리 급등과 소비자심리 위축, 한국의 소비 감소, 유럽의 겨울철 에너지 요금 급증에 따른 가계 실질소득 압박 등 글로벌 전반에 걸쳐 임의소비재 악재가 중첩되었습니다.",
       "related_tickers": [
-        "BMW",
-        "MBG",
-        "TM"
+        "AMZN",
+        "TSLA",
+        "NKE"
       ],
       "source_regions": [
-        "EUROPE",
-        "ASIA"
+        "US",
+        "ASIA",
+        "EU"
       ]
     },
     {
-      "name": "Real Estate",
+      "name": "Financials",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "미국 국채 금리 급등에 따른 고금리 장기화로 한국 등 아시아 지역 내 자금 경색(전세금 미회수 및 주식 담보 대출 증가) 우려가 커졌으며, 중국의 부동산 시장 침체 장기화 또한 지속적인 악재로 작용함.",
+      "score": -6.5,
+      "rationale": "미국 10년물 국채금리가 6%에 육박하며 시장 부담을 가중시킨 가운데, FICO의 독점 우려로 인한 주가 폭락 및 프랑스의 사상 최고치 공공부채 등 글로벌 금융 신용 리스크가 부각되었습니다.",
       "related_tickers": [
-        "1109",
-        "2007"
+        "FICO",
+        "JPM",
+        "BAC"
       ],
       "source_regions": [
-        "ASIA"
+        "US",
+        "EU"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "한국의 8월 생산·소비·투자 트리플 감소 등 경기 둔화 우려와 유럽 내 정유/에너지 비용 급등에 따른 제조업 산업계의 비용 부담이 가중되고 있습니다.",
+      "related_tickers": [
+        "CAT",
+        "HON"
+      ],
+      "source_regions": [
+        "ASIA",
+        "EU"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "미국 10년물 국채금리가 6% 수준으로 급등하면서 고밸류에이션 기술주 전반에 상방 압력이 제한되고 하락 요인으로 작용하고 있습니다.",
+      "related_tickers": [
+        "AAPL",
+        "MSFT"
+      ],
+      "source_regions": [
+        "US"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Technology",
-      "note": "미국 AMD의 AI 기업 인수 등 M&A 활성화 및 아시아 기술 투자는 긍정적이나, 오픈AI의 신규 모델 출시 보류 및 글로벌 국채 금리 급등(금리 쇼크)으로 인한 기술주 전반의 밸류에이션 부담이 하방 압력으로 작용하며 신호가 엇갈림."
-    }
-  ]
+  "conflicting_signals": []
 }

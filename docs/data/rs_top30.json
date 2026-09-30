@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "rs90_count": 13,
   "stocks": [
     {
@@ -15,15 +15,15 @@
       "rs_rating": 97.6
     },
     {
-      "ticker": "AMD",
+      "ticker": "LITE",
       "rs_rating": 97.0
     },
     {
-      "ticker": "STX",
+      "ticker": "AMD",
       "rs_rating": 96.3
     },
     {
-      "ticker": "LITE",
+      "ticker": "STX",
       "rs_rating": 95.6
     },
     {
@@ -43,11 +43,11 @@
       "rs_rating": 92.9
     },
     {
-      "ticker": "PANW",
+      "ticker": "FTNT",
       "rs_rating": 91.5
     },
     {
-      "ticker": "FTNT",
+      "ticker": "PANW",
       "rs_rating": 90.8
     },
     {
@@ -59,35 +59,35 @@
       "rs_rating": 89.4
     },
     {
-      "ticker": "ETHU",
+      "ticker": "AMAT",
       "rs_rating": 88.8
     },
     {
-      "ticker": "ETHT",
+      "ticker": "LRCX",
       "rs_rating": 88.1
     },
     {
-      "ticker": "LRCX",
+      "ticker": "ETHU",
       "rs_rating": 87.4
     },
     {
-      "ticker": "ANET",
+      "ticker": "ETHT",
       "rs_rating": 86.7
     },
     {
-      "ticker": "AMAT",
+      "ticker": "ANET",
       "rs_rating": 86.0
     },
     {
-      "ticker": "COHR",
+      "ticker": "ASML",
       "rs_rating": 85.3
     },
     {
-      "ticker": "ASML",
+      "ticker": "COHR",
       "rs_rating": 84.7
     },
     {
-      "ticker": "PLTR",
+      "ticker": "TXN",
       "rs_rating": 84.0
     },
     {
@@ -95,40 +95,40 @@
       "rs_rating": 83.3
     },
     {
-      "ticker": "TXN",
+      "ticker": "ADI",
       "rs_rating": 82.6
     },
     {
-      "ticker": "MSTR",
+      "ticker": "AMGN",
       "rs_rating": 81.9
     },
     {
-      "ticker": "ADI",
+      "ticker": "PLTR",
       "rs_rating": 81.2
     },
     {
-      "ticker": "AMGN",
+      "ticker": "MPWR",
       "rs_rating": 80.6
     },
     {
-      "ticker": "AAPL",
+      "ticker": "CSCO",
       "rs_rating": 79.9
     },
     {
-      "ticker": "BITX",
-      "rs_rating": 79.2
+      "ticker": "ROST",
+      "rs_rating": 78.5
     },
     {
-      "ticker": "ETHA",
+      "ticker": "QETH",
       "rs_rating": 77.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 34.1,
+    "VKTX": 27.3,
     "MRVL": 94.2,
-    "CRDO": 78.5,
+    "CRDO": 79.2,
     "NBIS": 92.2,
-    "RDDT": 8.9,
-    "VRT": 49.2
+    "RDDT": 7.5,
+    "VRT": 53.3
   }
 }

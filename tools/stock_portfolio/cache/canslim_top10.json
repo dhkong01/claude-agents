@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "analyzed": 140,
   "top10": [
     {
@@ -16,8 +16,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 991842861056,
-      "price": 607.57,
+      "market_cap": 998682918912,
+      "price": 611.76,
       "rs_rating": 96.3
     },
     {
@@ -34,8 +34,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 129104265216,
-      "price": 175.96,
+      "market_cap": 131158646784,
+      "price": 178.76,
       "rs_rating": 91.5
     },
     {
@@ -52,8 +52,8 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 229033345024,
-      "price": 423.64,
+      "market_cap": 227881795584,
+      "price": 421.51,
       "rs_rating": 81.9
     },
     {
@@ -70,9 +70,63 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 313639174144,
-      "price": 293.67,
+      "market_cap": 309356462080,
+      "price": 289.66,
       "rs_rating": 90.1
+    },
+    {
+      "ticker": "MU",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 1202927960064,
+      "price": 1065.11,
+      "rs_rating": 98.3
+    },
+    {
+      "ticker": "STX",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 209733681152,
+      "price": 922.34,
+      "rs_rating": 95.6
+    },
+    {
+      "ticker": "MRVL",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 237446742016,
+      "price": 264.21,
+      "rs_rating": 94.9
     },
     {
       "ticker": "WDC",
@@ -88,8 +142,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 163498098688,
-      "price": 453.48,
+      "market_cap": 163851419648,
+      "price": 454.46,
       "rs_rating": 92.9
     },
     {
@@ -106,8 +160,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 96433184768,
-      "price": 268.56,
+      "market_cap": 98332696576,
+      "price": 273.85,
       "rs_rating": 89.4
     },
     {
@@ -124,63 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 255852036096,
-      "price": 202.86,
+      "market_cap": 256772734976,
+      "price": 203.59,
       "rs_rating": 86.0
-    },
-    {
-      "ticker": "TXN",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 257252737024,
-      "price": 281.69,
-      "rs_rating": 84.0
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 32694536192,
-      "price": 86.64,
-      "rs_rating": 83.3
-    },
-    {
-      "ticker": "CRWD",
-      "canslim_score": 54,
-      "scores": {
-        "C": 5,
-        "A": 5,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 269028638720,
-      "price": 262.74,
-      "rs_rating": 93.5
     }
   ]
 }

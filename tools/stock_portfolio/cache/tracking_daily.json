@@ -1,25 +1,15 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "data": [
     {
-      "ticker": "TXN",
-      "current": 281.69,
-      "donchian_upper": 278.31,
-      "donchian_lower": 258.14,
+      "ticker": "MRVL",
+      "current": 263.27,
+      "donchian_upper": 262.36,
+      "donchian_lower": 221.7,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.2,
-      "dist_to_lower_pct": 8.4,
-      "channel_width_pct": 7.8
-    },
-    {
-      "ticker": "CRWD",
-      "current": 262.74,
-      "donchian_upper": 262.49,
-      "donchian_lower": 237.65,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.1,
-      "dist_to_lower_pct": 9.5,
-      "channel_width_pct": 10.5
+      "dist_to_upper_pct": -0.3,
+      "dist_to_lower_pct": 15.8,
+      "channel_width_pct": 18.3
     },
     {
       "ticker": "AMAT",
@@ -40,6 +30,16 @@
       "dist_to_upper_pct": -3.4,
       "dist_to_lower_pct": 13.2,
       "channel_width_pct": 11.3
+    },
+    {
+      "ticker": "TXN",
+      "current": 281.69,
+      "donchian_upper": 278.31,
+      "donchian_lower": 258.14,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.2,
+      "dist_to_lower_pct": 8.4,
+      "channel_width_pct": 7.8
     },
     {
       "ticker": "ADI",

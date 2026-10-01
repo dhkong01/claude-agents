@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "rs90_count": 13,
   "stocks": [
     {
@@ -27,11 +27,11 @@
       "rs_rating": 95.6
     },
     {
-      "ticker": "INTC",
+      "ticker": "MRVL",
       "rs_rating": 94.9
     },
     {
-      "ticker": "MRVL",
+      "ticker": "INTC",
       "rs_rating": 94.2
     },
     {
@@ -63,11 +63,11 @@
       "rs_rating": 88.8
     },
     {
-      "ticker": "LRCX",
+      "ticker": "ETHU",
       "rs_rating": 88.1
     },
     {
-      "ticker": "ETHU",
+      "ticker": "LRCX",
       "rs_rating": 87.4
     },
     {
@@ -79,11 +79,11 @@
       "rs_rating": 86.0
     },
     {
-      "ticker": "ASML",
+      "ticker": "COHR",
       "rs_rating": 85.3
     },
     {
-      "ticker": "COHR",
+      "ticker": "ASML",
       "rs_rating": 84.7
     },
     {
@@ -107,16 +107,16 @@
       "rs_rating": 81.2
     },
     {
-      "ticker": "MPWR",
+      "ticker": "CSCO",
       "rs_rating": 80.6
     },
     {
-      "ticker": "CSCO",
+      "ticker": "MPWR",
       "rs_rating": 79.9
     },
     {
-      "ticker": "ROST",
-      "rs_rating": 78.5
+      "ticker": "GILD",
+      "rs_rating": 79.2
     },
     {
       "ticker": "QETH",
@@ -125,10 +125,10 @@
   ],
   "portfolio_rs": {
     "VKTX": 27.3,
-    "MRVL": 94.2,
-    "CRDO": 79.2,
+    "MRVL": 94.9,
+    "CRDO": 78.5,
     "NBIS": 92.2,
-    "RDDT": 7.5,
-    "VRT": 53.3
+    "RDDT": 8.2,
+    "VRT": 53.9
   }
 }

@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Household energy bills forecast to see biggest rise in four years",
-      "summary": "A typical household faces an annual gas and electricity bill of £1,999 from January, based on a key forecast.",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
+      "title": "Vape prices to rise as new tax takes effect",
+      "summary": "Vaping is about to becoming more expensive due to a new tax on products.",
+      "link": "https://www.bbc.co.uk/news/articles/c6j4jrjgv2j7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Stellantis to halt four French plants for several days over supply shortage",
-      "summary": "The Italian-French-American carmaker has been hit by surging demand for electric vehicles, particularly from business customers.",
-      "link": "https://www.euronews.com/2026/09/29/stellantis-to-halt-four-french-plants-for-several-days-over-supply-shortage",
+      "title": "TAP: final bids from Air France-KLM and Lufthansa have been submitted",
+      "summary": "Air France-KLM and Lufthansa submitted their final bids on Wednesday to buy a 44.9% stake in TAP, closing the bidding phase and leaving the decision to the government.",
+      "link": "https://www.euronews.com/2026/09/30/tap-final-bids-from-air-france-klm-and-lufthansa-have-been-submitted",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Bruxelles veut clarifier les responsabilités des autorités face aux catastrophes climatiques",
-      "summary": "La nouvelle proposition de la Commission européenne cherchera à préciser qui, des autorités nationales ou locales, est chargé de gérer les feux de forêt et les inondations.",
-      "link": "https://www.politico.eu/article/bruxelles-veut-clarifier-les-responsabilites-des-autorites-face-aux-catastrophes-climatiques/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "FlyDubai suspends flights to and from Israel after pilot stabbing",
+      "summary": "Passengers and crew members entered the cockpit and overpowered the attacker, according to officials.",
+      "link": "https://www.politico.com/news/2026/09/30/flydubai-flights-israel-pilot-stabbing-01101806?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Faisal Islam: Triple lock move is significant, but it's a gamble",
-      "summary": "I had expected him to try to forge a political consensus on this thorny issue at this stage, but he has gone further than that.",
-      "link": "https://www.bbc.co.uk/news/articles/cwp93d078j8no?at_medium=RSS&at_campaign=rss",
+      "title": "Energy bills are going up - here's what you can do about it",
+      "summary": "Household energy bills have risen again but there are ways to keep a lid on your expenditure.",
+      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "France's public debt soars to a record 119% of GDP",
-      "summary": "France's public debt reached 3,595.5 billion euros at the end of June, Insee said, a record high that is set to keep rising as the outlook worsens.",
-      "link": "https://www.euronews.com/2026/09/29/frances-public-debt-soars-to-a-record-119-of-gdp",
+      "title": "AIIB reaffirms commitment to close global infrastructure financing gap at Doha meeting",
+      "summary": "The 11th AIIB annual meeting brings policymakers, investors and business leaders from around the world to Doha to explore how technology, sustainability, connectivity and investment are reshaping the way cities and economies develop.",
+      "link": "https://www.euronews.com/2026/09/30/aiib-reaffirms-commitment-to-close-global-infrastructure-financing-gap-at-doha-meeting",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Global trade weathers Iran, Ukraine and Trump s tariffs",
+      "summary": "Over the past six years, COVID, two wars and Donald Trump s tariffs have shaken world trade. With globalization already stalling, is this a temporary shock or the start of a great reversal?",
+      "link": "https://www.dw.com/en/global-trade-weathers-iran-ukraine-and-trump-s-tariffs/a-79352643?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Inside Zuckerberg, Huang’s push for White House AI pact",
+      "summary": "The tech leaders helped build support for the “morally binding” accords signed by President Trump and AI leaders at a White House lunch.",
+      "link": "https://www.politico.com/news/2026/09/30/zuckerberg-huang-white-house-ai-pact-01101248?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Household energy bills forecast to see biggest rise in four years",
+      "summary": "A typical household faces an annual gas and electricity bill of £1,999 from January, based on a key forecast.",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "BMW's strategy: Job cuts, AI and a €2bn bet on ‘Made in Germany’",
+      "summary": "German premium carmaker BMW Group is investing around €2 billion in vehicle production and battery manufacturing in Germany, as it unveils plans to rebuild profitability.",
+      "link": "https://www.euronews.com/2026/09/30/bmws-strategy-job-cuts-ai-and-a-2bn-bet-on-made-in-germany",
       "source": "Euronews Business"
     },
     {
@@ -45,94 +69,69 @@
       "source": "DW Business"
     },
     {
-      "title": "Tax cuts, handouts and blind hope: Europe finds few tools to fight a coming energy crunch",
-      "summary": "European energy ministers gathered in Dublin had limited new ideas to protect against a winter of soaring power bills.",
-      "link": "https://www.politico.eu/article/eu-energy-prices-winter-diesel-exports-gas-costs/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Hegseth vows to shrink the Pentagon — and then announces plans to grow it",
+      "summary": "The Defense secretary announced several major initiatives that appear to contradict his efforts to cut the department’s bloat.",
+      "link": "https://www.politico.com/news/2026/09/30/hegseth-pentagon-defense-speech-01101242?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "'I like proving people wrong': The women taking up DIY and plumbing",
-      "summary": "Female DIY experts and tradeswomen talk about their experiences of a traditionally male-dominated domain.",
-      "link": "https://www.bbc.co.uk/news/articles/cm89jkn232xxo?at_medium=RSS&at_campaign=rss",
+      "title": "Regulating AI 'not the right place to start' says Bailey",
+      "summary": "AI needs \"rigorous\" testing and safeguards to contain risk, Andrew Bailey says.",
+      "link": "https://www.bbc.co.uk/news/articles/cvzez7k0pn40o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Middle East oil exports rise as LNG traffic through Hormuz picks up",
-      "summary": "Months into the war with Iran, Gulf exporters are finding ways to keep oil and gas moving, but crossing Hormuz remains risky and some customers are still missing contracted cargoes.",
-      "link": "https://www.euronews.com/2026/09/29/middle-east-oil-exports-rise-as-lng-traffic-through-hormuz-picks-up",
+      "title": "Inflation accelerates again in Italy: September rate hits 4.2%, a three-year high",
+      "summary": "Consumer price index accelerates driven by energy goods and fresh food. Between historical memory and daily worries, Istat records a sharp drop in confidence among households and firms.",
+      "link": "https://www.euronews.com/2026/09/30/inflation-accelerates-again-in-italy-september-rate-hits-42-a-three-year-high",
       "source": "Euronews Business"
     },
     {
-      "title": "Burnham tried to plot the next 7 years of UK politics in one speech",
-      "summary": "Four issues — Europe, electoral reform, social care and public sector pensions — towered over the rest in the U.K. leader's first speech to conference.",
-      "link": "https://www.politico.eu/article/andy-burnham-labour-conference-speech-next-seven-years-uk-politics/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Meloni implores von der Leyen to let countries overspend to battle energy crunch",
+      "summary": "Italy has fallen foul of EU overspending rules, which it wants relaxed to deal with higher energy costs.",
+      "link": "https://www.politico.eu/article/giorgia-meloni-fiscal-rules-spending-plea-energy-crunch-ursula-von-der-leyen/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Huel ad banned for suggesting its products could replace all conventional food",
-      "summary": "The advertising watchdog said that viewers could assume from the ad that replacing all normal food with Huel was \"nutritionally appropriate\".",
-      "link": "https://www.bbc.co.uk/news/articles/c920v3y1gjgpo?at_medium=RSS&at_campaign=rss",
+      "title": "Greggs to shut four factories and cut 740 jobs",
+      "summary": "The company says it needs to \"keep evolving alongside changing customer expectations\".",
+      "link": "https://www.bbc.co.uk/news/articles/cm7802ylq973o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Italy's battery gold rush: Energy storage creates a new market",
-      "summary": "From paper projects to batteries now online: the energy market is changing and the value of storage is soaring worldwide",
-      "link": "https://www.euronews.com/2026/09/29/italys-battery-gold-rush-energy-storage-creates-a-new-market",
+      "title": "Europe’s carmakers face growing competition from AI for vital supplies",
+      "summary": "Europe's car industry is most at risk from its reliance on a handful of countries for chips and critical materials, according to a new report which warns that going electric is pitting carmakers against AI and data centres for the same supplies.",
+      "link": "https://www.euronews.com/2026/09/30/europes-carmakers-face-growing-competition-from-ai-for-vital-supplies",
       "source": "Euronews Business"
     },
     {
-      "title": "Greek opposition jabs ruling party over reported threats from Trump s envoy",
-      "summary": "Kimberly Guilfoyle has caused a stir in Athens and Bucharest.",
-      "link": "https://www.politico.eu/article/greece-opposition-demands-clarity-over-kimberly-guilfoyle-minister-threat/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Key allies left out of Trump’s new in-crowd NATO group",
+      "summary": "Some of Europe’s biggest defense spenders — and U.S. allies — were not invited to a Pentagon-led meeting to discuss the alliance.",
+      "link": "https://www.politico.com/news/2026/09/30/trump-nato-allies-left-out-01100310?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Chinese AI tool told researchers how to make bioweapons",
-      "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
-      "link": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
+      "title": "The AI telling farmers when to harvest",
+      "summary": "Will farmers want AI tools to help judge when to pick fruit, or is their own intuition enough?",
+      "link": "https://www.bbc.co.uk/news/articles/cgk53dkmyxko?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Anthropic IPO filing warns AI may pose 'existential risks to humanity'",
-      "summary": "Anthropic has devoted almost a third of its IPO prospectus to risk factors, warning that its AI may pose existential risks to humanity , while the filing also reveals a $42 billion (€36.9bn) net loss last year and a heavy reliance on just two customers.",
-      "link": "https://www.euronews.com/2026/09/29/anthropic-ipo-filing-warns-ai-may-pose-existential-risks-to-humanity",
+      "title": "Chinese-run Brussels networking club raises intelligence concerns",
+      "summary": "The Global CEOs Dinner Club brings business leaders and political figures together at high-level events in Brussels and is now seeking to expand into France.",
+      "link": "https://www.euronews.com/2026/09/30/chinese-run-brussels-networking-club-raises-intelligence-concerns",
       "source": "Euronews Business"
-    },
-    {
-      "title": "Merz says Lavrov comments show Moscow not interested in serious negotiations",
-      "summary": "The chancellor’s remarks come days after a surprise meeting between Russia’s foreign minister and his German counterpart.",
-      "link": "https://www.politico.eu/article/friedrich-merz-sergey-lavrov-russia-not-interested-serious-negotiations/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "The start-ups hoping to return battery making to the US",
-      "summary": "Batteries based on sodium-ion technology could be made in the US with locally sourced materials.",
-      "link": "https://www.bbc.co.uk/news/articles/cvgyexx4g8ro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "German retailer Metro loses control of Russian business after Putin decree",
-      "summary": "Russian President Vladimir Putin has ordered that the assets of German retailer Metro AG be placed under temporary administration. The move comes amid escalating tensions between Germany and Russia over the Ukraine war.",
-      "link": "https://www.euronews.com/2026/09/29/german-retailer-metro-loses-control-of-russian-business-after-putin-decree",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "UK energy infrastructure under constant threat, minister warns",
-      "summary": "It is a \"really scary world,\" Michael Shanks told Labour's annual conference.",
-      "link": "https://www.politico.eu/article/uk-energy-infrastructure-under-constant-threat-minister-warns/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
     }
   ],
-  "trend_headline": "에너지 가격 급등과 디젤 공급망 차질, 유로존 물가 재점화",
-  "summary": "정유 시설 차질과 지정학적 리스크로 유럽 내 디젤 및 가스 가격이 급등하며 다가오는 겨울철 가계와 산업계의 비용 압박이 가중되고 있습니다. 프랑스의 공공부채가 GDP의 119%로 사상 최고치를 기록한 가운데, 에너지 위기 대응을 위한 마땅한 정책적 대안이 부재하여 재정 부담이 심화되고 있습니다.",
+  "trend_headline": "에너지 공급망 위기와 인플레이션 압박 심화",
+  "summary": "중동 발 지정학적 리스크로 인한 디젤 및 에너지 가격 급등이 유럽 전역의 물가 상승을 부채질하고 있으며, 이탈리아의 9월 인플레이션이 3년 내 최고치를 기록했습니다. 이에 따라 자동차 및 제조 섹터는 공급망 차질과 에너지 비용 부담이라는 이중고에 직면해 있습니다.",
   "key_points": [
-    "영국 가계 에너지 요금이 내년 1월부터 4년 내 최고폭인 £1,999까지 상승할 전망",
-    "프랑스 공공부채가 3조 5,955억 유로(GDP의 119%)로 사상 최고치 경신",
-    "정유 시설 장애와 지정학적 긴장으로 유럽 내 디젤 및 전력 가격 급등세 지속"
+    "이탈리아 9월 소비자물가지수(CPI) 상승률이 에너지 및 신선식품 주도로 3년 내 최고치인 4.2%를 기록했습니다.",
+    "정유 차질과 지정학적 긴장 여파로 디젤 및 연료 가격이 급등하며 유럽 운송·농업·제조업에 직접적인 압박을 가하고 있습니다.",
+    "스텔란티스는 공급망 차질로 인해 프랑스 내 4개 공장의 가동을 일시 중단했습니다."
   ],
   "sector_hints": [
     "Energy",
-    "Automotive",
-    "Financials"
+    "Automotive"
   ]
 }

@@ -1,92 +1,56 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 7.5,
-      "rationale": "대만 TSMC의 2nm 공정 확장 및 애리조나 투자 기대감, 일본 기업들의 AI 부품 동맹, 중국 메모리 설비 투자 등 아시아 중심의 공급망 재편과 투자 확대 호재가 지속되고 있습니다.",
+      "score": 8.5,
+      "rationale": "미국 마이크론의 예상을 상회하는 실적 및 가이던스 발표와 한국의 사상 최대 반도체 수출 실적($603억), 대만 TSMC의 AI 반도체 공급망 패권 유지가 결합되며 글로벌 반도체 섹터 전반에 강력한 상승 압력을 제공하고 있습니다.",
       "related_tickers": [
+        "MU",
         "TSM",
         "NVDA",
-        "ASML"
+        "005930"
       ],
       "source_regions": [
+        "US",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.2,
+      "rationale": "유럽 스텔란티스의 공급망 차질로 인한 공장 가동 중단, 중국의 전기차 배터리 세제 혜택 종료 및 대규모 손실에 따른 구조조정 압박 등 글로벌 자동차 및 전기차 밸류체인의 둔화 우려가 심화되었습니다.",
+      "related_tickers": [
+        "STLA",
+        "TSLA",
+        "1211"
+      ],
+      "source_regions": [
+        "ASIA",
+        "EUROPE"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
       "score": 6.5,
-      "rationale": "유럽 내 정유 시설 장애 및 지정학적 긴장으로 인해 디젤, 가스, 전력 가격 급등세가 지속되며 정유 및 에너지 생산 기업들의 수익성 개선이 기대됩니다.",
+      "rationale": "중동 지정학적 리스크 여파와 정유 차질로 디젤 및 연료 가격이 급등하면서 정유 및 에너지 생산 기업들의 수익성 개선 기대감이 커지고 있습니다.",
       "related_tickers": [
+        "XOM",
         "SHEL",
-        "TTE",
-        "BP"
+        "TTE"
       ],
       "source_regions": [
-        "EU"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.5,
-      "rationale": "미국의 국채금리 급등과 소비자심리 위축, 한국의 소비 감소, 유럽의 겨울철 에너지 요금 급증에 따른 가계 실질소득 압박 등 글로벌 전반에 걸쳐 임의소비재 악재가 중첩되었습니다.",
-      "related_tickers": [
-        "AMZN",
-        "TSLA",
-        "NKE"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA",
-        "EU"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "미국 10년물 국채금리가 6%에 육박하며 시장 부담을 가중시킨 가운데, FICO의 독점 우려로 인한 주가 폭락 및 프랑스의 사상 최고치 공공부채 등 글로벌 금융 신용 리스크가 부각되었습니다.",
-      "related_tickers": [
-        "FICO",
-        "JPM",
-        "BAC"
-      ],
-      "source_regions": [
-        "US",
-        "EU"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "한국의 8월 생산·소비·투자 트리플 감소 등 경기 둔화 우려와 유럽 내 정유/에너지 비용 급등에 따른 제조업 산업계의 비용 부담이 가중되고 있습니다.",
-      "related_tickers": [
-        "CAT",
-        "HON"
-      ],
-      "source_regions": [
-        "ASIA",
-        "EU"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "미국 10년물 국채금리가 6% 수준으로 급등하면서 고밸류에이션 기술주 전반에 상방 압력이 제한되고 하락 요인으로 작용하고 있습니다.",
-      "related_tickers": [
-        "AAPL",
-        "MSFT"
-      ],
-      "source_regions": [
-        "US"
+        "EUROPE"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Industrials",
+      "note": "일본은 단칸 지수가 6분기 연속 개선되며 제조업 심리가 회복세를 보인 반면, 유럽은 에너지 비용 급등과 지정학적 공급망 차질로 인해 제조업 전반에 강한 직접적 압박을 받고 있습니다."
+    }
+  ]
 }

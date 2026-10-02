@@ -1,23 +1,23 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "analyzed": 140,
   "top10": [
     {
       "ticker": "AMD",
-      "canslim_score": 64,
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 7,
+        "S": 4,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 998682918912,
-      "price": 611.76,
+      "market_cap": 1005163773952,
+      "price": 615.73,
       "rs_rating": 96.3
     },
     {
@@ -34,27 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 131158646784,
-      "price": 178.76,
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "AMGN",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 227881795584,
-      "price": 421.51,
-      "rs_rating": 81.9
+      "market_cap": 131129303040,
+      "price": 178.72,
+      "rs_rating": 90.8
     },
     {
       "ticker": "ARM",
@@ -70,9 +52,45 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 309356462080,
-      "price": 289.66,
+      "market_cap": 312218714112,
+      "price": 292.34,
       "rs_rating": 90.1
+    },
+    {
+      "ticker": "ANET",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 257907851264,
+      "price": 204.49,
+      "rs_rating": 86.7
+    },
+    {
+      "ticker": "DXCM",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 32539820032,
+      "price": 86.23,
+      "rs_rating": 81.9
     },
     {
       "ticker": "MU",
@@ -88,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1202927960064,
-      "price": 1065.11,
+      "market_cap": 1239384719360,
+      "price": 1097.39,
       "rs_rating": 98.3
     },
     {
@@ -106,8 +124,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 209733681152,
-      "price": 922.34,
+      "market_cap": 215016013824,
+      "price": 945.57,
       "rs_rating": 95.6
     },
     {
@@ -124,8 +142,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 237446742016,
-      "price": 264.21,
+      "market_cap": 240924721152,
+      "price": 268.08,
       "rs_rating": 94.9
     },
     {
@@ -142,8 +160,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 163851419648,
-      "price": 454.46,
+      "market_cap": 166771818496,
+      "price": 462.56,
       "rs_rating": 92.9
     },
     {
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 98332696576,
-      "price": 273.85,
+      "market_cap": 99269869568,
+      "price": 276.46,
       "rs_rating": 89.4
-    },
-    {
-      "ticker": "ANET",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 256772734976,
-      "price": 203.59,
-      "rs_rating": 86.0
     }
   ]
 }

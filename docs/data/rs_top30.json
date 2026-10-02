@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "rs90_count": 13,
   "stocks": [
     {
@@ -43,11 +43,11 @@
       "rs_rating": 92.9
     },
     {
-      "ticker": "FTNT",
+      "ticker": "PANW",
       "rs_rating": 91.5
     },
     {
-      "ticker": "PANW",
+      "ticker": "FTNT",
       "rs_rating": 90.8
     },
     {
@@ -59,76 +59,76 @@
       "rs_rating": 89.4
     },
     {
-      "ticker": "AMAT",
+      "ticker": "LRCX",
       "rs_rating": 88.8
     },
     {
-      "ticker": "ETHU",
+      "ticker": "AMAT",
       "rs_rating": 88.1
     },
     {
-      "ticker": "LRCX",
+      "ticker": "COHR",
       "rs_rating": 87.4
     },
     {
-      "ticker": "ETHT",
+      "ticker": "ANET",
       "rs_rating": 86.7
     },
     {
-      "ticker": "ANET",
+      "ticker": "ASML",
       "rs_rating": 86.0
     },
     {
-      "ticker": "COHR",
-      "rs_rating": 85.3
-    },
-    {
-      "ticker": "ASML",
+      "ticker": "TXN",
       "rs_rating": 84.7
     },
     {
-      "ticker": "TXN",
+      "ticker": "ADI",
       "rs_rating": 84.0
     },
     {
-      "ticker": "DXCM",
+      "ticker": "KLAC",
       "rs_rating": 83.3
     },
     {
-      "ticker": "ADI",
+      "ticker": "ETHU",
       "rs_rating": 82.6
     },
     {
-      "ticker": "AMGN",
+      "ticker": "DXCM",
       "rs_rating": 81.9
     },
     {
-      "ticker": "PLTR",
+      "ticker": "CSCO",
       "rs_rating": 81.2
     },
     {
-      "ticker": "CSCO",
+      "ticker": "PLTR",
       "rs_rating": 80.6
     },
     {
-      "ticker": "MPWR",
+      "ticker": "CLS",
       "rs_rating": 79.9
     },
     {
-      "ticker": "GILD",
+      "ticker": "MPWR",
       "rs_rating": 79.2
     },
     {
-      "ticker": "QETH",
+      "ticker": "WBD",
+      "rs_rating": 78.5
+    },
+    {
+      "ticker": "ETHT",
       "rs_rating": 77.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 27.3,
+    "VKTX": 19.8,
     "MRVL": 94.9,
-    "CRDO": 78.5,
+    "CRDO": 85.3,
     "NBIS": 92.2,
-    "RDDT": 8.2,
-    "VRT": 53.9
+    "RDDT": 9.6,
+    "VRT": 53.3
   }
 }

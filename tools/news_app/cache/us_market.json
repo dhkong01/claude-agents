@@ -1,138 +1,137 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "region": "US",
   "headlines": [
     {
-      "title": "David Ellison names Ynon Kreiz co-CEO of Paramount and Warner Bros. Discovery",
-      "summary": "Paramount CEO David Ellison announced outgoing Mattel chief Ynon Kreiz will serve as the co-CEO of the anticipated combination of Paramount and WBD.",
-      "link": "https://www.cnbc.com/2026/09/30/david-ellison-ynon-kreiz-co-ceo-paramount-wbd.html",
+      "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+      "summary": "Nike is expected to post another quarter of declining sales as the company tries to turn around its business and regain growth in China.",
+      "link": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
       "source": "CNBC"
     },
     {
-      "title": "I m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-      "summary": "I have $152,000 in my IRA and Roth accounts.",
-      "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+      "title": "Here s who s joining the S&P 500 in the index s latest shakeup",
+      "summary": "Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount.",
+      "link": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "MSG Sports Board Approves Spin-Off of Rangers From Knicks",
+      "title": "Drones Strike Ethiopia’s Capital as Country Severs Ties with Eritrea",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS0dCUWJhcmprem94b3oxRjNwWFFsYjNVV0NRdnV1dUZkYjlNXzgzaFBTT2x5ajZoeWFCV2lqcnVOZlo4MHVRSkl3eFJJYW95RHJLMnhZRVptTHBtQ2lDQ1J6UEptOWFGbHVJdGFnbGl6V0I5c3dUMnFIXzVqQnFJU3FlQUF6NThIQlEwT3Itby1JT2h1V05GVVRNWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbTN6YUVZc3kzOFZRdVhHTVc1cUpRb0xuUlluQVd0YWtLTmwzcGdRYzRTWDgzdlRyWU9wREZTSFpqNnVvV05JcXl5NXpNY1F0ZzNpaVpqZXNvWDJhbkZwc054TjJ3a0phWFpVMHZOTEI5Y25XVUdla05Ld1lCZ1dfZEE5ZHpKcFFKcEpaRWYxOS1rX3h3aEh1aHFEb1BLMzJsYVI5ZFZuQnAxNFF2YWc?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Google Grapples With Employee Skepticism About New Gemini 4",
+      "title": "Iran Offers to Allow Nuclear Inspectors If Sanctions Are Eased",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUo1VEZLVjIyY1ZXMXVfUzB5ZVpjSzlZQjFGLWVCSWdWMzYxbDJabnNMU3BuTDliOTdSb1hjcGFTNmdVWnJjcU9PVlpKeHlULUtsNjQ4X0hGaTJmVXp6eTVCVW1UODJFX2xsTGhybE95VzNWZVpnUTlDSHdrYk5rUmtZYzVzaEJ0T1o1X1psU1Y4OHVVdWMwUlBHMjhDXzNjQ21ZOUYteXYtWVZtaXVvUHFBM1M?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclN5TVFKWVhqRjNsSlB6SkJ5NWRaRXBZREVMVzZheWtjSWxUVHc5d2RzakVrSnZsakRNczE5SWdxYkdFZnV1ek0zTkJmSzAxVGJ3bHFqdDh0LUdubTdldkkwT21ZRExtSkZYX3JfdmFtaDFRaFZCMmJCYXUybGZlZUZvLXowaFdVdC1xQ2pXb2ZYcjZYNEFEQlZwSEE4ejNVREMtRUh6emo4NnVORWk2RlU4dw?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Earnings Could Be the Catalyst This Wildly Popular ETF Needs",
+      "title": "Why Micron’s 87% Gross Margin Is a Blessing and a Curse",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQmw3bUxILV9tWFJjV1NxNmotcWRqQ1ZYZTZMU2R2YVZGdHl4bXJtSnZVYlMyajhZUWF3cXd6bTJNeFlCZU9BcGlWTl9oLXpsaDJsdVVoeUpLNG5rQXhoVGJ2dnZ6RkxjRXJBUlE3UDVWWkx4VXJhYTd6QWsyOC1Za2VsNDZwQkR4ZVlMNkQ3Zw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XUE50ckhwdV9MQVZ3c0ktMkJKLUtpbTJjUURZdHN3WGg1SGJrbFVrZkh6XzIzTnUydDk5T1FtZFd1OWJ2R2tWU0Rjb2g0TUVjYUhoRFRrUkNPTFhILUNsWjJ3cnZ2eXhoSDNBN2pfVWJrZDlWZndrUmtZT1hXUQ?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "MGM CEO leaves door open to People Inc. bid as casino dealmaking heats up",
-      "summary": "The Wall Street Journal reported MGM was exploring an offer for People Inc. after People Inc. withdrew its $48.30-per-share proposal to buy the rest of MGM.",
-      "link": "https://www.cnbc.com/2026/09/30/mgm-barry-diller-people-inc-casino-dealmaking.html",
+      "title": "Boeing engineers and technical workers approve new contract, avoiding strike",
+      "summary": "The work group comprises Boeing's largest white-collar union.",
+      "link": "https://www.cnbc.com/2026/10/01/boeing-contract-engineers-technical-workers.html",
       "source": "CNBC"
     },
     {
-      "title": "Google shows it s not out of the AI race just yet",
-      "summary": "The company s Gemini 4 Argon announcement shows Google is back with the pack when it comes to cutting-edge AI models.",
-      "link": "https://www.marketwatch.com/story/google-shows-its-not-out-of-the-ai-race-just-yet-75e19860?mod=mw_rss_topstories",
+      "title": "This could be the worst year ever for Nike s stock, with sales set to fall further",
+      "summary": "The company has faced struggles in China and in its sneaker business.",
+      "link": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Hegseth Unveils New Command to Oversee Military-Drone Tech",
+      "title": "Disney Planning TV Restructuring as Streamlining Continues",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONzFqblFHTnNkd3YxXzhMNE01YUQySDR5WmlLY3FnWHVjTkVMWjVwa0hweDhVb3VXcmF4aG91NWI5d2ttUHVTME94QVpxeFowRFVsR3JhbzRvS1pYSmJYVWhrZUpRSjc3eVJTV2RCa3gxV2tSVUtnRjJEVmd1TFR4VkhaempMSmlucDZrVzlQR0YyN09BY3RmbGdqMDY5eFZWc2F6Y2NVbWlUTGd6MmxHZjZlOHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTk5uX3EzVHRCeThmazY4Y091NjlXNTUtb05TVzM4RzNDcWIwWDR5TmlwOU1CRmlTMHVqRlUxU0xpbmpOSDlKc3dQM2hQaXV2WW05LXNiN210U1AwdGRncEdRRERnYVdVeEJyb09vS2lva0xrR19uMG9JZGg1bF8ySjIxVm9tMFExWnhmV1VSdldvWm01UlEyU2xTYlh5dlFlOXgtRQ?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Micron Forecast Tops Estimates on Booming Demand for Memory",
+      "title": "OpenAI Parts Ways With 3 Workers Over Mishandling Information",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX0xiUE1NS0k5MzQxcXd5OUwwZ25XekZGSG0xWkFnbEctNUwwNlFEakExZ2dCeFdrNHNCeG9Yekk1V1dRWnVRVXUzUnZuVkp2OFJRZTJfcG1waGcxVHFzdGtacmU4Z3k5UEtlc29wMEwyajFXOThwN1U2d2kxSG1md2V3VS00RFJ0U0VBREZxaldSSTYwS3U5bFVWSVlMUHlmLUp5V240ZlAwdnZHQUo2eg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLW0wenRCN09FTktiQUlRUmlGV284RlN3b2hrbVVDLWo4UVR0ZG9BRWR5MnRQRlF2b3dBd0dDV245cUhkWlhEa1JxNTNNQmZ1THRJSzJreGRhbEdtWnJLQk9CenNJcWxSQno5LXN3bG1DX0xiLVdWWE1HY1lwOExtbldXSEIwaWxCTDRmYUNjdDFqLVowams4ODVSZTB6THprT2FRcEVYdzAtMGhWeVhvTkd3?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.",
+      "title": "Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qYVRkMzJRd2M4d0p5dGJ2X25QblFST0JWbDIwa0JkaE0xLWVPSEgzelliSXEtMDFZVlVPMzFUVDJ4ZlhPWHl6aWQ5S0w5YmtHbkZKc0gwLVFCZUtJUjN5MGVWUkMxamJYRnVJdUxzVEJrUk5ObFpxTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONlU3MlRpX21YbFpIcUUwOWxhNHVIUVNHTl9ydGtoZ3JNcDZGbjhESGhSMmlQN1hyNWNpNGdQNWVKWlc5NUZNblNUekZpSjBmZ1VXOXo3TWxmd092LVJVaWgyamxnc2UyVkk4ZnhjcmxJWGhCYzZpcl9KQnJiR1BHUg?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Stellantis CEO reconfirms 2026 guidance, says turnaround plan continues as automaker s shares hit new low",
-      "summary": "Stellantis CEO Antonio Filosa on Wednesday reconfirmed the company's 2026 guidance and its plans to be cash flow positive by 2027.",
-      "link": "https://www.cnbc.com/2026/09/30/stellantis-guidance-turnaround-plan.html",
+      "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
+      "summary": "Shares of toymaker Mattel rose Thursday after the Wall Street Journal reported that Authentic Brands Group had expressed interest in buying the toymaker.",
+      "link": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
       "source": "CNBC"
     },
     {
-      "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
-      "summary": "The S&P 500 has gained slightly in September, but three-quarters of its components have declined.",
-      "link": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
+      "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
+      "summary": "Annuity payout rates are closely tied to interest rates",
+      "link": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Grindr Agrees to Buy HIV-Prevention Telehealth Provider Freddie for $250 Million",
+      "title": "Nike Plans a Smaller Company as Sales Slide Deepens",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQkdrUlI1ekJYRzJxVjEwdzc5OWY2NDAyLXFKSEc2NEZMbHBMb3ZYY3Q4dGZmNWMwSXRZb3NQLTRkVFZfLXp4NFYtQUJXSnVwRERLMTB6VV9iMlNkakNobDVWVmVCVG1acXJJMkxqVlMtNGdqU2RIR05MTlV1MWNMWUtseG4xZF9qamF5clF1cWdKSi04YllNTTJFUi1oVEtsdWo2WXNXcUNla3p3em1JdkpzdzlMRE5B?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVURNQnYxSXZNcGJXeFZBUjR3cHZzZXdVXzNBNXFfR3Vidm00eFhrNlNfak9qZ1dhQ2tQU01CeWt6S1AzUXFRMk85SDVIbXNXU0pOU3FWMnEzWDhiVl83OWp0Wk01c0kxTVN6THBRQkJtU1p2OU1Bd2dNZ3ByeHFRYUduSjlXNWlPaHZpaC00ZnA1azU2cTRvU0l6b0lnMm1SZUxKTkNma1NRRVdfTXdzc1RIdTF6d0FaMWc?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Trump Says Powell Should Be Forced to Resign From Fed Board",
+      "title": "Republicans Drop Midterm Affordability Push as Voter Angst Grows",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ0M2MGcyWURrYzdnT1J4MGFNM00wal9aYUo0Wm9sV1VyVV9BUzNzTGs2bzVZRHc1ZlZBYmszZWxXN2ZjbldDU1RuNGVtZ3FYNkhETVZobURmNXB2YVlUMVRDMmFwNllEWGZUUDNXMDhKZlpfbENHaGJmbS14Y1hSUXh2SGplMk1kSTVLcXphdTVNNFJib0RGT2dwSGY5ZGNONjRNQjNWbGdLWXBpN1ZtemVoRWNUQm1icUtN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ003MVM0RDQ0SHZHMi14MjRyZWhXV0ZfS1NYR2JCYm10Q0tKNlNlMjdXRnpjOVUxNV9kRGRjcUtrUnpybURDT2VTYkZNTWJIeDkxRHpUajY5LWcyTEtpR3UxU05IRjJUQnNPNjcwWS1wQTg1cjhNZjNnbWhyYjdLQnFMNWNPQjdSQmRRR0xzTnVXb2g3cl92WDZqVU4yQ3NrVTQ0cFVvRTc5dHptMmpfaW9DSkpHZw?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "10-Year Treasury Yield Surges Toward 6%: What It Means for Stocks and Debt Markets",
+      "title": "Better Without Bonds? How Retirees Should Think About Fixed Income Right Now.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSjdBLUdwUzZodVE0RlNfR1pxQVJsZFlONjRiS3B1eno1NFB6aTBoNkV0QU8yUjVpbzVxNkV4TFNQWnBoSEVxQzh3empkZm94amxNNmN0VVd5LUNoLUx1djRZa2lEZHdaM09PcjlWZUVXb1BTS1hrMlRsNFlHVkh4a2ZRMzMtQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPakVKU3BmWHNqMlNYV1ZBMmxSTTBjQU5zRml4NmVtaXg1OWt1N2t4RUx2UEQ2N1pDcWUwZ3NPc2ZPdWt2NGhuMUtDVVhHM04tQUo3cUFLUnF0OFdZNTdtbmV2cDJLdUJhbGNIcWF0Y204SExBb3JqRF9UMTVucGNBV0VJMElrcHp4OHVKeC03c1FnYy1t?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Eli Lilly says closely watched combo obesity regimen boosts weight loss in mid-stage trial",
-      "summary": "Lilly said it plans to start Phase 3 trials on the combo regimen adding its amylin drug eloralintide to tirzepatide at the end of the year.",
-      "link": "https://www.cnbc.com/2026/09/30/eli-lilly-obesity-drug-amylin-tirzepatide-weight-loss-trial.html",
+      "title": "United Airlines gets aggressive in battle for top Delta, American flyers",
+      "summary": "United Airlines launched an aggressive status match program for Delta and American's top frequent flyer elites.",
+      "link": "https://www.cnbc.com/2026/10/01/united-airlines-status-match-delta-american.html",
       "source": "CNBC"
     },
     {
-      "title": "Trump touts economic wins in battleground states like a $54 billion Alaskan pipeline as the midterms draw closer",
-      "summary": "President Donald Trump is spending time this week talking up big job-creating projects in battleground states.",
-      "link": "https://www.marketwatch.com/story/trump-touts-economic-wins-in-battleground-states-like-a-54-billion-alaskan-pipeline-as-the-midterms-draw-closer-46db0149?mod=mw_rss_topstories",
+      "title": "The stock market is anything but normal right now and these charts show it",
+      "summary": "The S&P 500 is trading just shy of record territory, even as most individual stocks are struggling.",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Micron Profit, Revenue Surge as Memory Crunch Looks to Last Through 2028",
+      "title": "Exclusive | Barbie-Maker Mattel Draws Takeover Interest From Authentic Brands Group",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTERLUlNXYXNnbWZ0R0tJOTVLWERGbEVFa0c5bkpQXzlvRWptTHk0WUdlVDRYNGRDWGpJOVBIVkJSS3NUMmluLTBacUwwcE1xZW80MlZIeEUyMUYxUElJOGJEcUdGdmlIdzR5OWxhd0V6RnRLT3FMeTdkWndhRkVNMUFjT2tBY3V3dld0U2paNFdwam1IN2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWY2cUl6RnA5NWNxOHAzTHRBUEV3WUxNcUczNEVMTDJmVnBfX0x4UVF5T1VwQld6eWNVZUVHMFI1OGlJTXZ5bkNFZ0JaS1I1cHhNYWpFdTdOMzBUMlNsQ1hGQ3d1Q1pwcjBFdHM5bG1MNzE1TkhJcHlpMUFIR3dTSm5nZU9UQWF4QXdFdlBrbm53bGlxdHhqY1AtSjBxb21pbUhlTzNWeVN0MlM0Q2Z3STlyRWFrUnM?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Hegseth Tells Troops Reporting on Iran Is a ‘National Betrayal’",
+      "title": "Anthropic Targets Mega-IPO Before Thanksgiving Holiday",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdkc4Z09OazJhcy11aFFINU1tcm5pT1k0UnBJM2lwaXZ2SWYzMEU1a0lfbTFRSmxVM3hnbW1FMmZyT25taE5OV2ROcEExZmROOU9YRklBZkk4cVJ0ZnFkdnZtWUFaSUt0aS1KQ2pIRVVRYU9vblVwOGo3bnBNVndybXQ5MkhEQm15WmZYaHMwbTQ5Y0FMeW1CTVdBeWdZZGNLQXFEN2FHVDBaY0ZKdUVVUml3SQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUlUbXBSYkVLUzFtY2ptTGZ6Nk5HSHBpdFJBZlF1QU1JbXU3VG1Nb2g3OW95elBUTHV1czlHRUNKUFRBV0Nsa3QtVndGNDh2U3dBWFdRenZhRlVEX3hGTm04bl9TcVpuMkxsRkJNQ2NJbzhmYTYzZ01uRTJIS3g1ek80QmRDdE9iaUxRNmhsbzBDci02bnVaS2dpNDJsZzVJb243b2ppUVk0OFpDTWVQLW5B?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Cannabis Stocks Are Slumping. A Procedural DEA Delay Is to Blame.",
+      "title": "Accenture Stock Is Having Its Best Day Ever. AI Isn’t the Threat Everyone Thought.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU0RvVEFLNWlVWHE5TW5jYmYwYUI5YkYyWWN0eWtjV0FrOTgzV3ZhYU5CQ29NTFVZcHJ1YWg4X2JQTzdvX01qUXExQWxQV0JMbm5WUEpZc2FFbEV0OG1vRHNnajU3aVVfdEV5VXQ2SVVEVGNLWW9EZVpCaVBVMXB6Vg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAxVUlaQTZyUXBPcndWMVlHLUZnek5JVTV5czRHUGdXc21Kc3BySklnM3Q1UzhmTnFLRVdMR3Q0OVYxUGNqSkhyZjRRMGJLLXc4Z3E1NExGUVpHeGhrU1hKWWwzSmFYTjlydFk4TjJYZGwzaU04MWZ6LThIdnk?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "국채금리 급등과 마이크론 호실적 공존",
-  "summary": "10년물 미 국채금리가 6%대에 육박하며 채권 시장의 불안이 고조된 가운데, 마이크론은 메모리 반도체 호황에 힘입어 예상을 웃도는 실적과 가이던스를 발표했습니다. 다만 금리 압박과 연준 독립성 우려가 맞물리며 증시 전반의 경계감은 여전히 높은 상태입니다.",
+  "trend_headline": "나이키 실적 부진과 대규모 구조조정 단행",
+  "summary": "나이키가 중국 시장 부진과 스니커즈 수요 약세로 매출 감소세를 기록하며 대규모 감원과 구조조정에 착수했습니다. 이와 함께 마이크론은 압도적인 총이익률을 기록했으나 반도체 업황에 대한 기대와 우려가 교차했고, 시장 전반은 개별 종목의 부진 속에서도 S&P 500이 고점 부근에서 공방을 벌였습니다.",
   "key_points": [
-    "10년물 미 국채금리가 6%대를 향해 급등하며 채권 시장 매도세 심화",
-    "마이크론, 메모리 반도체 수요 폭증에 힘입어 시장 예상치 상회하는 실적 및 가이던스 발표",
-    "트럼프 대통령의 연준 의장 사퇴 압박 및 FTC의 AI 기업(오픈AI·앤트로픽) 조사 착수"
+    "나이키, 실적 부진 및 중국 시장 타격으로 대규모 구조조정 및 감원 발표",
+    "마이크론, 87%에 달하는 높은 총이익률을 기록하며 투자자 주목",
+    "S&P 500 지수는 신고가 부근에서 등락을 거듭했으나 대다수 개별 종목은 약세 시현"
   ],
   "sector_hints": [
-    "Technology",
-    "Fixed Income",
-    "Semiconductors"
+    "Consumer Discretionary",
+    "Technology"
   ]
 }

@@ -1,16 +1,15 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "미국 마이크론의 예상을 상회하는 실적 및 가이던스 발표와 한국의 사상 최대 반도체 수출 실적($603억), 대만 TSMC의 AI 반도체 공급망 패권 유지가 결합되며 글로벌 반도체 섹터 전반에 강력한 상승 압력을 제공하고 있습니다.",
+      "score": 8.0,
+      "rationale": "마이크론의 견조한 총이익률 달성과 대만 TSMC의 텍사스 신규 팹 건립 검토, 일본 도시바의 공급망 확장 등 AI 인프라 및 반도체 수요 호조가 섹터 전반을 견인하고 있습니다.",
       "related_tickers": [
         "MU",
         "TSM",
-        "NVDA",
-        "005930"
+        "NVDA"
       ],
       "source_regions": [
         "US",
@@ -18,39 +17,51 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.2,
-      "rationale": "유럽 스텔란티스의 공급망 차질로 인한 공장 가동 중단, 중국의 전기차 배터리 세제 혜택 종료 및 대규모 손실에 따른 구조조정 압박 등 글로벌 자동차 및 전기차 밸류체인의 둔화 우려가 심화되었습니다.",
-      "related_tickers": [
-        "STLA",
-        "TSLA",
-        "1211"
-      ],
-      "source_regions": [
-        "ASIA",
-        "EUROPE"
-      ]
-    },
-    {
       "name": "Energy",
       "direction": "positive",
       "score": 6.5,
-      "rationale": "중동 지정학적 리스크 여파와 정유 차질로 디젤 및 연료 가격이 급등하면서 정유 및 에너지 생산 기업들의 수익성 개선 기대감이 커지고 있습니다.",
+      "rationale": "미국의 디젤 수출 금지 위협과 정유 시설 차질로 유럽 내 디젤 가격이 급등하면서 정유업체들의 정제 마진 개선 및 단기 수익성 확대 기대감이 반영되고 있습니다.",
       "related_tickers": [
         "XOM",
-        "SHEL",
+        "CVX",
         "TTE"
       ],
       "source_regions": [
         "EUROPE"
       ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "유럽 내 디젤 가격 급등으로 인해 트럭 운송, 물류, 제조업 등 산업 전반에 운항 및 생산 비용 압력이 가중되며 실적 부담으로 작용하고 있습니다.",
+      "related_tickers": [
+        "UPS",
+        "FDX",
+        "DHLG"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중국 부동산 부문의 규제 강화와 주요 개발업체들의 대규모 손실로 인한 장기 침체가 아시아 부동산 섹터에 지속적인 하방 압력을 더하고 있습니다.",
+      "related_tickers": [
+        "VNQ",
+        "2007.HK"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Industrials",
-      "note": "일본은 단칸 지수가 6분기 연속 개선되며 제조업 심리가 회복세를 보인 반면, 유럽은 에너지 비용 급등과 지정학적 공급망 차질로 인해 제조업 전반에 강한 직접적 압박을 받고 있습니다."
+      "sector": "Consumer Discretionary",
+      "note": "미국은 나이키의 실적 부진 및 스니커즈 수요 약세로 인한 감원 등 소비재 부진이 부각된 반면, 아시아(중국)는 완성차 업체들의 해외 판매 사상 최대 목표 달성 추진 등 자동차 산업 중심의 확장 신호가 상충하고 있습니다."
     }
   ]
 }

@@ -1,139 +1,151 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "외국인 '큰손' 바뀐다…편의점서 커지는 북미 관광객 존재감",
+          "title": "'은행·증권사 못 믿어'…직접 '가문 투자사' 차리는 슈퍼리치들",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610016268g",
+          "link": "https://www.hankyung.com/article/202610029264i",
           "source": "한국경제"
         },
         {
-          "title": "한미 전략투자 첫 공식 발표…텍사스 발전·미국 원전·알래스카 LNG 추진",
-          "summary": "텍사스 발전소에 223억달러 투자 미국 원전 8기 건설 틀 합의 APR1400 미국 진출 길 열기로 알래스카 LNG는 경제성 검토 투자금 통합 관리해 회수 추진산업통상부는 1일 “..",
-          "link": "https://www.mk.co.kr/news/economy/12165590",
+          "title": "[단독] “채무조정 못 해줍니다”…절반 넘게 이유 모호한 ‘퇴짜’",
+          "summary": "개인채무자보호법 시행됐는데 여신금융 채무조정 거절 8888건 거절 사유 모호한 ‘기타’ 53.6% 안철수 “제도 실효성 점검 어려워”#. 경기도에 사는 70대 여성 A씨는 고아였던..",
+          "link": "https://www.mk.co.kr/news/economy/12166747",
           "source": "매일경제"
         },
         {
-          "title": "SK하닉 주가 '뚝' 떨어지더니…개미들 \"솔리다임 상장 우려\"",
+          "title": "\"색깔별로 다 주세요\"…외국인들 명동서 싹쓸이한 제품",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610016336g",
+          "link": "https://www.hankyung.com/article/202610029096g",
           "source": "한국경제"
         },
         {
-          "title": "[속보] 9월 반도체 수출 603억달러…사상 첫 600억달러 돌파",
-          "summary": "",
-          "link": "https://www.mk.co.kr/news/economy/12165586",
+          "title": "초과세수에 국채 5조 덜 찍는다",
+          "summary": "10월 국고채 경쟁입찰 12조원 3조5000억원 규모 조기상환도 시장상황에 따라 추가 축소 검토정부가 63조원에 달하는 초과세수를 활용해 이달 국고채 발행 물량을 당초 계획보다 5..",
+          "link": "https://www.mk.co.kr/news/economy/12166744",
           "source": "매일경제"
         },
         {
-          "title": "1만2000원짜리가 6만원 됐다…맥도날드서 난리 난 '이것' [권용훈의 트렌드워치]",
+          "title": "'10만원→14만5000원' 마법…직장인 몰리는 '세테크'",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610016325i",
+          "link": "https://www.hankyung.com/article/202610029223g",
           "source": "한국경제"
         },
         {
-          "title": "“첨단산업 투자, 빠르게”…전기차 전환 행정단축·반도체 팹 증설속도↑",
-          "summary": "이형일 “韓성장의 돛 조여매겠다” 7.9조원 현장대기 프로젝트 지원 팹 전기·통신공사 통합발주 허용 청정수소 발전시장, 10월에 재개 정부 “투자친화적 제도기반 구축”정부가 내연차..",
-          "link": "https://www.mk.co.kr/news/economy/12165574",
+          "title": "고금리에도 미국 경제가 버티는 충격적인 이유",
+          "summary": "불앤베어 플러스미국을 비롯해 전세계에 휘몰아치고 있는 장기물 금리 상승에 대한 부담은 더해지고 있습니다. 향후 금리전망과 4분기 증시를 바라보는 월가 전망을 함께 묶어봤습니다. ◆..",
+          "link": "https://www.mk.co.kr/news/economy/12166743",
           "source": "매일경제"
         },
         {
-          "title": "[밤 사이 해외 뉴스 영상] “AI 버블 터지면 금융위기”…정부 구제금융 요구한 빅테크",
+          "title": "AI가 컨설턴트 밥줄 끊는다더니…오히려 주가 16% 급등",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610016321i",
+          "link": "https://www.hankyung.com/article/202610029183i",
           "source": "한국경제"
         },
         {
-          "title": "‘공화당 알래스카 출정식’ 방불케한 韓대미투자 발표…“자금 조달되면 가스관 건설 바로 착수”",
-          "summary": "상·하원의원에 주지사까지 총출동 트럼프 “알래스카 주민 비용 낮출것” 개발사는 “3년내 가스관 건설 가능” 한국 알래스카 투자 압박 거세질듯도널드 트럼프 미국 대통령이 30일(현지..",
-          "link": "https://www.mk.co.kr/news/economy/12165532",
+          "title": "신한은행 2.5만명 고객정보 털렸다…주민번호·연소득·대출정보까지 포함",
+          "summary": "금융당국 긴급 조사 착수 이름·연소득·대출한도는 물론 일부 고객 주민번호까지 포함 해커, 대출모집인용 서비스서 15시간 넘도록 개인 신상 탈취 신한은행장 “피해 전액 보상”국내 1..",
+          "link": "https://www.mk.co.kr/news/economy/12166718",
           "source": "매일경제"
         },
         {
-          "title": "[밤 사이 해외 뉴스] 오픈AI·앤트로픽도 미뤘다…차갑게 식어버린 '월가 상장 잔치'",
+          "title": "미 국채 덮친 '매도 악순환'…10년물 금리 5.3%",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610016296i",
+          "link": "https://www.hankyung.com/article/202610029156i",
           "source": "한국경제"
         },
         {
-          "title": "세수펑크 끝낸 63조 초과세수…국채 덜 찍고 민생에 더 풀겠단 정부",
-          "summary": "확대 거시재정금융간담회 국고채 3년물 4% 돌파하자 발행 물량 축소하고 바이백 63조원대 초과세수 일부 활용 이형일 “시장 안정조치 단행”정부가 반도체 호황으로 발생한 63조원 규..",
-          "link": "https://www.mk.co.kr/news/economy/12165531",
+          "title": "“긴축의 시대 투자로 정면돌파” … 서울머니쇼+에 초대합니다",
+          "summary": "코엑스 마곡서 29~31일 개최 ‘2026 서울머니쇼+’불확실성이 일상이 된 시대다. 금리는 오르고 집값은 흔들리며 인공지능(AI)은 투자 지형을 바꾸고 있다. 미국 10년물 국채..",
+          "link": "https://www.mk.co.kr/news/economy/12166434",
           "source": "매일경제"
         }
       ],
-      "summary": "9월 반도체 수출이 사상 최초로 603억 달러를 돌파하며 강력한 실적을 견인했으나, 한미 전략투자에 따른 미국 대규모 원전 및 인프라 건설 부담과 솔리다임 상장 우려가 주가에 부담으로 작용했습니다."
+      "summary": "미국 10년물 국채 금리가 5.3%까지 치솟으며 채권 매도 압력이 가중된 가운데, 정부는 초과세수를 활용해 10월 국고채 발행 물량을 축소하고 조기상환을 검토하며 수급 조절에 나섰습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "South Korea to build 8 nuclear power plants in US, invest $120bn",
+          "title": "US won't 'sit there and take' overproduction from China: USTR Greer",
           "summary": "",
-          "link": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/south-korea-to-build-8-nuclear-power-plants-in-us-invest-120bn",
+          "link": "https://asia.nikkei.com/editor-s-picks/interview/us-won-t-sit-there-and-take-overproduction-from-china-ustr-greer",
           "source": "Nikkei Asia"
         },
         {
-          "title": "BOJ Tankan shows sixth straight rise in manufacturer sentiment",
+          "title": "Moving showed me a different America: Stephen Schwarzman (2)",
           "summary": "",
-          "link": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment",
+          "link": "https://asia.nikkei.com/spotlight/my-personal-history/moving-showed-me-a-different-america-stephen-schwarzman-2",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan hikes foreign residency fees, tightens rules: 5 things to know",
+          "title": "Toshiba to double hard disk drive supply to fill AI chip memory gap",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/immigration/japan-hikes-foreign-residency-fees-tightens-rules-5-things-to-know",
+          "link": "https://asia.nikkei.com/business/electronics/toshiba-to-double-hard-disk-drive-supply-to-fill-ai-chip-memory-gap",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Repaying my debt to Japan: Stephen Schwarzman (1)",
+          "title": "Japan students offered study abroad, grants as job sweeteners",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/my-personal-history/repaying-my-debt-to-japan-stephen-schwarzman-1",
+          "link": "https://asia.nikkei.com/spotlight/work/japan-students-offered-study-abroad-grants-as-job-sweeteners",
           "source": "Nikkei Asia"
         },
         {
-          "title": "China ends tax break on lithium-ion EV batteries after 11 years",
+          "title": "Japan's soggy September dampens tourist spending",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/electric-cars-in-china/china-ends-tax-break-on-lithium-ion-ev-batteries-after-11-years",
+          "link": "https://asia.nikkei.com/business/travel-leisure/japan-s-soggy-september-dampens-tourist-spending",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Kirin's purchase of Blackmores yields results 3 years later: president",
+          "title": "China shortens leash on property developers",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/food-beverage/kirin-s-purchase-of-blackmores-yields-results-3-years-later-president",
+          "link": "https://asia.nikkei.com/spotlight/policy-asia/china-shortens-leash-on-property-developers",
           "source": "Nikkei Asia"
         },
         {
-          "title": "The future of AI belongs to the orchestrators",
+          "title": "Japan's Takaichi disavows reflation as US pushes for policy change",
           "summary": "",
-          "link": "https://asia.nikkei.com/opinion/the-future-of-ai-belongs-to-the-orchestrators",
+          "link": "https://asia.nikkei.com/politics/international-relations/japan-s-takaichi-disavows-reflation-as-us-pushes-for-policy-change",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Nidec races to shore up governance as auditor withholds earnings sign-off",
+          "title": "Yamato vans add rides to package deliveries on remote Japanese island",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/companies/nidec-races-to-shore-up-governance-as-auditor-withholds-earnings-sign-off",
+          "link": "https://asia.nikkei.com/business/transportation/yamato-vans-add-rides-to-package-deliveries-on-remote-japanese-island",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Chinese tourists shun Japan for Southeast Asia during long holiday",
+          "title": "Daikin faces calls for cooler, leaner strategy as capital efficiency lags",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/travel-leisure/chinese-tourists-shun-japan-for-southeast-asia-during-long-holiday",
+          "link": "https://asia.nikkei.com/business/companies/daikin-faces-calls-for-cooler-leaner-strategy-as-capital-efficiency-lags",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Analysis: Donald Trump steps into Xi Jinping's Taiwan trap",
+          "title": "Making AI work for workers",
           "summary": "",
-          "link": "https://asia.nikkei.com/editor-s-picks/china-up-close/analysis-donald-trump-steps-into-xi-jinping-s-taiwan-trap",
+          "link": "https://asia.nikkei.com/opinion/making-ai-work-for-workers",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "일본은행(BOJ) 단칸 지수가 6분기 연속 개선되며 제조업 심리가 회복세를 보였으나, 중국인 관광객의 일본 이탈과 외국인 체류 수수료 인상 등 정책적 변화가 겹치며 내수와 관광 산업의 셈법이 복잡해졌습니다."
+      "summary": "미국의 통화정책 압박 속에서 일본은 리플레이션 정책에 선을 긋는 한편, 도시바가 AI 칩 메모리 공백을 메우기 위해 하드디스크(HDD) 공급을 두 배로 확대하는 등 공급망 재편에 집중하고 있습니다."
     },
     "TW": {
       "headlines": [
+        {
+          "title": "Prediction: Taiwan Semiconductor Manufacturing Stock Will Skyrocket After Oct. 15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUJwbWhobGxQZlR1emo1ejVPenVvXzdxejlhZFpjc2x5cXhSUWpNUmY2cS1ubE9LZ0ZHTnBzNEpDZGtmVzdvMFNtUEdpVy1ZdVRZNk5OdGdLSXV2YXF6X3BXamkwOEU2eWgtY2V6SDVCOWVxdWRHTVFBeElSemVoN1hzd2ljWUlwb3pQX3AzQ0JyNTVhTEFVTXRiTzVsa0dOR3o4cmhpTjlwNVRaTXpzbjV2VjF2Yzg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 21% Overvalued As Texas Plans Draw Focus",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORUdJdHZ0X3RUZks2THVvbG1reWs4MklKenluSEFNS0NHSzJqTDhpOWlxeGZQX29WVkhBTmI4d1pnZFlINm1PcVNIQW1mWjdUZnNsQnlFVXdia05jLXhVeDQtNDNPV21KV1ZUTmNfV0RmMDBhUHR4bUt6WFNaOVNtV0FfaS1QWWM1QjE2V0dTSU9mOVR0TndpY1hYU3dySmxRa2I1QTcyMEg4NjR6ZFNCRjY3ZjFnUUhyM2VIcGxDc2M1NDZrMFltN2hZVHF1VzlpbmtIY18yX0JKQ0ZyYjVoRWdQODM5ZVNlbGpYN9IB8gFBVV95cUxNOWE5eGdMQzN5bnBOZW8zNTh5UWNPWjRuQW5hS29UWDVlaS1WX1AwVWYxd3NVWU4yNEV5UXA4MUFFUHdwYXhGZHRSbVdXdGgxMXNZOTZpNUtkWGhITkxOQWw2Qm1nZ3dYT2N5OHJ6UG1GZndPM1VLTFZUVmw1cmlPWGxheVZfNVMzUDdKWlg1R2lFMk9UX2p4M1ZUSHNNeTRWTS0yaThXZ2JmVkhTWnc3T3pUaS1DT3FJQUUxMU1GMnNqa1ZxNmNQdmdlWVNWU0dVa21WVEo0akVYa1d4bnhhZmtMRXhOSk1tdlA3ZE9WclVWdw?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "TSMC evaluates potential Texas investment, sources say",
           "summary": "",
@@ -141,39 +153,39 @@
           "source": "Google News"
         },
         {
-          "title": "AI’s Semiconductor Boom Has a Clear Center of Gravity: Taiwan Semiconductor",
+          "title": "As Arizona sees record investments from TSMC, Taiwan faces military pressure from China",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVnFicmdoZFJ6VlloY19ZMG1PMXVMMW1tTkw1RGdrOGNzWWxHZUIxQlhaaE1ydWFKZlk3WGhCUkRkTE1fbVMtSF9ZeWs1alJKNmxNMWozT0J5bU1oVFJRT3NUOGVZTFFVQ3BzTE5MV3FmQ1I2UUhsSlRaN3ZmLUhKenppTUt4Q1NrM1RCLVZ0TXRzdkZVclIwSGdOcnE0bUlMc2pQQUFZbTgxVFMtMFhFc2U3MUllZkdhUlNGWmpUcW9oUWZV?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZTJLaXBpeGppZXhiQkoyeWdFMG5wQmZ4bDZPNWFHS3VIX1ZramhGZldxWm02VGQ4TEdyd0x1Q2VzZjZsUzh6WkhocjVtV1NLbFdqZUs4cmxnS0lyRGRGbkliNUttLTd6bWl3ZmIwNjFVblFGU2VTVUlKYUNPdWFTNHR3SURXdlNnVHhCeFpDVHN5TzVxcy1pcXA2QWhWUEptWTd2SUVkVWpNc0xSUEF4QTU4aEd0V3VDeTBOMFVBcXk1WUlIWmc?oc=5",
           "source": "Google News"
         },
         {
-          "title": "US Wants to Break Taiwan Dependence — But Here's Why Taipei Will Remain 'Central' Character in the AI Chips Story",
+          "title": "TSMC Mulls Multibillion-Dollar Texas Campus for More AI Chips",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRXJaaTVheGtiaEdPbDkxRXFLSWRkM3U5Vk14LTVOMFQ1eVhlTFNzWXM4M2Z3cG1paXlQYVlKaTVvSnJXRUVQZklQdGtocGs4RXhhM1Q2emF4TDMxSDVNMExvOElOX3AxS3dOSzJTTC10NDVWbkNhSXpOOFZyV3VNdGRDSTJTQjdIbzZMVXlQc0k5S1Zwd3BleWpHbG0?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzhaT2NiMElucXVLX2xRcV92d1o4dm5KOVZRaDBYMmF1T3BkWnRsRFdJTFhkNGdGZ3ZTY2h3VWx3ckNTdXlKcWcxdWE5QmpZcDRkOTliaTlJZUdXTHdpdHVzQ3F3amtCbDFCS2o2VWxoSDFtaU01UXB6MFV3c2k4VWJ4M0tXNm43Zy1jTGdDdjAtM0pTd2gxeEtvYUd6c0xpRlFqSW9DNGYwcElCUDAzMktB?oc=5",
           "source": "Google News"
         },
         {
-          "title": "TSMC Is Ready to Spend $265 Billion in the U.S. It Could Spend Even More.",
+          "title": "Intel vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xZndfZGZsZlJZQXhMNlZrLWFvNV9FMXlmUFJMOVcxWlp4VHhtTlZvQ0lUOGdvTGU0b0dsZ0o5QndBanJTZWpBNUx4OUxUUC1qb1BQTVFJRlJZcm1xOVdXYnk0VktibUdiVUZiUjNaQ05DdFVq?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOenltRkIwcW1DTlQtUXM0NmVHUHJSN2txZlEzSFlieFljeHJ4dzZqQzg1QnlRV2dyWmlpTzNBLXROMC0xV0tYc0E2YzRsUGhTdXFrRmRGOXhaWEw0a0Y1OXFxUzhyLUJLX2NIRV9oR3Y1NGpUUlVUNC1HRGYydVN2a0hsUFdPRndFdXk2LUdDVXdmY0lyWlBheG1oQVBLeTVCaklSZnVvQ2V6MWU4?oc=5",
           "source": "Google News"
         },
         {
-          "title": "TSMC makes the world’s most advanced computer chips. Why invest in Arizona?",
+          "title": "Taiwan Semiconductor Manufacturing Company (TSMC) is considering building a new factory in Texas as part of its plan to expand semiconductor manufacturing operations in the United States.",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWjdJTE40cERpNjdka0syRDktQVdoZDBRSVZUb2VWT0F0Szh6QkljVFJITWI0cHh5YXB2OEJWOTNKYVEwaEZWck0zLW1IVlhYZVpzTUd3eHEzWHJFYjlkQ3VCbC1jMmt3X0J2TGhreW1mY285LTg0Z0lOSFQxMjBXeERkQ0p4aEh5LXdQaGNrU0dETUFKbUxQYVAyajNKZnVuYVN0WDhGMXd4RkUxRXJSRHM2VQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVEpuUmF4d3J0NVpqdXQyMVptbXZwRlgxNS1IWmpQenJMenI3aGVPZmZhZG5HM0JBamIzMzZFLVRZRVZJb2ZramlLTzBnVjVKaHQwMm11NDl5QTN0T2xUOFctX3hhbnVCN0sxcHp2R0xJaWZkYkpFUHN3UnVSTksyd3pfX0lmZHVMWWZTOFlOdVQwY3FoYngwSg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNemprVHdtUUFGSTNfXy1yeGRVVEdCTXRXSngzOHk4X2xYN0NPd3Q5RFkzdFdSOVA1OGVvZHlKNUZ5LVYxUU1kMkNPTTRTOERQdUNlQVZKcUZiSGFUenhVSk0xLWhURGUwN09rR3BzSmhJckdoTVZnQi1pYWJ0azhkUFhZZzB0WDRDYzBhd3BRdFJvQVN4NHVzWlpIZmpGN2xHMmlSMDZkWVFHXzFHNzRFWG1wNDNUYU1BSlhBVzhfX2JNR2FWaGtzR0pZWQ?oc=5",
           "source": "Google News"
         },
         {
           "title": "Taiwan Semiconductor Manufacturing Reportedly Weighing Texas Investment to Boost US Chip Production",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQR2p3TVlKREtXMUVmWkJFZlBJTUI2UnUyMFBqb0RBQjQ0TnViZFJkMndWZldCNG9GX1h2YkpVd2FjX3g5MWtVS3RWb0RzLVVxSTY4MUt5cWZIQ1dnSVBJZGh1VXdKOG9iRDNBbzY5NUE0el96YmZYYWNwd1o5ZUJaWUJhTFgtRnJSTGhYNVhoc0lJbnBUR0tabmRCaTR2emhHcTNjekZqeG1jVERlSnJSQzdxaFQ5d0tSbGdIZHFpRXBMZk1abDRXTno4V1lxaGFwcFZrWldtRnRJQVRkbjZfVzdaRVFXaXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbWxMZF9ONTV0S19XMU5ZbFR1NWtRcUQ2OEtWZmFSYTR0U05mdThHSm5vWnJ3MDF4YTVVSlkzRXE4TXFIVFZIckRtNGh0ZUs4MkVVaHZvdWtqSmxJUnJzek9YajlwbVBxMDRjenhRb2VkQW5DZVY5RU1wOWdqaTJfaERfWmJ1Ml82ODFicU9QTXZFQUFsT1A0TUNFZHNsSWpJQzlTeHlXcUVXS0V2N1lSN2h6SG9fanFYRVFyQWVTaFFnYW1kanNmZXlLLWZzdkNOVjBpVjFYX25JbFIwdFh0bFZvMkp2LTA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Rumors suggest Taiwan Semiconductor is planning a new campus in Texas: multiple fabs, with total investment potentially reaching tens of billions of dollars.",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMG9jYnZuQUZlMEU2MFAtVXBuSkVmZ09ZaVlRY2xUZUg2LWZ1bWRyTTlKSk9RaGZtbnVzUDdwY2VkOVQ5TEZEZW4xTGZpc2pxZ3pOdERUS09odjRiMlZNcF80SDNYQlZfbUw1VG5qc01QSnJWY0ZaMklCenZydGJSaUdUTF9fcG05bmdRVTlsc3hEQlZXWWc5YVNrWFZyRXFXZ29PT0ItZ20wUQ?oc=5",
           "source": "Google News"
         },
         {
@@ -181,24 +193,30 @@
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGJhXzVnbnA1cC1Pd1Zoa3A0WHMtNlFnR0dEMXV2bmxHdWhZV3c1VzctS1ZtaXgza2pDeXZ0MGtkZFNNNzRTRk5zU3E2cnVBM3NQYU5vVXBsTTdiYXhjZ00wTkt3UGtrczhEU2s2RjR5SkNSd0piZXUzeFFGN2xRbzZ1ck5rU2Noak5pbjhETU5BWE90NVRZSHJuUlRSMjFNd1lqTU1DT1B0UlNIY2pPWXpoQ01kQ1Fs?oc=5",
           "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor (TSM) aiming for a break above $500",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ1BWU05fbXFnamwtbG9sa0NqM2d0RXp5NnZiMlZ4RUFoWUpTRllNNkpvOXpNM1g1M3lORlF4OEhiQV9sQXRlRFFfcnBWQm90UFh5eGhxR1VKN0tmM3Rqckk2UDJxRU5oZHkyWU9ZcXRBLUgyRG92eXl5SDhSdGZaZ3U0bUpEYzV6NXBySk5jZUNyNDdwdFZNMk1KR2k?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan’s semiconductor chokepoint is less vulnerable now, but only less so | Article",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNekxHamZibFc0UFlZdTA0Y3NNRVVHcEV3TXNIT0hrakw3YmVLMEstY2FTcy1qT184ZGtoazRiT0YwYzFmY0xaY1ZrenBadVdKZ3h3OVM5bUEzODAwLTM0MzloZXNRSm1TUHh4RmczMEM0UG5EZ2F0QmFfNEpueTROZHhLM1k2Rkc0cDNxWV9BR09ub0pwN1Rzdlpma3NGUzZ4RUVQemg2YUJxQzRCNXlmUWl0dzFCdlpjbGc?oc=5",
-          "source": "Google News"
         }
       ],
-      "summary": "TSMC가 미국 내 대규모 추가 투자 가능성을 저울질하는 가운데, AI 반도체 생태계에서 대만 중심의 공급망 패권과 미국 현지 생산 확대 요구 사이의 전략적 줄다리기가 이어졌습니다."
+      "summary": "TSMC가 미국 텍사스주에 수십억 달러 규모의 신규 팹 캠퍼스 건립을 검토하며 AI 칩 생산 능력을 확장하고 있는 가운데, 미국 내 투자 집중과 대만 본토를 둘러싼 지정학적 리스크가 동시에 부각되고 있습니다."
     },
     "CN": {
       "headlines": [
+        {
+          "title": "Could Northern Metropolis draw educational leasing from Hong Kong’s Grade A office sector?",
+          "summary": "As education sector demand supports Hong Kong’s Grade A office leasing activity, analysts said infrastructure that will serve the Northern Metropolis could decide whether schools and universities move their administrative and other services to this potential new centre of the city. “Over the medium ",
+          "link": "https://www.scmp.com/business/article/3369267/could-northern-metropolis-draw-educational-leasing-hong-kongs-grade-office-sector?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Hong Kong needs new funding model to draw investment from global drug makers: AstraZeneca",
+          "summary": "Hong Kong can attract more global biotech investments if the city builds up a new healthcare financial model, according to AstraZeneca, a Cambridge-based multinational pharmaceutical giant. While global drug makers have been doubling down on investments in mainland China in recent years, AstraZeneca",
+          "link": "https://www.scmp.com/business/article/3369144/hong-kong-needs-new-funding-model-draw-investment-global-drug-makers-astrazeneca?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "China’s carmakers eye record 12 million overseas sales in 2026 as ‘go global’ plan pays off",
+          "summary": "Chinese automotive groups have cause to celebrate their go-global strategy amid breakneck export growth in recent years, with deliveries in 2026 expected to beat expectations already buoyed by an international energy shock caused by conflict in the Middle East. Leading carmakers from BYD to Chery Au",
+          "link": "https://www.scmp.com/business/china-business/article/3369423/chinas-carmakers-eye-record-12-million-overseas-sales-2026-go-global-plan-pays?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
         {
           "title": "‘China’s Warren Buffett’ adds Moutai shares for 3rd time as baijiu sector seeks bottom",
           "summary": "Chinese-American billionaire investor Duan Yongping, often called China’s Warren Buffett, has added 30,000 shares of Shanghai-listed baijiu maker Kweichou Moutai to his portfolio in his third public stake increase this year amid a deep sector-wide adjustment. Moutai’s premium valuation has long reli",
@@ -240,39 +258,22 @@
           "summary": "Hong Kong’s efforts in advancing the city’s innovation and technology (I&T) industry have been highlighted in a number of international surveys in recent years. One of the most recent was the International Institute for Management Development’s “World Competitiveness Ranking 2026”, which placed Hong",
           "link": "https://www.scmp.com/native/business/topics/hong-kong-global-hub-talent/article/3369062/how-hong-kong-entices-europes-young-start-talent?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "China’s 2030 solid-state battery goal, Chinese carmakers see boost in Europe: 7 EV reads",
-          "summary": "We have put together stories from our coverage on electric and new energy vehicles from the past two weeks to help you stay informed. If you would like to see more of our reporting, please consider subscribing. 1. As Chinese carmakers diversify beyond CATL, Beijing warns of market overreaction A pub",
-          "link": "https://www.scmp.com/business/china-evs/article/3369306/chinas-2030-solid-state-battery-goal-chinese-carmakers-see-boost-europe-7-ev-reads?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Mainland China’s PCB giant wins Hong Kong approval for planned US$3b listing: sources",
-          "summary": "Mainland China-based printed circuit board (PCB) maker Suzhou Dongshan Precision Manufacturing has cleared its final listing hurdle in Hong Kong and is moving towards a share sale that may rank among the city’s largest initial public offerings (IPOs) in the fourth quarter, according to people famili",
-          "link": "https://www.scmp.com/business/banking-finance/article/3369299/mainland-chinas-pcb-giant-wins-hong-kong-approval-planned-us3b-listing-sources?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Chinese biopharma’s global expansion",
-          "summary": "–",
-          "link": "https://www.scmp.com/plus/tech/tech-trends/article/3369300/chinese-biopharmas-global-expansion?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "홍콩 증시의 IPO 실적이 호조를 보이고 대형사들의 지분 재편이 이뤄진 반면, 본토는 전기차 배터리 세제 혜택 종료와 주요 기업들의 대규모 손실 및 구조조정 압박에 직면했습니다."
+      "summary": "중국 자동차 제조사들이 '고 글로벌' 전략에 힘입어 올해 사상 최대인 1200만 대의 해외 판매를 목표로 세운 반면, 부동산 부문은 규제 강화와 주요 개발업체의 대규모 손실로 침체 국면이 지속되고 있습니다."
     }
   },
-  "trend_headline": "사상 최대 반도체 수출과 미·중 공급망 재편의 격랑",
-  "summary": "한국의 반도체 수출 사상 최초 600억 달러 돌파와 대만 TSMC의 대미 투자 저울질 등 반도체 훈풍이 거세지만, 미·중 갈등에 따른 공급망 재편과 중국의 경기 둔화 및 배터리 세제 개편 등 구조적 압박이 아시아 시장 전반의 변동성을 키우고 있습니다.",
+  "trend_headline": "글로벌 금리 발작 속 AI 공급망 재편과 수출 다변화",
+  "summary": "미 국채 금리 급등과 긴축 장기화 압박이 아시아 금융시장을 흔드는 가운데, 한국은 국채 수급 조절에 나섰고 대만 TSMC와 일본은 AI 칩 및 부품 공급망 확장에 총력을 기울이고 있습니다. 중국은 부동산 침체 속에서도 자동차 수출 확대로 활로를 모색하는 등 고금리·AI 전환기 속 각국의 각자도생 흐름이 뚜렷합니다.",
   "cross_country_themes": [
-    "반도체 수출 및 공급망 재편",
-    "미국 대선 및 대외 투자 압박",
-    "배터리 및 친환경차 산업 규제 변화"
+    "AI 인프라 및 반도체 공급망 확장",
+    "미국발 금리 충격과 매크로 불확실성",
+    "수출 및 글로벌 전략 재편"
   ],
   "sector_hints": [
     "Semiconductors",
-    "Nuclear Energy",
-    "Electric Vehicles"
+    "Automotive",
+    "Treasury & Fixed Income",
+    "Real Estate"
   ]
 }

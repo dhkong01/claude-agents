@@ -1,74 +1,122 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "\"20주째 내렸다는데 고작 0.4원\"…서울 휘발유 여전히 1900원",
+          "title": "\"화장품 90% 싸게 팝니다\"…올리브영 위협하는 '이곳' [장서우의 하입:hype]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026100314707",
+          "link": "https://www.hankyung.com/article/202610031362i",
           "source": "한국경제"
         },
         {
-          "title": "“보험금 다툼 끊이질 않네”…민원·분쟁신청 꾸준한데 5세대 실손 앞날은",
-          "summary": "올해 국감서도 5세대 실손보험 안건 실손 비롯해 보장성 보험 민원 꾸준 약관해석과 보험금 지급 사유 때문다음 주부터 국정감사가 시작되는 가운데, 올해 보험 부문은 5세대 실손보험 ..",
-          "link": "https://www.mk.co.kr/news/economy/12167710",
+          "title": "30분 단축? 점심에 은행창구 더 몰릴텐데…저녁·주말 금융서비스는 어디에",
+          "summary": "금융노사가 내년 4월부터 은행 점포 영업시간을 30분 단축하기로 잠정 합의하면서 일반 창구 운영시간 외 이용할 수 있는 금융서비스가 주목받고 있다. 일부 은행은 저녁까지 운영하는 ..",
+          "link": "https://www.mk.co.kr/news/economy/12167852",
           "source": "매일경제"
         },
         {
-          "title": "\"계좌 안 보여요\"…대형 증권사 전산사고에 피해자만 2만명",
+          "title": "'사과빵'으로 대박 나더니…3040에 인기 폭발한 빵집 [권용훈의 트렌드워치]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026100314527",
+          "link": "https://www.hankyung.com/article/202610020192i",
           "source": "한국경제"
         },
         {
-          "title": "“1550원일땐 차마 못 갚았습니다”…1350원에 달러빚 정리나선 기업들",
-          "summary": "5대 은행 달러 대출 분석 고환율에 불어났던 달러 빚 원화 강세로 두달새 13%↓ 원화 매출비중 높은 기업 대출상환에 따른 효과 커원화 가치가 빠르게 오르면서 기업들이 달러 대출 ..",
-          "link": "https://www.mk.co.kr/news/economy/12167675",
+          "title": "주말 새 2금융권까지 해킹피해 확산에…당국, 4일 전 금융업권 협회장·금융사 대표 긴급 소집",
+          "summary": "7일 예정 회의를 앞당겨 금융권 보안사고 댕응방안 논의할 듯금융당국이 전 금융업권 협회장과 침해사고가 발생한 금융사 대표들을 긴급 소집했다. 3일 연합뉴스에 따르면 금융위원회는 오..",
+          "link": "https://www.mk.co.kr/news/economy/12167844",
           "source": "매일경제"
         },
         {
-          "title": "\"나흘간 2900명\"…뉴욕 뒤흔든 'K뷰티 자판기' 정체 [장서우의 하입:hype]",
+          "title": "\"한국인 없는데 한글 간판?\"…中 젊은 층 몰려드는 동네 [차이나 워치]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610021316i",
+          "link": "https://www.hankyung.com/article/202610031968i",
           "source": "한국경제"
         },
         {
-          "title": "“하마터면 5대 은행 다 뚫릴 뻔”…AI 해킹에 3곳 고객정보 유출",
-          "summary": "5대 은행 일제히 AI 해킹 공격 받아 신한·국민·하나 고객정보 실제 유출 금융당국 긴급회의…전산망 전수점검신한은행에 이어 KB국민은행과 하나은행에서도 해킹으로 고객 정보가 유..",
-          "link": "https://www.mk.co.kr/news/economy/12167528",
+          "title": "“사람보다 비싼 우리 ‘황구 백구’ 치료비”…펫보험 들때 주의할 점은?",
+          "summary": "병원비 부담에 펫적금보다 펫보험 수요↑ 가입 후 보험금 지급 안 되는 면책기간도 “연령 어렸을 때 유리…보장범위도 확인”반려동물이 아파 병원에 가면 많게는 수백만원의 진료·수술비가..",
+          "link": "https://www.mk.co.kr/news/economy/12167817",
           "source": "매일경제"
         },
         {
-          "title": "돈 빌려주고 월급에서 까달라던 직원…퇴직 날 '뒤통수' [사장님 고충백서]",
+          "title": "요즘 사람들이 제일 많이 찾는 카드 따로 있었다…1위 봤더니",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610021347i",
+          "link": "https://www.hankyung.com/article/2026100319487",
           "source": "한국경제"
         },
         {
-          "title": "5대은행 다 공격당했다 … AI 해킹에 떠는 금융사",
-          "summary": "지난 1일 신한은행의 고객 정보 유출 사실이 알려진 지 하루 만인 2일 KB국민·하나·부산은행에서도 외부 침입에 따른 개인정보 유출 사고가 확인되면서 금융권의 보안 불안이 커지고 ..",
-          "link": "https://www.mk.co.kr/news/economy/12167516",
+          "title": "‘금융권 AI 해킹’ 현대캐피탈도 털렸다…대출모집인 정보 유출",
+          "summary": "이름·휴대전화번호·주민번호 등 유출 “일반 고객정보 유출 없어”현대캐피탈도 인공지능(AI) 활용 해킹공격을 받아 주택대출 모집인 관련 정보가 유출된 것으로 확인됐다. 현대캐피탈은 ..",
+          "link": "https://www.mk.co.kr/news/economy/12167805",
           "source": "매일경제"
         },
         {
-          "title": "日총리도 감탄…명동 빌딩 팔고 한옥 지은 60대의 15년 '땀방울' [권용훈의 직업불만족(族)]",
+          "title": "은행·저축은행·캐피탈까지 뚫리자…금융당국, CEO 긴급 소집",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610029307i",
+          "link": "https://www.hankyung.com/article/2026100319347",
           "source": "한국경제"
         },
         {
-          "title": "대출·송금 돕던 AI가 '해커'로 … \"내 통장 털릴라\" 소비자 불안",
-          "summary": "지난 1일 신한은행에 이어 하루 만인 2일 KB국민·하나·부산은행에서도 고객 정보 유출 사고가 확인되면서 금융권에 인공지능(AI) 해킹에 대한 공포가 확산되고 있다. 금융권과 정..",
-          "link": "https://www.mk.co.kr/news/economy/12167515",
+          "title": "“AI에 시중은행 또 털렸다” …이번에는 예가람저축은행, 4만명 정보 털려",
+          "summary": "예가람저축은행에서도 해킹으로 고객 개인정보가 유출된 것으로 확인됐다. 국내 주요 시중은행에 이어 저축은행에서도 개인정보 유출 사고가 발생하면서 금융권의 보안 우려가 커지고 있다. ..",
+          "link": "https://www.mk.co.kr/news/economy/12167792",
           "source": "매일경제"
         }
       ],
-      "summary": "신한·국민·하나 등 주요 시중은행에서 AI 해킹으로 인한 대규모 고객 정보 유출 사태가 발생해 금융권 전반의 보안 비상이 걸렸으며, 원화 강세 흐름에 맞춰 기업들의 달러 부채 상환이 이어지고 있습니다."
+      "summary": "시중은행과 저축은행, 캐피탈 등 전 금융권이 AI 기반 해킹 공격으로 잇따라 개인정보 유출 피해를 입으면서 금융당국이 CEO들을 긴급 소집하는 등 보안 비상등이 켜졌습니다."
     },
     "JP": {
       "headlines": [
+        {
+          "title": "Bobby, My Best Friend: Stephen Schwarzman (4)",
+          "summary": "",
+          "link": "https://asia.nikkei.com/spotlight/my-personal-history/bobby-my-best-friend-stephen-schwarzman-4",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "The unglamorous reality of winning the AI race",
+          "summary": "",
+          "link": "https://asia.nikkei.com/opinion/the-unglamorous-reality-of-winning-the-ai-race",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Kawasaki Heavy aims for fully autonomous humanoid AI robot by 2030",
+          "summary": "",
+          "link": "https://asia.nikkei.com/business/technology/kawasaki-heavy-aims-for-fully-autonomous-humanoid-ai-robot-by-2030",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Nitori tackles Japan's furniture waste with giant recycling center",
+          "summary": "",
+          "link": "https://asia.nikkei.com/business/consumer/nitori-tackles-japan-s-furniture-waste-with-giant-recycling-center",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Airbnb unlikely to let AI agents like Muse make bookings, CEO says",
+          "summary": "",
+          "link": "https://asia.nikkei.com/business/travel-leisure/airbnb-unlikely-to-let-ai-agents-like-muse-make-bookings-ceo-says",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Vietnam's economy grew 9.95% in Q3, fastest pace in 4 years",
+          "summary": "",
+          "link": "https://asia.nikkei.com/economy/vietnam-s-economy-grew-9.95-in-q3-fastest-pace-in-4-years",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Roadblocks in Pakistan capital to deter Imran Khan supporters",
+          "summary": "",
+          "link": "https://asia.nikkei.com/politics/roadblocks-in-pakistan-capital-to-deter-imran-khan-supporters",
+          "source": "Nikkei Asia"
+        },
+        {
+          "title": "Japan's Aozora, Arthur D. Little partner on investment, advisory services",
+          "summary": "",
+          "link": "https://asia.nikkei.com/business/finance/japan-s-aozora-arthur-d.-little-partner-on-investment-advisory-services",
+          "source": "Nikkei Asia"
+        },
         {
           "title": "Student Body President: Stephen Schwarzman (3)",
           "summary": "",
@@ -80,82 +128,16 @@
           "summary": "",
           "link": "https://asia.nikkei.com/business/electronics/once-in-decline-japan-s-hard-drive-suppliers-ride-soaring-ai-demand",
           "source": "Nikkei Asia"
-        },
-        {
-          "title": "Japan's TEPCO to counter 'capacity squatters' in AI data center boom",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/energy/japan-s-tepco-to-counter-capacity-squatters-in-ai-data-center-boom",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Young Indians flock to EU as immigration curbs bite in US, UK",
-          "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/big-in-asia/young-indians-flock-to-eu-as-immigration-curbs-bite-in-us-uk",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Scandal-hit Nidec's new CEO long praised by founder Nagamori",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/companies/scandal-hit-nidec-s-new-ceo-long-praised-by-founder-nagamori",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Japan local governments step up Taiwan outreach for chip investment",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/tech/semiconductors/japan-local-governments-step-up-taiwan-outreach-for-chip-investment",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Nippon Life set to gain from affiliate Corebridge's merger with Equitable",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/insurance/nippon-life-set-to-gain-from-affiliate-corebridge-s-merger-with-equitable",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Soybeans slump on dimming hope of Chinese tariff cuts",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/commodities/soybeans-slump-on-dimming-hope-of-chinese-tariff-cuts",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Japan's Niterra drops deal for Denso spark plug, exhaust sensor businesses",
-          "summary": "",
-          "link": "https://asia.nikkei.com/business/business-deals/japan-s-niterra-drops-deal-for-denso-spark-plug-exhaust-sensor-businesses",
-          "source": "Nikkei Asia"
-        },
-        {
-          "title": "Japan hits Russia 'shadow fleet' in 1st sanctions since Putin trip to disputed isle",
-          "summary": "",
-          "link": "https://asia.nikkei.com/politics/international-relations/japan-hits-russia-shadow-fleet-in-1st-sanctions-since-putin-trip-to-disputed-isle",
-          "source": "Nikkei Asia"
         }
       ],
-      "summary": "급증하는 인공지능(AI) 데이터센터 수요에 발맞추어 일본의 하드디스크 공급업체들과 전력회사(TEPCO)가 수혜를 입고 있으며, 지방 정부들은 대만과의 반도체 투자 협력을 적극적으로 확대하고 있습니다."
+      "summary": "일본 기업들은 가와사키중공업의 휴머노이드 AI 로봇 개발처럼 인공지능 수요 급증에 대응하는 실질적인 생산성 향상과 하드웨어 공급망 혁신에 집중하고 있습니다."
     },
     "TW": {
       "headlines": [
         {
-          "title": "Broadcom vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+          "title": "ASML vs. Taiwan Semiconductor Manufacturing Company: What Revenue Trends Tell Investors About These Companies Tied to Artificial Intelligence",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNk9qekhnYWU0Uk1uNnZmSkpwRGwwWHI3Z3NjMlN2b1lqc2c5Qnl2RWNUeDNJeGplWkRxbjVzeDNOYTJKcXVSNkZ3WUdGZXRMbjU0RVR5NmtzNHE0T0RnWnVyR1JKSWZvcGo4enVqRzFFYWd0bDg1N19zNTdLMUlTbWhKemhjQ2xVVmxydW54QVI0bGo5azRQYllxcEw3MWNDaHBMa0ZFcUE4MFBHWmg2QnVwUkJKdlBCMWxzUWpFSGRiaU9HTXV0ZlBpQTE4cEpfSTNkWTI2RQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Can Taiwan Semiconductor Manufacturing (NYSE:TSM) Justify A Rich Price On Cash Flow?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOS1RkdTBZRE4tb0FVeUl6c0ZrVHNKcnZlQU9RdjZ2b2lGaDd5T1dZSzV3amY1UFdKYmZVVkJLcW8yZ09kUVl4LVN1ZTZnaFNLXzN3VE84dzRTdjJNbXB4T3Z3NXlqdWpRZjdnOTNIdHh2bEcybTN5Z2JXOVVyYVY0bndRbDY2RnNLb1laTVc0MjNhS3RZak42aE5pQlBCVXlWaHRuV0JpMEdSUkhfWkpKdU9NaklSNFhRNkRabFpNUlF1bnJLMko1SmMyVG4wVU1WN1djSXFUcTFZMmgxR2ZiMXdMajduSDBmVkxmZ9IB8gFBVV95cUxPeFhPUGFDN0ZJWFhFY2ltZHpULVBMS1NmS2ZRRTVjdlIySXBUdHVLU1JHdEJsaGdqTGhzQ3R1bllKUFpsN1A5b1g1SGE3VERtdFBsWXlVTHE4T0pBQUI3Zk43N0hWMEhhV0NvTjFvQ0ptRjYza19ueU5lQlhtdDNLT2hyMDRROXpfZ3lkTTdIZ3Vnb2R5OUlQcGNJb01jY05DUFZxTXY4X2RGUFpWRGZnNHIxWlZSVjAwWHNFM3JLV19KNlUzM0k1aGlNakQ4TUhfaXJJeVVybUprUjRvWU9WT1ZwUUV3czlBei1ZX3hwTmJUdw?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Stock Rises on Broadcom's $60 Billion Chip Deal",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdk9rTVRlT0Z6azI5TUlQZHZZbHRjR0Rmdko0YzB6c2FuY2hMQWpKZWhsSExCdFNyXzQzSUtSY1ZrOE5yMUd1UjliRXNGRU5EWGRVTnRydjVZRjVXMFB4VHVNWGhFSWdvR0dJYlFkVVB5aThES3JHZFhMQ1ptd1FnT3EtOERkV1A2TnQyb3dibmt2a1pJdGRQWjRVdHR6TXJBNXdoTE9ObU1lcTNXclN4S00tVFNGMGw0MGYyZTlLcnhUMHZ5VWc?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing (TSM), Why Is Fresh Attention Building Now?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVVleTZuaURydjNZdjd1aGtENVVwZmNnZm5FTUVBbTI0bVdXVzVQaTRteGpCSkJtM3R6Um55WGpzdFZiRlBPcElEcExueG1uUUE1YVpwMjVyOXRyRkF3S2NHVXZTQXdxekkwSTVyaElGcnFubXVrdmlGN2xhSWRJblFtY3RXekFWZk51R2RyeU9RMU5odGtyX2pkcXQzaXV2emdFWHVuWDR5TnM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNak5Sd3ZzRmhvMnpfSk5veGRyZ0JIajRaQVhjM0tHekRwTVNEY3M4Zk1QU3hKSDhIN0VqbGc3Wkxoa2M5NVpMamRnY1c1SFNMRlBWYmQ0YWZXRk5ha3JSV1ZuRnJ2U3VMRElLRHBxMDNlY2YwZjRUU3FEdUNyQUFkNDl4YU12ZDNJZTFfQ0RkdFRGbE8tOEpkVHZnSVM1VnJUUEcxQlFMTWVLSmgzNmU3TWFISW9Zak1NalA5UkFva3B4c0VQTzhtQ0tjZWF1R2NzQ1U5WWNOZmhIRl9UdmM0cEkxTWpEek9RUGc5aWZxMExJOS1kaGRPMlpMTGNLT1VNWGNLOG8xVVJyVDZRbDd0ZGdhLW12S2c?oc=5",
           "source": "Google News"
         },
         {
@@ -165,27 +147,33 @@
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Up 3.1% - Here's Why",
+          "title": "Taiwan Semiconductor Manufacturing (TSM), Why Is Fresh Attention Building Now?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX2RvRC04WHM4Mlp3UXJUZ1B5dGtzSUhEaXNNQU5ZQTJwdURaWFdFZnVYdVJYUVZ4WF9XQmc4MzUxaGl3MEJIOWdjQ0t4ZUcySW1oamZYekV6ZDRsYnBoU2dyWHN5TUNaUUZZakhiZC01b2J4TDllaVNHTU5uRFh2SEwxaldPSDRmbzRKUU1Ldlg1Q0xRTEs5R1QzMXlPaFd6eXFFd0FDUXRDc1Q0OS1jNnFXc0ZHZ2hDUjdoRE5yeXRUYldtdzdrdkliRQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVVleTZuaURydjNZdjd1aGtENVVwZmNnZm5FTUVBbTI0bVdXVzVQaTRteGpCSkJtM3R6Um55WGpzdFZiRlBPcElEcExueG1uUUE1YVpwMjVyOXRyRkF3S2NHVXZTQXdxekkwSTVyaElGcnFubXVrdmlGN2xhSWRJblFtY3RXekFWZk51R2RyeU9RMU5odGtyX2pkcXQzaXV2emdFWHVuWDR5TnM?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor (NYSE:TSM) Shows High Growth and Improving Fundamentals",
+          "title": "Foreign minister to attend Phoenix office opening",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcmZZd3ZXa0FRZ1BwWG44bzhhRGlMZzVMdVFnRXB6Q0FxSm1NWlBxVWxSV1hEU2NjUVFfQkxRVm05akZtdnVtb0JDM2g3NDJOUmJ3MEJrR2tKeFdpbjFwWmJiX09pcld1ZlhScDlEeFF2bUdLQWY4YjZEdGo2OW5tejVBTDlPeTVJcF94T0dRTnZ4V1c5cXVkRWYxc3BXd0hsQ3M0OVMtLUdUTlg4UXc5RkJDck5rMkJNY3BIblBiNllHZw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xc0hZbWR2ZTNLVzljcWxHX3RDRi1uS1QtODhyaldVbFVNN29EWnIzSENoWGh3Tm1WYXVlY2U4RUctSTlLNVFxdHZubmZfemN6Qmk5Ny1nVncxM2hxNUp5ME1CNll6YW1wSURyTTFJMWxhR0J2WXBhWA?oc=5",
           "source": "Google News"
         },
         {
-          "title": "$Taiwan Semiconductor (TSM.US)$",
+          "title": "Can Foundry Leadership Extend the Run in Taiwan Semiconductor Manufacturing (NYSE:TSM)?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdUhlRkEwcHNELXUxVFBuSlRYYlZiUl9PQVBPdzdPTWkxMERLT2l5WFNhZE12RWUzcmlKM0dwbUZqYVVNcmZKMUgzLTQ4ZmRxTWhzUUJFT0Z2UlIyOXFESXZERGtwYTNSZThTeEZQVGpmZXh5V2hmZTU4TlBKNUY0VUNFaE5KNFF3?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZy1ENlh6UUVmMGtyaEFfZ3ZZQk1iSlJoaW9GcDlYdGNtR0NGLVhBb01GQTZndnBobzhhaTdKbUhKSzduRHU0QTRYUnRIMWdKOVRCTGVkWVViYS04Ylh6bUlZTHExbEhvNVNmYWV6R2dOVDdwb0JGWjFmSkk0SzdHbTh0QTVkZHAwbDhYWlVIeFFod0lfdld5c3VDSlI5TXBmZ0FzQnByaFM4OS15NmxaMFVpNW1XWlBZbmR3VWJQeEI4a0FkM3p4Mmdpczk1UUk5MFhJLUtjMUtfUQ?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Up by 3.16% on Oct 2: A Full Analysis",
+          "title": "Taiwanese foreign minister to visit Arizona to deepen economic ties",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOV9vbzR6ZVhFOFlOcFdMMTgyaDRKN1liSXgtc0F4Qm5rTVktRzgxSVVPRkdOMG8xU3VhQmpmaE14Y2NuX1hTcWI3SW5wUHB0VkJDMHdndm12NkdVemFPR3dSWjZ1V1BQbnFqN1JobmF2QkM2dzY5MUMyYlFNb0dtLWpidFBkamx3VHc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMGh6Y2lTZG50Z2s4TEY2Z0dHVGNQUExMVFB2RnFRdnFVNkR6YmxhdEFrZGd6cVdmYzdFR1liRmZFMTBqeWJiQ1RHMDlVMmRYOWFOUS1udkdWUHFCSFp1X3FWZ2JQQXRqRlRNajlSQU0tbVRHR0lpLVNPUWE1dWpXWmxOMmFLWm1ldk12Y0dldmdpYl9OY2c?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Taiwan FM Visits Arizona to Boost Chip Ties",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV0p4cjVpY0ZVTzQ4M0lvVE5mbThUSzhIVnEwUVE4VGk3dTJwNUh6RE9LNGgxZlRyaVNfc2NmWVBUNkFJNk9oM3paSDBCSWYweHEzcThHd1RVMXVSSmlWdnpWNEVLNTA0MWpVMUU5Wmp3V203MUhtb091RFlUMlNoc0l0QnE3MkZvd3RudmVBc1JFZw?oc=5",
           "source": "Google News"
         },
         {
@@ -193,12 +181,36 @@
           "summary": "",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZTJLaXBpeGppZXhiQkoyeWdFMG5wQmZ4bDZPNWFHS3VIX1ZramhGZldxWm02VGQ4TEdyd0x1Q2VzZjZsUzh6WkhocjVtV1NLbFdqZUs4cmxnS0lyRGRGbkliNUttLTd6bWl3ZmIwNjFVblFGU2VTVUlKYUNPdWFTNHR3SURXdlNnVHhCeFpDVHN5TzVxcy1pcXA2QWhWUEptWTd2SUVkVWpNc0xSUEF4QTU4aEd0V3VDeTBOMFVBcXk1WUlIWmc?oc=5",
           "source": "Google News"
+        },
+        {
+          "title": "Can Taiwan Semiconductor Manufacturing (NYSE:TSM) Justify A Rich Price On Cash Flow?",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOS1RkdTBZRE4tb0FVeUl6c0ZrVHNKcnZlQU9RdjZ2b2lGaDd5T1dZSzV3amY1UFdKYmZVVkJLcW8yZ09kUVl4LVN1ZTZnaFNLXzN3VE84dzRTdjJNbXB4T3Z3NXlqdWpRZjdnOTNIdHh2bEcybTN5Z2JXOVVyYVY0bndRbDY2RnNLb1laTVc0MjNhS3RZak42aE5pQlBCVXlWaHRuV0JpMEdSUkhfWkpKdU9NaklSNFhRNkRabFpNUlF1bnJLMko1SmMyVG4wVU1WN1djSXFUcTFZMmgxR2ZiMXdMajduSDBmVkxmZ9IB8gFBVV95cUxPeFhPUGFDN0ZJWFhFY2ltZHpULVBMS1NmS2ZRRTVjdlIySXBUdHVLU1JHdEJsaGdqTGhzQ3R1bllKUFpsN1A5b1g1SGE3VERtdFBsWXlVTHE4T0pBQUI3Zk43N0hWMEhhV0NvTjFvQ0ptRjYza19ueU5lQlhtdDNLT2hyMDRROXpfZ3lkTTdIZ3Vnb2R5OUlQcGNJb01jY05DUFZxTXY4X2RGUFpWRGZnNHIxWlZSVjAwWHNFM3JLV19KNlUzM0k1aGlNakQ4TUhfaXJJeVVybUprUjRvWU9WT1ZwUUV3czlBei1ZX3hwTmJUdw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Broadcom vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNk9qekhnYWU0Uk1uNnZmSkpwRGwwWHI3Z3NjMlN2b1lqc2c5Qnl2RWNUeDNJeGplWkRxbjVzeDNOYTJKcXVSNkZ3WUdGZXRMbjU0RVR5NmtzNHE0T0RnWnVyR1JKSWZvcGo4enVqRzFFYWd0bDg1N19zNTdLMUlTbWhKemhjQ2xVVmxydW54QVI0bGo5azRQYllxcEw3MWNDaHBMa0ZFcUE4MFBHWmg2QnVwUkJKdlBCMWxzUWpFSGRiaU9HTXV0ZlBpQTE4cEpfSTNkWTI2RQ?oc=5",
+          "source": "Google News"
         }
       ],
-      "summary": "미국 브로드컴의 대규모 칩 거래 호재에 힘입어 TSMC의 주가가 상승세를 보였고, 미국 애리조나 투자 확대와 함께 지정학적 리스크 요인도 지속적으로 부각되고 있습니다."
+      "summary": "TSMC는 미국 애리조나 투자를 지속 확대하며 글로벌 공급망 재편의 중심에 서 있으나, 동시에 지정학적 리스크와 미국 반도체 기업들과의 밸류에이션 평가가 교차하고 있습니다."
     },
     "CN": {
       "headlines": [
+        {
+          "title": "Wuhan joins major Chinese cities in shift towards completed-home sales",
+          "summary": "A complete supply-side transformation of China’s housing market is likely to take precedence over any immediate revival in homebuyer demand following Wuhan’s overhaul of new-home sales, according to property analysts. Wuhan, capital of the central Chinese province of Hubei, is the fourth major econo",
+          "link": "https://www.scmp.com/property/article/3369596/wuhan-joins-major-chinese-cities-shift-towards-completed-home-sales?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "More Chinese banks likely to adopt AI rules after Ping An move: analysts",
+          "summary": "After Ping An Bank became the first listed Chinese lender to formally adopt rules governing its use of artificial intelligence, analysts said more mainland institutions were likely to follow, with the move setting an early benchmark for how far the sector can go in applying the technology. The Shenz",
+          "link": "https://www.scmp.com/business/banking-finance/article/3369577/more-chinese-banks-likely-adopt-ai-rules-after-ping-move-analysts?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
         {
           "title": "McDonald’s sells Hong Kong shop for US$15.3 million as ‘old money’ returns to retail",
           "summary": "As “long-dormant old money” steps back into Hong Kong’s retail property market, McDonald’s has sold the property housing its first New Territories restaurant for HK$120 million (US$15.3 million), extending its year-long sell-down of self-owned shops. The property at 10-22 Tsuen Wan Market Street, sp",
@@ -246,33 +258,20 @@
           "summary": "China’s quantitative investing sector has added 18 new members to the ranks of funds managing more than 10 billion yuan (US$1.5 billion) in assets this year, underlining the industry’s ability to generate competitive returns despite a tight regulatory environment. The firms were among 159 Chinese he",
           "link": "https://www.scmp.com/business/banking-finance/article/3369376/deepseek-effect-how-chinas-quant-funds-thrive-amid-tight-regulatory-scrutiny?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "Could Northern Metropolis draw educational leasing from Hong Kong’s Grade A office sector?",
-          "summary": "As education sector demand supports Hong Kong’s Grade A office leasing activity, analysts said infrastructure that will serve the Northern Metropolis could decide whether schools and universities move their administrative and other services to this potential new centre of the city. “Over the medium ",
-          "link": "https://www.scmp.com/business/article/3369267/could-northern-metropolis-draw-educational-leasing-hong-kongs-grade-office-sector?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Hong Kong needs new funding model to draw investment from global drug makers: AstraZeneca",
-          "summary": "Hong Kong can attract more global biotech investments if the city builds up a new healthcare financial model, according to AstraZeneca, a Cambridge-based multinational pharmaceutical giant. While global drug makers have been doubling down on investments in mainland China in recent years, AstraZeneca",
-          "link": "https://www.scmp.com/business/article/3369144/hong-kong-needs-new-funding-model-draw-investment-global-drug-makers-astrazeneca?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "중국 본토 증시는 기술주 매도세로 연저점 부근까지 밀려난 반면, 정부의 5개년 AI 컴퓨팅 확장 목표와 양적완화 및 경기 부양 기조 속에서 채권 시장과 퀀트 펀드로 자금이 이동하고 있습니다."
+      "summary": "우한시의 완공 주택 판매 전환 등 부동산 시장의 공급측 구조조정이 가속화되는 한편, 핑안은행의 AI 규범 도입을 계기로 금융권의 기술 활용 가이드라인 마련이 확산되고 있습니다."
     }
   },
-  "trend_headline": "AI 수요 폭발과 보안·인프라 재편이 이끄는 아시아 시장",
-  "summary": "아시아 각국은 AI 데이터센터 및 반도체 밸류체인 확장에 집중하는 동시에, 급증하는 기술 수요 속에서 금융보안 사고와 지정학적 리스크 등 새로운 관리 과제에 직면해 있습니다.",
+  "trend_headline": "금융권 AI 보안 위협과 산업 전반의 기술 적용 가속",
+  "summary": "오늘 아시아 시장은 한국과 중국 금융권의 AI 도입 및 해킹·규제 이슈가 동시에 부각된 가운데, 일본과 대만은 AI 인프라 확충과 반도체 공급망 재편에 역량을 집중하는 모습을 보였습니다.",
   "cross_country_themes": [
-    "AI 인프라 및 반도체 수요 급증",
-    "금융 시장 변동성 및 규제·보안 이슈"
+    "AI 인프라 및 기술 적용",
+    "금융권 보안 및 규제 강화"
   ],
   "sector_hints": [
     "Semiconductors",
     "Banking & Finance",
-    "AI & Data Centers",
-    "Real Estate"
+    "Cybersecurity"
   ]
 }

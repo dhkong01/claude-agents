@@ -1,7 +1,97 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "region": "US",
   "headlines": [
+    {
+      "title": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+      "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
+      "link": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+      "summary": "For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.",
+      "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Five Things I Learned in Hiring a Financial Adviser",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ19LX1BJMl95d2pOYzlYZWQ3SE5tUW1kbkp1SXBXQ241OXVhTm9xaXQyNU1DYXoyZVUtaWJBdkluSmFTYVlNSTJRMmtMTVJOZFNXRE5IWmJRY0VkcHpQT0ozcEpvSXlmZlhXdkYwRDZ6M29seTRlQXVyUWtTZk9kUXB3?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Paramount Debt Drop Spells Trouble for Borrowers: Credit Weekly",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV09JSHJ3WHZHYmg5aHB6bGxIX2pTQV9MLVpneFFTaC1yUTVQTTI4YWF6dllneWZfR25zTkpPMm5IRjBqZjBXaWxNdkRCczJ6V2RISl9HVGV5R0dRNi1JUkxzNzdXNHk3VVp4Wk5UR09RZnpWUGV3RDN6dTBRRk9TNTNGUmdPU1F6RFVsUkFsdW5YaUQ5MFZ2VFpoMEQyeHNQUGFmZl9iUWlLelJVaG82ZUg0NA?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Why So Many Americans Have Trouble Spending Their Retirement Savings",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdTdjQ050a2JNMEVja0tSOS1pSjFtRmdQTlhKUGJkQkkxOTdrUzlhZmVnYUc4WjAwRzhuSk56dnc5UTFZcHNDek9kczhDR01DS1Z2dFczRmd5cWZtM3U5cWo2X1RxTm5SOVE2T3ZROTBKTHZQOExCWlYzM1NJWXFZYTRUY1kzdw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Private capital is reshaping Hollywood moviemaking",
+      "summary": "As Hollywood's financing structures diversify, private capital is increasingly funding the big screen and changing the types of movies that are being made.",
+      "link": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I don t want to die on the sales floor : I m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+      "summary": "I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).",
+      "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Botched Tennessee Execution Draws Scrutiny of Lethal Injection Drugs",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbi1YT0NWRHczcW5raUhOZnR6VTI5Z0kzT0ZfV292VmxTNGd4NzNDNnlMdjR1TUJuTWw5WGdxRHlYU0tPX3ZhbU5jbHBZWndIT0hSUnNNTWphdGVmSnRYcmYydmFEV1FYUURsZVRlenREZk5ndEExQ09HdU1iRjdFUWk3ZXBaZ0I2N3JmSEtSb0tnOTh6UWZ3c3lkcmdYdWgxYjZoNWg1LVk4ZTBQWU5ZMQ?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Cash-Strapped Americans Tap Home Equity and AI to Keep Spending",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWRGRlMyR3lmcEpxN1Z0Sk5PQ3B0VlZvTUppdXhrYjk2c3RJU2VnTkhobWo0X3gzYV8wZlJOdFBoSC00ZjJVLU12aGVKcld5N3c0QzFXX3drTGZyZVB2MHNEUzB5ZHh5SFB0RERzMVNSNFhCRElvaVppZUloMFBwWGotVlhGYnpHSnZ2ZEJDNThkTC16aFNTaUdjbDN3ZGpsamszM2I5ODA3MjQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "A Scary Stock Market Divided Has Opened Up. Where It Goes Next.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhnM3FLLUlFaE9XMmNYSVV3amVLUGtIU0d4a3E0OFFlcXQxaW5NLWFXZG4xUVVvTXZYUUZBalltRVJSYzJfOHJfVXlBdHIyaWNwWnhLV1NQVzZjRHFlWkExeFp1NGd0eE5lQi1OdjVvYzAwcEtxbHAzbkY5aVVCTw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+      "summary": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+      "link": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "These bond strategies can help you get a safe 5% return on your cash",
+      "summary": "With U.S. Treasury yields on the rise, financial planners say they re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
+      "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "How Midcentury Modern Design Went From Cool to Cringey",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWXR3eVB4NldXX0lCNnN6eUJGdzhyVE5mYnFaUURBRVNacWhWbHV1UXZFaFFxNVhkcEdRV2syTjF2SHFEc2V1XzluSXQ0N0FfUmZwTjVsWlBkenJINkFnV2FIZVJtMmI4ekJLbTZjRDIzSDRYZVV4NFNMZDh1TVJHdkF0SDZhSE5udVBfS2pqeGhjTjN5VnlvQnM5TUk?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Bessent Downplays Worries on Rising Yields, AI Bubble Concerns",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaThxNHd6Y1VVQWVGeExyUGRBa3hubktXaVNpQVFlVzhQaUh3UjFNWWdXMVo3b203NFllZmRUU0VwcG9FUjNHNE9jQy1meS1kMENnSDdYVlNMTkRWTGcweEdZVzIwYUthZzk3YlY2QTVSWjRfX2swRktOb1dwRFNjekJ5RVdSOXU2ek1ud2J2cWstRG5JYUpQNnZNcmhMSUFlNTlaS1NsSnJKZXBxOXVTUy1R?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "How This Quantum Stock Stands to Gain an Edge From AI and Supercomputing",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlcnpuaU9vVng5cUp5THFhREkycEpWQ3pwR2VtdDNtblIyejdQZFhZd0REZ0lYLU1FcUZWS3paeVF1S1pYa1dNbkVuVkJMT2U0dXFFMk1HMkZwb19nYUV2eDJTNVY5VHpPWlZxakFqaWJSR0hhbkVEeUk5Y18?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "FAA says Boeing 737 Max software glitch not a flight-safety issue",
       "summary": "The FAA on Monday said it was reviewing the software glitch, which could affect procedures during certain landings.",
@@ -9,129 +99,39 @@
       "source": "CNBC"
     },
     {
-      "title": "Why Western Digital and Seagate are seeing big stock drops today",
-      "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently enjoy.",
-      "link": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
+      "title": "I want to make her proud : My mother, a divorc e, died and I m her executor. Do I need to file for probate?",
+      "summary": "The only debts were utility and credit-card bills, which we will pay off.",
+      "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Cornell Rape Allegations Reignite Furor Over Title IX",
+      "title": "Meet the Gen-Z High Rollers Dominating the Prediction Markets",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWWl3Z2xpZFhxSDAwcmtRbFJsX2VJRTB5OFNiYXRLblprcUQzZ2RQX2tkeVoyOGhnR19SOGtrV1Q3RXhiOG9ISm5UVXlkdzl2ajJKbXo1Yms0SVpMT3BNUHpnYWgwaDcyRncxcVpaYnk2N1RkNkFUQ2JqV3VITjdjb3BBeFBWY2xtMHpzSXJ5eEpVZWRLQml2aU9n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ELWZ1SHVfTHFSUVVSdnJWVUdCSHJ1YWZpbnNFUEJfdERSSXdGSDJaZzVkQzBXaW9JWXU1OTlMcU1wMkhjT0pTWk5QLWdNcWRtZk0tbmhNZFRGcnM2QkJoZ0o4cVlEdjlaS0xyeEZDaEFDWHYybGp4VDFpSQ?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Nscale Hires Meta’s Justin Osofsky to Be COO Ahead of IPO",
+      "title": "OpenAI Safety Employee Quits, Calls for Nuclear-Level Safeguards",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVVpR2I1NGw2REtvSUNVXzFIZi1fR3hFSnViSGlMRU41LVdEOUxSZG1TYXdPTjR4RGNNMzBFTG5DbWxyNU9HUnRaVGowa1RsVUEzWnNMTVBzS0dqNU5CM1FGdnJjVGRSS29JYlM3bEZJejBPZFpIXzlzbUZ2enNkdGtST1ZFSWMwUTBqd2tXNTNPSnNXMVFiVVRtaThyeTRYVVN0TWR2R3dNeWhz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMjVnaDVZZC05NnowMXJkVFVFX21rOWR0OXNFTlJlVTZWYmx2cklDY245ZkNpb0JRRFJyRzJ0VWVHM3RpbTFpN3dha2MtVUQzY3ZUVXlQV3JVWjVBXzU5emoxQm1QUVp6VnBwdXYyZmZpdHpNbFJnSDlpcnBmUE80dmQ3OXNsbmtUamVVZmtINnVzc2ljVVFBU0pZTDVSdU5pdzlVOVFUcXJ1dFl5ME9NdnNJUnc?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "The Next Crypto Boom Is Already Here",
+      "title": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fYnB4LUhhOFYxSEk5dTNSend0aWRoSFNvVmVjcTJ0bExtdjQwRWlmUHhEWFhfQmZMYkpvWnRONzVNSjZSdzZYUEN4NmhtMVVYemlTTU92TlJqOGhHYXJoaGVyZ0pRV1p5VXFUWHJuTHN5VTdycE1scF90ZmxfUDQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Why Lilly and Novo are betting on amylin to power a new wave of obesity drugs after GLP-1s",
-      "summary": "Eli Lilly and Novo are developing new amylin drugs that serve as another biological lever to pull in treating obesity and diabetes.",
-      "link": "https://www.cnbc.com/2026/10/02/lilly-novo-amylin-obesity-drugs.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
-      "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
-      "link": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | FlyDubai Attacker Had Been Banned From Flying by Oman for Radical Views",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY3Y4XzMzNkkzUGsydVNlN0N6MUE1QjNab3V5X25yRF9laFV6aGw1aGRQMF92U05BNFlPUEc1NXUyb2hrSUowS0p1aXNzNThwekw5TDlxTl8weWZ1SUVyOWFkSlJwcHg3UUdkX0xMckNENnZfV3QxTzBnajNpLTBjV2dyVlJHbDZaLXJIMUFhRE1hQVU3cTgxaXNtanRaa2RyQ2VPUG9Ka081NGxoV3V3M1M4RUtraW5sUmc?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Hackers Breached Propulsion System of US-Bound Oil Tanker",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmdfQ2hNM2V1NUo3eTlRN1Z6RXNxQ3JBSkxIWS1hYTZPN1VJUWFtajNQQllWcU1GejlQNV9zcF83UjFhTVpvVUhjdlRXdHFLdHlKczVEYWlET3lCdUV6SWhoYXUxSGJscWs0dTJscEtmTjZmNmIySVVZT2N1QTVodzdrUmMxR1RzZGhGd0kzbURXa1A2ci0zbU1SOFNJWnl0TUtWNjJnNVJrRWVY?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Why Micron’s 87% Gross Margin Is a Blessing and a Curse",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XUE50ckhwdV9MQVZ3c0ktMkJKLUtpbTJjUURZdHN3WGg1SGJrbFVrZkh6XzIzTnUydDk5T1FtZFd1OWJ2R2tWU0Rjb2g0TUVjYUhoRFRrUkNPTFhILUNsWjJ3cnZ2eXhoSDNBN2pfVWJrZDlWZndrUmtZT1hXUQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
-      "summary": "Ford on Friday reported a year-over-year sales decline of 6.6% during the third quarter to 507,395 light-duty vehicles.",
-      "link": "https://www.cnbc.com/2026/10/02/ford-q3-sales.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "I m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-      "summary": "I have $152,000 in my IRA and Roth accounts.",
-      "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "FAA Says 737 MAX Software Glitch Doesn’t Pose Safety Issue",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZmVBejcxQzFwWk5mem1lejJ6YVJrTGNNTEt5VWRNbnZ0cUdMWU9VNHhDalVHdFJWRmItdlVRcDNHN3p2ZjVXOUE2TDVldzA1RlUxbXpNZEVlUk4wVlVfZlNTemtiY2tjNUdJQWZoNXQ0VEJCVFBRcXNWZmFEWW9UM2tfLUstTDFoWmtmODZ3aFFiNEJzRHRJQ1QySnlWbXRiLUJQSV9PMlR1UmVGTkRj?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "DOJ Not Reopening Criminal Probe Into Powell, Blanche Says",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUlNMeDN6ZlV0NC1DZTl0emNOaV92S1dPUVRwbFpNUlhucHFPaWNJajVhOG1hMFhVZ2VnRk5CaUZFalFNeUJKZVdBRGd5dE1zR19sZVM3RE5OLXhhNUxuS2RKajc3dVZnekUxNmEyV0tBQkp2M1NMUGNQVTdUbU5Nem9sZl9EY1o3UnNSemNwNVU1aGFrSVNIX2loWjdpb2szQXBobmxScHdEa3hFNGNxTGJ2eHU?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Tesla Is Winning the New EV Race. Here’s How.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lVzlVU1B4QXV6ZW95YXhwSjFxMWljUXlLaDZTYjdHUXdMbC1YcVFqbnFUcWtKM0FhMnVkM2lmRUxibFJJTkNkX2M0Z1BVQTU5QS1yQVViLWgxdk1rVncyYkwzaTZzZzItRkExWHFmam5HUQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "David Ellison says combined Paramount and Warner Bros. Discovery will be named Skydance",
-      "summary": "It's a full-circle moment for a company that has undergone two major acquisitions within the last 18 months.",
-      "link": "https://www.cnbc.com/2026/10/02/paramount-warner-bros-discovery-skydance.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Falling wages, soaring energy prices and inflation: It s beginning to look a lot like the 1970s",
-      "summary": "Is it time to dust off the financial playbook from that dismal decade?",
-      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Student Protests Add to Woes for Embattled French Government",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNXpPdXFJeVhqQ0NwVmdCVFpfYkMycUR3elY5R19tRWhjRkx4UDhkWnVUVk9aUkI4ZkdNRzZwMHRIR2UxY3BfQkFLekwtVUFzY25FZmRrRFJ0TU1VWHU2YXI2dUZEa1Q4cG0xYWcwRlBqY1NfRzMxUjJ6cnJzbjRZR3ZPWmdzRWNKdkNCcmd1UkMzM1V5VjVKVzVNaWMwa0hDX0pSTA?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Apple iPhone 18 Pro Max AT&T Glitch Requires Device Replacements",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDVNaGQxRVg3Mmo3STJkSDFuaElEbjNuN1J4Q0ZKY0x4ZGRQZk9iRzU2eDRSS0JPZ1dqaHlZOTNNNnRGZUJkSUNLWXlyT2NrSXoteXROX042SDZNeXhhYnhBbE51M1pSNmZaMzg4T24wVFZFNWdxU0l5RFJsbVJBSkVxeFlIQlhuSmZSREludUMwYl9HV243SFJEbHVwWWRRb2hxckNEWllZNkR3bDZpcHhNd1Y5QQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Nvidia Defies Critics—as Its Stock Falls Just Shy of First Record Since May",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObmhMZDU4ZE5HTWxGajFKbHlIRV9fV1YxZlZ1SjYzdkVLdEMzaHUySXVOdXAxMTM4eW9XeGVCWjZqYXhVcjdmcHI4NjkyV2tHSlF5STB4eGtFcUk0UnppZkFOOXdYNEUzVEVnVnBhUzdoQURvOE9kVEpOYXZVR0R6ZEpXd1c5Znc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG16eVVkaVVmY3d5aGhXUmFQSVpCcDZqbi1SWExsTktyUU94TTVFWEtNWGxQU2N4a2xXdXJ0OUxXalNHTjhuVmxJUnJQVUZiMllaSVZGUkhvTjBURWExNnJ1ZHI2MzBjdkNTQXp3eFFSYnYxS2pWWDJEdkZpQXhUb1dtYk05UEhMQUJKNVd1RFM?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "테슬라 판매 호조와 반도체 공급 우려 교차",
-  "summary": "테슬라가 월스트리트 예상치를 웃도는 차량 판매량을 기록하며 주가가 급등했으나, 도시바의 AI 스토리지 생산 확대 우려로 웨스턴디지털과 시게이트 등 하드웨어 관련 주는 급락세를 보였습니다. 또한 나이키는 실적 부진과 구조조정 발표로 하락하며 개별 기업별 희비가 엇갈렸습니다.",
+  "trend_headline": "AI 수요 둔화 우려와 인프라 재편",
+  "summary": "AI 하드웨어 부족 현상 완화 조짐과 함께 관련 부품주들이 조정을 받았으며, 미디어와 금융 등 전 산업에서 AI 기술 내재화와 인재 수요가 급증하는 양극화 장세가 나타났습니다.",
   "key_points": [
-    "테슬라, 월스트리트 예상치 상회하는 3분기 판매량 기록하며 주가 급등",
-    "도시바의 AI 스토리지 증산 우려로 웨스턴디지털 및 시게이트 주가 큰 폭 하락",
-    "나이키, 실적 부진 및 구조조정 일환의 정리해고 발표로 주가 약세"
+    "AI 하드웨어 부족 완화 우려로 씨게이트와 웨스턴디지털 등 관련 주가 하락",
+    "월스트리트 은행권의 AI 엔지니어 및 에이전트 오케스트레이션 직무 수요 1,721% 급증",
+    "스카이댄스의 파라마운트 및 워너브라더스 디스커버리 합병 추진 등 미디어-엔터테인먼트 구조 재편"
   ],
   "sector_hints": [
     "Technology",
-    "Consumer Discretionary"
+    "Communication Services"
   ]
 }

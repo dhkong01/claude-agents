@@ -1,68 +1,89 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "sectors": [
     {
-      "name": "Semiconductors",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "미국 브로드컴의 대규모 칩 거래 호재에 따른 TSMC의 상승세와 대만-일본 간 반도체 투자 협력 확대, 유럽 자동차 업계의 핵심 칩 확보 경쟁 등 글로벌 반도체 수요가 지속적으로 강화되고 있습니다.",
+      "name": "Technology",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "AI 하드웨어 부족 현상 완화 조짐에 따라 씨게이트, 웨스턴디지털 등 주요 스토리지 및 하드웨어 부품주를 중심으로 단기 가격 조정 압력이 발생했습니다.",
       "related_tickers": [
-        "TSM",
-        "AVGO"
+        "STX",
+        "WDC"
       ],
       "source_regions": [
-        "ASIA",
-        "EUROPE"
+        "US"
       ]
     },
     {
-      "name": "Utilities",
+      "name": "Semiconductors",
+      "direction": "positive",
+      "score": 5.5,
+      "rationale": "대만 TSMC의 미국 애리조나 투자 확대 및 글로벌 공급망 재편 주도, 일본의 AI 하드웨어 인프라 확충 등 아시아 시장 중심의 반도체 생태계 강화 흐름이 이어지고 있습니다.",
+      "related_tickers": [
+        "TSM",
+        "NVDA"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Communication Services",
       "direction": "positive",
       "score": 6.5,
-      "rationale": "일본의 인공지능(AI) 데이터센터 급증에 따른 전력 수요 확대로 도쿄전력(TEPCO) 등 전력 회사들의 수혜가 가시화되고 있습니다.",
+      "rationale": "스카이댄스의 파라마운트 및 워너브라더스 디스커버리 합병 추진 등 미디어·엔터테인먼트 산업 내 대형 구조 재편 모멘텀이 긍정적으로 작용하고 있습니다.",
       "related_tickers": [
-        "9501"
+        "PARA",
+        "WBD"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "유럽 내 디젤 가격 급등 및 이탈리아 인플레이션 수치 악화 등 유가 상승세가 지속되어 정유·에너지 기업의 단기 수익성에 긍정적이나, G7의 비축유 방출 추진은 유가 상단을 제약하는 요소입니다.",
+      "related_tickers": [
+        "SHEL",
+        "TTE",
+        "XOM"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "positive",
+      "score": 5.0,
+      "rationale": "일본 가와사키중공업의 휴머노이드 AI 로봇 개발 등 생산성 향상과 실질적인 하드웨어 인프라 혁신을 위한 산업재 기업들의 투자가 가속화되고 있습니다.",
+      "related_tickers": [
+        "7012.T"
       ],
       "source_regions": [
         "ASIA"
       ]
     },
     {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "한국 주요 시중은행의 대규모 AI 해킹 및 정보 유출 사태로 금융권 보안 리스크가 고조되었으며, 이탈리아의 고인플레이션 지속에 따른 유럽 거시경제 부담이 금융 섹터에 부정적 영향을 미치고 있습니다.",
+      "name": "Real Estate",
+      "direction": "neutral",
+      "score": 1.0,
+      "rationale": "중국 우한시의 완공 주택 판매 전환 등 부동산 시장 내 공급측 구조조정이 진행되고 있으나, 시장 전반의 업황 회복 여부는 관망세가 짙습니다.",
       "related_tickers": [
-        "055550",
-        "105560"
+        "2007.HK"
       ],
       "source_regions": [
-        "ASIA",
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "negative",
-      "score": -5.0,
-      "rationale": "G7이 미국의 수출 제한 압박 속에서 1억 배럴 규모의 원유 및 디젤 비축유 방출에 합의함에 따라 유가 공급 우려가 일부 상쇄되며 유가 하방 압력으로 작용할 가능성이 큽니다.",
-      "related_tickers": [
-        "XOM",
-        "CVX"
-      ],
-      "source_regions": [
-        "EUROPE"
+        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Consumer Discretionary",
-      "note": "미국 내에서 테슬라의 3분기 차량 인도량 호조로 인한 급등세와 나이키의 실적 부진 및 감원 계획에 따른 하락세가 대조를 이룹니다. 또한 유럽 자동차 업계는 전기차 전환 과정에서 원자재 확보 경쟁이라는 병목에 직면해 있습니다."
-    },
-    {
-      "sector": "Technology",
-      "note": "도시바의 AI 스토리지 생산 확대로 미국 하드웨어 기업(웨스턴디지털, 시게이트)이 급락했으나, 일본의 하드디스크 공급업체와 중국의 정부 주도 AI 컴퓨팅 확장 계획 등 아시아 지역에서는 AI 인프라 수요로 인한 긍정적 모멘텀이 공존하고 있습니다."
+      "sector": "Financials",
+      "note": "미국 금융권은 AI 에이전트 도입 및 전문 인력 수요 폭증(+1,721%)으로 생산성 개선 기대감이 큰 반면(긍정적), 아시아(한국) 금융권은 AI 기반 해킹으로 인한 개인정보 유출 및 당국의 규제·보안 비상등으로 단기 리스크 비용 부담이 증대되었습니다(부정적)."
     }
   ]
 }

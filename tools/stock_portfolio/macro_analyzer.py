@@ -44,6 +44,29 @@ def _fetch_fred_series(series_id: str) -> float | None:
         return None
 
 
+def _fetch_fear_greed() -> dict | None:
+    """CNN Fear & Greed Index — CNN이 쓰는 비공식 공개 엔드포인트(dataviz.cnn.io).
+    일반 요청(urllib/requests)은 봇 차단(HTTP 418)되어, Yahoo Finance 차단
+    회피에 쓰는 것과 동일한 curl_cffi 브라우저 위장 세션(YF_SESSION)을 재사용한다."""
+    if YF_SESSION is None:
+        return None
+    try:
+        resp = YF_SESSION.get(
+            "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
+            headers={"Referer": "https://edition.cnn.com/markets/fear-and-greed"},
+            timeout=15,
+        )
+        if resp.status_code != 200:
+            return None
+        fg = resp.json().get("fear_and_greed", {})
+        if "score" not in fg:
+            return None
+        return {"score": round(fg["score"], 1), "rating": fg.get("rating", "")}
+    except Exception as e:
+        print(f"[macro_analyzer] CNN Fear&Greed 조회 실패: {e}", file=sys.stderr)
+        return None
+
+
 def _fetch_indicator(ticker: str) -> dict | None:
     import yfinance as yf
 
@@ -92,6 +115,11 @@ def analyze_macro() -> dict:
     yield2y = _fetch_fred_series("DGS2")
     if yield2y is not None:
         signals["yield2y"] = round(yield2y, 2)
+
+    fear_greed = _fetch_fear_greed()
+    if fear_greed is not None:
+        signals["fear_greed_score"] = fear_greed["score"]
+        signals["fear_greed_rating"] = fear_greed["rating"]
 
     dxy = data.get("dollar") or {}
     if dxy and dxy.get("ret1m") is not None:

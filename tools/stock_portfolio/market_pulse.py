@@ -124,6 +124,8 @@ def analyze_market_pulse() -> dict:
             "m_score":      macro.get("m_score"),
             "vix":          signals.get("vix_level"),
             "volatility":   signals.get("volatility"),
+            "fear_greed":        signals.get("fear_greed_score"),
+            "fear_greed_rating": signals.get("fear_greed_rating"),
             "yield2y":      signals.get("yield2y"),
             "yield10y":     signals.get("yield10y"),
             "yield30y":     signals.get("yield30y"),

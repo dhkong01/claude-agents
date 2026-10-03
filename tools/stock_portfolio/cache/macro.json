@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "phase": "RISK_ON",
   "m_score": 10,
   "signals": {
@@ -10,6 +10,8 @@
     "yield10y": 5.28,
     "rate_env": "HIGH",
     "yield30y": 5.63,
+    "fear_greed_score": 31.2,
+    "fear_greed_rating": "fear",
     "dollar_trend": "STRENGTHENING",
     "yield2y": 4.78
   },

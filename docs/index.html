@@ -1533,6 +1533,9 @@ function renderMarketPulse() {
   const phaseLabel = { RISK_ON: '위험선호', RISK_OFF: '위험회피', TRANSITIONAL: '중립' };
   const yieldPct = v => v == null ? null : v + '%';
 
+  const FG_LABEL = { 'extreme fear': '극단적 공포', 'fear': '공포', 'neutral': '중립', 'greed': '탐욕', 'extreme greed': '극단적 탐욕' };
+  const fgCls = r => (r === 'extreme fear' || r === 'fear') ? 'neg' : (r === 'greed' || r === 'extreme greed') ? 'pos' : 'muted';
+
   const macroHtml = `
   <div class="card">
     <div class="card-title">🌡️ 주요 경제지표</div>
@@ -1540,6 +1543,7 @@ function renderMarketPulse() {
       ${metricTile('시장 국면', macro.phase, phaseLabel[macro.phase] || '', phaseCls(macro.phase))}
       ${metricTile('추세', macro.market_trend, '', 'muted')}
       ${metricTile('VIX 공포지수', macro.vix, macro.volatility, volCls(macro.volatility))}
+      ${metricTile('CNN 공포·탐욕지수', macro.fear_greed, FG_LABEL[macro.fear_greed_rating] || '', fgCls(macro.fear_greed_rating))}
       ${metricTile('달러 추세', macro.dollar_trend, '', 'muted')}
       ${metricTile('美 2년물', yieldPct(macro.yield2y), '', 'muted')}
       ${metricTile('美 10년물', yieldPct(macro.yield10y), macro.rate_env, 'muted')}
@@ -1547,6 +1551,8 @@ function renderMarketPulse() {
       ${metricTile('자금흐름지수(MFI)', macro.mfi, macro.mfi_signal, 'muted')}
     </div>
     <div class="gate-rule-row">
+      <b>CNN 공포·탐욕지수</b> — 0~100 범위, 0에 가까울수록 공포·100에 가까울수록 탐욕<br>
+      0~25 <b class="neg">극단적 공포</b> · 25~45 <b class="neg">공포</b> · 45~55 <b>중립</b> · 55~75 <b class="pos">탐욕</b> · 75~100 <b class="pos">극단적 탐욕</b><br>
       <b>자금흐름지수(MFI)</b> — S&P500(SPY) 14일 가격·거래량 기반, 0~100 범위<br>
       80 이상 <b class="neg">과열</b>(매수세 과다, 단기 조정 가능성) · 20 이하 <b class="pos">침체</b>(매도세 과다, 저가매수 구간 가능성) · 20~80 <b>중립</b><br>
       VIX: 25 초과 <b class="neg">HIGH</b>(불안) · 15 미만 <b class="pos">LOW</b>(안정) · 15~25 NORMAL &nbsp;·&nbsp;

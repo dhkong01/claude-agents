@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "indices": {
     "nasdaq": {
       "price": 27190.86,
@@ -9,8 +9,8 @@
       "region": "US"
     },
     "dow": {
-      "price": 51177.0,
-      "change": 250.44,
+      "price": 51176.96,
+      "change": 250.4,
       "change_pct": 0.49,
       "label": "다우존스",
       "region": "US"
@@ -71,6 +71,8 @@
     "m_score": 10,
     "vix": 15.31,
     "volatility": "NORMAL",
+    "fear_greed": 31.2,
+    "fear_greed_rating": "fear",
     "yield2y": 4.78,
     "yield10y": 5.28,
     "yield30y": 5.63,

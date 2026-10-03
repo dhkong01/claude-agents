@@ -1473,21 +1473,28 @@ function renderMarketPulse() {
   const chgStr = v => v == null ? 'N/A' : (v >= 0 ? '+' : '') + v.toFixed(2);
   const pctStr = v => v == null ? '' : ' (' + (v >= 0 ? '+' : '') + v.toFixed(2) + '%)';
 
-  const idxOrder = [['nasdaq', '나스닥'], ['dow', '다우존스'], ['sp500', 'S&P500']];
+  const US_IDX   = [['nasdaq', '나스닥'], ['dow', '다우존스'], ['sp500', 'S&P500']];
+  const ASIA_IDX = [['kospi', '코스피'], ['kosdaq', '코스닥'], ['nikkei', '니케이225'], ['shanghai', '상해종합'], ['shenzhen', '심천성분']];
+
+  function idxTilesHtml(order) {
+    return order.map(([key, label]) => {
+      const d = idx[key];
+      if (!d) return `<div class="idx-tile"><div class="idx-name">${label}</div><div class="muted" style="font-size:11px">N/A</div></div>`;
+      return `<div class="idx-tile">
+        <div class="idx-name">${esc(d.label || label)}</div>
+        <div class="idx-price">${d.price.toLocaleString(undefined, {maximumFractionDigits: 2})}</div>
+        <div class="idx-chg ${chgCls(d.change)}">${chgStr(d.change)}${pctStr(d.change_pct)}</div>
+      </div>`;
+    }).join('');
+  }
+
   const idxHtml = `
   <div class="card">
     <div class="card-title">📈 주요 지수 <span class="muted" style="font-size:11px;font-weight:400">${esc(date)}</span></div>
-    <div class="idx-grid">
-      ${idxOrder.map(([key, label]) => {
-        const d = idx[key];
-        if (!d) return `<div class="idx-tile"><div class="idx-name">${label}</div><div class="muted" style="font-size:11px">N/A</div></div>`;
-        return `<div class="idx-tile">
-          <div class="idx-name">${esc(d.label || label)}</div>
-          <div class="idx-price">${d.price.toLocaleString(undefined, {maximumFractionDigits: 2})}</div>
-          <div class="idx-chg ${chgCls(d.change)}">${chgStr(d.change)}${pctStr(d.change_pct)}</div>
-        </div>`;
-      }).join('')}
-    </div>
+    <div class="muted" style="font-size:11px;margin-bottom:6px">🇺🇸 미국</div>
+    <div class="idx-grid">${idxTilesHtml(US_IDX)}</div>
+    <div class="muted" style="font-size:11px;margin:12px 0 6px">🌏 아시아</div>
+    <div class="idx-grid">${idxTilesHtml(ASIA_IDX)}</div>
   </div>`;
 
   const total   = breadth.total || 0;

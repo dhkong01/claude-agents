@@ -11,9 +11,14 @@ from data_utils import CACHE_DIR, YF_SESSION, batch_download, get_ndx100_tickers
 from macro_analyzer import analyze_macro
 
 INDEX_TICKERS = {
-    "nasdaq": ("^IXIC", "나스닥종합"),
-    "dow":    ("^DJI",  "다우존스"),
-    "sp500":  ("^GSPC", "S&P500"),
+    "nasdaq":   ("^IXIC",     "나스닥종합", "US"),
+    "dow":      ("^DJI",      "다우존스",   "US"),
+    "sp500":    ("^GSPC",     "S&P500",    "US"),
+    "kospi":    ("^KS11",     "코스피",     "ASIA"),
+    "kosdaq":   ("^KQ11",     "코스닥",     "ASIA"),
+    "nikkei":   ("^N225",     "니케이225",  "ASIA"),
+    "shanghai": ("000001.SS", "상해종합",   "ASIA"),
+    "shenzhen": ("399001.SZ", "심천성분",   "ASIA"),
 }
 
 
@@ -60,10 +65,11 @@ def analyze_market_pulse() -> dict:
     today = market_today()
 
     indices: dict = {}
-    for key, (ticker, label) in INDEX_TICKERS.items():
+    for key, (ticker, label, region) in INDEX_TICKERS.items():
         data = _fetch_index(ticker)
         if data:
             data["label"] = label
+            data["region"] = region
             indices[key] = data
 
     universe = list(dict.fromkeys(get_sp500_tickers() + get_ndx100_tickers()))

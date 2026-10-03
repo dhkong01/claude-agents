@@ -1488,6 +1488,15 @@ function renderMarketPulse() {
     }).join('');
   }
 
+  // 지수 타일과 동일한 모양으로 매크로 지표를 표시 (값 + 상태 라벨)
+  function metricTile(label, value, status, statusCls) {
+    return `<div class="idx-tile">
+      <div class="idx-name">${esc(label)}</div>
+      <div class="idx-price">${value == null || value === '' ? 'N/A' : esc(value)}</div>
+      ${status ? `<div class="idx-chg ${statusCls || 'muted'}">${esc(status)}</div>` : ''}
+    </div>`;
+  }
+
   const idxHtml = `
   <div class="card">
     <div class="card-title">📈 주요 지수 <span class="muted" style="font-size:11px;font-weight:400">${esc(date)}</span></div>
@@ -1519,15 +1528,23 @@ function renderMarketPulse() {
     ` : '<div class="empty">브레드스 데이터가 없습니다.</div>'}
   </div>`;
 
+  const phaseCls = p => p === 'RISK_ON' ? 'pos' : p === 'RISK_OFF' ? 'neg' : 'muted';
+  const volCls   = v => v === 'HIGH' ? 'neg' : v === 'LOW' ? 'pos' : 'muted';
+  const phaseLabel = { RISK_ON: '위험선호', RISK_OFF: '위험회피', TRANSITIONAL: '중립' };
+  const yieldPct = v => v == null ? null : v + '%';
+
   const macroHtml = `
   <div class="card">
     <div class="card-title">🌡️ 주요 경제지표</div>
-    <div class="macro-chips">
-      ${macro.phase        ? `<div class="macro-chip">시장 국면 <b>${esc(macro.phase)}</b></div>` : ''}
-      ${macro.yield10y != null ? `<div class="macro-chip">美 10년물 금리 <b>${macro.yield10y}%</b></div>` : ''}
-      ${macro.vix != null  ? `<div class="macro-chip">VIX 공포지수 <b>${macro.vix}</b></div>` : ''}
-      ${macro.dollar_trend ? `<div class="macro-chip">달러 추세 <b>${esc(macro.dollar_trend)}</b></div>` : ''}
-      ${macro.market_trend ? `<div class="macro-chip">추세 <b>${esc(macro.market_trend)}</b></div>` : ''}
+    <div class="idx-grid">
+      ${metricTile('시장 국면', macro.phase, phaseLabel[macro.phase] || '', phaseCls(macro.phase))}
+      ${metricTile('추세', macro.market_trend, '', 'muted')}
+      ${metricTile('VIX 공포지수', macro.vix, macro.volatility, volCls(macro.volatility))}
+      ${metricTile('달러 추세', macro.dollar_trend, '', 'muted')}
+      ${metricTile('美 2년물', yieldPct(macro.yield2y), '', 'muted')}
+      ${metricTile('美 10년물', yieldPct(macro.yield10y), macro.rate_env, 'muted')}
+      ${metricTile('美 30년물', yieldPct(macro.yield30y), '', 'muted')}
+      ${metricTile('자금흐름지수(MFI)', macro.mfi, macro.mfi_signal, 'muted')}
     </div>
   </div>`;
 

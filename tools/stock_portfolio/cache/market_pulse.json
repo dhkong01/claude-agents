@@ -9,8 +9,8 @@
       "region": "US"
     },
     "dow": {
-      "price": 51176.96,
-      "change": 250.4,
+      "price": 51177.0,
+      "change": 250.44,
       "change_pct": 0.49,
       "label": "다우존스",
       "region": "US"
@@ -59,8 +59,8 @@
     }
   },
   "breadth": {
-    "total": 514,
-    "advancers": 302,
+    "total": 515,
+    "advancers": 303,
     "decliners": 209,
     "unchanged": 3,
     "adv_pct": 58.8,
@@ -71,9 +71,13 @@
     "m_score": 10,
     "vix": 15.31,
     "volatility": "NORMAL",
+    "yield2y": null,
     "yield10y": 5.28,
+    "yield30y": 5.63,
     "rate_env": "HIGH",
     "dollar_trend": "STRENGTHENING",
-    "market_trend": "BULL"
+    "market_trend": "BULL",
+    "mfi": 51.2,
+    "mfi_signal": "중립"
   }
 }

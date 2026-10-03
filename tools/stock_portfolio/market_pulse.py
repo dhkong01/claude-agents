@@ -41,6 +41,40 @@ def _fetch_index(ticker: str) -> dict | None:
         return None
 
 
+def _calc_mfi(ticker: str = "SPY", period: int = 14) -> float | None:
+    """자금흐름지수(Money Flow Index) — 가격뿐 아니라 거래량까지 반영해
+    시장에 돈이 들어오는지/빠지는지를 가늠하는 기술적 지표(0~100).
+    S&P500 대표 ETF(SPY)의 OHLCV로 직접 계산 — 외부 API 불필요."""
+    import yfinance as yf
+
+    try:
+        hist = yf.Ticker(ticker, session=YF_SESSION).history(period=f"{period * 3}d")
+        if hist.empty or len(hist) < period + 1:
+            return None
+        typical = (hist["High"] + hist["Low"] + hist["Close"]) / 3
+        raw_mf = typical * hist["Volume"]
+        direction = typical.diff()
+        pos_mf = raw_mf.where(direction > 0, 0.0).tail(period).sum()
+        neg_mf = raw_mf.where(direction < 0, 0.0).tail(period).sum()
+        if neg_mf == 0:
+            return 100.0
+        money_flow_ratio = pos_mf / neg_mf
+        return round(100 - 100 / (1 + money_flow_ratio), 1)
+    except Exception as e:
+        print(f"[market_pulse] MFI({ticker}) 계산 실패: {e}", file=sys.stderr)
+        return None
+
+
+def _mfi_signal(mfi: float | None) -> str:
+    if mfi is None:
+        return ""
+    if mfi >= 80:
+        return "과열"
+    if mfi <= 20:
+        return "침체"
+    return "중립"
+
+
 def _calc_breadth(tickers: list[str]) -> dict:
     """S&P500+NASDAQ100 유니버스의 전일 대비 상승/하락/보합 종목수."""
     prices = batch_download(tickers, period="5d")
@@ -79,6 +113,8 @@ def analyze_market_pulse() -> dict:
     macro = analyze_macro()
     signals = macro.get("signals", {})
 
+    mfi = _calc_mfi("SPY")
+
     result = {
         "date": today,
         "indices": indices,
@@ -88,10 +124,14 @@ def analyze_market_pulse() -> dict:
             "m_score":      macro.get("m_score"),
             "vix":          signals.get("vix_level"),
             "volatility":   signals.get("volatility"),
+            "yield2y":      signals.get("yield2y"),
             "yield10y":     signals.get("yield10y"),
+            "yield30y":     signals.get("yield30y"),
             "rate_env":     signals.get("rate_env"),
             "dollar_trend": signals.get("dollar_trend"),
             "market_trend": signals.get("market_trend"),
+            "mfi":          mfi,
+            "mfi_signal":   _mfi_signal(mfi),
         },
     }
     (CACHE_DIR / "market_pulse.json").write_text(

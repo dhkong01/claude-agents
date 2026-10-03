@@ -1,29 +1,59 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "region": "US",
   "headlines": [
     {
-      "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
-      "summary": "Nike is expected to post another quarter of declining sales as the company tries to turn around its business and regain growth in China.",
-      "link": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
+      "title": "FAA says Boeing 737 Max software glitch not a flight-safety issue",
+      "summary": "The FAA on Monday said it was reviewing the software glitch, which could affect procedures during certain landings.",
+      "link": "https://www.cnbc.com/2026/10/02/faa-says-boeing-737-max-10-software-glitch-not-a-flight-safety-issue.html",
       "source": "CNBC"
     },
     {
-      "title": "Here s who s joining the S&P 500 in the index s latest shakeup",
-      "summary": "Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount.",
-      "link": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+      "title": "Why Western Digital and Seagate are seeing big stock drops today",
+      "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently enjoy.",
+      "link": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Drones Strike Ethiopia’s Capital as Country Severs Ties with Eritrea",
+      "title": "Cornell Rape Allegations Reignite Furor Over Title IX",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbTN6YUVZc3kzOFZRdVhHTVc1cUpRb0xuUlluQVd0YWtLTmwzcGdRYzRTWDgzdlRyWU9wREZTSFpqNnVvV05JcXl5NXpNY1F0ZzNpaVpqZXNvWDJhbkZwc054TjJ3a0phWFpVMHZOTEI5Y25XVUdla05Ld1lCZ1dfZEE5ZHpKcFFKcEpaRWYxOS1rX3h3aEh1aHFEb1BLMzJsYVI5ZFZuQnAxNFF2YWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWWl3Z2xpZFhxSDAwcmtRbFJsX2VJRTB5OFNiYXRLblprcUQzZ2RQX2tkeVoyOGhnR19SOGtrV1Q3RXhiOG9ISm5UVXlkdzl2ajJKbXo1Yms0SVpMT3BNUHpnYWgwaDcyRncxcVpaYnk2N1RkNkFUQ2JqV3VITjdjb3BBeFBWY2xtMHpzSXJ5eEpVZWRLQml2aU9n?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Iran Offers to Allow Nuclear Inspectors If Sanctions Are Eased",
+      "title": "Nscale Hires Meta’s Justin Osofsky to Be COO Ahead of IPO",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclN5TVFKWVhqRjNsSlB6SkJ5NWRaRXBZREVMVzZheWtjSWxUVHc5d2RzakVrSnZsakRNczE5SWdxYkdFZnV1ek0zTkJmSzAxVGJ3bHFqdDh0LUdubTdldkkwT21ZRExtSkZYX3JfdmFtaDFRaFZCMmJCYXUybGZlZUZvLXowaFdVdC1xQ2pXb2ZYcjZYNEFEQlZwSEE4ejNVREMtRUh6emo4NnVORWk2RlU4dw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVVpR2I1NGw2REtvSUNVXzFIZi1fR3hFSnViSGlMRU41LVdEOUxSZG1TYXdPTjR4RGNNMzBFTG5DbWxyNU9HUnRaVGowa1RsVUEzWnNMTVBzS0dqNU5CM1FGdnJjVGRSS29JYlM3bEZJejBPZFpIXzlzbUZ2enNkdGtST1ZFSWMwUTBqd2tXNTNPSnNXMVFiVVRtaThyeTRYVVN0TWR2R3dNeWhz?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "The Next Crypto Boom Is Already Here",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fYnB4LUhhOFYxSEk5dTNSend0aWRoSFNvVmVjcTJ0bExtdjQwRWlmUHhEWFhfQmZMYkpvWnRONzVNSjZSdzZYUEN4NmhtMVVYemlTTU92TlJqOGhHYXJoaGVyZ0pRV1p5VXFUWHJuTHN5VTdycE1scF90ZmxfUDQ?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Why Lilly and Novo are betting on amylin to power a new wave of obesity drugs after GLP-1s",
+      "summary": "Eli Lilly and Novo are developing new amylin drugs that serve as another biological lever to pull in treating obesity and diabetes.",
+      "link": "https://www.cnbc.com/2026/10/02/lilly-novo-amylin-obesity-drugs.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
+      "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
+      "link": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive | FlyDubai Attacker Had Been Banned From Flying by Oman for Radical Views",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY3Y4XzMzNkkzUGsydVNlN0N6MUE1QjNab3V5X25yRF9laFV6aGw1aGRQMF92U05BNFlPUEc1NXUyb2hrSUowS0p1aXNzNThwekw5TDlxTl8weWZ1SUVyOWFkSlJwcHg3UUdkX0xMckNENnZfV3QxTzBnajNpLTBjV2dyVlJHbDZaLXJIMUFhRE1hQVU3cTgxaXNtanRaa2RyQ2VPUG9Ka081NGxoV3V3M1M4RUtraW5sUmc?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Hackers Breached Propulsion System of US-Bound Oil Tanker",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmdfQ2hNM2V1NUo3eTlRN1Z6RXNxQ3JBSkxIWS1hYTZPN1VJUWFtajNQQllWcU1GejlQNV9zcF83UjFhTVpvVUhjdlRXdHFLdHlKczVEYWlET3lCdUV6SWhoYXUxSGJscWs0dTJscEtmTjZmNmIySVVZT2N1QTVodzdrUmMxR1RzZGhGd0kzbURXa1A2ci0zbU1SOFNJWnl0TUtWNjJnNVJrRWVY?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -33,105 +63,75 @@
       "source": "Barron's"
     },
     {
-      "title": "Boeing engineers and technical workers approve new contract, avoiding strike",
-      "summary": "The work group comprises Boeing's largest white-collar union.",
-      "link": "https://www.cnbc.com/2026/10/01/boeing-contract-engineers-technical-workers.html",
+      "title": "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
+      "summary": "Ford on Friday reported a year-over-year sales decline of 6.6% during the third quarter to 507,395 light-duty vehicles.",
+      "link": "https://www.cnbc.com/2026/10/02/ford-q3-sales.html",
       "source": "CNBC"
     },
     {
-      "title": "This could be the worst year ever for Nike s stock, with sales set to fall further",
-      "summary": "The company has faced struggles in China and in its sneaker business.",
-      "link": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+      "title": "I m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+      "summary": "I have $152,000 in my IRA and Roth accounts.",
+      "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Disney Planning TV Restructuring as Streamlining Continues",
+      "title": "FAA Says 737 MAX Software Glitch Doesn’t Pose Safety Issue",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTk5uX3EzVHRCeThmazY4Y091NjlXNTUtb05TVzM4RzNDcWIwWDR5TmlwOU1CRmlTMHVqRlUxU0xpbmpOSDlKc3dQM2hQaXV2WW05LXNiN210U1AwdGRncEdRRERnYVdVeEJyb09vS2lva0xrR19uMG9JZGg1bF8ySjIxVm9tMFExWnhmV1VSdldvWm01UlEyU2xTYlh5dlFlOXgtRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZmVBejcxQzFwWk5mem1lejJ6YVJrTGNNTEt5VWRNbnZ0cUdMWU9VNHhDalVHdFJWRmItdlVRcDNHN3p2ZjVXOUE2TDVldzA1RlUxbXpNZEVlUk4wVlVfZlNTemtiY2tjNUdJQWZoNXQ0VEJCVFBRcXNWZmFEWW9UM2tfLUstTDFoWmtmODZ3aFFiNEJzRHRJQ1QySnlWbXRiLUJQSV9PMlR1UmVGTkRj?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "OpenAI Parts Ways With 3 Workers Over Mishandling Information",
+      "title": "DOJ Not Reopening Criminal Probe Into Powell, Blanche Says",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLW0wenRCN09FTktiQUlRUmlGV284RlN3b2hrbVVDLWo4UVR0ZG9BRWR5MnRQRlF2b3dBd0dDV245cUhkWlhEa1JxNTNNQmZ1THRJSzJreGRhbEdtWnJLQk9CenNJcWxSQno5LXN3bG1DX0xiLVdWWE1HY1lwOExtbldXSEIwaWxCTDRmYUNjdDFqLVowams4ODVSZTB6THprT2FRcEVYdzAtMGhWeVhvTkd3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUlNMeDN6ZlV0NC1DZTl0emNOaV92S1dPUVRwbFpNUlhucHFPaWNJajVhOG1hMFhVZ2VnRk5CaUZFalFNeUJKZVdBRGd5dE1zR19sZVM3RE5OLXhhNUxuS2RKajc3dVZnekUxNmEyV0tBQkp2M1NMUGNQVTdUbU5Nem9sZl9EY1o3UnNSemNwNVU1aGFrSVNIX2loWjdpb2szQXBobmxScHdEa3hFNGNxTGJ2eHU?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined.",
+      "title": "Tesla Is Winning the New EV Race. Here’s How.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONlU3MlRpX21YbFpIcUUwOWxhNHVIUVNHTl9ydGtoZ3JNcDZGbjhESGhSMmlQN1hyNWNpNGdQNWVKWlc5NUZNblNUekZpSjBmZ1VXOXo3TWxmd092LVJVaWgyamxnc2UyVkk4ZnhjcmxJWGhCYzZpcl9KQnJiR1BHUg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lVzlVU1B4QXV6ZW95YXhwSjFxMWljUXlLaDZTYjdHUXdMbC1YcVFqbnFUcWtKM0FhMnVkM2lmRUxibFJJTkNkX2M0Z1BVQTU5QS1yQVViLWgxdk1rVncyYkwzaTZzZzItRkExWHFmam5HUQ?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
-      "summary": "Shares of toymaker Mattel rose Thursday after the Wall Street Journal reported that Authentic Brands Group had expressed interest in buying the toymaker.",
-      "link": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
+      "title": "David Ellison says combined Paramount and Warner Bros. Discovery will be named Skydance",
+      "summary": "It's a full-circle moment for a company that has undergone two major acquisitions within the last 18 months.",
+      "link": "https://www.cnbc.com/2026/10/02/paramount-warner-bros-discovery-skydance.html",
       "source": "CNBC"
     },
     {
-      "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
-      "summary": "Annuity payout rates are closely tied to interest rates",
-      "link": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
+      "title": "Falling wages, soaring energy prices and inflation: It s beginning to look a lot like the 1970s",
+      "summary": "Is it time to dust off the financial playbook from that dismal decade?",
+      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Nike Plans a Smaller Company as Sales Slide Deepens",
+      "title": "Student Protests Add to Woes for Embattled French Government",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVURNQnYxSXZNcGJXeFZBUjR3cHZzZXdVXzNBNXFfR3Vidm00eFhrNlNfak9qZ1dhQ2tQU01CeWt6S1AzUXFRMk85SDVIbXNXU0pOU3FWMnEzWDhiVl83OWp0Wk01c0kxTVN6THBRQkJtU1p2OU1Bd2dNZ3ByeHFRYUduSjlXNWlPaHZpaC00ZnA1azU2cTRvU0l6b0lnMm1SZUxKTkNma1NRRVdfTXdzc1RIdTF6d0FaMWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNXpPdXFJeVhqQ0NwVmdCVFpfYkMycUR3elY5R19tRWhjRkx4UDhkWnVUVk9aUkI4ZkdNRzZwMHRIR2UxY3BfQkFLekwtVUFzY25FZmRrRFJ0TU1VWHU2YXI2dUZEa1Q4cG0xYWcwRlBqY1NfRzMxUjJ6cnJzbjRZR3ZPWmdzRWNKdkNCcmd1UkMzM1V5VjVKVzVNaWMwa0hDX0pSTA?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Republicans Drop Midterm Affordability Push as Voter Angst Grows",
+      "title": "Apple iPhone 18 Pro Max AT&T Glitch Requires Device Replacements",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ003MVM0RDQ0SHZHMi14MjRyZWhXV0ZfS1NYR2JCYm10Q0tKNlNlMjdXRnpjOVUxNV9kRGRjcUtrUnpybURDT2VTYkZNTWJIeDkxRHpUajY5LWcyTEtpR3UxU05IRjJUQnNPNjcwWS1wQTg1cjhNZjNnbWhyYjdLQnFMNWNPQjdSQmRRR0xzTnVXb2g3cl92WDZqVU4yQ3NrVTQ0cFVvRTc5dHptMmpfaW9DSkpHZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDVNaGQxRVg3Mmo3STJkSDFuaElEbjNuN1J4Q0ZKY0x4ZGRQZk9iRzU2eDRSS0JPZ1dqaHlZOTNNNnRGZUJkSUNLWXlyT2NrSXoteXROX042SDZNeXhhYnhBbE51M1pSNmZaMzg4T24wVFZFNWdxU0l5RFJsbVJBSkVxeFlIQlhuSmZSREludUMwYl9HV243SFJEbHVwWWRRb2hxckNEWllZNkR3bDZpcHhNd1Y5QQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Better Without Bonds? How Retirees Should Think About Fixed Income Right Now.",
+      "title": "Nvidia Defies Critics—as Its Stock Falls Just Shy of First Record Since May",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPakVKU3BmWHNqMlNYV1ZBMmxSTTBjQU5zRml4NmVtaXg1OWt1N2t4RUx2UEQ2N1pDcWUwZ3NPc2ZPdWt2NGhuMUtDVVhHM04tQUo3cUFLUnF0OFdZNTdtbmV2cDJLdUJhbGNIcWF0Y204SExBb3JqRF9UMTVucGNBV0VJMElrcHp4OHVKeC03c1FnYy1t?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "United Airlines gets aggressive in battle for top Delta, American flyers",
-      "summary": "United Airlines launched an aggressive status match program for Delta and American's top frequent flyer elites.",
-      "link": "https://www.cnbc.com/2026/10/01/united-airlines-status-match-delta-american.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The stock market is anything but normal right now and these charts show it",
-      "summary": "The S&P 500 is trading just shy of record territory, even as most individual stocks are struggling.",
-      "link": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | Barbie-Maker Mattel Draws Takeover Interest From Authentic Brands Group",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWY2cUl6RnA5NWNxOHAzTHRBUEV3WUxNcUczNEVMTDJmVnBfX0x4UVF5T1VwQld6eWNVZUVHMFI1OGlJTXZ5bkNFZ0JaS1I1cHhNYWpFdTdOMzBUMlNsQ1hGQ3d1Q1pwcjBFdHM5bG1MNzE1TkhJcHlpMUFIR3dTSm5nZU9UQWF4QXdFdlBrbm53bGlxdHhqY1AtSjBxb21pbUhlTzNWeVN0MlM0Q2Z3STlyRWFrUnM?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Anthropic Targets Mega-IPO Before Thanksgiving Holiday",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUlUbXBSYkVLUzFtY2ptTGZ6Nk5HSHBpdFJBZlF1QU1JbXU3VG1Nb2g3OW95elBUTHV1czlHRUNKUFRBV0Nsa3QtVndGNDh2U3dBWFdRenZhRlVEX3hGTm04bl9TcVpuMkxsRkJNQ2NJbzhmYTYzZ01uRTJIS3g1ek80QmRDdE9iaUxRNmhsbzBDci02bnVaS2dpNDJsZzVJb243b2ppUVk0OFpDTWVQLW5B?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Accenture Stock Is Having Its Best Day Ever. AI Isn’t the Threat Everyone Thought.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAxVUlaQTZyUXBPcndWMVlHLUZnek5JVTV5czRHUGdXc21Kc3BySklnM3Q1UzhmTnFLRVdMR3Q0OVYxUGNqSkhyZjRRMGJLLXc4Z3E1NExGUVpHeGhrU1hKWWwzSmFYTjlydFk4TjJYZGwzaU04MWZ6LThIdnk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObmhMZDU4ZE5HTWxGajFKbHlIRV9fV1YxZlZ1SjYzdkVLdEMzaHUySXVOdXAxMTM4eW9XeGVCWjZqYXhVcjdmcHI4NjkyV2tHSlF5STB4eGtFcUk0UnppZkFOOXdYNEUzVEVnVnBhUzdoQURvOE9kVEpOYXZVR0R6ZEpXd1c5Znc?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "나이키 실적 부진과 대규모 구조조정 단행",
-  "summary": "나이키가 중국 시장 부진과 스니커즈 수요 약세로 매출 감소세를 기록하며 대규모 감원과 구조조정에 착수했습니다. 이와 함께 마이크론은 압도적인 총이익률을 기록했으나 반도체 업황에 대한 기대와 우려가 교차했고, 시장 전반은 개별 종목의 부진 속에서도 S&P 500이 고점 부근에서 공방을 벌였습니다.",
+  "trend_headline": "테슬라 판매 호조와 반도체 공급 우려 교차",
+  "summary": "테슬라가 월스트리트 예상치를 웃도는 차량 판매량을 기록하며 주가가 급등했으나, 도시바의 AI 스토리지 생산 확대 우려로 웨스턴디지털과 시게이트 등 하드웨어 관련 주는 급락세를 보였습니다. 또한 나이키는 실적 부진과 구조조정 발표로 하락하며 개별 기업별 희비가 엇갈렸습니다.",
   "key_points": [
-    "나이키, 실적 부진 및 중국 시장 타격으로 대규모 구조조정 및 감원 발표",
-    "마이크론, 87%에 달하는 높은 총이익률을 기록하며 투자자 주목",
-    "S&P 500 지수는 신고가 부근에서 등락을 거듭했으나 대다수 개별 종목은 약세 시현"
+    "테슬라, 월스트리트 예상치 상회하는 3분기 판매량 기록하며 주가 급등",
+    "도시바의 AI 스토리지 증산 우려로 웨스턴디지털 및 시게이트 주가 큰 폭 하락",
+    "나이키, 실적 부진 및 구조조정 일환의 정리해고 발표로 주가 약세"
   ],
   "sector_hints": [
-    "Consumer Discretionary",
-    "Technology"
+    "Technology",
+    "Consumer Discretionary"
   ]
 }

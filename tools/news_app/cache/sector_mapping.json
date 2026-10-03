@@ -1,67 +1,68 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "마이크론의 견조한 총이익률 달성과 대만 TSMC의 텍사스 신규 팹 건립 검토, 일본 도시바의 공급망 확장 등 AI 인프라 및 반도체 수요 호조가 섹터 전반을 견인하고 있습니다.",
+      "rationale": "미국 브로드컴의 대규모 칩 거래 호재에 따른 TSMC의 상승세와 대만-일본 간 반도체 투자 협력 확대, 유럽 자동차 업계의 핵심 칩 확보 경쟁 등 글로벌 반도체 수요가 지속적으로 강화되고 있습니다.",
       "related_tickers": [
-        "MU",
         "TSM",
-        "NVDA"
+        "AVGO"
       ],
       "source_regions": [
-        "US",
+        "ASIA",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "일본의 인공지능(AI) 데이터센터 급증에 따른 전력 수요 확대로 도쿄전력(TEPCO) 등 전력 회사들의 수혜가 가시화되고 있습니다.",
+      "related_tickers": [
+        "9501"
+      ],
+      "source_regions": [
         "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "한국 주요 시중은행의 대규모 AI 해킹 및 정보 유출 사태로 금융권 보안 리스크가 고조되었으며, 이탈리아의 고인플레이션 지속에 따른 유럽 거시경제 부담이 금융 섹터에 부정적 영향을 미치고 있습니다.",
+      "related_tickers": [
+        "055550",
+        "105560"
+      ],
+      "source_regions": [
+        "ASIA",
+        "EUROPE"
       ]
     },
     {
       "name": "Energy",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "미국의 디젤 수출 금지 위협과 정유 시설 차질로 유럽 내 디젤 가격이 급등하면서 정유업체들의 정제 마진 개선 및 단기 수익성 확대 기대감이 반영되고 있습니다.",
+      "direction": "negative",
+      "score": -5.0,
+      "rationale": "G7이 미국의 수출 제한 압박 속에서 1억 배럴 규모의 원유 및 디젤 비축유 방출에 합의함에 따라 유가 공급 우려가 일부 상쇄되며 유가 하방 압력으로 작용할 가능성이 큽니다.",
       "related_tickers": [
         "XOM",
-        "CVX",
-        "TTE"
+        "CVX"
       ],
       "source_regions": [
         "EUROPE"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "유럽 내 디젤 가격 급등으로 인해 트럭 운송, 물류, 제조업 등 산업 전반에 운항 및 생산 비용 압력이 가중되며 실적 부담으로 작용하고 있습니다.",
-      "related_tickers": [
-        "UPS",
-        "FDX",
-        "DHLG"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "중국 부동산 부문의 규제 강화와 주요 개발업체들의 대규모 손실로 인한 장기 침체가 아시아 부동산 섹터에 지속적인 하방 압력을 더하고 있습니다.",
-      "related_tickers": [
-        "VNQ",
-        "2007.HK"
-      ],
-      "source_regions": [
-        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Consumer Discretionary",
-      "note": "미국은 나이키의 실적 부진 및 스니커즈 수요 약세로 인한 감원 등 소비재 부진이 부각된 반면, 아시아(중국)는 완성차 업체들의 해외 판매 사상 최대 목표 달성 추진 등 자동차 산업 중심의 확장 신호가 상충하고 있습니다."
+      "note": "미국 내에서 테슬라의 3분기 차량 인도량 호조로 인한 급등세와 나이키의 실적 부진 및 감원 계획에 따른 하락세가 대조를 이룹니다. 또한 유럽 자동차 업계는 전기차 전환 과정에서 원자재 확보 경쟁이라는 병목에 직면해 있습니다."
+    },
+    {
+      "sector": "Technology",
+      "note": "도시바의 AI 스토리지 생산 확대로 미국 하드웨어 기업(웨스턴디지털, 시게이트)이 급락했으나, 일본의 하드디스크 공급업체와 중국의 정부 주도 AI 컴퓨팅 확장 계획 등 아시아 지역에서는 AI 인프라 수요로 인한 긍정적 모멘텀이 공존하고 있습니다."
     }
   ]
 }

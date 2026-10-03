@@ -1546,6 +1546,12 @@ function renderMarketPulse() {
       ${metricTile('美 30년물', yieldPct(macro.yield30y), '', 'muted')}
       ${metricTile('자금흐름지수(MFI)', macro.mfi, macro.mfi_signal, 'muted')}
     </div>
+    <div class="gate-rule-row">
+      <b>자금흐름지수(MFI)</b> — S&P500(SPY) 14일 가격·거래량 기반, 0~100 범위<br>
+      80 이상 <b class="neg">과열</b>(매수세 과다, 단기 조정 가능성) · 20 이하 <b class="pos">침체</b>(매도세 과다, 저가매수 구간 가능성) · 20~80 <b>중립</b><br>
+      VIX: 25 초과 <b class="neg">HIGH</b>(불안) · 15 미만 <b class="pos">LOW</b>(안정) · 15~25 NORMAL &nbsp;·&nbsp;
+      10년물 금리: 4.5% 초과 HIGH · 2.5% 미만 LOW
+    </div>
   </div>`;
 
   const guruHtml = `

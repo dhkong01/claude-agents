@@ -24,7 +24,7 @@ def _step(idx, label, cache_file, today, dry_run, fn, empty, is_ok):
       실패/빈 결과면 직전 캐시(오래됐어도 실데이터)로 폴백 → 섹션이 통째로 비지 않게.
     - 직전 캐시도 없으면 empty.
     """
-    print(f"\n[{idx}/5] {label}...")
+    print(f"\n[{idx}/6] {label}...")
     if not dry_run and cache_fresh(cache_file, today):
         print(f"      당일 캐시 재사용 ({cache_file})")
         return load_cache(cache_file), False
@@ -52,6 +52,7 @@ def run_pipeline(dry_run: bool = False) -> dict:
     from europe_market_agent import analyze_europe_market
     from sector_mapper import map_sectors
     from orchestrator import generate_ideas
+    from guru_insights import analyze_guru_insights
 
     empty_ideas = {"date": today, "horizons": {h: [] for h in ["1w", "1m", "3m", "6m", "1y"]}}
 
@@ -84,6 +85,13 @@ def run_pipeline(dry_run: bool = False) -> dict:
                       lambda: generate_ideas(dry_run=dry_run), empty_ideas, ok_ideas)
     counts = {h: len(v) for h, v in ideas.get("horizons", {}).items()}
     print(f"      호라이즌별 아이디어 수: {counts}")
+
+    # 대가 인사이트 — 다른 PWA(docs/data/market_pulse.json)가 소비하는 독립 피처라
+    # 실패/빈 결과가 이 파이프라인의 성공 여부(fresh_count) 판단에는 영향을 주지 않음
+    guru, _f6 = _step(6, "대가 인사이트 추출", "guru_insights.json", today, dry_run,
+                       lambda: analyze_guru_insights(dry_run=dry_run),
+                       {"date": today, "insights": []}, lambda d: True)
+    print(f"      대가 인사이트 {len(guru.get('insights', []))}건")
 
     fresh_count = sum([f1, f2, f3, f4, f5])
     served = {

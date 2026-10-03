@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-02",
+  "indices": {
+    "nasdaq": {
+      "price": 27190.86,
+      "change": 319.26,
+      "change_pct": 1.19,
+      "label": "나스닥종합"
+    },
+    "dow": {
+      "price": 51176.96,
+      "change": 250.4,
+      "change_pct": 0.49,
+      "label": "다우존스"
+    },
+    "sp500": {
+      "price": 7722.72,
+      "change": 56.27,
+      "change_pct": 0.73,
+      "label": "S&P500"
+    }
+  },
+  "breadth": {
+    "total": 512,
+    "advancers": 300,
+    "decliners": 209,
+    "unchanged": 3,
+    "adv_pct": 58.6,
+    "universe": "S&P500+NASDAQ100"
+  },
+  "macro": {
+    "phase": "RISK_ON",
+    "m_score": 10,
+    "vix": 15.31,
+    "volatility": "NORMAL",
+    "yield10y": 5.28,
+    "rate_env": "HIGH",
+    "dollar_trend": "STRENGTHENING",
+    "market_trend": "BULL"
+  },
+  "guru_insights": [],
+  "guru_date": "2026-10-03"
+}

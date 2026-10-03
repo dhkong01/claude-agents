@@ -128,6 +128,8 @@ jobs:
           python export_sector_data.py
           python export_price_lookup.py
           python strategy_gates.py
+          python market_pulse.py
+          python export_market_pulse.py
 
       - name: 결과 커밋 및 푸시 (충돌 시 최대 3회 재시도 — 실패를 숨기지 않음)
         if: steps.guard.outputs.skip != 'true'

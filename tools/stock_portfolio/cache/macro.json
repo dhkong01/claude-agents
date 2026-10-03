@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-10-02",
   "phase": "RISK_ON",
   "m_score": 10,
   "signals": {
     "market_trend": "BULL",
-    "market_ret3m": 0.0506,
-    "vix_level": 16.64,
+    "market_ret3m": 0.0292,
+    "vix_level": 15.31,
     "volatility": "NORMAL",
-    "yield10y": 4.66,
+    "yield10y": 5.28,
     "rate_env": "HIGH",
-    "dollar_trend": "FLAT"
+    "dollar_trend": "STRENGTHENING"
   },
   "recommended_sectors": [
     "Technology",

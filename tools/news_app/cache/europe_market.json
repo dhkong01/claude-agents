@@ -1,7 +1,31 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "region": "EUROPE",
   "headlines": [
+    {
+      "title": "The job interview question you don't have to answer",
+      "summary": "Experts explain what you should do if you are asked for your current salary during a job interview.",
+      "link": "https://www.bbc.co.uk/news/articles/cje3r35p0qeno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "The best place to retire abroad is no longer in Europe – but six of the top ten are",
+      "summary": "European destinations scored highly in a new global retirement ranking, with six countries among the top ten, as people looking to retire abroad weigh higher taxes against quality of life.",
+      "link": "https://www.euronews.com/2026/10/04/the-best-place-to-retire-abroad-is-no-longer-in-europe-but-six-of-the-top-ten-are",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "DW",
+      "summary": "News, Analysis and Service from Germany and Europe - in 30 Languages",
+      "link": "https://www.dw.com/s-1431?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "$38M from federal government to KPMG during ban",
+      "summary": "Happy Labour Day and welcome to the newsletter that makes you think harder. If you’ve been forwarded this Playbook, you can sign up free to get it each weekday morning. ESSENTIALS — KPMG raking it in, despite ban on new work — Surprise compliments for Chris Bowen — One Nation and Liberal paths to po",
+      "link": "https://www.politico.com/newsletters/canberra-playbook?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
     {
       "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
       "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
@@ -15,15 +39,15 @@
       "source": "Euronews Business"
     },
     {
-      "title": "DW",
-      "summary": "News, Analysis and Service from Germany and Europe - in 30 Languages",
-      "link": "https://www.dw.com/s-1431?maca=en-rss-en-bus-2091-rdf",
+      "title": "Weakened US fuel-efficiency rules and promises of cheaper cars could see drivers pay higher running costs while also increasing carbon emissions.",
+      "summary": "Weakened US fuel-efficiency rules and promises of cheaper cars could yet see drivers pay higher running costs while increasing planet-heating emissions.",
+      "link": "https://www.dw.com/en/weakened-us-fuel-efficiency-rules-and-promises-of-cheaper-cars-could-see-drivers-pay-higher-running-costs-while-also-increasing-carbon-emissions/a-79496554?maca=en-rss-en-bus-2091-rdf",
       "source": "DW Business"
     },
     {
-      "title": "Two Iranians charged with alleged bomb plot against Britain s Jewish community",
-      "summary": "Police said the two men received instructions and materials to make a homemade bomb for possible use on Jewish targets.",
-      "link": "https://www.politico.eu/article/two-iranians-charged-with-alleged-bomb-plot-against-britains-jewish-community/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Former Belgian PM Verhofstadt investigated in EU Parliament intern probe",
+      "summary": "The probe focuses on the period from 2009 to 2019, when Verhofstadt chaired the ALDE group in the European Parliament.",
+      "link": "https://www.politico.eu/article/former-belgium-prime-minister-guy-verhofstadt-european-parliament-intern-probe/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
@@ -39,15 +63,9 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Weakened US fuel-efficiency rules and promises of cheaper cars could see drivers pay higher running costs while also increasing carbon emissions.",
-      "summary": "Weakened US fuel-efficiency rules and promises of cheaper cars could yet see drivers pay higher running costs while increasing planet-heating emissions.",
-      "link": "https://www.dw.com/en/weakened-us-fuel-efficiency-rules-and-promises-of-cheaper-cars-could-see-drivers-pay-higher-running-costs-while-also-increasing-carbon-emissions/a-79496554?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Spaniards protest housing crisis as Sánchez weighs snap vote",
-      "summary": "With a potential early election looming, the demonstrations highlight growing frustration with the country's political establishment.",
-      "link": "https://www.politico.eu/article/spaniards-protest-housing-crisis-as-pedro-sanchez-weighs-snap-vote/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Le calendrier chargé d’Emmanuel Macron complique sa venue à la COP31",
+      "summary": "Bien qu’il aime se poser en défenseur de l’Accord de Paris sur le climat, le chef de l’Etat ne semble plus placer les négociations climatiques en haut de ses priorités calendaires.",
+      "link": "https://www.politico.eu/article/le-calendrier-charge-demmanuel-macron-complique-sa-venue-a-la-cop31/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
@@ -63,15 +81,9 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Is US President Donald Trump right to rename AI as Super Intelligence ?",
-      "summary": "Donald Trump thinks the name artificial intelligence sounds fake and has ordered US agencies to use Super Intelligence instead. Yet, tech firms and researchers have little reason to play along.",
-      "link": "https://www.dw.com/en/is-us-president-donald-trump-right-to-rename-ai-as-super-intelligence/a-79430388?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Sandu slams Russia as attack debris hits Moldova in latest airspace violation",
-      "summary": "Three missile and two drones entered Moldovan airspace and caused collateral damage in the country, local authorities said.",
-      "link": "https://www.politico.eu/article/maia-sandu-slams-russia-as-attack-debris-hits-moldova-in-latest-airspace-violation/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Moscow says it will step up strikes on Ukraine after Kyiv vows to hit Russian oil refineries",
+      "summary": "Russia's announcement came as Ukrainian President Volodymyr Zelenskyy said his country would “have to respond in any way we can” to Russian attacks.",
+      "link": "https://www.politico.eu/article/moscow-says-it-will-step-up-strikes-on-ukraine-after-kyiv-vows-to-hit-russian-oil-refineries/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
@@ -87,9 +99,9 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Russia hits major Kyiv bridge, logistics hub in latest attack",
-      "summary": "Russia struck a key bridge in Kyiv connecting the left and right bank of the Dnipro river overnight Saturday, as Moscow steps up its aerial campaign against Ukraine. Traffic was suspended on the capital s Northern Bridge and emergency services were deployed to the scene amid damage to the road and t",
-      "link": "https://www.politico.eu/article/russia-hits-major-kyiv-bridge-logistics-hub-in-latest-attack/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Latvian PM’s election win boosts chances for pro-Ukraine coalition",
+      "summary": "Andris Kulbergs’ party finished more than 20 percentage points ahead of far-right Latvia First.",
+      "link": "https://www.politico.eu/article/latvian-pm-andris-kulbergs-election-win-boosts-chances-for-pro-ukraine-coalition/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
@@ -105,33 +117,21 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Widdecombe murder suspect charged with planning terror act on Nigel Farage",
-      "summary": "Joshua Kerry was previously accused of murdering former lawmaker and Reform spokesperson Anne Widdecombe.",
-      "link": "https://www.politico.eu/article/anne-widdecombe-murder-suspect-charged-with-planning-terror-act-on-nigel-farage/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Security-Update: Krieg bei Social Media – mit Marcel Bohnert",
+      "summary": "Mehr als die Hälfte der jungen Wähler entscheidet sich bei jüngsten Landtagswahlen für Parteien, die der Ukraine-Unterstützung kritisch gegenüberstehen. Der Grund dafür liegt nicht nur in klassischen Debatten, sondern auf Plattformen wie TikTok, Instagram und X. Dort tobt längst ein massiver Informa",
+      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-update-krieg-bei-social-media-mit-marcel-bohnert/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
-      "summary": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
-      "link": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Portugal records biggest EU rise in house prices in second quarter",
-      "summary": "Eurostat data shows Portugal recorded the EU's sharpest rise in house prices in Q2 2026 versus a year earlier. In September, national housing costs hit a fresh record high.",
-      "link": "https://www.euronews.com/2026/10/01/portugal-records-biggest-eu-rise-in-house-prices-in-second-quarter",
-      "source": "Euronews Business"
     }
   ],
-  "trend_headline": "유가 급등과 인플루언서 압박 속 유럽 에너지 비용 비상",
-  "summary": "글로벌 유가 상승과 G7의 비축유 방출 압박 속에서 영국 디젤 가격이 리당 2파운드를 돌파하고 이탈리아의 9월 인플레이션이 3년 만에 최고치인 4.2%를 기록했습니다. 에너지 비용 상승은 가계와 기업의 부담을 가중시키며 유럽 경제 전반에 물가 압력을 높이고 있습니다.",
+  "trend_headline": "G7 원유 비축유 방출과 지정학적 긴장 심화",
+  "summary": "우크라이나 전쟁 격화와 중동발 에너지 충격으로 유가가 급등함에 따라, G7의 공조 비축유 방출 결정이 유럽 에너지 시장의 단기 가격 변동성을 완화하는 핵심 변수로 부상했습니다. 영국 디젤 가격이 사상 처음으로 리터당 2파운드를 돌파하는 등 에너지 비용 부담이 가중되고 있습니다.",
   "key_points": [
-    "영국 평균 디젤 주유 가격, 사상 최초로 리당 2파운드(200.01p) 돌파",
-    "이탈리아 9월 소비자물가상승률 4.2% 기록, 에너지와 신선식품 중심의 3년 만에 최고치",
-    "G7, 유가 급등세 억제 및 미국 디젤 수출 금지 회피를 위해 수백만 배럴의 비축유·디젤 방출 추진"
+    "G7, 가격 급등 방지와 미국 디젤 수출 금지 회피를 위해 수백만 배럴의 원유 및 디젤 공동 방출 결정",
+    "영국 RAC 집계 기준 디젤 평균 가격 사상 최초로 리터당 2파운드(200.01p) 돌파",
+    "러시아의 우크라이나 에너지 인프라 타격 예고 및 키이우 방문 등 지정학적 리스크가 에너지 섹터 압박"
   ],
   "sector_hints": [
     "Energy",
-    "Automotive"
+    "Defense"
   ]
 }

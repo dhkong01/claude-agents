@@ -1,7 +1,67 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "region": "US",
   "headlines": [
+    {
+      "title": "Chick-fil-A wants to stay a family business even as it expands in the U.S. and abroad",
+      "summary": "Chick-fil-A has been expanding into new international markets and growing its menu under CEO Andrew Cathy.",
+      "link": "https://www.cnbc.com/2026/10/04/chick-fil-a-ceo-andrew-cathy-family-ownership-growth.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I d rather be on a beach in Bali : My husband resents my $8 million net worth. Should I pay for his retirement?",
+      "summary": "We have an ironclad prenup.",
+      "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "All B-1 Bombers Returning to U.S. From U.K. Base",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXlMMHdOTEFJWjZvZFVmMnZvLTdMQ3hlcjdWNDdWX2NtMG95ZTFNeDBwQk1HUG9NQ19OQUpSQWJuUGFIQUVOVzEzUTN1OWhmSWlhcmdVa0wzbXAzTnY2a2t4bVBDTUdVcnUyVW9rM2FCWWlmbU5aYTJxak1YeHdGbnB6eG54NGR3U0NqVnpEdFU3T1ItM2c5ZA?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "How Macron’s Decade in Power Left France Europe’s Weakest Link",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNUZpa2RhYUVUTEkwMXY0ZjFqZXY0YUY5S1RVNjREM183bjFSYXJ1ZTc4ck1jbV9NdEl3MmhFNkRPMkxRSTVRSldHclByWmdud1lMb1lFYkI0N0NfY1lxd0FfSHBRN09XUkNRZzVQbC1uMmo0aV9BbFNZdXRkV2pIMEFKT0l0SDFkUnh4dlVhQ0ozNzdBUnB4dmdCaTdBM0c2UmtvWnBWcTlCOTFmNXNSVTFQQQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "A Scary Stock Market Divided Has Opened Up. Where It Goes Next.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhnM3FLLUlFaE9XMmNYSVV3amVLUGtIU0d4a3E0OFFlcXQxaW5NLWFXZG4xUVVvTXZYUUZBalltRVJSYzJfOHJfVXlBdHIyaWNwWnhLV1NQVzZjRHFlWkExeFp1NGd0eE5lQi1OdjVvYzAwcEtxbHAzbkY5aVVCTw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Why brands like E.l.f., Wendy s and Gap are branching out into original music",
+      "summary": "E.l.f. Beauty released an album titled \"Mirror Mix\" as the brand plans to increase its marketing spend for the rest of the year.",
+      "link": "https://www.cnbc.com/2026/10/04/elf-wendys-gap-music-marketing.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+      "summary": "I have $152,000 in my IRA and Roth accounts.",
+      "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Five Things I Learned in Hiring a Financial Adviser",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcDFMNXNza2hzak1HNGNLcUc2OGNNZ0FNdWJmU01VU29Oc0labnJIY1ZTVjU1Z3BCODh6STN4a0tkeXdUcU1adzY5cGx2VUJtRjFSOGQ3U2xLUTRQM0ZWNGpYb2RMeEZGYnhHUjF4bWdadmZqMGZ4OGs0ZF9mYjczYw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Ex-Anthropic Researcher Coxon to Testify at NYC Hearing on AI",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQVVRR3BBcHZWM2JKOWdfSXZZMzdLQ053am4ta2xzSzFULWdoZHlhbnlFNGNMRFhoUGRvX1lCeXprSjRPWVczTkNGVlViN2VwRHoyZHV1cFdlRHpNS0ZUV2FseUNZbS1Xei1wbkJwcjVaY09QWm9GRUV4dExBb1lOZUIzYzhCZFB1Z0lpc2pvSlhCcnJXa2hJNTVYeDkwSnpWeFRLV25qNDhIOHB6ZW9wSVBxOVhsRWtK?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Micron Stock Wobbles on Chip Cycle and Margin Worries. Two More Reasons to Fret.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTmtjdTdLWXVsaGNBMjY5VUZhalJ5WlM1NnN5ZkY1NkU3Vnowa2hkbkNUSkRqY1BjSk1uOHlfaDdLN0lwdDNDSGdTa2l0NVc5aGRRbXJqVERCSk5kRHhZM2pqT3RyN3MzMWJIMjk5X0ZjTGt5dk1oQVhQQzM5R0tVN01QNTg?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
       "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
@@ -15,15 +75,15 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Five Things I Learned in Hiring a Financial Adviser",
+      "title": "Oil Was Pouring Out of Hormuz Again. Then Attacks on Ships Resurged.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ19LX1BJMl95d2pOYzlYZWQ3SE5tUW1kbkp1SXBXQ241OXVhTm9xaXQyNU1DYXoyZVUtaWJBdkluSmFTYVlNSTJRMmtMTVJOZFNXRE5IWmJRY0VkcHpQT0ozcEpvSXlmZlhXdkYwRDZ6M29seTRlQXVyUWtTZk9kUXB3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTjJfTkxZb2p6amNPb0RqQndLX19NdjRCVGVoTjlPbl9Dd256T3R4ZkgwRUwxU1UxLVNNZEsyRnJQcXJGWXotdDAyZWlGR09IWkg0UHhQRDc3eHphNXpnZWdaNGN6Y29COVFZWXZUUU1sS3YtMmpzVngtQjg5NW1zczBMYUhPclB3czBlOUtTcXU0RmJUY21uZ3diOWJNRkVtamVGX1pQbUVPRFFDNmxBQWRDMUhRUGVmbTdDdW1MeFdvb1I3QzNpZHZCSQ?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Paramount Debt Drop Spells Trouble for Borrowers: Credit Weekly",
+      "title": "Schneider Said to Near Deal to Buy PTC for More Than $20 Billion",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV09JSHJ3WHZHYmg5aHB6bGxIX2pTQV9MLVpneFFTaC1yUTVQTTI4YWF6dllneWZfR25zTkpPMm5IRjBqZjBXaWxNdkRCczJ6V2RISl9HVGV5R0dRNi1JUkxzNzdXNHk3VVp4Wk5UR09RZnpWUGV3RDN6dTBRRk9TNTNGUmdPU1F6RFVsUkFsdW5YaUQ5MFZ2VFpoMEQyeHNQUGFmZl9iUWlLelJVaG82ZUg0NA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTkVCcVhXSmJJYmRiMVlubjZlMzVyYW95dlg5RHBMNWJKaW9yU1hiVTBrVDhMZkFxQk5aLXB4R3dSNF9QRHNvdWlUYXNqWE1Pajh2bm5Ucmt0bmVBTUFiX2xOY3NmaGVVaTNsd2RwZkxyRUVScmVOS3hkVW0zSjFKT1NMRURycnRFM2wzTkRkY3FxeVV3VVllaEJCRjRXMnBkdEFMM19IT28wZTZMS3phM2RHZ1Y?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -45,93 +105,34 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Botched Tennessee Execution Draws Scrutiny of Lethal Injection Drugs",
+      "title": "How Gas, Diesel and Electricity Prices Are Squeezing American Voters",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbi1YT0NWRHczcW5raUhOZnR6VTI5Z0kzT0ZfV292VmxTNGd4NzNDNnlMdjR1TUJuTWw5WGdxRHlYU0tPX3ZhbU5jbHBZWndIT0hSUnNNTWphdGVmSnRYcmYydmFEV1FYUURsZVRlenREZk5ndEExQ09HdU1iRjdFUWk3ZXBaZ0I2N3JmSEtSb0tnOTh6UWZ3c3lkcmdYdWgxYjZoNWg1LVk4ZTBQWU5ZMQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMDRKQzE0bVl6TFI1UlgzX1ZlUzk3ekpodXNIUWZHTHcwNk00SkxMdjQ2N0FIUzFkSHg3VTcyV1dlV1A0NjhhNVN3amp2UVlJT1lZYnZ5bWo0eHg2V1pmb3hFVXM2Z1hxTHFZR3VDUmktMTFGV0ZnczlJbllZWGlTWm5B?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Cash-Strapped Americans Tap Home Equity and AI to Keep Spending",
+      "title": "Apple’s John Ternus Has Found a New Design Chief: Himself",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWRGRlMyR3lmcEpxN1Z0Sk5PQ3B0VlZvTUppdXhrYjk2c3RJU2VnTkhobWo0X3gzYV8wZlJOdFBoSC00ZjJVLU12aGVKcld5N3c0QzFXX3drTGZyZVB2MHNEUzB5ZHh5SFB0RERzMVNSNFhCRElvaVppZUloMFBwWGotVlhGYnpHSnZ2ZEJDNThkTC16aFNTaUdjbDN3ZGpsamszM2I5ODA3MjQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRkVyd3FmTWlFU25rNlJYQ3lKcDhXY3YtdnV4TENhdGZSMkNWUFhZZmI5XzU0ZGhJMHdmdkZKallDb0dlNXRheFZYTGhicnI2TkVTVnF3UFFfRXBfMVVqc2NlblpFY2JtT3h4bnhsbmN0U2xTYktNc21xSlBudnVRMkRZN0dPMnN4d3hjemdHS1hvZnMxYjFVNmVmZzFXSC16bFJPM3VKTG0xTXZna2lMeU1QWjgwQllpMVQ0UlBraWRFMFRQVklMSQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "A Scary Stock Market Divided Has Opened Up. Where It Goes Next.",
+      "title": "The 2 Triggers That Can Help Nvidia Nail a Fresh Stock Milestone",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWhnM3FLLUlFaE9XMmNYSVV3amVLUGtIU0d4a3E0OFFlcXQxaW5NLWFXZG4xUVVvTXZYUUZBalltRVJSYzJfOHJfVXlBdHIyaWNwWnhLV1NQVzZjRHFlWkExeFp1NGd0eE5lQi1OdjVvYzAwcEtxbHAzbkY5aVVCTw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
-      "summary": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
-      "link": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "These bond strategies can help you get a safe 5% return on your cash",
-      "summary": "With U.S. Treasury yields on the rise, financial planners say they re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
-      "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "How Midcentury Modern Design Went From Cool to Cringey",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWXR3eVB4NldXX0lCNnN6eUJGdzhyVE5mYnFaUURBRVNacWhWbHV1UXZFaFFxNVhkcEdRV2syTjF2SHFEc2V1XzluSXQ0N0FfUmZwTjVsWlBkenJINkFnV2FIZVJtMmI4ekJLbTZjRDIzSDRYZVV4NFNMZDh1TVJHdkF0SDZhSE5udVBfS2pqeGhjTjN5VnlvQnM5TUk?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Bessent Downplays Worries on Rising Yields, AI Bubble Concerns",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaThxNHd6Y1VVQWVGeExyUGRBa3hubktXaVNpQVFlVzhQaUh3UjFNWWdXMVo3b203NFllZmRUU0VwcG9FUjNHNE9jQy1meS1kMENnSDdYVlNMTkRWTGcweEdZVzIwYUthZzk3YlY2QTVSWjRfX2swRktOb1dwRFNjekJ5RVdSOXU2ek1ud2J2cWstRG5JYUpQNnZNcmhMSUFlNTlaS1NsSnJKZXBxOXVTUy1R?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "How This Quantum Stock Stands to Gain an Edge From AI and Supercomputing",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlcnpuaU9vVng5cUp5THFhREkycEpWQ3pwR2VtdDNtblIyejdQZFhZd0REZ0lYLU1FcUZWS3paeVF1S1pYa1dNbkVuVkJMT2U0dXFFMk1HMkZwb19nYUV2eDJTNVY5VHpPWlZxakFqaWJSR0hhbkVEeUk5Y18?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "FAA says Boeing 737 Max software glitch not a flight-safety issue",
-      "summary": "The FAA on Monday said it was reviewing the software glitch, which could affect procedures during certain landings.",
-      "link": "https://www.cnbc.com/2026/10/02/faa-says-boeing-737-max-10-software-glitch-not-a-flight-safety-issue.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "I want to make her proud : My mother, a divorc e, died and I m her executor. Do I need to file for probate?",
-      "summary": "The only debts were utility and credit-card bills, which we will pay off.",
-      "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Meet the Gen-Z High Rollers Dominating the Prediction Markets",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ELWZ1SHVfTHFSUVVSdnJWVUdCSHJ1YWZpbnNFUEJfdERSSXdGSDJaZzVkQzBXaW9JWXU1OTlMcU1wMkhjT0pTWk5QLWdNcWRtZk0tbmhNZFRGcnM2QkJoZ0o4cVlEdjlaS0xyeEZDaEFDWHYybGp4VDFpSQ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "OpenAI Safety Employee Quits, Calls for Nuclear-Level Safeguards",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMjVnaDVZZC05NnowMXJkVFVFX21rOWR0OXNFTlJlVTZWYmx2cklDY245ZkNpb0JRRFJyRzJ0VWVHM3RpbTFpN3dha2MtVUQzY3ZUVXlQV3JVWjVBXzU5emoxQm1QUVp6VnBwdXYyZmZpdHpNbFJnSDlpcnBmUE80dmQ3OXNsbmtUamVVZmtINnVzc2ljVVFBU0pZTDVSdU5pdzlVOVFUcXJ1dFl5ME9NdnNJUnc?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG16eVVkaVVmY3d5aGhXUmFQSVpCcDZqbi1SWExsTktyUU94TTVFWEtNWGxQU2N4a2xXdXJ0OUxXalNHTjhuVmxJUnJQVUZiMllaSVZGUkhvTjBURWExNnJ1ZHI2MzBjdkNTQXp3eFFSYnYxS2pWWDJEdkZpQXhUb1dtYk05UEhMQUJKNVd1RFM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjhxYTFrcmNlTmtFVFA5SnBHaXlEeF9INHdaUmFKbG52c2kxLWE1TEpGYjd2VmRxMDNscVJwV3BwMzMwU0lsZ0hIRkRnd2tFaENfY0ZENUVIcEVhUTdIZWRkWmhDTWtZMzRLcGg0S0U2eFF3OXRYMDNxdzQyR1RmYjR3?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "AI 수요 둔화 우려와 인프라 재편",
-  "summary": "AI 하드웨어 부족 현상 완화 조짐과 함께 관련 부품주들이 조정을 받았으며, 미디어와 금융 등 전 산업에서 AI 기술 내재화와 인재 수요가 급증하는 양극화 장세가 나타났습니다.",
+  "trend_headline": "치솟는 국채금리와 AI 밸류에이션 경계감",
+  "summary": "상승하는 국채 금리의 압박 속에서 월스트리트의 AI 랠리가 경계감을 맞이하고 있으며, 마이크론과 자빌 등 주요 하드웨어 및 반도체 주식들이 마진 우려로 흔들리는 모습을 보였다. 반면 3분기 실적 시즌을 앞둔 기업들의 수익성 전망은 낙관적인 흐름을 유지하고 있다.",
   "key_points": [
-    "AI 하드웨어 부족 완화 우려로 씨게이트와 웨스턴디지털 등 관련 주가 하락",
-    "월스트리트 은행권의 AI 엔지니어 및 에이전트 오케스트레이션 직무 수요 1,721% 급증",
-    "스카이댄스의 파라마운트 및 워너브라더스 디스커버리 합병 추진 등 미디어-엔터테인먼트 구조 재편"
+    "월스트리트의 AI 관련주들이 치솟는 국채 금리 여파로 불안정한 흐름을 기록",
+    "마이크론 및 자빌 주가는 칩 사이클과 마진 우려로 인해 견조한 수요 전망에도 불구하고 하락세 시현",
+    "미국 기업들은 3분기 실적 시즌을 앞두고 향후 이익 전망에 대해 역대급으로 낙관적인 태도 견지"
   ],
   "sector_hints": [
     "Technology",
-    "Communication Services"
+    "Semiconductors",
+    "Financials"
   ]
 }

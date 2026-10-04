@@ -1,27 +1,43 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "sectors": [
     {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "AI 하드웨어 부족 현상 완화 조짐에 따라 씨게이트, 웨스턴디지털 등 주요 스토리지 및 하드웨어 부품주를 중심으로 단기 가격 조정 압력이 발생했습니다.",
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "러시아-우크라이나 전쟁 격화 및 중동 리스크로 인한 디젤과 원유 가격 급등이 유가 마진 개선에 긍정적임. G7의 비축유 공동 방출 조치가 단기 유가 변동성을 제어하려는 변수로 작용하고 있으나 타이트한 공급 환경이 우세함.",
       "related_tickers": [
-        "STX",
-        "WDC"
+        "SHEL",
+        "BP",
+        "XOM"
       ],
       "source_regions": [
-        "US"
+        "EUROPE"
       ]
     },
     {
-      "name": "Semiconductors",
+      "name": "Industrials",
       "direction": "positive",
-      "score": 5.5,
-      "rationale": "대만 TSMC의 미국 애리조나 투자 확대 및 글로벌 공급망 재편 주도, 일본의 AI 하드웨어 인프라 확충 등 아시아 시장 중심의 반도체 생태계 강화 흐름이 이어지고 있습니다.",
+      "score": 7.0,
+      "rationale": "러시아의 우크라이나 에너지 인프라 타격 예고 및 키이우 방문 등 지정학적 리스크가 심화됨에 따라 방산 및 안보 관련 인프라 기업들에 대한 시장의 관심과 수요가 지속적으로 증가할 전망.",
       "related_tickers": [
-        "TSM",
-        "NVDA"
+        "LMT",
+        "RHM",
+        "BAESY"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "negative",
+      "score": -4.0,
+      "rationale": "미국 국채 금리 상승에 따른 고성장 AI 주식들의 밸류에이션 부담이 커진 상황에서, 아시아 시중은행들을 겨냥한 지능형 AI 해킹 사태로 인해 기술 리스크 및 보안 관련 인프라 재정비 부담이 가중됨.",
+      "related_tickers": [
+        "MSFT",
+        "PANW",
+        "CRWD"
       ],
       "source_regions": [
         "US",
@@ -29,51 +45,13 @@
       ]
     },
     {
-      "name": "Communication Services",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "스카이댄스의 파라마운트 및 워너브라더스 디스커버리 합병 추진 등 미디어·엔터테인먼트 산업 내 대형 구조 재편 모멘텀이 긍정적으로 작용하고 있습니다.",
-      "related_tickers": [
-        "PARA",
-        "WBD"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "유럽 내 디젤 가격 급등 및 이탈리아 인플레이션 수치 악화 등 유가 상승세가 지속되어 정유·에너지 기업의 단기 수익성에 긍정적이나, G7의 비축유 방출 추진은 유가 상단을 제약하는 요소입니다.",
-      "related_tickers": [
-        "SHEL",
-        "TTE",
-        "XOM"
-      ],
-      "source_regions": [
-        "EU"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "positive",
-      "score": 5.0,
-      "rationale": "일본 가와사키중공업의 휴머노이드 AI 로봇 개발 등 생산성 향상과 실질적인 하드웨어 인프라 혁신을 위한 산업재 기업들의 투자가 가속화되고 있습니다.",
-      "related_tickers": [
-        "7012.T"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
       "name": "Real Estate",
       "direction": "neutral",
-      "score": 1.0,
-      "rationale": "중국 우한시의 완공 주택 판매 전환 등 부동산 시장 내 공급측 구조조정이 진행되고 있으나, 시장 전반의 업황 회복 여부는 관망세가 짙습니다.",
+      "score": -1.5,
+      "rationale": "중국 우한시 등 완공 주택 판매 전환과 같은 부동산 구조조정이 가속화되며 리스크 통제 노력이 이어지고 있으나, 여전히 업황의 본격적인 회복세를 논하기에는 불확실성이 잔존함.",
       "related_tickers": [
-        "2007.HK"
+        "BEKE",
+        "3333"
       ],
       "source_regions": [
         "ASIA"
@@ -82,8 +60,12 @@
   ],
   "conflicting_signals": [
     {
+      "sector": "Semiconductors",
+      "note": "미국 시장에서는 국채 금리 압박과 마이크론/자빌 등의 마진 우려 및 칩 사이클 우려로 하락세를 보인 반면, 아시아 시장에서는 TSMC의 밸류에이션 리레이팅 기대감 및 라피더스의 17개사 설계 지원 등 첨단 반도체 생태계 확장 호재가 공존하고 있습니다."
+    },
+    {
       "sector": "Financials",
-      "note": "미국 금융권은 AI 에이전트 도입 및 전문 인력 수요 폭증(+1,721%)으로 생산성 개선 기대감이 큰 반면(긍정적), 아시아(한국) 금융권은 AI 기반 해킹으로 인한 개인정보 유출 및 당국의 규제·보안 비상등으로 단기 리스크 비용 부담이 증대되었습니다(부정적)."
+      "note": "미국 기업들은 금리 상승 압박 속에서도 3분기 실적 시즌을 앞두고 역대급으로 이익 전망을 낙관하고 있는 반면, 아시아(한국/중국) 금융권은 대규모 AI 해킹 및 보안 리스크가 터지면서 제로트러스트 보안 체계 강제 등 예상치 못한 운영 리스크와 긴급 비용 부담에 직면해 있습니다."
     }
   ]
 }

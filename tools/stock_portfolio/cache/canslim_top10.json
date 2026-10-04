@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "analyzed": 140,
   "top10": [
     {
@@ -18,7 +18,7 @@
       "industry": "Semiconductors",
       "market_cap": 1034842210304,
       "price": 633.91,
-      "rs_rating": 95.6
+      "rs_rating": 96.3
     },
     {
       "ticker": "FTNT",
@@ -54,7 +54,25 @@
       "industry": "Semiconductors",
       "market_cap": 328398864384,
       "price": 307.49,
-      "rs_rating": 90.1
+      "rs_rating": 90.8
+    },
+    {
+      "ticker": "SNPS",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 93882785792,
+      "price": 489.9,
+      "rs_rating": 60.1
     },
     {
       "ticker": "MU",
@@ -90,7 +108,7 @@
       "industry": "Semiconductors",
       "market_cap": 244708294656,
       "price": 272.29,
-      "rs_rating": 94.2
+      "rs_rating": 95.6
     },
     {
       "ticker": "WDC",
@@ -108,7 +126,7 @@
       "industry": "Computer Hardware",
       "market_cap": 149729050624,
       "price": 415.29,
-      "rs_rating": 92.9
+      "rs_rating": 90.1
     },
     {
       "ticker": "DDOG",
@@ -162,25 +180,7 @@
       "industry": "Semiconductors",
       "market_cap": 202136485888,
       "price": 417.15,
-      "rs_rating": 85.3
-    },
-    {
-      "ticker": "DXCM",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 32211515392,
-      "price": 85.36,
-      "rs_rating": 82.6
+      "rs_rating": 84.0
     }
   ]
 }

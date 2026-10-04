@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "rs90_count": 13,
   "stocks": [
     {
@@ -19,11 +19,11 @@
       "rs_rating": 97.0
     },
     {
-      "ticker": "STX",
+      "ticker": "AMD",
       "rs_rating": 96.3
     },
     {
-      "ticker": "AMD",
+      "ticker": "MRVL",
       "rs_rating": 95.6
     },
     {
@@ -31,7 +31,7 @@
       "rs_rating": 94.9
     },
     {
-      "ticker": "MRVL",
+      "ticker": "STX",
       "rs_rating": 94.2
     },
     {
@@ -39,19 +39,19 @@
       "rs_rating": 93.5
     },
     {
-      "ticker": "WDC",
-      "rs_rating": 92.9
+      "ticker": "PANW",
+      "rs_rating": 92.2
     },
     {
       "ticker": "FTNT",
       "rs_rating": 91.5
     },
     {
-      "ticker": "PANW",
+      "ticker": "ARM",
       "rs_rating": 90.8
     },
     {
-      "ticker": "ARM",
+      "ticker": "WDC",
       "rs_rating": 90.1
     },
     {
@@ -59,15 +59,15 @@
       "rs_rating": 89.4
     },
     {
-      "ticker": "LRCX",
+      "ticker": "COHR",
       "rs_rating": 88.8
     },
     {
-      "ticker": "AMAT",
+      "ticker": "LRCX",
       "rs_rating": 88.1
     },
     {
-      "ticker": "COHR",
+      "ticker": "AMAT",
       "rs_rating": 87.4
     },
     {
@@ -79,27 +79,27 @@
       "rs_rating": 86.0
     },
     {
-      "ticker": "ADI",
-      "rs_rating": 85.3
-    },
-    {
       "ticker": "TXN",
       "rs_rating": 84.7
+    },
+    {
+      "ticker": "ADI",
+      "rs_rating": 84.0
     },
     {
       "ticker": "KLAC",
       "rs_rating": 83.3
     },
     {
-      "ticker": "DXCM",
+      "ticker": "CSCO",
       "rs_rating": 82.6
     },
     {
-      "ticker": "ETHU",
+      "ticker": "MPWR",
       "rs_rating": 81.9
     },
     {
-      "ticker": "CSCO",
+      "ticker": "CLS",
       "rs_rating": 81.2
     },
     {
@@ -107,7 +107,7 @@
       "rs_rating": 80.6
     },
     {
-      "ticker": "CLS",
+      "ticker": "DXCM",
       "rs_rating": 79.9
     },
     {
@@ -115,20 +115,20 @@
       "rs_rating": 79.2
     },
     {
-      "ticker": "ETHT",
+      "ticker": "NVDA",
       "rs_rating": 78.5
     },
     {
-      "ticker": "MPWR",
+      "ticker": "MSFT",
       "rs_rating": 77.8
     }
   ],
   "portfolio_rs": {
-    "VKTX": 15.7,
-    "MRVL": 94.2,
-    "CRDO": 84.0,
-    "NBIS": 92.2,
-    "RDDT": 9.6,
-    "VRT": 51.2
+    "VKTX": 11.6,
+    "MRVL": 95.6,
+    "CRDO": 85.3,
+    "NBIS": 92.9,
+    "RDDT": 8.9,
+    "VRT": 62.1
   }
 }

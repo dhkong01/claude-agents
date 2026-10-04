@@ -73,7 +73,7 @@
     "volatility": "NORMAL",
     "fear_greed": 31.2,
     "fear_greed_rating": "fear",
-    "yield2y": 4.78,
+    "yield2y": null,
     "yield10y": 5.28,
     "yield30y": 5.63,
     "rate_env": "HIGH",
@@ -83,5 +83,5 @@
     "mfi_signal": "중립"
   },
   "guru_insights": [],
-  "guru_date": "2026-10-03"
+  "guru_date": "2026-10-04"
 }

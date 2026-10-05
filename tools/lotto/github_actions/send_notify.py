@@ -107,6 +107,32 @@ try:
     _rep = [len(set(e["numbers"]) & _actual[e["draw"]]) for e in _ph if e.get("draw") in _actual]
     if _rep:
         track_info += f"누적 대표게임 평균 {sum(_rep)/len(_rep):.2f}개/{len(_rep)}회 (무작위 0.80)\n"
+
+    # 지금까지 발송한 모든 게임 중 3개 이상(5등 이상) 맞춘 횟수
+    _events, _n_games = [], 0
+    for e in _ph:
+        if e.get("draw") not in _actual:
+            continue
+        for i, g in enumerate(e.get("games") or [e["numbers"]]):
+            _n_games += 1
+            _h = len(set(g) & _actual[e["draw"]])
+            if _h >= 3:
+                _events.append((e["draw"], chr(65 + i), _h))
+    if _n_games:
+        from math import comb
+        _p3 = sum(comb(6, k) * comb(39, 6 - k) for k in range(3, 7)) / comb(45, 6)  # ≈2.38%
+        _exp = _n_games * _p3
+        track_info += (f"🎯 3개 이상 적중 누적: {len(_events)}회 / {_n_games}게임 "
+                       f"(무작위 기대 {_exp:.1f}회)\n")
+        _by_hit = {k: sum(1 for *_, h in _events if h == k) for k in (4, 5, 6)}
+        if any(_by_hit.values()):
+            track_info += "   " + " ".join(f"{k}개:{v}회" for k, v in _by_hit.items() if v) + "\n"
+        if _events:
+            _grp = {}
+            for d, g, h in _events:
+                _grp.setdefault(d, []).append(f"{g}{h}")
+            _recent = sorted(_grp.items())[-5:]
+            track_info += "   └ " + ", ".join(f"{d}회 {'·'.join(v)}" for d, v in _recent) + "\n"
 except Exception as e:
     print(f"[경고] 적중 기록 계산 실패: {e}")
 msg2 = (

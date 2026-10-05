@@ -134,6 +134,12 @@ if HIST_PATH.exists():
 _target = last_draw + 1
 prev_combos = [tuple(sorted(h["numbers"]))
                for h in pred_history if h.get("draw") != _target][-4:]
+# 직전 2주의 5게임 전체 — 데이터가 1회차만 늘면 계산이 거의 그대로라
+# 대표게임만 제외하면 B~E가 지난주와 똑같이 반복됨(1244→1245 실사례).
+# 같은 주 게임끼리와 동일한 겹침 제한(MAX_OVERLAP)을 지난 게임에도 적용.
+PREV_WEEK_GAMES = [sorted(g) for h in pred_history
+                   if _target - 2 <= h.get("draw", 0) < _target
+                   for g in h.get("games", [h["numbers"]])]
 
 VALID_ODD   = {k for k, v in odd_stats.items() if v >= 0.05}
 MAX_TAIL_DUP = 2
@@ -240,8 +246,8 @@ def exhaustive_best(exclude_combos=None):
     top_nums = sorted(range(1, 46), key=lambda i: -score[i-1])[:TOP_N]
     exclude  = set(tuple(sorted(c)) for c in (exclude_combos or []))
     # 직전 4개 예측도 제외
-    exclude |= set(prev_combos)
-    already  = exclude_combos or []
+    exclude |= set(prev_combos) | {tuple(g) for g in PREV_WEEK_GAMES}
+    already  = list(exclude_combos or []) + PREV_WEEK_GAMES
     best, best_s = None, -1
     for combo in combinations(top_nums, 6):
         key = tuple(sorted(combo))
@@ -263,7 +269,7 @@ def _mc_search(weights, game_idx, n_samples, exclude_combos, seed_offset=0):
     draw_seed = (last_draw + 1) * 137 + game_idx + seed_offset
     rng     = np.random.default_rng(draw_seed)
     nums    = np.arange(1, 46)
-    already = exclude_combos or []
+    already = list(exclude_combos or []) + PREV_WEEK_GAMES
     exclude = set(tuple(sorted(c)) for c in already) | set(prev_combos)
     adj     = np.clip(weights, 1e-9, None) ** TEMP
     adj    /= adj.sum()
@@ -434,13 +440,21 @@ json.dump(out, open(DIR/"lotto_prediction.json", "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
 
 # ── 예측 이력 저장 ────────────────────────────────────────────────
-# 주의: 대표게임 1건만 "직전 4개 제외"용으로 저장 — B~E 게임은 다음주 재선택 가능
+# numbers/strategy = 대표게임 (직전 4개 제외용), games/strategies = 5게임 전체
+# (다음 2주 동안 겹침 제한 + 게임별 실제 적중 기록용)
 # 같은 회차 재실행 시 append 대신 교체 (중복 누적 방지)
-pred_history_new = [h for h in pred_history if h.get("draw") != target_draw][-19:] + [{
+_new_entry = {
     "draw": target_draw,
     "numbers": best_game["numbers"],
     "strategy": best_game.get("strategy"),
-}]
+    "games": [g["numbers"] for g in game_results],
+    "strategies": [g["strategy"] for g in game_results],
+}
+# 같은 회차를 재계산했는데 5게임이 그대로면 발송 기록(sent_at) 유지 → 중복 발송 방지
+_old = next((h for h in pred_history if h.get("draw") == target_draw), None)
+if _old and _old.get("sent_at") and _old.get("games") == _new_entry["games"]:
+    _new_entry["sent_at"] = _old["sent_at"]
+pred_history_new = [h for h in pred_history if h.get("draw") != target_draw][-51:] + [_new_entry]
 json.dump(pred_history_new, open(HIST_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # ── 출력 ─────────────────────────────────────────────────────────

@@ -91,6 +91,24 @@ elif "p_chi2" in _bc:
     bias_info = f"편향감시: 이상 없음 (p={_bc['p_chi2']:.2f})\n"
 else:
     bias_info = ""
+
+# 지난주 예측의 게임별 실제 적중 + 누적 대표게임 성적 (실측 피드백)
+track_info = ""
+try:
+    _actual = {r["draw"]: set(r["numbers"]) for r in json.loads(
+        (ROOT / "tools/lotto/data/lotto_history.json").read_text(encoding="utf-8"))["data"]}
+    _ph = json.loads((ROOT / "tools/lotto/data/prediction_history.json").read_text(encoding="utf-8"))
+    _prev = next((e for e in _ph if e.get("draw") == draw - 1), None)
+    if _prev and (draw - 1) in _actual:
+        _a = _actual[draw - 1]
+        _gs = _prev.get("games") or [_prev["numbers"]]
+        _hits = " ".join(f"{chr(65+i)}{len(set(g) & _a)}" for i, g in enumerate(_gs))
+        track_info += f"지난주({draw-1}회) 적중: {_hits}개\n"
+    _rep = [len(set(e["numbers"]) & _actual[e["draw"]]) for e in _ph if e.get("draw") in _actual]
+    if _rep:
+        track_info += f"누적 대표게임 평균 {sum(_rep)/len(_rep):.2f}개/{len(_rep)}회 (무작위 0.80)\n"
+except Exception as e:
+    print(f"[경고] 적중 기록 계산 실패: {e}")
 msg2 = (
     f"📊 대표 Game {chr(65+best_idx)} 상세\n"
     f"{nums_detail}\n"
@@ -98,6 +116,7 @@ msg2 = (
     f"{pair_info}"
     f"{pop_info}"
     f"{bias_info}"
+    f"{track_info}"
     f"상위쌍{pair_lines}\n"
     f"합계 {bg['sum']} (유효범위 {lo}~{hi})\n"
     f"백테스트 TOP12 평균 {bt.get('avg_hits', 0)}개 적중\n"
@@ -113,8 +132,25 @@ full_msg = msg1 + "\n\n" + msg2
 sys.path.insert(0, str(ROOT / "tools" / "stock_portfolio"))
 from notify import send_message_detailed  # noqa: E402
 
-_notify_ok, _notify_detail = send_message_detailed(full_msg)
-if _notify_ok:
+# 회차당 1회 발송 — 로컬 수동 실행 후 월요일 정기 실행이 같은 회차를
+# 또 보내는 중복이 반복돼서, 발송 성공 시 prediction_history에 sent_at을
+# 남기고 이미 보낸 회차는 건너뜀. 강제 재발송: LOTTO_FORCE_SEND=1
+_HIST = ROOT / "tools/lotto/data/prediction_history.json"
+_ph_all = json.loads(_HIST.read_text(encoding="utf-8")) if _HIST.exists() else []
+_entry = next((e for e in _ph_all if e.get("draw") == draw), None)
+if _entry and _entry.get("sent_at") and os.environ.get("LOTTO_FORCE_SEND") != "1":
+    print(f"[notify] 로또 {draw}회는 이미 발송됨 ({_entry['sent_at']}) — 중복 발송 생략")
+    _notify_ok, _notify_detail = None, "skipped"
+else:
+    _notify_ok, _notify_detail = send_message_detailed(full_msg)
+    if _notify_ok and _entry is not None:
+        from datetime import datetime, timezone
+        _entry["sent_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        _HIST.write_text(json.dumps(_ph_all, ensure_ascii=False, indent=2), encoding="utf-8")
+
+if _notify_ok is None:
+    pass
+elif _notify_ok:
     print(f"[notify] 전송 완료 ({_notify_detail}): 로또 {draw}회")
 else:
     # ::error:: 는 continue-on-error(step) 여부와 무관하게 Actions
@@ -153,4 +189,4 @@ print(f"리포트 저장: {rpt_path}")
 # 리포트는 항상 저장(위) — 커밋 단계가 계속 진행되도록.
 # 전송 자체가 실패했으면 여기서 비정상 종료해 Annotations에 표시되게 한다.
 # (워크플로 스텝은 continue-on-error: true 라 history.json 커밋은 막히지 않음)
-sys.exit(0 if _notify_ok else 1)
+sys.exit(1 if _notify_ok is False else 0)   # 이미 발송돼 생략(None)한 경우는 정상 종료

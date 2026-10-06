@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "The job interview question you don't have to answer",
-      "summary": "Experts explain what you should do if you are asked for your current salary during a job interview.",
-      "link": "https://www.bbc.co.uk/news/articles/cje3r35p0qeno?at_medium=RSS&at_campaign=rss",
+      "title": "We're saving £100 a month into pensions for our toddler and baby - here's why",
+      "summary": "A growing number of parents are opening retirement funds for their children.",
+      "link": "https://www.bbc.co.uk/news/articles/cme3r9eq2w0lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "The best place to retire abroad is no longer in Europe – but six of the top ten are",
-      "summary": "European destinations scored highly in a new global retirement ranking, with six countries among the top ten, as people looking to retire abroad weigh higher taxes against quality of life.",
-      "link": "https://www.euronews.com/2026/10/04/the-best-place-to-retire-abroad-is-no-longer-in-europe-but-six-of-the-top-ten-are",
+      "title": "São Paulo stock exchange surges after Flávio Bolsonaro election result",
+      "summary": "The Ibovespa, São Paulo's main stock index, had already closed higher on Friday, but after the first-round election results in Brazil the market opened at a new record.",
+      "link": "https://www.euronews.com/2026/10/05/sao-paulo-stock-exchange-surges-after-flavio-bolsonaro-election-result",
       "source": "Euronews Business"
     },
     {
@@ -21,15 +21,99 @@
       "source": "DW Business"
     },
     {
-      "title": "$38M from federal government to KPMG during ban",
-      "summary": "Happy Labour Day and welcome to the newsletter that makes you think harder. If you’ve been forwarded this Playbook, you can sign up free to get it each weekday morning. ESSENTIALS — KPMG raking it in, despite ban on new work — Surprise compliments for Chris Bowen — One Nation and Liberal paths to po",
-      "link": "https://www.politico.com/newsletters/canberra-playbook?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Diplomat is Romania’s fourth prime ministerial candidate in five months",
+      "summary": "President Nicușor Dan gives Luca Niculescu the job of trying to break the deadlock and form a government in Bucharest, amid calls for fresh elections.",
+      "link": "https://www.politico.eu/article/diplomat-is-romania-fourth-prime-ministerial-candidate-in-5-months/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-      "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+      "title": "Average five-year mortgage rate hits 6% for first time in three years",
+      "summary": "The cost of a new fixed-rate mortgage has been rising in recent weeks as lenders face higher costs.",
+      "link": "https://www.bbc.co.uk/news/articles/c8r4yxpry5e9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Germany and France agree new trade tool to counter China",
+      "summary": "Paris and Berlin call for a new EU systemic reaction tool that would let Brussels move fast to counter China-driven market distortions, as well as retaliation planning and a revamp of trade defence tools.",
+      "link": "https://www.euronews.com/2026/10/05/germany-and-france-agree-new-trade-tool-to-counter-china",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Euro plummets against US dollar: has the next financial crisis begun?",
+      "summary": "The euro has fallen to a 17-month low against the dollar. That will make inflation worse in the EU, where political worries and concern over French debt are already troubling investors. Is a fiscal crisis at hand?",
+      "link": "https://www.dw.com/en/euro-plummets-against-us-dollar-has-the-next-financial-crisis-begun/a-79549031?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "America s bomber withdrawal points to wider UK-US friction",
+      "summary": "The Pentagon's decision to relocate B-1 bombers from the British air base comes after months of frustration in the Trump administration over Britain's defense spending.",
+      "link": "https://www.politico.eu/article/b-1-bomber-withdrawal-raf-fairford-uk-us-friction/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+      "summary": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+      "link": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Schneider Electric shares plunge on record $22.6bn PTC deal",
+      "summary": "French energy technology group Schneider Electric has signed a definitive agreement to acquire Boston-based PTC for $22.6bn (€20.1bn) to expand its industrial AI business. The French company's shares plummeted on Monday following the announcement.",
+      "link": "https://www.euronews.com/2026/10/05/schneider-electric-shares-plunge-on-record-226bn-ptc-deal",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Turkey: Stock market scandal hits half a million investors",
+      "summary": "Asset managers are alleged to have artificially inflated the value of their funds. Turkish authorities have made multiple arrests, and a leading AKP lawmaker has resigned.",
+      "link": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Sam Altman à Decoded : “Le monde devrait accepter que certaines choses négatives se produisent” face aux bénéfices de l’IA",
+      "summary": "Le PDG d’OpenAI a cherché à distinguer sa position de celle de son concurrent Anthropic en matière de réglementation de l’intelligence artificielle.",
+      "link": "https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Five reasons India's stock market is sinking even when its economy is growing",
+      "summary": "The world's fastest growing major economy has one of the worst performing major equity markets in 2026.",
+      "link": "https://www.bbc.co.uk/news/articles/cwp9g5p1gy7yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Why ordinary investors struggle to buy into the robotics boom",
+      "summary": "Most of the companies building the robots of the future are still private, leaving ordinary investors with limited options such as Tesla, diversified industrial groups or new vehicles like RoboStrategy, a Nasdaq-listed fund whose shares trade at more than twice the value of its assets.",
+      "link": "https://www.euronews.com/2026/10/05/why-ordinary-investors-struggle-to-buy-into-the-robotics-boom",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "From the rent crisis to Trump: 5 things that will shape Spain’s snap election",
+      "summary": "Shifting attitudes toward the far right, fallout from the Ceuta crisis and the U.S. president's geopolitical maneuvers could have a major impact on the Nov. 29 vote.",
+      "link": "https://www.politico.eu/article/spain-rent-crisis-donald-trump-5-things-snap-election/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "BT agrees rescue deal to buy broadband operator TalkTalk",
+      "summary": "The takeover still needs to be approved by the regulator, but would give certainty to TalkTalk's millions of customers",
+      "link": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "The best place to retire abroad is no longer in Europe – but six of the top ten are",
+      "summary": "European destinations scored highly in a new global retirement ranking, with six countries among the top ten, as people looking to retire abroad weigh higher taxes against quality of life.",
+      "link": "https://www.euronews.com/2026/10/04/the-best-place-to-retire-abroad-is-no-longer-in-europe-but-six-of-the-top-ten-are",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "50 members of European Parliament targeted by deepfake porn, report says",
+      "summary": "Fifty European Union lawmakers, including 46 women, have been the targets of deepfake pornography, according to new research released Monday. The number of women targeted by deepfake pornography — when generative AI is used to create sexually explicit depictions of people, often without their consen",
+      "link": "https://www.politico.eu/article/female-european-parliament-lawmakers-targeted-deepfake-porn/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Trump chooses top spy boss to run new AI taskforce",
+      "summary": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
+      "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -37,101 +121,17 @@
       "summary": "Three CGTP unions have called a strike for Friday, disrupting schools, public services, councils and rubbish collection. An easyJet cabin crew walkout is also causing flight delays nationwide.",
       "link": "https://www.euronews.com/2026/10/02/schools-closed-services-slowed-and-flights-cancelled-strikes-hit-portugal",
       "source": "Euronews Business"
-    },
-    {
-      "title": "Weakened US fuel-efficiency rules and promises of cheaper cars could see drivers pay higher running costs while also increasing carbon emissions.",
-      "summary": "Weakened US fuel-efficiency rules and promises of cheaper cars could yet see drivers pay higher running costs while increasing planet-heating emissions.",
-      "link": "https://www.dw.com/en/weakened-us-fuel-efficiency-rules-and-promises-of-cheaper-cars-could-see-drivers-pay-higher-running-costs-while-also-increasing-carbon-emissions/a-79496554?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Former Belgian PM Verhofstadt investigated in EU Parliament intern probe",
-      "summary": "The probe focuses on the period from 2009 to 2019, when Verhofstadt chaired the ALDE group in the European Parliament.",
-      "link": "https://www.politico.eu/article/former-belgium-prime-minister-guy-verhofstadt-european-parliament-intern-probe/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Suppliers pile pressure on government over energy bills",
-      "summary": "Immediate action is needed to help households struggling with bills this winter, says trade body Energy UK.",
-      "link": "https://www.bbc.co.uk/news/articles/cq0ld88kzxw8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Trans-Caspian Corridor: Europe and Central Asia target faster trade",
-      "summary": "Transit along the Trans-Caspian Corridor currently takes around 35 days, with a target of cutting this to between 15 and 20. Officials say customs, digital systems and predictable border procedures are as important as new railways and ports.",
-      "link": "https://www.euronews.com/2026/10/02/trans-caspian-corridor-europe-and-central-asia-target-faster-trade",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Le calendrier chargé d’Emmanuel Macron complique sa venue à la COP31",
-      "summary": "Bien qu’il aime se poser en défenseur de l’Accord de Paris sur le climat, le chef de l’Etat ne semble plus placer les négociations climatiques en haut de ses priorités calendaires.",
-      "link": "https://www.politico.eu/article/le-calendrier-charge-demmanuel-macron-complique-sa-venue-a-la-cop31/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "UK diesel prices top £2 a litre for first time, RAC says",
-      "summary": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
-      "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Where in Europe is data centre hiring growing fastest – and why do these jobs pay more?",
-      "summary": "Several European countries have seen a significant rise in data centre job postings in recent months. Euronews Business takes a closer look at the reasons behind the growth, including why these roles offer higher pay.",
-      "link": "https://www.euronews.com/2026/10/02/where-in-europe-is-data-centre-hiring-growing-fastest-and-why-do-these-jobs-pay-more",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Moscow says it will step up strikes on Ukraine after Kyiv vows to hit Russian oil refineries",
-      "summary": "Russia's announcement came as Ukrainian President Volodymyr Zelenskyy said his country would “have to respond in any way we can” to Russian attacks.",
-      "link": "https://www.politico.eu/article/moscow-says-it-will-step-up-strikes-on-ukraine-after-kyiv-vows-to-hit-russian-oil-refineries/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "US jobs market sees sharp slowdown ahead of midterm elections",
-      "summary": "Unemployment rose slightly as American employers paused hiring with midterm elections just a month away.",
-      "link": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "José Sevilla resigns as Unicaja chair and declines to remain at the bank",
-      "summary": "José Sevilla will step down as Unicaja chairman in April 2027 after deciding not to seek a new term, but will retain his non-executive role at the Málaga-based bank until then.",
-      "link": "https://www.euronews.com/2026/10/01/jose-sevilla-resigns-as-unicaja-chair-and-declines-to-remain-at-the-bank",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Latvian PM’s election win boosts chances for pro-Ukraine coalition",
-      "summary": "Andris Kulbergs’ party finished more than 20 percentage points ahead of far-right Latvia First.",
-      "link": "https://www.politico.eu/article/latvian-pm-andris-kulbergs-election-win-boosts-chances-for-pro-ukraine-coalition/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions",
-      "summary": "A growing number of people are opting out of these schemes due to cost-of-living pressures.",
-      "link": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "EU watchdogs question Binance over unlicensed European operations",
-      "summary": "European regulators are questioning Binance over its use of a narrow legal exemption to keep serving EU customers without a licence, the Financial Times reported. Binance told Euronews it is working towards authorisation, while ESMA said enforcement is a matter for national authorities.",
-      "link": "https://www.euronews.com/2026/10/01/eu-watchdogs-question-binance-over-unlicensed-european-operations",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Security-Update: Krieg bei Social Media – mit Marcel Bohnert",
-      "summary": "Mehr als die Hälfte der jungen Wähler entscheidet sich bei jüngsten Landtagswahlen für Parteien, die der Ukraine-Unterstützung kritisch gegenüberstehen. Der Grund dafür liegt nicht nur in klassischen Debatten, sondern auf Plattformen wie TikTok, Instagram und X. Dort tobt längst ein massiver Informa",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-update-krieg-bei-social-media-mit-marcel-bohnert/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
     }
   ],
-  "trend_headline": "G7 원유 비축유 방출과 지정학적 긴장 심화",
-  "summary": "우크라이나 전쟁 격화와 중동발 에너지 충격으로 유가가 급등함에 따라, G7의 공조 비축유 방출 결정이 유럽 에너지 시장의 단기 가격 변동성을 완화하는 핵심 변수로 부상했습니다. 영국 디젤 가격이 사상 처음으로 리터당 2파운드를 돌파하는 등 에너지 비용 부담이 가중되고 있습니다.",
+  "trend_headline": "유로화 17개월 최저치와 프랑스·독일의 대중국 통상 공조",
+  "summary": "유로화가 대미 달러 환율 기준 17개월 만에 최저치로 추락하며 수입 물가 상승과 재정 우려를 자극하고 있습니다. 이에 독일과 프랑스는 브뤼셀의 즉각적인 무역 보복 권한 강화를 촉구하는 신규 대중국 무역 통상 도구를 공동 추진하기로 합의했습니다.",
   "key_points": [
-    "G7, 가격 급등 방지와 미국 디젤 수출 금지 회피를 위해 수백만 배럴의 원유 및 디젤 공동 방출 결정",
-    "영국 RAC 집계 기준 디젤 평균 가격 사상 최초로 리터당 2파운드(200.01p) 돌파",
-    "러시아의 우크라이나 에너지 인프라 타격 예고 및 키이우 방문 등 지정학적 리스크가 에너지 섹터 압박"
+    "유로화는 대달러 환율에서 17개월 만에 최저치로 급락하여 유로존 내 수입 인플레이션 압력을 가중시키고 있음",
+    "독일과 프랑스는 브뤼셀이 중국 주도의 시장 왜곡과 무역 위협에 신속히 대응할 수 있는 신규 EU 시스템적 대응 도구를 요구",
+    "프랑스 에너지 기술 그룹 슈나이더 일렉트릭은 226억 달러 규모의 PTC 인수로 주가가 급락하며 대형 인수합병에 대한 시장의 우려를 반영"
   ],
   "sector_hints": [
-    "Energy",
-    "Defense"
+    "Financials",
+    "Energy"
   ]
 }

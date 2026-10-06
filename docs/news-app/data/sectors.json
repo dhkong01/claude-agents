@@ -1,43 +1,14 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "sectors": [
     {
-      "name": "Energy",
+      "name": "Semiconductors",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "러시아-우크라이나 전쟁 격화 및 중동 리스크로 인한 디젤과 원유 가격 급등이 유가 마진 개선에 긍정적임. G7의 비축유 공동 방출 조치가 단기 유가 변동성을 제어하려는 변수로 작용하고 있으나 타이트한 공급 환경이 우세함.",
+      "score": 9.5,
+      "rationale": "미국 엔비디아와 대만 TSMC가 동시에 사상 최고가를 경신하는 등 글로벌 AI 인프라 수요가 반도체 밸류체인 전반의 강력한 상승 모멘텀을 지지하고 있습니다.",
       "related_tickers": [
-        "SHEL",
-        "BP",
-        "XOM"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "러시아의 우크라이나 에너지 인프라 타격 예고 및 키이우 방문 등 지정학적 리스크가 심화됨에 따라 방산 및 안보 관련 인프라 기업들에 대한 시장의 관심과 수요가 지속적으로 증가할 전망.",
-      "related_tickers": [
-        "LMT",
-        "RHM",
-        "BAESY"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -4.0,
-      "rationale": "미국 국채 금리 상승에 따른 고성장 AI 주식들의 밸류에이션 부담이 커진 상황에서, 아시아 시중은행들을 겨냥한 지능형 AI 해킹 사태로 인해 기술 리스크 및 보안 관련 인프라 재정비 부담이 가중됨.",
-      "related_tickers": [
-        "MSFT",
-        "PANW",
-        "CRWD"
+        "NVDA",
+        "TSM"
       ],
       "source_regions": [
         "US",
@@ -46,12 +17,26 @@
     },
     {
       "name": "Real Estate",
-      "direction": "neutral",
-      "score": -1.5,
-      "rationale": "중국 우한시 등 완공 주택 판매 전환과 같은 부동산 구조조정이 가속화되며 리스크 통제 노력이 이어지고 있으나, 여전히 업황의 본격적인 회복세를 논하기에는 불확실성이 잔존함.",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "미 국채 금리가 24년 만의 최고치로 급등하면서 부동산 조달 비용 부담이 가중되는 가운데, 홍콩 상업용 부동산 시장의 가격 조정 압박과 구조조정 여파가 하방 압력으로 작용하고 있습니다.",
       "related_tickers": [
-        "BEKE",
-        "3333"
+        "VNQ",
+        "1113.HK"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -5.0,
+      "rationale": "일본 시장에서 스즈키가 초저가 미니 EV로 BYD에 대응하는 등 글로벌 전기차(EV) 시장 내 저가 경쟁 및 치열한 점유율 싸움으로 마진 압박 우려가 커지고 있습니다.",
+      "related_tickers": [
+        "7269.T",
+        "BYDDF"
       ],
       "source_regions": [
         "ASIA"
@@ -60,12 +45,8 @@
   ],
   "conflicting_signals": [
     {
-      "sector": "Semiconductors",
-      "note": "미국 시장에서는 국채 금리 압박과 마이크론/자빌 등의 마진 우려 및 칩 사이클 우려로 하락세를 보인 반면, 아시아 시장에서는 TSMC의 밸류에이션 리레이팅 기대감 및 라피더스의 17개사 설계 지원 등 첨단 반도체 생태계 확장 호재가 공존하고 있습니다."
-    },
-    {
       "sector": "Financials",
-      "note": "미국 기업들은 금리 상승 압박 속에서도 3분기 실적 시즌을 앞두고 역대급으로 이익 전망을 낙관하고 있는 반면, 아시아(한국/중국) 금융권은 대규모 AI 해킹 및 보안 리스크가 터지면서 제로트러스트 보안 체계 강제 등 예상치 못한 운영 리스크와 긴급 비용 부담에 직면해 있습니다."
+      "note": "미국은 장기 국채 금리 급등으로 인한 예대마진 개선 기대 및 JPMorgan의 고수익 AI 대출 매각 등 긍정적 요인이 부각되는 반면, 유럽은 유로화 가치 급락으로 인한 수입 물가 상승 및 재정 우려가 금융 시장의 변동성을 키우고 있어 방향성이 대립됩니다."
     }
   ]
 }

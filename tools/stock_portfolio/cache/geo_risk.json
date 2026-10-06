@@ -1,20 +1,19 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 5,
-  "medium_risk_signals": 4,
+  "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
     "Defense": "ELEVATED",
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Superpowers Race To Put Nuclear Reactors On The Moon",
-    "Iran\u2019S Top Security Official Warns Of Dire Economic Crisis",
-    "U.K. Base Would Be Ambitious Target For \u2018Gig Economy\u2019 Warfare"
+    "Why Saudi Arabia\u2019S Last War In Yemen Turned Into A Quagmire",
+    "U.S. Sanctions Aim To \u2018Shut Down\u2019 Iran\u2019S Airlines, But This Boeing Plane Is Still Flying",
+    "Superpowers Race To Put Nuclear Reactors On The Moon"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

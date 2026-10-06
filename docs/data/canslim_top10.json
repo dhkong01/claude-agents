@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "analyzed": 140,
   "top10": [
     {
@@ -16,8 +16,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1034842210304,
-      "price": 633.91,
+      "market_cap": 1031316111360,
+      "price": 631.75,
       "rs_rating": 96.3
     },
     {
@@ -34,45 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 132765483008,
-      "price": 180.95,
-      "rs_rating": 91.5
-    },
-    {
-      "ticker": "ARM",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 328398864384,
-      "price": 307.49,
-      "rs_rating": 90.8
-    },
-    {
-      "ticker": "SNPS",
-      "canslim_score": 57,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 93882785792,
-      "price": 489.9,
-      "rs_rating": 60.1
+      "market_cap": 135098703872,
+      "price": 184.13,
+      "rs_rating": 92.2
     },
     {
       "ticker": "MU",
@@ -88,27 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1213973397504,
-      "price": 1074.89,
-      "rs_rating": 98.3
-    },
-    {
-      "ticker": "MRVL",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 244708294656,
-      "price": 272.29,
-      "rs_rating": 95.6
+      "market_cap": 1201629036544,
+      "price": 1063.96,
+      "rs_rating": 97.6
     },
     {
       "ticker": "WDC",
@@ -124,9 +70,27 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 149729050624,
-      "price": 415.29,
-      "rs_rating": 90.1
+      "market_cap": 159229296640,
+      "price": 441.64,
+      "rs_rating": 91.5
+    },
+    {
+      "ticker": "ARM",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 323496771584,
+      "price": 302.9,
+      "rs_rating": 90.8
     },
     {
       "ticker": "DDOG",
@@ -142,27 +106,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 99542777856,
-      "price": 277.22,
+      "market_cap": 99253723136,
+      "price": 276.415,
       "rs_rating": 89.4
-    },
-    {
-      "ticker": "ANET",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 1,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 261514952704,
-      "price": 207.35,
-      "rs_rating": 86.7
     },
     {
       "ticker": "ADI",
@@ -178,9 +124,63 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 202136485888,
-      "price": 417.15,
-      "rs_rating": 84.0
+      "market_cap": 203081400320,
+      "price": 419.1,
+      "rs_rating": 85.3
+    },
+    {
+      "ticker": "ANET",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 1,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 260947378176,
+      "price": 206.9,
+      "rs_rating": 84.7
+    },
+    {
+      "ticker": "CSCO",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "market_cap": 444802662400,
+      "price": 112.82,
+      "rs_rating": 81.9
+    },
+    {
+      "ticker": "NVDA",
+      "canslim_score": 54,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 5768717795328,
+      "price": 238.9,
+      "rs_rating": 76.5
     }
   ]
 }

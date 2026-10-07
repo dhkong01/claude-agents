@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "phase": "RISK_ON",
   "m_score": 10,
   "signals": {
     "market_trend": "BULL",
-    "market_ret3m": 0.0389,
-    "vix_level": 15.52,
+    "market_ret3m": 0.0365,
+    "vix_level": 15.01,
     "volatility": "NORMAL",
-    "yield10y": 5.31,
+    "yield10y": 5.27,
     "rate_env": "HIGH",
-    "yield30y": 5.66,
-    "yield2y": 4.83,
-    "fear_greed_score": 43.1,
-    "fear_greed_rating": "fear",
+    "yield30y": 5.64,
+    "yield2y": 4.84,
+    "fear_greed_score": 47.4,
+    "fear_greed_rating": "neutral",
     "dollar_trend": "STRENGTHENING"
   },
   "recommended_sectors": [

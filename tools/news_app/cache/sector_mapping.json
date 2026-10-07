@@ -1,42 +1,81 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 9.5,
-      "rationale": "미국 엔비디아와 대만 TSMC가 동시에 사상 최고가를 경신하는 등 글로벌 AI 인프라 수요가 반도체 밸류체인 전반의 강력한 상승 모멘텀을 지지하고 있습니다.",
+      "score": 8.5,
+      "rationale": "대만 TSMC의 사상 최고가 행진과 AI 인프라 투자 확대, 일본 토와(Towa)의 반도체 장비 공장 투자 등 아시아 중심의 반도체 공급망 강화가 긍정적 요인으로 작용하고 있습니다.",
       "related_tickers": [
+        "TSM",
         "NVDA",
-        "TSM"
+        "6315"
       ],
       "source_regions": [
-        "US",
+        "ASIA",
+        "US"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "구글이 AI 데이터센터의 전력난 해소를 위해 신규 원자력 에너지 파트너십을 체결함에 따라, 콘스텔레이션 에너지 등 전력 및 인프라 관련 유틸리티 기업들의 주가가 강력한 상승 모멘텀을 얻었습니다.",
+      "related_tickers": [
+        "CEG",
+        "VST"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Communication Services",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "파라마운트와 워너브라더스 디스커버리(WBD)의 대형 합병이 완료되면서 미디어 산업 내 구조조정 및 시장 효율화에 대한 기대감이 고조되었습니다.",
+      "related_tickers": [
+        "WBD",
+        "PARA"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "유럽에서는 프랑스의 재정 리스크 우려와 유로화 약세가 심화되고 있으며, 아시아(한국)에서는 가계부채 및 자영업자 연체율 상승 등 금융 시스템 전반의 부채 리스크 우려가 부각되고 있습니다.",
+      "related_tickers": [
+        "GLE",
+        "055550"
+      ],
+      "source_regions": [
+        "EU",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "에퀴노르가 영국의 신규 석유 및 가스전 미승인 시 추가 투자를 철회할 것을 경고함에 따라, 유럽 내 에너지 공급망 불안 및 투자 심리 위축이 우려됩니다.",
+      "related_tickers": [
+        "EQNR",
+        "BP"
+      ],
+      "source_regions": [
+        "EU"
       ]
     },
     {
       "name": "Real Estate",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "미 국채 금리가 24년 만의 최고치로 급등하면서 부동산 조달 비용 부담이 가중되는 가운데, 홍콩 상업용 부동산 시장의 가격 조정 압박과 구조조정 여파가 하방 압력으로 작용하고 있습니다.",
+      "direction": "neutral",
+      "score": 0.0,
+      "rationale": "홍콩 부동산 시장에서 5년 만의 최고가 토지 낙찰 소식 등 국지적인 온기가 돌고 있으나, 한국 및 중국 전반의 부동산/가계부채 리스크 관리 기조가 이어지며 중립적인 흐름을 보이고 있습니다.",
       "related_tickers": [
-        "VNQ",
         "1113.HK"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -5.0,
-      "rationale": "일본 시장에서 스즈키가 초저가 미니 EV로 BYD에 대응하는 등 글로벌 전기차(EV) 시장 내 저가 경쟁 및 치열한 점유율 싸움으로 마진 압박 우려가 커지고 있습니다.",
-      "related_tickers": [
-        "7269.T",
-        "BYDDF"
       ],
       "source_regions": [
         "ASIA"
@@ -45,8 +84,8 @@
   ],
   "conflicting_signals": [
     {
-      "sector": "Financials",
-      "note": "미국은 장기 국채 금리 급등으로 인한 예대마진 개선 기대 및 JPMorgan의 고수익 AI 대출 매각 등 긍정적 요인이 부각되는 반면, 유럽은 유로화 가치 급락으로 인한 수입 물가 상승 및 재정 우려가 금융 시장의 변동성을 키우고 있어 방향성이 대립됩니다."
+      "sector": "Technology",
+      "note": "미국은 매그니피센트 7의 반등과 AI 데이터센터 전력 계약으로 기술주 전반에 강한 긍정적 신호가 나타난 반면, 아시아(중국)에서는 AI 모델 과부하(model fatigue) 우려가 고개를 들며 지역 간 흐름이 엇갈리고 있습니다."
     }
   ]
 }

@@ -1,149 +1,179 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "배라 싱글레귤러 4300원…쿼터는 이제 2만원 코앞",
+          "title": "\"줄 서서 사던 금인데 14.5% 세일?\"…금 매장에 무슨 일이 [차이나 워치]",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610064871g",
+          "link": "https://www.hankyung.com/article/202610077222i",
           "source": "한국경제"
         },
         {
-          "title": "결제부터 금융까지… KB·네이버페이 손잡고 소상공인 지원",
-          "summary": "‘Npay 커넥트’ 기반 연계로 매장 운영 위한 서비스 구축KB국민은행, 네이버페이, 한국정보통신(KICC), 이지샵이 손잡고 소상공인 공략에 나선다. 6일 금융권에 따르면 4사는..",
-          "link": "https://www.mk.co.kr/news/economy/12169013",
+          "title": "금융권 ‘무더기 해킹’ 피해자 집단소송 움직임…보상액 얼마나 될까",
+          "summary": "7일 로펌서 손해배상 원고 모집 나서 1인당 청구액 10만∼30만원선 예상 네이버에 피해자 모임 카페도 개설돼최근 은행권에서 동시다발적으로 발생한 개인정보 유출 사고와 관련해 피해..",
+          "link": "https://www.mk.co.kr/news/economy/12169992",
           "source": "매일경제"
         },
         {
-          "title": "10대 의약품 중독 증가세 가파른데…\"원인 약품 모른다\"",
+          "title": "'국민 초콜릿' 가나가 통째로…겨울 당 충전 끝판왕 떴다",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026100648407",
+          "link": "https://www.hankyung.com/article/202610077174g",
           "source": "한국경제"
         },
         {
-          "title": "“세금 얼마나 가져갔길래 연말정산 3억?”…억단위 환급 직장인 195명",
-          "summary": "연말정산 억대 환급·추가징수 늘어 1억 초과 환급자 증가세…평균 3억 억단위 추가납부도 1794명에 달해 정성호 “원천징수 격차 이유살펴야”연말정산에서 1억원 넘게 세금을 돌려받은..",
-          "link": "https://www.mk.co.kr/news/economy/12169004",
+          "title": "새출발하라고 빚까지 줄여줬는데…연체 늪서 허우적대는 2만4000명",
+          "summary": "새출발기금 채무조정받아도 2.4만명은 다시 연체 악순환 자영업자 등 상환약속 못지켜새출발기금 채무조정 약정을 체결한 채무자 가운데 2만4000여 명이 상환 약속을 지키지 못해 약..",
+          "link": "https://www.mk.co.kr/news/economy/12169875",
           "source": "매일경제"
         },
         {
-          "title": "국민은행, 네이버페이·한국정보통신·이지샵과 업무협약",
+          "title": "에이피알, 멕시코 명품 백화점 뚫었다…\"K뷰티 브랜드 최초\"",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610064827i",
+          "link": "https://www.hankyung.com/article/202610077123g",
           "source": "한국경제"
         },
         {
-          "title": "“정부, 美원전사업에 14조 백지수표 써줬다”…국힘 임이자 의혹제기",
-          "summary": "국감대책회의서 ‘선급금 약속’ 주장 국회동의권 패싱 의혹 국감 정조준임이자 국민의힘 정책위의장이 대미투자 관련 미국 원전 사업에 정부가 국민 세금 14조원을 선급금으로 주기로 했다..",
-          "link": "https://www.mk.co.kr/news/economy/12169003",
+          "title": "국민성장펀드 2차 판매 3162억원…목표액 절반 넘겨",
+          "summary": "1차 펀드 수익률 1.40%2차 국민참여형 국민성장펀드가 판매를 시작한 지 나흘 만에 목표액의 절반 이상을 채웠다. 6일 연합뉴스에 따르면 금융위원회는 2차 국민참여형 국민성장펀드..",
+          "link": "https://www.mk.co.kr/news/economy/12169854",
           "source": "매일경제"
         },
         {
-          "title": "\"합법적으로 맘껏 해킹할 수 있어…평생 공부는 '숙명'이죠\"",
+          "title": "현대차, 2027 쏘나타 디 엣지 출시…편의사양·색상 선택 확대",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610053516i",
+          "link": "https://www.hankyung.com/article/202610077145g",
           "source": "한국경제"
         },
         {
-          "title": "“퇴직금 불려보려다 피눈물 난다”…밤잠 설치는 직장인들, 대체 무슨 일",
-          "summary": "퇴직연금 DB→DC 전환 3배 급증 노후자금 퇴직연금 10% 손실 이례적 한번 옮긴 적립금 DB 원복 사실상 불가퇴직을 앞둔 직장인들의 한숨이 깊어지고 있다. 연초 4200선이던 ..",
-          "link": "https://www.mk.co.kr/news/economy/12168943",
+          "title": "“화이트칼라 초과근무 없인 나라 미래 없어”…전 한은총재의 경고",
+          "summary": "서울대 인구클러스터 포럼서 쓴소리 ‘재량근로제’는 법률 리스크 못 덜어줘 한은 ‘화이트칼라 이그젬션’ 도입 제안이창용 전 한국은행 총재(서울대 특임교수)가 “화이트칼라(사무·전문직..",
+          "link": "https://www.mk.co.kr/news/economy/12169834",
           "source": "매일경제"
         },
         {
-          "title": "기술 진화 속도 빠른데…늦어지는 국방 AI 법제화",
+          "title": "5억개 넘게 팔린 '이 도시락'…역대 최다 반찬 담았다",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202610020854i",
+          "link": "https://www.hankyung.com/article/202610077149g",
           "source": "한국경제"
         },
         {
-          "title": "“20대女 인스타용 식사 아니었어?”…30대男도 몰려든다는 샐러드 가맹점",
-          "summary": "건강을 중요하게 생각하는 소비자가 늘면서 샐러드 전문점도 빠르게 증가하고 있다. 지난해 주요 샐러드 브랜드 가맹점 수는 2023년보다 13% 늘어 같은 기간 패스트푸드 브랜드 증가..",
-          "link": "https://www.mk.co.kr/news/economy/12168900",
+          "title": "금리 올렸는데도 집값 올랐다…참여정부 7차례 인상기에 깨진 상식 그 이유는 [부동산 손자병법]",
+          "summary": "부동산-금리의 상관관계부동산 시장을 분석할 때 빠지지 않고 등장하는 요인이 하나 있다. 바로 금리다. 금리는 이자율이라고도 부르며, 빌린 원금에 대한 기간(대개 1년)당 이자의 비..",
+          "link": "https://www.mk.co.kr/news/economy/12169729",
           "source": "매일경제"
         }
       ],
-      "summary": "퇴직연금의 원리금보장형(DB)에서 확정기여형(DC)으로의 전환이 급증하는 등 자산 관리 리스크에 대한 직장인들의 경각심이 고조되는 모습입니다."
+      "summary": "가계부채와 자영업자 채무조정(새출발기금) 연체율 상승 우려가 커지는 가운데, 금융권 해킹 피해 집단소송 움직임 등 내부 리스크가 부각되고 있습니다."
     },
     "JP": {
       "headlines": [
         {
-          "title": "Vietnam extends fuel tax breaks as energy supply disruptions drag on",
+          "title": "UK universities review China ties after MI5 espionage alert",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/energy/vietnam-extends-fuel-tax-breaks-as-energy-supply-disruptions-drag-on",
+          "link": "https://asia.nikkei.com/politics/international-relations/uk-universities-review-china-ties-after-mi5-espionage-alert",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Harriman Experience: Stephen Schwarzman (6)",
+          "title": "My doorway to Wall Street: Stephen Schwarzman (7)",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/my-personal-history/harriman-experience-stephen-schwarzman-6",
+          "link": "https://asia.nikkei.com/spotlight/my-personal-history/my-doorway-to-wall-street-stephen-schwarzman-7",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Late filings by Situational Awareness expose gap in Japan disclosure rules",
+          "title": "BTS architect steers global expansion at Japan record label Avex",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/equities/late-filings-by-situational-awareness-expose-gap-in-japan-disclosure-rules",
+          "link": "https://asia.nikkei.com/business/media-entertainment/bts-architect-steers-global-expansion-at-japan-record-label-avex",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Kioxia sell date looms for retail investors who joined boom on margin",
+          "title": "Uncertainty mounts in Singapore after China tightens offshore trust rules",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/markets/equities/kioxia-sell-date-looms-for-retail-investors-who-joined-boom-on-margin",
+          "link": "https://asia.nikkei.com/business/business-asia/uncertainty-mounts-in-singapore-after-china-tightens-offshore-trust-rules",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Myanmar property market booms as prices soar on regime policies, inflation",
+          "title": "Honda delays next-gen CR-V hybrid production several months in US, Canada",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/asean-money/myanmar-property-market-booms-as-prices-soar-on-regime-policies-inflation",
+          "link": "https://asia.nikkei.com/business/automobiles/honda-delays-next-gen-cr-v-hybrid-production-several-months-in-us-canada",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Elderly outnumber children in nearly all Japan prefectures",
+          "title": "Tokyo's 37 straight days of rain drive up fresh vegetable prices",
           "summary": "",
-          "link": "https://asia.nikkei.com/economy/demography/elderly-outnumber-children-in-nearly-all-japan-prefectures",
+          "link": "https://asia.nikkei.com/spotlight/environment/climate-change/tokyo-s-37-straight-days-of-rain-drive-up-fresh-vegetable-prices",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Time to get off the roller coaster: South Korea markets must deliver stability",
+          "title": "Can India turn AI disruption into job growth?",
           "summary": "",
-          "link": "https://asia.nikkei.com/opinion/time-to-get-off-the-roller-coaster-south-korea-markets-must-deliver-stability",
+          "link": "https://asia.nikkei.com/opinion/can-india-turn-ai-disruption-into-job-growth",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Suzuki undercuts BYD in Japan with cheapest-in-class mini EV",
+          "title": "TSMC and other Taiwan players boost AI spending in US, Southeast Asia",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/automobiles/electric-vehicles/suzuki-undercuts-byd-in-japan-with-cheapest-in-class-mini-ev",
+          "link": "https://asia.nikkei.com/business/business-trends/tsmc-and-other-taiwan-players-boost-ai-spending-in-us-southeast-asia",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Mitsui Fudosan to build data center in abandoned tunnel in Japan",
+          "title": "Towa plans chipmaking tool plant for Japanese supply chain: CEO",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/mitsui-fudosan-to-build-data-center-in-abandoned-tunnel-in-japan",
+          "link": "https://asia.nikkei.com/business/tech/semiconductors/towa-plans-chipmaking-tool-plant-for-japanese-supply-chain-ceo",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan faces wide language-teaching gap as new immigration scheme looms",
+          "title": "Japan's Marubeni, Sumitomo Forestry help combat Indonesian forest fires",
           "summary": "",
-          "link": "https://asia.nikkei.com/spotlight/japan-immigration/japan-faces-wide-language-teaching-gap-as-new-immigration-scheme-looms",
+          "link": "https://asia.nikkei.com/spotlight/environment/japan-s-marubeni-sumitomo-forestry-help-combat-indonesian-forest-fires",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "스즈키가 초저가 미니 EV를 출시하며 비야디(BYD)에 맞불을 놓는 등 일본 전기차 시장의 가격 경쟁이 본격화되고 있습니다."
+      "summary": "이상기후로 인한 신선식품 가격 상승과 더불어, 토와(Towa)의 반도체 장비 공장 투자 등 국내 공급망 강화 움직임이 나타나고 있습니다."
     },
     "TW": {
       "headlines": [
         {
-          "title": "Nvidia vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
+          "title": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM) Hits Fresh High: Is There Still Room to Run?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaXN3dlhwR1daNC13OHNZNFV2ZjhLdG1ZUmFPMDAzRVQ1MlU4WGVfcDQ5MHl6MkQ3cnZLS1hBeTc2QU5aUjBBd0NwV2s2TXdVM2pHclNiY0xtdUJzZjNKSHBMSmxzS1g1RS1fQnlGblhlMTl5ZG5EV1RkQ0M5dWtCd0FyTkhRY3FZSnhidmgySmRaQ1dHN3B0dTljMVhnYU9PUFF2bkxnS2pvRjlXU01QRGZiM1dfNHdvYzY2NElEcmxYdUwydGVPZlRST3pPMl9WLWhCTHp1WHJrTEta?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2RrM1prTy0wRUR1QlluWC1feTNXZWladnBxN1FJa3JIRnRUM1h2dmZ3YlVNamJVMW05V2w2UTE5NzBfcTBGYUV1UXZrMXJNU1BaQjdtM2RSSTZ5dXN1c1NNUjFVN2YxU2JhVHN2X2NxcW1nS3VROGp5UUtXQi1tdWhGR3RUaXBNeXpWTGxFSHVIVG1Wd2s5OXVjb2xUNkU2dEZVYzFhSm9ZYjNvZm9VTw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Jim Cramer Makes His Feelings About Taiwan Semiconductor (TSM) Clear",
+          "title": "Is Taiwan Semiconductor the Best AI Stock to Buy Now?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcnlNLUNHR1FKY0RSQlRmbVA3MXdKUnVhUUxCNVZucXo4ZnYzcUJYYVJSTTNuSUJVZHlzejNwSWRxVXlOdHRLdkpUQUVmRm9iN0ZOTUpIaXpORjJWTG5TODhHd25wa3d2WldkV19zdFhJMFUyTklpM3FxSHpNYW4xbjZCSFRfSTNN?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbTVKbkVFUGFJRHBYc0pNSmFFbWpObVRhM05BbWxjaGpGMGdSUE93YW5pUEU2X195ekdJSnUzT1lhRFVlR2ZDYWFCUkF5LXN0Vk55MndEendyOGgzRUVyQ01ldFlwc2didG5jMFkyNFkwSUdtZk9ZaHRoWmdyak9wRG5VRTZZVV9KXzdnM1JqRE91N1lTd0o2bQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Elon Musk says Terafab is weighing another partner besides Intel",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNckd4TTNHc1RFLWZsdWthZ1FCSU1IcGNfc2RENmRJTm4yMjFqMm5pWjFRNHdZZEdBSkxaNm56NW9Bc25rRFQzYkw4YnRZdmg3dnYwbVNaZ2NCcGxET3VmUWNhdjAwRUNjYVdzVlB3UkVDS2hiTzJCQ0pzRWxvbDNXM2hrOEtyeVN6dmE2MGduZmdUZV9uaE44TQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Moody National Bank Trust Division Cuts Position in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNzJIbUYyUGpMTGRQaFNCZFVRcmNwZ0xnWVdjcEE3bFFrUnVmeGlPVkFDX3dJZ1IxYUlVWGJjc1hCdEF6Q3FMbVZsSVlUMkJvd0RSOWJUeHJpVmo0YzRjT0pfbnNWT1YtaEJKVWFWaGRqRDVWWG1jQVJWT3RkaTlFMEt1bnlMRDVpaVk2TzZpSHB1eG55Yk1ZbDUxYkhzSnN2cWdodGtoTEJLLVVfR3FFd2lLQlpQaE9ndF9LbkYtYWRaUmFraElQZFJoc1MwLVB1R21KTWRMXzhtUDFfT1ZjN3l0MW5xY2FwaWVIRzlSVU9DZkZxTUE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "As Taiwan expands Arizona chip plant, China warns against developing political ties",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2Y2X21sWk1CZjBTcEhxdl9mSUtGZXRQT2J0bFZKbFowYkQzQ0hqdXl4bjFmOUZQTWMzT2lWSHFZekg4NzBXS0JTWkpWT2JIVDNrUTNIQ0k3Q2VrWGdpWl8xUl82OXJoRTdEeW5TSGF4TUNta1V1ZVZta1hCTGtSMVk2YTQyS2N5MElRY3AwNzFXdUFCZkpMdDFfNUNHbTNoOTZvZEk0WFNybmhheXp4MlNqWkFJTWd4cVA0UFE1T2plcjNTU3c?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TSMC and other Taiwan players boost AI spending in US, Southeast Asia",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXR5ejI4QTdlcWtiZ3FRSG5MM0JLd3ktSmV2alpiSGdtRl9XWV9TdFdVNlMzUHQtTjJkdUlUNkpVR2c5cHkwTEpDajFqOGN5a09OeDNfM3FUeWwyS08xcnBpbG8xWndEZWhCZzZRTnNTSkhISllXSWtFMXVZcUEtYVNPUVRHeGlVOEJ3QkgtY3EzU1VnU3F6ZkNsSzVvZU5XVmgwdFBITTQ4UzlsbEcyQzdGMVlEaFJ6?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Arizona welcomes new Taiwan representative office, rejecting warning from China",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbmVROWx5b3dJM1c4QWNUZUg5RWpwRUpXRlFTZ1RKU3JyOG5FbEp5aEVQSjlHVGZ5YmlpdTd5YlUwT0RqaGJWTHQxdG11ai0wVUoyejNsUWhFaGw4cDNQSWFwOHRoX1NVV21mTEdVQ3hfX2hGOC1GbDBjM1JOZFVoQlVfcHlsRXNqODRfRDBCTk5LQXh3STNIYXp2NXMzSzRKaUFENkxzUnZ4TEdmLU9Ma0RUY9IBuAFBVV95cUxPNTNHclFmTmtzOElvNDVDSlBvNTdJeU9SZFV2dGZtMHFVUFpEYi1saWFSWFc0Smo2NVZkWm1seGJzMzlpWnhIZ3BBQWhONjNzVmtFRXdjQXcza1JKM1BHVGVNVmNXRVpfcW1TXzJ6LUdGNDZVTUsxYnRHMkFzUGhGRVJfU0NSbl84bkpieUlNYlN2VEREMGZqR3I3b0MybU5ycFVxalY1MXNhUEpFRE1XQzlSNEJ0M1hv?oc=5",
           "source": "Google News"
         },
         {
@@ -153,52 +183,70 @@
           "source": "Google News"
         },
         {
-          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Up 2.8% - Time to Buy?",
+          "title": "Nvidia vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONF9UMEtGVk5rNjB1dGhpWVByMUxPSXpIMldKQkEzSWdkcHJ6U0lVLWpKWmJPZWFEQnpVOFFfNFcyRHZYc1BQSGUteGY0bEl2VFBVb2VyWFBUVTRQMG9YeXRrOFIwQXgtTnZUNFBWT2c0Wm13R0h5MHNRQ1J1bTNDdmw1MktNTmQya2c5dzJyc0hlc1oyNlVmZklUcUROZFRuRTREZjBNTWNrT0NIQlJDWEJhQnRGOHJFU2RDOHFHY1BjS2NTQkZXbGJyYXdvQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaXN3dlhwR1daNC13OHNZNFV2ZjhLdG1ZUmFPMDAzRVQ1MlU4WGVfcDQ5MHl6MkQ3cnZLS1hBeTc2QU5aUjBBd0NwV2s2TXdVM2pHclNiY0xtdUJzZjNKSHBMSmxzS1g1RS1fQnlGblhlMTl5ZG5EV1RkQ0M5dWtCd0FyTkhRY3FZSnhidmgySmRaQ1dHN3B0dTljMVhnYU9PUFF2bkxnS2pvRjlXU01QRGZiM1dfNHdvYzY2NElEcmxYdUwydGVPZlRST3pPMl9WLWhCTHp1WHJrTEta?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Nasdaq Breaks Out To New Highs; Shopify, Taiwan Semiconductor, Guardant Health In Focus",
+          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Target Raised at Barclays",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TdEVZVzkwX1FVenpCUlNCSzREb1E5dFJ0ZTlRRG4xOHVoejJSYU9vdHdtV0FOLWREVnNLYTJFWXNNV0dxYk9TTlhJckNUVjdac0QyWnNPMkpSQ3l5MXFGcjBFOEs3X2RHWVZ6NQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Stock Hits 52-Week High — What's Going On?",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTEIxNmkxUkZqU0haSVdwbExFSGdSYm9IalZVb2Y0XzQzNUZ4d1N5Y3k2VW54Rm1oRnY3RU5BTHA1Nms0Y2QxVU1IS2VHYzNBX1dFX1lIcDVkWHBzbUlpWkYtRm9ZSndPa25HUTl4c1NFeW02SEEwNWswb2xQYzZ6UXdFLUhXN3VXRlpVLUFiaENfcGZHS19GRmVqOXdBQzNiVExqWGQzaVFfVkJvN2RpOVdn?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Arizona's governor is getting warnings from China about developing political ties with Taiwan",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTkJrWm42aUJ1QS1kMWoySlBJVmdfMzA2cWhBU2tFb0Y1czAyUTFhRlNCVG8zUzZSYndsaGZTSmNwWGRHTjlyeXNUS01JaUxKN2Q4b2VkdldBZm1NN0l4elRvOWNqMHJqYTctZUw5X2czc2x5a2tMaEY5eEFWQmpiZ0d0QU1VMjAxbTZuSDlYM1l5OVFKOV9Mc1dQLVdQMjlGX3UxQmFfZm44aVpIZzkyMW1nZHpXMEdQaWhXRWVXWkhrdVExeG5JV3E2eC1Wdw?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Thousands celebrate Taiwanese culture at ASU West Valley during Double Ten Day event",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tdENOaUpYcFpUQlNQX190YjdfY0tEMmZwcjV1eWZnRUtsckFvYkxIcFZJN3lYaWxTaW9FNXhVSS02eTZwRlE4NEFScDFpTjhic1UwM0dpdlVVRnppSWwwT1EwTHN3WHFKRUdmLUtn?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Taiwan Semiconductor Gains 2% to Record as Musk Confirms Early Terafab Talks; Broadcom Rises 2%, Qualcomm Pulls Back",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbVlYbzRaanp0bGRCdUpyM2RWcU5WMl9mVjZWa3FRbEc3UE5lZWlEOTRSd09QWWNrOUZLeFp2TENaemszakN6YURtNi14QUxGN2pSdmd4VV9XdEhmcVBUSXUzUXhJMDJyRS0yalpTbGYxck9UbDlRXzlnWGVlbVFlLU1DbkNaQ2FDa2tiSkZsZlAtbnYzRFgwODJrUGZWTFNXNEJLcVhqenltWWE0NnRhNEJ0U2tLbkRFb3JEZEozQzNxbFJsNy04czNxeEoyNzJnaUFtRFZhMm5pNkxRUHczMnFZRmhqQXNoUjJxWg?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Ferguson Wellman Capital Management Inc. Sells 21,337 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
-          "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWHpncnJZTjd0Q3NxdzNoSjA3ZkJydV9qT3B1UFlGQnJ4TGdYVmc3dno1aDVOS1hYRDdCbkRYRnpieUZHM0dwZEVSMTNwSFpQZWYtMEY1TDZRZ3o2VGd3dFlkbzEtWmJ3cE5kT21KUDlxYm8xWXNNOHY4YzE1UnhNV0ZZQ0dLLWNlb3Zfb3JKYW1KVEQ4R1Nfb1U1bXJKcjZQdER2OTdoTDliSmZyN2tSNG5jeEZVNUsyMTdJZ2lwcWtnaDYzNmhuTGM1OWQ0N2ZWMkxzWWRRYjJHa2ZkYmlmcGx1aVFnWlFvNDFaalhvcFVLYl9jdjFJb18wemNaR2ZUY1RJ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbDZIRGhDdjdocGdlbUl4Q01rZDVzajVyWXE0MXp5aENRRWhEZW43YThlQXU2M3VRSEFEZkhiYkdybDdJY01PMG1maHBRUmlzWDRkN1o2WFl4LUVYTEdkSThtZkpySkQ2T2NqNFRDQ0V4WUdFSUtJWlFuYnBTdklyNWNvdWpudUxYX0VJTlhnY0FOdndIbHUzdy1iaWdKRDlPOHB6TjhkVnBJeFBQR3V1Rjl0eFhVY1hxaHl4YWMyZWMyR2toTWk1WEpKbnhzbWdBSFoyMWt2c3lvWGc?oc=5",
           "source": "Google News"
         }
       ],
-      "summary": "TSMC가 52주 신고가를 경신하고 테라팹(Terafab) 관련 협의 소식이 전해지며 AI 반도체 밸류체인 전반의 강세를 주도하고 있습니다."
+      "summary": "TSMC가 사상 최고가 행진과 15일 실적 발표를 앞두고 AI 인프라 투자 확대의 중심에 서 있으며, 미·아세안 지역으로의 공급망 확장도 가속화되고 있습니다."
     },
     "CN": {
       "headlines": [
+        {
+          "title": "Hong Kong’s MPF has gained nearly HK$100b this year despite September loss: report",
+          "summary": "Hong Kong’s Mandatory Provident Fund (MPF) recorded a loss in September but still made overall gains of nearly HK$100 billion (US$12.8 billion) over the first nine months of the year, according to data from MPF Ratings released on Wednesday. The 382 investment funds under the MPF schemes delivered a",
+          "link": "https://www.scmp.com/business/money/investment-products/article/3369945/hong-kongs-mpf-has-gained-nearly-hk100b-year-despite-september-loss-report?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Hong Kong’s first-store appeal grows as more Japanese, South Korean and Thai brands arrive",
+          "summary": "Japanese, South Korean and Thai brands have increased their share of new entrants in Hong Kong’s retail property market by 7 percentage points to more than one-third in the first nine months of 2026, while the demand for shops from mainland Chinese brands has slipped, according to Cushman & Wakefiel",
+          "link": "https://www.scmp.com/business/article/3369937/hong-kongs-first-store-appeal-grows-more-japanese-south-korean-and-thai-brands-arrive?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Hong Kong land sale stuns market as HK$4.3b bid hits 5-year Kowloon high",
+          "summary": "Kerry Properties has won a land plot in Ho Man Tin for HK$4.31 billion (US$549 million), the highest price paid for a residential site in Kowloon in nearly five years, as developers show confidence in demand for luxury homes. The site on Fat Kwong Street sold at HK$20,738 per square foot of gross fl",
+          "link": "https://www.scmp.com/business/article/3369948/hong-kong-land-sale-stuns-market-hk43b-bid-hits-5-year-kowloon-high?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
+          "summary": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours. In Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Opus 5.5 model. About ",
+          "link": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "China’s Transsion, Africa’s top phone maker, targets US$500 million Hong Kong listing",
+          "summary": "Shenzhen Transsion Holdings, the maker of Africa’s bestselling phones, aims to kick off its Hong Kong share offering on Wednesday to raise up to US$500 million ahead of a targeted October 15 listing, according to people familiar with the matter. The company, which already trades in Shanghai and has ",
+          "link": "https://www.scmp.com/business/companies/article/3369908/chinas-transsion-africas-top-phone-maker-targets-us500-million-hong-kong-listing?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Mox, BOCHK, ZA Bank and Citibank apps land among Asia-Pacific’s 10 best, study says",
+          "summary": "Banking apps from Mox Bank, Bank of China (Hong Kong) (BOCHK), ZA Bank and Citibank Hong Kong are among the top 10 in Asia-Pacific, according to a study exclusively previewed by the South China Morning Post. Sia, an international consulting firm, assessed 145 banking apps in 20 markets in Europe, As",
+          "link": "https://www.scmp.com/business/banking-finance/article/3369900/mox-bochk-za-bank-and-citibank-apps-land-among-asia-pacifics-10-best-study-says?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Hong Kong’s Hermitage Capital stays devoted to top-tier tech stocks amid jitters",
+          "summary": "Even as geopolitical frictions and market swings unsettle venture investors, Hong Kong-founded Hermitage Capital is sticking to a global strategy of backing frontier technology companies wherever they emerge. With a US$1.5 billion war chest that is 80 per cent in US dollars, with the remainder in re",
+          "link": "https://www.scmp.com/tech/article/3369872/hong-kongs-hermitage-capital-stays-devoted-top-tier-tech-stocks-amid-jitters?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
+        {
+          "title": "Hong Kong’s big IPO haul",
+          "summary": "–",
+          "link": "https://www.scmp.com/plus/business/banking-finance/article/3369852/hong-kongs-big-ipo-haul?utm_source=rss_feed",
+          "source": "SCMP Business"
+        },
         {
           "title": "How a Hong Kong property investor still made US$30 million – after a 40% price cut",
           "summary": "Amid concerns over rising interest rates and a weak retail property market, a long-time investor has sold a portfolio of prime street shops in Tsim Sha Tsui – held for more than four decades – and locked in a profit of nearly HK$237 million (US$30.2 million) despite accepting a deal more than 40 per",
@@ -210,70 +258,20 @@
           "summary": "[The content of this article has been produced by our advertising partner.] Passing wealth to the next generation can require flexibility over when, how and in which currency it is received. Designed to accommodate evolving family circumstances, Chubb MyLegacy Multi-Currency Insurance Plan offers cu",
           "link": "https://www.scmp.com/presented/business/topics/planning-wealth-generations/article/3369201/planning-legacy-lives-keep-moving?utm_source=rss_feed",
           "source": "SCMP Business"
-        },
-        {
-          "title": "Adrian Cheng, former scion of Hong Kong’s NWD, expands K11 brand in Xiamen",
-          "summary": "Adrian Cheng Chi-kong, former heir apparent to Hong Kong’s New World Development (NWD), is expanding his K11 cultural retail business in mainland China, launching a venture of his own as his family’s property group grapples with heavy debt. Xiamen K11 Select, developed by Cheng’s K11 by AC Group alo",
-          "link": "https://www.scmp.com/business/china-business/article/3369814/adrian-cheng-former-scion-hong-kongs-nwd-expands-k11-brand-xiamen?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "HKMA licenses Bakai Bank, city’s first from Central Asia",
-          "summary": "Hong Kong Monetary Authority (HKMA) has granted a banking licence to Bakai Bank, marking the first Central Asian bank to set up in Hong Kong amid closer ties in the economy and trade flows between China and the region, according to a statement on Monday. Bakai Bank, one of the largest lenders in Kyr",
-          "link": "https://www.scmp.com/business/banking-finance/article/3365704/hkma-licenses-bakai-bank-citys-first-central-asia?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Hong Kong lawmakers say 5-year tax incentive too short to entice major innovative firms",
-          "summary": "Hong Kong lawmakers have backed the government’s proposed tax incentives for large innovative companies, but many said on Monday that the planned five-year concession period is too short to attract major firms to establish headquarters or expand operations in the city. Chief Executive John Lee Ka-ch",
-          "link": "https://www.scmp.com/business/companies/article/3369781/hong-kong-lawmakers-say-5-year-tax-incentive-too-short-entice-major-innovative-firms?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "HKTDC’s Belt and Road Summit drives momentum",
-          "summary": "[The content of this article has been produced by our advertising partner.] The 11th Belt and Road Summit, which took place in Wan Chai on 9-10 September, brought together more than 6,200 top officials, business leaders and senior professionals from 70-plus B&R countries and regions to explore oppor",
-          "link": "https://www.scmp.com/presented/business/topics/belt-and-road-summit-2026/article/3369558/hktdcs-belt-and-road-summit-drives-momentum?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Hong Kong poised for first listed property debt fund as banks pull back",
-          "summary": "Private equity firms are moving to plug a commercial real estate funding gap as traditional banks pull back, with one fund filing to launch Hong Kong’s first listed property debt vehicle. Gaw Capital, a Hong Kong-based real estate private equity fund which managed US$35.6 billion in assets as of lat",
-          "link": "https://www.scmp.com/business/banking-finance/article/3369764/hong-kong-poised-first-listed-property-debt-fund-banks-pull-back?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Huawei, Qualcomm strike multi-year patent agreement across 5G, AI",
-          "summary": "US chip giant Qualcomm has agreed to pay to licence and acquire patents from China’s Huawei Technologies for the first time as part of a “multi-year, broad patent licence agreement” covering 5G, computing and artificial intelligence. The deal involved cross-licensing between both firms’ patent portf",
-          "link": "https://www.scmp.com/tech/tech-trends/article/3369748/huawei-qualcomm-strike-multi-year-patent-agreement-across-5g-ai?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Wellcome operator DFI Retail seeks buyer for fully leased shopping centre on The Peak",
-          "summary": "DFI Retail, the food and beverage unit of Hong Kong-headquartered conglomerate Jardine Matheson, is looking to sell its mall at The Peak, one of the city’s wealthiest neighbourhoods. The entire commercial portion of the Dairy Farm Guildford Road Shopping Centre will be sold via a public tender closi",
-          "link": "https://www.scmp.com/business/article/3369744/wellcome-operator-dfi-retail-seeks-buyer-fully-leased-shopping-centre-peak?utm_source=rss_feed",
-          "source": "SCMP Business"
-        },
-        {
-          "title": "Asset manager Schroders to expand in Hong Kong after merger with Nuveen, CEO says",
-          "summary": "UK fund house Schroders will increase investment and headcount in Hong Kong after being acquired by US asset manager Nuveen, according to Schroders’ global CEO. “Hong Kong is a critical interface for mainland China through schemes like Wealth Management Connect,” Richard Oldfield said in an online i",
-          "link": "https://www.scmp.com/business/banking-finance/article/3369699/asset-manager-schroders-expand-hong-kong-after-merger-nuveen-ceo-says?utm_source=rss_feed",
-          "source": "SCMP Business"
         }
       ],
-      "summary": "홍콩 상업용 부동산 시장의 가격 조정 압박 속에서도 대형 자산 매각과 펀드 조성 등 구조조정 움직임이 활발하게 이어지고 있습니다."
+      "summary": "홍콩 부동산 시장에서 5년 만에 최고가 토지 낙찰이 나오는 등 선별적 온기가 도는 반면, 본토 AI 시장에서는 모델 과부하(model fatigue) 우려가 고개를 들고 있습니다."
     }
   },
-  "trend_headline": "TSMC 신고가 경신과 테크·모빌리티 가격 경쟁 가속화",
-  "summary": "대만 TSMC가 AI 반도체 기대감으로 사상 최고가 행진을 이어가는 가운데, 일본에서는 초저가 EV 경쟁이 벌어지고 중화권에서는 부동산 자산 조정과 기술 특허 협력이 맞물리며 첨단 산업과 실물경제의 재편이 가속화되고 있습니다.",
+  "trend_headline": "AI 랠리 속 공급망 다변화와 자산시장 차별화",
+  "summary": "대만 TSMC를 중심으로 한 AI 반도체 투자와 글로벌 공급망 재편이 가속화되는 가운데, 한국과 중국은 각각 부채 및 자산 시장의 구조적 리스크와 차별화된 회복 흐름을 동시에 보여주고 있습니다.",
   "cross_country_themes": [
-    "Semiconductors",
-    "Automotive & EV",
-    "Real Estate Restructuring"
+    "AI 인프라 및 반도체 공급망 확장",
+    "부동산 및 가계부채 리스크 관리"
   ],
   "sector_hints": [
     "Semiconductors",
-    "Automotive",
     "Real Estate",
-    "Financial Services"
+    "Banking"
   ]
 }

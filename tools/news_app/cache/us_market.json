@@ -1,7 +1,67 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "region": "US",
   "headlines": [
+    {
+      "title": "British Airways plans record 106-seat business class on Airbus A380 jumbo jets",
+      "summary": "British Airways is ripping out coach-class seats and building a giant premium economy and business class in a bet on the high-end travel boom.",
+      "link": "https://www.cnbc.com/2026/10/06/british-airways-business-class-a380.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+      "summary": "Both properties will be solely in his name.",
+      "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive | U.S. Escalates Pressure on Russia Over Siberia Lab Death",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdG5VUnJGSUk4MWZ2Zk5QVnZwc2hYWngwUTZFUFJZTjRBZUJwanBCQ0V2QndOU0ZYY2NQcEZHM3ZXbE1Oa0NRRXZnT3l3VmI3U2h6Yi1DZDVQU01COC15bVJGNzQ1bzlVOVRQbkxtVTVDakFMU0cyS01zYkRYcVU0UkVvLUlRZm50ck5xRmpWQlZCX1IxQXRZZldhUlZWQQ?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNelk1VmhBcFVqRmpRQndWdklsTm1EVVZmaHk4REFBRXk1WmJYdDMxUDBxSEFkNHl1YWs2OUNCU1ZDWXRVcG9XaGJzR2JHaFUtLXlNaHZTZVNxQjN2NGkzTW5jczlfZXN1S3ppd0ttdnJZemtvM3llR25xOUVvSVMxY3hPd1dtaEtVV2NRNXN4eU5wMG4zUjNxWW9WTEFHT2l4V1p5OE1oODNoVE45bXJGZUQ1SQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Paramount-Warner Merger Closes: Why Disney and Netflix Are Better Stocks",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFd4b01zRThyY2NIYXNVS0ZyT1FHQ0M2eVpHX3dEdThSWVFSRDRmTGluRzZJSmlfTFBlR3d5VzZZUjMtM2dLRlFOVFB6NzB2dTdjQmllNWdJd3JLNTZJN3hrbnZjNXVWT0xsZEh0RG9oRWltWmxhSFJqcTFxUkluZVc0U0doendocEZKMWJMQ3NDRnJuQ1E?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Paramount s hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here s how we got here",
+      "summary": "Paramount has faced competing bids and an antitrust hurdle since its earliest attempts to take over WBD. Here's a timeline of key events.",
+      "link": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "The S&P 500 is back in record territory as the Magnificent Seven ride to the rescue",
+      "summary": "After trading sideways for much of the past year, the Magnificent Seven have been staging a comeback, helping to re-energize a bull market threatened by rising bond yields and stubbornly high crude-oil prices.",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Opinion | Justice for Our Daughter Christa",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iblN1blk4UWFZaVVDY2hMMU5hRm5TdmFVVnRXVGtCTnNSRWhCLTd4MC16cjFwak8yaWdORklSUU9Cay13Z2Myay1iQUhOMzN0dzI4c2p5RWxyV0daS3IzMERkeXE3RDFYa2V6ZDl5TU85ZFdEMTA5dw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Apple’s Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlpOVHp0YnNWVDViYXdaSjRlYy1QS2hrMjZINnZwYUQ3NWcxTmdYLTlsZjhmcFhNZzlTZjVCeXI0NTlZNm1JVnE1bW5TeHZxNVhiQmxxcVlrQjNVVmJMVXpvYUM3UDRKSXZ2R3dsX1NWRVdaRExHQTVjWU9zZmNrcGF3WXEwdUZUWGVoR19tQi1yN0V0ZzkwR1RsQy1rZkdRdEdDNUM5dzZTeWRDM2tWZU9XZW5scE5SNkVKZDBSYzZDQ19iellZ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Constellation Energy Stock Jumps. What a Google Nuclear Deal Will Do for It.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYV83cE82TDFvRGVzNkdXMjNfVmxaWHNhOVdPSHUyWEdfQm92aW85VHhKQ0VuSlY4UkpGSlJFVVFvUEtWRmZpSTZWTTFhb0ZqT1dtZlhnR0NfMUw5VERBQTRYM2RrQ2JNbnZZaEFKcXREdDYtU1VQMTFDWTBnQ25nb2ptaW5LbVhzejR3?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Lucid s Q3 deliveries fall 6.7% as EV maker cuts production to align with demand",
       "summary": "Lucid delivered 3,806 EVs and produced 2,954 vehicles during the third quarter. That compared with 4,078 deliveries on production of 3,891 vehicles a year earlier.",
@@ -9,27 +69,27 @@
       "source": "CNBC"
     },
     {
-      "title": "People in the U.S. need to wake up : As a mortgage loan officer, I rejected wealthy couples due to overspending. We re all heading for trouble.",
-      "summary": "A reader writes: We d better get real quick or we re going to have a financial crisis that makes the Great Recession of 2008 look like a picnic.",
-      "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+      "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn t buy into an October jinx.",
+      "summary": "Not just one, but two, major market turning points since 2000 have occurred on that day.",
+      "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | KKR Strikes Deal to Buy Private-Capital Fund Administrator Gen II",
+      "title": "Embattled Congressman Gets GOP Lift After Abuse Allegations",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZudVNxdXFZQktZalJqQXRUS1NDSWdhVk1NTFFqa1pzUlBrVDlrUTdVbnpPTUxYWHJwMVR4YnN4bktxeGhvNm9JRGFDVkYzWVJkNDVHbEZ3QkZCVklZWkdHbTlLVG5EUG0yRmY4dDBoTWdBTHhQeWVGcVk0aDFLUy1aNzdua09BUm83VVZPaTR5U1ZZaVc2YVI1c2ZkU3hCNXFnT3Y5SjJOR2x6Ukg0ZnNn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaXJOOG8wY2xENzFSblRQbzJlaVM1X2IzU0pRYVI2NmlEWnZTOXMzQUlwUXZiR0FNcTBHanNfN0hUNkM5MFA3dkZ3WUZxS2hqOUdJcGF2c0drMnJUSVMySXIyM011ZWJiNmJRaHhkTUdTbkdaLTQtLUx0ZC00NkJCLUpKeGdtMmg4dGRMb2xlQVU5WGdZOVo5cUFCRDF5UUk2T0VoNWI0VndSdG5IZVdXTmczTXk?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "OpenAI in $30 Billion Round Talks With UAE Funds, BlackRock",
+      "title": "How AI Created an Unlikely New Breed of Billionaires",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTEFudVN0U3NjbUtUYXpkVVZmdWJnU3QxaXhmYXEwVFdsMDg2LV9POGNWMGtQdktuOTZhbmZVNzZKQk05UWwwSjRpYnlDbXpUTnF5Z0VWMXNiMmZJMzFJT1NUaWF0amxob0I1Sm5Ka0Vma3RkUy1OWWwxSk1IUjV1SGRhUWFfOGZhTjkxNTl4bGlBYkR2VjZpMzdBaS1xQ3BuSTA3MGcwSnlnX0xJOEZkWlhR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWjJrcXBjc2tnTHBacmU2Tjgyd280Tk1QQnl2bnBxbFhtWjE1emZNWVJ1LXZfZklIcFMzSTdTSlZWek9BRE1RVkJHMWJoNnpEWnFGaWRuemc4eDF2QmR3WlE0M3RJSDNVSGZVNEMya2d2dzRGdnpvTWJ6ZmlhZnJuSHlMQUtkdS1WUjhmU0w4STNPUGhTUm9xcmpVeFlzZmJjXzdvdWdQQU1YUGVyRV9oNEFTOWNQbm8?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "SpaceX Stock Jumps 7.6%. It’s Now a Super Intelligence Company.",
+      "title": "Marvell Stock Rises After CEO Announces Huge Long-Term Revenue Target",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEd1WGQ0S2hzR0V2ZU4wWDg4RlZXNDFianJnemEzUENOWkd0UjlWWlRpUVZYQ1pXeDM2WHV6TlJFU2dSYW5oNjhkYjl6UlFTekE2NTM4TTVERF9GOGlrTGM1NUtXYnIzRGhjTUo5VnFTSFZDQUJuNTFCdXRmSWRrY0d3enRONnVyMXFOcnBB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTU9adUUxVlNEdTZIRHVkNDZUcjFCT19TWm9hemhNNmhSQUVoaFBYQmVtckw3Y3VnV2g3NG1DV1UybDlUYlJvdzE2MFVkTTk1RXFndFdDeldzeWU5ZllkNllMX2hQaVlSOFMzR3ZJVGFRX1JPOHJvN2tBSmQyWjBvcQ?oc=5",
       "source": "Barron's"
     },
     {
@@ -39,100 +99,40 @@
       "source": "CNBC"
     },
     {
-      "title": "The pain was excruciating : A friend in her 80s fell down her basement stairs. Could it have been avoided?",
-      "summary": "She developed pleural effusion fluid between the lungs and ribs compressing her lungs and making it hard for her to breathe.",
-      "link": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
+      "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+      "summary": "Constellation s stock is rising sharply following a deal that equates to as much power as would be supplied by a new nuclear reactor.",
+      "link": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Threat of Iranian Drone Attack Prompted U.S. to Pull Bombers From U.K. Base",
+      "title": "Inside the Albanian Village Fighting a Jared Kushner-Backed Luxury Resort",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTlhFVFZMQklTYzhqUHR0d2h0ajItejFkSm1XNXZqREhzZGxYOVY3NzRlV1A4ZzFJcEU0U0hYM0gwbUtmNG5YWE5zVkUxZDlKZXp1bWVfYm1ISFhXbjJ0TDVRcVpJSVR5NXhfb3ktNjNScnl3czQyaVE5eFVfbU1aVjFuQTRwZG9aNGNleUhPTDcweWFBUmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVkh5MzZpOFNac2RCSkVwNFFxdVEyYkVOZ2NJWXJpcG10WHZLanFYa3FhMW1fYTFQMkVQaThfRUt5cVExSTlCQ1BIbkxYaExLTVdCa2JUZ3F4d0RhY0NXUmsyYWtESmduUWhoZDRNM2FGMjl2SDJuUHJEd2ZrZnRhM1FSVFFPVkp3WjdfWXJBeFB0ZnYyUnhwQlYtTUNTM3IxWXJBRTJvLVVpVUY5UTFvd3hQSTk3QQ?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "New York Declares State of Emergency Over Measles Outbreak",
+      "title": "BofA Analysts See Tech Bubble Brewing, Advise Clients to Pile In",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0xRakdaMVJQOTMyb3cwREluVUpld1hHWnRlcVRkcWZha0M5QWlnNkhlbS1PTkhRWHBwYzJLX3FHQ2w0X2hKMU9pZF9iYzdqc1I4OWt1eDR5UW9aZWo4dTI2SzN6M1FlazI5UXg0UXk2NWxYbnhFcFkyLUVRWW92VkM2Y0VCQm92X09uU1lZdTd0Rlg4NTRReG5VbWx0NVdvamY1S2x5Ukh5Y2ZfLWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZHNZQnB4Mk5Ybnp1OG53ZnRucEQtTWlYMnJJcFRKSVVvZlBqbldkTmZlZXdQSDVudXY1ck1SUUhoVWNoWm1VNjJ5X210Q1FUeE5OUXNtMmVuczBOcS15WVZNNmdpUVhHakxjQnZpOWJTQXZwME5tWE1ZZ05NVG9saUR3cV9oX0tVREtWWE81eVFNaV9UeDU2S1p3S2J0X3k5MHh4NGtHZHhicU10eHdKdzluWTM?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Why Boeing Stock Isn’t Up More After Good FAA 737 MAX News",
+      "title": "Norway Eyes Partial Ban Of Smart Glasses",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONjRVX0ZhcDRaQUNRWXQybkxMcW5jdEc5X211eXM3R1o5OHhLQkprWFY3Q3Btc2JVUjhIOVdNS3kzaEdfZXNZUTIzSlMyVTV5VldWRHZ5TmZtRS1nVHp4bHdWNWsybExSRFQwWE15a18tWkZCRERfZ2xMYzhVemFGWXhWSUlLUQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "These are the cheapest and most expensive U.S. flights this November",
-      "summary": "Holiday airplane tickets are up more than 23% this year, according to Hopper.",
-      "link": "https://www.cnbc.com/2026/10/05/cheapest-most-expensive-us-flights-in-november.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The case for Nvidia s stock to march even higher after clinching its first record high in months",
-      "summary": "Analysts highlight the stock s cheap valuation and the chip maker s central role in the AI ecosystem.",
-      "link": "https://www.marketwatch.com/story/the-case-for-nvidias-stock-to-march-even-higher-after-clinching-its-first-record-high-in-months-2bb5a937?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump Accounts’ Extraordinary Expansion Puts Individual Stocks Into Kids’ Holdings",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeUh3Y3hjdkh3UzhLczZDcFRoOVlvZFFpc2lfZ2QtMnZBb0tKdkNLLXMzOVZGZUM4a0VaN2s5cmN1WmtEdFNQMFc0bHNEUDh1amJ2b3lZZnF3NHoyNFkyd3lOOEp2NTlWc0N4SmM1eklfcnVPWmtSVnB2YkFrV3NxSExtLV9ESERZd1E?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Treasuries Slump Pushes Long-End Yields to Fresh 24-Year Highs",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdS1Yd1RIMEhSTmNFb2NEUUVGRGktUmNWcmxWOGVfVENPOW51RGxGY3lYMEpZRXQtTVBzT2tqS0FXcWg4a3pKNzlHdG5VWmJPNjlVRG1IS2hOXzBISHhfVjV0eHFyc2lFUmRGeHROQ1JSTTA2aWhpbVFlb2VrelFoWlhZdGhzd1RqQWt3RzZ4aVFYeklTMFc2YnhMQlZYcV9xRXFua0lpMlJCdU5zTU1qRTdsZw?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Intel Stock Drops as Elon Musk Deals a Setback to the Chip Maker. Why You Shouldn’t Panic.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRWdaazlPODkxRjNvR2VMdWlxbmMtNW1PWllVYjlLZXpNcW50UVJ5UlNFYmI3Nzd4MW1aN0pidWVWODR2UklXT0diSkx3RUtrOGp5MmdvTEhQT2Q0Z2tIY1FCdkNUcTY0ZnlCUC12U2pjOHBZVFZlM0VWQlhGd2hzNjJmOA?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "David Ellison and Ynon Kreiz announce Skydance leadership team",
-      "summary": "The leadership team for Skydance, the merged entity of Paramount Skydance and Warner Bros. Discovery, will include Bari Weiss, Mark Thompson and Casey Bloys.",
-      "link": "https://www.cnbc.com/2026/10/05/david-ellison-ynon-kreiz-skydance-leadership-team.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "This new AI model could help America close a technological gap with China",
-      "summary": "Nvidia-backed Reflection AI announced Beam, a new ultra-efficient open model that boasts capabilities on par with those of Chinese ones",
-      "link": "https://www.marketwatch.com/story/this-new-ai-model-could-help-america-close-a-technological-gap-with-china-c1d74492?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Opinion | CFTC’s New Rules for Crypto",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tcWhpNTd0dmNvc192anJkWWM3ZUd2S2JxcEFOdXhaUmNUdjJJaGJFR3dKS1pyOENBMUtkcTVIQlJMeVdIQVRhV2QtWDJ4cE5PV1dQMGtxcGxiNUFMb0dleDBhNmM0N2NleDl2UWkzcVk?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Oil Holds Two-Day Drop on Signs of Increased Mideast Exports",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY0hmYkxiMTR3Q3lpZVFscTdjYV9wUUsydjFxYjdGcno4c2IxVFFrNFMtWmh0dm9oYUVKcUNhUER3SWtBQjZmXzFiWmwwMnlfUDBiR3pSejlPMElOd2dkN1BQTktvakUybEJtOUZ2VEs2NkRmWGhtWjFuaXZScFpaNENFM3Y4dlJoVWF0cTVlSXV6d1dDNnhJLVg0MVM?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Nvidia Stock Hits Record as Key Supplier’s Revenue Booms on AI Demand",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2JWNUhNcmRiRHFxQzdEUWlMVDI1d3VvYzFRTnFqT0V3RTdiRVhWUzU5NzhjNFhQdGVZYUdwSkhkWlpuT2RyLVhsYlljekxPeW0ycndId1Q0SThPWlpSMV9VNnV5QUstWkNDR1J4SF9Hc2Y5Rlh5eE93WnNoVk4xLQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQUpWZDN5MURCLUsxeXFuX1JqZTd1U2pETThrclpfNDNiVWtqZTJwcmduRWktSC1YRFlDTmFUYWE1M0xfQWI2cWdNSE9JRmY1X3FJOHg2TmNVX1FvT1Y2SGJqZ3BMOGFhbzU2UXhjdWRrSXowTmE4QzZMdGd4Y0FxOC1rZ2I?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "국채 금리 급등과 AI 반도체 랠리 격돌",
-  "summary": "미 국채 장기물 금리가 24년 만의 최고치로 치솟으며 채권 시장에 충격을 준 가운데, 엔비디아가 사상 최고가를 경신하고 AI 인프라 수요가 반도체 밸류체인 전반을 견인하며 증시 디커플링 장세가 심화되었습니다.",
+  "trend_headline": "매그니피센트 7 주도 AI 랠리와 원자력 수요 급증",
+  "summary": "매그니피센트 7의 반등으로 S&P 500이 사상 최고치를 경신한 가운데, AI 데이터센터 전력난 해소를 위한 구글의 원자력 파트너십 체결로 Constellation Energy 등 관련 인프라 주가가 급등했습니다. 아울러 파라마운트와 워너브라더스 디스커버리의 합병 완료 등 대형 인수합병 소식도 시장의 이목을 끌었습니다.",
   "key_points": [
-    "미 국채 장기물 금리가 국채 매도세 속에서 24년 만의 최고치 기록",
-    "엔비디아 주가가 사상 최고가를 경신하며 AI 생태계 중심 역할 재확인",
-    "JPMorgan이 볼타(Volta)의 50억 달러 규모 AI 대출 매각에 11% 수익률 제시"
+    "매그니피센트 7의 반등에 힘입어 S&P 500 지수가 사상 최고치 경신",
+    "구글의 신규 원자력 전력 계약 발표로 Constellation Energy 주가 급등",
+    "파라마운트와 워너브라더스 디스커버리(WBD) 간 대형 미디어 합병 완료"
   ],
   "sector_hints": [
     "Technology",
-    "Financials",
-    "Energy"
+    "Utilities",
+    "Communication Services"
   ]
 }

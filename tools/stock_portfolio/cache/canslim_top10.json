@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-06",
-  "analyzed": 140,
+  "date": "2026-10-07",
+  "analyzed": 139,
   "top10": [
     {
       "ticker": "AMD",
@@ -16,27 +16,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1060161912832,
-      "price": 649.42,
+      "market_cap": 1054350311424,
+      "price": 645.86,
       "rs_rating": 95.6
-    },
-    {
-      "ticker": "DDOG",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 99909025792,
-      "price": 278.24,
-      "rs_rating": 90.1
     },
     {
       "ticker": "FTNT",
@@ -52,9 +34,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 140337414144,
-      "price": 191.27,
-      "rs_rating": 92.9
+      "market_cap": 138877321216,
+      "price": 189.28,
+      "rs_rating": 92.8
+    },
+    {
+      "ticker": "ANET",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 272210132992,
+      "price": 215.83,
+      "rs_rating": 86.6
     },
     {
       "ticker": "MSFT",
@@ -70,9 +70,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 3930341244928,
-      "price": 529.3,
-      "rs_rating": 81.2
+      "market_cap": 3933757243392,
+      "price": 529.76,
+      "rs_rating": 81.1
+    },
+    {
+      "ticker": "SNPS",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 96329990144,
+      "price": 502.67,
+      "rs_rating": 66.7
     },
     {
       "ticker": "MU",
@@ -88,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 1180848357376,
-      "price": 1045.56,
+      "market_cap": 1228779814912,
+      "price": 1088.0,
       "rs_rating": 97.6
     },
     {
@@ -106,9 +124,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 257937227776,
-      "price": 287.01,
-      "rs_rating": 97.0
+      "market_cap": 255843237888,
+      "price": 284.68,
+      "rs_rating": 96.9
     },
     {
       "ticker": "STX",
@@ -124,9 +142,27 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 183194632192,
-      "price": 805.63,
-      "rs_rating": 93.5
+      "market_cap": 183635771392,
+      "price": 807.57,
+      "rs_rating": 94.2
+    },
+    {
+      "ticker": "DDOG",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 1,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 97431412736,
+      "price": 271.34,
+      "rs_rating": 91.4
     },
     {
       "ticker": "ARM",
@@ -142,45 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 323133636608,
-      "price": 302.56,
-      "rs_rating": 90.8
-    },
-    {
-      "ticker": "ANET",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 1,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 271617359872,
-      "price": 215.36,
-      "rs_rating": 86.0
-    },
-    {
-      "ticker": "CSCO",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "market_cap": 464988700672,
-      "price": 117.94,
-      "rs_rating": 85.3
+      "market_cap": 314386743296,
+      "price": 294.37,
+      "rs_rating": 90.1
     }
   ]
 }

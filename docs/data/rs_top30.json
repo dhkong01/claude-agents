@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "rs90_count": 13,
   "stocks": [
     {
@@ -16,11 +16,11 @@
     },
     {
       "ticker": "MRVL",
-      "rs_rating": 97.0
+      "rs_rating": 96.9
     },
     {
       "ticker": "AEHR",
-      "rs_rating": 96.3
+      "rs_rating": 96.2
     },
     {
       "ticker": "AMD",
@@ -31,104 +31,104 @@
       "rs_rating": 94.9
     },
     {
-      "ticker": "INTC",
+      "ticker": "STX",
       "rs_rating": 94.2
     },
     {
-      "ticker": "STX",
+      "ticker": "INTC",
       "rs_rating": 93.5
     },
     {
       "ticker": "FTNT",
-      "rs_rating": 92.9
+      "rs_rating": 92.8
     },
     {
       "ticker": "PANW",
-      "rs_rating": 92.2
-    },
-    {
-      "ticker": "ARM",
-      "rs_rating": 90.8
+      "rs_rating": 92.1
     },
     {
       "ticker": "DDOG",
+      "rs_rating": 91.4
+    },
+    {
+      "ticker": "ARM",
       "rs_rating": 90.1
     },
     {
-      "ticker": "COHR",
+      "ticker": "WDC",
       "rs_rating": 89.4
     },
     {
-      "ticker": "WDC",
-      "rs_rating": 88.8
+      "ticker": "COHR",
+      "rs_rating": 88.7
     },
     {
       "ticker": "AMAT",
-      "rs_rating": 88.1
+      "rs_rating": 88.0
     },
     {
       "ticker": "LRCX",
-      "rs_rating": 87.4
+      "rs_rating": 87.3
     },
     {
       "ticker": "ANET",
-      "rs_rating": 86.0
+      "rs_rating": 86.6
     },
     {
       "ticker": "CSCO",
-      "rs_rating": 85.3
-    },
-    {
-      "ticker": "ASML",
-      "rs_rating": 84.7
-    },
-    {
-      "ticker": "TXN",
-      "rs_rating": 84.0
-    },
-    {
-      "ticker": "ADI",
-      "rs_rating": 83.3
+      "rs_rating": 85.2
     },
     {
       "ticker": "PLTR",
-      "rs_rating": 82.6
+      "rs_rating": 84.6
     },
     {
-      "ticker": "MSTR",
-      "rs_rating": 81.9
+      "ticker": "ASML",
+      "rs_rating": 83.9
+    },
+    {
+      "ticker": "TXN",
+      "rs_rating": 83.2
+    },
+    {
+      "ticker": "ZS",
+      "rs_rating": 82.5
+    },
+    {
+      "ticker": "ADI",
+      "rs_rating": 81.8
     },
     {
       "ticker": "MSFT",
-      "rs_rating": 81.2
+      "rs_rating": 81.1
     },
     {
-      "ticker": "ETHU",
-      "rs_rating": 80.6
+      "ticker": "SHOP",
+      "rs_rating": 80.4
     },
     {
-      "ticker": "WBD",
-      "rs_rating": 79.9
+      "ticker": "KLAC",
+      "rs_rating": 79.8
     },
     {
       "ticker": "MPWR",
-      "rs_rating": 79.2
+      "rs_rating": 79.1
     },
     {
-      "ticker": "NVDA",
-      "rs_rating": 78.5
+      "ticker": "AMGN",
+      "rs_rating": 78.4
     },
     {
-      "ticker": "CLS",
-      "rs_rating": 77.8
+      "ticker": "AAPL",
+      "rs_rating": 77.7
     }
   ],
   "portfolio_rs": {
-    "VKTX": 10.9,
-    "MRVL": 97.0,
-    "CRDO": 86.7,
-    "NBIS": 91.5,
-    "RDDT": 9.6,
-    "VRT": 48.5
+    "VKTX": 11.0,
+    "MRVL": 96.9,
+    "CRDO": 85.9,
+    "NBIS": 90.8,
+    "RDDT": 11.7,
+    "VRT": 46.1
   }
 }

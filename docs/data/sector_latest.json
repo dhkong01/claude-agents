@@ -1,95 +1,95 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 3.73,
-      "week1": 4.36,
+      "qtd": 3.7,
+      "week1": 3.7,
       "rank": 1,
       "status": "강세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": 2.67,
-      "week1": 2.65,
+      "qtd": 2.34,
+      "week1": 2.34,
       "rank": 2,
-      "status": "중립"
-    },
-    {
-      "sector": "Materials",
-      "etf": "XLB",
-      "qtd": 2.45,
-      "week1": 2.11,
-      "rank": 3,
       "status": "중립"
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": 2.12,
-      "week1": 3.19,
-      "rank": 4,
+      "qtd": 1.81,
+      "week1": 1.81,
+      "rank": 3,
       "status": "중립"
     },
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 1.83,
-      "week1": 1.49,
+      "qtd": 1.71,
+      "week1": 1.71,
+      "rank": 4,
+      "status": "중립"
+    },
+    {
+      "sector": "Healthcare",
+      "etf": "XLV",
+      "qtd": 1.57,
+      "week1": 1.57,
       "rank": 5,
       "status": "중립"
     },
     {
-      "sector": "Industrials",
-      "etf": "XLI",
-      "qtd": 1.74,
-      "week1": 2.75,
+      "sector": "Communication",
+      "etf": "XLC",
+      "qtd": 1.2,
+      "week1": 1.2,
       "rank": 6,
       "status": "중립"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 1.67,
-      "week1": 3.66,
+      "qtd": 1.05,
+      "week1": 1.05,
       "rank": 7,
       "status": "중립"
     },
     {
-      "sector": "Communication",
-      "etf": "XLC",
-      "qtd": 1.56,
-      "week1": 0.61,
+      "sector": "Materials",
+      "etf": "XLB",
+      "qtd": 0.91,
+      "week1": 0.91,
       "rank": 8,
       "status": "중립"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 1.03,
-      "week1": 1.14,
+      "qtd": 0.54,
+      "week1": 0.54,
       "rank": 9,
       "status": "중립"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 1.03,
-      "week1": 0.46,
+      "qtd": -0.27,
+      "week1": -0.27,
       "rank": 10,
-      "status": "중립"
+      "status": "약세"
     },
     {
-      "sector": "Healthcare",
-      "etf": "XLV",
-      "qtd": 0.54,
-      "week1": -0.79,
+      "sector": "Industrials",
+      "etf": "XLI",
+      "qtd": -0.47,
+      "week1": -0.47,
       "rank": 11,
-      "status": "중립"
+      "status": "약세"
     }
   ],
   "us_by_sector": {
@@ -98,68 +98,68 @@
         "ticker": "AMD",
         "rs": 95.6,
         "canslim": 61,
-        "price": 649.42
-      },
-      {
-        "ticker": "DDOG",
-        "rs": 90.1,
-        "canslim": 61,
-        "price": 278.24
+        "price": 645.86
       },
       {
         "ticker": "FTNT",
-        "rs": 92.9,
+        "rs": 92.8,
         "canslim": 58,
-        "price": 191.27
+        "price": 189.28
+      },
+      {
+        "ticker": "ANET",
+        "rs": 86.6,
+        "canslim": 58,
+        "price": 215.83
       },
       {
         "ticker": "MSFT",
-        "rs": 81.2,
+        "rs": 81.1,
         "canslim": 58,
-        "price": 529.3
+        "price": 529.76
+      },
+      {
+        "ticker": "SNPS",
+        "rs": 66.7,
+        "canslim": 57,
+        "price": 502.67
       },
       {
         "ticker": "MU",
         "rs": 97.6,
         "canslim": 55,
-        "price": 1045.56
+        "price": 1088.0
       },
       {
         "ticker": "MRVL",
-        "rs": 97.0,
+        "rs": 96.9,
         "canslim": 55,
-        "price": 287.01
+        "price": 284.68
       },
       {
         "ticker": "STX",
-        "rs": 93.5,
+        "rs": 94.2,
         "canslim": 55,
-        "price": 805.63
+        "price": 807.57
+      },
+      {
+        "ticker": "DDOG",
+        "rs": 91.4,
+        "canslim": 55,
+        "price": 271.34
       },
       {
         "ticker": "ARM",
-        "rs": 90.8,
+        "rs": 90.1,
         "canslim": 55,
-        "price": 302.56
-      },
-      {
-        "ticker": "ANET",
-        "rs": 86.0,
-        "canslim": 55,
-        "price": 215.36
-      },
-      {
-        "ticker": "CSCO",
-        "rs": 85.3,
-        "canslim": 55,
-        "price": 117.94
+        "price": 294.37
       }
     ]
   },
   "macro": {
     "phase": "RISK_ON",
-    "vix": 15.52,
-    "yield10y": 5.31,
+    "vix": 15.01,
+    "yield10y": 5.27,
     "rec_sectors": [
       "Technology",
       "Consumer Discretionary",
@@ -168,7 +168,7 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 7.0,
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

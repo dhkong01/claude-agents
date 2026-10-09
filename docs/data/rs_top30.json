@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "rs90_count": 13,
+  "date": "2026-10-08",
+  "rs90_count": 14,
   "stocks": [
     {
       "ticker": "SNDK",
@@ -15,11 +15,11 @@
       "rs_rating": 97.6
     },
     {
-      "ticker": "MRVL",
+      "ticker": "AEHR",
       "rs_rating": 96.9
     },
     {
-      "ticker": "AEHR",
+      "ticker": "MRVL",
       "rs_rating": 96.2
     },
     {
@@ -35,11 +35,11 @@
       "rs_rating": 94.2
     },
     {
-      "ticker": "INTC",
+      "ticker": "FTNT",
       "rs_rating": 93.5
     },
     {
-      "ticker": "FTNT",
+      "ticker": "INTC",
       "rs_rating": 92.8
     },
     {
@@ -51,12 +51,12 @@
       "rs_rating": 91.4
     },
     {
-      "ticker": "ARM",
-      "rs_rating": 90.1
+      "ticker": "WDC",
+      "rs_rating": 90.8
     },
     {
-      "ticker": "WDC",
-      "rs_rating": 89.4
+      "ticker": "ARM",
+      "rs_rating": 90.1
     },
     {
       "ticker": "COHR",
@@ -71,27 +71,27 @@
       "rs_rating": 87.3
     },
     {
-      "ticker": "ANET",
+      "ticker": "PLTR",
       "rs_rating": 86.6
     },
     {
-      "ticker": "CSCO",
-      "rs_rating": 85.2
-    },
-    {
-      "ticker": "PLTR",
-      "rs_rating": 84.6
+      "ticker": "ANET",
+      "rs_rating": 85.9
     },
     {
       "ticker": "ASML",
-      "rs_rating": 83.9
+      "rs_rating": 85.2
     },
     {
-      "ticker": "TXN",
-      "rs_rating": 83.2
+      "ticker": "CSCO",
+      "rs_rating": 84.6
     },
     {
       "ticker": "ZS",
+      "rs_rating": 83.2
+    },
+    {
+      "ticker": "TXN",
       "rs_rating": 82.5
     },
     {
@@ -99,19 +99,19 @@
       "rs_rating": 81.8
     },
     {
-      "ticker": "MSFT",
+      "ticker": "KLAC",
       "rs_rating": 81.1
     },
     {
-      "ticker": "SHOP",
+      "ticker": "MSFT",
       "rs_rating": 80.4
     },
     {
-      "ticker": "KLAC",
+      "ticker": "SHOP",
       "rs_rating": 79.8
     },
     {
-      "ticker": "MPWR",
+      "ticker": "AAPL",
       "rs_rating": 79.1
     },
     {
@@ -119,16 +119,16 @@
       "rs_rating": 78.4
     },
     {
-      "ticker": "AAPL",
+      "ticker": "MPWR",
       "rs_rating": 77.7
     }
   ],
   "portfolio_rs": {
-    "VKTX": 11.0,
-    "MRVL": 96.9,
-    "CRDO": 85.9,
-    "NBIS": 90.8,
-    "RDDT": 11.7,
-    "VRT": 46.1
+    "VKTX": 10.3,
+    "MRVL": 96.2,
+    "CRDO": 83.9,
+    "NBIS": 89.4,
+    "RDDT": 13.1,
+    "VRT": 60.5
   }
 }

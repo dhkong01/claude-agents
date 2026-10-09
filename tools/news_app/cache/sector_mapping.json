@@ -1,69 +1,29 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-09",
   "sectors": [
     {
-      "name": "Semiconductors",
-      "direction": "positive",
-      "score": 8.5,
-      "rationale": "대만 TSMC의 사상 최고가 행진과 AI 인프라 투자 확대, 일본 토와(Towa)의 반도체 장비 공장 투자 등 아시아 중심의 반도체 공급망 강화가 긍정적 요인으로 작용하고 있습니다.",
-      "related_tickers": [
-        "TSM",
-        "NVDA",
-        "6315"
-      ],
-      "source_regions": [
-        "ASIA",
-        "US"
-      ]
-    },
-    {
-      "name": "Utilities",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "구글이 AI 데이터센터의 전력난 해소를 위해 신규 원자력 에너지 파트너십을 체결함에 따라, 콘스텔레이션 에너지 등 전력 및 인프라 관련 유틸리티 기업들의 주가가 강력한 상승 모멘텀을 얻었습니다.",
-      "related_tickers": [
-        "CEG",
-        "VST"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Communication Services",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "파라마운트와 워너브라더스 디스커버리(WBD)의 대형 합병이 완료되면서 미디어 산업 내 구조조정 및 시장 효율화에 대한 기대감이 고조되었습니다.",
-      "related_tickers": [
-        "WBD",
-        "PARA"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Financials",
+      "name": "Consumer Staples",
       "direction": "negative",
       "score": -6.0,
-      "rationale": "유럽에서는 프랑스의 재정 리스크 우려와 유로화 약세가 심화되고 있으며, 아시아(한국)에서는 가계부채 및 자영업자 연체율 상승 등 금융 시스템 전반의 부채 리스크 우려가 부각되고 있습니다.",
+      "rationale": "펩시코가 북미 시장의 성장 정체로 인해 연간 실적 전망치를 하향 조정하면서 필수소비재 섹터 전반에 대한 수요 둔화 우려가 커졌습니다.",
       "related_tickers": [
-        "GLE",
-        "055550"
+        "PEP",
+        "KO",
+        "PG"
       ],
       "source_regions": [
-        "EU",
-        "ASIA"
+        "US"
       ]
     },
     {
-      "name": "Energy",
+      "name": "Industrials",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "에퀴노르가 영국의 신규 석유 및 가스전 미승인 시 추가 투자를 철회할 것을 경고함에 따라, 유럽 내 에너지 공급망 불안 및 투자 심리 위축이 우려됩니다.",
+      "score": -6.5,
+      "rationale": "프랑스와 독일의 차세대 전차 공동 개발(FCAS) 프로그램 결렬이 공식화되면서 유럽 방산 기업들의 구조조정 우려 및 섹터 내 불확실성이 가중되었습니다.",
       "related_tickers": [
-        "EQNR",
-        "BP"
+        "RHM",
+        "SAF",
+        "LMT"
       ],
       "source_regions": [
         "EU"
@@ -71,21 +31,37 @@
     },
     {
       "name": "Real Estate",
-      "direction": "neutral",
-      "score": 0.0,
-      "rationale": "홍콩 부동산 시장에서 5년 만의 최고가 토지 낙찰 소식 등 국지적인 온기가 돌고 있으나, 한국 및 중국 전반의 부동산/가계부채 리스크 관리 기조가 이어지며 중립적인 흐름을 보이고 있습니다.",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "홍콩의 소매용 부동산 가치 하락 압박과 자금 경색 우려가 제기되며 아시아 지역 부동산 섹터의 투자 심리가 위축되고 있습니다.",
       "related_tickers": [
+        "0016.HK",
         "1113.HK"
       ],
       "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "유로화의 17개월 내 최저치 추락에 따른 프랑스 재정 우려 및 인플레이션 압박, 그리고 홍콩 IPO 시장의 자금 경색 조짐이 금융 섹터에 부담으로 작용하고 있습니다.",
+      "related_tickers": [
+        "BNP",
+        "GLE",
+        "0388.HK"
+      ],
+      "source_regions": [
+        "EU",
         "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Technology",
-      "note": "미국은 매그니피센트 7의 반등과 AI 데이터센터 전력 계약으로 기술주 전반에 강한 긍정적 신호가 나타난 반면, 아시아(중국)에서는 AI 모델 과부하(model fatigue) 우려가 고개를 들며 지역 간 흐름이 엇갈리고 있습니다."
+      "sector": "Semiconductors",
+      "note": "미국은 OpenAI의 매출 우려로 엔비디아와 마이크론 등 AI 반도체주가 하락했으나, 아시아(대만)에서는 TSMC가 AI 수요 폭증에 힘입어 사상 최고 실적을 경신하는 등 지역 간 실적 및 심리적 온도차가 뚜렷합니다."
     }
   ]
 }

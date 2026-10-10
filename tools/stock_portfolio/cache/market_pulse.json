@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "indices": {
     "nasdaq": {
-      "price": 27193.34,
-      "change": -345.35,
-      "change_pct": -1.25,
+      "price": 27366.17,
+      "change": 172.83,
+      "change_pct": 0.64,
       "label": "나스닥종합",
       "region": "US"
     },
     "dow": {
-      "price": 51231.64,
-      "change": 51.77,
-      "change_pct": 0.1,
+      "price": 51654.95,
+      "change": 423.31,
+      "change_pct": 0.83,
       "label": "다우존스",
       "region": "US"
     },
     "sp500": {
-      "price": 7765.36,
-      "change": -36.41,
-      "change_pct": -0.47,
+      "price": 7811.54,
+      "change": 46.18,
+      "change_pct": 0.59,
       "label": "S&P500",
       "region": "US"
     },
@@ -37,49 +37,49 @@
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 68460.16,
-      "change": -581.95,
-      "change_pct": -0.84,
+      "price": 69030.92,
+      "change": -11.19,
+      "change_pct": -0.02,
       "label": "니케이225",
       "region": "ASIA"
     },
     "shanghai": {
-      "price": 3772.01,
-      "change": -39.9,
-      "change_pct": -1.05,
+      "price": 3813.79,
+      "change": 1.89,
+      "change_pct": 0.05,
       "label": "상해종합",
       "region": "ASIA"
     },
     "shenzhen": {
-      "price": 12341.7,
-      "change": -279.2,
-      "change_pct": -2.21,
+      "price": 12641.86,
+      "change": 20.96,
+      "change_pct": 0.17,
       "label": "심천성분",
       "region": "ASIA"
     }
   },
   "breadth": {
-    "total": 514,
-    "advancers": 343,
-    "decliners": 170,
-    "unchanged": 1,
-    "adv_pct": 66.7,
+    "total": 515,
+    "advancers": 329,
+    "decliners": 186,
+    "unchanged": 0,
+    "adv_pct": 63.9,
     "universe": "S&P500+NASDAQ100"
   },
   "macro": {
     "phase": "RISK_ON",
     "m_score": 10,
-    "vix": 15.41,
-    "volatility": "NORMAL",
-    "fear_greed": 38.1,
+    "vix": 14.84,
+    "volatility": "LOW",
+    "fear_greed": 45,
     "fear_greed_rating": "fear",
-    "yield2y": 4.77,
-    "yield10y": 5.23,
-    "yield30y": 5.61,
+    "yield2y": 4.75,
+    "yield10y": 5.24,
+    "yield30y": 5.6,
     "rate_env": "HIGH",
     "dollar_trend": "STRENGTHENING",
     "market_trend": "BULL",
-    "mfi": 51.2,
+    "mfi": 48.9,
     "mfi_signal": "중립"
   }
 }

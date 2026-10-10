@@ -1,55 +1,43 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "sectors": [
-    {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "마이크로소프트의 시가총액 4조 달러 돌파 기대감과 글로벌 AI 투자 심리 회복이 대형 기술주 섹터의 상승을 견인하고 있습니다.",
-      "related_tickers": [
-        "MSFT",
-        "AAPL"
-      ],
-      "source_regions": [
-        "US",
-        "EU"
-      ]
-    },
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.8,
-      "rationale": "삼성전자의 3분기 깜짝 실적과 TSMC의 호실적 등 글로벌 AI 반도체 랠리가 반도체 섹터 전반에 강력한 투자 심리를 불어넣고 있습니다.",
+      "score": 7.0,
+      "rationale": "TSMC의 사상 최대 3분기 실적 달성과 한국의 반도체 수출 호조, 중국의 레거시 반도체 투자 확대 등 아시아발 강력한 실적 및 투자 모멘텀이 미국 내 AI 속도 조절론 우려를 상쇄하고 있습니다.",
       "related_tickers": [
         "TSM",
         "NVDA",
         "ASML"
       ],
       "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "EU와 중국 간 자동차 관세 협상의 1단계 타결로 무역 마찰 불확실성이 완화되며 유럽 완성차 및 경기관련소비재 업계에 호재로 작용하고 있습니다.",
+      "related_tickers": [
+        "STLA",
+        "VOW3",
+        "RNO"
+      ],
+      "source_regions": [
         "EU"
       ]
     },
     {
-      "name": "Consumer Staples",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "펩시코가 실적 부진과 함께 향후 전망치를 하향 조정하면서 필수소비재 섹터 전반에 하방 압력이 가해지고 있습니다.",
+      "name": "Technology",
+      "direction": "neutral",
+      "score": 0.0,
+      "rationale": "마이크로소프트의 첨단 AI 개발 비상 정지 촉구와 AI 붐 한계론이 제기되는 가운데 엔비디아의 투자 확장론이 맞서며 빅테크 내 방향성이 혼조세를 보이고 있습니다.",
       "related_tickers": [
-        "PEP",
-        "KO"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "델타항공이 고유가 여파로 2년 만에 처음으로 월가 예상치를 하회하는 실적을 발표하며 항공 및 운송을 포함한 산업재 섹터에 부정적인 영향을 미쳤습니다.",
-      "related_tickers": [
-        "DAL",
-        "UAL"
+        "MSFT",
+        "NVDA"
       ],
       "source_regions": [
         "US"
@@ -57,29 +45,13 @@
     },
     {
       "name": "Energy",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "미국의 러시아산 디젤 제재 해제로 인한 공급 우려 완화 및 유가 안정 시도와 함께, 유럽 주요국의 디젤 세제 혜택 종료 검토가 에너지 섹터의 정제 마진에 하방 압력으로 작용하고 있습니다.",
-      "related_tickers": [
-        "XOM",
-        "CVX",
-        "ENI"
-      ],
-      "source_regions": [
-        "US",
-        "EU"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
       "direction": "neutral",
-      "score": 1.0,
-      "rationale": "미국의 스타벅스-치폴레 인수 검토 소식에 따른 불확실성과 유럽-중국 간 하이브리드 차량 유입 제한 협정 타결(유럽 완성차 업체에 호재)이 교차하며 혼조세를 보이고 있습니다.",
+      "score": 0.5,
+      "rationale": "미국의 러시아 디젤 제재 해제 악재와 글로벌 유가 고공행진에 따른 변동성이 상존하며 energy 섹터에 복합적인 영향을 주고 있습니다.",
       "related_tickers": [
-        "SBUX",
-        "CMG",
-        "BMW",
-        "MBG"
+        "SHEL",
+        "TTE",
+        "XOM"
       ],
       "source_regions": [
         "US",
@@ -87,5 +59,10 @@
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Industrials",
+      "note": "아시아(일본)는 글로벌 방산 협력 및 수출 경쟁력 강화 모멘텀으로 긍정적인 반면, 유럽은 제트 연료 가격 상승으로 항공·운송 업계의 비용 압박이 가중되며 부정적인 신호가 대립하고 있습니다."
+    }
+  ]
 }

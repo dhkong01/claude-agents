@@ -1,7 +1,37 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "region": "US",
   "headlines": [
+    {
+      "title": "From BJ’s to Lululemon, retailers are trimming assortments to boost business",
+      "summary": "Retail brands are shrinking assortments to get back to healthy growth, while box stores are culling products to better curate offerings and stabilize business.",
+      "link": "https://www.cnbc.com/2026/10/10/from-bjs-to-lululemon-retailers-are-trimming-assortments.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Should I put my nest egg in a 30-year Treasury bond?",
+      "summary": "Risk comes in many forms, even with safe investments.",
+      "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Hegseth’s Plans to Livestream an Execution Are Getting Pushback. Here’s What to Know.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTE04SHVfN0RraFp5N0NnRERDcS1Qd2ZrYzdyNUlKUk13TzRkYmJCX3JXTms5UmZrQzdLN3FFazBiS2FGVXEzWGNKT1E5OVdYQjU4Z2FCbWpWUzlZZGZPMlhnd0lkb1h5U1lpVm0xRWtDSW1UUXdSYWVoZl9JNG5lNEVBQWZMcXZjRWVabTdOaHNYeC15V2QzNHpzVkZwamZOamVIMHNINldPRjRWM3BqQ3lIZGtNSlZXbmw5QV9rQ1VUMjc3T2VodXRaaE9UY1JHdUs4?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "These Stocks Are the Hidden Winners of SpaceX’s Spectrum Binge",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOFc0dW5SalY5RENPYzdoNXRSSUZzdV9sT2N0V0tyczA3WlFaM1BNcWczMXFWQ3o4V200YUFfZHI3RS1XdUlkdVZ1Z3N1OFBEQU41NVNUclNOVlhMc1J3MjV3WEQ3eTJzMV9HUm1HaDdHcEJ2TDJjeURLRTVOR1RrYjhYYU1hMC03SEJiMjBZSGc5WnR6YXc?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Delta CEO: Safety is going to make the call on launching Saudi Arabia flight",
       "summary": "Delta is weighing whether to continue with its Riyadh, Saudi Arabia flight debut as planned.",
@@ -9,27 +39,27 @@
       "source": "CNBC"
     },
     {
-      "title": "I have no children : My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-      "summary": "The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.",
-      "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+      "title": "Worse than taking away your parents car keys? Taking away their cell phone. How to protect your aging parents.",
+      "summary": "Parental controls aren t just for kids anymore",
+      "link": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Anthropic AI Model Goes Rogue, Submits Fake Unsolved Murder Tip",
+      "title": "‘Honey Please’: Kimberly Guilfoyle Pushed Donor to Wire $100,000 to Her Amex Account",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBodUJmUzRRdW5fdndGZG51blhYUTBMS2tKSFo5REthUjhsTVZXMkVoYU5CeTVSYjlUY21jWlR6UVBLcklLRWFZYXdyQjZ0RWw5NGpqck9KMVJBOVJJSGtlY1hydTB1WklWdTFVSG1JQTlVMXBXdF9NLVNPWkpCdw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round",
+      "title": "Trump Says Ukraine Needs New Leader Who Can Deal With Putin",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQmtDWkliRlRySXZybVd3dVp0aWNmdkJnaHZrdVUxWHg0LTQ3dW5kOEplTGNkMnhGVjFTQWdhV3dOYkxZcE1wYTUwMko4ZHk2RjdmY0xPblBXbC1IRGdCU0pqOXF4YmFhbHVrNUtvYzl5VE5GZUE0ejdiUzZJZHRkNWhyWUwybjNhTnlkaUZkVWJqYWd4Z09laTlXU182WWktOVFQT005V2JXNThJNFdpSg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckxnVi1pcmhqQlhRVHp0ekxTc25odmRCZmhzTi1hdEpBbWloM2VFVzhFd0dHWkJtSUljNGlpUERBUDNrYWpibmFoSUJCTkJXZFdrTnVjcHhiUGl5Slp2NnZmd2gxc3BxM2NPYmRmQ21hcjQ4eEJ5VElpYjdnX1ZvSEZiZ2FVWWNNMTRTWUI3V3I2UFMzMFg1MzJqWnI2ZEZCMXl5WkFldVluM2xqVEI4bkNBVzk?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "AT&T, Verizon, and T-Mobile Are Dropping on Starlink Fears. Analysts Say Buy.",
+      "title": "Boeing and 10 More Buys for the ‘Modern-Day Industrial Revolution’",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVjNNRzRHMHNBaExIaDE3UDFfeGlXYXlGSTRmM3JGajhvbXlLSkZnTzI3MXROQ0tUNGJuV3dzR0xNeWhiaHBnN1BMU2Z1aVlzY2JCbTRLNTd3eThxSUNLaWNPeHpsZEo1WGhmOXkzWW9oX1pVVFV0ZE9mR25aM1BveUw4RndnUHlZbkUybGtQQXZqdGNrdGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTTdZdnVJQmZMUG1jcldVMF82R3MzaUlMMnVKNk1aODRhMENHNzZUX3BXQy1qSmRRdl9KVE10aG9odE5VOGxLMkdHWG9qOVlPZGFSNVdYU2R5WnVhWFpEa0hMR3dTZVZDS25jYUFweGhSRXAwektRbWZWRmpoVE9xLTNNbTNvZw?oc=5",
       "source": "Barron's"
     },
     {
@@ -39,27 +69,27 @@
       "source": "CNBC"
     },
     {
-      "title": "I feel like a loser : I check my ETFs every day. They re up one minute, down the next. Should I be worried?",
-      "summary": "I presume these are sophisticated investors taking a profit.",
-      "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "title": "These decisions you make in your 20s not your income determine whether you ll spend decades in debt or retire comfortably",
+      "summary": "Don t just focus on stock picks when you re thinking of building retirement wealth",
+      "link": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "White House Names Katie Zacharia as New Press Secretary",
+      "title": "Print Edition | Wall Street Journal",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOWhVeGdkTWNNa3hlZ3ZKQ2Z1MmVuYWhaWWZscTNadHZQQnBQeXp5UE53bFVDMDNmTk1aaUpocUY5Ym5kSGVibnNjTlVXT3ZPRS03QkFXa3R6R0p4V2VYQmUzMXdyWFhRcW90aUlQUUtMeWFGRGF1X2czS2d2b254NURTTWNFV3R2N0w5Sk9hS3E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55WlozLUF5ZDVHTFd2eTVhYzlqNEFzZkVpN0R5c0RBNFlzanY1cWx0UllQUEpzSnc0ZEk3a3RBU0lqMlVWVjFYcTh4SERZZW9nS0k1azJMS0ZZd1hyX1N1djNn?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Trump Says Putin Agreed to Release Diesel Into Global Market",
+      "title": "Nvidia Discusses Boosting Reflection Investment, Computing Deal",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaGpYY2xaOHMzZVpPVXp0NG9qbVpvbDNkOWhBSmJ2X01wczJQU05EZzg0akkzdWpCZURMWEkxaS1ZaG9PeVI4R01NWWRzNXNQUG50S0p0ZUxQOGYzNFRhbTA5d095VzVSWDlxNUxGWUNEbDFPdVlRV0U0amFvSlN3N3dPMi1WOVZadjNUb2JMQUlESlFfLTBneUJaMXJYYndaY3hQeWtzdHgyUjRCaWE0QkJaQmp4Umo5djlvcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Nvidia Stock Drops, but a Big Options Trade Bet Suggests It Could Go Higher",
+      "title": "AT&T, Verizon, and T-Mobile Are Dropping on Starlink Fears. Analysts Say Buy.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OR2d5TV9DVTYyTUREaERXMDdRV3BqMFptZUZVREFCZGFaRXhyeDUxdWdhLWpoeE5OcnV6ejQwMFl0ZDljNnR1ZWlnZmJybjJWTTI2eGZsY3ZFOEMtSURPMFhINXJSR2tvcW5aeDY0QWo5RkFkdzRDRlhyZFRzQ3M?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVjNNRzRHMHNBaExIaDE3UDFfeGlXYXlGSTRmM3JGajhvbXlLSkZnTzI3MXROQ0tUNGJuV3dzR0xNeWhiaHBnN1BMU2Z1aVlzY2JCbTRLNTd3eThxSUNLaWNPeHpsZEo1WGhmOXkzWW9oX1pVVFV0ZE9mR25aM1BveUw4RndnUHlZbkUybGtQQXZqdGNrdGc?oc=5",
       "source": "Barron's"
     },
     {
@@ -69,69 +99,39 @@
       "source": "CNBC"
     },
     {
-      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
-      "summary": "Both properties will be solely in his name.",
-      "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "title": "How to downsize like a pro and free yourself from being a prisoner of your possessions",
+      "summary": "Seven tips for painlessly moving in retirement.",
+      "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Kalshi Examines Bets on Trump’s Pick for New White House Press Secretary",
+      "title": "Houthis Bombard Saudi Air Links in Effort to Cut Kingdom Off From Rest of World",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXMtVlkxUEU1UUNqVWtDdWluMFNzZEc1WE51dzU3SnhrU2xEc093d2puLTM5bjNjMHhfQ2tKMXljM0lVd2tMYnVJTWsxNTlXU05weXNkSm9OdTUtbmxoWGdGZ0lqQ2dGdnppMFM1SDJTNG81T3AzZlFhMFEyQzBBZzVUXzgybVZjck5LNlFSR3hWNDVscjdINVdqSzRndm1Xb1RfWnlxb3RFNVZ6d2pid2VWOXVQNVpB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc1YzeWZ5ZnFYX3g5SEdnVVUwSjBhY3JqTFFQTy1TNUZBc016TFFGQ0thUWtTWEQ4RlpIM0c4YUJSRm9zVTlvTVlvQmtkeEZLeGJ1LXZBYTFpT3lmbFpnekQxZk91a0Z5U0pHMDdwVS1YaXIzYlFCM0N1VVpWNGFUOWtKRUhrVzlRRThsb1hVRE4yWVBibjJRWDMtaVlTTk5VTzRXTDVFT25UZHU2TDhlcFZBdjRiYXczdXNMckdXakdyOXln?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "'Black Box' Revenue From Anthropic and OpenAI Stumps Traders",
+      "title": "Saudi Arabia Suspends Operations at Riyadh Airport After Attack",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYkhILXo3RWYzbS1GOWtma3NKS2p1VnhtWFE3QmFLMzhwcExvVkpYSmpKUDJXQzc3QnJUcVB2QmxyMHRaQUhrOHFLU1BmdzRHcmFNTFlvNjM1c2R4UnFweXl5TmJhZHdrSFhDSlhLYXRBRGZSZUlBRS00TGFycFFrTHI3Qk5OU2Vuc01fZURJaFUxUmZ2bXRxa0hzT2xTSThSWDJIeGtSSDFOZEF3SXBidmFR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONlhKZ2t3ZDBmbnc3Umd3am1aWF9pcXp0a1U5SmFyZVRjUkpBT0pnclZuQk52MXRPb1EwZjJEb09aTEdPU2gzb09SbUJ0NjNTdnJJa2FDS2NlS0FKRlJPU21fMWZaWEZnZlBNS09BWDVyUkY2dnJDMm5sU01OUjdQSUg0MW82SHNGcXJ1ZjlaWk9XVjZZZ1ZHb0RZTzN4dmtJd1E4LWFGYWtFQTlseTBMUl9lN2Y?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Chipotle, Starbucks, Palantir, Intel, SpaceX, Wolfspeed, and More Stocks That Explain Today’s Market",
+      "title": "AST SpaceMobile Stock Is Down on SpaceX News—and It Shouldn’t Be",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PXy1XRDNVckRWR0RpOWo1U1k2WGZ2c0xZcDA0MTl3bjBJTFoteUVhQlREUmdWZmpfMHVybUNBbURWUTQwMkJ0TGVCRGFLUzVMYXZvLWpZZTdjU05wT1dsYzhvYlE?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Skydance s David Ellison tells CNBC combined company is positioned to win in every single vertical",
-      "summary": "Skydance includes two film studios, the CBS broadcast network, a sprawling pay TV portfolio and streaming services Paramount+ and HBO Max.",
-      "link": "https://www.cnbc.com/2026/10/08/skydance-co-ceos-ellison-kreiz.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "How to provide guaranteed retirement income while paying no commissions",
-      "summary": "Unlike the stock market, whose future returns are anything but assured, a TIPS ladder s payout is guaranteed.",
-      "link": "https://www.marketwatch.com/story/how-to-provide-guaranteed-retirement-income-while-paying-no-commissions-b2085511?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "‘Musk’ Review: Alex Gibney’s Portrait of a Tech Titan",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDZMZUFxOEd5VTB6Nmc5YnJIUUdUeldmdXQ0SlFOYjBmRWw5aFE2bmxuTURmOWg1WVk5b3VxQm9UNU9RY1A3Q3dhRG1uMHE3S25xcHloa2pVZGxVZHZPV3FCcjlnMkRjaUU0eXhPb2lyRWNhYkhnbmhSak10UGx4dGpuUElkWTlvQ3lOZUxWRUc1ZktIcXBjbWdOLUQ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Panama Struck by Massive Quake, Sparking Tsunami Warnings",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaS16Y1NCVFJaZHJRUW1LbHFhTW9ERDdVQWxNUmV5VVlwMm1Zbmc0QTVJM2E3dURlZGgydHNfRG5jdEJ3SGdFclNTMkloN1VTeXVERV95R3JRcldidTlkbFJTaTNUSEpfamRDWWtOOVV5UnVqbTlvMHhpbnBQb2Z5RHlFYnhnSHgtLXU0b1dJZnU5SkpUSkwwcVBTdlFHa29VZVIzaGI3Z3JYUFRsVlVyb2hn?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Palantir Stock Has a Secret Weapon in the AI Boom, Goldman Sachs Says",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRURmS1FjdlFkVmhqdElDcGlPSFpZSUo1VWZmZUdWVDdjNWpaYzhfMXRzZFNrNlJ0RFdiTzFyMXk2bGNySC1hUFZhcG9DZzZ0Z3BJOUZreG41OTREMXN3M29xQ044MXNGNWdReDRpbXAtamstNUZyQU9VSlA4VWpvWkVVMVM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV2JNVWh5bFBobXRGLTBpNHdwLV9pdHlpTXdSZ3pWYTd6ZUU0WDVMMDRZS0NDOHNnMlh2UDRhYTMxdDJwYS1fT3lkYTFEWXM4WHg4ZVVtTHc1UVVFWnpKLU9kREZFQndWUEtmLVItSkJCU1RPbTU2ZlNrLTVLUV9PLTF6RF81Nk1GZ3JYZl9TMzFiZw?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "스타벅스의 치폴레 인수설과 주요 기업 실적 부진",
-  "summary": "스타벅스의 치폴레 인수 추진 보도와 함께 델타항공 및 펩시코가 실적 부진과 전망치 하향 조정을 발표하며 소비재 및 통신 섹터 전반에 하방 압력을 가했습니다. 반면 마이크로소프트는 4조 달러 클럽 가입을 목전에 두며 대형 기술주 내에서 차별화된 흐름을 보였습니다.",
+  "trend_headline": "마이크로소프트 CEO의 AI 속도 조절 경고와 엔비디아의 투자 확대 논의",
+  "summary": "마이크로소프트가 고성능 인공지능(AI) 개발에 대한 '비상 정지'를 촉구한 반면, 엔비디아는 컴퓨팅 및 반사 투자 확대를 논의하며 빅테크 진영 내 AI 속도 조절론과 확장론이 팽팽하게 맞섰습니다.",
   "key_points": [
-    "스타벅스가 자문사와 함께 치폴레 인수 제안을 검토 중인 것으로 보도",
-    "델타항공은 연료비 급등 여파로 2년 만에 처음으로 월가 예상치 하회",
-    "마이크로소프트는 시가총액 4조 달러 돌파를 눈앞에 두며 회복세 입증"
+    "마이크로소프트 CEO 사티아 나델라, 첨단 AI 개발에 대한 '비상 정지' 필요성 제기",
+    "엔비디아, 반사 투자(Reflection Investment) 및 컴퓨팅 관련 딜 논의 지속",
+    "엔비디아 지원 기업의 IPO 무산 등 AI 붐의 한계를 지적하는 목소리도 동시 부각"
   ],
   "sector_hints": [
-    "Consumer Discretionary",
-    "Technology"
+    "Technology",
+    "Communication Services"
   ]
 }

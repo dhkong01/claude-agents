@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
-      "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
-      "link": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "EU debates harsh working conditions for fishers: 'I had no other choice'",
-      "summary": "Endless weeks, shifts of up to 24 hours and even no drinking water: these were some of the hardships aired last week at a debate held by the EU Fisheries Committee with sector representatives.",
-      "link": "https://www.euronews.com/2026/10/08/eu-debates-harsh-working-conditions-for-fishers-i-had-no-other-choice",
+      "title": "EU and China clinch deal over cars after heated trade talks as Brussels pushes to rebalance trade",
+      "summary": "EU Trade Commissioner Maroš Šefčovič described the deal as marking the end of the “first phase” of negotiations. Brussels is pushing for a fundamental rebalancing in trade relations with Beijing.",
+      "link": "https://www.euronews.com/2026/10/09/eu-and-china-clinch-deal-over-cars-after-heated-trade-talks-as-brussels-pushes-to-rebalanc",
       "source": "Euronews Business"
     },
     {
@@ -21,15 +21,93 @@
       "source": "DW Business"
     },
     {
-      "title": "Croatian MEP stands down from national party after friends and family attended EU Parliament event",
-      "summary": "Romana Jerković announces she is leaving Croatia's SDP party.",
-      "link": "https://www.politico.eu/article/croatia-mep-romana-jerkovic-stand-down-national-party-friends-family-european-parliament-event/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "UK bans Protestant march from Catholic area in Northern Ireland",
+      "summary": "After a 13-day standoff in Portadown, the reversal thrills Irish republicans and enrages Northern Ireland’s unionists, who had hoped to complete a parade blocked since 1998.",
+      "link": "https://www.politico.eu/article/uk-bans-protestant-march-from-catholic-area-in-northern-ireland/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "'Add me to WhatsApp' scam calls to be investigated",
-      "summary": "The UK's data watchdog is investigating a spike in complaints about \"robo calls\" that appear to lead to a recruitment scam.",
-      "link": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo?at_medium=RSS&at_campaign=rss",
+      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+      "link": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "What happened to OpenAI’s $20bn? Revenue scare rattles AI trade",
+      "summary": "US tech futures rebounded on Friday, a day after a report that OpenAI’s annualised revenue was $20 billion (€17.8bn) below earlier estimates helped send the Nasdaq down 1.25% and hit chipmakers and cloud giants.",
+      "link": "https://www.euronews.com/2026/10/09/what-happened-to-openais-20bn-revenue-scare-rattles-ai-trade",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "How a multibillion-dollar oilfield has ignited the UK-Argentina feud over the Falklands",
+      "summary": "Argentina and the UK once fought a war over the Falkland Islands. Now, the multibillion-dollar Sea Lion oil project has reignited old tensions, with Buenos Aires seeking to put a stop to the plans.",
+      "link": "https://www.dw.com/en/how-a-multibillion-dollar-oilfield-has-ignited-the-uk-argentina-feud-over-the-falklands/a-79588973?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Trump lifts sanctions on Russian diesel, suggests US may buy amid surging fuel prices",
+      "summary": "The move comes weeks ahead of the midterm election.",
+      "link": "https://www.politico.com/news/2026/10/09/trump-diesel-sanctions-lifted-russia-01114977?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Boots has a new owner: Three ways it could affect you",
+      "summary": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
+      "link": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "German logistics group Rhenus plans up to 14 terminals along the Middle Corridor",
+      "summary": "Global logistics company Rhenus Group plans to build a new multimodal hub in the Kazakh city of Aktau and develop up to 14 terminals along the Middle Corridor. This network will link Uzbekistan, Kazakhstan, Azerbaijan and Türkiye, and connect the route to the company's infrastructure in Europe.",
+      "link": "https://www.euronews.com/2026/10/09/german-logistics-group-rhenus-plans-up-to-14-terminals-along-the-middle-corridor",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Arrested German spy chief lashed out at his old agency over allegations he spied for Russia",
+      "summary": "A letter sent weeks before August Hanning’s arrest adds to concerns over the BND’s credibility among allies.",
+      "link": "https://www.politico.eu/article/arrested-german-august-hanning-lashes-out-bnd-russia-spy-allegations/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Burnham promises to curb non-compete rules in job contracts",
+      "summary": "The prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".",
+      "link": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "QatarEnergy’s LNG expansion targets early 2027 production amid reports of $3bn loan",
+      "summary": "QatarEnergy is advancing its LNG expansion and has reportedly secured a $3 billion (€2.68bn) loan from Chinese banks as war damage and shipping risks constrain exports. Shipments through Hormuz are recovering, but remain far below pre-war levels.",
+      "link": "https://www.euronews.com/2026/10/09/qatarenergys-lng-expansion-targets-early-2027-production-amid-reports-of-3bn-loan",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Dutch PM slams ‘absurd’ US decision to livestream execution",
+      "summary": "The U.S. military is planning to broadcast a public execution on Dec. 3, but violent content must be moderated by social media platforms under EU law.",
+      "link": "https://www.politico.eu/article/dutch-pm-slams-absurd-us-decision-to-livestream-execution-rob-jetten/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+      "summary": "The Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.",
+      "link": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "EU debates harsh working conditions for fishers: 'I had no other choice'",
+      "summary": "Endless weeks, shifts of up to 24 hours and even no drinking water: these were some of the hardships aired last week at a debate held by the EU Fisheries Committee with sector representatives.",
+      "link": "https://www.euronews.com/2026/10/08/eu-debates-harsh-working-conditions-for-fishers-i-had-no-other-choice",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "France, Germany try to save face on joint tank project",
+      "summary": "Paris and Berlin have insisted the Main Ground Combat System project is still alive, after France's top general said Germany pulled out.",
+      "link": "https://www.politico.eu/article/france-germany-joint-tank-project-mgcs/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "I've been with my boyfriend for two years and don't know his salary",
+      "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
+      "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -39,100 +117,22 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Merz, Macron seek tougher EU measures against unfair trade",
-      "summary": "Emmanuel Macron and Friedrich Merz have written to Ursula von der Leyen, calling for tougher EU mechanisms against unfair trade practices by other states. They name no names but seem to have China or the US in mind.",
-      "link": "https://www.dw.com/en/merz-macron-seek-tougher-eu-measures-against-unfair-trade/a-79554905?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "NATO attempts to cool tensions with Russia ahead of key nuclear exercise",
-      "summary": "Italy is hosting NATO's annual nuclear exercise, which starts next week.",
-      "link": "https://www.politico.eu/article/nato-attempts-to-cool-tensions-with-russia-ahead-of-key-nuclear-exercise/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "China und die EU haben nach Angaben Pekings eine Einigung zu Hybrid-Autos erzielt",
+      "summary": "Handelskommissar Maroš Šefčovič bemüht sich um eine Zusage aus Peking, den boomenden Export chinesischer Plug-in-Hybrid-Elektrofahrzeuge nach Europa einzudämmen.",
+      "link": "https://www.politico.eu/article/china-und-die-eu-haben-nach-angaben-pekings-eine-einigung-zu-hybrid-autos-erzielt/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "'I don't know what my partner earns': How soon into dating should you reveal your salary?",
-      "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
-      "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Ryanair CEO sees no European jet fuel shortages into summer 2027",
-      "summary": "Ryanair CEO Michael O’Leary expects Europe to have enough jet fuel through next summer, but warns that high prices will persist for another 12 to 18 months.",
-      "link": "https://www.euronews.com/2026/10/08/ryanair-ceo-sees-no-european-jet-fuel-shortages-into-summer-2027",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Euro plummets against US dollar: Has the next financial crisis begun?",
-      "summary": "The euro has fallen to a 17-month low against the dollar. That will make inflation worse in the EU, where political worries and concern over French debt are already troubling investors. Is a fiscal crisis at hand?",
-      "link": "https://www.dw.com/en/euro-plummets-against-us-dollar-has-the-next-financial-crisis-begun/a-79549031?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "French top general acknowledges joint tank program with Germany has failed",
-      "summary": "Major industrial program was dogged by years of delays, industrial disputes and political tensions.",
-      "link": "https://www.politico.eu/article/french-top-general-acknowledges-franco-german-tank-program-failed/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "White House blocks Microsoft from foreign worker hiring program",
-      "summary": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad.",
-      "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Samsung flags 783% profit jump to record $80bn as AI chip boom also lifts TSMC sales",
-      "summary": "Samsung Electronics estimated on Thursday that its third-quarter operating profit jumped almost ninefold to a record 107.4 trillion won, or $80.2 billion, while sales at Taiwan's TSMC hit a quarterly record, as the AI boom keeps demand for chips strong.",
-      "link": "https://www.euronews.com/2026/10/08/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "UK plans to announce ban on workers non-compete clauses in push for growth",
-      "summary": "The government believes the clauses, common in tech and financial firms, undermine innovation.",
-      "link": "https://www.politico.eu/article/uk-plans-to-announce-ban-on-workers-non-compete-clauses-in-push-for-growth/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Asos hackers took more personal details than first revealed, BBC finds",
-      "summary": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact details\"",
-      "link": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "MEPs urge tougher action against China as tensions hit ‘critical point’",
-      "summary": "The resolution calls China “a decisive enabler” of Russia’s war in Ukraine and says the EU should take action against China’s weaponisation of the rare eath minerals that Europe depends on.",
-      "link": "https://www.euronews.com/2026/10/07/meps-urge-tougher-action-against-china-as-tensions-hit-critical-point",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Une primaire qui va laisser des traces ?",
-      "summary": "Qui sortira vainqueur de la campagne express et des trois débats de la primaire organisée par le PS, Place publique et GRS ? Près de 140 000 personnes sont appelées à voter vendredi et samedi. Ce corps électoral est difficilement sondable. Présenté comme le favori, le président de Place publique Rap",
-      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/une-primaire-qui-va-laisser-des-traces/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Why are more roofs not made of solar tiles?",
-      "summary": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?",
-      "link": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Mercedes global sales fall 6% as electric car sales hit record high",
-      "summary": "Mercedes-Benz shares fell after the German carmaker reported a 6% fall in global sales, driven by weakness in China. Sales outside China edged higher, supported by growth in Europe and North America.",
-      "link": "https://www.euronews.com/2026/10/07/mercedes-global-sales-fall-6-as-electric-car-sales-hit-record-high",
-      "source": "Euronews Business"
     }
   ],
-  "trend_headline": "유로화 약세와 프랑스 재정 불안 속 프랑스-독일 핵심 방산·통상 갈등 고조",
-  "summary": "유로화가 17개월 내 최저치로 추락한 가운데, 프랑스와 독일 수장이 EU 차원의 대중국 통상 압박 강화를 요구하고 있습니다. 이와 동시에 양국의 차세대 전차 공동 개발(FCAS) 프로그램 결렬이 공식화되며 방산 및 자동차 섹터의 불확실성이 가중되고 있습니다.",
+  "trend_headline": "EU·중국 자동차 관세 타결과 디젤 완화",
+  "summary": "EU와 중국이 하이브리드 차량 수출 제한 합의를 도출하며 무역 긴장을 완화한 가운데, 미국의 러시아 디젤 제재 해제 조치가 유럽 에너지 시장의 가격 변동성과 공급망 재편 압력을 동시에 높이고 있습니다.",
   "key_points": [
-    "유로화, 미 달러 대비 17개월 내 최저치 기록하며 프랑스 재정 우려 및 인플레이션 압박 심화",
-    "독일 숄츠 정부와 프랑스 마크롱 대통령, EU 집행위에 중국 등 불공정 무역 관행 대응 강화를 공동 서한으로 촉구",
-    "프랑스 최고 사령관이 독·프 공동 전차 프로그램(FCAS) 실패를 공식 인정하며 방산 섹터 구조조정 불가피"
+    "EU-중국, 향후 4년간 수백만 대의 중국산 하이브리드 차량 유입을 막는 무역 협정 타결",
+    "미국의 러시아 디젤 제재 해제 및 유가 안정 시도 속에서 이탈리아 등 유럽 주요국은 디젤 세제 혜택 종료 검토",
+    "삼성전자 3분기 영업이익 783폭증 및 TSMC 호실적 등 AI 반도체 랠리가 빅테크 섹터의 투자 심리를 견인"
   ],
   "sector_hints": [
-    "Financials",
+    "Energy",
     "Automotive",
-    "Energy"
+    "Technology"
   ]
 }

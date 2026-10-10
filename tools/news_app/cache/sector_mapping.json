@@ -1,15 +1,42 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "sectors": [
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "마이크로소프트의 시가총액 4조 달러 돌파 기대감과 글로벌 AI 투자 심리 회복이 대형 기술주 섹터의 상승을 견인하고 있습니다.",
+      "related_tickers": [
+        "MSFT",
+        "AAPL"
+      ],
+      "source_regions": [
+        "US",
+        "EU"
+      ]
+    },
+    {
+      "name": "Semiconductors",
+      "direction": "positive",
+      "score": 8.8,
+      "rationale": "삼성전자의 3분기 깜짝 실적과 TSMC의 호실적 등 글로벌 AI 반도체 랠리가 반도체 섹터 전반에 강력한 투자 심리를 불어넣고 있습니다.",
+      "related_tickers": [
+        "TSM",
+        "NVDA",
+        "ASML"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    },
     {
       "name": "Consumer Staples",
       "direction": "negative",
-      "score": -6.0,
-      "rationale": "펩시코가 북미 시장의 성장 정체로 인해 연간 실적 전망치를 하향 조정하면서 필수소비재 섹터 전반에 대한 수요 둔화 우려가 커졌습니다.",
+      "score": -6.5,
+      "rationale": "펩시코가 실적 부진과 함께 향후 전망치를 하향 조정하면서 필수소비재 섹터 전반에 하방 압력이 가해지고 있습니다.",
       "related_tickers": [
         "PEP",
-        "KO",
-        "PG"
+        "KO"
       ],
       "source_regions": [
         "US"
@@ -18,50 +45,47 @@
     {
       "name": "Industrials",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "프랑스와 독일의 차세대 전차 공동 개발(FCAS) 프로그램 결렬이 공식화되면서 유럽 방산 기업들의 구조조정 우려 및 섹터 내 불확실성이 가중되었습니다.",
+      "score": -6.0,
+      "rationale": "델타항공이 고유가 여파로 2년 만에 처음으로 월가 예상치를 하회하는 실적을 발표하며 항공 및 운송을 포함한 산업재 섹터에 부정적인 영향을 미쳤습니다.",
       "related_tickers": [
-        "RHM",
-        "SAF",
-        "LMT"
+        "DAL",
+        "UAL"
       ],
       "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "미국의 러시아산 디젤 제재 해제로 인한 공급 우려 완화 및 유가 안정 시도와 함께, 유럽 주요국의 디젤 세제 혜택 종료 검토가 에너지 섹터의 정제 마진에 하방 압력으로 작용하고 있습니다.",
+      "related_tickers": [
+        "XOM",
+        "CVX",
+        "ENI"
+      ],
+      "source_regions": [
+        "US",
         "EU"
       ]
     },
     {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "홍콩의 소매용 부동산 가치 하락 압박과 자금 경색 우려가 제기되며 아시아 지역 부동산 섹터의 투자 심리가 위축되고 있습니다.",
+      "name": "Consumer Discretionary",
+      "direction": "neutral",
+      "score": 1.0,
+      "rationale": "미국의 스타벅스-치폴레 인수 검토 소식에 따른 불확실성과 유럽-중국 간 하이브리드 차량 유입 제한 협정 타결(유럽 완성차 업체에 호재)이 교차하며 혼조세를 보이고 있습니다.",
       "related_tickers": [
-        "0016.HK",
-        "1113.HK"
+        "SBUX",
+        "CMG",
+        "BMW",
+        "MBG"
       ],
       "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "유로화의 17개월 내 최저치 추락에 따른 프랑스 재정 우려 및 인플레이션 압박, 그리고 홍콩 IPO 시장의 자금 경색 조짐이 금융 섹터에 부담으로 작용하고 있습니다.",
-      "related_tickers": [
-        "BNP",
-        "GLE",
-        "0388.HK"
-      ],
-      "source_regions": [
-        "EU",
-        "ASIA"
+        "US",
+        "EU"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Semiconductors",
-      "note": "미국은 OpenAI의 매출 우려로 엔비디아와 마이크론 등 AI 반도체주가 하락했으나, 아시아(대만)에서는 TSMC가 AI 수요 폭증에 힘입어 사상 최고 실적을 경신하는 등 지역 간 실적 및 심리적 온도차가 뚜렷합니다."
-    }
-  ]
+  "conflicting_signals": []
 }

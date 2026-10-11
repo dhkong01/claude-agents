@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
@@ -113,6 +113,12 @@
         "price": 293.26
       },
       {
+        "ticker": "WDC",
+        "rs": 90.8,
+        "canslim": 58,
+        "price": 397.28
+      },
+      {
         "ticker": "ANET",
         "rs": 87.3,
         "canslim": 58,
@@ -147,19 +153,13 @@
         "rs": 93.5,
         "canslim": 55,
         "price": 783.0
-      },
-      {
-        "ticker": "WDC",
-        "rs": 90.8,
-        "canslim": 55,
-        "price": 397.28
       }
     ]
   },
   "macro": {
     "phase": "RISK_ON",
-    "vix": 15.41,
-    "yield10y": 5.23,
+    "vix": 14.84,
+    "yield10y": 5.24,
     "rec_sectors": [
       "Technology",
       "Consumer Discretionary",
@@ -168,8 +168,8 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 8.5,
-    "risk_level": "HIGH",
-    "market_bias": "RISK_OFF"
+    "risk_score": 4.0,
+    "risk_level": "MEDIUM",
+    "market_bias": "NEUTRAL"
   }
 }

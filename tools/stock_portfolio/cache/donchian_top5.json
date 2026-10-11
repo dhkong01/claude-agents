@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "stocks": [
     {
       "ticker": "DDOG",
@@ -16,7 +16,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 4.0
+      "allocation_pct": 16.0
     },
     {
       "ticker": "FTNT",
@@ -33,7 +33,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 4.0
+      "allocation_pct": 16.0
     },
     {
       "ticker": "ANET",
@@ -50,7 +50,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 4.0
+      "allocation_pct": 16.0
     },
     {
       "ticker": "CSCO",
@@ -67,7 +67,7 @@
       "pivot": 111.58,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 16.0
     },
     {
       "ticker": "MSFT",
@@ -84,20 +84,20 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": false,
-      "allocation_pct": 4.0
+      "allocation_pct": 16.0
     }
   ],
   "hedge": {
-    "long_pct": 20,
-    "sqqq_pct": 20,
-    "cash_pct": 60,
-    "per_stock_pct": 4.0,
-    "action": "MAX_DEFENSIVE",
+    "long_pct": 80,
+    "sqqq_pct": 5,
+    "cash_pct": 15,
+    "per_stock_pct": 16.0,
+    "action": "LIGHT_HEDGE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 8.5 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 20% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 4.0 \u2014 SQQQ 5% \uc18c\ud615 \ud5e4\uc9c0, \ud604\uae08 15% \ud655\ubcf4. [Energy, Defense ELEVATED]"
   }
 }

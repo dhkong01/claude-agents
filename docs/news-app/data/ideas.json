@@ -1,153 +1,120 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "horizons": {
     "1w": [
       {
-        "theme": "TSMC 실적 호조 및 아시아 반도체 모멘텀",
+        "theme": "TSMC 실적 발표 및 반도체 공급망 단기 모멘텀",
         "sectors": [
           "Semiconductors"
         ],
         "tickers": [
           "TSM",
-          "NVDA",
-          "ASML"
+          "NVDA"
         ],
-        "rationale": "TSMC의 사상 최대 3분기 실적과 한국의 반도체 수출 호조에 힘입은 단기 실적 모멘텀 반등 기대.",
-        "risk": "미국 빅테크 진영 내 AI 속도 조절론 확산 시 상승폭 제한 가능성",
+        "rationale": "TSMC의 사상 최대 3분기 실적 발표 기대감과 일본/중국 내 반도체 공급망 모멘텀이 단기 주가 상승 촉매로 작용.",
+        "risk": "실적 발표 후 재료 소진으로 인한 차익실현 물량 출회 및 US 국채 금리 상승 부담",
         "conviction": "high"
       },
       {
-        "theme": "EU-중국 자동차 관세 협상 타결 단기 수혜",
+        "theme": "필수소비재 및 운송 업종 실적 가이던스 하향 우려",
         "sectors": [
-          "Consumer Discretionary"
+          "Consumer Staples",
+          "Industrials"
         ],
         "tickers": [
-          "STLA",
-          "VOW3",
-          "RNO"
+          "PEP",
+          "DAL"
         ],
-        "rationale": "EU와 중국 간 관세 협정 1단계 타결로 유럽 완성차 업체들의 무역 불확실성 완화 및 단기 반등 모멘텀.",
-        "risk": "유럽 유가 변동성 및 유류비 상승에 따른 소비 심리 위축",
+        "rationale": "펩시코의 수요 부진 및 원가 부담으로 인한 가이던스 하향과 델타항공의 유가/연료비 상승에 따른 2026 실적 하향 영향으로 단기 약세 우려.",
+        "risk": "국제 유가 단기 안정화 및 실적 악재 선반영에 따른 빠른 기술적 반등",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "아시아 기술주 유동성 및 원화 강세 자금 유입",
+        "theme": "빅테크 중심의 AI 스타트업 M&A 및 투자 자금 유입",
         "sectors": [
-          "Semiconductors",
           "Technology"
         ],
         "tickers": [
-          "TSM",
-          "NVDA"
+          "AMZN",
+          "MSFT"
         ],
-        "rationale": "한국 반도체 수출 호조발 원화 강세와 아시아 기술주 활력이 결합되어 관련 공급망 종목으로 자금 유입 지속.",
-        "risk": "마이크로소프트 등 첨단 AI 개발 속도 조절론에 따른 우려 상존",
-        "conviction": "medium"
+        "rationale": "아마존의 데카르트(약 70억 달러) 인수 협상 등 빅테크 중심의 AI 관련 M&A 및 자본 지출 모멘텀 지속.",
+        "risk": "국채 금리 급등 지속에 따른 고밸류에이션 테크 섹터 자금 유출",
+        "conviction": "high"
       },
       {
-        "theme": "에너지 제재 완화와 유가 변동성 속 수급 탐색",
+        "theme": "EU-중국 자동차 무역 협상 타결 및 관세 불확실성 해소",
         "sectors": [
-          "Energy"
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "SHEL",
-          "TTE",
-          "XOM"
+          "STLA",
+          "VOW3"
         ],
-        "rationale": "미국의 러시아 디젤 제재 완화 이슈와 유가 변동성이 팽팽하게 맞서며 단기 혼조세 속 가격 재조정 과정 진행.",
-        "risk": "미국 제재 완화 가속 시 정제 마진 압박 가중",
-        "conviction": "low"
+        "rationale": "EU와 중국 간 자동차 부문 무역 협상 완료로 무역 불확실성이 해소되고 완성차 업체들의 전기차 신모델 출시 모멘텀 강화.",
+        "risk": "유럽 주요 기여국의 예산 재정 갈등 및 소비자 지출 둔화",
+        "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "중국 레거시 반도체 투자 확대 및 장비 수혜",
+        "theme": "유가 변동성 확대 및 연료비 상승 국면의 에너지 우위",
         "sectors": [
-          "Semiconductors"
+          "Energy"
         ],
         "tickers": [
-          "ASML",
-          "TSM"
+          "XOM",
+          "CVX"
         ],
-        "rationale": "중국 정부의 국가 자본 동원을 통한 레거시 칩 투자 대폭 강화로 중기적 반도체 장비 및 공급망 수혜 기대.",
-        "risk": "미·중 기술 패권 경쟁 심화에 따른 추가 수출 규제 가능성",
-        "conviction": "high"
+        "rationale": "국제 유가 변동성 확대 및 연료비 급등세 지속으로 에너지 기업들의 분기 실적 수혜 기대감 고조.",
+        "risk": "글로벌 경기 둔화 우려로 인한 원유 수요 감소 가능성",
+        "conviction": "medium"
       },
       {
-        "theme": "빅테크 AI CapEx 차별화 및 수익성 검증 국면",
+        "theme": "아시아 부동산 시장 정책 수혜 및 자금 재편",
         "sectors": [
-          "Technology",
-          "Semiconductors"
+          "Real Estate"
         ],
         "tickers": [
-          "MSFT",
-          "NVDA"
+          "PLD",
+          "EQR"
         ],
-        "rationale": "마이크로소프트의 AI 개발 속도 조절 촉구와 엔비디아의 투자 확장론이 대립하며 분기 실적을 통한 CapEx 검증 진행.",
-        "risk": "AI 투자의 수익화 시점 지연에 따른 밸류에이션 리레이팅 지연",
-        "conviction": "medium"
+        "rationale": "일본 임대주택 시장 자금 유입과 중국 주요 도시의 상업용 토지 재산권 갱신 정책에 따른 시장 안정화 수혜.",
+        "risk": "고금리 장기화에 따른 글로벌 리츠 및 부동산 관련 조달비용 가중",
+        "conviction": "low"
       }
     ],
     "6m": [
       {
-        "theme": "글로벌 반도체 공급망 이중화 및 자립화 재편",
+        "theme": "아시아 반도체 공급망 구조 재편 및 패키징 투자 확대",
         "sectors": [
           "Semiconductors"
         ],
         "tickers": [
-          "ASML",
           "TSM",
           "NVDA"
         ],
-        "rationale": "첨단 AI 칩 패권 경쟁과 중국의 레거시 칩 자립화 투자가 동시에 전개되며 글로벌 반도체 공급망 구조적 재편.",
-        "risk": "공급망 파편화로 인한 설비 투자 비효율성 및 비용 증가",
+        "rationale": "일본 디스플레이 공장의 반도체 시설 전환, 중국의 반도체 소재 및 패키징 투자 확대 등 중기적 반도체 생태계 체질 개선 가속화.",
+        "risk": "미중 기술 무역 갈등 격화 및 미 반도체 수출 규제 추가 강화",
         "conviction": "high"
-      },
-      {
-        "theme": "유럽 예산 감축 및 산업 경쟁력 재설계",
-        "sectors": [
-          "Consumer Discretionary",
-          "Energy"
-        ],
-        "tickers": [
-          "STLA",
-          "SHEL"
-        ],
-        "rationale": "유럽 주요국의 EU 예산 감축 경고와 에너지 변동성이 지속됨에 따라 구조적 비용 절감 및 산업 경쟁력 재편 필요성 증대.",
-        "risk": "유럽 경제 경기 침체 우려 심화",
-        "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "AI 기술 패러다임과 안전 규제 레짐의 정립",
+        "theme": "AI 패러다임 전환과 빅테크 기술 생태계 독점화",
         "sectors": [
           "Technology",
           "Semiconductors"
         ],
         "tickers": [
-          "NVDA",
-          "MSFT"
+          "AMZN",
+          "NVDA"
         ],
-        "rationale": "AI 고성능 개발 '비상 정지' 논의 등 안전성 가이드라인 구축과 지속적인 AI 컴퓨팅 인프라 확장 간의 구조적 균형 형성.",
-        "risk": "각국 정부의 강력한 AI 개발 규제 입법화",
-        "conviction": "medium"
-      },
-      {
-        "theme": "신지정학 교역 질서 및 무역 협정 재균형",
-        "sectors": [
-          "Consumer Discretionary",
-          "Energy"
-        ],
-        "tickers": [
-          "VOW3",
-          "TTE"
-        ],
-        "rationale": "EU-중국 간 자동차 관세 협상 타결 등 미·중 패권 구도 속 지역별 무역 협력 관계의 장기적 재균형 유동성 반영.",
-        "risk": "글로벌 보호무역주의 재확산 및 지정학적 충격",
-        "conviction": "medium"
+        "rationale": "빅테크 기업들의 공격적인 AI 스타트업 인수와 반도체 인프라 수주 확대를 통한 AI 기술 패러다임 내 구조적 우위 확보.",
+        "risk": "빅테크 독점 방지 정부 규제 강화 및 AI 투자 대비 수익화(ROI) 지연 위험",
+        "conviction": "high"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "risk_score": 4.0,
   "risk_level": "MEDIUM",
   "market_bias": "NEUTRAL",
@@ -7,12 +7,11 @@
   "medium_risk_signals": 1,
   "sector_impacts": {
     "Energy": "ELEVATED",
+    "Semiconductors": "WATCH",
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "As Putin Wages Shadow War, Europe Looks For A Way To Hit Back",
-    "Navi Pillay, South African Jurist, Is Awarded The Nobel Peace Prize",
-    "Israel Denounces The Decision To Award The Nobel Peace Prize To Navi Pillay"
+    "As Putin Wages Shadow War, Europe Looks For A Way To Hit Back"
   ],
   "recommendation": "\uc911\uac04 \ub9ac\uc2a4\ud06c. \ubd84\uc0b0 \ud3ec\ud2b8\ud3f4\ub9ac\uc624 \uc720\uc9c0. Energy, Defense \uc139\ud130 \ubaa8\ub2c8\ud130\ub9c1.",
   "hedge": {

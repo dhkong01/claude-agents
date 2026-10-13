@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "rs90_count": 13,
+  "date": "2026-10-12",
+  "rs90_count": 14,
   "stocks": [
     {
       "ticker": "SNDK",
@@ -23,31 +23,31 @@
       "rs_rating": 96.2
     },
     {
-      "ticker": "AEHR",
+      "ticker": "CRWD",
       "rs_rating": 95.6
     },
     {
-      "ticker": "CRWD",
+      "ticker": "FTNT",
       "rs_rating": 94.9
     },
     {
-      "ticker": "FTNT",
+      "ticker": "STX",
       "rs_rating": 94.2
     },
     {
-      "ticker": "STX",
+      "ticker": "PANW",
       "rs_rating": 93.5
     },
     {
-      "ticker": "PANW",
+      "ticker": "DDOG",
       "rs_rating": 92.8
     },
     {
-      "ticker": "DDOG",
+      "ticker": "INTC",
       "rs_rating": 92.1
     },
     {
-      "ticker": "INTC",
+      "ticker": "AEHR",
       "rs_rating": 91.4
     },
     {
@@ -56,6 +56,10 @@
     },
     {
       "ticker": "ARM",
+      "rs_rating": 90.1
+    },
+    {
+      "ticker": "ANET",
       "rs_rating": 89.4
     },
     {
@@ -64,10 +68,6 @@
     },
     {
       "ticker": "PLTR",
-      "rs_rating": 88.0
-    },
-    {
-      "ticker": "ANET",
       "rs_rating": 87.3
     },
     {
@@ -79,23 +79,23 @@
       "rs_rating": 85.9
     },
     {
-      "ticker": "LRCX",
+      "ticker": "ZS",
       "rs_rating": 85.2
     },
     {
-      "ticker": "ZS",
+      "ticker": "SHOP",
       "rs_rating": 84.6
     },
     {
-      "ticker": "ASML",
+      "ticker": "LRCX",
       "rs_rating": 83.9
     },
     {
-      "ticker": "TXN",
+      "ticker": "ADI",
       "rs_rating": 83.2
     },
     {
-      "ticker": "ADI",
+      "ticker": "TXN",
       "rs_rating": 82.5
     },
     {
@@ -103,32 +103,32 @@
       "rs_rating": 81.8
     },
     {
-      "ticker": "SHOP",
+      "ticker": "AMGN",
       "rs_rating": 81.1
     },
     {
-      "ticker": "AMGN",
-      "rs_rating": 79.8
+      "ticker": "ASML",
+      "rs_rating": 80.4
     },
     {
       "ticker": "DXCM",
+      "rs_rating": 79.8
+    },
+    {
+      "ticker": "AAPL",
       "rs_rating": 79.1
     },
     {
       "ticker": "KLAC",
       "rs_rating": 78.4
-    },
-    {
-      "ticker": "ABNB",
-      "rs_rating": 77.7
     }
   ],
   "portfolio_rs": {
-    "VKTX": 13.1,
+    "VKTX": 15.1,
     "MRVL": 96.9,
-    "CRDO": 80.4,
-    "NBIS": 90.1,
-    "RDDT": 14.4,
-    "VRT": 49.5
+    "CRDO": 73.6,
+    "NBIS": 88.0,
+    "RDDT": 17.2,
+    "VRT": 44.0
   }
 }

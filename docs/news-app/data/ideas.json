@@ -1,120 +1,148 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "horizons": {
     "1w": [
       {
-        "theme": "TSMC 실적 발표 및 반도체 공급망 단기 모멘텀",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM",
-          "NVDA"
-        ],
-        "rationale": "TSMC의 사상 최대 3분기 실적 발표 기대감과 일본/중국 내 반도체 공급망 모멘텀이 단기 주가 상승 촉매로 작용.",
-        "risk": "실적 발표 후 재료 소진으로 인한 차익실현 물량 출회 및 US 국채 금리 상승 부담",
-        "conviction": "high"
-      },
-      {
-        "theme": "필수소비재 및 운송 업종 실적 가이던스 하향 우려",
-        "sectors": [
-          "Consumer Staples",
-          "Industrials"
-        ],
-        "tickers": [
-          "PEP",
-          "DAL"
-        ],
-        "rationale": "펩시코의 수요 부진 및 원가 부담으로 인한 가이던스 하향과 델타항공의 유가/연료비 상승에 따른 2026 실적 하향 영향으로 단기 약세 우려.",
-        "risk": "국제 유가 단기 안정화 및 실적 악재 선반영에 따른 빠른 기술적 반등",
-        "conviction": "medium"
-      }
-    ],
-    "1m": [
-      {
-        "theme": "빅테크 중심의 AI 스타트업 M&A 및 투자 자금 유입",
-        "sectors": [
-          "Technology"
-        ],
-        "tickers": [
-          "AMZN",
-          "MSFT"
-        ],
-        "rationale": "아마존의 데카르트(약 70억 달러) 인수 협상 등 빅테크 중심의 AI 관련 M&A 및 자본 지출 모멘텀 지속.",
-        "risk": "국채 금리 급등 지속에 따른 고밸류에이션 테크 섹터 자금 유출",
-        "conviction": "high"
-      },
-      {
-        "theme": "EU-중국 자동차 무역 협상 타결 및 관세 불확실성 해소",
-        "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "STLA",
-          "VOW3"
-        ],
-        "rationale": "EU와 중국 간 자동차 부문 무역 협상 완료로 무역 불확실성이 해소되고 완성차 업체들의 전기차 신모델 출시 모멘텀 강화.",
-        "risk": "유럽 주요 기여국의 예산 재정 갈등 및 소비자 지출 둔화",
-        "conviction": "medium"
-      }
-    ],
-    "3m": [
-      {
-        "theme": "유가 변동성 확대 및 연료비 상승 국면의 에너지 우위",
+        "theme": "지정학 리스크 촉발 유가 급등 수혜",
         "sectors": [
           "Energy"
         ],
         "tickers": [
           "XOM",
-          "CVX"
+          "CVX",
+          "SHEL"
         ],
-        "rationale": "국제 유가 변동성 확대 및 연료비 급등세 지속으로 에너지 기업들의 분기 실적 수혜 기대감 고조.",
-        "risk": "글로벌 경기 둔화 우려로 인한 원유 수요 감소 가능성",
-        "conviction": "medium"
+        "rationale": "중동 및 유럽 지정학적 긴장 고조에 따른 국제 유가 급등 헤드라인 모멘텀 반영",
+        "risk": "외교적 협상 진전에 따른 단기 유가 급락",
+        "conviction": "high"
       },
       {
-        "theme": "아시아 부동산 시장 정책 수혜 및 자금 재편",
+        "theme": "EU-중국 전기차 관세 협상 타결 안도 랠리",
         "sectors": [
-          "Real Estate"
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "PLD",
-          "EQR"
+          "VOW3",
+          "MBG",
+          "STLA"
         ],
-        "rationale": "일본 임대주택 시장 자금 유입과 중국 주요 도시의 상업용 토지 재산권 갱신 정책에 따른 시장 안정화 수혜.",
-        "risk": "고금리 장기화에 따른 글로벌 리츠 및 부동산 관련 조달비용 가중",
-        "conviction": "low"
+        "rationale": "관세 분쟁 완화로 유럽 자동차 섹터의 불확실성 해소 및 단기 쇼트커버링 기대",
+        "risk": "협상 세부 이행안 불협화음 및 경기 침체 우려",
+        "conviction": "medium"
       }
     ],
-    "6m": [
+    "1m": [
       {
-        "theme": "아시아 반도체 공급망 구조 재편 및 패키징 투자 확대",
+        "theme": "아시아 AI 인프라 자본 유입 모멘텀",
         "sectors": [
-          "Semiconductors"
+          "Technology"
         ],
         "tickers": [
           "TSM",
           "NVDA"
         ],
-        "rationale": "일본 디스플레이 공장의 반도체 시설 전환, 중국의 반도체 소재 및 패키징 투자 확대 등 중기적 반도체 생태계 체질 개선 가속화.",
-        "risk": "미중 기술 무역 갈등 격화 및 미 반도체 수출 규제 추가 강화",
+        "rationale": "중화권 자금 유입 및 한국·대만·일본의 AI 데이터센터 확장 주도 모멘텀 지속",
+        "risk": "미국 빅테크의 단기 AI 피로감 전이",
         "conviction": "high"
+      },
+      {
+        "theme": "자산배분 하향에 따른 글로벌 금융주 비중 축소",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [
+          "BLK",
+          "JPM"
+        ],
+        "rationale": "블랙록의 주식 자산 하향 및 시장 전반의 위험회피 심리로 금융 섹터 자금 유출",
+        "risk": "금리 환경 안정화에 따른 위험자산 선호 급반등",
+        "conviction": "medium"
+      }
+    ],
+    "3m": [
+      {
+        "theme": "유럽 완성차 규제 완화 및 실적 회복 사이클",
+        "sectors": [
+          "Consumer Discretionary"
+        ],
+        "tickers": [
+          "VOW3",
+          "MBG"
+        ],
+        "rationale": "독일·이탈리아 주도의 EU 규제 중단 요구 및 관세 리스크 해소의 분기 실적 가시화",
+        "risk": "유럽 내수 경기 부진 장기화",
+        "conviction": "medium"
+      },
+      {
+        "theme": "반도체 공급망 차별화(아시아 파운드리/메모리 우위)",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "TSM",
+          "MU"
+        ],
+        "rationale": "미국 반도체는 중국 경쟁 위협을 받는 반면, 아시아 공급망 동맹은 견고한 분기 실적 증명 기대",
+        "risk": "중국 로컬 반도체 자급률 상승 속도 가속화",
+        "conviction": "medium"
+      }
+    ],
+    "6m": [
+      {
+        "theme": "글로벌 지정학 분절화와 방산 인프라 수주 사이클",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [
+          "HO",
+          "LMT",
+          "BA"
+        ],
+        "rationale": "우크라이나 전쟁 등 지정학적 리스크 지속에 따른 유럽 방산 기업 거점 확장 및 구조적 수주 증가",
+        "risk": "종전 협상 진전 또는 유럽 재정 긴축",
+        "conviction": "high"
+      },
+      {
+        "theme": "유럽 에너지 안보 및 공급망 인프라 재편",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [
+          "SHEL",
+          "CVX"
+        ],
+        "rationale": "유럽 내 에너지 인프라 투자 지속 및 다변화된 에너지 공급망 확보 수요 지속",
+        "risk": "글로벌 경기 침체로 인한 원유 및 에너지 수요 위축",
+        "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "AI 패러다임 전환과 빅테크 기술 생태계 독점화",
+        "theme": "범아시아-미국 연계 AI 데이터센터 인프라 패러다임",
         "sectors": [
           "Technology",
-          "Semiconductors"
+          "Industrials"
         ],
         "tickers": [
-          "AMZN",
+          "TSM",
           "NVDA"
         ],
-        "rationale": "빅테크 기업들의 공격적인 AI 스타트업 인수와 반도체 인프라 수주 확대를 통한 AI 기술 패러다임 내 구조적 우위 확보.",
-        "risk": "빅테크 독점 방지 정부 규제 강화 및 AI 투자 대비 수익화(ROI) 지연 위험",
+        "rationale": "단기 노이즈를 극복하고 일본·대만·한국을 잇는 차세대 AI 하드웨어 생태계 완성 메가트렌드",
+        "risk": "AI ROI(투자자본수익률) 검증 지연 및 미-중 기술 제재 심화",
         "conviction": "high"
+      },
+      {
+        "theme": "신냉전 레짐 고착화에 따른 안보·방산 구조적 리레이팅",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [
+          "LMT",
+          "HO"
+        ],
+        "rationale": "지정학적 다극화 레짐 하에서 국방 지출의 비가역적 증가 및 방위산업 밸류에이션 재평가",
+        "risk": "각국 정부 부채 부담에 따른 중장기 국방 예산 동결",
+        "conviction": "medium"
       }
     ]
   }

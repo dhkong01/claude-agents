@@ -1,98 +1,67 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "sectors": [
     {
-      "name": "Semiconductors",
+      "name": "Energy",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "TSMC의 사상 최대 3분기 실적 기대감과 일본 디스플레이 공장의 반도체 시설 전환, 중국 내 반도체 패키징 투자 확대 등 아시아 전반의 반도체 공급망 모멘텀이 크게 강화됨.",
+      "score": 7.5,
+      "rationale": "지정학적 리스크 심화에 따른 국제 유가 급등과 유럽 내 에너지 인프라 투자 지속이 호재로 작용함.",
       "related_tickers": [
-        "TSM",
-        "NVDA"
+        "XOM",
+        "CVX",
+        "SHEL"
       ],
       "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "아마존이 AI 스타트업 데카르트를 약 70억 달러에 인수하기 위한 협상을 진행하면서 빅테크 중심의 AI 관련 M&A 및 투자 모멘텀이 지속됨.",
-      "related_tickers": [
-        "AMZN",
-        "MSFT"
-      ],
-      "source_regions": [
-        "US"
+        "US",
+        "EUR"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "EU와 중국 간 자동차 부문 무역 협상이 타결되며 교역 불확실성이 해소되었고, 완성차 업체의 전기차 신모델 발표 등 모멘텀 형성.",
+      "score": 6.5,
+      "rationale": "EU와 중국 간 전기차 관세 협상이 타결되며 무역 긴장이 완화되고 자동차 관세 불확실성이 해소됨.",
       "related_tickers": [
-        "STLA",
-        "VOW3"
+        "VOW3",
+        "MBG",
+        "STLA"
       ],
       "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "국제 유가 상승 및 연료비 급등세가 지속되는 가운데 아시아 시장에서도 에너지 시장 변동성 확대에 따른 수혜 기대감이 부각됨.",
-      "related_tickers": [
-        "XOM",
-        "CVX"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "일본의 임대주택 시장 자금 유입과 중국 주요 도시(광저우, 상하이)의 상업용 토지 재산권 갱신 정책에 따른 시장 안정화 기대감 부각.",
-      "related_tickers": [
-        "PLD",
-        "EQR"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Consumer Staples",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "북미 시장의 수요 부진 및 원가 부담 지속으로 필수소비재 대표 기업인 펩시코가 실적 가이던스를 하향 조정함.",
-      "related_tickers": [
-        "PEP",
-        "KO"
-      ],
-      "source_regions": [
-        "US"
+        "EUR"
       ]
     },
     {
       "name": "Industrials",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "연료비 급등에 따른 운항 비용 가중으로 델타항공이 2026년 실적 전망치를 하향 조정하면서 항공 등 운송 업종 전반에 부담 작용.",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "글로벌 지정학적 리스크 지속 속에 유럽 방산 기업(Thales 등)의 해외 거점 확장 및 방산 인프라 투자가 긍정적으로 작용함.",
       "related_tickers": [
-        "DAL",
-        "UAL"
+        "HO",
+        "LMT",
+        "BA"
+      ],
+      "source_regions": [
+        "EUR"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "블랙록의 주식 자산 하향 조정과 지정학적 불안에 따른 자산시장 전반의 경계감 확산으로 하락 압력을 받음.",
+      "related_tickers": [
+        "BLK",
+        "JPM"
       ],
       "source_regions": [
         "US"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Semiconductors",
+      "note": "아시아는 TSMC의 최고가 경신, 삼성·SK하이닉스·AMAT 동맹 등 AI 모멘텀으로 매우 긍정적인 반면, 미국은 마이크론의 중국 경쟁사 추격 우려 및 엔비디아·AMD의 투자자 피로감으로 약세를 보임."
+    }
+  ]
 }

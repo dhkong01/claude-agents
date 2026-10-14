@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "UK growth upgraded but energy prices and rates to bite in 2027",
-      "summary": "The IMF report comes as final preparations are being made to the first Budget under Prime Minister Andy Burham.",
-      "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
+      "title": "Royal Mail losing 400 postal workers a week, says union",
+      "summary": "The CWU says more posties are leaving since a new delivery system was brought in, that it claims is not working in hundreds of offices.",
+      "link": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "EU-China trade deal raises fears Brussels will go soft on Beijing",
-      "summary": "The EU's new trade deal with China has eased fears of an escalating trade war, but it could also weaken the political momentum behind Brussels' plans to take a tougher stance against Beijing's economic practices.",
-      "link": "https://www.euronews.com/2026/10/12/eu-china-trade-deal-raises-fears-brussels-will-go-soft-on-beijing",
+      "title": "Europe’s satellite sovereignty push faces funding test as EU space budget cycle ends",
+      "summary": "Regulators, EU officials and Spanish satellite operator Sateliot gathered at the European Parliament on Tuesday to debate how spectrum and investment will shape Europe’s networks in orbit, with the EU’s 2021-2027 space funding cycle ending next year.",
+      "link": "https://www.euronews.com/2026/10/13/europes-satellite-sovereignty-push-faces-funding-test-as-eu-space-budget-cycle-ends",
       "source": "Euronews Business"
     },
     {
@@ -21,15 +21,87 @@
       "source": "DW Business"
     },
     {
-      "title": "Zelenskyy’s Trump dilemma: Fight back or fold?",
-      "summary": "Defying the U.S. president risks costing Ukraine vital military support. But giving in could prove even more dangerous.",
-      "link": "https://www.politico.eu/article/zelenskyy-trump-ukraine-war-diesel-sanctions-russia/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "OpenAI employee arrested and charged over hidden recording",
+      "summary": "Abdulrahman Alfozan, a 35-year-old Saudi national, planted a sophisticated recording device in an OpenAI office, authorities said.",
+      "link": "https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "I earn £120,000 a year making social media videos go viral",
-      "summary": "Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.",
-      "link": "https://www.bbc.co.uk/news/articles/c84g12v3lk20o?at_medium=RSS&at_campaign=rss",
+      "title": "Is it OK for jobseekers or employers to use AI?",
+      "summary": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
+      "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "US banks post strong earnings but economic risks cloud the sector’s outlook",
+      "summary": "Wall Street's biggest banks reported another strong quarter on Tuesday, but they warned that higher rates and inflation could bite.",
+      "link": "https://www.euronews.com/2026/10/13/us-banks-post-strong-earnings-but-economic-risks-cloud-the-sectors-outlook",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Burnham pledges rock-solid support for Ukraine as Zelenskyy makes UK trip",
+      "summary": "The British leader has asked ministers to draw up proposals for further sanctions, military support and fiscal packages to help the war-torn country.",
+      "link": "https://www.politico.eu/article/andy-burnham-ukraine-support-volodymyr-zelenskyy-uk-trip/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Three things we've learnt about the UK economy from the IMF",
+      "summary": "The influential economics body has upgraded its UK growth forecast for this year, but risks remain.",
+      "link": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Stellantis bets on Chinese partnerships to avoid European plant closures",
+      "summary": "Chief executive Antonio Filosa says sharing factory capacity could help keep plants open, as Stellantis invests in new platforms and European batteries.",
+      "link": "https://www.euronews.com/2026/10/13/stellantis-bets-on-chinese-partnerships-to-avoid-european-plant-closures",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "From no cards to many: Europe warns Trump not to waste Ukraine’s leverage",
+      "summary": "Ukraine's campaign against Russia's refineries is a growing problem for the U.S. president.",
+      "link": "https://www.politico.eu/article/trump-europe-ukraine-leverage-war-russia-oil/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Bumble bought for $1.3bn in 'bet on the future of humanity'",
+      "summary": "The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "LVMH sales miss growth forecasts as China luxury demand slows",
+      "summary": "LVMH, the world's leading luxury group, said its sales edged higher in the third quarter despite a slowdown in demand in China hitting its fashion and leather goods segment.",
+      "link": "https://www.euronews.com/2026/10/13/lvmh-sales-miss-growth-forecasts-as-china-luxury-demand-slows",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "“Nous les Français” : pourquoi les politiques se l’arrachent",
+      "summary": "Le livre “Nous les Français” cartonne en librairie et suscite l’intérêt des politiques à l’approche de la présidentielle. Il dresse en 100 thèmes une radiographie de ce qui caractérisent les français en 2026. Air fryer, doudounes, usage des vocaux, pratiques d’hospitalité, poids de la nostalgie, phé",
+      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/nous-les-francais-pourquoi-les-politiques-se-larrachent/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+      "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+      "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "EU-China trade deal raises fears Brussels will go soft on Beijing",
+      "summary": "The EU's new trade deal with China has eased fears of an escalating trade war, but it could also weaken the political momentum behind Brussels' plans to take a tougher stance against Beijing's economic practices.",
+      "link": "https://www.euronews.com/2026/10/12/eu-china-trade-deal-raises-fears-brussels-will-go-soft-on-beijing",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "How Maroš Šefčovič talked his way to a China trade breakthrough",
+      "summary": "Europe’s trade chief has won a first concession from Beijing. Now he must convince EU leaders that dialogue can deliver more.",
+      "link": "https://www.politico.eu/article/how-maros-sefcovic-talked-his-way-to-a-china-trade-breakthrough/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "How long will humans be needed for translation?",
+      "summary": "AI dominates the translation business, but for high-stakes work, humans are still needed.",
+      "link": "https://www.bbc.co.uk/news/articles/c1wxdjx27ypo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
@@ -39,100 +111,27 @@
       "source": "Euronews Business"
     },
     {
-      "title": "Poll: Spaniards say Ceuta crisis could spark armed conflict with Morocco",
-      "summary": "In a POLITICO poll, three in four people in Spain said Morocco poses a genuine threat to their country’s territorial integrity.",
-      "link": "https://www.politico.eu/article/poll-spaniards-say-ceuta-crisis-could-lead-to-armed-conflict-with-morocco/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Philippe, Glucksmann, Retailleau : les temps forts du Sommet sur la compétitivité économique de POLITICO",
+      "summary": "Les trois candidats à la présidentielle ont répondu aux questions de nos journalistes sur l’Europe, l’intelligence artificielle ou l’énergie. Thèmes sur lesquels les clivages ont été nombreux.",
+      "link": "https://www.politico.eu/article/philippe-glucksmann-retailleau-les-temps-forts-du-sommet-sur-la-competitivite-economique-de-politico/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Heating oil customers face tough winter despite shake-up promise",
-      "summary": "Heating oil customers facing soaring bills are promised better regulation of the sector by the government.",
-      "link": "https://www.bbc.co.uk/news/articles/cxnv0z09r882o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Thales to open what could be Japan’s first foreign-run defence maintenance base",
-      "summary": "The facility could be the first in Japan set up by a foreign defence company to maintain military equipment and support its operation, according to Nikkei.",
-      "link": "https://www.euronews.com/2026/10/12/thales-to-open-what-could-be-japans-first-foreign-run-defence-maintenance-base",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "France’s Glucksmann notched a crushing primary victory. But he needs more allies to win the presidency.",
-      "summary": "Other parties on the left continue to go after Glucksmann, while François Hollande's shadow looms over his campaign.",
-      "link": "https://www.politico.eu/article/france-raphael-glucksmann-notched-crushing-primary-victory-needs-more-allies-win-the-presidency/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Bumble shares soar after report dating firm in $1bn takeover talks",
-      "summary": "The jump pushed Bumble's stock market valuation to more than $580m but that is still far below their peak of more than $14bn.",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "French MPs push exit tax on crypto above €800,000 and fines for undeclared wallets",
-      "summary": "French MPs want wealthy crypto investors who leave the country to pay tax on their paper gains, under an amendment backed in committee last week alongside fines of up to €10,000 for undeclared self-custody wallets, though every measure must be voted on again.",
-      "link": "https://www.euronews.com/2026/10/12/french-mps-push-exit-tax-on-crypto-above-800000-and-fines-for-undeclared-wallets",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Encuesta: Los españoles afirman que la crisis de Ceuta podría desencadenar un conflicto armado con Marruecos",
-      "summary": "En una encuesta de POLITICO, tres de cada cuatro personas en España afirmaron que Marruecos supone una amenaza real para la integridad territorial de su país.",
-      "link": "https://www.politico.eu/article/encuesta-los-espanoles-afirman-que-la-crisis-de-ceuta-podria-desencadenar-un-conflicto-armado-con-marruecos/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Publicly owned rail is popular. But is it making the trains run on time?",
-      "summary": "Meeting travellers' expectations could be challenging, experts warn.",
-      "link": "https://www.bbc.co.uk/news/articles/ck5yn0n14r8do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "EU and China clinch deal over cars after heated trade talks as Brussels pushes to rebalance trade",
-      "summary": "EU Trade Commissioner Maroš Šefčovič described the deal as marking the end of the “first phase” of negotiations. Brussels is pushing for a fundamental rebalancing in trade relations with Beijing.",
-      "link": "https://www.euronews.com/2026/10/09/eu-and-china-clinch-deal-over-cars-after-heated-trade-talks-as-brussels-pushes-to-rebalanc",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Northern Ireland secretary denies he bent the knee to Sinn Féin",
-      "summary": "Chris Bryant tells MPs his decision to block a legal Protestant parade has kept the peace in Northern Ireland, where the dispute is splitting the cross-community government in two.",
-      "link": "https://www.politico.eu/article/northern-ireland-secretary-chris-bryant-denies-he-bent-the-knee-to-sinn-fein/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Healey faces £35bn Budget challenge to meet spending pledges, says think tank",
-      "summary": "The Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.",
-      "link": "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "What happened to OpenAI’s $20bn? Revenue scare rattles AI trade",
-      "summary": "US tech futures rebounded on Friday, a day after a report that OpenAI’s annualised revenue was $20 billion (€17.8bn) below earlier estimates helped send the Nasdaq down 1.25% and hit chipmakers and cloud giants.",
-      "link": "https://www.euronews.com/2026/10/09/what-happened-to-openais-20bn-revenue-scare-rattles-ai-trade",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Europe pushes tougher line on Russia in growing split with Trump",
-      "summary": "EU leaders are calling for new measures against Moscow as Washington eases off, exposing a widening divide over how to end the war in Ukraine.",
-      "link": "https://www.politico.eu/article/europe-pushes-tougher-line-russia-split-with-trump/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "How to avoid getting stung if you miss credit card payments",
-      "summary": "People are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.",
-      "link": "https://www.bbc.co.uk/news/articles/c84g1xz1l9ddo?at_medium=RSS&at_campaign=rss",
+      "title": "Poundland in rescue talks as owners seek buyer",
+      "summary": "The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5ydvvln0mo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     }
   ],
-  "trend_headline": "EU-중국 자동차 타결과 규제 완화 압박 속 혼조세",
-  "summary": "EU와 중국 간 전기차 관세 협상이 타결되며 무역 긴장이 완화되었으나, 독일·이탈리아 등 주요국은 브뤼셀에 신규 규제 중단을 위한 비상 조치를 요구하며 기업 부담 완화를 압박하고 있습니다. 한편, 우크라이나 전쟁과 관련된 지정학적 리스크 속에서 방산 및 에너지 인프라 투자는 꾸준히 유지되는 양상입니다.",
+  "trend_headline": "중국과의 무역 긴장 완화와 스텔란티스의 공장 공동 활용",
+  "summary": "EU와 중국 간의 새로운 무역 협정 타결로 관세 전쟁 우려가 다소 해소된 가운데, 스텔란티스는 중국 파트너십을 활용해 유럽 내 공장 폐쇄를 막고 배터리 플랫폼 투자를 가속화하고 있습니다. 한편 LVMH는 중국의 3분기 명품 수요 둔화 여파로 시장 기대치를 밑도는 실적을 기록하며 자동차와 소비재 섹터 간의 희비가 교차했습니다.",
   "key_points": [
-    "EU와 중국, 무역 불균형 해소를 위한 자동차 관련 타협안 도출",
-    "독일·이탈리아, 신규 EU 법안 제동을 위한 '비상 정지권(emergency brake)' 공식 요청",
-    "지정학적 갈등 지속 속에서 프랑스 방산 기업 Thales의 일본 내 정비 거점 추진 등 방산 섹터 주목"
+    "EU·중국 무역 협정 타결로 전면적인 관세 전쟁 우려는 완화되었으나 브뤼셀의 대중국 강경 기조에 대한 우존 상존",
+    "스텔란티스, 유럽 내 공장 폐쇄를 피하기 위해 중국과의 파트너십 및 배터리 플랫폼 공유 전략 본격화",
+    "LVMH, 중국 시장의 명품 수요 부진 타격으로 3분기 매출 성장률이 시장 전망치 하회"
   ],
   "sector_hints": [
-    "Automobiles",
-    "Defense",
-    "Energy"
+    "Automotive",
+    "Consumer Discretionary"
   ]
 }

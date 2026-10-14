@@ -1,67 +1,72 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "sectors": [
     {
-      "name": "Energy",
+      "name": "Healthcare",
       "direction": "positive",
-      "score": 7.5,
-      "rationale": "지정학적 리스크 심화에 따른 국제 유가 급등과 유럽 내 에너지 인프라 투자 지속이 호재로 작용함.",
+      "score": 6.5,
+      "rationale": "UnitedHealth Group이 의료 비용 통제에 성공하고 2026년 실적 전망치를 상향 조정하는 등 견고한 실적과 방어력을 입증함.",
       "related_tickers": [
-        "XOM",
-        "CVX",
-        "SHEL"
+        "UNH"
       ],
       "source_regions": [
-        "US",
-        "EUR"
+        "US"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "빅테크(메타 등)의 막대한 AI 투자 비용에 대한 불확실성이 부각되고 월가의 AI 투자 회수 지연에 대한 피로감이 확산됨.",
+      "related_tickers": [
+        "META"
+      ],
+      "source_regions": [
+        "US"
       ]
     },
     {
       "name": "Consumer Discretionary",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "EU와 중국 간 전기차 관세 협상이 타결되며 무역 긴장이 완화되고 자동차 관세 불확실성이 해소됨.",
+      "direction": "negative",
+      "score": -4.0,
+      "rationale": "LVMH 등 명품 브랜드가 중국 시장의 수요 둔화 여파로 3분기 실적이 시장 전망치를 하회하며 소비 둔화 우려가 지속됨. (EU-중국 무역 협정 타결 및 스텔란티스의 공급망 제휴 등 자동차 부문 호재 일부 상쇄)",
       "related_tickers": [
-        "VOW3",
-        "MBG",
-        "STLA"
+        "MC.PA",
+        "STLAM.MI"
       ],
       "source_regions": [
-        "EUR"
+        "EU"
       ]
     },
     {
-      "name": "Industrials",
+      "name": "Real Estate",
       "direction": "positive",
-      "score": 7.0,
-      "rationale": "글로벌 지정학적 리스크 지속 속에 유럽 방산 기업(Thales 등)의 해외 거점 확장 및 방산 인프라 투자가 긍정적으로 작용함.",
+      "score": 4.0,
+      "rationale": "일본 미쓰이부동산의 신재생 에너지(지열발전) 진출 및 외국인 매수세 중심의 M&A 활성화로 섹터 내 성장 동력 다변화.",
       "related_tickers": [
-        "HO",
-        "LMT",
-        "BA"
+        "8801.T"
       ],
       "source_regions": [
-        "EUR"
+        "ASIA"
       ]
     },
     {
       "name": "Financials",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "블랙록의 주식 자산 하향 조정과 지정학적 불안에 따른 자산시장 전반의 경계감 확산으로 하락 압력을 받음.",
+      "direction": "neutral",
+      "score": 0.0,
+      "rationale": "일본의 M&A 활성화 및 홍콩 증시로의 자금 유입은 긍정적이나, 아시아 기업부채 부실 우려와 중국 선물 퀀트 거래 규제 강화 등 리스크 요인이 병존함.",
       "related_tickers": [
-        "BLK",
-        "JPM"
+        "9984.T"
       ],
       "source_regions": [
-        "US"
+        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "아시아는 TSMC의 최고가 경신, 삼성·SK하이닉스·AMAT 동맹 등 AI 모멘텀으로 매우 긍정적인 반면, 미국은 마이크론의 중국 경쟁사 추격 우려 및 엔비디아·AMD의 투자자 피로감으로 약세를 보임."
+      "note": "미국은 막대한 AI CAPEX에 대한 회수 우려, AI 피로감 및 지정학적 리스크로 엔비디아, 마이크론 등 주요주가 급락세를 보인 반면, 아시아는 한국의 반도체 수출 호조와 대만 TSMC의 역대급 실적 기대감이 상존하며 지역 간 투자 심리가 엇갈림."
     }
   ]
 }

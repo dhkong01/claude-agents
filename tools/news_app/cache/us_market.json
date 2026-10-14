@@ -1,41 +1,71 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "region": "US",
   "headlines": [
     {
-      "title": "Delta delays debut of Saudi Arabia service until March after Riyadh airport attacks",
-      "summary": "Delta planned to begin the route on Oct. 23, in what would have marked the first nonstop commercial flight between the U.S. and Saudi Arabia.",
-      "link": "https://www.cnbc.com/2026/10/12/delta-riyadh-nonstop-service-delay.html",
+      "title": "United Airlines is making it harder to reach its top frequent flyer status in 2027",
+      "summary": "United Airlines is doing away with flight segment as a way to reach Premier status and increasing the spending requirements for Premier 1K.",
+      "link": "https://www.cnbc.com/2026/10/13/united-flight-segments-earn-elite-status.html",
       "source": "CNBC"
     },
     {
-      "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-      "summary": "IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead",
-      "link": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
+      "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+      "summary": "Anticipation is building for Anthropic s investor day, as Wall Street grows less patient with heavy AI spending.",
+      "link": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Ken Paxton Partied in Dubai With Fugitives Ahead of High-Stakes Texas Senate Race",
+      "title": "Pope Leo Diagnosed With Lung Cancer After Surgery",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcnp4SzJLZDczcjFGUXVmemxyQS1abFdTbEh1T3NWY3pXVEdHcDdGUG1CRDMyQy1Tcm4xNzNSZTFpaEs4NEhyeUFwc21ubzNiUWdyLVpuUmhWTmFIYWhoLVVuMnM1LXFkamZXMGtXbjRZRW1qSkJ0RTZOTVRBbzdKSlhwcy1JQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQTV0N0hVZ1lmbDdZOVNEU1FfVl9iM1BJTU1uck4zWHJHMnlSTUdNV1h6OThLcEw1V2t6d0tWbXhSYWl3amk5aEdkdDJZejFsamFaQ1BLVWRzR2ZJSU9UNUtxdHdkSEdVZmNB?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Korean Chip Stocks Sink on Chinese Rival Worry, Broadcom Remarks",
+      "title": "Zuckerberg Admits Meta Lacked AI Certainty on $200 Billion Bet",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFp4WmRxbkUtWXJISmNZVHZlcTljeWdlQmVfck9SUGdHckpwUDRQY1BjX1p5RW9GVGhqLUIzT1h0WERsTk1YakUtMFJvcjZIRlhRTm9hYlNrb0VYMmtYWThoMTBRd2hEalF4VDBUTWlfXzRzb0dzTTQ2TmMwdmFCbDZpZGxjdDlQMnY1c1p4VUFzZ0M5VnJYOVVlTW1VOXVRbEVCY3NhWm5SQUdtMDFkb2lHTzI?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWxqM1VOeGN4Mk81VWhqbUxXWHhzcjB1SkVxTWNEUktyWUNEWF9OZ0pKSWh5Z0JINklrZjNWSDdaSUJZQWFWQkFCcEZTUHVkWndic0hrYm45cmdMbU1GLUVBYUdiczhINXVoVW1ER1c0WHVkWUFlbXp0V0RWeFhsSUpodW9zZEZsdTlTenFCNU45Um5ubzBUWUJyUUZCd21ZaDRwcGhzeDVHb2FhaVh2dUpn?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Stock Market Bull Run Turns 4 as AI Boom Adds Trillions in Value",
+      "title": "Why Micron Stock (MU) Is Falling Today: Musk Flags China Chip Threat",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3JxTmhLY3g3ck5NRlp4VnJzMzVPNGdxOUpyX2VkZ3JuNlZHeVUtRUYzUGItNnd6Y3hPYUIzcHVaNDFBTWRaRk1LaEtINVVEcVpuVzIzb3hhbnF2SUZSVjVIX0t4RWJPaC0ta1JhMzhFQ1hpQnF3VGF3dGJZZm5wUTlkdFYzOUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGluY1JiRXZzd0lhWDJfclZvZHVMTGdYZl9reDBxamZCRU5jYy1tMER0cGFrNVN4eUI3UHpzWF9tQXZudkZNcXBzeVp4MXhBdFdLSnhrc1pYQVZmMEhhREpqZkVzNWpuZ0RBRzVUWFM3Wk1iMTZLamVLcUlPZzgxLVBJSGhLdFQ3QXY4?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "McDonald s is leaning into chicken and drinks to grow. New data shows it could be a tough task",
-      "summary": "McDonald's is targeting growth in chicken and beverages, but Consumer Edge data shows Chick-fil-A and coffee chains gaining in customer spending.",
-      "link": "https://www.cnbc.com/2026/10/12/mcdonalds-chicken-beverage-growth.html",
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+      "summary": "Deadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
+      "link": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I am a pretty cautious person : My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+      "summary": "I like my life, but I also like the idea of a big return after years of putting money into my 401(k).",
+      "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Bank of America to Pay $1.2 Billion to Settle Violations of Money Laundering, Sanctions Laws",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNemVIQ2FhSTdKUkpYbmtTR1h6LVNyVmlNVG84ZUVRdW5FMV80V18wa0Q5YmR5UzVzZDRiYXZXbFJPdkVmVkZLVm9QaDlTNmdwUWJ0YldDaXB5N0I1cng5NHY1VnFTYUNfYmVjNlhmcWZCRllXbmRQUFJvYm54YjkwOWNYVU1Oa1hrVUFzWHU5dzhLWUlMOTVMc3pWUl9uNE1vREZYa0lJVXZsVjRlM09DeUR4M3M1YVVxSG41THpJOXloZTRzTkl4a0VfT3lEeVVIVEswd1BB?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUllwdms5WktzckdPcUU1M1ZhSDJFYV9HTHJpMGs3ck5tNGJ6WXNEeFBiRXZWZ2swMUJfT0tNTjI0UVM2dzh5Y1htQU92TUJuZFJseVRlLV9FYTZGSUZoQ3VxNHBBZTk0QlE3djBtQnV3V0hCX2h2MWxvRWF6VjQ2U3JKcURIdms3TDlPa0QyOHhWSzNMMHVvT1RMUF9JMHk3RkJGdnNaWEpiQWpVdlRNeVNYTDdVNnMt?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Nvidia Falls Back From Record High. Its Stock Chart Offers a Warning.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejVzVFN5MzdQZlAybkJUWldaVW5Db2lsbUZZeHF6MW9mdkxVYl9JSE5iZFpmV1R2NlhiWmw3a0M4RFRjNW9uV0V0OVZqSXRYUDBRamZCdk5EYmZpMFlwbzZPVUFJc2ZvZ0RmVXJodEJoMHRwZkFjVk5uVC1OS3dpdmZRSnQtX2hncndRQQ?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+      "summary": "Walmart will offer Novo's Ozempic and Lilly's Mounjaro without charge for people with Type 2 diabetes after a new prior authorization.",
+      "link": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
       "source": "CNBC"
     },
     {
@@ -45,15 +75,15 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Judge Yells at Trump Administration for Cutting Down Golf Course Trees",
+      "title": "U.S. Defense Startups Flock to Taiwan to Build China-Free Drones",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNakRESjV0MWM0bGNORHlMU3A4aW9qT2hVUDdWS2syekstZ0FUWGtWTE5TMVJ1OFBQbW1wTGpOMzctQWlxSDdBTTZDajg0ZDRVQ01MMS1kU0ZJUm1FZFlibHpxWjBHZ2lNYkJtUkVxVThvckVsQUJZeGlGalJDd3BPZDA2MjRKeW9wVDNxX1ViOEFheHVNVkxWM3RKcWJpYVpmc3VCTkw0NjRTcGZoN00wV1VQNV9Sdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT01pSUVlZHhld1lOT1NycWcxc29fQ256NzdXR2F1SEJpLUNHU1F4MjdjYnJ5NFVxTFcyTXhoRFlnd0szZ2tqSHhZaVpHS0lacjNYMWYzYXRWWG9RbjYwX1NWTEhESlRkWmYxeUNQN0NSS1JNNVhUYkFBRktRekRwQUJyb2dTMWkteExXeXZ1S1lrMTRtbXRib2JqUDNNZw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Tencent Kicks Off $5 Billion Bond Sale to Finance AI Spending",
+      "title": "Aramco Headquarters Hit During Houthi Attacks on Saudi Arabia",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa0lnQ1hUbV9jVDNzOXVwYU5kd2ZreS1aYi1ublEyY1pxVWhWQ1prY2VkZ2lVcGJMdTZUTEUyMHpycFQtTHl6U1g2aXA1aTg1THZibnJ6UHhYNXBRb1pjcHZORDBvcmZ4RGpQYTFiUFpIbmVQYkpoSnluNnA2aU1ySFB4NDNmQmVHemhYdUliSnpRcEtCU1dkbDNlR0NmMkFoRk1naXdwMUtwbmRRZVlOQw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZW5UZm9rTkVDR01LTzZFcTQ0MUprS3hKLTdHaWtXQkVUQzdOSzNJUWJxRlQ3WkpnbUl0TzZlMWg2eVI1bzJidmpzQnFlaC1VcVRpS1FaN0tvZENEeS1LMUVPVmFaM3o0cEI2bkx6bGhMZ1c4WXliLTg3c0djRjgwUU9YWTE5d3F5dFlVV3hlWXh4clk0eUZNWGczUnhUbmtsbElkR2ExNEFqcVRKUEJwT053?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -63,76 +93,46 @@
       "source": "Barron's"
     },
     {
-      "title": "Starbucks says it is not buying Chipotle after takeover speculation",
-      "summary": "\"Starbucks is not buying Chipotle,\" a Starbucks spokesperson told CNBC.",
-      "link": "https://www.cnbc.com/2026/10/12/starbucks-denies-chipotle-takeover.html",
+      "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "summary": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
+      "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
       "source": "CNBC"
     },
     {
-      "title": "The house is worth $925,000 : My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
-      "summary": "The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.",
-      "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+      "title": "Six Flags stock slumps near 17-year low after fatal incident",
+      "summary": "A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.",
+      "link": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Albertsons Wants $8 Billion From Kroger After Failed Merger",
+      "title": "Kimberly Guilfoyle Resigns as U.S. Ambassador to Greece",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcWd3a0l1MUhFZDVOVGRRaXZRNmFhcE55ZDFxU0lVczdOZHFqbDE3Njh3LS1MTzhaeGJUTGVKMlJaUjJWaUs1WmpfMlphSVNMckQ4NkFYSjRnTGNCVm5naHVfVWFZOGo2bU9PZFV6UmlraVo1bXppOW5HWmE4MzFVUjVBUS1LU19pSFV4RVJCckJULXhLUHVWMWhnVEpiR3JBQjJsTlhR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeXpJUWNkT003TmxtcW9ERHlBUWc4RXFwaU1Yc01LMHZuZlFrYUZZOGZPU1VrSjVMOEJWWTVIS1M1MGdPaDg1VUYtekNnODNibl80Q0ZuOE9CWG9ZSVlZQWNZenJJQ1UtV1R4NjRFUERNVFZSdmFIZlh4V2taM0xRNWpVM3k?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Asian Stocks to Fall After US Chipmaker Selloff: Markets Wrap",
+      "title": "Mamdani and NYC Council Reach Deal to Ban Horse-Drawn Carriages",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTFBheWMzUVJ3M2R4VFh3WEJWcG9sRHg5TlJtdUZKV1NScHpsZy1BcDA0TXZUSGU1OUItbnJFY3RIMlB3Sjd6ZjJXMEF6b1dleng3WGJka1pxbzdSSXFCMG9fSzE4b0M2THRmZlBHY01RdkJaRGpjQlkzWWwwNXVCSnI4N3BDYWttWjJtaWttb2laU19w?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVWxla1dzdWZZVVJUZFpCZzl3WGJOTE4teWVHQ1ZrWGdGMmV4Q1E3dV9BVFJSV0NHQkdnaVhvRHlqbWhxWFVYMWVjWHBzc3dkemoyUEp0Wlc4MFExMEdrLUc4WXJQLXZzcHRFT1Y3YTFNTHkyc0xLRDl0VVB2ZHVKX1h1SzNKRmdrU21iZ3oxTjlXeGRXWm1JZWNVRVV5TkZwcDNYOXhDR19VOUVqU0tqWDVsMlM?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Why Apple May Have a SpaceX Problem",
+      "title": "Why Wall Street Is Tokenizing Stocks and Everything Else",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTVpWaGU5ZDhWWms5MDZ2YmR1Wi1BNjMzeFg3Ym1UTTZRLVlQT2hrLXU4MmY2S25RX0J0aFRVUi1XdEMwTW15enpEU1BpSXBXRy1ydFJxSldhT1BDaktNdWlzUUdTQnZjZDVIem5wemdRTzJIUXBSZjBQc2FZYnA0RkxB?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
-      "summary": "The FAA warned U.S. airlines about flight risks over Saudi Arabia as Riyadh airport attacks disrupt travel and Delta weighs an Oct. 23 launch.",
-      "link": "https://www.cnbc.com/2026/10/12/faa-saudi-arabia-flight-risks.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "The prospectus looks impressive : My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-      "summary": "I m in my 60s, recently retired and living my best life.",
-      "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | Dating-App Company Bumble in Advanced Talks to Go Private at $1 Billion Valuation",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3MwV1pVY0ZFUTV1Rkw3c1NyWkt0bG5rd3B0U0hEU1dVaGhNYTFzSmVCVGhPSDV2U2Z4czFTRGhPNDdVdVdVVDFFWGtaZHI3aE9kaGR2Rno2cTBmV3hMU3h2c3RrcndoQ3E4b2RnYWNNbWVWTExUdi1lb1Rzd1ZNSHgxLVZiVnFTb0RVYkt5MDN4MTEwclNNYnNzMF9fY18xTEVtcGx3OFVkVjJWazlzMGdCamxQX0k?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "BlackRock Turns Bullish on Short-Term Bonds, Downgrades Stocks",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTy1XMVBweHZJTVpyZ290RHZmbTAxU0U1OGc5Z3JjT1dhWGdjMld6ZGNjbmVDVW03czJyLTlFdG1mdnFlMnhZaWNpRVAwaFlxT2psTWExYmNMb3ZDd3UwQ2FYcDZkU204dC0zenpQeW5uNUdjTmdwY0Jxd0s2WFEzRFIyekFvWWlBeVRSbXBTZXZ1Zy01UzAtRVVJUlhnWHh2Y2M0bFg2Um1PR2RwNU80clpn?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Micron Stock Drops as Chinese Rival CXMT Advances New Chip",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMnJ4UU9UY3BDZ2VwYjExYl9zLVNLV1hueUttRVVCSGNRXzR6UTd1V1R3NWpFYTYtcGtPUVVxNnQ1bmRVWlRpU1RqZEg5eGYxeTlJcFQtb0dqbjY0MjFJLW4yWExudHFMNnA1QmMxUGtUZ29TNHVKQVR4MEIzVDBWUlVTTQ?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "AI 랠리 피로감과 반도체·유가 충돌",
-  "summary": "AI 붐의 지속성과 중국산 반도체 위협에 대한 우려가 겹치며 엔비디아와 마이크론 등 주요 반도체 주가가 하락 압를 받았습니다. 동시에 지정학적 리스크에 따른 유가 급등과 블랙록의 주식 자산 하향 조정이 겹치며 시장 전반의 경계감이 확산됐습니다.",
+  "trend_headline": "AI 피로감 속 반도체주 약세와 실적 장세",
+  "summary": "월가에서 막대한 AI 투자 비용에 대한 인내심이 약화되면서 칩 제조사들이 16개월 만에 최악의 부진을 겪었습니다. 반면 UnitedHealth 등 주요 기업은 양호한 실적과 가이던스 상향으로 방어력을 입증했습니다.",
   "key_points": [
-    "마이크론, 중국 경쟁사 CXMT의 메모리 칩 추격 우려로 주가 하락",
-    "엔비디아 및 AMD, 새로운 AI 하드웨어 발표에도 투자자 피로감으로 주가 약세",
-    "지정학적 갈등에 따른 유가 상승으로 에너지 주는 반면 상승세 기록"
+    "마크 저커버그 메타 CEO, 2,000억 달러 규모 AI 투자의 불확실성 시인",
+    "엔비디아 및 마이크론 등 주요 반도체주, AI 피로감과 지정학적 리스크로 하락",
+    "UnitedHealth Group, 3분기 의료 비용 통제 성공하며 2026년 실적 전망치 상향"
   ],
   "sector_hints": [
     "Technology",
-    "Energy",
-    "Financials"
+    "Healthcare",
+    "Semiconductors"
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 5,
+  "high_risk_signals": 4,
   "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
@@ -12,7 +12,9 @@
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "Trump Gives Putin A Hand In Russia\u2019S Economic War With Ukraine"
+    "Trump Hands Victories To Putin, Who Offers More War In Return",
+    "Saudi Energy Giant Struck As War Spikes Between Houthis And Saudi Arabia",
+    "Mi5 Chief Warns Of Escalating Hybrid Threats From Iran And Russia On British Soil"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "data": [
     {
       "ticker": "SHOP",
@@ -42,14 +42,14 @@
       "channel_width_pct": 10.7
     },
     {
-      "ticker": "ANET",
-      "current": 210.88,
-      "donchian_upper": 216.74,
-      "donchian_lower": 202.86,
+      "ticker": "MRVL",
+      "current": 265.86,
+      "donchian_upper": 286.95,
+      "donchian_lower": 251.84,
       "signal": "HOLD",
-      "dist_to_upper_pct": 2.8,
-      "dist_to_lower_pct": 3.8,
-      "channel_width_pct": 6.8
+      "dist_to_upper_pct": 7.9,
+      "dist_to_lower_pct": 5.3,
+      "channel_width_pct": 13.9
     },
     {
       "ticker": "SNDK",
@@ -82,16 +82,6 @@
       "channel_width_pct": 6.6
     },
     {
-      "ticker": "MRVL",
-      "current": 265.86,
-      "donchian_upper": 286.95,
-      "donchian_lower": 251.84,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 7.9,
-      "dist_to_lower_pct": 5.3,
-      "channel_width_pct": 13.9
-    },
-    {
       "ticker": "AMD",
       "current": 594.24,
       "donchian_upper": 649.42,
@@ -100,6 +90,16 @@
       "dist_to_upper_pct": 9.3,
       "dist_to_lower_pct": -2.2,
       "channel_width_pct": 6.9
+    },
+    {
+      "ticker": "CRWD",
+      "current": 263.01,
+      "donchian_upper": 278.86,
+      "donchian_lower": 259.25,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 6.0,
+      "dist_to_lower_pct": 1.4,
+      "channel_width_pct": 7.6
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "phase": "RISK_ON",
   "m_score": 10,
   "signals": {
     "market_trend": "BULL",
-    "market_ret3m": 0.0361,
-    "vix_level": 15.27,
+    "market_ret3m": 0.035,
+    "vix_level": 16.87,
     "volatility": "NORMAL",
-    "yield10y": 5.22,
+    "yield10y": 5.19,
     "rate_env": "HIGH",
-    "yield30y": 5.56,
-    "yield2y": 4.8,
-    "fear_greed_score": 44.7,
+    "yield30y": 5.53,
+    "yield2y": 4.79,
+    "fear_greed_score": 32.4,
     "fear_greed_rating": "fear",
-    "dollar_trend": "FLAT"
+    "dollar_trend": "STRENGTHENING"
   },
   "recommended_sectors": [
     "Technology",

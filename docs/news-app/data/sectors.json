@@ -1,46 +1,14 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "sectors": [
-    {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "미국 AI 인프라 기업의 채권 급락 및 차입 비용 증가 우려와 유럽 ASML의 중기 AI 수요 둔화 경고가 기술주 전반의 밸류에이션 부담으로 작용함.",
-      "related_tickers": [
-        "MSFT",
-        "ASML",
-        "ORCL"
-      ],
-      "source_regions": [
-        "US",
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "LVMH의 중국 시장 럭셔리 수요 둔화 쇼크와 아시아(중국) 내수 부진 및 EU의 규제로 인한 전기차·소비재 업종 압박이 복합적으로 반영됨.",
-      "related_tickers": [
-        "LVMUY",
-        "NKE",
-        "BYDDY",
-        "TSLA"
-      ],
-      "source_regions": [
-        "EUROPE",
-        "ASIA"
-      ]
-    },
     {
       "name": "Healthcare",
       "direction": "positive",
-      "score": 5.5,
-      "rationale": "빅테크 및 경기민감 섹터의 변동성과 신용 위험 확대 속에서 견조한 경기 방어적 매력과 안정성이 부각됨.",
+      "score": 7.5,
+      "rationale": "미국 대형 기술주의 조정에 따른 안전자산 선호 현상으로 일라이 릴리와 머크 등 대형 제약·바이오 종목으로 자금이 유입되어 사상 최고가 부근으로 급등함.",
       "related_tickers": [
-        "UNH",
         "LLY",
-        "JNJ"
+        "MRK"
       ],
       "source_regions": [
         "US"
@@ -48,37 +16,36 @@
     },
     {
       "name": "Financials",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "미국 대형 은행들의 엇갈린 실적 및 규제 벌금 부과와 한국 등 아시아 가계부채 부실화 및 연체율 급등 리스크가 하방 요인으로 작용함.",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "ECB가 유니크레디트의 코메르츠방크 지구 인수 및 경영권 취득을 승인함에 따라 유럽 은행권의 대형화 M&A 모멘텀이 강화됨.",
       "related_tickers": [
-        "BAC",
-        "MS",
-        "KB"
+        "UCG",
+        "CBK"
       ],
       "source_regions": [
-        "US",
-        "ASIA"
+        "EU"
       ]
     },
     {
-      "name": "Communication Services",
-      "direction": "negative",
-      "score": -4.0,
-      "rationale": "넷플릭스가 전체 인력의 6%를 감원하는 등 미디어·콘텐츠 기업들의 비용 절감 및 구조조정 압박이 확인됨.",
+      "name": "Consumer Discretionary",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "프랑스와 독일이 2035년 내연기관차 판매 금지 규제 완화 및 자국 우선주의 정책 초안에 합의하며 유럽 자동차 제조업체들의 규제 리스크가 완화됨.",
       "related_tickers": [
-        "NFLX",
-        "DIS"
+        "VOW3",
+        "BMW",
+        "STLA"
       ],
       "source_regions": [
-        "US"
+        "EU"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "아시아는 TSMC의 역대급 호실적 기대감과 중국 반도체 수출 급증으로 강력한 모멘텀을 보이는 반면, 유럽(ASML의 2027~2028년 AI 수요 둔화 경고)과 미국(AI 인프라 과열 우려 및 신용경고)에서는 중장기 수요 둔화 우려가 제기되어 지역 간 시각차가 뚜렷함."
+      "note": "미국은 AI 생태계 우려 및 매도세로 엔비디아 등 관련주가 하락한 반면, 아시아(TSMC)와 유럽(ASML)은 AI 수요에 힘입어 사상 최대 실적을 달성하는 등 지역 간 투자 심리와 실적 간 온도의 차이가 존재함."
     }
   ]
 }

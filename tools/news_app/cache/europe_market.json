@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Drop-off charges at UK airports to be reviewed after sharp increase",
-      "summary": "Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".",
-      "link": "https://www.bbc.co.uk/news/articles/cwp8gynk13rro?at_medium=RSS&at_campaign=rss",
+      "title": "Banks say Healey is planning Budget tax raid on their profits",
+      "summary": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
+      "link": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Kazakhstan seeks Antwerp-Bruges partnership to boost trade via Middle Corridor",
-      "summary": "Kazakhstan is seeking closer cooperation with Belgium on the Middle Corridor, including a potential partnership between the Port of Antwerp-Bruges and the Caspian ports of Aktau and Kuryk, as King Philippe and Queen Mathilde make their first state visit to the country.",
-      "link": "https://www.euronews.com/2026/10/14/kazakhstan-seeks-antwerp-bruges-partnership-to-boost-trade-via-middle-corridor",
+      "title": "Unicredit cleared by ECB to take control of Commerzbank",
+      "summary": "The European Central Bank has ruled that UniCredit may exceed the 30 percent shareholding threshold in Commerzbank. From 2027 the Piazza Gae Aulenti lender will take control of the German bank.",
+      "link": "https://www.euronews.com/2026/10/15/unicredit-cleared-by-ecb-to-take-control-of-commerzbank",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Macron and Merz hold keys to an EU budget deal — but may be too weak to use them",
-      "summary": "The French and German leaders face political pressures that limit their room for maneuver on Europe's biggest negotiation.",
-      "link": "https://www.politico.eu/article/france-emmanuel-macron-germany-friedrich-merz-hold-keys-eu-budget-deal/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Late discord delays Franco-German deal on Made in Europe, car emissions",
+      "summary": "The draft pact supports tighter eligibility rules for non-EU countries to participate in public procurement and public support, and softens the 2035 combustion engine ban.",
+      "link": "https://www.politico.eu/article/franco-german-made-in-europe-deal-delays-car-emissions/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-      "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
-      "link": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+      "title": "I find it quite demoralising in store - why I do all my shopping online",
+      "summary": "After Primark announced plans for home delivery, we hear from women who never go into clothes stores.",
+      "link": "https://www.bbc.co.uk/news/articles/c36lk280kd1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Lufthansa beats Air France-KLM to €1.2bn stake in TAP Air Portugal",
-      "summary": "Portugal has chosen Lufthansa to buy a 44.9% stake in TAP, completing the first phase of the airline’s privatisation. The deal still needs regulatory approval.",
-      "link": "https://www.euronews.com/2026/10/14/lufthansa-beats-air-france-klm-to-12bn-stake-in-tap-air-portugal",
+      "title": "Azerbaijan hosts rare summit of both converging and opposing Middle East and Asian leaders",
+      "summary": "Middle East and Asian leaders, including those on opposing sides of conflicts, held a rare summit in Baku focusing on confidence-building measures, addressing differences but also the opportunities of new transport corridors and economic realignments amid evolving global reshapes.",
+      "link": "https://www.euronews.com/2026/10/15/azerbaijan-hosts-rare-summit-of-both-converging-and-opposing-middle-east-and-asian-leaders",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Trump s diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief",
+      "summary": "As the world s largest diesel exporter, the US benefits from high prices. At home, however, consumers are feeling the strain of rising living costs. Why Donald Trump s deal with Russia is unlikely to change that.",
+      "link": "https://www.dw.com/en/trump-s-diesel-deal-with-russia-is-unlikely-to-significantly-lower-global-fuel-prices-despite-expectations-of-rapid-relief/a-79659601?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Shorten EU budget to 3 or 4 years, Cyprus president tells POLITICO",
+      "summary": "“You don’t know what’s going to be the situation in 2030, 2031,\" Nikos Christodoulides says in interview.",
+      "link": "https://www.politico.eu/article/eu-budget-cyprus-president-euco-summit-politico/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm",
+      "summary": "The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.",
+      "link": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Norway may open €2 trillion wealth fund to nuclear weapons makers",
+      "summary": "Norway's sovereign wealth fund, the world's largest with assets of more than €2 trillion, may once again be allowed to invest in firms that make nuclear weapons under a proposal published on Thursday.",
+      "link": "https://www.euronews.com/2026/10/15/norway-may-open-2-trillion-wealth-fund-to-nuclear-weapons-makers",
       "source": "Euronews Business"
     },
     {
@@ -45,94 +69,70 @@
       "source": "DW Business"
     },
     {
-      "title": "Le Pen vows to downsize EU as she brings contribution cut fight to Brussels",
-      "summary": "The front-runner in France’s presidential reiterated her campaign promise to pare back payments to the EU by billions of euros ahead of a critical summit on Thursday.",
-      "link": "https://www.politico.eu/article/le-pen-downsize-eu-contribution-cut-brussels/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "‘No logic’: Finland slams Trump for siding with Putin against Ukraine",
+      "summary": "Prime Minister Petteri Orpo tells POLITICO the U.S. is going against its allies and warns Europe must find a way to keep Ukraine in the fight, even if it means reopening the debate over raiding Russian assets.",
+      "link": "https://www.politico.eu/article/petteri-orpo-finland-slams-donald-trump-siding-with-vladimir-putin-against-ukraine/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "How backlash against data centres could shape the US midterm elections",
-      "summary": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
-      "link": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
+      "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
+      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+      "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Portuguese parliament backs extension of parental leave: what changes?",
-      "summary": "The new legal framework, arising from a joint proposal by PS and PSD, will give parents a more favourable regime than the one currently in force.",
-      "link": "https://www.euronews.com/2026/10/14/portuguese-parliament-backs-extension-of-parental-leave-what-changes",
+      "title": "IMF warns attacks on Saudi Arabia could hurt global economy after strike on Aramco headquarters",
+      "summary": "Aramco's headquarters has been hit, flights are suspended and oil prices are rising. The IMF warns that the economic fallout from attacks on Saudi Arabia could be felt worldwide.",
+      "link": "https://www.euronews.com/2026/10/15/imf-warns-attacks-on-saudi-arabia-could-hurt-global-economy-after-strike-on-aramco-headqua",
       "source": "Euronews Business"
     },
     {
-      "title": "Albania s capital burns as protests escalate",
-      "summary": "Police have been criticized for alleged use of excessive force against protestors and journalists.",
-      "link": "https://www.politico.eu/article/albania-protests-escalate-students-torch-businesses-government-buildings/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Macron warns EU leaders they need to agree budget by end of year",
+      "summary": "Starting from January, there will be no political room for concluding an agreement, French president tells summit.",
+      "link": "https://www.politico.eu/article/emmanuel-macron-euco-eu-leaders-they-need-budget-end-of-year/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
-      "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
-      "link": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+      "title": "'I paid thousands to a company for jobs that never came'",
+      "summary": "Apurv Patel is one of several people who say they were promised job opportunities that did not appear.",
+      "link": "https://www.bbc.co.uk/news/articles/c9j3dvezpdz0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "ASML posts record €11.7 billion in sales but warns it can’t keep up with AI demand",
-      "summary": "Dutch equipment supplier ASML warned on Wednesday that its planned supply of machines will not fully meet customers’ AI-driven demand in 2027 and 2028, as it reported record quarterly sales of around €11.7 billion and lifted the lower end of its full-year sales forecast.",
-      "link": "https://www.euronews.com/2026/10/14/asml-posts-record-117-billion-in-sales-but-warns-it-cant-keep-up-with-ai-demand",
+      "title": "Anthropic revenue jumps 46% to $16.8bn as AI firm eyes record $2 trillion IPO valuation",
+      "summary": "AI developer Anthropic grew its sales by about 46% to $16.8 billion (€15bn) last quarter and turned an adjusted profit, it told investors on Wednesday, weeks before a November stock market debut that could value it at up to $2 trillion (€1.79bn).",
+      "link": "https://www.euronews.com/2026/10/15/anthropic-revenue-jumps-46-to-168bn-as-ai-firm-eyes-record-2-trillion-ipo-valuation",
       "source": "Euronews Business"
     },
     {
-      "title": "EU leaders gather to talk energy crisis, China and budget — live updates",
-      "summary": "Thursday’s talks span demands for cheaper energy, stronger protection for European industry and a widening divide over the bloc’s spending priorities.",
-      "link": "https://www.politico.eu/article/eu-leaders-talk-energy-crisis-and-budget-european-council-summit-live-updates/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "EU leaders summit descends into 3-hour argument over taxing car emissions",
+      "summary": "Right-wing leaders used discussions to attack one of Europe's most important climate policies.",
+      "link": "https://www.politico.eu/article/european-council-summit-argument-tax-car-emissions/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Faisal Islam: What surprise praise for UK economy tells us about the Budget",
-      "summary": "On three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.",
-      "link": "https://www.bbc.co.uk/news/articles/cx30eq0vyed4o?at_medium=RSS&at_campaign=rss",
+      "title": "Living with a stink? Technology might help",
+      "summary": "Smells from rubbish dumps and industrial facilities are being more carefully monitored.",
+      "link": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Taxes, housing and tuition fees: 2027 budget measures impact family budgets in Portugal",
-      "summary": "From taxes and wages to pensions, housing and tuition fees, the 2027 State Budget contains several measures that will directly affect household incomes.",
-      "link": "https://www.euronews.com/2026/10/14/taxes-housing-and-tuition-fees-2027-budget-measures-impact-family-budgets-in-portugal",
+      "title": "EIB seeks cross-border projects to boost Central Asia’s economic development",
+      "summary": "The European Investment Bank is seeking to expand cross-border investments in Central Asia, while requiring projects to meet environmental standards and offer benefits for both regional economies and European industry.",
+      "link": "https://www.euronews.com/2026/10/15/eib-seeks-cross-border-projects-to-boost-central-asias-economic-development",
       "source": "Euronews Business"
-    },
-    {
-      "title": "David Lisnard, bulle ou réalité ?",
-      "summary": "Même s’il a dû mal à percer dans les sondages, David Lisnard, candidat à la présidentielle, a réussi à faire parler de lui ces derniers jours en surfant sur une campagne en ligne bien ficelée et en partie fabriquée. Voilà qui ne fait pas les affaires de Bruno Retailleau, le candidat des Républicains",
-      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/david-lisnard-bulle-ou-realite/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "How a Chinese-made toy gets to a US retailer",
-      "summary": "With Christmas on the horizon, we trace children's toys from factories in China to US shelves.",
-      "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Money laundering failures land Bank of America with a $1.2 billion fine",
-      "summary": "US authorities have imposed a $1.2 billion (€1.07bn) penalty on Bank of America over failures to tackle money laundering. The bank also settled alleged sanctions violations involving Iran and Russia.",
-      "link": "https://www.euronews.com/2026/10/14/money-laundering-failures-land-bank-of-america-with-a-12-billion-fine",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Ukrainian officers warn Starlink slowdown ‘comparable to a nuclear strike against us’",
-      "summary": "Reported restrictions on Elon Musk's satellite system have revived questions over Kyiv's reliance on a service controlled by a U.S. company.",
-      "link": "https://www.politico.eu/article/ukraine-starlink-restrictions-disrupt-drone-strikes/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
     }
   ],
-  "trend_headline": "대중국 무역 압박과 반도체·럭셔리 실적 충격",
-  "summary": "독일의 대중국 무역 기조 변화와 ASML의 AI 수요 공급 제약 경고, LVMH의 중국발 럭셔리 수요 둔화가 유럽증시의 주요 하방 압력으로 작용했습니다. EU 정상회의에서는 에너지 위기와 산업 보호 방안이 핵심 의제로 다뤄졌습니다.",
+  "trend_headline": "유니크레디트의 코메르츠방크 인수 승인과 독·프 내연기관 규제 완화 합의",
+  "summary": "ECB가 유니크레디트의 코메르츠방크 지분 확대 및 경영권 인수를 승인하며 유럽 은행권 대형화가 가속화되는 한편, 프랑스와 독일은 2035년 내연기관차 판매 금지 조치의 완화를 논의하며 자동차 산업 방어에 나섰습니다.",
   "key_points": [
-    "ASML, 분기 매출 117유로억 기록했으나 2027~2028년 AI 수요 미달 경고",
-    "독일, 수입 압박 확대로 대중국 무역 방어 수단 및 통상 규제 강화 추진",
-    "LVMH, 중국 시장 수요 둔화 여파로 3분기 매출 성장세 컨센서스 하회"
+    "ECB, 유니크레디트의 코메르츠방크 지분 30% 초과 및 2027년 경영권 인수 승인",
+    "프랑스·독일, EU 정상회의서 2035년 내연기관차 판매 금지 규제 완화 및 공공조달 자국우선주의 초안 합의",
+    "ASML, AI 수요 폭증 속 역대 최대 117억 유로 분기 매출 기록했으나 공급 부족 경고"
   ],
   "sector_hints": [
-    "Technology",
-    "Consumer Discretionary",
-    "Energy"
+    "Financials",
+    "Automotive",
+    "Technology"
   ]
 }

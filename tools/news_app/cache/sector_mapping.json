@@ -1,72 +1,84 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "sectors": [
-    {
-      "name": "Healthcare",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "UnitedHealth Group이 의료 비용 통제에 성공하고 2026년 실적 전망치를 상향 조정하는 등 견고한 실적과 방어력을 입증함.",
-      "related_tickers": [
-        "UNH"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "빅테크(메타 등)의 막대한 AI 투자 비용에 대한 불확실성이 부각되고 월가의 AI 투자 회수 지연에 대한 피로감이 확산됨.",
+      "score": -6.0,
+      "rationale": "미국 AI 인프라 기업의 채권 급락 및 차입 비용 증가 우려와 유럽 ASML의 중기 AI 수요 둔화 경고가 기술주 전반의 밸류에이션 부담으로 작용함.",
       "related_tickers": [
-        "META"
+        "MSFT",
+        "ASML",
+        "ORCL"
       ],
       "source_regions": [
-        "US"
+        "US",
+        "EUROPE"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -4.0,
-      "rationale": "LVMH 등 명품 브랜드가 중국 시장의 수요 둔화 여파로 3분기 실적이 시장 전망치를 하회하며 소비 둔화 우려가 지속됨. (EU-중국 무역 협정 타결 및 스텔란티스의 공급망 제휴 등 자동차 부문 호재 일부 상쇄)",
+      "score": -7.0,
+      "rationale": "LVMH의 중국 시장 럭셔리 수요 둔화 쇼크와 아시아(중국) 내수 부진 및 EU의 규제로 인한 전기차·소비재 업종 압박이 복합적으로 반영됨.",
       "related_tickers": [
-        "MC.PA",
-        "STLAM.MI"
+        "LVMUY",
+        "NKE",
+        "BYDDY",
+        "TSLA"
       ],
       "source_regions": [
-        "EU"
+        "EUROPE",
+        "ASIA"
       ]
     },
     {
-      "name": "Real Estate",
+      "name": "Healthcare",
       "direction": "positive",
-      "score": 4.0,
-      "rationale": "일본 미쓰이부동산의 신재생 에너지(지열발전) 진출 및 외국인 매수세 중심의 M&A 활성화로 섹터 내 성장 동력 다변화.",
+      "score": 5.5,
+      "rationale": "빅테크 및 경기민감 섹터의 변동성과 신용 위험 확대 속에서 견조한 경기 방어적 매력과 안정성이 부각됨.",
       "related_tickers": [
-        "8801.T"
+        "UNH",
+        "LLY",
+        "JNJ"
       ],
       "source_regions": [
-        "ASIA"
+        "US"
       ]
     },
     {
       "name": "Financials",
-      "direction": "neutral",
-      "score": 0.0,
-      "rationale": "일본의 M&A 활성화 및 홍콩 증시로의 자금 유입은 긍정적이나, 아시아 기업부채 부실 우려와 중국 선물 퀀트 거래 규제 강화 등 리스크 요인이 병존함.",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "미국 대형 은행들의 엇갈린 실적 및 규제 벌금 부과와 한국 등 아시아 가계부채 부실화 및 연체율 급등 리스크가 하방 요인으로 작용함.",
       "related_tickers": [
-        "9984.T"
+        "BAC",
+        "MS",
+        "KB"
       ],
       "source_regions": [
+        "US",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Communication Services",
+      "direction": "negative",
+      "score": -4.0,
+      "rationale": "넷플릭스가 전체 인력의 6%를 감원하는 등 미디어·콘텐츠 기업들의 비용 절감 및 구조조정 압박이 확인됨.",
+      "related_tickers": [
+        "NFLX",
+        "DIS"
+      ],
+      "source_regions": [
+        "US"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 막대한 AI CAPEX에 대한 회수 우려, AI 피로감 및 지정학적 리스크로 엔비디아, 마이크론 등 주요주가 급락세를 보인 반면, 아시아는 한국의 반도체 수출 호조와 대만 TSMC의 역대급 실적 기대감이 상존하며 지역 간 투자 심리가 엇갈림."
+      "note": "아시아는 TSMC의 역대급 호실적 기대감과 중국 반도체 수출 급증으로 강력한 모멘텀을 보이는 반면, 유럽(ASML의 2027~2028년 AI 수요 둔화 경고)과 미국(AI 인프라 과열 우려 및 신용경고)에서는 중장기 수요 둔화 우려가 제기되어 지역 간 시각차가 뚜렷함."
     }
   ]
 }

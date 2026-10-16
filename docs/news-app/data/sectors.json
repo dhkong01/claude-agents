@@ -1,24 +1,39 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "sectors": [
     {
-      "name": "Healthcare",
-      "direction": "positive",
-      "score": 7.5,
-      "rationale": "미국 대형 기술주의 조정에 따른 안전자산 선호 현상으로 일라이 릴리와 머크 등 대형 제약·바이오 종목으로 자금이 유입되어 사상 최고가 부근으로 급등함.",
+      "name": "Technology",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "미국 시장에서 AI 밸류에이션 회의론과 고금리 지속 우려로 인해 소프트웨어 및 기술주 전반에 급락세와 숏셀링이 증가했습니다.",
       "related_tickers": [
-        "LLY",
-        "MRK"
+        "MSFT",
+        "ORCL"
       ],
       "source_regions": [
         "US"
       ]
     },
     {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "브렌트유가 배럴당 110달러를 돌파하며 5월 이후 최고치를 기록함에 따라 석유 및 에너지 기업들의 단기 수익성 개선 기대감이 고조되었습니다.",
+      "related_tickers": [
+        "XOM",
+        "CVX",
+        "SHEL"
+      ],
+      "source_regions": [
+        "US",
+        "EU"
+      ]
+    },
+    {
       "name": "Financials",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "ECB가 유니크레디트의 코메르츠방크 지구 인수 및 경영권 취득을 승인함에 따라 유럽 은행권의 대형화 M&A 모멘텀이 강화됨.",
+      "score": 6.0,
+      "rationale": "ECB의 유니크레디트-코메르츠방크 지분 인수 승인으로 유럽 역내 대형 은행 간 M&A 및 구조재편 모멘텀이 강화되었습니다.",
       "related_tickers": [
         "UCG",
         "CBK"
@@ -30,22 +45,23 @@
     {
       "name": "Consumer Discretionary",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "프랑스와 독일이 2035년 내연기관차 판매 금지 규제 완화 및 자국 우선주의 정책 초안에 합의하며 유럽 자동차 제조업체들의 규제 리스크가 완화됨.",
+      "score": 5.5,
+      "rationale": "프랑스-독일 간 자동차 배출 규제 완화 타협 및 EU 차원의 무역 방어책 추진이 유럽 자동차업계에 긍정적으로 작용했습니다.",
       "related_tickers": [
-        "VOW3",
-        "BMW",
-        "STLA"
+        "TM",
+        "STLA",
+        "BMW"
       ],
       "source_regions": [
-        "EU"
+        "EU",
+        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 AI 생태계 우려 및 매도세로 엔비디아 등 관련주가 하락한 반면, 아시아(TSMC)와 유럽(ASML)은 AI 수요에 힘입어 사상 최대 실적을 달성하는 등 지역 간 투자 심리와 실적 간 온도의 차이가 존재함."
+      "note": "미국은 AI 밸류에이션 회의론과 엔비디아 관련주 약세로 투자심리가 약화된 반면, 아시아(대만)는 TSMC의 역대급 Q3 실적과 AI CapEx 확대로 강세를 나타냈습니다."
     }
   ]
 }

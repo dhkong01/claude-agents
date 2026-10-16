@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 3,
-  "medium_risk_signals": 3,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 5,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
@@ -12,9 +12,7 @@
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "From Allies To Enemies: Ethiopia And Eritrea Edge Toward War",
-    "\u2018The Assassin(S)\u2019 Movie Fuels South Korea\u2019S Culture Wars",
-    "Ransomware Attacks Have Swept Japan. A.I. May Be Making Them Easier."
+    "Trump\u2019S Deal With Russia Inflames Ukraine War He Vowed To End"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

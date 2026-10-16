@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "analyzed": 139,
   "top10": [
     {
@@ -16,9 +16,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 135040000000,
-      "price": 184.05,
+      "market_cap": 133469855744,
+      "price": 181.91,
       "rs_rating": 95.4
+    },
+    {
+      "ticker": "STX",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 157085368320,
+      "price": 690.81,
+      "rs_rating": 94.2
     },
     {
       "ticker": "WDC",
@@ -34,8 +52,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 136291098624,
-      "price": 364.1,
+      "market_cap": 133427535872,
+      "price": 356.45,
       "rs_rating": 90.7
     },
     {
@@ -52,9 +70,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 230368690176,
-      "price": 426.11,
-      "rs_rating": 87.1
+      "market_cap": 234650501120,
+      "price": 434.03,
+      "rs_rating": 89.5
     },
     {
       "ticker": "MSFT",
@@ -70,9 +88,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 3962939637760,
-      "price": 533.69,
-      "rs_rating": 81.1
+      "market_cap": 4005636341760,
+      "price": 539.44,
+      "rs_rating": 83.5
     },
     {
       "ticker": "MRVL",
@@ -88,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 220434268160,
-      "price": 245.28,
+      "market_cap": 216803508224,
+      "price": 241.24,
       "rs_rating": 97.8
     },
     {
@@ -106,27 +124,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 931849371648,
-      "price": 570.82,
+      "market_cap": 917826371584,
+      "price": 562.23,
       "rs_rating": 96.6
-    },
-    {
-      "ticker": "STX",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 162253996032,
-      "price": 713.54,
-      "rs_rating": 94.2
     },
     {
       "ticker": "ADI",
@@ -142,8 +142,26 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 195556098048,
-      "price": 403.57,
+      "market_cap": 195740221440,
+      "price": 403.95,
+      "rs_rating": 85.9
+    },
+    {
+      "ticker": "DXCM",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "market_cap": 33098311680,
+      "price": 87.71,
       "rs_rating": 84.7
     },
     {
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 5005219725312,
-      "price": 342.96,
-      "rs_rating": 79.9
-    },
-    {
-      "ticker": "SNPS",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 91972173824,
-      "price": 479.93,
-      "rs_rating": 65.6
+      "market_cap": 4991209701376,
+      "price": 342.0,
+      "rs_rating": 78.7
     }
   ]
 }

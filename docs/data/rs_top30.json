@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "rs90_count": 8,
   "stocks": [
     {
@@ -23,11 +23,11 @@
       "rs_rating": 94.2
     },
     {
-      "ticker": "INTC",
+      "ticker": "AEHR",
       "rs_rating": 93.0
     },
     {
-      "ticker": "AEHR",
+      "ticker": "INTC",
       "rs_rating": 91.8
     },
     {
@@ -35,59 +35,59 @@
       "rs_rating": 90.7
     },
     {
-      "ticker": "CSCO",
+      "ticker": "AMGN",
       "rs_rating": 89.5
     },
     {
-      "ticker": "COHR",
+      "ticker": "CSCO",
       "rs_rating": 88.3
     },
     {
-      "ticker": "AMGN",
+      "ticker": "TXN",
       "rs_rating": 87.1
     },
     {
-      "ticker": "TXN",
+      "ticker": "ADI",
       "rs_rating": 85.9
     },
     {
-      "ticker": "ADI",
+      "ticker": "DXCM",
       "rs_rating": 84.7
     },
     {
-      "ticker": "LRCX",
+      "ticker": "MSFT",
       "rs_rating": 83.5
     },
     {
-      "ticker": "AMAT",
+      "ticker": "GILD",
       "rs_rating": 82.3
     },
     {
-      "ticker": "MSFT",
+      "ticker": "LRCX",
       "rs_rating": 81.1
     },
     {
-      "ticker": "AAPL",
+      "ticker": "KDP",
       "rs_rating": 79.9
     },
     {
-      "ticker": "GILD",
+      "ticker": "AAPL",
       "rs_rating": 78.7
     },
     {
-      "ticker": "ASML",
+      "ticker": "AMAT",
       "rs_rating": 77.5
     },
     {
-      "ticker": "DXCM",
+      "ticker": "ASML",
       "rs_rating": 76.3
     },
     {
-      "ticker": "FAST",
+      "ticker": "COHR",
       "rs_rating": 75.1
     },
     {
-      "ticker": "KDP",
+      "ticker": "REGN",
       "rs_rating": 74.0
     },
     {
@@ -95,31 +95,31 @@
       "rs_rating": 72.8
     },
     {
-      "ticker": "REGN",
+      "ticker": "CTSH",
       "rs_rating": 71.6
     },
     {
-      "ticker": "CSX",
+      "ticker": "MAR",
       "rs_rating": 70.4
     },
     {
-      "ticker": "NVDA",
+      "ticker": "CSX",
       "rs_rating": 69.2
     },
     {
-      "ticker": "ROST",
+      "ticker": "FAST",
       "rs_rating": 68.0
     },
     {
-      "ticker": "MAR",
+      "ticker": "ROST",
       "rs_rating": 66.8
     },
     {
-      "ticker": "SNPS",
+      "ticker": "CCEP",
       "rs_rating": 65.6
     },
     {
-      "ticker": "CCEP",
+      "ticker": "QCOM",
       "rs_rating": 64.4
     }
   ],

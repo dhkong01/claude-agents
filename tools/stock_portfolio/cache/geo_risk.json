@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
@@ -7,11 +7,10 @@
   "medium_risk_signals": 5,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
-    "Defense": "ELEVATED",
-    "Financials": "WATCH"
+    "Defense": "ELEVATED"
   },
   "top_risk_events": [
+    "Japan Mistakenly Issues Warning For Strongest Ever Earthquake",
     "Trump\u2019S Deal With Russia Inflames Ukraine War He Vowed To End"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",

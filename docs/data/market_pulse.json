@@ -1,45 +1,45 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "indices": {
     "nasdaq": {
-      "price": 26713.03,
-      "change": 20.16,
-      "change_pct": 0.08,
+      "price": 26140.03,
+      "change": -573.0,
+      "change_pct": -2.15,
       "label": "나스닥종합",
       "region": "US"
     },
     "dow": {
-      "price": 52177.69,
-      "change": 556.21,
-      "change_pct": 1.08,
+      "price": 52002.41,
+      "change": -175.28,
+      "change_pct": -0.34,
       "label": "다우존스",
       "region": "US"
     },
     "sp500": {
-      "price": 7744.06,
-      "change": 25.12,
-      "change_pct": 0.33,
+      "price": 7659.44,
+      "change": -84.62,
+      "change_pct": -1.09,
       "label": "S&P500",
       "region": "US"
     },
     "kospi": {
-      "price": 5603.77,
-      "change": 49.55,
-      "change_pct": 0.89,
+      "price": 5554.22,
+      "change": -454.59,
+      "change_pct": -7.57,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 769.15,
-      "change": -54.73,
-      "change_pct": -6.64,
+      "price": 760.82,
+      "change": -63.06,
+      "change_pct": -7.65,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 65226.2,
-      "change": 800.25,
-      "change_pct": 1.24,
+      "price": 64425.95,
+      "change": -3318.34,
+      "change_pct": -4.9,
       "label": "니케이225",
       "region": "ASIA"
     },
@@ -59,29 +59,36 @@
     }
   },
   "breadth": {
-    "total": 441,
-    "advancers": 341,
-    "decliners": 100,
+    "total": 515,
+    "advancers": 391,
+    "decliners": 124,
     "unchanged": 0,
-    "adv_pct": 77.3,
+    "adv_pct": 75.9,
     "universe": "S&P500+NASDAQ100"
   },
   "macro": {
-    "phase": "RISK_ON",
-    "m_score": 10,
-    "vix": 16.46,
+    "phase": "TRANSITIONAL",
+    "m_score": 6,
+    "vix": 19.99,
     "volatility": "NORMAL",
-    "fear_greed": 31.5,
-    "fear_greed_rating": "fear",
-    "yield2y": 4.82,
-    "yield10y": 5.09,
-    "yield30y": 5.43,
+    "fear_greed": 17.9,
+    "fear_greed_rating": "extreme fear",
+    "yield2y": 4.77,
+    "yield10y": 5.1,
+    "yield30y": 5.44,
     "rate_env": "HIGH",
-    "dollar_trend": "STRENGTHENING",
-    "market_trend": "BULL",
-    "mfi": 41.7,
+    "dollar_trend": "FLAT",
+    "market_trend": "SIDEWAYS",
+    "mfi": 45.2,
     "mfi_signal": "중립"
   },
-  "guru_insights": [],
-  "guru_date": "2026-10-16"
+  "guru_insights": [
+    {
+      "name": "Cathie Wood",
+      "insight": "CoreWeave 주가가 하락하는 가운데 젠슨 황과 캐시 우드도 주가를 지지하지 못했다.",
+      "source": "Barron's",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNR3IzREpZY3Rya1BfdnIzUmNCZElYNzQtNU1HLTV6WGg2QUY5MVhoNFJVbi1VYXVSSHUwREg0aFJtLUROT0FSQWEzclJXcXJBMFRSTGxCRkhtZUtJdWVrUWZ1eTVJLW1ubHpGZ240SE5VeUtyWlBSNXlJek1kbTFXWlZn?oc=5"
+    }
+  ],
+  "guru_date": "2026-10-17"
 }

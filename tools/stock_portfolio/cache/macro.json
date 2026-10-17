@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-15",
-  "phase": "RISK_ON",
-  "m_score": 10,
+  "date": "2026-10-16",
+  "phase": "TRANSITIONAL",
+  "m_score": 6,
   "signals": {
-    "market_trend": "BULL",
-    "market_ret3m": 0.0404,
-    "vix_level": 16.46,
+    "market_trend": "SIDEWAYS",
+    "market_ret3m": 0.02,
+    "vix_level": 19.99,
     "volatility": "NORMAL",
-    "yield10y": 5.09,
+    "yield10y": 5.1,
     "rate_env": "HIGH",
-    "yield30y": 5.43,
-    "yield2y": 4.82,
-    "fear_greed_score": 31.5,
-    "fear_greed_rating": "fear",
-    "dollar_trend": "STRENGTHENING"
+    "yield30y": 5.44,
+    "yield2y": 4.77,
+    "fear_greed_score": 17.9,
+    "fear_greed_rating": "extreme fear",
+    "dollar_trend": "FLAT"
   },
   "recommended_sectors": [
-    "Technology",
-    "Consumer Discretionary",
-    "Industrials",
-    "Financials"
+    "Healthcare",
+    "Financials",
+    "Energy",
+    "Real Estate"
   ]
 }

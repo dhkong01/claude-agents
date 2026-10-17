@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "data": [
     {
       "ticker": "AMGN",
@@ -12,6 +12,16 @@
       "channel_width_pct": 5.8
     },
     {
+      "ticker": "KDP",
+      "current": 34.18,
+      "donchian_upper": 33.12,
+      "donchian_lower": 30.37,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -3.1,
+      "dist_to_lower_pct": 11.1,
+      "channel_width_pct": 9.1
+    },
+    {
       "ticker": "GILD",
       "current": 157.37,
       "donchian_upper": 153.54,
@@ -20,6 +30,16 @@
       "dist_to_upper_pct": -2.4,
       "dist_to_lower_pct": 8.3,
       "channel_width_pct": 6.5
+    },
+    {
+      "ticker": "ABNB",
+      "current": 174.28,
+      "donchian_upper": 167.06,
+      "donchian_lower": 160.39,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -4.1,
+      "dist_to_lower_pct": 8.0,
+      "channel_width_pct": 4.2
     },
     {
       "ticker": "MSFT",
@@ -32,24 +52,14 @@
       "channel_width_pct": 6.0
     },
     {
-      "ticker": "DXCM",
-      "current": 87.71,
-      "donchian_upper": 89.53,
-      "donchian_lower": 83.39,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 2.1,
-      "dist_to_lower_pct": 4.9,
-      "channel_width_pct": 7.4
-    },
-    {
-      "ticker": "AAPL",
-      "current": 342.0,
-      "donchian_upper": 342.96,
-      "donchian_lower": 330.32,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 0.3,
-      "dist_to_lower_pct": 3.4,
-      "channel_width_pct": 3.8
+      "ticker": "SNDK",
+      "current": 1394.83,
+      "donchian_upper": 1887.04,
+      "donchian_lower": 1403.34,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 35.3,
+      "dist_to_lower_pct": -0.6,
+      "channel_width_pct": 34.5
     },
     {
       "ticker": "MU",
@@ -60,6 +70,16 @@
       "dist_to_upper_pct": 17.8,
       "dist_to_lower_pct": 1.8,
       "channel_width_pct": 20.0
+    },
+    {
+      "ticker": "LITE",
+      "current": 869.54,
+      "donchian_upper": 1133.4,
+      "donchian_lower": 896.33,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 30.3,
+      "dist_to_lower_pct": -3.1,
+      "channel_width_pct": 26.4
     },
     {
       "ticker": "MRVL",
@@ -80,26 +100,6 @@
       "dist_to_upper_pct": 15.5,
       "dist_to_lower_pct": -1.5,
       "channel_width_pct": 13.8
-    },
-    {
-      "ticker": "FTNT",
-      "current": 181.91,
-      "donchian_upper": 194.75,
-      "donchian_lower": 178.72,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 7.1,
-      "dist_to_lower_pct": 1.8,
-      "channel_width_pct": 9.0
-    },
-    {
-      "ticker": "STX",
-      "current": 690.81,
-      "donchian_upper": 945.57,
-      "donchian_lower": 713.54,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 36.9,
-      "dist_to_lower_pct": -3.3,
-      "channel_width_pct": 32.5
     }
   ]
 }

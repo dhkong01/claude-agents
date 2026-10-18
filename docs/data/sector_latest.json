@@ -1,93 +1,93 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 7.9,
-      "week1": 3.9,
+      "qtd": 9.08,
+      "week1": 3.8,
       "rank": 1,
-      "status": "강세"
-    },
-    {
-      "sector": "Healthcare",
-      "etf": "XLV",
-      "qtd": 6.61,
-      "week1": 3.74,
-      "rank": 2,
       "status": "강세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 6.16,
-      "week1": 2.27,
-      "rank": 3,
+      "qtd": 8.84,
+      "week1": 3.38,
+      "rank": 2,
       "status": "강세"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 4.96,
-      "week1": 0.58,
-      "rank": 4,
+      "qtd": 6.38,
+      "week1": 1.39,
+      "rank": 3,
       "status": "강세"
     },
     {
-      "sector": "Consumer Disc.",
-      "etf": "XLY",
-      "qtd": 4.23,
-      "week1": 0.5,
-      "rank": 5,
+      "sector": "Healthcare",
+      "etf": "XLV",
+      "qtd": 6.32,
+      "week1": 2.74,
+      "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 4.16,
-      "week1": 2.29,
-      "rank": 6,
+      "qtd": 4.9,
+      "week1": 2.99,
+      "rank": 5,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 3.39,
-      "week1": 0.99,
-      "rank": 7,
+      "qtd": 3.85,
+      "week1": 0.85,
+      "rank": 6,
       "status": "강세"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 3.22,
-      "week1": 0.91,
+      "qtd": 3.64,
+      "week1": 0.57,
+      "rank": 7,
+      "status": "강세"
+    },
+    {
+      "sector": "Consumer Disc.",
+      "etf": "XLY",
+      "qtd": 3.35,
+      "week1": 0.17,
       "rank": 8,
       "status": "강세"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": 2.27,
-      "week1": 1.87,
+      "qtd": 0.35,
+      "week1": -1.01,
       "rank": 9,
       "status": "중립"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -0.44,
-      "week1": -0.8,
+      "qtd": -0.52,
+      "week1": -0.82,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": -4.36,
-      "week1": -4.82,
+      "qtd": -7.25,
+      "week1": -6.56,
       "rank": 11,
       "status": "약세"
     }
@@ -96,13 +96,13 @@
     "Healthcare": [
       {
         "ticker": "AMGN",
-        "rs": 88.0,
-        "canslim": 58,
+        "rs": 91.4,
+        "canslim": 61,
         "price": 432.49
       },
       {
         "ticker": "DXCM",
-        "rs": 83.2,
+        "rs": 85.2,
         "canslim": 55,
         "price": 86.04
       }
@@ -110,9 +110,15 @@
     "Technology": [
       {
         "ticker": "MSFT",
-        "rs": 82.5,
+        "rs": 83.9,
         "canslim": 58,
         "price": 529.05
+      },
+      {
+        "ticker": "AAPL",
+        "rs": 81.1,
+        "canslim": 58,
+        "price": 343.46
       },
       {
         "ticker": "MRVL",
@@ -121,16 +127,16 @@
         "price": 227.83
       },
       {
-        "ticker": "AMD",
+        "ticker": "FTNT",
         "rs": 96.2,
         "canslim": 55,
-        "price": 528.75
+        "price": 169.13
       },
       {
-        "ticker": "FTNT",
+        "ticker": "AMD",
         "rs": 95.6,
         "canslim": 55,
-        "price": 169.13
+        "price": 528.75
       },
       {
         "ticker": "STX",
@@ -143,30 +149,26 @@
         "rs": 90.1,
         "canslim": 55,
         "price": 332.0
-      },
+      }
+    ],
+    "Energy": [
       {
-        "ticker": "SHOP",
-        "rs": 87.3,
-        "canslim": 55,
-        "price": 169.52
-      },
-      {
-        "ticker": "AAPL",
-        "rs": 78.4,
-        "canslim": 54,
-        "price": 343.46
+        "ticker": "FANG",
+        "rs": 81.8,
+        "canslim": 58,
+        "price": 203.95
       }
     ]
   },
   "macro": {
-    "phase": "RISK_ON",
-    "vix": 16.46,
-    "yield10y": 5.09,
+    "phase": "TRANSITIONAL",
+    "vix": 19.99,
+    "yield10y": 5.1,
     "rec_sectors": [
-      "Technology",
-      "Consumer Discretionary",
-      "Industrials",
-      "Financials"
+      "Healthcare",
+      "Financials",
+      "Energy",
+      "Real Estate"
     ]
   },
   "geo_risk": {

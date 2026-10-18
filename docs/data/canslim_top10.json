@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "analyzed": 139,
   "top10": [
     {
       "ticker": "AMGN",
-      "canslim_score": 58,
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
         "S": 4,
-        "L": 7,
+        "L": 10,
         "I": 10,
         "M": 7
       },
@@ -18,7 +18,7 @@
       "industry": "Drug Manufacturers - General",
       "market_cap": 233817931776,
       "price": 432.49,
-      "rs_rating": 88.0
+      "rs_rating": 91.4
     },
     {
       "ticker": "MSFT",
@@ -36,7 +36,43 @@
       "industry": "Software - Infrastructure",
       "market_cap": 3928485003264,
       "price": 529.05,
-      "rs_rating": 82.5
+      "rs_rating": 83.9
+    },
+    {
+      "ticker": "FANG",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "market_cap": 57373847552,
+      "price": 203.95,
+      "rs_rating": 81.8
+    },
+    {
+      "ticker": "AAPL",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 5012516765696,
+      "price": 343.46,
+      "rs_rating": 81.1
     },
     {
       "ticker": "MRVL",
@@ -57,24 +93,6 @@
       "rs_rating": 96.9
     },
     {
-      "ticker": "AMD",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 4,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 863171182592,
-      "price": 528.75,
-      "rs_rating": 96.2
-    },
-    {
       "ticker": "FTNT",
       "canslim_score": 55,
       "scores": {
@@ -90,6 +108,24 @@
       "industry": "Software - Infrastructure",
       "market_cap": 124092997632,
       "price": 169.13,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "AMD",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 863171182592,
+      "price": 528.75,
       "rs_rating": 95.6
     },
     {
@@ -129,24 +165,6 @@
       "rs_rating": 90.1
     },
     {
-      "ticker": "SHOP",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 219978416128,
-      "price": 169.52,
-      "rs_rating": 87.3
-    },
-    {
       "ticker": "DXCM",
       "canslim_score": 55,
       "scores": {
@@ -162,25 +180,7 @@
       "industry": "Medical Devices",
       "market_cap": 32468121600,
       "price": 86.04,
-      "rs_rating": 83.2
-    },
-    {
-      "ticker": "AAPL",
-      "canslim_score": 54,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 5012516765696,
-      "price": 343.46,
-      "rs_rating": 78.4
+      "rs_rating": 85.2
     }
   ]
 }

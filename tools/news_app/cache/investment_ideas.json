@@ -1,146 +1,134 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "horizons": {
     "1w": [
       {
-        "theme": "AI 반도체 단기 과매도 반등 모멘텀",
+        "theme": "지정학적 리스크 심화에 따른 에너지 단기 모멘텀",
         "sectors": [
-          "Semiconductors",
-          "Technology"
+          "Energy"
         ],
         "tickers": [
-          "NVDA",
-          "TSM",
-          "AMD"
+          "XOM",
+          "CVX",
+          "SHEL"
         ],
-        "rationale": "CoreWeave 자금난 악재로 인한 단기 급락에도 불구하고, TSMC의 사상 최대 실적 및 월가의 과도한 버블 우려 평가에 기반한 단기 과매도 반등 기대.",
-        "risk": "AI 정크 본드 시장의 단기 신용 스프레드 추가 확대 및 매도세 연장",
-        "conviction": "medium"
+        "rationale": "중동 아람코 피습 및 호르무즈 해협 리스크에 따른 에너지 공급 불안감으로 단기 유가 상승 기대감 형성",
+        "risk": "지정학적 긴합 완화 단기 타결 시 유가 차익실현 매물 출회",
+        "conviction": "high"
       },
       {
-        "theme": "유럽 은행권 대형 M&A 이벤트 모멘텀",
+        "theme": "AI 반도체 지역 간 신호 상충 속 실적 모멘텀 대응",
         "sectors": [
-          "Financials"
+          "Information Technology"
         ],
         "tickers": [
-          "UCG"
+          "2330.TW",
+          "NVDA"
         ],
-        "rationale": "ECB의 유니크레딧-코메르츠방크 지분 30% 초과 보유 승인으로 유럽 금융권 국경 간 M&A 모멘텀이 단기적으로 강하게 분출.",
-        "risk": "독일 정계 및 노동계의 M&A 반대 정치적 리스크",
-        "conviction": "high"
+        "rationale": "미국 시장의 AI 테마 차익실현에도 불구하고 대만 TSMC의 사상 최대 실적 및 AI 칩 수요 폭발이 지지선 역할 수행",
+        "risk": "미 국채 금리 추가 급등 시 기술주 전반의 밸류에이션 부담 가중",
+        "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "중국 전기차 규제 강화에 따른 단기 수급 약세",
+        "theme": "채권 금리 상승과 연준 금리 전망에 따른 가치·배당주 순환매",
         "sectors": [
-          "Consumer Discretionary"
+          "Financials"
         ],
         "tickers": [
-          "BYD",
-          "TM"
+          "JPM",
+          "BAC"
         ],
-        "rationale": "중국 당국의 전기차 안전성 합동 조사로 단기 규제 불확실성이 고조되며 전기차 및 완성차 밸류체인 전반의 자금 유입 약화.",
-        "risk": "중국 정부의 조기 조사 마무리 및 완화적 정책 발표",
+        "rationale": "미 연준의 추가 금리 인상 가능성과 국채 금리 상승 압박으로 배당·가치 금융주로의 단기 자금 이동 지속",
+        "risk": "고금리 장기화에 따른 대손 충당금 적립 부담 및 경기 둔화 우려",
         "conviction": "high"
       },
       {
-        "theme": "테크 크레딧 불안에 따른 기술주 자금 유출 압력",
+        "theme": "아시아 부동산 규제 강화에 따른 투자심리 경계",
         "sectors": [
-          "Technology"
+          "Real Estate"
         ],
         "tickers": [
-          "NVDA",
-          "BAC"
+          "8801.T",
+          "8802.T"
         ],
-        "rationale": "CoreWeave 자금난발 AI 정크 본드 불안 심리가 기술주 전반으로 전이되며 1개월 관점의 자금 흐름에 하방 압력 형성.",
-        "risk": "빅테크 기업들의 인프라 자금 지원 또는 구제책 발표",
+        "rationale": "일본 도쿄도의 외국인 매수자 국적 신고 의무화 등 자산시장 규제 강화로 부동산 투자 심리 단기 위축",
+        "risk": "규제 적용 범위 완화 및 도심 재개발 모멘텀 재부각",
         "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "실물 수요 기반 반도체 실적 선별화",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM",
-          "NVDA"
-        ],
-        "rationale": "자금 조달 이슈와 분리되어 실제 폭발적 AI 칩 수요를 실적으로 증명하는 TSMC 중심의 분기 실적 모멘텀 지속.",
-        "risk": "주요 하이퍼스케일러들의 분기 CAPEX 지출 가이드라인 하향",
-        "conviction": "high"
-      },
-      {
-        "theme": "영국 증세 리스크와 유럽 금융주 성과 차별화",
+        "theme": "유럽 국경간 은행 통합 및 구조조정 본격화",
         "sectors": [
           "Financials"
         ],
         "tickers": [
           "UCG",
-          "BAC"
+          "CBK"
         ],
-        "rationale": "영국 예산안의 은행권 증세/규제 압력이 연말 실적에 반영되는 반면 M&A 모멘텀을 보유한 남유럽/중유럽 은행권과의 성과 격차 확대.",
-        "risk": "영국 예산안 내 금융권 증세 수위 완화",
+        "rationale": "ECB의 유니크레디트 코메르츠방크 지부 보유 승인에 따른 유럽 금융권 M&A 및 수익성 개선 모멘텀 가속화",
+        "risk": "피인수 기업 및 해당 국 정부의 정치적 반발",
+        "conviction": "high"
+      },
+      {
+        "theme": "무역 규제 강화와 고금리에 따른 소비재 업황 압박",
+        "sectors": [
+          "Consumer Discretionary"
+        ],
+        "tickers": [
+          "TSLA",
+          "1211.HK",
+          "NIO"
+        ],
+        "rationale": "EU의 '메이드 인 유럽' 규제 강화로 인한 중국 완성차 압박과 미 국채 금리 상승에 따른 글로벌 소비 심리 악화",
+        "risk": "EU-중국 간 무역 협상 타결 및 각국 정부의 전기차 보조금 재개",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "유럽 금융권 국경 간 통합 및 구조조정 사이클",
+        "theme": "중동 공급망 불안의 구조화와 글로벌 에너지 메이저 수혜",
         "sectors": [
-          "Financials"
+          "Energy"
         ],
         "tickers": [
-          "UCG"
+          "SHEL",
+          "TTE",
+          "XOM"
         ],
-        "rationale": "ECB의 대형 지분 승인을 계기로 중기적으로 유럽 은행권의 자본 효율화 및 대형 M&A 재편 사이클 본격화.",
-        "risk": "각국 금융 당국의 보호무역주의적 반발 및 승인 지연",
-        "conviction": "medium"
+        "rationale": "지정학적 리스크의 장기화로 글로벌 에너지 공급망 재편 및 정제 마진 강세가 구조적으로 유지될 가능성",
+        "risk": "글로벌 경기 침체 전환에 따른 원유 실질 수요 급감",
+        "conviction": "high"
       },
       {
-        "theme": "글로벌 EV 안전 기준 강화 및 완성차 점유율 재편",
+        "theme": "AI 반도체 수요 양극화 및 펀더멘털 차별화",
         "sectors": [
-          "Consumer Discretionary"
+          "Information Technology"
         ],
         "tickers": [
-          "BYD",
-          "TM"
+          "2330.TW",
+          "NVDA"
         ],
-        "rationale": "중국의 안전성 조사 강화를 기점으로 전기차 산업 전반의 기술 표준 제정 및 내연기관/하이브리드 포함 글로벌 완성차 점유율 변화.",
-        "risk": "중국 EV 업체들의 신속한 규제 충족 및 공격적 가격 정책 재개",
+        "rationale": "매크로 변동성 속에서도 폭발적인 AI 칩 실적을 증명하는 선단 공정 및 핵심 반도체 기업으로의 수급 쏠림 강화",
+        "risk": "빅테크 기업들의 AI CAPEX 지출 속도 조절",
         "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "AI 인프라 자금조달 재편 및 실질 수익 기업 중심 옥석 가리기",
-        "sectors": [
-          "Semiconductors",
-          "Technology"
-        ],
-        "tickers": [
-          "TSM",
-          "NVDA",
-          "AMD"
-        ],
-        "rationale": "AI 정크 본드 부실 가능성에 따른 한계 기업 도태 이후, 사상 최대 실적을 내는 실물 밸류체인 핵심 기업 중심으로의 거시 자산 재배분.",
-        "risk": "글로벌 경기 침체로 인한 빅테크 전반의 구조적 AI 지출 축소",
-        "conviction": "high"
-      },
-      {
-        "theme": "지역별 규제·지정학 다변화에 따른 글로벌 금융 환경 재편",
+        "theme": "글로벌 고금리 레жим 전환과 금융 섹터 구조적 재평가",
         "sectors": [
           "Financials"
         ],
         "tickers": [
-          "UCG",
-          "BAC"
+          "JPM",
+          "UCG"
         ],
-        "rationale": "유럽의 통합 규제 완화, 영국의 증세 정책, 아시아의 인프라 정비 등 지역별 정책 레짐의 분화가 1년간 자본 이동을 주도.",
-        "risk": "글로벌 중앙은행들의 급격한 통화정책 공조 변화",
-        "conviction": "medium"
+        "rationale": "미국·한국 등 주요국 금리 구조 재편과 유럽 은행 통합 등 거시적 금융 환경 변화에 따른 예대마진 고점 상향",
+        "risk": "글로벌 신용 위험 우려 부각 및 금융당국의 이자이익 규제 강화",
+        "conviction": "high"
       }
     ]
   }

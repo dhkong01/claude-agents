@@ -1,41 +1,15 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "sectors": [
     {
-      "name": "Semiconductors",
-      "direction": "neutral",
-      "score": 1.0,
-      "rationale": "대만 TSMC의 사상 최대 실적과 폭발적인 AI 칩 수요는 강력한 호재이나, 미국 CoreWeave 자금난 및 AI 인프라 지출 피크아웃 우려로 인한 주요 반도체주 약세가 상쇄 작용을 하고 있습니다.",
-      "related_tickers": [
-        "TSM",
-        "NVDA",
-        "AMD"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "CoreWeave 자금난으로 인한 AI 정크 본드 시장 불안과 AI 인프라 투자 피크아웃 우려, 뱅크오브아메리카의 Anthropic 소프트웨어 결함 대응 등 악재가 겹치며 투심이 위축되었습니다.",
-      "related_tickers": [
-        "NVDA",
-        "BAC"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
       "name": "Financials",
-      "direction": "neutral",
-      "score": 0.5,
-      "rationale": "유럽 ECB의 유니크레딧-코메르츠방크 M&A 승인으로 인한 국경 간 통합 모멘텀은 긍정적이나, 영국의 예산안 증세/규제 리스크 및 한국의 변동금리 인상에 따른 대출 부담이 혼재되어 있습니다.",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "미국의 배당·가치주 순환매와 금리 인상 가능성, 한국의 예금 금리 인상에 따른 자금 재유입, 유럽중앙은행(ECB)의 유니크레디트-코메르츠방크 국경간 은행 통합 승인 등 전 지역에서 호조세를 보이고 있습니다.",
       "related_tickers": [
+        "JPM",
         "UCG",
+        "CBK",
         "BAC"
       ],
       "source_regions": [
@@ -45,13 +19,43 @@
       ]
     },
     {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 7.5,
+      "rationale": "중동 아람코 피습 및 호르무즈 해협 선박 피격 급증으로 인한 지정학적 리스크 심화로 에너지 공급망 불안이 재부각되며 유가 상승 기대감이 형성되었습니다.",
+      "related_tickers": [
+        "XOM",
+        "CVX",
+        "SHEL",
+        "TTE"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -5.0,
-      "rationale": "중국 당국의 전기차 안전성 문제에 대한 합동 조사 강화로 인해 전기차 및 완성차 업계 전반의 규제 리스크가 확대되고 있습니다.",
+      "score": -6.0,
+      "rationale": "유럽연합의 '메이드 인 유럽' 규제 강화로 중국 완성차 업체들이 압박을 받고 있으며, 미국의 국채 금리 상승에 따른 소비 및 밸류에이션 부담이 가중되고 있습니다.",
       "related_tickers": [
-        "TM",
-        "BYD"
+        "TSLA",
+        "NIO",
+        "1211.HK"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "일본 도쿄도의 외국인 부동산 매수자 국적 신고 의무화 도입 등 자산시장 규제 변화가 부동산 투자심리에 악영향을 미치고 있습니다.",
+      "related_tickers": [
+        "8801.T",
+        "8802.T"
       ],
       "source_regions": [
         "ASIA"
@@ -61,11 +65,7 @@
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 CoreWeave 자금난과 AI 지출 피크아웃 우려로 투심이 약화된 반면, 아시아(대만)는 TSMC의 사상 최대 실적 및 수요 초과로 매우 긍정적인 신호를 보이고 있습니다."
-    },
-    {
-      "sector": "Financials",
-      "note": "유럽 중앙권에서는 유니크레딧의 코메르츠방크 인수 승인으로 은행권 대형 M&A 호재가 발생했으나, 영국에서는 예산안 발표를 앞두고 은행권 증세 및 규제 리스크가 부각되는 등 지역 내 온도차가 존재합니다."
+      "note": "미국 시장에서는 AI 테마 차익실현 매물 출회 및 국채 금리 부담으로 기술주 급락세가 나타난 반면, 아시아 시장에서는 대만 TSMC의 사상 최대 실적 달성과 폭발적인 AI 칩 수요가 확인되어 지역 간 신호가 대립하고 있습니다."
     }
   ]
 }

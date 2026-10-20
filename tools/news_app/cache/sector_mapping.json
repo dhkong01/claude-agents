@@ -1,71 +1,90 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-21",
   "sectors": [
     {
-      "name": "Financials",
+      "name": "Semiconductors",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "미국의 배당·가치주 순환매와 금리 인상 가능성, 한국의 예금 금리 인상에 따른 자금 재유입, 유럽중앙은행(ECB)의 유니크레디트-코메르츠방크 국경간 은행 통합 승인 등 전 지역에서 호조세를 보이고 있습니다.",
+      "rationale": "미국 스페이스X의 AI 컴퓨팅 수요 급증과 대만 TSMC의 3nm 신규 팹 증설 모멘텀이 반도체 업황 전반에 강력한 호재로 작용하고 있습니다.",
       "related_tickers": [
-        "JPM",
-        "UCG",
-        "CBK",
-        "BAC"
+        "TSM",
+        "NVDA"
       ],
       "source_regions": [
         "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Technology",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "스페이스X 실적 호조 및 테슬라와의 모멘텀, 독일 연방정부의 엔비디아 AI 파트너십 및 아마존 투자 유치 등 글로벌 AI 빅테크 투자 모멘텀이 유지되고 있습니다.",
+      "related_tickers": [
+        "NVDA",
+        "AMZN"
+      ],
+      "source_regions": [
+        "US",
+        "EU"
+      ]
+    },
+    {
+      "name": "Communication Services",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "넷플릭스가 3분기 실적 호조에도 불구하고 미래 광고 및 매출 가이던스 부진을 제시하며 약세를 보이고 있습니다.",
+      "related_tickers": [
+        "NFLX"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "아시아 내 AI 부채 및 신용 리스크 우려(한국 부도보험 급증, 중국 ICBC의 AI 전환 부담 경고)와 프랑스 소요 사태에 따른 보험업계 손실 우려가 부담으로 작용하고 있습니다.",
+      "related_tickers": [
+        "1398.HK",
+        "AXA"
+      ],
+      "source_regions": [
         "ASIA",
-        "EUROPE"
+        "EU"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "negative",
+      "score": -4.0,
+      "rationale": "유럽 대형 제약사 로슈가 경영 환경 우려를 이유로 유로존 내 신규 투자를 보류하며 헬스케어 투자 심리가 경색되었습니다.",
+      "related_tickers": [
+        "ROG"
+      ],
+      "source_regions": [
+        "EU"
       ]
     },
     {
       "name": "Energy",
-      "direction": "positive",
-      "score": 7.5,
-      "rationale": "중동 아람코 피습 및 호르무즈 해협 선박 피격 급증으로 인한 지정학적 리스크 심화로 에너지 공급망 불안이 재부각되며 유가 상승 기대감이 형성되었습니다.",
+      "direction": "neutral",
+      "score": 0.0,
+      "rationale": "영국 북해 잭도우 가스전 개발 승인을 앞두고 에너지 안보 확보와 환경 규제 부담 사이의 불확실성이 지속되고 있습니다.",
       "related_tickers": [
-        "XOM",
-        "CVX",
         "SHEL",
-        "TTE"
+        "BP"
       ],
       "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "유럽연합의 '메이드 인 유럽' 규제 강화로 중국 완성차 업체들이 압박을 받고 있으며, 미국의 국채 금리 상승에 따른 소비 및 밸류에이션 부담이 가중되고 있습니다.",
-      "related_tickers": [
-        "TSLA",
-        "NIO",
-        "1211.HK"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "일본 도쿄도의 외국인 부동산 매수자 국적 신고 의무화 도입 등 자산시장 규제 변화가 부동산 투자심리에 악영향을 미치고 있습니다.",
-      "related_tickers": [
-        "8801.T",
-        "8802.T"
-      ],
-      "source_regions": [
-        "ASIA"
+        "EU"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Semiconductors",
-      "note": "미국 시장에서는 AI 테마 차익실현 매물 출회 및 국채 금리 부담으로 기술주 급락세가 나타난 반면, 아시아 시장에서는 대만 TSMC의 사상 최대 실적 달성과 폭발적인 AI 칩 수요가 확인되어 지역 간 신호가 대립하고 있습니다."
+      "sector": "Consumer Discretionary",
+      "note": "미국은 테슬라와 스페이스X의 합병 검토 소식으로 긍정적 모멘텀이 형성된 반면, 유럽은 프랑스 폭동으로 인한 리테일 매장 타격, 아시아는 CATL 실적 둔화에 따른 배터리/전기차 섹터 경계감으로 부정적 신호가 엇갈리고 있습니다."
     }
   ]
 }

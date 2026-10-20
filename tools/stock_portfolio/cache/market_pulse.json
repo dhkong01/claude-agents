@@ -1,45 +1,45 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "indices": {
     "nasdaq": {
-      "price": 26140.03,
-      "change": -573.0,
-      "change_pct": -2.15,
+      "price": 26430.89,
+      "change": 290.86,
+      "change_pct": 1.11,
       "label": "나스닥종합",
       "region": "US"
     },
     "dow": {
-      "price": 52002.41,
-      "change": -175.28,
-      "change_pct": -0.34,
+      "price": 51966.03,
+      "change": -36.38,
+      "change_pct": -0.07,
       "label": "다우존스",
       "region": "US"
     },
     "sp500": {
-      "price": 7659.44,
-      "change": -84.62,
-      "change_pct": -1.09,
+      "price": 7690.73,
+      "change": 31.29,
+      "change_pct": 0.41,
       "label": "S&P500",
       "region": "US"
     },
     "kospi": {
-      "price": 5598.61,
-      "change": -69.44,
-      "change_pct": -1.23,
+      "price": 5567.98,
+      "change": -100.07,
+      "change_pct": -1.77,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 792.34,
-      "change": -2.44,
-      "change_pct": -0.31,
+      "price": 786.42,
+      "change": -8.36,
+      "change_pct": -1.05,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 64055.13,
-      "change": -1269.16,
-      "change_pct": -1.94,
+      "price": 64254.6,
+      "change": -1069.69,
+      "change_pct": -1.64,
       "label": "니케이225",
       "region": "ASIA"
     },
@@ -69,17 +69,17 @@
   "macro": {
     "phase": "TRANSITIONAL",
     "m_score": 6,
-    "vix": 19.99,
+    "vix": 18.44,
     "volatility": "NORMAL",
-    "fear_greed": 17.9,
+    "fear_greed": 23.1,
     "fear_greed_rating": "extreme fear",
-    "yield2y": 4.77,
-    "yield10y": 5.1,
-    "yield30y": 5.44,
+    "yield2y": 4.74,
+    "yield10y": 5.14,
+    "yield30y": 5.47,
     "rate_env": "HIGH",
-    "dollar_trend": "STRENGTHENING",
+    "dollar_trend": "FLAT",
     "market_trend": "SIDEWAYS",
-    "mfi": 40.2,
+    "mfi": 42.9,
     "mfi_signal": "중립"
   }
 }

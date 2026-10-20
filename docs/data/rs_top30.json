@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "rs90_count": 14,
   "stocks": [
     {
@@ -7,11 +7,11 @@
       "rs_rating": 99.0
     },
     {
-      "ticker": "LITE",
+      "ticker": "MU",
       "rs_rating": 98.3
     },
     {
-      "ticker": "MU",
+      "ticker": "LITE",
       "rs_rating": 97.6
     },
     {
@@ -59,35 +59,35 @@
       "rs_rating": 90.1
     },
     {
-      "ticker": "ABNB",
+      "ticker": "AEHR",
       "rs_rating": 89.4
     },
     {
-      "ticker": "KDP",
+      "ticker": "ABNB",
       "rs_rating": 88.7
     },
     {
-      "ticker": "PLTR",
+      "ticker": "KDP",
       "rs_rating": 88.0
     },
     {
-      "ticker": "CSCO",
+      "ticker": "PLTR",
       "rs_rating": 87.3
     },
     {
-      "ticker": "TXN",
+      "ticker": "CSCO",
       "rs_rating": 86.6
     },
     {
-      "ticker": "GILD",
+      "ticker": "SHOP",
       "rs_rating": 85.9
     },
     {
-      "ticker": "DXCM",
+      "ticker": "TXN",
       "rs_rating": 85.2
     },
     {
-      "ticker": "SHOP",
+      "ticker": "GILD",
       "rs_rating": 84.6
     },
     {
@@ -95,7 +95,7 @@
       "rs_rating": 83.9
     },
     {
-      "ticker": "AEHR",
+      "ticker": "DXCM",
       "rs_rating": 83.2
     },
     {
@@ -126,9 +126,9 @@
   "portfolio_rs": {
     "VKTX": 9.6,
     "MRVL": 96.9,
-    "CRDO": 30.3,
-    "NBIS": 71.5,
-    "RDDT": 14.4,
+    "CRDO": 33.7,
+    "NBIS": 72.9,
+    "RDDT": 13.1,
     "VRT": 20.6
   }
 }

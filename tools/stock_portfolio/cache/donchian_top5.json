@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "stocks": [
     {
       "ticker": "AAPL",
@@ -16,31 +16,14 @@
       "pivot": 342.78,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 8.0
-    },
-    {
-      "ticker": "FANG",
-      "final_score": 54.8,
-      "canslim_score": 58,
-      "rs_rating": 81.8,
-      "vcp_score": 50,
-      "donchian_signal": "BREAKOUT",
-      "current_price": 203.95,
-      "donchian_upper": 198.18,
-      "donchian_lower": 184.08,
-      "dist_to_upper_pct": -2.8,
-      "dist_to_lower_pct": 9.7,
-      "pivot": null,
-      "sector": "Energy",
-      "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 12.0
     },
     {
       "ticker": "KDP",
-      "final_score": 50.7,
+      "final_score": 47.6,
       "canslim_score": 0,
-      "rs_rating": 88.7,
-      "vcp_score": 90,
+      "rs_rating": 88.0,
+      "vcp_score": 80,
       "donchian_signal": "BREAKOUT",
       "current_price": 34.62,
       "donchian_upper": 34.18,
@@ -50,7 +33,24 @@
       "pivot": 31.88,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 8.0
+      "allocation_pct": 12.0
+    },
+    {
+      "ticker": "FANG",
+      "final_score": 37.4,
+      "canslim_score": 0,
+      "rs_rating": 81.8,
+      "vcp_score": 50,
+      "donchian_signal": "BREAKOUT",
+      "current_price": 203.95,
+      "donchian_upper": 198.18,
+      "donchian_lower": 184.08,
+      "dist_to_upper_pct": -2.8,
+      "dist_to_lower_pct": 9.7,
+      "pivot": null,
+      "sector": "",
+      "in_both": false,
+      "allocation_pct": 12.0
     },
     {
       "ticker": "AMGN",
@@ -67,37 +67,37 @@
       "pivot": 425.76,
       "sector": "Healthcare",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 12.0
     },
     {
-      "ticker": "DXCM",
-      "final_score": 58.4,
-      "canslim_score": 55,
-      "rs_rating": 85.2,
+      "ticker": "MSFT",
+      "final_score": 59.1,
+      "canslim_score": 58,
+      "rs_rating": 83.9,
       "vcp_score": 73,
       "donchian_signal": "HOLD",
-      "current_price": 86.04,
-      "donchian_upper": 89.53,
-      "donchian_lower": 83.39,
-      "dist_to_upper_pct": 4.1,
-      "dist_to_lower_pct": 3.1,
-      "pivot": 87.33,
-      "sector": "Healthcare",
+      "current_price": 529.05,
+      "donchian_upper": 543.45,
+      "donchian_lower": 517.53,
+      "dist_to_upper_pct": 2.7,
+      "dist_to_lower_pct": 2.2,
+      "pivot": null,
+      "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 12.0
     }
   ],
   "hedge": {
-    "long_pct": 40,
-    "sqqq_pct": 15,
-    "cash_pct": 45,
-    "per_stock_pct": 8.0,
-    "action": "DEFENSIVE",
+    "long_pct": 60,
+    "sqqq_pct": 10,
+    "cash_pct": 30,
+    "per_stock_pct": 12.0,
+    "action": "MODERATE_HEDGE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 7.0 \u2014 SQQQ 15% \ubc29\uc5b4 \ud3ec\uc9c0\uc158, \ud604\uae08 45% \uc720\uc9c0. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 5.0 \u2014 SQQQ 10% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Defense ELEVATED]"
   }
 }

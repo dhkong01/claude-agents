@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "data": [
     {
       "ticker": "AAPL",
@@ -12,16 +12,6 @@
       "channel_width_pct": 3.0
     },
     {
-      "ticker": "FANG",
-      "current": 203.95,
-      "donchian_upper": 198.18,
-      "donchian_lower": 184.08,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.8,
-      "dist_to_lower_pct": 9.7,
-      "channel_width_pct": 7.7
-    },
-    {
       "ticker": "KDP",
       "current": 34.62,
       "donchian_upper": 34.18,
@@ -30,6 +20,16 @@
       "dist_to_upper_pct": -1.3,
       "dist_to_lower_pct": 12.3,
       "channel_width_pct": 12.5
+    },
+    {
+      "ticker": "FANG",
+      "current": 203.95,
+      "donchian_upper": 198.18,
+      "donchian_lower": 184.08,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -2.8,
+      "dist_to_lower_pct": 9.7,
+      "channel_width_pct": 7.7
     },
     {
       "ticker": "AMGN",
@@ -42,14 +42,14 @@
       "channel_width_pct": 7.8
     },
     {
-      "ticker": "DXCM",
-      "current": 86.04,
-      "donchian_upper": 89.53,
-      "donchian_lower": 83.39,
+      "ticker": "MSFT",
+      "current": 529.05,
+      "donchian_upper": 543.45,
+      "donchian_lower": 517.53,
       "signal": "HOLD",
-      "dist_to_upper_pct": 4.1,
-      "dist_to_lower_pct": 3.1,
-      "channel_width_pct": 7.4
+      "dist_to_upper_pct": 2.7,
+      "dist_to_lower_pct": 2.2,
+      "channel_width_pct": 5.0
     },
     {
       "ticker": "SNDK",
@@ -62,16 +62,6 @@
       "channel_width_pct": 35.3
     },
     {
-      "ticker": "LITE",
-      "current": 824.13,
-      "donchian_upper": 1133.4,
-      "donchian_lower": 869.54,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 37.5,
-      "dist_to_lower_pct": -5.5,
-      "channel_width_pct": 30.3
-    },
-    {
       "ticker": "MU",
       "current": 878.84,
       "donchian_upper": 1097.22,
@@ -80,6 +70,16 @@
       "dist_to_upper_pct": 24.8,
       "dist_to_lower_pct": -4.0,
       "channel_width_pct": 20.0
+    },
+    {
+      "ticker": "LITE",
+      "current": 824.13,
+      "donchian_upper": 1133.4,
+      "donchian_lower": 869.54,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 37.5,
+      "dist_to_lower_pct": -5.5,
+      "channel_width_pct": 30.3
     },
     {
       "ticker": "MRVL",

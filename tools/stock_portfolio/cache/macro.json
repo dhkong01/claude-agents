@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "phase": "TRANSITIONAL",
   "m_score": 6,
   "signals": {
     "market_trend": "SIDEWAYS",
-    "market_ret3m": 0.02,
-    "vix_level": 19.99,
+    "market_ret3m": 0.0256,
+    "vix_level": 18.44,
     "volatility": "NORMAL",
-    "yield10y": 5.1,
+    "yield10y": 5.14,
     "rate_env": "HIGH",
-    "yield30y": 5.44,
-    "yield2y": 4.77,
-    "fear_greed_score": 17.9,
+    "yield30y": 5.47,
+    "yield2y": 4.74,
+    "fear_greed_score": 23.1,
     "fear_greed_rating": "extreme fear",
-    "dollar_trend": "STRENGTHENING"
+    "dollar_trend": "FLAT"
   },
   "recommended_sectors": [
     "Healthcare",

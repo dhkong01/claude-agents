@@ -1,24 +1,60 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "analyzed": 139,
   "top10": [
     {
-      "ticker": "AMGN",
-      "canslim_score": 61,
+      "ticker": "PLTR",
+      "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
         "S": 4,
         "L": 10,
         "I": 10,
         "M": 7
       },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 462829060096,
+      "price": 192.6,
+      "rs_rating": 90.8
+    },
+    {
+      "ticker": "SHOP",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 225117126656,
+      "price": 173.48,
+      "rs_rating": 88.7
+    },
+    {
+      "ticker": "AMGN",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 229736169472,
-      "price": 424.94,
-      "rs_rating": 91.4
+      "market_cap": 237305004032,
+      "price": 438.94,
+      "rs_rating": 87.3
     },
     {
       "ticker": "MSFT",
@@ -34,9 +70,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 3961677414400,
-      "price": 533.52,
-      "rs_rating": 83.9
+      "market_cap": 3949425065984,
+      "price": 531.87,
+      "rs_rating": 84.6
     },
     {
       "ticker": "AAPL",
@@ -52,27 +88,9 @@
       },
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 5004928221184,
-      "price": 342.94,
-      "rs_rating": 81.1
-    },
-    {
-      "ticker": "MRVL",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 213073887232,
-      "price": 237.09,
-      "rs_rating": 96.9
+      "market_cap": 4954723975168,
+      "price": 339.5,
+      "rs_rating": 82.5
     },
     {
       "ticker": "FTNT",
@@ -88,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 125831897088,
-      "price": 171.5,
+      "market_cap": 125413670912,
+      "price": 170.93,
       "rs_rating": 96.2
     },
     {
@@ -106,8 +124,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 878353186816,
-      "price": 538.05,
+      "market_cap": 872949678080,
+      "price": 534.74,
       "rs_rating": 95.6
     },
     {
@@ -124,9 +142,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 150263578624,
-      "price": 660.81,
-      "rs_rating": 94.2
+      "market_cap": 153519849472,
+      "price": 675.13,
+      "rs_rating": 93.5
     },
     {
       "ticker": "WDC",
@@ -142,8 +160,8 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 131840393216,
-      "price": 352.21,
+      "market_cap": 136373452800,
+      "price": 364.32,
       "rs_rating": 90.1
     },
     {
@@ -160,27 +178,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 105062940672,
-      "price": 175.46,
-      "rs_rating": 88.7
-    },
-    {
-      "ticker": "PLTR",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 466553765888,
-      "price": 194.15,
-      "rs_rating": 87.3
+      "market_cap": 105949134848,
+      "price": 176.94,
+      "rs_rating": 89.4
     }
   ]
 }

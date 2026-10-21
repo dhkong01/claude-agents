@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "rs90_count": 14,
   "stocks": [
     {
@@ -31,11 +31,11 @@
       "rs_rating": 94.9
     },
     {
-      "ticker": "STX",
+      "ticker": "DDOG",
       "rs_rating": 94.2
     },
     {
-      "ticker": "DDOG",
+      "ticker": "STX",
       "rs_rating": 93.5
     },
     {
@@ -47,11 +47,11 @@
       "rs_rating": 92.1
     },
     {
-      "ticker": "AMGN",
+      "ticker": "AEHR",
       "rs_rating": 91.4
     },
     {
-      "ticker": "ARM",
+      "ticker": "PLTR",
       "rs_rating": 90.8
     },
     {
@@ -59,27 +59,27 @@
       "rs_rating": 90.1
     },
     {
-      "ticker": "AEHR",
+      "ticker": "ABNB",
       "rs_rating": 89.4
     },
     {
-      "ticker": "ABNB",
+      "ticker": "SHOP",
       "rs_rating": 88.7
     },
     {
-      "ticker": "KDP",
+      "ticker": "ARM",
       "rs_rating": 88.0
     },
     {
-      "ticker": "PLTR",
+      "ticker": "AMGN",
       "rs_rating": 87.3
     },
     {
-      "ticker": "CSCO",
+      "ticker": "WDAY",
       "rs_rating": 86.6
     },
     {
-      "ticker": "SHOP",
+      "ticker": "ZS",
       "rs_rating": 85.9
     },
     {
@@ -87,48 +87,48 @@
       "rs_rating": 85.2
     },
     {
-      "ticker": "GILD",
+      "ticker": "MSFT",
       "rs_rating": 84.6
     },
     {
-      "ticker": "MSFT",
+      "ticker": "DXCM",
       "rs_rating": 83.9
     },
     {
-      "ticker": "DXCM",
+      "ticker": "KDP",
       "rs_rating": 83.2
     },
     {
-      "ticker": "ADI",
+      "ticker": "AAPL",
       "rs_rating": 82.5
     },
     {
-      "ticker": "FANG",
+      "ticker": "ADI",
       "rs_rating": 81.8
     },
     {
-      "ticker": "AAPL",
+      "ticker": "CSCO",
       "rs_rating": 81.1
     },
     {
-      "ticker": "WDAY",
-      "rs_rating": 80.4
-    },
-    {
-      "ticker": "ADP",
+      "ticker": "GILD",
       "rs_rating": 79.8
     },
     {
-      "ticker": "ZS",
+      "ticker": "CTSH",
       "rs_rating": 79.1
+    },
+    {
+      "ticker": "ADP",
+      "rs_rating": 78.4
     }
   ],
   "portfolio_rs": {
-    "VKTX": 9.6,
+    "VKTX": 8.9,
     "MRVL": 96.9,
     "CRDO": 33.7,
-    "NBIS": 72.9,
-    "RDDT": 13.1,
-    "VRT": 20.6
+    "NBIS": 80.4,
+    "RDDT": 16.5,
+    "VRT": 19.9
   }
 }

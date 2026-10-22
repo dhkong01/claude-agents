@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
@@ -11,7 +11,8 @@
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "The Mayor Of A City In Haiti Warned Of A Massacre. No One Listened."
+    "Drone Strike Kills More Than 150 In Abyei In Sudan\u2019S Civil War",
+    "El Salvador\u2019S President Issues Harsh Warning To Haitian Gangs After 4 Soldiers Are Abducted"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "phase": "RISK_ON",
   "m_score": 10,
   "signals": {
     "market_trend": "BULL",
-    "market_ret3m": 0.0411,
-    "vix_level": 17.31,
+    "market_ret3m": 0.0466,
+    "vix_level": 16.68,
     "volatility": "NORMAL",
-    "yield10y": 5.12,
+    "yield10y": 5.15,
     "rate_env": "HIGH",
-    "yield30y": 5.43,
+    "yield30y": 5.44,
     "yield2y": 4.77,
-    "fear_greed_score": 27.2,
+    "fear_greed_score": 31.4,
     "fear_greed_rating": "fear",
     "dollar_trend": "FLAT"
   },

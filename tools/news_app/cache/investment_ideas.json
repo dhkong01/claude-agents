@@ -1,107 +1,125 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "horizons": {
     "1w": [
       {
-        "theme": "넷플릭스 실적 가이던스 실망에 따른 단기 조정",
+        "theme": "메타 주식 분할 모멘텀 대 EU 규제 리스크 충돌",
         "sectors": [
           "Communication Services"
         ],
         "tickers": [
-          "NFLX"
+          "META"
         ],
-        "rationale": "3분기 실적 호조에도 불구하고 미래 매출 및 광고 가이던스 부진 제시로 단기 매도세가 출회되었습니다.",
-        "risk": "단기 과매도에 따른 기술적 반등 가능성",
+        "rationale": "메타의 AI 인프라 투자 조달을 위한 주식 분할 추진은 단기 모멘텀 요소이나, EU의 사상 최대 과징금 부과 헤드라인이 단기 가격 변동성을 크게 확대시킬 수 있습니다.",
+        "risk": "EU 규제 집행 속도 및 법적 대응 경과에 따른 변동성",
         "conviction": "medium"
       },
       {
-        "theme": "스페이스X 실적 호조 및 테슬라 합병 모멘텀",
+        "theme": "유가 상승 및 실적 전망 하향에 따른 항공주 단기 약세",
         "sectors": [
-          "Consumer Discretionary",
-          "Technology"
+          "Industrials"
         ],
         "tickers": [
-          "TSLA",
-          "NVDA"
+          "UAL",
+          "LUV"
         ],
-        "rationale": "스페이스X의 어닝 서프라이즈와 테슬라와의 합병 검토 소식이 전해지며 단기 투자 심리를 강하게 자극하고 있습니다.",
-        "risk": "합병 구체화 불확실성 및 단기 재료 소멸",
-        "conviction": "medium"
+        "rationale": "유가 상승 여파로 주요 항공사들의 실적 전망치가 하향 조정되었으며, 프랑스 소요 사태 등으로 단기 이동 및 관광 관련 하방 압력이 가중되고 있습니다.",
+        "risk": "국제 유가 급락 또는 지정학적 불안 요인의 단기 해소",
+        "conviction": "high"
       }
     ],
     "1m": [
       {
-        "theme": "금융 및 보험 섹터의 단기 신용·손실 리스크 확대",
+        "theme": "AI 인프라 투자 확대 및 정부 파트너십 수혜",
         "sectors": [
-          "Financials"
+          "Semiconductors"
         ],
         "tickers": [
-          "1398.HK",
-          "AXA"
+          "NVDA",
+          "TSM"
         ],
-        "rationale": "아시아 내 AI 부채 부담 우려 및 한국 CDS 프리미엄 급증, 프랑스 소요 사태로 인한 보험사 단기 손실 가능성이 자금 유출을 유도하고 있습니다.",
-        "risk": "금융당국의 유동성 지원책 및 소요 사태 조기 진정",
-        "conviction": "medium"
+        "rationale": "독일 정부와 엔비디아의 AI 파트너십, 메타의 AI CAPEX 확대 등 글로벌 전반의 AI 반도체 수요가 강력하여 단기 자금 유입이 지속될 전망입니다.",
+        "risk": "TSMC 대만 공장 사고 관련 일시적 생산 차질 장기화 우려",
+        "conviction": "high"
       },
       {
-        "theme": "유로존 헬스케어 투심 경색",
+        "theme": "테슬라 합병 불확실성 및 경기소비재 투심 악화",
         "sectors": [
-          "Healthcare"
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "ROG"
+          "TSLA"
         ],
-        "rationale": "유럽 대형 제약사 로슈가 유로존 내 경영 환경 우려로 신규 투자를 보류하면서 섹터 전반의 자금 집행이 지연되고 있습니다.",
-        "risk": "신약 임상 관련 개별 호재 발생 가능성",
-        "conviction": "low"
+        "rationale": "테슬라의 스페이스X 합병 청사진 미흡과 아시아 내수 약세, 유럽 소요 사태 등 악재가 중첩되며 단기 투자심리가 위축되었습니다.",
+        "risk": "스페이스X 관련 추가 공식 구상 발표 및 내수 부양책",
+        "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "영국 에너지 안보 승인 모멘텀 및 정책 불확실성",
+        "theme": "빅테크 자본지출(CAPEX) 점검 및 유럽 규제 중기 파급",
         "sectors": [
-          "Energy"
+          "Communication Services"
         ],
         "tickers": [
-          "SHEL",
-          "BP"
+          "META"
         ],
-        "rationale": "영국 북해 잭도우 가스전 개발 승인을 앞두고 분기 내 에너지 안보 확보 정책 수혜와 환경 규제 간 불확실성이 지속되고 있습니다.",
-        "risk": "환경 규제 강화로 인한 프로젝트 개발 승인 지연",
+        "rationale": "천문학적인 AI 인프라 지출에 따른 신규 주식 발행 등 자금 조달 부담과 EU의 사상 최대 규제 과징금이 분기 실적과 밸류에이션에 부담을 줄 수 있습니다.",
+        "risk": "AI 서비스 유료화 등 가속화에 따른 조기 수익성 입증",
+        "conviction": "medium"
+      },
+      {
+        "theme": "유가 부담 및 지정학 변동성에 따른 산업재 실적 하향 사이클",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [
+          "UAL",
+          "LUV"
+        ],
+        "rationale": "유가 고공행진과 유럽 지역 지정학적 소요가 분기 항공·관광 실적에 본격 반영되며 중기적 실적 하향 사이클을 형성할 가능성이 높습니다.",
+        "risk": "유가 하락 전환 및 항공 운임 인상을 통한 비용 전가 성공",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "반도체 생산능력 및 AI 공급망 구조적 확장",
+        "theme": "글로벌 AI 반도체 공급망 재편 및 구조적 수급 우위",
         "sectors": [
-          "Semiconductors",
-          "Technology"
+          "Semiconductors"
         ],
         "tickers": [
-          "TSM",
           "NVDA",
-          "AMZN"
+          "TSM"
         ],
-        "rationale": "스페이스X의 AI 컴퓨팅 수요 급증, 대만 TSMC의 3nm 신규 팹 증설, 독일의 엔비디아 및 아마존 투자 유치 등 중장기 공급망 확장이 가속화되고 있습니다.",
-        "risk": "글로벌 경기 둔화에 따른 AI 설비투자(CapEx) 축소 우려",
+        "rationale": "빅테크의 지속적인 AI 인프라 확충과 아시아·유럽 국가 차원의 AI 성장 전략으로 반도체 섹터의 6개월 기준 구조적 수급 우위가 견고합니다.",
+        "risk": "AI 칩 공급 과잉 논란 및 국가간 AI 기술 규제 강화",
         "conviction": "high"
+      },
+      {
+        "theme": "아시아 부동산 바닥 다지기와 자산 양극화",
+        "sectors": [
+          "Real Estate"
+        ],
+        "tickers": [],
+        "rationale": "중국 및 홍콩 중심의 부동산 바닥 형성 신호가 포착되나, 자본 통제와 고용·소비 양극화 등 구조적 요인으로 완만한 회복에 그칠 전망입니다.",
+        "risk": "중국 정부의 파격적인 추가 부동산 부양 정책 시행 여부",
+        "conviction": "low"
       }
     ],
     "1y": [
       {
-        "theme": "AI 빅테크 자본비용 부담과 거시 신용 레짐 변화",
+        "theme": "AI 패러다임 전환과 글로벌 주도주 레짐 확립",
         "sectors": [
-          "Financials",
-          "Technology"
+          "Semiconductors"
         ],
         "tickers": [
-          "1398.HK",
-          "QQQ"
+          "NVDA",
+          "TSM"
         ],
-        "rationale": "빅테크의 지속적인 AI 자본지출 축적과 부채 부담이 글로벌 금융권 신용 리스크로 전이되는 반면 안전자산 선호 심리가 지속되는 거시 환경 변화가 예상됩니다.",
-        "risk": "AI 생산성 가속화에 따른 빅테크 수익성 조기 개선",
-        "conviction": "medium"
+        "rationale": "AI 인프라 투자가 일회성 모멘텀을 넘어 국가 및 글로벌 기업들의 장기 패러다임 전환으로 정착함에 따라 핵심 반도체 테크주의 장기 우상향 체제가 강화될 것입니다.",
+        "risk": "글로벌 거시 경제 침체 심화 및 지정학적 공급망 완전 분단",
+        "conviction": "high"
       }
     ]
   }

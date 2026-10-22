@@ -1,42 +1,32 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "sectors": [
     {
       "name": "Semiconductors",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "독일 정부와 엔비디아의 AI 파트너십 체결, 일본의 단기 반도체 및 AI 성장 전략 추진, 메타의 AI 인프라 투자 확대 등 글로벌 전반에 걸친 AI·반도체 수요 모멘텀이 강력합니다. 대만 TSMC 공장 사고에 따른 일시적 공정 중단에도 불구하고 핵심 공급자 지위는 견고합니다.",
+      "direction": "negative",
+      "score": -8.5,
+      "rationale": "미국 Lam Research의 부진한 전망과 Tesla의 지출 하향으로 Micron 등 반도체주가 하락했으며, 대만 TSMC의 공정 차질 및 SK하이닉스의 솔리다임 상장 철회 등 전 세계적으로 AI 수익성 회의론과 공급망 리스크가 중첩되며 강한 매도세를 보였습니다.",
       "related_tickers": [
         "NVDA",
-        "TSM"
+        "TSM",
+        "MU",
+        "LRCX",
+        "000660.KS"
       ],
       "source_regions": [
         "US",
-        "ASIA",
-        "EU"
+        "ASIA"
       ]
     },
     {
-      "name": "Industrials",
+      "name": "Technology",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "유가 상승 여파로 유나이티드항공 및 사우스웨스트항공 등 주요 항공사들이 실적 전망치를 하향 조정하였으며, 프랑스 소요 사태 등으로 유럽 내 이동 및 관광 관련 변동성이 확대되고 있습니다.",
+      "score": -7.5,
+      "rationale": "미국 증시에서 AI 인프라 투자의 지속 가능성에 대한 의구심으로 기술주 중심의 매도세가 출현했고, 유럽에서는 메타에 대한 거액의 프라이버시 벌금 부과 등 빅테크 규제 압박이 고조되며 글로벌 투자 심리가 크게 위축되었습니다.",
       "related_tickers": [
-        "UAL",
-        "LUV"
-      ],
-      "source_regions": [
-        "US",
-        "EU"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "테슬라의 스페이스X 합병에 대한 청사진 부재로 인한 주가 하락, 프랑스 소요 사태로 인한 호텔·관광 소비 심리 위축, 한국 등 아시아 주요국의 내수 취약성 우려가 악재로 작용하고 있습니다.",
-      "related_tickers": [
-        "TSLA"
+        "MSFT",
+        "META",
+        "AAPL"
       ],
       "source_regions": [
         "US",
@@ -46,10 +36,12 @@
     },
     {
       "name": "Real Estate",
-      "direction": "neutral",
-      "score": 2.5,
-      "rationale": "중국 및 홍콩 시장을 중심으로 부동산 시장의 장기 바닥 다지기 신호가 포착되고 있으나, 자본 유출 통제 및 자산 시장 양극화 등 구조적 불확실성이 지속되고 있습니다.",
-      "related_tickers": [],
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "일본 도쿄 중심부의 아파트 가격이 5개월 연속 하락세를 보이고, 중국의 경기 부양책 기대감 약화로 아시아 지역 내 부동산 시장 및 관련 자산에 대한 투자 심리가 약화되었습니다.",
+      "related_tickers": [
+        "8802.T"
+      ],
       "source_regions": [
         "ASIA"
       ]
@@ -57,8 +49,8 @@
   ],
   "conflicting_signals": [
     {
-      "sector": "Communication Services",
-      "note": "미국 시장에서는 메타의 대규모 AI 인프라 지출 조달 및 주식 분할 추진 등 모멘텀 확보 노력이 조명된 반면, 유럽에서는 EU 규제 당국으로부터 사상 최대 규모(250억 달러)의 과징금을 부과받으며 강력한 규제 리스크가 발생했습니다."
+      "sector": "Financials",
+      "note": "유럽에서는 바클레이즈가 AI 활용을 통한 5,000명 감원으로 인건비 절감 및 효율성 제고를 추진하는 긍정적 측면이 있으나, 미국에서는 10년물 국채 금리 급락으로 인한 예대마진 축소 우려와 한국의 기준금리 동결, 중국의 역외 신탁 과세 강화 등 아시아발 악재가 상충하고 있습니다."
     }
   ]
 }

@@ -75,17 +75,49 @@ def _mfi_signal(mfi: float | None) -> str:
     return "중립"
 
 
-def _calc_breadth(tickers: list[str]) -> dict:
-    """S&P500+NASDAQ100 유니버스의 전일 대비 상승/하락/보합 종목수."""
+MIN_BREADTH_COVERAGE = 0.5  # 유니버스의 절반도 응답 못 받으면 레이트리밋 등으로 신뢰 불가
+
+
+def _load_prev_breadth(min_total: int) -> dict | None:
+    """직전 실행의 cache/market_pulse.json에서 브레드스를 읽는다 — 당일 조회가
+    (Yahoo Finance 레이트리밋 등으로) 사실상 실패했을 때 '총 1종목' 같은
+    의미 없는 결과를 화면에 그대로 노출하는 대신 직전값을 유지하기 위한 폴백.
+    과거 캐시 자체가 이미 같은 방식으로 깨져 있었을 수도 있으므로(예: 수정 전
+    코드가 '총 1종목'을 그대로 저장) 동일한 최소 기준(min_total)으로 검증한다
+    — 그렇지 않으면 깨진 값이 폴백을 통해 계속 재생산된다."""
+    try:
+        prev = json.loads((CACHE_DIR / "market_pulse.json").read_text(encoding="utf-8"))
+        b = prev.get("breadth")
+        return b if b and (b.get("total") or 0) >= min_total else None
+    except Exception:
+        return None
+
+
+def _calc_breadth(tickers: list[str]) -> dict | None:
+    """S&P500+NASDAQ100 유니버스의 전일 대비 상승/하락/보합 종목수.
+    Yahoo Finance가 공유 IP(GitHub Actions)를 레이트리밋하면 대부분의 티커가
+    조용히 누락돼도 호출부는 예외 없이 '성공'으로 끝나 '총 1종목' 같은 깨진
+    결과가 그대로 커밋되는 사고가 있었다 — 유니버스 대비 응답 비율이 너무
+    낮으면 None을 반환해 호출부가 신뢰 불가로 판단하게 한다."""
     prices = batch_download(tickers, period="5d")
     if prices.empty or prices.shape[0] < 2:
-        return {"total": 0, "advancers": 0, "decliners": 0, "unchanged": 0, "adv_pct": None}
+        print(f"[market_pulse] 브레드스 다운로드 완전 실패 (유니버스 {len(tickers)}종목)", file=sys.stderr)
+        return None
 
     chg = (prices.iloc[-1] - prices.iloc[-2]).dropna()
     advancers = int((chg > 0).sum())
     decliners = int((chg < 0).sum())
     unchanged = int((chg == 0).sum())
     total = advancers + decliners + unchanged
+
+    if total < len(tickers) * MIN_BREADTH_COVERAGE:
+        print(
+            f"[market_pulse] 브레드스 응답 {total}/{len(tickers)}종목 — "
+            "Yahoo Finance 레이트리밋 의심, 신뢰 불가로 판단",
+            file=sys.stderr,
+        )
+        return None
+
     return {
         "total": total,
         "advancers": advancers,
@@ -108,6 +140,12 @@ def analyze_market_pulse() -> dict:
 
     universe = list(dict.fromkeys(get_sp500_tickers() + get_ndx100_tickers()))
     breadth = _calc_breadth(universe)
+    if breadth is None:
+        breadth = _load_prev_breadth(min_total=int(len(universe) * MIN_BREADTH_COVERAGE))
+        if breadth is not None:
+            print(f"[market_pulse] 브레드스 직전값 유지 (총 {breadth['total']}종목)", file=sys.stderr)
+        else:
+            breadth = {"total": 0, "advancers": 0, "decliners": 0, "unchanged": 0, "adv_pct": None}
     breadth["universe"] = "S&P500+NASDAQ100"
 
     macro = analyze_macro()

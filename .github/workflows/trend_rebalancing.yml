@@ -114,6 +114,13 @@ jobs:
             echo "::warning::알림 채널이 하나도 설정되지 않았습니다 — 추세추종 메시지가 발송되지 않습니다. GitHub Settings > Secrets and variables > Actions에서 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID를 등록하세요."
           fi
 
+      - name: 시장동향 데이터 생성 (추세추종 파이프라인보다 가벼움 — Yahoo Finance 레이트리밋
+          여유를 먼저 확보하기 위해 무거운 단계보다 앞서 실행)
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          cd tools/stock_portfolio
+          python market_pulse.py
+
       - name: 추세 추종 파이프라인 실행
         if: steps.guard.outputs.skip != 'true'
         run: |
@@ -130,7 +137,6 @@ jobs:
           python export_sector_data.py
           python export_price_lookup.py
           python strategy_gates.py
-          python market_pulse.py
           python export_market_pulse.py
 
       - name: 결과 커밋 및 푸시 (충돌 시 최대 3회 재시도 — 실패를 숨기지 않음)

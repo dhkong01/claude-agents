@@ -68,8 +68,8 @@ def analyze_asia_market(dry_run: bool = False) -> dict:
     }
 
     has_any = any(country_items.values())
+    # 드라이런/수집 실패는 저장하지 않는다 (빈 결과가 '오늘자 캐시'로 남아 재시도를 막는 것 방지)
     if dry_run or not has_any:
-        save_cache("asia_market.json", result)
         return result
 
     parsed = call_gemini_json(SYSTEM_PROMPT, _build_user_prompt(country_items), model=MODEL_LIGHT)
@@ -82,7 +82,10 @@ def analyze_asia_market(dry_run: bool = False) -> dict:
         result["cross_country_themes"] = parsed.get("cross_country_themes", [])
         result["sector_hints"] = parsed.get("sector_hints", [])
 
-    save_cache("asia_market.json", result)
+    if result["summary"] or any(v["summary"] for v in result["countries"].values()):
+        save_cache("asia_market.json", result)
+    else:
+        print("[asia_market] Gemini 요약 없음 — 캐시 저장 생략(다음 실행에서 재시도)", file=sys.stderr)
     return result
 
 

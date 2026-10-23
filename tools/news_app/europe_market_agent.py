@@ -51,8 +51,8 @@ def analyze_europe_market(dry_run: bool = False) -> dict:
         "sector_hints": [],
     }
 
+    # 드라이런/수집 실패는 저장하지 않는다 (빈 결과가 '오늘자 캐시'로 남아 재시도를 막는 것 방지)
     if dry_run or not items:
-        save_cache("europe_market.json", result)
         return result
 
     parsed = call_gemini_json(SYSTEM_PROMPT, _build_user_prompt(items), model=MODEL_LIGHT)
@@ -62,7 +62,10 @@ def analyze_europe_market(dry_run: bool = False) -> dict:
         result["key_points"] = parsed.get("key_points", [])
         result["sector_hints"] = parsed.get("sector_hints", [])
 
-    save_cache("europe_market.json", result)
+    if result["summary"]:
+        save_cache("europe_market.json", result)
+    else:
+        print("[europe_market] Gemini 요약 없음 — 캐시 저장 생략(다음 실행에서 재시도)", file=sys.stderr)
     return result
 
 

@@ -17,8 +17,10 @@ def _write(name: str, data: dict) -> None:
 
 
 def export_app_data(us: dict, asia: dict, europe: dict, sectors: dict, ideas: dict) -> None:
+    # 일부 지역이 직전 데이터(생성 실패 시 유지)일 수 있으므로 가장 오래된 기준일을 표시해 오늘자로 오인되지 않게 한다
+    region_dates = [d for d in (us.get("date"), asia.get("date"), europe.get("date")) if d]
     regions = {
-        "date": us.get("date") or asia.get("date") or europe.get("date") or today_kst(),
+        "date": min(region_dates) if region_dates else today_kst(),
         "us": us,
         "asia": asia,
         "europe": europe,

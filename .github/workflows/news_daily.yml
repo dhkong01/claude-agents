@@ -50,6 +50,7 @@ jobs:
       - name: 뉴스·투자아이디어 파이프라인 실행
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"   # stdout/stderr가 로그에 실행 순서대로 찍히게
         run: |
           cd tools/news_app
           python run_pipeline.py

@@ -77,8 +77,14 @@ def generate_ideas(dry_run: bool = False) -> dict | None:
     result: dict = {"date": today, "horizons": {h: [] for h in HORIZONS}}
 
     if dry_run:
-        save_cache("investment_ideas.json", result)
         return result
+
+    # 입력(지역 요약·섹터 매핑)이 오늘자가 아니면 어제 자료로 '오늘 아이디어'를 만들지 않는다
+    stale = [n for n, d in (("us", us), ("asia", asia), ("europe", europe), ("sectors", sectors))
+             if d.get("date") != today]
+    if stale:
+        print(f"[orchestrator] 입력이 오늘자가 아님({', '.join(stale)}) — 아이디어 생성 생략", file=sys.stderr)
+        return None
 
     parsed = call_gemini_json(
         SYSTEM_PROMPT, _build_user_prompt(us, asia, europe, sectors),
@@ -86,12 +92,15 @@ def generate_ideas(dry_run: bool = False) -> dict | None:
     )
     if not parsed:
         print("[orchestrator] Gemini 호출 실패 — 기존 investment_ideas.json 유지", file=sys.stderr)
-        existing = load_cache("investment_ideas.json")
-        return existing
+        return None
 
     horizons = parsed.get("horizons", {})
     for h in HORIZONS:
         result["horizons"][h] = horizons.get(h, [])
+
+    if not any(result["horizons"].values()):
+        print("[orchestrator] Gemini 결과가 비어 있음 — 캐시 저장 생략(다음 실행에서 재시도)", file=sys.stderr)
+        return None
 
     save_cache("investment_ideas.json", result)
     return result

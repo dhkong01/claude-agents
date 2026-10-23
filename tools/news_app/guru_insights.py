@@ -64,12 +64,16 @@ def analyze_guru_insights(dry_run: bool = False) -> dict:
 
     result: dict = {"date": today, "insights": []}
 
-    if dry_run or not items:
-        save_cache("guru_insights.json", result)
+    if dry_run:
         return result
 
-    parsed = call_gemini_json(SYSTEM_PROMPT, _build_user_prompt(items), model=MODEL_LIGHT)
-    if parsed:
+    parsed = call_gemini_json(SYSTEM_PROMPT, _build_user_prompt(items), model=MODEL_LIGHT) if items else None
+    if parsed is None:
+        # 실패(수집 0건 포함): PWA가 '오늘의 대가 인사이트'로 표시하므로 어제 발언이 남지 않게
+        # 빈 값으로 덮어쓰되 error 표시를 남긴다 → 파이프라인이 이 캐시를 재사용하지 않고 다음 실행에서 재시도.
+        result["error"] = "gemini_failed"
+    else:
+        # 정상 응답이면 '해당 기사 없음(빈 배열)'도 유효한 결과로 캐시
         result["insights"] = parsed.get("insights", [])
 
     save_cache("guru_insights.json", result)

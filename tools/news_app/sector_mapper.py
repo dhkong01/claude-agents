@@ -63,8 +63,13 @@ def map_sectors(dry_run: bool = False) -> dict | None:
     result: dict = {"date": today, "sectors": [], "conflicting_signals": []}
 
     if dry_run:
-        save_cache("sector_mapping.json", result)
         return result
+
+    # 지역 요약이 오늘자가 아니면(= 오늘 생성 실패해 어제 데이터가 남은 상태) 오늘 섹터로 둔갑하지 않게 중단
+    stale = [n for n, d in (("us", us), ("asia", asia), ("europe", europe)) if d.get("date") != today]
+    if stale:
+        print(f"[sector_mapper] 지역 요약이 오늘자가 아님({', '.join(stale)}) — 섹터 매핑 생략", file=sys.stderr)
+        return None
 
     parsed = call_gemini_json(
         SYSTEM_PROMPT, _build_user_prompt(us, asia, europe),
@@ -73,6 +78,10 @@ def map_sectors(dry_run: bool = False) -> dict | None:
     if parsed:
         result["sectors"] = parsed.get("sectors", [])
         result["conflicting_signals"] = parsed.get("conflicting_signals", [])
+
+    if not result["sectors"]:
+        print("[sector_mapper] Gemini 섹터 결과 없음 — 캐시 저장 생략(다음 실행에서 재시도)", file=sys.stderr)
+        return None
 
     save_cache("sector_mapping.json", result)
     return result

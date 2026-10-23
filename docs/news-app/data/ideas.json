@@ -1,145 +1,147 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "horizons": {
     "1w": [
       {
-        "theme": "AI 반도체 및 장비주 단기 변동성 헤징",
+        "theme": "기술주 매도세와 안전자산 이동",
         "sectors": [
+          "Technology",
           "Semiconductors"
         ],
         "tickers": [
-          "LRCX",
-          "NVDA",
-          "TSM",
-          "MU"
+          "QQQ",
+          "MSFT"
         ],
-        "rationale": "Lam Research의 부진한 실적 전망과 TSMC 공정 차질, 빅테크의 CAPEX 하향 우려가 단기 악재로 작용하며 반도체 전반에 매도세 지속 가능성.",
-        "risk": "단기 과매도에 따른 기술적 반등 및 숏커버링 유입",
+        "rationale": "AI 인프라 투자 수익성에 대한 의구심 심화와 기술주 중심의 급락세로 인해 미국 국채 등 안전자산으로 자금이 유출되는 단기 모멘텀 형성.",
+        "risk": "빅테크 실적 기대감 재부각에 따른 단기 반등 리스크",
         "conviction": "high"
       },
       {
-        "theme": "미 국채 금리 급락에 따른 채권형 자산 모멘텀",
+        "theme": "헬스케어 개별 악재로 인한 센티먼트 위축",
         "sectors": [
-          "Financials"
+          "Healthcare"
         ],
         "tickers": [
-          "QQQ"
+          "MRNA"
         ],
-        "rationale": "미국 10년물 국채 금리가 SVB 사태 이후 최대 낙폭을 기록함에 따라 시장 내 안전자산 선호 심리 및 단기 금리 하락 모멘텀 형성.",
-        "risk": "인플레이션 지표 반등에 따른 국채 금리 재상승",
+        "rationale": "모더나의 백신 데이터 유출 사고 및 주가 급락(18%)으로 인한 단기 헬스케어 섹터 전반의 투자심리 훼손.",
+        "risk": "악재 일시 소진에 따른 기술적 반등 가능성",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "유럽 금융주 AI 구조조정 및 효율화 모멘텀",
+        "theme": "반도체 밸류에이션 조정 및 공급망 불안",
         "sectors": [
-          "Financials"
+          "Semiconductors"
         ],
         "tickers": [
-          "BCS"
+          "NVDA",
+          "TSM"
         ],
-        "rationale": "바클레이즈의 AI 도입을 통한 5,000명 감원 발표 등 단기 인건비 절감 및 실적 개선 기대감이 자금 유입 요인으로 작용.",
-        "risk": "국채 금리 하락에 따른 예대마진(NIM) 축소 우려",
-        "conviction": "medium"
+        "rationale": "레버리지 ETF 손실 확대, TSMC 현장 사고, 중국의 희토류 통제 등 악재 누적으로 단기 자금 유출 심화.",
+        "risk": "아시아 기술주의 규제 완화 및 수급 개선",
+        "conviction": "high"
       },
       {
-        "theme": "EU 빅테크 규제 강봉화 및 프라이버시 리스크",
+        "theme": "유럽 완성차 구조조정과 경기 압박",
         "sectors": [
-          "Technology"
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "META",
-          "MSFT"
+          "VLVLY"
         ],
-        "rationale": "유럽연합의 메타 대상 거액 프라이버시 벌금 부과 및 AI 책임법 추진 등 빅테크를 향한 정책적 규제 압력이 매수 심리 제약.",
-        "risk": "규제 법안 타결 지연 및 AI 신규 규제 완화 타협",
+        "rationale": "볼보 등 유럽 자동차 업체들의 중국 전기차 경쟁 및 미국 관세 압박에 따른 적자 전환 및 대규모 감원 파급.",
+        "risk": "관세 협상 진전 또는 유럽 정부의 지원책 발표",
         "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "AI 인프라 CAPEX 및 수익성(ROI) 재검증 사이클",
+        "theme": "유로존 경기 침체 및 산업재 모멘텀 둔화",
         "sectors": [
-          "Technology",
-          "Semiconductors"
+          "Industrials",
+          "Energy"
         ],
         "tickers": [
-          "MSFT",
-          "NVDA",
-          "000660.KS"
+          "AIR",
+          "SHEL"
         ],
-        "rationale": "AI 투자 수익성에 대한 회의론과 SK하이닉스 솔리다임 상장 철회 등 분기 실적 발표 시즌을 앞두고 기술주 밸류에이션 재평가 압력 가중.",
-        "risk": "빅테크의 AI 수익화 모델(B2B) 조기 입증",
-        "conviction": "high"
+        "rationale": "프랑스 민간 부문 침체와 고에너지 비용 상승이 4개월 만의 유로존 성장세 최저치를 끌어내리며 분기 실적 압박.",
+        "risk": "유럽중앙은행(ECB)의 전향적인 금리 인하 추진",
+        "conviction": "medium"
       },
       {
-        "theme": "아시아 부동산 시장 자금 유출 및 침체 지속",
+        "theme": "금융권 AI 구조조정과 지역별 실적 차별화",
         "sectors": [
-          "Real Estate"
+          "Financials"
         ],
         "tickers": [
-          "8802.T"
+          "AXP"
         ],
-        "rationale": "도쿄 중심부 주택 가격 5개월 연속 하락 및 중국 경기 부양책 실망감으로 아시아 부동산 관련 자산의 중기 투자 심리 위축.",
-        "risk": "중국 정부의 파격적인 추가 부동산 부양책 발표",
+        "rationale": "미국 금융사의 AI 도입용 대규모 인력 감원 비용 반영과 아시아 시장 라이선스 승인 등 지역별 이익 흐름 분화.",
+        "risk": "인력 감원을 통한 비용 절감 효과의 조기 가시화",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "글로벌 반도체 공급망 재편 및 파운드리 병목 리스크",
+        "theme": "글로벌 반도체 공급망 다변화 및 지정학 재편",
         "sectors": [
-          "Semiconductors"
+          "Semiconductors",
+          "Technology"
         ],
         "tickers": [
           "TSM",
-          "MU"
+          "NVDA"
         ],
-        "rationale": "TSMC 공정 차질과 지정학적 리스크 심화로 인해 주요 반도체 기업들의 6개월 차 설비 투자 일정 및 공급망 다변화 재조정 불가피.",
-        "risk": "파운드리 공정 수율의 빠른 회복 및 신규 라인 가동",
-        "conviction": "medium"
+        "rationale": "TSMC의 해외 공급망 다변화, 한·일·미 첨단 산업 주도권 경쟁, 중국 자본 통제에 따른 중장기 공급체인 재편.",
+        "risk": "공급망 분산에 따른 비효율성과 중장기 캡엑스(CapEx) 부담 증가",
+        "conviction": "high"
       },
       {
-        "theme": "은행권 금리 하락기 NIM 압박 대 AI 구조조정 경쟁",
+        "theme": "미·중 무역 마찰과 제조업 구조 개편",
         "sectors": [
-          "Financials"
+          "Consumer Discretionary",
+          "Industrials"
         ],
         "tickers": [
-          "BCS"
+          "VLVLY",
+          "AIR"
         ],
-        "rationale": "금리 하락으로 인한 예대마진 수익성 악화를 AI 기반 인력 효율성 제고로 상쇄하려는 글로벌 금융사들의 구조적 대전환.",
-        "risk": "글로벌 금리 인하 기조 지연 및 신용 위험 증가",
+        "rationale": "미국 관세 장벽 고화와 중국 자동차/제조업체의 공격적 해외 진출로 유럽 중심의 제조업 구조조정이 고착화.",
+        "risk": "무역 규제 완화 및 글로벌 제조업 경기 회복",
         "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "글로벌 AI 규제 레짐 정착 및 테크 구조 개편",
+        "theme": "AI ROI 검증 및 기업 생산성 체질 개선 레짐",
         "sectors": [
           "Technology",
-          "Semiconductors"
+          "Financials"
         ],
         "tickers": [
-          "META",
-          "AAPL",
-          "MSFT"
+          "QQQ",
+          "MSFT",
+          "AXP"
         ],
-        "rationale": "EU AI 책임법 등 글로벌 빅테크 법적 규제 정착과 AI 투자 선순환 구조 개편이 1년 단위 패러다임 전환을 유발.",
-        "risk": "규제 프레임워크 완화 및 생성형 AI의 파괴적 신규 시장 창출",
+        "rationale": "AI 인프라 과잉 투자 우려를 극복하고, 전 산업에 걸친 AI 도입 중심의 인력 및 비용 구조 재편(감원 등)을 통한 수익성 정당화 과정.",
+        "risk": "AI 생산성 구현 실패 시 거시적 IT 투축 및 밸류에이션 붕괴",
         "conviction": "high"
       },
       {
-        "theme": "글로벌 금리 레짐 전환과 자산 재배분 사이클",
+        "theme": "글로벌 경제의 블록화 및 에너지·자원 패권 고착화",
         "sectors": [
-          "Financials",
-          "Real Estate"
+          "Energy",
+          "Industrials"
         ],
         "tickers": [
-          "8802.T"
+          "SHEL",
+          "TTE"
         ],
-        "rationale": "미 국채 금리 급락으로 시작된 글로벌 중앙은행의 통화정책 전환 기조가 1년에 걸쳐 부동산 및 금융 자산의 거시적 재평가 유도.",
-        "risk": "인플레이션 재발로 인한 글로벌 긴축 기조 재개",
+        "rationale": "유럽의 고에너지 비용 고착화, 흑해 지정학 불안, 중국의 희토류 및 자본 통제 등 글로벌 공급망 분절화의 장기화.",
+        "risk": "지정학적 리스크 해소 및 친환경 에너지 전환 가속화",
         "conviction": "medium"
       }
     ]

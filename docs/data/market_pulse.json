@@ -2,58 +2,58 @@
   "date": "2026-10-22",
   "indices": {
     "nasdaq": {
-      "price": 26424.82,
-      "change": -6.07,
-      "change_pct": -0.02,
+      "price": 26008.86,
+      "change": -694.0,
+      "change_pct": -2.6,
       "label": "나스닥종합",
       "region": "US"
     },
     "dow": {
-      "price": 52495.88,
-      "change": 529.85,
-      "change_pct": 1.02,
+      "price": 52867.98,
+      "change": 11.89,
+      "change_pct": 0.02,
       "label": "다우존스",
       "region": "US"
     },
     "sp500": {
-      "price": 7712.57,
-      "change": 21.84,
-      "change_pct": 0.28,
+      "price": 7663.43,
+      "change": -93.74,
+      "change_pct": -1.21,
       "label": "S&P500",
       "region": "US"
     },
     "kospi": {
-      "price": 5533.77,
-      "change": -18.97,
-      "change_pct": -0.34,
+      "price": 5390.34,
+      "change": -345.32,
+      "change_pct": -6.02,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 764.1,
-      "change": -17.87,
-      "change_pct": -2.29,
+      "price": 738.89,
+      "change": -53.87,
+      "change_pct": -6.8,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 62907.84,
-      "change": -1167.58,
-      "change_pct": -1.82,
+      "price": 61859.84,
+      "change": -2761.4,
+      "change_pct": -4.27,
       "label": "니케이225",
       "region": "ASIA"
     },
     "shanghai": {
-      "price": 3658.03,
-      "change": -77.34,
-      "change_pct": -2.07,
+      "price": 3713.03,
+      "change": -22.34,
+      "change_pct": -0.6,
       "label": "상해종합",
       "region": "ASIA"
     },
     "shenzhen": {
-      "price": 11357.32,
-      "change": -443.97,
-      "change_pct": -3.76,
+      "price": 11704.35,
+      "change": -96.94,
+      "change_pct": -0.82,
       "label": "심천성분",
       "region": "ASIA"
     }
@@ -67,21 +67,21 @@
     "universe": "S&P500+NASDAQ100"
   },
   "macro": {
-    "phase": "RISK_OFF",
-    "m_score": 2,
-    "vix": 18.06,
+    "phase": "TRANSITIONAL",
+    "m_score": 6,
+    "vix": 19.03,
     "volatility": "NORMAL",
-    "fear_greed": 29.0,
-    "fear_greed_rating": "fear",
-    "yield2y": 4.79,
-    "yield10y": 5.03,
-    "yield30y": 5.35,
+    "fear_greed": 19.8,
+    "fear_greed_rating": "extreme fear",
+    "yield2y": 4.81,
+    "yield10y": 4.95,
+    "yield30y": 5.29,
     "rate_env": "HIGH",
     "dollar_trend": "FLAT",
-    "market_trend": "BEAR",
-    "mfi": 48.2,
+    "market_trend": "SIDEWAYS",
+    "mfi": 46.7,
     "mfi_signal": "중립"
   },
   "guru_insights": [],
-  "guru_date": "2026-10-22"
+  "guru_date": "2026-10-23"
 }

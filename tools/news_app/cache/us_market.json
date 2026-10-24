@@ -1,7 +1,37 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "region": "US",
   "headlines": [
+    {
+      "title": "Why popular airplanes are getting scrapped years early",
+      "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
+      "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter s $50,000 debt. How can I keep him from becoming destitute?",
+      "summary": "Nothing has been set aside for his needs.",
+      "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHhub0JHVm1Ca0QxUlBiM1hjSjkxZE5ZcHU2RERranBCd0l5X1VTNTI0ZWpiRHdhbG96MmEtUGNnTHZiWUZFM2NRSWdMZjlIaDNORWIzMDAxMVJtQW5sSjgtaUZ2Qm93VFliS255SjZBdUpkaWVjMFdVUnkxOEo0Z0p3dUVnTVlzOXNuLS1saGZCb2JqMmgteG9aeFM5NTg4SEJJM0hsYXdNeTRBbkZmRXVOMHpfaHRmQ3RXQ1BmWlVlZDhB?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Volkswagen Plans New Audi Plant in Georgia, Handing Trump a Win",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLTljNWhPMFR6ZzdEa1BndW10VHVmT3dMLVJYMTJiRi00ZXBoOGMxa1hYTFRVRUxnSzFLZGhvbDlWcnpGOEJIb2xxU3JxR0x5RXZLWHI0S2xUUEhIcDBMRXp4cjRYUUl4emktQUtuQWJkSWU2SkJmQXZlMThzTVh3RE0welNsaTNwZzAzWm1JRnAycHllbVN1a001N29JYzlmcmI1QXpZUFRTNVBwWXJ5dlZRSQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Starlink Is Years Away From Competing With AT&T and Verizon, Citi Says—but It Might Move Faster",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSzVTZUs0WWhtNVhOUmoxejR4bm5Kb0pRdzFzaHJjR01ZUk40SGFTNVlSQ0o3VVVRVl8welJyZkN2a3U1UEJ3OUVIbFhzS2VDb3NyV1R2VVJPRlhFMjcxeHZyMG1FdW11RWVIRGt3WEJqYTJrVmtFZTR4XzVicWZnX0pFOU8?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Restaurant earnings will test whether owning more brands pays off",
       "summary": "Shares of companies with multiple restaurant brands like Brinker and Darden are outperforming single-chain stocks like McDonald's and Chipotle.",
@@ -9,21 +39,21 @@
       "source": "CNBC"
     },
     {
-      "title": "I don t feel sorry for myself : I m 64 and will be renting for the rest of my life. Is that so bad?",
-      "summary": "I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.",
-      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "title": "She s living the dream : My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "summary": "My late father bought our house for $250,000 in the 1990s.",
+      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Trump to Remove Some Tariffs on Canada in Bid to Help Susan Collins",
+      "title": "The Rare-Earth Vultures Harvesting Metals From America’s Old Wind Turbines",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmZYSFVLdHB5ZTlUdnVQWFQxTURvTlVUdGJZWlJmVGxJRWdkWWw4aXJpN0pCTUg4UDdMaDhQX0tIcDlLbG5tM3BFOEduZkxtbmhncmJIRVZMUUJNNDBWN0lISzV3WWhmUnY2Z05UcEUxVzdyeVRqVmhuLWlnRnhyb2hDYkgxS250UG8wTzB1YWNsQkFKWTZuYzM4SldUVlhfWDJtMGplOFRCUjdkVGlkX2VfXzRUWHlJajVHWVN3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORUpLR0FHcnNaMlM5WmpSUzg2VmRaMlV6MjdKZGRqajJJWGd6b0pxZncwUjMwWllvZjlOb1dmQ01PVHdZZThkNTRHel8zbFRVVDNLM3BLV3pDT1hmN1ZONlZHbm1uUDNfelo0Qm5WaHp0RGtzTlFXeV9vaEtDTFhqZ3d2ZXpZM0liV1NJTWxYQWRjc3FJNENYV0pIamxET1RoUVhMSlBFLWhLUXVLdkFNS2hGZjl5TTBhSDZtYWxVdw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Mark Walter Is Seeking to Sell the WNBA’s Los Angeles Sparks",
+      "title": "Venezuela to Restart a Crucial Power Plant With China’s Help",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX0wwWDQzbmR3RHBaQVNuckpnNEJiVW5rdmpPXzR2QjgtTDljYTlSV0V0cGxzek1CamJIYXBDaWRDcjhJZDgzamxkRk5qT3BVNTc3R0hZSlExRjJSSmQ2Yk01eWlRZkp0RDB0UVoyWG9UWHU4dzZqX19WNTJ4S3hMQVcwMk43bXdmbGJyWUhuZ3pQTGNVVnZRUEY2bzJTQ3BZUGhtaVdNWjRVSzV0ZzF4Rg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNWtCQ3haY2lhWG04dEY2cWlnYXFKakVWVGZ5MVRIeUFNb3ljQjRSeXBfcGdWMHlnLVNzVlUxdWZqZm1VTkNVbFR6N0d3U3FySDlCY2tjMWtBRG4zei1tZ29zSjJ6b0h6bzVQQlJ3T3hGNERzbkJweklvdXV6dHhQV2hIUERwQ1RhNTFzUmVSRl9HSGsxOXBGbkdzN1JYUFZnc0s0aXFrT2FXbDlRS0Z2aw?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -39,27 +69,27 @@
       "source": "CNBC"
     },
     {
-      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-      "summary": "If market pressures keep building, Anthropic could reasonably decide it is better to stay private and wait for a better opportunity, one portfolio manager says.",
-      "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids and I can t bear to leave.",
+      "summary": "He wants to buy something for $600,000 now that we are empty-nesters.",
+      "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Moody’s Keeps France’s Credit Rating Unchanged",
+      "title": "Exclusive | FBI Explores Espionage Case Against Saudi OpenAI Suspect",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYWRjNjVUT00xdHVkNVJ1UFNSaWotc2NOLS1Jei10UlM1cGtwa0llM2huSk5aZ0ktWVdxQ1E3MmZjR0ktRHlScXVLb0J2dGlFbEUzMHhMWWZiREpUSko1U2hIV1lJdHJpWHBWVTFOWnR1RXVCTVpTN0pULVRZRnVicFRldVkzbVRrQTNDeFZLYw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRTA2OWU1VV9mbXhWWWMxTVZ4QVA2UXEtamNNOFN0NmZpQXZSVUk1OHBGSXpBbkE2Vmo3Q1RDS3hMUWpFbm13VmF3SkplYWxqcnVrU3ZmV2xONWs4OGdKVjZSMnJUTjBfeWxmOUJkZDkzZ2NxQmZEZFpDZktuZEFxdEkzODFfdmlPaldWYzZXenFqTFhsUUw3OXBVTzNHZw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "OpenAI to Train AI Models Without Internet After Cyber Incidents",
+      "title": "Trump Prepares for Iran Escalation After US, Israeli Elections",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcTNobXdjbFlXYi0tUHc4QVhnOXY3aDB4bTZ5amJDTm5LTDFlaUJ4UDdYdUFwOHpURk05ZE5Ycm1rMWZDUENSVHh5X3pWZHJEOFlpcUhSa3N6OTZueDlEME1GenV2SllMWkZpZVpSNGhGNWQ0R2V3am1FYnFCU1pDdkVVWm9HMU44a1JiZDhGNjhqTzctZlZyZnZYSTFlMXdjV2xNazdHUmtDS3NwLTktNW5rX0twQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS1tMzRuM2wzRGNDV0R5b3o5N3p0V1U1OVhreW01YXB6dWdmQlBCMS1Hb2FmQnJYYVZsSVJKNG5pVHFGN1pqWlJYUk13cC02OTR5RWpZczZ1c21KMjkyMmIxOXJOQ1VDZFg0V3pSTENZTi1DM1NDeGx1OHJBVVc4TjlyeG84ZUhTZ3NXVnVHZGZVaE9tVFFoSHVkUlJoeE5BMkJJVU9kOFNSUG05YVRtc09R?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Even Market Bull Ed Yardeni Sees Irrational Exuberance in Chip Stocks",
+      "title": "1 Thing in Bloom Energy’s Strong Earnings That May Be Dragging the Stock Down",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT0lTWnZadjNHQmdoRGNrU1F3ZGZKMkt4NE5VbXNhRjA5c1FXdEhqQmUxaHZ5VnU1cXh0b1Q2TU1fbk9iUlF2VTFTRF83WjVxY0VUT2hhV0ZjM1NQbUdkRDB5MGE2aVVfX0oxUzIyTUg2LWd5N2VXcEFfN3BxNW5XQzBIMA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTzdWdkU2NHRQTlJJYjNmcXNLLW1tblU5MGNjTmNHcExlM043OXF2azFWVG1BajRTV2gxY0htLU5YbGpnak9JZG1EQVluRXhzX3dlZ1hNQXRlY3hyMlRXV3hVUVBUaDF1YXZrYlQ1clZ2aGwtRFJXbDZJREQ1VG5feQ?oc=5",
       "source": "Barron's"
     },
     {
@@ -69,70 +99,40 @@
       "source": "CNBC"
     },
     {
-      "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn t work out.",
-      "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
-      "link": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+      "title": "Young Americans are giving up on car ownership. It s a path to financial freedom for some.",
+      "summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
+      "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "American Express to Cut 3,500 Jobs",
+      "title": "Aboard USS George Washington as It Rearms for Possible Iran Strikes",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaHhhUWIxY3M0WFNFdzNpbjZWMEh0THVqWEJZT0VubmhBX1JfRWpQVWkyWVEzbmxHRGNBTWN1TUN1OC1ENkZIZFlsaWpKS0Z5WWZkN09lTEhNNkVwOGowckNxN19abVoyS3lwWnpvdGpnaTE4YnhVakQ1dXpwQW1RRUNn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUxveWNyQjdJTWRlS2FqTWxnQnp2TFB0WHplWjBCTTlpZ3VEUzFqNmtDbDA1ZVZtUktmUUpQMEprNDlKcm1nUkRtOVEybFZ3eGc2MjBTWVM1NVRUZFU2VExzNXpTdi1QRlpORUZIZTlsRUg2aG1WLVloenozUkJuM1ZuWnF1cTBONjhreTRhUGJlSnNTa0YxT1ZXM1NURjNCbFlwZTNhNFIwWmFwS29TbkJkUWkwSURndHZMckROUDM?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "AI Trade Stumbles Again as Investors Rediscover Treasury Haven",
+      "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa1NPZWhQZW05ODAxWnE1dTNYbDJaVVNzbGxjcERRMkRGUnk3OE9jdUE2VGJWRXpTY0VqVnhSeWtYdXhTNGlSM1V3NkVXbFI0RmMweFJqcXZlc0FYdWt5QmtHaWpHQWN5Vzc4aW55cnlqYjdwblM0R04tUUFlRU1ESGk0VnprWjNPRFpWaXJEVkJGMTdab0RtTTlNVWFwN2ZOcF9iVTdDSDhKQnVzNlNqWDdEZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaGdkV3gxaDZHd2ZxRDVhaFlBdWtLNFJ3Y0c5MXZiWktESnRPNmJlTWczMVdRZ29JaUVHa0R2Mmdabm5NdXhyLWlYam5xaU54Ty1UdHphaVotVkx5RGo1a1hYUkpsS1IxSlhsd3ZJcGxkWEh0Q016YkJHS1J1Sk4xS1pub0tnTjlCbDdrWU5sTi14dXNrZDVOLTdkUnFxQkdvQ2Y5TFROY3JFcGVQbWtjYTlnUQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
+      "title": "Why the Trouble for Chip-Equipment Stocks Is Just Getting Started",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVppTUl1QlQyejZmMWdpelhSYTRtSHBUX1M1Y0pVN0FsSFpUS1lDbWMxb21LRlAtYzE3blhLVDgxTHROcjVKY2s2TlNHOV8wenROV0hQZVNXSzlPWWlKcGh3NnhGbmRGcFc0bi1ITFUyZDU1dnFTeTBLWngwSExmVE1WUmktRE1wZTdQSw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
-      "summary": "Moderna released full data on its closely watched cancer vaccine developed with Merck.",
-      "link": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
-      "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Volvo Car Shares Plunge as Automaker Slashes More Jobs",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb1pkVktEdkhfbG1FMTVVTFFuVjhjVnBPMURGNmJ5c1A4ZkIwdHNPdHZNcHdpTEo2R3ZmY0pGQWEtT2pVRXItUjFqblZQWkI0MV9YS3FDSDJsSEFaWUwzbW5RRk52M2NOSk52RTU5eTdYNHFRZmFaRlNuVmFKamFkaXRuYzZ1M2FubHl2dWZoUGVZNzR0WXF2Sm1oSzRDNnVjNHhIT2JkSDYza0Zo?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Instacart Rallies on Report of Sale Talks With Uber, DoorDash",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQW9OalFzdGVlajNjUG9oZ184SjBrbWlTcjhWN21WdUtPZXR1Y2Vudzg3MEZtSlk0Wm5IcUxJQ1dvR2QxM2JNdHo3dXFSMUt0dW1fSWdEb0ZlUU5kd2VmR1J1U285TnFiS0tNUjRhUmYybEJDRXctWG9pdHcydzNGUVVZSGxFc2JPMElwcmVKLXNERW9oRS1wNFVFZFRyS3ZISkVwN04zTmxlbjZLQjl1cA?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "This Stock Faces a Beautiful Future After Completing Its Makeover",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHE1VS1YWDZRQVpTd3VaSUMwQVNYMi1lQzFGYnNmSEF0WUEyZnF5TU9taENKLTJXdGxfMGVDSWx1aHF1OUpDc3RiQS0yV196cGljVFZMLU5SdkZ4TTNISWFxXzZVR1F3ejJqRVpFX1I2S25qOG1MSXVIMm1vOERQb0ItQ0tPQlNhSGdDTktQd05ZYnhYT1JkZ3VlSUVWaW9td1dJUy0wWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQnhNYm1waTl6eVJUZk5DV0l1MFlsamdiQzZLYUVHajVPUU5HZmRLLUdOcm1xUS1DQlhUNW5WS3RWcWx1emNqSk1PWmxid2FVMmJGWi1OVlBtbXhpZ0VrQlpnTW85TGNIRkpxa1NoU3E3ZHNPdjVJOXdzU3FtekZPaWhTbGNYU2lXWVE?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "AI 투자 거품 우려와 아메리칸익스프레스 대규모 감원 충격",
-  "summary": "AI 인프라 투자 수익성에 대한 의구심과 반도체주 변동성이 커진 가운데, 아메리칸익스프레스가 AI 도입 준비를 위해 전체 인력의 5%인 3,500명을 감원한다고 발표하며 금융주 전반에 긴장감을 불어넣었습니다. 기술주 중심의 매도세 속에서 투자자들이 미 국채 등 안전자산으로 대거 이동하는 흐름이 나타났습니다.",
+  "trend_headline": "아메리칸 익스프레스 인력 감축과 기술주 약세",
+  "summary": "아메리칸 익스프레스가 AI 도입 준비를 위해 전체 인력의 5%를 감축한다고 발표하며 구조조정 비용을 반영했고, 기술주 전반의 부진 속에서 투자자들이 미 국채로 몰리며 금리가 하락했다.",
   "key_points": [
-    "아메리칸익스프레스(Amex), AI 도입 준비 및 구조조정을 위해 전체 인력의 5% 감원 발표",
-    "반도체 및 AI 관련주 고점 논란 속 레버리지 ETF 손실 확대 및 국채로의 자금 피난 현상 발생",
-    "모더나, 백신 데이터 유출 여파로 주가 18% 폭락"
+    "아메리칸 익스프레스(Amex), AI 도입 준비 명목으로 글로벌 인력 5% 감축 발표 및 3억 3,600만 달러 구조조정 비용 계상",
+    "기술주 약세와 맞물려 투자자들이 미 국채로 유입되며 국채 수익률이 5% 아래로 하락",
+    "모더나, 머크와 공동 개발한 암 백신 데이터 유출 여파로 주가 급락"
   ],
   "sector_hints": [
-    "Technology",
     "Financials",
+    "Technology",
     "Healthcare"
   ]
 }

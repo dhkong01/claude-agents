@@ -1,4 +1,5 @@
 import json
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -151,7 +152,9 @@ def batch_download(tickers: list[str], period: str = "1y", chunk: int = 50) -> p
                     frames.append(data["Close"])
             elif "Close" in data.columns:
                 frames.append(data[["Close"]])
-        except Exception:
+        except Exception as e:
+            # 예전엔 조용히 건너뛰어 레이트리밋 등 원인을 CI 로그에서 찾을 수 없었다
+            print(f"[batch_download] 청크 {i}~{i + chunk} 실패: {type(e).__name__}: {str(e)[:150]}", file=sys.stderr)
             continue
     if not frames:
         return pd.DataFrame()

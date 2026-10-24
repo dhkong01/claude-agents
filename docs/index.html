@@ -1524,7 +1524,9 @@ function renderMarketPulse() {
       <span class="neg">▼ 하락 ${breadth.decliners}종목</span>
       <span class="muted">보합 ${breadth.unchanged}종목</span>
     </div>
-    <div class="muted" style="font-size:11px;margin-top:8px">상승 비율 ${breadth.adv_pct ?? '-'}% · 총 ${total}종목</div>
+    <div class="muted" style="font-size:11px;margin-top:8px">상승 비율 ${breadth.adv_pct ?? '-'}% · 총 ${total}종목${breadth.as_of ? ` · 기준 ${esc(breadth.as_of)}` : ''}${
+      breadth.status === 'stale_fallback' ? ' <span class="neg">⚠ 조회 실패로 직전 값 표시 중</span>'
+      : breadth.status === 'partial' ? ` <span class="muted">(일부 종목 미수신 · ${esc(breadth.coverage)}%)</span>` : ''}</div>
     ` : '<div class="empty">브레드스 데이터가 없습니다.</div>'}
   </div>`;
 

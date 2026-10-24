@@ -4,6 +4,8 @@ PWA '시장동향' 탭 데이터 소스. → cache/market_pulse.json
 """
 import json
 import sys
+import time
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -25,20 +27,24 @@ INDEX_TICKERS = {
 def _fetch_index(ticker: str) -> dict | None:
     import yfinance as yf
 
-    try:
-        hist = yf.Ticker(ticker, session=YF_SESSION).history(period="5d")
-        close = hist["Close"].dropna()
-        if len(close) < 2:
-            return None
-        price, prev = float(close.iloc[-1]), float(close.iloc[-2])
-        return {
-            "price": round(price, 2),
-            "change": round(price - prev, 2),
-            "change_pct": round((price / prev - 1) * 100, 2),
-        }
-    except Exception as e:
-        print(f"[market_pulse] {ticker} 조회 실패: {e}", file=sys.stderr)
-        return None
+    for attempt in (1, 2, 3):
+        try:
+            hist = yf.Ticker(ticker, session=YF_SESSION).history(period="5d")
+            close = hist["Close"].dropna()
+            if len(close) >= 2:
+                price, prev = float(close.iloc[-1]), float(close.iloc[-2])
+                return {
+                    "price": round(price, 2),
+                    "change": round(price - prev, 2),
+                    "change_pct": round((price / prev - 1) * 100, 2),
+                }
+            err = "데이터 2건 미만"
+        except Exception as e:
+            err = str(e)
+        if attempt < 3:  # 레이트리밋은 잠깐 기다리면 풀리는 경우가 많다
+            time.sleep(3 * attempt)
+    print(f"[market_pulse] {ticker} 조회 실패(3회 시도): {err}", file=sys.stderr)
+    return None
 
 
 def _calc_mfi(ticker: str = "SPY", period: int = 14) -> float | None:
@@ -75,56 +81,125 @@ def _mfi_signal(mfi: float | None) -> str:
     return "중립"
 
 
-MIN_BREADTH_COVERAGE = 0.5  # 유니버스의 절반도 응답 못 받으면 레이트리밋 등으로 신뢰 불가
+MIN_BREADTH_COVERAGE = 0.8    # 유니버스의 80%도 못 받으면 레이트리밋 등으로 신뢰 불가 → 직전값 폴백
+GOOD_BREADTH_COVERAGE = 0.95  # 이 이상 받으면 재시도 중단 (상장폐지 등 소수 종목은 원래 못 받음)
+BREADTH_RETRY_WAITS = (0, 20, 45)  # 시도별 사전 대기(초) — 레이트리밋이 풀리길 기다렸다 미수신 종목만 재요청
+MAX_FALLBACK_AGE_DAYS = 5     # 직전값 폴백은 이 일수까지만 — 오래된 값을 '현재'처럼 보여주지 않기 위함
 
 
-def _load_prev_breadth(min_total: int) -> dict | None:
+def _load_prev_breadth(min_total: int, today: str) -> dict | None:
     """직전 실행의 cache/market_pulse.json에서 브레드스를 읽는다 — 당일 조회가
     (Yahoo Finance 레이트리밋 등으로) 사실상 실패했을 때 '총 1종목' 같은
     의미 없는 결과를 화면에 그대로 노출하는 대신 직전값을 유지하기 위한 폴백.
     과거 캐시 자체가 이미 같은 방식으로 깨져 있었을 수도 있으므로(예: 수정 전
     코드가 '총 1종목'을 그대로 저장) 동일한 최소 기준(min_total)으로 검증한다
-    — 그렇지 않으면 깨진 값이 폴백을 통해 계속 재생산된다."""
+    — 그렇지 않으면 깨진 값이 폴백을 통해 계속 재생산된다.
+    기준일(as_of)이 MAX_FALLBACK_AGE_DAYS보다 오래됐으면 폴백하지 않는다."""
     try:
         prev = json.loads((CACHE_DIR / "market_pulse.json").read_text(encoding="utf-8"))
         b = prev.get("breadth")
-        return b if b and (b.get("total") or 0) >= min_total else None
+        if not b or (b.get("total") or 0) < min_total:
+            return None
+        as_of = b.get("as_of") or prev.get("date")
+        age = (datetime.strptime(today, "%Y-%m-%d") - datetime.strptime(as_of, "%Y-%m-%d")).days
+        if age > MAX_FALLBACK_AGE_DAYS:
+            print(f"[market_pulse] 직전 브레드스가 {age}일 전({as_of}) — 폴백 사용 안 함", file=sys.stderr)
+            return None
+        return {**b, "as_of": as_of, "status": "stale_fallback"}
     except Exception:
         return None
+
+
+def _collect_changes(tickers: list[str]) -> tuple[dict, str | None, int]:
+    """전일 대비 가격변화를 종목별로 수집한다. 미수신 종목만 대기 후 재요청해 병합.
+    batch_download는 청크 단위 실패를 삼키므로(레이트리밋), 한 번에 끝내지 않고 재시도한다."""
+    changes: dict[str, float] = {}
+    as_of: str | None = None
+    pending = list(tickers)
+    attempts = 0
+    for attempt, wait in enumerate(BREADTH_RETRY_WAITS, 1):
+        if not pending:
+            break
+        if wait:
+            print(f"[market_pulse] 브레드스 미수신 {len(pending)}종목 — {wait}초 후 재시도", file=sys.stderr)
+            time.sleep(wait)
+        attempts = attempt
+        prices = batch_download(pending, period="5d")
+        if not prices.empty and prices.shape[0] >= 2:
+            day = str(prices.index[-1].date())
+            as_of = as_of or day
+            if day == as_of:  # 시도 간 기준 거래일이 어긋난 데이터는 섞지 않는다
+                for t, v in (prices.iloc[-1] - prices.iloc[-2]).dropna().items():
+                    changes[t] = float(v)
+            else:
+                print(f"[market_pulse] 기준일 불일치({day} ≠ {as_of}) — 이번 시도 결과 제외", file=sys.stderr)
+        pending = [t for t in pending if t not in changes]
+        print(
+            f"[market_pulse] 브레드스 시도 {attempt}/{len(BREADTH_RETRY_WAITS)}: "
+            f"누적 {len(changes)}/{len(tickers)}종목 수신",
+            file=sys.stderr,
+        )
+        if len(changes) >= len(tickers) * GOOD_BREADTH_COVERAGE:
+            break
+    return changes, as_of, attempts
 
 
 def _calc_breadth(tickers: list[str]) -> dict | None:
     """S&P500+NASDAQ100 유니버스의 전일 대비 상승/하락/보합 종목수.
     Yahoo Finance가 공유 IP(GitHub Actions)를 레이트리밋하면 대부분의 티커가
     조용히 누락돼도 호출부는 예외 없이 '성공'으로 끝나 '총 1종목' 같은 깨진
-    결과가 그대로 커밋되는 사고가 있었다 — 유니버스 대비 응답 비율이 너무
+    결과가 그대로 커밋되는 사고가 있었다 — 재시도 후에도 응답 비율이 너무
     낮으면 None을 반환해 호출부가 신뢰 불가로 판단하게 한다."""
-    prices = batch_download(tickers, period="5d")
-    if prices.empty or prices.shape[0] < 2:
-        print(f"[market_pulse] 브레드스 다운로드 완전 실패 (유니버스 {len(tickers)}종목)", file=sys.stderr)
-        return None
+    changes, as_of, attempts = _collect_changes(tickers)
+    total = len(changes)
+    coverage = total / len(tickers) if tickers else 0.0
 
-    chg = (prices.iloc[-1] - prices.iloc[-2]).dropna()
-    advancers = int((chg > 0).sum())
-    decliners = int((chg < 0).sum())
-    unchanged = int((chg == 0).sum())
-    total = advancers + decliners + unchanged
-
-    if total < len(tickers) * MIN_BREADTH_COVERAGE:
+    if total == 0 or coverage < MIN_BREADTH_COVERAGE:
         print(
-            f"[market_pulse] 브레드스 응답 {total}/{len(tickers)}종목 — "
+            f"[market_pulse] 브레드스 응답 {total}/{len(tickers)}종목({coverage:.0%}) — "
             "Yahoo Finance 레이트리밋 의심, 신뢰 불가로 판단",
             file=sys.stderr,
         )
         return None
 
+    advancers = sum(1 for v in changes.values() if v > 0)
+    decliners = sum(1 for v in changes.values() if v < 0)
+    unchanged = total - advancers - decliners
     return {
         "total": total,
         "advancers": advancers,
         "decliners": decliners,
         "unchanged": unchanged,
-        "adv_pct": round(advancers / total * 100, 1) if total else None,
+        "adv_pct": round(advancers / total * 100, 1),
+        "coverage": round(coverage * 100, 1),
+        "as_of": as_of,
+        "attempts": attempts,
+        "status": "ok" if coverage >= GOOD_BREADTH_COVERAGE else "partial",
     }
+
+
+def health_warnings(result: dict) -> list[str]:
+    """조용히 지나가기 쉬운 부분 실패를 한 줄 메시지 목록으로 정리 (GitHub ::warning:: 용)."""
+    warns: list[str] = []
+    missing_idx = [v[1] for k, v in INDEX_TICKERS.items() if k not in result.get("indices", {})]
+    if missing_idx:
+        warns.append(f"지수 {len(result.get('indices', {}))}/{len(INDEX_TICKERS)}개만 수집 — 누락: {', '.join(missing_idx)}")
+
+    b = result.get("breadth", {})
+    status = b.get("status")
+    if status == "stale_fallback":
+        warns.append(f"시장 체감도(브레드스) 조회 실패 → 직전값 유지 (기준일 {b.get('as_of')}, 총 {b.get('total')}종목)")
+    elif status == "failed":
+        warns.append("시장 체감도(브레드스) 조회 실패 + 사용할 직전값 없음 → 화면에 '데이터 없음' 표시")
+    elif status == "partial":
+        warns.append(f"시장 체감도(브레드스) 일부 종목만 수신 ({b.get('coverage')}%, 총 {b.get('total')}종목)")
+
+    m = result.get("macro", {})
+    missing_macro = [k for k in ("phase", "vix", "yield2y", "yield10y", "yield30y", "fear_greed", "mfi")
+                     if m.get(k) in (None, "", "N/A")]
+    if missing_macro:
+        warns.append(f"경제지표 누락: {', '.join(missing_macro)}")
+    return warns
 
 
 def analyze_market_pulse() -> dict:
@@ -141,11 +216,12 @@ def analyze_market_pulse() -> dict:
     universe = list(dict.fromkeys(get_sp500_tickers() + get_ndx100_tickers()))
     breadth = _calc_breadth(universe)
     if breadth is None:
-        breadth = _load_prev_breadth(min_total=int(len(universe) * MIN_BREADTH_COVERAGE))
+        breadth = _load_prev_breadth(min_total=int(len(universe) * MIN_BREADTH_COVERAGE), today=today)
         if breadth is not None:
-            print(f"[market_pulse] 브레드스 직전값 유지 (총 {breadth['total']}종목)", file=sys.stderr)
+            print(f"[market_pulse] 브레드스 직전값 유지 (기준일 {breadth['as_of']}, 총 {breadth['total']}종목)", file=sys.stderr)
         else:
-            breadth = {"total": 0, "advancers": 0, "decliners": 0, "unchanged": 0, "adv_pct": None}
+            breadth = {"total": 0, "advancers": 0, "decliners": 0, "unchanged": 0, "adv_pct": None,
+                       "as_of": None, "status": "failed"}
     breadth["universe"] = "S&P500+NASDAQ100"
 
     macro = analyze_macro()
@@ -185,5 +261,10 @@ if __name__ == "__main__":
     print(
         f"[market_pulse] 지수 {len(pulse['indices'])}개 · "
         f"브레드스 {pulse['breadth']['advancers']}상승/{pulse['breadth']['decliners']}하락"
-        f"(총 {pulse['breadth']['total']}) · 국면 {pulse['macro']['phase']}"
+        f"(총 {pulse['breadth']['total']}, {pulse['breadth'].get('status')}) · 국면 {pulse['macro']['phase']}",
+        flush=True,
     )
+    # 부분 실패를 로그 속에 묻어두지 않고 워크플로 요약(Annotations)에 노출한다.
+    # 추세추종 본 파이프라인을 막지 않도록 종료 코드는 0 유지.
+    for msg in health_warnings(pulse):
+        print(f"::warning::시장동향: {msg}", flush=True)

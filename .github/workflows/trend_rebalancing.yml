@@ -117,6 +117,8 @@ jobs:
       - name: 시장동향 데이터 생성 (추세추종 파이프라인보다 가벼움 — Yahoo Finance 레이트리밋
           여유를 먼저 확보하기 위해 무거운 단계보다 앞서 실행)
         if: steps.guard.outputs.skip != 'true'
+        env:
+          PYTHONUNBUFFERED: "1"   # 재시도 진행 로그와 ::warning::이 실행 순서대로 찍히게
         run: |
           cd tools/stock_portfolio
           python market_pulse.py

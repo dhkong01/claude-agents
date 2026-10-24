@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "rs90_count": 14,
   "stocks": [
     {
@@ -7,11 +7,11 @@
       "rs_rating": 99.0
     },
     {
-      "ticker": "LITE",
+      "ticker": "MU",
       "rs_rating": 98.3
     },
     {
-      "ticker": "MU",
+      "ticker": "LITE",
       "rs_rating": 97.6
     },
     {
@@ -27,7 +27,7 @@
       "rs_rating": 95.6
     },
     {
-      "ticker": "AMD",
+      "ticker": "PANW",
       "rs_rating": 94.9
     },
     {
@@ -35,11 +35,11 @@
       "rs_rating": 94.2
     },
     {
-      "ticker": "STX",
+      "ticker": "AMD",
       "rs_rating": 93.5
     },
     {
-      "ticker": "PANW",
+      "ticker": "STX",
       "rs_rating": 92.8
     },
     {
@@ -47,11 +47,11 @@
       "rs_rating": 92.1
     },
     {
-      "ticker": "PLTR",
+      "ticker": "ZS",
       "rs_rating": 91.4
     },
     {
-      "ticker": "AEHR",
+      "ticker": "AMGN",
       "rs_rating": 90.8
     },
     {
@@ -59,19 +59,19 @@
       "rs_rating": 90.1
     },
     {
-      "ticker": "ZS",
+      "ticker": "WDAY",
       "rs_rating": 89.4
     },
     {
-      "ticker": "SHOP",
+      "ticker": "PLTR",
       "rs_rating": 88.7
     },
     {
-      "ticker": "WDAY",
+      "ticker": "CTSH",
       "rs_rating": 88.0
     },
     {
-      "ticker": "AMGN",
+      "ticker": "ADP",
       "rs_rating": 87.3
     },
     {
@@ -79,7 +79,7 @@
       "rs_rating": 86.6
     },
     {
-      "ticker": "MSFT",
+      "ticker": "AEHR",
       "rs_rating": 85.9
     },
     {
@@ -87,11 +87,11 @@
       "rs_rating": 85.2
     },
     {
-      "ticker": "ADI",
+      "ticker": "SHOP",
       "rs_rating": 84.6
     },
     {
-      "ticker": "CTSH",
+      "ticker": "GILD",
       "rs_rating": 83.9
     },
     {
@@ -99,36 +99,36 @@
       "rs_rating": 83.2
     },
     {
-      "ticker": "CSCO",
+      "ticker": "AAPL",
+      "rs_rating": 82.5
+    },
+    {
+      "ticker": "REGN",
       "rs_rating": 81.8
     },
     {
-      "ticker": "ADP",
+      "ticker": "MSFT",
       "rs_rating": 81.1
     },
     {
-      "ticker": "ARM",
+      "ticker": "CSX",
       "rs_rating": 80.4
     },
     {
-      "ticker": "GILD",
+      "ticker": "CSCO",
       "rs_rating": 79.8
     },
     {
-      "ticker": "AAPL",
+      "ticker": "ADI",
       "rs_rating": 79.1
-    },
-    {
-      "ticker": "MAR",
-      "rs_rating": 78.4
     }
   ],
   "portfolio_rs": {
-    "VKTX": 11.7,
+    "VKTX": 11.0,
     "MRVL": 96.9,
-    "CRDO": 43.3,
-    "NBIS": 82.5,
-    "RDDT": 16.5,
-    "VRT": 19.2
+    "CRDO": 28.2,
+    "NBIS": 72.9,
+    "RDDT": 13.8,
+    "VRT": 15.1
   }
 }

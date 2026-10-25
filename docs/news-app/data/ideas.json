@@ -1,37 +1,65 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "horizons": {
     "1w": [
       {
-        "theme": "기술주 매도세와 안전자산 이동",
+        "theme": "에너지 가격 급등에 따른 단기 모멘텀",
         "sectors": [
-          "Technology",
-          "Semiconductors"
+          "Energy"
         ],
         "tickers": [
-          "QQQ",
-          "MSFT"
+          "XOM",
+          "SHEL"
         ],
-        "rationale": "AI 인프라 투자 수익성에 대한 의구심 심화와 기술주 중심의 급락세로 인해 미국 국채 등 안전자산으로 자금이 유출되는 단기 모멘텀 형성.",
-        "risk": "빅테크 실적 기대감 재부각에 따른 단기 반등 리스크",
-        "conviction": "high"
+        "rationale": "국제유가 상승과 유럽 내 에너지 가격 고조로 인해 에너지 업스트림 기업의 단기 수익성 개선 기대감이 반영됨.",
+        "risk": "유가 상승세의 단기 일봉 꺾임 및 오펙+ 생산 정책 변동",
+        "conviction": "medium"
       },
       {
-        "theme": "헬스케어 개별 악재로 인한 센티먼트 위축",
+        "theme": "AI 구조조정 비용 발생에 따른 금융주 단기 변동성",
         "sectors": [
-          "Healthcare"
+          "Financials"
         ],
         "tickers": [
-          "MRNA"
+          "AXP"
         ],
-        "rationale": "모더나의 백신 데이터 유출 사고 및 주가 급락(18%)으로 인한 단기 헬스케어 섹터 전반의 투자심리 훼손.",
-        "risk": "악재 일시 소진에 따른 기술적 반등 가능성",
+        "rationale": "아메리칸 익스프레스의 AI 도입을 위한 인력 5% 감축 및 대규모 일회성 구조조정 비용 발생에 따른 단기 실적 압박.",
+        "risk": "AI 도입을 통한 조직 효율성 제고 효과의 조기 가시화",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "반도체 밸류에이션 조정 및 공급망 불안",
+        "theme": "AI 수혜의 데이터센터 및 인프라 확산",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "META",
+          "MSFT"
+        ],
+        "rationale": "빅테크(메타, 소프트뱅크 등)의 AI 캐펙스 투자 확대가 반도체를 넘어 데이터센터 및 사이버보안 인프라 전반으로 확산되는 단기 자금 흐름.",
+        "risk": "빅테크 기업들의 AI 관련 CapEx 집행 속도 조절",
+        "conviction": "high"
+      },
+      {
+        "theme": "유럽 완성차 및 제조업 단기 약세",
+        "sectors": [
+          "Consumer Discretionary",
+          "Industrials"
+        ],
+        "tickers": [
+          "VLVLY",
+          "SIE"
+        ],
+        "rationale": "볼보의 2,500명 감원 및 프랑스 민간 부문 경기 침체 진입 등으로 유럽 제조업 경기 둔화 우려와 단기 자금 이탈 심화.",
+        "risk": "유럽 중앙은행(ECB)의 기습적 금리 인하 및 경기 부양책",
+        "conviction": "high"
+      }
+    ],
+    "3m": [
+      {
+        "theme": "AI 반도체 실적 사이클 지속",
         "sectors": [
           "Semiconductors"
         ],
@@ -39,110 +67,68 @@
           "NVDA",
           "TSM"
         ],
-        "rationale": "레버리지 ETF 손실 확대, TSMC 현장 사고, 중국의 희토류 통제 등 악재 누적으로 단기 자금 유출 심화.",
-        "risk": "아시아 기술주의 규제 완화 및 수급 개선",
+        "rationale": "TSMC의 기록적인 실적과 한국의 경상수지 흑자를 이끄는 견조한 AI 반도체 수요로 분기 실적 모멘텀 우수.",
+        "risk": "미·중 반도체 무역 규제 강화 및 공급망 차단 리스크",
         "conviction": "high"
       },
       {
-        "theme": "유럽 완성차 구조조정과 경기 압박",
+        "theme": "고에너지 비용 고착화에 따른 유럽 산업재 실적 압박",
         "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "VLVLY"
-        ],
-        "rationale": "볼보 등 유럽 자동차 업체들의 중국 전기차 경쟁 및 미국 관세 압박에 따른 적자 전환 및 대규모 감원 파급.",
-        "risk": "관세 협상 진전 또는 유럽 정부의 지원책 발표",
-        "conviction": "medium"
-      }
-    ],
-    "3m": [
-      {
-        "theme": "유로존 경기 침체 및 산업재 모멘텀 둔화",
-        "sectors": [
-          "Industrials",
-          "Energy"
+          "Industrials"
         ],
         "tickers": [
           "AIR",
-          "SHEL"
+          "SIE"
         ],
-        "rationale": "프랑스 민간 부문 침체와 고에너지 비용 상승이 4개월 만의 유로존 성장세 최저치를 끌어내리며 분기 실적 압박.",
-        "risk": "유럽중앙은행(ECB)의 전향적인 금리 인하 추진",
-        "conviction": "medium"
-      },
-      {
-        "theme": "금융권 AI 구조조정과 지역별 실적 차별화",
-        "sectors": [
-          "Financials"
-        ],
-        "tickers": [
-          "AXP"
-        ],
-        "rationale": "미국 금융사의 AI 도입용 대규모 인력 감원 비용 반영과 아시아 시장 라이선스 승인 등 지역별 이익 흐름 분화.",
-        "risk": "인력 감원을 통한 비용 절감 효과의 조기 가시화",
+        "rationale": "유로존 전반의 비즈니스 활동 하강과 고에너지 비용 부담이 유럽 대표 산업재 기업들의 분기 실적 하방 압력으로 작용.",
+        "risk": "유럽 내 에너지 가격의 조기 안정화",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "글로벌 반도체 공급망 다변화 및 지정학 재편",
+        "theme": "미·중 공급망 갈등과 글로벌 공급망 재편",
         "sectors": [
           "Semiconductors",
-          "Technology"
+          "Consumer Discretionary"
         ],
         "tickers": [
           "TSM",
-          "NVDA"
+          "BYD"
         ],
-        "rationale": "TSMC의 해외 공급망 다변화, 한·일·미 첨단 산업 주도권 경쟁, 중국 자본 통제에 따른 중장기 공급체인 재편.",
-        "risk": "공급망 분산에 따른 비효율성과 중장기 캡엑스(CapEx) 부담 증가",
-        "conviction": "high"
+        "rationale": "미·중 무역 장벽 강화 및 미국 관세 압박에 대응한 아시아 국가들의 공급망 다변화와 완성차/반도체 산업 구조 재편 진행.",
+        "risk": "글로벌 지정학적 타협에 따른 무역 갈등 완화",
+        "conviction": "medium"
       },
       {
-        "theme": "미·중 무역 마찰과 제조업 구조 개편",
+        "theme": "글로벌 완성차 산업의 구조적 재편 및 가격 경쟁",
         "sectors": [
-          "Consumer Discretionary",
-          "Industrials"
+          "Consumer Discretionary"
         ],
         "tickers": [
           "VLVLY",
-          "AIR"
+          "BYD"
         ],
-        "rationale": "미국 관세 장벽 고화와 중국 자동차/제조업체의 공격적 해외 진출로 유럽 중심의 제조업 구조조정이 고착화.",
-        "risk": "무역 규제 완화 및 글로벌 제조업 경기 회복",
+        "rationale": "중국 EV의 가격 경쟁 심화와 미국 관세 압박, 유럽 소비 침체가 겹치며 글로벌 자동차 업체들의 수익성 악화 및 대대적인 구조조정 지속.",
+        "risk": "각국 정부의 신규 친환경차 보조금 제주일 추진",
         "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "AI ROI 검증 및 기업 생산성 체질 개선 레짐",
+        "theme": "기업 생산성 혁신과 AI 기술 패러다임 전환",
         "sectors": [
           "Technology",
-          "Financials"
+          "Semiconductors"
         ],
         "tickers": [
-          "QQQ",
-          "MSFT",
-          "AXP"
+          "NVDA",
+          "META",
+          "MSFT"
         ],
-        "rationale": "AI 인프라 과잉 투자 우려를 극복하고, 전 산업에 걸친 AI 도입 중심의 인력 및 비용 구조 재편(감원 등)을 통한 수익성 정당화 과정.",
-        "risk": "AI 생산성 구현 실패 시 거시적 IT 투축 및 밸류에이션 붕괴",
+        "rationale": "금융 및 서비스 산업 전반(AXP 사례 등)으로 퍼지는 인력 AI 전환과 빅테크의 지속적인 데이터센터 투자로 상징되는 글로벌 AI 패러다임 고착화.",
+        "risk": "AI 투자의 실제 수익화(Monetization) 전환 지연에 따른 투자 회의론 발생",
         "conviction": "high"
-      },
-      {
-        "theme": "글로벌 경제의 블록화 및 에너지·자원 패권 고착화",
-        "sectors": [
-          "Energy",
-          "Industrials"
-        ],
-        "tickers": [
-          "SHEL",
-          "TTE"
-        ],
-        "rationale": "유럽의 고에너지 비용 고착화, 흑해 지정학 불안, 중국의 희토류 및 자본 통제 등 글로벌 공급망 분절화의 장기화.",
-        "risk": "지정학적 리스크 해소 및 친환경 에너지 전환 가속화",
-        "conviction": "medium"
       }
     ]
   }

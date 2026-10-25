@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "gates": [
     {
       "id": "T1",
@@ -11,7 +11,7 @@
       "value": "+72%",
       "note": "M7 4사 연간 캐펙스 합산 $409B YoY +72% -- 정상 (임계 +15% 미달) (실제 지출 기준, 가이던스 아님)",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     },
     {
       "id": "T2",
@@ -23,7 +23,7 @@
       "value": "0.89% (d3M:+8bp)",
       "note": "ICE BofA IG OAS 0.89% -- 3개월 변화 +8bp (여유 42bp)",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     },
     {
       "id": "T3",
@@ -35,7 +35,7 @@
       "value": "4.03%",
       "note": "단기금리(^IRX) 4.03% -- 목표(4.25%)까지 0.22pp 여유",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     },
     {
       "id": "T4",
@@ -71,7 +71,7 @@
       "value": "이상 없음",
       "note": "M7 D&A/OI -- 전사 YoY +20pp 미만 (정상) | MSFT:27% | GOOGL:17% | META:34% | AAPL:9%",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     },
     {
       "id": "T7",
@@ -81,9 +81,9 @@
       "threshold": "-15% 분기",
       "status": false,
       "value": "$2.69/hr (d90:+0%)",
-      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 90일 전(2026-07-26: $2.69) 대비 +0% (여유 -15%p)",
+      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 90일 전(2026-07-27: $2.69) 대비 +0% (여유 -15%p)",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     },
     {
       "id": "T8",
@@ -95,7 +95,7 @@
       "value": "4건 감지",
       "note": "뉴스 감지 -- [Ascend960] Huawei Speeds Up Its Ascend 960 AI Chip Launch to Take On Nvidia in Ch | [Ascend960] Huawei's Ascend 960 Development Ahead of Schedule: Launch Set for Q1 N",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-25"
     }
   ],
   "lit_count": 1,

@@ -1,18 +1,18 @@
 {
-  "evaluated_draw": 1246,
+  "evaluated_draw": 1247,
   "window": [
-    947,
-    1246
+    948,
+    1247
   ],
   "tests": {
     "chi2": {
-      "stat": 34.1,
-      "p": 0.7233,
+      "stat": 33.7,
+      "p": 0.7383,
       "threshold": 0.01
     },
     "persistence": {
-      "stat": 0.0511,
-      "p": 0.3616,
+      "stat": 0.0418,
+      "p": 0.3856,
       "threshold": 0.05
     }
   },
@@ -96,6 +96,12 @@
       "detected": false,
       "p_chi2": 0.7233,
       "p_persist": 0.3616
+    },
+    {
+      "draw": 1247,
+      "detected": false,
+      "p_chi2": 0.7383,
+      "p_persist": 0.3856
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "risk_score": 9.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
@@ -7,12 +7,9 @@
   "medium_risk_signals": 2,
   "sector_impacts": {
     "Energy": "ELEVATED",
-    "Semiconductors": "WATCH",
     "Defense": "ELEVATED"
   },
-  "top_risk_events": [
-    "Netanyahu Is Up For Re-Election After Years Of War. How Will Voters See Him?"
-  ],
+  "top_risk_events": [],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
     "long_pct": 20,

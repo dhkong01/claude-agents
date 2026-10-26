@@ -1,104 +1,104 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-25",
   "data": [
     {
+      "ticker": "FANG",
+      "current": 205.75,
+      "donchian_upper": 203.95,
+      "donchian_lower": 192.13,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.9,
+      "dist_to_lower_pct": 6.6,
+      "channel_width_pct": 6.2
+    },
+    {
       "ticker": "AMGN",
-      "current": 447.28,
-      "donchian_upper": 438.94,
-      "donchian_lower": 407.44,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.9,
-      "dist_to_lower_pct": 8.9,
-      "channel_width_pct": 7.7
+      "current": 439.26,
+      "donchian_upper": 447.28,
+      "donchian_lower": 412.84,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.8,
+      "dist_to_lower_pct": 6.0,
+      "channel_width_pct": 8.3
     },
     {
-      "ticker": "AAPL",
-      "current": 348.22,
-      "donchian_upper": 343.99,
-      "donchian_lower": 336.64,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.2,
-      "dist_to_lower_pct": 3.3,
-      "channel_width_pct": 2.2
+      "ticker": "TXN",
+      "current": 284.69,
+      "donchian_upper": 297.23,
+      "donchian_lower": 276.15,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 4.4,
+      "dist_to_lower_pct": 3.0,
+      "channel_width_pct": 7.6
     },
     {
-      "ticker": "CSX",
-      "current": 51.67,
-      "donchian_upper": 48.69,
-      "donchian_lower": 47.26,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -5.8,
-      "dist_to_lower_pct": 8.5,
-      "channel_width_pct": 3.0
+      "ticker": "FTNT",
+      "current": 179.99,
+      "donchian_upper": 194.75,
+      "donchian_lower": 169.13,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 8.2,
+      "dist_to_lower_pct": 6.0,
+      "channel_width_pct": 15.1
     },
     {
-      "ticker": "KDP",
-      "current": 35.19,
-      "donchian_upper": 34.63,
-      "donchian_lower": 31.26,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.6,
-      "dist_to_lower_pct": 11.2,
-      "channel_width_pct": 10.8
-    },
-    {
-      "ticker": "ADP",
-      "current": 307.94,
-      "donchian_upper": 294.5,
-      "donchian_lower": 270.73,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -4.4,
-      "dist_to_lower_pct": 12.1,
-      "channel_width_pct": 8.8
+      "ticker": "PLTR",
+      "current": 196.75,
+      "donchian_upper": 209.05,
+      "donchian_lower": 186.03,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 6.3,
+      "dist_to_lower_pct": 5.4,
+      "channel_width_pct": 12.4
     },
     {
       "ticker": "SNDK",
-      "current": 1260.93,
+      "current": 1238.03,
       "donchian_upper": 1787.69,
-      "donchian_lower": 1299.3,
+      "donchian_lower": 1260.93,
       "signal": "EXIT",
-      "dist_to_upper_pct": 41.8,
-      "dist_to_lower_pct": -3.0,
-      "channel_width_pct": 37.6
+      "dist_to_upper_pct": 44.4,
+      "dist_to_lower_pct": -1.8,
+      "channel_width_pct": 41.8
     },
     {
       "ticker": "MU",
-      "current": 856.49,
+      "current": 877.55,
       "donchian_upper": 1097.22,
-      "donchian_lower": 878.84,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 28.1,
-      "dist_to_lower_pct": -2.6,
-      "channel_width_pct": 24.8
-    },
-    {
-      "ticker": "LITE",
-      "current": 752.54,
-      "donchian_upper": 1133.4,
-      "donchian_lower": 822.51,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 50.6,
-      "dist_to_lower_pct": -9.3,
-      "channel_width_pct": 37.8
+      "donchian_lower": 856.49,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 25.0,
+      "dist_to_lower_pct": 2.4,
+      "channel_width_pct": 28.1
     },
     {
       "ticker": "MRVL",
-      "current": 223.47,
+      "current": 228.51,
       "donchian_upper": 286.95,
-      "donchian_lower": 227.83,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 28.4,
-      "dist_to_lower_pct": -2.0,
-      "channel_width_pct": 25.9
+      "donchian_lower": 223.47,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 25.6,
+      "dist_to_lower_pct": 2.2,
+      "channel_width_pct": 28.4
+    },
+    {
+      "ticker": "LITE",
+      "current": 756.17,
+      "donchian_upper": 1133.4,
+      "donchian_lower": 752.54,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 49.9,
+      "dist_to_lower_pct": 0.5,
+      "channel_width_pct": 50.6
     },
     {
       "ticker": "CRWD",
-      "current": 237.94,
+      "current": 257.57,
       "donchian_upper": 278.86,
       "donchian_lower": 227.37,
       "signal": "HOLD",
-      "dist_to_upper_pct": 17.2,
-      "dist_to_lower_pct": 4.4,
+      "dist_to_upper_pct": 8.3,
+      "dist_to_lower_pct": 11.7,
       "channel_width_pct": 22.6
     }
   ]

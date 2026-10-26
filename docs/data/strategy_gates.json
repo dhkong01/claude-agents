@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "gates": [
     {
       "id": "T1",
@@ -11,7 +11,7 @@
       "value": "+72%",
       "note": "M7 4사 연간 캐펙스 합산 $409B YoY +72% -- 정상 (임계 +15% 미달) (실제 지출 기준, 가이던스 아님)",
       "auto": true,
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     },
     {
       "id": "T2",
@@ -23,7 +23,7 @@
       "value": "0.89% (d3M:+8bp)",
       "note": "ICE BofA IG OAS 0.89% -- 3개월 변화 +8bp (여유 42bp)",
       "auto": true,
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     },
     {
       "id": "T3",
@@ -35,7 +35,7 @@
       "value": "4.03%",
       "note": "단기금리(^IRX) 4.03% -- 목표(4.25%)까지 0.22pp 여유",
       "auto": true,
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     },
     {
       "id": "T4",
@@ -56,10 +56,10 @@
       "desc": "MU 재고회전일수 YoY +28일(4주) 이상 증가",
       "threshold": "DIO +28일 YoY",
       "status": false,
-      "value": "DIO 122d(17.4wk) YoY-15d",
-      "note": "MU DIO 122일(17.4주) YoY-15d -- 정상 (D램 재고 대리지표)",
+      "value": "DIO 132d(18.8wk) YoY+10d",
+      "note": "MU DIO 132일(18.8주) YoY+10d -- 정상 (D램 재고 대리지표)",
       "auto": true,
-      "updated": "2026-10-24"
+      "updated": "2026-10-26"
     },
     {
       "id": "T6",
@@ -67,11 +67,11 @@
       "name": "M7 D&A/영업이익 급증",
       "desc": "M7 1사 이상 D&A/영업이익 비율 YoY +20pp 이상 급증",
       "threshold": "1사 +20pp YoY",
-      "status": false,
-      "value": "이상 없음",
-      "note": "M7 D&A/OI -- 전사 YoY +20pp 미만 (정상) | MSFT:27% | GOOGL:17% | META:34% | AAPL:9%",
+      "status": true,
+      "value": "경고 1사",
+      "note": "M7 D&A/OI -- WARNING: META(+31pp) | MSFT:27% | GOOGL:17% | META:55% | AAPL:9%",
       "auto": true,
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     },
     {
       "id": "T7",
@@ -81,9 +81,9 @@
       "threshold": "-15% 분기",
       "status": false,
       "value": "$2.69/hr (d90:+0%)",
-      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 90일 전(2026-07-27: $2.69) 대비 +0% (여유 -15%p)",
+      "note": "H100 렌탈 단가 $2.69/GPU-hr -- 90일 전(2026-07-28: $2.69) 대비 +0% (여유 -15%p)",
       "auto": true,
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     },
     {
       "id": "T8",
@@ -92,14 +92,14 @@
       "desc": "어센드 960 정상 출시·양산 확인 or CXMT HBM3E 양산 개시",
       "threshold": "이벤트 발생",
       "status": true,
-      "value": "4건 감지",
+      "value": "이전 확인 유지",
       "note": "뉴스 감지 -- [Ascend960] Huawei Speeds Up Its Ascend 960 AI Chip Launch to Take On Nvidia in Ch | [Ascend960] Huawei's Ascend 960 Development Ahead of Schedule: Launch Set for Q1 N",
       "auto": true,
-      "updated": "2026-10-25"
+      "updated": "2026-10-26"
     }
   ],
-  "lit_count": 1,
-  "action_level": 1,
-  "action": "🟡 모니터링 강화 -- 추가 점등 대비",
+  "lit_count": 2,
+  "action_level": 2,
+  "action": "🟠 신규 진입 중지 / S4-S5 사이즈 금지",
   "rule": "2개: 신규 진입 중지 | 3개: M게이트 OFF | T1+T2 동시: 즉시 방어 전환 | T7+T8 동시: 메모리/네오클라우드 익스포저 축소"
 }

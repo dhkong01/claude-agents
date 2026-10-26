@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "indices": {
     "nasdaq": {
       "price": 25955.34,
@@ -23,23 +23,23 @@
       "region": "US"
     },
     "kospi": {
-      "price": 5550.3,
-      "change": 16.53,
-      "change_pct": 0.3,
+      "price": 5534.03,
+      "change": -16.27,
+      "change_pct": -0.29,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 751.69,
-      "change": -12.41,
-      "change_pct": -1.62,
+      "price": 743.69,
+      "change": -8.0,
+      "change_pct": -1.06,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 62693.16,
-      "change": -214.68,
-      "change_pct": -0.34,
+      "price": 62788.78,
+      "change": 95.62,
+      "change_pct": 0.15,
       "label": "니케이225",
       "region": "ASIA"
     },

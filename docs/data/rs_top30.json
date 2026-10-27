@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "rs90_count": 14,
   "stocks": [
     {
@@ -11,11 +11,11 @@
       "rs_rating": 98.3
     },
     {
-      "ticker": "MRVL",
+      "ticker": "LITE",
       "rs_rating": 97.6
     },
     {
-      "ticker": "LITE",
+      "ticker": "MRVL",
       "rs_rating": 96.9
     },
     {
@@ -31,11 +31,11 @@
       "rs_rating": 94.9
     },
     {
-      "ticker": "DDOG",
+      "ticker": "AMD",
       "rs_rating": 94.2
     },
     {
-      "ticker": "AMD",
+      "ticker": "DDOG",
       "rs_rating": 93.5
     },
     {
@@ -59,11 +59,11 @@
       "rs_rating": 90.1
     },
     {
-      "ticker": "AEHR",
+      "ticker": "TXN",
       "rs_rating": 89.4
     },
     {
-      "ticker": "WDAY",
+      "ticker": "AEHR",
       "rs_rating": 88.7
     },
     {
@@ -71,31 +71,31 @@
       "rs_rating": 88.0
     },
     {
-      "ticker": "TXN",
+      "ticker": "ADI",
       "rs_rating": 87.3
     },
     {
-      "ticker": "ADP",
+      "ticker": "ARM",
       "rs_rating": 86.6
     },
     {
-      "ticker": "SHOP",
+      "ticker": "CSCO",
       "rs_rating": 85.9
     },
     {
-      "ticker": "ABNB",
+      "ticker": "WDAY",
       "rs_rating": 85.2
     },
     {
-      "ticker": "ADI",
+      "ticker": "GILD",
       "rs_rating": 84.6
     },
     {
-      "ticker": "FANG",
+      "ticker": "SHOP",
       "rs_rating": 83.9
     },
     {
-      "ticker": "GILD",
+      "ticker": "ABNB",
       "rs_rating": 83.2
     },
     {
@@ -103,11 +103,11 @@
       "rs_rating": 82.5
     },
     {
-      "ticker": "CTSH",
+      "ticker": "ADP",
       "rs_rating": 81.8
     },
     {
-      "ticker": "AAPL",
+      "ticker": "AI",
       "rs_rating": 81.1
     },
     {
@@ -115,20 +115,20 @@
       "rs_rating": 80.4
     },
     {
-      "ticker": "CSCO",
-      "rs_rating": 79.8
+      "ticker": "CSX",
+      "rs_rating": 79.1
     },
     {
-      "ticker": "CSX",
+      "ticker": "FANG",
       "rs_rating": 78.4
     }
   ],
   "portfolio_rs": {
     "VKTX": 10.3,
-    "MRVL": 97.6,
-    "CRDO": 26.1,
-    "NBIS": 79.1,
+    "MRVL": 96.9,
+    "CRDO": 27.5,
+    "NBIS": 79.8,
     "RDDT": 13.1,
-    "VRT": 17.9
+    "VRT": 25.4
   }
 }

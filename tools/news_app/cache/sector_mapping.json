@@ -1,14 +1,15 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
       "score": 8.5,
-      "rationale": "AI 반도체 수요 호조로 한국의 경상수지 흑자와 대만 TSMC의 기록적인 실적이 지속되는 가운데, 글로벌 AI 공급망 내 강력한 수혜가 이어지고 있습니다.",
+      "rationale": "한국의 반도체 수출 호조에 따른 GDP 깜짝 성장과 TSMC의 사상 최대 실적, 그리고 메타의 대규모 AI 인프라 자금 조달 계획이 맞물려 글로벌 반도체 밸류체인 전반에 강력한 수요 모멘텀을 형성하고 있습니다.",
       "related_tickers": [
+        "TSM",
         "NVDA",
-        "TSM"
+        "005930.KS"
       ],
       "source_regions": [
         "US",
@@ -19,10 +20,10 @@
       "name": "Technology",
       "direction": "positive",
       "score": 7.5,
-      "rationale": "메타의 AI 투자 확대, 소프트뱅크의 대규모 AI 데이터센터 투자 등 빅테크의 AI 캐펙스 지출이 반도체에서 사이버보안 및 데이터센터 인프라 전반으로 확산되고 있습니다.",
+      "rationale": "마이크로소프트의 인력 구조조정을 통한 수익성 개선, 앤스로픽의 메가 IPO 공식 서류 제출, 일본 사카나 AI의 파운데이션 모델 개발 등 빅테크의 효율화와 AI 생태계 확장이 호재로 작용하고 있습니다.",
       "related_tickers": [
-        "META",
-        "MSFT"
+        "MSFT",
+        "META"
       ],
       "source_regions": [
         "US",
@@ -30,61 +31,36 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "중국 EV와의 가격 경쟁 심화, 미국 관세 압박, 유럽 소비 경기 둔화로 볼보 카스가 대규모 감원 및 적자 전환을 발표하는 등 완성차 업계의 수익성 악화 우려가 커졌습니다.",
+      "name": "Communication Services",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "메타가 AI 성장 동력 및 인프라 구축을 위해 최대 950억 달러 규모의 주식 발행 및 자금 조달 계획을 발표하면서 투자 기대감을 끌어올리고 있습니다.",
       "related_tickers": [
-        "VLVLY",
-        "BYD"
+        "META"
       ],
       "source_regions": [
-        "ASIA",
-        "EU"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "프랑스 민간 부문의 경기 침체 진입, 유로존 비즈니스 활동 하강, 고에너지 비용 및 지배적 무역 장벽에 따른 제조업 전반의 하방 압력이 가중되고 있습니다.",
-      "related_tickers": [
-        "AIR",
-        "SIE"
-      ],
-      "source_regions": [
-        "ASIA",
-        "EU"
+        "US"
       ]
     },
     {
       "name": "Financials",
-      "direction": "negative",
-      "score": -4.0,
-      "rationale": "아메리칸 익스프레스의 AI 전환 관련 대규모 구조조정 비용 발생, 홍콩 IPO 시장 부진, 유로존 실물 경기 위축에 따른 금융 안정성 우려가 반영되었습니다.",
+      "direction": "positive",
+      "score": 5.5,
+      "rationale": "앤스로픽의 대형 IPO 제출 및 도어대시의 M&A 추진으로 자본시장 및 투자은행(IB) 활성화 기대감이 높아졌으며, 일본 생명보험사들의 초장기 국채 매수 검토가 긍정적 요인으로 작용합니다.",
       "related_tickers": [
-        "AXP"
+        "GS",
+        "MS"
       ],
       "source_regions": [
         "US",
-        "ASIA",
-        "EU"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "국제유가 급등 및 유럽 내 에너지 가격 상승으로 인해 에너지 생산 및 업스트림 기업들의 단기 수익성 개선 기대감이 반영되고 있습니다.",
-      "related_tickers": [
-        "XOM",
-        "SHEL"
-      ],
-      "source_regions": [
-        "ASIA",
-        "EU"
+        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Consumer Discretionary",
+      "note": "미국은 도어대시의 M&A 협상 등 유통/플랫폼 분야의 모멘텀이 포착되는 반면, 유럽/아시아는 볼보의 적자 전환 및 2,500명 감원, 관세 압박, 중국의 약한 내수 회복세로 인해 자동차 및 경기소비재 전반의 부정적 기류가 상충하고 있습니다."
+    }
+  ]
 }

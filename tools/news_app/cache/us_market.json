@@ -1,7 +1,67 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "region": "US",
   "headlines": [
+    {
+      "title": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+      "summary": "JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
+      "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "You need only watch episodes of Judge Judy : I m in my 70s. Why do people keep making the same avoidable financial mistakes?",
+      "summary": "Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.",
+      "link": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive | DoorDash Is in Advanced Talks to Acquire Delivery Rival Instacart",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZvRlVFSjNDTHZIeTlnUWhXdjdyTkVZQk1rV0xtTmdjT3VBN05YeVI3cUpGLUlBRC1KaTdKVzMtekd4emZ5TU1nclhrajVLV0VlbmhfRGVOVHpCRG83RmdkOElvOHhyUkRKVkd6VU1LajNUa1JvcUdjdnlVLXBreF9nV3dhOHYzWnJLSm5XVVhmVnlHS0dJRmpxMWpEY2hBMl9Fd1pCNFpiZzBRaWRwcHlEZ1I1Zw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTEtWZHk3MHVmT1VtM1ZlaUUwZnRxSHhLd25MMUdINTc4RnV4eVVGdUt1bHhRMGpXYU1Uc0J1Tjd4c2lwd0xERFdkSnllb2Zqa1ZxMVJFX05KcnRDTlBUa3lnNWxZeUhWc3Ixa1ZNQnpUQWkySnp6bXFHOHBwWjFVWEh3b0JOZW0ya0lmdjIxbGFFQ0hfY1FRZElXR0E3cXRRNThDVHpZd1FGQl9YMzZOMW9qZG4?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "SpaceX Gets $120.5 Billion From Anthropic as It Borrows Another $40 Billion",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LW1KN0VjU0RLUEEyN3ZQVHdSZW1JMW5WNlBEampKUUJobVI2ZXRlLVV5R1loTzFpRGx1ZG9tWjM4anpqRGRtcV9NVndUcDA2RFpyRUFnRlRBWlRSQ2J6YzZMUWlpbkhlQ1lJUnhJNEdELTJMVVE?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers",
+      "summary": "The Federal Trade Commission and 20 states have filed a lawsuit against Dollar General, claiming the retailer has charged customers more than advertised prices.",
+      "link": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Dividend stocks are having an excellent October as tech sector struggles",
+      "summary": "ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.",
+      "link": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "What María Corina Machado’s Return Means for Venezuela",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUZXbU9PTE8ya3haWno4ZWVWTjBIVU1iVnFnQ1ktSVUxbUk3UXpSTjNCM0lOUGFoOWhZNG1RbC16VHJPMUZlRG1IWi10TEgtZHZTWlJLTExPc3NQNUFoNlBTSHJ1dkNJUGdLR3hLNVNQdkVKMmZhRDZfXzhmOXZPbEZrMnl5REJWOTBnU0QxTl91eWxQOFpCelVMdmtsZw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Apple’s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMVd4NDgxLVNSdXl3aWluTklSOFdYVW1nRzVkTEViZGNhc1hSVHJVbm8tbi01QXVDc2UtNjFWY1FOSXRDM09kV2NyUmRNQk15dGNMY1BuMGFwQkZBN1d0OVdySlZ4d183cXFvSlJzdDhTajRETGVObWlvUWZoU0JNa3JGc3FreDBlaUcwM2k5QmgwNmNZcEFEb2VzcmJiWTBRbHhmckxsUm91cUZ5bEF0T3lSYlFUMmhFcDhBT2lMZzFOQQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Neoclouds Face ‘Guppy-Level Death,’ Musk Warns. Why CoreWeave and Nebius Will Survive.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc2pueHR4d1o3RERzWVhCVE5iMExtWkdtN2tYMkJkZHVTX2xTWGN1RmVBdGJ2SGlqTjlIN0lUZEo5bTI1QmpuM1dlMF94aUx3NGhTOTcyR292R2R3SDhHTHhrWDdGbm9fclg1blMyVjZDc2E4TmRkVEhHdkEzNE8tTFN0QndKN09uTENjTjh3?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
       "summary": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
@@ -9,27 +69,27 @@
       "source": "CNBC"
     },
     {
-      "title": "She s living the dream : My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "summary": "My late father bought our house for $250,000 in the 1990s.",
-      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "title": "Options traders are seizing control of the S&P 500",
+      "summary": "There s a reason the index hasn t moved much since June, according to a team at UBS.",
+      "link": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Opinion | Viktor Orbán, U.N. Secretary-General?",
+      "title": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3dROHZ1TUtuNUVDZDlyeHNtR0VkYXY4WFhld2tKZTEwS3lwVGp3Z25KeUI0ZXV2N2ZZTmM0dmIwRlBCZ2owOWFSTTZLTTVmNzNJWDdlNHRoZlRMbTR1SXVZWnFFaEdjaU5Oc21IMThYU1hSUVFTYzAxQ3NEU3RETlYxbFN4V0tQYzZrN2R4NWs?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVdSNm1IZjFYTGtZVDZuYnEtb0JwZkpaTjFkbVBRR09WQ18teW9GdkVfZUVab1dSWmV3a3VnbERxdTJGQXg3eGRJVWZKblNtZFg5bEZJaHdza2dpbDMtUHFqNU41a2dBZVBORk1mT0o3VWJsVTRYekJFWnQ4UENrdmFEZlc4Z3FsUU5sTU93NlNFMC1zSE1COHh5eXhqOFM3cmhXS2xpTlhPcXln?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Brazil Extends Voting by Two Hours After Briefly Starting Count",
+      "title": "Russia Is Said to Widen Military Recruitment Drive in Africa",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnpIMV9neGJ2SHBlWmNYS1l2VVFpcVQyUnlSTHdWc2pRckNBUUkxMG1OZHhDaExvRUpDSzY1UWpiX3RZdEtOUUlobGVRSGM0cEJiTDJES1VVMV8wTS02M0h5Qi1OU3lCWEVXM3psSVV4UGU0TTdrRTlIdzdJMjRvMFFsY3U3MVo0d2FNZEVDSFJGTUxYd0tyR3VkTFdmZDFnNlNSUml1WmV4NVFab2pEOWZnTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONjBtamk1QWlxSThXWjhSMkhIWTJSWmhseFRaX25VR3JGRThnTTZ4ZlZkd1BFNGJoTUdHY0lSZ2VrQWx4N3JwemtvRWd6RklnT0NrYll3c3pKT3M0bVZRVmhPNDZKeGFPZlRvTERKdFMwV1ktUW1udWloMDdNR00yeHNldGZOYlhQLTdlM2tZaUlwOUJZSzhQcE1DQmxsbHZyOVV3SUktTHZIa3paOFc2cA?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "The AI Trade Is Shifting From Chip Stocks to Cybersecurity",
+      "title": "Tesla Stock Jumps on Buy Upgrade. Why It Can Surge 20%.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQV2RyekJDTGFYYzFuRmp3b3lNSV81Y2F5Y2tTT3ZZNm54d1F2T3hCb2xlNTkyLXEwYW1KYnRHcFNxOE9MOXZwMnR1NlE5Y0l5ajE3UldyVFc3bUMwUkR6d3FQekZLZnBNUGYwZ3d4VDRya2d0VXpFVkpfXzBEcFEzMnhGUmZ2bW9Gdy1ySUNSSWQ5cXVEX3Vv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IV0l1S2F2QVhHNHgzbFJWYWpoTXhWT3BkNjZMSWdZZ2IxeF8wbHRmMWxlQjBoVk4wU3cyTVNBUWE2YTFCSVlCTlc0dzNXY0RYRGdiRG5kV0ljTmg1RU5NRjVDZy1INW5GZWphYjd0UVFRQjg?oc=5",
       "source": "Barron's"
     },
     {
@@ -39,99 +99,40 @@
       "source": "CNBC"
     },
     {
-      "title": "I don t feel sorry for myself : I m 64 and will be renting for the rest of my life. Is that so bad?",
-      "summary": "I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.",
-      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "title": "TikTok parent ByteDance s chatbot is now giving travel-booking sites a run for their money. And yours.",
+      "summary": "Consumers in China are starting to wonder for good reason whether the emerging AI travel agents have a hidden agenda.",
+      "link": "https://www.marketwatch.com/story/tiktok-parent-bytedances-chatbot-is-now-giving-travel-booking-sites-a-run-for-their-money-and-yours-028e4aa0?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "How the Supreme Court Is Shaping the Midterm Elections",
+      "title": "The Biggest Takeaways From Anthropic’s IPO Prospectus",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOXEtUEJPc2ZRNllNaWRUOEtlOW9UNWJSbDhQekE4QkkwVDhld2pHaEVZSmNvUGRSdUMtR2IzVWM3WWV2V0lqZDZuaW5KZW5vUTZKcDJFdUU0VFRVOTlyZUJMTTZBMTJ4clNZdi1pSExsVktnd2VYRk80Y0xtRlBSM29EbTY2ZjVhcVZublhXU3ltc0JiSVJNQ0doOFhHelBf?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ocFhISXowTzhvOEN4cFBXWDdCdE9XUEkxNzNYd2xhYnhBN2xQaVlnVGtCT3YzSkhMT3dubmxRV041cFl3U1Z5UTJ5RERqRldhdERaM1Zfa1FCMUZMRkxRcGVBWDFLTlRwczFDQkN3MlFJMkZUdVJ1Tmpn?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Musk’s Starlink Explanation Challenged by Texas GOP Lawmaker Dan Crenshaw",
+      "title": "Dutch Government Plans to Cut 25,000 Jobs in AI-Led Overhaul",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkx3V01SN0Q0b3Z2dDBsWGdJeUgxNk5LSXl0YzUyZmNnSG5NQW9MSlR2cnZuVnk5QnlzM0lMVWQydTBFcjFlaVp0QWUwM3FvTl9TX1hITDdHa2FrN0JiRXdGdjM0VzFxTXNNcXpScFlfOFBWWk9jUTdQbnpubmx6VV9lTGphdVI4Q0x3NTdGMk1hSC1TWEN1d3h4VHpJbU0xTnpIMTZBUWdGQk5oRmtLVA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLUh2N255MjYyVmhsTWFQVEVFcjNkTm5yejRCT2ZGU1FMX0lDUnR6VGVVejhyRS14Q2VCeGZPelFtYm1GRWFZWTNiWm13eFZQMzZDQzgxQ2hyWTViV3NqNGxJVnJKLTNGYnpidW9VSHdkNjRfekZIbnI5TFhBdkZ4a2piQ1ljb1lVaXN5bktfang3OFhVMWV5Ty1mWk1DdmN3bFVOWHotSGd5ZU84aV80cw?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "These Digital Nomads Hop Around the Globe, as Their Kids Get Overseas Educations",
+      "title": "Meta Will Offer Up to $95 Billion in Stock. What That Means for Its Big AI Push.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWF9fb185OVZMVm1DVFBJeGJmS0NxSU5MS1VSVllNdTVCUklvaGhEaENOVUVkUTNrLUVibkF4S2Ffb0ZzMEFUVGZqZTRhY1NaVVl1cm1ZQUtxbWlvS3dzUmxaMmRwMGpVTnJDa19wWTNNQTZUdU1sQU1haU9NWG9obk1VQVgtWGV2VTJHa2VB?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Restaurant earnings will test whether owning more brands pays off",
-      "summary": "Shares of companies with multiple restaurant brands like Brinker and Darden are outperforming single-chain stocks like McDonald's and Chipotle.",
-      "link": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who s to blame?",
-      "summary": "Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.",
-      "link": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Beyond St. Andrews: The Purest Golf in Scotland Is Hidden in the Hebrides",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObXd2MW1ITFpScV9MQWlyV1FPNXptWlVRZWtyNE1zRVRaUEFkZXlUaFduYVphd1BlQms0SlJsRWZXU2ZfaWViMFBER2tsLTdWb1ktNjE3YkZUZ3hSd2tCZERCNUxpRk5EZWZ4V1ZpWjFxSFc5UmZ1OUNKemFlRkZSSDZn?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Car Crash With Alaska Democrat Peltola Delays Campaign Rallies",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb0FDaTZ4Z0NnS2ZraExPb1N2Qi1FRUhacjVWaFlKNklSdWJsbVViUnhxU2phNlFtMllJOEY2UE1oZkRCWTNjak5QNVE3aXBrZVpicDlLejFySzRyaHdOYkltaEx0RGhrX1liNmxuUXlEdkRJcDZGbGJQSC1vd3RjaVBWUnFYWGdVZk5oMUdoRVBrVndVWDdHaTd5WDVVTHR4ejlHTnRkb2tYY3M4QVhvUUwzNA?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Review & Preview: The Dow’s Turn",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkJ2VVdTNzVWTkl1QkVBLTU4YjNfOVBWQ3h0dUczTi1ma3VHaTlEcG1lcm16MWVIa3ZWazl1SnFKdGNwbmJEX1FBREJkZGs2MVYzcXV4ZzFVSlNCSm5tSWhGVVZDVmR4Slp6RVktcU02UlNZcDBOeEo0NlpUMnlPMktqZVIyaUlTZWxMUHdJRUp0Zw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "American Express is cutting 5% of its workforce to prepare for AI",
-      "summary": "Amex, which reported third-quarter results earlier Friday, is taking a $336 million restructuring charge in the quarter, CEO Stephen Squeri said Friday.",
-      "link": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter s $50,000 debt. How can I keep him from becoming destitute?",
-      "summary": "Nothing has been set aside for his needs.",
-      "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Not Even the Best Pitchers in Baseball Can Stop the Brewers",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0N05BaFN5NFgyeFBYV1dPVnVJMjhXMU9uTFk5dFVyamR1THhjVTQwUHVHeUlmQjVBTWxYQnprR0NTSHpHM1d5RnJUSGZIUFI0d3hmMVEyQlB5RFZWeXJJUDRwZF9iXzBTRU10STVaem0zSk1Vdm1LeTN3?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Netflix Users Are Watching Less, Not Opening the App as Often",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMW1TVGRaNmJ6UVlnYmZ4X3hzdEg4eVg4UVpDN2V4Zmd1aTduMzVUYlR6LXFDbWpxOTFRNzR0bVZoWTEweE1QNEFNelBvaXpobFFFUk9TcHYzZGpGMXAwd01QLWlidGp6azN5S2libGp1ekhUdDdtbkxncHM2MG92SzhLUkRzck5JNHZpbEp4eUE1V2JkdW92WW1jZk5scHVTVHI5azhtck0zMkJERVgtRA?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Japan Data Centers Are Booming, Boosting Overlooked Stocks",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84cmdEZUk1UVdSU2c4bFg1NnBYM2hNQ0JlMUxEUVZzcjREU0VMdG1rd3oxaENRY2NqaExSQUVha0M2X19PcmlOSWNfM1FsVkF6bFROQnFxaHZIOVNwYU5DcExoYkVLQnV3ejhOeDZCRHRpcW5LRXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE10bm9vdXZ0RDJuVWNfMGo5bnQtLTJ6b2c3WTlMNExXaEsyOUpiNEd0cGt0YVNldlZHNEtvaThTOXV3LUpBVEFmcmNOOTBSZDNPbTBmNGlFVzgwYkFqQmY2eExVUjR6UEEtNk1hNzdkWEgtTWs2bTZNbGl2a0hOUQ?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "AI 비용 효율화와 AI 테마의 확산",
-  "summary": "아메리칸 익스프레스가 AI 도입을 위해 인력의 5%를 감축하며 구조조정 비용을 반영했고, AI 수혜 테마는 반도체에서 사이버보안과 데이터센터로 확산되는 양상을 보였습니다.",
+  "trend_headline": "빅테크 대규모 자금 조달과 앤스로픽 IPO 추진",
+  "summary": "마이크로소프트의 대규모 인력 구조조정, 메타의 최대 950억 달러 규모 주식 발행 및 AI 인프라 투자, 그리고 앤스로픽의 메가 IPO 공식화 등 빅테크 중심의 자금 확보와 구조 재편이 시장을 주도했습니다. 이와 함께 도어대시의 인스타카트 인수 협상 등 대형 M&A 이슈가 시장의 이목을 집중시켰습니다.",
   "key_points": [
-    "아메리칸 익스프레스, AI 준비를 위해 3억 3,600만 달러 규모 구조조정 및 인력 5% 감축 발표",
-    "배런스 분석 결과, AI 투자 트렌드가 반도체에서 사이버보안 및 일본 데이터센터 관련주로 이동",
-    "메타의 지속적인 AI 투자 확대 속에서 S&P 500 기업들의 실적 발표를 앞두고 시장 경계감 지속"
+    "마이크로소프트, 비용 절감을 위해 6만 명 대상 희망퇴직(Buyout) 추진",
+    "메타, AI 성장 동력 확보를 위해 최대 950억 달러 규모의 주식 발행 및 자금 조달 계획 발표",
+    "앤스로픽, 퍼블릭 프론티어 AI 랩 최초로 메가 IPO 공식 서류 제출"
   ],
   "sector_hints": [
     "Technology",
-    "Financials"
+    "Communication Services",
+    "Consumer Discretionary"
   ]
 }

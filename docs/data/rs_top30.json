@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "rs90_count": 14,
   "stocks": [
     {
@@ -11,11 +11,11 @@
       "rs_rating": 98.3
     },
     {
-      "ticker": "LITE",
+      "ticker": "MRVL",
       "rs_rating": 97.6
     },
     {
-      "ticker": "MRVL",
+      "ticker": "LITE",
       "rs_rating": 96.9
     },
     {
@@ -39,15 +39,15 @@
       "rs_rating": 93.5
     },
     {
-      "ticker": "INTC",
+      "ticker": "ZS",
       "rs_rating": 92.8
     },
     {
-      "ticker": "STX",
+      "ticker": "INTC",
       "rs_rating": 92.1
     },
     {
-      "ticker": "ZS",
+      "ticker": "AEHR",
       "rs_rating": 91.4
     },
     {
@@ -55,15 +55,15 @@
       "rs_rating": 90.8
     },
     {
-      "ticker": "WDC",
+      "ticker": "TXN",
       "rs_rating": 90.1
     },
     {
-      "ticker": "TXN",
+      "ticker": "STX",
       "rs_rating": 89.4
     },
     {
-      "ticker": "AEHR",
+      "ticker": "ADI",
       "rs_rating": 88.7
     },
     {
@@ -71,7 +71,7 @@
       "rs_rating": 88.0
     },
     {
-      "ticker": "ADI",
+      "ticker": "WDC",
       "rs_rating": 87.3
     },
     {
@@ -79,11 +79,11 @@
       "rs_rating": 86.6
     },
     {
-      "ticker": "CSCO",
+      "ticker": "WDAY",
       "rs_rating": 85.9
     },
     {
-      "ticker": "WDAY",
+      "ticker": "CSCO",
       "rs_rating": 85.2
     },
     {
@@ -95,40 +95,40 @@
       "rs_rating": 83.9
     },
     {
-      "ticker": "ABNB",
+      "ticker": "CSX",
       "rs_rating": 83.2
     },
     {
-      "ticker": "MSFT",
+      "ticker": "KDP",
       "rs_rating": 82.5
     },
     {
-      "ticker": "ADP",
-      "rs_rating": 81.8
-    },
-    {
-      "ticker": "AI",
+      "ticker": "ABNB",
       "rs_rating": 81.1
     },
     {
-      "ticker": "KDP",
+      "ticker": "AAPL",
       "rs_rating": 80.4
     },
     {
-      "ticker": "CSX",
+      "ticker": "ADP",
+      "rs_rating": 79.8
+    },
+    {
+      "ticker": "MAR",
       "rs_rating": 79.1
     },
     {
-      "ticker": "FANG",
+      "ticker": "QCOM",
       "rs_rating": 78.4
     }
   ],
   "portfolio_rs": {
-    "VKTX": 10.3,
-    "MRVL": 96.9,
-    "CRDO": 27.5,
-    "NBIS": 79.8,
-    "RDDT": 13.1,
-    "VRT": 25.4
+    "VKTX": 11.7,
+    "MRVL": 97.6,
+    "CRDO": 37.8,
+    "NBIS": 81.8,
+    "RDDT": 11.0,
+    "VRT": 26.8
   }
 }

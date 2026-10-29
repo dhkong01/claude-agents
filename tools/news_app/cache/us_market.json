@@ -1,29 +1,89 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "region": "US",
   "headlines": [
     {
-      "title": "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
-      "summary": "President Donald Trump has threatened to double tariffs on Canadian vehicles and parts from 25% to 50% if a trade deal is not reached between the two countries.",
-      "link": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
+      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
+      "summary": "FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.",
+      "link": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
       "source": "CNBC"
     },
     {
-      "title": "Retail traders buy the dip on chip stocks but Robinhood gets burned by the crypto market",
-      "summary": "Robinhood CFO says market volatility didn t scare traders away from buying chip stocks that they had really done research on.",
-      "link": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+      "title": "Lumentum s stock pops as investors cheer a possible sale to Marvell",
+      "summary": "An agreement between the companies could come next week, Bloomberg reported",
+      "link": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Minecraft Creator Lists Beverly Hills Mansion for $70 Million—What He Paid in 2014",
+      "title": "Google Shares Fall 10% as Growth in Search Revenue Slows",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRjR3VW8ycmFQV2hRbGtsTnpmN2JtTWdHTzVMVGc0R2ZIUmRXNElMUThqc09ZU1U0NlBvSUZ2UGVtTGFCSGpXU1lPWThhR21VZEUwOEVaMTRmdEFjamRjenM5MkN2T1lNMDVzLUZTM3gzN2JWNHd5MzJVOTRpaURJR1FGQ1V0SmFwZjNTcGhuVTR6ZENXY0R3TUhUSnd5QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmNkSG5GRS1SMkpKWG5nQjc2YV9BOEU0X1dEZHB3V1VvRGtXdDgzTVdMdnNEcGVzclJqWU9NVzdjYWZybm95dGZhR2NjdEotaGFvVERZM21LNFBpNUhIV1B3eFNMaFNJbmgyWnhFaVdZTmNTXzFzU3ZIU2R0emgxdDNCSVBMN2d2?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Apple Bets MacBook Pro Buyers Will Pay More for Touch Screens",
+      "title": "Banks Shelve Bond Sale for Anthropic-Tied Texas Data Center",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNENTUXRkWmlfODV0c3h2OWZQcG42ZDZ3NlpzVEJ3MUY1SUJtZm03X3ZtR0cyZFdKZzVfdVMwQUYwVE9hSzN2cl9mVjY1TnhSb2p2RDNhVHBIRHhkbXJVVXlYMFdTVGZPV3M4R0FVaWJvd3Fkc2lUdW4xR21IUVZqRUUxOTc2TUlJOFNBOXhtblZWQzJlZURmMUVQSFhLQ2hOWFE1TkYySHhGMVhzX3FnX0dLd1YxX0hGWjNwWlJ2NzdSMTJDeEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWZ1cFJjWU12d2ZBMU9WVTFvbXFMdXBwaUFMRko0VXBXYkZadEM1dDRsRi04QjR6TjE1NmhpOGY3bDBNdjlrWXUtT29uc2NTNmpVTzE4QnQ0ZkRtNURPOG1OZW5QOGFyMGJ2R196NFhxTThFZGlpSV9PdlVBRFJXdm0wdHRzSnpOTEtPR18ybFpXSGZESWNxeEhEdGotYUJNOHhXYVR3XzlDVlVabjhV?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Nvidia Stock Faces a Test From Its Biggest AI Chip Rival",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb3BUbE1JVUhsMjRDT1V5LUY3RlMyTmJEM0JpVHdoLTdzdjJFOHFiSTdhNHVHRlRUMVJGN1JOUlFpZDd4SDRCNHUzQjYxN2tIRUgyVzQ3RnVlcmpCVE9wajJqcE5SNWpERU9ScHdwb3A2NHlGU29tc2lZR2lVWmxFTU1DdlNHczQ?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+      "summary": "For the first time this year, low-income consumers during the quarter outperformed the high-income cohort at its restaurants, CEO Scott Boatwright said.",
+      "link": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Why Alphabet s stock could see its worst drop in years after the latest results",
+      "summary": "A doubling of cloud revenue wasn t enough to appease Wall Street as investors grew more concerned that AI is hurting the company s ability to make money off search queries.",
+      "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive | Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzVvb25ndkFLZDV5RnM2dGE2NGRlcHZNTV8wMFl2Z3lNdFk2TnpqSUQ5QXJkSkNlZThnMzI0ai1iVW1YMWxsZUdGcFRBdmNudmR0SFZqOTJMOUNIVjRzNV84OWVoMkhvZy16VzFsel8zOVVyLXpxajV2WlQ3TVdScTFwZGh6NTUzbjBxa0I3bzVDWDFHUFBRUHFPcW9GeU41cVpKN0xMYTdJek54VXQtSlVEZVM4M1k?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGdUMkpHa2JOcFhCMTFQU0tLaTJkTU54TmQ2aGJnVVVMR2VzeGdzLS1ONXd0U3hqQ0xPZUlEeTgyOWVXMHRQQ0hIeW5aX21JRkpNY3FlRUdNM1ZJMS1ZX3JwMWUteGVLdFFaVlNZMjZXUWtSSXNVRlEwdnRvbU9iQVBnNS1ycUgxMU5LTGtQQ0hSTWNOTkhBZ3FNRC1HaEZXZG9UMUd1QlBfeG1qZ044cTQtTk9Ydw?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Accenture CEO Buys $3 Million of Stock After Shares Double Off June Lows",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQjJqeENUUGZHbDlPYVRFQk5iNEJpQURoSlFWT2FORDJzN09hOUtWdjZGd2huMzJlX2kwVEV6MXIxYm9rVGhRMkVRRkxveFBlSFcyb0xISC1HdVlEMmdQMm5JTG1Kb1FlSVBxSVVuNS1odVpuR0VoMVZpVWVIZEF1Y29R?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
+      "summary": "Ford Motor reported earnings that beat Wall Street’s estimates but slightly missed on revenue.",
+      "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Just watch Judge Judy : I m in my 70s. Why do people keep making the same avoidable financial mistakes?",
+      "summary": "Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.",
+      "link": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump Calls for Alaska Democratic Senate Candidate to Be Prosecuted",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclZWemgzV0ZwZk9RMXZIYUwxMk9wS0VIeC1RSFNyRzJTTUJBeTRCUmFOSENsQklvSmpmVEJWTHBjQ3QxWXZYbWFRc0NXckxpTkJQY19CV1JUbG5jc0x2M3dvN18wWHJVNC1JM2VSaUlUSTAxamloNm90MkEwVWFvaUpQdG9TMm5kN1BKYjA5NVZSWEIwbzRoTEV1R1dObkIwWS0waXc1V0hfLWtmb29mejV1NWVaQQ?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "US Stock Futures Decline, Fed Keeps Rates Steady: Markets Wrap",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -33,102 +93,42 @@
       "source": "Barron's"
     },
     {
-      "title": "American Airlines hikes annual fees on rewards cards for first time since 2018",
-      "summary": "American Airlines joined other airlines and banks in raising their airline credit card fee for one of their major cards.",
-      "link": "https://www.cnbc.com/2026/10/27/american-airlines-citi-aadvantage-card-fee.html",
+      "title": "America s largest budget airline reports 71% jump in airfare",
+      "summary": "Frontier Airlines reported a 71% jump in airfare for the third quarter and said customers continue to book",
+      "link": "https://www.cnbc.com/2026/10/28/frontier-airlines-airfare-plane-tickets.html",
       "source": "CNBC"
     },
     {
-      "title": "She s living the dream : My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "summary": "My late father bought our house for $250,000 in the 1990s.",
-      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "title": "The major reason Microsoft s stock is heading higher after earnings",
+      "summary": "Microsoft showed investors that it s able to grow rapidly while keeping spending in check.",
+      "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Visa Reports Higher Profit on Payment Volumes, Transactions Growth",
+      "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQnY3VTU0X29NeWk4eEJPSnVsYzY2aUdLTDQ1RXNEZEs2amhnS05wblYtd256a05BWGpJN3hNbjA2dld3ZkpkSVRqMjNyMFZKd0pYTm1WZXdmNFR0bndYVk5BazJDd3IzVkFpMll5dWswOU5NNTYzbjZsLWZiLVdWZDZfLURWcU00a3VlWmwydkRLUVc1Rl9yaTdTZ2c1ZWdJWWN2RFJJYWRnRUdzckV3WVlR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG1JUFZyWEVVeTdxNHJ3djFId2dCZDY3Vkc3Qnc4Vzh1NVFKTXN2cVFEcWdrbEtSdlE5Y1VfQUV6aDE3M1BscVgzVFJXVWZ5R01XQnpjb0FGb2dmTVFEWFhlWGFBUm52dlZzTXhhZ081RzF2dWNWT3U0RU1tejhYZXdSQjA?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap",
+      "title": "Alphabet Shares Tank on Sales Misses Across Core Businesses",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdFZXQ0F0WGVCT3FPRFB5RndJRUYtdHFQNVlfVmxJV1dmd0ZKMklnSl8yYnV6Z0N0bERBbmVhenJGS3dTOF95VERJeC0xektmNXVOSzJzTUVySzRSYWRIWHl6RGNxU1o2eWRmcU5EcEN3OTlzaldJUERqdWloQ1pRa1Q2ZUI4YUZCejlrUzk3NzBRdmdf?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "PayPal Beats Earnings Estimates. Does It Now Have a Shorter Path to Recovery?",
+      "title": "CoreWeave Stock Is Rebounding From Its Debt Scare. The Case for Buying the Dip.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZdXR4REozU1A1ME45X1NpZlBMSkhJWUdoNTEtNlRBd1pvc0VmV0lkLTYybXdYVDlKNGxfVmVmZXpOaE9FVndOYXgtZWZOOHVmOVJGNXBuUENranhfckRxeVpvMGVaS3JXSEdsX3R0djFpQWJ3dF9nMw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "A canary in the coal mine : Measles resurgence exposes weaknesses in U.S. public health, experts say",
-      "summary": "The measles resurgence exposes the U.S.' public health weaknesses, such as declining vaccination rates and waning trust in health institutions, experts say.",
-      "link": "https://www.cnbc.com/2026/10/27/us-measles-public-health.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "CoreWeave and other AI stocks rise as Anthropic restores the market s faith in sustained spending",
-      "summary": "Now that investors have been able to dive further into Anthropic s IPO filing, they re seeing the same sorts of trends that helped buoy AI stocks for much of this year.",
-      "link": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Seagate Posts Soaring Profit on Continued Data-Storage Demand",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkhWeHRfTkFrdEUyRlhZLTlFUnE3MXE3RlRweTgyQnpVb3hrdEJqYnRkTjVFdWUzNzMwRkE3a0NsbkpsZElsZXo5RGlZRDJFMklUeFhZa0xBVEZXYXEzaHliSHZaWm5UZ09YdFQtZ3QzU1ViYllkZE5hTldzdHcyZGpJVW84ckItUFZSUUVMQzRfX3pTcnVUa3JZN0gwUUwxMFRUMDY5NWRlbnJa?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "US to Issue Visas to Brazilian Election Loser Flavio Bolsonaro",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdUlrejhPem1zT2NvZHRzY0ZpeDk3U1NvRWdDOFg5Y3hWT3lJbmJjNHhScERjd1BNbXkyRWIxcDVrTTBJMms2SkxneFRyV2lIMG9pWjhyMGFOeUotUnNMd0haRnctT3JlRFNNSmEyRVNPaGNtMkhwVDZnUFNwdGV0X2FIRXdlVTd2b3ZtSUxxYWF6VV9YeGQ3R1pYblJYamt2bTNndkdoaFdIOFlVazVfZ1RUSQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Range Resources Stock Jumps on $50 Billion Merger. Natural Gas Is Fuel for AI.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CVDhDZE5ZSnNSaGx0RlBHYm1MeTcxMnZidVhmQWNHMmgwVVJxLUNZdXR6UDBLXzNRZjJZX3h4SW1naUo1a0d4Sm96UVVySXlwTmNFOWN4UDlxZXNNT3hFM255Qk4xSGdfTEpjT3dlMFJLcF9IVGdfT2NuQmxJQzg?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Boeing says it won t significantly ramp up 737 Max production until late 2027",
-      "summary": "Boeing is set to brief investors on its aircraft production outlook when it reports quarterly results before the market opens Tuesday.",
-      "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "As Trump touts energy companies fortunes, U.S. consumers face the most expensive year for gas prices ever",
-      "summary": "President Donald Trump can t stop touting the fortunes U.S. energy companies have made during the Iran war, while canvassing the country to support Republican candidates ahead of next week s midterm elections.",
-      "link": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump Moves to Weaken Methane Emissions Rules for Oil and Gas",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3UtZm1JOGV0S1VXZ09nTW15RjdsVmdnZ2gtempfQkt1REhoVmpKRXczenNsOWxBTXozQ2k1dU1CMk1oLTRuZmpDMHVkcnFhNTFjN3JUa0lxSjdyNjU4Q2lTcS1zZVR3NWNlY2hYVktZTzU0WGNYMkM1QXQ2WE9JdGFzeGgtVnlFLTJlbGtrbGVRemJ0TTBrRlNlUjRCQmk2TVVUWTI1ZXVQQQ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Alexander Brothers Each Get 30 Years for Sex Trafficking",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVVaRVBjejh5WVVNUy03SnJ2cFhSRGF4NUI4eDdFTzVSWkNCQVFaUjZ0ZjJrcVFKMFRXMC13OTNPbzBwYzd2MGtMQzlEOHZYNmpRam00akY0bW1uSnh3UjI0Vl9NWmpveUNSN2VkTndPMG5MM1JIMHpOQThDWUswYVFNU3RaMHpKeVdjX1lBc2lRWHVXU3JMQlpnZldKdjBoODVBdC1wOGRQU2M?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Trump Slams 'Rigged' Brazil Election After Ally Loses",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbUgzWFFNaTktcWVYZ0VqZHFlckZkUjdHYnFkT3NKVkE1b0IwZ1ZwQTRrcHJRMWZRTE9Lb21YZUtjbklzRE5QeE9sR0RxdDB2bzFKSE11VXBDVzJYSU1MZkczLWdLaUFzbGlmVGZNOTBlN3c5VER6UzdZQVBadGFKZXhQQmxieGZiYkNYRHBLN1ZpZTg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EcXIwNldOUjh2RGpVNVEwS0YwSE1KckJMN1RyaHNTRzRBUGc0RGpIVlRDbElxbFdyUHNSZi1fMlV2RlZZS20tMEFVcVhGdWJUUU9fMmtiTDFobzM0eHRVdHU2bWJxeVVXNE5IRjZTT3ZCcFdDeFBjX2t4U1Q?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "앤트로픽 IPO와 AI 인프라 투자 지속 기대감",
-  "summary": "앤트로픽의 IPO 신청서 공개로 지속적인 AI 인프라 투자 트렌드가 재확인되면서 CoreWeave 등 관련 AI 종목이 상승세를 보였습니다. 반면 반도체와 인프라 주식은 선별적 수혜를 누리는 반면 빅테크 전반에 대한 밸류에이션 부담도 대두되는 양상입니다.",
+  "trend_headline": "구글은 급락하고 마이크로소프트는 급등한 실적 희비",
+  "summary": "빅테크 실적 발표에서 알파벳은 AI가 검색 수익성에 타격을 주며 주가가 10% 급락한 반면, 마이크로소프트는 클라우드 성장 가속화와 비용 통제를 입증하며 주가 상승세를 기록했습니다. 이와 함께 Marvell의 Lumentum 인수 임박 소식 등 반도체 및 AI 인프라 M&A 동향도 시장의 주목을 받았습니다.",
   "key_points": [
-    "앤트로픽(Anthropic) IPO 신청서 공개로 AI 지속 투자 신뢰 회복",
-    "CoreWeave 등 AI 관련주 및 인프라 종목 반등세 시현",
-    "시장은 빅테크 중심에서 개별 실적 우수 AI 및 인프라 기업으로 확산"
+    "알파벳(Google) 주가 10% 급락, 검색 매출 성장 둔화 및 AI가 수익성에 미치는 우려 반영",
+    "마이크로소프트 주가는 클라우드 성장 가속화와 효율적 비용 통제 덕분에 상승세 기록",
+    "Marvell, AI 관련 메가딜로 Lumentum 인수를 목전에 둠"
   ],
   "sector_hints": [
     "Technology",

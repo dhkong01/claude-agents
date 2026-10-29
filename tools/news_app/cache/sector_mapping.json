@@ -1,15 +1,16 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-29",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.5,
-      "rationale": "한국의 반도체 수출 호조에 따른 GDP 깜짝 성장과 TSMC의 사상 최대 실적, 그리고 메타의 대규모 AI 인프라 자금 조달 계획이 맞물려 글로벌 반도체 밸류체인 전반에 강력한 수요 모멘텀을 형성하고 있습니다.",
+      "score": 8.0,
+      "rationale": "미국 Marvell의 Lumentum 인수 추진 등 M&A 모멘텀과 대만 TSMC의 가격 인상, UMC의 32억 달러 규모 케펙스(CAPEX) 승인에 힘입어 반도체 및 AI 인프라 공급망 전반에 강력한 호재로 작용",
       "related_tickers": [
+        "MRVL",
+        "LITE",
         "TSM",
-        "NVDA",
-        "005930.KS"
+        "UMC"
       ],
       "source_regions": [
         "US",
@@ -19,48 +20,65 @@
     {
       "name": "Technology",
       "direction": "positive",
-      "score": 7.5,
-      "rationale": "마이크로소프트의 인력 구조조정을 통한 수익성 개선, 앤스로픽의 메가 IPO 공식 서류 제출, 일본 사카나 AI의 파운데이션 모델 개발 등 빅테크의 효율화와 AI 생태계 확장이 호재로 작용하고 있습니다.",
-      "related_tickers": [
-        "MSFT",
-        "META"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Communication Services",
-      "direction": "positive",
       "score": 6.5,
-      "rationale": "메타가 AI 성장 동력 및 인프라 구축을 위해 최대 950억 달러 규모의 주식 발행 및 자금 조달 계획을 발표하면서 투자 기대감을 끌어올리고 있습니다.",
+      "rationale": "마이크로소프트가 클라우드 부문 성장 가속화와 효율적 비용 통제를 입증하며 실적 발표 후 상승세를 기록함",
       "related_tickers": [
-        "META"
+        "MSFT"
       ],
       "source_regions": [
         "US"
       ]
     },
     {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "앤스로픽의 대형 IPO 제출 및 도어대시의 M&A 추진으로 자본시장 및 투자은행(IB) 활성화 기대감이 높아졌으며, 일본 생명보험사들의 초장기 국채 매수 검토가 긍정적 요인으로 작용합니다.",
+      "name": "Communication Services",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "알파벳(구글)의 검색 매출 성장 둔화 및 AI 도입에 따른 수익성 훼손 우려로 주가가 10% 급락하며 악재로 작용",
       "related_tickers": [
-        "GS",
-        "MS"
+        "GOOGL"
       ],
       "source_regions": [
-        "US",
+        "US"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "유럽 메르세데스-벤츠의 중국 시장 부진에 따른 2026년 이익 전망 하향/동결 및 아시아 내 스즈키의 규제 강화 여파 등 완성차 기업들의 실적 부담 가중",
+      "related_tickers": [
+        "MBGAF",
+        "SZKMY"
+      ],
+      "source_regions": [
+        "ASIA",
+        "EU"
+      ]
+    },
+    {
+      "name": "Materials",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "중동 지정학 리스크로 인한 에너지 비용 증가를 가격 인상으로 전가하며 독일 화학기업 BASF가 2026년 실적 전망을 상향함",
+      "related_tickers": [
+        "BASFY"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "positive",
+      "score": 5.0,
+      "rationale": "일본 미즈호은행의 안트로픽 IPO 주관사 참여 등 글로벌 투자은행(IB) 시장에서의 입지 강화 호재 반영",
+      "related_tickers": [
+        "MFG"
+      ],
+      "source_regions": [
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국은 도어대시의 M&A 협상 등 유통/플랫폼 분야의 모멘텀이 포착되는 반면, 유럽/아시아는 볼보의 적자 전환 및 2,500명 감원, 관세 압박, 중국의 약한 내수 회복세로 인해 자동차 및 경기소비재 전반의 부정적 기류가 상충하고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

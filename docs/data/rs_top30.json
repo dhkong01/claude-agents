@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "rs90_count": 14,
   "stocks": [
     {
@@ -11,11 +11,11 @@
       "rs_rating": 98.3
     },
     {
-      "ticker": "MRVL",
+      "ticker": "LITE",
       "rs_rating": 97.6
     },
     {
-      "ticker": "LITE",
+      "ticker": "MRVL",
       "rs_rating": 96.9
     },
     {
@@ -23,7 +23,7 @@
       "rs_rating": 96.2
     },
     {
-      "ticker": "FTNT",
+      "ticker": "AMD",
       "rs_rating": 95.6
     },
     {
@@ -31,7 +31,7 @@
       "rs_rating": 94.9
     },
     {
-      "ticker": "AMD",
+      "ticker": "FTNT",
       "rs_rating": 94.2
     },
     {
@@ -39,11 +39,11 @@
       "rs_rating": 93.5
     },
     {
-      "ticker": "ZS",
+      "ticker": "INTC",
       "rs_rating": 92.8
     },
     {
-      "ticker": "INTC",
+      "ticker": "ZS",
       "rs_rating": 92.1
     },
     {
@@ -55,47 +55,43 @@
       "rs_rating": 90.8
     },
     {
-      "ticker": "TXN",
+      "ticker": "STX",
       "rs_rating": 90.1
     },
     {
-      "ticker": "STX",
+      "ticker": "TXN",
       "rs_rating": 89.4
     },
     {
-      "ticker": "ADI",
+      "ticker": "ARM",
       "rs_rating": 88.7
     },
     {
-      "ticker": "AMGN",
+      "ticker": "WDC",
       "rs_rating": 88.0
     },
     {
-      "ticker": "WDC",
+      "ticker": "ADI",
       "rs_rating": 87.3
     },
     {
-      "ticker": "ARM",
-      "rs_rating": 86.6
-    },
-    {
-      "ticker": "WDAY",
+      "ticker": "AMGN",
       "rs_rating": 85.9
     },
     {
-      "ticker": "CSCO",
+      "ticker": "SHOP",
       "rs_rating": 85.2
     },
     {
-      "ticker": "GILD",
+      "ticker": "WDAY",
       "rs_rating": 84.6
     },
     {
-      "ticker": "SHOP",
+      "ticker": "GILD",
       "rs_rating": 83.9
     },
     {
-      "ticker": "CSX",
+      "ticker": "AAPL",
       "rs_rating": 83.2
     },
     {
@@ -103,32 +99,36 @@
       "rs_rating": 82.5
     },
     {
-      "ticker": "ABNB",
+      "ticker": "CSCO",
+      "rs_rating": 81.8
+    },
+    {
+      "ticker": "CSX",
       "rs_rating": 81.1
     },
     {
-      "ticker": "AAPL",
+      "ticker": "MAR",
       "rs_rating": 80.4
     },
     {
-      "ticker": "ADP",
+      "ticker": "ABNB",
       "rs_rating": 79.8
     },
     {
-      "ticker": "MAR",
+      "ticker": "ASML",
       "rs_rating": 79.1
     },
     {
-      "ticker": "QCOM",
+      "ticker": "MSFT",
       "rs_rating": 78.4
     }
   ],
   "portfolio_rs": {
     "VKTX": 11.7,
-    "MRVL": 97.6,
-    "CRDO": 37.8,
-    "NBIS": 81.8,
-    "RDDT": 11.0,
-    "VRT": 26.8
+    "MRVL": 96.9,
+    "CRDO": 39.9,
+    "NBIS": 86.6,
+    "RDDT": 19.2,
+    "VRT": 49.5
   }
 }

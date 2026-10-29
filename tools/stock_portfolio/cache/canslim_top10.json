@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "analyzed": 139,
   "top10": [
     {
       "ticker": "TXN",
-      "canslim_score": 64,
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 7,
         "S": 10,
-        "L": 10,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 282420248576,
-      "price": 308.91,
-      "rs_rating": 90.1
+      "market_cap": 283261337600,
+      "price": 309.83,
+      "rs_rating": 89.4
     },
     {
       "ticker": "ADI",
@@ -34,9 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 206109933568,
-      "price": 425.35,
-      "rs_rating": 88.7
+      "market_cap": 207524855808,
+      "price": 428.27,
+      "rs_rating": 87.3
     },
     {
       "ticker": "CSX",
@@ -52,9 +52,9 @@
       },
       "sector": "Industrials",
       "industry": "Railroads",
-      "market_cap": 96828866560,
-      "price": 52.27,
-      "rs_rating": 83.2
+      "market_cap": 96291643392,
+      "price": 51.98,
+      "rs_rating": 81.1
     },
     {
       "ticker": "FTNT",
@@ -62,17 +62,17 @@
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
-        "S": 4,
+        "N": 4,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 135737024512,
-      "price": 185.0,
-      "rs_rating": 95.6
+      "market_cap": 127724879872,
+      "price": 174.08,
+      "rs_rating": 94.2
     },
     {
       "ticker": "DDOG",
@@ -88,8 +88,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 100835442688,
-      "price": 280.82,
+      "market_cap": 99970072576,
+      "price": 278.41,
       "rs_rating": 93.5
     },
     {
@@ -106,9 +106,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 242176114688,
-      "price": 447.95,
-      "rs_rating": 88.0
+      "market_cap": 244273741824,
+      "price": 451.83,
+      "rs_rating": 85.9
     },
     {
       "ticker": "AAPL",
@@ -124,9 +124,27 @@
       },
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 5065640247296,
-      "price": 347.1,
-      "rs_rating": 80.4
+      "market_cap": 5017916932096,
+      "price": 343.83,
+      "rs_rating": 83.2
+    },
+    {
+      "ticker": "ROP",
+      "canslim_score": 57,
+      "scores": {
+        "C": 7,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 43581657088,
+      "price": 440.66,
+      "rs_rating": 72.9
     },
     {
       "ticker": "AMD",
@@ -142,9 +160,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 914610454528,
-      "price": 560.26,
-      "rs_rating": 94.2
+      "market_cap": 944288825344,
+      "price": 578.44,
+      "rs_rating": 95.6
     },
     {
       "ticker": "PLTR",
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 477559783424,
-      "price": 198.73,
+      "market_cap": 472945917952,
+      "price": 196.81,
       "rs_rating": 90.8
-    },
-    {
-      "ticker": "SHOP",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 213338439680,
-      "price": 165.81,
-      "rs_rating": 83.9
     }
   ]
 }

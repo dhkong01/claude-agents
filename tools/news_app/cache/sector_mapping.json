@@ -1,29 +1,14 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "sectors": [
     {
-      "name": "Semiconductors",
+      "name": "Healthcare",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "미국 Marvell의 Lumentum 인수 추진 등 M&A 모멘텀과 대만 TSMC의 가격 인상, UMC의 32억 달러 규모 케펙스(CAPEX) 승인에 힘입어 반도체 및 AI 인프라 공급망 전반에 강력한 호재로 작용",
+      "rationale": "일라이릴리와 머크 등 주요 제약사의 비만치료제 및 면역항암제 호실적으로 방어주로서의 견조한 실적 서프라이즈 기록.",
       "related_tickers": [
-        "MRVL",
-        "LITE",
-        "TSM",
-        "UMC"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "마이크로소프트가 클라우드 부문 성장 가속화와 효율적 비용 통제를 입증하며 실적 발표 후 상승세를 기록함",
-      "related_tickers": [
-        "MSFT"
+        "LLY",
+        "MRK"
       ],
       "source_regions": [
         "US"
@@ -32,53 +17,64 @@
     {
       "name": "Communication Services",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "알파벳(구글)의 검색 매출 성장 둔화 및 AI 도입에 따른 수익성 훼손 우려로 주가가 10% 급락하며 악재로 작용",
+      "score": -7.5,
+      "rationale": "알파벳의 어닝 쇼크 및 아마존의 광고 성장 둔화 우려로 인한 빅테크 섹터 투심 악화.",
       "related_tickers": [
-        "GOOGL"
+        "GOOGL",
+        "AMZN"
       ],
       "source_regions": [
         "US"
       ]
     },
     {
-      "name": "Consumer Discretionary",
+      "name": "Financials",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "유럽 메르세데스-벤츠의 중국 시장 부진에 따른 2026년 이익 전망 하향/동결 및 아시아 내 스즈키의 규제 강화 여파 등 완성차 기업들의 실적 부담 가중",
+      "score": -5.5,
+      "rationale": "ECB 라가르드 총재의 조기 사임 예고로 인한 수장 공백 및 유럽 통화정책 불확실성 가중.",
       "related_tickers": [
-        "MBGAF",
-        "SZKMY"
+        "DB",
+        "BNP"
       ],
       "source_regions": [
-        "ASIA",
-        "EU"
+        "EUROPE"
       ]
     },
     {
-      "name": "Materials",
+      "name": "Utilities",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "일본 및 대만을 중심으로 한 전력 공급망 인프라 확충 및 원자력 발전 재가동 검토 모멘텀.",
+      "related_tickers": [
+        "9501.T",
+        "2308.TW"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Industrials",
       "direction": "positive",
       "score": 6.0,
-      "rationale": "중동 지정학 리스크로 인한 에너지 비용 증가를 가격 인상으로 전가하며 독일 화학기업 BASF가 2026년 실적 전망을 상향함",
+      "rationale": "한국의 9월 생산·소비·투자 지표 트리플 반등 및 일본의 드론 운행 규제 완화 등 매크로 지표 개선.",
       "related_tickers": [
-        "BASFY"
-      ],
-      "source_regions": [
-        "EU"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 5.0,
-      "rationale": "일본 미즈호은행의 안트로픽 IPO 주관사 참여 등 글로벌 투자은행(IB) 시장에서의 입지 강화 호재 반영",
-      "related_tickers": [
-        "MFG"
+        "005930.KS",
+        "7011.T"
       ],
       "source_regions": [
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Semiconductors",
+      "note": "미국은 인텔의 PC 시장 부진 및 공급망 차질로 급락(-20%)한 반면, 아시아(대만)는 반도체 산업의 고성장세가 지속되며 상충된 신호 형성."
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "note": "아시아(중국)는 BYD·지리 자동차의 수출 호조에 힘입어 호실적을 기록한 반면, 유럽은 폭스바겐의 대규모 적자 및 중국발 경쟁 심화로 타격."
+    }
+  ]
 }

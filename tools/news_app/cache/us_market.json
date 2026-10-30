@@ -1,137 +1,139 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "region": "US",
   "headlines": [
     {
-      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
-      "summary": "FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.",
-      "link": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
+      "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
+      "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
+      "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
       "source": "CNBC"
     },
     {
-      "title": "Lumentum s stock pops as investors cheer a possible sale to Marvell",
-      "summary": "An agreement between the companies could come next week, Bloomberg reported",
-      "link": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
+      "title": "Amazon s stock drops even in the face of a bold new cloud forecast",
+      "summary": "Modest AWS results and weak advertising growth left Wall Street disappointed in Amazon s third-quarter earnings",
+      "link": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Google Shares Fall 10% as Growth in Search Revenue Slows",
+      "title": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONmNkSG5GRS1SMkpKWG5nQjc2YV9BOEU0X1dEZHB3V1VvRGtXdDgzTVdMdnNEcGVzclJqWU9NVzdjYWZybm95dGZhR2NjdEotaGFvVERZM21LNFBpNUhIV1B3eFNMaFNJbmgyWnhFaVdZTmNTXzFzU3ZIU2R0emgxdDNCSVBMN2d2?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEJ5MFFEaHVhdTZRSm51TUNpSVQ5MEZOVE9SQTEya011RkNRQ25aUmlQeDhFV3JIQ2YyUk1hRll0aGxXOTRNRHBSZUprNzhjMU9ueGliTTJRMkNRU0VITmdva1JmMDduczdYTmpUR1dSTmtNNXZrVHdhSnViYkZPQUlfbWo5Y1l6bTJhaEM0bUJGYjVpbzBjX2tHNWo?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Banks Shelve Bond Sale for Anthropic-Tied Texas Data Center",
+      "title": "Binance Founder CZ Says Crypto Exchange ‘May Have Been Hacked’",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWZ1cFJjWU12d2ZBMU9WVTFvbXFMdXBwaUFMRko0VXBXYkZadEM1dDRsRi04QjR6TjE1NmhpOGY3bDBNdjlrWXUtT29uc2NTNmpVTzE4QnQ0ZkRtNURPOG1OZW5QOGFyMGJ2R196NFhxTThFZGlpSV9PdlVBRFJXdm0wdHRzSnpOTEtPR18ybFpXSGZESWNxeEhEdGotYUJNOHhXYVR3XzlDVlVabjhV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Nvidia Stock Faces a Test From Its Biggest AI Chip Rival",
+      "title": "Why the Ultrawealthy Don’t Like Paying Cash for Their Mansions",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb3BUbE1JVUhsMjRDT1V5LUY3RlMyTmJEM0JpVHdoLTdzdjJFOHFiSTdhNHVHRlRUMVJGN1JOUlFpZDd4SDRCNHUzQjYxN2tIRUgyVzQ3RnVlcmpCVE9wajJqcE5SNWpERU9ScHdwb3A2NHlGU29tc2lZR2lVWmxFTU1DdlNHczQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zQ2xMdXBqNEM0WGVXRThUSXk2eENVV2RSSWs3M0xvOUJyZkxjMDBtcDB1QlJsaEx5dEUwRHcwQWtNQmVXVVhLYjhMbFFWX1h3a1dDVlB4SkU5SG5CWFR3VHV2bUdjdkdxYnpjcm5ZdXBERWRlbWhTT1VZbw?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
-      "summary": "For the first time this year, low-income consumers during the quarter outperformed the high-income cohort at its restaurants, CEO Scott Boatwright said.",
-      "link": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
+      "title": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+      "summary": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
+      "link": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
       "source": "CNBC"
     },
     {
-      "title": "Why Alphabet s stock could see its worst drop in years after the latest results",
-      "summary": "A doubling of cloud revenue wasn t enough to appease Wall Street as investors grew more concerned that AI is hurting the company s ability to make money off search queries.",
-      "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+      "title": "A Starbucks turnaround is brewing but perhaps not quickly enough for investors",
+      "summary": "The coffee chain beat expectations on a key sales metric, but its stock was still moving lower.",
+      "link": "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks",
+      "title": "Exclusive | Top Military Admiral Briefs Trump on Iran Options",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzVvb25ndkFLZDV5RnM2dGE2NGRlcHZNTV8wMFl2Z3lNdFk2TnpqSUQ5QXJkSkNlZThnMzI0ai1iVW1YMWxsZUdGcFRBdmNudmR0SFZqOTJMOUNIVjRzNV84OWVoMkhvZy16VzFsel8zOVVyLXpxajV2WlQ3TVdScTFwZGh6NTUzbjBxa0I3bzVDWDFHUFBRUHFPcW9GeU41cVpKN0xMYTdJek54VXQtSlVEZVM4M1k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeXlDRTRqNXluY3ZWOXVwdmY2ck13Z0ttaTdMaVhreFZYdXhpbDJsNlNBcUM2TFo5OFVNSW5sal8xNkVvY3pjT2xOSXFLb0xpaXdvMGdpRzB4UEZlaFZfT0ZKY0FmeFh1TjM2djRzWXVrV3B1Ym9oRjEwbHAtQWd1VnhnRG5tMmswUUJOU3hES1J1ZTdzWHNNZi1ld1VHXzZNeVM3YlBR?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
+      "title": "Amazon Spending Soars Amid Slowing Growth of Online Business",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGdUMkpHa2JOcFhCMTFQU0tLaTJkTU54TmQ2aGJnVVVMR2VzeGdzLS1ONXd0U3hqQ0xPZUlEeTgyOWVXMHRQQ0hIeW5aX21JRkpNY3FlRUdNM1ZJMS1ZX3JwMWUteGVLdFFaVlNZMjZXUWtSSXNVRlEwdnRvbU9iQVBnNS1ycUgxMU5LTGtQQ0hSTWNOTkhBZ3FNRC1HaEZXZG9UMUd1QlBfeG1qZ044cTQtTk9Ydw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVVjYXpCMDllTnNYR3c2aHZCNDc5ck5QSHh2VEUxMUo1RVNKYVlNemFiTWFzQjZST0FlSnFCZUxlMl9xWkhOLUFPYjBwdzlGdnBhNUdnWnpOMmUzMVhHSVQ2X2N6dzdPNjYzTlV0U0RTb0hOT3J5cFFuUTk5b1Uzamh6aGhBWmtuY2JEdkFDNkN5cWZYY0EyRUZ1YU9FQTd1VkUxcl9qTXZvdFVJQnVYQTR4WQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Accenture CEO Buys $3 Million of Stock After Shares Double Off June Lows",
+      "title": "Eli Lilly Stock Jumps on Monster Earnings as Finance Chief Eyes Next Growth Engine",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQjJqeENUUGZHbDlPYVRFQk5iNEJpQURoSlFWT2FORDJzN09hOUtWdjZGd2huMzJlX2kwVEV6MXIxYm9rVGhRMkVRRkxveFBlSFcyb0xISC1HdVlEMmdQMm5JTG1Kb1FlSVBxSVVuNS1odVpuR0VoMVZpVWVIZEF1Y29R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa21oUTZHaDNOcF8xc2pSeDVIdzNtWkRCWWhaSzZkNk9jVEQwU1k3a2FaSHJjRFlPVkZUZDhaeFlaZGRLQ19rYVVNVHZqcVVlemRwYnNQZTlfLU9FV3NvWU51MHd1RUJjVDRsc2ZGb0dWZlBKaHJNWVRUampUdkU2Mkdja2c4aVk3UFNSbjhTVVVGTWhY?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
-      "summary": "Ford Motor reported earnings that beat Wall Street’s estimates but slightly missed on revenue.",
-      "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
+      "title": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
+      "summary": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
+      "link": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
       "source": "CNBC"
     },
     {
-      "title": "Just watch Judge Judy : I m in my 70s. Why do people keep making the same avoidable financial mistakes?",
-      "summary": "Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.",
-      "link": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+      "title": "Sandisk sees revenue nearly quintuple and a stock split is on the way",
+      "summary": "Sandisk s stock has climbed more than 2,600% since the company separated from Western Digital 20 months ago and it has one of the highest prices in the S&P 500.",
+      "link": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Trump Calls for Alaska Democratic Senate Candidate to Be Prosecuted",
+      "title": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclZWemgzV0ZwZk9RMXZIYUwxMk9wS0VIeC1RSFNyRzJTTUJBeTRCUmFOSENsQklvSmpmVEJWTHBjQ3QxWXZYbWFRc0NXckxpTkJQY19CV1JUbG5jc0x2M3dvN18wWHJVNC1JM2VSaUlUSTAxamloNm90MkEwVWFvaUpQdG9TMm5kN1BKYjA5NVZSWEIwbzRoTEV1R1dObkIwWS0waXc1V0hfLWtmb29mejV1NWVaQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGV1bXVNOXFOR1NrQndfTDlkLTlxemh6b0JkY0l0LWhZUTJIUWVadTdDOXl2aG1WZ1JVT0l2TzE4OURJMFhKSlctVmptS2UwZmpzajRHT19BaEF1dzNaWjRVcjh3YnY1MV93dkt3V2dTZXNFdEpHTHJ2T3FzSHowekRBclY0eWw2bWRrZHhnajNyNlFncy10TmdTSHBBYkMtUk1KaV8tMXc0bG8x?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "US Stock Futures Decline, Fed Keeps Rates Steady: Markets Wrap",
+      "title": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "SpaceX Stock: Elon Musk Just Gave Verizon, AT&T, Other Telecoms Some Great News",
+      "title": "Amazon Earnings: Why the Stock Is Tanking",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTRIdXk2Mjh1QUYyM2NKNENnbHlBVmVqbklGVHlmamJoMmtrMGJqZzlvMHNmRkFVY0Z1cFpqZlRzR1BpZzNxVXUwWW1PZnh6RzdiMDJpMnJSWkt1ZVlPOVdNLXlfX1hCeGlRZXdhcDJyMHF6aGlNNjBhRTRFWnd1SnAxU3lUaHNkWXB2STRtVXg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96R2RxbG5rWHFDbXBTWWIxck52WUluUHBJeWZvUEhvRHJyVzNWTkhwckYwRmxIT2doaGt3ZFpwLXRHSzdKT0pNd3Nub1pYendOYllfbXA5R3FzdmtNeEJYdW1OWHpOQV94d2JYQW1PY0dBbjZlUDJEeg?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "America s largest budget airline reports 71% jump in airfare",
-      "summary": "Frontier Airlines reported a 71% jump in airfare for the third quarter and said customers continue to book",
-      "link": "https://www.cnbc.com/2026/10/28/frontier-airlines-airfare-plane-tickets.html",
+      "title": "Eli Lilly hikes sales outlook, as CEO says there s room for dramatic obesity market expansion",
+      "summary": "Eli Lilly reported that sales of obesity drug Zepbound and diabetes treatment Mounjaro surged again in the third quarter.",
+      "link": "https://www.cnbc.com/2026/10/29/eli-lilly-lly-earnings-q3-2026.html",
       "source": "CNBC"
     },
     {
-      "title": "The major reason Microsoft s stock is heading higher after earnings",
-      "summary": "Microsoft showed investors that it s able to grow rapidly while keeping spending in check.",
-      "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+      "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+      "summary": "Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.",
+      "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
+      "title": "Why Does Spain Keep Having Deadly Rail Accidents?",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG1JUFZyWEVVeTdxNHJ3djFId2dCZDY3Vkc3Qnc4Vzh1NVFKTXN2cVFEcWdrbEtSdlE5Y1VfQUV6aDE3M1BscVgzVFJXVWZ5R01XQnpjb0FGb2dmTVFEWFhlWGFBUm52dlZzTXhhZ081RzF2dWNWT3U0RU1tejhYZXdSQjA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVzRoYi1lVFlhNzlwc3lnWWRyU3hEbFBHTjJmOGNqWUQ4eWpsWkhZdzFxbXpUUjhZTEY1WUVHMTVnTHVoTHlGWThuYXk4ZWszSDJDTTZmVEE4RC10bHRFWk5iSHlvUjN3dlJIQTc2ZWd1cjFYNGdsdW1sSllUTlFUZHMzMld4M2FBOHU5bnYybUM4Y3Nn?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Alphabet Shares Tank on Sales Misses Across Core Businesses",
+      "title": "Reddit to Limit Access for Logged-Out Users in Strategy Shift",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa3g5MGY3Y3RJNnJ2NXBQa0dMV1FWOGMxUFIycjB1d25yWXRoUjNkUG8wN3hXMV9idDdVZW10SVZ1VUxrLTlQb2lETmVEU1NiOFNzaWZXdjhtREhBQkZIcUVROExqa1RfYUJiZWxWdW5XYWZJQmpMTHdId2tHWjJKYTlob2ZGQWdQdjUxSi1qNXBoR19mQ0xTaHFzVExvLUlPTDFFcjdaaGVXdUVoRDBSOUFn?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "CoreWeave Stock Is Rebounding From Its Debt Scare. The Case for Buying the Dip.",
+      "title": "Marvell Stock Slides. Why the Market Hates the Idea of a Lumentum Buyout.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EcXIwNldOUjh2RGpVNVEwS0YwSE1KckJMN1RyaHNTRzRBUGc0RGpIVlRDbElxbFdyUHNSZi1fMlV2RlZZS20tMEFVcVhGdWJUUU9fMmtiTDFobzM0eHRVdHU2bWJxeVVXNE5IRjZTT3ZCcFdDeFBjX2t4U1Q?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWdqUVJpYzN1d3Z3T3YyVHpQZzNLbWw5RW9mc0RiYnlibktHM3hGd0x1TlREeUVyaWFjOGtTYVFBTG1ILVpYM0RLQW9vcl9VOVRkcmkwdjVrSDdMUkxwTWtjOVZOQXhSQ0lNQUVZdTItdjhlR25CYlg4Wk1XS3ByaQ?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "구글은 급락하고 마이크로소프트는 급등한 실적 희비",
-  "summary": "빅테크 실적 발표에서 알파벳은 AI가 검색 수익성에 타격을 주며 주가가 10% 급락한 반면, 마이크로소프트는 클라우드 성장 가속화와 비용 통제를 입증하며 주가 상승세를 기록했습니다. 이와 함께 Marvell의 Lumentum 인수 임박 소식 등 반도체 및 AI 인프라 M&A 동향도 시장의 주목을 받았습니다.",
+  "trend_headline": "빅테크 실적 한파와 반도체·유통주 급락",
+  "summary": "알파벳의 어닝 쇼크와 아마존의 부진한 가이던스, 인텔의 20폭락 등 빅테크 실적 실망감이 시장 전반을 강타했습니다. 반면 헬스케어 섹터는 호실적을 바탕으로 견조한 방어력을 보여주며 대조를 이뤘습니다.",
   "key_points": [
-    "알파벳(Google) 주가 10% 급락, 검색 매출 성장 둔화 및 AI가 수익성에 미치는 우려 반영",
-    "마이크로소프트 주가는 클라우드 성장 가속화와 효율적 비용 통제 덕분에 상승세 기록",
-    "Marvell, AI 관련 메가딜로 Lumentum 인수를 목전에 둠"
+    "알파벳, 어닝 미스와 우려 확산으로 주가 최악의 낙폭 기록",
+    "인텔, 부진한 PC 시장 전망과 공급망 차질로 20% 이상 급락",
+    "아마존, 클라우드 호조에도 불구하고 광고 성장 둔화 및 비용 증가로 하락",
+    "일라이릴리 및 머크, 비만치료제와 면역항암제 호조로 실적 서프라이즈 기록"
   ],
   "sector_hints": [
     "Technology",
-    "Communication Services"
+    "Communication Services",
+    "Healthcare"
   ]
 }

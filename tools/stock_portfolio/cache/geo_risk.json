@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
-  "medium_risk_signals": 4,
+  "high_risk_signals": 3,
+  "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
@@ -12,9 +12,7 @@
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "The Ocean \u2018Was The Color Of Chocolate.\u2019 Mexico Declares War On Seaweed.",
-    "Rare Wartime Dissent In Moscow Over Plans To Dismantle Russia\u2019S \u2018Eiffel Tower\u2019",
-    "Trump Explores Lifting Sanctions On Russia\u2019S Flagship Investment Fund"
+    "U.S. Hits Rwanda With New Sanctions Over A Conflict Trump Declared \u2018Ended\u2019"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

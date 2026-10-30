@@ -1,71 +1,71 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "indices": {
     "nasdaq": {
-      "price": 26549.85,
-      "change": 72.04,
-      "change_pct": 0.27,
+      "price": 26184.72,
+      "change": -365.12,
+      "change_pct": -1.38,
       "label": "나스닥종합",
       "region": "US"
     },
     "dow": {
-      "price": 52475.1,
-      "change": 97.53,
-      "change_pct": 0.19,
+      "price": 52342.56,
+      "change": -132.54,
+      "change_pct": -0.25,
       "label": "다우존스",
       "region": "US"
     },
     "sp500": {
-      "price": 7743.98,
-      "change": 21.38,
-      "change_pct": 0.28,
+      "price": 7720.39,
+      "change": -23.59,
+      "change_pct": -0.3,
       "label": "S&P500",
       "region": "US"
     },
     "kospi": {
-      "price": 5883.09,
-      "change": -129.35,
-      "change_pct": -2.15,
+      "price": 5635.14,
+      "change": -302.52,
+      "change_pct": -5.09,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 745.82,
-      "change": -25.46,
-      "change_pct": -3.3,
+      "price": 723.91,
+      "change": -29.32,
+      "change_pct": -3.89,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 64266.17,
-      "change": 311.98,
-      "change_pct": 0.49,
+      "price": 62764.08,
+      "change": -1895.39,
+      "change_pct": -2.93,
       "label": "니케이225",
       "region": "ASIA"
     },
     "shanghai": {
-      "price": 3660.94,
-      "change": -20.53,
-      "change_pct": -0.56,
+      "price": 3603.15,
+      "change": -48.29,
+      "change_pct": -1.32,
       "label": "상해종합",
       "region": "ASIA"
     },
     "shenzhen": {
-      "price": 11283.16,
-      "change": -190.02,
-      "change_pct": -1.66,
+      "price": 10898.09,
+      "change": -240.11,
+      "change_pct": -2.16,
       "label": "심천성분",
       "region": "ASIA"
     }
   },
   "breadth": {
     "total": 514,
-    "advancers": 256,
-    "decliners": 258,
+    "advancers": 410,
+    "decliners": 104,
     "unchanged": 0,
-    "adv_pct": 49.8,
+    "adv_pct": 79.8,
     "coverage": 99.4,
-    "as_of": "2026-10-28",
+    "as_of": "2026-10-29",
     "attempts": 1,
     "status": "ok",
     "universe": "S&P500+NASDAQ100"
@@ -73,17 +73,17 @@
   "macro": {
     "phase": "RISK_ON",
     "m_score": 10,
-    "vix": 16.91,
+    "vix": 17.2,
     "volatility": "NORMAL",
-    "fear_greed": 35.9,
+    "fear_greed": 34.6,
     "fear_greed_rating": "fear",
-    "yield2y": 4.7,
-    "yield10y": 5.05,
-    "yield30y": 5.36,
+    "yield2y": 4.67,
+    "yield10y": 4.99,
+    "yield30y": 5.33,
     "rate_env": "HIGH",
-    "dollar_trend": "STRENGTHENING",
+    "dollar_trend": "FLAT",
     "market_trend": "BULL",
-    "mfi": 46.3,
+    "mfi": 40.5,
     "mfi_signal": "중립"
   }
 }

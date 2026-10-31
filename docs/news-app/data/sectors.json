@@ -1,66 +1,53 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "sectors": [
     {
-      "name": "Healthcare",
+      "name": "Energy",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "일라이릴리와 머크 등 주요 제약사의 비만치료제 및 면역항암제 호실적으로 방어주로서의 견조한 실적 서프라이즈 기록.",
+      "rationale": "중동 분쟁 등 지정학적 리스크로 인한 유가 급등 및 정제 마진 상승으로 BP 등 주요 에너지 기업의 실적이 급증하며 강세를 보였습니다.",
       "related_tickers": [
-        "LLY",
-        "MRK"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Communication Services",
-      "direction": "negative",
-      "score": -7.5,
-      "rationale": "알파벳의 어닝 쇼크 및 아마존의 광고 성장 둔화 우려로 인한 빅테크 섹터 투심 악화.",
-      "related_tickers": [
-        "GOOGL",
-        "AMZN"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "ECB 라가르드 총재의 조기 사임 예고로 인한 수장 공백 및 유럽 통화정책 불확실성 가중.",
-      "related_tickers": [
-        "DB",
-        "BNP"
+        "BP",
+        "SHEL",
+        "XOM"
       ],
       "source_regions": [
         "EUROPE"
       ]
     },
     {
-      "name": "Utilities",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "일본 및 대만을 중심으로 한 전력 공급망 인프라 확충 및 원자력 발전 재가동 검토 모멘텀.",
+      "name": "Technology",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "아마존 등 주요 빅테크 실적 우려와 과도한 AI 투자 부담감으로 나스닥 100 지수가 조정 국면에 진입하며 투자 심리가 위축되었습니다.",
       "related_tickers": [
-        "9501.T",
-        "2308.TW"
+        "AMZN",
+        "AAPL"
       ],
       "source_regions": [
-        "ASIA"
+        "US"
       ]
     },
     {
-      "name": "Industrials",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "한국의 9월 생산·소비·투자 지표 트리플 반등 및 일본의 드론 운행 규제 완화 등 매크로 지표 개선.",
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "폭스바겐이 중국 시장 내 경쟁 심화와 포르쉐 감손으로 사상 최대 영업적자를 기록하는 등 유럽 자동차 섹터를 중심으로 하락 압력을 받고 있습니다.",
       "related_tickers": [
-        "005930.KS",
-        "7011.T"
+        "VWAGY",
+        "VOW3.DE"
+      ],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "중국 헝다그룹 자산 매각 추진 및 홍콩 주택시장 정체 등 아시아 부동산 부문의 구조조정과 리스크가 지속되고 있습니다.",
+      "related_tickers": [
+        "3333.HK"
       ],
       "source_regions": [
         "ASIA"
@@ -70,11 +57,7 @@
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 인텔의 PC 시장 부진 및 공급망 차질로 급락(-20%)한 반면, 아시아(대만)는 반도체 산업의 고성장세가 지속되며 상충된 신호 형성."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "note": "아시아(중국)는 BYD·지리 자동차의 수출 호조에 힘입어 호실적을 기록한 반면, 유럽은 폭스바겐의 대규모 적자 및 중국발 경쟁 심화로 타격."
+      "note": "미국은 인텔의 실적 폭락 및 PC 수요 둔화로 강력한 부정적 신호가 발생한 반면, 아시아는 TSMC의 호실적 및 일본 무라타의 AI 인프라 투자 등 강력한 긍정적 신호가 상충하고 있습니다."
     }
   ]
 }

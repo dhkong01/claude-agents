@@ -1,7 +1,37 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "region": "US",
   "headlines": [
+    {
+      "title": "Cheaper cars are selling considerably faster than at the beginning of the year",
+      "summary": "Data indicates cheap cars are selling fast, but a few lower-priced segments still saw sales drop in the third quarter. Here's what might be happening.",
+      "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Has the tech bubble burst? Why the Nasdaq s rough ride looks eerily like 2000.",
+      "summary": "Friday s big plunge raises disturbing parallels with the top of the dot-com bubble",
+      "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUZLbmQ2VnlpcS1VOVNNc05mN0I1Zmd5ZWNHb3o1b05zRklLM3ozaGhlLXhiSDVpc1d2QXUySzYxZzgyc0dHa3BVOTZYSjlwck5ucDdQQmhaOE5sdlB6ci02V0NZTFEyanlFZ1JpRTNPeUJMNFR5cE5RbXlKX3FZQW1yTmh0cmNaY0NINW1FdVVfdw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Apple Overtakes Nvidia to Become World’s Most Valuable Company",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQemhEdzVEaEpkYUJtQ2dYN2c3MlQ1N01MR0oxMnNheDZlbXVzaEJJd2k3bksyWGZwR0stcFZUOTNJZFB5dU1jajQ3RVZZYTBodlRJQXR4TG5tbjRibWYtUk9pUVpOWFZ5UGNOQV9sNnUyR3dfZllSSm81U2FjMDJFQTBsOU9XN2ZhRkVoTVBNdWxtVmJzdEVLRElxU2dkdG1HdjU4cGp6WmhjLVVEenJqQU80aw?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Amazon and Intel Tank the AI Trade. The 1 Factor Linking Big Tech’s Underwhelming Earnings.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVlJuS21nLVkwOXpfVnl2ZkJ3NjRpUVB0U25ZRXBnUWstQzVlN1hfa3ZLd0tNOUtwUTJYbkRWUUxIajZsY052NlI2Q21tY2tVSVFTS2ZiT25tcnRrMUsxOV9RQXNXU1h6UTdaMjlhTjYyZDhZclpKazJUcjdHekVWTTJkR2h1cmlKVWxTTUVrYw?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
       "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
@@ -9,27 +39,27 @@
       "source": "CNBC"
     },
     {
-      "title": "Amazon s stock drops even in the face of a bold new cloud forecast",
-      "summary": "Modest AWS results and weak advertising growth left Wall Street disappointed in Amazon s third-quarter earnings",
-      "link": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
+      "title": "This cybersecurity stock will be the next to join the S&P 500",
+      "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
+      "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook",
+      "title": "Fitch Lowers France’s Outlook to Negative From Stable",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEJ5MFFEaHVhdTZRSm51TUNpSVQ5MEZOVE9SQTEya011RkNRQ25aUmlQeDhFV3JIQ2YyUk1hRll0aGxXOTRNRHBSZUprNzhjMU9ueGliTTJRMkNRU0VITmdva1JmMDduczdYTmpUR1dSTmtNNXZrVHdhSnViYkZPQUlfbWo5Y1l6bTJhaEM0bUJGYjVpbzBjX2tHNWo?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU1lzcnNkTW5hM3JCc0dHX1JVd1JsNU1uMlJIQXA1a2p1cFFkaEN1MUZFWU5vV2FYa2xTUDFsWVBpb21MaWgxZlZSVVI4dTVUbkI0dXd2TFY5UnBlVHJ6VGRjeVVVdGFoWTNSTlQ1ajNENDVsZ2tTM3NhTDRLbmJwbHFTQjQyWTlmWlZLM3BZelY4TzVUWDZxU3lR?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Binance Founder CZ Says Crypto Exchange ‘May Have Been Hacked’",
+      "title": "Big Tech Holds $3 Trillion in Spending Commitments for AI Boom",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM3JIVGVpMDhiOFU1Z1Jhc25WM3M0Nm5qTHVGekRPLVhGb05sUktwYVFTWTZCcEE5eFJQTWZHcDhrRUJuaHZldW55UGpFelBfQlJyNWpvQzU1ZTdtWnlHdEozRkVQVUZpOUVIcDJURlF0cDJ0bm9EVEcyWEdtUi1wYk9OdXpFdEhiZG1tbU5xSnZGTkZTeEwtb0xiWlNJaU9CdEt5TERaNW1Xc0ZPTVVTWVBR?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Why the Ultrawealthy Don’t Like Paying Cash for Their Mansions",
+      "title": "Nvidia Stock Is Set for Its Worst Month in a Year. Time to Buy the Dip.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zQ2xMdXBqNEM0WGVXRThUSXk2eENVV2RSSWs3M0xvOUJyZkxjMDBtcDB1QlJsaEx5dEUwRHcwQWtNQmVXVVhLYjhMbFFWX1h3a1dDVlB4SkU5SG5CWFR3VHV2bUdjdkdxYnpjcm5ZdXBERWRlbWhTT1VZbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5eVhHal84SUVnWXJrMXZ0NGxSNzlkY2VBcnd2M1pjaEhYOTBJcWg1ZFVGeUFyUXhrX0cyZkhMQ0VQRms1VEFXUkFJS2kxd0g4a3ZjbDMteXhJYXVFVFJRVW90VjBaRHE0VUJDc2twdGVFc1c3azhjeQ?oc=5",
       "source": "Barron's"
     },
     {
@@ -39,27 +69,27 @@
       "source": "CNBC"
     },
     {
-      "title": "A Starbucks turnaround is brewing but perhaps not quickly enough for investors",
-      "summary": "The coffee chain beat expectations on a key sales metric, but its stock was still moving lower.",
-      "link": "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
+      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+      "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
+      "link": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Top Military Admiral Briefs Trump on Iran Options",
+      "title": "Weil Gotshal’s Demise Created a Surprise NYC Office Windfall",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeXlDRTRqNXluY3ZWOXVwdmY2ck13Z0ttaTdMaVhreFZYdXhpbDJsNlNBcUM2TFo5OFVNSW5sal8xNkVvY3pjT2xOSXFLb0xpaXdvMGdpRzB4UEZlaFZfT0ZKY0FmeFh1TjM2djRzWXVrV3B1Ym9oRjEwbHAtQWd1VnhnRG5tMmswUUJOU3hES1J1ZTdzWHNNZi1ld1VHXzZNeVM3YlBR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1REdkRpSHBqaWY1TlJ5OEtZRTRfMzFuWDRpVUtiaTNLeS1LRFVkMXg1b2l4T013OG44RnJfeFpjb0JWRU5McVdmOC1HWnR2ODY1VU1YUjRNSTc3Rmk2U0kwb0xjNW1CNFFCbEp0UDJWVHctb05EVXlBSENNYUpHZC1kWE9GeUtPVXM4WThzbjBvbk52bmxIZTFTTzBvVGhwTndkTTd0dWhaWUtUQUdMSA?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Amazon Spending Soars Amid Slowing Growth of Online Business",
+      "title": "US Approves $2.1 Billion in Patriot Interceptors for Ukraine",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVVjYXpCMDllTnNYR3c2aHZCNDc5ck5QSHh2VEUxMUo1RVNKYVlNemFiTWFzQjZST0FlSnFCZUxlMl9xWkhOLUFPYjBwdzlGdnBhNUdnWnpOMmUzMVhHSVQ2X2N6dzdPNjYzTlV0U0RTb0hOT3J5cFFuUTk5b1Uzamh6aGhBWmtuY2JEdkFDNkN5cWZYY0EyRUZ1YU9FQTd1VkUxcl9qTXZvdFVJQnVYQTR4WQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWGR5bkNzajM4SEJxMEkyenhVY1pHejFPYk5zTHBCN25NZHRXeGF4MUVoMGNCOG5ZcDlYM0s2MEJub2xFZjg0TFZuZGpRWnB4emZWN2VTLXZGNGF6eU9YLS1mMDU1bGhnaFNUQTVEN3A1aDRaYzk4UUE5MDVrS3g5VzNFRXNYa1c3WGdzOENEa180REY0czBZNW14QzAwbVdRT2xRamtMdkd3dw?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Eli Lilly Stock Jumps on Monster Earnings as Finance Chief Eyes Next Growth Engine",
+      "title": "Micron Stock Drops Again. Surging Memory Prices Aren’t All Good News.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa21oUTZHaDNOcF8xc2pSeDVIdzNtWkRCWWhaSzZkNk9jVEQwU1k3a2FaSHJjRFlPVkZUZDhaeFlaZGRLQ19rYVVNVHZqcVVlemRwYnNQZTlfLU9FV3NvWU51MHd1RUJjVDRsc2ZGb0dWZlBKaHJNWVRUampUdkU2Mkdja2c4aVk3UFNSbjhTVVVGTWhY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HbWpqcXhhOUVfOWUwMnJIZDd3NTREaG0tQTNDX0N5YnkyaUxMRWxFNWNQS1JKRTc1NTMyVHgzNUN1djAtQ3NtMWs4VWJ3Sk0tSDhNbGg0S3FSMXJGQVdKVC14Nlh1VnVndVBBbFAtVzBxdi04TS1iZGpNU2g1UQ?oc=5",
       "source": "Barron's"
     },
     {
@@ -69,71 +99,39 @@
       "source": "CNBC"
     },
     {
-      "title": "Sandisk sees revenue nearly quintuple and a stock split is on the way",
-      "summary": "Sandisk s stock has climbed more than 2,600% since the company separated from Western Digital 20 months ago and it has one of the highest prices in the S&P 500.",
-      "link": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
+      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+      "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
+      "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever",
+      "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGV1bXVNOXFOR1NrQndfTDlkLTlxemh6b0JkY0l0LWhZUTJIUWVadTdDOXl2aG1WZ1JVT0l2TzE4OURJMFhKSlctVmptS2UwZmpzajRHT19BaEF1dzNaWjRVcjh3YnY1MV93dkt3V2dTZXNFdEpHTHJ2T3FzSHowekRBclY0eWw2bWRrZHhnajNyNlFncy10TmdTSHBBYkMtUk1KaV8tMXc0bG8x?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook",
+      "title": "Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT2hWVEFoNDNKaGNxWFRDTUxBZms0MmhXa1hMaGI2ck1jRUlOQzIyUzdHT09DMjQxNFBjNHRXRGV3NWdDZlBLR21TbFhyMXg5dVhhWkM4Q1FuTGdKWENyRmNWa2FqMkJHU0VpNUJQZlcxSG9UdWNOMHByRE94THJXeTNZSmhzX2ZHeTJ2VHA1UzM3WkRwNTQtVUYtM1Q3eGRrQ2Q5RWg4dXdCMzUzSlpIbWc2d1NMVjQ3XzJmN242dkIzUGkw?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Amazon Earnings: Why the Stock Is Tanking",
+      "title": "Why the Ultrawealthy Don’t Like Paying Cash for Their Mansions",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96R2RxbG5rWHFDbXBTWWIxck52WUluUHBJeWZvUEhvRHJyVzNWTkhwckYwRmxIT2doaGt3ZFpwLXRHSzdKT0pNd3Nub1pYendOYllfbXA5R3FzdmtNeEJYdW1OWHpOQV94d2JYQW1PY0dBbjZlUDJEeg?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Eli Lilly hikes sales outlook, as CEO says there s room for dramatic obesity market expansion",
-      "summary": "Eli Lilly reported that sales of obesity drug Zepbound and diabetes treatment Mounjaro surged again in the third quarter.",
-      "link": "https://www.cnbc.com/2026/10/29/eli-lilly-lly-earnings-q3-2026.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-      "summary": "Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.",
-      "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Why Does Spain Keep Having Deadly Rail Accidents?",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVzRoYi1lVFlhNzlwc3lnWWRyU3hEbFBHTjJmOGNqWUQ4eWpsWkhZdzFxbXpUUjhZTEY1WUVHMTVnTHVoTHlGWThuYXk4ZWszSDJDTTZmVEE4RC10bHRFWk5iSHlvUjN3dlJIQTc2ZWd1cjFYNGdsdW1sSllUTlFUZHMzMld4M2FBOHU5bnYybUM4Y3Nn?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Reddit to Limit Access for Logged-Out Users in Strategy Shift",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa3g5MGY3Y3RJNnJ2NXBQa0dMV1FWOGMxUFIycjB1d25yWXRoUjNkUG8wN3hXMV9idDdVZW10SVZ1VUxrLTlQb2lETmVEU1NiOFNzaWZXdjhtREhBQkZIcUVROExqa1RfYUJiZWxWdW5XYWZJQmpMTHdId2tHWjJKYTlob2ZGQWdQdjUxSi1qNXBoR19mQ0xTaHFzVExvLUlPTDFFcjdaaGVXdUVoRDBSOUFn?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Marvell Stock Slides. Why the Market Hates the Idea of a Lumentum Buyout.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWdqUVJpYzN1d3Z3T3YyVHpQZzNLbWw5RW9mc0RiYnlibktHM3hGd0x1TlREeUVyaWFjOGtTYVFBTG1ILVpYM0RLQW9vcl9VOVRkcmkwdjVrSDdMUkxwTWtjOVZOQXhSQ0lNQUVZdTItdjhlR25CYlg4Wk1XS3ByaQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zQ2xMdXBqNEM0WGVXRThUSXk2eENVV2RSSWs3M0xvOUJyZkxjMDBtcDB1QlJsaEx5dEUwRHcwQWtNQmVXVVhLYjhMbFFWX1h3a1dDVlB4SkU5SG5CWFR3VHV2bUdjdkdxYnpjcm5ZdXBERWRlbWhTT1VZbw?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "빅테크 실적 한파와 반도체·유통주 급락",
-  "summary": "알파벳의 어닝 쇼크와 아마존의 부진한 가이던스, 인텔의 20폭락 등 빅테크 실적 실망감이 시장 전반을 강타했습니다. 반면 헬스케어 섹터는 호실적을 바탕으로 견조한 방어력을 보여주며 대조를 이뤘습니다.",
+  "trend_headline": "빅테크 실적 충격과 AI 거품론에 나스닥 급락",
+  "summary": "아마존과 인텔 등 주요 빅테크 기업들의 실적 부진과 막대한 AI 투자 부담이 맞물리면서 나스닥 100 지수가 조정을 기록했습니다. 특히 인텔은 메모리 가격 상승과 PC 수요 둔화 여파로 주가가 폭락하며 AI 및 반도체 전반의 투자 심리를 위축시켰습니다.",
   "key_points": [
-    "알파벳, 어닝 미스와 우려 확산으로 주가 최악의 낙폭 기록",
-    "인텔, 부진한 PC 시장 전망과 공급망 차질로 20% 이상 급락",
-    "아마존, 클라우드 호조에도 불구하고 광고 성장 둔화 및 비용 증가로 하락",
-    "일라이릴리 및 머크, 비만치료제와 면역항암제 호조로 실적 서프라이즈 기록"
+    "인텔, PC 사업 부진과 메모리칩 가격 압박으로 수십 년 만의 최악의 하루를 기록하며 대규모 시총 증발",
+    "아마존 등 빅테크 실적 우려로 나스닥 100 지수가 2026년 들어 세 번째 조정 국면 진입",
+    "애플, 엔비디아를 제치고 세계 시가총액 1위 기업으로 등극"
   ],
   "sector_hints": [
     "Technology",
-    "Communication Services",
-    "Healthcare"
+    "Semiconductors"
   ]
 }

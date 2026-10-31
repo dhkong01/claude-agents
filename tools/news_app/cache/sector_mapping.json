@@ -1,11 +1,51 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "sectors": [
+    {
+      "name": "Technology",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "아마존, 알파벳 등 주요 빅테크 기업들의 실적 실망감과 AI 투자 대비 수익성(ROI) 논란으로 인한 투심 위축",
+      "related_tickers": [
+        "GOOGL",
+        "AMZN",
+        "MSFT"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Semiconductors",
+      "direction": "positive",
+      "score": 7.5,
+      "rationale": "TSMC의 해외 투자 확대 및 반도체 가격 인상 가능성, 일본의 AI 인프라 채권 발행 급증 등 아시아 중심의 활발한 AI 인프라 자본 유입",
+      "related_tickers": [
+        "TSM",
+        "NVDA"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "일라이릴리와 머크 등 주요 제약사들의 비만 치료제 및 면역항암제 판매 호조에 따른 어닝 서프라이즈 및 실적 전망 상향",
+      "related_tickers": [
+        "LLY",
+        "MRK"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
     {
       "name": "Energy",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "중동 분쟁 등 지정학적 리스크로 인한 유가 급등 및 정제 마진 상승으로 BP 등 주요 에너지 기업의 실적이 급증하며 강세를 보였습니다.",
+      "rationale": "중동 불안으로 인한 정유 마진 및 유가 급등으로 유럽 BP 등 주요 에너지 기업의 3분기 순이익 폭증",
       "related_tickers": [
         "BP",
         "SHEL",
@@ -16,48 +56,19 @@
       ]
     },
     {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "아마존 등 주요 빅테크 실적 우려와 과도한 AI 투자 부담감으로 나스닥 100 지수가 조정 국면에 진입하며 투자 심리가 위축되었습니다.",
-      "related_tickers": [
-        "AMZN",
-        "AAPL"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
       "name": "Consumer Discretionary",
       "direction": "negative",
       "score": -7.0,
-      "rationale": "폭스바겐이 중국 시장 내 경쟁 심화와 포르쉐 감손으로 사상 최대 영업적자를 기록하는 등 유럽 자동차 섹터를 중심으로 하락 압력을 받고 있습니다.",
+      "rationale": "폭스바겐의 대규모 영업손실 기록과 유럽 내수 소비 침체, 아마존 실적 우려 등 완성차 및 유통 섹터 전반의 부진",
       "related_tickers": [
-        "VWAGY",
-        "VOW3.DE"
+        "VOW3",
+        "AMZN"
       ],
       "source_regions": [
+        "US",
         "EUROPE"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "중국 헝다그룹 자산 매각 추진 및 홍콩 주택시장 정체 등 아시아 부동산 부문의 구조조정과 리스크가 지속되고 있습니다.",
-      "related_tickers": [
-        "3333.HK"
-      ],
-      "source_regions": [
-        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Semiconductors",
-      "note": "미국은 인텔의 실적 폭락 및 PC 수요 둔화로 강력한 부정적 신호가 발생한 반면, 아시아는 TSMC의 호실적 및 일본 무라타의 AI 인프라 투자 등 강력한 긍정적 신호가 상충하고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

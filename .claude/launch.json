@@ -12,6 +12,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["serve", "docs", "-p", "3457", "--no-clipboard"],
       "port": 3457
+    },
+    {
+      "name": "market-report",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "docs", "-p", "3458", "--no-clipboard"],
+      "port": 3458
     }
   ]
 }

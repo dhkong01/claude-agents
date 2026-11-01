@@ -2,8 +2,16 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#111827">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="한국·해외 시황, 종목, 일일 리포트, 랭킹을 한곳에서 보는 마켓 대시보드">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="마켓리포트">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>마켓리포트</title>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
@@ -19,6 +27,7 @@
       <a href="#/report" data-route="report">일일 리포트</a>
       <a href="#/ranking" data-route="ranking">랭킹 · 섹터</a>
     </nav>
+    <button type="button" id="installBtn" class="btn-line install" hidden>앱 설치</button>
     <div class="search">
       <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="9" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.2 13.2 17 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="종목명 · 종목코드 검색" autocomplete="off" aria-label="종목 검색">
@@ -30,6 +39,14 @@
 <main class="wrap" id="view"></main>
 
 <footer class="foot" id="footNote">지수·시장 체감도·매크로는 <code>data/market_pulse.json</code> 실데이터이고, <span class="badge">샘플</span> 표시 항목(종목·수급·업종·이슈)은 시안용 임의 값입니다. 투자 판단의 근거가 아닙니다.</footer>
+<p class="foot install-tip" id="installTip">📱 <b>휴대폰에 앱처럼 설치</b> — iPhone: Safari 공유 ▸ <b>홈 화면에 추가</b> · Android: Chrome 메뉴 ▸ <b>앱 설치</b>(또는 상단 <b>앱 설치</b> 버튼)</p>
+
+<nav class="tabbar" aria-label="하단 메뉴">
+  <a href="#/" data-route="home"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.9 5.2 3.9 8.5s-1.3 6.1-3.9 8.5c-2.6-2.4-3.9-5.2-3.9-8.5S9.4 5.9 12 3.5Z"/></svg><span>시황</span></a>
+  <a href="#/stock" data-route="stock"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16M7 8h0M5 8.5h4v7H5zM17 3v18M15 6h4v8h-4z"/></svg><span>종목</span></a>
+  <a href="#/report" data-route="report"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h9l3.5 3.5v13.5H6zM14.5 3.5V7.5h4M9 12h6M9 15.5h6"/></svg><span>리포트</span></a>
+  <a href="#/ranking" data-route="ranking"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V12M12 20V5M19 20v-5"/></svg><span>랭킹</span></a>
+</nav>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>

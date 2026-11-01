@@ -376,7 +376,7 @@
     else { r.name = 'home'; v = viewHome(); }
     view.innerHTML = v.html;
     document.title = title;
-    $$('#nav a').forEach(function (a) { a.classList.toggle('active', a.dataset.route === r.name); });
+    $$('[data-route]').forEach(function (a) { a.classList.toggle('active', a.dataset.route === r.name); });
     if (v.mount) v.mount();
     window.scrollTo(0, 0);
   }
@@ -446,6 +446,24 @@
   });
   sg.addEventListener('click', function () { q.value = ''; closeSuggest(); });
   document.addEventListener('click', function (e) { if (!e.target.closest('.search')) closeSuggest(); });
+
+  /* ---------- 앱 설치(PWA) ---------- */
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () { /* 미지원·차단 시 일반 웹으로 동작 */ });
+    });
+  }
+  let installEvt = null;
+  const installBtn = $('#installBtn');
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault(); installEvt = e; installBtn.hidden = false;
+  });
+  installBtn.addEventListener('click', function () {
+    if (!installEvt) return;
+    installEvt.prompt();
+    installEvt.userChoice.finally(function () { installEvt = null; installBtn.hidden = true; });
+  });
+  window.addEventListener('appinstalled', function () { installBtn.hidden = true; toast('앱이 설치되었습니다.'); });
 
   MR.loadLive().then(function () {
     if (MR.reportLive) {

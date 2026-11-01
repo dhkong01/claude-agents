@@ -11,6 +11,7 @@ import argparse
 import json
 import os
 import sys
+import threading
 import time
 import datetime as dt
 from concurrent.futures import ThreadPoolExecutor
@@ -197,7 +198,8 @@ def build_fin_kr(code, mkt_suffix, with_cf):
     # 연간 현금흐름 (yfinance, 원 -> 억원). 호출이 느려 시총 상위 종목에만 붙인다.
     if with_cf and "annual" in out and yf is not None:
         try:
-            cf = yf.Ticker(code + mkt_suffix).cashflow
+            with _YF_SEM:
+                cf = yf.Ticker(code + mkt_suffix).cashflow
             d, cols = out["annual"]
             for i, c in enumerate(cols):
                 for ts in cf.columns:
@@ -211,9 +213,66 @@ def build_fin_kr(code, mkt_suffix, with_cf):
     return {m: v[0] for m, v in out.items()}
 
 
-def build_fin_us(code):
-    """미국 종목: 네이버 월드 재무(백만 달러). EPS·ROE·현금흐름은 소스에 없어 비운다."""
+_YF_SEM = threading.BoundedSemaphore(4)  # 야후 재무 호출 동시 수 제한(레이트리밋 방지)
+
+
+def yf_fundamentals(sym):
+    """yfinance 재무제표 -> {'annual'|'quarter': [(period_end:date, {eps, ni, equity, cfo, cfi})]} (오래된 순).
+    금액은 USD 원 단위 그대로. 실패하면 빈 dict."""
+    if yf is None:
+        return {}
+    ysym = sym.replace(".", "-")  # BRK.B -> BRK-B
+    out = {}
+    with _YF_SEM:
+        for mode, names in (("annual", ("income_stmt", "balance_sheet", "cashflow")),
+                            ("quarter", ("quarterly_income_stmt", "quarterly_balance_sheet", "quarterly_cashflow"))):
+            try:
+                t = yf.Ticker(ysym)
+                inc, bal, cf = (getattr(t, n) for n in names)
+            except Exception:
+                continue
+            pick = lambda df, rows, ts: next((float(df.at[r, ts]) for r in rows if r in df.index and df.at[r, ts] == df.at[r, ts]), None)
+            cols = sorted(set(inc.columns) | set(bal.columns) | set(cf.columns))
+            rows = []
+            for ts in cols:
+                g = lambda df, rr: pick(df, rr, ts) if ts in df.columns else None
+                rows.append((ts.date(), {"eps": g(inc, ("Diluted EPS", "Basic EPS")), "ni": g(inc, ("Net Income",)),
+                                         "equity": g(bal, ("Stockholders Equity", "Common Stock Equity")),
+                                         "cfo": g(cf, ("Operating Cash Flow",)), "cfi": g(cf, ("Investing Cash Flow",))}))
+            out[mode] = rows
+    return out
+
+
+def enrich_us_fin(out, cols_by_mode, fund):
+    """네이버 컬럼(결산일)에 가장 가까운(20일 이내) yfinance 기간을 붙여 EPS·ROE·현금흐름을 채운다."""
+    for mode, d in out.items():
+        rows = fund.get(mode) or []
+        for i, c in enumerate(cols_by_mode[mode]):
+            y, m, dd = (int(x) for x in c["key"].split("."))
+            target = dt.date(y, m, dd)
+            best = min(((abs((r[0] - target).days), k) for k, r in enumerate(rows)), default=None)
+            if best is None or best[0] > 20:
+                continue
+            k = best[1]
+            cur = rows[k][1]
+            if cur["eps"] is not None:
+                d["eps"][i] = round(cur["eps"], 2)
+            if cur["cfo"] is not None:
+                d["cfo"][i] = round(cur["cfo"] / 1e6)
+            if cur["cfi"] is not None:
+                d["cfi"][i] = round(cur["cfi"] / 1e6)
+            # ROE = 순이익 / 평균 자기자본(직전 기간이 없으면 기말). 분기는 4배 연환산
+            if cur["ni"] is not None and cur["equity"]:
+                eq = cur["equity"]
+                if k > 0 and rows[k - 1][1]["equity"]:
+                    eq = (eq + rows[k - 1][1]["equity"]) / 2
+                d["roe"][i] = round(cur["ni"] * (4 if mode == "quarter" else 1) / eq * 100, 1)
+
+
+def build_fin_us(code, sym=None):
+    """미국 종목: 네이버 월드 재무(백만 달러). EPS·ROE·현금흐름은 yfinance로 보강한다(실패 시 빈칸)."""
     keymap = {"rev": "매출액", "op": "EBIT", "ni": "당기순이익"}
+    cols_by_mode = {}
     out = {}
     for mode in ("annual", "quarter"):
         fin = get(f"{A}/stock/{code}/finance/{mode}")
@@ -234,6 +293,12 @@ def build_fin_us(code):
         for k in ("eps", "roe", "cfo", "cfi"):
             d[k] = [None] * len(cols)
         out[mode] = d
+        cols_by_mode[mode] = cols
+    if out and sym:
+        try:
+            enrich_us_fin(out, cols_by_mode, yf_fundamentals(sym))
+        except Exception as e:  # 보강 실패는 빈칸으로 둔다
+            log(f"{code} 재무 보강 실패: {str(e)[:60]}")
     return out
 
 
@@ -332,7 +397,7 @@ def build_us(row):
         "cap": cap, "per": val("per"), "pbr": val("pbr"),
         "hi52": num(val("highPriceOf52Weeks")), "lo52": num(val("lowPriceOf52Weeks")), "volume": vol,
         "extra": ["배당수익률", val("dividendYieldRatio")], "flow": None,
-        "issues": news_issues(f"{A}/news/stock/{code}?pageSize=10&page=1", name), "fin": build_fin_us(code), "bars": bars,
+        "issues": news_issues(f"{A}/news/stock/{code}?pageSize=10&page=1", name), "fin": build_fin_us(code, sym), "bars": bars,
     }
     idx = [code, name, market, round(price, 2), round(chg, 2), round(pct, 2), None, None, sym, basic.get("stockNameEng"), "USD"]
     return idx, detail

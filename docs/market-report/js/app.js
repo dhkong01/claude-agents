@@ -256,9 +256,9 @@
       '<button type="button" data-fin="annual" class="' + (state.fin === 'annual' ? 'active' : '') + '">연간' + (s.live ? '' : ' (5년)') + '</button>' +
       '<button type="button" data-fin="quarter" class="' + (state.fin === 'quarter' ? 'active' : '') + '">분기' + (s.live ? '' : ' (5개 분기)') + '</button></div></div>' +
       '<p class="sub" id="finSub">영업이익 추이 · 억원</p><div class="fin-chart" id="finChart"></div><div class="tbl-wrap" id="finTable"></div>' +
-      '<p class="note">' + (s.isUS ? '출처: 네이버 증권(월드) · 영업이익은 EBIT · EPS·ROE·현금흐름은 제공하지 않습니다 · 회계연도 기준' :
+      '<p class="note">' + (s.isUS ? '출처: 네이버 증권(월드: 매출·EBIT·순이익), yfinance(EPS·ROE·현금흐름) · 영업이익은 EBIT · ROE는 순이익÷평균 자기자본(분기는 4배 연환산) · 회계연도 기준 · 일부 종목·분기는 빈칸 · ' :
         s.live ? '출처: 네이버 증권(손익·지표), yfinance(연간 현금흐름, 시총 상위 종목) · E는 컨센서스 추정 · 현금흐름은 연간만 제공 · ' : '샘플 데이터 · ') +
-      (s.isUS ? '' : '음수(파랑)는 현금 유출 · FCF는 영업CF와 투자CF의 합으로 단순 계산') + '</p></section>';
+      '음수(파랑)는 현금 유출 · FCF는 영업CF와 투자CF의 합으로 단순 계산</p></section>';
   }
   function drawFin(s) {
     const d = s.fin(state.fin);

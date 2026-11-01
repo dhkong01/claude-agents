@@ -5,7 +5,6 @@ on:
     # 평일 2회 (분침은 정각을 피해 지연·누락 위험을 줄임)
     #  - KST 07:12 (UTC 22:12, 일~목): 미국 마감 반영 → 미국 종목 상세(약 300개)만 새로 받는다
     #  - KST 17:07 (UTC 08:07, 월~금): 한국 마감·수급 확정 반영 → 한국 종목 상세(약 470개)만 새로 받는다
-    # 시장별로 나눠 받아 매 실행마다 커밋되는 파일 수(저장소 증가량)를 절반으로 줄인다.
     - cron: '12 22 * * 0-4'
     - cron: '7 8 * * 1-5'
   workflow_dispatch:
@@ -20,11 +19,15 @@ on:
 permissions:
   contents: write
 
-# 같은 데이터 파일을 쓰므로 동시 실행을 막는다 (밀린 실행은 대기, 취소하지 않음)
+# 같은 데이터를 쓰므로 동시 실행을 막는다 (밀린 실행은 대기, 취소하지 않음)
 concurrency:
-  group: market-report-data
+  group: market-data
   cancel-in-progress: false
 
+# ── 저장소 용량을 가볍게 유지하는 방식 ─────────────────────────────────────────
+# 갱신 데이터(market_report.json, mr/)는 main 에 커밋하지 않는다. 대신 `market-data` 브랜치에
+# "항상 커밋 1개"만 남기고 강제 푸시한다(히스토리가 쌓이지 않음). Pages 배포(pages.yml)가
+# 이 브랜치를 docs/data/ 에 합쳐서 올린다.
 jobs:
   export:
     runs-on: ubuntu-latest
@@ -43,7 +46,6 @@ jobs:
       - name: 의존성 설치
         run: pip install yfinance requests curl_cffi
 
-      # 한국 지수 수집에 실패하면 스크립트가 exit 1 로 끝나고 기존 JSON은 그대로 유지된다.
       - name: 수집 대상 시장 결정
         id: scope
         run: |
@@ -57,31 +59,49 @@ jobs:
           echo "only=${ONLY:-all}" >> "$GITHUB_OUTPUT"
           echo "수집 대상: ${ONLY:-all}"
 
+      # 직전 데이터를 작업 폴더로 가져온다. 한쪽 시장만 갱신할 때 반대쪽 데이터를 유지하려면 필요하다.
+      - name: market-data 브랜치 준비
+        run: |
+          if git ls-remote --exit-code --heads origin market-data >/dev/null 2>&1; then
+            git fetch --depth 1 origin market-data
+            git worktree add --detach market-data FETCH_HEAD
+            echo "기존 market-data 브랜치를 가져왔습니다."
+          else
+            git worktree add --detach market-data HEAD
+            git -C market-data rm -rfq .
+            find market-data -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+            echo "::notice::market-data 브랜치가 아직 없어 새로 만듭니다."
+          fi
+
+      # 한국 지수 수집에 실패하면 스크립트가 exit 1 로 끝나고 이후 단계는 실행되지 않는다(기존 데이터 유지).
       - name: 마켓리포트 데이터 수집
         env:
           PYTHONIOENCODING: utf-8
+          MR_DATA_DIR: ${{ github.workspace }}/market-data
         run: python tools/market_report/export_market_report.py --only ${{ steps.scope.outputs.only }}
 
-      - name: 결과 커밋 및 푸시 (충돌 시 최대 3회 재시도 — 실패를 숨기지 않음)
+      - name: market-data 브랜치에 단일 커밋으로 강제 푸시 (히스토리 누적 없음)
+        working-directory: market-data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/market_report.json docs/data/mr
 
-          if git diff --staged --quiet; then
-            echo "[commit] 변경사항 없음 — 커밋 스킵"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "[publish] 변경사항 없음 — 푸시 스킵"
             exit 0
           fi
-          git commit -m "market-report: data $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M')"
+          # 부모 없는 새 커밋 1개로 대체 → 브랜치에는 항상 최신 스냅샷만 남는다
+          git checkout -q --orphan data-snapshot
+          git add -A
+          git commit -q -m "market-data: $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M') KST (${{ steps.scope.outputs.only }})"
 
           for i in 1 2 3; do
-            if git push; then
-              echo "[commit] push 성공 (시도 $i)"
+            if git push --force origin data-snapshot:market-data; then
+              echo "[publish] push 성공 (시도 $i)"
               exit 0
             fi
-            echo "[commit] push 실패 (시도 $i/3) — origin 최신화 후 재시도"
-            git fetch origin main
-            git rebase origin/main || { git rebase --abort; git merge -X ours origin/main --no-edit; }
+            echo "[publish] push 실패 (시도 $i/3) — 5초 후 재시도"
+            sleep 5
           done
           echo "::error::push 3회 모두 실패 — 데이터가 원격에 반영되지 않았습니다" >&2
           exit 1

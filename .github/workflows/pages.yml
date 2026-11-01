@@ -37,6 +37,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 마켓리포트 데이터는 main 에 커밋하지 않고 market-data 브랜치(커밋 1개)에만 둔다.
+      # 배포할 때 docs/data/ 로 합쳐서 올린다. 브랜치가 없으면 사이트가 샘플 데이터로 동작한다.
+      - name: 마켓리포트 데이터 합치기 (market-data 브랜치)
+        run: |
+          if git ls-remote --exit-code --heads origin market-data >/dev/null 2>&1; then
+            git fetch --depth 1 origin market-data
+            mkdir -p docs/data
+            git archive FETCH_HEAD | tar -x -C docs/data
+            echo "market-data 병합 완료: $(find docs/data/mr -type f 2>/dev/null | wc -l) files"
+          else
+            echo "::warning::market-data 브랜치가 없습니다 — 마켓리포트가 샘플 데이터로 표시됩니다."
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

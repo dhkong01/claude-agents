@@ -9,6 +9,7 @@
 """
 import argparse
 import json
+import os
 import sys
 import time
 import datetime as dt
@@ -23,7 +24,9 @@ except ImportError:  # 해외 지수/환율/현금흐름만 비게 된다
     yf = None
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA = ROOT / "docs" / "data"
+# 저장소가 불어나지 않도록 CI에서는 MR_DATA_DIR로 market-data 브랜치 작업 폴더를 지정한다.
+# 지정하지 않으면(로컬 미리보기) docs/data 에 쓰고, 그 경로는 .gitignore 로 커밋에서 제외된다.
+DATA = Path(os.environ["MR_DATA_DIR"]).resolve() if os.environ.get("MR_DATA_DIR") else ROOT / "docs" / "data"
 OUT = DATA / "market_report.json"       # 개요(지수·수급·순위·업종)
 INDEX = DATA / "mr" / "index.json"      # 검색·목록용 종목 색인
 STOCK_DIR = DATA / "mr" / "s"           # 종목별 상세(차트·재무·이슈) — 화면에서 필요할 때 불러온다

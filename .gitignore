@@ -124,3 +124,9 @@ assets/images/security/badrudi-exploit.mp4
 
 # 추세 추종 생성 리포트
 tools/stock_portfolio/reports/
+
+# 마켓리포트 생성 데이터: main 에는 커밋하지 않는다 (market-data 브랜치에서 Pages 배포 시 합쳐짐)
+# 로컬 미리보기는 `python tools/market_report/export_market_report.py` 로 생성
+docs/data/market_report.json
+docs/data/mr/
+/market-data/

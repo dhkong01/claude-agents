@@ -21,11 +21,11 @@
       return noop;
     }
     const d3 = window.d3;
-    const size = Math.min(el.clientWidth || 340, 360);
+    const size = 360; // 내부 좌표계 고정. 실제 크기는 CSS(width:100%)로 스케일된다.
     const byNum = new Map(opts.countries.map(function (c) { return [c.num, c]; }));
     let sel = opts.selected;
     el.innerHTML = '';
-    const svg = d3.select(el).append('svg').attr('viewBox', '0 0 ' + size + ' ' + size).attr('width', size).attr('height', size)
+    const svg = d3.select(el).append('svg').attr('viewBox', '0 0 ' + size + ' ' + size)
       .attr('class', 'globe-svg').attr('role', 'img').attr('aria-label', '드래그해서 회전하는 지구본');
     const proj = d3.geoOrthographic().scale(size / 2 - 3).translate([size / 2, size / 2]).clipAngle(90).rotate([-sel.lon, -sel.lat, 0]);
     const path = d3.geoPath(proj);

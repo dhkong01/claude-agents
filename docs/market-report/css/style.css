@@ -59,7 +59,7 @@ small { color: var(--ink3); font-size: 12px; }
 .globe-card { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 28px; }
 .globe-col { display: flex; flex-direction: column; align-items: center; gap: 12px; }
 .globe { align-self: stretch; width: 100%; max-width: 360px; margin: 0 auto; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; }
-.globe-svg { cursor: grab; touch-action: none; max-width: 100%; height: auto; }
+.globe-svg { cursor: grab; touch-action: none; width: 100%; max-width: 360px; height: auto; }
 .globe-svg:active { cursor: grabbing; }
 .globe-sea { fill: #e7ecf6; stroke: #cfd8ea; }
 .globe-grat { fill: none; stroke: #fff; stroke-opacity: .6; stroke-width: .5; }

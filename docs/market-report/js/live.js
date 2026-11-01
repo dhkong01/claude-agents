@@ -1,91 +1,174 @@
-/* docs/data/market_pulse.json 실데이터를 샘플 데이터 위에 덮어쓴다. 실패 시 샘플 그대로 동작. */
+/* 실데이터 로더
+ *  1순위 data/market_report.json (tools/market_report/export_market_report.py 가 생성)
+ *  시장 국면·공포탐욕은 data/market_pulse.json 에서 보조로 읽는다.
+ *  둘 다 실패하면 data.js 의 샘플 데이터로 동작한다. */
 (function () {
   const MR = (window.MR = window.MR || {});
-  const SRC = '../data/market_pulse.json';
-  // 나라 → [화면 지수명, JSON 키]
-  const INDEX_MAP = {
-    KR: [['코스피', 'kospi'], ['코스닥', 'kosdaq']],
-    US: [['S&P500', 'sp500'], ['나스닥종합', 'nasdaq'], ['다우존스', 'dow']],
-    JP: [['니케이225', 'nikkei']],
-    CN: [['상해종합', 'shanghai'], ['선전성분', 'shenzhen']],
-  };
-  const CLOSE_ORDER = [['코스피', 'kospi'], ['코스닥', 'kosdaq'], ['S&P500', 'sp500'], ['나스닥종합', 'nasdaq'], ['다우존스', 'dow'], ['니케이225', 'nikkei'], ['상해종합', 'shanghai'], ['선전성분', 'shenzhen']];
-  const KO = {
-    phase: { TRANSITIONAL: '전환기', EXPANSION: '확장', CONTRACTION: '수축', PEAK: '고점', TROUGH: '저점' },
-    trend: { SIDEWAYS: '횡보', UP: '상승', DOWN: '하락', UPTREND: '상승', DOWNTREND: '하락' },
-    vol: { LOW: '낮음', NORMAL: '보통', HIGH: '높음' },
-    rate: { LOW: '저금리', NORMAL: '보통', HIGH: '고금리' },
-    dollar: { FLAT: '보합', UP: '강세', DOWN: '약세', STRONG: '강세', WEAK: '약세' },
-    fg: { 'extreme fear': '극단적 공포', fear: '공포', neutral: '중립', greed: '탐욕', 'extreme greed': '극단적 탐욕' },
-  };
-  const ko = function (map, v) { return (v && map[String(v).toLowerCase()]) || map[v] || v || '-'; };
+  const REPORT_URL = '../data/market_report.json';
+  const PULSE_URL = '../data/market_pulse.json';
   const WEEK = ['일', '월', '화', '수', '목', '금', '토'];
   const f2 = function (n) { return Number(n).toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
   const sp = function (p) { return (p > 0 ? '+' : '') + p.toFixed(2) + '%'; };
+  const sg = function (n) { return (n > 0 ? '+' : n < 0 ? '-' : '') + Math.abs(Math.round(n)).toLocaleString('ko-KR'); };
+  const ymd = function (n) { const s = String(n); return s.slice(0, 4) + '.' + s.slice(4, 6) + '.' + s.slice(6, 8); };
+  const num = function (v) { return v == null || isNaN(v) ? null : Number(v); };
 
-  function apply(d) {
-    const dt = d.date.split('-').map(Number);
+  function sma(closes, n) {
+    const out = [];
+    let sum = 0;
+    for (let i = 0; i < closes.length; i++) {
+      sum += closes[i];
+      if (i >= n) sum -= closes[i - n];
+      out.push(i >= n - 1 ? sum / n : null);
+    }
+    return out;
+  }
+
+  function wrapStock(r) {
+    const s = Object.assign({}, r, { live: true });
+    const fl = r.flow;
+    s.flow5 = { f: fl.f, i: fl.i, p: fl.p };
+    s.flowToday = { foreign: fl.f[fl.f.length - 1], inst: fl.i[fl.i.length - 1], person: fl.p[fl.p.length - 1] };
+    s.dates5 = function () { return fl.dates.map(function (d) { return ymd(d).slice(5); }); };
+    let ser = null;
+    s.series = function () {
+      if (!ser) {
+        const bars = r.bars.map(function (b) { return { d: ymd(b[0]), o: b[1], h: b[2], l: b[3], c: b[4] }; });
+        const closes = bars.map(function (b) { return b.c; });
+        const ma = {};
+        [10, 20, 60, 120, 200].forEach(function (n) { ma[n] = sma(closes, n); });
+        ser = { bars: bars, ma: ma };
+      }
+      return ser;
+    };
+    s.fin = function (mode) {
+      const d = (r.fin && (r.fin[mode] || r.fin.annual)) || null;
+      return d;
+    };
+    s.issues = r.issues || [];
+    return s;
+  }
+
+  function applyReport(d) {
+    const dt = d.asOf.split('-').map(Number);
     const day = new Date(dt[0], dt[1] - 1, dt[2]);
+    MR.reportLive = true;
+    MR.live = true;
+    MR.asOf = d.asOf.replace(/-/g, '.');
+    MR.asOfLabel = MR.asOf + ' (' + WEEK[day.getDay()] + ')';
+    MR.generatedAt = d.generatedAt ? d.generatedAt.slice(5, 16).replace('T', ' ').replace('-', '.') : '';
+    MR.ageDays = 0;
+
+    // 국가별 지수·타일
+    Object.keys(d.countries).forEach(function (cid) {
+      const c = MR.countryById[cid], src = d.countries[cid];
+      if (!c) return;
+      c.indices = src.indices.map(function (i) { return Object.assign({ live: true }, i); });
+      c.tiles = src.tiles.map(function (t) { return Object.assign({ live: true }, t); });
+    });
+
+    // 종목 (조회 가능한 전체 유니버스를 실데이터로 교체)
+    MR.stocks = Object.keys(d.stocks).map(function (k) { return wrapStock(d.stocks[k]); });
+    MR.stockByCode = {};
+    MR.stocks.forEach(function (s) { MR.stockByCode[s.code] = s; });
+    MR.defaultWatch = d.defaultWatch.length ? d.defaultWatch : MR.stocks.slice(0, 4).map(function (s) { return s.code; });
+
+    // 수급·순위·업종
+    const kf = d.kospiFlows;
+    MR.kospiFlows = kf ? [{ label: '개인', val: kf['개인'] }, { label: '외국인', val: kf['외국인'] }, { label: '기관', val: kf['기관'] }] : [];
+    MR.flowDate = kf ? ymd(kf.date) : MR.asOf;
+    MR.rankings = d.ranking;
+    MR.sectors = d.sectors;
+    MR.macroLive = d.macro || [];
+
+    // 시장 체감도 (코스피·코스닥 등락 종목수)
+    MR.breadthKR = ['kospi', 'kosdaq'].map(function (k) {
+      const b = d.breadth[k] || {};
+      return { name: k === 'kospi' ? '코스피' : '코스닥', up: b.riseCount || 0, flat: b.steadyCount || 0, down: b.fallCount || 0, upper: b.upperCount || 0, lower: b.lowerCount || 0 };
+    }).filter(function (b) { return b.up + b.down + b.flat > 0; });
+
+    // 마감 지수 카드
+    const C = d.countries, pick = function (cid, i) { return C[cid] && C[cid].indices[i]; };
+    const list = [pick('KR', 0), pick('KR', 1), pick('US', 0), pick('US', 1), pick('US', 2), pick('JP', 0), pick('CN', 0), pick('CN', 1)].filter(Boolean);
+    MR.closeIndices = list.map(function (i) { return { name: i.name, value: f2(i.value), pct: i.pct, live: true }; });
+    const krw = (C.KR.tiles || []).filter(function (t) { return t.label === '원/달러'; })[0];
+    if (krw) MR.closeIndices.push({ name: '원/달러', value: krw.value, pct: krw.dir * parseFloat(krw.delta || 0), live: true });
+
+    buildReportText(d);
+  }
+
+  function buildReportText(d) {
+    const R = MR.report, C = d.countries;
+    const kp = C.KR.indices[0], kq = C.KR.indices[1];
+    if (!kp) return;
+    const both = kq && kp.pct > 0 && kq.pct > 0 ? '동반 강세' : kq && kp.pct < 0 && kq.pct < 0 ? '동반 약세' : '엇갈린 마감';
+    R.headline = '코스피 ' + sp(kp.pct) + (kq ? ', 코스닥 ' + sp(kq.pct) : '') + ' — ' + both;
+    const parts = [];
+    parts.push('코스피는 ' + f2(kp.value) + '(' + sp(kp.pct) + ')' + (kq ? ', 코스닥은 ' + f2(kq.value) + '(' + sp(kq.pct) + ')' : '') + '로 마감했습니다.');
+    const kf = d.kospiFlows;
+    if (kf) {
+      const t = function (k) { return k + ' ' + sg(kf[k]) + '억원'; };
+      parts.push('코스피 투자자별 순매수는 ' + [t('외국인'), t('기관'), t('개인')].join(', ') + '입니다.');
+    }
+    const us = C.US && C.US.indices.length ? C.US.indices.map(function (i) { return i.name.replace('종합', '').replace('존스', '') + ' ' + sp(i.pct); }).join(', ') : '';
+    if (us) parts.push('미국 증시는 ' + us + '를 기록했습니다.');
+    const jp = C.JP && C.JP.indices[0];
+    if (jp) parts.push('일본 ' + jp.name + '는 ' + sp(jp.pct) + '였습니다.');
+    R.summary = parts.join(' ');
+    const sec = d.sectors || [];
+    if (sec.length >= 4) {
+      const top = sec.slice(0, 2), bot = sec.slice(-2).reverse();
+      const fm = function (a) { return a.map(function (x) { return x.name + '(' + sp(x.pct) + ')'; }).join(', '); };
+      R.sectorNote = '강세 업종은 ' + fm(top) + ', 약세 업종은 ' + fm(bot) + '입니다. (네이버 증권 업종 등락률)';
+    } else R.sectorNote = '';
+    R.promo = '마감 지수, 투자자별 수급, 업종 흐름, 내 종목 브리핑을 한 장으로 정리했습니다.';
+    R.live = true;
+  }
+
+  /* ---------- market_pulse.json (보조: 시장 국면·공포탐욕) / 단독 폴백 ---------- */
+  const KO = {
+    phase: { TRANSITIONAL: '전환기', EXPANSION: '확장', CONTRACTION: '수축', PEAK: '고점', TROUGH: '저점' },
+    fg: { 'extreme fear': '극단적 공포', fear: '공포', neutral: '중립', greed: '탐욕', 'extreme greed': '극단적 탐욕' },
+  };
+  const ko = function (map, v) { return (v && map[String(v).toLowerCase()]) || map[v] || v || '-'; };
+  function applyPulse(d) {
+    const m = d.macro || {};
+    const note = ' (' + String(d.date).slice(5).replace('-', '.') + ' 기준)';
+    MR.pulseRows = [];
+    if (m.phase) MR.pulseRows.push(['시장 국면' + note, ko(KO.phase, m.phase)]);
+    if (m.fear_greed != null) MR.pulseRows.push(['공포·탐욕 지수' + note, Math.round(m.fear_greed) + ' · ' + ko(KO.fg, m.fear_greed_rating)]);
+    if (MR.reportLive) return;
+
+    // 폴백: market_report.json 이 없을 때 pulse 의 지수만이라도 반영
+    const dt = d.date.split('-').map(Number), day = new Date(dt[0], dt[1] - 1, dt[2]);
+    MR.live = true;
     MR.asOf = d.date.replace(/-/g, '.');
     MR.asOfLabel = MR.asOf + ' (' + WEEK[day.getDay()] + ')';
     MR.seriesEnd = [dt[0], dt[1] - 1, dt[2]];
     MR.ageDays = Math.max(0, Math.floor((Date.now() - day.getTime()) / 864e5));
-
-    // 국가별 지수
-    Object.keys(INDEX_MAP).forEach(function (cid) {
+    const MAP = { KR: [['코스피', 'kospi'], ['코스닥', 'kosdaq']], US: [['S&P500', 'sp500'], ['나스닥종합', 'nasdaq'], ['다우존스', 'dow']], JP: [['니케이225', 'nikkei']], CN: [['상해종합', 'shanghai'], ['선전성분', 'shenzhen']] };
+    Object.keys(MAP).forEach(function (cid) {
       const c = MR.countryById[cid];
-      INDEX_MAP[cid].forEach(function (m) {
-        const src = d.indices[m[1]], idx = c.indices.filter(function (i) { return i.name === m[0]; })[0];
-        if (!src) return;
-        const row = { name: m[0], value: src.price, pct: src.change_pct, change: src.change, live: true };
-        if (idx) Object.assign(idx, row, { spark: null }); else c.indices.unshift(Object.assign(row, { spark: null }));
+      MAP[cid].forEach(function (mm) {
+        const src = d.indices[mm[1]], idx = c.indices.filter(function (i) { return i.name === mm[0]; })[0];
+        if (src && idx) Object.assign(idx, { value: src.price, pct: src.change_pct, change: src.change, live: true, spark: null });
       });
     });
-    // 미국 10년물 금리
-    if (d.macro && d.macro.yield10y != null) {
-      const t = MR.countryById.US.tiles[0];
-      t.value = f2(d.macro.yield10y) + '%'; t.delta = ''; t.dir = 0; t.live = true;
-    }
+  }
 
-    // 마감 지수 목록
-    MR.closeIndices = CLOSE_ORDER.filter(function (m) { return d.indices[m[1]]; }).map(function (m) {
-      const s = d.indices[m[1]];
-      return { name: m[0], value: f2(s.price), pct: s.change_pct, change: s.change, live: true };
-    });
-
-    // 시장 체감도·매크로
-    MR.breadth = d.breadth || null;
-    const m = d.macro || null;
-    MR.macro = m && [
-      ['시장 국면', ko(KO.phase, m.phase)], ['시장 추세', ko(KO.trend, m.market_trend)],
-      ['VIX', f2(m.vix) + ' · ' + ko(KO.vol, m.volatility)],
-      ['공포·탐욕 지수', Math.round(m.fear_greed) + ' · ' + ko(KO.fg, m.fear_greed_rating)],
-      ['미국채 2Y / 10Y / 30Y', f2(m.yield2y) + ' / ' + f2(m.yield10y) + ' / ' + f2(m.yield30y) + '%'],
-      ['금리 환경', ko(KO.rate, m.rate_env)], ['달러 추세', ko(KO.dollar, m.dollar_trend)],
-    ];
-
-    // 시황 문구 (실데이터로 생성)
-    const kp = d.indices.kospi, kq = d.indices.kosdaq;
-    if (kp && kq) {
-      const both = kp.change_pct > 0 && kq.change_pct > 0 ? '동반 강세' : kp.change_pct < 0 && kq.change_pct < 0 ? '동반 약세' : '엇갈린 마감';
-      const R = MR.report;
-      R.headline = '코스피 ' + sp(kp.change_pct) + ', 코스닥 ' + sp(kq.change_pct) + ' — ' + both;
-      const us = ['sp500', 'nasdaq', 'dow'].filter(function (k) { return d.indices[k]; }).map(function (k) {
-        return { sp500: 'S&P500', nasdaq: '나스닥', dow: '다우' }[k] + ' ' + sp(d.indices[k].change_pct);
-      }).join(', ');
-      R.summary = '코스피는 ' + f2(kp.price) + '(' + sp(kp.change_pct) + '), 코스닥은 ' + f2(kq.price) + '(' + sp(kq.change_pct) + ')로 마감했습니다.' +
-        (us ? ' 미국 증시는 ' + us + '를 기록했고' : '') + (d.indices.nikkei ? (us ? ', ' : ' ') + '일본 니케이225는 ' + sp(d.indices.nikkei.change_pct) + '였습니다.' : '.') +
-        (m ? ' 공포·탐욕 지수는 ' + Math.round(m.fear_greed) + '(' + ko(KO.fg, m.fear_greed_rating) + '), VIX는 ' + f2(m.vix) + '입니다.' : '');
-      R.promo = '마감 지수, 시장 체감도, 매크로 지표를 한 장으로 정리했습니다.';
-      R.live = true;
-    }
-    MR.live = true;
+  function fetchJson(url) {
+    return fetch(url, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
   }
 
   MR.loadLive = function () {
-    return fetch(SRC, { cache: 'no-store' })
-      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (d) { if (!d || !d.date || !d.indices) throw new Error('형식 오류'); apply(d); })
-      .catch(function (e) { MR.live = false; MR.liveError = String(e && e.message || e); });
+    const rep = fetchJson(REPORT_URL).then(function (d) {
+      if (!d || !d.asOf || !d.countries || !d.stocks) throw new Error('형식 오류');
+      applyReport(d);
+    }).catch(function (e) { MR.reportLive = false; MR.liveError = String((e && e.message) || e); });
+    const pul = fetchJson(PULSE_URL).catch(function () { return null; });
+    return Promise.all([rep, pul]).then(function (r) {
+      if (r[1] && r[1].date && r[1].indices) applyPulse(r[1]);
+      if (!MR.live) MR.live = false;
+    });
   };
 })();

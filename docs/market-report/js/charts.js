@@ -108,11 +108,13 @@
 
   MR.barChart = function (el, labels, values) {
     const W = Math.max(el.clientWidth, 260), H = 170, pt = 24, pb = 26, n = values.length;
-    const mx = Math.max(0, Math.max.apply(null, values)), mn = Math.min(0, Math.min.apply(null, values));
+    const known = values.filter(function (v) { return v != null; });
+    const mx = Math.max(0, Math.max.apply(null, known)), mn = Math.min(0, Math.min.apply(null, known));
     const span = mx - mn || 1, y = function (v) { return pt + (mx - v) / span * (H - pt - pb); }, y0 = y(0);
     const gw = W / n, bw = Math.min(30, gw * 0.5);
     let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="영업이익 막대 차트">';
     values.forEach(function (v, i) {
+      if (v == null) { s += '<text class="axis" x="' + gw * (i + 0.5) + '" y="' + (H - 6) + '" text-anchor="middle">' + labels[i] + '</text>'; return; }
       const cx = gw * (i + 0.5), est = /E$/.test(labels[i]), top = Math.min(y(v), y0), h = Math.max(2, Math.abs(y(v) - y0));
       s += '<rect x="' + (cx - bw / 2).toFixed(1) + '" y="' + top.toFixed(1) + '" width="' + bw + '" height="' + h.toFixed(1) + '" rx="3" fill="' + (est ? '#9ca3af' : '#111827') + '"/>' +
         '<text class="val" x="' + cx + '" y="' + (v >= 0 ? top - 6 : top + h + 14).toFixed(1) + '" text-anchor="middle">' + fmt(v) + '</text>' +

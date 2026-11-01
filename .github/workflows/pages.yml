@@ -14,6 +14,7 @@ on:
       - "News & Investment Ideas — Daily"
       - "Trend Following — Weekly Rebalancing"
       - "Portfolio Daily Report"
+      - "Market Report Data"
     types: [completed]
   workflow_dispatch:
 

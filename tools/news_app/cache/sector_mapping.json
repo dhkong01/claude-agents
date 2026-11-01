@@ -1,41 +1,13 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "sectors": [
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -6.0,
-      "rationale": "아마존, 알파벳 등 주요 빅테크 기업들의 실적 실망감과 AI 투자 대비 수익성(ROI) 논란으로 인한 투심 위축",
+      "score": -6.5,
+      "rationale": "미국 시장을 중심으로 AI 고평가 우려 및 앤트로픽 IPO 리스크가 부각되며 기술주 투매세가 나타났고, 애플 실적 발표를 앞두고 경계감이 심화되고 있습니다.",
       "related_tickers": [
-        "GOOGL",
-        "AMZN",
-        "MSFT"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Semiconductors",
-      "direction": "positive",
-      "score": 7.5,
-      "rationale": "TSMC의 해외 투자 확대 및 반도체 가격 인상 가능성, 일본의 AI 인프라 채권 발행 급증 등 아시아 중심의 활발한 AI 인프라 자본 유입",
-      "related_tickers": [
-        "TSM",
-        "NVDA"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Healthcare",
-      "direction": "positive",
-      "score": 8.0,
-      "rationale": "일라이릴리와 머크 등 주요 제약사들의 비만 치료제 및 면역항암제 판매 호조에 따른 어닝 서프라이즈 및 실적 전망 상향",
-      "related_tickers": [
-        "LLY",
-        "MRK"
+        "AAPL"
       ],
       "source_regions": [
         "US"
@@ -45,30 +17,46 @@
       "name": "Energy",
       "direction": "positive",
       "score": 8.0,
-      "rationale": "중동 불안으로 인한 정유 마진 및 유가 급등으로 유럽 BP 등 주요 에너지 기업의 3분기 순이익 폭증",
+      "rationale": "중동 지정학적 리스크로 인한 정제마진 급등으로 유럽 BP의 3분기 순이익이 4배 급증하였으며, 아시아 기업들의 미국 내 가스 터빈 생산 확대 등 에너지 인프라 수요가 견조합니다.",
       "related_tickers": [
-        "BP",
-        "SHEL",
-        "XOM"
+        "BP"
       ],
       "source_regions": [
-        "EUROPE"
+        "EUROPE",
+        "ASIA"
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "폭스바겐의 대규모 영업손실 기록과 유럽 내수 소비 침체, 아마존 실적 우려 등 완성차 및 유통 섹터 전반의 부진",
+      "name": "Real Estate",
+      "direction": "positive",
+      "score": 5.0,
+      "rationale": "TSMC의 대규모 미국 피닉스 반도체 캠퍼스 투자가 현지 선벨트 지역의 부동산 붐과 대만계 투자 유입을 지속적으로 견인하고 있습니다.",
       "related_tickers": [
-        "VOW3",
-        "AMZN"
+        "TSM"
       ],
       "source_regions": [
-        "US",
-        "EUROPE"
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "중국 증시 급락 방어를 위해 당국이 긴급 회의를 소집하는 등 시장 변동성이 고조되었고, 대규모 암호화폐 해킹 여파 등으로 아시아 금융 시장 리스크 관리가 부각되었습니다.",
+      "related_tickers": [],
+      "source_regions": [
+        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Consumer Discretionary",
+      "note": "미국은 리비안의 3분기 호실적 및 가이던스 발표로 긍정적인 신호가 나타난 반면, 유럽은 폭스바겐이 포르쉐 손실 등으로 역대급 영업손실을 기록하며 급격한 악화를 보였습니다."
+    },
+    {
+      "sector": "Semiconductors",
+      "note": "미국은 AI 고평가 우려에 따른 심리 위축 및 투매 압력을 받는 반면, 아시아는 TSMC 대규모 투자 및 AI 반도체 밸류체인 모멘텀이 지속되는 등 단기 주가 압박과 장기 성장세가 상충하고 있습니다."
+    }
+  ]
 }

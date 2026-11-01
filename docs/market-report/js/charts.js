@@ -19,6 +19,8 @@
 
   MR.candleChart = function (el, bars, mas, o) {
     const W = Math.max(el.clientWidth, 280), H = 300, pl = 6, pr = 62, pt = 12, pb = 26;
+    const dec = o.dec || 0; // 미국 주식은 소수점 2자리
+    const fp = function (v) { return Number(v).toLocaleString('ko-KR', { minimumFractionDigits: dec, maximumFractionDigits: dec }); };
     const n = bars.length, step = (W - pl - pr) / n, bw = Math.max(1.4, Math.min(14, step * 0.62));
     let lo = Infinity, hi = -Infinity;
     bars.forEach(function (b) { if (b.l < lo) lo = b.l; if (b.h > hi) hi = b.h; });
@@ -31,7 +33,7 @@
     for (let g = 0; g <= 4; g++) {
       const v = lo + (hi - lo) * g / 4, yy = y(v).toFixed(1);
       s += '<line class="grid" x1="' + pl + '" x2="' + (W - pr) + '" y1="' + yy + '" y2="' + yy + '"/>' +
-        '<text class="axis" x="' + (W - pr + 6) + '" y="' + (+yy + 4) + '">' + fmt(Math.round(v)) + '</text>';
+        '<text class="axis" x="' + (W - pr + 6) + '" y="' + (+yy + 4) + '">' + fp(v) + '</text>';
     }
     bars.forEach(function (b, i) {
       const col = b.c >= b.o ? UP : DOWN, xx = x(i).toFixed(1);
@@ -77,7 +79,7 @@
       const b = bars[i], prev = i > 0 ? bars[i - 1].c : null;
       const pct = prev ? (b.c - prev) / prev * 100 : null;
       xh.setAttribute('x1', x(i)); xh.setAttribute('x2', x(i)); xh.style.display = '';
-      tip.innerHTML = '<b>' + b.d + '</b><span>시 ' + fmt(b.o) + '</span><span>고 ' + fmt(b.h) + '</span><span>저 ' + fmt(b.l) + '</span><span>종 ' + fmt(b.c) + '</span>' +
+      tip.innerHTML = '<b>' + b.d + '</b><span>시 ' + fp(b.o) + '</span><span>고 ' + fp(b.h) + '</span><span>저 ' + fp(b.l) + '</span><span>종 ' + fp(b.c) + '</span>' +
         (pct == null ? '' : '<span class="' + (pct >= 0 ? 'up' : 'down') + '">' + (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%</span>');
       tip.hidden = false;
       const px = x(i) / k;

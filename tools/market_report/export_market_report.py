@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""마켓리포트용 실데이터 수집 -> docs/data/market_report.json
+"""마켓리포트용 실데이터 수집 -> docs/data/market_report.json(개요) + docs/data/mr/(종목 색인·상세)
 
 소스
   - 네이버 증권 모바일 API: 한국 지수/국채, 종목 시세·차트·수급·재무·뉴스·공시·리포트, 순위, 업종
@@ -7,6 +7,7 @@
 실패한 항목은 건너뛰고(없는 값은 JSON에서 생략), 핵심 데이터(한국 지수)가 없으면
 기존 파일을 덮어쓰지 않고 종료 코드 1로 끝난다.
 """
+import argparse
 import json
 import sys
 import time
@@ -22,12 +23,17 @@ except ImportError:  # 해외 지수/환율/현금흐름만 비게 된다
     yf = None
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "docs" / "data" / "market_report.json"
+DATA = ROOT / "docs" / "data"
+OUT = DATA / "market_report.json"       # 개요(지수·수급·순위·업종)
+INDEX = DATA / "mr" / "index.json"      # 검색·목록용 종목 색인
+STOCK_DIR = DATA / "mr" / "s"           # 종목별 상세(차트·재무·이슈) — 화면에서 필요할 때 불러온다
 M = "https://m.stock.naver.com/api"
 A = "https://api.stock.naver.com"
 KST = dt.timezone(dt.timedelta(hours=9))
 DEFAULT_WATCH = ["005930", "000660", "042700", "196170"]
-TOP_KOSPI, TOP_KOSDAQ, RANK_N, SPARK_N, BARS_N = 20, 8, 8, 24, 450
+N_KOSPI, N_KOSDAQ, N_NASDAQ, N_NYSE = 200, 250, 150, 150  # 시장별 시총 상위 N개
+CF_TOP = 150  # 현금흐름(yfinance, 느림)은 한국 시총 상위 N개에만
+RANK_N, SPARK_N, BARS_N = 8, 24, 450
 
 S = requests.Session()
 S.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://m.stock.naver.com/"})
@@ -157,7 +163,7 @@ def build_countries():
     return out
 
 
-# ---------------------------------------------------------------- 종목
+# ---------------------------------------------------------------- 종목 공통
 def parse_rows(fin):
     info = (fin or {}).get("financeInfo") or {}
     cols = info.get("trTitleList") or []
@@ -165,7 +171,7 @@ def parse_rows(fin):
     return cols, rows
 
 
-def build_fin(code, mkt_suffix):
+def build_fin_kr(code, mkt_suffix, with_cf):
     keymap = {"rev": "매출액", "op": "영업이익", "ni": "당기순이익", "eps": "EPS", "roe": "ROE", "opm": "영업이익률"}
     out = {}
     for mode in ("annual", "quarter"):
@@ -179,14 +185,14 @@ def build_fin(code, mkt_suffix):
             y, m = c["key"][:4], c["key"][4:6]
             lab = y if mode == "annual" else f"{y[2:]}.{(int(m) - 1) // 3 + 1}Q"
             labels.append(lab + ("E" if c["isConsensus"] == "Y" else ""))
-        d = {"cols": labels}
+        d = {"cols": labels, "unit": "억원"}
         for k, title in keymap.items():
             d[k] = [num(rows.get(title, {}).get(c["key"], {}).get("value")) for c in cols]
         d["cfo"] = [None] * len(cols)
         d["cfi"] = [None] * len(cols)
         out[mode] = (d, cols)
-    # 연간 현금흐름 (yfinance, 원 -> 억원)
-    if "annual" in out and yf is not None:
+    # 연간 현금흐름 (yfinance, 원 -> 억원). 호출이 느려 시총 상위 종목에만 붙인다.
+    if with_cf and "annual" in out and yf is not None:
         try:
             cf = yf.Ticker(code + mkt_suffix).cashflow
             d, cols = out["annual"]
@@ -202,49 +208,78 @@ def build_fin(code, mkt_suffix):
     return {m: v[0] for m, v in out.items()}
 
 
+def build_fin_us(code):
+    """미국 종목: 네이버 월드 재무(백만 달러). EPS·ROE·현금흐름은 소스에 없어 비운다."""
+    keymap = {"rev": "매출액", "op": "EBIT", "ni": "당기순이익"}
+    out = {}
+    for mode in ("annual", "quarter"):
+        fin = get(f"{A}/stock/{code}/finance/{mode}")
+        cols = (fin or {}).get("trTitleList") or []
+        rows = {r["title"]: r["columns"] for r in (fin or {}).get("rowList") or []}
+        if not cols:
+            continue
+        cols = cols[-5:] if mode == "quarter" else cols[-5:]
+        labels = []
+        for c in cols:
+            k = c["key"]  # '2025.09.27'
+            lab = k[:4] if mode == "annual" else f"{k[2:4]}.{k[5:7]}"
+            labels.append(lab + ("E" if c["isConsensus"] == "Y" else ""))
+        d = {"cols": labels, "unit": "백만 달러"}
+        for key, title in keymap.items():
+            d[key] = [num(rows.get(title, {}).get(c["key"], {}).get("value")) for c in cols]
+        d["opm"] = [round(o / r * 100, 1) if o is not None and r else None for o, r in zip(d["op"], d["rev"])]
+        for k in ("eps", "roe", "cfo", "cfi"):
+            d[k] = [None] * len(cols)
+        out[mode] = d
+    return out
+
+
 def fmt_dt(s):
     """'202611011737' | '2026-10-29T06:52:29' -> '11.01 17:37'"""
     d = "".join(ch for ch in str(s) if ch.isdigit())
     return f"{d[4:6]}.{d[6:8]} {d[8:10]}:{d[10:12]}" if len(d) >= 12 else (f"{d[4:6]}.{d[6:8]}" if len(d) >= 8 else "")
 
 
-def build_issues(code, name, integ):
-    issues = []
-    disc = get(f"{M}/stock/{code}/disclosure?page=1&pageSize=3") or []
-    for x in disc[:1]:
-        issues.append({"tag": "공시", "meta": f"{x.get('author', '공시')} · {fmt_dt(x['datetime'])}", "text": x["title"]})
-    news = get(f"{M}/news/stock/{code}?pageSize=10&page=1") or []
+def news_issues(url, name, limit=2):
+    news = get(url) or []
+    news = [cl for cl in news if isinstance(cl, dict) and cl.get("items")]
     # 시황 기사보다 종목명이 제목에 들어간 기사를 먼저 보여준다 (sort는 안정 정렬이라 최신순 유지)
-    news.sort(key=lambda cl: 0 if any(name in (it.get("title") or "") for it in (cl.get("items") or [])[:1]) else 1)
-    seen = 0
-    for cl in news:
-        for it in (cl.get("items") or [])[:1]:
-            url = it.get("mobileNewsUrl") or ""
-            issues.append({"tag": "뉴스", "meta": f"{it.get('officeName', '')} · {fmt_dt(it['datetime'])}", "text": it["titleFull"] if it.get("titleFull") else it["title"],
-                           "url": url if url.startswith("https://n.news.naver.com/") else ""})
-            seen += 1
-        if seen >= 2:
-            break
-    for x in (integ.get("researches") or [])[:1]:
-        issues.append({"tag": "리포트", "meta": f"{x.get('bnm', '')} · {fmt_dt(x.get('wdt'))}", "text": x["tit"]})
-    return issues
+    news.sort(key=lambda cl: 0 if name and name in (cl["items"][0].get("title") or "") else 1)
+    out = []
+    for cl in news[:limit]:
+        it = cl["items"][0]
+        link = it.get("mobileNewsUrl") or ""
+        out.append({"tag": "뉴스", "meta": f"{it.get('officeName', '')} · {fmt_dt(it['datetime'])}",
+                    "text": it.get("titleFull") or it["title"], "url": link if link.startswith("https://n.news.naver.com/") else ""})
+    return out
 
 
-def build_stock(code):
-    basic = get(f"{M}/stock/{code}/basic")
-    integ = get(f"{M}/stock/{code}/integration")
+def chart_bars(url_tpl, code):
     today = dt.datetime.now(KST).date()
-    chart = get(f"{A}/chart/domestic/item/{code}/day?startDateTime={(today - dt.timedelta(days=760)).strftime('%Y%m%d')}&endDateTime={today.strftime('%Y%m%d')}")
-    if not (basic and integ and chart and len(chart) > 30):
+    chart = get(url_tpl.format(code=code, s=(today - dt.timedelta(days=760)).strftime("%Y%m%d"), e=today.strftime("%Y%m%d")))
+    if not chart or len(chart) < 30:
+        return None, None
+    chart = chart[-BARS_N:]
+    rnd = (lambda v: int(round(v))) if url_tpl is KR_CHART else (lambda v: round(float(v), 2))
+    bars = [[int(r["localDate"]), rnd(r["openPrice"]), rnd(r["highPrice"]), rnd(r["lowPrice"]), rnd(r["closePrice"])] for r in chart]
+    return bars, int(chart[-1].get("accumulatedTradingVolume") or 0)
+
+
+KR_CHART = A + "/chart/domestic/item/{code}/day?startDateTime={s}&endDateTime={e}"
+US_CHART = A + "/chart/foreign/item/{code}/day?startDateTime={s}&endDateTime={e}"
+
+
+def build_kr(row, with_cf):
+    """row: 네이버 시총 리스트 한 줄. 반환: (index_row, detail)"""
+    code = row["itemCode"]
+    integ = get(f"{M}/stock/{code}/integration")
+    bars, vol = chart_bars(KR_CHART, code)
+    if not (integ and bars):
         log(f"skip {code} (데이터 부족)")
         return None
-    chart = chart[-BARS_N:]
-    bars = [[int(r["localDate"]), int(r["openPrice"]), int(r["highPrice"]), int(r["lowPrice"]), int(r["closePrice"])] for r in chart]
     price = bars[-1][4]
-    # 등락은 네이버 공식 값(basic)을 쓴다. 차트 API의 전일 종가와 어긋나는 종목이 있다.
-    chg = num(basic.get("compareToPreviousClosePrice"))
-    pct = num(basic.get("fluctuationsRatio"))
-    if chg is None or pct is None:
+    chg, pct = num(row.get("compareToPreviousClosePrice")), num(row.get("fluctuationsRatio"))
+    if chg is None or pct is None:  # 등락은 네이버 공식 값. 없을 때만 차트로 계산
         chg, pct = price - bars[-2][4], (price - bars[-2][4]) / bars[-2][4] * 100
     info = {i["code"]: i for i in integ.get("totalInfos") or []}
     val = lambda k: (info.get(k) or {}).get("value")
@@ -255,22 +290,63 @@ def build_stock(code):
         flow["dates"].append(int(d["bizdate"]))
         for k, key in (("f", "foreignerPureBuyQuant"), ("i", "organPureBuyQuant"), ("p", "individualPureBuyQuant")):
             flow[k].append(round((num(d[key]) or 0) * px / 1e8))
-    market = (basic.get("stockExchangeType") or {}).get("nameKor") or "코스피"
-    suffix = ".KQ" if market == "코스닥" else ".KS"
-    return {
-        "code": code, "name": basic["stockName"], "market": market,
-        "price": price, "chg": int(chg), "pct": round(pct, 2),
+    name = row["stockName"]
+    market = (row.get("stockExchangeType") or {}).get("nameKor") or "코스피"
+    issues = []
+    for x in (get(f"{M}/stock/{code}/disclosure?page=1&pageSize=3") or [])[:1]:
+        issues.append({"tag": "공시", "meta": f"{x.get('author', '공시')} · {fmt_dt(x['datetime'])}", "text": x["title"]})
+    issues += news_issues(f"{M}/news/stock/{code}?pageSize=10&page=1", name)
+    for x in (integ.get("researches") or [])[:1]:
+        issues.append({"tag": "리포트", "meta": f"{x.get('bnm', '')} · {fmt_dt(x.get('wdt'))}", "text": x["tit"]})
+    detail = {
         "cap": val("marketValue"), "per": val("per"), "pbr": val("pbr"),
-        "hi52": num(val("highPriceOf52Weeks")), "lo52": num(val("lowPriceOf52Weeks")),
-        "volume": int(chart[-1].get("accumulatedTradingVolume") or 0),
-        "foreignShare": (deals[-1].get("foreignerHoldRatio") if deals else None) or val("foreignRate"),
-        "flow": flow, "issues": build_issues(code, basic["stockName"], integ), "fin": build_fin(code, suffix), "bars": bars,
+        "hi52": num(val("highPriceOf52Weeks")), "lo52": num(val("lowPriceOf52Weeks")), "volume": vol,
+        "extra": ["외국인 지분율", (deals[-1].get("foreignerHoldRatio") if deals else None) or val("foreignRate")],
+        "flow": flow, "issues": issues, "fin": build_fin_kr(code, ".KQ" if market == "코스닥" else ".KS", with_cf), "bars": bars,
     }
+    idx = [code, name, market, price, int(chg), round(pct, 2), flow["f"][-1] if flow["f"] else None, flow["i"][-1] if flow["i"] else None, code, None, "KRW"]
+    return idx, detail
 
 
-def top_codes(kind, market, n):
-    d = get(f"{M}/stocks/{kind}/{market}?page=1&pageSize={n}") or {}
-    return [s for s in d.get("stocks") or [] if s.get("stockEndType") == "stock"]
+def build_us(row):
+    code = row["reutersCode"]
+    basic = get(f"{A}/stock/{code}/basic")
+    bars, vol = chart_bars(US_CHART, code)
+    if not (basic and bars):
+        log(f"skip {code} (데이터 부족)")
+        return None
+    info = {i["code"]: i for i in basic.get("stockItemTotalInfos") or []}
+    val = lambda k: (info.get(k) or {}).get("value")
+    price = num(basic.get("closePrice")) or bars[-1][4]
+    chg, pct = num(basic.get("compareToPreviousClosePrice")), num(basic.get("fluctuationsRatio"))
+    if chg is None or pct is None:
+        chg, pct = price - bars[-2][4], (price - bars[-2][4]) / bars[-2][4] * 100
+    name = basic.get("stockName") or row.get("stockName")
+    sym = basic.get("symbolCode") or code.split(".")[0]
+    market = (basic.get("stockExchangeType") or {}).get("name") or row.get("_ex") or "NASDAQ"
+    cap = val("marketValue")
+    detail = {
+        "cap": cap, "per": val("per"), "pbr": val("pbr"),
+        "hi52": num(val("highPriceOf52Weeks")), "lo52": num(val("lowPriceOf52Weeks")), "volume": vol,
+        "extra": ["배당수익률", val("dividendYieldRatio")], "flow": None,
+        "issues": news_issues(f"{A}/news/stock/{code}?pageSize=10&page=1", name), "fin": build_fin_us(code), "bars": bars,
+    }
+    idx = [code, name, market, round(price, 2), round(chg, 2), round(pct, 2), None, None, sym, basic.get("stockNameEng"), "USD"]
+    return idx, detail
+
+
+# ---------------------------------------------------------------- 유니버스·순위·업종
+def list_rows(url_tpl, n, stock_key="stocks"):
+    """페이지를 넘기며 보통주(stockEndType == stock) n개를 모은다."""
+    rows, page = [], 1
+    while len(rows) < n and page <= 12:
+        d = get(url_tpl.format(page=page, size=100)) or {}
+        got = d.get(stock_key) or []
+        if not got:
+            break
+        rows += [s for s in got if s.get("stockEndType") == "stock"]
+        page += 1
+    return rows[:n]
 
 
 def build_ranking():
@@ -278,12 +354,13 @@ def build_ranking():
     for kind in ("quantTop", "up", "down"):
         rows = []
         for mk in ("KOSPI", "KOSDAQ"):
-            rows += top_codes(kind, mk, 40)
+            d = get(f"{M}/stocks/{kind}/{mk}?page=1&pageSize=40") or {}
+            rows += [s for s in d.get("stocks") or [] if s.get("stockEndType") == "stock"]
         key = {"quantTop": lambda s: -num(s["accumulatedTradingVolume"]),
                "up": lambda s: -num(s["fluctuationsRatio"]), "down": lambda s: num(s["fluctuationsRatio"])}[kind]
         rows = [s for s in rows if num(s["accumulatedTradingVolume"]) is not None]
         rows.sort(key=key)
-        pool[kind] = [s["itemCode"] for s in rows[:RANK_N + 6]]  # 데이터 부족으로 빠지는 종목 대비 여유분
+        pool[kind] = rows[:RANK_N + 6]  # 데이터 부족으로 빠지는 종목 대비 여유분
     return pool
 
 
@@ -305,55 +382,136 @@ def build_sectors():
     return [{"name": x["name"], "pct": num(x["changeRate"])} for x in pick]
 
 
+def dump(path, obj):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    tmp.replace(path)
+
+
+def load_json(path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+KR_MARKETS = ("코스피", "코스닥")
+
+
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--only", choices=["all", "kr", "us"], default="all", help="상세 데이터를 새로 받을 시장 (나머지는 기존 파일 유지)")
+    ap.add_argument("--small", action="store_true", help="스모크 테스트: 시장당 10종목만")
+    args = ap.parse_args()
+    n_kospi, n_kosdaq, n_nas, n_nyse = (10, 10, 10, 10) if args.small else (N_KOSPI, N_KOSDAQ, N_NASDAQ, N_NYSE)
+
     countries = build_countries()
     if not countries:
         log("한국 지수 수집 실패 - 기존 파일 유지")
         return 1
-    kospi = get(f"{M}/index/KOSPI/integration") or {}
-    kosdaq = get(f"{M}/index/KOSDAQ/integration") or {}
-    deal = lambda x: {"date": x["bizdate"], "개인": num(x["personalValue"]), "외국인": num(x["foreignValue"]), "기관": num(x["institutionalValue"])}
-    ud = lambda x: {k: int(num(v) or 0) for k, v in (x.get("upDownStockInfo") or {}).items()}
+    prev = load_json(OUT) or {}
+    old_idx = (load_json(INDEX) or {}).get("stocks") or []
+    new_rows, details = [], {}
 
-    ranking = build_ranking()
-    codes = list(DEFAULT_WATCH)
-    for mk, n in (("KOSPI", TOP_KOSPI), ("KOSDAQ", TOP_KOSDAQ)):
-        codes += [s["itemCode"] for s in top_codes("marketValue", mk, n * 2)[:n]]
-    for lst in ranking.values():
-        codes += lst
-    codes = list(dict.fromkeys(codes))
-    log(f"종목 {len(codes)}개 수집")
-    with ThreadPoolExecutor(max_workers=8) as ex:
-        built = list(ex.map(build_stock, codes))
-    stocks = {s["code"]: s for s in built if s}
+    do_kr, do_us = args.only in ("all", "kr"), args.only in ("all", "us")
+    ranking_pool = build_ranking() if do_kr else None
 
-    def rank_rows(lst):
+    if do_kr:
+        rows = list_rows(f"{M}/stocks/marketValue/KOSPI?page={{page}}&pageSize={{size}}", n_kospi)
+        rows += list_rows(f"{M}/stocks/marketValue/KOSDAQ?page={{page}}&pageSize={{size}}", n_kosdaq)
+        seen = {r["itemCode"] for r in rows}
+        wanted = {c: None for c in DEFAULT_WATCH if c not in seen}
+        for lst in ranking_pool.values():
+            for s in lst:
+                if s["itemCode"] not in seen:
+                    seen.add(s["itemCode"])
+                    rows.append(s)
+        for c in wanted:  # 기본 관심종목이 상위에 없을 때만 개별 조회
+            b = get(f"{M}/stock/{c}/basic")
+            if b and c not in seen:
+                b["itemCode"] = c
+                rows.append(b)
+        log(f"한국 {len(rows)}종목 수집")
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            res = list(ex.map(lambda ir: build_kr(ir[1], ir[0] < CF_TOP), enumerate(rows)))
+        for r in res:
+            if r:
+                new_rows.append(r[0]); details[r[0][0]] = r[1]
+    if do_us:
         rows = []
-        for c in lst:
-            s = stocks.get(c)
-            if s:
-                rows.append({"code": c, "price": s["price"], "pct": s["pct"], "vol": s["volume"], "f": s["flow"]["f"][-1], "i": s["flow"]["i"][-1]})
-        return rows[:RANK_N]
+        for ex_name, n in (("NASDAQ", n_nas), ("NYSE", n_nyse)):
+            got = list_rows(f"{A}/stock/exchange/{ex_name}/marketValue?page={{page}}&pageSize={{size}}", n)
+            for g in got:
+                g["_ex"] = ex_name
+            rows += got
+        log(f"미국 {len(rows)}종목 수집")
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            res = list(ex.map(build_us, rows))
+        for r in res:
+            if r:
+                new_rows.append(r[0]); details[r[0][0]] = r[1]
+
+    # 이번에 안 받은 시장은 기존 색인을 그대로 유지
+    keep = []
+    if args.only == "kr":
+        keep = [r for r in old_idx if r[2] not in KR_MARKETS]
+    elif args.only == "us":
+        keep = [r for r in old_idx if r[2] in KR_MARKETS]
+    index_rows = keep + new_rows
+    if not index_rows:
+        log("종목 색인이 비어 있음 - 기존 파일 유지")
+        return 1
+    by_code = {r[0]: r for r in index_rows}
+
+    # 새로 받은 상세 저장 + 색인에서 빠진 종목 파일 정리
+    for code, d in details.items():
+        dump(STOCK_DIR / f"{code}.json", d)
+    live_codes = set(by_code)
+    for f in STOCK_DIR.glob("*.json") if STOCK_DIR.exists() else []:
+        if f.stem not in live_codes:
+            f.unlink()
+    dump(INDEX, {"generatedAt": dt.datetime.now(KST).isoformat(timespec="seconds"), "stocks": index_rows})
+
+    if do_kr:
+        kospi = get(f"{M}/index/KOSPI/integration") or {}
+        kosdaq = get(f"{M}/index/KOSDAQ/integration") or {}
+        deal = lambda x: {"date": x["bizdate"], "개인": num(x["personalValue"]), "외국인": num(x["foreignValue"]), "기관": num(x["institutionalValue"])}
+        ud = lambda x: {k: int(num(v) or 0) for k, v in (x.get("upDownStockInfo") or {}).items()}
+
+        def rank_rows(lst):
+            out = []
+            for s in lst:
+                r = by_code.get(s["itemCode"])
+                if r:
+                    out.append({"code": r[0], "name": r[1], "price": r[3], "pct": r[5], "vol": int(num(s.get("accumulatedTradingVolume")) or 0), "f": r[6], "i": r[7]})
+            return out[:RANK_N]
+
+        overview = {
+            "kospiFlows": deal(kospi["dealTrendInfo"]) if kospi.get("dealTrendInfo") else None,
+            "kosdaqFlows": deal(kosdaq["dealTrendInfo"]) if kosdaq.get("dealTrendInfo") else None,
+            "breadth": {"kospi": ud(kospi), "kosdaq": ud(kosdaq)},
+            "sectors": build_sectors(),
+            "ranking": {"volume": rank_rows(ranking_pool["quantTop"]), "gain": rank_rows(ranking_pool["up"]), "loss": rank_rows(ranking_pool["down"])},
+        }
+    else:  # 미국만 갱신하는 실행: 한국 장 관련 값은 직전 파일을 유지
+        overview = {k: prev.get(k) for k in ("kospiFlows", "kosdaqFlows", "breadth", "sectors", "ranking")}
+        overview["sectors"] = overview["sectors"] or []
+        overview["ranking"] = overview["ranking"] or {"volume": [], "gain": [], "loss": []}
+        overview["breadth"] = overview["breadth"] or {"kospi": {}, "kosdaq": {}}
 
     out = {
-        "version": 1,
+        "version": 2,
         "generatedAt": dt.datetime.now(KST).isoformat(timespec="seconds"),
         "asOf": countries["KR"]["indices"][0]["date"],
         "countries": countries,
-        "kospiFlows": deal(kospi.get("dealTrendInfo") or {}) if kospi.get("dealTrendInfo") else None,
-        "kosdaqFlows": deal(kosdaq["dealTrendInfo"]) if kosdaq.get("dealTrendInfo") else None,
-        "breadth": {"kospi": ud(kospi), "kosdaq": ud(kosdaq)},
         "macro": build_macro(),
-        "sectors": build_sectors(),
-        "ranking": {"volume": rank_rows(ranking["quantTop"]), "gain": rank_rows(ranking["up"]), "loss": rank_rows(ranking["down"])},
-        "defaultWatch": [c for c in DEFAULT_WATCH if c in stocks],
-        "stocks": stocks,
+        "defaultWatch": [c for c in DEFAULT_WATCH if c in by_code],
+        **overview,
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    tmp = OUT.with_suffix(".tmp")
-    tmp.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    tmp.replace(OUT)
-    log(f"완료: {OUT} ({OUT.stat().st_size // 1024}KB, 종목 {len(stocks)}개, 기준일 {out['asOf']})")
+    dump(OUT, out)
+    n_kr = sum(1 for r in index_rows if r[2] in KR_MARKETS)
+    log(f"완료: 개요 {OUT.stat().st_size // 1024}KB · 색인 {len(index_rows)}종목(한국 {n_kr}, 미국 {len(index_rows) - n_kr}) · 기준일 {out['asOf']}")
     return 0
 
 

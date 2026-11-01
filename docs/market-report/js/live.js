@@ -6,6 +6,8 @@
   const MR = (window.MR = window.MR || {});
   const REPORT_URL = '../data/market_report.json';
   const PULSE_URL = '../data/market_pulse.json';
+  const INDEX_URL = '../data/mr/index.json';
+  const STOCK_URL = '../data/mr/s/';
   const WEEK = ['일', '월', '화', '수', '목', '금', '토'];
   const f2 = function (n) { return Number(n).toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
   const sp = function (p) { return (p > 0 ? '+' : '') + p.toFixed(2) + '%'; };
@@ -24,16 +26,41 @@
     return out;
   }
 
-  function wrapStock(r) {
-    const s = Object.assign({}, r, { live: true });
-    const fl = r.flow;
-    s.flow5 = { f: fl.f, i: fl.i, p: fl.p };
-    s.flowToday = { foreign: fl.f[fl.f.length - 1], inst: fl.i[fl.i.length - 1], person: fl.p[fl.p.length - 1] };
-    s.dates5 = function () { return fl.dates.map(function (d) { return ymd(d).slice(5); }); };
-    let ser = null;
+  /* 색인 한 줄 [code,name,market,price,chg,pct,foreignToday,instToday,sym,eng,cur] -> 종목 객체.
+   * 차트·재무·이슈 같은 상세는 load()를 부를 때 data/mr/s/<code>.json 에서 가져온다. */
+  function makeStock(r) {
+    const s = {
+      code: r[0], name: r[1], market: r[2], price: r[3], chg: r[4], pct: r[5],
+      sym: r[8] || r[0], eng: r[9] || '', cur: r[10] || 'KRW', live: true, loaded: false, issues: [], flow5: null,
+      flowToday: r[6] == null ? null : { foreign: r[6], inst: r[7] },
+    };
+    s.isUS = s.cur !== 'KRW';
+    s.key = [s.name, s.sym, s.eng, s.code].join(' ').toLowerCase().replace(/\s+/g, '');
+    let pending = null, ser = null, d = null;
+    s.load = function () {
+      if (s.loaded) return Promise.resolve(s);
+      if (!pending) {
+        pending = fetch(STOCK_URL + encodeURIComponent(s.code) + '.json', { cache: 'no-cache' })
+          .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+          .then(function (x) {
+            d = x;
+            Object.assign(s, { cap: x.cap, per: x.per, pbr: x.pbr, hi52: x.hi52, lo52: x.lo52, volume: x.volume, extra: x.extra || null, issues: x.issues || [] });
+            if (x.flow) {
+              s.flow5 = { f: x.flow.f, i: x.flow.i, p: x.flow.p };
+              s.flowDates = x.flow.dates.map(function (n) { return ymd(n).slice(5); });
+            }
+            s.lastDate = x.bars.length ? ymd(x.bars[x.bars.length - 1][0]) : '';
+            s.loaded = true;
+            return s;
+          })
+          .catch(function (e) { pending = null; throw e; });
+      }
+      return pending;
+    };
+    s.dates5 = function () { return s.flowDates || []; };
     s.series = function () {
-      if (!ser) {
-        const bars = r.bars.map(function (b) { return { d: ymd(b[0]), o: b[1], h: b[2], l: b[3], c: b[4] }; });
+      if (!ser && d) {
+        const bars = d.bars.map(function (b) { return { d: ymd(b[0]), o: b[1], h: b[2], l: b[3], c: b[4] }; });
         const closes = bars.map(function (b) { return b.c; });
         const ma = {};
         [10, 20, 60, 120, 200].forEach(function (n) { ma[n] = sma(closes, n); });
@@ -41,15 +68,11 @@
       }
       return ser;
     };
-    s.fin = function (mode) {
-      const d = (r.fin && (r.fin[mode] || r.fin.annual)) || null;
-      return d;
-    };
-    s.issues = r.issues || [];
+    s.fin = function (mode) { return (d && d.fin && (d.fin[mode] || d.fin.annual)) || null; };
     return s;
   }
 
-  function applyReport(d) {
+  function applyReport(d, idx) {
     const dt = d.asOf.split('-').map(Number);
     const day = new Date(dt[0], dt[1] - 1, dt[2]);
     MR.reportLive = true;
@@ -67,8 +90,8 @@
       c.tiles = src.tiles.map(function (t) { return Object.assign({ live: true }, t); });
     });
 
-    // 종목 (조회 가능한 전체 유니버스를 실데이터로 교체)
-    MR.stocks = Object.keys(d.stocks).map(function (k) { return wrapStock(d.stocks[k]); });
+    // 종목 (색인 전체를 검색 대상으로 교체. 상세는 선택할 때 지연 로딩)
+    MR.stocks = idx.stocks.map(makeStock);
     MR.stockByCode = {};
     MR.stocks.forEach(function (s) { MR.stockByCode[s.code] = s; });
     MR.defaultWatch = d.defaultWatch.length ? d.defaultWatch : MR.stocks.slice(0, 4).map(function (s) { return s.code; });
@@ -161,9 +184,10 @@
   }
 
   MR.loadLive = function () {
-    const rep = fetchJson(REPORT_URL).then(function (d) {
-      if (!d || !d.asOf || !d.countries || !d.stocks) throw new Error('형식 오류');
-      applyReport(d);
+    const rep = Promise.all([fetchJson(REPORT_URL), fetchJson(INDEX_URL)]).then(function (r) {
+      const d = r[0], idx = r[1];
+      if (!d || !d.asOf || !d.countries || !idx || !Array.isArray(idx.stocks) || !idx.stocks.length) throw new Error('형식 오류');
+      applyReport(d, idx);
     }).catch(function (e) { MR.reportLive = false; MR.liveError = String((e && e.message) || e); });
     const pul = fetchJson(PULSE_URL).catch(function () { return null; });
     return Promise.all([rep, pul]).then(function (r) {

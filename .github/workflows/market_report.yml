@@ -3,11 +3,19 @@ name: Market Report Data
 on:
   schedule:
     # 평일 2회 (분침은 정각을 피해 지연·누락 위험을 줄임)
-    #  - KST 07:12 (UTC 22:12, 일~목): 미국 마감 반영
-    #  - KST 17:07 (UTC 08:07, 월~금): 한국 마감·수급 확정 반영 (장 마감 15:30, 종가 확정 후)
+    #  - KST 07:12 (UTC 22:12, 일~목): 미국 마감 반영 → 미국 종목 상세(약 300개)만 새로 받는다
+    #  - KST 17:07 (UTC 08:07, 월~금): 한국 마감·수급 확정 반영 → 한국 종목 상세(약 470개)만 새로 받는다
+    # 시장별로 나눠 받아 매 실행마다 커밋되는 파일 수(저장소 증가량)를 절반으로 줄인다.
     - cron: '12 22 * * 0-4'
     - cron: '7 8 * * 1-5'
   workflow_dispatch:
+    inputs:
+      only:
+        description: '새로 받을 시장 (all=전체, kr=한국, us=미국). 스케줄 실행은 시각에 따라 자동 결정'
+        required: false
+        default: 'all'
+        type: choice
+        options: [all, kr, us]
 
 permissions:
   contents: write
@@ -20,7 +28,7 @@ concurrency:
 jobs:
   export:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -36,16 +44,29 @@ jobs:
         run: pip install yfinance requests curl_cffi
 
       # 한국 지수 수집에 실패하면 스크립트가 exit 1 로 끝나고 기존 JSON은 그대로 유지된다.
+      - name: 수집 대상 시장 결정
+        id: scope
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ONLY="${{ github.event.inputs.only }}"
+          elif [ "${{ github.event.schedule }}" = "12 22 * * 0-4" ]; then
+            ONLY=us
+          else
+            ONLY=kr
+          fi
+          echo "only=${ONLY:-all}" >> "$GITHUB_OUTPUT"
+          echo "수집 대상: ${ONLY:-all}"
+
       - name: 마켓리포트 데이터 수집
         env:
           PYTHONIOENCODING: utf-8
-        run: python tools/market_report/export_market_report.py
+        run: python tools/market_report/export_market_report.py --only ${{ steps.scope.outputs.only }}
 
       - name: 결과 커밋 및 푸시 (충돌 시 최대 3회 재시도 — 실패를 숨기지 않음)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/market_report.json
+          git add docs/data/market_report.json docs/data/mr
 
           if git diff --staged --quiet; then
             echo "[commit] 변경사항 없음 — 커밋 스킵"

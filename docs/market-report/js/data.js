@@ -224,6 +224,11 @@
     }
     s.flow5 = fl;
     s.flowToday = { foreign: fl.f[4], inst: fl.i[4], person: fl.p[4] };
+    // 실데이터 종목과 같은 인터페이스(지연 로딩 API)를 맞춘다
+    s.cur = 'KRW'; s.sym = s.code; s.eng = ''; s.loaded = true; s.isUS = false;
+    s.extra = ['외국인 지분율', s.foreignShare];
+    s.key = (s.name + s.code).toLowerCase().replace(/\s+/g, '');
+    s.load = function () { return Promise.resolve(s); };
     let _series = null, _fin = null, _q = null;
     s.series = function () { return _series || (_series = genSeries(s)); };
     s.dates5 = function () { return s.series().bars.slice(-5).map(function (b) { return b.d.slice(5); }); };

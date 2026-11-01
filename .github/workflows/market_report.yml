@@ -2,11 +2,16 @@ name: Market Report Data
 
 on:
   schedule:
-    # 평일 2회 (분침은 정각을 피해 지연·누락 위험을 줄임)
-    #  - KST 07:12 (UTC 22:12, 일~목): 미국 마감 반영 → 미국 종목 상세(약 300개)만 새로 받는다
-    #  - KST 17:07 (UTC 08:07, 월~금): 한국 마감·수급 확정 반영 → 한국 종목 상세(약 470개)만 새로 받는다
+    # 평일 2슬롯 (분침은 정각을 피해 지연·누락 위험을 줄임). 각 슬롯마다 45분 뒤 백업 cron을 둔다.
+    # GitHub 스케줄은 지연·누락될 수 있다. 백업은 최근 3시간 안에 성공한 실행이 있으면 스스로 건너뛴다.
+    #  - 미국 슬롯: KST 07:12 (UTC 22:12, 일~목) 미국 마감 반영 → 미국 종목 상세(약 300개)만 새로 받는다
+    #                백업 KST 07:57 (UTC 22:57)
+    #  - 한국 슬롯: KST 17:07 (UTC 08:07, 월~금) 한국 마감·수급 확정 반영 → 한국 종목 상세(약 470개)만 새로 받는다
+    #                백업 KST 17:52 (UTC 08:52)
     - cron: '12 22 * * 0-4'
+    - cron: '57 22 * * 0-4'   # 백업(미국)
     - cron: '7 8 * * 1-5'
+    - cron: '52 8 * * 1-5'    # 백업(한국)
   workflow_dispatch:
     inputs:
       only:
@@ -18,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: read    # 중복 실행 가드에서 실행 이력 조회용
 
 # 같은 데이터를 쓰므로 동시 실행을 막는다 (밀린 실행은 대기, 취소하지 않음)
 concurrency:
@@ -34,24 +40,55 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      # 백업 cron 전용 가드. 하루 2슬롯(미국·한국)이라 "오늘 성공이 있으면 스킵" 방식은 쓸 수 없다
+      # (아침 성공이 오후 슬롯을 막는다). 대신 "최근 3시간 안의 성공"만 본다 — 정규 실행과 백업은
+      # 45분 간격이므로 같은 슬롯만 걸러지고, 반대 슬롯(약 10시간 차)은 영향받지 않는다.
+      # concurrency 로 백업은 정규 실행이 끝난 뒤에 시작하므로, 정규 실행이 늦어져도 중복되지 않는다.
+      - name: 중복 실행 방지 — 같은 슬롯에서 이미 성공했으면 백업 스킵
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          SCHEDULE="${{ github.event.schedule }}"
+          if [ "${{ github.event_name }}" != "schedule" ] || { [ "$SCHEDULE" != "57 22 * * 0-4" ] && [ "$SCHEDULE" != "52 8 * * 1-5" ]; }; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 정규 실행 또는 수동 실행 — 스킵 안 함"
+            exit 0
+          fi
+          SINCE=$(date -u -d '3 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          COUNT=$(gh run list --repo "${{ github.repository }}" \
+            --workflow=market_report.yml --status success --limit 20 \
+            --json createdAt --jq "[.[] | select(.createdAt > \"$SINCE\")] | length")
+          if [ "${COUNT:-0}" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "[가드] 최근 3시간 내 성공한 실행 ${COUNT}건 — 백업 실행 스킵"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "[가드] 최근 3시간 내 성공한 실행 없음 — 백업 진행"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.11'
           cache: pip
 
       - name: 의존성 설치
+        if: steps.guard.outputs.skip != 'true'
         run: pip install yfinance requests curl_cffi
 
       - name: 수집 대상 시장 결정
         id: scope
+        if: steps.guard.outputs.skip != 'true'
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             ONLY="${{ github.event.inputs.only }}"
-          elif [ "${{ github.event.schedule }}" = "12 22 * * 0-4" ]; then
+          elif [ "${{ github.event.schedule }}" = "12 22 * * 0-4" ] || [ "${{ github.event.schedule }}" = "57 22 * * 0-4" ]; then
             ONLY=us
           else
             ONLY=kr
@@ -61,6 +98,7 @@ jobs:
 
       # 직전 데이터를 작업 폴더로 가져온다. 한쪽 시장만 갱신할 때 반대쪽 데이터를 유지하려면 필요하다.
       - name: market-data 브랜치 준비
+        if: steps.guard.outputs.skip != 'true'
         run: |
           if git ls-remote --exit-code --heads origin market-data >/dev/null 2>&1; then
             git fetch --depth 1 origin market-data
@@ -75,12 +113,14 @@ jobs:
 
       # 한국 지수 수집에 실패하면 스크립트가 exit 1 로 끝나고 이후 단계는 실행되지 않는다(기존 데이터 유지).
       - name: 마켓리포트 데이터 수집
+        if: steps.guard.outputs.skip != 'true'
         env:
           PYTHONIOENCODING: utf-8
           MR_DATA_DIR: ${{ github.workspace }}/market-data
         run: python tools/market_report/export_market_report.py --only ${{ steps.scope.outputs.only }}
 
       - name: market-data 브랜치에 단일 커밋으로 강제 푸시 (히스토리 누적 없음)
+        if: steps.guard.outputs.skip != 'true'
         working-directory: market-data
         run: |
           git config user.name  "github-actions[bot]"

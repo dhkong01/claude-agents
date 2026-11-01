@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "indices": {
     "nasdaq": {
       "price": 25437.0,
@@ -59,12 +59,12 @@
     }
   },
   "breadth": {
-    "total": 514,
+    "total": 515,
     "advancers": 231,
-    "decliners": 283,
+    "decliners": 284,
     "unchanged": 0,
     "adv_pct": 44.9,
-    "coverage": 99.4,
+    "coverage": 99.6,
     "as_of": "2026-10-30",
     "attempts": 1,
     "status": "ok",
@@ -87,5 +87,5 @@
     "mfi_signal": "중립"
   },
   "guru_insights": [],
-  "guru_date": "2026-10-31"
+  "guru_date": "2026-11-01"
 }

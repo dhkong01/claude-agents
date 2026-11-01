@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
@@ -107,16 +107,16 @@
         "price": 417.11
       },
       {
+        "ticker": "AAPL",
+        "rs": 84.6,
+        "canslim": 61,
+        "price": 344.63
+      },
+      {
         "ticker": "ROP",
         "rs": 83.9,
         "canslim": 61,
         "price": 466.6
-      },
-      {
-        "ticker": "AAPL",
-        "rs": 84.6,
-        "canslim": 58,
-        "price": 344.63
       },
       {
         "ticker": "MRVL",
@@ -133,6 +133,12 @@
     ],
     "Healthcare": [
       {
+        "ticker": "REGN",
+        "rs": 90.8,
+        "canslim": 64,
+        "price": 927.89
+      },
+      {
         "ticker": "AMGN",
         "rs": 94.2,
         "canslim": 61,
@@ -143,7 +149,7 @@
       {
         "ticker": "CSX",
         "rs": 85.2,
-        "canslim": 61,
+        "canslim": 64,
         "price": 51.99
       }
     ],
@@ -153,14 +159,6 @@
         "rs": 71.5,
         "canslim": 57,
         "price": 64.94
-      }
-    ],
-    "Energy": [
-      {
-        "ticker": "FANG",
-        "rs": 85.9,
-        "canslim": 55,
-        "price": 212.08
       }
     ]
   },

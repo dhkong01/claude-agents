@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "analyzed": 139,
   "top10": [
     {
@@ -19,6 +19,42 @@
       "market_cap": 275042271232,
       "price": 300.84,
       "rs_rating": 92.1
+    },
+    {
+      "ticker": "REGN",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": 95988236288,
+      "price": 927.89,
+      "rs_rating": 90.8
+    },
+    {
+      "ticker": "CSX",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "market_cap": 96310173696,
+      "price": 51.99,
+      "rs_rating": 85.2
     },
     {
       "ticker": "AMGN",
@@ -57,7 +93,7 @@
       "rs_rating": 90.1
     },
     {
-      "ticker": "CSX",
+      "ticker": "AAPL",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -68,11 +104,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Industrials",
-      "industry": "Railroads",
-      "market_cap": 96310173696,
-      "price": 51.99,
-      "rs_rating": 85.2
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 5029592301568,
+      "price": 344.63,
+      "rs_rating": 84.6
     },
     {
       "ticker": "ROP",
@@ -93,24 +129,6 @@
       "rs_rating": 83.9
     },
     {
-      "ticker": "AAPL",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 4,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 5029592301568,
-      "price": 344.63,
-      "rs_rating": 84.6
-    },
-    {
       "ticker": "MDLZ",
       "canslim_score": 57,
       "scores": {
@@ -124,7 +142,7 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "market_cap": 82883452928,
+      "market_cap": 82203541504,
       "price": 64.94,
       "rs_rating": 71.5
     },
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 99843760128,
+      "market_cap": 99979304960,
       "price": 136.08,
       "rs_rating": 89.4
-    },
-    {
-      "ticker": "FANG",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 1,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "market_cap": 59386593280,
-      "price": 212.08,
-      "rs_rating": 85.9
     }
   ]
 }

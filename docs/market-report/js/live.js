@@ -81,6 +81,10 @@
     MR.asOfLabel = MR.asOf + ' (' + WEEK[day.getDay()] + ')';
     MR.generatedAt = d.generatedAt ? d.generatedAt.slice(5, 16).replace('T', ' ').replace('-', '.') : '';
     MR.ageDays = 0;
+    // 한국장 개장 중(15:40 KST 이전)에 수집된 날짜의 값은 '장중'(현재가), 그 외는 '마감'으로 표기한다.
+    const gen = d.generatedAt || '';
+    MR.sessionWord = gen.slice(0, 10) === d.asOf && gen.slice(11, 16) < '15:40' ? '장중' : '마감';
+    MR.sessionFor = function (dotDate) { return dotDate === MR.asOf && MR.sessionWord === '장중' ? '장중' : '마감'; };
 
     // 국가별 지수·타일
     Object.keys(d.countries).forEach(function (cid) {
@@ -124,10 +128,11 @@
     const R = MR.report, C = d.countries;
     const kp = C.KR.indices[0], kq = C.KR.indices[1];
     if (!kp) return;
-    const both = kq && kp.pct > 0 && kq.pct > 0 ? '동반 강세' : kq && kp.pct < 0 && kq.pct < 0 ? '동반 약세' : '엇갈린 마감';
+    const open = MR.sessionWord === '장중';
+    const both = kq && kp.pct > 0 && kq.pct > 0 ? '동반 강세' : kq && kp.pct < 0 && kq.pct < 0 ? '동반 약세' : (open ? '엇갈린 흐름' : '엇갈린 마감');
     R.headline = '코스피 ' + sp(kp.pct) + (kq ? ', 코스닥 ' + sp(kq.pct) : '') + ' — ' + both;
     const parts = [];
-    parts.push('코스피는 ' + f2(kp.value) + '(' + sp(kp.pct) + ')' + (kq ? ', 코스닥은 ' + f2(kq.value) + '(' + sp(kq.pct) + ')' : '') + '로 마감했습니다.');
+    parts.push('코스피는 ' + f2(kp.value) + '(' + sp(kp.pct) + ')' + (kq ? ', 코스닥은 ' + f2(kq.value) + '(' + sp(kq.pct) + ')' : '') + (open ? '로 거래 중입니다(장중 기준).' : '로 마감했습니다.'));
     const kf = d.kospiFlows;
     if (kf) {
       const t = function (k) { return k + ' ' + sg(kf[k]) + '억원'; };

@@ -99,7 +99,7 @@
   let BADGE = '<em class="badge">샘플</em>'; // 실데이터 로드에 성공하면 start()에서 비운다
   const badge = function (live) { return live ? '' : BADGE; };
   function dataMeta() {
-    if (MR.reportLive) return MR.asOf + ' 마감 기준 · ' + MR.generatedAt + ' 수집 · 네이버 증권·yfinance';
+    if (MR.reportLive) return MR.asOf + ' ' + MR.sessionWord + ' 기준 · ' + MR.generatedAt + ' 수집 · 네이버 증권·yfinance';
     if (MR.live) return MR.asOf + ' 기준 · 지수만 실데이터' + (MR.ageDays >= 2 ? ' (' + MR.ageDays + '일 전)' : '') + ' · 나머지는 샘플';
     return MR.asOf + ' 기준 · 샘플 데이터';
   }
@@ -167,7 +167,7 @@
     const chips = MR.countries.map(function (x) {
       return '<button type="button" class="chip' + (x.id === c.id ? ' active' : '') + '" data-country="' + x.id + '">' + x.name + '</button>';
     }).join('');
-    const flowSub = MR.reportLive ? '코스피 · 억원 · ' + MR.flowDate + ' 마감' : '코스피 · 억원';
+    const flowSub = MR.reportLive ? '코스피 · 억원 · ' + MR.flowDate + ' ' + MR.sessionFor(MR.flowDate) : '코스피 · 억원';
     const html = pageHead('오늘의 시장') +
       '<section class="card globe-card"><div class="globe-col"><div class="globe" id="globe"></div>' +
       '<p class="hint">드래그로 지구본 회전 · 국가를 누르면 해당 시장으로 이동</p><div class="chips" id="chips">' + chips + '</div></div>' +
@@ -214,7 +214,7 @@
     const sub = s.isUS ? esc(s.sym) + ' · ' + esc(s.market) + (s.eng ? ' · ' + esc(s.eng) : '') : esc(s.code) + ' · ' + esc(s.market);
     return '<section class="card stock-head"><div><h1>' + esc(s.name) + ' <small>' + sub + '</small></h1>' +
       '<div class="price"><strong class="' + cls(s.chg) + '">' + px(s, s.price) + '</strong>' + (s.isUS ? '<small class="cur">USD</small>' : '') + '<span class="' + cls(s.chg) + '"><i class="ar">' + arrow(s.chg) + '</i> ' + px(s, Math.abs(s.chg)) + ' (' + (s.pct > 0 ? '+' : '') + s.pct.toFixed(2) + '%)</span></div></div>' +
-      '<div class="head-r"><span class="meta">' + (s.lastDate || MR.asOf) + (s.isUS ? ' 종가 (미국 현지 거래일)' : ' 종가 마감') + (s.live ? ' · 네이버 증권' : ' · 샘플 데이터') + '</span><button type="button" class="btn-line" data-toggle-watch="' + s.code + '">' + (watched ? '★ 관심종목 해제' : '☆ 관심종목 추가') + '</button></div></section>';
+      '<div class="head-r"><span class="meta">' + (s.lastDate || MR.asOf) + (s.isUS ? ' 종가 (미국 현지 거래일)' : (s.live && MR.sessionFor(s.lastDate || MR.asOf) === '장중' ? ' 장중 현재가' : ' 종가 마감')) + (s.live ? ' · 네이버 증권' : ' · 샘플 데이터') + '</span><button type="button" class="btn-line" data-toggle-watch="' + s.code + '">' + (watched ? '★ 관심종목 해제' : '☆ 관심종목 추가') + '</button></div></section>';
   }
   function chartCard(s) {
     const ser = s.series(), last = ser.bars.length - 1;
@@ -362,12 +362,12 @@
       checks = R.checkpoints.map(function (c) { return '<li><time>' + c.t + '</time><span>' + c.text + '</span></li>'; }).join('');
     }
     return { html:
-      '<section class="hero"><small>일일 시황 리포트 · ' + MR.asOfLabel + (R.live ? '' : ' 샘플') + '</small><h1>' + esc(R.headline) + '</h1><p>' + esc(R.summary) + '</p></section>' +
+      '<section class="hero"><small>일일 시황 리포트 · ' + MR.asOfLabel + (R.live ? ' ' + MR.sessionWord : ' 샘플') + '</small><h1>' + esc(R.headline) + '</h1><p>' + esc(R.summary) + '</p></section>' +
       '<div class="grid-report"><div class="col">' +
       '<section class="card"><h2>1. 업종 흐름' + BADGE + '</h2>' + (tiles ? '<div class="sector-tiles">' + tiles + '</div>' : '<p class="empty">업종 데이터를 가져오지 못했습니다.</p>') + '<p class="note">' + esc(R.sectorNote) + '</p></section>' +
-      '<section class="card"><h2>2. 투자자별 수급' + BADGE + '</h2>' + (MR.kospiFlows.length ? flowBars(MR.kospiFlows) : '<p class="empty">수급 데이터를 가져오지 못했습니다.</p>') + '<p class="note">코스피 · 순매수 · 억원' + (MR.reportLive ? ' · ' + MR.flowDate + ' 마감' : '') + '</p></section>' +
+      '<section class="card"><h2>2. 투자자별 수급' + BADGE + '</h2>' + (MR.kospiFlows.length ? flowBars(MR.kospiFlows) : '<p class="empty">수급 데이터를 가져오지 못했습니다.</p>') + '<p class="note">코스피 · 순매수 · 억원' + (MR.reportLive ? ' · ' + MR.flowDate + ' ' + MR.sessionFor(MR.flowDate) : '') + '</p></section>' +
       '<section class="card"><h2>3. 내 종목 브리핑' + BADGE + '</h2>' + (brief ? '<ul class="brief">' + brief + '</ul>' : '<p class="empty">시황 홈에서 관심종목을 추가해 주세요.</p>') + '</section></div>' +
-      '<div class="col"><section class="card"><h2>마감 지수</h2><ul class="closes">' + closes + '</ul></section>' +
+      '<div class="col"><section class="card"><h2>' + (MR.reportLive && MR.sessionWord === '장중' ? '장중 지수' : '마감 지수') + '</h2><ul class="closes">' + closes + '</ul></section>' +
       (MR.live ? breadthCard() + macroCard() : '') +
       '<section class="card"><h2>' + checkTitle + '</h2>' + (checks ? '<ul class="checks">' + checks + '</ul>' : '<p class="empty">최근 공시가 없습니다.</p>') + '</section></div></div>',
       mount: function () {
@@ -409,7 +409,7 @@
     const tabs = [['volume', '거래상위'], ['gain', '상승률'], ['loss', '하락률']].map(function (t) {
       return '<button type="button" data-rank="' + t[0] + '" class="' + (state.rank === t[0] ? 'active' : '') + '">' + t[1] + '</button>';
     }).join('');
-    return { html: pageHead('랭킹 · 섹터', MR.reportLive ? MR.asOf + ' 마감 기준 · 코스피+코스닥 보통주 · 네이버 증권' : MR.asOf + ' 기준 · 샘플 데이터') + '<div class="grid-rank"><section class="card"><div class="seg" id="rankSeg">' + tabs + '</div>' +
+    return { html: pageHead('랭킹 · 섹터', MR.reportLive ? MR.asOf + ' ' + MR.sessionWord + ' 기준 · 코스피+코스닥 보통주 · 네이버 증권' : MR.asOf + ' 기준 · 샘플 데이터') + '<div class="grid-rank"><section class="card"><div class="seg" id="rankSeg">' + tabs + '</div>' +
       '<div class="tbl-wrap"><table class="tbl"><thead><tr><th class="rk">순위</th><th>종목</th><th class="num">현재가</th><th class="num">등락률</th><th class="num">거래량</th><th class="num">외국인</th><th class="num">기관</th></tr></thead><tbody id="rankBody">' + rankRows() + '</tbody></table></div>' +
       '<p class="note">' + (MR.reportLive ? '수급 단위: 억원(순매매 수량×종가 환산) · 거래상위는 거래량 기준 · ETF 제외' : '수급 단위: 억원 · 종목명 · 수치는 [샘플]이며 실제 연동 시 교체됩니다') + '</p></section>' +
       '<section class="card"><h2>업종별 등락</h2>' + (MR.sectors.length ? sectorBars() : '<p class="empty">업종 데이터를 가져오지 못했습니다.</p>') +

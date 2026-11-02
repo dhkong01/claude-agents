@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "stocks": [
     {
       "ticker": "AMGN",
@@ -98,6 +98,6 @@
       "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 5.5 \u2014 SQQQ 10% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 5.0 \u2014 SQQQ 10% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Defense ELEVATED]"
   }
 }

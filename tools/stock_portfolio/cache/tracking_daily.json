@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-01",
   "data": [
     {
       "ticker": "AMGN",
@@ -10,16 +10,6 @@
       "dist_to_upper_pct": -1.1,
       "dist_to_lower_pct": 8.8,
       "channel_width_pct": 8.4
-    },
-    {
-      "ticker": "FANG",
-      "current": 212.08,
-      "donchian_upper": 207.13,
-      "donchian_lower": 197.14,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.3,
-      "dist_to_lower_pct": 7.0,
-      "channel_width_pct": 5.1
     },
     {
       "ticker": "ROP",
@@ -40,6 +30,16 @@
       "dist_to_upper_pct": -1.5,
       "dist_to_lower_pct": 3.9,
       "channel_width_pct": 2.4
+    },
+    {
+      "ticker": "REGN",
+      "current": 927.89,
+      "donchian_upper": 819.09,
+      "donchian_lower": 782.04,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -11.7,
+      "dist_to_lower_pct": 15.7,
+      "channel_width_pct": 4.7
     },
     {
       "ticker": "GILD",

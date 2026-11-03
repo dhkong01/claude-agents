@@ -1,62 +1,68 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "sectors": [
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "미국 시장을 중심으로 AI 고평가 우려 및 앤트로픽 IPO 리스크가 부각되며 기술주 투매세가 나타났고, 애플 실적 발표를 앞두고 경계감이 심화되고 있습니다.",
+      "score": -6.8,
+      "rationale": "AI 고평가 우려 및 마진 압박으로 미국 나스닥-100 지수가 조정 국면에 진입했으며, 애플과 팔란티어 등 주요 빅테크의 실적 발표 이후 성장 둔화 및 수급 압박 우려로 주가 하락세가 지속됨.",
       "related_tickers": [
-        "AAPL"
+        "AAPL",
+        "PLTR"
       ],
       "source_regions": [
         "US"
       ]
     },
     {
-      "name": "Energy",
+      "name": "Semiconductors",
       "direction": "positive",
-      "score": 8.0,
-      "rationale": "중동 지정학적 리스크로 인한 정제마진 급등으로 유럽 BP의 3분기 순이익이 4배 급증하였으며, 아시아 기업들의 미국 내 가스 터빈 생산 확대 등 에너지 인프라 수요가 견조합니다.",
+      "score": 4.5,
+      "rationale": "일본 아이신의 저전력 AI 칩 개발 성공과 대만 TSMC의 1나노 공정 부지 유치 등 기술 자립 및 확장 모멘텀이 이어지고 있으나, 메모리 수급 압박 및 단기 주가 변동성이 상승 폭을 제한함.",
       "related_tickers": [
-        "BP"
+        "TSM"
       ],
       "source_regions": [
-        "EUROPE",
-        "ASIA"
+        "ASIA",
+        "US"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -6.2,
+      "rationale": "인도네시아 가뭄으로 인한 전기차 배터리 핵심 원자재 공급망 차질, 한국 내 전기차 점유율 변화 및 EU의 저가 중국산 소포 수입 규제 강화로 완성차 및 유통 커머스 업체들의 비용 부담이 가중됨.",
+      "related_tickers": [
+        "005380.KS",
+        "PDD"
+      ],
+      "source_regions": [
+        "ASIA",
+        "EU"
       ]
     },
     {
       "name": "Real Estate",
       "direction": "positive",
-      "score": 5.0,
-      "rationale": "TSMC의 대규모 미국 피닉스 반도체 캠퍼스 투자가 현지 선벨트 지역의 부동산 붐과 대만계 투자 유입을 지속적으로 견인하고 있습니다.",
+      "score": 5.5,
+      "rationale": "TSMC의 피닉스 등 해외 반도체 캠퍼스 투자가 해당 지역의 부동산 시장 붐을 지속적으로 견인함.",
       "related_tickers": [
         "TSM"
       ],
       "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "중국 증시 급락 방어를 위해 당국이 긴급 회의를 소집하는 등 시장 변동성이 고조되었고, 대규모 암호화폐 해킹 여파 등으로 아시아 금융 시장 리스크 관리가 부각되었습니다.",
-      "related_tickers": [],
-      "source_regions": [
-        "ASIA"
+        "ASIA",
+        "US"
       ]
     }
   ],
   "conflicting_signals": [
     {
-      "sector": "Consumer Discretionary",
-      "note": "미국은 리비안의 3분기 호실적 및 가이던스 발표로 긍정적인 신호가 나타난 반면, 유럽은 폭스바겐이 포르쉐 손실 등으로 역대급 영업손실을 기록하며 급격한 악화를 보였습니다."
+      "sector": "Industrials",
+      "note": "미국은 중동 지정학적 긴장감 고조로 방위산업(Aerospace & Defense) 중심의 긍정적 모멘텀이 예상되는 반면, 유럽은 라이언에어 등 항공업계의 연료비 폭등과 독일 산업계의 규제 리스크로 강력한 하방 압력을 받고 있음."
     },
     {
-      "sector": "Semiconductors",
-      "note": "미국은 AI 고평가 우려에 따른 심리 위축 및 투매 압력을 받는 반면, 아시아는 TSMC 대규모 투자 및 AI 반도체 밸류체인 모멘텀이 지속되는 등 단기 주가 압박과 장기 성장세가 상충하고 있습니다."
+      "sector": "Energy",
+      "note": "중동 지정학적 리스크 확대로 인한 에너지 가격 상승 압력은 정유·생산 기업에 긍정적일 수 있으나, 유럽 등 소비 지역에서는 항공 및 제조 기업의 거대 연료 비용 부담으로 작용하여 상충하는 신호를 보임."
     }
   ]
 }

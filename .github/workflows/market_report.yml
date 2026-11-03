@@ -2,15 +2,19 @@ name: Market Report Data
 
 on:
   schedule:
-    # 매일 KST 10:00 기준으로 한국·미국 데이터를 함께 갱신한다.
-    # GitHub 스케줄은 지연·누락이 잦다(실측: 예정보다 약 3시간 늦거나 아예 실행 안 됨). 그래서
-    # 같은 날 여러 번 트리거를 걸고, 각 실행은 "오늘 10:00 KST 이후 이미 성공한 실행이 있으면"
-    # 스스로 취소한다(아래 guard). 앞선 트리거가 늦거나 실패해도 뒤의 트리거가 대신 갱신한다.
-    # 분침은 정각을 피해 몰림을 줄였다.  KST = UTC + 9
-    - cron: '7 1 * * *'     # 10:07 KST (기준 실행)
-    - cron: '52 1 * * *'    # 10:52 KST
-    - cron: '37 3 * * *'    # 12:37 KST
-    - cron: '7 5 * * *'     # 14:07 KST
+    # 하루 2슬롯으로 한국·미국 데이터를 함께 갱신한다.  KST = UTC + 9
+    #   슬롯 A: 10:00 KST (01:00 UTC) — 한국장 장중 시황
+    #   슬롯 B: 16:00 KST (07:00 UTC) — 한국장 마감 후 시황
+    # GitHub 스케줄은 지연·누락이 잦다(실측: 예정보다 3~7시간 늦거나 아예 실행 안 됨). 그래서 슬롯마다
+    # 트리거를 여러 번 걸고, 각 실행은 "현재 슬롯이 시작된 이후 이미 성공한 실행이 있으면" 스스로
+    # 취소한다(아래 guard). 슬롯은 트리거 이름이 아니라 실행이 시작된 시각으로 판정하므로, 늦게 도착한
+    # 트리거도 그 시점의 슬롯을 한 번만 갱신한다. 분침은 정각을 피해 몰림을 줄였다.
+    - cron: '7 1 * * *'     # 10:07 KST (슬롯 A)
+    - cron: '52 1 * * *'    # 10:52 KST (슬롯 A 백업)
+    - cron: '37 3 * * *'    # 12:37 KST (슬롯 A 백업)
+    - cron: '7 7 * * *'     # 16:07 KST (슬롯 B)
+    - cron: '52 7 * * *'    # 16:52 KST (슬롯 B 백업)
+    - cron: '37 9 * * *'    # 18:37 KST (슬롯 B 백업)
   workflow_dispatch:
     inputs:
       only:
@@ -39,7 +43,7 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: 중복 실행 방지 — 오늘 10:00 KST 이후 이미 성공했으면 스킵
+      - name: 중복 실행 방지 — 현재 슬롯(10:00/16:00 KST)에서 이미 성공했으면 스킵
         id: guard
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -49,17 +53,22 @@ jobs:
             echo "[가드] 수동 실행 — 스킵 안 함"
             exit 0
           fi
-          # 오늘 10:00 KST = 오늘 01:00 UTC. 트리거는 모두 01:07 UTC 이후라 UTC 날짜가 KST 날짜와 같다.
-          SINCE="$(date -u +%Y-%m-%d)T01:00:00Z"
+          # 현재 슬롯의 시작 시각(UTC): 07:00 이후면 오늘 07:00(16:00 KST), 01:00~07:00이면 오늘 01:00(10:00 KST),
+          # 00:00~01:00이면 어제 07:00. 실행이 늦게 시작돼도 "시작된 시각"으로 슬롯을 정한다.
+          H=$(date -u +%H); D=$(date -u +%Y-%m-%d)
+          if [ "$H" -ge 7 ]; then SINCE="${D}T07:00:00Z"
+          elif [ "$H" -ge 1 ]; then SINCE="${D}T01:00:00Z"
+          else SINCE="$(date -u -d 'yesterday' +%Y-%m-%d)T07:00:00Z"
+          fi
           COUNT=$(gh run list --repo "${{ github.repository }}" \
             --workflow=market_report.yml --status success --limit 30 \
             --json createdAt --jq "[.[] | select(.createdAt > \"$SINCE\")] | length")
           if [ "${COUNT:-0}" -gt 0 ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "[가드] 오늘 10:00 KST 이후 성공한 실행 ${COUNT}건 — 이번 실행은 스킵"
+            echo "[가드] 현재 슬롯(${SINCE} 이후)에 성공한 실행 ${COUNT}건 — 이번 실행은 스킵"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "[가드] 오늘 성공한 실행 없음 — 진행"
+            echo "[가드] 현재 슬롯(${SINCE} 이후)에 성공한 실행 없음 — 진행"
           fi
 
       # 스킵이면 자기 자신을 취소한다. 성공(success)으로 끝나면 pages.yml 이 의미 없이 재배포하므로

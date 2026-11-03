@@ -1,7 +1,25 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "analyzed": 139,
   "top10": [
+    {
+      "ticker": "REGN",
+      "canslim_score": 67,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": 99440287744,
+      "price": 961.26,
+      "rs_rating": 93.5
+    },
     {
       "ticker": "TXN",
       "canslim_score": 64,
@@ -16,27 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 275042271232,
-      "price": 300.84,
-      "rs_rating": 92.1
-    },
-    {
-      "ticker": "REGN",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": 95988236288,
-      "price": 927.89,
-      "rs_rating": 90.8
+      "market_cap": 276121059328,
+      "price": 302.02,
+      "rs_rating": 92.8
     },
     {
       "ticker": "CSX",
@@ -52,9 +52,9 @@
       },
       "sector": "Industrials",
       "industry": "Railroads",
-      "market_cap": 96310173696,
-      "price": 51.99,
-      "rs_rating": 85.2
+      "market_cap": 95624749056,
+      "price": 51.62,
+      "rs_rating": 81.8
     },
     {
       "ticker": "AMGN",
@@ -70,8 +70,8 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 251939930112,
-      "price": 466.01,
+      "market_cap": 251637170176,
+      "price": 465.45,
       "rs_rating": 94.2
     },
     {
@@ -88,27 +88,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 202117103616,
-      "price": 417.11,
-      "rs_rating": 90.1
-    },
-    {
-      "ticker": "AAPL",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 5029592301568,
-      "price": 344.63,
-      "rs_rating": 84.6
+      "market_cap": 200052850688,
+      "price": 412.85,
+      "rs_rating": 90.8
     },
     {
       "ticker": "ROP",
@@ -124,9 +106,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 46147145728,
-      "price": 466.6,
-      "rs_rating": 83.9
+      "market_cap": 47426924544,
+      "price": 479.54,
+      "rs_rating": 88.7
+    },
+    {
+      "ticker": "AAPL",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "market_cap": 4937503211520,
+      "price": 338.32,
+      "rs_rating": 78.4
     },
     {
       "ticker": "MDLZ",
@@ -142,9 +142,27 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "market_cap": 82203541504,
-      "price": 64.94,
-      "rs_rating": 71.5
+      "market_cap": 84026343424,
+      "price": 66.38,
+      "rs_rating": 74.2
+    },
+    {
+      "ticker": "AMD",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 762104643584,
+      "price": 466.84,
+      "rs_rating": 95.6
     },
     {
       "ticker": "MRVL",
@@ -160,27 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 176505585664,
-      "price": 196.4,
-      "rs_rating": 95.6
-    },
-    {
-      "ticker": "FTNT",
-      "canslim_score": 55,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 99979304960,
-      "price": 136.08,
-      "rs_rating": 89.4
+      "market_cap": 154046971904,
+      "price": 171.41,
+      "rs_rating": 94.9
     }
   ]
 }

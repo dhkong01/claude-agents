@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "risk_score": 5.0,
+  "date": "2026-11-02",
+  "risk_score": 4.5,
   "risk_level": "MEDIUM",
   "market_bias": "NEUTRAL",
   "high_risk_signals": 1,
@@ -8,25 +8,22 @@
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
-    "Defense": "ELEVATED"
+    "Defense": "ELEVATED",
+    "Consumer": "WATCH"
   },
-  "top_risk_events": [
-    "Will Digging Up Vietnam\u2019S War Dead Heal Old Wounds Or Reopen Them?",
-    "Syria Weighs Joining Saudi Mutual Defense Pact As Yemen War Rages",
-    "Iran Braces For More War, No Matter The Outcome Of The U.S. And Israeli Elections"
-  ],
+  "top_risk_events": [],
   "recommendation": "\uc911\uac04 \ub9ac\uc2a4\ud06c. \ubd84\uc0b0 \ud3ec\ud2b8\ud3f4\ub9ac\uc624 \uc720\uc9c0. Energy, Defense \uc139\ud130 \ubaa8\ub2c8\ud130\ub9c1.",
   "hedge": {
-    "long_pct": 60,
-    "sqqq_pct": 10,
-    "cash_pct": 30,
-    "per_stock_pct": 12.0,
-    "action": "MODERATE_HEDGE",
+    "long_pct": 80,
+    "sqqq_pct": 5,
+    "cash_pct": 15,
+    "per_stock_pct": 16.0,
+    "action": "LIGHT_HEDGE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
       "Defense"
     ],
-    "reasoning": "Risk 5.0 \u2014 SQQQ 10% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 4.5 \u2014 SQQQ 5% \uc18c\ud615 \ud5e4\uc9c0, \ud604\uae08 15% \ud655\ubcf4. [Energy, Defense ELEVATED]"
   }
 }

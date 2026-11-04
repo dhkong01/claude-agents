@@ -1,142 +1,135 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "horizons": {
     "1w": [
       {
-        "theme": "빅테크 실적 후 마진 압박 및 AI 고평가 단기 조정",
-        "sectors": [
-          "Technology"
-        ],
-        "tickers": [
-          "AAPL",
-          "PLTR",
-          "QQQ"
-        ],
-        "rationale": "애플, 팔란티어 등 빅테크의 실적 발표 이후 마진 압박 및 상업 계약 둔화 우려로 나스닥-100 지수가 조정을 받으며 단기 수급 부담이 가중됨.",
-        "risk": "AI 밸류체인의 단기 매수세 유입 및 실적 우려 조기 해소",
-        "conviction": "high"
-      },
-      {
-        "theme": "중동 지정학 긴장에 따른 에너지 및 방산 단기 모멘텀",
-        "sectors": [
-          "Industrials",
-          "Energy"
-        ],
-        "tickers": [
-          "XLE"
-        ],
-        "rationale": "중동 지정학적 긴장 고조로 방위산업 수요 확대 기대감과 에너지 유가 상승 압력이 단기 헤지 수단으로 부각됨.",
-        "risk": "지정학적 긴합 완화 및 유가 급락",
-        "conviction": "medium"
-      }
-    ],
-    "1m": [
-      {
-        "theme": "전기차 원자재 공급 차질 및 소비재 단기 마진 압박",
-        "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "005380.KS",
-          "PDD"
-        ],
-        "rationale": "인도네시아 가뭄발 배터리 핵심 원자재 공급망 차질과 EU의 수입 규제 강화로 완성차 및 이커머스 섹터의 단기 비용 부담 가중.",
-        "risk": "원자재 공급망 단기 정상화 및 소비 심리 반등",
-        "conviction": "medium"
-      },
-      {
-        "theme": "반도체 기술 자립 모멘텀과 수급 변동성 탐색",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM"
-        ],
-        "rationale": "TSMC 1나노 투자 등 기술 자립 모멘텀은 유지되나 메모리 수급 압박과 나스닥 조정 여파로 단기 주가 변동성 관리 필요.",
-        "risk": "글로벌 IT 전방 수요의 추가 둔화",
-        "conviction": "medium"
-      }
-    ],
-    "3m": [
-      {
-        "theme": "유럽 항공·산업계 고연료비 및 규제 리스크의 분기 실적 압박",
-        "sectors": [
-          "Industrials"
-        ],
-        "tickers": [
-          "RYAAY"
-        ],
-        "rationale": "유로존 지정학 리스크로 인한 거대 연료비 부담과 독일 중심의 과도한 산업 규제가 유럽 항공 및 제조기업의 분기 실적 가시성을 약화시킴.",
-        "risk": "국제 유가 하락 안정화 및 EU 규제 완화 정책 발표",
-        "conviction": "medium"
-      },
-      {
-        "theme": "EU 신규 수입 규제 강화에 따른 크로스보더 커머스 타격",
-        "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "PDD"
-        ],
-        "rationale": "EU의 저가 중국산 소포 수입 규제 강화 조치가 본격화되면서 해당 이커머스 업체들의 마진 축소 및 중기 실적 둔화 우려 증가.",
-        "risk": "규제 적용 시점 지연 및 물류 효율화를 통한 비용 상쇄",
-        "conviction": "high"
-      }
-    ],
-    "6m": [
-      {
-        "theme": "반도체 해외 거점 확장에 따른 지역 부동산 수혜 사이클",
-        "sectors": [
-          "Real Estate",
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM"
-        ],
-        "rationale": "TSMC의 피닉스 등 해외 반도체 캠퍼스 투자가 6개월 이상 중장기적으로 해당 지역의 부동산 시장 붐을 구조적으로 견인.",
-        "risk": "팹(Fab) 건설 일정 지연 및 반도체 설비투자(CAPEX) 집행 축소",
-        "conviction": "high"
-      },
-      {
-        "theme": "전기차 배터리 공급망 재편 및 기술 차세대 전환",
-        "sectors": [
-          "Consumer Discretionary",
-          "Semiconductors"
-        ],
-        "tickers": [
-          "005380.KS"
-        ],
-        "rationale": "원자재 및 규제 리스크에 대응하기 위해 완성차 및 배터리 공급망의 구조적 다변화와 차세대 AI·저전력 칩 도입 사이클 진행.",
-        "risk": "전기차 침투율 상승세 둔화 지속",
-        "conviction": "medium"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "미·중 기술 격차 및 글로벌 반도체 기술 자립 패러다임",
+        "theme": "AI 칩 및 서버 호실적 모멘텀",
         "sectors": [
           "Semiconductors",
           "Technology"
         ],
         "tickers": [
-          "TSM",
-          "AAPL"
+          "AMD",
+          "SMCI"
         ],
-        "rationale": "미·중 공급망 갈등과 각국의 AI·반도체 기술 자립 경쟁이 고착화됨에 따라 글로벌 반도체 밸류체인의 구조적 재편이 지속될 전망.",
-        "risk": "미·중 무역 갈등의 극적인 타결 및 기술 교역 재개",
+        "rationale": "AMD와 슈퍼마이크로의 시장 예상을 상회하는 실적 발표와 강력한 AI 수요 가이던스 제시로 단기 상승 모멘텀 형성",
+        "risk": "미국 개표 결과에 따른 정치적 불확실성 및 애플 마진 우려로 인한 기술주 상방 제한",
         "conviction": "high"
       },
       {
-        "theme": "지정학적 지정학적 레짐 변화와 에너지 안보·규제 개혁",
+        "theme": "유럽 항공사 단기 가이던스 하향 및 유가 압박",
         "sectors": [
-          "Energy",
           "Industrials"
         ],
         "tickers": [
-          "XLE"
+          "LHA",
+          "RYA"
         ],
-        "rationale": "지정학적 리스크 장기화 및 유럽 등 주요국의 공급망 재편 요구가 에너지 안보 강화와 산업 규제 체질 개선이라는 거시 레짐 전환을 유도.",
-        "risk": "글로벌 경기 침체로 인한 전체 에너지 및 산업재 수요 위축",
+        "rationale": "중동 분쟁 심화로 인한 고유가 국면이 지속되며 유럽 주요 항공사들의 연간 실적 전망 하향 및 비용 부담 증대",
+        "risk": "중동 지정학적 리스크의 단기 완화 가능성",
+        "conviction": "medium"
+      }
+    ],
+    "1m": [
+      {
+        "theme": "지정학 리스크 반사이익 에너지 섹터 자금 유입",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "rationale": "이란 관련 지정학적 불안으로 고유가 국면이 유지됨에 따라 에너지 생산 기업 중심으로 자금 흐름 우위 유지",
+        "risk": "중동 외교적 협정 타결에 따른 국제유가 급락",
+        "conviction": "high"
+      },
+      {
+        "theme": "중국 유동성 부양책과 아시아 대형 금융주 방어력",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [
+          "MUFG"
+        ],
+        "rationale": "중국 당국의 지속적인 증시 부양책 및 유동성 공급 의지 속 아시아 금융사들의 대출 포트폴리오 조정 효과 기대",
+        "risk": "중국 부동산 침체 장기화에 따른 금융권 리스크 전이",
+        "conviction": "medium"
+      }
+    ],
+    "3m": [
+      {
+        "theme": "차세대 반도체 공정 전환 및 파운드리 실적 사이클",
+        "sectors": [
+          "Semiconductors"
+        ],
+        "tickers": [
+          "TSM",
+          "AMD"
+        ],
+        "rationale": "대만 TSMC의 견고한 파운드리 수요와 2nm 차세대 공정 전환 기대감이 분기 실적 모멘텀을 뒷받침",
+        "risk": "글로벌 AI 투자 수익성 격차 우려로 인한 빅테크의 설비투자(CAPEX) 지연 가능성",
+        "conviction": "high"
+      },
+      {
+        "theme": "빅테크 실적 차별화 및 기술주 선별 접근",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "AAPL"
+        ],
+        "rationale": "애플의 마진 우려 및 서비스 성장 둔화로 인해 실적 발표 이후 빅테크 내 기업별 주가 차별화 심화",
+        "risk": "신제품 주기에 따른 애플 서비스 마진의 조기 회복",
+        "conviction": "medium"
+      }
+    ],
+    "6m": [
+      {
+        "theme": "유럽 제조업 '퍼펙트 스톰' 및 산업재 구조적 마진 압박",
+        "sectors": [
+          "Industrials",
+          "Real Estate"
+        ],
+        "tickers": [
+          "LHA"
+        ],
+        "rationale": "독일 제조업의 에너지 비용 상승과 규제 부담, 중국 부동산 시장 부진이 복합 작동하며 중기 산업재 수익성 악화",
+        "risk": "유럽연합(EU) 차원의 규제 완화 및 에너지 보조금 지원책 도입",
+        "conviction": "high"
+      },
+      {
+        "theme": "AI 헬스케어 및 바이오 신사업 실증 가속화",
+        "sectors": [
+          "Healthcare"
+        ],
+        "tickers": [],
+        "rationale": "한국 등 주요국 정부 중심의 AI 헬스케어 사업 실증 및 글로벌 시장 진출 가속화에 따른 산업 생태계 확장",
+        "risk": "각국 보건 당국의 임상 및 인허가 규제 지연",
+        "conviction": "medium"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "AI 패러다임 전환과 글로벌 서버 인프라 생태계 독점",
+        "sectors": [
+          "Semiconductors",
+          "Technology"
+        ],
+        "tickers": [
+          "AMD",
+          "TSM",
+          "SMCI"
+        ],
+        "rationale": "AI 칩 설계, 파운드리, AI 서버 인프라 전체 밸류체인에 걸친 구조적 패러다임 전환과 장기 공급망 재편 수혜",
+        "risk": "AI 기술 거품론 확산 및 거시 경제 둔화에 따른 장기 CAPEX 하향",
+        "conviction": "high"
+      },
+      {
+        "theme": "지정학적 리스크 장기화 및 지정학적 에너지 구조 재편",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "rationale": "중동 및 이란발 지정학적 분쟁 장기화로 인한 고유가 레짐 정착과 글로벌 에너지 안보 재편",
+        "risk": "글로벌 신재생 에너지 전환 가속화 및 중동 평화 협정 체결",
         "conviction": "medium"
       }
     ]

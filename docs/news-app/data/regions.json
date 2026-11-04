@@ -1,61 +1,121 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "us": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "region": "US",
     "headlines": [
       {
-        "title": "Automakers like Rivian and Ford are ‘democratizing 3D printing’ to reduce costs and increase speed",
-        "summary": "Automakers including Ford, Rivian and GM are expanding 3D printing to make prototypes, factory tools and low-volume parts faster and at lower cost.",
-        "link": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+        "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+        "summary": "JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.",
+        "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
         "source": "CNBC"
       },
       {
-        "title": "Here s why Palantir s stock is down despite a bombastic quarter",
-        "summary": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir s earnings beat.",
-        "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+        "title": "Here s why AMD s stock is rising and sending a confident message about the AI trade",
+        "summary": "The chip maker is showing real revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+        "link": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
         "source": "MarketWatch"
       },
       {
-        "title": "Exclusive | U.S. Strikes Iran’s Qeshm Island as Trump Talks Down War Risks",
+        "title": "CVS Will Break Off Its Namesake Pharmacies",
         "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmVhWVpoUFY5Q2J4OGY3SlRPdnpxbFhHaWlOT2V6NUdXaXl0SjVQWnNMVXdIQV9KaFdfY3dOMFpqRFF5VzF6WWh4dnNERlJidUVhbEliWmt6ZVhuUThYN1pac2NHWTR4MnE2Q2JPLWVJVkFzckZucFNMRWFHQ3RkU1JwdTBGM1B0X0dEckpoRHFzSG5Mb0V1MkF1M2hHSW1obXZuSGhGQ0dodEk?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelc4RS04OWZJWGlvS3F2cDczbGMxQmktT3hZdlQxdmtXWVFSVFd6NmxHQmRZaTlYbF9aQXVFUzFPNWFKcXFueGtxY01mdzZBOWVlaDFNRWc4M0xQN0VYeWU2b01nanBjZnhmNy1VaG8zanhjTWxwdnlEcDFiN0dBVkRoZHVCZjh5WnB6OGhQTENWUkk?oc=5",
         "source": "WSJ"
       },
       {
-        "title": "Disney Eyes Thousands of Layoffs, With Managers Asked to Cut 20%",
+        "title": "US Polls Start Closing With House, Senate Control Up for Grabs",
         "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkpQc0R6TlgtZXBVR0tYaEdfMVlqMWxUTTlHWUJxU2xuTDBtdldOeHhQMGtfSXBrZ3dReHB4SHdJUEdPVDBjV1dxVFRiUDZ3aFBMSGQxS2FJUmI0NWNrSXhHdFRHalZjNzlTbFJMZG9WZC1DVHo1cmgxUkxRVEQzc2xGWGRVZ3p2WjN4Ml81MXl0TlVvS0J1UTZHX2l0bGpCLTJrbHhQa09JWllKS0MwalhuSQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0N5eGZWWF9TVkFPd3gwZ24wX3llaXJxZFBMREtCX0hYYTJUa0RvbnMzd2xKV1BJemxFdUtNcG5NYkhBbmxSN1FzOXRoYldLdnhRTXowNlNIZ0oxaXRDNUZyNTRidXp6NE1EMVJMU0FWT1B1QW5vVUNkLVFMY25KekFybnA5RW5ZenB4dFFMekpPajlrRU5CT3ZMZjdFZFhpaENpcUVhTm9nMkRmWjBIN2lB?oc=5",
         "source": "Bloomberg"
       },
       {
-        "title": "Micron Expected to Launch Massive Stock Buybacks in December. What to Know.",
+        "title": "Organigram Agrees to Buy Aurora Cannabis, Topping Curaleaf Bid",
         "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PaEJIZWFJMXNaTnNieTMyTzFvT1NtOVVPT1FURXRpTEtQdWtIVDl6VTZsWjZrLWQyTDhHc19qUUN4OVNkLUpqUjN2Q3FLemM1SzNnb1VwcldfSmIwVzJ5VUpLWmQ4NFhPdWoxZ3BOczRuYmdzUEFxdEdIVTFCSnM?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObmR4b0tnSjJ5SmlhaklyTDU4WmF2Zzgwbnc2UlFqY1JTVHE0RTVLTWxuYkt0V3dJLVd5RmtnQ0JCVTQ0dHI5NWpNc0FxTTZHd2JPQ2FmRlg0TDl5OFhZNVdVampnbm9nZVk2bTRrWE82dFZaaGhobEwxUlloOS0zNGxlcm4yRTB6b0lid2JlTEI?oc=5",
         "source": "Barron's"
       },
       {
-        "title": "Cheaper cars are selling considerably faster than at the beginning of the year",
-        "summary": "Data indicates cheap cars are selling fast, but a few lower-priced segments still saw sales drop in the third quarter. Here's what might be happening.",
-        "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
+        "title": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
+        "summary": "Disney expects to lay off several thousand employees in the latest round of job cuts for the entertainment giant.",
+        "link": "https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html",
         "source": "CNBC"
       },
       {
-        "title": "Apple s iPhone business is booming. Here s why the stock is falling anyway.",
-        "summary": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
-        "link": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+        "title": "What analysts are telling us while Apple s stock falls after earnings report",
+        "summary": "Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company s gross margin outlook and slowing services revenue growth.",
+        "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
         "source": "MarketWatch"
       },
       {
-        "title": "Trump Surprises Republicans With Election-Eve Speech About Reflecting Pool",
+        "title": "Opinion | The Beginning of Trump’s Long Goodbye",
         "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZks4QjFaeVFBajRkOF96Q01MVGxNSjBPdzBUUFJIWFA5ajRsMndpWHFoNnNFaTBlWGpTaE1JX3hlRGRzQU5QaEYtWlp4SWtwdHlTZElRMWEzMDZHRW04dF8tQm1oX192ajRJOWZvM00xUlRKT09yQ1ZMYnhsRC05UlNwNUphanRxNVppYVUtblR4ZkE5SnBTcWFMSGhUWElKUGVERWVjR05wamxBTzRrS0M3c3JQdEJ3RV82TmI0Yw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVRkJIUUJhcUE4WXk4MkZycEQ4SjVZR05OazIyZUIybHpsTDNBSnBaNmZBRm9ZU1ZLeFM4d2poLVNNV0IzX0FlZnpQc2xvSHdFX0ZNQXI0YXNLUTFqSFNaUmRnVTZJS2lFQVVQeEJ4NmR1MlZoNy1yTzV6TnRHZw?oc=5",
         "source": "WSJ"
       },
       {
-        "title": "Oracle Is Near $10 Billion Share Sale at 11% Discount",
+        "title": "CVS Plans to Break Up Healthcare Conglomerate, FT Reports",
         "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnczY1BoREE4MUxrXzNMSHR2RTF3WC1xbk1MYWZsSld3SnA0S09fRXZMM3NlbkR3N2pBazJaMlBzRWZwR3ctQ3M2T3UxcGc0UWtWdmVndWV4WXFSV0lLWEU1MGpMSVFVVV91YWxjTkEwTy1BenpOQVR3dzhmSlJyVzMtSkJPQjIydXY0TmUyRGpXYUV6ak9yaE5sSU9qQWpSQzhIMDZ5TFMwcjBsdk5N?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFUySnhXWEJCeERRUU9ZYlpLZklWckpvTzFxN3h0MTdralNha3pQRWNlNmlJVnBTSkNaZ0gxZ2UyQ1d0ODhrRE1zLWdyMWwweVlIVXdKRVo5ejNwZlhwSThZU3RlSmVDUG1vc29uajJjRWFpM1dnSzRFTTlxTHdacU45OHRwN2IwN2Z3ZFYwUHA3QTJuUHBBdlVGaldxX3VKTlY3Y3Q0c0VIT3RCUWVYXw?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "How to Invest in the Rise of China’s Biotech: Buy U.S. Drug Stocks",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xTk9GQTlmaXFDY09oWFB4QlMyalNDNGxBa0FPUVZxQk95Zmg1RFJUTFZmci1vdkg1ZUd2cHBLWnFRME9XRlU2QzliVFpUWEE5U05ndW96MXFoY25EUV9MRW5DeWZlSEhzWnp5U1h4T1dRY0lmMkNhWFN3?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "Pfizer hikes full-year outlook on new product growth, taps company veteran as new CFO",
+        "summary": "Pfizer announced that Cecile Guegan, who has held various leadership roles at the company over the last 20 years, stepped in as CFO this month.",
+        "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Shopify s stock slides after earnings. This is what s worrying Wall Street.",
+        "summary": "The company missed revenue expectations, a tough outcome in today s less-forgiving tech market.",
+        "link": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+        "source": "MarketWatch"
+      },
+      {
+        "title": "The Early Election Results to Watch Tonight",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLUM3YTFGeEY4d1BLT0hCTUNUTl9wRnBTYTZfMy1pSk9mMnYyTGtoWjVYSVNBNDFQVWdxT0lWN1FWa0RxZUtrcUhxWHBGYVJjX3JWaU5fVmRQZWVOMDF2MGI2SDR3OU5vV2dtTm9JSWN4X2dCbXliVUpzd0tBcjV0TWMwY09BT3BxdnhleC00d3JMb3JL?oc=5",
+        "source": "WSJ"
+      },
+      {
+        "title": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "2 Reasons Why This AI-Powered Software Stock Is Tumbling After Earnings",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wS0Vtam9hSDFPUURWZzV5bnFRRmd4TFVpMjBmUDFBUDVMMkFaVmdyeDM1RVdCajZWc0lxT040ZkwxamxBd20xRVZhX3VKLWZkYlN0VHlCc2l6cHR1VFhoNG5pVUJuWTlZcWptalptVU10VFdmNkZ4U256czI?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+        "summary": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
+        "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "AI s control over the bond market is growing even rivaling war and elections",
+        "summary": "Hyperscalers burned through their cash. Now their bond deals are helping fuel the economy.",
+        "link": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+        "source": "MarketWatch"
+      },
+      {
+        "title": "Apple Shares Slip, Meta Debt Costs Rise",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMGhjbGhSUVc1TVpmNDVMOFNtMUgzUldVeFFkc0cwNlc4emk1R3M1TWZJSEs3VGdUYmVZM3loemdPd1RKM1NZYjB3VWRWUm1adWppSXhCM2YyYlF5RnpEMFRlYkQ5LV9NcUk1Q2R3ZEhPRndPZ2tkVVZyQm5mQWdIUDdKMmh3aEJFbUE?oc=5",
+        "source": "WSJ"
+      },
+      {
+        "title": "Xbox’s Arkane Studios Attracts Multiple Bidders, Including Ubisoft",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWNKdE5SRC1paTUwS1g0QWh3MHpLR3JHZ1IxaW45aU9TRkFIdGdPME9PWlJPaHltd2FodHJ6RU5OR2J2UnR5RzBjLWtxcWtfakxpc3J4MUV1ejF3aHpMeDFDRGV0UElRRml4T2hCZlhqQWdUQnViS29KZVNvR2FzY3ZQN1F4YUYyaW1iX3NOWWg5WXJUSFNzcGV3czF3VTBGMGpLU0c2dFgxTFRfM0J0YWxQb1lvaHc?oc=5",
         "source": "Bloomberg"
       },
       {
@@ -63,217 +123,174 @@
         "summary": "",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1YxREJMMjJWaVlITVNjOHdsZ29Gc3NPalFDWUdrTXhjVXdXSk5FYXV0M2V1azUwNGJORHJEMnlwNTU1SGlGeUYwTlZRUTRNM1hBWlI1ckVmelFiNzJkSXBtSndSTG52Z29WRFBsUjI4Q0c4aHFlZldoTEU2YVN1UTE1dEFMNk9zT2hWM0dn?oc=5",
         "source": "Barron's"
-      },
-      {
-        "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
-        "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
-        "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-        "summary": "The tech wreck from October continues. Is a bear market next?",
-        "link": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
-        "source": "MarketWatch"
-      },
-      {
-        "title": "Anthropic Investors Push for Cautious Valuation Closer to $1.5 Trillion",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTDhmTmZkVWhzazBUYVdXNUx1OTRkRDFidXNnblM1R0lFNVQ2OS1zRFV2aTFtS2drOEhOVEVSSjZzZDN0Z053X3NrMnJEVTRGQm1EOHh6aDJYWC16bTVPdlpxVk10Vkh0ZkNrdkx1YzFodGc1WVQ4NkpPanN3TnZPZjcxYmcwS0xaSk1DelBQUzM4RFpNNVdubXR5WlRZZXA2b3paamIwdkcwVEpUTWFNSDBuWGQ?oc=5",
-        "source": "WSJ"
-      },
-      {
-        "title": "Trump’s DOJ Rejected by Supreme Court on California Ballots",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGZmTG9vWW9ZdkhDZ1ZfaUdYV1NfaTVseGhuMVc5d1A4SEpraW1lSnA1M2tiUlo2cDdwYjl1ZGRFZ01Tc1gtLW5GUVZSdWFNYjM4R3BRazNManM4U25WcWxsOUdscDBfV0VjOXZFZ3ZLTTR0YzBESjYwMnE0OTNJTTFONVhkRzNSNnZJR1FmUUtRWkZNbUpjOE5kcWtSSS1JSUl1LW1fWTlmZnZCVi1Z?oc=5",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Berkshire Hathaway’s Alphabet Loss Exposes Weak Stock-Picking Record",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzg5Z0JmTGJKTXNlaWROTlRkLW5FYkxFN1pNT0dBcE85d1Y5akRqOFBfeWc5MU4xcFAxOU9oWnFIYm40ejNnRkNxUkJsbnVxR2RYb0ZUdzFGZmFNTDB6TDYwOURHbmxZaTJGeU41VXBtWG0yTExhYU1JTlJvQzVORU5KU0lNdzYwQmdsaDVBMGNWMkdNY0dMNTktMA?oc=5",
-        "source": "Barron's"
-      },
-      {
-        "title": "Marvell and Lumentum shareholders unite in panning merger deal: It s a trash offer",
-        "summary": "Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.",
-        "link": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
-        "source": "MarketWatch"
-      },
-      {
-        "title": "Exclusive | Hedge Fund Elliott Warns of FOGO: Fear of Getting Obliterated in the Market",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclNzaXk3eUZqREhTY0ZWS01nN3ZpWFpvMk5yYy1JNjU2Zzk2ZlRqZGNvSDcxRDZBb2JnNFo4REpjZFliSlV5NmlieldLMnltZi12LVpiaElHdjJBUXNyM0FubG1qMTdId0xzZWZRMjItTlFINzFfYkJxZ1FRc3dnZXIybzJiNWxNRVBDelVHVDhQdWVsYkNLZ0xpR0hSb3pWdHkzNGJkWVZlM21lVkY1VS11VVk1ZGlHcllHUUt3?oc=5",
-        "source": "WSJ"
-      },
-      {
-        "title": "Apple Sets New Sales Highs in China Even as Increased Costs Bite",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl1blg2Q2VFWlJvSU1RYVBXNXBSVDN4STdUXzU2aksyZTlpa2UwX1NxNzMzQkpKTldPN3lFUGowd2FncEI1dmpueXVsdzVBaTd3T2IxS2UwUTVyR1QwNWh4TEdDTzN1eFpwcVRHbS1kU3lpRVJWOS1UTWc5NVlWNWFaRFRqZmtFa1d5SkdTSzV5YUZvZFBlMndVZHVVTkREaEJOelR3QU5ha1phTEZ3Y3ZKWEY0UQ?oc=5",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Oracle Stock Tumbles. Its $20B Funding Plan Wasn’t the Surprise—the Speed Was.",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uRTlZUXVYS1JuRi1razVkR1JlX2xna3dFd3NEMmJoUzFiSTl1alo2UTNzS2poOG54dUxJemVUQzlFLVM2dTlQUktWS1lvQWVkMG42S1BVbDhXZUJmQ1o4anRYam45U3JfdThhZUpFa19xTzVnMVdMNWlEQjRTUQ?oc=5",
-        "source": "Barron's"
-      },
-      {
-        "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-        "summary": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
-        "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-        "source": "MarketWatch"
       }
     ],
-    "trend_headline": "AI 우려 속 나스닥 3번째 조정 진입",
-    "summary": "인공지능(AI) 관련 고평가 우려와 원가 압박이 겹치면서 나스닥-100 지수가 올해 들어 세 번째 조정 국면에 진입했습니다. 애플과 팔란티어 등 주요 빅테크가 호실적에도 불구하고 마진 압박과 상업 계약 둔화 우려로 주가 하락세를 보였으며, 중동 지정학적 긴장까지 더해져 시장 변동성이 커졌습니다.",
+    "trend_headline": "AMD·슈퍼미크로 실적 호조 속 AI 랠리 재부각",
+    "summary": "AMD와 슈퍼미크로가 AI 칩 및 서버 수요 폭증에 힘입어 시장 예상을 웃도는 실적과 가이던스를 제시하며 기술주 상승을 견인했습니다. 반면 애플은 실적 발표 후 마진 우려로 하락했고, 미국 상·하원 선거 개표가 시작되면서 시장의 경계감도 공존하는 양상을 보였습니다.",
     "key_points": [
-      "나스닥-100 지수가 AI 우려 심화로 올해 세 번째 조정 국면 진입",
-      "애플, 호실적에도 불구하고 메모리 수급 압박과 마진 우려로 주가 하락",
-      "팔란티어는 탄탄한 실적을 발표했으나 미국 상업 계약 성장 둔화로 주가 주춤"
+      "AMD, AI 칩 수요 급증으로 월가 예상치 상회하는 실적 및 가이던스 발표",
+      "슈퍼미크로(Super Micro), AI 서버 수요 확대로 실적 호조 및 긍정적 전망 제시",
+      "애플, 서비스 매출 성장 둔화 및 총마진 우려로 주가 2% 가까이 하락"
     ],
     "sector_hints": [
       "Technology",
-      "Energy",
-      "Aerospace & Defense"
+      "Semiconductors"
     ]
   },
   "asia": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "region": "ASIA",
     "countries": {
       "KR": {
         "headlines": [
           {
-            "title": "\"이러다 中 전기차에 안방 내줄라\"…국산 점유율 첫 '절반 붕괴' [이슈+]",
+            "title": "이노스페이스 '우주 발사 서비스', 절충교역 추천품목 첫 선정",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202611032191g",
+            "link": "https://www.hankyung.com/article/202611044490i",
             "source": "한국경제"
           },
           {
-            "title": "노벨경제학상 노드하우스 별세",
-            "summary": "2018년 노벨경제학상 수상 탄소세 주창 기후변화 대가2018년 노벨경제학상을 수상한 윌리엄 노드하우스 예일대 경제학과 석좌교수가 별세했다. 향년 85세. 2일(현지시간) 뉴욕타임..",
-            "link": "https://www.mk.co.kr/news/economy/12194576",
+            "title": "시니어케어에 AI·웨어러블…삼성생명, 지역통합돌봄 모델 공개",
+            "summary": "생활정보 분석해 맞춤 관리 이상징후 감지땐 의료 연계 화성시서 연말까지 실증사업삼성생명이 인공지능(AI)과 웨어러블 기기를 활용해 고령자의 일상생활을 관리하고 의료·돌봄서비스까지 ..",
+            "link": "https://www.mk.co.kr/news/economy/12196081",
             "source": "매일경제"
           },
           {
-            "title": "'네이버-토스' 갈등 2차전…\"포스 연동 안해줬다\" 공정위 제소",
+            "title": "비트코인 담보대출, 어떤 법적 구조로 이뤄질까 [김기동의 크립토 인사이트]",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202611032383i",
+            "link": "https://www.hankyung.com/article/202611018365i",
             "source": "한국경제"
           },
           {
-            "title": "외국인 단기근로자 국내서 얼마나 벌까?…임금 지급 역대 최대",
-            "summary": "해외서 단기 근로 수입은 30년째 제자리 작년 ‘급료 및 임금’ 적자 22억달러 1980년 통계 작성 이후 최대 李, 외국인 근로자 언급 이후 임금 관심 쑥국내에서 일하는 외국인 ..",
-            "link": "https://www.mk.co.kr/news/economy/12194521",
+            "title": "가계대출 막히자 ‘사장님’ 잡았다…인뱅 실적 끌어올린 개인사업자 대출",
+            "summary": "카뱅·케뱅 여신 성장축 기업금융으로 시중銀 개인사업자 대출 정체와 대비올해 3분기 카카오뱅크와 케이뱅크가 개인사업자(소호·SOHO) 대출을 앞세워 나란히 실적 성장을 이어갔다. 올..",
+            "link": "https://www.mk.co.kr/news/economy/12196079",
             "source": "매일경제"
           },
           {
-            "title": "현대차, 대형·고급 정비거점 '그랜드 블루핸즈' 확대…29년까지 30곳 구축",
+            "title": "캐나다에도 K뷰티 바람…메디큐브, 북미 공략 속도",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202611032384g",
+            "link": "https://www.hankyung.com/article/202611044463g",
             "source": "한국경제"
           },
           {
-            "title": "‘농협회장 직선제’ 법안...野 퇴장 속 농해수위 소위 통과",
-            "summary": "국회 농해수위 법안심사소위‘농협중앙회장 직선제’를 담은 농업협동조합법(농협법) 개정안이 3일 여권 주도로 국회 농림축산식품해양수산위원회 법안심사소위원회를 통과됐다. 이날 국회 농해..",
-            "link": "https://www.mk.co.kr/news/economy/12194518",
+            "title": "“이어폰으로 청력 검사하고 소리 키운다”…삼성 갤럭시 버즈, 식약처 허가",
+            "summary": "청력 저하 7단계 분석 맞춤형 소리 증폭 버즈4·3 프로에 내년 초부터 순차 적용삼성전자의 무선 이어폰 ‘갤럭시 버즈’로 청력을 검사하고, 잘 들리지 않는 소리를 증폭해 들을 수 ..",
+            "link": "https://www.mk.co.kr/news/economy/12196065",
             "source": "매일경제"
           },
           {
-            "title": "\"한채아의 겨울 코디는?\"…세정 데일리스트, 신규 컬렉션 공개",
+            "title": "\"포카 받으러 카페 간다\"…이디야, 스포츠 팬심 정조준",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202611032346g",
+            "link": "https://www.hankyung.com/article/202611044362g",
             "source": "한국경제"
           },
           {
-            "title": "내년 나올 청년 전월세대출, 지방엔 금리혜택 1%P 더 준다",
-            "summary": "정부 ‘청년 전월세결합보증’ 지방 청년에 대출 우대금리 “실주거비 부담도 고려해야”정부가 내년 출시하는 청년 전월세결합보증 상품에서 지방 청년에게 수도권보다 1%포인트 높은 금리 ..",
-            "link": "https://www.mk.co.kr/news/economy/12194497",
+            "title": "카뱅, 3분기 누적 순익 4698억원…올해 늘어난 대출 58%는 개인사업자 몫",
+            "summary": "카카오뱅크가 올해 3분기 누적 당기순이익 4698억원을 거뒀다. 지난해 같은 기간보다 25.2% 늘었다. 가계대출 관리가 이어지는 가운데 올해 들어 늘어난 대출 잔액의 58%를 개..",
+            "link": "https://www.mk.co.kr/news/economy/12195970",
             "source": "매일경제"
           },
           {
-            "title": "3000만원대 보급형 전기차…폭스바겐 폴로, 독일에서 돌풍",
+            "title": "\"2조 달러는 안 돼\"…앤트로픽, IPO 앞두고 몸값 논란",
             "summary": "",
-            "link": "https://www.hankyung.com/article/202611032371g",
+            "link": "https://www.hankyung.com/article/202611044364i",
             "source": "한국경제"
           },
           {
-            "title": "‘착한 정책’이 세금도둑 된다?…‘깐깐함’이 필요한 이유 [이재철 칼럼]",
-            "summary": "미완성품 AI로봇, 정부 1만5000대 구매 생태계 지원 의도 좋아도 방만 재정 위험 기업에 ‘엄혹한 멘토’ 이스라엘 배워야가을 낙엽 같은 대통령의 SNS 덕분에 알게 됐다. 세금..",
-            "link": "https://www.mk.co.kr/news/economy/12194486",
+            "title": "“사적연금·ISA·배당 소득자 등 건보료 부과 추진”…건보료 체계 ‘확’ 바뀔듯",
+            "summary": "정부, 분리과세소득에 건보료 부과 검토세금은 부과되지만 건강보험료 산정에서 제외된 금융·연금소득 등 분리과세 소득과 일용근로소득에 보험료를 매기는 방안이 검토된다. ‘소득 있는 곳..",
+            "link": "https://www.mk.co.kr/news/economy/12195963",
             "source": "매일경제"
           }
         ],
-        "summary": "국내 완성차 시장에서 중국산 전기차의 점유율이 처음으로 50% 아래로 떨어지며 안방 방어에 경고등이 켜졌습니다. 네이버와 토스의 POS 연동 갈등이 공정위 제소로 번지는 등 플랫폼 업계의 규제 리스크도 커지는 양상입니다."
+        "summary": "가계대출 규제로 인터넷은행들이 개인사업자(SOHO) 대출 확대에 집중하며 실적을 방어하는 한편, AI·헬스케어 및 바이오 등 신사업 분야에서 실증 사업과 글로벌 진출이 활발히 전개되고 있습니다."
       },
       "JP": {
         "headlines": [
           {
-            "title": "Malaysia transport minister still plans to quit, says megaprojects safe",
+            "title": "U.S. midterms live: Democrat Warner wins Virginia Senate race",
             "summary": "",
-            "link": "https://asia.nikkei.com/politics/malaysia-transport-minister-still-plans-to-quit-says-megaprojects-safe",
+            "link": "https://asia.nikkei.com/politics/u.s.-midterm-elections/u.s.-midterms-live-democrat-warner-wins-virginia-senate-race",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Apple's new CEO delivers first earnings as sales hit record",
+            "title": "China's Temu, JD.com revamp business models amid tariff headwinds",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/technology/apple-s-new-ceo-delivers-first-earnings-as-sales-hit-record",
+            "link": "https://asia.nikkei.com/business/retail/china-s-temu-jd.com-revamp-business-models-amid-tariff-headwinds",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Japan's Aisin develops new type of AI chip that cuts energy use 98%",
+            "title": "Nidec's rise and fall fuels calls for sweeping overhaul of Japanese company",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-aisin-develops-new-type-of-ai-chip-that-cuts-energy-use-98",
+            "link": "https://asia.nikkei.com/business/business-asia/nidec-s-rise-and-fall-fuels-calls-for-sweeping-overhaul-of-japanese-company",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Ethics drive Wardah to pinnacle of Southeast Asia's beauty brands",
+            "title": "APEC host China to keep cars off street, close schools during Shenzhen summit",
             "summary": "",
-            "link": "https://asia.nikkei.com/spotlight/asean-money/ethics-drive-wardah-to-pinnacle-of-southeast-asia-s-beauty-brands",
+            "link": "https://asia.nikkei.com/politics/international-relations/apec-host-china-to-keep-cars-off-street-close-schools-during-shenzhen-summit",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Cyber insurance inquiries surge at Japan's nonlife insurers",
+            "title": "Japan regional banks form united front on cybersecurity",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/insurance/cyber-insurance-inquiries-surge-at-japan-s-nonlife-insurers",
+            "link": "https://asia.nikkei.com/spotlight/cybersecurity/japan-regional-banks-form-united-front-on-cybersecurity2",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Singapore's Insignia Ventures backs rural Japan for Davos-inspired academy",
+            "title": "The best is yet to come: Asia's chance to reimagine AI",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/startups/singapore-s-insignia-ventures-backs-rural-japan-for-davos-inspired-academy",
+            "link": "https://asia.nikkei.com/opinion/the-best-is-yet-to-come-asia-s-chance-to-reimagine-ai",
             "source": "Nikkei Asia"
           },
           {
-            "title": "The great yen rebalancing",
+            "title": "US tech giants' hidden AI debt swells 90% to $3.2tn in 6 months",
             "summary": "",
-            "link": "https://asia.nikkei.com/opinion/the-great-yen-rebalancing",
+            "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Nintendo's Mario creator Miyamoto sees 'things we can do' even in AI era",
+            "title": "Fukushima tries to reinvent itself as hub for drones, robots and rockets",
             "summary": "",
-            "link": "https://asia.nikkei.com/editor-s-picks/interview/nintendo-s-mario-creator-miyamoto-sees-things-we-can-do-even-in-ai-era",
+            "link": "https://asia.nikkei.com/business/startups/fukushima-tries-to-reinvent-itself-as-hub-for-drones-robots-and-rockets",
             "source": "Nikkei Asia"
           },
           {
-            "title": "North Korea leans on China and Russia to drive 3% economic growth",
+            "title": "Japan's Yamato targets 'leaner' delivery service in push for profit: president",
             "summary": "",
-            "link": "https://asia.nikkei.com/economy/north-korea-leans-on-china-and-russia-to-drive-3-economic-growth",
+            "link": "https://asia.nikkei.com/editor-s-picks/interview/japan-s-yamato-targets-leaner-delivery-service-in-push-for-profit-president",
             "source": "Nikkei Asia"
           },
           {
-            "title": "Japan's IHI wins key role in Westinghouse's new Poland nuclear plant",
+            "title": "New MUFG digital bank to forgo ATM cards in cybercrime safeguard",
             "summary": "",
-            "link": "https://asia.nikkei.com/business/energy/japan-s-ihi-wins-key-role-in-westinghouse-s-new-poland-nuclear-plant",
+            "link": "https://asia.nikkei.com/business/finance/new-mufg-digital-bank-to-forgo-atm-cards-in-cybercrime-safeguard",
             "source": "Nikkei Asia"
           }
         ],
-        "summary": "아이신이 에너지 효율을 획기적으로 낮춘 AI 칩 개발에 성공하며 기술 경쟁력 강화에 나섰습니다. 아울러 엔화 환율 변동성에 따른 수출 기업들의 포트폴리오 재조정이 활발하게 진행되고 있습니다."
+        "summary": "일본 기업들은 사이버 보안 강화와 물류 효율화(야마토의 체질 개선) 등 수익성 중심의 구조조정에 박차를 가하고 있으며, 대형 은행(MUFG)은 디지털 뱅킹 혁신으로 보안 리스크 대응에 주력하고 있습니다."
       },
       "TW": {
         "headlines": [
+          {
+            "title": "Until Next Gen Computing Implodes I’ll Keep Buying Taiwan Semiconductor",
+            "summary": "",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQVBWRUIwVGJjVUVaczRjckFQc3QtTlFqNWk4eXlQTEk0MHhGZmMtd3NkbDkzdTlHUDBIVHREbGZRTHdqNG8tbjd4S1l5SGN3VzUxNDJOUC1JSmZBbUZqQWx6U0RrS3JlMktBRUJ4TUhNVVFTSTBpSkRBdTFvYVNYVGVQMUtQaXp3dDlCb3N3TFFhMUNQNUhmRGRmN0FZcDg?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "Taiwan Semi or Broadcom: If I Could Only Own 1 for the Next 5 Years, It Would Be This",
+            "summary": "",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVmRmcUtySDFqa3Zfak1Sc1dxbzFXYzlTd1UwX2p3ckVBQzB4VTlNQUtSMUd6Rk10eHU2Z0lhczFOeVNXLUtTVFhzU3BQc1labmRnQU0xREZ1TndBeWR1RUNqY2h4cjlLZkFRMUdybnBkTjhGYnE5UHFPM3YxTHd0cG40b3EycFNPc09haWk5RUNfc0Jnemxn?oc=5",
+            "source": "Google News"
+          },
+          {
+            "title": "Human Circuits in Cold War Taiwan: The Radio Corporation of America, KMT Martial Law, and the Hidden Labour Behind Global Semiconductor Production",
+            "summary": "",
+            "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNWGRMRDY5LTl4a3ctRWY1VXZVZmVlRnZsOXgwaVA3RzB3UDNjQ29USlZaRXdwX24yZFFLRkR5c0J4UGZfc0p0WTBuVWJxb19YVDl3TWhEU1c0OHJWYk1mVmtBOTA0UFNWNm43N0UyNFdsT2taLVdDQ3I2LWtBUjZEQzZHSHV2TXVLaHdOcjNSYU04M3VyUVBobk5kbmNiQnpQejBMeE9SNF9ybEtMbVVqQzZvM3U4azl0QUdaaUxGQXJmNzJLNGhVWHFVUDd6T0FvbFpTNkhzNmdwWmpVOEgwMU9fU0xyMWcybko1eTFUYjd5cTVtWVZaeENTX3I0OGtQeVVqc0Y1YXJfVFl4?oc=5",
+            "source": "Google News"
+          },
           {
             "title": "TSMC’s $265 Billion Campus Is Driving a Real Estate Boom in the Phoenix Suburbs",
             "summary": "",
@@ -281,155 +298,137 @@
             "source": "Google News"
           },
           {
-            "title": "Intel vs. Taiwan Semiconductor: The AI Boom Is Telling Two Very Different Stories",
+            "title": "Midterm Election Market Outlook Highlights Taiwan Semiconductor (TSM) as a Key Tech Stock",
             "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaW5haTJaRkZMeUVURjFLNEp1NnRsRWpXSkhtX3I1TTN0Wm9fc0VGMG1XMWFBYmliWGRodmdjVzVIVlNrR2xuRVFNUWY4anVzVmd4RXR3WGxpVzhUSFFzMWtueUM4NnpPNlFKdHRQUHBjSHdzSlNvUEwzOG9TSmVTZzM2dEFlcjlDQk5EYnAzcXpmOTg2eERIYg?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQalVrNW8tNlFyaHlJSnNmd1JlTHI2SlBRVmxyOE9SbGxqSUlhOW9kNEIwcFdnZDFqRzJkbzlGNWw0aUs3MGphWXI0U1p4a1hRTFJoYXpsaVdsd21lRDZRU0lHdzl3SDhGSno0cnRNNi00ZEZfNTNabU1mby00OTJsSzZKVGc0YmJiUXNZMGRkZ0VjRG1lNl9XcDBMLV9lTDZmYWVmRjNCd0ZMbDNIc2J6aVlFNXBhQ3NhS1dNT2ZpOWlOSVJG?oc=5",
             "source": "Google News"
           },
           {
-            "title": "What's Going on With Taiwan Semiconductor Stock on Monday?",
+            "title": "TSMC Is Down 18%: The 2nm Ramp Should Change That (NYSE:TSM)",
             "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUFNpQ2hNdDBaMmtieTBRSU9SU2lsanJHanU1U3VOMlIxM0prTnhscVpNX0c5Q1BsRDdWUS1ZRXZndFZXTXlHb3hxY2VpOHdhTW80VC1jbi1NQnplTF9EUl9Bd1FDd1NtQUFuOFNJdTRfZTA4bUY3a2FrQ0ZJY3Z3R1JFY3M1Nl9FMDR2R0FuUUs2M2FfQTZVaXdhSkxXNnZ2ZGljc1EzcmlUYXZuaDllVw?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSm9ZUm5aN3VpLUFlOUd1eGRTVTJaMGdlVl9fNjgtRldkUDMxVUw5TFIzRlZuX3N4Zl9MTVBDYmNBQ3BUb1hmMVVLdThJTDVBQzF1ZzY5bGh1M2lqRkFRdnpRWEtRWDR1bF9iMGlJbm0td1BoNHVVT0M0MXhfaGpOZmNoVW04a0NVNWY0NnNKY1dQaFdLNXIwbmpKaGI?oc=5",
             "source": "Google News"
           },
           {
-            "title": "TSMC’s 1-nanometer Manufacturing Site Likely Tipped By Taiwan’s Minister In Discussion That Included Robots",
+            "title": "$Taiwan Semiconductor (TSM.US)$",
             "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHFmSmdyWnBFRS1fakNPS3VCenFwdnFiSlB5V2lWVElJVmQxVkFjanhWV3ozcVd0RGVGQVRTb2NpcnpYbEF2cFRZeU8tc3NoTDJOVG1rcE1NblhicDA3SC1SdV83NXFDZjQyZm9uUXlmYUFiblVEcmp1dngwVVpRTzFCYm9Mb0dOTHM4SnB0Z2hnWEhsRnpUczc5YTNrOVV1djU4UTFycVJ3NmhTd21SQjB1a2g5dTRNWlYzWExXNzd2dWkwVEHSAcsBQVVfeXFMTUJNMnV2bjU0dUFGQkY2QnEyQVFEU0tKQ0xwSFJFSWJKZzFmRXRYU0FOY3o0dkNrbW0zY2hXXzM0NkZVaEJwSkJaZE5FckdmbDFkN25qRzdnNWlzaU9pQ2tOUGhMMHlfc1MwRjlTUUNiby1iZ1pxWmxRUXVIaXFoNWVMMFVmbm9WODR1RWN5VGF6b3ZHMHpmbGV1RXRSNkpxT1BqRU9yMFdkSHdkcnFBOHVHQ250SlZOREs5QVQzeGhOVEU4azNxZ1kyVGM?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVm8tbm9hX1U2b0RyZkg5VzRuaWk0M2FiU21WdF9MUF9RNmZnVE9XSjNiN2V3SEFDVzBVbjFqZ1pRekxsckNpY01BcmNvZWRweTgtRHpWNkRuNlhtZXlZN0xKYk1CYzhZOXNyeldmUW1MVjRWNzhNaDVXOHBGaVh5WFNJc01hazY0?oc=5",
             "source": "Google News"
           },
           {
-            "title": "Donovan’s Deep Dives: TSMC’s overseas expansion is a necessity, not a choice",
+            "title": "Insider Move: Lipen Yuan Invests $71K In Taiwan Semiconductor Stock",
             "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHMVRVdXN6NkJwR1dsdjhBOVBzWkI1bWVvQ1VQLTNGTnJwMDdYRGRMZVpRS291QVRpT2xXbFQ5QnJXNFdrUmdyakxsT1NHOXhyLXVnVkdhSjZfYnBlVjNZanUwQ192QkxWd0d5QXRoWHhjelRhcGRF?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb1Y2N3BqdFN1YlRmbTc3S3BVTG5tSnA3NF96OTA3WVkyTnlJamE2Vnc5Sm1zNDdGWEM3ejlieFFocjlaZVZHYkJQZk1yYWRRYTNyRW5VQjh6dThZWkQxMG00WWhlbUVaVlpueXhEOFR6aF9QQUxONjE3OEE1T09LOUdDZjVEcE1QcGRhX1pvWGY1WmJYMmF6dTh5eXZ3elRGOHN6eEtVMU9VdVk?oc=5",
             "source": "Google News"
           },
           {
-            "title": "Here’s What a $10,000 Investment in TSMC Stock Will Be Worth by 2030",
+            "title": "New science park to rise in Tainan: NSTC minister",
             "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU1hNeUxiYWNYT2JHOHRZVm9JOEx2RmtSU1I3SUV6emRrUmgzUmtvR2k0clBENDlDRTF6SEtIQTRGOVZ4Tm9wTVlDam01bklqRzljU1U0akEzNW5iOGY0cmZVU21QTWJkMlZvTVBHWVpVanhlTVFRQXAteGJ5SzlLcG9ublZqQkw1SlRVZ1BjUjkxWl92dXJvT3VaWWQ2R2lhU29BOVpBUGRXMnNzWGpsakRVRQ?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CUXhZYUtuQlo3bi1XRHJBaFNiYjh1b3ZVTFZJZlpLdVQxXzdGck9CTVY2OS05ZVQwMXRIeVpRZDNnRWdZYlQxR3BKaGcxQzRkcXdVWjN6NWNzSFVZaDRfeVJxTXBfNUFDWUlKZmFCNGx2ckRla1huLQ?oc=5",
             "source": "Google News"
           },
           {
-            "title": "Taiwan Semiconductor Options Spot-On: On November 2nd, 126.86K Contracts Were Traded, With 1.93 Million Open Interest",
+            "title": "Taiwan’s AI stock boom is making early-stage startups a harder sell",
             "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLWpRUDFQakUyNlFCRm95dC05cTdLLTl6ZjhuZXhrajdFYkhtN0NBTm9wVTBkSkpOVnRxVXdxTUNNeFd3YWhUX1ZYdV9YVUI3S1l3YWhiV1lYa1pTUjhoaGJKSWxyMDUyMzlkS1hhNXBnNW5SNFRJdFQzQVBJLWYzUmtoOGRyU0k0dTYxejg4RG5XYV9wTkFkQWREcF9nT1FfalR4S3RR?oc=5",
-            "source": "Google News"
-          },
-          {
-            "title": "$Taiwan Semiconductor (TSM.US)$ Coming election will bring good news to stock market.",
-            "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcE5JMEJCcVB1QVgtakFSZVhHOVlxQnBsRGxYWkhXTUhwWk1KWWxXZkczNnFsMFBfR2hIUTRfYVFaeHlNZXRKSGduVzJLMTJlXy05bGtmTURwTlpRSURtU2xHelZiZWxLOFVOWHVHRm5fVy1NSWRLak5nbENFQ3gydi10UnJSdEJPUW0xTDdVZnJVRzNkMUloaWpzNTJHb19GRmxXQ3pqM2hzTDNNd0hZOFRkYi1FMlZ2TkE?oc=5",
-            "source": "Google News"
-          },
-          {
-            "title": "Taiwan Semiconductor Shares Plunge NT$40 in a Single Day; Analyst Calls It a \"Mistaken Selloff,\" Sees Rebound by Tomorrow at the Latest",
-            "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4RTRqVnZNNGpSQzhYVFpSeWV4WC1RdVB1WE1mcDljR1lwV09JaENMOEFxV1l5bU85Tkp6T0Y0MUQtSWlfS05UM3ZCckJUVU9HNGdHbk52bGlOZWZlYjFlY05hdFlXWElhSUdyUGN5RUswSmFkRnc?oc=5",
-            "source": "Google News"
-          },
-          {
-            "title": "TSMC Spurs North Phoenix Real Estate Boom",
-            "summary": "",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN29uTE9pd1BIUVIwMFZwV24zRzBzcGI0b1lLYlJMXzN1aVN4RDJERGcyVUZXeXRoZDI4dGJzd0lxOEo2Y0ctM2pJYTZOUXFHcWl6ZGpFS0pYYkhIZWhpcFljUlRVN3dwc1BFSm41UFJPclNNTUZ3M25UMXZfdHhVbTUtelhMY3ZFTWJ3bmh2M3g?oc=5",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVlNRMjhKa0dGczNkNHBtd3ZEQW9JRzU3M1NQa1d0ck9uX1lyQW11NWtqUjhQMW5EejJQbUQxZm5ocGIzS0c5QThvR0ZZY0pJLVVWNE83WV9CLWMwUDE2VlUteHc3X29EZUg1NVFvaE54R2RweWpsa1l1SDhpSG1FRHNsNzZldUFpV0FzVGp3SzE4d0o0anlzQWR5LUpDUE9sSVAyWjV1cUI1ckk?oc=5",
             "source": "Google News"
           }
         ],
-        "summary": "TSMC의 해외 확장과 1나노 공정 부지 유치 소식이 이어지는 가운데 단기 주가 변동성이 확대되었습니다. 미국 피닉스 등 해외 캠퍼스 투자가 현지 부동산 붐을 견인하며 글로벌 공급망의 중심 역할을 재확인하고 있습니다."
+        "summary": "TSMC는 견고한 파운드리 수요와 차세대 2nm 공정 전환 기대감을 바탕으로 글로벌 테크 시장의 핵심 주도주로 부각되며, 타이난 신과학공단 등 인프라 확장도 이어지고 있습니다."
       },
       "CN": {
         "headlines": [
           {
-            "title": "HashKey Adopts Tokenised Deposit for Cross-Market Treasury and Liquidity Management on Standard Chartered's Blockchain Platform",
-            "summary": "[The content of this article has been produced by our advertising partner.] Hong Kong, November 2, 2026 — HashKey Group (3887.HK), a leading Asian digital asset company, today announced that, its is among the first institutional clients to adopt Standard Chartered’s newly launched institutional toke",
-            "link": "https://www.scmp.com/presented/business/banking-finance/topics/hashkey-standard-chartered-cooperation/article/3372964/hashkey-adopts-tokenised-deposit-cross-market-treasury-and-liquidity-management-standard-chartereds",
+            "title": "‘Wait-and-see’: Hong Kong’s private home sales drop as interest rates are tipped to rise",
+            "summary": "Hong Kong’s primary and secondary private residential property sales fell in October compared to the previous month, as the expectation of an interest rate increase by year-end draws nearer, according to new market research. Conducted by Centaline Property, the research indicated that Hong Kong reco",
+            "link": "https://www.scmp.com/business/money/markets-investing/article/3373078/wait-and-see-hong-kongs-private-home-sales-drop-interest-rates-are-tipped-rise",
             "source": "SCMP Business"
           },
           {
-            "title": "Indonesia’s severe drought threatens to disrupt China’s vast battery industry",
-            "summary": "A severe drought in Indonesia is slowing output of a crucial material used to manufacture electric vehicle batteries, creating risks across China’s vast electric car supply chain. Indonesia is a vital link in the global electric car supply chain. The Southeast Asian nation is the world’s biggest pro",
-            "link": "https://www.scmp.com/economy/china-economy/article/3373055/indonesias-severe-drought-threatens-disrupt-chinas-vast-battery-industry",
+            "title": "PBOC pledges support for stocks as China’s market slide defies rescue efforts",
+            "summary": "China’s central bank governor has reaffirmed support for the country’s beleaguered stock market after a series of rescue measures failed to put a floor under plummeting share prices. Pan Gongsheng, governor of the People’s Bank of China (PBOC), pledged in a work report presented to the standing comm",
+            "link": "https://www.scmp.com/business/china-business/article/3373166/pboc-pledges-support-stocks-chinas-market-slide-defies-rescue-efforts",
             "source": "SCMP Business"
           },
           {
-            "title": "PBOC to raise banks’ forex reserve requirements to ease appreciation pressure on yuan",
-            "summary": "The People’s Bank of China (PBOC) announced on Tuesday that it would raise the reserve requirement ratio on foreign exchange deposits by 2 percentage points. The ratio would be 6 per cent, effective November 15, the central bank said in a statement, calling it a move to strengthen liquidity manageme",
-            "link": "https://www.scmp.com/business/article/3373053/pboc-raise-reserve-requirement-ratio-foreign-exchange-deposits-2-percentage-points",
+            "title": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
+            "summary": "US artificial intelligence giant Anthropic’s initial public offering prospectus has exposed a vast profitability gap between it and rivals Z.ai and MiniMax, highlighting the challenges facing China’s AI model developers in turning technological advances into sustainable businesses. The Claude develo",
+            "link": "https://www.scmp.com/tech/big-tech/article/3373124/why-chinese-ai-stars-zai-minimax-struggle-match-anthropics-profit-margin",
             "source": "SCMP Business"
           },
           {
-            "title": "As sales slow, carmakers in China turn to overt marketing tactics and face controversy",
-            "summary": "Chinese carmakers’ marketing tactics are under the spotlight after a controversy surrounding a comment by an Xpeng employee drew harsh criticism from middle-aged consumers. The incident comes as regulators step up quality checks on the reliability of automotive companies, according to industry offic",
-            "link": "https://www.scmp.com/business/china-business/article/3372984/sales-slow-carmakers-china-turn-overt-marketing-tactics-and-face-controversy",
+            "title": "In their own words: top global finance chiefs on AI bets, market shifts and diversification",
+            "summary": "With more than 280 global executives in Hong Kong attending the 2026 Global Financial Leaders’ Investment Summit, the market has been paying attention to what they have to say on today’s hot topics, including artificial intelligence investments, market corrections, asset diversification and the tran",
+            "link": "https://www.scmp.com/business/banking-finance/article/3373157/their-own-words-top-global-finance-chiefs-ai-bets-market-shifts-and-diversification",
             "source": "SCMP Business"
           },
           {
-            "title": "Crypto industry confronts stark security challenges after US$6.4b Binance hack",
-            "summary": "Industry leaders at Hong Kong’s Fintech Week are searching for solutions to crypto crime in the wake of Binance’s historic hack, with over US$3 billion in stolen assets still in the hands of alleged North Korean hackers. “You have to be able to treat every end point and every server as a possible pl",
-            "link": "https://www.scmp.com/business/cryptocurrency/article/3373009/crypto-industry-confronts-stark-security-challenges-after-us64b-binance-hack",
+            "title": "Amid global uncertainty, top bankers back Hong Kong’s role as mainland China’s gateway",
+            "summary": "Global financial executives have voiced confidence in Hong Kong’s role as a bridge between mainland China and the rest of the world and as a safe haven helping businesses and investors navigate geopolitical tensions and shifting global capital flows. Speaking at the city’s annual Global Financial Le",
+            "link": "https://www.scmp.com/business/china-business/article/3373156/amid-global-uncertainty-top-bankers-back-hong-kongs-role-mainland-chinas-gateway",
             "source": "SCMP Business"
           },
           {
-            "title": "Why Relationships Still Matter in the Digital Age of Banking",
-            "summary": "When Sachil Dagur took charge of Habib Bank Zurich in Hong Kong in 2018, he saw a bank with valuable strengths already in place: a niche in trade finance, deep ties to the trading community and a footprint across markets important to its clients. The opportunity, he believed, was not to reinvent tho",
-            "link": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3372666/why-relationships-still-matter-digital-age-banking",
+            "title": "‘At some point it’s going to be too much’: global financiers grapple with AI risks",
+            "summary": "The artificial intelligence boom is creating an unprecedented demand for capital and infrastructure, raising questions about whether debt markets, power grids and corporate productivity can keep pace with the technology’s expansion, executives of global asset management firms warned at a Hong Kong s",
+            "link": "https://www.scmp.com/business/banking-finance/article/3373108/some-point-its-going-be-too-much-global-financiers-grapple-ai-risks",
             "source": "SCMP Business"
           },
           {
-            "title": "Cyberport Venture & Capital Forum 2026: unlocking growth and shaping the agentic economy",
-            "summary": "[The content of this article has been produced by our advertising partner.] In 2026, venture capital is shifting rapidly as record funding flows into AI, frontier tech, robotics, and digital infrastructure. Coupled with Web3 and tokenised assets across Asia and the Middle East, the emerging ‘agentic",
-            "link": "https://www.scmp.com/presented/business/topics/cvcf-2026-helps-unlock-growth/article/3372705/cyberport-venture-capital-forum-2026-unlocking-growth-and-shaping-agentic-economy",
+            "title": "Vice-Premier He Lifeng vows support for Hong Kong as international financial centre",
+            "summary": "Beijing says it will introduce extra measures, as needed, to bolster Hong Kong as an international financial centre, with Vice-Premier He Lifeng pledging continued support in a speech on Tuesday. Delivering a keynote speech at the opening of the 2026 Global Financial Leaders’ Investment Summit in Ho",
+            "link": "https://www.scmp.com/business/article/3373105/vice-premier-he-lifeng-vows-support-hong-kong-international-financial-centre",
             "source": "SCMP Business"
           },
           {
-            "title": "China’s EDA champion buys start-up to address weak link, support Huawei’s Tau Scaling Law",
-            "summary": "Empyrean Technology, China’s top provider of electronic design automation (EDA) tools, plans to acquire a majority stake in a domestic start-up, reinforcing Beijing’s drive for tech self-sufficiency and bolstering support for Huawei Technologies’ semiconductor ambitions. The Beijing-based firm said ",
-            "link": "https://www.scmp.com/tech/big-tech/article/3373005/chinas-eda-champion-buys-start-address-weak-link-support-huaweis-tau-scaling-law",
+            "title": "Hong Kong’s ‘superconnector’ role key as geopolitics reshapes capital flows, says banker",
+            "summary": "Hong Kong is poised to play a bigger role in helping global investors diversify their portfolios as geopolitical uncertainties reshape capital flows and drive demand for alternative markets and asset classes, a senior executive from Bank of China said on Tuesday. The city’s position as an internatio",
+            "link": "https://www.scmp.com/business/banking-finance/article/3373107/hong-kongs-superconnector-role-key-geopolitics-reshapes-capital-flows-says-banker",
             "source": "SCMP Business"
           },
           {
-            "title": "Beijing city officials to boost hydrogen cars as China sets sights on future industry",
-            "summary": "Beijing’s municipal government plans to have more than 12,000 hydrogen fuel cell vehicles on its roads and build more than 40 hydrogen refuelling stations by 2030, as part of China’s efforts to promote hydrogen as a strategic energy carrier to strengthen energy security under a national pilot progra",
-            "link": "https://www.scmp.com/economy/china-economy/article/3372980/beijing-city-officials-boost-hydrogen-cars-china-sets-sights-future-industry",
+            "title": "China moves to simplify forex settlements, ease cross-border business",
+            "summary": "China plans to expand foreign exchange settlement services and streamline cross-border trade payments, in a move to lower transaction costs and facilitate international commerce. The State Administration of Foreign Exchange (Safe) on Monday released a draft notice for public consultation outlining n",
+            "link": "https://www.scmp.com/economy/policy/article/3373093/china-moves-simplify-forex-settlements-and-make-cross-border-business-easier",
             "source": "SCMP Business"
           },
           {
-            "title": "HKEX extends overnight derivatives trading as Hong Kong chases global market flow",
-            "summary": "Bourse operator Hong Kong Exchanges and Clearing (HKEX) is taking a further step towards round-the-clock trading by pushing back the closing bell for its after-hours derivatives market by 75 minutes from next year, according to a statement released on Monday. The derivatives After-Hours Trading (AHT",
-            "link": "https://www.scmp.com/business/markets/article/3373015/hkex-extends-overnight-derivatives-trading-hong-kong-chases-global-market-flow",
+            "title": "As global AI sell-offs rattle investors, Goldman Sachs touts ‘enormous opportunities’",
+            "summary": "The artificial intelligence (AI) boom could be a super-long cycle that would eventually drive productivity and bring down costs, according to the chairmen of Morgan Stanley and Goldman Sachs, who suggested the ongoing pullback in technology stocks could be a temporary speed bump. David Solomon, who ",
+            "link": "https://www.scmp.com/business/china-business/article/3373096/global-ai-sell-offs-rattle-investors-goldman-sachs-touts-enormous-opportunities",
             "source": "SCMP Business"
           }
         ],
-        "summary": "인도네시아의 가뭄이 중국의 전기차 배터리 공급망에 차질을 빚는 변수로 작용하고 있습니다. 인민은행은 위안화 절상 압력을 완화하기 위해 외환 지급준비율 인상을 단행하며 유동성 관리에 나섰습니다."
+        "summary": "인민은행(PBOC)의 강력한 증시 부양 의지 표명에도 불구하고 부동산 시장 침체와 미·중 관세 압박, AI 수익성 격차 우려가 겹치며 시장의 경계감이 지속되고 있습니다."
       }
     },
-    "trend_headline": "첨단 기술 경쟁과 공급망 재편의 소용돌이",
-    "summary": "오늘 아시아 시장은 전기차 배터리 공급망 위협과 AI·반도체 중심의 기술 자립 경쟁이 맞물려 전개되었습니다. 한국은 수입차 안방 방어에 비상이 걸렸고, 대만은 TSMC를 축으로 한 글로벌 확장 국면에서 변동성을 겪었으며, 중국은 환율 방어와 원자재 리스크 관리라는 실물 경제 과제를 마주했습니다.",
+    "trend_headline": "AI 투자 열풍 속 수익성·부양책 점검 나선 아시아",
+    "summary": "오늘 아시아 시장은 글로벌 AI 인프라 투자와 수익성 격차에 대한 우려가 교차하는 가운데, 중국의 지속적인 증시 부양 의지와 대만 반도체의 공정 전환 기대감이 테크 및 금융 섹터의 향방을 가르고 있습니다.",
     "cross_country_themes": [
-      "전기차 및 배터리 공급망 리스크",
-      "반도체 및 AI 기술 자립·혁신"
+      "인공지능(AI)과 반도체 밸류체인",
+      "금융 규제 및 유동성·부양책"
     ],
     "sector_hints": [
-      "Automotive",
       "Semiconductors",
-      "Foreign Exchange",
+      "Banking & Finance",
+      "AI Infrastructure",
       "Real Estate"
     ]
   },
   "europe": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "region": "EUROPE",
     "headlines": [
       {
-        "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-        "summary": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
-        "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+        "title": "Poundland supplier 'will lose millions' if retailer collapses",
+        "summary": "One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.",
+        "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Portugal house prices hit new record as October sees 7.5% annual rise",
-        "summary": "House prices in Portugal rose 7.5% in October compared with the same period last year. The price per square metre in Lisbon exceeds six thousand euros.",
-        "link": "https://www.euronews.com/2026/11/02/portugal-house-prices-hit-new-record-as-october-sees-75-annual-rise",
+        "title": "Portugal signs TAP sale contract with Lufthansa, pledging to keep airline Portuguese",
+        "summary": "The government and Lufthansa have signed a contract for the sale of TAP to the German group, which says it will remain a Portuguese airline ; the prime minister pledges to preserve the TAP brand and identity .",
+        "link": "https://www.euronews.com/2026/11/03/portugal-signs-tap-sale-contract-with-lufthansa-pledging-to-keep-airline-portuguese",
         "source": "Euronews Business"
       },
       {
@@ -439,114 +438,114 @@
         "source": "DW Business"
       },
       {
-        "title": "Les lobbies du tabac mettent le paquet à Bruxelles, alors que l’UE se penche sur le secteur",
-        "summary": "Le nombre de réunions entre des représentants de cette industrie et des eurodéputés a déjà quadruplé par rapport à la législature précédente.",
-        "link": "https://www.politico.eu/article/le-lobby-du-tabac-met-le-paquet-a-bruxelles-alors-que-lue-se-penche-sur-le-secteur/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "EU tells Ukraine to hasten reforms, sets out more cautious path for accession",
+        "summary": "Brussels has set out a far more ambitious membership roadmap for Moldova than it has for Ukraine.",
+        "link": "https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "Shop freezers in seven European countries hit by cyber-attack",
-        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
-        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+        "summary": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
+        "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Apple's new CEO faces earnings test as rising chip costs cloud outlook",
-        "summary": "Investors want clarity on Christmas sales, rising memory costs and Apple's AI plans as John Ternus prepares to lead his first earnings call since taking over from Tim Cook.",
-        "link": "https://www.euronews.com/2026/11/02/apples-new-ceo-faces-earnings-test-as-rising-chip-costs-cloud-outlook",
+        "title": "The Zangezur Corridor: Regional peace and global connectivity",
+        "summary": "The Zangezur Corridor is a test case for the region, writes Dr Matin Mammadli of the Centre for the Analysis of International Relations in Baku in an article for Euronews. It could link Azerbaijan with Nakhchivan, strengthen trade between Europe and Asia, and lay an economic foundation for peace.",
+        "link": "https://www.euronews.com/2026/11/03/the-zangezur-corridor-regional-peace-and-global-connectivity",
         "source": "Euronews Business"
       },
       {
-        "title": "Des mid-terms US lourdes d’impacts pour les Européens",
-        "summary": "Les Européens attendent avec beaucoup d’impatience de connaître dans la nuit de mardi à mercredi le résultat des élections de mi-mandat aux Etats-Unis. Deux ans après sa réélection triomphale, Donald Trump subira-t-il le revers électoral que lui prédisent les sondages ? Si oui, quelles pourraient en",
-        "link": "https://www.politico.eu/podcast/playbook-paris-podcast/des-elections-de-mi-mandat-aux-us-etats-unis-lourdes-dimpacts-pour-les-europeens/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "Guillaume Cerutti choisi pour présider le château de Versailles",
+        "summary": "PARIS — Après huit mois d’intérim, Versailles s’apprête à accueillir un nouveau président. Guillaume Cerutti, ancien président de la Pinault Collection et ex-patron mondial de Christie’s, devrait prendre la tête du prestigieux château, a appris POLITICO – l Elysée n a pas répondu à nos messages. Sa ",
+        "link": "https://www.politico.eu/article/guillaume-cerutti-choisi-pour-presider-le-chateau-de-versailles/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "North Korea denies being behind record $6.3bn Binance hack",
-        "summary": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
-        "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
+        "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+        "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
+        "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Ryanair eyes cost cuts as it faces a €2 billion rise in its fuel bill next year",
-        "summary": "One of Europe's biggest airlines saw its first-half profit fall 15% as higher fuel costs and lower fares outweighed passenger growth.",
-        "link": "https://www.euronews.com/2026/11/02/ryanair-eyes-cost-cuts-as-it-faces-a-2-billion-rise-in-its-fuel-bill-next-year",
+        "title": "Anthropic swings back to operating loss as $895 billion compute bill looms over IPO",
+        "summary": "Anthropic’s revenue jumped 47% to $17 billion (€15.1bn) last quarter, but the developer of the Claude AI models slipped back into an operating loss and revealed close to $900 billion (€804bn) in commitments, mostly for computing, numbers investors will weigh ahead of its Nasdaq listing.",
+        "link": "https://www.euronews.com/2026/11/03/anthropic-swings-back-to-operating-loss-as-895-billion-compute-bill-looms-over-ipo",
         "source": "Euronews Business"
       },
       {
-        "title": "Berlin unveils blueprint to catch up on AI",
-        "summary": "Germany should become a “sovereign AI nation” by 2030, according to a plan set to be released Monday.",
-        "link": "https://www.politico.eu/article/berlin-unveil-blueprint-catch-up-ai-artificial-intelligence/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "Spain’s transport minister resigns after deadly train crash",
+        "summary": "Óscar Puente was adamant he wasn't going to resign — until he did so on Tuesday evening.",
+        "link": "https://www.politico.eu/article/spain-transport-minister-oscar-puente-resigns-after-deadly-train-crash/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "Apple unsure when more foldable iPhones will be available after selling out",
-        "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
-        "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+        "title": "Canva announces major job cuts after 'our hardest year yet'",
+        "summary": "CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.",
+        "link": "https://www.bbc.co.uk/news/articles/cw77pg7neydmo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Europe seeks Central Asia's critical minerals as producers push for local processing",
-        "summary": "At a forum in Tashkent, participants examined technology transfer, financing and transport routes. A recent German-Kazakh industrial roadmap and preliminary financing terms with a French bank illustrate the different stages of cooperation.",
-        "link": "https://www.euronews.com/2026/11/02/europe-seeks-central-asias-critical-minerals-as-producers-push-for-local-processing",
+        "title": "Lufthansa faces €2 billion extra fuel bill as Iran war keeps prices high",
+        "summary": "Germany’s Lufthansa reported higher summer profit and record quarterly revenue, but rising fuel costs prompted it to lower the upper end of its annual profit forecast.",
+        "link": "https://www.euronews.com/2026/11/03/lufthansa-faces-2-billion-extra-fuel-bill-as-iran-war-keeps-prices-high",
         "source": "Euronews Business"
       },
       {
-        "title": "Europe’s supermarkets hit by new wave of cyberattacks targeting fridges",
-        "summary": "Dozens of store refrigerators across five countries saw their temperature raised remotely, following similar attacks that hit France last month.",
-        "link": "https://www.politico.eu/article/new-supermarket-hack-in-belgium-sweden-luxembourg/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "Clash intensifies between Tusk and Nawrocki over Poland s top court",
+        "summary": "Prime Minister Tusk says overhaul of Constitutional Tribunal is vital to preserve EU-aligned rule of law, while President Nawrocki accuses him of a coup.",
+        "link": "https://www.politico.eu/article/clash-intensifies-between-tusk-and-nawrocki-over-polands-top-court/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "Ryanair says it may freeze workers' pay and raise airfares",
-        "summary": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
-        "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+        "title": "Drivers may get compensation offers before car finance saga ends",
+        "summary": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
+        "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Kärcher CEO warns Europe faces 'perfect storm' as he calls for economic reforms",
-        "summary": "Europe and Germany risk deindustrialisation, Kärcher CEO Hartmut Jenner has warned. He is urging major cuts in bureaucracy, incentives for extra work and a firm EU trade policy towards China and the US.",
-        "link": "https://www.euronews.com/2026/11/01/karcher-ceo-warns-europe-faces-perfect-storm-as-he-calls-for-economic-reforms",
+        "title": "Apple earnings beat expectations, but rising chip costs worry investors",
+        "summary": "Better-than-expected results from Apple for the last quarter of the company’s fiscal year 2026 were overshadowed by rising memory chip costs and a forecast for slower services growth.",
+        "link": "https://www.euronews.com/2026/11/03/apple-earnings-beat-expectations-but-rising-chip-costs-worry-investors",
         "source": "Euronews Business"
       },
       {
-        "title": "King mulls De Wever s resignation as Belgian budget talks fail",
-        "summary": "The prime minister's coalition is in crisis over stalled attempts to reach a deal for next year's budget.",
-        "link": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "Trump says Europe gave Greenland to US as greatest gift ever",
+        "summary": "Earlier this year, the U.S. president refused to rule out using military force to gain control of the mineral-rich island.",
+        "link": "https://www.politico.eu/article/greenland-greatest-gift-ever-donald-trump-us-europe/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "Poundland's former owner offers to invest as minister prepares to meet board",
-        "summary": "Wolverhampton's Steve Smith said he wants to put some money back into the firm he started.",
-        "link": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss",
+        "title": "Graduates are managing AI - but are they learning much else?",
+        "summary": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
+        "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
-        "summary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany and Europe.",
-        "link": "https://www.euronews.com/2026/10/31/karcher-boss-less-regulation-more-action-to-get-europe-and-germany-fit-again",
+        "title": "Portugal house prices hit new record as October sees 7.5% annual rise",
+        "summary": "House prices in Portugal rose 7.5% in October compared with the same period last year. The price per square metre in Lisbon exceeds six thousand euros.",
+        "link": "https://www.euronews.com/2026/11/02/portugal-house-prices-hit-new-record-as-october-sees-75-annual-rise",
         "source": "Euronews Business"
       },
       {
-        "title": "Has Shabana Mahmood won her immigration tussle?",
-        "summary": "Are domestic political battles about to collide with diplomatic challenges for the prime minister? As Andy Burnham jets off to the Caribbean, Home Secretary Shabana Mahmood prepares to unveil one of the government s most contentious policies: a major crackdown on legal migration. A year after the pl",
-        "link": "https://www.politico.eu/podcast/politics-at-sam-and-annes/has-shabana-mahmood-won-her-immigration-tussle/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "Edouard Philippe dos au mur",
+        "summary": "Toussaint morose pour la droite et le centre. Aucun de ses représentants n’est en mesure de se qualifier pour le second tour de la présidentielle dans les derniers sondages, y compris Edouard Philippe désormais doublé par Jean-Luc Mélenchon. Le candidat Horizons réitère son refus de participer à une",
+        "link": "https://www.politico.eu/podcast/playbook-paris-podcast/edouard-philippe-dos-au-mur/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
-        "summary": "The men and women who rummage through commercial bins to take clothes and other items.",
-        "link": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
+        "title": "Asda hires ex-Morrisons boss in bid to grow firm",
+        "summary": "David Potts takes charge of Asda, which is based in Leeds, with immediate effect.",
+        "link": "https://www.bbc.co.uk/news/articles/c6vg0xzd0ln4o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       }
     ],
-    "trend_headline": "연료비 급등과 규제 압박에 직면한 유럽 산업계",
-    "summary": "라이코 에어 등 항공업계가 지정학적 리스크로 인한 거대 연료비 부담과 비용 절감 압박에 직면한 가운데, 독일을 중심으로 한 유럽 산업계는 과도한 규제 개혁과 공급망 재편을 촉구하고 있습니다. 동시에 EU의 신규 수입 규제와 미·중 공급망 갈등이 유로존 기업들의 비용 구조를 압박하는 주요 요인으로 작용하고 있습니다.",
+    "trend_headline": "루프트한자·라이언에어, 지정학 리스크로 2십억 유로 유류비 폭탄",
+    "summary": "이란 전쟁 여파로 고유가 국면이 지속되면서 루프트한자와 라이언에어 등 유럽 주요 항공사들이 연간 실적 전망을 하향 조정하고 비용 절감에 돌입했습니다. 지정학적 불안이 에너지 및 운송 섹터의 마진을 압박하는 동시에, 독일을 중심으로 한 제조업계는 과도한 규제와 에너지 비용 상승에 따른 '퍼펙트 스톰' 우려를 제기하고 있습니다.",
     "key_points": [
-      "라이언에어, 중동 지정학 리스크 여파로 내년 20억 유로 규모의 연료비 상승 압박 및 비용 절감 추진",
-      "독일 가처(Kärcher) CEO, 관료주의와 규제 완화를 촉구하며 유럽·독일의 '퍼펙트 스톰' 경고",
-      "EU, 중국산 저가 공세 대응 및 소포 수입 규제 강화로 유통·커머스 섹터 비용 부담 가중"
+      "루프트한자와 라이언에어, 내년 2억 유로(약 2조원) 규모의 추가 유류비 부담 직면",
+      "독일 루프트한자, 여름철 양호한 실적에도 불구 치솟는 연료비로 연간 이익 전망치 상단 하향",
+      "Kärcher 등 독일 주요 기업 CEO들, 고에너지 비용과 규제 속 유럽의 탈공업화 위기 경고"
     ],
     "sector_hints": [
       "Energy",

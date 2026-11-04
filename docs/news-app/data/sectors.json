@@ -1,68 +1,92 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "sectors": [
-    {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.8,
-      "rationale": "AI 고평가 우려 및 마진 압박으로 미국 나스닥-100 지수가 조정 국면에 진입했으며, 애플과 팔란티어 등 주요 빅테크의 실적 발표 이후 성장 둔화 및 수급 압박 우려로 주가 하락세가 지속됨.",
-      "related_tickers": [
-        "AAPL",
-        "PLTR"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 4.5,
-      "rationale": "일본 아이신의 저전력 AI 칩 개발 성공과 대만 TSMC의 1나노 공정 부지 유치 등 기술 자립 및 확장 모멘텀이 이어지고 있으나, 메모리 수급 압박 및 단기 주가 변동성이 상승 폭을 제한함.",
+      "score": 8.5,
+      "rationale": "미국의 AMD 및 슈퍼마이크로가 호실적과 AI 수요 폭증 가이던스를 제시하고, 대만 TSMC 또한 견고한 파운드리 수요와 2nm 공정 전환 기대감으로 강세를 보임.",
       "related_tickers": [
-        "TSM"
+        "AMD",
+        "TSM",
+        "SMCI"
       ],
       "source_regions": [
-        "ASIA",
-        "US"
+        "US",
+        "ASIA"
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.2,
-      "rationale": "인도네시아 가뭄으로 인한 전기차 배터리 핵심 원자재 공급망 차질, 한국 내 전기차 점유율 변화 및 EU의 저가 중국산 소포 수입 규제 강화로 완성차 및 유통 커머스 업체들의 비용 부담이 가중됨.",
+      "name": "Technology",
+      "direction": "positive",
+      "score": 5.5,
+      "rationale": "AI 서버 및 인프라 투자 확대로 기술주 전반에 긍정적 모멘텀이 형성되었으나, 애플의 마진 우려 및 서비스 성장 둔화가 상방을 일부 제한함.",
       "related_tickers": [
-        "005380.KS",
-        "PDD"
+        "AAPL",
+        "AMD",
+        "SMCI"
       ],
       "source_regions": [
-        "ASIA",
-        "EU"
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "중동 지정학적 불안에 따른 고유가로 유럽 주요 항공사(루프트한자, 라이언에어)의 유류비 부담과 실적 전망 하향이 이어지고, 독일 제조업의 에너지 비용 및 규제 부담이 심화됨.",
+      "related_tickers": [
+        "LHA",
+        "RYA"
+      ],
+      "source_regions": [
+        "EUROPE",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "positive",
+      "score": 5.0,
+      "rationale": "중국 인민은행의 증시 부양 의지와 아시아 대형 은행들의 디지털 뱅킹 혁신 및 대출 포트폴리오 조정을 통한 실적 방어 노력이 긍정적으로 작용함.",
+      "related_tickers": [
+        "MUFG"
+      ],
+      "source_regions": [
+        "ASIA"
       ]
     },
     {
       "name": "Real Estate",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "TSMC의 피닉스 등 해외 반도체 캠퍼스 투자가 해당 지역의 부동산 시장 붐을 지속적으로 견인함.",
-      "related_tickers": [
-        "TSM"
-      ],
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "중국 당국의 유동성 공급 정책에도 불구하고 침체된 부동산 시장 불안이 지속되며 부정적 영향을 미침.",
+      "related_tickers": [],
       "source_regions": [
-        "ASIA",
-        "US"
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "이란 관련 지정학적 리스크 심화로 고유가 국면이 지속되면서 에너지 생산 기업들의 수혜 전망이 유지됨.",
+      "related_tickers": [],
+      "source_regions": [
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 4.5,
+      "rationale": "한국을 중심의 AI 헬스케어 및 바이오 신사업 실증 사업 추진과 글로벌 시장 진출이 활발히 진행됨.",
+      "related_tickers": [],
+      "source_regions": [
+        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Industrials",
-      "note": "미국은 중동 지정학적 긴장감 고조로 방위산업(Aerospace & Defense) 중심의 긍정적 모멘텀이 예상되는 반면, 유럽은 라이언에어 등 항공업계의 연료비 폭등과 독일 산업계의 규제 리스크로 강력한 하방 압력을 받고 있음."
-    },
-    {
-      "sector": "Energy",
-      "note": "중동 지정학적 리스크 확대로 인한 에너지 가격 상승 압력은 정유·생산 기업에 긍정적일 수 있으나, 유럽 등 소비 지역에서는 항공 및 제조 기업의 거대 연료 비용 부담으로 작용하여 상충하는 신호를 보임."
-    }
-  ]
+  "conflicting_signals": []
 }

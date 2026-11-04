@@ -1,59 +1,119 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "region": "US",
   "headlines": [
     {
-      "title": "Automakers like Rivian and Ford are ‘democratizing 3D printing’ to reduce costs and increase speed",
-      "summary": "Automakers including Ford, Rivian and GM are expanding 3D printing to make prototypes, factory tools and low-volume parts faster and at lower cost.",
-      "link": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+      "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+      "summary": "JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.",
+      "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
       "source": "CNBC"
     },
     {
-      "title": "Here s why Palantir s stock is down despite a bombastic quarter",
-      "summary": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir s earnings beat.",
-      "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+      "title": "Here s why AMD s stock is rising and sending a confident message about the AI trade",
+      "summary": "The chip maker is showing real revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+      "link": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | U.S. Strikes Iran’s Qeshm Island as Trump Talks Down War Risks",
+      "title": "CVS Will Break Off Its Namesake Pharmacies",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmVhWVpoUFY5Q2J4OGY3SlRPdnpxbFhHaWlOT2V6NUdXaXl0SjVQWnNMVXdIQV9KaFdfY3dOMFpqRFF5VzF6WWh4dnNERlJidUVhbEliWmt6ZVhuUThYN1pac2NHWTR4MnE2Q2JPLWVJVkFzckZucFNMRWFHQ3RkU1JwdTBGM1B0X0dEckpoRHFzSG5Mb0V1MkF1M2hHSW1obXZuSGhGQ0dodEk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelc4RS04OWZJWGlvS3F2cDczbGMxQmktT3hZdlQxdmtXWVFSVFd6NmxHQmRZaTlYbF9aQXVFUzFPNWFKcXFueGtxY01mdzZBOWVlaDFNRWc4M0xQN0VYeWU2b01nanBjZnhmNy1VaG8zanhjTWxwdnlEcDFiN0dBVkRoZHVCZjh5WnB6OGhQTENWUkk?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Disney Eyes Thousands of Layoffs, With Managers Asked to Cut 20%",
+      "title": "US Polls Start Closing With House, Senate Control Up for Grabs",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkpQc0R6TlgtZXBVR0tYaEdfMVlqMWxUTTlHWUJxU2xuTDBtdldOeHhQMGtfSXBrZ3dReHB4SHdJUEdPVDBjV1dxVFRiUDZ3aFBMSGQxS2FJUmI0NWNrSXhHdFRHalZjNzlTbFJMZG9WZC1DVHo1cmgxUkxRVEQzc2xGWGRVZ3p2WjN4Ml81MXl0TlVvS0J1UTZHX2l0bGpCLTJrbHhQa09JWllKS0MwalhuSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0N5eGZWWF9TVkFPd3gwZ24wX3llaXJxZFBMREtCX0hYYTJUa0RvbnMzd2xKV1BJemxFdUtNcG5NYkhBbmxSN1FzOXRoYldLdnhRTXowNlNIZ0oxaXRDNUZyNTRidXp6NE1EMVJMU0FWT1B1QW5vVUNkLVFMY25KekFybnA5RW5ZenB4dFFMekpPajlrRU5CT3ZMZjdFZFhpaENpcUVhTm9nMkRmWjBIN2lB?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Expected to Launch Massive Stock Buybacks in December. What to Know.",
+      "title": "Organigram Agrees to Buy Aurora Cannabis, Topping Curaleaf Bid",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PaEJIZWFJMXNaTnNieTMyTzFvT1NtOVVPT1FURXRpTEtQdWtIVDl6VTZsWjZrLWQyTDhHc19qUUN4OVNkLUpqUjN2Q3FLemM1SzNnb1VwcldfSmIwVzJ5VUpLWmQ4NFhPdWoxZ3BOczRuYmdzUEFxdEdIVTFCSnM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObmR4b0tnSjJ5SmlhaklyTDU4WmF2Zzgwbnc2UlFqY1JTVHE0RTVLTWxuYkt0V3dJLVd5RmtnQ0JCVTQ0dHI5NWpNc0FxTTZHd2JPQ2FmRlg0TDl5OFhZNVdVampnbm9nZVk2bTRrWE82dFZaaGhobEwxUlloOS0zNGxlcm4yRTB6b0lid2JlTEI?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Cheaper cars are selling considerably faster than at the beginning of the year",
-      "summary": "Data indicates cheap cars are selling fast, but a few lower-priced segments still saw sales drop in the third quarter. Here's what might be happening.",
-      "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
+      "title": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
+      "summary": "Disney expects to lay off several thousand employees in the latest round of job cuts for the entertainment giant.",
+      "link": "https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html",
       "source": "CNBC"
     },
     {
-      "title": "Apple s iPhone business is booming. Here s why the stock is falling anyway.",
-      "summary": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
-      "link": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+      "title": "What analysts are telling us while Apple s stock falls after earnings report",
+      "summary": "Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company s gross margin outlook and slowing services revenue growth.",
+      "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Trump Surprises Republicans With Election-Eve Speech About Reflecting Pool",
+      "title": "Opinion | The Beginning of Trump’s Long Goodbye",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZks4QjFaeVFBajRkOF96Q01MVGxNSjBPdzBUUFJIWFA5ajRsMndpWHFoNnNFaTBlWGpTaE1JX3hlRGRzQU5QaEYtWlp4SWtwdHlTZElRMWEzMDZHRW04dF8tQm1oX192ajRJOWZvM00xUlRKT09yQ1ZMYnhsRC05UlNwNUphanRxNVppYVUtblR4ZkE5SnBTcWFMSGhUWElKUGVERWVjR05wamxBTzRrS0M3c3JQdEJ3RV82TmI0Yw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVRkJIUUJhcUE4WXk4MkZycEQ4SjVZR05OazIyZUIybHpsTDNBSnBaNmZBRm9ZU1ZLeFM4d2poLVNNV0IzX0FlZnpQc2xvSHdFX0ZNQXI0YXNLUTFqSFNaUmRnVTZJS2lFQVVQeEJ4NmR1MlZoNy1yTzV6TnRHZw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Oracle Is Near $10 Billion Share Sale at 11% Discount",
+      "title": "CVS Plans to Break Up Healthcare Conglomerate, FT Reports",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnczY1BoREE4MUxrXzNMSHR2RTF3WC1xbk1MYWZsSld3SnA0S09fRXZMM3NlbkR3N2pBazJaMlBzRWZwR3ctQ3M2T3UxcGc0UWtWdmVndWV4WXFSV0lLWEU1MGpMSVFVVV91YWxjTkEwTy1BenpOQVR3dzhmSlJyVzMtSkJPQjIydXY0TmUyRGpXYUV6ak9yaE5sSU9qQWpSQzhIMDZ5TFMwcjBsdk5N?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFUySnhXWEJCeERRUU9ZYlpLZklWckpvTzFxN3h0MTdralNha3pQRWNlNmlJVnBTSkNaZ0gxZ2UyQ1d0ODhrRE1zLWdyMWwweVlIVXdKRVo5ejNwZlhwSThZU3RlSmVDUG1vc29uajJjRWFpM1dnSzRFTTlxTHdacU45OHRwN2IwN2Z3ZFYwUHA3QTJuUHBBdlVGaldxX3VKTlY3Y3Q0c0VIT3RCUWVYXw?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "How to Invest in the Rise of China’s Biotech: Buy U.S. Drug Stocks",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xTk9GQTlmaXFDY09oWFB4QlMyalNDNGxBa0FPUVZxQk95Zmg1RFJUTFZmci1vdkg1ZUd2cHBLWnFRME9XRlU2QzliVFpUWEE5U05ndW96MXFoY25EUV9MRW5DeWZlSEhzWnp5U1h4T1dRY0lmMkNhWFN3?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Pfizer hikes full-year outlook on new product growth, taps company veteran as new CFO",
+      "summary": "Pfizer announced that Cecile Guegan, who has held various leadership roles at the company over the last 20 years, stepped in as CFO this month.",
+      "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Shopify s stock slides after earnings. This is what s worrying Wall Street.",
+      "summary": "The company missed revenue expectations, a tough outcome in today s less-forgiving tech market.",
+      "link": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The Early Election Results to Watch Tonight",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLUM3YTFGeEY4d1BLT0hCTUNUTl9wRnBTYTZfMy1pSk9mMnYyTGtoWjVYSVNBNDFQVWdxT0lWN1FWa0RxZUtrcUhxWHBGYVJjX3JWaU5fVmRQZWVOMDF2MGI2SDR3OU5vV2dtTm9JSWN4X2dCbXliVUpzd0tBcjV0TWMwY09BT3BxdnhleC00d3JMb3JL?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "2 Reasons Why This AI-Powered Software Stock Is Tumbling After Earnings",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wS0Vtam9hSDFPUURWZzV5bnFRRmd4TFVpMjBmUDFBUDVMMkFaVmdyeDM1RVdCajZWc0lxT040ZkwxamxBd20xRVZhX3VKLWZkYlN0VHlCc2l6cHR1VFhoNG5pVUJuWTlZcWptalptVU10VFdmNkZ4U256czI?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+      "summary": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
+      "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "AI s control over the bond market is growing even rivaling war and elections",
+      "summary": "Hyperscalers burned through their cash. Now their bond deals are helping fuel the economy.",
+      "link": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Apple Shares Slip, Meta Debt Costs Rise",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMGhjbGhSUVc1TVpmNDVMOFNtMUgzUldVeFFkc0cwNlc4emk1R3M1TWZJSEs3VGdUYmVZM3loemdPd1RKM1NZYjB3VWRWUm1adWppSXhCM2YyYlF5RnpEMFRlYkQ5LV9NcUk1Q2R3ZEhPRndPZ2tkVVZyQm5mQWdIUDdKMmh3aEJFbUE?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Xbox’s Arkane Studios Attracts Multiple Bidders, Including Ubisoft",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWNKdE5SRC1paTUwS1g0QWh3MHpLR3JHZ1IxaW45aU9TRkFIdGdPME9PWlJPaHltd2FodHJ6RU5OR2J2UnR5RzBjLWtxcWtfakxpc3J4MUV1ejF3aHpMeDFDRGV0UElRRml4T2hCZlhqQWdUQnViS29KZVNvR2FzY3ZQN1F4YUYyaW1iX3NOWWg5WXJUSFNzcGV3czF3VTBGMGpLU0c2dFgxTFRfM0J0YWxQb1lvaHc?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -61,78 +121,17 @@
       "summary": "",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1YxREJMMjJWaVlITVNjOHdsZ29Gc3NPalFDWUdrTXhjVXdXSk5FYXV0M2V1azUwNGJORHJEMnlwNTU1SGlGeUYwTlZRUTRNM1hBWlI1ckVmelFiNzJkSXBtSndSTG52Z29WRFBsUjI4Q0c4aHFlZldoTEU2YVN1UTE1dEFMNk9zT2hWM0dn?oc=5",
       "source": "Barron's"
-    },
-    {
-      "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
-      "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
-      "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-      "summary": "The tech wreck from October continues. Is a bear market next?",
-      "link": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Anthropic Investors Push for Cautious Valuation Closer to $1.5 Trillion",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTDhmTmZkVWhzazBUYVdXNUx1OTRkRDFidXNnblM1R0lFNVQ2OS1zRFV2aTFtS2drOEhOVEVSSjZzZDN0Z053X3NrMnJEVTRGQm1EOHh6aDJYWC16bTVPdlpxVk10Vkh0ZkNrdkx1YzFodGc1WVQ4NkpPanN3TnZPZjcxYmcwS0xaSk1DelBQUzM4RFpNNVdubXR5WlRZZXA2b3paamIwdkcwVEpUTWFNSDBuWGQ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Trump’s DOJ Rejected by Supreme Court on California Ballots",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGZmTG9vWW9ZdkhDZ1ZfaUdYV1NfaTVseGhuMVc5d1A4SEpraW1lSnA1M2tiUlo2cDdwYjl1ZGRFZ01Tc1gtLW5GUVZSdWFNYjM4R3BRazNManM4U25WcWxsOUdscDBfV0VjOXZFZ3ZLTTR0YzBESjYwMnE0OTNJTTFONVhkRzNSNnZJR1FmUUtRWkZNbUpjOE5kcWtSSS1JSUl1LW1fWTlmZnZCVi1Z?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Berkshire Hathaway’s Alphabet Loss Exposes Weak Stock-Picking Record",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzg5Z0JmTGJKTXNlaWROTlRkLW5FYkxFN1pNT0dBcE85d1Y5akRqOFBfeWc5MU4xcFAxOU9oWnFIYm40ejNnRkNxUkJsbnVxR2RYb0ZUdzFGZmFNTDB6TDYwOURHbmxZaTJGeU41VXBtWG0yTExhYU1JTlJvQzVORU5KU0lNdzYwQmdsaDVBMGNWMkdNY0dMNTktMA?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Marvell and Lumentum shareholders unite in panning merger deal: It s a trash offer",
-      "summary": "Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.",
-      "link": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | Hedge Fund Elliott Warns of FOGO: Fear of Getting Obliterated in the Market",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclNzaXk3eUZqREhTY0ZWS01nN3ZpWFpvMk5yYy1JNjU2Zzk2ZlRqZGNvSDcxRDZBb2JnNFo4REpjZFliSlV5NmlieldLMnltZi12LVpiaElHdjJBUXNyM0FubG1qMTdId0xzZWZRMjItTlFINzFfYkJxZ1FRc3dnZXIybzJiNWxNRVBDelVHVDhQdWVsYkNLZ0xpR0hSb3pWdHkzNGJkWVZlM21lVkY1VS11VVk1ZGlHcllHUUt3?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Apple Sets New Sales Highs in China Even as Increased Costs Bite",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl1blg2Q2VFWlJvSU1RYVBXNXBSVDN4STdUXzU2aksyZTlpa2UwX1NxNzMzQkpKTldPN3lFUGowd2FncEI1dmpueXVsdzVBaTd3T2IxS2UwUTVyR1QwNWh4TEdDTzN1eFpwcVRHbS1kU3lpRVJWOS1UTWc5NVlWNWFaRFRqZmtFa1d5SkdTSzV5YUZvZFBlMndVZHVVTkREaEJOelR3QU5ha1phTEZ3Y3ZKWEY0UQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Oracle Stock Tumbles. Its $20B Funding Plan Wasn’t the Surprise—the Speed Was.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uRTlZUXVYS1JuRi1razVkR1JlX2xna3dFd3NEMmJoUzFiSTl1alo2UTNzS2poOG54dUxJemVUQzlFLVM2dTlQUktWS1lvQWVkMG42S1BVbDhXZUJmQ1o4anRYam45U3JfdThhZUpFa19xTzVnMVdMNWlEQjRTUQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-      "summary": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
-      "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-      "source": "MarketWatch"
     }
   ],
-  "trend_headline": "AI 우려 속 나스닥 3번째 조정 진입",
-  "summary": "인공지능(AI) 관련 고평가 우려와 원가 압박이 겹치면서 나스닥-100 지수가 올해 들어 세 번째 조정 국면에 진입했습니다. 애플과 팔란티어 등 주요 빅테크가 호실적에도 불구하고 마진 압박과 상업 계약 둔화 우려로 주가 하락세를 보였으며, 중동 지정학적 긴장까지 더해져 시장 변동성이 커졌습니다.",
+  "trend_headline": "AMD·슈퍼미크로 실적 호조 속 AI 랠리 재부각",
+  "summary": "AMD와 슈퍼미크로가 AI 칩 및 서버 수요 폭증에 힘입어 시장 예상을 웃도는 실적과 가이던스를 제시하며 기술주 상승을 견인했습니다. 반면 애플은 실적 발표 후 마진 우려로 하락했고, 미국 상·하원 선거 개표가 시작되면서 시장의 경계감도 공존하는 양상을 보였습니다.",
   "key_points": [
-    "나스닥-100 지수가 AI 우려 심화로 올해 세 번째 조정 국면 진입",
-    "애플, 호실적에도 불구하고 메모리 수급 압박과 마진 우려로 주가 하락",
-    "팔란티어는 탄탄한 실적을 발표했으나 미국 상업 계약 성장 둔화로 주가 주춤"
+    "AMD, AI 칩 수요 급증으로 월가 예상치 상회하는 실적 및 가이던스 발표",
+    "슈퍼미크로(Super Micro), AI 서버 수요 확대로 실적 호조 및 긍정적 전망 제시",
+    "애플, 서비스 매출 성장 둔화 및 총마진 우려로 주가 2% 가까이 하락"
   ],
   "sector_hints": [
     "Technology",
-    "Energy",
-    "Aerospace & Defense"
+    "Semiconductors"
   ]
 }

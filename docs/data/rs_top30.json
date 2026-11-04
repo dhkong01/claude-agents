@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "rs90_count": 14,
   "stocks": [
     {
@@ -19,11 +19,11 @@
       "rs_rating": 96.9
     },
     {
-      "ticker": "LITE",
+      "ticker": "AMD",
       "rs_rating": 96.2
     },
     {
-      "ticker": "AMD",
+      "ticker": "AEHR",
       "rs_rating": 95.6
     },
     {
@@ -31,11 +31,11 @@
       "rs_rating": 94.9
     },
     {
-      "ticker": "AMGN",
+      "ticker": "DDOG",
       "rs_rating": 94.2
     },
     {
-      "ticker": "REGN",
+      "ticker": "LITE",
       "rs_rating": 93.5
     },
     {
@@ -43,92 +43,92 @@
       "rs_rating": 92.8
     },
     {
-      "ticker": "GILD",
+      "ticker": "REGN",
       "rs_rating": 92.1
     },
     {
-      "ticker": "KDP",
+      "ticker": "AMGN",
       "rs_rating": 91.4
     },
     {
-      "ticker": "ADI",
+      "ticker": "GILD",
       "rs_rating": 90.8
     },
     {
-      "ticker": "MAR",
+      "ticker": "ADI",
       "rs_rating": 90.1
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ZS",
       "rs_rating": 89.4
     },
     {
-      "ticker": "ROP",
+      "ticker": "MAR",
       "rs_rating": 88.7
     },
     {
-      "ticker": "ZS",
+      "ticker": "ROP",
       "rs_rating": 88.0
     },
     {
-      "ticker": "DDOG",
+      "ticker": "KDP",
       "rs_rating": 87.3
     },
     {
-      "ticker": "ADP",
+      "ticker": "ABNB",
       "rs_rating": 86.6
     },
     {
-      "ticker": "VRTX",
+      "ticker": "FTNT",
       "rs_rating": 85.9
     },
     {
-      "ticker": "DXCM",
+      "ticker": "ADP",
       "rs_rating": 85.2
     },
     {
-      "ticker": "TRI",
+      "ticker": "WDAY",
       "rs_rating": 84.6
     },
     {
-      "ticker": "FTNT",
+      "ticker": "DXCM",
       "rs_rating": 83.9
     },
     {
-      "ticker": "CCEP",
+      "ticker": "CTAS",
       "rs_rating": 83.2
     },
     {
-      "ticker": "CTAS",
+      "ticker": "CSX",
       "rs_rating": 82.5
     },
     {
-      "ticker": "CSX",
+      "ticker": "STX",
       "rs_rating": 81.8
     },
     {
-      "ticker": "WDAY",
+      "ticker": "VRTX",
       "rs_rating": 81.1
     },
     {
-      "ticker": "STX",
+      "ticker": "MNST",
       "rs_rating": 80.4
     },
     {
-      "ticker": "MNST",
+      "ticker": "PLTR",
       "rs_rating": 79.8
     },
     {
-      "ticker": "SHOP",
+      "ticker": "CCEP",
       "rs_rating": 79.1
     }
   ],
   "portfolio_rs": {
-    "VKTX": 17.9,
+    "VKTX": 14.4,
     "MRVL": 94.9,
-    "CRDO": 15.1,
-    "NBIS": 41.2,
-    "RDDT": 7.6,
-    "VRT": 30.3
+    "CRDO": 25.4,
+    "NBIS": 70.8,
+    "RDDT": 6.9,
+    "VRT": 36.4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "analyzed": 139,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": 99440287744,
-      "price": 961.26,
-      "rs_rating": 93.5
+      "market_cap": 100692000768,
+      "price": 973.36,
+      "rs_rating": 92.1
     },
     {
       "ticker": "TXN",
@@ -34,27 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 276121059328,
-      "price": 302.02,
+      "market_cap": 285693247488,
+      "price": 312.49,
       "rs_rating": 92.8
-    },
-    {
-      "ticker": "CSX",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Railroads",
-      "market_cap": 95624749056,
-      "price": 51.62,
-      "rs_rating": 81.8
     },
     {
       "ticker": "AMGN",
@@ -70,9 +52,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 251637170176,
-      "price": 465.45,
-      "rs_rating": 94.2
+      "market_cap": 249371918336,
+      "price": 461.26,
+      "rs_rating": 91.4
     },
     {
       "ticker": "ADI",
@@ -88,9 +70,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 200052850688,
-      "price": 412.85,
-      "rs_rating": 90.8
+      "market_cap": 203415748608,
+      "price": 419.79,
+      "rs_rating": 90.1
     },
     {
       "ticker": "ROP",
@@ -106,27 +88,45 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 47426924544,
-      "price": 479.54,
-      "rs_rating": 88.7
+      "market_cap": 46837473280,
+      "price": 473.58,
+      "rs_rating": 88.0
     },
     {
-      "ticker": "AAPL",
-      "canslim_score": 57,
+      "ticker": "CSX",
+      "canslim_score": 61,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 3,
+        "N": 7,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "market_cap": 93957529600,
+      "price": 50.72,
+      "rs_rating": 82.5
+    },
+    {
+      "ticker": "LITE",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 1,
+        "S": 10,
+        "L": 10,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "market_cap": 4937503211520,
-      "price": 338.32,
-      "rs_rating": 78.4
+      "industry": "Communication Equipment",
+      "market_cap": 61680246784,
+      "price": 680.16,
+      "rs_rating": 93.5
     },
     {
       "ticker": "MDLZ",
@@ -142,9 +142,9 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "market_cap": 84026343424,
-      "price": 66.38,
-      "rs_rating": 74.2
+      "market_cap": 82431393792,
+      "price": 65.12,
+      "rs_rating": 69.4
     },
     {
       "ticker": "AMD",
@@ -160,9 +160,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 762104643584,
-      "price": 466.84,
-      "rs_rating": 95.6
+      "market_cap": 789954625536,
+      "price": 483.9,
+      "rs_rating": 96.2
     },
     {
       "ticker": "MRVL",
@@ -178,8 +178,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 154046971904,
-      "price": 171.41,
+      "market_cap": 154732740608,
+      "price": 171.97,
       "rs_rating": 94.9
     }
   ]

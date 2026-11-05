@@ -1,92 +1,77 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "sectors": [
     {
       "name": "Semiconductors",
-      "direction": "positive",
-      "score": 8.5,
-      "rationale": "미국의 AMD 및 슈퍼마이크로가 호실적과 AI 수요 폭증 가이던스를 제시하고, 대만 TSMC 또한 견고한 파운드리 수요와 2nm 공정 전환 기대감으로 강세를 보임.",
-      "related_tickers": [
-        "AMD",
-        "TSM",
-        "SMCI"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "AI 서버 및 인프라 투자 확대로 기술주 전반에 긍정적 모멘텀이 형성되었으나, 애플의 마진 우려 및 서비스 성장 둔화가 상방을 일부 제한함.",
-      "related_tickers": [
-        "AAPL",
-        "AMD",
-        "SMCI"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Industrials",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "중동 지정학적 불안에 따른 고유가로 유럽 주요 항공사(루프트한자, 라이언에어)의 유류비 부담과 실적 전망 하향이 이어지고, 독일 제조업의 에너지 비용 및 규제 부담이 심화됨.",
+      "score": -5.5,
+      "rationale": "대만 TSMC를 비롯한 아시아 반도체 섹터의 셀오프와 높은 변동성이 나타났으며, 미국 AI 관련주 역시 대규모 인프라 비용 부담과 정책 기조 변화 우려로 투자 심리가 위축되었습니다.",
       "related_tickers": [
-        "LHA",
-        "RYA"
+        "TSM",
+        "ARM",
+        "NVDA"
       ],
       "source_regions": [
-        "EUROPE",
+        "US",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "미국 CVS 헬스가 소매 약국 사업부 분할 발표 직후 주가가 10% 급락하는 등 주요 헬스케어 기업의 구조조정과 악재가 섹터 전반에 부담으로 작용했습니다.",
+      "related_tickers": [
+        "CVS"
+      ],
+      "source_regions": [
+        "US"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중국 시장 내 경쟁 심화로 유럽의 BMW가 3분기 이익 급감 및 자동차 부문 손실 가능성을 경고하는 등 완성차 업체를 중심으로 실적 악화 우려가 심화되었습니다.",
+      "related_tickers": [
+        "BMW"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "중동(이란) 지정학적 리스크 확대로 인한 유가 상승이 에너지 생산 및 공급 기업들의 수익성 개선 기대감을 지지하고 있습니다.",
+      "related_tickers": [
+        "SHEL",
+        "XOM",
+        "CVX"
+      ],
+      "source_regions": [
+        "EU"
       ]
     },
     {
       "name": "Financials",
       "direction": "positive",
       "score": 5.0,
-      "rationale": "중국 인민은행의 증시 부양 의지와 아시아 대형 은행들의 디지털 뱅킹 혁신 및 대출 포트폴리오 조정을 통한 실적 방어 노력이 긍정적으로 작용함.",
+      "rationale": "아시아 증시 조정에 따른 리스크 회피 성향 강화로 한국 등 시중은행 방카슈랑스 및 안전자산형 금융상품으로 대규모 자금이 유입되었습니다.",
       "related_tickers": [
-        "MUFG"
+        "KB",
+        "SHG"
       ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "중국 당국의 유동성 공급 정책에도 불구하고 침체된 부동산 시장 불안이 지속되며 부정적 영향을 미침.",
-      "related_tickers": [],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "이란 관련 지정학적 리스크 심화로 고유가 국면이 지속되면서 에너지 생산 기업들의 수혜 전망이 유지됨.",
-      "related_tickers": [],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Healthcare",
-      "direction": "positive",
-      "score": 4.5,
-      "rationale": "한국을 중심의 AI 헬스케어 및 바이오 신사업 실증 사업 추진과 글로벌 시장 진출이 활발히 진행됨.",
-      "related_tickers": [],
       "source_regions": [
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Industrials",
+      "note": "아시아(일본)는 해외 인프라 사업 실적 호조로 긍정적인 모멘텀을 보인 반면, 유럽은 고유가로 인한 루프트한자 등 항공 운송 기업의 연료비 부담 및 실적 전망 하향으로 부정적 신호가 대립하고 있습니다."
+    }
+  ]
 }

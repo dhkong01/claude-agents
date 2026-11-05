@@ -1,85 +1,85 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 10.73,
-      "week1": 2.43,
+      "qtd": 14.45,
+      "week1": 4.26,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 10.72,
-      "week1": 2.39,
+      "qtd": 14.12,
+      "week1": 3.05,
       "rank": 2,
+      "status": "과열"
+    },
+    {
+      "sector": "Consumer Disc.",
+      "etf": "XLY",
+      "qtd": 12.43,
+      "week1": 5.28,
+      "rank": 3,
+      "status": "과열"
+    },
+    {
+      "sector": "Materials",
+      "etf": "XLB",
+      "qtd": 11.04,
+      "week1": 2.61,
+      "rank": 4,
+      "status": "과열"
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": 10.91,
+      "week1": 4.78,
+      "rank": 5,
+      "status": "과열"
+    },
+    {
+      "sector": "Financials",
+      "etf": "XLF",
+      "qtd": 10.74,
+      "week1": 3.97,
+      "rank": 6,
       "status": "과열"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 9.43,
-      "week1": 2.19,
-      "rank": 3,
-      "status": "강세"
-    },
-    {
-      "sector": "Materials",
-      "etf": "XLB",
-      "qtd": 8.34,
-      "week1": 1.41,
-      "rank": 4,
-      "status": "강세"
-    },
-    {
-      "sector": "Consumer Disc.",
-      "etf": "XLY",
-      "qtd": 7.83,
-      "week1": 1.73,
-      "rank": 5,
-      "status": "강세"
-    },
-    {
-      "sector": "Real Estate",
-      "etf": "XLRE",
-      "qtd": 7.35,
-      "week1": 3.66,
-      "rank": 6,
-      "status": "강세"
-    },
-    {
-      "sector": "Financials",
-      "etf": "XLF",
-      "qtd": 6.98,
-      "week1": 1.89,
+      "qtd": 9.9,
+      "week1": 1.09,
       "rank": 7,
       "status": "강세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": 6.35,
-      "week1": -2.59,
+      "qtd": 1.31,
+      "week1": -7.55,
       "rank": 8,
-      "status": "강세"
+      "status": "중립"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": 1.59,
-      "week1": 1.68,
+      "qtd": 0.49,
+      "week1": -0.39,
       "rank": 9,
       "status": "중립"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -7.73,
-      "week1": -1.65,
+      "qtd": -4.53,
+      "week1": 3.71,
       "rank": 10,
       "status": "약세"
     },
@@ -87,7 +87,7 @@
       "sector": "Technology",
       "etf": "XLK",
       "qtd": -10.77,
-      "week1": -7.59,
+      "week1": -6.49,
       "rank": 11,
       "status": "약세"
     }
@@ -95,77 +95,77 @@
   "us_by_sector": {
     "Healthcare": [
       {
-        "ticker": "REGN",
-        "rs": 92.1,
-        "canslim": 67,
-        "price": 973.36
+        "ticker": "AMGN",
+        "rs": 94.9,
+        "canslim": 64,
+        "price": 478.48
       },
       {
-        "ticker": "AMGN",
-        "rs": 91.4,
-        "canslim": 61,
-        "price": 461.26
+        "ticker": "REGN",
+        "rs": 90.8,
+        "canslim": 64,
+        "price": 930.67
+      },
+      {
+        "ticker": "GEHC",
+        "rs": 81.1,
+        "canslim": 64,
+        "price": 85.81
       }
     ],
     "Technology": [
       {
         "ticker": "TXN",
-        "rs": 92.8,
+        "rs": 94.2,
         "canslim": 64,
-        "price": 312.49
-      },
-      {
-        "ticker": "ADI",
-        "rs": 90.1,
-        "canslim": 61,
-        "price": 419.79
+        "price": 311.49
       },
       {
         "ticker": "ROP",
-        "rs": 88.0,
+        "rs": 91.4,
+        "canslim": 64,
+        "price": 492.22
+      },
+      {
+        "ticker": "ADI",
+        "rs": 86.6,
         "canslim": 61,
-        "price": 473.58
+        "price": 406.24
       },
       {
-        "ticker": "LITE",
-        "rs": 93.5,
-        "canslim": 58,
-        "price": 680.16
-      },
-      {
-        "ticker": "AMD",
-        "rs": 96.2,
-        "canslim": 55,
-        "price": 483.9
-      },
-      {
-        "ticker": "MRVL",
-        "rs": 94.9,
-        "canslim": 55,
-        "price": 171.97
+        "ticker": "MSFT",
+        "rs": 85.2,
+        "canslim": 61,
+        "price": 555.8
       }
     ],
     "Industrials": [
       {
         "ticker": "CSX",
-        "rs": 82.5,
-        "canslim": 61,
-        "price": 50.72
+        "rs": 84.6,
+        "canslim": 64,
+        "price": 52.05
       }
     ],
-    "Consumer Defensive": [
+    "Consumer Cyclical": [
       {
-        "ticker": "MDLZ",
-        "rs": 69.4,
+        "ticker": "ROST",
+        "rs": 78.4,
         "canslim": 57,
-        "price": 65.12
+        "price": 245.74
+      },
+      {
+        "ticker": "SBUX",
+        "rs": 74.2,
+        "canslim": 57,
+        "price": 109.7
       }
     ]
   },
   "macro": {
     "phase": "TRANSITIONAL",
-    "vix": 20.83,
-    "yield10y": 4.95,
+    "vix": 16.61,
+    "yield10y": 4.89,
     "rec_sectors": [
       "Healthcare",
       "Financials",
@@ -174,7 +174,7 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 7.0,
+    "risk_score": 8.5,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

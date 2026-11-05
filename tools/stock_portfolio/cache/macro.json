@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "phase": "TRANSITIONAL",
   "m_score": 6,
   "signals": {
     "market_trend": "SIDEWAYS",
-    "market_ret3m": -0.0183,
-    "vix_level": 20.83,
+    "market_ret3m": -0.0089,
+    "vix_level": 16.61,
     "volatility": "NORMAL",
-    "yield10y": 4.95,
+    "yield10y": 4.89,
     "rate_env": "HIGH",
-    "yield30y": 5.32,
-    "yield2y": 4.59,
-    "fear_greed_score": 19.1,
-    "fear_greed_rating": "extreme fear",
+    "yield30y": 5.28,
+    "yield2y": 4.61,
+    "fear_greed_score": 27.3,
+    "fear_greed_rating": "fear",
     "dollar_trend": "FLAT"
   },
   "recommended_sectors": [

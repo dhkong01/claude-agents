@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "rs90_count": 14,
   "stocks": [
     {
@@ -7,19 +7,19 @@
       "rs_rating": 99.0
     },
     {
-      "ticker": "MU",
+      "ticker": "CRWD",
       "rs_rating": 98.3
     },
     {
-      "ticker": "CRWD",
+      "ticker": "MU",
       "rs_rating": 97.6
     },
     {
-      "ticker": "PANW",
+      "ticker": "AMD",
       "rs_rating": 96.9
     },
     {
-      "ticker": "AMD",
+      "ticker": "PANW",
       "rs_rating": 96.2
     },
     {
@@ -27,71 +27,71 @@
       "rs_rating": 95.6
     },
     {
-      "ticker": "MRVL",
+      "ticker": "AMGN",
       "rs_rating": 94.9
     },
     {
-      "ticker": "DDOG",
+      "ticker": "TXN",
       "rs_rating": 94.2
     },
     {
-      "ticker": "LITE",
+      "ticker": "GILD",
       "rs_rating": 93.5
     },
     {
-      "ticker": "TXN",
+      "ticker": "KDP",
       "rs_rating": 92.8
     },
     {
-      "ticker": "REGN",
+      "ticker": "MAR",
       "rs_rating": 92.1
     },
     {
-      "ticker": "AMGN",
+      "ticker": "ROP",
       "rs_rating": 91.4
     },
     {
-      "ticker": "GILD",
+      "ticker": "REGN",
       "rs_rating": 90.8
     },
     {
-      "ticker": "ADI",
+      "ticker": "DXCM",
       "rs_rating": 90.1
     },
     {
-      "ticker": "ZS",
+      "ticker": "MRVL",
       "rs_rating": 89.4
     },
     {
-      "ticker": "MAR",
+      "ticker": "ADP",
       "rs_rating": 88.7
     },
     {
-      "ticker": "ROP",
+      "ticker": "ZS",
       "rs_rating": 88.0
     },
     {
-      "ticker": "KDP",
+      "ticker": "ABNB",
       "rs_rating": 87.3
     },
     {
-      "ticker": "ABNB",
+      "ticker": "ADI",
       "rs_rating": 86.6
     },
     {
-      "ticker": "FTNT",
+      "ticker": "MNST",
       "rs_rating": 85.9
     },
     {
-      "ticker": "ADP",
+      "ticker": "MSFT",
       "rs_rating": 85.2
     },
     {
-      "ticker": "WDAY",
+      "ticker": "CSX",
       "rs_rating": 84.6
     },
     {
-      "ticker": "DXCM",
+      "ticker": "FTNT",
       "rs_rating": 83.9
     },
     {
@@ -99,23 +99,23 @@
       "rs_rating": 83.2
     },
     {
-      "ticker": "CSX",
+      "ticker": "AAPL",
       "rs_rating": 82.5
     },
     {
-      "ticker": "STX",
+      "ticker": "VRTX",
       "rs_rating": 81.8
     },
     {
-      "ticker": "VRTX",
+      "ticker": "GEHC",
       "rs_rating": 81.1
     },
     {
-      "ticker": "MNST",
+      "ticker": "LITE",
       "rs_rating": 80.4
     },
     {
-      "ticker": "PLTR",
+      "ticker": "WDAY",
       "rs_rating": 79.8
     },
     {
@@ -124,11 +124,11 @@
     }
   ],
   "portfolio_rs": {
-    "VKTX": 14.4,
-    "MRVL": 94.9,
-    "CRDO": 25.4,
-    "NBIS": 70.8,
+    "VKTX": 20.6,
+    "MRVL": 89.4,
+    "CRDO": 15.8,
+    "NBIS": 55.0,
     "RDDT": 6.9,
-    "VRT": 36.4
+    "VRT": 22.0
   }
 }

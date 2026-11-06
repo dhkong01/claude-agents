@@ -1,277 +1,278 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "region": "ASIA",
   "countries": {
     "KR": {
       "headlines": [
         {
-          "title": "\"100만원 팔면 30만원 떼간다\"…사장님들 속 타는 이유",
+          "title": "비트코인 버리고 AI로 갈아탔더니…채굴업체들 '이중고'",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202611057161g",
+          "link": "https://www.hankyung.com/article/202611060093i",
           "source": "한국경제"
         },
         {
-          "title": "증시 조정장에 방카슈랑스 ‘뭉칫돈’…한달새 3조원 넘게 팔려",
-          "summary": "코스피 급락하자 안전자산 선호 넉 달 연속 월 판매액 2조원 넘겨지난달 5대 시중은행(KB국민·신한·하나·우리·NH농협)에서 팔린 방카슈랑스가 3조원을 넘어섰다. 7월 이후 넉 달..",
-          "link": "https://www.mk.co.kr/news/economy/12198059",
+          "title": "“노후자금까지 주식에 넣었는데”...코스피 급락하자 다시 예금으로",
+          "summary": "꾸준히 늘던 원금비보장 비중 감소세 증시 조정에 투자상품 수익률도 하락지난 3분기 퇴직연금 가입자가 직접 운용하는 확정기여형(DC)·개인형퇴직연금(IRP) 적립금 중 원리금비보장 ..",
+          "link": "https://www.mk.co.kr/news/economy/12200227",
           "source": "매일경제"
         },
         {
-          "title": "4년 만에 13억 병 팔렸다…하루 84만 병 홀린 소주",
+          "title": "\"빈자리 나면 알려주세요\"…크리스마스 식당 예약 전쟁",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202611057142g",
+          "link": "https://www.hankyung.com/article/202611060038i",
           "source": "한국경제"
         },
         {
-          "title": "저축은행 예금 100조원 그대로인데…손님이 바뀌고 있다",
-          "summary": "개인예금 2.8조 줄고 기관·신탁 자금 2.7조 늘어 이자부담 적은 기관자금 활용 큰돈 한번에 빠지면 유동성 부담저축은행의 전체 예금 규모가 1년째 100조원 안팎에 머무는 사이 ..",
-          "link": "https://www.mk.co.kr/news/economy/12198056",
+          "title": "채무조정하면 은행도 부담 던다…금융당국 자본 규제완화 추진",
+          "summary": "신복위 특례 은행권으로 확대 검토 포용금융 따른 부담 덜어 확산 유도금융당국이 은행권의 채무조정에 따른 충당금 적립 부담을 일부 덜어주기 위해 자본 규제 완화를 검토 중이다. 은행..",
+          "link": "https://www.mk.co.kr/news/economy/12200226",
           "source": "매일경제"
         },
         {
-          "title": "부산행 철도·고속버스 예약 445% 급증…해외 관광객 관심 확대",
+          "title": "공무원에게 5억준 방산기업, '개인일탈이냐 조직의 지시냐'...LIG D&A 법정다툼 3대 쟁점",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202611057124g",
+          "link": "https://www.hankyung.com/article/202611069981i",
           "source": "한국경제"
         },
         {
-          "title": "“성인엔 푼돈이지만 10대엔 도박 신호”…케이뱅크, AI로 청소년 이상거래 잡아낸다",
-          "summary": "장지은 케이뱅크 매니저 인터뷰 국내 유일 ‘이중 FDS’ 설계해 미성년자 금융범죄 예방 성과 ‘금융의 날’ 기념식서 표창수훈새벽 시간대 몇천원씩 이어지는 10대의 반복 이체나 결제..",
-          "link": "https://www.mk.co.kr/news/economy/12198048",
+          "title": "“우리 손주는 구김없이 커야지”…미성년에 물려준 부동산, 1.4조 육박",
+          "summary": "6세 이하엔 5년간 3800억원 자식 건너뛰고 증여해 절세조부모가 미성년 손주에게 직접 증여한 부동산이 최근 5년간 1조4000억원에 육박했다. 특히 6세 이하 아동에게 증여된 부..",
+          "link": "https://www.mk.co.kr/news/economy/12199678",
           "source": "매일경제"
         },
         {
-          "title": "\"아빠차 하면 쏘렌토였는데\"…중고시장서 무섭게 떠오른 車",
+          "title": "백화점이 끌고, 마트가 밀고…롯데쇼핑, 3분기 영업이익 34.5%↑",
           "summary": "",
-          "link": "https://www.hankyung.com/article/2026110572047",
+          "link": "https://www.hankyung.com/article/202611060009g",
           "source": "한국경제"
         },
         {
-          "title": "월급도, 아파트도 비슷한데 … 순자산 1억 차이 ‘이것’에 갈렸다",
+          "title": "월급도, 아파트도 비슷한데…순자산 1억 차이 ‘이것’에 갈렸다 [데이터로 읽는 머니 무브]",
           "summary": "같은 중산층 자가라도 빚 따라 격차 커져똑같이 40대이고 비슷한 소득을 올리는 중산층이라도 자신이 사는 집에 얼마나 많은 빚이 남아 있느냐에 따라 순자산은 1억원 넘게 차이 났습니..",
-          "link": "https://www.mk.co.kr/news/economy/12196485",
+          "link": "https://www.mk.co.kr/news/economy/12198995",
           "source": "매일경제"
         },
         {
-          "title": "\"AI 대신 SI라 불러라\"…트럼프 한마디에 빅테크 '진땀'",
+          "title": "'세계 대회 직행 티켓' 걸렸다…코엑스서 바리스타 70인 정면 승부",
           "summary": "",
-          "link": "https://www.hankyung.com/article/202611057208i",
+          "link": "https://www.hankyung.com/article/202611069946g",
           "source": "한국경제"
         },
         {
-          "title": "“나도 이미 털렸겠는데”…파악된 유출 정보 47만건·10억원 규모",
-          "summary": "37개 금융사 정보유출 47만3000건 금융당국, 소비자보호 조치·지도 가동최근 금융권에 닥친 대대적인 해킹 사태로 소비자들의 불안이 고조되고 있는 가운데, 지난 한 달 동안에만 ..",
-          "link": "https://www.mk.co.kr/news/economy/12198020",
+          "title": "“코인으로 1000만원 잃었는데 세금공제 없나요”…앞으로 3년까지 손실 인정",
+          "summary": "손실 이월공제 제도 도입 변동성 높은 자산 특성 고려 첫해 코인으로 1억 손실 보고 이듬해 5천만원 이익봤다면 손실 5천만원으로 세금 안내 내년 기본공제 상향 등 논의정부가 내년에..",
+          "link": "https://www.mk.co.kr/news/economy/12198814",
           "source": "매일경제"
         }
       ],
-      "summary": "증시 조정장 진입에 따른 안전자산 선호로 시중은행 방카슈랑스로 대규모 자금이 유입되는 등 리스크 회피 성향이 뚜렷해졌습니다."
+      "summary": "코스피 급락과 증시 조정의 여파로 퇴직연금 내 원리금비보장 자산 비중이 감소하며 안전자산 선호 심리가 고개"
     },
     "JP": {
       "headlines": [
         {
-          "title": "Malaysia's main opposition calls for greater power for states",
+          "title": "Japan, South Korea stocks plummet as AI selloff accelerates",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/malaysia-s-main-opposition-calls-for-greater-power-for-states",
+          "link": "https://asia.nikkei.com/business/markets/japan-south-korea-stocks-plummet-as-ai-selloff-accelerates",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan logistics startups expand cold food networks in Malaysia, Vietnam",
+          "title": "Major South Korean newspaper lines up rescue by tech, food companies",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/food-beverage/japan-logistics-startups-expand-cold-food-networks-in-malaysia-vietnam",
+          "link": "https://asia.nikkei.com/business/business-deals/major-south-korean-newspaper-lines-up-rescue-by-tech-food-companies",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Fast-growing India is the next North America for Japan's Marubeni: CEO",
+          "title": "Asia drives new corporate climate pledges as Chinese firms embrace targets",
           "summary": "",
-          "link": "https://asia.nikkei.com/editor-s-picks/interview/fast-growing-india-is-the-next-north-america-for-japan-s-marubeni-ceo",
+          "link": "https://asia.nikkei.com/spotlight/environment/climate-change/asia-drives-new-corporate-climate-pledges-as-chinese-firms-embrace-targets",
           "source": "Nikkei Asia"
         },
         {
-          "title": "US midterms live: Wall Street rallies as Trump signals cooperation",
+          "title": "US extends suspension of export restrictions on Chinese firms",
           "summary": "",
-          "link": "https://asia.nikkei.com/politics/u.s.-midterm-elections/us-midterms-live-wall-street-rallies-as-trump-signals-cooperation",
+          "link": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-extends-suspension-of-export-restrictions-on-chinese-firms",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Toyota to bring Celica back to premier rally racing after 32-year break",
+          "title": "China-Japan row over Takaichi's Taiwan comment enters 2nd year",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/automobiles/toyota-to-bring-celica-back-to-premier-rally-racing-after-32-year-break",
+          "link": "https://asia.nikkei.com/politics/international-relations/japan-china-tensions/china-japan-row-over-takaichi-s-taiwan-comment-enters-2nd-year",
           "source": "Nikkei Asia"
         },
         {
-          "title": "U.S. Steel grows to 40% of Nippon Steel profit as prices surge",
+          "title": "US midterms live: Nasdaq plunges 5.5% on AI regulation fears",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/materials/u.s.-steel-grows-to-40-of-nippon-steel-profit-as-prices-surge",
+          "link": "https://asia.nikkei.com/politics/u.s.-midterm-elections/us-midterms-live-nasdaq-plunges-5.5-on-ai-regulation-fears",
           "source": "Nikkei Asia"
         },
         {
-          "title": "The price of building Japanese stealth frigates in Australia",
+          "title": "Data centers, rare earths among top priorities in Japan's growth strategy",
           "summary": "",
-          "link": "https://asia.nikkei.com/opinion/the-price-of-building-japanese-stealth-frigates-in-australia",
+          "link": "https://asia.nikkei.com/politics/data-centers-rare-earths-among-top-priorities-in-japan-s-growth-strategy",
           "source": "Nikkei Asia"
         },
         {
-          "title": "McDonald's wages war on KFC in Japan as consumers crave chicken",
+          "title": "How Japan and Thailand lay bare Asia's electrification challenge",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/food-beverage/mcdonald-s-wages-war-on-kfc-in-japan-as-consumers-crave-chicken",
+          "link": "https://asia.nikkei.com/spotlight/policy-asia/how-japan-and-thailand-lay-bare-asia-s-electrification-challenge",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Japan's Koito looks to keep lighting way with smart automotive lamps",
+          "title": "Japan's Fuji TV goes all in with AI for drama production",
           "summary": "",
-          "link": "https://asia.nikkei.com/business/automobiles/japan-s-koito-looks-to-keep-lighting-way-with-smart-automotive-lamps",
+          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-fuji-tv-goes-all-in-with-ai-for-drama-production",
           "source": "Nikkei Asia"
         },
         {
-          "title": "Analysis: How a secret feud ignited Xi Jinping's governance drive",
+          "title": "Japan to back Vietnam's small-reactor push in revived nuclear cooperation",
           "summary": "",
-          "link": "https://asia.nikkei.com/editor-s-picks/china-up-close/analysis-how-a-secret-feud-ignited-xi-jinping-s-governance-drive",
+          "link": "https://asia.nikkei.com/business/energy/japan-to-back-vietnam-s-small-reactor-push-in-revived-nuclear-cooperation",
           "source": "Nikkei Asia"
         }
       ],
-      "summary": "일본 기업들은 미국 중간선거 이후 글로벌 공급망 다변화와 함께 미국 철강 및 해외 인프라 사업에서 실적 호조를 이어가고 있습니다."
+      "summary": "미국 증시의 AI 관련주 급락 여파로 도쿄증시도 동반 하락세를 보인 가운데, 데이터센터와 원자력 등 성장 전략 추진이 교차"
     },
     "TW": {
       "headlines": [
         {
-          "title": "Better AI Semiconductor Monopoly Stock: Taiwan Semiconductor vs. ASML",
+          "title": "Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: The AI Sell-Off Is Exposing a Critical Difference Investors Shouldn't Ignore for 2027",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGltQ1laWTRjdVRfcGJwWTZHVkE0Y0J5MlJtd015amczUnFLLWs2c1RNSXNsdHppUlI4WHp3MHdCdWtYOVVQVEZScWRaenhtdzl6eWJ1TEpOaEJkWWRyaS1PZ1lGTkVZVEVxTjN1T3NLRHBRLTRac2w4YTJGOU4ydmZWUGZDb0xTODBPeXJmZkh3QkFJQjZoUg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPc3B3bFh1MUd0MGdPVUxMaUpoQ200MmtGZU0tOGYtZ2xWbGpJWC1XTU1odkJhRWV4WDdKMmh6a1lfYnpMU3lMbnRaaDNxYVJETWFURnZoMjlsbk5VSFBjeUFUbkxndkY1YkJpT3dOT1VWTi11MTFGcWUtRTFqRFBvWFhjaTN5YVhQTW5kMzdqX0NESFc0ZTJXMVRFa2lDM3A1WnZ6VnRYamIzZHVmVjFUUDBuc1EtcDYxUmN5OVZIOEIyWXk2bFF0SVRDWVNRZERmVVp4MWlJQlZiNzllSDBDVVZuUUFoMGFhRTI5ZmtpSXF0YjZ2WDYwRW83Ym9SZ05PSkZyVHNnUXNVbWE0OEVVWjFfd3Y1bVh3Vk44SlFLczlDTHFpQlE?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Homebuilders Follow Giant Chipmaker Into the Arizona Desert",
+          "title": "Better Foundry Stock: Taiwan Semiconductor vs. Intel",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcERFVHV6ZURjZ0tnenJjZVhoeUU5WWxaR3RlblNTY2lGc2lIWjNHRFMta2w2UVpNSk4tVzhkNGVrOEptYXpVLS1vejEwRGljanZ6Z1VTZXlZbEszVkQxbDZGMi16Sk1janMyZ2MxcU94MTZSTzlISHBpQUhCLU1hRmlzX2FlZ2kzUDE1M3ljWWM1U1ZMNGM1SE5ZYVFUR2ZOd2hMS1RFbWdxTU5NSS1NQzhR?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHJ0T2VrODc3UndQVXlWcG8tS2Z3QUszb1VFdm9iUWJzY0FZZGFaZ3R3SVhDYmlGQzgzZDRXNmI0TWJwaTl4OVhmQXhXTU01eUktSkFWZEFqVGN2TTBiNDdrTzhydU03YWZGMDFvZi1hbExySmxWMHFMdDZhZkw3OHNkNmI2eU80b3ZtVlhTeG1sbnE1NGZUS3lqclBwZWN2ZlczQWZ5WHRhdw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Until Next Gen Computing Implodes I’ll Keep Buying Taiwan Semiconductor",
+          "title": "A rare strike in Taiwan exposes labor unrest beneath the global AI rush",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVEFXZHNlaDRTYzdETlNCTVlkM3FwT2JxVEhWSm0xQ2t4WGRYd2duc2JPQXZfbExTaEU1dl8xeDNNUEVkSjd3N0hfQ28zZ2NqdnZ1YV9yb2xuempIdm9YMngySmFkVndhRjk0cEZZNEgycHU5M1RTWlhZRF9LOGJSbVZXTHVmTFpBYmpBSGhsWkQ4YlhKM0lKVU5DR0dmdGdfa3prYkhEclp6ck16R0ZXWDNveWI?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zcHdQbTZsY2JTZ2paTzcxMFVPMTBvbDN6aFI5ZjlpRTJSa3E0UVpKNXpkeE9iUHUyMTV3cFRHTUFjaHVHTHNVZUFuU1ZIYW4tT0RiR1I3ak1kUXNFdkNXbXRNMkgyWVhmVndJWg?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan entrepreneurs optimistic about future: HSBC",
+          "title": "Taiwan Semiconductor Manufacturing Co. | History, Leadership, Technologies, & Facts",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56aWc5RnhpcnNhOWNaajJoOTFFckkwbUMzYVhTZlpUY1hpay1ESnZYaHJVZGpYQkNlMk91NUxNczhMdWN5NXRmeU44LXFHaUQyc2ZNdm1wLTVxZUl5Qm1uaUd3dWRpMlEyc29HLTE0bzJ3MWUtMFE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qcmkzWDFJem9aNjFJODBRVml5UUxNcWk5eXQ1bU41bUFiUG9LMFVHYWpnVi00Q0ZHSUZnTlpSTUdSVTMxUXpQcFUyMHVmLVVCMG96NldrdkU0bExZMW1RWlpyVU80Y2R0N29KejlpNWIweUVVRUxGUUtR?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan Business Bank Says Jan-Sept Net Income T$11.45 Bln",
+          "title": "The Zacks Analyst Blog Highlights Analog Devices, Taiwan Semiconductor Manufacturing, Texas Instruments and NVIDIA",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbjh6dHVJby1lMUd0UWJhOVVJbzBwV1RUNFpRSlVQbjVUeUk2MkpDaHhQaEE3RHhzZXRrQnFieGZ1Q2M2SjZVT09lNld6WU5oNUw0VjJWZnpYNWt1SDltN25WVmxhZ3lOd1V6a0czWmEyQXZoMlBkcHlGbEtEMnRvQ21XeVAyaERYcmZnUmhBMVhSaVYwTldqWE1sY0NLSXFFcGs0blMtWG40TWV1OEtoeEdmQmZ0WmJGOTV0VzdWVU9La3pKbXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTjhxWXRPeWdtZmRLS3hZQXRNT1ctMk1tR2pRUzBVdGhnY2Q2dUpqQWNGQmRGd0dHeXRBT1FCUHhiQ3FmcHF5UjUwLUYxczdvQjNnUXJseDA1Yk12d1JCLVRZWnVnTlYwenkxRVYzTENRMTJoQzlsbDhEX0FESVZPZC1vM3hCVzZCYjUtUHI0QkQ1TjJLd3pORzc1ZERCakwzZEIzR1lTdGpfejZUN0dJM0Y2NElPSGppYkJ3Z0hJSjFjUXJvbFRWMHJvU2pQNjBhRWVremJMRTlZWWtCMHJ3YUtVblVtbW9L?oc=5",
           "source": "Google News"
         },
         {
-          "title": "What's Going on With Taiwan Semiconductor Stock on Monday? - Taiwan Semiconductor (NYSE:TSM)",
+          "title": "Micron Pauses Work on $4.5 Billion Taiwan Plant After Labor Spat",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUFNpQ2hNdDBaMmtieTBRSU9SU2lsanJHanU1U3VOMlIxM0prTnhscVpNX0c5Q1BsRDdWUS1ZRXZndFZXTXlHb3hxY2VpOHdhTW80VC1jbi1NQnplTF9EUl9Bd1FDd1NtQUFuOFNJdTRfZTA4bUY3a2FrQ0ZJY3Z3R1JFY3M1Nl9FMDR2R0FuUUs2M2FfQTZVaXdhSkxXNnZ2ZGljc1EzcmlUYXZuaDllVw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMno5WXd4ZUVPS3pBazN3V0drVUt4OVc1WW80WF9uUWZGYll2S0VDWFVpd1VqbXRjU2FHNkJFY1J6aTRrbFJKbFNpUDBzWWlkdEtZMWdtaGZtRVVhUUNHWEFkQnJpVmFFcUh1Q3Y2TGRtNEYwX3BRZ0xLWDVTdFBpNFRZTFA5MDVvTmt4ZTIxN1VaY0xUcF9Ka1EwdzdrUUI1SzZoOVF1Q0FxSVF6T1NSTGFmT2c?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Semiconductor Selloff Returns: TSMC ADR Falls Below $400, Taiwan Stocks Plunge More Than 700 Points in Early Trading",
+          "title": "Why is Taiwan Semiconductor Manufacturing stock plunging today? By Investing.com",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84SXI3dXpUeGhuVVBWemQtWXlkRXZLUlhhcUZXb0VxTUdzcGJRYVpuZzZQZHoyVS11T3dwYW95LUtxdF80NFlhSUtxNmo2b0h3dkczaEI1SjRxVHhDSGpaZmlacnA4ODNsTUZTdWdScWMyYUk2eGc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmRXYi1SOUR4NlA3djJoVjM5dmNlSXZEMjFMT1FUTzZOY29Ea0ZvbXY1bEJ6eW85QnMyZzRDNEpGdDcyZVp0Y3RzYWVVZ1pSSkQ0LVl5MmxHNzFRSXVPZ0NyR01leGhMcXBLQjVtWmw4c2FPcmJXN0dESDByaHMzbmlmQ3hnM3hTSTB2bmJLWG5vRFZEWk5TZ25CZ1Q4cnZZdEhfQU8ya2p5WjUyR2NSR0JUV1FUTzVhTHc4d2p0ZWo?oc=5",
           "source": "Google News"
         },
         {
-          "title": "TSMC’s 1-nanometer Manufacturing Site Likely Tipped By Taiwan’s Minister In Discussion That Included Robots",
+          "title": "Taiwan Semiconductor (TSM) Sees $146.2 Million in Net ETF Buying on Nov. 3",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHFmSmdyWnBFRS1fakNPS3VCenFwdnFiSlB5V2lWVElJVmQxVkFjanhWV3ozcVd0RGVGQVRTb2NpcnpYbEF2cFRZeU8tc3NoTDJOVG1rcE1NblhicDA3SC1SdV83NXFDZjQyZm9uUXlmYUFiblVEcmp1dngwVVpRTzFCYm9Mb0dOTHM4SnB0Z2hnWEhsRnpUczc5YTNrOVV1djU4UTFycVJ3NmhTd21SQjB1a2g5dTRNWlYzWExXNzd2dWkwVEHSAcsBQVVfeXFMTUJNMnV2bjU0dUFGQkY2QnEyQVFEU0tKQ0xwSFJFSWJKZzFmRXRYU0FOY3o0dkNrbW0zY2hXXzM0NkZVaEJwSkJaZE5FckdmbDFkN25qRzdnNWlzaU9pQ2tOUGhMMHlfc1MwRjlTUUNiby1iZ1pxWmxRUXVIaXFoNWVMMFVmbm9WODR1RWN5VGF6b3ZHMHpmbGV1RXRSNkpxT1BqRU9yMFdkSHdkcnFBOHVHQ250SlZOREs5QVQzeGhOVEU4azNxZ1kyVGM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTHZJQ3FxWHdoRHdCWW50TmE3bzNNVGpiVDFKenBjZEdfWHpWaU16QlFCWmZaejVIcDFlNnFFY0tCQ19vZXczbURkd0p0M3h5YktDRWxhbk94R0Qwd3lldGdlazcwbzdwY1NibnRtdFJRdFhidmJnY1BUMG42VnBYZmFLclZYY0hDbDcyYUlNRGMxWUxPVnNHME9uMVFzNEk?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Broadcom vs. Taiwan Semiconductor: Two AI Powerhouses, but One Offers a Better Value for 2027",
+          "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy.",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlRiZXpfUWJUWVloaDhDUDhIdm9fbWJyX2htNGpkWEh5QktjZWhrRkRvaV9fcXFIeWtOWnpsdVJ0b0MyZGE3dWNtZlVUWVlkTzYwWlQxTjdzOFZuQ0pOWDJTMlhMT2NNakc4TmdiMHF6NHZXOXo5blFuNzIwaUhJRmpfZ2FuSXpYN0h1MW5Qd3lYZ2ExRVVwb2RnVVZxd1o2blk3Nmxjc1l2c09LWW1kNF9mSjFweWdBMXZTQ0hIejN1ejVQci1KcEdvVDBHd3ZweTUySXNqTWhWYjQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNeGlGWEg3SjBYR05Wd2lfcGROYW5zdDh1N2Z1YTRaRnJwYkhkb3lMNVl2U2h6OFlGUWlmN0RZVE1NMVA1cmdLZUpETnlmMGRfTXdBTE82T1ZHaHZUV0VBUC0zTFlWa3ZyZGQ3eU9iX0hlRFVMWGFiMVlKaTJ4MTVQU3lub2daRElWYUlac1Y1bUwwME5HN1VYN1FOYk13SVhCOXR2TVR6QTdPUHJBdU1URmRtQjZkUDlmMWp2dDR2TmEwRC1FRkZfRmFrTjVuLV83eEhiR1A2V3dFSlp6eFk2cUZXbVpEZWFobC1semxmYlhXMVMxc29RQ3Boekh4MzZhMUU3blQ1bHE?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Taiwan shares close lower but recover from lows amid U.S. midterms",
+          "title": "3 Semiconductor Stocks Investors Are Watching For Taiwan Supply Chain Risk",
           "summary": "",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LN1o2VnA2eEhrLXhqZXBiR1BPSHRoWUFqYXdBai1JNFR3MnJyVVpZR2ZEMnRGSW1ISWo4VXRpWHI1UExsQnRZbHk4Z0RhZnRpMTBHay1MUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMEw0TFZXb0xUbjktdHVZT1lnQm52WXdTWHYzZEtpMU9WQW5oZXpkaWthMXEzZXM5Mk5lRUpTVUVPa2JhdVB3YjZ1TlFFZThhXy00TndQRFo3R25GYmtTTkdZMVZrTnpoNzN6WkNFSTBzSmxEM3VleTRaMVdBcDdzQVlBTDQ2R3BUVTcyTTJpR09MenNYNk96cU9IemFaYm9uOUVVMEIybDYyUQ?oc=5",
           "source": "Google News"
         }
       ],
-      "summary": "미국 중간선거 여파와 글로벌 반도체 섹터 셀오프의 영향으로 TSMC를 비롯한 대만 증시가 큰 폭의 변동성을 겪었습니다."
+      "summary": "글로벌 AI 랠리 둔화와 노동 이슈로 대만 반도체 공급망에 경계감이 유입된 가운데 TSMC 등 파운드리 주가 변동성 확대"
     },
     "CN": {
       "headlines": [
         {
-          "title": "Why Hong Kong wealth managers want broader access to mainland China’s Nasdaq-style markets",
-          "summary": "Most asset managers in Hong Kong expect broader access to mainland China’s two Nasdaq-style stock markets to strengthen the city’s private wealth business, an industry survey shows, as hard-tech firms continue to attract investors despite a recent pullback. The report, released by the Private Wealth",
-          "link": "https://www.scmp.com/business/banking-finance/article/3373269/why-hong-kong-wealth-managers-want-broader-access-mainland-chinas-nasdaq-style-markets",
+          "title": "‘Bullish on China’: US brand Levi’s bucks retail headwinds with localisation strategies",
+          "summary": "US apparel retailer Levi Strauss & Co says it is bullish on China and plans further investment and new store openings in the market, riding robust growth driven by young shoppers. While the consumer market in China remains challenging for many multinationals, with a host of foreign brands shuttering",
+          "link": "https://www.scmp.com/business/companies/article/3373396/bullish-china-us-brand-levis-bucks-retail-headwinds-localisation-strategies",
           "source": "SCMP Business"
         },
         {
-          "title": "Could Shanghai project smooth indebted New World’s path to cash?",
-          "summary": "New World Development’s recent announcement that its Shanghai K11 Elysea office project has reached an occupancy rate of about 80 per cent may pave the way for the indebted group’s next securitisation exercise, analysts say, adding that it could generate 100 million yuan (US$15 million) in annual ne",
-          "link": "https://www.scmp.com/business/companies/article/3373251/could-shanghai-project-smooth-indebted-new-worlds-path-cash",
+          "title": "Hong Kong developer Hysan’s Lee Garden Eight draws law firm out of Central: sources",
+          "summary": "Hong Kong law firm Woo Kwan Lee & Lo is reportedly relocating to Causeway Bay after more than five decades in Central’s Jardine House, reserving about 39,000 square feet in Hysan Development’s Lee Garden Eight in a major lease for the new commercial complex. Market sources identified the firm as the",
+          "link": "https://www.scmp.com/business/article/3373395/hong-kong-developer-hysans-lee-garden-eight-draws-law-firm-out-central-sources",
           "source": "SCMP Business"
         },
         {
-          "title": "Latest award confirms EuroEyes International as market leader",
-          "summary": "[The content of this article has been produced by our advertising partner.] By recently winning the prestigious Zeiss Award for the 10th consecutive year, EuroEyes International has once again been recognised for its pioneering work and, in particular, for performing the highest number of trifocal l",
-          "link": "https://www.scmp.com/presented/business/banking-finance/topics/euroeyes-vision-future/article/3372973/latest-award-confirms-euroeyes-international-market-leader",
+          "title": "The AI sell-off is a taste of things to come",
+          "summary": "There are good reasons for investors to be bullish about artificial intelligence (AI). The earnings of technology firms in the S&P 500 are expected to increase 54 per cent this year. For the index as a whole, profits will rise 33 per cent, turbocharged by the tech and energy sectors, data from FactS",
+          "link": "https://www.scmp.com/opinion/world-opinion/article/3373341/ai-sell-taste-things-come",
           "source": "SCMP Business"
         },
         {
-          "title": "Democrats’ midterm triumph sends US stocks soaring, but Tesla, SpaceX fall",
-          "summary": "US stocks rose after markets opened on Wednesday following the Democrats’ crushing victory in the US midterm elections, as the convincing result lifted some of the political uncertainty hanging over Wall Street. The S&P 500 opened 1.1 per cent higher at 9.30am local time, while the Dow Jones Industr",
-          "link": "https://www.scmp.com/business/companies/article/3373309/democrats-midterm-triumph-sends-us-stocks-soaring-tesla-spacex-fall",
+          "title": "After US$474m gamble flops, what happens now to Elon Musk’s Tesla, SpaceX and China ties?",
+          "summary": "Elon Musk bet nearly half a billion dollars that political spending could keep Washington friendly to his sprawling business empire. On Tuesday, that bet came up short. As Democrats recaptured control of the US Congress in the midterm elections, the world’s richest man found himself facing an abrupt",
+          "link": "https://www.scmp.com/tech/big-tech/article/3373422/after-us474m-gamble-flops-what-happens-now-elon-musks-tesla-spacex-and-china-ties",
           "source": "SCMP Business"
         },
         {
-          "title": "How Democratic sweep could slow AI growth in US – and help China’s ambitions",
-          "summary": "The Democratic Party’s sweeping midterm election victory and takeover of both houses of Congress could slow down the pace of artificial intelligence development in the US, with implications for both the global AI trade and the technology rivalry between Washington and Beijing, analysts said. The ass",
-          "link": "https://www.scmp.com/tech/big-tech/article/3373295/how-democratic-sweep-could-slow-ai-growth-us-and-help-chinas-ambitions",
+          "title": "No Intel, no Qualcomm: Huawei unveils desktop built entirely with China-made components",
+          "summary": "Huawei Technologies has launched its first desktop computer powered by its proprietary operating system, HarmonyOS, touting the device as “100 per cent domestically made” in its latest push for technological self-reliance. The Shenzhen-based company on Thursday unveiled its Qinyun HM650 series deskt",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3373435/no-intel-no-qualcomm-huawei-unveils-desktop-built-entirely-china-made-components",
           "source": "SCMP Business"
         },
         {
-          "title": "Chinese exporters see respite as Beijing curbs yuan rise amid looming record surplus",
-          "summary": "The People’s Bank of China’s (PBOC) intervention to raise the foreign exchange reserve requirement ratio amid the yuan’s sustained rally has delivered a reprieve for China’s broader export sector, as the measure is expected to partly ease appreciation momentum driven by the country’s enormous trade ",
-          "link": "https://www.scmp.com/economy/policy/article/3373263/chinese-exporters-see-respite-beijing-curbs-yuan-rise-amid-looming-record-surplus",
+          "title": "US borrowing outlook steadies after midterms, but Treasury yields face new tests: analysts",
+          "summary": "After the Democrats swept the US midterm elections, a divided government may help restrain future Treasury borrowing and prevent fresh deficit blowouts, though it will not necessarily bring down elevated bond yields, analysts say. The US Treasury Department unveiled its quarterly refunding statement",
+          "link": "https://www.scmp.com/economy/global-economy/article/3373359/us-borrowing-outlook-steadies-after-midterms-treasury-yields-face-new-tests-analysts",
           "source": "SCMP Business"
         },
         {
-          "title": "‘The race is on’: Swiss bankers nod to Hong Kong’s prowess as wealth hub",
-          "summary": "Swiss private banking executives have acknowledged Hong Kong’s growing prominence as a global cross-border wealth-management hub, as geopolitical tensions prompt wealthy clients to diversify not only their investments but also where their assets are held. “The race is on,” said Giorgio Pradelli, CEO",
-          "link": "https://www.scmp.com/business/china-business/article/3373250/race-swiss-bankers-nod-hong-kongs-prowess-wealth-hub",
+          "title": "China blocks SoftBank’s US$5.4 billion takeover of ABB’s robotics division",
+          "summary": "China’s state planner has told Japanese investor SoftBank it will not allow the US$5.4 billion acquisition ‌of the robotics segment of engineering group ABB to go ahead, the Swiss firm said on Thursday. The case marks the second major deal blocked by China this year after Meta Platforms was ordered ",
+          "link": "https://www.scmp.com/business/china-business/article/3373415/china-blocks-softbanks-us54-billion-takeover-abbs-robotics-division",
           "source": "SCMP Business"
         },
         {
-          "title": "US midterm blue tsunami jolts Asian markets as tighter AI, fiscal scrutiny looms",
-          "summary": "Follow the SCMP’s live coverage here A comprehensive victory for the Democrats in the US midterms has jolted asset classes from stocks to bonds and commodities in Asia, as investors expect the US Congress to tighten scrutiny over the AI industry and government spending. Stocks in the region closed m",
-          "link": "https://www.scmp.com/business/markets/article/3373266/us-midterms-blue-wave-jolts-asian-markets-tighter-ai-fiscal-scrutiny-looms",
+          "title": "China’s Yutong Bus expands overseas as new-energy bus exports surge",
+          "summary": "China’s Yutong Bus, the world’s largest electric bus manufacturer, is seeing its overseas shipments climb steadily, with demand growing rapidly in countries such as Australia, Malaysia, Saudi Arabia and Morocco. Based in Zhengzhou in central China’s Henan province, the company now generates more tha",
+          "link": "https://www.scmp.com/business/china-business/article/3373397/chinas-yutong-bus-expands-overseas-new-energy-bus-exports-surge",
           "source": "SCMP Business"
         },
         {
-          "title": "Wingtech rejects Nexperia restructuring, cites ‘discrimination’ towards Chinese investors",
-          "summary": "Shanghai-listed Wingtech Technology has rejected a restructuring proposal under which it would lose control of Dutch chipmaker Nexperia’s assets outside China, condemning the plan as an “expropriation” driven by discrimination. The stand-off deepens a year-long dispute between Wingtech and Dutch aut",
-          "link": "https://www.scmp.com/tech/tech-war/article/3373244/wingtech-rejects-nexperia-restructuring-cites-discrimination-towards-chinese-investors",
+          "title": "Oil prices slump as Trump election rout eases Middle East conflict risks",
+          "summary": "Oil is headed for its biggest weekly decline since the Covid-19 pandemic after a Democratic blue wave in US midterm elections eased concerns about President Donald Trump escalating conflict in the Middle East. The price of Brent crude, the global benchmark, has tumbled by about 20 per cent this week",
+          "link": "https://www.scmp.com/plus/economy/china-economy/article/3373389/oil-prices-slump-trump-election-rout-eases-middle-east-conflict-risks",
           "source": "SCMP Business"
         },
         {
-          "title": "2 cancer drugs from Li Ka-shing-backed Sequencio garner global attention",
-          "summary": "Two cancer vaccines from Hong Kong-based Sequencio Therapeutics have been selected for presentation at a major US conference, as companies bet on therapies based on ribonucleic acid (RNA) to deliver breakthroughs in cancer treatment. Sequencio, a subsidiary of Li Ka-shing-backed CK Life Sciences, sa",
-          "link": "https://www.scmp.com/business/companies/article/3373234/2-cancer-drugs-li-ka-shing-backed-sequencio-garner-global-attention",
+          "title": "China’s appliance queen on her firm’s quest for greener cooling, and going global",
+          "summary": "Dong Mingzhu chairs Gree Electric Appliances, a home-appliance giant based in southern China’s Guangdong province. Having worked her way up from a frontline sales job, she is one of China’s best-known figures in manufacturing. As a deputy to the National People’s Congress, she has long advocated for",
+          "link": "https://www.scmp.com/plus/tech/big-tech/article/3373365/chinas-appliance-queen-her-firms-quest-greener-cooling-and-going-global",
           "source": "SCMP Business"
         }
       ],
-      "summary": "인민은행의 위안화 환율 방어 조치로 수출업체들이 숨통을 트인 가운데, 미국 중간선거 결과가 미·중 AI 패권 경쟁에 미칠 파장에 주목하고 있습니다."
+      "summary": "화웨이가 전면 국산화 데스크톱을 공개하며 기술 자립에 속도를 내는 한편, 글로벌 M&A 규제와 소비재 다국적사의 로컬라이제이션이 공존"
     }
   },
-  "trend_headline": "미 중간선거 충격과 반도체 변동성 심화",
-  "summary": "미국 중간선거 결과에 따른 글로벌 정치·경제적 불확실성이 아시아 증시 전반에 파장을 미친 가운데, 반도체 섹터의 급격한 변동성과 각국의 리스크 관리 움직임이 두드러진 하루였습니다.",
+  "trend_headline": "글로벌 AI 매도세와 증시 조정, 아시아 기술·금융시장 강타",
+  "summary": "미국 증시의 급격한 AI 섹터 조정과 미 중간선거 여파가 아시아 증시에 직격탄을 날리며 한국과 일본의 주가가 동반 급락했습니다. 대만 반도체 공급망은 노동 이슈와 맞물려 긴장감이 높아졌고, 중국은 기술 자립과 대외 규제 대응을 강화하는 등 전반적인 리스크 회피 흐름이 뚜렷했습니다.",
   "cross_country_themes": [
-    "US Midterm Elections Impact",
-    "Semiconductor Sector Volatility"
+    "AI Sector Sell-off",
+    "Tech Supply Chain Volatility",
+    "Market Correction & Risk Aversion"
   ],
   "sector_hints": [
     "Semiconductors",
-    "Banking & Insurance",
-    "Export/Trade"
+    "Financials",
+    "Technology"
   ]
 }

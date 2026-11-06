@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "대만 TSMC를 비롯한 아시아 반도체 섹터의 셀오프와 높은 변동성이 나타났으며, 미국 AI 관련주 역시 대규모 인프라 비용 부담과 정책 기조 변화 우려로 투자 심리가 위축되었습니다.",
+      "score": -8.5,
+      "rationale": "미국과 아시아 전반에서 AI 랠리 거품 우려가 불거지며 마이크론, TSMC 등 글로벌 반도체 밸류체인 전반에 대규모 투매 현상이 발생했습니다.",
       "related_tickers": [
+        "NVDA",
         "TSM",
-        "ARM",
-        "NVDA"
+        "MU"
       ],
       "source_regions": [
         "US",
@@ -17,61 +17,59 @@
       ]
     },
     {
-      "name": "Healthcare",
+      "name": "Technology",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "미국 CVS 헬스가 소매 약국 사업부 분할 발표 직후 주가가 10% 급락하는 등 주요 헬스케어 기업의 구조조정과 악재가 섹터 전반에 부담으로 작용했습니다.",
+      "score": -8.0,
+      "rationale": "AI 투자 수익성에 대한 회의론으로 미국 빅테크 시가총액이 급감했고, 아시아 IT 기술주로 리스크 회피 심리가 확산되었습니다.",
       "related_tickers": [
-        "CVS"
+        "MSFT",
+        "AAPL",
+        "GOOGL"
       ],
       "source_regions": [
-        "US"
+        "US",
+        "ASIA"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "중국 시장 내 경쟁 심화로 유럽의 BMW가 3분기 이익 급감 및 자동차 부문 손실 가능성을 경고하는 등 완성차 업체를 중심으로 실적 악화 우려가 심화되었습니다.",
+      "score": -6.5,
+      "rationale": "유럽의 BMW가 중국 시장 내 경쟁 심화 및 수익성 악화로 2026년 적자 가능성을 경고하는 등 자동차 업황 불안이 증대되었습니다.",
       "related_tickers": [
         "BMW"
       ],
       "source_regions": [
-        "EU"
+        "EUROPE"
       ]
     },
     {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "중동(이란) 지정학적 리스크 확대로 인한 유가 상승이 에너지 생산 및 공급 기업들의 수익성 개선 기대감을 지지하고 있습니다.",
+      "name": "Industrials",
+      "direction": "neutral",
+      "score": -2.0,
+      "rationale": "유럽 방산 섹터에서 이탈리아 레오나르도의 수주 급증 호재와 독일 라인메탈의 계약 지연에 따른 폭락 악재가 교차하며 혼조세를 기록했습니다.",
       "related_tickers": [
-        "SHEL",
-        "XOM",
-        "CVX"
+        "RHM",
+        "LDO"
       ],
       "source_regions": [
-        "EU"
+        "EUROPE"
       ]
     },
     {
       "name": "Financials",
-      "direction": "positive",
-      "score": 5.0,
-      "rationale": "아시아 증시 조정에 따른 리스크 회피 성향 강화로 한국 등 시중은행 방카슈랑스 및 안전자산형 금융상품으로 대규모 자금이 유입되었습니다.",
+      "direction": "negative",
+      "score": -4.0,
+      "rationale": "미국 빅테크의 대규모 채권 발행으로 인한 유럽 국채 금리 변동성 확대와 아시아 증시 조정에 따른 안전자산 선호 강화가 부담으로 작용하고 있습니다.",
       "related_tickers": [
-        "KB",
-        "SHG"
+        "DB",
+        "BNP"
       ],
       "source_regions": [
-        "ASIA"
+        "ASIA",
+        "EUROPE"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Industrials",
-      "note": "아시아(일본)는 해외 인프라 사업 실적 호조로 긍정적인 모멘텀을 보인 반면, 유럽은 고유가로 인한 루프트한자 등 항공 운송 기업의 연료비 부담 및 실적 전망 하향으로 부정적 신호가 대립하고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

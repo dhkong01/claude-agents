@@ -44,7 +44,7 @@
           .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
           .then(function (x) {
             d = x;
-            Object.assign(s, { cap: x.cap, per: x.per, pbr: x.pbr, hi52: x.hi52, lo52: x.lo52, volume: x.volume, extra: x.extra || null, issues: x.issues || [] });
+            Object.assign(s, { cap: x.cap, per: x.per, pbr: x.pbr, hi52: x.hi52, lo52: x.lo52, volume: x.volume, extra: x.extra || null, issues: x.issues || [], flowSum: x.flowSum || null });
             if (x.flow) {
               s.flow5 = { f: x.flow.f, i: x.flow.i, p: x.flow.p };
               s.flowDates = x.flow.dates.map(function (n) { return ymd(n).slice(5); });

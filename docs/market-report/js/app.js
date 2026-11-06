@@ -27,7 +27,7 @@
   const esc = function (v) {
     return String(v == null ? '' : v).replace(/[&<>"']/g, function (ch) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]; });
   };
-  const state = { country: 'KR', range: '6m', rank: 'volume', fin: 'annual', watch: [] };
+  const state = { country: 'KR', range: '6m', rank: 'volume', fin: 'annual', flowRange: '3m', watch: [] };
   let redraw = null, globe = null;
 
   function loadWatch() {
@@ -251,6 +251,29 @@
     const dts = s.dates5(), f = s.flow5;
     MR.flowChart($('#flowChart'), dts.map(function (d, i) { return { d: d, f: f.f[i], i: f.i[i] }; }));
   }
+  /* 기간별 누적 수급: 3개월·6개월·1년 순매수(+)/순매도(−). 한국 종목만(미국은 투자자별 수급 미제공) */
+  const FLOW_RANGES = [['3m', '3개월'], ['6m', '6개월'], ['1y', '1년']];
+  function d8(n) { const t = String(n); return t.slice(0, 4) + '.' + t.slice(4, 6) + '.' + t.slice(6, 8); }
+  function flowSumBody(s) {
+    const w = s.flowSum && s.flowSum[state.flowRange];
+    if (!w) return '<p class="empty">이 기간의 데이터가 없습니다.</p>';
+    const items = [['외국인', w.f], ['기관', w.i], ['개인', w.p]];
+    const max = Math.max.apply(null, items.map(function (it) { return Math.abs(it[1]); })) * 1.25 || 1;
+    return items.map(function (it) {
+      const v = it[1];
+      return '<div class="sec-row"><div class="bar-top"><span>' + it[0] + '</span><b class="' + cls(v) + '">' + (v > 0 ? '순매수 ' : v < 0 ? '순매도 ' : '') + sgn(v) + '억</b></div>' +
+        '<div class="div-track"><i class="' + (v >= 0 ? 'bg-up' : 'bg-down') + '" style="width:' + (Math.abs(v) / max * 50).toFixed(1) + '%;' + (v >= 0 ? 'left:50%' : 'right:50%') + '"></i></div></div>';
+    }).join('') + '<p class="note flowsum-range">' + d8(w.from) + ' ~ ' + d8(s.flowSum.asOf) + ' · ' + w.days + '거래일</p>';
+  }
+  function flowSumCard(s) {
+    if (!s.flowSum) return '';
+    const tabs = FLOW_RANGES.map(function (r) {
+      return '<button type="button" class="' + (r[0] === state.flowRange ? 'active' : '') + '" data-flowrange="' + r[0] + '">' + r[1] + '</button>';
+    }).join('');
+    return '<section class="card"><div class="card-head"><h2>기간별 누적 수급</h2><div class="seg" id="flowSeg">' + tabs + '</div></div>' +
+      '<p class="sub">외국인 · 기관 · 개인 순매수(+) / 순매도(−) · 억원</p><div id="flowSumBody">' + flowSumBody(s) + '</div>' +
+      '<p class="note">일별 순매매 수량 × 당일 종가 환산 · 기타 법인 등은 포함하지 않아 세 값의 합이 0이 아닙니다 · 기관은 연기금 등 기관계</p></section>';
+  }
   function finCard(s) {
     return '<section class="card"><div class="card-head"><h2>실적 · 재무</h2><div class="seg" id="finSeg">' +
       '<button type="button" data-fin="annual" class="' + (state.fin === 'annual' ? 'active' : '') + '">연간' + (s.live ? '' : ' (5년)') + '</button>' +
@@ -305,7 +328,7 @@
   }
   function stockBody(s) {
     const html = chipsRow(s.code) + stockHeader(s) +
-      '<div class="grid-stock"><div class="col">' + chartCard(s) + flowCard(s) + finCard(s) + '</div><div class="col">' + metricsCard(s) + stockIssuesCard(s) + '</div></div>';
+      '<div class="grid-stock"><div class="col">' + chartCard(s) + flowCard(s) + flowSumCard(s) + finCard(s) + '</div><div class="col">' + metricsCard(s) + stockIssuesCard(s) + '</div></div>';
     return { html: html, mount: function () {
       const all = function () { drawCandle(s); drawFlow(s); drawFin(s); };
       drawFin(s); // 표가 칼럼 폭을 정하므로 먼저 그린 뒤 차트 폭을 잰다
@@ -457,6 +480,12 @@
         state.range = btn.dataset.range;
         $$('#rangeSeg button').forEach(function (b) { b.classList.toggle('active', b.dataset.range === state.range); });
         return drawCandle(MR.stockByCode[view.dataset.code]);
+      }
+      if (btn.dataset.flowrange) {
+        state.flowRange = btn.dataset.flowrange;
+        $$('#flowSeg button').forEach(function (b) { b.classList.toggle('active', b.dataset.flowrange === state.flowRange); });
+        $('#flowSumBody').innerHTML = flowSumBody(MR.stockByCode[view.dataset.code]);
+        return;
       }
       if (btn.dataset.fin) {
         state.fin = btn.dataset.fin;

@@ -337,6 +337,46 @@ KR_CHART = A + "/chart/domestic/item/{code}/day?startDateTime={s}&endDateTime={e
 US_CHART = A + "/chart/foreign/item/{code}/day?startDateTime={s}&endDateTime={e}"
 
 
+def add_months(d, m):
+    """d 에서 m개월 이동(월말 보정). m 은 음수 가능."""
+    y, mo = divmod(d.month - 1 + m, 12)
+    y += d.year
+    day = min(d.day, [31, 29 if y % 4 == 0 and (y % 100 != 0 or y % 400 == 0) else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][mo])
+    return d.replace(year=y, month=mo + 1, day=day)
+
+
+def build_flow_sum(code):
+    """종목별 투자자 누적 순매수(억원): 최근 3개월·6개월·1년.
+    네이버 /trend 는 한 번에 60거래일만 주지만 bizdate 를 넘기면 그 이전 60건을 준다(마지막 날짜로 이어 호출).
+    금액은 일별 순매매 수량 × 당일 종가 환산. 호출은 1년을 덮으면 멈춘다(약 5회)."""
+    rows, before = [], None
+    for _ in range(7):
+        d = get(f"{M}/stock/{code}/trend?pageSize=60" + (f"&bizdate={before}" if before else ""))
+        if not d:
+            break
+        rows += d
+        before = d[-1]["bizdate"]
+        last = dt.datetime.strptime(rows[0]["bizdate"], "%Y%m%d").date()
+        if len(d) < 60 or d[-1]["bizdate"] <= add_months(last, -12).strftime("%Y%m%d"):
+            break
+    if not rows:
+        return None
+    last = dt.datetime.strptime(rows[0]["bizdate"], "%Y%m%d").date()
+    out = {"asOf": int(rows[0]["bizdate"])}
+    for key, m in (("3m", -3), ("6m", -6), ("1y", -12)):
+        cut = add_months(last, m).strftime("%Y%m%d")
+        win = [r for r in rows if r["bizdate"] > cut]
+        if not win:
+            continue
+        tot = {"f": 0.0, "i": 0.0, "p": 0.0}
+        for r in win:
+            px = num(r["closePrice"]) or 0
+            for k, fld in (("f", "foreignerPureBuyQuant"), ("i", "organPureBuyQuant"), ("p", "individualPureBuyQuant")):
+                tot[k] += (num(r[fld]) or 0) * px / 1e8
+        out[key] = {"f": round(tot["f"]), "i": round(tot["i"]), "p": round(tot["p"]), "days": len(win), "from": int(win[-1]["bizdate"])}
+    return out if len(out) > 1 else None
+
+
 def build_kr(row, with_cf):
     """row: 네이버 시총 리스트 한 줄. 반환: (index_row, detail)"""
     code = row["itemCode"]
@@ -370,7 +410,8 @@ def build_kr(row, with_cf):
         "cap": val("marketValue"), "per": val("per"), "pbr": val("pbr"),
         "hi52": num(val("highPriceOf52Weeks")), "lo52": num(val("lowPriceOf52Weeks")), "volume": vol,
         "extra": ["외국인 지분율", (deals[-1].get("foreignerHoldRatio") if deals else None) or val("foreignRate")],
-        "flow": flow, "issues": issues, "fin": build_fin_kr(code, ".KQ" if market == "코스닥" else ".KS", with_cf), "bars": bars,
+        "flow": flow, "flowSum": build_flow_sum(code), "issues": issues,
+        "fin": build_fin_kr(code, ".KQ" if market == "코스닥" else ".KS", with_cf), "bars": bars,
     }
     idx = [code, name, market, price, int(chg), round(pct, 2), flow["f"][-1] if flow["f"] else None, flow["i"][-1] if flow["i"] else None, code, None, "KRW"]
     return idx, detail

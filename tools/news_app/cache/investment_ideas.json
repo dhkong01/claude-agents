@@ -1,145 +1,156 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "horizons": {
     "1w": [
       {
-        "theme": "AI 반도체 섹터 단기 투매 및 변동성 헤지",
+        "theme": "연준 12월 금리 결정 경계감 및 통화정책 이벤트",
         "sectors": [
-          "Semiconductors"
+          "Financials",
+          "Technology"
         ],
         "tickers": [
-          "NVDA",
+          "QQQ",
+          "TLT"
+        ],
+        "rationale": "미국의 견조한 고용보고서 발표 이후 12월 연준 금리 결정에 대한 시장 경계감이 고조되며 단기 유동성 민감 자산의 변동성이 확대되고 있습니다.",
+        "risk": "연준의 예상보다 매파적인 발언 또는 국채 금리 기습 급등",
+        "conviction": "medium"
+      },
+      {
+        "theme": "대만 공매도 제한 및 반도체 단기 반등 모멘텀",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
           "TSM",
           "MU"
         ],
-        "rationale": "미국과 아시아 증시 전반에서 AI 랠리 거품 경계감이 극에 달하며 단기 투매 및 리스크 회피 물량이 출회되고 있습니다.",
-        "risk": "단기 과매도에 따른 기술적 반등 가능성",
-        "conviction": "high"
-      },
-      {
-        "theme": "유럽 방산주 실적 이슈에 따른 개별 종목 차별화",
-        "sectors": [
-          "Industrials"
-        ],
-        "tickers": [
-          "LDO",
-          "RHM"
-        ],
-        "rationale": "라인메탈의 계약 지연 폭락과 레오나르도의 수주 급증 호재가 교차하며 단기 모멘텀이 극명하게 갈리고 있습니다.",
-        "risk": "유럽 안보 정책 변화 및 수주 일정 추가 지연",
+        "rationale": "대만 당국의 공매도 제한 조치와 TSMC의 첨단 메모리 진출 소식이 맞물려 단기 폭락했던 반도체 섹터의 기술적 반등 시도가 진행 중입니다.",
+        "risk": "글로벌 AI 투자 거품 우려 재확산에 따른 기술주 매도세 전파",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "유럽 자동차 섹터 실적 악화 및 무역 갈등 회피",
+        "theme": "미 중간선거 직후 AI·데이터센터 규제 리스크 확산",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA",
+          "MSFT"
+        ],
+        "rationale": "미국 중간선거 이후 AI 규제 강화 및 데이터센터 제동 우려로 기술주 전반에 차익실현 및 자금 유출 압력이 지속되고 있습니다.",
+        "risk": "AI 기업들의 긍정적인 실적 가이던스제시 및 규제 완화 가능성",
+        "conviction": "high"
+      },
+      {
+        "theme": "테슬라 모델 전환에 따른 과도기적 단기 불확실성",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
-          "BMW"
+          "TSLA"
         ],
-        "rationale": "중국 시장 내 경쟁 심화, 적자 가능성 경고, EU-중국 간 무역 갈등으로 자동차 업황 불안이 한 달간 하방 압력으로 작용할 전망입니다.",
-        "risk": "중국 정부의 경기 부양책 및 자동차 보조금 재개",
-        "conviction": "high"
+        "rationale": "사이버트럭 생산 종료 후 Cybercab으로의 전략적 집중 선언에 따라 신규 매출 공백과 전환기 과도기적 불확실성이 악재로 작용하고 있습니다.",
+        "risk": "Cybercab 구체적 상용화 로드맵 조기 공개로 인한 투자심리 개선",
+        "conviction": "medium"
       },
       {
-        "theme": "빅테크 대규모 채권 발행에 따른 유럽 금융 변동성",
+        "theme": "유럽 방산 섹터 실적 충격 및 단기 모멘텀 약화",
         "sectors": [
-          "Financials"
+          "Industrials"
         ],
         "tickers": [
-          "DB",
-          "BNP"
+          "AIR",
+          "RHM"
         ],
-        "rationale": "미국 빅테크의 AI 채권 발행 물량이 유럽 국채 금리를 압박하고 있으며, 증시 조정에 따른 안전자산 선호 심리가 금융주 운용 환경을 악화시키고 있습니다.",
-        "risk": "유럽중앙은행(ECB)의 유동성 지원 및 금리 안정화 조치",
+        "rationale": "유럽 주요 방산 기업들의 개별 실적 부진 발표와 시장 경계감으로 단기 자금 이탈이 이어지고 있습니다.",
+        "risk": "지정학적 긴장 재고조 및 유럽 국가들의 방산 비상 이행안 발표",
         "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "빅테크 AI 투자 수익성(ROI) 검증 및 밸류에이션 재평가",
+        "theme": "프랑스 재정 적자 압박과 유럽 국채 시장 불안",
         "sectors": [
-          "Technology"
+          "Financials"
         ],
         "tickers": [
-          "MSFT",
-          "AAPL",
-          "GOOGL"
+          "EZU",
+          "VGK"
         ],
-        "rationale": "대규모 AI CAPEX 투입 대비 실질 수익성에 대한 회의론이 대두되며 분기 실적 시즌을 거치는 동안 기술주 전반의 밸류에이션 하향 조정이 예상됩니다.",
-        "risk": "AI 기반 킬러 서비스 출시를 통한 매출 가시성 확보",
-        "conviction": "high"
-      },
-      {
-        "theme": "아시아 반도체 공급망 불안 및 중국 기술 자립 가속화",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM",
-          "MU"
-        ],
-        "rationale": "미 중간선거 여파와 대만 반도체 노동 이슈, 중국의 대외 규제 대응 강회가 맞물려 아시아 공급망의 불확실성이 중기적으로 이어질 수 있습니다.",
-        "risk": "미·중 지정학적 타협 및 노동 쟁의 조기 타결",
+        "rationale": "프랑스의 치솟는 국채 금리와 재정 적자 압박이 금융 시장 변동성을 유발하며 중기적으로 유럽 주식 밸류에이션 하락을 압박하고 있습니다.",
+        "risk": "EU 차원의 재정 긴축 유예 조치 또는 재정 지원책 타결",
         "conviction": "medium"
-      }
-    ],
-    "6m": [
-      {
-        "theme": "유럽 안보 예산 증액과 방산 산업의 구조적 수급 재편",
-        "sectors": [
-          "Industrials"
-        ],
-        "tickers": [
-          "LDO",
-          "RHM"
-        ],
-        "rationale": "단기 실적 혼조에도 불구하고 지정학적 긴장과 유럽 각국의 재무장 기조로 인해 방산 수주 잔고는 6개월 관점에서 견조한 성장세를 유지할 것입니다.",
-        "risk": "지정학적 분쟁의 조기 종식 및 국방 예산 집행 지연",
-        "conviction": "high"
       },
       {
-        "theme": "AI 밸류체인 조정 후 반도체 수급 및 공급망 정상화",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "NVDA",
-          "TSM"
-        ],
-        "rationale": "거품 제거 과정을 거친 후, 실제 실적을 증명하는 선단 공정 반도체 기업들을 중심으로 공급망과 투자 심리가 재편될 것입니다.",
-        "risk": "글로벌 매크로 경기 침체로 인한 IT 전방 수요 위축",
-        "conviction": "medium"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "AI 버블 소화 후 실질 수익 창출 기업 중심의 기술 패러다임 재정립",
-        "sectors": [
-          "Technology",
-          "Semiconductors"
-        ],
-        "tickers": [
-          "NVDA",
-          "MSFT",
-          "GOOGL"
-        ],
-        "rationale": "2020년 이후 최대 규모의 시총 증발과 거품 경고는 과도한 기대감을 덜어내고, 1년 차원에서는 실질 AI 생산성을 입증하는 기업 위주로 레짐이 전환되는 계기가 될 것입니다.",
-        "risk": "AI 거품 붕괴가 장기적인 IT 경기 침체로 전이될 가능성",
-        "conviction": "high"
-      },
-      {
-        "theme": "글로벌 지정학적 블록화 및 제조업 공급망 구조 재편",
+        "theme": "중국 자동차 시장 경쟁 심화와 완성차 실적 압박",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
           "BMW"
         ],
-        "rationale": "미·중 무역 갈등 및 기술 자립화 기조가 고착화됨에 따라 전통 자동차 및 제조업의 공급망과 시장 접근 전략이 근본적으로 재편될 것입니다.",
-        "risk": "글로벌 보호무역주의 완화 및 다자간 무역 협정 체결",
+        "rationale": "중국 내 완성차 경쟁 심화로 인한 3분기 실적 부진 및 EU의 대중 무역 방어 조치가 겹치며 내구소비재 기업의 중기 실적 회복을 제한하고 있습니다.",
+        "risk": "중국 내 경기 부양책에 따른 내수 소비 급반등",
+        "conviction": "medium"
+      }
+    ],
+    "6m": [
+      {
+        "theme": "TSMC 첨단 메모리 진출과 글로벌 반도체 공급망 재편",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "TSM",
+          "MU"
+        ],
+        "rationale": "파운드리 중심인 TSMC의 첨단 메모리 영역 진출 기대감이 구체화되며 글로벌 반도체 공급망 구조와 중장기 수급 관계의 재편이 진행되고 있습니다.",
+        "risk": "첨단 공정 기술 개발 지연 및 지정학적 양안 관계 악화",
+        "conviction": "high"
+      },
+      {
+        "theme": "중국 증시 안정화 정책과 아시아 자금 유입",
+        "sectors": [
+          "Financials",
+          "Technology"
+        ],
+        "tickers": [
+          "FXI"
+        ],
+        "rationale": "AI 셀오프 여파 이후 중국 정부의 강력한 시장 안정화 조치 및 전략산업 금융 지원이 중기적 증시 하단을 지지하고 있습니다.",
+        "risk": "EU 및 미국의 대중 무역 규제 수위 추가 격상",
+        "conviction": "medium"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "미 정치 지형 변화와 AI 거버넌스·규제 패러다임 전환",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "MSFT",
+          "NVDA",
+          "QQQ"
+        ],
+        "rationale": "미 중간선거 이후 정착되는 AI 및 데이터센터 관련 규제 레빅은 빅테크 기업들의 장기 CAPEX 투자 효율성과 기술 성장 패러다임 변화를 유도할 것입니다.",
+        "risk": "규제 허들을 압도하는 획기적인 초거대 AI 기술 혁신 출현",
+        "conviction": "high"
+      },
+      {
+        "theme": "글로벌 금리 사이클 전환 및 국가별 재정 건전성 차별화",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [
+          "TLT",
+          "SPY"
+        ],
+        "rationale": "연준의 거시 금리 사이클 전환과 유럽 주요국의 재정 건전성 양극화가 1년 이상에 걸쳐 장기 거시경제 자산 배분 판도를 변화시킬 것입니다.",
+        "risk": "글로벌 공급망 분절화 재확산으로 인한 인플레이션 재발",
         "conviction": "medium"
       }
     ]

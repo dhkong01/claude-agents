@@ -1,75 +1,57 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "sectors": [
-    {
-      "name": "Semiconductors",
-      "direction": "negative",
-      "score": -8.5,
-      "rationale": "미국과 아시아 전반에서 AI 랠리 거품 우려가 불거지며 마이크론, TSMC 등 글로벌 반도체 밸류체인 전반에 대규모 투매 현상이 발생했습니다.",
-      "related_tickers": [
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -8.0,
-      "rationale": "AI 투자 수익성에 대한 회의론으로 미국 빅테크 시가총액이 급감했고, 아시아 IT 기술주로 리스크 회피 심리가 확산되었습니다.",
+      "score": -5.5,
+      "rationale": "미국 중간선거 이후 AI 및 데이터센터에 대한 규제 강화 우려와 함께 글로벌 증시 전반에 AI 투자 거품 경계감이 확산되며 기술주 전반에 약세 압력이 지속되고 있습니다.",
       "related_tickers": [
         "MSFT",
-        "AAPL",
-        "GOOGL"
+        "NVDA"
       ],
       "source_regions": [
         "US",
-        "ASIA"
+        "ASIA",
+        "EUROPE"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "유럽의 BMW가 중국 시장 내 경쟁 심화 및 수익성 악화로 2026년 적자 가능성을 경고하는 등 자동차 업황 불안이 증대되었습니다.",
+      "score": -6.0,
+      "rationale": "유럽 BMW의 중국 시장 경쟁 심화에 따른 3분기 실적 부진과 미국의 테슬라 사이버트럭 생산 중단 및 Cybercab 전환에 따른 과도기적 불확실성이 악재로 작용하고 있습니다.",
       "related_tickers": [
+        "TSLA",
         "BMW"
       ],
       "source_regions": [
+        "US",
         "EUROPE"
       ]
     },
     {
       "name": "Industrials",
-      "direction": "neutral",
-      "score": -2.0,
-      "rationale": "유럽 방산 섹터에서 이탈리아 레오나르도의 수주 급증 호재와 독일 라인메탈의 계약 지연에 따른 폭락 악재가 교차하며 혼조세를 기록했습니다.",
-      "related_tickers": [
-        "RHM",
-        "LDO"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Financials",
       "direction": "negative",
       "score": -4.0,
-      "rationale": "미국 빅테크의 대규모 채권 발행으로 인한 유럽 국채 금리 변동성 확대와 아시아 증시 조정에 따른 안전자산 선호 강화가 부담으로 작용하고 있습니다.",
+      "rationale": "유럽 방산 기업들의 개별 실적 충격과 프랑스 등 주요국의 재정 적자 압박으로 인해 산업재 및 방산 섹터의 단기 모멘텀이 약화되었습니다.",
       "related_tickers": [
-        "DB",
-        "BNP"
+        "AIR",
+        "RHM"
       ],
       "source_regions": [
-        "ASIA",
         "EUROPE"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Semiconductors",
+      "note": "대만 TSMC의 첨단 AI 메모리 진출 기대 및 공매도 제한 조치로 아시아 시장은 급등세를 보인 반면, 미국과 유럽에서는 AI 셀오프 여파와 글로벌 기술주 매도세로 인해 경계감이 지속되는 등 지역별 온도가 갈리고 있습니다."
+    },
+    {
+      "sector": "Financials",
+      "note": "한국과 중국 정부의 증시 안정화 및 전략산업 금융 지원 추진은 아시아 금융권에 긍정적인 반면, 유럽은 프랑스 국채 금리 급등과 재정 적자 우려로 금융 시장 변동성이 확대되었습니다."
+    }
+  ]
 }

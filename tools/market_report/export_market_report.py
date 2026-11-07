@@ -35,6 +35,8 @@ M = "https://m.stock.naver.com/api"
 A = "https://api.stock.naver.com"
 KST = dt.timezone(dt.timedelta(hours=9))
 DEFAULT_WATCH = ["005930", "000660", "042700", "196170"]
+# 시총 상위 N개에 안 들어도 항상 수집·검색되게 할 미국 종목 (네이버 reutersCode)
+EXTRA_US = [("CRDO.O", "NASDAQ")]
 N_KOSPI, N_KOSDAQ, N_NASDAQ, N_NYSE = 200, 250, 150, 150  # 시장별 시총 상위 N개
 CF_TOP = 150  # 현금흐름(yfinance, 느림)은 한국 시총 상위 N개에만
 RANK_N, SPARK_N, BARS_N = 8, 24, 450
@@ -556,6 +558,8 @@ def main():
             for g in got:
                 g["_ex"] = ex_name
             rows += got
+        have = {r["reutersCode"] for r in rows}
+        rows += [{"reutersCode": c, "_ex": ex_name} for c, ex_name in EXTRA_US if c not in have]
         log(f"미국 {len(rows)}종목 수집")
         with ThreadPoolExecutor(max_workers=8) as ex:
             res = list(ex.map(build_us, rows))

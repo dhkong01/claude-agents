@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
@@ -7,11 +7,13 @@
   "medium_risk_signals": 3,
   "sector_impacts": {
     "Energy": "ELEVATED",
+    "Semiconductors": "WATCH",
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say",
-    "Midterm Election Losses Complicate Trump\u2019S Options On Iran War"
+    "A Trump-Putin-Xi Summit? That Might Be Awkward For One Of Them.",
+    "U.S. Global Health Strategy Jeopardizes Prevention Of Pandemics, Experts Warn",
+    "Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

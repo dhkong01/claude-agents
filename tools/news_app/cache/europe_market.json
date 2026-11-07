@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-      "summary": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
-      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Moonshot 2026: Experts call for urgent reforms to unlock intra-African trade {Business Africa}",
-      "summary": "Experts at Moonshot 2026 in Lagos call for harmonised regulations and seamless digital payments to boost intra-African trade and as Silicon Valley pulls back, home-grown startups are stepping up to shape the continent's digital future.",
-      "link": "https://www.euronews.com/2026/11/05/moonshot-2026-experts-call-for-urgent-reforms-to-unlock-intra-african-tradebusiness-africa",
+      "title": "Elon Musk's Tesla to 'wind down' Cybertruck production next year",
+      "summary": "Musk said the decision was taken in order to make room for increased production of its Cybercab robotaxi. The move comes after years of weaker-than-expected sales for the futuristic electric pickup.",
+      "link": "https://www.euronews.com/2026/11/06/elon-musks-tesla-to-wind-down-cybertruck-production-next-year",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,93 @@
       "source": "DW Business"
     },
     {
-      "title": "EU targets large firms to unlock budget deal",
-      "summary": "European Council President António Costa hopes the concessions will facilitate an agreement on the bloc's next long-term budget.",
-      "link": "https://www.politico.eu/article/eu-targets-large-firms-to-unlock-budget-deal/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Merz’s conservatives poised to nominate Germany’s first woman president",
+      "summary": "Bavarian politician Ilse Aigner is \"the perfect candidate,\" according to one center-left state premier.",
+      "link": "https://www.politico.eu/article/merz-conservatives-poised-nominate-ilse-aigner-first-woman-president-germany/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Firms told to publish salaries in job adverts ahead of new law",
-      "summary": "The goverment argues the change will help jobseekers and could help to prevent pay discrimination.",
-      "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+      "title": "Why the US midterms sparked an AI stock selloff",
+      "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
+      "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Putin seizes Russian operations of cigarette giant Japan Tobacco International",
-      "summary": "The decree transferred JTI’s four factories, around 4,000 employees and roughly 40% of the Russian cigarette market to a state-linked holding company. The latest seizure added to a list that includes Nestlé, Auchan, Leroy Merlin and Metro.",
-      "link": "https://www.euronews.com/2026/11/05/putin-seizes-russian-operations-of-cigarette-giant-japan-tobacco-international",
+      "title": "Baku real estate expo showcases Azerbaijan’s tech-driven urban future",
+      "summary": "What makes a city attractive to investors and the people who live there? From affordable housing and urban planning to smart technologies and changing lifestyles, Azerbaijan’s first International Real Estate Exhibition put the future of the built environment in focus.",
+      "link": "https://www.euronews.com/2026/11/06/baku-real-estate-expo-showcases-azerbaijans-tech-driven-urban-future",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Protests and reforms: France s rising debt costs threaten stability",
+      "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the government have?",
+      "link": "https://www.dw.com/en/protests-and-reforms-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Trump s big, beautiful European security plan isn t convincing Europe",
+      "summary": "Capitals fear a U.S. effort to overhaul the continent's security arrangements could exclude allies and favor Russia.",
+      "link": "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "How does it affect me if share prices fall?",
+      "summary": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
+      "link": "https://www.bbc.co.uk/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Uzbekistan announces record cotton harvest as President Mirziyoyev sets higher 2027 yield target",
+      "summary": "Officials say Uzbekistan harvested more than five million tonnes of raw cotton, about 25% more than in 2025, with machines picking around 85% of the crop.",
+      "link": "https://www.euronews.com/2026/11/06/uzbekistan-announces-record-cotton-harvest-as-president-mirziyoyev-sets-higher-2027-yield-",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
+      "summary": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats US midterm victory have rattled global markets.",
+      "link": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Wave of bomb threats target Irish media outlets and more European flights",
+      "summary": "The latest spate of threats comes just days before a meeting of the European Political Community in Dublin.",
+      "link": "https://www.politico.eu/article/bomb-threats-target-irish-media-and-more-european-flights/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
+      "summary": "A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Azerbaijan and Ukraine forge new energy defence and trade agreements",
+      "summary": "An Azerbaijani delegation led by its energy minister travelled to Ukraine to sign a 2026-2027 Action Plan. Bilateral talks focused on emergency winter grid equipment, joint manufacturing, and expanding European transit via the Trans-Balkan route.",
+      "link": "https://www.euronews.com/2026/11/06/azerbaijan-and-ukraine-forge-new-energy-defence-and-trade-agreements",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "What the Democrats midterms win means for the US economy and Trump",
+      "summary": "From high oil prices and data centers to tariffs and mounting debt, economic concerns played a key role in the crushing defeat of President Donald Trump s Republicans. So can the Democrats now make a difference?",
+      "link": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Spain and the Netherlands battle over ECB presidency",
+      "summary": "Pablo Hernández de Cos and Klaas Knot are in the hunt for the top job after Christine Lagarde's exit.",
+      "link": "https://www.politico.eu/article/dutch-and-spanish-battle-over-ecb-presidency/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Why Spain is taking 188,000 tonnes of olive oil off the market",
+      "summary": "The world’s biggest olive oil producer is holding back 12% of its output from November to stop producer prices falling further. It’s the first time Spain has used the measure, which is expected to keep about 188,000 tonnes off the market until the end of September 2027.",
+      "link": "https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market",
       "source": "Euronews Business"
     },
     {
@@ -45,94 +117,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Farage criticizes Trump’s broken promise on foreign wars after midterms kicking",
-      "summary": "The Reform UK leader is increasingly distancing himself from the U.S. president as cost-of-living pressures hit Britons.",
-      "link": "https://www.politico.eu/article/nigel-farage-criticizes-donald-trump-broken-promise-foreign-wars-after-midterms-kicking/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "I don’t know if it reassured or worried them : European envoys quiz Le Pen over lunch",
+      "summary": "The far-right candidate briefed ambassadors from France’s neighboring countries about her EU agenda.",
+      "link": "https://www.politico.eu/article/marine-le-pen-european-ambassadors-france-eu-agenda/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "'I was asked if I was a crier': Your worst job interviews revealed",
-      "summary": "Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work",
-      "link": "https://www.bbc.co.uk/news/articles/c3j4751pqnj8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Ueno Bank collapse in Paraguay prompts President Santiago Peña to resign",
-      "summary": "The accounting black hole at Ueno Bank wipes out public funds, leaves thousands without access to their deposits and drives Paraguay into its worst institutional crisis in years.",
-      "link": "https://www.euronews.com/2026/11/05/ueno-bank-collapse-in-paraguay-prompts-president-santiago-pena-to-resign",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Could the AI boom make borrowing more expensive in Europe?",
-      "summary": "France, Germany and Italy face a volatile bond market as war inflation bites. With US tech giants now issuing billions in AI bonds, they are competing with cash-strapped European governments.",
-      "link": "https://www.dw.com/en/could-the-ai-boom-make-borrowing-more-expensive-in-europe/a-79511985?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "CBD edibles can t be labeled organic, says EU court",
-      "summary": "Luxembourg’s judges tell the hemp lobby the label comes after the paperwork.",
-      "link": "https://www.politico.eu/article/cbd-edibles-cant-be-labeled-organic-says-eu-court/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Interest rates hiked to 4% in first increase in over three years",
-      "summary": "Most analysts expected the increase from 3.75% to 4%.",
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "China threatens EU with retaliation as EU mulls “kill-switch” to defend its market",
-      "summary": "Despite ongoing talks to rebalance EU-China trade, Brussels is preparing a powerful new tool to shield its market from a surge of cheap Chinese imports.",
-      "link": "https://www.euronews.com/2026/11/05/china-threatens-eu-with-retaliation-as-eu-mulls-kill-switch-to-defend-its-market",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Farage says he’ll meet Le Pen ‘at some point in time’",
-      "summary": "The Reform leader's comments came after POLITICO reported that the French far-right leader was keeping Farage hanging on a desired Paris rendezvous.",
-      "link": "https://www.politico.eu/article/nigel-farage-says-hell-meet-france-marine-le-pen-at-some-point-in-time/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Faisal Islam: How high will interest rates go?",
-      "summary": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Leonardo tops €60 billion in orders as defence, drones and space grow",
-      "summary": "Leonardo recorded a 28% increase in orders in the first nine months of 2026. The Italian group is focusing on defence, aerospace, drones and new industrial partnerships, while the acquisition of Iveco Group's Defence division has strengthened its position.",
-      "link": "https://www.euronews.com/2026/11/05/leonardo-tops-60-billion-in-orders-as-defence-drones-and-space-grow",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "La fin accélérée du macronisme au Parlement",
-      "summary": "Scène inédite à l’Assemblée mercredi soir : la première partie du budget de l’Etat a été rejetée à l’unanimité. Comment expliquer qu’aucun député n’ait approuvé le texte issu des débats. Pourquoi les députés du centre et de la droite sont agacés par Sébastien Lecornu ? Quels sont les scénarios qui s",
-      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/la-fin-acceleree-du-macronisme-au-parlement/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "The engine parts that 'fight the laws of the universe'",
-      "summary": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
-      "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Rheinmetall shares plunge more than 17% after profit warning over order delays",
-      "summary": "German defence giant Rheinmetall warned of delays to military contracts and ammunition approvals, sending its shares down more than 17% in early trading on Thursday.",
-      "link": "https://www.euronews.com/2026/11/05/rheinmetall-shares-plunge-more-than-17-after-profit-warning-over-order-delays",
-      "source": "Euronews Business"
     }
   ],
-  "trend_headline": "AI 채권 발행과 중국발 경쟁 격화에 흔들리는 유럽 시장",
-  "summary": "미국 빅테크의 대규모 AI 채권 발행이 유럽 국채 금리를 압박하는 가운데, BMW의 실적 부진과 중국과의 무역 갈등이 심화되며 자동차 섹터의 위기가 고조되고 있습니다. 방산 섹터는 레오나르도의 수주 급증에도 불구하고 라인메탈의 실적 경고로 혼조세를 보였습니다.",
+  "trend_headline": "글로벌 AI 거품 우려와 프랑스 재정 불안의 이중고",
+  "summary": "뉴욕증시의 AI 지출 우려와 글로벌 기술주 매도세가 유럽 증시로 전파된 가운데, 프랑스는 치솟는 국채 금리와 재정 적자 압박으로 본드 마켓 변동성에 직면했습니다. 이와 함께 EU의 대중국 무역 방어 조치와 방산 섹터의 개별 실적 충격이 겹치며 시장의 경계감이 고조되고 있습니다.",
   "key_points": [
-    "BMW, 중국 시장 경쟁 심화와 수익성 악화로 2026년 자동차 부문 적자 경고",
-    "미국 빅테크의 대규모 AI 채권 발행 여파로 프랑스·독일 등 유로존 채권 금리 변동성 확대",
-    "이탈리아 방산주 레오나르도, 수주 60익 유로 돌파에도 라인메탈은 계약 지연으로 17% 폭락"
+    "유럽 증시는 월스트리트와 아시아의 글로벌 AI 투자 거품 경계령 및 미 민주당 중간선거 승리에 따른 규제 우려로 동반 하락했습니다.",
+    "프랑스는 교육 예산 확대와 방위·부채 비용 증가로 국채 시장 변동성이 확대되며 재정 안정성에 대한 우려를 키웠습니다.",
+    "독일 완성차 업체 BMW는 중국 시장의 치열한 경쟁 여파로 3분기 부진한 실적을 기록했습니다."
   ],
   "sector_hints": [
-    "Automobiles",
-    "Defense",
-    "Financials"
+    "Financials",
+    "Energy"
   ]
 }

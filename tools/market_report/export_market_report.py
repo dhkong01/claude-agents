@@ -329,7 +329,9 @@ def chart_bars(url_tpl, code):
         return None, None
     chart = chart[-BARS_N:]
     rnd = (lambda v: int(round(v))) if url_tpl is KR_CHART else (lambda v: round(float(v), 2))
-    bars = [[int(r["localDate"]), rnd(r["openPrice"]), rnd(r["highPrice"]), rnd(r["lowPrice"]), rnd(r["closePrice"])] for r in chart]
+    # [날짜, 시, 고, 저, 종, 거래량]
+    bars = [[int(r["localDate"]), rnd(r["openPrice"]), rnd(r["highPrice"]), rnd(r["lowPrice"]), rnd(r["closePrice"]),
+             int(num(r.get("accumulatedTradingVolume")) or 0)] for r in chart]
     return bars, int(chart[-1].get("accumulatedTradingVolume") or 0)
 
 

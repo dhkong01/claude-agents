@@ -60,7 +60,7 @@
     s.dates5 = function () { return s.flowDates || []; };
     s.series = function () {
       if (!ser && d) {
-        const bars = d.bars.map(function (b) { return { d: ymd(b[0]), o: b[1], h: b[2], l: b[3], c: b[4] }; });
+        const bars = d.bars.map(function (b) { return { d: ymd(b[0]), o: b[1], h: b[2], l: b[3], c: b[4], v: b[5] == null ? null : b[5] }; });
         const closes = bars.map(function (b) { return b.c; });
         const ma = {};
         [10, 20, 60, 120, 200].forEach(function (n) { ma[n] = sma(closes, n); });

@@ -18,15 +18,22 @@
   };
 
   MR.candleChart = function (el, bars, mas, o) {
-    const W = Math.max(el.clientWidth, 280), H = 300, pl = 6, pr = 62, pt = 12, pb = 26;
+    // 거래량 패널: 봉에 거래량(v)이 하나라도 있으면 가격 차트 아래에 붙인다 (샘플·구버전 데이터는 생략)
+    const hasVol = bars.some(function (b) { return b.v > 0; });
+    const VH = hasVol ? 54 : 0, VG = hasVol ? 10 : 0;
+    const W = Math.max(el.clientWidth, 280), H = 300 + VH + VG, pl = 6, pr = 62, pt = 12, pb = 26;
+    const PH = H - pt - pb - VH - VG; // 가격 영역 높이
     const dec = o.dec || 0; // 미국 주식은 소수점 2자리
+    const fv = function (v) { return v >= 1e8 ? (v / 1e8).toFixed(1) + '억' : v >= 1e4 ? Math.round(v / 1e4).toLocaleString('ko-KR') + '만' : fmt(v); };
     const fp = function (v) { return Number(v).toLocaleString('ko-KR', { minimumFractionDigits: dec, maximumFractionDigits: dec }); };
     const n = bars.length, step = (W - pl - pr) / n, bw = Math.max(1.4, Math.min(14, step * 0.62));
     let lo = Infinity, hi = -Infinity;
     bars.forEach(function (b) { if (b.l < lo) lo = b.l; if (b.h > hi) hi = b.h; });
     mas.forEach(function (m) { m.values.forEach(function (v) { if (v != null) { if (v < lo) lo = v; if (v > hi) hi = v; } }); });
     const padv = (hi - lo) * 0.05; lo -= padv; hi += padv;
-    const y = function (v) { return pt + (hi - v) / (hi - lo) * (H - pt - pb); };
+    const y = function (v) { return pt + (hi - v) / (hi - lo) * PH; };
+    let vmax = 0;
+    if (hasVol) bars.forEach(function (b) { if (b.v > vmax) vmax = b.v; });
     const x = function (i) { return pl + step * (i + 0.5); };
 
     let s = '<svg class="candle-svg" viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="캔들 차트">';
@@ -41,6 +48,18 @@
         '<rect x="' + (x(i) - bw / 2).toFixed(1) + '" y="' + y(Math.max(b.o, b.c)).toFixed(1) + '" width="' + bw.toFixed(1) +
         '" height="' + Math.max(1, Math.abs(y(b.o) - y(b.c))).toFixed(1) + '" fill="' + col + '"/>';
     });
+    if (hasVol) {
+      const vb = H - pb, vt = vb - VH;
+      s += '<line class="grid" x1="' + pl + '" x2="' + (W - pr) + '" y1="' + vb + '" y2="' + vb + '"/>' +
+        '<text class="axis" x="' + (W - pr + 6) + '" y="' + (vt + 10) + '">' + fv(vmax) + '</text>' +
+        '<text class="axis" x="' + (W - pr + 6) + '" y="' + (vb - 2) + '">거래량</text>';
+      bars.forEach(function (b, i) {
+        if (!(b.v > 0)) return;
+        const h = Math.max(1, b.v / vmax * VH);
+        s += '<rect x="' + (x(i) - bw / 2).toFixed(1) + '" y="' + (vb - h).toFixed(1) + '" width="' + bw.toFixed(1) +
+          '" height="' + h.toFixed(1) + '" fill="' + (b.c >= b.o ? UP_L : DOWN_L) + '"/>';
+      });
+    }
     mas.forEach(function (m) {
       let d = '', pen = false;
       m.values.forEach(function (v, i) {
@@ -79,7 +98,7 @@
       const b = bars[i], prev = i > 0 ? bars[i - 1].c : null;
       const pct = prev ? (b.c - prev) / prev * 100 : null;
       xh.setAttribute('x1', x(i)); xh.setAttribute('x2', x(i)); xh.style.display = '';
-      tip.innerHTML = '<b>' + b.d + '</b><span>시 ' + fp(b.o) + '</span><span>고 ' + fp(b.h) + '</span><span>저 ' + fp(b.l) + '</span><span>종 ' + fp(b.c) + '</span>' +
+      tip.innerHTML = '<b>' + b.d + '</b><span>시 ' + fp(b.o) + '</span><span>고 ' + fp(b.h) + '</span><span>저 ' + fp(b.l) + '</span><span>종 ' + fp(b.c) + '</span>' + (b.v > 0 ? '<span>거래량 ' + fmt(b.v) + '</span>' : '') +
         (pct == null ? '' : '<span class="' + (pct >= 0 ? 'up' : 'down') + '">' + (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%</span>');
       tip.hidden = false;
       const px = x(i) / k;

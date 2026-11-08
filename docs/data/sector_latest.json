@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
@@ -20,18 +20,18 @@
       "status": "과열"
     },
     {
-      "sector": "Real Estate",
-      "etf": "XLRE",
-      "qtd": 8.9,
-      "week1": 2.62,
-      "rank": 3,
-      "status": "강세"
-    },
-    {
       "sector": "Utilities",
       "etf": "XLU",
       "qtd": 8.69,
       "week1": -1.24,
+      "rank": 3,
+      "status": "강세"
+    },
+    {
+      "sector": "Real Estate",
+      "etf": "XLRE",
+      "qtd": 8.16,
+      "week1": 0.82,
       "rank": 4,
       "status": "강세"
     },
@@ -78,8 +78,8 @@
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -5.09,
-      "week1": 4.44,
+      "qtd": -4.68,
+      "week1": 4.52,
       "rank": 10,
       "status": "약세"
     },
@@ -93,71 +93,73 @@
     }
   ],
   "us_by_sector": {
+    "Consumer Cyclical": [
+      {
+        "ticker": "ABNB",
+        "rs": 96.9,
+        "canslim": 64,
+        "price": 189.99
+      }
+    ],
     "Consumer Defensive": [
       {
         "ticker": "KDP",
-        "rs": 96.6,
+        "rs": 96.2,
         "canslim": 64,
         "price": 36.63
-      },
-      {
-        "ticker": "MDLZ",
-        "rs": 74.0,
-        "canslim": 57,
-        "price": 66.02
-      }
-    ],
-    "Technology": [
-      {
-        "ticker": "ROP",
-        "rs": 90.7,
-        "canslim": 61,
-        "price": 476.6
-      },
-      {
-        "ticker": "MSFT",
-        "rs": 82.3,
-        "canslim": 61,
-        "price": 530.61
-      },
-      {
-        "ticker": "AMD",
-        "rs": 97.8,
-        "canslim": 58,
-        "price": 449.04
-      },
-      {
-        "ticker": "TXN",
-        "rs": 88.3,
-        "canslim": 58,
-        "price": 277.36
-      },
-      {
-        "ticker": "MU",
-        "rs": 99.0,
-        "canslim": 55,
-        "price": 690.0
       }
     ],
     "Healthcare": [
       {
         "ticker": "REGN",
-        "rs": 89.5,
-        "canslim": 61,
+        "rs": 90.8,
+        "canslim": 64,
         "price": 904.35
       },
       {
+        "ticker": "GEHC",
+        "rs": 85.9,
+        "canslim": 61,
+        "price": 82.38
+      },
+      {
         "ticker": "AMGN",
-        "rs": 95.4,
+        "rs": 94.2,
         "canslim": 58,
         "price": 460.42
+      }
+    ],
+    "Technology": [
+      {
+        "ticker": "ROP",
+        "rs": 92.1,
+        "canslim": 61,
+        "price": 476.6
+      },
+      {
+        "ticker": "TXN",
+        "rs": 90.1,
+        "canslim": 61,
+        "price": 277.36
+      },
+      {
+        "ticker": "MSFT",
+        "rs": 85.2,
+        "canslim": 61,
+        "price": 530.61
+      },
+      {
+        "ticker": "AMD",
+        "rs": 97.6,
+        "canslim": 58,
+        "price": 449.04
       }
     ],
     "Industrials": [
       {
         "ticker": "CSX",
-        "rs": 79.9,
-        "canslim": 57,
+        "rs": 83.9,
+        "canslim": 61,
         "price": 49.12
       }
     ]
@@ -174,7 +176,7 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 10.0,
+    "risk_score": 7.5,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

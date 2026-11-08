@@ -1,57 +1,51 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "sectors": [
     {
-      "name": "Technology",
+      "name": "Financials",
       "direction": "negative",
       "score": -5.5,
-      "rationale": "미국 중간선거 이후 AI 및 데이터센터에 대한 규제 강화 우려와 함께 글로벌 증시 전반에 AI 투자 거품 경계감이 확산되며 기술주 전반에 약세 압력이 지속되고 있습니다.",
+      "rationale": "미국 버크셔 해서웨이의 투자 이익 감소에 따른 3분기 영업이익 감소(6%)와 한국 증시에서의 자금 이탈(역머니무브) 현상이 금융 섹터 전반에 부담으로 작용하고 있습니다.",
       "related_tickers": [
-        "MSFT",
-        "NVDA"
+        "BRK.A",
+        "BRK.B"
       ],
       "source_regions": [
         "US",
-        "ASIA",
-        "EUROPE"
+        "ASIA"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "negative",
-      "score": -6.0,
-      "rationale": "유럽 BMW의 중국 시장 경쟁 심화에 따른 3분기 실적 부진과 미국의 테슬라 사이버트럭 생산 중단 및 Cybercab 전환에 따른 과도기적 불확실성이 악재로 작용하고 있습니다.",
+      "score": -6.5,
+      "rationale": "유럽 BMW가 중국 내 저가 공세 및 치열한 경쟁으로 3분기 수익성 악화를 기록하고, 테슬라가 사이버트럭 생산 중단 후 로보택시에 집중하는 등 자동차 중심의 경기소비재 섹터 내 실적 우려와 전략 수정이 이어지고 있습니다.",
       "related_tickers": [
         "TSLA",
-        "BMW"
+        "BMWYY"
       ],
       "source_regions": [
         "US",
-        "EUROPE"
+        "EUR"
       ]
     },
     {
       "name": "Industrials",
       "direction": "negative",
-      "score": -4.0,
-      "rationale": "유럽 방산 기업들의 개별 실적 충격과 프랑스 등 주요국의 재정 적자 압박으로 인해 산업재 및 방산 섹터의 단기 모멘텀이 약화되었습니다.",
+      "score": -7.0,
+      "rationale": "유럽 방산 업체인 라인메탈(Rheinmetall)이 계약 지연에 따른 실적 경고를 발표하면서 주가가 17% 이상 급락하는 등 산업재 섹터의 투자 심리가 크게 위축되었습니다.",
       "related_tickers": [
-        "AIR",
-        "RHM"
+        "RNMBY"
       ],
       "source_regions": [
-        "EUROPE"
+        "EUR"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "대만 TSMC의 첨단 AI 메모리 진출 기대 및 공매도 제한 조치로 아시아 시장은 급등세를 보인 반면, 미국과 유럽에서는 AI 셀오프 여파와 글로벌 기술주 매도세로 인해 경계감이 지속되는 등 지역별 온도가 갈리고 있습니다."
-    },
-    {
-      "sector": "Financials",
-      "note": "한국과 중국 정부의 증시 안정화 및 전략산업 금융 지원 추진은 아시아 금융권에 긍정적인 반면, 유럽은 프랑스 국채 금리 급등과 재정 적자 우려로 금융 시장 변동성이 확대되었습니다."
+      "note": "유럽 증시는 AI 거품 우려 및 기술주 매도세 확산으로 약세를 보인 반면, 아시아 시장에서는 AI 조정 변동성 속에서도 대만 TSMC가 공매도 제한 조치 등에 힘입어 급반등하는 등 지역별 신호가 상충됩니다."
     }
   ]
 }

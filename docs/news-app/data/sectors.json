@@ -1,14 +1,28 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "sectors": [
     {
-      "name": "Financials",
+      "name": "Technology",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "미국 버크셔 해서웨이의 투자 이익 감소에 따른 3분기 영업이익 감소(6%)와 한국 증시에서의 자금 이탈(역머니무브) 현상이 금융 섹터 전반에 부담으로 작용하고 있습니다.",
+      "score": -7.5,
+      "rationale": "미국 엔비디아 이사회의 CEO 조사 착수로 AI 트레이드 전반에 큰 충격이 발생했으며, 유럽에서도 미 정치 지형 변화에 따른 AI 규제 강화 및 투자 위축 우려로 빅테크 중심의 매도세가 확대되었습니다.",
       "related_tickers": [
-        "BRK.A",
-        "BRK.B"
+        "NVDA",
+        "MSFT"
+      ],
+      "source_regions": [
+        "US",
+        "EU"
+      ]
+    },
+    {
+      "name": "Semiconductors",
+      "direction": "neutral",
+      "score": -2.0,
+      "rationale": "미국 엔비디아 악재로 인한 악영향과 대만 TSMC의 첨단 AI 메모리 위탁생산 검토 및 주가 반등 호재가 지역별로 상충되고 있습니다.",
+      "related_tickers": [
+        "NVDA",
+        "TSM"
       ],
       "source_regions": [
         "US",
@@ -16,36 +30,48 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "유럽 BMW가 중국 내 저가 공세 및 치열한 경쟁으로 3분기 수익성 악화를 기록하고, 테슬라가 사이버트럭 생산 중단 후 로보택시에 집중하는 등 자동차 중심의 경기소비재 섹터 내 실적 우려와 전략 수정이 이어지고 있습니다.",
+      "name": "Financials",
+      "direction": "positive",
+      "score": 7.0,
+      "rationale": "미국 버크셔 해서웨이가 3분기 호실적과 자사주 매입을 단행하고, 한국 4대 금융지주가 주주환원율을 대폭 확대하는 등 주주 가치 제고 기조가 강세를 견인하고 있습니다.",
       "related_tickers": [
-        "TSLA",
-        "BMWYY"
+        "BRK.B",
+        "105560.KS"
       ],
       "source_regions": [
         "US",
-        "EUR"
+        "ASIA"
       ]
     },
     {
       "name": "Industrials",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "유럽 방산 업체인 라인메탈(Rheinmetall)이 계약 지연에 따른 실적 경고를 발표하면서 주가가 17% 이상 급락하는 등 산업재 섹터의 투자 심리가 크게 위축되었습니다.",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "유럽 방산업체 레오나르도가 방산·드론·우주 부문 수주 잔고 600억 유로를 돌파하며 강력한 실적 모멘텀을 입증했습니다.",
       "related_tickers": [
-        "RNMBY"
+        "LDO.MI"
       ],
       "source_regions": [
-        "EUR"
+        "EU"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "중국 정부의 베이징 부동산 부양책이 중소도시까지 온기를 전하지 못하며 부양책의 실효성 논란과 경기 회복 지연 우려가 지속되고 있습니다.",
+      "related_tickers": [
+        "2007.HK"
+      ],
+      "source_regions": [
+        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "유럽 증시는 AI 거품 우려 및 기술주 매도세 확산으로 약세를 보인 반면, 아시아 시장에서는 AI 조정 변동성 속에서도 대만 TSMC가 공매도 제한 조치 등에 힘입어 급반등하는 등 지역별 신호가 상충됩니다."
+      "note": "미국은 엔비디아 관련 악재로 악영향을 받은 반면, 아시아(대만)는 TSMC의 AI 메모리 진출 호재로 주가가 반등하며 긍정적 신호가 대립하고 있습니다."
     }
   ]
 }

@@ -1,136 +1,114 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "horizons": {
     "1w": [
       {
-        "theme": "유럽 방산주 단기 수주 지연 shock 및 투심 위축",
+        "theme": "엔비디아 리더십 악재 및 단기 안전자산 선호",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "rationale": "엔비디아 이사회의 CEO 조사 착수로 단기 AI 트레이드 충격이 불가피하며, 미 국채 랠리 등 안전자산으로의 자금 이동과 기술주 변동성 확대가 지속될 전망입니다.",
+        "risk": "조사 결과의 신속한 해명 또는 저가 매수세 급유입",
+        "conviction": "high"
+      },
+      {
+        "theme": "유럽 방산 수주 모멘텀 부각",
         "sectors": [
           "Industrials"
         ],
         "tickers": [
-          "RNMBY"
+          "LDO.MI"
         ],
-        "rationale": "라인메탈(Rheinmetall)의 수주 계약 지연에 따른 실적 경고로 단기 급락(-17%)이 발생하며 산업재 방산 섹터의 매도 압력이 극대화되었습니다.",
-        "risk": "단기 과매도에 따른 기술적 반등 가능성",
+        "rationale": "글로벌 매도세 속에서도 레오나르도가 600억 유로 규모의 방산·우주 수주 잔고를 입증하며 강한 단기 상승 모멘텀을 확보했습니다.",
+        "risk": "아부다비 평화 협상 진전에 따른 지정학적 리스크 완화 기대감",
         "conviction": "high"
-      },
-      {
-        "theme": "아시아 반도체 증시 방어 조치 및 단기 반등 모멘텀",
-        "sectors": [
-          "Information Technology"
-        ],
-        "tickers": [
-          "TSM"
-        ],
-        "rationale": "글로벌 AI 주식 조정에도 불구하고 대만의 공매도 제한 등 시장 안정화 대책에 힘입어 TSMC 중심의 단기 가격 방어 및 급반등이 연출되고 있습니다.",
-        "risk": "미국 기술주 추가 매도세 전이 가능성",
-        "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "금융 섹터 투자 이익 감소 및 자금 이탈 지속",
+        "theme": "금융주 주주환원 확대 및 실적 견인",
         "sectors": [
           "Financials"
         ],
         "tickers": [
           "BRK.B",
-          "BRK.A"
+          "105560.KS"
         ],
-        "rationale": "버크셔 해서웨이의 3분기 투자 이익 및 영업이익 감소와 아시아 증시 내 역머니무브 현상이 1개월 자금 흐름에 악영향을 미치고 있습니다.",
-        "risk": "글로벌 자산 시장 반등에 따른 투자 이익 회복",
-        "conviction": "medium"
+        "rationale": "버크셔 해서웨이의 자사주 매입과 한국 주요 금융지주의 주주환원율 확대 기조가 시장 하방 위험을 방어하고 단기 자금 유입을 유도하고 있습니다.",
+        "risk": "금리 인하 속도 가속화에 따른 순이자마진(NIM) 압박",
+        "conviction": "high"
       },
       {
-        "theme": "유럽 전통 완성차 업체의 저가 공세 직면 및 수익성 악화",
+        "theme": "중국 부동산 부양 실효성 부재 및 우려 지속",
         "sectors": [
-          "Consumer Discretionary"
+          "Real Estate"
         ],
         "tickers": [
-          "BMWYY"
+          "2007.HK"
         ],
-        "rationale": "중국 시장 내 가격 경쟁 심화로 인한 BMW의 3분기 수익성 악화가 확인되며 경기소비재 섹터 내 자동차 업종의 1개월 단기 약세 흐름이 지속될 전망입니다.",
-        "risk": "EU의 중국산 EV 관세 부과 정책 강화",
-        "conviction": "high"
+        "rationale": "중국 정부의 부양책이 중소도시까지 온기를 전하지 못하면서 부동산 섹터 전반의 자금 이탈과 회복 지연 우려가 팽배합니다.",
+        "risk": "중국 중앙정부의 추가 대규모 재정 투입 발표",
+        "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "미 중간선거 이후 AI 규제 강화 우려 및 글로벌 기술주 조정",
+        "theme": "파운드리 및 AI 메모리 위탁생산 차별화",
         "sectors": [
-          "Information Technology"
+          "Semiconductors"
         ],
         "tickers": [
-          "QQQ"
+          "TSM"
         ],
-        "rationale": "미국 중간선거 이후 빅테크/AI 규제 우려가 월가 매도세로 나타나 유럽 등 글로벌 증시 전반으로 전이되는 분기 조정 국면입니다.",
-        "risk": "빅테크 기업들의 긍정적인 실적 발표 및 AI CapEx 확대 유지",
+        "rationale": "미국 엔비디아 노이즈에도 불구하고, TSMC의 첨단 AI 메모리 진출 등 독점적 제조 역량을 바탕으로 아시아 반도체의 차별화된 실적 성장이 기대됩니다.",
+        "risk": "글로벌 빅테크의 AI 설비투자(CAPEX) 집행 속도 조절",
         "conviction": "medium"
       },
       {
-        "theme": "전기차 제조사의 자율주행 및 로보택시 전략 수정",
+        "theme": "미 정치 지형 변화와 AI 규제 리스크",
         "sectors": [
-          "Consumer Discretionary"
+          "Technology"
         ],
         "tickers": [
-          "TSLA"
+          "MSFT",
+          "QQQ"
         ],
-        "rationale": "테슬라가 사이버트럭 생산을 중단하고 로보택시에 역량을 집중하기로 결정함에 따라, 향후 3개월간 관련 실적 및 사업 전환 성과에 시장의 관심이 집중될 것입니다.",
-        "risk": "로보택시 상용화 규제 승인 지연 및 기술적 이슈",
+        "rationale": "미 중간선거 이후 강화되는 AI 규제 우려가 유럽 및 글로벌 빅테크의 밸류에이션 리레이팅을 제한할 가능성이 있습니다.",
+        "risk": "규제 법안의 초당적 타결 지연 또는 과도한 규제 완화",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "중국발 저가 EV 침투와 완성차 시장 구조 개편",
-        "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "BMWYY",
-          "TSLA"
-        ],
-        "rationale": "중국산 저가 자동차 공세가 지속되면서 내연기관 및 기존 전기차 제조사들의 설비 재편과 수익성 하락 압력이 중기적으로 지속될 전망입니다.",
-        "risk": "글로벌 보호무역주의 강화 및 무역 장벽 신설",
-        "conviction": "high"
-      },
-      {
-        "theme": "AI 반도체 밸류체인의 지역별 수급 차별화",
-        "sectors": [
-          "Information Technology"
-        ],
-        "tickers": [
-          "TSM"
-        ],
-        "rationale": "미국/유럽의 기술주 매도세와 아시아 정부의 시장 방어책이 교차하며 6개월간 반도체 밸류체인 내 공급망 및 자금 수급의 차별화가 진행될 것입니다.",
-        "risk": "글로벌 IT 하드웨어 전반의 수요 둔화 장기화",
-        "conviction": "medium"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "하드웨어 EV 생산에서 무인 자율주행 모빌리티 서비스로의 거시 패러다임 전환",
-        "sectors": [
-          "Consumer Discretionary",
-          "Information Technology"
-        ],
-        "tickers": [
-          "TSLA"
-        ],
-        "rationale": "단순 전기차 제조 경쟁을 넘어 무인 로보택시 플릿 중심의 플랫폼 서비스로 신성장 동력이 이동하는 거시적 패러다임 전환이 가속화될 것입니다.",
-        "risk": "자율주행 완전 상용화 한계 및 정부 안전 규제 장벽",
-        "conviction": "high"
-      },
-      {
-        "theme": "유럽 방위산업 재정 집행 정상화 및 수주 잔고 이행",
+        "theme": "글로벌 지정학 구조화와 유럽 방위산업 고도화",
         "sectors": [
           "Industrials"
         ],
         "tickers": [
-          "RNMBY"
+          "LDO.MI"
         ],
-        "rationale": "단기 수주 지연 악재에도 불구하고 장기화되는 지정학적 환경 속에서 유럽 각국의 국방 예산 집행과 계약 정상화 과정이 1년 단위 레짐으로 전개될 것입니다.",
-        "risk": "지정학적 종전 협정 체결 및 방위비 지출 감축 정책",
+        "rationale": "지정학적 긴장 장기화와 드론·우주 등 첨단 방산 수요 증가로 유럽 주요 방산 기업들의 구조적 수주 잔고 증가가 중기 실적을 뒷받침합니다.",
+        "risk": "유럽 각국의 재정 적자 축소를 위한 방위비 예산 동결",
+        "conviction": "high"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "AI 인프라 패러다임 변화 및 아시아 공급망 재편",
+        "sectors": [
+          "Semiconductors",
+          "Technology"
+        ],
+        "tickers": [
+          "TSM",
+          "NVDA"
+        ],
+        "rationale": "단기 리더십 악재 소멸 후, AI 인프라 2차 진화 및 아시아 중심의 첨단 반도체 공급망 재편이 장기 글로벌 산업 레жим을 주도할 것입니다.",
+        "risk": "미·중 기술 패권 갈등 격화에 따른 반도체 공급망 분절화",
         "conviction": "medium"
       }
     ]

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "mode": "weekly",
+  "date": "2026-11-08",
+  "mode": "daily",
   "rs_top10": [
     {
       "ticker": "CRWD",
@@ -45,8 +45,8 @@
   ],
   "rs90_count": 14,
   "geo_risk": {
-    "date": "2026-11-07",
-    "risk_score": 7.5,
+    "date": "2026-11-08",
+    "risk_score": 9.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
     "high_risk_signals": 1,
@@ -59,22 +59,21 @@
     },
     "top_risk_events": [
       "More Than 50 Killed In Yemen In One Of The Deadliest 24 Hours Of The War",
-      "Inside The Operation That Helped Ukraine Reverse Some Russian War Gains",
-      "U.S. Global Health Strategy Jeopardizes Prevention Of Pandemics, Experts Warn"
+      "Inside The Operation That Helped Ukraine Reverse Some Russian War Gains"
     ],
     "recommendation": "고위험 국면 (Energy, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 40,
-      "sqqq_pct": 15,
-      "cash_pct": 45,
-      "per_stock_pct": 8.0,
-      "action": "DEFENSIVE",
+      "long_pct": 20,
+      "sqqq_pct": 20,
+      "cash_pct": 60,
+      "per_stock_pct": 4.0,
+      "action": "MAX_DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
         "Defense"
       ],
-      "reasoning": "Risk 7.5 — SQQQ 15% 방어 포지션, 현금 45% 유지. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 9.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -859,37 +858,6 @@
       "opinc_growth_recent_pct": 10.4
     },
     {
-      "ticker": "BXP",
-      "stage": "전환중",
-      "current_price": 65.01,
-      "ma112": 64.49,
-      "ma224": 61.1,
-      "ma448": 63.1,
-      "slope112": 0.0094,
-      "slope224": -0.0085,
-      "cross224_status": "위",
-      "cross224_dist_pct": 6.4,
-      "cross448_status": "돌파",
-      "cross448_dist_pct": 3.0,
-      "has_vcp": true,
-      "vcp_pivot": 60.29,
-      "vcp_contractions": 2,
-      "reversal_score": 40,
-      "breakout_score": 15,
-      "vcp_score": 13,
-      "total_score": 83,
-      "sector": "Real Estate",
-      "sector_rank": 3,
-      "sector_qtd": 8.9,
-      "sector_bonus": 15,
-      "fund_bonus": 0,
-      "fund_accel": false,
-      "rev_growing": true,
-      "opinc_growing": false,
-      "rev_growth_recent_pct": 2.2,
-      "opinc_growth_recent_pct": -0.7
-    },
-    {
       "ticker": "SYK",
       "stage": "바닥반전",
       "current_price": 325.87,
@@ -942,7 +910,7 @@
       "total_score": 79,
       "sector": "Communication",
       "sector_rank": 10,
-      "sector_qtd": -5.09,
+      "sector_qtd": -4.68,
       "sector_bonus": 0,
       "fund_bonus": 15,
       "fund_accel": true,
@@ -981,6 +949,37 @@
       "opinc_growing": true,
       "rev_growth_recent_pct": 2.1,
       "opinc_growth_recent_pct": 0.9
+    },
+    {
+      "ticker": "BXP",
+      "stage": "전환중",
+      "current_price": 65.01,
+      "ma112": 64.49,
+      "ma224": 61.1,
+      "ma448": 63.1,
+      "slope112": 0.0094,
+      "slope224": -0.0085,
+      "cross224_status": "위",
+      "cross224_dist_pct": 6.4,
+      "cross448_status": "돌파",
+      "cross448_dist_pct": 3.0,
+      "has_vcp": true,
+      "vcp_pivot": 60.29,
+      "vcp_contractions": 2,
+      "reversal_score": 40,
+      "breakout_score": 15,
+      "vcp_score": 13,
+      "total_score": 76,
+      "sector": "Real Estate",
+      "sector_rank": 4,
+      "sector_qtd": 8.16,
+      "sector_bonus": 8,
+      "fund_bonus": 0,
+      "fund_accel": false,
+      "rev_growing": true,
+      "opinc_growing": false,
+      "rev_growth_recent_pct": 2.2,
+      "opinc_growth_recent_pct": -0.7
     },
     {
       "ticker": "GEHC",
@@ -1433,7 +1432,7 @@
       "pivot": 177.82,
       "sector": "Consumer Cyclical",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "KDP",
@@ -1450,7 +1449,7 @@
       "pivot": null,
       "sector": "Consumer Defensive",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "AMGN",
@@ -1467,7 +1466,7 @@
       "pivot": null,
       "sector": "Healthcare",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "MSFT",
@@ -1484,7 +1483,7 @@
       "pivot": 546.17,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "ROP",
@@ -1501,7 +1500,7 @@
       "pivot": null,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 8.0
+      "allocation_pct": 4.0
     }
   ],
   "sqqq_channel": {
@@ -1513,5 +1512,117 @@
     "dist_to_lower_pct": 23.9,
     "channel_width_pct": 36.6,
     "ticker": "SQQQ"
-  }
+  },
+  "price_freshness": {
+    "status": "FRESH",
+    "latest_date": "2026-11-06",
+    "checked_at": "2026-11-09 01:58",
+    "sample": {
+      "SPY": 735.29,
+      "QQQ": 656.1,
+      "NVDA": 186.64
+    }
+  },
+  "tracking": [
+    {
+      "ticker": "ABNB",
+      "current": 189.99,
+      "donchian_upper": 176.94,
+      "donchian_lower": 164.39,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -6.9,
+      "dist_to_lower_pct": 13.5,
+      "channel_width_pct": 7.6
+    },
+    {
+      "ticker": "KDP",
+      "current": 36.63,
+      "donchian_upper": 36.89,
+      "donchian_lower": 34.68,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.7,
+      "dist_to_lower_pct": 5.3,
+      "channel_width_pct": 6.4
+    },
+    {
+      "ticker": "AMGN",
+      "current": 460.42,
+      "donchian_upper": 478.48,
+      "donchian_lower": 439.26,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 3.9,
+      "dist_to_lower_pct": 4.6,
+      "channel_width_pct": 8.9
+    },
+    {
+      "ticker": "MSFT",
+      "current": 530.61,
+      "donchian_upper": 555.8,
+      "donchian_lower": 507.12,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 4.7,
+      "dist_to_lower_pct": 4.4,
+      "channel_width_pct": 9.6
+    },
+    {
+      "ticker": "ROP",
+      "current": 476.6,
+      "donchian_upper": 492.22,
+      "donchian_lower": 434.48,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 3.3,
+      "dist_to_lower_pct": 8.8,
+      "channel_width_pct": 13.3
+    },
+    {
+      "ticker": "CRWD",
+      "current": 216.9,
+      "donchian_upper": 275.04,
+      "donchian_lower": 217.2,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 26.8,
+      "dist_to_lower_pct": -0.1,
+      "channel_width_pct": 26.6
+    },
+    {
+      "ticker": "MU",
+      "current": 690.0,
+      "donchian_upper": 1028.84,
+      "donchian_lower": 656.39,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 49.1,
+      "dist_to_lower_pct": 4.9,
+      "channel_width_pct": 56.7
+    },
+    {
+      "ticker": "AMD",
+      "current": 449.04,
+      "donchian_upper": 608.1,
+      "donchian_lower": 404.4,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 35.4,
+      "dist_to_lower_pct": 9.9,
+      "channel_width_pct": 50.4
+    },
+    {
+      "ticker": "PANW",
+      "current": 313.84,
+      "donchian_upper": 418.78,
+      "donchian_lower": 314.67,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 33.4,
+      "dist_to_lower_pct": -0.3,
+      "channel_width_pct": 33.1
+    },
+    {
+      "ticker": "SNDK",
+      "current": 835.06,
+      "donchian_upper": 1581.82,
+      "donchian_lower": 806.43,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 89.4,
+      "dist_to_lower_pct": 3.4,
+      "channel_width_pct": 96.2
+    }
+  ]
 }

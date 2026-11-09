@@ -1,6 +1,16 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-08",
   "data": [
+    {
+      "ticker": "ABNB",
+      "current": 189.99,
+      "donchian_upper": 176.94,
+      "donchian_lower": 164.39,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -6.9,
+      "dist_to_lower_pct": 13.5,
+      "channel_width_pct": 7.6
+    },
     {
       "ticker": "KDP",
       "current": 36.63,
@@ -42,14 +52,14 @@
       "channel_width_pct": 13.3
     },
     {
-      "ticker": "ADP",
-      "current": 303.35,
-      "donchian_upper": 307.94,
-      "donchian_lower": 285.37,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.5,
-      "dist_to_lower_pct": 5.9,
-      "channel_width_pct": 7.9
+      "ticker": "CRWD",
+      "current": 216.9,
+      "donchian_upper": 275.04,
+      "donchian_lower": 217.2,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 26.8,
+      "dist_to_lower_pct": -0.1,
+      "channel_width_pct": 26.6
     },
     {
       "ticker": "MU",
@@ -72,34 +82,24 @@
       "channel_width_pct": 50.4
     },
     {
-      "ticker": "GILD",
-      "current": 166.89,
-      "donchian_upper": 174.48,
-      "donchian_lower": 156.04,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 4.5,
-      "dist_to_lower_pct": 6.5,
-      "channel_width_pct": 11.8
+      "ticker": "PANW",
+      "current": 313.84,
+      "donchian_upper": 418.78,
+      "donchian_lower": 314.67,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 33.4,
+      "dist_to_lower_pct": -0.3,
+      "channel_width_pct": 33.1
     },
     {
-      "ticker": "MAR",
-      "current": 416.47,
-      "donchian_upper": 424.87,
-      "donchian_lower": 390.23,
+      "ticker": "SNDK",
+      "current": 835.06,
+      "donchian_upper": 1581.82,
+      "donchian_lower": 806.43,
       "signal": "HOLD",
-      "dist_to_upper_pct": 2.0,
-      "dist_to_lower_pct": 6.3,
-      "channel_width_pct": 8.9
-    },
-    {
-      "ticker": "REGN",
-      "current": 904.35,
-      "donchian_upper": 973.36,
-      "donchian_lower": 805.02,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 7.6,
-      "dist_to_lower_pct": 11.0,
-      "channel_width_pct": 20.9
+      "dist_to_upper_pct": 89.4,
+      "dist_to_lower_pct": 3.4,
+      "channel_width_pct": 96.2
     }
   ]
 }

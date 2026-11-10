@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-      "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
-      "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+      "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Egypt announces new Mediterranean gas field discovery estimated at 200 billion cubic feet",
-      "summary": "The Ministry of Petroleum attributed the positive results to higher investment and exploration activity, noting a better investment climate and progress in settling overdue payments to foreign companies in the energy sector.",
-      "link": "https://www.euronews.com/2026/11/08/egypt-announces-new-mediterranean-gas-field-discovery-estimated-at-200-billion-cubic-feet",
+      "title": "Portugal fuel prices drop 9 cents, biggest fall since March",
+      "summary": "The week began with a major fuel price drop in Portugal since March, down 9 to 9.5 cents for petrol and diesel; it could be bigger, but the government cut the ISP tax discount.",
+      "link": "https://www.euronews.com/2026/11/09/portugal-fuel-prices-drop-9-cents-biggest-fall-since-march",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Wirecard fugitive claimed he toppled Sebastian Kurz in messages to Russian spy",
-      "summary": "Jan Marsalek said he was involved in an operation that had \"successfully toppled\" Sebastian Kurz in 2021, in messages to a convicted Russian spy.",
-      "link": "https://www.politico.eu/article/wirecard-fugitive-jan-marsalek-claimed-he-toppled-sebastian-kurz-in-messages-to-russian-spy/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Europe needs Nvidia. It ll take more than a spy scandal to change that.",
+      "summary": "Though the U.S. chipmaker's boss Jensen Huang may have been caught up in a Chinese espionage operation, Europe has no homegrown alternative to Nvidia.",
+      "link": "https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
-      "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
-      "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Elon Musk's Tesla to 'wind down' Cybertruck production next year",
-      "summary": "Musk said the decision was taken in order to make room for increased production of its Cybercab robotaxi. The move comes after years of weaker-than-expected sales for the futuristic electric pickup.",
-      "link": "https://www.euronews.com/2026/11/06/elon-musks-tesla-to-wind-down-cybertruck-production-next-year",
+      "title": "Lecornu announces €24 monthly rise in minimum wage and tax breaks for firms",
+      "summary": "The French Prime Minister has announced an early increase in the minimum wage from 1 December. The government also plans tax measures for businesses and wants to launch a new round of sectoral pay negotiations.",
+      "link": "https://www.euronews.com/2026/11/09/lecornu-announces-24-monthly-rise-in-minimum-wage-and-tax-breaks-for-firms",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Amid protests, France s rising debt costs threaten stability",
+      "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the government have?",
+      "link": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "EU offers cash for Black Sea attack response",
+      "summary": "Washington is pursuing a diplomatic effort on safe passage, weighing proposals from Turkey and India.",
+      "link": "https://www.politico.eu/article/eu-offers-cash-for-black-sea-attack-response/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+      "summary": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
+      "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Egypt announces new Mediterranean gas field discovery estimated at 200 billion cubic feet",
+      "summary": "The Ministry of Petroleum attributed the positive results to higher investment and exploration activity, noting a better investment climate and progress in settling overdue payments to foreign companies in the energy sector.",
+      "link": "https://www.euronews.com/2026/11/08/egypt-announces-new-mediterranean-gas-field-discovery-estimated-at-200-billion-cubic-feet",
       "source": "Euronews Business"
     },
     {
@@ -45,21 +69,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Europe will be represented in Abu Dhabi talks on Ukraine, French foreign minister says",
-      "summary": "Jean-Noël Barrot said \"Europeans will be well represented\" in the U.S.-brokered talks, but did not say who would make the trip to Abu Dhabi.",
-      "link": "https://www.politico.eu/article/europe-will-be-represented-in-abu-dhabi-talks-on-ukraine-french-foreign-minister-jean-noel-barrot-says/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "La France accuse l Iran d être à l origine des cyberattaques visant les supermarchés",
+      "summary": "Selon le gouvernement français, 700 points de distribution alimentaire ont été touchés.",
+      "link": "https://www.politico.eu/article/la-france-accuse-liran-detre-a-lorigine-de-cyberattaques-visant-les-refrigerateurs-des-supermarches/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "He spent $50,000 on Labubus but now the craze is dying",
-      "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
-      "link": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
+      "title": "Civil servant who secretly held five jobs found guilty of fraud",
+      "summary": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
+      "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Baku real estate expo showcases Azerbaijan’s tech-driven urban future",
-      "summary": "What makes a city attractive to investors and the people who live there? From affordable housing and urban planning to smart technologies and changing lifestyles, Azerbaijan’s first International Real Estate Exhibition put the future of the built environment in focus.",
-      "link": "https://www.euronews.com/2026/11/06/baku-real-estate-expo-showcases-azerbaijans-tech-driven-urban-future",
+      "title": "Elon Musk's Tesla to 'wind down' Cybertruck production next year",
+      "summary": "Musk said the decision was taken in order to make room for increased production of its Cybercab robotaxi. The move comes after years of weaker-than-expected sales for the futuristic electric pickup.",
+      "link": "https://www.euronews.com/2026/11/06/elon-musks-tesla-to-wind-down-cybertruck-production-next-year",
       "source": "Euronews Business"
     },
     {
@@ -69,69 +93,46 @@
       "source": "DW Business"
     },
     {
-      "title": "Russian strikes leave 600,000 in the dark in eastern Ukraine",
-      "summary": "Ukrainian President Volodymyr Zelenskyy called for further sanctions on Russia ahead of talks in Abu Dhabi.",
-      "link": "https://www.politico.eu/article/russian-strikes-leave-600000-in-the-dark-in-eastern-ukraine-dnipropetrovsk/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Who’s who for Europe at the Ukraine talks in Abu Dhabi",
+      "summary": "European officials won’t be in the room where it happens in the United Arab Emirates. But they will be attempting to influence negotiations on the margins.",
+      "link": "https://www.politico.eu/article/whos-who-europe-ukraine-talks-abu-dhabi-russia-war/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "AI stocks climb after trillions wiped from market values",
-      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "title": "How a civil servant got away with juggling five jobs for so long",
+      "summary": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+      "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Uzbekistan announces record cotton harvest as President Mirziyoyev sets higher 2027 yield target",
-      "summary": "Officials say Uzbekistan harvested more than five million tonnes of raw cotton, about 25% more than in 2025, with machines picking around 85% of the crop.",
-      "link": "https://www.euronews.com/2026/11/06/uzbekistan-announces-record-cotton-harvest-as-president-mirziyoyev-sets-higher-2027-yield-",
+      "title": "Baku real estate expo showcases Azerbaijan’s tech-driven urban future",
+      "summary": "What makes a city attractive to investors and the people who live there? From affordable housing and urban planning to smart technologies and changing lifestyles, Azerbaijan’s first International Real Estate Exhibition put the future of the built environment in focus.",
+      "link": "https://www.euronews.com/2026/11/06/baku-real-estate-expo-showcases-azerbaijans-tech-driven-urban-future",
       "source": "Euronews Business"
     },
     {
-      "title": "What the Democrats midterms win means for the US economy and Trump",
-      "summary": "From high oil prices and data centers to tariffs and mounting debt, economic concerns played a key role in the crushing defeat of President Donald Trump s Republicans. So can the Democrats now make a difference?",
-      "link": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Security Sunday: Die neue Front der Bundeswehr in Litauen – mit Robertas Kaunas",
-      "summary": "Eingeklemmt zwischen Kaliningrad und Belarus liegt die verwundbarste Stelle der NATO. Genau hier entsteht mit der Panzerbrigade 45 das wohl wichtigste Projekt der deutschen Zeitenwende. Bis 2027 sollen fast 5.000 deutsche Soldaten dauerhaft in Litauen stationiert werden. Doch die Bedrohung durch Rus",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-die-neue-front-der-bundeswehr-in-litauen-mit-robertas-kaunas/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "De quoi la candidature Teddy Riner est-elle le nom ?",
+      "summary": "Le quintuple champion olympique de judo a créé la surprise en présentant sa candidature à la présidentielle dans un entretien au Parisien. Soutiens, financements, positionnement politique, équipe : le judoka peut-il aller jusqu’au bout ? Est-il suffisamment préparé? Que révèle cette initiative sur l",
+      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/de-quoi-la-candidature-teddy-riner-est-elle-le-nom/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Why the US midterms sparked an AI stock selloff",
-      "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-      "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Azerbaijan and Ukraine forge new energy defence and trade agreements",
-      "summary": "An Azerbaijani delegation led by its energy minister travelled to Ukraine to sign a 2026-2027 Action Plan. Bilateral talks focused on emergency winter grid equipment, joint manufacturing, and expanding European transit via the Trans-Balkan route.",
-      "link": "https://www.euronews.com/2026/11/06/azerbaijan-and-ukraine-forge-new-energy-defence-and-trade-agreements",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Ein Spaziergang mit Bodo Ramelow",
-      "summary": "Die Welt spielt verrückt, doch im Präsidium des Bundestages herrscht überraschende Einigkeit. Bundestagsvizepräsident Bodo Ramelow (Die Linke) gibt im Gespräch mit Gordon Repinski einen seltenen Einblick in die überparteiliche Zusammenarbeit, auch bei Nachtschichten. Dabei wird deutlich, mit welcher",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-bodo-ramelow/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "How does it affect me if share prices fall?",
-      "summary": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
-      "link": "https://www.bbc.co.uk/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
+      "title": "Poundland unable to buy new stock as fears over collapse grow",
+      "summary": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
+      "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     }
   ],
-  "trend_headline": "글로벌 증시 AI 발작과 방산 호조",
-  "summary": "월스트리트와 아시아의 충격 여파로 유럽 증시가 글로벌 매도세에 동참한 가운데, 미 중간선거 이후 AI 규제 강화 우려가 빅테크 주가 발목을 잡았습니다. 반면 지정학적 긴장과 아부다비 평화 협상 국면 속에서 이탈리아의 레오나르도는 방산·우주 부문 수주 600억 유로를 돌파하며 대조적인 흐름을 보였습니다.",
+  "trend_headline": "AI 거품론과 젠슨 황 스캔들의 투심 타격",
+  "summary": "엔비디아 젠슨 황 CEO를 둘러싼 중국 스파이 연루 의혹과 AI 지출 우려가 맞물리며 유럽 증시가 글로벌 매도세에 동참했습니다. 특히 EU 전역이 대체 불가한 엔비디아 의존도와 지정학적 리스크 사이에서 빅테크 규제 압박을 동시에 저울질하는 양상입니다.",
   "key_points": [
-    "유럽 증시는 월스트리트와 아시아의 하락세를 이어받아 글로벌 매도세에 동참",
-    "미 민주당의 중간선거 승리 여파로 향후 AI 투자 위축 및 규제 강화 우려가 빅테크 주가를 압박",
-    "이탈리아 레오나르도(Leonardo), 방산·드론·우주 부문 수주 600억 유로 돌파로 호실적 기록"
+    "엔비디아 주가 폭락과 젠슨 황 CEO의 중국 스파이 연루 의혹으로 글로벌 AI 투자 심리 악화",
+    "유럽 증시는 월스트리트 및 아시아 증시의 AI 지출 우려 확산에 따른 글로벌 셀오프에 동참",
+    "프랑스 정부의 최저임금 인상 및 부채 비용 증가 우려 속에서 재정 안정성 압박 가중"
   ],
   "sector_hints": [
-    "Energy",
-    "Financials"
+    "Technology",
+    "Automotive",
+    "Energy"
   ]
 }

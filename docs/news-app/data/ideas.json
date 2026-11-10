@@ -1,115 +1,130 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "horizons": {
     "1w": [
       {
-        "theme": "엔비디아 리더십 악재 및 단기 안전자산 선호",
+        "theme": "엔비디아 스캔들발 빅테크 단기 변동성 확대",
         "sectors": [
-          "Technology"
+          "Technology",
+          "Semiconductors"
         ],
         "tickers": [
           "NVDA",
           "QQQ"
         ],
-        "rationale": "엔비디아 이사회의 CEO 조사 착수로 단기 AI 트레이드 충격이 불가피하며, 미 국채 랠리 등 안전자산으로의 자금 이동과 기술주 변동성 확대가 지속될 전망입니다.",
-        "risk": "조사 결과의 신속한 해명 또는 저가 매수세 급유입",
+        "rationale": "엔비디아 CEO 지정학 스캔들과 미국·유럽의 조사 개입 여파로 빅테크 매도세가 심화되며 단기 변동성이 극대화됨.",
+        "risk": "스캔들 관련 신속한 의혹 해명 또는 조사 조기 종료",
         "conviction": "high"
       },
       {
-        "theme": "유럽 방산 수주 모멘텀 부각",
-        "sectors": [
-          "Industrials"
-        ],
-        "tickers": [
-          "LDO.MI"
-        ],
-        "rationale": "글로벌 매도세 속에서도 레오나르도가 600억 유로 규모의 방산·우주 수주 잔고를 입증하며 강한 단기 상승 모멘텀을 확보했습니다.",
-        "risk": "아부다비 평화 협상 진전에 따른 지정학적 리스크 완화 기대감",
-        "conviction": "high"
-      }
-    ],
-    "1m": [
-      {
-        "theme": "금융주 주주환원 확대 및 실적 견인",
-        "sectors": [
-          "Financials"
-        ],
-        "tickers": [
-          "BRK.B",
-          "105560.KS"
-        ],
-        "rationale": "버크셔 해서웨이의 자사주 매입과 한국 주요 금융지주의 주주환원율 확대 기조가 시장 하방 위험을 방어하고 단기 자금 유입을 유도하고 있습니다.",
-        "risk": "금리 인하 속도 가속화에 따른 순이자마진(NIM) 압박",
-        "conviction": "high"
-      },
-      {
-        "theme": "중국 부동산 부양 실효성 부재 및 우려 지속",
-        "sectors": [
-          "Real Estate"
-        ],
-        "tickers": [
-          "2007.HK"
-        ],
-        "rationale": "중국 정부의 부양책이 중소도시까지 온기를 전하지 못하면서 부동산 섹터 전반의 자금 이탈과 회복 지연 우려가 팽배합니다.",
-        "risk": "중국 중앙정부의 추가 대규모 재정 투입 발표",
-        "conviction": "medium"
-      }
-    ],
-    "3m": [
-      {
-        "theme": "파운드리 및 AI 메모리 위탁생산 차별화",
+        "theme": "아시아 반도체 모멘텀 차별화",
         "sectors": [
           "Semiconductors"
         ],
         "tickers": [
           "TSM"
         ],
-        "rationale": "미국 엔비디아 노이즈에도 불구하고, TSMC의 첨단 AI 메모리 진출 등 독점적 제조 역량을 바탕으로 아시아 반도체의 차별화된 실적 성장이 기대됩니다.",
-        "risk": "글로벌 빅테크의 AI 설비투자(CAPEX) 집행 속도 조절",
-        "conviction": "medium"
-      },
-      {
-        "theme": "미 정치 지형 변화와 AI 규제 리스크",
-        "sectors": [
-          "Technology"
-        ],
-        "tickers": [
-          "MSFT",
-          "QQQ"
-        ],
-        "rationale": "미 중간선거 이후 강화되는 AI 규제 우려가 유럽 및 글로벌 빅테크의 밸류에이션 리레이팅을 제한할 가능성이 있습니다.",
-        "risk": "규제 법안의 초당적 타결 지연 또는 과도한 규제 완화",
+        "rationale": "서구권 반도체 악재에도 불구하고 TSMC의 첨단 메모리 사업 진출 검토와 AI 강세로 단기 수급 반등 모멘텀 형성.",
+        "risk": "글로벌 매도세 심화로 인한 아시아 시장으로의 위험 회피 전이",
         "conviction": "medium"
       }
     ],
-    "6m": [
+    "1m": [
       {
-        "theme": "글로벌 지정학 구조화와 유럽 방위산업 고도화",
-        "sectors": [
-          "Industrials"
-        ],
-        "tickers": [
-          "LDO.MI"
-        ],
-        "rationale": "지정학적 긴장 장기화와 드론·우주 등 첨단 방산 수요 증가로 유럽 주요 방산 기업들의 구조적 수주 잔고 증가가 중기 실적을 뒷받침합니다.",
-        "risk": "유럽 각국의 재정 적자 축소를 위한 방위비 예산 동결",
-        "conviction": "high"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "AI 인프라 패러다임 변화 및 아시아 공급망 재편",
+        "theme": "지역별 반도체 디커플링 및 자금 이탈",
         "sectors": [
           "Semiconductors",
           "Technology"
         ],
         "tickers": [
           "TSM",
+          "NVDA",
+          "AMD"
+        ],
+        "rationale": "미국 및 유럽 빅테크 규제와 AI 지출 의구심 누적으로 서구권 기술주 자금 유출이 계속되는 반면, 아시아 기술 생태계로의 차별화된 흐름 지속.",
+        "risk": "미국의 대중국 추가 기술 수출 제재 발표",
+        "conviction": "high"
+      },
+      {
+        "theme": "무역 장벽 심화에 따른 소재 업황 약세 지속",
+        "sectors": [
+          "Materials"
+        ],
+        "tickers": [
+          "5401.T"
+        ],
+        "rationale": "글로벌 무역 규제 강화와 공급망 차질 여파로 일본 철강 수출이 30년 만에 최저치를 기록하는 등 소재 섹터의 단기 자금 흐름 악화.",
+        "risk": "주요국 경기 부양책 및 무역 규제 완화 조치",
+        "conviction": "medium"
+      }
+    ],
+    "3m": [
+      {
+        "theme": "빅테크 AI 캡엑스 검증 및 규제 리스크 반영",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "MSFT",
           "NVDA"
         ],
-        "rationale": "단기 리더십 악재 소멸 후, AI 인프라 2차 진화 및 아시아 중심의 첨단 반도체 공급망 재편이 장기 글로벌 산업 레жим을 주도할 것입니다.",
-        "risk": "미·중 기술 패권 갈등 격화에 따른 반도체 공급망 분절화",
+        "rationale": "EU 등 주요국의 빅테크 독점 및 AI 지출 관련 규제 압박 속에서 3분기 실적 발표를 통해 AI 투자 수익화(ROI) 가능성 엄격 검증.",
+        "risk": "AI 에이전트 상용화 가속에 따른 기대 이상의 분기 실적 발표",
         "conviction": "medium"
+      },
+      {
+        "theme": "금융 섹터 디지털 전환 및 지정학적 부채 리스크 혼재",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "rationale": "홍콩 중심의 테크 자금 조달 및 AI 시스템 도입 호재가 있으나, 프랑스 재정 부채 등 거시적 불확실성이 상쇄하는 박스권 흐름 예상.",
+        "risk": "유럽 재정 위기 확산 또는 글로벌 금리 급변동",
+        "conviction": "low"
+      }
+    ],
+    "6m": [
+      {
+        "theme": "첨단 메모리 및 AI 파운드리 구조적 수급 재편",
+        "sectors": [
+          "Semiconductors"
+        ],
+        "tickers": [
+          "TSM",
+          "AVGO"
+        ],
+        "rationale": "TSMC의 첨단 메모리 영역 확장 검토 등 AI 수요 급증에 맞춰 반도체 공급망 및 생태계 밸류체인의 구조적 개편 진행.",
+        "risk": "대만 해협 관련 지정학적 리스크 고조 및 공급망 병목 발생",
+        "conviction": "high"
+      },
+      {
+        "theme": "글로벌 공급망 블록화에 따른 소재 산업 구조조정",
+        "sectors": [
+          "Materials"
+        ],
+        "tickers": [
+          "5401.T"
+        ],
+        "rationale": "자원 보호무역주의와 수출 규제 정착으로 전통 소재·철강 기업들의 공급망 재편 및 생산 거점 다변화 압력 증가.",
+        "risk": "글로벌 무역 협정 재타결 및 원자재 수요 회복",
+        "conviction": "medium"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "AI 기술 자립화 및 빅테크 독점 완화 레짐 전환",
+        "sectors": [
+          "Technology",
+          "Semiconductors"
+        ],
+        "tickers": [
+          "NVDA",
+          "MSFT",
+          "TSM"
+        ],
+        "rationale": "특정 미국 빅테크 기업에 대한 과도한 의존도 탈피 움직임과 지정학적 공급망 이분화로 국가별 소버린 AI 및 자립형 생태계 전환 가속화.",
+        "risk": "독점적 기술 격차 유지 및 글로벌 합의를 통한 규제 완화",
+        "conviction": "high"
       }
     ]
   }

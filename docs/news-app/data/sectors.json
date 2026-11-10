@@ -1,77 +1,81 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "sectors": [
+    {
+      "name": "Semiconductors",
+      "direction": "neutral",
+      "score": -2.0,
+      "rationale": "미국과 유럽은 엔비디아 CEO 관련 스캔들과 정부 조사 개입 여파로 하락세를 보인 반면, 대만 등 아시아는 TSMC의 첨단 메모리 진출 소식과 AI 수요에 힘입어 강한 반등세를 기록했습니다.",
+      "related_tickers": [
+        "NVDA",
+        "TSM",
+        "AMD",
+        "AVGO"
+      ],
+      "source_regions": [
+        "US",
+        "ASIA",
+        "EU"
+      ]
+    },
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "미국 엔비디아 이사회의 CEO 조사 착수로 AI 트레이드 전반에 큰 충격이 발생했으며, 유럽에서도 미 정치 지형 변화에 따른 AI 규제 강화 및 투자 위축 우려로 빅테크 중심의 매도세가 확대되었습니다.",
+      "score": -6.5,
+      "rationale": "엔비디아 관련 악재와 AI 지출에 대한 의구심이 확산되면서 미국과 유럽 증시 전반에서 빅테크 매도세가 심화되고 변동성이 급증했습니다.",
       "related_tickers": [
         "NVDA",
         "MSFT"
       ],
       "source_regions": [
         "US",
-        "EU"
-      ]
-    },
-    {
-      "name": "Semiconductors",
-      "direction": "neutral",
-      "score": -2.0,
-      "rationale": "미국 엔비디아 악재로 인한 악영향과 대만 TSMC의 첨단 AI 메모리 위탁생산 검토 및 주가 반등 호재가 지역별로 상충되고 있습니다.",
-      "related_tickers": [
-        "NVDA",
-        "TSM"
-      ],
-      "source_regions": [
-        "US",
+        "EU",
         "ASIA"
       ]
     },
     {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "미국 버크셔 해서웨이가 3분기 호실적과 자사주 매입을 단행하고, 한국 4대 금융지주가 주주환원율을 대폭 확대하는 등 주주 가치 제고 기조가 강세를 견인하고 있습니다.",
+      "name": "Materials",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "글로벌 무역 규제 강화와 공급망 차질 우려로 인해 일본의 철강 수출이 30년 만에 최저치를 기록하는 등 소재 업황 부담이 가중되었습니다.",
       "related_tickers": [
-        "BRK.B",
-        "105560.KS"
+        "5401.T"
       ],
       "source_regions": [
-        "US",
         "ASIA"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "유럽 방산업체 레오나르도가 방산·드론·우주 부문 수주 잔고 600억 유로를 돌파하며 강력한 실적 모멘텀을 입증했습니다.",
-      "related_tickers": [
-        "LDO.MI"
-      ],
-      "source_regions": [
-        "EU"
       ]
     },
     {
       "name": "Real Estate",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "중국 정부의 베이징 부동산 부양책이 중소도시까지 온기를 전하지 못하며 부양책의 실효성 논란과 경기 회복 지연 우려가 지속되고 있습니다.",
-      "related_tickers": [
-        "2007.HK"
-      ],
+      "score": -4.0,
+      "rationale": "한국 내 부동산 부정청약 및 위장전입 적발 급증으로 주거 시장 투명성 강화와 규제 압박이 제기되어 투심에 부정적 영향을 미쳤습니다.",
+      "related_tickers": [],
       "source_regions": [
         "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "neutral",
+      "score": -1.5,
+      "rationale": "홍콩 중심의 테크 기업 자금 조달 및 AI 기반 불완전판매 예방 시스템 도입 등 디지털 전환 호재가 있으나, 프랑스 재정 부채 및 미국 시장 변동성 확대가 상쇄하고 있습니다.",
+      "related_tickers": [],
+      "source_regions": [
+        "US",
+        "ASIA",
+        "EU"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 엔비디아 관련 악재로 악영향을 받은 반면, 아시아(대만)는 TSMC의 AI 메모리 진출 호재로 주가가 반등하며 긍정적 신호가 대립하고 있습니다."
+      "note": "미국과 유럽은 엔비디아 지정학 리스크 및 조사 여파로 악재를 맞았으나, 아시아(대만)는 TSMC의 사업 확장 호재로 상승하는 극명한 온도차를 보였습니다."
+    },
+    {
+      "sector": "Technology",
+      "note": "미국 및 유럽은 빅테크 규제와 투자 축소 우려로 매도세가 강했던 반면, 중국 및 아시아는 AI 에이전트(딥시크) 경쟁 촉진과 시장 생태계 재편 기대감이 하강 폭을 일부 상쇄했습니다."
     }
   ]
 }

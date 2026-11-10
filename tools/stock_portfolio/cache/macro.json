@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-08",
-  "phase": "RISK_OFF",
-  "m_score": 2,
+  "date": "2026-11-09",
+  "phase": "TRANSITIONAL",
+  "m_score": 6,
   "signals": {
     "market_trend": "SIDEWAYS",
-    "market_ret3m": -0.0455,
-    "vix_level": 25.64,
-    "volatility": "HIGH",
+    "market_ret3m": -0.0256,
+    "vix_level": 19.92,
+    "volatility": "NORMAL",
     "yield10y": 4.86,
     "rate_env": "HIGH",
     "yield30y": 5.26,
-    "yield2y": 4.46,
-    "fear_greed_score": 22.1,
-    "fear_greed_rating": "extreme fear",
+    "yield2y": 4.51,
+    "fear_greed_score": 31.7,
+    "fear_greed_rating": "fear",
     "dollar_trend": "FLAT"
   },
   "recommended_sectors": [
-    "Utilities",
-    "Consumer Staples",
     "Healthcare",
-    "Energy"
+    "Financials",
+    "Energy",
+    "Real Estate"
   ]
 }

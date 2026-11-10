@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "analyzed": 139,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 113375051776,
-      "price": 189.99,
-      "rs_rating": 96.9
+      "market_cap": 113554071552,
+      "price": 190.29,
+      "rs_rating": 95.6
     },
     {
       "ticker": "KDP",
@@ -34,9 +34,9 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 49851240448,
-      "price": 36.63,
-      "rs_rating": 96.2
+      "market_cap": 50273128448,
+      "price": 36.94,
+      "rs_rating": 94.9
     },
     {
       "ticker": "REGN",
@@ -52,27 +52,27 @@
       },
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": 93553065984,
-      "price": 904.35,
-      "rs_rating": 90.8
+      "market_cap": 95167889408,
+      "price": 919.96,
+      "rs_rating": 90.1
     },
     {
-      "ticker": "ROP",
-      "canslim_score": 61,
+      "ticker": "MSFT",
+      "canslim_score": 64,
       "scores": {
-        "C": 7,
+        "C": 10,
         "A": 10,
-        "N": 7,
+        "N": 10,
         "S": 10,
-        "L": 10,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 47200763904,
-      "price": 476.6,
-      "rs_rating": 92.1
+      "industry": "Software - Infrastructure",
+      "market_cap": 4048612753408,
+      "price": 545.18,
+      "rs_rating": 86.6
     },
     {
       "ticker": "TXN",
@@ -88,9 +88,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 253575725056,
-      "price": 277.36,
-      "rs_rating": 90.1
+      "market_cap": 270370471936,
+      "price": 295.73,
+      "rs_rating": 94.2
+    },
+    {
+      "ticker": "ROP",
+      "canslim_score": 61,
+      "scores": {
+        "C": 7,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 46709542912,
+      "price": 471.64,
+      "rs_rating": 91.4
     },
     {
       "ticker": "GEHC",
@@ -106,27 +124,9 @@
       },
       "sector": "Healthcare",
       "industry": "Medical Devices",
-      "market_cap": 37247111168,
-      "price": 82.38,
-      "rs_rating": 85.9
-    },
-    {
-      "ticker": "MSFT",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 3940412817408,
-      "price": 530.61,
-      "rs_rating": 85.2
+      "market_cap": 37993140224,
+      "price": 84.03,
+      "rs_rating": 83.9
     },
     {
       "ticker": "CSX",
@@ -142,9 +142,9 @@
       },
       "sector": "Industrials",
       "industry": "Railroads",
-      "market_cap": 90547724288,
-      "price": 49.12,
-      "rs_rating": 83.9
+      "market_cap": 93054746624,
+      "price": 50.48,
+      "rs_rating": 82.5
     },
     {
       "ticker": "AMD",
@@ -160,9 +160,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 736464797696,
-      "price": 449.04,
-      "rs_rating": 97.6
+      "market_cap": 834115600384,
+      "price": 508.58,
+      "rs_rating": 99.0
     },
     {
       "ticker": "AMGN",
@@ -178,9 +178,9 @@
       },
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
-      "market_cap": 249046466560,
-      "price": 460.42,
-      "rs_rating": 94.2
+      "market_cap": 251648262144,
+      "price": 465.23,
+      "rs_rating": 93.5
     }
   ]
 }

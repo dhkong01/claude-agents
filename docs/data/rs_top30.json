@@ -1,65 +1,65 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "rs90_count": 14,
   "stocks": [
     {
-      "ticker": "CRWD",
+      "ticker": "AMD",
       "rs_rating": 99.0
     },
     {
-      "ticker": "MU",
+      "ticker": "CRWD",
       "rs_rating": 98.3
     },
     {
-      "ticker": "AMD",
+      "ticker": "MU",
       "rs_rating": 97.6
     },
     {
-      "ticker": "ABNB",
+      "ticker": "SNDK",
       "rs_rating": 96.9
     },
     {
-      "ticker": "KDP",
+      "ticker": "PANW",
       "rs_rating": 96.2
     },
     {
-      "ticker": "PANW",
+      "ticker": "ABNB",
       "rs_rating": 95.6
     },
     {
-      "ticker": "SNDK",
+      "ticker": "KDP",
       "rs_rating": 94.9
     },
     {
-      "ticker": "AMGN",
+      "ticker": "TXN",
       "rs_rating": 94.2
     },
     {
-      "ticker": "GILD",
+      "ticker": "AMGN",
       "rs_rating": 93.5
     },
     {
-      "ticker": "ADP",
+      "ticker": "GILD",
       "rs_rating": 92.8
     },
     {
-      "ticker": "ROP",
+      "ticker": "AEHR",
       "rs_rating": 92.1
     },
     {
-      "ticker": "MAR",
+      "ticker": "ROP",
       "rs_rating": 91.4
     },
     {
-      "ticker": "REGN",
+      "ticker": "ADP",
       "rs_rating": 90.8
     },
     {
-      "ticker": "TXN",
+      "ticker": "REGN",
       "rs_rating": 90.1
     },
     {
-      "ticker": "CCEP",
+      "ticker": "MAR",
       "rs_rating": 89.4
     },
     {
@@ -67,68 +67,68 @@
       "rs_rating": 88.7
     },
     {
-      "ticker": "CTAS",
+      "ticker": "CCEP",
       "rs_rating": 88.0
     },
     {
-      "ticker": "WDAY",
+      "ticker": "MRVL",
       "rs_rating": 87.3
     },
     {
-      "ticker": "VRTX",
+      "ticker": "MSFT",
       "rs_rating": 86.6
     },
     {
-      "ticker": "GEHC",
+      "ticker": "ADI",
       "rs_rating": 85.9
     },
     {
-      "ticker": "MSFT",
+      "ticker": "FAST",
       "rs_rating": 85.2
     },
     {
-      "ticker": "FAST",
+      "ticker": "CTAS",
       "rs_rating": 84.6
     },
     {
-      "ticker": "CSX",
+      "ticker": "GEHC",
       "rs_rating": 83.9
     },
     {
-      "ticker": "DXCM",
+      "ticker": "IDXX",
       "rs_rating": 83.2
     },
     {
-      "ticker": "PYPL",
+      "ticker": "CSX",
       "rs_rating": 82.5
     },
     {
-      "ticker": "VRSK",
+      "ticker": "WDAY",
       "rs_rating": 81.8
     },
     {
-      "ticker": "TRI",
+      "ticker": "VRTX",
       "rs_rating": 81.1
     },
     {
-      "ticker": "SHOP",
+      "ticker": "ANET",
       "rs_rating": 80.4
     },
     {
-      "ticker": "IDXX",
+      "ticker": "PYPL",
       "rs_rating": 79.8
     },
     {
-      "ticker": "MDLZ",
+      "ticker": "ROST",
       "rs_rating": 79.1
     }
   ],
   "portfolio_rs": {
-    "VKTX": 19.2,
-    "MRVL": 72.2,
+    "VKTX": 24.8,
+    "MRVL": 87.3,
     "CRDO": 11.0,
-    "NBIS": 34.4,
+    "NBIS": 37.8,
     "RDDT": 8.9,
-    "VRT": 13.8
+    "VRT": 15.1
   }
 }

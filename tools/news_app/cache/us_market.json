@@ -1,7 +1,97 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "region": "US",
   "headlines": [
+    {
+      "title": "Fossil CEO says turnaround is ahead of plan as sales return to growth",
+      "summary": "Watchmaker Fossil said Tuesday that the company is returning to profit and sales growth in the first signs of its turnaround strategy.",
+      "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "We had the worst fight : I want my husband to retire at 65, but I don t want to lose his $280,000 salary. Is that unreasonable?",
+      "summary": "We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.",
+      "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "CoreWeave Meets Wall Street Expectations, Shares Rise",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXZHb0p5N004NFVNNVA1OU9JSDVseExtMURtc3plQk9pU3o3ZGd1enh3UEtLSHhQMndCQTR5aE4wREd3WUV2am81c1FuMDh1bnl6S0pCYmVPRlVMYWxWRk8zM2x5T2ZWWWktT1ZuV1FzUTZLeHJKaU9adlBVakliRUt4TWRwajJIc2cyV0hfR0F5TG9ucmc?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "CoreWeave Boosts Forecast, Easing Concerns About Slowdown",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYnZDemJ1a0xMRzdaZGhpV3pnaGNQRUhiWWQ4b2RTRFlnTlNTRGV3dnZ6ZkRuZE9YWDhVU241YVJlcnRETW5IMlk2c3NsYTJzM2tCVktKWTVpRHhjdjVCRWt5bUZZQmw5TkMtU0tDdF9BMERGR0czck5EYW9HOUNSa1MzUFJXOUh5dGh2ZThIdzdMY01XcGRfOUJ0M0lTZmpiY2VGS0FmamZMVWZFR1VxTHBQVW4?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "October CPI Inflation Rises 0.4%, Boosting Case for December Fed Rate Hike",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdGtNMTM4WVBFWnN0T0FFdWwzOWNwQXk3cE1ISUo3dWFORXJpeWNoTG5jU2xCTmowNTR6LUJ2RDZGQS1oQmpZbGdGQ0RDTVlZejMyU2QwdjJMQUNNYkZXdzZyTUo3ZTBDM3dHZjdIRHk3VXlVZXVSbk1XZmlHS21JS3JFbkFmSUdY?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
+      "summary": "Rivian CEO RJ Scaringe says 2027 will be an “inflection year” as the EV maker scales R2 and invests in autonomy.",
+      "link": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Should a widow leave her late partner s home to her stepkids or cut off contact with them?",
+      "summary": "It would be a less drastic step than selling the home now and splitting the proceeds.",
+      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Hegseth Survives Impeachment Effort in House",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3llME03T3VISDFpdnVsYVFnTkxrcWNacG5qV3drckZqR2pMNjh1Z2xsOUpvU0ZCdThISy1HY2EzOUxmMnFibUx3RzBYdWVyVEJXMnhoR01ycHhCUFNTbHMtckxxZmF0YzViTGxfQjVnZkJKRGlkUXhuNC1wQl9lWXZkQ2Fkay13dWc?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "PlayStation Cancels Online Shooting Title ‘Fairgames’",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDgwNkttaGUtXzJfelZnMW1kcWhreWt2QWxtUFliUWxXQ3o1MjZfVmR4OWJGY0xFWnJmLVdyMW1DRG1NWXFtYXpqUVA3RnhHN3VVSkZXbm9GcXB5ZU9xWkhudV9PR00zaGtaRmxUU3ZPUVozNVlVMVBCZzFJcnlEREI4VFhuMTVBU0RqWm5kdG15aENSazQ2SklSbG9sanpfdzh4WQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Anthropic IPO: Claude Developer Chases $1.4T Valuation, What to Know",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmE0b0M1U2tYVmtNd2RBd1RnM1ZXZzdvWFlwS2twYXFWWE54cjBRUlZlN1hOSEhqSU5GQUluZkVwdXphdkszOXZQUjZvN1JoMXVjOXIzVG1JR001SHhOamxqZUZ5d1JUU28tR0RJVTZvdi1INzhzaGRVT3prSWItTm1TWHU?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "How GM is trying to talk used car shoppers into buying new vehicles",
+      "summary": "Automakers say that substantial shares of the customers walking into a dealership looking for certified used cars end up buying new. Here's how it works.",
+      "link": "https://www.cnbc.com/2026/11/10/gm-carbravo-used-car-shoppers.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "The thought of living to 100 terrifies me : Is Social Security a giant Ponzi scheme?",
+      "summary": "There is already a demographic run on Social Security.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive | Bella Hadid Buys Historic Colorado Mountain Home for $5.5 Million",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPXy1kc2dHU0k4dk9iV0lJWHpQMGFrbndQc2d1Si05cnBNdk5YMV8wYzd5SnJxOHdScVQ2OElwUDJfaGlMTGtLMEtmdjVuMWRxLUZITVdDc1dwSlAxRG1sR3g1bEdhTUNxaTdtOEMzS0ZLVEtIQVBFaGdyU2d5MlJwLVpXWXlmWTlEZnVyUQ?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Traders Who Rushed to Safety of Bonds Get Rattled in Reversal",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnlwUmR4R1lSbTI5NHBoQ2pIOXp5VjFsbTJSYjBQWE92Z0F3QzhnVEo1dkVuM3NOWHZubDRoNDRGNnFCeWhLOTFmSkZabFB0YWQ0YU5JeF9WZGVrT2JYUHkxR2IxNGNOMF91bHo2RzVZYjFuNDlaM1Nkb25PeEZ4ZWt4TFZrWG9BYTBaR0liSHZzRkxvcHQwa2kzMnZnRVNXbS1zc2xqY2c1eUZEX29FZXdR?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Anthropic IPO Meets Nvidia Scandal. Hold On to Your Hats.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbUJSMlJidTFiNExXLThiNlp6TTBTTEpoVHFRSFdYSXRxYVFvUFJ2dnc3QjBtZGd4c0FaM2hrc3JiRUV4TGhFU2pRblJDb05KbnAzVUxKeGhkWEV0RnpJcV82dVhsNUJITEVIYjFDRGhFb3UwTHYwSE9UY1pKSF92NA?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Skydance outlines its $6 billion in planned cost savings. Here s the breakdown",
       "summary": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
@@ -9,126 +99,36 @@
       "source": "CNBC"
     },
     {
-      "title": "The short seller who saw signs of Nvidia s China scandal months ago claims Megaspeed isn t the only company helping China access chips",
-      "summary": "We were confident in the research initially, and we re still confident in it now, says Christian Lamarco, founder of Culper Research",
-      "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+      "title": "I m sick of flying : I paid for priority boarding, but the overhead bins were full. Was I duped?",
+      "summary": "Maybe next time I ll try the other approach: I ll board whenever I feel like it and drop my suitcase in the first open slot I see.",
+      "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exxon Takes First Step Toward Investing in Venezuela",
+      "title": "Senior U.S. Soldier Is Arrested in U.K. Over Allegations of Spying for Russia",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWW9IY0xQOGQtXzBTdnMxdUlXelVuT1NYMHNQcXRaNXdmYTMxZ2FtVTVxa0tQVWthNVFxdUNjUUczS0JZQUpuQ2kxZmswYml1VEItMkpvQmNBdXlHUWo2cGxlRy1TZ2RiOG9iSVNiWkhkN3JRWHpMVURUeUZfTnhFMC0zNnhoY045Wm4zbWx1elFaYTByWjJVYXBPclI5alAzZmpN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1hXUmROdkNCbGh4SUZuSFc1Yk9fY2RIQXZDQWo0STBTWmVJMk9ZLTh0MW1BOUZOdl9HS2IxRjBCclV6RDJoSFhxenZkTHZCbS1XMmlGazBhMmx4WTRnYlFIaXdRMHpET0FKVUE3TTVrR3d3WHFPM1l3MURzYUpVbUR3?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "ExxonMobil Signs Deal in Step Toward Re-Entering Venezuela",
+      "title": "Huang’s Close Ties to Trump Come Under Scrutiny After Spy Claim",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBxNnRQNzFQWDFsaFJIMTAxV184OV9FdFY0TmlETVFoT3FHZ3oxcmtVNXl5Zm92ZDVROFNzN09kME5nRGlXSzFJQzVQaTFBWXd1RFB1NDlubGM0alNnQklRdFdBXzhGLUkxOUJQcmhWTjRSOFFnNHRUTHRLWTd3eUpmVGpESERWZFlVWklVZXlzbmgwdlRuYmJCVWswZ21tZUstQV9qNmEzWFk5RlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcnVzQUUyV3M3UWRpYzhoUk9NSm9vYklPdEYyQXJ3TFRsQWNFQ2hUSVFGUGlpM0d0MHI0b2hfYnd3NjhmX3RTUXBOSldCejVMc3duWkw4MTZldld2OHlKN1ZfdDJWaVlkU1JOTl9Eb29FUWpaaExxMTVxWmY4MThha1VxaW9KMUVBNnVsTnJRWFpRMkRJRmdqY0FwV3F4VzhZSVFBRE9QVGJfV090OHh3QmRTd2I?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Stocks Needed a Clear Runway For a Post-Election Rally. Nvidia May Have Blocked it.",
+      "title": "Nvidia CEO Huang Gets More Bad News. Cathie Wood Keeps the Faith.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRFJqMFYtOHJNMktqd1FSSlozbUpTUDdUdjB1aDg2Nkt0Znd3Y000R3ZYUjdJT3psX24wb0VZTVFFRlRFTUVEMzBNOVFZZ1Y2dzFYSkdkMVhEWFJOZXdweFpEYkJaUHBCaWNndk5LSjN3d0YtYWppYlh3S0pUMmpJaFBEU0ExLTNyQlE1TlN3?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
-      "summary": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
-      "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "This retired professor has reinvented himself as a Taylor Swift scholar",
-      "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he s a successful podcaster at 72.",
-      "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | U.S. Balks at China’s Demand for Tightly Scripted Trump-Xi-Putin Summit",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObnAzVTNhOC15X1poVDJLYlpWdnNSOU9oemg4ajhpeHJjbDhrdkFoYUZTWVYzbFQ4N3J5YmxESUxDeTF6TkNiUVZqSVNCUWd1Y1F4Vl9rV0NwQnNNWEZDT3NxODBuRG1CNUdGdU1RcDNIcjhDSDA5U1dzbHp3YnUtRHRyT2N6ZHhjRVVOdWc3OWNvbWs1YkJkcVVhNzV0WlJBV01LdGR4S28zYzU2SHhz?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Trump Says FBI Is Reviewing Huang Affair, Cites Call With CEO",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSTFFSkVjWmpFaEtPb09fWE5NNEtNZXM3dG03d1ZQVEJlTnRGVTVPLVdJcXFEb0ZkXzQ2QkNPZDJHdUFUTnpsdTN4bUZXOTdvbVZPUnlEdWZpMURXVWZMLVRqTXFUUDJkNzZZQjlRTllYTE1qZzVUc3M2QnlWZ1RnZ1RFM0RSNkhvQVNWYzlmWU90SlMxNzZwSUVmQVVFZGRSaHRibl9yM2hsMHdPSXRUQ2ozMA?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "SpaceX Could Buy AT&T, Verizon, or T-Mobile to Meet Wireless Goals. Which Fits Best.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORmduamJaaWRoQ0JsUk5WOHV3TEZJWG13cjIxVll0Wi14ZGl3Vkc1Z3R4UmxvamowRXhtN2hzTWEzcElHcXQ0NHRKdkotZzBlOFlOd01UR3dPaXZmTDhWZlUxN19neUlqVGJRVkJBUUxsa29keWtXMjdXcjJBdjhmLURyQVdfcXhMbEQ3X096VXpmdw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Children’s Place files for bankruptcy protection, seeks buyer",
-      "summary": "The Children's Place has filed for chapter 11 bankruptcy protection and is seeking bids from potential new owners by Dec. 9.",
-      "link": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Rocket Lab shares dip after the company s defining quarter misses the mark",
-      "summary": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
-      "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRlNNX2c5SGV4WXdpZ2Utb2NzU0NhVlpUM3MwWEZ3bFdyVHZ5cDZGbnJSWVpEelJrZ0tCQTZrNjUyRTFaLW1JeGxucWtvcEJwOXUyQkwzUkpPQUNEYTFobG9qc3oyTVhHb1VCeDRPck1xU2lla1NtMlY5VkExdmJobDJ6U01LbHgzYjZFTmFHYzFCVjRfM1VxRVJIeE40d3REMXlqT01qQnh5TEg1?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "China Chipmakers to Debut in HK in Test of Tech Stock Demand",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOU5kVnZIVlVQS2NJcFRIYU9lWVNFWGRZN1BYa2RFMlFzSmJDNXA0U29FMm1fUDNIb24yOFE2bDVURVQtaktFamNlUXRrVTRsd2ZKWDRzdVMzcmFzOXdwU1lPSnNUQ1JCbWdZbEFDSnI3czNYYlo1bmlhOHlYalktX3FDZGkxNlM5X1NvM3BidkdsNkM0UXdsRW82RXlDUERBU0RtVVJfTVdJUnJGcldDQw?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Trade Desk’s Earnings Beat Defies Analysts’ ‘Lost Year’ Projections",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kVHhQUW55TVNJcXFMQkRXSDlrMWNqakN4Y0NYdnFyV3lMbTZMa3hpcDFZekFwTXh3bW9QLUN4U2VIWnlfenRtU1l3Q3ctRUVvT0phOWR0bjZZVHRMMXZTRmI1WTRoeDZFei1lRHN2X3ZHbDMzcTB4T1VrVjIzdw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
-      "summary": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
-      "link": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Here s how Bernie Sanders wants to keep Social Security solvent for generations",
-      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
-      "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Skydance Plans to Cut $6 Billion in Costs Following Warner Bros. Deal",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNclVINEVyRk9HVHQwQWtLZzNPRExJSUxpcktfYXVvVmVvUDR3UWtJaTh3RGVCNE5LVUdtaThzdldQZ3ZudHNmRE5yVWNSd3RHOFlQY3ZvT1l0bTZLMjVwX1NFcWgxWWl5aTQyeDMydzNnZXg3d0wwWmU5WWltMGQ1RDhIRjRKa1R5NFNkWm5iMlZoMGpwMFJkdnpLVTI0SmFCaG9oVE50RENuRDZRUkFqTA?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Top Senate Democrat Takes Aim at Big Banks Over Epstein Ties",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdVdZc3dnYVhmVUhSWEJTTTk1T0RpZHhYRHJxbGhJR0tQTlUyRnFadFFlSElZa19uTEN4Q183UF9ta2RSVWladTQxT0RnQ2FnTjN3MkhXazVrdExINjN6SDVJdndSRHhfNlZMRERkaDVIZFdVRU04ekVpWjNwWTEyVnhXMmdsall5MFNHcW5CUDRWMWxoSnhaSEdsanlXMFhNRFprQngxX2U?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Why Ousting Nvidia’s CEO May Be Worse Than the Scandal Itself",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HRXFMT2pzMTR2MGUybjNiVm5aYUhrX0VPZGxUVmMteGIzNmFNZHgzNDRRMHFfb1pNSmxLT1d2a1dPSHlaTGpFdG84c0x4N2FMY2NtYk92M1hZLV9jQi1kQVJIM29rM0pOeFRwUTJCelpHNGpSck55UkZMUld2QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3dGdG53STRpeF9YM1VaZHNKMExGY1l1Q3d0elpTY0p1WDRZYXhWeGRCRFYtczZzQ3hjRUZGY2U2RlhrOFVhMS1neF9ldkd1bU1FTUdhb1BKRHl0dFJHMU4tRlFUN3ZlUXY5eENrMTJSbkJFMUFIc3VPXzF4OGRUdEhIc3Q?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "엔비디아 CEO 스캔들과 증시 변동성 확대",
-  "summary": "엔비디아를 둘러싼 지정학적 및 경영진 관련 스캔들 여파로 뉴욕증시의 변동성이 급격히 확대되며 랠리에 제동이 걸렸다. 다우지수가 수일 만에 큰 폭의 등락을 거듭하는 등 빅테크 중심의 불확실성이 시장 전반의 투자 심리를 짓누르고 있다.",
+  "trend_headline": "인플레 반등과 엔비디아 악재 충격",
+  "summary": "10월 소비자물가(CPI) 상승률이 0.4%로 예상치를 웃돌면서 12월 연준의 금리 인하 기대감이 약화되었고, 동시에 엔비디아 최고경영자(CEO)를 둘러싼 스캔들 및 조사 소식이 겹치며 기술주 전반에 하방 압력을 가했습니다.",
   "key_points": [
-    "엔비디아 CEO 젠슨 황 관련 스캔들 및 미 정부 조사 개입 여파로 주가 하락 및 시장 랠리 차질 발생",
-    "다우지수가 4일간 세 차례나 1,000포인트의 변동 폭을 기록하며 극심한 변동성 노출",
-    "AMD와 브로드컴 등이 엔비디아 반사이익 기대감으로 수혜를 입었으나 추가 규제 우려 상존"
+    "10월 CPI 인플레이션 0.4% 상승으로 12월 연준 금리 인상 및 긴축 장기화 우려 부각",
+    "엔비디아 CEO 관련 스캔들 조사 착수 및 젠슨 황의 트럼프 연계설로 반도체 섹터 변동성 확대",
+    "코어위브의 양호한 실적 및 가이드라인 상향에도 불구하고 매크로 및 개별 악재로 증시 전반 긴장감 고조"
   ],
   "sector_hints": [
     "Technology",

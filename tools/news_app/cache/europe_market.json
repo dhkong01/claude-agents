@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-      "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-      "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+      "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Portugal fuel prices drop 9 cents, biggest fall since March",
-      "summary": "The week began with a major fuel price drop in Portugal since March, down 9 to 9.5 cents for petrol and diesel; it could be bigger, but the government cut the ISP tax discount.",
-      "link": "https://www.euronews.com/2026/11/09/portugal-fuel-prices-drop-9-cents-biggest-fall-since-march",
+      "title": "Paraguay's new president vows to recover pension funds at risk in Ueno Bank crisis",
+      "summary": "Paraguay’s new president, Pedro Alliana, promises to recover pension funds affected by the intervention in Ueno Bank. The crisis, which led to the dismissal of Santiago Peña, has left up to 7,000 people unemployed in Paraguay and other countries.",
+      "link": "https://www.euronews.com/2026/11/10/paraguays-new-president-vows-to-recover-pension-funds-at-risk-in-ueno-bank-crisis",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Europe needs Nvidia. It ll take more than a spy scandal to change that.",
-      "summary": "Though the U.S. chipmaker's boss Jensen Huang may have been caught up in a Chinese espionage operation, Europe has no homegrown alternative to Nvidia.",
-      "link": "https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
+      "summary": "Ukraine's leader wants to be consulted on Europe's choice.",
+      "link": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
-      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "title": "Stickers and building sets help drive toy sales ahead of Christmas rush",
+      "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
+      "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Lecornu announces €24 monthly rise in minimum wage and tax breaks for firms",
-      "summary": "The French Prime Minister has announced an early increase in the minimum wage from 1 December. The government also plans tax measures for businesses and wants to launch a new round of sectoral pay negotiations.",
-      "link": "https://www.euronews.com/2026/11/09/lecornu-announces-24-monthly-rise-in-minimum-wage-and-tax-breaks-for-firms",
+      "title": "Infineon says AI data centre boom to persist despite growing backlash",
+      "summary": "Infineon expects soaring demand for chips powering AI infrastructure to sustain growth, despite mounting concerns over the environmental and economic costs of data centre expansion.",
+      "link": "https://www.euronews.com/2026/11/10/infineon-says-ai-data-centre-boom-to-persist-despite-growing-backlash",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Why Nvidia CEO s affair with alleged Chinese spy matters for AI race",
+      "summary": "Nvidia CEO Jensen Huang has apologized for an affair with a woman the US believes was spying for China. The story could have profound implications for the world s most valuable company and the global AI race.",
+      "link": "https://www.dw.com/en/why-nvidia-ceo-s-affair-with-alleged-chinese-spy-matters-for-ai-race/a-79898338?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Nvidia hires Wachtell Lipton for Jensen Huang investigation",
+      "summary": "The independent investigation follows reports that the CEO had a romantic relationship with an alleged Chinese spy.",
+      "link": "https://www.politico.eu/article/nvidia-hires-wachtell-lipton-for-jensen-huang-investigation/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+      "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Vodafone suffers huge net loss on Germany hit but raises full-year outlook",
+      "summary": "British mobile phone giant Vodafone on Tuesday posted a huge post-tax loss for its first half, linked primarily to a writedown in Germany, but raised its outlook with total revenue increasing.",
+      "link": "https://www.euronews.com/2026/11/10/vodafone-suffers-huge-net-loss-on-germany-hit-but-raises-full-year-outlook",
       "source": "Euronews Business"
     },
     {
@@ -45,94 +69,70 @@
       "source": "DW Business"
     },
     {
-      "title": "EU offers cash for Black Sea attack response",
-      "summary": "Washington is pursuing a diplomatic effort on safe passage, weighing proposals from Turkey and India.",
-      "link": "https://www.politico.eu/article/eu-offers-cash-for-black-sea-attack-response/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Poland says Pentagon backs permanent US base, with Trump decision due in December",
+      "summary": "Warsaw is seeking a lasting American military commitment as NATO allies fear further U.S. troop withdrawals from Europe.",
+      "link": "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-      "summary": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
-      "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+      "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Egypt announces new Mediterranean gas field discovery estimated at 200 billion cubic feet",
-      "summary": "The Ministry of Petroleum attributed the positive results to higher investment and exploration activity, noting a better investment climate and progress in settling overdue payments to foreign companies in the energy sector.",
-      "link": "https://www.euronews.com/2026/11/08/egypt-announces-new-mediterranean-gas-field-discovery-estimated-at-200-billion-cubic-feet",
+      "title": "Central Asia's first wind farm with large-scale batteries nears completion in Uzbekistan",
+      "summary": "Twenty-five of the 26 turbines are already supplying the national grid, while the storage system undergoes safety checks. The €232m investment includes international financing and a 25-year electricity purchase agreement, as large-scale storage installations in Europe more than doubled in 2025.",
+      "link": "https://www.euronews.com/2026/11/10/central-asias-first-wind-farm-with-large-scale-batteries-nears-completion-in-uzbekistan",
       "source": "Euronews Business"
     },
     {
-      "title": "Tesla to wind down production of flop Cybertruck",
-      "summary": "Elon Musk s electric pickup for the future will start to be consigned to the past next year. The Cybertruck s bulk and crude shape meant it could only pass regulatory standards in more permissive markets.",
-      "link": "https://www.dw.com/en/tesla-to-wind-down-production-of-flop-cybertruck/a-79877759?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "La France accuse l Iran d être à l origine des cyberattaques visant les supermarchés",
-      "summary": "Selon le gouvernement français, 700 points de distribution alimentaire ont été touchés.",
-      "link": "https://www.politico.eu/article/la-france-accuse-liran-detre-a-lorigine-de-cyberattaques-visant-les-refrigerateurs-des-supermarches/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Brussels takes on the evils of online commerce",
+      "summary": "The EU is proposing new rules that would fine companies that use manipulative online tactics like \"dynamic pricing\" and \"addictive design\" to lure consumers to buy and pay more.",
+      "link": "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Civil servant who secretly held five jobs found guilty of fraud",
-      "summary": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
-      "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
+      "title": "Sales of tinned food and bottled water jump after 'Be Ready' campaign launch",
+      "summary": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
+      "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Elon Musk's Tesla to 'wind down' Cybertruck production next year",
-      "summary": "Musk said the decision was taken in order to make room for increased production of its Cybercab robotaxi. The move comes after years of weaker-than-expected sales for the futuristic electric pickup.",
-      "link": "https://www.euronews.com/2026/11/06/elon-musks-tesla-to-wind-down-cybertruck-production-next-year",
+      "title": "MWC26 Doha: Mobile economy in MENA set to reach €421bn, but millions remain offline",
+      "summary": "MWC26 returned to Doha as the industry faces a dual challenge: building the networks that will power artificial intelligence and narrowing a digital divide that still leaves millions of people without mobile internet.",
+      "link": "https://www.euronews.com/2026/11/10/mwc26-doha-mobile-economy-in-mena-set-to-reach-421bn-but-millions-remain-offline",
       "source": "Euronews Business"
     },
     {
-      "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
-      "summary": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats US midterm victory have rattled global markets.",
-      "link": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Who’s who for Europe at the Ukraine talks in Abu Dhabi",
-      "summary": "European officials won’t be in the room where it happens in the United Arab Emirates. But they will be attempting to influence negotiations on the margins.",
-      "link": "https://www.politico.eu/article/whos-who-europe-ukraine-talks-abu-dhabi-russia-war/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Ukraine and Russia discuss prisoner swap deal during ‘constructive’ talks",
+      "summary": "Ukraine's Volodymyr Zelenskyy welcomed a positive day of direct negotiations with Russia in Abu Dhabi.",
+      "link": "https://www.politico.eu/article/ukraine-russia-discuss-prisoner-swap-deal-constructive-talks/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "How a civil servant got away with juggling five jobs for so long",
-      "summary": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
-      "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+      "title": "Robot vessels take on the dangerous work of mine hunting",
+      "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
+      "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Baku real estate expo showcases Azerbaijan’s tech-driven urban future",
-      "summary": "What makes a city attractive to investors and the people who live there? From affordable housing and urban planning to smart technologies and changing lifestyles, Azerbaijan’s first International Real Estate Exhibition put the future of the built environment in focus.",
-      "link": "https://www.euronews.com/2026/11/06/baku-real-estate-expo-showcases-azerbaijans-tech-driven-urban-future",
+      "title": "Portugal fuel prices drop 9 cents, biggest fall since March",
+      "summary": "The week began with a major fuel price drop in Portugal since March, down 9 to 9.5 cents for petrol and diesel; it could be bigger, but the government cut the ISP tax discount.",
+      "link": "https://www.euronews.com/2026/11/09/portugal-fuel-prices-drop-9-cents-biggest-fall-since-march",
       "source": "Euronews Business"
-    },
-    {
-      "title": "De quoi la candidature Teddy Riner est-elle le nom ?",
-      "summary": "Le quintuple champion olympique de judo a créé la surprise en présentant sa candidature à la présidentielle dans un entretien au Parisien. Soutiens, financements, positionnement politique, équipe : le judoka peut-il aller jusqu’au bout ? Est-il suffisamment préparé? Que révèle cette initiative sur l",
-      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/de-quoi-la-candidature-teddy-riner-est-elle-le-nom/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Poundland unable to buy new stock as fears over collapse grow",
-      "summary": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
-      "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "AI 거품론과 젠슨 황 스캔들의 투심 타격",
-  "summary": "엔비디아 젠슨 황 CEO를 둘러싼 중국 스파이 연루 의혹과 AI 지출 우려가 맞물리며 유럽 증시가 글로벌 매도세에 동참했습니다. 특히 EU 전역이 대체 불가한 엔비디아 의존도와 지정학적 리스크 사이에서 빅테크 규제 압박을 동시에 저울질하는 양상입니다.",
+  "trend_headline": "프랑스 재정 불안과 EU의 빅테크 규제 압박",
+  "summary": "프랑스의 급증하는 국가 부채와 재정 적자 우려가 시장을 압박하는 가운데, EU는 온라인 커머스의 조작적 상거래 관행에 대한 강력한 규제 신호를 발신했습니다. 한편, 독일 사업부 손실로 대규모 적자를 기록한 보다폰은 연간 전망을 상향 조정하며 실적 차별화를 나타냈습니다.",
   "key_points": [
-    "엔비디아 주가 폭락과 젠슨 황 CEO의 중국 스파이 연루 의혹으로 글로벌 AI 투자 심리 악화",
-    "유럽 증시는 월스트리트 및 아시아 증시의 AI 지출 우려 확산에 따른 글로벌 셀오프에 동참",
-    "프랑스 정부의 최저임금 인상 및 부채 비용 증가 우려 속에서 재정 안정성 압박 가중"
+    "프랑스, 교육 예산 4억 유로 추가 편성 계획 속 치솟는 부채 비용으로 재정 안정성 위협",
+    "EU, '다이나믹 프라이싱' 및 중독적 디자인 등 온라인 쇼핑몰의 조작적 상거래에 대한 신규 제재 추진",
+    "보다폰, 독일 시장 손실 타격으로 대규모 세후 적자 기록했으나 전체 매출 증가로 연간 전망치 상향"
   ],
   "sector_hints": [
-    "Technology",
-    "Automotive",
-    "Energy"
+    "Financials",
+    "Consumer Discretionary",
+    "Technology"
   ]
 }

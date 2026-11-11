@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-09",
-  "risk_score": 7.0,
+  "date": "2026-11-10",
+  "risk_score": 6.5,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 1,
-  "medium_risk_signals": 3,
+  "high_risk_signals": 2,
+  "medium_risk_signals": 1,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "ELEVATED",
@@ -12,21 +12,22 @@
     "Financials": "WATCH"
   },
   "top_risk_events": [
-    "More Than 50 Killed In Yemen In One Of The Deadliest 24 Hours Of The War"
+    "Syria Weighs Sending Troops To Aid Saudi War With Houthis",
+    "Rubio Says \u2018Major Combat Operations\u2019 In Iran War Are No Longer Needed"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Semiconductors, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {
-    "long_pct": 35,
-    "sqqq_pct": 20,
-    "cash_pct": 45,
-    "per_stock_pct": 7.0,
-    "action": "DEFENSIVE",
+    "long_pct": 55,
+    "sqqq_pct": 15,
+    "cash_pct": 30,
+    "per_stock_pct": 11.0,
+    "action": "MODERATE_HEDGE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
       "Semiconductors",
       "Defense"
     ],
-    "reasoning": "Risk 7.0 \u2014 SQQQ 20% \ubc29\uc5b4 \ud3ec\uc9c0\uc158, \ud604\uae08 45% \uc720\uc9c0. [Energy, Semiconductors, Defense ELEVATED]"
+    "reasoning": "Risk 6.5 \u2014 SQQQ 15% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Semiconductors, Defense ELEVATED]"
   }
 }

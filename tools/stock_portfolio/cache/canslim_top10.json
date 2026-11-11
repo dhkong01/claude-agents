@@ -1,25 +1,7 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "analyzed": 139,
   "top10": [
-    {
-      "ticker": "ABNB",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Travel Services",
-      "market_cap": 113554071552,
-      "price": 190.29,
-      "rs_rating": 95.6
-    },
     {
       "ticker": "KDP",
       "canslim_score": 64,
@@ -34,30 +16,12 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 50273128448,
-      "price": 36.94,
-      "rs_rating": 94.9
+      "market_cap": 51158048768,
+      "price": 37.59,
+      "rs_rating": 96.6
     },
     {
-      "ticker": "REGN",
-      "canslim_score": 64,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": 95167889408,
-      "price": 919.96,
-      "rs_rating": 90.1
-    },
-    {
-      "ticker": "MSFT",
+      "ticker": "CSX",
       "canslim_score": 64,
       "scores": {
         "C": 10,
@@ -68,11 +32,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 4048612753408,
-      "price": 545.18,
-      "rs_rating": 86.6
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "market_cap": 94160789504,
+      "price": 51.08,
+      "rs_rating": 82.3
     },
     {
       "ticker": "TXN",
@@ -88,9 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 270370471936,
-      "price": 295.73,
-      "rs_rating": 94.2
+      "market_cap": 274749702144,
+      "price": 300.52,
+      "rs_rating": 95.4
     },
     {
       "ticker": "ROP",
@@ -106,12 +70,12 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 46709542912,
-      "price": 471.64,
-      "rs_rating": 91.4
+      "market_cap": 46989815808,
+      "price": 474.47,
+      "rs_rating": 94.2
     },
     {
-      "ticker": "GEHC",
+      "ticker": "REGN",
       "canslim_score": 61,
       "scores": {
         "C": 10,
@@ -123,28 +87,28 @@
         "M": 7
       },
       "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "market_cap": 37993140224,
-      "price": 84.03,
-      "rs_rating": 83.9
+      "industry": "Biotechnology",
+      "market_cap": 94764441600,
+      "price": 916.06,
+      "rs_rating": 88.3
     },
     {
-      "ticker": "CSX",
-      "canslim_score": 61,
+      "ticker": "MSFT",
+      "canslim_score": 60,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 7,
+        "N": 10,
         "S": 10,
-        "L": 7,
+        "L": 3,
         "I": 10,
         "M": 7
       },
-      "sector": "Industrials",
-      "industry": "Railroads",
-      "market_cap": 93054746624,
-      "price": 50.48,
-      "rs_rating": 82.5
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 3959349575680,
+      "price": 533.16,
+      "rs_rating": 78.7
     },
     {
       "ticker": "AMD",
@@ -160,8 +124,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 834115600384,
-      "price": 508.58,
+      "market_cap": 844989399040,
+      "price": 515.21,
       "rs_rating": 99.0
     },
     {
@@ -180,7 +144,43 @@
       "industry": "Drug Manufacturers - General",
       "market_cap": 251648262144,
       "price": 465.23,
-      "rs_rating": 93.5
+      "rs_rating": 91.8
+    },
+    {
+      "ticker": "MDLZ",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Defensive",
+      "industry": "Confectioners",
+      "market_cap": 84228882432,
+      "price": 66.54,
+      "rs_rating": 68.0
+    },
+    {
+      "ticker": "SBUX",
+      "canslim_score": 57,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 3,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "market_cap": 125353984000,
+      "price": 109.95,
+      "rs_rating": 64.4
     }
   ]
 }

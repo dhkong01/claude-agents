@@ -1,138 +1,137 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "region": "US",
   "headlines": [
     {
-      "title": "Fossil CEO says turnaround is ahead of plan as sales return to growth",
-      "summary": "Watchmaker Fossil said Tuesday that the company is returning to profit and sales growth in the first signs of its turnaround strategy.",
-      "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
+      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+      "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
+      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
       "source": "CNBC"
     },
     {
-      "title": "We had the worst fight : I want my husband to retire at 65, but I don t want to lose his $280,000 salary. Is that unreasonable?",
-      "summary": "We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.",
-      "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+      "title": "Nvidia s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+      "summary": "Nvidia s board of directors reportedly could meet as soon as today to determine the CEO s fate.",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "CoreWeave Meets Wall Street Expectations, Shares Rise",
+      "title": "Exclusive | Nvidia Is Preparing to Oust CEO Jensen Huang",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXZHb0p5N004NFVNNVA1OU9JSDVseExtMURtc3plQk9pU3o3ZGd1enh3UEtLSHhQMndCQTR5aE4wREd3WUV2am81c1FuMDh1bnl6S0pCYmVPRlVMYWxWRk8zM2x5T2ZWWWktT1ZuV1FzUTZLeHJKaU9adlBVakliRUt4TWRwajJIc2cyV0hfR0F5TG9ucmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON2VaZ01EcWdXc1ZGb3plNUNMM294WGZlT0tTbWw2SFNPOHZ3ZERtQlR6RkhLRWF2cHExRnNfWGZINm1NWVoxVjRSUDRTVXRFb1RaRGcyMXFUdEd0LWtlME5SVHJETVdzOHR6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUU?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "CoreWeave Boosts Forecast, Easing Concerns About Slowdown",
+      "title": "Nvidia Working With Outside Firm to Identify CEO Candidates",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYnZDemJ1a0xMRzdaZGhpV3pnaGNQRUhiWWQ4b2RTRFlnTlNTRGV3dnZ6ZkRuZE9YWDhVU241YVJlcnRETW5IMlk2c3NsYTJzM2tCVktKWTVpRHhjdjVCRWt5bUZZQmw5TkMtU0tDdF9BMERGR0czck5EYW9HOUNSa1MzUFJXOUh5dGh2ZThIdzdMY01XcGRfOUJ0M0lTZmpiY2VGS0FmamZMVWZFR1VxTHBQVW4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORHllMDhIbXY1YUhLY2tZa2pNZUlzQkxlaGxGZ1pPdWI4SmxBZV9WYnlrR2hwclRrQVFXTHl5NnBBMWx1b0loTVNEUUhoR01HQ1A5ZXFoMVI1Q0xkSGRmVGtma3QxWGlrdmpCYklUZGZoRmlFYVlfQURLNUE4OVFzSnZRdG9NY3UtZ2VvOUJZY2hmV3pBenBmVlhEaEJpNW5uTHdjTlRwd2lCc3lVWmNz?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "October CPI Inflation Rises 0.4%, Boosting Case for December Fed Rate Hike",
+      "title": "Why Nvidia Stock Rose Despite Calls for CEO Jensen Huang to Step Down",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdGtNMTM4WVBFWnN0T0FFdWwzOWNwQXk3cE1ISUo3dWFORXJpeWNoTG5jU2xCTmowNTR6LUJ2RDZGQS1oQmpZbGdGQ0RDTVlZejMyU2QwdjJMQUNNYkZXdzZyTUo3ZTBDM3dHZjdIRHk3VXlVZXVSbk1XZmlHS21JS3JFbkFmSUdY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UZzI1WVJLZk1fSkxrcWZvOHhNRm5YTWp6bkxqOFN0ZjBTVkJBd2w2dG92eXY5U21SZUdYLU1vQjFRcHpyNkpmTTRYSUdFeWNVZVJmaVpGdWFqNzJhYWtPYzZ2U1lrQWZDZ3BMdFZXTUFKR2hRbURCbEln?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
-      "summary": "Rivian CEO RJ Scaringe says 2027 will be an “inflection year” as the EV maker scales R2 and invests in autonomy.",
-      "link": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
+      "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
+      "summary": "American Airlines' first-class food options include sandwiches, fruit and chia bowls",
+      "link": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
       "source": "CNBC"
     },
     {
-      "title": "Should a widow leave her late partner s home to her stepkids or cut off contact with them?",
-      "summary": "It would be a less drastic step than selling the home now and splitting the proceeds.",
-      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+      "summary": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+      "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Hegseth Survives Impeachment Effort in House",
+      "title": "Nvidia’s Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3llME03T3VISDFpdnVsYVFnTkxrcWNacG5qV3drckZqR2pMNjh1Z2xsOUpvU0ZCdThISy1HY2EzOUxmMnFibUx3RzBYdWVyVEJXMnhoR01ycHhCUFNTbHMtckxxZmF0YzViTGxfQjVnZkJKRGlkUXhuNC1wQl9lWXZkQ2Fkay13dWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTVMxMWYtSHpfTEN1dUVzcTRpZDBkRUR4ZVBENFJxODZHaEg5WHp0ekZFdENtZEZrNDl5eENKWW11LVJFSGd4T0Y0TVNEQU0wRUhoMW5HMVdsUmZmQThZVV9WdmVXc3ZGM0F5Wk1kRlM0TEFXbG51WUNyWGt3WXlRU1I2cmNoNmNocEtkdkktdU9NTVA1dUhiWHlYRG44aUxTM3VlVmdzOU41T3Z4aGxKbkw4VG5RZw?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "PlayStation Cancels Online Shooting Title ‘Fairgames’",
+      "title": "Alleged Chinese Spy at Center of Nvidia Firestorm Is in Beijing",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDgwNkttaGUtXzJfelZnMW1kcWhreWt2QWxtUFliUWxXQ3o1MjZfVmR4OWJGY0xFWnJmLVdyMW1DRG1NWXFtYXpqUVA3RnhHN3VVSkZXbm9GcXB5ZU9xWkhudV9PR00zaGtaRmxUU3ZPUVozNVlVMVBCZzFJcnlEREI4VFhuMTVBU0RqWm5kdG15aENSazQ2SklSbG9sanpfdzh4WQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNUlsOXQyblE2RHpUVDdFYkhQR0hsbWt6V1ViYVUwNG5XWGNqY2pJcjN1Mkl1Nm1PWXIzTWo3Q1o5Z1ZLazJVejhlWkZhQjlnRGxkb2JvazZpT2tUU0h1Mk12MkNjeE82QVRyN2VRWDBTRDZiRDhrbFVpVlRoRFJ6R1pfWGJFUWZiaC1UX3FweFJGOEhwMW84Zmx5NjIyMHU0c25vbHNEUjRwczZjSzEzamZvVHg?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Anthropic IPO: Claude Developer Chases $1.4T Valuation, What to Know",
+      "title": "SpaceX Stock Shrugs Off AI Worries Ahead of Starship Launch",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmE0b0M1U2tYVmtNd2RBd1RnM1ZXZzdvWFlwS2twYXFWWE54cjBRUlZlN1hOSEhqSU5GQUluZkVwdXphdkszOXZQUjZvN1JoMXVjOXIzVG1JR001SHhOamxqZUZ5d1JUU28tR0RJVTZvdi1INzhzaGRVT3prSWItTm1TWHU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVHEyb0JJTS0wMzZoTG1VbUNmZC01cU5lc19zLTVDYnpTX3h6ZVdFOEtGY0REVVptb2x1YmNUMWRNZUYyemVOMmpBaWNNU29lNzRpbVR1dnpoSDVSSkhhSXQtRnFIVk9QQVNteDRKbHhLZHM2ekRKVFVCdkZLQjMxQW9B?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "How GM is trying to talk used car shoppers into buying new vehicles",
-      "summary": "Automakers say that substantial shares of the customers walking into a dealership looking for certified used cars end up buying new. Here's how it works.",
-      "link": "https://www.cnbc.com/2026/11/10/gm-carbravo-used-car-shoppers.html",
+      "title": "JetBlue unveils new first-class seats to bring back profits",
+      "summary": "JetBlue gave reporters a look at its new first-class seats on Wednesday.",
+      "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
       "source": "CNBC"
     },
     {
-      "title": "The thought of living to 100 terrifies me : Is Social Security a giant Ponzi scheme?",
-      "summary": "There is already a demographic run on Social Security.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "title": "Your holiday credit-card bills are going up. What you can do to ease the pain.",
+      "summary": "The government may have lost a month of inflation data, but don t expect your credit card s annual percentage rate to decline because of it.",
+      "link": "https://www.marketwatch.com/story/your-holiday-credit-card-bills-are-going-up-what-you-can-do-to-ease-the-pain-5ddeb446?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Bella Hadid Buys Historic Colorado Mountain Home for $5.5 Million",
+      "title": "Scott Colom Wins Mississippi Senate Seat in Historic Victory",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPXy1kc2dHU0k4dk9iV0lJWHpQMGFrbndQc2d1Si05cnBNdk5YMV8wYzd5SnJxOHdScVQ2OElwUDJfaGlMTGtLMEtmdjVuMWRxLUZITVdDc1dwSlAxRG1sR3g1bEdhTUNxaTdtOEMzS0ZLVEtIQVBFaGdyU2d5MlJwLVpXWXlmWTlEZnVyUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXBWUXlkQ1dVeWdsZ3BNdTlHZkY0Mmw1ZGdZdW9ZY01lUVBNZGN3MjJBeXFOYTNyT3BKdDhMM3dhcDdQMlpVWG5vb214aUpEc0tvNjNqWWNqQ3ppc3RtaXFQN0RrWHNnaEhyRTdBYWZ6YUxzYVVoM09YUWpkclZCN3FDSVNLVXZVY1lpYWlzc1plRFBTNXRrREU5NC10b3BtdXF3X3hnZ1RpS1hT?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Traders Who Rushed to Safety of Bonds Get Rattled in Reversal",
+      "title": "Trump Plans to Sell Public Land, Reducing Size of Federal Estate",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnlwUmR4R1lSbTI5NHBoQ2pIOXp5VjFsbTJSYjBQWE92Z0F3QzhnVEo1dkVuM3NOWHZubDRoNDRGNnFCeWhLOTFmSkZabFB0YWQ0YU5JeF9WZGVrT2JYUHkxR2IxNGNOMF91bHo2RzVZYjFuNDlaM1Nkb25PeEZ4ZWt4TFZrWG9BYTBaR0liSHZzRkxvcHQwa2kzMnZnRVNXbS1zc2xqY2c1eUZEX29FZXdR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbjg3WkU4V3QtWDZVRXBXY0FrUW1CeFo4WlhYeXkwYXY2aW9zal9xVVJpNk5hbk84OVdjdHNrYmFWVTFVc1JCWTcwNHpkSjdpUUUwVjdpLWwxdXlsU3VDX1AyeGlTRUQ2TUpTYWFDZE9EN1lic3p5NlVMX0xXMmlMMzJpSEVBeXowTFNXU0tVZWdZRW9nd0hYRTJsa050X2I3X0xWVzNxdWtEM0lNRjR2Tm45Qk8?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Anthropic IPO Meets Nvidia Scandal. Hold On to Your Hats.",
+      "title": "Why the iPhone Duo Could Kick Off a ‘New Decade’ for Apple",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbUJSMlJidTFiNExXLThiNlp6TTBTTEpoVHFRSFdYSXRxYVFvUFJ2dnc3QjBtZGd4c0FaM2hrc3JiRUV4TGhFU2pRblJDb05KbnAzVUxKeGhkWEV0RnpJcV82dVhsNUJITEVIYjFDRGhFb3UwTHYwSE9UY1pKSF92NA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQkQ2TVl3Xy1kcWpJNktuVlhYcVVfalRMZ0R4MjhxdEEtU0sxMEdRbkYtREJFcGdVWEFrMFRUdks5TVk5VmtQaHBMZDdDMWVDeE9YUlNtdW1zbUttb3YwTV95T2hNaV85bzhzeUVEXzl2Z2xuNUdjQzl2M3lkY09CVk9wSQ?oc=5",
       "source": "Barron's"
     },
     {
-      "title": "Skydance outlines its $6 billion in planned cost savings. Here s the breakdown",
-      "summary": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
-      "link": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html",
+      "title": "Measles is surging in the U.S. — and outbreaks can cost millions",
+      "summary": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
+      "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
       "source": "CNBC"
     },
     {
-      "title": "I m sick of flying : I paid for priority boarding, but the overhead bins were full. Was I duped?",
-      "summary": "Maybe next time I ll try the other approach: I ll board whenever I feel like it and drop my suitcase in the first open slot I see.",
-      "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+      "title": "I m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?",
+      "summary": "I have a net worth of $2.3 million and my only debt is a 15-year mortgage.",
+      "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Senior U.S. Soldier Is Arrested in U.K. Over Allegations of Spying for Russia",
+      "title": "Vance Considers Direct Talks With Iran Hard-Liner in Push to End War",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1hXUmROdkNCbGh4SUZuSFc1Yk9fY2RIQXZDQWo0STBTWmVJMk9ZLTh0MW1BOUZOdl9HS2IxRjBCclV6RDJoSFhxenZkTHZCbS1XMmlGazBhMmx4WTRnYlFIaXdRMHpET0FKVUE3TTVrR3d3WHFPM1l3MURzYUpVbUR3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjRFTzFCWWlaNjZKMmYxR3FMcHc0V2FrUENBOHFCOUFISFZFSnhYcUctSkUwYXpUMXcwVmlrUEo2cEtRTWZCbVZNdC03SVhxTlo0N3ZseEZ6N1J4NUxFVVEwT0R0bzZFS01nRDRIMENrX19WemhZZUdEWW8tSGRGajNjRjhzdUNPckhGTVRQcEtwTTQ0aTdiVVZEMUNjbVBFekJ4RF9ZRWRBVEFJTmRYcGVSelI?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Huang’s Close Ties to Trump Come Under Scrutiny After Spy Claim",
+      "title": "Nvidia Board Meets on Huang’s Fate After Affair With Alleged Spy",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcnVzQUUyV3M3UWRpYzhoUk9NSm9vYklPdEYyQXJ3TFRsQWNFQ2hUSVFGUGlpM0d0MHI0b2hfYnd3NjhmX3RTUXBOSldCejVMc3duWkw4MTZldld2OHlKN1ZfdDJWaVlkU1JOTl9Eb29FUWpaaExxMTVxWmY4MThha1VxaW9KMUVBNnVsTnJRWFpRMkRJRmdqY0FwV3F4VzhZSVFBRE9QVGJfV090OHh3QmRTd2I?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcmJSZU1CcjRDallrenpZcTd5NW82RmdERExUaUF5TFdtWkpSOGNmLUpqX0ZLTjdKclg0REwxNzVNZkd6VUZKX3RWaTFLeVdrUnVwNlI2UmRGcktST3RpS0daUE9BQl9FU25oOURrV2dpOThRNFF4cWhUb2dqRGh6dzBmZk9qMHI2Mkl5Zlo5R2xfLWM1ekVFbjlLNHA3b2VpR2IzaVNheWxpSVRHeE02RlJXYkx6Zw?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Nvidia CEO Huang Gets More Bad News. Cathie Wood Keeps the Faith.",
+      "title": "Micron Is Rebounding. Goldman Prefers These Memory Stocks.",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3dGdG53STRpeF9YM1VaZHNKMExGY1l1Q3d0elpTY0p1WDRZYXhWeGRCRFYtczZzQ3hjRUZGY2U2RlhrOFVhMS1neF9ldkd1bU1FTUdhb1BKRHl0dFJHMU4tRlFUN3ZlUXY5eENrMTJSbkJFMUFIc3VPXzF4OGRUdEhIc3Q?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2bWhjUktMQU1qZzVGbWF5ZE9XNmdGVmtUVU5EMUozbl9pNlJRZnJjOWl6N2ZLLUEwQVMyWEZpa19RT1NLMXZzbVZxTTlGd2lKMDNLa3FKSUUwQi1EQllKbndwY20zMUF3Q0tkeHFXSnUwQllJdGhiRjJKY3I2dw?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "인플레 반등과 엔비디아 악재 충격",
-  "summary": "10월 소비자물가(CPI) 상승률이 0.4%로 예상치를 웃돌면서 12월 연준의 금리 인하 기대감이 약화되었고, 동시에 엔비디아 최고경영자(CEO)를 둘러싼 스캔들 및 조사 소식이 겹치며 기술주 전반에 하방 압력을 가했습니다.",
+  "trend_headline": "엔비디아 CEO 거취 논란과 주가 급락",
+  "summary": "엔비디아 이사회가 젠슨 황 CEO의 거취를 논의 중이라는 보도가 전해진 가운데, 시간외 거래에서 주가가 8% 급락하며 나스닥 선물 하락과 반도체 섹터 전반의 변동성을 키웠습니다. 이와 동시에 코어위브의 자금 조달 및 AI 인프라 호재가 일부 메모리 및 전력 관련주의 반등을 이끌었습니다.",
   "key_points": [
-    "10월 CPI 인플레이션 0.4% 상승으로 12월 연준 금리 인상 및 긴축 장기화 우려 부각",
-    "엔비디아 CEO 관련 스캔들 조사 착수 및 젠슨 황의 트럼프 연계설로 반도체 섹터 변동성 확대",
-    "코어위브의 양호한 실적 및 가이드라인 상향에도 불구하고 매크로 및 개별 악재로 증시 전반 긴장감 고조"
+    "엔비디아 이사회, 젠슨 황 CEO 거취 및 외부 후보 검토 보도로 시간외 주가 8% 급락",
+    "나스닥-100 선물 및 주요 반도체주 전반에 하방 압력 확대",
+    "코어위브의 40억 달러 이상 대규모 고등급 대출 추진 및 AI 경제성 개선이 반도체·전력주 일부 반등 견인"
   ],
   "sector_hints": [
     "Technology",
-    "Semiconductors",
-    "Financials"
+    "Semiconductors"
   ]
 }

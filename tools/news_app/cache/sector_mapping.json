@@ -1,82 +1,68 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 3.5,
-      "rationale": "미국 내 엔비디아 악재 및 금리 인하 기대 약화로 하방 압력이 존재하나, 아시아에서 TSMC의 10월 매출 60% 급증, 한국의 반도체 수출 호조, 알리바바 칩 자회사 상장 추진 등 압도적인 AI 인프라 실질 수요가 성장을 견인하고 있습니다.",
+      "score": 4.0,
+      "rationale": "미국 시장에서는 엔비디아 CEO 거취 관련 악재성 보도로 시간외 급락하며 하방 압력을 받았으나, 대만 TSMC의 10월 매출 호조 및 유럽 인피니언의 AI 데이터센터 수요 낙관론 등 실질적인 AI 반도체 수요 모멘텀은 지속되고 있습니다.",
       "related_tickers": [
-        "TSM",
-        "NVDA"
+        "NVDA",
+        "TSM"
       ],
+      "source_regions": [
+        "US",
+        "ASIA",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "미국 코어위브의 대규모 자금 조달 및 AI 인프라 확장 소식으로 전력 관련주가 반등했으며, 아시아 지역의 전력 요금 개편 움직임 등 AI 데이터센터 증설에 따른 전력 인프라 수요가 수혜 요소로 작용하고 있습니다.",
+      "related_tickers": [],
       "source_regions": [
         "US",
         "ASIA"
       ]
     },
     {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "중동 리스크 심화로 인한 유가 상승 압력과 한국의 유류세 인하 연지 조치 등 에너지 공급망 및 가격 변동성에 대한 시장의 관심과 수익성 기대가 높아지고 있습니다.",
-      "related_tickers": [
-        "XOM",
-        "CVX"
-      ],
+      "name": "Communication Services",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "EU의 신규 디지털 공정법(Digital Fairness Act) 도입 발표로 인해 유럽 내 게임사 및 디지털 엔터테인먼트 플랫폼 기업들의 규제 리스크가 강화되었습니다.",
+      "related_tickers": [],
       "source_regions": [
-        "ASIA"
+        "EUROPE"
       ]
     },
     {
       "name": "Financials",
-      "direction": "negative",
-      "score": -5.0,
-      "rationale": "미국의 10월 CPI 상승에 따른 연준의 금리 인하 기대 약화 및 긴축 장기화 우려와 함께 프랑스의 치솟는 부채 비용 및 재정 적자 불안이 금융 시장 불안 요인으로 작용하고 있습니다.",
-      "related_tickers": [
-        "JPM",
-        "BNPQY"
-      ],
+      "direction": "neutral",
+      "score": 0.0,
+      "rationale": "일본의 생명보험사 국채 매입 관련 규제 완화 호재가 존재하나, 홍콩 IPO 시장의 연속된 부진과 한국 금융당국의 기업 지배구조 규제 강화 등 지역별 호·악재가 상쇄되는 모습을 보였습니다.",
+      "related_tickers": [],
       "source_regions": [
-        "US",
-        "EU"
+        "ASIA"
       ]
     },
     {
       "name": "Consumer Discretionary",
       "direction": "neutral",
-      "score": 0.0,
-      "rationale": "중국을 중심으로 한 중동향 전기차(EV) 수출 급증은 긍정적이나, 유럽연합(EU)의 온라인 쇼핑몰 다이나믹 프라이싱 및 조작적 상거래 관행에 대한 강력한 신규 규제 추진이 상단을 제약하고 있습니다.",
-      "related_tickers": [
-        "BYDDF",
-        "AMZN"
-      ],
+      "score": 1.5,
+      "rationale": "프랑스의 최저임금 조기 인상 조치가 내수 소비에 긍정적 요인으로 작용하는 반면, 중국의 전기차 품질 규제 강화로 자동차 섹터 전반에 신중한 접근이 요구됩니다.",
+      "related_tickers": [],
       "source_regions": [
-        "ASIA",
-        "EU"
-      ]
-    },
-    {
-      "name": "Communication Services",
-      "direction": "positive",
-      "score": 4.0,
-      "rationale": "유럽 시장에서 보다폰이 독일 사업부 손실에도 불구하고 전체 매출 호조에 힘입어 연간 실적 전망치를 상향 조정하며 긍정적인 모멘텀을 형성했습니다.",
-      "related_tickers": [
-        "VOD"
-      ],
-      "source_regions": [
-        "EU"
+        "EUROPE",
+        "ASIA"
       ]
     }
   ],
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 CEO 조사 스캔들 및 매크로 인플레이션 우려로 하락 압력을 받는 반면, 아시아는 TSMC의 기록적인 매출 및 강력한 AI 칩 수출 호조로 강력한 상승 신호를 보이고 있습니다."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "note": "아시아는 전기차 수출 급증으로 긍정적인 반면, 유럽은 EU의 전자상거래 규제 강화 악재로 부정적인 온도를 보이고 있습니다."
+      "note": "미국은 엔비디아 이사회의 CEO 거취 논의 보도로 시간외 8% 급락하며 단기 변동성이 확대된 반면, 아시아(TSMC 매출 호조)와 유럽(인피니언 AI 데이터센터 수요)은 강력한 AI 수요 기반으로 긍정적 신호를 보였습니다."
     }
   ]
 }

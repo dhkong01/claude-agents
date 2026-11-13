@@ -1,60 +1,83 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "positive",
-      "score": 4.0,
-      "rationale": "미국 시장에서는 엔비디아 CEO 거취 관련 악재성 보도로 시간외 급락하며 하방 압력을 받았으나, 대만 TSMC의 10월 매출 호조 및 유럽 인피니언의 AI 데이터센터 수요 낙관론 등 실질적인 AI 반도체 수요 모멘텀은 지속되고 있습니다.",
+      "score": 4.5,
+      "rationale": "미국 시장은 엔비디아 CEO 사임 악재로 단기 하방 압력을 받았으나 AMD·브로드컴의 반사이익이 관찰되었으며, 아시아 시장에서는 TSMC의 10월 매출 급증(+60%) 및 한국 정부의 8,000억 원 규모 AI 반도체 로드맵 발표에 힘입어 강력한 상승 모멘텀을 형성하고 있습니다.",
       "related_tickers": [
         "NVDA",
+        "AMD",
+        "AVGO",
         "TSM"
       ],
       "source_regions": [
         "US",
-        "ASIA",
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Utilities",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "미국 코어위브의 대규모 자금 조달 및 AI 인프라 확장 소식으로 전력 관련주가 반등했으며, 아시아 지역의 전력 요금 개편 움직임 등 AI 데이터센터 증설에 따른 전력 인프라 수요가 수혜 요소로 작용하고 있습니다.",
-      "related_tickers": [],
-      "source_regions": [
-        "US",
         "ASIA"
       ]
     },
     {
-      "name": "Communication Services",
+      "name": "Technology",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "EU의 신규 디지털 공정법(Digital Fairness Act) 도입 발표로 인해 유럽 내 게임사 및 디지털 엔터테인먼트 플랫폼 기업들의 규제 리스크가 강화되었습니다.",
-      "related_tickers": [],
+      "score": -6.5,
+      "rationale": "엔비디아 CEO 젠슨 황의 갑작스러운 사임 및 스캔들 여파로 주가가 급락하며 뉴욕증시 기술주 전반에 투자심리 악화 및 하방 압력이 가해졌습니다.",
+      "related_tickers": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ],
       "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "neutral",
-      "score": 0.0,
-      "rationale": "일본의 생명보험사 국채 매입 관련 규제 완화 호재가 존재하나, 홍콩 IPO 시장의 연속된 부진과 한국 금융당국의 기업 지배구조 규제 강화 등 지역별 호·악재가 상쇄되는 모습을 보였습니다.",
-      "related_tickers": [],
-      "source_regions": [
-        "ASIA"
+        "US"
       ]
     },
     {
       "name": "Consumer Discretionary",
-      "direction": "neutral",
-      "score": 1.5,
-      "rationale": "프랑스의 최저임금 조기 인상 조치가 내수 소비에 긍정적 요인으로 작용하는 반면, 중국의 전기차 품질 규제 강화로 자동차 섹터 전반에 신중한 접근이 요구됩니다.",
-      "related_tickers": [],
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "독일 메르세데스-벤츠의 내수 공장 신규 투자 중단 및 폐쇄 검토, 폭스바겐·아우디의 연이은 대규모 비용 절감 프로그램 가동 등 유럽 완성차 제조업의 구조적 침체가 가시화되었습니다.",
+      "related_tickers": [
+        "MBG",
+        "VOW3"
+      ],
       "source_regions": [
-        "EUROPE",
+        "EU"
+      ]
+    },
+    {
+      "name": "Healthcare",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "중국 당국의 일라이릴리 경구용 비만 치료제 승인을 시작으로 제약·바이오 시장 개방 및 규제 완화 기대감이 상향되었습니다.",
+      "related_tickers": [
+        "LLY"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "한국 정부의 자본시장 개혁 및 부실기업 퇴출 추진, 중국 당국의 증시 신뢰 회복 조치 및 투자자 보호 강화로 아시아 자본시장 전반의 체질 개선 기대감이 높습니다.",
+      "related_tickers": [
+        "055550.KS",
+        "105560.KS"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Energy",
+      "direction": "positive",
+      "score": 5.0,
+      "rationale": "호르무즈 해협 폐쇄 우려 등 지정학적 불안 속에서도 일본 주요 석유 기업들이 견조한 실적을 유지하며 방어적 호조세를 이어가고 있습니다.",
+      "related_tickers": [
+        "1605.T"
+      ],
+      "source_regions": [
         "ASIA"
       ]
     }
@@ -62,7 +85,7 @@
   "conflicting_signals": [
     {
       "sector": "Semiconductors",
-      "note": "미국은 엔비디아 이사회의 CEO 거취 논의 보도로 시간외 8% 급락하며 단기 변동성이 확대된 반면, 아시아(TSMC 매출 호조)와 유럽(인피니언 AI 데이터센터 수요)은 강력한 AI 수요 기반으로 긍정적 신호를 보였습니다."
+      "note": "미국은 엔비디아 악재로 인한 뉴욕증시 대형 기술주 투심 악화(부정적)가 작용한 반면, 아시아는 TSMC의 대규모 매출 성장과 한국의 정부 차원 AI 반도체 지원(긍정적)이 대조를 이루고 있습니다."
     }
   ]
 }

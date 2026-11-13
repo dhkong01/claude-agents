@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "data": [
     {
-      "ticker": "KDP",
-      "current": 38.25,
-      "donchian_upper": 37.59,
-      "donchian_lower": 34.74,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.7,
-      "dist_to_lower_pct": 9.2,
-      "channel_width_pct": 8.2
-    },
-    {
       "ticker": "ANET",
-      "current": 196.68,
-      "donchian_upper": 195.42,
+      "current": 206.63,
+      "donchian_upper": 196.68,
       "donchian_lower": 159.16,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.6,
-      "dist_to_lower_pct": 19.1,
-      "channel_width_pct": 22.8
-    },
-    {
-      "ticker": "MAR",
-      "current": 429.18,
-      "donchian_upper": 428.26,
-      "donchian_lower": 394.4,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.2,
-      "dist_to_lower_pct": 8.1,
-      "channel_width_pct": 8.6
-    },
-    {
-      "ticker": "AAPL",
-      "current": 355.63,
-      "donchian_upper": 350.69,
-      "donchian_lower": 331.9,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.4,
-      "dist_to_lower_pct": 6.7,
-      "channel_width_pct": 5.7
-    },
-    {
-      "ticker": "MPWR",
-      "current": 1478.69,
-      "donchian_upper": 1388.05,
-      "donchian_lower": 1131.43,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -6.1,
-      "dist_to_lower_pct": 23.5,
-      "channel_width_pct": 22.7
+      "dist_to_upper_pct": -4.8,
+      "dist_to_lower_pct": 23.0,
+      "channel_width_pct": 23.6
     },
     {
       "ticker": "AMD",
-      "current": 552.9,
+      "current": 585.3,
       "donchian_upper": 578.44,
       "donchian_lower": 404.4,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 4.6,
-      "dist_to_lower_pct": 26.9,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.2,
+      "dist_to_lower_pct": 30.9,
       "channel_width_pct": 43.0
     },
     {
+      "ticker": "CSX",
+      "current": 52.4,
+      "donchian_upper": 52.27,
+      "donchian_lower": 49.12,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.2,
+      "dist_to_lower_pct": 6.3,
+      "channel_width_pct": 6.4
+    },
+    {
+      "ticker": "FAST",
+      "current": 55.55,
+      "donchian_upper": 55.49,
+      "donchian_lower": 51.91,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.1,
+      "dist_to_lower_pct": 6.6,
+      "channel_width_pct": 6.9
+    },
+    {
+      "ticker": "TXN",
+      "current": 312.48,
+      "donchian_upper": 312.49,
+      "donchian_lower": 277.36,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.0,
+      "dist_to_lower_pct": 11.2,
+      "channel_width_pct": 12.7
+    },
+    {
       "ticker": "MU",
-      "current": 811.3,
+      "current": 798.44,
       "donchian_upper": 983.23,
       "donchian_lower": 656.39,
       "signal": "HOLD",
-      "dist_to_upper_pct": 21.2,
-      "dist_to_lower_pct": 19.1,
+      "dist_to_upper_pct": 23.1,
+      "dist_to_lower_pct": 17.8,
       "channel_width_pct": 49.8
     },
     {
       "ticker": "CRWD",
-      "current": 229.06,
+      "current": 229.87,
       "donchian_upper": 268.02,
       "donchian_lower": 216.9,
       "signal": "HOLD",
-      "dist_to_upper_pct": 17.0,
-      "dist_to_lower_pct": 5.3,
+      "dist_to_upper_pct": 16.6,
+      "dist_to_lower_pct": 5.6,
       "channel_width_pct": 23.6
     },
     {
       "ticker": "SNDK",
-      "current": 977.69,
+      "current": 937.46,
       "donchian_upper": 1404.77,
       "donchian_lower": 806.43,
       "signal": "HOLD",
-      "dist_to_upper_pct": 43.7,
-      "dist_to_lower_pct": 17.5,
+      "dist_to_upper_pct": 49.8,
+      "dist_to_lower_pct": 14.0,
       "channel_width_pct": 74.2
     },
     {
       "ticker": "AEHR",
-      "current": 65.78,
-      "donchian_upper": 71.49,
+      "current": 61.04,
+      "donchian_upper": 69.21,
       "donchian_lower": 49.16,
       "signal": "HOLD",
-      "dist_to_upper_pct": 8.7,
-      "dist_to_lower_pct": 25.3,
-      "channel_width_pct": 45.4
+      "dist_to_upper_pct": 13.4,
+      "dist_to_lower_pct": 19.5,
+      "channel_width_pct": 40.8
+    },
+    {
+      "ticker": "PANW",
+      "current": 322.66,
+      "donchian_upper": 401.7,
+      "donchian_lower": 313.84,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 24.5,
+      "dist_to_lower_pct": 2.7,
+      "channel_width_pct": 28.0
     }
   ]
 }

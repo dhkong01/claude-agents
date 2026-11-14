@@ -35,6 +35,7 @@
       flowToday: r[6] == null ? null : { foreign: r[6], inst: r[7] },
     };
     s.isUS = s.cur !== 'KRW';
+    s.isCrypto = s.market === '암호화폐'; // 재무·수급 없음, 24시간 거래
     s.key = [s.name, s.sym, s.eng, s.code].join(' ').toLowerCase().replace(/\s+/g, '');
     let pending = null, ser = null, d = null;
     s.load = function () {

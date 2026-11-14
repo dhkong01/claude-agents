@@ -10,6 +10,8 @@
   const pctTxt = function (p) { return '<span class="' + cls(p) + '"><i class="ar">' + arrow(p) + '</i> ' + (p > 0 ? '+' : '') + p.toFixed(2) + '%</span>'; };
   const WATCH_KEY = 'mr.watch';
   const RANGES = { '1m': { n: 22, label: '1개월 전', text: '1개월' }, '3m': { n: 66, label: '3개월 전', text: '3개월' }, '6m': { n: 130, label: '6개월 전', text: '6개월' }, '1y': { n: 250, label: '1년 전', text: '1년' } };
+  const CRYPTO_DAYS = { '1m': 30, '3m': 91, '6m': 182, '1y': 365 };
+  const usdKr = function (v) { return v >= 1e12 ? (v / 1e12).toFixed(2) + '조 USD' : v >= 1e8 ? fmt(Math.round(v / 1e8)) + '억 USD' : fmt(Math.round(v)) + ' USD'; };
   const MA_DEFS = [
     { n: 10, color: '#f59e0b' }, { n: 20, color: '#8b5cf6' }, { n: 60, color: '#14a3a3' }, { n: 120, color: '#6b7280' }, { n: 200, color: '#111827' },
   ];
@@ -196,7 +198,7 @@
   function addWatch(q) {
     const found = findStock(q);
     if (!q.trim()) return toast('종목명 또는 코드를 입력해 주세요.');
-    if (!found.length) return toast('검색 결과가 없습니다(코스피·코스닥·나스닥·NYSE 시총 상위 종목 제공): ' + q.trim());
+    if (!found.length) return toast('검색 결과가 없습니다(코스피·코스닥·나스닥·NYSE 시총 상위 종목, 비트코인·이더리움 제공): ' + q.trim());
     const s = found[0];
     if (state.watch.indexOf(s.code) >= 0) return toast(s.name + '은(는) 이미 관심종목입니다.');
     state.watch.push(s.code); saveWatch();
@@ -214,7 +216,7 @@
     const sub = s.isUS ? esc(s.sym) + ' · ' + esc(s.market) + (s.eng ? ' · ' + esc(s.eng) : '') : esc(s.code) + ' · ' + esc(s.market);
     return '<section class="card stock-head"><div><h1>' + esc(s.name) + ' <small>' + sub + '</small></h1>' +
       '<div class="price"><strong class="' + cls(s.chg) + '">' + px(s, s.price) + '</strong>' + (s.isUS ? '<small class="cur">USD</small>' : '') + '<span class="' + cls(s.chg) + '"><i class="ar">' + arrow(s.chg) + '</i> ' + px(s, Math.abs(s.chg)) + ' (' + (s.pct > 0 ? '+' : '') + s.pct.toFixed(2) + '%)</span></div></div>' +
-      '<div class="head-r"><span class="meta">' + (s.lastDate || MR.asOf) + (s.isUS ? ' 종가 (미국 현지 거래일)' : (s.live && MR.sessionFor(s.lastDate || MR.asOf) === '장중' ? ' 장중 현재가' : ' 종가 마감')) + (s.live ? ' · 네이버 증권' : ' · 샘플 데이터') + '</span><button type="button" class="btn-line" data-toggle-watch="' + s.code + '">' + (watched ? '★ 관심종목 해제' : '☆ 관심종목 추가') + '</button></div></section>';
+      '<div class="head-r"><span class="meta">' + (s.lastDate || MR.asOf) + (s.isCrypto ? ' 현재가 (UTC 일봉 · 24시간 거래)' : s.isUS ? ' 종가 (미국 현지 거래일)' : (s.live && MR.sessionFor(s.lastDate || MR.asOf) === '장중' ? ' 장중 현재가' : ' 종가 마감')) + (s.isCrypto ? ' · yfinance' : s.live ? ' · 네이버 증권' : ' · 샘플 데이터') + '</span><button type="button" class="btn-line" data-toggle-watch="' + s.code + '">' + (watched ? '★ 관심종목 해제' : '☆ 관심종목 추가') + '</button></div></section>';
   }
   function chartCard(s) {
     const ser = s.series(), last = ser.bars.length - 1;
@@ -230,12 +232,15 @@
       '<p class="legend-line"><b class="gold">골든</b> 골든크로스 · 20일선이 60일선을 상향 돌파 <b>데드</b> 데드크로스 · 20일선이 60일선을 하향 이탈</p></section>';
   }
   function drawCandle(s) {
-    const ser = s.series(), r = RANGES[state.range], start = ser.bars.length - r.n;
+    // 암호화폐는 매일 거래되므로 기간을 달력일 기준으로 자른다(주식은 거래일 기준)
+    const r = RANGES[state.range], n = s.isCrypto ? CRYPTO_DAYS[state.range] : r.n;
+    const ser = s.series(), start = Math.max(0, ser.bars.length - n);
     MR.candleChart($('#candle'), ser.bars.slice(start), MA_DEFS.map(function (d) {
       return { n: d.n, color: d.color, values: ser.ma[d.n].slice(start) };
-    }), { leftLabel: r.label, rightLabel: (s.lastDate || MR.asOf).slice(5), dec: s.isUS ? 2 : 0 });
+    }), { leftLabel: r.label, rightLabel: (s.lastDate || MR.asOf).slice(5), dec: s.isUS ? 2 : 0, volLabel: s.isCrypto ? '거래대금' : '거래량' });
   }
   function flowCard(s) {
+    if (s.isCrypto) return '';
     if (!s.flow5) return '<section class="card"><h2>외국인 · 기관 수급</h2><p class="empty">미국 주식은 투자자별 수급 정보를 제공하지 않습니다.</p></section>';
     const dts = s.dates5(), f = s.flow5;
     const rows = dts.map(function (d, i) {
@@ -275,6 +280,7 @@
       '<p class="note">일별 순매매 수량 × 당일 종가 환산 · 기타 법인 등은 포함하지 않아 세 값의 합이 0이 아닙니다 · 기관은 연기금 등 기관계</p></section>';
   }
   function finCard(s) {
+    if (s.isCrypto) return '';
     return '<section class="card"><div class="card-head"><h2>실적 · 재무</h2><div class="seg" id="finSeg">' +
       '<button type="button" data-fin="annual" class="' + (state.fin === 'annual' ? 'active' : '') + '">연간' + (s.live ? '' : ' (5년)') + '</button>' +
       '<button type="button" data-fin="quarter" class="' + (state.fin === 'quarter' ? 'active' : '') + '">분기' + (s.live ? '' : ' (5개 분기)') + '</button></div></div>' +
@@ -284,6 +290,7 @@
       '음수(파랑)는 현금 유출 · FCF는 영업CF와 투자CF의 합으로 단순 계산</p></section>';
   }
   function drawFin(s) {
+    if (s.isCrypto) return;
     const d = s.fin(state.fin);
     if (!d) { $('#finChart').innerHTML = ''; $('#finTable').innerHTML = '<p class="empty">재무 데이터를 가져오지 못했습니다.</p>'; return; }
     const unit = d.unit || '억원';
@@ -308,7 +315,8 @@
   }
   function metricsCard(s) {
     const dash = function (v) { return v == null || v === '' ? '-' : v; };
-    const m = [['시가총액', dash(s.cap)], ['PER', dash(s.per)], ['PBR', dash(s.pbr)],
+    const m = s.isCrypto ? [['시가총액', dash(s.cap)], ['52주 최고 / 최저', s.hi52 == null ? '-' : px(s, s.hi52) + ' / ' + px(s, s.lo52)],
+      ['최근 일봉 거래대금', s.volume == null ? '-' : usdKr(s.volume)], [(s.extra && s.extra[0]) || '유통량', dash(s.extra && s.extra[1])]] : [['시가총액', dash(s.cap)], ['PER', dash(s.per)], ['PBR', dash(s.pbr)],
       ['52주 최고 / 최저', s.hi52 == null ? '-' : px(s, s.hi52) + ' / ' + px(s, s.lo52)], ['거래량', s.volume == null ? '-' : fmt(s.volume) + '주'],
       s.extra ? [s.extra[0], dash(s.extra[1])] : ['외국인 지분율', '-']];
     return '<section class="card"><h2>투자 지표</h2><dl class="metrics">' + m.map(function (r) {

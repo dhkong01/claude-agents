@@ -36,7 +36,9 @@ A = "https://api.stock.naver.com"
 KST = dt.timezone(dt.timedelta(hours=9))
 DEFAULT_WATCH = ["005930", "000660", "042700", "196170"]
 # 시총 상위 N개에 안 들어도 항상 수집·검색되게 할 미국 종목 (네이버 reutersCode)
-EXTRA_US = [("CRDO.O", "NASDAQ")]
+EXTRA_US = [("CRDO.O", "NASDAQ"), ("BE", "NYSE")]
+# 암호화폐(yfinance 일봉): (심볼, 한글명, 티커, 영문명). 재무·수급이 없고 24시간 거래
+CRYPTO = [("BTC-USD", "비트코인", "BTC", "Bitcoin"), ("ETH-USD", "이더리움", "ETH", "Ethereum")]
 N_KOSPI, N_KOSDAQ, N_NASDAQ, N_NYSE = 200, 250, 150, 150  # 시장별 시총 상위 N개
 CF_TOP = 150  # 현금흐름(yfinance, 느림)은 한국 시총 상위 N개에만
 RANK_N, SPARK_N, BARS_N = 8, 24, 450
@@ -421,6 +423,47 @@ def build_kr(row, with_cf):
     return idx, detail
 
 
+def usd_kr(v):
+    """USD 금액을 '1.37조 USD' / '4,500억 USD' 형태로"""
+    if v >= 1e12:
+        return f"{v / 1e12:,.2f}조 USD"
+    if v >= 1e8:
+        return f"{v / 1e8:,.0f}억 USD"
+    return f"{v:,.0f} USD"
+
+
+def build_crypto(code, name, sym, eng):
+    """비트코인·이더리움: yfinance 일봉(UTC 기준)으로 색인 한 줄 + 상세를 만든다."""
+    if yf is None:
+        return None
+    try:
+        t = yf.Ticker(code)
+        df = t.history(period="2y", auto_adjust=False).dropna(subset=["Close"]).tail(BARS_N)
+        if len(df) < 30:
+            raise ValueError("봉 부족")
+        bars = [[int(d.strftime("%Y%m%d")), round(float(r["Open"]), 2), round(float(r["High"]), 2), round(float(r["Low"]), 2),
+                 round(float(r["Close"]), 2), int(r["Volume"] or 0)] for d, r in df.iterrows()]
+    except Exception as e:
+        log(f"skip {code} ({e!r})")
+        return None
+    price, prev = bars[-1][4], bars[-2][4]
+    chg, pct = round(price - prev, 2), (price - prev) / prev * 100
+    year = bars[-365:]
+    cap = circ = None
+    try:
+        info = t.info or {}
+        cap, circ = info.get("marketCap"), info.get("circulatingSupply")
+    except Exception:
+        pass
+    detail = {
+        "cap": usd_kr(cap) if cap else None, "per": None, "pbr": None,
+        "hi52": max(b[2] for b in year), "lo52": min(b[3] for b in year), "volume": bars[-1][5],
+        "extra": ["유통량", f"{circ / 1e4:,.0f}만 {sym}" if circ else None], "flow": None, "issues": [], "fin": None, "bars": bars,
+    }
+    idx = [code, name, "암호화폐", price, chg, round(pct, 2), None, None, sym, eng, "USD"]
+    return idx, detail
+
+
 def build_us(row):
     code = row["reutersCode"]
     basic = get(f"{A}/stock/{code}/basic")
@@ -563,6 +606,7 @@ def main():
         log(f"미국 {len(rows)}종목 수집")
         with ThreadPoolExecutor(max_workers=8) as ex:
             res = list(ex.map(build_us, rows))
+        res += [build_crypto(*c) for c in CRYPTO]  # 해외(미국) 갱신에 함께 수집
         for r in res:
             if r:
                 new_rows.append(r[0]); details[r[0][0]] = r[1]

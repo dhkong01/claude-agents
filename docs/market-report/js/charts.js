@@ -52,7 +52,7 @@
       const vb = H - pb, vt = vb - VH;
       s += '<line class="grid" x1="' + pl + '" x2="' + (W - pr) + '" y1="' + vb + '" y2="' + vb + '"/>' +
         '<text class="axis" x="' + (W - pr + 6) + '" y="' + (vt + 10) + '">' + fv(vmax) + '</text>' +
-        '<text class="axis" x="' + (W - pr + 6) + '" y="' + (vb - 2) + '">거래량</text>';
+        '<text class="axis" x="' + (W - pr + 6) + '" y="' + (vb - 2) + '">' + (o.volLabel || '거래량') + '</text>';
       bars.forEach(function (b, i) {
         if (!(b.v > 0)) return;
         const h = Math.max(1, b.v / vmax * VH);
@@ -98,7 +98,7 @@
       const b = bars[i], prev = i > 0 ? bars[i - 1].c : null;
       const pct = prev ? (b.c - prev) / prev * 100 : null;
       xh.setAttribute('x1', x(i)); xh.setAttribute('x2', x(i)); xh.style.display = '';
-      tip.innerHTML = '<b>' + b.d + '</b><span>시 ' + fp(b.o) + '</span><span>고 ' + fp(b.h) + '</span><span>저 ' + fp(b.l) + '</span><span>종 ' + fp(b.c) + '</span>' + (b.v > 0 ? '<span>거래량 ' + fmt(b.v) + '</span>' : '') +
+      tip.innerHTML = '<b>' + b.d + '</b><span>시 ' + fp(b.o) + '</span><span>고 ' + fp(b.h) + '</span><span>저 ' + fp(b.l) + '</span><span>종 ' + fp(b.c) + '</span>' + (b.v > 0 ? '<span>' + (o.volLabel || '거래량') + ' ' + fmt(b.v) + '</span>' : '') +
         (pct == null ? '' : '<span class="' + (pct >= 0 ? 'up' : 'down') + '">' + (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%</span>');
       tip.hidden = false;
       const px = x(i) / k;

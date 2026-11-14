@@ -20,10 +20,41 @@
     });
   };
 
-  /* 2018 경로의 상대 움직임을 오늘 값에 그대로 적용한 가정선: 오늘 이후 일차별 값 (그 전은 null) */
-  function projection(d) {
-    const now = d.cur.v.length - 1, base = d.cur.v[now], rb = d.ref.v[now];
-    return d.ref.v.map(function (rv, i) { return i < now ? null : base * rv / rb; });
+  /* 현재 추세 반영 가정선 (일별 로그수익률로 오늘 값에서 이어 그림; 오늘 이전은 null)
+   *  - 가까운 날: 최근 10거래일의 평균 추세(m)를 따라간다
+   *  - 먼 날: 2018 경로의 일별 등락으로 수렴하되, 크기는 "지금 변동성 ÷ 2018 같은 기간 변동성"(beta)으로 보정하고
+   *    반영 비율 alpha 는 시나리오별(0 / 0.5 / 1) — 0이면 추세가 사라진 뒤 횡보
+   *  비중 w = exp(-k/TAU) (k = 오늘로부터의 거래일 수) */
+  const TAU = 15;
+  // 시나리오: 2018 경로를 얼마나 반영하느냐(alpha)로 나눈다 — 0 = 무반영(얕은 조정), 1 = 2018 그대로(깊은 조정)
+  const SCEN = [
+    { key: 'shallow', name: '얕은 조정', short: '얕음', alpha: 0, color: '#d9a400' },
+    { key: 'mid', name: '중간 조정', short: '중간', alpha: 0.5, color: '#e8590c' },
+    { key: 'deep', name: '깊은 조정', short: '깊음', alpha: 1, color: '#a61e4d' }
+  ];
+  function projection(d, alpha) {
+    const cv = d.cur.v, rv = d.ref.v, now = cv.length - 1;
+    const lr = function (a, i) { return Math.log(a[i] / a[i - 1]); };
+    const sd = function (a) {
+      const m = a.reduce(function (p, q) { return p + q; }, 0) / a.length;
+      return Math.sqrt(a.reduce(function (p, q) { return p + (q - m) * (q - m); }, 0) / a.length);
+    };
+    const out = rv.map(function () { return null; });
+    out[now] = cv[now];
+    if (now < 5) { // 표본이 적으면 2018 경로를 오늘 값에 그대로 적용
+      for (let i = now + 1; i < rv.length; i++) out[i] = cv[now] * rv[i] / rv[now];
+      return out;
+    }
+    const cr = [], rr = [];
+    for (let i = 1; i <= now; i++) { cr.push(lr(cv, i)); rr.push(lr(rv, i)); }
+    const beta = Math.max(0.6, Math.min(1.6, sd(cr) / (sd(rr) || 1)));
+    const k0 = Math.min(10, cr.length), recent = cr.slice(-k0);
+    const m = recent.reduce(function (p, q) { return p + q; }, 0) / k0;
+    for (let i = now + 1; i < rv.length; i++) {
+      const w = Math.exp(-(i - now) / TAU);
+      out[i] = out[i - 1] * Math.exp(w * m + (1 - w) * alpha * beta * lr(rv, i));
+    }
+    return out;
   }
 
   /* ---------- 차트 ---------- */
@@ -31,14 +62,14 @@
   MR.cycleChart = function (el, d, o) {
     o = o || {};
     const END = d.endDay, X = Math.min(o.xmax || END, END), cur = d.cur, ref = d.ref, now = cur.v.length - 1;
-    const proj = o.proj ? projection(d) : null;
+    const projs = o.proj ? SCEN.map(function (sc) { return { sc: sc, v: projection(d, sc.alpha) }; }) : null;
     const W = Math.max(el.clientWidth, 300), H = W < 520 ? 340 : 400;
     const pl = 38, pr = 16, pt = 34, pb = 46;
     const vis = [];
     for (let i = 0; i <= X; i++) {
       vis.push(ref.v[i]);
       if (i < cur.v.length) vis.push(cur.v[i]);
-      if (proj && proj[i] != null) vis.push(proj[i]);
+      if (projs) projs.forEach(function (p) { if (p.v[i] != null) vis.push(p.v[i]); });
     }
     const lo = Math.floor((Math.min.apply(null, vis) - 3.5) / 5) * 5; // 저점 아래에 라벨을 둘 여유
     const hi = Math.ceil((Math.max.apply(null, vis) + 1) / 5) * 5;
@@ -70,20 +101,23 @@
       s += '<line class="cy-fomc" x1="' + x(f.day).toFixed(1) + '" x2="' + x(f.day).toFixed(1) + '" y1="' + (pt - 6) + '" y2="' + (H - pb) + '"/>' +
         '<text class="cy-axis cy-fomc-t" x="' + (x(f.day) + 5).toFixed(1) + '" y="' + (pt - 12) + '">' + (W < 520 ? "'18 FOMC" : '2018 FOMC ' + md(f.date)) + '</text>';
     });
-    if (proj) s += '<path d="' + poly(proj) + '" fill="none" stroke="' + C_CUR + '" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round" opacity=".7"/>';
+    if (projs) projs.forEach(function (p) {
+      s += '<path d="' + poly(p.v) + '" fill="none" stroke="' + p.sc.color + '" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round" opacity=".85"/>';
+    });
     s += '<path d="' + poly(ref.v) + '" fill="none" stroke="' + C_REF + '" stroke-width="2" stroke-linejoin="round"/>' +
       '<path d="' + poly(cur.v) + '" fill="none" stroke="' + C_CUR + '" stroke-width="2.4" stroke-linejoin="round"/>';
     if (cur.v.length <= 80) {
       cur.v.forEach(function (v, i) { if (i <= X) s += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="2.6" fill="' + C_CUR + '"/>'; });
     }
     const marks = d.marks.filter(function (m) { return m.day <= X; });
-    if (proj) { // 2018 저점일에 해당하는 예상 저점
-      const lm = d.marks.filter(function (m) { return m.s === 'ref' && m.label.indexOf('저점') >= 0; })[0];
-      if (lm && lm.day <= X && lm.day >= now) marks.push({ s: 'cur', day: lm.day, v: proj[lm.day], label: '예상 저점 ' + f1(proj[lm.day]), pos: 'below' });
-    }
+    if (projs) projs.forEach(function (p) { // 시나리오별 예상 저점
+      let mi = -1;
+      p.v.forEach(function (v, i) { if (v != null && i > now && i <= X && (mi < 0 || v < p.v[mi])) mi = i; });
+      if (mi > 0 && p.v[mi] < cur.v[now]) marks.push({ s: p.sc.key, color: p.sc.color, day: mi, v: p.v[mi], label: p.sc.short + ' ' + f1(p.v[mi]), pos: p.sc.key === 'deep' ? 'left' : 'below' });
+    });
     const off = { above: [0, -11, 'middle'], below: [0, 18, 'middle'], right: [9, 4, 'start'], left: [-9, 4, 'end'] };
     marks.forEach(function (m) {
-      const o2 = off[m.pos] || off.above, col = m.s === 'cur' ? C_CUR : C_REF;
+      const o2 = off[m.pos] || off.above, col = m.color || (m.s === 'cur' ? C_CUR : C_REF);
       s += '<circle cx="' + x(m.day).toFixed(1) + '" cy="' + y(m.v).toFixed(1) + '" r="4.4" fill="' + col + '" stroke="#fff" stroke-width="1.5"/>' +
         '<text class="cy-mark" data-mx="' + x(m.day).toFixed(1) + '" data-pos="' + m.pos + '" x="' + (x(m.day) + o2[0]).toFixed(1) + '" y="' + (y(m.v) + o2[1]).toFixed(1) + '" text-anchor="' + o2[2] + '">' + m.label + '</text>';
     });
@@ -114,7 +148,7 @@
       tip.innerHTML = '<b>' + day + '일차 · ' + ymd(d.cal[day]) + '</b>' +
         '<span style="color:#aab8ff">2018 ' + md(ref.dates[day]) + ' · ' + f1(rv) + '</span>' +
         (has ? '<span style="color:#ffb085">2026 · ' + f1(cur.v[day]) + '</span><span>2018 대비 ' + sg(cur.v[day] - rv, 1) + '%p</span>'
-          : proj ? '<span style="color:#ffb085">예상(2018 경로 적용) · ' + f1(proj[day]) + '</span>' : '<span>2026 · 아직 오지 않은 날</span>');
+          : projs ? projs.map(function (p) { return '<span style="color:' + p.sc.color + '">' + p.sc.short + ' ' + f1(p.v[day]) + '</span>'; }).join('') : '<span>2026 · 아직 오지 않은 날</span>');
       tip.hidden = false;
       const px = x(day) / k;
       tip.style.left = (px > r.width / 2 ? px - tip.offsetWidth - 12 : px + 12) + 'px';
@@ -179,13 +213,13 @@
       '<span class="ma-chip"><i style="background:' + C_REF + '"></i>2018~19 (' + md(d.ref.peak) + ' 고점=100, ' + md(d.ref.start) + '부터)</span>' +
       '<span class="ma-chip"><i style="background:' + C_CUR + '"></i>2026 (' + md(cur.peak) + ' 고점=100)</span>' +
       '<span class="ma-chip"><i class="cy-dash"></i>FOMC</span>' +
-      '<span class="ma-chip cy-proj-chip"' + (ui.proj ? '' : ' hidden') + '><i class="cy-dash c"></i>2018 경로 적용 예상(참고용)</span></div>';
+      '<span class="ma-chip cy-proj-chip"' + (ui.proj ? '' : ' hidden') + '>예상(참고용) ' + SCEN.map(function (sc) { return '<i class="cy-dash" style="border-top-color:' + sc.color + '"></i>' + sc.name; }).join(' ') + '</span></div>';
     return ctx.pageHead('QQQ 사이클 추적 · 2018년 하반기 비교', ymd(last) + ' 종가 기준 · ' + d.generatedAt.slice(5, 16).replace('T', ' ') + ' 수집 · yfinance') +
       kpis(d) +
       '<section class="card"><div class="card-head"><h2>고점 이후 경로 비교</h2>' + controls() + '</div>' + legend + '<div class="cycle" id="cycleChart"></div>' +
       '<p class="note">QQQ 종가를 고점=100으로 지수화했습니다. 가로축은 고점 이후 거래일 수(위)와 2026~27년 대응 날짜(아래)이고, 2018년 선은 ' + md(d.ref.start) +
       '(2018년 8/29 고점 직후 조정이 시작된 날 = 2026 고점일과 같은 0일차)부터 실제 일별 종가로 겹쳤습니다. 2026년 선은 ' + ymd(d.endDate) + '(' + d.endDay + '일차)까지 수집 때마다 이어 그려집니다.</p>' +
-      '<p class="note cy-proj-note"' + (ui.proj ? '' : ' hidden') + '>예상선은 2018년의 일별 등락을 오늘 값에 그대로 적용한 가정일 뿐 예측이 아닙니다. 실제 경로는 달라질 수 있습니다.</p></section>' +
+      '<p class="note cy-proj-note"' + (ui.proj ? '' : ' hidden') + '>예상선은 오늘 값에서 출발해 최근 10거래일 추세를 따라가다가(약 15거래일 만에 영향 감소) 2018년의 일별 등락으로 서서히 수렴하는 가정입니다. 2018을 얼마나 반영하느냐로 세 가지로 나눴습니다 — 얕은 조정(0%: 추세가 사라진 뒤 횡보) · 중간 조정(50%) · 깊은 조정(100%: 2018 등락 그대로, 변동성만 현재 기준 보정). 예측이 아니며 실제 경로는 달라질 수 있습니다.</p></section>' +
       milestones(d);
   }
 

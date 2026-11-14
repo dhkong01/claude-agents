@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "analyzed": 139,
   "top10": [
     {
-      "ticker": "ANET",
+      "ticker": "REGN",
       "canslim_score": 67,
       "scores": {
         "C": 10,
@@ -14,11 +14,11 @@
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 261056839680,
-      "price": 206.63,
-      "rs_rating": 94.2
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": 98841321472,
+      "price": 955.47,
+      "rs_rating": 92.8
     },
     {
       "ticker": "TXN",
@@ -34,9 +34,9 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 285534945280,
-      "price": 312.48,
-      "rs_rating": 96.2
+      "market_cap": 277420670976,
+      "price": 303.6,
+      "rs_rating": 96.9
     },
     {
       "ticker": "ABNB",
@@ -52,27 +52,27 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 108087918592,
-      "price": 181.13,
-      "rs_rating": 91.4
+      "market_cap": 111459508224,
+      "price": 186.78,
+      "rs_rating": 94.2
     },
     {
-      "ticker": "REGN",
+      "ticker": "ANET",
       "canslim_score": 64,
       "scores": {
         "C": 10,
         "A": 10,
-        "N": 10,
+        "N": 7,
         "S": 10,
-        "L": 7,
+        "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": 98398568448,
-      "price": 951.19,
-      "rs_rating": 89.4
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "market_cap": 249256640512,
+      "price": 197.29,
+      "rs_rating": 91.4
     },
     {
       "ticker": "AMD",
@@ -88,45 +88,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 959943081984,
-      "price": 585.3,
+      "market_cap": 875905024000,
+      "price": 534.06,
       "rs_rating": 99.0
     },
     {
-      "ticker": "ROP",
+      "ticker": "KDP",
       "canslim_score": 61,
       "scores": {
-        "C": 7,
-        "A": 10,
+        "C": 10,
+        "A": 7,
         "N": 7,
         "S": 10,
         "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 47326539776,
-      "price": 477.87,
-      "rs_rating": 93.5
-    },
-    {
-      "ticker": "ADI",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 198327812096,
-      "price": 409.29,
-      "rs_rating": 85.9
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "market_cap": 49456865280,
+      "price": 36.34,
+      "rs_rating": 90.1
     },
     {
       "ticker": "CSX",
@@ -142,9 +124,27 @@
       },
       "sector": "Industrials",
       "industry": "Railroads",
-      "market_cap": 96594075648,
-      "price": 52.4,
-      "rs_rating": 84.6
+      "market_cap": 95948881920,
+      "price": 52.05,
+      "rs_rating": 85.9
+    },
+    {
+      "ticker": "MSFT",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 3890434801664,
+      "price": 523.88,
+      "rs_rating": 81.1
     },
     {
       "ticker": "MU",
@@ -160,8 +160,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 903373586432,
-      "price": 798.44,
+      "market_cap": 880597991424,
+      "price": 778.31,
       "rs_rating": 98.3
     },
     {
@@ -178,9 +178,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 133390589952,
-      "price": 937.46,
-      "rs_rating": 96.9
+      "market_cap": 125927505920,
+      "price": 885.01,
+      "rs_rating": 95.6
     }
   ]
 }

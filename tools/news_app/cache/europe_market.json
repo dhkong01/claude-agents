@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-      "summary": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Mercedes-Benz halts new investment in German plants, considers closures",
-      "summary": "The Stuttgart carmaker is temporarily halting all further investment at its German sites. Possible plant closures are looming, increasing pressure on staff, works council and IG Metall. Volkswagen and Audi have also announced major savings programmes.",
-      "link": "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures",
+      "title": "Azerbaijan intensifies its European engagement at the EPC Summit",
+      "summary": "Azerbaijan added additional thrust to its engagement with Europe announcing more energy to the EU, a strategic partnership with the UK, additional agreements with Ukraine, a dozen bilateral meetings with European leaders and a new meeting with Armenia to advance the historic peace process.",
+      "link": "https://www.euronews.com/2026/11/13/azerbaijan-intensifies-its-european-engagement-at-the-epc-summit",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Not even old Andalusian heartlands can save Pedro Sánchez",
-      "summary": "Spain’s most populous region powered the Socialists for decades, but the politics of the south are changing.",
-      "link": "https://www.politico.eu/article/pedro-sanchez-uphill-battle-to-win-back-the-socialists-andalusian-heartland/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+      "summary": "EU leaders have agreed that the E5 format — Germany, France, U.K, Italy and Poland — plus the European Commission and Council will represent the bloc at any future peace negotiations.",
+      "link": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
-      "summary": "Services including Teams, Outlook and Microsoft's AI software Copilot have been affected by \"connectivity problems\".",
-      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Nvidia board weighs Jensen Huang’s future as reports emerge of second affair",
-      "summary": "The report of a second affair follows Huang admitting to having a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
-      "link": "https://www.euronews.com/2026/11/12/nvidia-board-weighs-jensen-huangs-future-as-reports-emerge-of-second-affair",
+      "title": "Nvidia has lost nearly $2tn in value. What could it be worth without Jensen Huang?",
+      "summary": "Nvidia has lost about $1.8tn (€1.6tn) in market value since its record close on 6 October. After Jensen Huang’s exit, investors are weighing whether the chipmaker can keep growing at the pace that made it the biggest name in AI.",
+      "link": "https://www.euronews.com/2026/11/13/nvidia-has-lost-nearly-2tn-in-value-what-could-it-be-worth-without-jensen-huang",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Jensen Huang: Spy row, affairs leave Nvidia without its rockstar CEO",
+      "summary": "Jensen Huang, who built Nvidia into the world’s dominant AI chipmaker, is stepping down as CEO over extramarital affairs. DW examines how losing its figurehead will affect the firm and the US-China AI race.",
+      "link": "https://www.dw.com/en/jensen-huang-spy-row-affairs-leave-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Why Europe failed to find a superhero to take on Putin",
+      "summary": "Europe’s seven-part team of Ukraine peace envoys must now agree their strategy for handling Russia.",
+      "link": "https://www.politico.eu/article/why-europe-failed-to-find-a-superhero-to-take-on-vladimir-putin/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+      "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+      "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Hungary’s MOL seeks EU funding as CEO warns Russian oil phase-out could trigger social unrest",
+      "summary": "MOL says it could phase out Russian oil imports by the end of 2027, but chief Bacsa warns that higher energy costs could fuel political instability in Hungary and Slovakia. He is calling for EU funding to expand alternative pipeline routes, as Brussels keeps focus on quitting Russian energy.",
+      "link": "https://www.euronews.com/2026/11/13/hungarys-mol-seeks-eu-funding-as-ceo-warns-russian-oil-phase-out-could-trigger-social-unre",
       "source": "Euronews Business"
     },
     {
@@ -45,21 +69,21 @@
       "source": "DW Business"
     },
     {
-      "title": "AI and Ukraine to dominate EU leaders talks — live updates",
-      "summary": "Government chiefs meet in Dublin as arguments persist over who represents Europe in peace talks.",
-      "link": "https://www.politico.eu/article/ai-and-ukraine-to-dominate-eu-leaders-talks-live-updates/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Le Pen offers to meet Zelenskyy in Brussels",
+      "summary": "The Ukrainian leader wants to persuade the far-right leader to continue supporting Ukraine if she becomes president of France.",
+      "link": "https://www.politico.eu/article/france-marine-le-pen-offers-to-meet-ukraine-volodymyr-zelenskyy-in-brussels/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
-      "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
-      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
+      "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "OpenAI reports steep losses despite quarterly revenue rise",
-      "summary": "OpenAI's quarterly revenue rose about 50% to $10 billion in the third quarter. However, the group behind ChatGPT continued to ‌post steep operating losses, according to the Wall Street Journal.",
-      "link": "https://www.euronews.com/2026/11/11/openai-reports-steep-losses-despite-quarterly-revenue-rise",
+      "title": "China to encourage investment in Turkish renewable energy with $15bn solar and wind deal",
+      "summary": "Türkiye wants to sharply expand solar and wind power by 2040 and is seeking foreign investment to fund the work.",
+      "link": "https://www.euronews.com/2026/11/13/china-to-encourage-investment-in-turkish-renewable-energy-with-15bn-solar-and-wind-deal",
       "source": "Euronews Business"
     },
     {
@@ -69,69 +93,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Burnham to discuss ‘problem’ Chinese imports in final days of Brexit reset talks",
-      "summary": "The British prime minister said there will be \"long nights ahead\" as he finalizes a reset deal with Brussels.",
-      "link": "https://www.politico.eu/article/andy-burnham-discuss-problem-chinese-imports-in-final-days-of-brexit-reset-talks/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Cut off from Europe, Russia will have to rewire its Arctic gas trade",
+      "summary": "From 2027, Europe will no longer buy Russian LNG from Yamal. Getting the gas to Asia means longer trips, costlier ships and contractual workarounds.",
+      "link": "https://www.politico.eu/article/cut-off-europe-russia-rewire-arctic-gas-trade-lng-eu-ban/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-      "summary": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
-      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
+      "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "New aviation deals raise flight limits between China and Central Asia",
-      "summary": "Uzbekistan and Kazakhstan agreed to higher weekly flight limits with Beijing, while a separate agreement allows more services between Tashkent, Almaty and Astana. Airlines are also exploring new regional routes, although rising operating costs remain a concern.",
-      "link": "https://www.euronews.com/2026/11/11/new-aviation-deals-raise-flight-limits-between-china-and-central-asia",
+      "title": "Mercedes-Benz halts new investment in German plants, considers closures",
+      "summary": "The Stuttgart carmaker is temporarily halting all further investment at its German sites. Possible plant closures are looming, increasing pressure on staff, works council and IG Metall. Volkswagen and Audi have also announced major savings programmes.",
+      "link": "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures",
       "source": "Euronews Business"
     },
     {
-      "title": "Why Nvidia CEO s affair with alleged Chinese spy matters for AI race",
-      "summary": "Nvidia CEO Jensen Huang has apologized for an affair with a woman the US believes was spying for China. The story could have profound implications for the world s most valuable company and the global AI race.",
-      "link": "https://www.dw.com/en/why-nvidia-ceo-s-affair-with-alleged-chinese-spy-matters-for-ai-race/a-79898338?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Putin open to Europe joining Ukraine peace talks, says Witkoff",
-      "summary": "Donald Trump's envoys debriefed Ukrainian leader in Dublin late Thursday after Moscow discussions.",
-      "link": "https://www.politico.eu/article/vladimir-putin-open-to-europe-joining-ukraine-peace-talks-steve-witkoff/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Microsoft outage renews European calls to detox from US tech",
+      "summary": "Lawmakers across Europe call for action to reduce reliance on a handful of foreign tech companies.",
+      "link": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
-      "summary": "The UK is seeing impressive growth, but will it last?",
-      "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Inside Anthropic’s blockbuster IPO: What we know about the AI giant’s plans",
-      "summary": "Anthropic plans to raise up to $64 billion (€57.1bn) in its upcoming initial public offering, the artificial intelligence giant said in a filing on Tuesday, in a listing that could value the company at up to $1.4 trillion (€1.25trn).",
-      "link": "https://www.euronews.com/2026/11/11/anthropic-targets-valuation-of-up-to-14-trillion-for-blockbuster-ipo",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Climate science says 1.5C is dead. No one wants to bury it.",
-      "summary": "Leaders at COP31 want to keep the totemic goal alive, even after the U.N. declared it impossible to hit.",
-      "link": "https://www.politico.eu/article/climate-science-1-5c-target-global-warming-dead/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "UK economy grows at fastest rate for more than two years",
-      "summary": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
-      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "title": "Heat pumps: How much heat does your home really need?",
+      "summary": "Knowing how much heat your home loses is important before installing a new heating system.",
+      "link": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     }
   ],
-  "trend_headline": "독일 제조업 위기와 메르세데스 투자 중단",
-  "summary": "독일 자동차 산업의 구조적 침체 속에서 메르세데스-벤츠가 독일 내 공장 신규 투자를 중단하고 폐쇄 가능성을 검토하며 제조업 경쟁력 악화 우려가 심화되고 있습니다. 폭스바겐과 아우디 역시 대규모 비용 절감 프로그램을 가동하며 유로존 핵심 국가의 경기 둔화 압박을 높이고 있습니다.",
+  "trend_headline": "MS 대란과 독일 자동차 위기, 유럽의 자립 압박 가중",
+  "summary": "마이크로소프트의 글로벌 서비스 중단 사태가 미국 빅테크 의존도에 대한 유럽의 경계심을 고조시키는 한편, 메르세데스-벤츠의 독일 내 투자 중단 및 구조조정 검토는 유럽 제조업의 심각한 비용 압박을 드러내고 있습니다. 또한 헝가리 MOL이 러시아산 원유 수단 전환을 위한 EU 지원을 촉구하는 등 에너지 안보와 산업 경쟁력 재편 압력이 커지고 있습니다.",
   "key_points": [
-    "메르세데스-벤츠, 독일 내 공장 신규 투자 일시 중단 및 구조조정·폐쇄 검토",
-    "폭스바겐·아우디 등 독일 주요 완성차 업체들의 연이은 대규모 비용 절감 프로그램 발표",
-    "독일 제조업 둔화가 유로존 고용 시장 및 노조(IG Metall)와의 갈등으로 확산"
+    "마이크로소프트의 글로벌 IT 대란으로 유럽 의회 등에서 미국 빅테크 의존도를 낮추기 위한 '디톡스' 자립 목소리 확산",
+    "메르세데스-벤츠가 독일 내 공장 신규 투자를 전면 중단하고 구조조정을 검토하며 자동차 섹터 침체 우려 심화",
+    "헝가리 MOL, 2027년까지 러시아산 원유 단계적 폐지를 추진하며 대체 파이프라인 확장을 위한 EU 재정 지원 요구"
   ],
   "sector_hints": [
-    "Automotive",
-    "Industrial"
+    "Energy",
+    "Financials"
   ]
 }

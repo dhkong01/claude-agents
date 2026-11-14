@@ -4,6 +4,8 @@
   const MR = (window.MR = window.MR || {});
   const SRC = '../data/cycle_qqq.json';
   const C_REF = '#4a6cf0', C_CUR = '#e8590c';
+  const EARLY = 60; // "초반 확대" 보기에서 보여 줄 마지막 일차
+  const ui = { zoom: 'all', proj: false }; // 보기 옵션(화면을 떠났다 와도 유지)
   const md = function (iso) { return (+iso.slice(5, 7)) + '/' + (+iso.slice(8, 10)); };
   const ymd = function (iso) { return iso.replace(/-/g, '.'); };
   const f1 = function (v) { return Number(v).toFixed(1); };
@@ -18,18 +20,37 @@
     });
   };
 
+  /* 2018 경로의 상대 움직임을 오늘 값에 그대로 적용한 가정선: 오늘 이후 일차별 값 (그 전은 null) */
+  function projection(d) {
+    const now = d.cur.v.length - 1, base = d.cur.v[now], rb = d.ref.v[now];
+    return d.ref.v.map(function (rv, i) { return i < now ? null : base * rv / rb; });
+  }
+
   /* ---------- 차트 ---------- */
-  MR.cycleChart = function (el, d) {
-    const END = d.endDay, cur = d.cur, ref = d.ref;
+  // o: { xmax: 보여 줄 마지막 일차(기본 endDay), proj: 예상선 표시 }
+  MR.cycleChart = function (el, d, o) {
+    o = o || {};
+    const END = d.endDay, X = Math.min(o.xmax || END, END), cur = d.cur, ref = d.ref, now = cur.v.length - 1;
+    const proj = o.proj ? projection(d) : null;
     const W = Math.max(el.clientWidth, 300), H = W < 520 ? 340 : 400;
     const pl = 38, pr = 16, pt = 34, pb = 46;
-    const all = cur.v.concat(ref.v);
-    const lo = Math.floor((Math.min.apply(null, all) - 1.5) / 5) * 5;
-    const hi = Math.ceil((Math.max.apply(null, all) + 1) / 5) * 5;
-    const x = function (day) { return pl + day / END * (W - pl - pr); };
+    const vis = [];
+    for (let i = 0; i <= X; i++) {
+      vis.push(ref.v[i]);
+      if (i < cur.v.length) vis.push(cur.v[i]);
+      if (proj && proj[i] != null) vis.push(proj[i]);
+    }
+    const lo = Math.floor((Math.min.apply(null, vis) - 3.5) / 5) * 5; // 저점 아래에 라벨을 둘 여유
+    const hi = Math.ceil((Math.max.apply(null, vis) + 1) / 5) * 5;
+    const x = function (day) { return pl + day / X * (W - pl - pr); };
     const y = function (v) { return pt + (hi - v) / (hi - lo) * (H - pt - pb); };
     const poly = function (vals) {
-      return vals.map(function (v, i) { return (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1); }).join('');
+      let p = '', pen = false;
+      vals.slice(0, X + 1).forEach(function (v, i) {
+        if (v == null) { pen = false; return; }
+        p += (pen ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1); pen = true;
+      });
+      return p;
     };
 
     let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="QQQ 2018년 사이클 비교 차트">';
@@ -37,36 +58,45 @@
       s += '<line class="cy-grid' + (g === 100 ? ' base' : '') + '" x1="' + pl + '" x2="' + (W - pr) + '" y1="' + y(g).toFixed(1) + '" y2="' + y(g).toFixed(1) + '"/>' +
         '<text class="cy-axis" x="' + (pl - 6) + '" y="' + (y(g) + 4).toFixed(1) + '" text-anchor="end">' + g + '</text>';
     }
-    [0, 20, 40, 60, 80, 100, 120, END].forEach(function (t) {
+    (X <= EARLY ? [0, 10, 20, 30, 40, 50, 60] : [0, 20, 40, 60, 80, 100, 120, END]).filter(function (t) { return t <= X; }).forEach(function (t) {
       s += '<text class="cy-axis" x="' + x(t).toFixed(1) + '" y="' + (H - pb + 16) + '" text-anchor="middle">' + t + '</text>' +
         '<text class="cy-axis dim" x="' + x(t).toFixed(1) + '" y="' + (H - pb + 31) + '" text-anchor="middle">' + md(d.cal[t]) + '</text>';
     });
-    d.fomc.cur.forEach(function (f) {
+    d.fomc.cur.filter(function (f) { return f.day <= X; }).forEach(function (f) {
       s += '<line class="cy-fomc" x1="' + x(f.day).toFixed(1) + '" x2="' + x(f.day).toFixed(1) + '" y1="' + (pt - 6) + '" y2="' + (H - pb) + '"/>' +
-        '<text class="cy-axis" x="' + (x(f.day) - 5).toFixed(1) + '" y="' + (pt - 12) + '" text-anchor="end">2026 FOMC ' + md(f.date) + '</text>';
+        '<text class="cy-axis cy-fomc-t" x="' + (x(f.day) - 5).toFixed(1) + '" y="' + (pt - 12) + '" text-anchor="end">' + (W < 520 ? "'26 FOMC" : '2026 FOMC ' + md(f.date)) + '</text>';
     });
-    d.fomc.ref.forEach(function (f) {
+    d.fomc.ref.filter(function (f) { return f.day <= X; }).forEach(function (f) {
       s += '<line class="cy-fomc" x1="' + x(f.day).toFixed(1) + '" x2="' + x(f.day).toFixed(1) + '" y1="' + (pt - 6) + '" y2="' + (H - pb) + '"/>' +
-        '<text class="cy-axis" x="' + (x(f.day) + 5).toFixed(1) + '" y="' + (pt - 12) + '">2018 FOMC ' + md(f.date) + '</text>';
+        '<text class="cy-axis cy-fomc-t" x="' + (x(f.day) + 5).toFixed(1) + '" y="' + (pt - 12) + '">' + (W < 520 ? "'18 FOMC" : '2018 FOMC ' + md(f.date)) + '</text>';
     });
+    if (proj) s += '<path d="' + poly(proj) + '" fill="none" stroke="' + C_CUR + '" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round" opacity=".7"/>';
     s += '<path d="' + poly(ref.v) + '" fill="none" stroke="' + C_REF + '" stroke-width="2" stroke-linejoin="round"/>' +
       '<path d="' + poly(cur.v) + '" fill="none" stroke="' + C_CUR + '" stroke-width="2.4" stroke-linejoin="round"/>';
     if (cur.v.length <= 80) {
-      cur.v.forEach(function (v, i) { s += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="2.6" fill="' + C_CUR + '"/>'; });
+      cur.v.forEach(function (v, i) { if (i <= X) s += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="2.6" fill="' + C_CUR + '"/>'; });
+    }
+    const marks = d.marks.filter(function (m) { return m.day <= X; });
+    if (proj) { // 2018 저점일에 해당하는 예상 저점
+      const lm = d.marks.filter(function (m) { return m.s === 'ref' && m.label.indexOf('저점') >= 0; })[0];
+      if (lm && lm.day <= X && lm.day >= now) marks.push({ s: 'cur', day: lm.day, v: proj[lm.day], label: '예상 저점 ' + f1(proj[lm.day]), pos: 'below' });
     }
     const off = { above: [0, -11, 'middle'], below: [0, 18, 'middle'], right: [9, 4, 'start'], left: [-9, 4, 'end'] };
-    d.marks.forEach(function (m) {
-      const o = off[m.pos] || off.above, col = m.s === 'cur' ? C_CUR : C_REF;
+    marks.forEach(function (m) {
+      const o2 = off[m.pos] || off.above, col = m.s === 'cur' ? C_CUR : C_REF;
       s += '<circle cx="' + x(m.day).toFixed(1) + '" cy="' + y(m.v).toFixed(1) + '" r="4.4" fill="' + col + '" stroke="#fff" stroke-width="1.5"/>' +
-        '<text class="cy-mark" x="' + (x(m.day) + o[0]).toFixed(1) + '" y="' + (y(m.v) + o[1]).toFixed(1) + '" text-anchor="' + o[2] + '">' + m.label + '</text>';
+        '<text class="cy-mark" data-mx="' + x(m.day).toFixed(1) + '" data-pos="' + m.pos + '" x="' + (x(m.day) + o2[0]).toFixed(1) + '" y="' + (y(m.v) + o2[1]).toFixed(1) + '" text-anchor="' + o2[2] + '">' + m.label + '</text>';
     });
     s += '<line class="cy-xh" id="cyxh" y1="' + pt + '" y2="' + (H - pb) + '" style="display:none"/>' +
       '<rect class="cy-hit" x="0" y="0" width="' + W + '" height="' + H + '"/></svg><div class="tip" hidden></div>';
     el.innerHTML = s;
 
-    // 오른쪽·왼쪽 끝에서 라벨이 잘리지 않게 안쪽으로 밀어 준다
-    Array.prototype.forEach.call(el.querySelectorAll('text.cy-mark'), function (t) {
-      const b = t.getBBox();
+    // 끝에서 라벨이 잘리면: 좌우 라벨은 점 반대편으로 뒤집고, 그래도 넘치면 안쪽으로 밀어 준다
+    Array.prototype.forEach.call(el.querySelectorAll('text.cy-mark, text.cy-fomc-t'), function (t) {
+      let b = t.getBBox();
+      const mx = +t.dataset.mx;
+      if (t.dataset.pos === 'right' && b.x + b.width > W - 4) { t.setAttribute('text-anchor', 'end'); t.setAttribute('x', (mx - 9).toFixed(1)); b = t.getBBox(); }
+      else if (t.dataset.pos === 'left' && b.x < 4) { t.setAttribute('text-anchor', 'start'); t.setAttribute('x', (mx + 9).toFixed(1)); b = t.getBBox(); }
       let dx = 0;
       if (b.x < 4) dx = 4 - b.x; else if (b.x + b.width > W - 4) dx = W - 4 - (b.x + b.width);
       if (dx) t.setAttribute('x', (+t.getAttribute('x') + dx).toFixed(1));
@@ -77,13 +107,14 @@
     svg.addEventListener('pointerleave', hide);
     svg.addEventListener('pointermove', function (e) {
       const r = svg.getBoundingClientRect(), k = W / r.width;
-      const day = Math.round(((e.clientX - r.left) * k - pl) / ((W - pl - pr) / END));
-      if (day < 0 || day > END) return hide();
+      const day = Math.round(((e.clientX - r.left) * k - pl) / ((W - pl - pr) / X));
+      if (day < 0 || day > X) return hide();
       xh.setAttribute('x1', x(day)); xh.setAttribute('x2', x(day)); xh.style.display = '';
       const has = day < cur.v.length, rv = ref.v[day];
       tip.innerHTML = '<b>' + day + '일차 · ' + ymd(d.cal[day]) + '</b>' +
         '<span style="color:#aab8ff">2018 ' + md(ref.dates[day]) + ' · ' + f1(rv) + '</span>' +
-        (has ? '<span style="color:#ffb085">2026 · ' + f1(cur.v[day]) + '</span><span>2018 대비 ' + sg(cur.v[day] - rv, 1) + '%p</span>' : '<span>2026 · 아직 오지 않은 날</span>');
+        (has ? '<span style="color:#ffb085">2026 · ' + f1(cur.v[day]) + '</span><span>2018 대비 ' + sg(cur.v[day] - rv, 1) + '%p</span>'
+          : proj ? '<span style="color:#ffb085">예상(2018 경로 적용) · ' + f1(proj[day]) + '</span>' : '<span>2026 · 아직 오지 않은 날</span>');
       tip.hidden = false;
       const px = x(day) / k;
       tip.style.left = (px > r.width / 2 ? px - tip.offsetWidth - 12 : px + 12) + 'px';
@@ -91,16 +122,33 @@
   };
 
   /* ---------- 화면 조각 ---------- */
+  // 2018 경로와의 유사도: 일간 등락률 상관계수 + 평균 격차(%p). 표본이 적으면(5일 미만) 계산하지 않는다
+  function similarity(d) {
+    const n = d.cur.v.length - 1;
+    if (n < 5) return null;
+    const a = [], b = [];
+    let gap = 0;
+    for (let i = 1; i <= n; i++) {
+      a.push(d.cur.v[i] / d.cur.v[i - 1] - 1); b.push(d.ref.v[i] / d.ref.v[i - 1] - 1);
+      gap += d.cur.v[i] - d.ref.v[i];
+    }
+    const mean = function (z) { return z.reduce(function (p, q) { return p + q; }, 0) / z.length; };
+    const ma = mean(a), mb = mean(b);
+    let sab = 0, saa = 0, sbb = 0;
+    a.forEach(function (v, i) { sab += (v - ma) * (b[i] - mb); saa += (v - ma) * (v - ma); sbb += (b[i] - mb) * (b[i] - mb); });
+    return { r: saa && sbb ? sab / Math.sqrt(saa * sbb) : 0, gap: gap / n, n: n };
+  }
   function kpis(d) {
     const cur = d.cur, ref = d.ref, day = cur.v.length - 1, v = cur.v[day], rv = ref.v[day];
     const lo = cur.v.reduce(function (a, b, i) { return b < cur.v[a] ? i : a; }, 0);
-    const gap = v - rv, left = d.endDay - day;
+    const gap = v - rv, left = d.endDay - day, sim = similarity(d);
     const tile = function (label, value, sub) { return '<div class="cy-kpi"><small>' + label + '</small><strong>' + value + '</strong><span>' + sub + '</span></div>'; };
     return '<div class="cy-kpis">' +
       tile('현재 (고점=100)', f1(v), 'QQQ ' + usd(cur.close[day]) + ' · ' + md(cur.dates[day])) +
       tile('고점 대비', '<b class="' + cls(v - 100) + '">' + sg(v - 100, 1) + '%</b>', md(cur.peak) + ' 고점 ' + usd(cur.peakClose)) +
       tile('2018년 같은 시점', f1(rv), '<b class="' + cls(gap) + '">' + sg(gap, 1) + '%p</b> (' + ymd(ref.dates[day]) + ')') +
       tile('지금까지 저점', f1(cur.v[lo]), md(cur.dates[lo]) + ' · 고점 대비 ' + sg(cur.v[lo] - 100, 1) + '%') +
+      tile('2018 경로와 유사도', sim ? '상관 ' + sim.r.toFixed(2) : '집계 중', sim ? '평균 격차 ' + sg(sim.gap, 1) + '%p · 일간 등락 ' + sim.n + '일' : '5거래일 이상 쌓이면 표시') +
       tile('추적 진행', day + ' / ' + d.endDay + '일', left > 0 ? '~' + ymd(d.endDate) + ' · ' + left + '거래일 남음' : '추적 기간 종료 (' + ymd(d.endDate) + ')') +
       '</div>';
   }
@@ -120,17 +168,24 @@
       '<th class="num">2018 지수</th><th class="num">2026~27 대응일</th><th class="num">2026 실제</th></tr></thead><tbody>' + body + '</tbody></table></div>' +
       '<p class="note">2018년의 각 변곡점이 2026~27년의 어느 날에 해당하는지 보여 줍니다(고점 후 거래일 기준, 미국 휴장일 반영). 같은 경로를 반복한다는 뜻이 아니라 비교용 기준선입니다.</p></section>';
   }
+  function controls() {
+    const z = function (k, t) { return '<button type="button" data-zoom="' + k + '" class="' + (ui.zoom === k ? 'active' : '') + '">' + t + '</button>'; };
+    return '<div class="cy-ctl"><div class="seg" id="cyZoom">' + z('all', '전체') + z('early', '초반 확대') + '</div>' +
+      '<button type="button" class="btn-line cy-proj' + (ui.proj ? ' on' : '') + '" data-proj aria-pressed="' + ui.proj + '">예상선</button></div>';
+  }
   function bodyHtml(d, ctx) {
     const cur = d.cur, last = cur.dates[cur.dates.length - 1];
     const legend = '<div class="ma-legend">' +
       '<span class="ma-chip"><i style="background:' + C_REF + '"></i>2018~19 (' + md(d.ref.peak) + ' 고점=100, ' + md(d.ref.start) + '부터)</span>' +
       '<span class="ma-chip"><i style="background:' + C_CUR + '"></i>2026 (' + md(cur.peak) + ' 고점=100)</span>' +
-      '<span class="ma-chip"><i class="cy-dash"></i>FOMC</span></div>';
+      '<span class="ma-chip"><i class="cy-dash"></i>FOMC</span>' +
+      '<span class="ma-chip cy-proj-chip"' + (ui.proj ? '' : ' hidden') + '><i class="cy-dash c"></i>2018 경로 적용 예상(참고용)</span></div>';
     return ctx.pageHead('QQQ 사이클 추적 · 2018년 하반기 비교', ymd(last) + ' 종가 기준 · ' + d.generatedAt.slice(5, 16).replace('T', ' ') + ' 수집 · yfinance') +
       kpis(d) +
-      '<section class="card"><div class="card-head"><h2>고점 이후 경로 비교</h2></div>' + legend + '<div class="cycle" id="cycleChart"></div>' +
+      '<section class="card"><div class="card-head"><h2>고점 이후 경로 비교</h2>' + controls() + '</div>' + legend + '<div class="cycle" id="cycleChart"></div>' +
       '<p class="note">QQQ 종가를 고점=100으로 지수화했습니다. 가로축은 고점 이후 거래일 수(위)와 2026~27년 대응 날짜(아래)이고, 2018년 선은 ' + md(d.ref.start) +
-      '(2026 고점일과 같은 0일차)부터 겹쳤습니다. 2026년 선은 ' + ymd(d.endDate) + '(' + d.endDay + '일차)까지 수집 때마다 이어 그려집니다.</p></section>' +
+      '(2018년 8/29 고점 직후 조정이 시작된 날 = 2026 고점일과 같은 0일차)부터 실제 일별 종가로 겹쳤습니다. 2026년 선은 ' + ymd(d.endDate) + '(' + d.endDay + '일차)까지 수집 때마다 이어 그려집니다.</p>' +
+      '<p class="note cy-proj-note"' + (ui.proj ? '' : ' hidden') + '>예상선은 2018년의 일별 등락을 오늘 값에 그대로 적용한 가정일 뿐 예측이 아닙니다. 실제 경로는 달라질 수 있습니다.</p></section>' +
       milestones(d);
   }
 
@@ -142,7 +197,25 @@
         MR.loadCycle().then(function (d) {
           if (ctx.route().name !== 'cycle') return; // 그 사이 다른 화면으로 이동했으면 무시
           ctx.view.innerHTML = bodyHtml(d, ctx);
-          const draw = function () { const el = ctx.view.querySelector('#cycleChart'); if (el) MR.cycleChart(el, d); };
+          const draw = function () {
+            const el = ctx.view.querySelector('#cycleChart');
+            if (el) MR.cycleChart(el, d, { xmax: ui.zoom === 'early' ? EARLY : d.endDay, proj: ui.proj });
+          };
+          const ctl = ctx.view.querySelector('.cy-ctl');
+          ctl.addEventListener('click', function (e) {
+            const b = e.target.closest('button');
+            if (!b) return;
+            if (b.dataset.zoom) {
+              ui.zoom = b.dataset.zoom;
+              Array.prototype.forEach.call(ctl.querySelectorAll('#cyZoom button'), function (x) { x.classList.toggle('active', x.dataset.zoom === ui.zoom); });
+            } else if ('proj' in b.dataset) {
+              ui.proj = !ui.proj;
+              b.classList.toggle('on', ui.proj); b.setAttribute('aria-pressed', ui.proj);
+              ctx.view.querySelector('.cy-proj-chip').hidden = !ui.proj;
+              ctx.view.querySelector('.cy-proj-note').hidden = !ui.proj;
+            } else return;
+            draw();
+          });
           draw(); ctx.setRedraw(draw);
           requestAnimationFrame(draw); // 폰트·레이아웃 확정 후 한 번 더
         }).catch(function () {

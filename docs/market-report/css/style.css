@@ -255,7 +255,13 @@ small { color: var(--ink3); font-size: 12px; }
 @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
 
 /* QQQ 사이클 탭 */
-.cy-kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 16px; }
+.cy-kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+@media (min-width: 1100px) { .cy-kpis { grid-template-columns: repeat(6, 1fr); } }
+.cy-ctl { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.cy-proj { padding: 7px 14px; font-weight: 600; }
+.cy-proj.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.cy-dash.c { border-top-color: #e8590c; }
+.cy-proj-chip[hidden], .cy-proj-note[hidden] { display: none; }
 .cy-kpi { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; }
 .cy-kpi small { color: var(--ink2); font-size: 12px; font-weight: 600; }
 .cy-kpi strong { font-size: 24px; font-weight: 800; line-height: 1.15; }
@@ -274,12 +280,10 @@ small { color: var(--ink3); font-size: 12px; }
 .cycle .cy-hit { fill: transparent; }
 .cycle .cy-mark { fill: var(--ink); font-size: 12px; font-weight: 700; paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
 .cycle + .note, .card .tbl-wrap + .note { margin-top: 10px; }
-@media (max-width: 900px) { .cy-kpis { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 720px) {
   .cy-kpis { grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .cy-kpi { padding: 12px 14px; }
   .cy-kpi strong { font-size: 21px; }
-  .cy-kpi:last-child { grid-column: span 2; }
 }
 
 /* 앱 설치·하단 탭바 (모바일) */

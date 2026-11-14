@@ -20,41 +20,59 @@
     });
   };
 
-  /* 현재 추세 반영 가정선 (일별 로그수익률로 오늘 값에서 이어 그림; 오늘 이전은 null)
-   *  - 가까운 날: 최근 10거래일의 평균 추세(m)를 따라간다
-   *  - 먼 날: 2018 경로의 일별 등락으로 수렴하되, 크기는 "지금 변동성 ÷ 2018 같은 기간 변동성"(beta)으로 보정하고
-   *    반영 비율 alpha 는 시나리오별(0 / 0.5 / 1) — 0이면 추세가 사라진 뒤 횡보
-   *  비중 w = exp(-k/TAU) (k = 오늘로부터의 거래일 수) */
+  /* 예상선 3종 (얕은 · 중간 · 깊은 조정). 오늘 값에서 출발하고, 하락 폭이 클수록 "처음부터 끝까지" 더 아래에 있다.
+   *  1) 단기: 최근 15거래일 로그 회귀 기울기(m = 현재 추세)를 따라간다 — 비중 w = exp(-k/TAU), k = 오늘로부터 거래일 수
+   *  2) 장기: 시나리오 목표 경로로 수렴한다. 목표 경로의 "모양(등락 질감·저점 시기·회복 속도)"은 2018 경로에서 빌리고,
+   *     "수준"은 시나리오가 정한다:
+   *       저점  = 얕음: 지금까지 저점을 소폭 재시험 / 깊음: 2018 같은 하락률(오늘 값에 환산) / 중간: 둘의 중간
+   *       종료값 = 저점 + rho × (100 − 저점)   (rho: 회복 비율 0.85 / 0.6 / 0.4)
+   *  경로(t) = (1−w)·목표(t) + w·추세선(t)  → 추세선이 같으므로 시나리오 간 순서(얕음 ≥ 중간 ≥ 깊음)는 항상 유지된다 */
   const TAU = 15;
-  // 시나리오: 2018 경로를 얼마나 반영하느냐(alpha)로 나눈다 — 0 = 무반영(얕은 조정), 1 = 2018 그대로(깊은 조정)
   const SCEN = [
-    { key: 'shallow', name: '얕은 조정', short: '얕음', alpha: 0, color: '#d9a400' },
-    { key: 'mid', name: '중간 조정', short: '중간', alpha: 0.5, color: '#e8590c' },
-    { key: 'deep', name: '깊은 조정', short: '깊음', alpha: 1, color: '#a61e4d' }
+    { key: 'shallow', name: '얕은 조정', short: '얕음', rho: 0.85, color: '#d9a400' },
+    { key: 'mid', name: '중간 조정', short: '중간', rho: 0.6, color: '#e8590c' },
+    { key: 'deep', name: '깊은 조정', short: '깊음', rho: 0.4, color: '#a61e4d' }
   ];
-  function projection(d, alpha) {
-    const cv = d.cur.v, rv = d.ref.v, now = cv.length - 1;
-    const lr = function (a, i) { return Math.log(a[i] / a[i - 1]); };
-    const sd = function (a) {
-      const m = a.reduce(function (p, q) { return p + q; }, 0) / a.length;
-      return Math.sqrt(a.reduce(function (p, q) { return p + (q - m) * (q - m); }, 0) / a.length);
-    };
-    const out = rv.map(function () { return null; });
-    out[now] = cv[now];
-    if (now < 5) { // 표본이 적으면 2018 경로를 오늘 값에 그대로 적용
-      for (let i = now + 1; i < rv.length; i++) out[i] = cv[now] * rv[i] / rv[now];
-      return out;
+  const clamp01 = function (v) { return Math.max(0, Math.min(1, v)); }; // 비율을 0~1로 제한 → 하락이 클수록 항상 더 아래
+  function projections(d) {
+    const cv = d.cur.v, rv = d.ref.v, now = cv.length - 1, last = rv.length - 1, base = cv[now];
+    const blank = function () { return rv.map(function () { return null; }); };
+    // 최근 추세: 최근 15거래일 ln(가격) 선형회귀 기울기 (하루 수익률), 과도한 값은 제한
+    const n0 = Math.min(15, now + 1);
+    let m = 0;
+    if (n0 >= 5) {
+      let sx = 0, sy = 0, sxx = 0, sxy = 0;
+      for (let j = 0; j < n0; j++) { const yv = Math.log(cv[now - n0 + 1 + j]); sx += j; sy += yv; sxx += j * j; sxy += j * yv; }
+      m = (n0 * sxy - sx * sy) / (n0 * sxx - sx * sx);
+      m = Math.max(-0.012, Math.min(0.006, m));
     }
-    const cr = [], rr = [];
-    for (let i = 1; i <= now; i++) { cr.push(lr(cv, i)); rr.push(lr(rv, i)); }
-    const beta = Math.max(0.6, Math.min(1.6, sd(cr) / (sd(rr) || 1)));
-    const k0 = Math.min(10, cr.length), recent = cr.slice(-k0);
-    const m = recent.reduce(function (p, q) { return p + q; }, 0) / k0;
-    for (let i = now + 1; i < rv.length; i++) {
-      const w = Math.exp(-(i - now) / TAU);
-      out[i] = out[i - 1] * Math.exp(w * m + (1 - w) * alpha * beta * lr(rv, i));
-    }
-    return out;
+    // 2018 경로에서 빌리는 모양: 저점 시기(T)와 오늘·저점·종료 값
+    let T = 0;
+    rv.forEach(function (v, i) { if (v < rv[T]) T = i; });
+    const rNow = rv[now], rTr = rv[T], rEnd = rv[last];
+    const curLow = Math.min.apply(null, cv);
+    // 저점 수준 (얕음 ≥ 중간 ≥ 깊음, 모두 오늘 값보다 아래)
+    const tS = Math.min(curLow * 0.985, base * 0.97);
+    const tD = Math.min(base * rTr / rNow, tS - 2);
+    const tM = (tS + tD) / 2;
+    const troughs = [tS, tM, tD];
+    return SCEN.map(function (sc, si) {
+      const out = blank();
+      out[now] = base;
+      const tr = troughs[si];
+      const end = now < T ? tr + sc.rho * (100 - tr) : base * Math.pow(rEnd / rNow, 1 - 0.35 * si); // 2018 저점 이후면 회복 강도만 달리
+      for (let i = now + 1; i <= last; i++) {
+        let tgt;
+        if (now < T) {
+          tgt = i <= T ? base + (tr - base) * clamp01((rNow - rv[i]) / (rNow - rTr)) : tr + (end - tr) * clamp01((rv[i] - rTr) / (rEnd - rTr));
+        } else {
+          tgt = base + (end - base) * ((rv[i] - rNow) / (rEnd - rNow || 1));
+        }
+        const w = Math.exp(-(i - now) / TAU);
+        out[i] = (1 - w) * tgt + w * base * Math.exp(m * (i - now));
+      }
+      return { sc: sc, v: out };
+    });
   }
 
   /* ---------- 차트 ---------- */
@@ -62,7 +80,7 @@
   MR.cycleChart = function (el, d, o) {
     o = o || {};
     const END = d.endDay, X = Math.min(o.xmax || END, END), cur = d.cur, ref = d.ref, now = cur.v.length - 1;
-    const projs = o.proj ? SCEN.map(function (sc) { return { sc: sc, v: projection(d, sc.alpha) }; }) : null;
+    const projs = o.proj ? projections(d) : null;
     const W = Math.max(el.clientWidth, 300), H = W < 520 ? 340 : 400;
     const pl = 38, pr = 16, pt = 34, pb = 46;
     const vis = [];
@@ -219,7 +237,7 @@
       '<section class="card"><div class="card-head"><h2>고점 이후 경로 비교</h2>' + controls() + '</div>' + legend + '<div class="cycle" id="cycleChart"></div>' +
       '<p class="note">QQQ 종가를 고점=100으로 지수화했습니다. 가로축은 고점 이후 거래일 수(위)와 2026~27년 대응 날짜(아래)이고, 2018년 선은 ' + md(d.ref.start) +
       '(2018년 8/29 고점 직후 조정이 시작된 날 = 2026 고점일과 같은 0일차)부터 실제 일별 종가로 겹쳤습니다. 2026년 선은 ' + ymd(d.endDate) + '(' + d.endDay + '일차)까지 수집 때마다 이어 그려집니다.</p>' +
-      '<p class="note cy-proj-note"' + (ui.proj ? '' : ' hidden') + '>예상선은 오늘 값에서 출발해 최근 10거래일 추세를 따라가다가(약 15거래일 만에 영향 감소) 2018년의 일별 등락으로 서서히 수렴하는 가정입니다. 2018을 얼마나 반영하느냐로 세 가지로 나눴습니다 — 얕은 조정(0%: 추세가 사라진 뒤 횡보) · 중간 조정(50%) · 깊은 조정(100%: 2018 등락 그대로, 변동성만 현재 기준 보정). 예측이 아니며 실제 경로는 달라질 수 있습니다.</p></section>' +
+      '<p class="note cy-proj-note"' + (ui.proj ? '' : ' hidden') + '>예상선은 오늘 값에서 출발해 최근 15거래일 추세를 따라가다가(약 15거래일 만에 영향 감소) 시나리오별 경로로 수렴합니다. 경로의 모양(저점 시기·회복 속도)은 2018년에서 빌리고 수준은 하락 폭으로 나눴습니다 — 얕은 조정: 지금까지 저점을 소폭 재시험 후 대부분 회복 · 중간 조정: 그 중간 · 깊은 조정: 2018과 같은 하락률 후 더딘 회복. 하락이 클수록 전 구간에서 더 아래에 놓이며, 예측이 아니라 가정입니다.</p></section>' +
       milestones(d);
   }
 

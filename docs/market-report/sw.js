@@ -1,10 +1,10 @@
 /* 마켓리포트 서비스워커 (scope: /market-report/)
  * - 앱 셸·CDN 라이브러리: 네트워크 우선, 실패(오프라인) 시 캐시 — 배포 직후에도 항상 최신 코드를 받는다.
  * - 데이터 JSON: 네트워크 우선(HTTP 캐시 우회), 오프라인이면 마지막으로 받은 값 */
-const CACHE = 'market-report-v1';
+const CACHE = 'market-report-v2';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
-  'js/data.js', 'js/live.js', 'js/charts.js', 'js/globe.js', 'js/app.js',
+  'js/data.js', 'js/live.js', 'js/charts.js', 'js/cycle.js', 'js/globe.js', 'js/app.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',
 ];
 const CDN = ['cdn.jsdelivr.net'];

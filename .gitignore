@@ -129,4 +129,5 @@ tools/stock_portfolio/reports/
 # 로컬 미리보기는 `python tools/market_report/export_market_report.py` 로 생성
 docs/data/market_report.json
 docs/data/mr/
+docs/data/cycle_qqq.json
 /market-data/

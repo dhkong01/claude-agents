@@ -1,4 +1,4 @@
-/* 라우터 + 화면 렌더링 (해시 라우팅: #/ , #/stock/:code , #/report , #/ranking) */
+/* 라우터 + 화면 렌더링 (해시 라우팅: #/ , #/stock/:code , #/report , #/ranking , #/cycle) */
 (function () {
   const MR = window.MR;
   const fmt = MR.fmt;
@@ -439,6 +439,11 @@
       (MR.reportLive ? '<p class="note">네이버 증권 업종 등락률 · 구성 종목 8개 이상 업종 중 상위·하위 4개</p>' : '') + '</section></div>' };
   }
 
+  /* ---------- QQQ 사이클 (js/cycle.js) ---------- */
+  function viewCycle() {
+    return MR.cycle.view({ pageHead: pageHead, route: route, view: view, setRedraw: function (fn) { redraw = fn; } });
+  }
+
   /* ---------- 라우터 ---------- */
   const view = $('#view');
   function route() {
@@ -456,6 +461,7 @@
     if (r.name === 'stock') { v = viewStock(r.arg); title = '종목 · 마켓리포트'; }
     else if (r.name === 'report') { v = viewReport(); title = '일일 리포트 · 마켓리포트'; }
     else if (r.name === 'ranking') { v = viewRanking(); title = '랭킹 · 섹터 · 마켓리포트'; }
+    else if (r.name === 'cycle') { v = viewCycle(); title = 'QQQ 사이클 · 마켓리포트'; }
     else { r.name = 'home'; v = viewHome(); }
     view.innerHTML = v.html;
     document.title = title;

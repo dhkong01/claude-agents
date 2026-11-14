@@ -133,6 +133,15 @@ jobs:
           MR_DATA_DIR: ${{ github.workspace }}/market-data
         run: python tools/market_report/export_market_report.py --only ${{ steps.scope.outputs.only }}
 
+      # QQQ 2018 사이클 비교 탭용 데이터. 실패해도(continue-on-error) 기존 파일이 남고 나머지 갱신은 그대로 진행된다.
+      - name: QQQ 사이클 데이터 수집
+        if: steps.guard.outputs.skip != 'true'
+        continue-on-error: true
+        env:
+          PYTHONIOENCODING: utf-8
+          MR_DATA_DIR: ${{ github.workspace }}/market-data
+        run: python tools/market_report/export_cycle_qqq.py
+
       - name: market-data 브랜치에 단일 커밋으로 강제 푸시 (히스토리 누적 없음)
         if: steps.guard.outputs.skip != 'true'
         working-directory: market-data

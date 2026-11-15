@@ -1,130 +1,159 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-15",
   "horizons": {
     "1w": [
       {
-        "theme": "엔비디아 리더십 리스크와 반도체 대체 수혜주 차별화",
+        "theme": "엔비디아 CEO 실각에 따른 반도체 밸류체인 쇼크",
         "sectors": [
           "Semiconductors",
           "Technology"
         ],
         "tickers": [
           "NVDA",
-          "AMD",
-          "AVGO"
+          "TSM"
         ],
-        "rationale": "젠슨 황 사임 악재로 NVDA 주가의 단기 하방 압력이 높은 반면, AI 대장주 의존도 탈피 과정에서 AMD와 브로드컴으로 단기 자금 쏠림 및 반사이익 예상.",
-        "risk": "NVDA 투심 악화가 반도체 섹터 전체로 확산될 가능성",
+        "rationale": "젠슨 황 CEO의 갑작스러운 퇴출 악재로 인한 빅테크 및 반도체 섹터 전반의 단기 투매 및 변동성 극대화",
+        "risk": "신임 경영진 발탁 및 경영 안정화 대안의 조기 발표 가능성",
         "conviction": "high"
       },
       {
-        "theme": "TSMC 실적 호조에 따른 단기 반도체 모멘텀",
+        "theme": "스타십 성공 모멘텀 기반 우주항공 단기 수혜",
         "sectors": [
-          "Semiconductors"
+          "Industrials"
         ],
         "tickers": [
-          "TSM"
+          "RKLB",
+          "LMT"
         ],
-        "rationale": "10월 매출 60% 급증 발표와 대형 AI 투자 소식에 힘입어 아시아 반도체 대표주의 단기 수급 우위 지속.",
-        "risk": "미국 기술주 투심 약화의 아시아 시장 전이",
+        "rationale": "스페이스X 스타십 시험 발사 및 로켓 회수 성공으로 우주항공 및 방산 인프라 섹터로 단기 모멘텀 자금 유입",
+        "risk": "단기 재료 소진에 따른 이익 실현 매물 출회",
+        "conviction": "medium"
+      },
+      {
+        "theme": "유럽 GDPR 과징금 부과에 따른 빅테크 규제 리스크",
+        "sectors": [
+          "Communication Services"
+        ],
+        "tickers": [
+          "META"
+        ],
+        "rationale": "이탈리아 당국의 사상 최대 규모 개인정보보호법 위반 과징금 부과 이슈로 단기 센티먼트 악화",
+        "risk": "항소 제기 및 EU 집행위 차원의 규제 수위 조정 가능성",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "중국 비만 치료제 시장 개방 및 헬스케어 확장",
-        "sectors": [
-          "Healthcare"
-        ],
-        "tickers": [
-          "LLY"
-        ],
-        "rationale": "중국 당국의 일라이릴리 경구용 비만 치료제 승인을 계기로 1개월 내 제약·바이오 자금 유입 및 규제 완화 모멘텀 지속.",
-        "risk": "중국 내 약가 인하 압박 및 경쟁 약물 임상 결과",
-        "conviction": "high"
-      },
-      {
-        "theme": "유럽 완성차 구조조정 가속화에 따른 단기 약세",
+        "theme": "유럽 완성차 구조조정 및 투자 중단 파급력",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
-          "MBG",
-          "VOW3"
+          "MBGAF",
+          "STLA"
         ],
-        "rationale": "메르세데스-벤츠의 독일 공장 투자 중단과 폭스바겐·아우디의 비용 절감 프로그램 가동으로 인한 단기 주가 하방 압력 지속.",
-        "risk": "유럽 정부 차원의 제조업 긴급 지원책 발표 가능성",
+        "rationale": "메르세데스-벤츠의 공장 투자 중단 및 폐쇄 검토가 유럽 제조업 전반의 단기 경기 침체 우려와 자금 이탈 유발",
+        "risk": "유럽 각국 정부의 제조업 지원책 발표 또는 노사 합의 타결",
         "conviction": "high"
+      },
+      {
+        "theme": "일본 데이터센터 및 실물 부동산 자본 유입",
+        "sectors": [
+          "Real Estate"
+        ],
+        "tickers": [
+          "8802.T",
+          "8801.T"
+        ],
+        "rationale": "일본 내 금리 인상 전망에도 불구하고 견조한 오피스 임대료 성장과 디지털 인프라 수요로 단기 자금 유입 지속",
+        "risk": "일본은행(BOJ)의 예상보다 급격한 금리 인상 전환",
+        "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "아시아 자본시장 개혁 및 금융주 재평가",
+        "theme": "연준 금리 인상 기조 재개에 따른 밸류에이션 압박",
         "sectors": [
-          "Financials"
+          "Technology"
         ],
         "tickers": [
-          "055550.KS",
-          "105560.KS"
+          "MSFT",
+          "NVDA"
         ],
-        "rationale": "한국과 중국의 부실기업 퇴출, 주주가치 제고 및 규제 강화 정책이 분기 실적 시즌과 맞물려 금융 섹터의 체질 개선 기대감 반영.",
-        "risk": "정책 집행 지연 및 경기 둔화로 인한 대손충당금 증가 우려",
-        "conviction": "medium"
+        "rationale": "연준의 지속적 금리 인상 기조가 분기 실적 시즌 기술주들의 멀티플 프리미엄을 축소시키는 요인으로 작용",
+        "risk": "인플레이션 지표 둔화에 따른 금리 인상 기조 조기 중단",
+        "conviction": "high"
       },
       {
-        "theme": "지정학적 리스크 지속에 따른 에너지 방어주 강세",
+        "theme": "EU 단대규모 규제 본격화에 따른 플랫폼 섹터 중기 리스크",
         "sectors": [
-          "Energy"
+          "Communication Services",
+          "Technology"
         ],
         "tickers": [
-          "1605.T"
+          "META",
+          "MSFT"
         ],
-        "rationale": "호르무즈 해협 폐쇄 우려 등 지정학적 불안 속에서 견조한 실적을 바탕으로 한 일본 에너지 기업의 3개월 관점 방어적 모멘텀.",
-        "risk": "지정학적 긴장 완화에 따른 유가 급락",
+        "rationale": "이탈리아 등 EU 회원국들의 빅테크 개인정보 및 보안 규제 강화가 중기 수익성 및 유동성에 부담",
+        "risk": "규제 당국과의 과징금 감면 합의 및 현지 맞춤형 서비스 개편 성공",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "AI 인프라 다각화 및 정부 주도 반도체 공급망 재편",
+        "theme": "AI 반도체 공급망 재편 및 변동성 흡수",
         "sectors": [
-          "Semiconductors"
+          "Semiconductors",
+          "Technology"
         ],
         "tickers": [
-          "AMD",
-          "AVGO",
-          "TSM"
+          "TSM",
+          "NVDA"
         ],
-        "rationale": "특정 기업 독점 구조 탈피와 한국 등 주요국의 대규모 AI 반도체 정부 지원 로드맵이 결합되며 6개월 관점의 구조적 수급 변화 유발.",
-        "risk": "빅테크 기업들의 AI 캡엑스(CAPEX) 투자 속도 조절",
+        "rationale": "엔비디아 리더십 부재 악재 속에서 TSMC 등 아시아 공급망의 방어력 검증과 AI 밸류체인 구조 재편 진행",
+        "risk": "공급망 내 데이터 유출 등 보안 문제 재발 및 파운드리 차질",
+        "conviction": "medium"
+      },
+      {
+        "theme": "우주항공 재사용 기술 상용화 및 방산 공급망 확장",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [
+          "RKLB",
+          "LMT"
+        ],
+        "rationale": "스페이스X 성공 발사 이후 민간 우주 발사체 상용화 가속 및 관련 기술의 국방 인프라 반영 심화",
+        "risk": "후속 발사 실패 또는 정부 방산 예산 감축",
         "conviction": "high"
       }
     ],
     "1y": [
       {
-        "theme": "유럽 제조업 경쟁력 구조적 약화 및 경제 레짐 전환",
+        "theme": "반도체 지경학 리스크 및 자원 무기화 레짐",
         "sectors": [
-          "Consumer Discretionary"
+          "Semiconductors"
         ],
         "tickers": [
-          "MBG",
-          "VOW3"
+          "TSM",
+          "NVDA"
         ],
-        "rationale": "독일 자동차 산업의 내수 공장 폐쇄 검토 등 장기 침체는 유로존 핵심국의 경기 둔화 압박을 지속시키는 거시적 레짐 변화로 작용.",
-        "risk": "EU 차원의 대대적인 친환경 규제 완화 및 산업 육성책 타결",
-        "conviction": "medium"
+        "rationale": "중국의 희토류 수출 통제 검토 등 미·중 기술 패권 전쟁 장기화에 따른 글로벌 반도체 공급망의 구조적 재편",
+        "risk": "미·중 지정학적 극적 타협 또는 희토류 대체재의 급격한 상용화",
+        "conviction": "high"
       },
       {
-        "theme": "동아시아 증시 체질 개선 및 디스카운트 해소 패러다임",
+        "theme": "유럽 제조업 체질 개선 및 에너지 공급망 전환 통증",
         "sectors": [
-          "Financials"
+          "Consumer Discretionary",
+          "Energy"
         ],
         "tickers": [
-          "055550.KS",
-          "105560.KS"
+          "MBGAF",
+          "MOL"
         ],
-        "rationale": "한·중 정부의 지속적인 거버넌스 개혁 및 부실기업 정리가 1년 단위 패러다임 전환으로 이어지며 대형 금융주의 장기 밸류에이션 리레이팅 유도.",
-        "risk": "글로벌 경기 후퇴에 따른 아시아 자본 시장 전반의 자금 이탈",
+        "rationale": "러시아산 에너지 탈피 과정에서의 마찰과 유럽 자동차 레거시 공장의 구조조정 등 산업 구조전환에 따른 장기 마찰",
+        "risk": "EU 차원의 전환 지원기금 대규모 집행 및 원자재 공급선 신속 다변화",
         "conviction": "medium"
       }
     ]

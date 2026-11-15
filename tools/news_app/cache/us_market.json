@@ -1,7 +1,67 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "region": "US",
   "headlines": [
+    {
+      "title": "Eric Trump-backed robot soldier startup can t pay staff after founder borrowed $4.6 million from company to buy home",
+      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+      "summary": "The historic first gets SpaceX closer to rapid reusability of rockets.",
+      "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Outage That Swamped Air Travel Blamed on ‘Routine’ Work to Replace Copper Wire",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX1BwaGNac0VESjJsbHppTjVuN2syUTNyNWZrZlhsUDU2S2N6TFlTZWpQbXlqQVFFdFNibVdraDRsb19TRTNVbzdfbXlpSldua3pmS3NDZEp6R3dSRTk4ZGhLNDA4QzJQTUtpY0tVTXVIR3p4Wl9rVlg4ZUJpN2dnQmhRTmVmTkF6SWg3THBoOGVKMy04Z3F0Tkd2YmF6STZ6ZENXNlJuNS1HZVRtTlE?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTzVYbEh2b3Y2SkVCTlRkZXpFWGhVTVNRdUFhWk9XMW1QbEl6X0NyMkdIVFJFQjNlUXd5QjNqeE14eUh0MW41bzYwUmpDemZSZ1BnOHJHRk8taUFtaE5hR0ROc2otbjBaTDJwUE5EbXNrQjlxcjZfSWdrZnNPOV96TWJMQlRNNXdUZUVvcFBVbzl1MlNtUHBCLS1kRWZKSERYOENCbGFCUFhnUUtNMUNF?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Retailers are turning to entertainment to win shoppers’ attention",
+      "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
+      "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
+      "summary": "I have a net worth of $2.3 million and my only debt is a 15-year mortgage.",
+      "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Print Edition | Wall Street Journal",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zMmZrR09iVktsNWlVYjFiZE0wbW85REUzRXZ0WkJHQm9TNUNqZ2xKcGFFWjhqakpBN0ItX0UzVTI5MDY1c3RtdVZ0M3RSUG1OckZDaWxfdDNfV21BejdmeTVB?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Pentagon Eyes Smaller Troop Cuts Across Europe in Reversal",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZnFzQTNDVjczaDJOUFZMUHphSnA0SzFiZmJ4a0dlb3pPLTBPU0YwMERpbExqVjlXN2pnUFhodXVKbUM1WnRHM1VlOFIyMkNxdVB5clRUdmdlakp5VVBhWUVKUzlOcDVvSTRSTU5NbzZBY19sUExkSTd1X21SekcxYXRObE53NUluMzRDMHJMeU9FTXRGbzJXcFBUR1AtTUZmUTNzTnFIRkJiQ0NHbUE?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "LNG Prices Soar. These Exporters Could Benefit as Europe Faces a Tough Winter.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ1FWYnBTdVBnaWQ2c1RoZFBPN19UUUFlajNkS0RqS19FUWpTYXNFMUZDZ3JHZ2FXcFFwM2ljMEszRjJWREhQRWhfWjJ1ZFJWdEpWSFFudzEwbFNzREJ0VFpZNUE3Wk9JN2ZlUW1JT0JDVEtHWFl3THk0Qmx2ZXczQ2sxcTRDb2E3cWc0QmxZTU1BTjZS?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Disney s Star Wars is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
       "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
@@ -9,21 +69,21 @@
       "source": "CNBC"
     },
     {
-      "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed so far",
-      "summary": "Agency cites extraordinary circumstances, while Homeland Security Secretary Mullin says no indication of attack. Reduced flights amid fuel-cost surge may curtail rebooking options.",
-      "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+      "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+      "summary": "He has always said he wants his daughter to inherit a chunk of his estate, and I ve never objected to that.",
+      "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "More Than 13,000 Flights Delayed or Canceled in FAA’s Nationwide Groundstop",
+      "title": "News Quiz for Nov. 14, 2026",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWttclRZeVZvN2JCTHVnXy1Hdko4UFhvRHY1TzNPcGo5cFkyMXFhZTRreUtwaW9fUUxCaGY0VDNhempMRzd1RHNaSUNITFY1VnpLSk5CWFhOR0JVeURzRG9uYnUzME9qM1g4LUNBcjdjeDcxR2JLa2FOeE1uRFBqWGd5RQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IVl9HdWhFYklGYnowS294RHZONWJ2R1F3VUZTTHV1SWszV1dNdEIyNmVxRkI5OW4tWFRRRlljU2lJX19WVlNkSTNWeHhiY2FLR0tqTV9vb3pYWEs2dWdZNmdrMUJabEg4NFRUT3Y2WGI?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "FBI Said to Probe Whether Software Update Caused Mass FAA Outage",
+      "title": "Duffy Probing Possible L3Harris ‘Incompetence’ in FAA Meltdown",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2IyNzV5SFVBejUtbmJod1lMSktHTVljaFNPazBRY0lfRjFzRUFDd0pneG0xQnR0bHpySFBTeGo1WXlaV2ZCUEtZVWotSmdUVWxUVWJvcDMwYWY5d3o4NEpGX2w0QlJYTGc3U3pZTDBZWUZKSHAwV0J3RjNxUEdWOE9tME1janc5U0I5NWR2STR4MW50LWNVWWt4ZVB3eFROQW1ZWnkyekR6T0dUMTVBenVXV2RJZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0dsdmtucFQyMWVxc2hTLTNKb0t6cWNDaVZtQThIYlBuTTFCNGxTQkM2ZmJKTXJaQ1BxdmxwOHBLYzlWM0dqZV9SN3NRMFljT2J0dFNKRTJFOVRLeVBTM00zSkxqMERyenl5Sk9KZEZkd1FtZVpSbWtQYzFSOXBUVmdyZTh1dHA1ZFZWMWhQd2ZCaHBMTWVEZzBYS3RocjdkY1JpeGt3Wm51UlR0N0swcQ?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -39,99 +99,39 @@
       "source": "CNBC"
     },
     {
-      "title": "The thought of living to 100 terrifies me : Is Social Security a giant Ponzi scheme?",
-      "summary": "There is already a demographic run on Social Security.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "title": "It leaves me with a sour taste : My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "summary": "I know older people can easily feel patronized, and I don t want that to happen.",
+      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "SpaceX Launches Starship on Ambitious Bid to Catch Spacecraft",
+      "title": "In Jensen Huang’s Ouster, Tech Billionaires See a Mistake—and a Lesson",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0h5Z2ZOZ3hGRDU2d0RaMk5ocV84cmVmTXhBOWl2dFgzVWhQN3hTNTVuNGhfcFJJbDJhZnZ3aVJFT1I1SnFSdUZGUW9tNFZrZ1ZkQlpXVXlaNDBqQUh0eWxZVU1jM3hSZ01hNEYwV1R1a3p2N2NJOThfTk9TbUNmUmFkZ2RkeTJMRVB6ZVdqeEhVQ0o1ZVozRmRHYVMydlZCWjBKVS1vTDNpZEtIWHpoVGxlUWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQkFZaWU0ZEdlakM1WnlreGY5X19qOTNjVjFlWTJXZWFwZkl6QlNYdUlYZ1JCNkNtQ0U3T04zaDNPYnNyd0NqZUtTYlJlRkhwaUwwYl82aWpUaEZ3Y2FCcGh6UHdXaW5FUmZEZU93NE81U0UyYVhia1JXdnVZUG1kYW1UbGZWTlJsQVh6bGZFMkZtY0I3SEdCNHFlVUlsYU1rRUNF?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "FAA Grounds Flights Across US Until Further Notice",
+      "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVpNOE11WFV6SC0wZVdHcE1sRjRGRTVnQXZvREpJNVViemFhOXVaS1JUX0IwcFRucl9iMDFUX0hVMXJyeGx3LWdKRmowazFyZEV0ajFZdnlpT2EyOWVRZC1LWll3OXhuVWVnZHBXMWhhX3EtNWlFMWNxT2xiOUlzY3dEREVTTlNaelI2QkQyUjdHV2JpSjhnV0JtNlE0VlJfdDg4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ1VpUkNJTDJUbUFmVWFybWpBQUt3dmh4WmJNbS1tZ3BhbkthQ0xEVDZKOE5EQ3Fsb2x0MEwxM1RRM2FYVDFyOWpJM1RoOGl2VDBWOHpjQmNZNkZQdTVKVmpKYVdIN3YyT0pYWlp1ekkyOWF6bmc5eWJJbXhFLU9IVk84S1NKT045YmZuelk4azdZcTA3NTBNUjkxNktUZ1M4VUVzdnpqVzRKX0VhWm5USW9B?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Nvidia Stock Falls. It Faces One Big Threat in Life After Jensen.",
+      "title": "Chart of the Day: Sandisk Stock Looks Ready to Bounce Back",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaUpieHEtVm55SjR2ak9lSXFic1VjZk9XVG1XUklXQS1TVTNFb2k5ejV2cVp2MnBPZUpYLWZfNWJoUnhEOEpmSkhsNnNwMjYzVmxTWFhEMnVQaVNNbG5ObkhjTnd1MS1tT2c1WldfNHRUcm1RSjhDRW41UmVUZTdoeVQwZjBwZw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
-      "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
-      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "4 expert tips for signing up for Medicare",
-      "summary": "A day in the life of a Medicare counselor",
-      "link": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | Meta Testing New Prediction-Market App With Employees",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUmU1MnY0TnI4RG9jaVN4eXVDb2IwOFYtTWp3Q0tIUGtqRUMwcGM2UTh5cVdNSjNnYTZWZS1Tc001dzdpMklNRFVjYnVXckplODIxN092NnFnLVdtbG8tenZJM3dwM3p3M3Jhd2NVX0RyU19CcXJsRHZRaDRnN0ZfX09YTFQzamRvTlk1MFQ1ZFY?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Bitcoin’s Billion-Dollar Wipeouts Are Becoming a Familiar Sight",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaUd5VFhXYWFteUNtX00xalQyaGdaSUNqRkxNY0FwaWY4WFdrWE4wdTZJWV95Y1YxU3NpVkVUX0lxdl9uQnl5TGVzUEFodHdCQl84b09TU25IY19VLXc0YjhmaDlWb1hfeEFuX29oT2tIOFQ0ekNFd25wb3lERUdqVUZlOTZnbGxlT1NpUWttdUgxNm1OQzl4QVZXd3gyZVV5UTFOTGtVM2dwUEdxcW53a0NobGY?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Cisco Stock Falls After Earnings Beat Fails to Ease Long-Term Concerns",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZUhmWGFldFYxS1lXZUZhbjJQa2lkWk5OejFaODlTNjZBMG9UUHEtOUNzcnJlUGR6MFRSenR6YTBPWGktVm5ZMnJ5LUJ5SDhDdFZ1RDl3RUVXVU1YNk92ZGVvVHRMWnVadHQ0bHRrcGhKbUozeXVpQWtDdEFydUJ2SzJZcWtUbkE?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
-      "summary": "American Airlines' first-class food options include sandwiches, fruit and chia bowls",
-      "link": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Nvidia s stock is on a losing streak not seen in 14 years. What comes next?",
-      "summary": "Nvidia wiped out $573 billion in market capitalization this week its sixth consecutive week of stock declines.",
-      "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Exclusive | Democrats Order Musk to Preserve Records Over Ukraine Starlink Access",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZF9udEVzb0ExTk1fRlVWNVRLX1BYVlU3RXY3X08xaXFGXzRiMVMxd2xXWEt0T0dBb3ZQaVFqNDhjSHQ5cDE4Q2ZZRXhUbm80cW9UNVZUT0hVbGVxYV80U3FYbnVPT3lBVnRKcHFNMG9YSHlUVUZoOS1rQVA3My12SUVmdTVBSm9UNWJ0Vjg1bzRhMXRIclZhT3JiVGhOYkJxdTd3NVZEN1hxaDdNbjlGbDhEcEM?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Fed Sees Risks Tied to Elevated Asset Prices Partly Driven by AI",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWjhJdzBDdFpRc3VSX0ZSNFV1SFRJS2JhYXpKMlU5Mm1ZNEVsN2o1Mno3TkNrQ2lBYlVoOVdsUVZJS2JDVUhCLXdyMG1tNG1ldGFLV0dqUWZxMzJWWWxYaDUzYWdiWXJILUxNdnlEOFgtWWI0V0s2VVFmMmxPZm5vekpwM1BBZlVGZDYyd2E3OW5lNVZWOF9MY05MdmtFb2gxRVQxN2FCZVh6djhXSG5uS3d4Y3VyQQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Why Microsoft Outage Is the Worst Possible Timing for the Stock",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FQnZ5NVNRSjRJbjRyNDNQdl9yRGhzMWJjbzNUby1zYklKM0lPN2tKT1hzb0E5X01tQ3Y1T25vQ3M2ZDQzMG1nWWNKZjljZUFwanVXU0JzZUQxODI0Z0w0UmVQNmtUQnVYN2FfR2hsVm9tR1BZbVQ2Z2FvTQ?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "엔비디아 6주 연속 하락과 FAA 전면 운항 중단 충돌",
-  "summary": "엔비디아가 6주간 5,730억 달러어치의 시가총액을 증발시키며 14년 만의 최장 하락 기록을 세운 가운데, 소프트웨어 오류 여부가 조사 중인 미 연방항공청(FAA)의 전국 항공기 운항 중단 사태가 겹치며 시장에 연쇄 충격을 주고 있습니다. 연준 또한 인공지능(AI) 열풍으로 인한 자산 가격 고평가 위험을 경고하며 투자 심리를 압박했습니다.",
+  "trend_headline": "엔비디아 젠슨 황 퇴출과 빅테크 변동성",
+  "summary": "엔비디아 젠슨 황의 갑작스러운 퇴출 및 실각 이슈가 빅테크 전반에 충격을 주며 시장의 핵심 화두로 부상했습니다. 이와 함께 연준의 점진적 금리 인상 기조와 스페이스X의 스타십 시험 발사 성과가 교차하며 투자 심리에 영향을 미쳤습니다.",
   "key_points": [
-    "엔비디아, 6주 연속 주가 하락으로 시가총액 5,730억 달러 증발",
-    "FAA, 전국적 항공기 운항 중단 조치... FBI가 소프트웨어 오류 여부 조사 착수",
-    "연방준비제도(Fed), AI 주도 자산 가격 상승세에 잠재적 위험 경고"
+    "엔비디아 CEO 젠슨 황의 퇴출 및 실각 뉴스가 빅테크 업계 전반에 큰 파장을 일으켰습니다.",
+    "연준의 콜린스 총재가 '꾸준하고 점진적인(steady, gradual)' 금리 인상이 적절하다고 발언했습니다.",
+    "스페이스X가 스타십 로켓 회수에 성공하며 우주 산업의 재사용성 가속화 기대감을 높였습니다."
   ],
   "sector_hints": [
     "Technology",
-    "Industrials"
+    "Communication Services"
   ]
 }

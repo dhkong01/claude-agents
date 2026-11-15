@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "analyzed": 139,
   "top10": [
     {
@@ -129,24 +129,6 @@
       "rs_rating": 85.9
     },
     {
-      "ticker": "MSFT",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 3890434801664,
-      "price": 523.88,
-      "rs_rating": 81.1
-    },
-    {
       "ticker": "MU",
       "canslim_score": 58,
       "scores": {
@@ -181,6 +163,24 @@
       "market_cap": 125927505920,
       "price": 885.01,
       "rs_rating": 95.6
+    },
+    {
+      "ticker": "ROP",
+      "canslim_score": 58,
+      "scores": {
+        "C": 7,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 47535013888,
+      "price": 479.975,
+      "rs_rating": 94.9
     }
   ]
 }

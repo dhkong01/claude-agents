@@ -1,39 +1,24 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "sectors": [
     {
-      "name": "Semiconductors",
-      "direction": "negative",
-      "score": -8.5,
-      "rationale": "엔비디아 CEO 젠슨 황의 실각 이슈로 미국 및 아시아 AI 반도체 밸류체인 전반에 커다란 충격이 발생했으며, 중국의 희토류 수출 통제 검토 등 기술패권을 둘러싼 지경학적 리스크가 가중되었습니다.",
-      "related_tickers": [
-        "NVDA",
-        "TSM"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
+      "name": "Consumer Discretionary",
       "direction": "negative",
       "score": -7.5,
-      "rationale": "엔비디아 발 대형 악재가 빅테크 전반의 투자심리를 약화시켰으며, 대만 TSMC 협력사의 데이터 유출 리스크 등 보안 과제가 불확실성을 제고하고 있습니다.",
+      "rationale": "메르세데스-벤츠의 독일 내 신규 투자 중단 및 공장 폐쇄 검토 소식으로 인해 유럽 전통 완성차 제조업 전반의 구조적 위기와 실적 압박이 가중되고 있습니다.",
       "related_tickers": [
-        "NVDA",
-        "MSFT"
+        "MBG",
+        "VOW3"
       ],
       "source_regions": [
-        "US",
-        "ASIA"
+        "EU"
       ]
     },
     {
       "name": "Communication Services",
       "direction": "negative",
-      "score": -6.0,
-      "rationale": "이탈리아 당국이 개인정보보호법 위반 혐의로 메타(Meta)에 8억 5천만 유로 규모의 대형 과징금을 부과하는 등 유럽 내 빅테크 플랫폼에 대한 규제 리스크가 현실화되었습니다.",
+      "score": -6.5,
+      "rationale": "이탈리아 개인정보 보호 당국이 메타(Meta)에 8억 500만 유로의 사상 최대 규모 과징금을 부과하면서 유럽 내 플랫폼 빅테크 기업에 대한 규제 리스크가 강화되었습니다.",
       "related_tickers": [
         "META"
       ],
@@ -42,56 +27,23 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "독일 메르세데스-벤츠가 신규 투자를 중단하고 국내 공장 폐쇄 및 구조조정을 검토하면서 유럽 자동차 및 제조업 경기 침체 우려가 심화되었습니다.",
-      "related_tickers": [
-        "MBGAF",
-        "STLA"
-      ],
-      "source_regions": [
-        "EU"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "스페이스X의 스타십 로켓 회수 성공으로 우주항공 산업의 기술 재사용성 가속화 및 관련 인프라/방산 분야에 대한 투자 기대감이 확대되었습니다.",
-      "related_tickers": [
-        "RKLB",
-        "LMT"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
-      "name": "Real Estate",
-      "direction": "positive",
-      "score": 6.0,
-      "rationale": "일본 실물 부동산 시장이 금리 상승 전망에도 불구하고 오피스 임대료 성장과 대규모 데이터센터 등 디지털 인프라 확장을 바탕으로 미 자본 유입이 지속되는 견조한 흐름을 보이고 있습니다.",
-      "related_tickers": [
-        "8802.T",
-        "8801.T"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
       "name": "Energy",
       "direction": "negative",
-      "score": -4.5,
-      "rationale": "헝가리 MOL의 2027년 러시아산 원유 수입 중단 추진 과정에서 인프라 전환 마찰과 사회적 불안 우려로 인한 EU 기금 지원 요구 등 노이즈가 발생하고 있습니다.",
+      "score": -5.5,
+      "rationale": "헝가리 MOL의 2027년까지 러시아산 원유 의존도 탈피 추진 과정에서 에너지 비용 상승 및 지정학적 공급망 우려가 가중되어 유로존 기업들의 마진 압박이 심화되고 있습니다.",
       "related_tickers": [
-        "MOL"
+        "SHEL",
+        "TTE"
       ],
       "source_regions": [
         "EU"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Semiconductors",
+      "note": "미국은 엔비디아 젠슨 황 CEO의 갑작스러운 퇴진과 실적 발표를 앞둔 긴장감으로 변동성과 불확실성이 극대화된 반면, 아시아(대만)는 TSMC의 공장 확장과 AI 반도체 공급망 호조에 힘입어 강력한 랠리를 나타내고 있습니다."
+    }
+  ]
 }

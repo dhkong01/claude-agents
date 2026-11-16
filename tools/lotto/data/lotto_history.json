@@ -1,7 +1,20 @@
 {
-  "last_draw": 1249,
-  "total_records": 1249,
+  "last_draw": 1250,
+  "total_records": 1250,
   "data": [
+    {
+      "draw": 1250,
+      "date": "2026-11-14",
+      "numbers": [
+        1,
+        5,
+        18,
+        23,
+        27,
+        28
+      ],
+      "bonus": 8
+    },
     {
       "draw": 1249,
       "date": "2026-11-07",

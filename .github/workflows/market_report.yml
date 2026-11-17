@@ -142,6 +142,15 @@ jobs:
           MR_DATA_DIR: ${{ github.workspace }}/market-data
         run: python tools/market_report/export_cycle_qqq.py
 
+      # 공포·탐욕/VIX 4종 (QQQ 사이클 탭 하단). 지표별로 실패해도 기존 값이 남는다.
+      - name: 시장 심리 지표 수집
+        if: steps.guard.outputs.skip != 'true'
+        continue-on-error: true
+        env:
+          PYTHONIOENCODING: utf-8
+          MR_DATA_DIR: ${{ github.workspace }}/market-data
+        run: python tools/market_report/export_sentiment.py
+
       - name: market-data 브랜치에 단일 커밋으로 강제 푸시 (히스토리 누적 없음)
         if: steps.guard.outputs.skip != 'true'
         working-directory: market-data

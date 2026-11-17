@@ -4,7 +4,7 @@
 const CACHE = 'market-report-v2';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
-  'js/data.js', 'js/live.js', 'js/charts.js', 'js/cycle.js', 'js/globe.js', 'js/app.js',
+  'js/data.js', 'js/live.js', 'js/charts.js', 'js/cycle.js', 'js/sentiment.js', 'js/globe.js', 'js/app.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',
 ];
 const CDN = ['cdn.jsdelivr.net'];

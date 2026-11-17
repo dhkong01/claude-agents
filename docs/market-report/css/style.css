@@ -309,3 +309,51 @@ body { -webkit-tap-highlight-color: transparent; }
   .toast { bottom: calc(76px + env(safe-area-inset-bottom)); }
   .install-tip { font-size: 11.5px; }
 }
+
+/* ===== 시장 심리 지표 (QQQ 사이클 탭 하단) ===== */
+#smWrap { margin-top: 20px; }
+.sm-title { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin: 4px 2px 12px; }
+.sm-title h2 { font-size: 17px; margin: 0; }
+.sm-title small { color: var(--ink3); font-size: 12px; }
+.sm-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+@media (min-width: 1100px) { .sm-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 720px) { .sm-grid { grid-template-columns: 1fr; } }
+.sm-card { margin: 0 !important; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.sm-h h3 { font-size: 14px; margin: 0; }
+.sm-h small { display: block; color: var(--ink3); font-size: 11px; margin-top: 2px; line-height: 1.35; }
+.sm-gauge { width: 100%; max-width: 260px; margin: 0 auto; display: block; }
+.sm-gnum { font-size: 34px; font-weight: 800; fill: var(--ink); }
+.sm-tick { font-size: 9px; fill: var(--ink3); }
+.sm-state { display: flex; align-items: baseline; justify-content: center; gap: 8px; flex-wrap: wrap; font-size: 13px; }
+.sm-state b { font-size: 16px; }
+.sm-state span { font-size: 12px; }
+.sm-prev { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; text-align: center; border-top: 1px solid var(--line2); border-bottom: 1px solid var(--line2); padding: 8px 0; }
+.sm-prev3 { grid-template-columns: repeat(3, 1fr); }
+.sm-prev small { display: block; color: var(--ink3); font-size: 10.5px; }
+.sm-prev b { font-size: 13px; display: inline-flex; align-items: center; gap: 4px; }
+.sm-prev b i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+.sm-parts { display: flex; flex-direction: column; gap: 5px; }
+.sm-part { display: grid; grid-template-columns: 62px 1fr 24px 56px; align-items: center; gap: 6px; font-size: 11.5px; }
+.sm-part span { color: var(--ink2); }
+.sm-part b { text-align: right; }
+.sm-part em { font-style: normal; color: var(--ink3); font-size: 10.5px; text-align: right; white-space: nowrap; }
+.sm-bar { height: 6px; background: var(--line2); border-radius: 3px; overflow: hidden; }
+.sm-bar i { display: block; height: 100%; border-radius: 3px; }
+.sm-tw { margin-top: auto; }
+.sm-readout { font-size: 12px; font-weight: 600; color: var(--ink2); min-height: 18px; }
+.sm-trend { width: 100%; height: auto; display: block; touch-action: pan-y; }
+.sm-xh { stroke: var(--ink2); stroke-width: 1; stroke-dasharray: 3 3; }
+.sm-hit { fill: transparent; }
+.sm-range { display: flex; justify-content: space-between; color: var(--ink3); font-size: 10.5px; }
+.sm-vnum { display: flex; align-items: baseline; justify-content: center; gap: 10px; padding-top: 22px; }
+.sm-vnum strong { font-size: 40px; font-weight: 800; line-height: 1; }
+.sm-vnum span { font-size: 13px; font-weight: 600; }
+.sm-vscale { position: relative; height: 12px; border-radius: 6px; overflow: visible; margin: 6px 4px 0; background: var(--line2); }
+.sm-vscale i { position: absolute; top: 0; height: 100%; }
+.sm-vscale i:first-child { border-radius: 6px 0 0 6px; }
+.sm-vscale i:nth-last-child(2) { border-radius: 0 6px 6px 0; }
+.sm-vscale u { position: absolute; top: -4px; width: 4px; height: 20px; margin-left: -2px; background: var(--ink); border-radius: 2px; box-shadow: 0 0 0 2px #fff; }
+.sm-vlab { position: relative; height: 14px; margin: 0 4px 2px; font-size: 10px; color: var(--ink3); }
+.sm-vlab span { position: absolute; transform: translateX(-50%); }
+.sm-vlab span:first-child { left: 0; transform: none; }
+.sm-vlab span:last-child { transform: translateX(-100%); }

@@ -238,7 +238,8 @@
       '<p class="note">QQQ 종가를 고점=100으로 지수화했습니다. 가로축은 고점 이후 거래일 수(위)와 2026~27년 대응 날짜(아래)이고, 2018년 선은 ' + md(d.ref.start) +
       '(2018년 8/29 고점 직후 조정이 시작된 날 = 2026 고점일과 같은 0일차)부터 실제 일별 종가로 겹쳤습니다. 2026년 선은 ' + ymd(d.endDate) + '(' + d.endDay + '일차)까지 수집 때마다 이어 그려집니다.</p>' +
       '<p class="note cy-proj-note"' + (ui.proj ? '' : ' hidden') + '>예상선은 오늘 값에서 출발해 최근 15거래일 추세를 따라가다가(약 15거래일 만에 영향 감소) 시나리오별 경로로 수렴합니다. 경로의 모양(저점 시기·회복 속도)은 2018년에서 빌리고 수준은 하락 폭으로 나눴습니다 — 얕은 조정: 지금까지 저점을 소폭 재시험 후 대부분 회복 · 중간 조정: 그 중간 · 깊은 조정: 2018과 같은 하락률 후 더딘 회복. 하락이 클수록 전 구간에서 더 아래에 놓이며, 예측이 아니라 가정입니다.</p></section>' +
-      milestones(d);
+      milestones(d) +
+      (MR.sentiment ? MR.sentiment.html() : '');
   }
 
   /* ---------- 뷰 (app.js 라우터가 호출) ---------- */
@@ -268,6 +269,7 @@
             } else return;
             draw();
           });
+          if (MR.sentiment) MR.sentiment.mount(ctx.view.querySelector('#smWrap'), ctx);
           draw(); ctx.setRedraw(draw);
           requestAnimationFrame(draw); // 폰트·레이아웃 확정 후 한 번 더
         }).catch(function () {

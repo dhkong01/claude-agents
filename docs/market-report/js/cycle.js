@@ -209,7 +209,9 @@
     d.marks.forEach(function (m) {
       if (m.s === 'ref') rows.push({ day: m.day, name: m.label.indexOf('저점') >= 0 ? '저점 (고점 대비 ' + sg(m.v - 100, 0) + '%)' : m.label, v: m.v, date: m.date });
     });
-    d.fomc.ref.forEach(function (f) { rows.push({ day: f.day, name: 'FOMC 결정', v: ref.v[f.day], date: f.date }); });
+    d.fomc.ref.forEach(function (f) { rows.push({ day: f.day, name: '2018 FOMC 결정 (' + md(f.date) + ')', v: ref.v[f.day], date: f.date }); });
+    // 2026 FOMC 는 실제 일정(연준 발표) 날짜 그대로이고, 2018 쪽은 같은 거래일 수 시점의 값을 보여 준다
+    d.fomc.cur.forEach(function (f) { rows.push({ day: f.day, name: '2026 FOMC 결정 (' + md(f.date) + ', 실제 일정)', v: ref.v[f.day], date: ref.dates[f.day] }); });
     rows.sort(function (a, b) { return a.day - b.day; });
     const body = rows.map(function (r) {
       const real = r.day < cur.v.length ? f1(cur.v[r.day]) : '<span class="flat">예정</span>';
@@ -218,7 +220,7 @@
     }).join('');
     return '<section class="card"><h2>2018 사이클 지도</h2><div class="tbl-wrap"><table class="tbl"><thead><tr><th>시점</th><th class="num">2018 날짜</th><th class="num">거래일</th>' +
       '<th class="num">2018 지수</th><th class="num">2026~27 대응일</th><th class="num">2026 실제</th></tr></thead><tbody>' + body + '</tbody></table></div>' +
-      '<p class="note">2018년의 각 변곡점이 2026~27년의 어느 날에 해당하는지 보여 줍니다(고점 후 거래일 기준, 미국 휴장일 반영). 같은 경로를 반복한다는 뜻이 아니라 비교용 기준선입니다.</p></section>';
+      '<p class="note">2018년의 각 변곡점이 2026~27년의 어느 날에 해당하는지 보여 줍니다(고점 후 거래일 기준, 미국 휴장일 반영). 같은 경로를 반복한다는 뜻이 아니라 비교용 기준선입니다. 차트의 FOMC 세로선 2개 중 “2026 FOMC”는 연준이 발표한 실제 일정(12/8~9, 결정일 12/9)이고, “2018 FOMC”(12/19)는 같은 거래일 수로 환산하면 2026년 12/21에 해당합니다 — 서로 다른 사건이라 날짜가 다릅니다.</p></section>';
   }
   function controls() {
     const z = function (k, t) { return '<button type="button" data-zoom="' + k + '" class="' + (ui.zoom === k ? 'active' : '') + '">' + t + '</button>'; };

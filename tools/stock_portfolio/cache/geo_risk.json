@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-15",
-  "risk_score": 8.5,
+  "date": "2026-11-16",
+  "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
-  "high_risk_signals": 2,
-  "medium_risk_signals": 2,
+  "high_risk_signals": 4,
+  "medium_risk_signals": 1,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "ELEVATED",
@@ -24,6 +24,6 @@
       "Semiconductors",
       "Defense"
     ],
-    "reasoning": "Risk 8.5 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 25% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Semiconductors, Defense ELEVATED]"
+    "reasoning": "Risk 10.0 \u2014 \uadf9\ub2e8 \ubc29\uc5b4. SQQQ 25% + \ud604\uae08 60%. \ub871 \ucd5c\uc18c\ud654. [Energy, Semiconductors, Defense ELEVATED]"
   }
 }

@@ -1,4 +1,17 @@
 {
-  "date": "2026-11-16",
-  "insights": []
+  "date": "2026-11-17",
+  "insights": [
+    {
+      "name": "Stanley Druckenmiller",
+      "insight": "스탠리 드러켄밀러의 패밀리 오피스가 3분기 동안 AMD와 샌디스크 주식을 매각한 반면, 스페이스X와 팔란티어에는 투자했다고 MarketWatch가 보도했다.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories"
+    },
+    {
+      "name": "Warren Buffett",
+      "insight": "버크셔 해서웨이가 3분기에 뱅크오브아메리카와 베리사인을 매각하고, 주택 건설업체인 레나와 델타항공 지분을 매입하며 미국 주택 시장에 대한 투자를 늘렸다고 Barron's와 MarketWatch가 보도했다.",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories"
+    }
+  ]
 }

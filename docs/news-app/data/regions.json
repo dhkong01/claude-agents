@@ -1,9 +1,117 @@
 {
   "date": "2026-11-16",
   "us": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "region": "US",
     "headlines": [
+      {
+        "title": "United Airlines resolves system outage that affected departing flights",
+        "summary": "The airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.",
+        "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Defense Department Again Fails to Produce a Reliable Audit",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYk8wVFFkMHdNcVVLak1vQ24wR2VwQzYwZ2Z6NENTcllEdzVmTWV5RC1aMmU2aEJfV3lSSVpUSnVaNXpLdUZvWTJOV1lUX25ST1hhd1ZkS0hNRmVmRGVVTFJIVENzZm5WcGNma2tGS2V4clplN2ZydjA4X2l6eXNZNzlPQ3V2LUgzUndYRTIwaEhZTmtKVWNLX2NFR0lmMHU1Vy1RdVI3elB4WUcwdlE?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Why SpaceX Stock Is Down After Its Historic Starship Catch",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWl5bk1QQmFtOGJoU0JMYkx3Njlsa1JzUE45T0JwVUlGejl3blJYeEF1QWpxV3NSMk1palYzZzIzMVBJUk02RDZpcy1xdnFlTzRvdFhKQlJWUFIxd3k4X0JCVUpoLURETTVnbmhGS2tteG5iU2pFOVdGcG1tdUx5YnVoZzFzSG1LWC1QUmRrWEI?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+        "summary": "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
+        "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "China’s $17 Billion Crop Pledge Falters Ahead of Trump-Xi Summit",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZWxUMDRsSC1YRjRGZTMtV2pZZlRfQ3YycDhJaGx0S05EWnNvbXpOdmU0cUJORmZ1NXd0d0Q1WXR1Y1l2MnJlWG4zcmxlRlFmRnV0Vzc3Q3NUYUxsMzlick80RG1uOUQ0MG95dkJrazFXdV84akNPWUxSN1FZcGxqdk1NclJ5WTRUeDBXLXRMM2lyVUp2SThGckluWUdiOV96Vm1zNVA1cDBJTHdSTUZ0N0NHWkk?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "French Troops Deployed In Ukraine On Secret Training Mission: Source",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT096YndRc0pfSEVLYWNfOXRQNWdjS1NoZDRfSkFDNlVyYUhyd1FHRW85WXctMEtKTVBVOTN4enpQVnY4S0J4MFljdVJaMjdieTBGR2VIV0pfRFAyVy1KeDhucEg5SG13RWpOSXh0ZFZCOTBSZFd1Y1NkX08weEFiTG9VMHNNM3ZTdExTSGlCc2gtaFlwQ01GVkoxbVlSUEV4ZHc1dTh3?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "Robert Pattinson cast as next James Bond",
+        "summary": "Pattinson has been in major films this year, including Christopher Nolan's \"The Odyssey,\" and will soon appear in \"Dune: Part Three.\"",
+        "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Chip Stocks Slide as US Sets New Curbs on China’s Compute Access",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVVjUlBfX1ZxOFRWZ243YkxEbTVJSm1BSkNJLUpCTzdrZlAtU3ktZzdmekJCZVhVc1lubi0tbklQX2wwTEh6WU8wUkI2M05Ecy1OTWJUNk5UVTV6bjltOWZkaXF3UHpJazUwaVlmTGljMFZBUGd3bFliN21xRWItdWhHeHVvSncxLXQ4SHZael9ySVF4QmlQOTNIQTZWTWl2NGdwaTA4eFhDUm5LVzZQc2JhZmFJQQ?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWFN5S3RESUVaa0ExaEU4U2tfRDZYQVhhMnJLQW93aGp0WXFJbjl1WDE1WDkwdWxsM2lhNHpZM0Y3WHFEb2JnTlVndGM4c3BqLURseHN6cWtMaW1NaDVJRk40R3R6eGtaR3pzbmdRYlpPYU95MDNRLUhsV0hWY0VRa0FFcHN0SlhqNTgxTk8xZUp6VjA?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "We slept here : Flight delays linger as airlines recover from ground stop, but schedule improves Monday",
+        "summary": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+        "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Oil Extends Fall on Signs of Revived Supplies and Vance Outlook",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWticDVnRnhZcGNMcDNaRTJYNlZMUmd3NHZkbE9jRVV5TDV6bG5EX09rMndHQ0RUZXY3RHh0X0lzcXQ3UWE1OHY2djdGNmVnUWhwcU1fLURMNk9xVmZndmQzVHdNd04xTFpMbTZldURsQmRaanRsLXhocHcwSEhySnNNeEx5VjhTbk5NUWlySHQtWUhuOVJmekM2aVhQdw?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Nvidia Stock Falls Again. It Doesn’t Need a Jensen Huang Comeback to Thrive.",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcVZqLW05Y1FaS0xnVEM2T3EwUGlwZ21LSHJUQVdYWnMwcVczbDFYWE91MlQtcHNhdWhlbVdVUnE5a1JqeUE4aEpOSUtlTEdBMnJnMFl0UVdXOUNodGJCNDRSbzlLbXpZVXljR3QwVGdYWTVDNldJRHRPUXRqZFV6RWxHZlV2RWFsZGc?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "Novo says Wegovy injection lowers BMI and obesity rates in children in trial",
+        "summary": "Wegovy is already approved to treat obesity in children ages 12 and older, but there are currently no approved medications for those under 12.",
+        "link": "https://www.cnbc.com/2026/11/16/novo-wegovy-obesity-children-trial.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Nvidia, Sandisk, SpaceX, L3Harris, Strategy, Tyson, and More Stocks That Explain Today’s Market",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43c05CWWJXdVVNbWRoS1NTMm9NLUxOa1hXYVlXQkNEV1p3bXpTbk5NTFVrSlFDekpyODB6cFA3OVVOQ21SOUlzYzVsM3dLSlByV1NTZWJST3o1Um95Tm1reGxIQ08?oc=5",
+        "source": "Barron's"
+      },
+      {
+        "title": "Big-ticket holiday items may be harder to find as shipping costs rise",
+        "summary": "Transportation executives said they're seeing retailers be cautious on their holiday inventory strategy.",
+        "link": "https://www.cnbc.com/2026/11/16/holiday-big-ticket-inventory-shipping-costs.html",
+        "source": "CNBC"
+      },
+      {
+        "title": "Anthropic Faces a Longer Wait Than SpaceX to Join Stock Indexes",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTVhxVzJmTGluQ2c1ZF9WS1hEUDhRcUpOazlVTnd1eDJoWW0xV291ejdCQ1pWdndCQ0wyRjAtS3lQY3g4SlNUUUpBWXNISmhva1l4Yjk5dU0wRDFDTi00YTBBYThzaWxrY1A3cHphLXlTVUk5azJCa0h5UXB4V1NsX21GZndDcUxNeTFtNHRpSjVaTEJfaEIyV1JtRmlyM2dJRjJTWUQtbFR0U004cnUxbnBhUVk?oc=5",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Micron Stock: Why Strong Memory Prices May Count for Nothing",
+        "summary": "",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94eWVTckMwY09ScDRYZXZkYXFEWDJ6N2dNdUZTRV9SUllfZGFGaHl6Q0NkZ2xRQzFLZ29jaEZiOWNxQzcwMl8zWjc0ZjRXVm43TjZxY0h0QUV5QVhuYnhjLUxVdEM0MjAyNm4zempCYk5NQXhGMDlkRmRmck5YUQ?oc=5",
+        "source": "Barron's"
+      },
       {
         "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
         "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
@@ -11,130 +119,22 @@
         "source": "CNBC"
       },
       {
-        "title": "It leaves me with a sour taste : My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-        "summary": "I know older people can easily feel patronized, and I don t want that to happen.",
-        "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-        "source": "MarketWatch"
-      },
-      {
-        "title": "Miguel Ángel Félix Gallardo, Architect of Mexico’s Modern Drug Trade, Dies at 80",
+        "title": "United Airlines Hit by System Outage Days After FAA Ground Stop",
         "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2NoVVlfcDZSM0Mtdm5fYVpFcXY0ZFdRNG1KNl9uNXN5X3NBLUl3Mjh3Z0cyWTduQUZEa2lCODhtREFzbmJ1cmNIc3VJbndxSGIyNlYtbkg4anhJNWVIaWlSUEt3RmRCSnBKSXpoYXJPVTBYd3ZYMTVCYXF6Rjh1QzR3VUpXejRDUWFuSEE4eDRMV2NsWlF0b05XOXNtbXQtYWxRSXlxUzR2SjlvVUd5eXpMVmctbVkwZGp6ZF9BUm5kX1E?oc=5",
-        "source": "WSJ"
-      },
-      {
-        "title": "Asian Stocks Brace for AI Pressure, Data Dump: Markets Wrap",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3BQd2lUam5YX1RGekdqV203U1BmRzNUQnlhem10ajRycVpfTUYzRWtOM2h1ZDd5M2tvUnNXeG1VOHRGTEl4VkJsSUhuQk41UlcyNU1EZDJaSTNTd2NvM3lDUDV5NU95SUtxSHZaZEpjSnMxRGgtamUtb0lYWUtHMTFZZDBLblVaeXhVTEhSa2ZPeF9y?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTBGUVN0OVB3ZFpsRUNKVm9IVXNKeEwzdld4ajd2NG9fVVh1UThxWnlwRjRlQnZyRWRyTjA1dS1pQUlrZGpWb2VRa3U5M0gzeDMzQVgySzh6TW1WUWhUXzZqWVF3YXJBMXFOMERIS0N2NHVGak1mMi1leXIxZjhJTGlJSFFTaDBwMDliZk0xMlloNzdPeXg5NTJVajBtYWlacG9kQ05ub1Ntd3U3cFZZZnlMeXU?oc=5",
         "source": "Bloomberg"
-      },
-      {
-        "title": "Preferred Stocks Are Yielding Up to 8% After a Selloff. Why It’s a Buying Opportunity.",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb2d5WjlTOGJpSWNEd2twZ2p0bFVTTExBQ01IVzFCV0pPOFpWWk9lX0ZBVDc4QnRHV25jLVZJVXdkSm1CNjNsX0kxdE93X0tnZGNvRGFZOVA0M0RVNE5GdGxCV2w5RlZtdEMzaFRsZWllVUhpYXRDVzU3UDhiVk8xRjZB?oc=5",
-        "source": "Barron's"
-      },
-      {
-        "title": "Eric Trump-backed robot soldier startup can t pay staff after founder borrowed $4.6 million from company to buy home",
-        "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-        "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Should a widow leave her late partner s home to her stepkids or cut off contact with them?",
-        "summary": "It would be a less drastic step than selling the home now and splitting the proceeds.",
-        "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-        "source": "MarketWatch"
-      },
-      {
-        "title": "Jensen Huang’s Downfall",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXZDl3ZWFXbzYyNDZKMlV3Vk4ybU5ZclFSNmcwZDlPa09pUi1XRmV5ZDdJRlBMMGl2SThNY2dGY1Q4SExpdHVRR0NwUVExd2I2d0JVUndKOG1PYXYybGlIRGdGYUw3T3BtNTdR?oc=5",
-        "source": "WSJ"
-      },
-      {
-        "title": "US, Allies Agree to Guard AI Supply Chains From China, FT Says",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWdZazV1cGI2aFI0Ymdpb2hhRTU1Z3FjZ1hTdkZWVlRzT0Y4RzZnZXMzSXdPS2VEaFp4NGg2STQxdzhxQ2tGN1AxZzJQc3BkUjE4RnVoenRnM3dwN2t5TzV1dVpyUjAyd254NU1kM1ZSTTdoZkVnU3V3dUJxSE1LVFBiQWxWQzFkSHNIanRhQVRlU3ExV3MzYnpEeVhlZUZjbkRBZ1o4bVQ1YnlsdVl4TA?oc=5",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5",
-        "source": "Barron's"
-      },
-      {
-        "title": "Retailers are turning to entertainment to win shoppers’ attention",
-        "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
-        "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "My older brother, who has no children, cut our only sister out of his will. I ll get everything. Do I tell her?",
-        "summary": "I m torn between respecting my brother s wishes and being fair to my sister.",
-        "link": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-        "source": "MarketWatch"
-      },
-      {
-        "title": "Opinion | Rational Investing and Stock-Market Bubbles",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdGRaNkVGX1pVRUpIZlU2SGNDQVJkRE9JbVRFc3pVS1VpOXNPM1dwNGFpWFVrWXZBLXV4Skd6RkIxTTNwZEJFdFB5ck1xNzhwdHV5TFpvcm90U3I4RDRIV1pndmltRmFPdEljZ2xYNlVHOE84aGNlV0l5ZUlCNWN5bko2MmpZYXM?oc=5",
-        "source": "WSJ"
-      },
-      {
-        "title": "Huang Discusses Comeback as Nvidia Chief With Allies, FT Says",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUS0wX1Z6cGRDOHZsRkh5ZF96eHZzczdQeDNHa21rT3JQZ0l2X3lXYVQ2NlliYWs2V3pCTlZPcFctSl9EeXU2VDhwRHlmbnZoQ19mWFhBY1pkcnZDRldzUzR0eG9hYVhPMzBKcEllQzFJdld6SnN1cjdzYktzWHJGUXRaQjZZWG1fNmVTbG1BNzVzTzFtcXNMWkp2R1d3cktlNXo1SldBNW5RNld2TW1yMw?oc=5",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "FAA Chief Says US Air Travel Back To Normal By Sunday",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdExNWl9JZDNDQndLZW5LUVlaRnh3SVB3VE1CRlpOTS1sQXpQNl9ZOXRGOWJzbGdDMmlFOHNyZXBrN3dEY2tQRm5xdE55ZzVGQ3BFZF9OYldsSE9tckRUbFFJUHNsM2ZkSFY3bU1kejR1b1pPS2lCYmw0clRzalRHSF9HTTBRNEdIT2x0YUg4NmpvSlVTNVNsSFJUZ2tVZzJoaVpZbTJ4b25uQQ?oc=5",
-        "source": "Barron's"
-      },
-      {
-        "title": "Disney s Star Wars is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
-        "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
-        "link": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Nvidia is gearing up for one of Wall Street s most anticipated earnings calls in years",
-        "summary": "Jensen Huang s sudden departure has made Tuesday s earnings call the most important in the company s history.",
-        "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-        "source": "MarketWatch"
-      },
-      {
-        "title": "Bessent Urges Nvidia to Pick Outsider as Next CEO",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNelVNRDFXQmNHV3JpOFRyaWl2N3h1WnNXNXNXS2FOOHg4dklQNVZfNktCNUdyZ3pNSGtENWRIbE1sYThZZk1QODBNTndERElkRmQ0MHlReHJQU2ZlRDdaYTFqdzA5anBUTXJjVmwwV0hvcW1hS1pPc01zSF9lTXFrTC15RnFzdlJfN2VuYzVuUQ?oc=5",
-        "source": "WSJ"
-      },
-      {
-        "title": "ULA’s Vulcan Rocket Fails Midflight, Loses Amazon Satellites",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTW0yRGhpTTVJMHZVdlM4NUc2WDJGWkljT0VmREZ6NTNDcENHYzJ0ZUpab01nTFZxMnlsaFB3OVVzQ3h6TVZCVUdVejZRdWxJWlRrWU1jNmpMSzNuN0w2UXNEdlA5Wk4yVEVxOFR4aUFBczQwZkNMWUdhR2ltaXlZXzhjN0xlbGNjekE4eDNMSllEUlRFcXh3dGVodUNaT3VSVUlUQ0Z5d1Y2RVlYXzR5VQ?oc=5",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Why the Microsoft Outage Came at the Worst Possible Time for the Stock",
-        "summary": "",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5",
-        "source": "Barron's"
       }
     ],
-    "trend_headline": "젠슨 황 퇴진 속 엔비디아 실적과 앤스로픽 IPO 직면",
-    "summary": "엔비디아 젠슨 황의 갑작스러운 퇴진과 차기 CEO 선임 압박 속에서 월가는 이번 주 예정된 엔비디아의 실적 발표와 앤스로픽(Anthropic)의 IPO에 시장의 모든 이목이 집중되고 있습니다. 미·중 AI 공급망 갈등과 맞물려 빅테크 섹터의 변동성이 극대화되는 모습입니다.",
+    "trend_headline": "대중국 반도체 수출 통제 강화와 AI 랠리 제동",
+    "summary": "미국 정부의 대중국 반도체 컴퓨팅 접근 제한 조치 여파로 엔비디아를 비롯한 주요 반도체 주가가 급락했습니다. 숏셀러들이 막대한 수익을 거두고 월가에서는 AI 트레이드에 대한 재평가 목소리가 커지며 시장 전반의 긴장감이 높아졌습니다.",
     "key_points": [
-      "엔비디아 CEO 젠슨 황의 갑작스러운 퇴진과 베센트 재무장관 내정자의 외부인사 영입·대변혁 촉구",
-      "월가 역사상 가장 주목받는 엔비디아의 실적 발표를 앞두고 주가 및 시장 긴장감 고조",
-      "앤스로픽(Anthropic)의 IPO 임박과 대규모 AI 생태계 자금 유입 기대감"
+      "미국의 대중국 첨단 컴퓨팅 접근 제한 조치로 반도체주 일제히 하락",
+      "엔비디아 주가 약세 연장으로 숏셀러들이 240억 달러 규모의 수익 기록",
+      "월가에서 과열된 AI 관련 투자 트레이드에 대한 속도 조절론 대두"
     ],
     "sector_hints": [
       "Technology",
-      "Communication Services"
+      "Semiconductors"
     ]
   },
   "asia": {
@@ -415,19 +415,19 @@
     ]
   },
   "europe": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "region": "EUROPE",
     "headlines": [
       {
-        "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
-        "summary": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
-        "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+        "title": "'Complete system reset' needed to get 440,000 young people into work, says major review",
+        "summary": "Alan Milburn's review will call for sweeping reforms to the education, work and welfare systems.",
+        "link": "https://www.bbc.co.uk/news/articles/c38xzy980924o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "Southeast Asian nations sign digital trade deal to ease payments and cut paperwork",
-        "summary": "Online shopping and digital services are growing across Southeast Asia, but businesses still face different rules in each country. ASEAN’s new agreement aims to make it easier to sell, receive payments and share data across the region.",
-        "link": "https://www.euronews.com/2026/11/15/southeast-asian-nations-sign-digital-trade-deal-to-ease-payments-and-cut-paperwork",
+        "title": "Revolut's Italian unit put under judicial administration after anti-money laundering failures",
+        "summary": "The measure against the digital bank was requested by the Milan Public Prosecutor's Office as part of a Guardia di Finanza investigation. According to investigators, shortcomings in control systems facilitated the concealment and transfer of €76.5 million.",
+        "link": "https://www.euronews.com/2026/11/16/revoluts-italian-unit-put-under-judicial-administration-after-anti-money-laundering-failur",
         "source": "Euronews Business"
       },
       {
@@ -437,118 +437,117 @@
         "source": "DW Business"
       },
       {
-        "title": "Security Sunday: Der lange Weg zum Frieden in der Ukraine – mit Claudia Major",
-        "summary": "Präsentiert von YouTube.",
-        "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-der-lange-weg-zum-frieden-in-der-ukraine-mit-claudia-major/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "5 takeaways from interview with Spanish election favorite Feijóo",
+        "summary": "The conservative leader discussed Trump, Morocco, Spain’s public finances and the relationship with far right",
+        "link": "https://www.politico.eu/article/5-takeaways-from-interview-with-spanish-election-favorite-alberto-nunez-feijoo/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-        "summary": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+        "title": "California sues OpenAI over Hugging Face attack",
+        "summary": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+        "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Repsol sues Spanish power firms for €120m over 2025 blackout",
+        "summary": "The oil company has taken the electricity distributors of Iberdrola, Endesa and Naturgy, as well as grid operator Red Eléctrica, to court over damage to five industrial sites after the blackout that hit Spain and Portugal on 28 April 2025.",
+        "link": "https://www.euronews.com/2026/11/16/repsol-sues-spanish-power-firms-for-120m-over-2025-blackout",
+        "source": "Euronews Business"
+      },
+      {
+        "title": "I took the EU selection test. Here’s how it went.",
+        "summary": "With 175,000 applicants and just 1,490 jobs, the competition to clinch a dream job in the EU has never been tougher.",
+        "link": "https://www.politico.eu/article/epso-eu-institutions-entrance-test-process/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "source": "Politico Europe"
+      },
+      {
+        "title": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+        "summary": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
+        "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Shareholders sue Intel after its shares plunge nearly 29%",
+        "summary": "Shareholders have sued Intel after its shares fell nearly 29% in their biggest one-day drop in decades. A weaker-than-expected sales forecast exposed the impact of a deepening PC slump and Intel’s difficulty meeting demand for server chips.",
+        "link": "https://www.euronews.com/2026/11/16/shareholders-sue-intel-after-its-shares-plunge-nearly-29",
+        "source": "Euronews Business"
+      },
+      {
+        "title": "EU’s Kallas fights to find a role in Ukraine peace talks",
+        "summary": "Bloc's top diplomat said foreign ministers want a more direct role in Ukraine peace talks after leaders selected a team of national security advisers for the job.",
+        "link": "https://www.politico.eu/article/eu-kaja-kallas-fights-to-find-a-role-in-ukraine-peace-talks/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "source": "Politico Europe"
+      },
+      {
+        "title": "We couldn't afford a house alone, so we bought one with strangers",
+        "summary": "People who can't afford to get on the housing ladder are buying homes with people they don't know.",
+        "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Europe must embrace AI's 'creative destruction', Nobel economist says",
+        "summary": "Nobel Prize-winning economist Philippe Aghion urged the EU to encourage new players in the AI market, ease restrictions on state aid and strengthen protections for workers facing technological disruption.",
+        "link": "https://www.euronews.com/2026/11/16/europe-must-embrace-ais-creative-destruction-nobel-economist-says",
+        "source": "Euronews Business"
+      },
+      {
+        "title": "French presidential rivals take aim at Le Pen in debate",
+        "summary": "The far-right leader and four other candidates were quizzed on cost-of-living issues.",
+        "link": "https://www.politico.eu/article/france-election-2027-presidential-candidates-target-marine-le-pen-tv-debate/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "source": "Politico Europe"
+      },
+      {
+        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+        "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+        "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Business"
+      },
+      {
+        "title": "Five things you need to know before Anthropic goes public",
+        "summary": "The maker of Claude wants investors to value it at more than $1 trillion (€909 billion), despite paper losses in the tens of billions and a set-up that leaves shareholders with little say.",
+        "link": "https://www.euronews.com/2026/11/16/five-things-you-need-to-know-before-anthropic-goes-public",
+        "source": "Euronews Business"
+      },
+      {
+        "title": "Brexit diminished us, Burnham says as he tees up closer EU ties",
+        "summary": "The British prime minister said Brexit was \"the first domino to fall in a global move towards isolationism and protectionism.\"",
+        "link": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "source": "Politico Europe"
+      },
+      {
+        "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
+        "summary": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
         "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
       },
       {
-        "title": "SpaceX catches part of its Starship rocket in historic first",
-        "summary": "Crowds outside the Texas Starbase erupted into cheers as the mechanical arms closed around the spaceship for the first time, a moment SpaceX said changed everything.",
-        "link": "https://www.euronews.com/2026/11/15/spacex-catches-part-of-its-starship-rocket-in-historic-first",
+        "title": "EU clears UniCredit takeover of Germany's Commerzbank",
+        "summary": "The EU has approved UniCredit’s takeover of Germany’s Commerzbank, a cross-border deal aimed at strengthening Europe’s banking sector.",
+        "link": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank",
         "source": "Euronews Business"
       },
       {
-        "title": "Jensen Huang: Spy row, affairs leave Nvidia without its rockstar CEO",
-        "summary": "Jensen Huang, who built Nvidia into the world’s dominant AI chipmaker, is stepping down as CEO over extramarital affairs. DW examines how losing its figurehead will affect the firm and the US-China AI race.",
-        "link": "https://www.dw.com/en/jensen-huang-spy-row-affairs-leave-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-bus-2091-rdf",
-        "source": "DW Business"
-      },
-      {
-        "title": "Estonia to close border with Russia after sabotage attack on defense firm",
-        "summary": "Tallinn's Internal Security Service said an attempted arson attack was commissioned by Russia's GRU military intelligence agency.",
-        "link": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+        "title": "What Britain and the EU still don’t understand about each other",
+        "summary": "It's a crunch week for U.K. and EU relations — and a chance to fall for some decades-long misunderstandings.",
+        "link": "https://www.politico.eu/article/uk-eu-understand-andy-burnham-brexit/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
         "source": "Politico Europe"
       },
       {
-        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-        "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-        "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+        "title": "Customers report service outages at major US banks",
+        "summary": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
+        "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Business"
-      },
-      {
-        "title": "Which jobs are hardest and easiest to fill in Europe, and why?",
-        "summary": "Teachers and health workers are among the hardest to recruit in the EU, according to the OECD. Experts explain why some jobs are harder to fill than others.",
-        "link": "https://www.euronews.com/2026/11/14/which-jobs-are-hardest-and-easiest-to-fill-in-europe-and-why",
-        "source": "Euronews Business"
-      },
-      {
-        "title": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships",
-        "summary": "Three commercial vessels were hit near Romania’s coast, prompting fighter jet deployments and fresh calls for NATO support to strengthen Black Sea security.",
-        "link": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-        "source": "Politico Europe"
-      },
-      {
-        "title": "Minister backs legal right to job support for young people",
-        "summary": "The work and pensions secretary said the level of support currently on offer was too vague.",
-        "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Azerbaijan intensifies its European engagement at the EPC Summit",
-        "summary": "Azerbaijan added additional thrust to its engagement with Europe announcing more energy to the EU, a strategic partnership with the UK, additional agreements with Ukraine, a dozen bilateral meetings with European leaders and a new meeting with Armenia to advance the historic peace process.",
-        "link": "https://www.euronews.com/2026/11/13/azerbaijan-intensifies-its-european-engagement-at-the-epc-summit",
-        "source": "Euronews Business"
-      },
-      {
-        "title": "Israel kills Hamas commander in Gaza strike",
-        "summary": "Samir Abu Younis, who helped plan and oversee the Oct. 7 massacre, took control of Hamas' Rafah Brigade just two months ago.",
-        "link": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-        "source": "Politico Europe"
-      },
-      {
-        "title": "Beauty advent calendars can cost hundreds but are they value for money?",
-        "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
-        "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Nvidia has lost nearly $2tn in value. What could it be worth without Jensen Huang?",
-        "summary": "Nvidia has lost about $1.8tn (€1.6tn) in market value since its record close on 6 October. After Jensen Huang’s exit, investors are weighing whether the chipmaker can keep growing at the pace that made it the biggest name in AI.",
-        "link": "https://www.euronews.com/2026/11/13/nvidia-has-lost-nearly-2tn-in-value-what-could-it-be-worth-without-jensen-huang",
-        "source": "Euronews Business"
-      },
-      {
-        "title": "Ukraine claims thousands of Russian casualties and a slowing Kremlin advance",
-        "summary": "Ukraine is countering Russia's narrative of battlefield success by blunting the Kremlin's attacks.",
-        "link": "https://www.politico.eu/article/russian-army-is-slowing-down-as-ukrainian-forces-kill-thousands-of-kremlin-troops/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-        "source": "Politico Europe"
-      },
-      {
-        "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
-        "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
-        "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Business"
-      },
-      {
-        "title": "Hungary’s MOL seeks EU funding as CEO warns Russian oil phase-out could trigger social unrest",
-        "summary": "MOL says it could phase out Russian oil imports by the end of 2027, but chief Bacsa warns that higher energy costs could fuel political instability in Hungary and Slovakia. He is calling for EU funding to expand alternative pipeline routes, as Brussels keeps focus on quitting Russian energy.",
-        "link": "https://www.euronews.com/2026/11/13/hungarys-mol-seeks-eu-funding-as-ceo-warns-russian-oil-phase-out-could-trigger-social-unre",
-        "source": "Euronews Business"
-      },
-      {
-        "title": "EU reiterates grave concern over Gaza humanitarian crisis as winter approaches",
-        "summary": "The bloc's foreign policy chief Kaja Kallas has called on Israel to allow more humanitarian aid into Gaza as weather worsens living conditions.",
-        "link": "https://www.politico.eu/article/eu-reiterates-grave-concern-over-gaza-humanitarian-crisis-as-winter-approaches/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-        "source": "Politico Europe"
       }
     ],
-    "trend_headline": "메타 과징금과 독일차 구조조정의 동시 압박",
-    "summary": "이탈리아 당국의 메타에 대한 거액 과징금 부과와 메르세데스-벤츠의 독일 내 신규 투자 중단 및 공장 폐쇄 검토는 EU의 규제 리스크와 전통 제조업의 구조적 위기가 겹쳤음을 보여줍니다. 여기에 헝가리 MOL의 러시아산 원유 단계적 폐기 요구와 지정학적 공급망 우려가 가중되며 유로존 기업들의 마진 압박이 심화되고 있습니다.",
+    "trend_headline": "유니크레디트의 코메르츠방크 인수 승인, 유럽 은행 재편",
+    "summary": "EU가 유니크레디트의 독일 코메르츠방크 인수를 승인하며 유럽 은행 섹터의 국경 간 대형 M&A와 구조조정이 가속화되고 있습니다. 한편 이탈리아 당국은 자금세탁 방지 시스템 실패로 레볼루트 이탈리아 법인에 사법 행정 처분을 내리며 금융권 규제 리스크가 부각되었습니다.",
     "key_points": [
-      "이탈리아 데이터 보호 규제 당국, 프라이버시법 위반 혐의로 메타에 사상 최대 규모인 8억 500만 유로 과징금 부과",
-      "메르세데스-벤츠, 독일 내 신규 투자 전격 중단 및 공장 폐쇄 검토… 폭스바겐·아우디에 이어 전통 완성차 섹터 위기 고조",
-      "헝가리 MOL, 2027년까지 러시아산 원유 의존도 탈피 추진 과정에서 EU 기금 지원 촉구 및 에너지 비용 상승에 따른 사회적 불안 경고"
+      "EU 당국, 유니크레디트의 독일 코메르츠방크 국경 간 인수 승인",
+      "이탈리아 검찰, 자금세탁 방지 규정 위반으로 레볼루트 이탈리아 법인 사법 행정조치",
+      "아제르바이잔, EPC 서밋 계기로 EU 대상 에너지 공급 확대 및 협력 강화 발표"
     ],
     "sector_hints": [
-      "Technology",
-      "Automotive",
+      "Financials",
       "Energy"
     ]
   }

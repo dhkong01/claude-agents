@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
-      "summary": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+      "title": "'Complete system reset' needed to get 440,000 young people into work, says major review",
+      "summary": "Alan Milburn's review will call for sweeping reforms to the education, work and welfare systems.",
+      "link": "https://www.bbc.co.uk/news/articles/c38xzy980924o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Southeast Asian nations sign digital trade deal to ease payments and cut paperwork",
-      "summary": "Online shopping and digital services are growing across Southeast Asia, but businesses still face different rules in each country. ASEAN’s new agreement aims to make it easier to sell, receive payments and share data across the region.",
-      "link": "https://www.euronews.com/2026/11/15/southeast-asian-nations-sign-digital-trade-deal-to-ease-payments-and-cut-paperwork",
+      "title": "Revolut's Italian unit put under judicial administration after anti-money laundering failures",
+      "summary": "The measure against the digital bank was requested by the Milan Public Prosecutor's Office as part of a Guardia di Finanza investigation. According to investigators, shortcomings in control systems facilitated the concealment and transfer of €76.5 million.",
+      "link": "https://www.euronews.com/2026/11/16/revoluts-italian-unit-put-under-judicial-administration-after-anti-money-laundering-failur",
       "source": "Euronews Business"
     },
     {
@@ -21,118 +21,117 @@
       "source": "DW Business"
     },
     {
-      "title": "Security Sunday: Der lange Weg zum Frieden in der Ukraine – mit Claudia Major",
-      "summary": "Präsentiert von YouTube.",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-der-lange-weg-zum-frieden-in-der-ukraine-mit-claudia-major/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "5 takeaways from interview with Spanish election favorite Feijóo",
+      "summary": "The conservative leader discussed Trump, Morocco, Spain’s public finances and the relationship with far right",
+      "link": "https://www.politico.eu/article/5-takeaways-from-interview-with-spanish-election-favorite-alberto-nunez-feijoo/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-      "summary": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+      "title": "California sues OpenAI over Hugging Face attack",
+      "summary": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Repsol sues Spanish power firms for €120m over 2025 blackout",
+      "summary": "The oil company has taken the electricity distributors of Iberdrola, Endesa and Naturgy, as well as grid operator Red Eléctrica, to court over damage to five industrial sites after the blackout that hit Spain and Portugal on 28 April 2025.",
+      "link": "https://www.euronews.com/2026/11/16/repsol-sues-spanish-power-firms-for-120m-over-2025-blackout",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "I took the EU selection test. Here’s how it went.",
+      "summary": "With 175,000 applicants and just 1,490 jobs, the competition to clinch a dream job in the EU has never been tougher.",
+      "link": "https://www.politico.eu/article/epso-eu-institutions-entrance-test-process/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+      "summary": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
+      "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Shareholders sue Intel after its shares plunge nearly 29%",
+      "summary": "Shareholders have sued Intel after its shares fell nearly 29% in their biggest one-day drop in decades. A weaker-than-expected sales forecast exposed the impact of a deepening PC slump and Intel’s difficulty meeting demand for server chips.",
+      "link": "https://www.euronews.com/2026/11/16/shareholders-sue-intel-after-its-shares-plunge-nearly-29",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "EU’s Kallas fights to find a role in Ukraine peace talks",
+      "summary": "Bloc's top diplomat said foreign ministers want a more direct role in Ukraine peace talks after leaders selected a team of national security advisers for the job.",
+      "link": "https://www.politico.eu/article/eu-kaja-kallas-fights-to-find-a-role-in-ukraine-peace-talks/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "We couldn't afford a house alone, so we bought one with strangers",
+      "summary": "People who can't afford to get on the housing ladder are buying homes with people they don't know.",
+      "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Europe must embrace AI's 'creative destruction', Nobel economist says",
+      "summary": "Nobel Prize-winning economist Philippe Aghion urged the EU to encourage new players in the AI market, ease restrictions on state aid and strengthen protections for workers facing technological disruption.",
+      "link": "https://www.euronews.com/2026/11/16/europe-must-embrace-ais-creative-destruction-nobel-economist-says",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "French presidential rivals take aim at Le Pen in debate",
+      "summary": "The far-right leader and four other candidates were quizzed on cost-of-living issues.",
+      "link": "https://www.politico.eu/article/france-election-2027-presidential-candidates-target-marine-le-pen-tv-debate/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Five things you need to know before Anthropic goes public",
+      "summary": "The maker of Claude wants investors to value it at more than $1 trillion (€909 billion), despite paper losses in the tens of billions and a set-up that leaves shareholders with little say.",
+      "link": "https://www.euronews.com/2026/11/16/five-things-you-need-to-know-before-anthropic-goes-public",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Brexit diminished us, Burnham says as he tees up closer EU ties",
+      "summary": "The British prime minister said Brexit was \"the first domino to fall in a global move towards isolationism and protectionism.\"",
+      "link": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
+      "summary": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
       "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "SpaceX catches part of its Starship rocket in historic first",
-      "summary": "Crowds outside the Texas Starbase erupted into cheers as the mechanical arms closed around the spaceship for the first time, a moment SpaceX said changed everything.",
-      "link": "https://www.euronews.com/2026/11/15/spacex-catches-part-of-its-starship-rocket-in-historic-first",
+      "title": "EU clears UniCredit takeover of Germany's Commerzbank",
+      "summary": "The EU has approved UniCredit’s takeover of Germany’s Commerzbank, a cross-border deal aimed at strengthening Europe’s banking sector.",
+      "link": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank",
       "source": "Euronews Business"
     },
     {
-      "title": "Jensen Huang: Spy row, affairs leave Nvidia without its rockstar CEO",
-      "summary": "Jensen Huang, who built Nvidia into the world’s dominant AI chipmaker, is stepping down as CEO over extramarital affairs. DW examines how losing its figurehead will affect the firm and the US-China AI race.",
-      "link": "https://www.dw.com/en/jensen-huang-spy-row-affairs-leave-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Estonia to close border with Russia after sabotage attack on defense firm",
-      "summary": "Tallinn's Internal Security Service said an attempted arson attack was commissioned by Russia's GRU military intelligence agency.",
-      "link": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "What Britain and the EU still don’t understand about each other",
+      "summary": "It's a crunch week for U.K. and EU relations — and a chance to fall for some decades-long misunderstandings.",
+      "link": "https://www.politico.eu/article/uk-eu-understand-andy-burnham-brexit/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-      "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "title": "Customers report service outages at major US banks",
+      "summary": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
+      "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "Which jobs are hardest and easiest to fill in Europe, and why?",
-      "summary": "Teachers and health workers are among the hardest to recruit in the EU, according to the OECD. Experts explain why some jobs are harder to fill than others.",
-      "link": "https://www.euronews.com/2026/11/14/which-jobs-are-hardest-and-easiest-to-fill-in-europe-and-why",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships",
-      "summary": "Three commercial vessels were hit near Romania’s coast, prompting fighter jet deployments and fresh calls for NATO support to strengthen Black Sea security.",
-      "link": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Minister backs legal right to job support for young people",
-      "summary": "The work and pensions secretary said the level of support currently on offer was too vague.",
-      "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Azerbaijan intensifies its European engagement at the EPC Summit",
-      "summary": "Azerbaijan added additional thrust to its engagement with Europe announcing more energy to the EU, a strategic partnership with the UK, additional agreements with Ukraine, a dozen bilateral meetings with European leaders and a new meeting with Armenia to advance the historic peace process.",
-      "link": "https://www.euronews.com/2026/11/13/azerbaijan-intensifies-its-european-engagement-at-the-epc-summit",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Israel kills Hamas commander in Gaza strike",
-      "summary": "Samir Abu Younis, who helped plan and oversee the Oct. 7 massacre, took control of Hamas' Rafah Brigade just two months ago.",
-      "link": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Beauty advent calendars can cost hundreds but are they value for money?",
-      "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
-      "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Nvidia has lost nearly $2tn in value. What could it be worth without Jensen Huang?",
-      "summary": "Nvidia has lost about $1.8tn (€1.6tn) in market value since its record close on 6 October. After Jensen Huang’s exit, investors are weighing whether the chipmaker can keep growing at the pace that made it the biggest name in AI.",
-      "link": "https://www.euronews.com/2026/11/13/nvidia-has-lost-nearly-2tn-in-value-what-could-it-be-worth-without-jensen-huang",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Ukraine claims thousands of Russian casualties and a slowing Kremlin advance",
-      "summary": "Ukraine is countering Russia's narrative of battlefield success by blunting the Kremlin's attacks.",
-      "link": "https://www.politico.eu/article/russian-army-is-slowing-down-as-ukrainian-forces-kill-thousands-of-kremlin-troops/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
-      "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
-      "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Hungary’s MOL seeks EU funding as CEO warns Russian oil phase-out could trigger social unrest",
-      "summary": "MOL says it could phase out Russian oil imports by the end of 2027, but chief Bacsa warns that higher energy costs could fuel political instability in Hungary and Slovakia. He is calling for EU funding to expand alternative pipeline routes, as Brussels keeps focus on quitting Russian energy.",
-      "link": "https://www.euronews.com/2026/11/13/hungarys-mol-seeks-eu-funding-as-ceo-warns-russian-oil-phase-out-could-trigger-social-unre",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "EU reiterates grave concern over Gaza humanitarian crisis as winter approaches",
-      "summary": "The bloc's foreign policy chief Kaja Kallas has called on Israel to allow more humanitarian aid into Gaza as weather worsens living conditions.",
-      "link": "https://www.politico.eu/article/eu-reiterates-grave-concern-over-gaza-humanitarian-crisis-as-winter-approaches/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
     }
   ],
-  "trend_headline": "메타 과징금과 독일차 구조조정의 동시 압박",
-  "summary": "이탈리아 당국의 메타에 대한 거액 과징금 부과와 메르세데스-벤츠의 독일 내 신규 투자 중단 및 공장 폐쇄 검토는 EU의 규제 리스크와 전통 제조업의 구조적 위기가 겹쳤음을 보여줍니다. 여기에 헝가리 MOL의 러시아산 원유 단계적 폐기 요구와 지정학적 공급망 우려가 가중되며 유로존 기업들의 마진 압박이 심화되고 있습니다.",
+  "trend_headline": "유니크레디트의 코메르츠방크 인수 승인, 유럽 은행 재편",
+  "summary": "EU가 유니크레디트의 독일 코메르츠방크 인수를 승인하며 유럽 은행 섹터의 국경 간 대형 M&A와 구조조정이 가속화되고 있습니다. 한편 이탈리아 당국은 자금세탁 방지 시스템 실패로 레볼루트 이탈리아 법인에 사법 행정 처분을 내리며 금융권 규제 리스크가 부각되었습니다.",
   "key_points": [
-    "이탈리아 데이터 보호 규제 당국, 프라이버시법 위반 혐의로 메타에 사상 최대 규모인 8억 500만 유로 과징금 부과",
-    "메르세데스-벤츠, 독일 내 신규 투자 전격 중단 및 공장 폐쇄 검토… 폭스바겐·아우디에 이어 전통 완성차 섹터 위기 고조",
-    "헝가리 MOL, 2027년까지 러시아산 원유 의존도 탈피 추진 과정에서 EU 기금 지원 촉구 및 에너지 비용 상승에 따른 사회적 불안 경고"
+    "EU 당국, 유니크레디트의 독일 코메르츠방크 국경 간 인수 승인",
+    "이탈리아 검찰, 자금세탁 방지 규정 위반으로 레볼루트 이탈리아 법인 사법 행정조치",
+    "아제르바이잔, EPC 서밋 계기로 EU 대상 에너지 공급 확대 및 협력 강화 발표"
   ],
   "sector_hints": [
-    "Technology",
-    "Automotive",
+    "Financials",
     "Energy"
   ]
 }

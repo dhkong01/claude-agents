@@ -1,7 +1,115 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "region": "US",
   "headlines": [
+    {
+      "title": "United Airlines resolves system outage that affected departing flights",
+      "summary": "The airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.",
+      "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Defense Department Again Fails to Produce a Reliable Audit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYk8wVFFkMHdNcVVLak1vQ24wR2VwQzYwZ2Z6NENTcllEdzVmTWV5RC1aMmU2aEJfV3lSSVpUSnVaNXpLdUZvWTJOV1lUX25ST1hhd1ZkS0hNRmVmRGVVTFJIVENzZm5WcGNma2tGS2V4clplN2ZydjA4X2l6eXNZNzlPQ3V2LUgzUndYRTIwaEhZTmtKVWNLX2NFR0lmMHU1Vy1RdVI3elB4WUcwdlE?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Why SpaceX Stock Is Down After Its Historic Starship Catch",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWl5bk1QQmFtOGJoU0JMYkx3Njlsa1JzUE45T0JwVUlGejl3blJYeEF1QWpxV3NSMk1palYzZzIzMVBJUk02RDZpcy1xdnFlTzRvdFhKQlJWUFIxd3k4X0JCVUpoLURETTVnbmhGS2tteG5iU2pFOVdGcG1tdUx5YnVoZzFzSG1LWC1QUmRrWEI?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "summary": "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
+      "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "China’s $17 Billion Crop Pledge Falters Ahead of Trump-Xi Summit",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZWxUMDRsSC1YRjRGZTMtV2pZZlRfQ3YycDhJaGx0S05EWnNvbXpOdmU0cUJORmZ1NXd0d0Q1WXR1Y1l2MnJlWG4zcmxlRlFmRnV0Vzc3Q3NUYUxsMzlick80RG1uOUQ0MG95dkJrazFXdV84akNPWUxSN1FZcGxqdk1NclJ5WTRUeDBXLXRMM2lyVUp2SThGckluWUdiOV96Vm1zNVA1cDBJTHdSTUZ0N0NHWkk?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "French Troops Deployed In Ukraine On Secret Training Mission: Source",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT096YndRc0pfSEVLYWNfOXRQNWdjS1NoZDRfSkFDNlVyYUhyd1FHRW85WXctMEtKTVBVOTN4enpQVnY4S0J4MFljdVJaMjdieTBGR2VIV0pfRFAyVy1KeDhucEg5SG13RWpOSXh0ZFZCOTBSZFd1Y1NkX08weEFiTG9VMHNNM3ZTdExTSGlCc2gtaFlwQ01GVkoxbVlSUEV4ZHc1dTh3?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Robert Pattinson cast as next James Bond",
+      "summary": "Pattinson has been in major films this year, including Christopher Nolan's \"The Odyssey,\" and will soon appear in \"Dune: Part Three.\"",
+      "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Chip Stocks Slide as US Sets New Curbs on China’s Compute Access",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVVjUlBfX1ZxOFRWZ243YkxEbTVJSm1BSkNJLUpCTzdrZlAtU3ktZzdmekJCZVhVc1lubi0tbklQX2wwTEh6WU8wUkI2M05Ecy1OTWJUNk5UVTV6bjltOWZkaXF3UHpJazUwaVlmTGljMFZBUGd3bFliN21xRWItdWhHeHVvSncxLXQ4SHZael9ySVF4QmlQOTNIQTZWTWl2NGdwaTA4eFhDUm5LVzZQc2JhZmFJQQ?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWFN5S3RESUVaa0ExaEU4U2tfRDZYQVhhMnJLQW93aGp0WXFJbjl1WDE1WDkwdWxsM2lhNHpZM0Y3WHFEb2JnTlVndGM4c3BqLURseHN6cWtMaW1NaDVJRk40R3R6eGtaR3pzbmdRYlpPYU95MDNRLUhsV0hWY0VRa0FFcHN0SlhqNTgxTk8xZUp6VjA?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "We slept here : Flight delays linger as airlines recover from ground stop, but schedule improves Monday",
+      "summary": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Oil Extends Fall on Signs of Revived Supplies and Vance Outlook",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWticDVnRnhZcGNMcDNaRTJYNlZMUmd3NHZkbE9jRVV5TDV6bG5EX09rMndHQ0RUZXY3RHh0X0lzcXQ3UWE1OHY2djdGNmVnUWhwcU1fLURMNk9xVmZndmQzVHdNd04xTFpMbTZldURsQmRaanRsLXhocHcwSEhySnNNeEx5VjhTbk5NUWlySHQtWUhuOVJmekM2aVhQdw?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Nvidia Stock Falls Again. It Doesn’t Need a Jensen Huang Comeback to Thrive.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcVZqLW05Y1FaS0xnVEM2T3EwUGlwZ21LSHJUQVdYWnMwcVczbDFYWE91MlQtcHNhdWhlbVdVUnE5a1JqeUE4aEpOSUtlTEdBMnJnMFl0UVdXOUNodGJCNDRSbzlLbXpZVXljR3QwVGdYWTVDNldJRHRPUXRqZFV6RWxHZlV2RWFsZGc?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Novo says Wegovy injection lowers BMI and obesity rates in children in trial",
+      "summary": "Wegovy is already approved to treat obesity in children ages 12 and older, but there are currently no approved medications for those under 12.",
+      "link": "https://www.cnbc.com/2026/11/16/novo-wegovy-obesity-children-trial.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Nvidia, Sandisk, SpaceX, L3Harris, Strategy, Tyson, and More Stocks That Explain Today’s Market",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43c05CWWJXdVVNbWRoS1NTMm9NLUxOa1hXYVlXQkNEV1p3bXpTbk5NTFVrSlFDekpyODB6cFA3OVVOQ21SOUlzYzVsM3dLSlByV1NTZWJST3o1Um95Tm1reGxIQ08?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Big-ticket holiday items may be harder to find as shipping costs rise",
+      "summary": "Transportation executives said they're seeing retailers be cautious on their holiday inventory strategy.",
+      "link": "https://www.cnbc.com/2026/11/16/holiday-big-ticket-inventory-shipping-costs.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic Faces a Longer Wait Than SpaceX to Join Stock Indexes",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTVhxVzJmTGluQ2c1ZF9WS1hEUDhRcUpOazlVTnd1eDJoWW0xV291ejdCQ1pWdndCQ0wyRjAtS3lQY3g4SlNUUUpBWXNISmhva1l4Yjk5dU0wRDFDTi00YTBBYThzaWxrY1A3cHphLXlTVUk5azJCa0h5UXB4V1NsX21GZndDcUxNeTFtNHRpSjVaTEJfaEIyV1JtRmlyM2dJRjJTWUQtbFR0U004cnUxbnBhUVk?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Micron Stock: Why Strong Memory Prices May Count for Nothing",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94eWVTckMwY09ScDRYZXZkYXFEWDJ6N2dNdUZTRV9SUllfZGFGaHl6Q0NkZ2xRQzFLZ29jaEZiOWNxQzcwMl8zWjc0ZjRXVm43TjZxY0h0QUV5QVhuYnhjLUxVdEM0MjAyNm4zempCYk5NQXhGMDlkRmRmck5YUQ?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
       "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
@@ -9,129 +117,21 @@
       "source": "CNBC"
     },
     {
-      "title": "It leaves me with a sour taste : My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-      "summary": "I know older people can easily feel patronized, and I don t want that to happen.",
-      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Miguel Ángel Félix Gallardo, Architect of Mexico’s Modern Drug Trade, Dies at 80",
+      "title": "United Airlines Hit by System Outage Days After FAA Ground Stop",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2NoVVlfcDZSM0Mtdm5fYVpFcXY0ZFdRNG1KNl9uNXN5X3NBLUl3Mjh3Z0cyWTduQUZEa2lCODhtREFzbmJ1cmNIc3VJbndxSGIyNlYtbkg4anhJNWVIaWlSUEt3RmRCSnBKSXpoYXJPVTBYd3ZYMTVCYXF6Rjh1QzR3VUpXejRDUWFuSEE4eDRMV2NsWlF0b05XOXNtbXQtYWxRSXlxUzR2SjlvVUd5eXpMVmctbVkwZGp6ZF9BUm5kX1E?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Asian Stocks Brace for AI Pressure, Data Dump: Markets Wrap",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3BQd2lUam5YX1RGekdqV203U1BmRzNUQnlhem10ajRycVpfTUYzRWtOM2h1ZDd5M2tvUnNXeG1VOHRGTEl4VkJsSUhuQk41UlcyNU1EZDJaSTNTd2NvM3lDUDV5NU95SUtxSHZaZEpjSnMxRGgtamUtb0lYWUtHMTFZZDBLblVaeXhVTEhSa2ZPeF9y?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTBGUVN0OVB3ZFpsRUNKVm9IVXNKeEwzdld4ajd2NG9fVVh1UThxWnlwRjRlQnZyRWRyTjA1dS1pQUlrZGpWb2VRa3U5M0gzeDMzQVgySzh6TW1WUWhUXzZqWVF3YXJBMXFOMERIS0N2NHVGak1mMi1leXIxZjhJTGlJSFFTaDBwMDliZk0xMlloNzdPeXg5NTJVajBtYWlacG9kQ05ub1Ntd3U3cFZZZnlMeXU?oc=5",
       "source": "Bloomberg"
-    },
-    {
-      "title": "Preferred Stocks Are Yielding Up to 8% After a Selloff. Why It’s a Buying Opportunity.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb2d5WjlTOGJpSWNEd2twZ2p0bFVTTExBQ01IVzFCV0pPOFpWWk9lX0ZBVDc4QnRHV25jLVZJVXdkSm1CNjNsX0kxdE93X0tnZGNvRGFZOVA0M0RVNE5GdGxCV2w5RlZtdEMzaFRsZWllVUhpYXRDVzU3UDhiVk8xRjZB?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Eric Trump-backed robot soldier startup can t pay staff after founder borrowed $4.6 million from company to buy home",
-      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Should a widow leave her late partner s home to her stepkids or cut off contact with them?",
-      "summary": "It would be a less drastic step than selling the home now and splitting the proceeds.",
-      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Jensen Huang’s Downfall",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXZDl3ZWFXbzYyNDZKMlV3Vk4ybU5ZclFSNmcwZDlPa09pUi1XRmV5ZDdJRlBMMGl2SThNY2dGY1Q4SExpdHVRR0NwUVExd2I2d0JVUndKOG1PYXYybGlIRGdGYUw3T3BtNTdR?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "US, Allies Agree to Guard AI Supply Chains From China, FT Says",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWdZazV1cGI2aFI0Ymdpb2hhRTU1Z3FjZ1hTdkZWVlRzT0Y4RzZnZXMzSXdPS2VEaFp4NGg2STQxdzhxQ2tGN1AxZzJQc3BkUjE4RnVoenRnM3dwN2t5TzV1dVpyUjAyd254NU1kM1ZSTTdoZkVnU3V3dUJxSE1LVFBiQWxWQzFkSHNIanRhQVRlU3ExV3MzYnpEeVhlZUZjbkRBZ1o4bVQ1YnlsdVl4TA?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Retailers are turning to entertainment to win shoppers’ attention",
-      "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
-      "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "My older brother, who has no children, cut our only sister out of his will. I ll get everything. Do I tell her?",
-      "summary": "I m torn between respecting my brother s wishes and being fair to my sister.",
-      "link": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Opinion | Rational Investing and Stock-Market Bubbles",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdGRaNkVGX1pVRUpIZlU2SGNDQVJkRE9JbVRFc3pVS1VpOXNPM1dwNGFpWFVrWXZBLXV4Skd6RkIxTTNwZEJFdFB5ck1xNzhwdHV5TFpvcm90U3I4RDRIV1pndmltRmFPdEljZ2xYNlVHOE84aGNlV0l5ZUlCNWN5bko2MmpZYXM?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Huang Discusses Comeback as Nvidia Chief With Allies, FT Says",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUS0wX1Z6cGRDOHZsRkh5ZF96eHZzczdQeDNHa21rT3JQZ0l2X3lXYVQ2NlliYWs2V3pCTlZPcFctSl9EeXU2VDhwRHlmbnZoQ19mWFhBY1pkcnZDRldzUzR0eG9hYVhPMzBKcEllQzFJdld6SnN1cjdzYktzWHJGUXRaQjZZWG1fNmVTbG1BNzVzTzFtcXNMWkp2R1d3cktlNXo1SldBNW5RNld2TW1yMw?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "FAA Chief Says US Air Travel Back To Normal By Sunday",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdExNWl9JZDNDQndLZW5LUVlaRnh3SVB3VE1CRlpOTS1sQXpQNl9ZOXRGOWJzbGdDMmlFOHNyZXBrN3dEY2tQRm5xdE55ZzVGQ3BFZF9OYldsSE9tckRUbFFJUHNsM2ZkSFY3bU1kejR1b1pPS2lCYmw0clRzalRHSF9HTTBRNEdIT2x0YUg4NmpvSlVTNVNsSFJUZ2tVZzJoaVpZbTJ4b25uQQ?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Disney s Star Wars is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
-      "summary": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
-      "link": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Nvidia is gearing up for one of Wall Street s most anticipated earnings calls in years",
-      "summary": "Jensen Huang s sudden departure has made Tuesday s earnings call the most important in the company s history.",
-      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Bessent Urges Nvidia to Pick Outsider as Next CEO",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNelVNRDFXQmNHV3JpOFRyaWl2N3h1WnNXNXNXS2FOOHg4dklQNVZfNktCNUdyZ3pNSGtENWRIbE1sYThZZk1QODBNTndERElkRmQ0MHlReHJQU2ZlRDdaYTFqdzA5anBUTXJjVmwwV0hvcW1hS1pPc01zSF9lTXFrTC15RnFzdlJfN2VuYzVuUQ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "ULA’s Vulcan Rocket Fails Midflight, Loses Amazon Satellites",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTW0yRGhpTTVJMHZVdlM4NUc2WDJGWkljT0VmREZ6NTNDcENHYzJ0ZUpab01nTFZxMnlsaFB3OVVzQ3h6TVZCVUdVejZRdWxJWlRrWU1jNmpMSzNuN0w2UXNEdlA5Wk4yVEVxOFR4aUFBczQwZkNMWUdhR2ltaXlZXzhjN0xlbGNjekE4eDNMSllEUlRFcXh3dGVodUNaT3VSVUlUQ0Z5d1Y2RVlYXzR5VQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Why the Microsoft Outage Came at the Worst Possible Time for the Stock",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUtKYTY3Q0wwdDR0WDQ0NlBVV0xsZVEzM0J5aDVUd1hrX2VBOXFTbks4Z2JFZFF6RG9TNjVIb3ZNRl9KRUJvNGxnYlgzQzBKbWVYWDFuU3F2X2VBdU5UWVo1OWVFOHpUX0E3RHNmNXBJQTE0dVU2R0dUS3pvVWhGNQ?oc=5",
-      "source": "Barron's"
     }
   ],
-  "trend_headline": "젠슨 황 퇴진 속 엔비디아 실적과 앤스로픽 IPO 직면",
-  "summary": "엔비디아 젠슨 황의 갑작스러운 퇴진과 차기 CEO 선임 압박 속에서 월가는 이번 주 예정된 엔비디아의 실적 발표와 앤스로픽(Anthropic)의 IPO에 시장의 모든 이목이 집중되고 있습니다. 미·중 AI 공급망 갈등과 맞물려 빅테크 섹터의 변동성이 극대화되는 모습입니다.",
+  "trend_headline": "대중국 반도체 수출 통제 강화와 AI 랠리 제동",
+  "summary": "미국 정부의 대중국 반도체 컴퓨팅 접근 제한 조치 여파로 엔비디아를 비롯한 주요 반도체 주가가 급락했습니다. 숏셀러들이 막대한 수익을 거두고 월가에서는 AI 트레이드에 대한 재평가 목소리가 커지며 시장 전반의 긴장감이 높아졌습니다.",
   "key_points": [
-    "엔비디아 CEO 젠슨 황의 갑작스러운 퇴진과 베센트 재무장관 내정자의 외부인사 영입·대변혁 촉구",
-    "월가 역사상 가장 주목받는 엔비디아의 실적 발표를 앞두고 주가 및 시장 긴장감 고조",
-    "앤스로픽(Anthropic)의 IPO 임박과 대규모 AI 생태계 자금 유입 기대감"
+    "미국의 대중국 첨단 컴퓨팅 접근 제한 조치로 반도체주 일제히 하락",
+    "엔비디아 주가 약세 연장으로 숏셀러들이 240억 달러 규모의 수익 기록",
+    "월가에서 과열된 AI 관련 투자 트레이드에 대한 속도 조절론 대두"
   ],
   "sector_hints": [
     "Technology",
-    "Communication Services"
+    "Semiconductors"
   ]
 }

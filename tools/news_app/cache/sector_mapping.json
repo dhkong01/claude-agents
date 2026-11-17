@@ -1,36 +1,54 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "sectors": [
     {
-      "name": "Consumer Discretionary",
+      "name": "Semiconductors",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "메르세데스-벤츠의 독일 내 신규 투자 중단 및 공장 폐쇄 검토 소식으로 인해 유럽 전통 완성차 제조업 전반의 구조적 위기와 실적 압박이 가중되고 있습니다.",
+      "score": -8.5,
+      "rationale": "미국의 대중국 첨단 반도체 컴퓨팅 규제 강화로 엔비디아 등 주요 종목이 급락했으며, TSMC의 사상 최대 매출에도 불구하고 아시아 반도체 공급망 전반으로 매도세가 확산되는 등 강한 조정 압력을 받고 있습니다.",
       "related_tickers": [
-        "MBG",
-        "VOW3"
+        "NVDA",
+        "TSM"
       ],
       "source_regions": [
-        "EU"
+        "US",
+        "ASIA"
       ]
     },
     {
-      "name": "Communication Services",
+      "name": "Technology",
       "direction": "negative",
-      "score": -6.5,
-      "rationale": "이탈리아 개인정보 보호 당국이 메타(Meta)에 8억 500만 유로의 사상 최대 규모 과징금을 부과하면서 유럽 내 플랫폼 빅테크 기업에 대한 규제 리스크가 강화되었습니다.",
+      "score": -7.0,
+      "rationale": "월가의 과열된 AI 트레이드 속도 조절론 대두와 숏셀러들의 공격적 대응, 아시아 증시 내 AI 관련 투자 심리 위축이 맞물리며 섹터 전반에 하락세가 우세합니다.",
       "related_tickers": [
-        "META"
+        "NVDA",
+        "9984.T"
       ],
       "source_regions": [
-        "EU"
+        "US",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Financials",
+      "direction": "positive",
+      "score": 6.5,
+      "rationale": "EU 당국의 유니크레디트-코메르츠방크 인수 승인으로 국경 간 M&A 활성화 기대감이 높아졌으며, 홍콩 IPO 제도 개편 및 일본 내 자금 조달 다변화 등 구조적 긍정 모멘텀이 형성되고 있습니다.",
+      "related_tickers": [
+        "UCG",
+        "CRZBY",
+        "357200.KS"
+      ],
+      "source_regions": [
+        "EU",
+        "ASIA"
       ]
     },
     {
       "name": "Energy",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "헝가리 MOL의 2027년까지 러시아산 원유 의존도 탈피 추진 과정에서 에너지 비용 상승 및 지정학적 공급망 우려가 가중되어 유로존 기업들의 마진 압박이 심화되고 있습니다.",
+      "direction": "positive",
+      "score": 5.5,
+      "rationale": "EPC 서밋을 통해 아제르바이잔의 대(對) EU 에너지 공급 확대 및 협력 강화 방안이 발표되면서 유럽 내 에너지 공급망 안정 기대감이 작용하고 있습니다.",
       "related_tickers": [
         "SHEL",
         "TTE"
@@ -40,10 +58,5 @@
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Semiconductors",
-      "note": "미국은 엔비디아 젠슨 황 CEO의 갑작스러운 퇴진과 실적 발표를 앞둔 긴장감으로 변동성과 불확실성이 극대화된 반면, 아시아(대만)는 TSMC의 공장 확장과 AI 반도체 공급망 호조에 힘입어 강력한 랠리를 나타내고 있습니다."
-    }
-  ]
+  "conflicting_signals": []
 }

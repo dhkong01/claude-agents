@@ -43,9 +43,9 @@ let failed = 0;
 if (
   test('fails on invisible unicode and emoji before cleanup', () => {
     const root = makeTempRoot('ecc-unicode-check-');
-    fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
+    fs.mkdirSync(path.join(root, 'guides'), { recursive: true });
     fs.mkdirSync(path.join(root, 'scripts'), { recursive: true });
-    fs.writeFileSync(path.join(root, 'docs', 'guide.md'), `> ${warningEmoji} Important launch note\n`);
+    fs.writeFileSync(path.join(root, 'guides', 'guide.md'), `> ${warningEmoji} Important launch note\n`);
     fs.writeFileSync(path.join(root, 'scripts', 'sample.js'), `const x = "a${zeroWidthSpace}";\n`);
 
     const result = runCheck(root);
@@ -60,15 +60,15 @@ else failed++;
 if (
   test('write mode removes emoji and invisible unicode', () => {
     const root = makeTempRoot('ecc-unicode-fix-');
-    fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
-    fs.writeFileSync(path.join(root, 'docs', 'guide.md'), `> ${warningEmoji} Important launch note\n`);
+    fs.mkdirSync(path.join(root, 'guides'), { recursive: true });
+    fs.writeFileSync(path.join(root, 'guides', 'guide.md'), `> ${warningEmoji} Important launch note\n`);
     fs.writeFileSync(path.join(root, 'README.md'), `## ${toolsEmoji} Tools\n`);
     fs.writeFileSync(path.join(root, 'note.txt'), `one${zeroWidthSpace}two\n`);
 
     const writeResult = runCheck(root, ['--write']);
     assert.strictEqual(writeResult.status, 0, writeResult.stdout + writeResult.stderr);
 
-    assert.strictEqual(fs.readFileSync(path.join(root, 'docs', 'guide.md'), 'utf8'), '> WARNING: Important launch note\n');
+    assert.strictEqual(fs.readFileSync(path.join(root, 'guides', 'guide.md'), 'utf8'), '> WARNING: Important launch note\n');
     assert.strictEqual(fs.readFileSync(path.join(root, 'README.md'), 'utf8'), '## Tools\n');
     assert.strictEqual(fs.readFileSync(path.join(root, 'note.txt'), 'utf8'), 'onetwo\n');
 

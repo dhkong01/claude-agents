@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "analyzed": 139,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": 98523742208,
-      "price": 952.4,
-      "rs_rating": 93.5
+      "market_cap": 99078217728,
+      "price": 957.76,
+      "rs_rating": 95.6
     },
     {
       "ticker": "ABNB",
@@ -34,44 +34,8 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 111107432448,
-      "price": 186.19,
-      "rs_rating": 96.2
-    },
-    {
-      "ticker": "ROP",
-      "canslim_score": 61,
-      "scores": {
-        "C": 7,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 47905902592,
-      "price": 483.72,
-      "rs_rating": 94.9
-    },
-    {
-      "ticker": "TXN",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 268840353792,
-      "price": 294.21,
+      "market_cap": 107974533120,
+      "price": 180.94,
       "rs_rating": 94.2
     },
     {
@@ -88,27 +52,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 236281511936,
-      "price": 187.02,
+      "market_cap": 235523473408,
+      "price": 186.42,
       "rs_rating": 91.4
-    },
-    {
-      "ticker": "KDP",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 7,
-        "N": 7,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Defensive",
-      "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 48422543360,
-      "price": 35.58,
-      "rs_rating": 90.8
     },
     {
       "ticker": "CSX",
@@ -124,9 +70,27 @@
       },
       "sector": "Industrials",
       "industry": "Railroads",
-      "market_cap": 95912009728,
-      "price": 52.03,
+      "market_cap": 94271389696,
+      "price": 51.14,
       "rs_rating": 86.6
+    },
+    {
+      "ticker": "MSFT",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 7,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "market_cap": 3759436726272,
+      "price": 506.24,
+      "rs_rating": 80.4
     },
     {
       "ticker": "XEL",
@@ -142,9 +106,9 @@
       },
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
-      "market_cap": 52126621696,
-      "price": 81.21,
-      "rs_rating": 62.6
+      "market_cap": 51812106240,
+      "price": 80.72,
+      "rs_rating": 66.0
     },
     {
       "ticker": "AMD",
@@ -160,12 +124,12 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 827063205888,
-      "price": 504.28,
+      "market_cap": 833176600576,
+      "price": 503.41,
       "rs_rating": 99.0
     },
     {
-      "ticker": "SNDK",
+      "ticker": "MU",
       "canslim_score": 58,
       "scores": {
         "C": 10,
@@ -177,10 +141,46 @@
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 115127738368,
-      "price": 809.11,
-      "rs_rating": 92.1
+      "industry": "Semiconductors",
+      "market_cap": 806048497664,
+      "price": 712.42,
+      "rs_rating": 97.6
+    },
+    {
+      "ticker": "TXN",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 270348075008,
+      "price": 295.86,
+      "rs_rating": 96.2
+    },
+    {
+      "ticker": "ROP",
+      "canslim_score": 58,
+      "scores": {
+        "C": 7,
+        "A": 10,
+        "N": 7,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 46737272832,
+      "price": 471.92,
+      "rs_rating": 93.5
     }
   ]
 }

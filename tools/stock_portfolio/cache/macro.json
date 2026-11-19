@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "phase": "RISK_OFF",
   "m_score": 2,
   "signals": {
     "market_trend": "BEAR",
-    "market_ret3m": -0.0393,
-    "vix_level": 25.46,
-    "volatility": "HIGH",
-    "yield10y": 5.1,
+    "market_ret3m": -0.0457,
+    "vix_level": 24.56,
+    "volatility": "NORMAL",
+    "yield10y": 5.07,
     "rate_env": "HIGH",
-    "yield30y": 5.46,
-    "yield2y": 4.83,
-    "fear_greed_score": 25.2,
-    "fear_greed_rating": "fear",
+    "yield30y": 5.41,
+    "yield2y": 4.8,
+    "fear_greed_score": 24.6,
+    "fear_greed_rating": "extreme fear",
     "dollar_trend": "STRENGTHENING"
   },
   "recommended_sectors": [

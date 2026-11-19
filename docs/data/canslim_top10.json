@@ -1,25 +1,7 @@
 {
-  "date": "2026-11-17",
-  "analyzed": 139,
+  "date": "2026-11-18",
+  "analyzed": 138,
   "top10": [
-    {
-      "ticker": "REGN",
-      "canslim_score": 67,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "market_cap": 99078217728,
-      "price": 957.76,
-      "rs_rating": 95.6
-    },
     {
       "ticker": "ABNB",
       "canslim_score": 64,
@@ -34,9 +16,45 @@
       },
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
-      "market_cap": 107974533120,
-      "price": 180.94,
-      "rs_rating": 94.2
+      "market_cap": 107538915328,
+      "price": 180.21,
+      "rs_rating": 93.5
+    },
+    {
+      "ticker": "REGN",
+      "canslim_score": 64,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "market_cap": 97813053440,
+      "price": 945.53,
+      "rs_rating": 92.8
+    },
+    {
+      "ticker": "AMD",
+      "canslim_score": 61,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 877416480768,
+      "price": 530.14,
+      "rs_rating": 99.0
     },
     {
       "ticker": "ANET",
@@ -52,45 +70,9 @@
       },
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "market_cap": 235523473408,
-      "price": 186.42,
-      "rs_rating": 91.4
-    },
-    {
-      "ticker": "CSX",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 7,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Industrials",
-      "industry": "Railroads",
-      "market_cap": 94271389696,
-      "price": 51.14,
-      "rs_rating": 86.6
-    },
-    {
-      "ticker": "MSFT",
-      "canslim_score": 61,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 7,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "market_cap": 3759436726272,
-      "price": 506.24,
-      "rs_rating": 80.4
+      "market_cap": 245024260096,
+      "price": 193.94,
+      "rs_rating": 95.5
     },
     {
       "ticker": "XEL",
@@ -106,27 +88,9 @@
       },
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
-      "market_cap": 51812106240,
-      "price": 80.72,
-      "rs_rating": 66.0
-    },
-    {
-      "ticker": "AMD",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 1,
-        "S": 10,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 833176600576,
-      "price": 503.41,
-      "rs_rating": 99.0
+      "market_cap": 51767173120,
+      "price": 80.65,
+      "rs_rating": 65.8
     },
     {
       "ticker": "MU",
@@ -142,8 +106,8 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 806048497664,
-      "price": 712.42,
+      "market_cap": 797958864896,
+      "price": 705.27,
       "rs_rating": 97.6
     },
     {
@@ -160,27 +124,63 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 270348075008,
-      "price": 295.86,
+      "market_cap": 267213848576,
+      "price": 292.43,
       "rs_rating": 96.2
     },
     {
-      "ticker": "ROP",
+      "ticker": "KDP",
       "canslim_score": 58,
       "scores": {
-        "C": 7,
-        "A": 10,
+        "C": 10,
+        "A": 7,
         "N": 7,
-        "S": 7,
-        "L": 10,
+        "S": 10,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "market_cap": 49676365824,
+      "price": 35.01,
+      "rs_rating": 89.3
+    },
+    {
+      "ticker": "CSX",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 10,
+        "S": 4,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "market_cap": 94621638656,
+      "price": 51.33,
+      "rs_rating": 86.5
+    },
+    {
+      "ticker": "ADI",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 10,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Technology",
-      "industry": "Software - Application",
-      "market_cap": 46737272832,
-      "price": 471.92,
-      "rs_rating": 93.5
+      "industry": "Semiconductors",
+      "market_cap": 185094324224,
+      "price": 381.98,
+      "rs_rating": 85.2
     }
   ]
 }

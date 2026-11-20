@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
-      "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+      "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Data watchdog probes massive Deutsche Bank leak of 15M files",
-      "summary": "A German state data regulator has opened an investigation on Wednesday into Deutsche Bank following a massive data leak. The authority is investigating possible data protection violations.",
-      "link": "https://www.euronews.com/2026/11/18/data-watchdog-probes-massive-deutsche-bank-leak-of-15m-files",
+      "title": "Anthropic shares open 34% above IPO price in Nasdaq debut after record listing",
+      "summary": "Anthropic shares opened at $111.50 in their Nasdaq debut on Thursday, 34% above their $83 IPO price, putting the Claude maker on track for a $2 trillion valuation (€1.8tn) after it raised $81.3 billion (€74bn) in the largest initial public offering in history.",
+      "link": "https://www.euronews.com/2026/11/19/anthropic-shares-open-34-above-ipo-price-in-nasdaq-debut-after-record-listing",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,93 @@
       "source": "DW Business"
     },
     {
-      "title": "EPP moves to suspend Serbia s former ruling party",
-      "summary": "SNS will have 12 months to deliver on the EPP's demands, or face expulsion.",
-      "link": "https://www.politico.eu/article/epp-moves-to-suspend-serbias-former-ruling-party/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "EU-UK summit — live updates",
+      "summary": "The British PM is in Brussels to ink a host of post-Brexit agreements — and start talking about what comes next.",
+      "link": "https://www.politico.eu/article/eu-uk-summit-live-updates/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
-      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+      "title": "California targets Nvidia in China AI chip probe",
+      "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Amazon pledges €6.3bn for renewable energy projects in India: Who will benefit from the clean electricity?",
-      "summary": "Some of the electricity generated will be used to power the company's data centres.",
-      "link": "https://www.euronews.com/2026/11/18/amazon-pledges-63bn-for-renewable-energy-projects-in-india-who-will-benefit-from-the-clean",
+      "title": "EU must move beyond piecemeal trade deals with China, MEPs warn",
+      "summary": "MEPs are calling on the European Commission to “ease” the regulatory burden on EU companies and deploy “horizontal” trade defence tools to tackle Chinese competition.",
+      "link": "https://www.euronews.com/2026/11/19/eu-must-move-beyond-piecemeal-trade-deals-with-china-meps-warn",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
+      "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran against broader interests with Washington.",
+      "link": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "How to watch the UK-EU summit like a pro",
+      "summary": "After more than two years of talks, can London and Brussels finally agree on a reset? Here’s what to look out for as their leaders meet.",
+      "link": "https://www.politico.eu/article/how-to-watch-the-uk-eu-summit-like-a-pro/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+      "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Can agritech investment turn Africa Into a global food supplier? {Business Africa}",
+      "summary": "Can agritech and investment transform Africa into a global food supplier? West Africa launches a $650 million push to boost local production and African nations unite in Cotonou to strengthen defences against increasingly sophisticated cyberattacks.",
+      "link": "https://www.euronews.com/2026/11/19/can-agritech-investment-turn-africa-into-a-global-food-supplier-business-africa",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Is the AI bubble bursting just as Anthropic goes public?",
+      "summary": "The sharp sell-off in tech stocks after the US midterms and the Nvidia scandal has cast doubt on Anthropic s IPO. Yet with hundreds of billions still being invested, some think the AI party is still in full swing.",
+      "link": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "The web is held together by volunteers. AI could tear it apart.",
+      "summary": "As AI reveals deeply hidden vulnerabilities, idealist coders and non-profits say they’re running on fumes trying to maintain the web's core vitals.",
+      "link": "https://www.politico.eu/article/ai-internet-website-shutdown-hack-cyberattack/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Airbnb's divisive new house rules come into force",
+      "summary": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+      "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Portuguese families could spend 83% of average net income on rent, study finds",
+      "summary": "Among 20 Portuguese cities studied by the property listings website Idealista, Faro was the least affordable for renters and Funchal for buyers. In Lisbon, advertised rents equalled 88% of the average net household income and estimated mortgage repayments 90%.",
+      "link": "https://www.euronews.com/2026/11/19/portuguese-families-spend-83-of-net-income-on-rent-idealista-study-finds",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Nvidia forms national security committee after Huang affair",
+      "summary": "Nvidia has created a board-level committee for national security and export control. This follows the resignation of CEO Jensen Huang over extramarital affairs, allegedly including one with a Chinese intelligence asset.",
+      "link": "https://www.dw.com/en/nvidia-forms-national-security-committee-after-huang-affair/a-79970447?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Zucman, le retour",
+      "summary": "Un manifeste publié ce vendredi, un “sommet contre l’oligarchie internationale” samedi, une proposition de taxe supplémentaire : Gabriel Zucman est de retour au premier plan. Engagé dans une démarche de plus en plus politique, l’économiste français de 40 ans veut peser sur le débat de la présidentie",
+      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/zucman-le-retour/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Fish and eggs al desko? The dos and don'ts of the lunch break",
+      "summary": "What is acceptable to eat at your desk, without annoying your colleagues?",
+      "link": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Commerzbank welcomes UniCredit commitments after Berlin agreement",
+      "summary": "Commerzbank has welcomed UniCredit's commitments to keep the German lender listed and based in Frankfurt. This comes as Berlin and UniCredit have agreed on key terms of what would be one of Europe's biggest cross-border banking deals in years.",
+      "link": "https://www.euronews.com/2026/11/19/commerzbank-welcomes-unicredit-commitments-after-berlin-agreement",
       "source": "Euronews Business"
     },
     {
@@ -45,93 +117,22 @@
       "source": "DW Business"
     },
     {
-      "title": "Burnham s 10-year plan lined up for Dec. 17 publication",
-      "summary": "It would be the last possible date before MPs leave for their Christmas recess.",
-      "link": "https://www.politico.eu/article/uk-andy-burnham-10-year-plan-lined-up-for-december-17-publication/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Baku, Tbilisi and Astana join forces to expand Middle Corridor as Belgian firms eye investment",
-      "summary": "Azerbaijan, Georgia and Kazakhstan have drawn up a joint plan to increase Middle Corridor freight capacity to around 30 million tonnes a year by 2029, as Belgian companies discuss a logistics hub in Kazakhstan and digital upgrades to the Asia-Europe trade route.",
-      "link": "https://www.euronews.com/2026/11/18/baku-tbilisi-and-astana-join-forces-to-expand-middle-corridor-as-belgian-firms-eye-investm",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Grand Theft Auto VI is here. The EU has 6 reasons to pay attention.",
-      "summary": "The long-awaited new installment of the GTA series is a global entertainment phenomenon. But it also has a policy plotline.",
-      "link": "https://www.politico.eu/article/eurocrats-meet-gamers-six-reasons-brussels-should-care-about-gta-vi/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
-      "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
-      "link": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Opening a small business takes 18 times as long in Germany as in France, study finds",
-      "summary": "Setting up a small business in Germany takes almost 4,000 hours of red tape, the equivalent of nearly 500 eight-hour working days. That is the longest among 27 countries across Europe, Latin America and the Caribbean, and nearly 18 times as long as in France, which ranked first in a new study.",
-      "link": "https://www.euronews.com/2026/11/18/opening-a-small-business-takes-18-times-as-long-in-germany-as-in-france-study-finds",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "EU Commission accused of withholding emails on killing patent law",
-      "summary": "Lawmakers suggested the U-turn came following a meeting between JD Vance and Ursula von der Leyen.",
-      "link": "https://www.politico.eu/article/commission-accused-of-withholding-emails-on-killing-patent-law/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
-      "summary": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Catnomics: global cat market exceeds €100bn and drives pet economy",
-      "summary": "Worldwide, more and more families are choosing to adopt a cat, and the global market for food, gadgets and merchandising is worth over one hundred billion euros, driving the pet economy.",
-      "link": "https://www.euronews.com/2026/11/18/catnomics-global-cat-market-exceeds-100bn-and-drives-pet-economy",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "L’après-Macron vu par les espions",
-      "summary": "Comment les services secrets se préparent-ils au “choc électoral” de 2027 ? Dans La nouvelle armée des ombres (Albin Michel), trois journalistes ont enquêté sur la manière dont les espions français anticipent la campagne présidentielle mais aussi les jours et mois suivants l’alternance. Attaques, op",
-      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/lapres-macron-vu-par-les-espions/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Europe plans to catch the next computer chip wave",
-      "summary": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
-      "link": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Nearly 300,000 children abroad receive German benefits, sparking political backlash",
-      "summary": "New figures show that children of Polish nationals account for the largest share of Germany’s child benefit payments abroad, fuelling calls from some politicians to restrict payments to families living outside the country.",
-      "link": "https://www.euronews.com/2026/11/18/nearly-300000-children-abroad-receive-german-benefits-sparking-political-backlash",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "German government recruits World Cup hero Philipp Lahm to teach financial literacy",
-      "summary": "The former international full-back will take part in a program teaching financial literacy to young Germans.",
-      "link": "https://www.politico.eu/article/former-football-world-champion-to-help-germans-get-smarter-about-money/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "After Putin talks, Trump tells Europe it could save lives and cash if Ukraine war ends",
+      "summary": "The U.S. president followed up his meeting with Russian and Chinese leaders with a surprise call to Berlin.",
+      "link": "https://www.politico.eu/article/donald-trump-presses-european-leaders-about-ukraine-aid-after-vladimir-putin-summit/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     }
   ],
-  "trend_headline": "독일 관료주의의 벽과 에어버스 보조금 갈등",
-  "summary": "독일의 극심한 창업 규제 지연과 에어버스를 둘러싼 미·유럽 간 항공기 보조금 갈등 재점화 조짐이 유로존 산업 경쟁력에 부담으로 작용하고 있습니다. 특히 독일의 행정 지체는 프랑스 대비 18배에 달하는 시간 소모를 유발하며 유로존 내 경제 활력을 저해하고 있습니다.",
+  "trend_headline": "독일 자동차 위기와 메가 딜",
+  "summary": "독일 자동차 부품업체들이 전통 완성차 부문의 부진을 타개하기 위해 드론 및 방산 공급망으로 피봇팅에 나선 가운데, 유니크레디트와 프랑크푸르트 기반 유지가 합의되며 유럽 은행권 대형 크로스보더 M&A가 급물살을 타고 있습니다.",
   "key_points": [
-    "독일에서 소규모 사업체를 여는 데 프랑스보다 18배 긴 약 4,000시간의 행정 절차가 소요되는 것으로 나타남",
-    "미국이 에어버스를 향한 3억 유로 규모의 자금 지원 패키지에 대해 대서양 항공기 보조금 휴전 협정 위반 가능성을 제기",
-    "도이체방크가 1,500만 건의 대규모 데이터 유출 사고로 독일 주 정부 데이터 감독 당국의 조사를 받음"
+    "독일 바이에른 소재 부품업체, 자동차 수요 감소 대응해 월 1,000대 정찰 드론 생산 체제로 전환",
+    "유니크레디트, 베를린 협상에 따라 프랑크푸르트 기반 독일 코메르츠방크 상장 유지 및 인수 조건 수용",
+    "에어버스 3빌리언(€3B) 규모 금융 지원 패키지를 둘러싼 미·EU 간 항공기 보조금 갈등 재점화 조기 포착"
   ],
   "sector_hints": [
+    "Defense",
     "Financials",
-    "Industrials"
+    "Energy"
   ]
 }

@@ -1,7 +1,67 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "region": "US",
   "headlines": [
+    {
+      "title": "Gap names new Athleta CEO, lowers full-year guidance",
+      "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+      "link": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "I m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "summary": "We have a house worth $450,000. Our combined annual income is $125,000.",
+      "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlhuRl9IVHpKbEE1aE5EQ3RBb1lScFkyaktKUHpueW1KSi1EWGFYMEx4TU9oRm5RbzVkSkZ2aWhtZ0hxSkFlcjNFNjJjNHhHME9FNkp2ckNuS1FMMkNBYUZSemt1UTFpYmd6MEtLOTdXdDJwellWMGxFd0lnLXVsMHdiU2tvOWw1Qk9FV1d3c21IejNyT3ZRX1NPdmFyekV0enlHNkszSWVIQVM0dGFRUnh2dw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkRDQWZYNXlObXhXM0Q1TEFtSXhxV24ySVdMUnNCVWRRSnJDTkVBLWtJR1lTWEliYzRIbWhWeEFRYzUySHFObzRJajNFWW5wd2lmZ0tIeXpQaFZfdlRZaFJEUTdRVkFKUW1HNDZ1dWhXU1QzSFpIOF80MUJkSWJsdTY1ME9CRUVVYVY0SllFVFYzR0pVVER4YjVSNGp6Y2tIR0ZSRW5yS1VHSHV2OU9MU2lB?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "AI Bubble Is ‘About to Burst.’ Sell the S&P 500 and Buy This Instead, Analyst Says.",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1adzZRaUVhV2Fvd0lYWFBfUTJxYXVCNm8xLUJWUFUxX0U1MG9GZFlqOVhtY0RPOFpqc3dhNURDZGYxMHE5bXM4eFJqTmRBNDNvM3F6cUtQSWpGQ1V0UW1OYlptaEIzMkFEOXFFaV9oTTdhaG54aWZIMlFnQVE2UQ?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+      "summary": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
+      "link": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "My wife is bankrolling her family s trips to New York and it s draining our savings. Should I ask her to stop?",
+      "summary": "Hotel rooms can cost as much as $400 per night.",
+      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "GOP Effort to Pass $350 Billion in Extra Military Spending Stalls in Lame-Duck Congress",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRk5KcTJXRVRWeHZYTHhFTXRCTWpJd0RGS2JMcXhnUHpSWG90aGd3WnBmb1JvZkw4WEVTSXB6b1VwZGdPRkZfWWptMkRvWlV4T1l3eXhjLThBTUxYRnczdEdFeUhabE91QUY4dFZxY2ZMajhWd3VRNEVqVHZFdXlGdUVnTnNoQzBrQ1Z6Nw?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Asian Stocks Set to Fall as AI Enthusiasm Fades: Markets Wrap",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUE9Bem9kWjBIcUtfa0xHOW0yQm1mV3A0VFVFZlh4X0hvWjlmckZSTDNGWlB1NGtzWFkyTTVSc0tNNW9tbUxGNURvNExmRTdTYnJyTTJtUGd1dkEyZklWR2xOSkphQ2s1d0NjZE9CRDc4SWtreWJxbDVoOFFnM2toQldLUHR5VUZFTDk4bDBXaWdodTh1?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Roaring Kitty Is Back. Can He Spark Another GameStop Stock Frenzy?",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYU2lLVU1MeUFBNnh4dmNRUm5TSGxIR1M1UnBOa01PNE9DNEJQX2t2SDJza09GbUdhWUkxQ3pNaVAyU09jTnlZRFFwZHE1Zzh5TFVEWklwNUtOUHhQWko4SGRQLUIwUDNTMzlpMFpxVU4xWWEyUEI2bnJn?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "Investigators make progress in hunt for cause of FAA ground stop",
       "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
@@ -9,27 +69,27 @@
       "source": "CNBC"
     },
     {
-      "title": "Palo Alto Networks stock gets a fresh AI-fueled boost from earnings",
-      "summary": "The company boosts its outlook in the face of the current threat environment and demand we see ahead of us.",
-      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "title": "After Anthropic s bittersweet IPO, here s what lies ahead",
+      "summary": "Retail investors showed up, but Anthropic has so far failed to provide a broad lift to the technology sector.",
+      "link": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+      "title": "Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzJMRVRpMDh6UlVrLWNaa0JYTmZhMkUxWWdweFJuWDdJZWE2NmVsSFczcFMwT3FVYzRxVV93TXlrSVhfWDBnRTBsSTNRcjMxUF9KMnp5UVNYOTRKSlJPa0tRMC1Mc2FTN3I4RGpZRVJxZ3FCOUVkaEZkQTlDUzNpZ1V2VS1UOXZRdEkyODVCMTJuMC1pSWd2QnN1Skw1eTFWS0Z3dzd1enk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2poV3JYSVEtZHRZTmlXWXNpcUR6VEVZUnZEY01xeTB0WlhhMUVvTngyM1YwMHRieTY0R0lnMjhsWEJwa2lsY1RvNkluUXlKQ0dlZXlwR2VSdV9OSGE0RVZsNUJSTkRheno5NGJnbG1TRk9waG1CMFhCV3FadzgtbmlsQzAwd0dfZHRRMkZMWkpXcmVmMG9neVhtZUxkMUlka2tVdTdNbjRhcm5TZmY2dWw4SUs?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Elon Musk Feels ‘Foolish’ for Spending Big on GOP After Rout",
+      "title": "US Approved AI Chip Sales to China’s Tencent, Alibaba, Data Show",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUzItNDB2cFdWYm45aUJoMG9RNVQ3cFVpZUpIZ3g0T1hfN3lIbW95SlRZR2xxYnRBV3V0cFNCN0pRV3lEaVJhZjNmSWVtaDJaUmZBUGRPMXlCSE4yYWxMWXJvV2lUeDBqTjZ4RUhxUVZNaTdod3A0dmhkOG13bXVQX3RRWkNxOUVsTVVxUnh0WTF6U29ESzlhV2szc0JfMWxlSE1Pck9ueG93X3ZrWkh1SXREUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHBwaTNEcUhVcC1PcUJxbFdYVVgwMl8ybHJCWExQOC1iSVBQQUt4dzRwVWRJQUFCQ3BheTFwVzlVS1VXWTF2RUFZd2JqbXlVcnh6VHEwX2l2NVpzdFBOLVdISDBwbm1LdzNMalQ1NkdYZWowYVhjQmQzcW4xcnBTRl9mUUJEUHFVTV92dEtielJjWW9fQnltZElRaEtKM1ZVcG0ySC1iWU9sVHc5ekhmdlF5TQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "When Is Anthropic’s IPO? What Analysts Are Saying About the AI Giant’s Trading Debut.",
+      "title": "Texas Starts Approving Data Centers Again — Including for SpaceX",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Kc3h1V3VzbFFTNWxwbkdxeGpWY2Y0TkNZb21YWFF6WXJQd0h4R21yTENBb25OX3R0LUR1bE9JeXJDclE4enVCRHByQ0E5Q1VwVk5Na3RjWmxrZHpkRHB3ZXBhMW9vOUptcEhEZG04azRVREpfemxXSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb0ZmOElxT0pSMW1rWVpydm1DMExJVzNfQ3FkS3M3VXM5dVNsamI2bTh5RTBhNGtiMnB2Y0VxVXpJdkN2NnJYOTlYOVBIZFJYbWpILWdaX1RZM0luX1IyRVNjR25YSlVieG5qZ3VNR2RlTWhNLWJSZUp0OGV5ejlkaXB3QQ?oc=5",
       "source": "Barron's"
     },
     {
@@ -39,99 +99,40 @@
       "source": "CNBC"
     },
     {
-      "title": "I ve been a stay-at-home mom : I m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
-      "summary": "Our financial and healthcare situation has become increasingly concerning.",
-      "link": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "title": "These were the only stocks that rose amid the stock market s wipeout Thursday",
+      "summary": "All 11 sectors of the S&P 500 declined 10 of them by more than 1% but cybersecurity stocks bucked the weakness.",
+      "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "U.S. Stocks Mixed, Nvidia Down Again Ahead of Anthropic IPO",
+      "title": "U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXo2WlZpcTltVUpERGFLMVFlbzk3NkhYcVJsSGFCRk1ZeEV3eTBTa2ZhbEx5dHVpZTAxTFFXc1o1Mzc2WHJ1cHFFZWFGVS1GUGxyaGJfOU9KdHF3ZWxaQmZHTWh6bDB0N0JUOVNpbzdpTDZRWGZnY2p0d3lEcXVJcERPZEVwM01QdUdLRWkwN0M2YnNzMk1QbjdlckU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0gyWjhIVGZYS3A2TDJtbVdaZVJHdlo5Smt3RkhsMHJ2bUh6ZVlOLWE5cDhkV3hXcmFVZFRVTmgxdlJXQ3dLRWREYVljemhSVjkycmlFYzctSW44YlhybXNtOFNyYVVvMEw2bGFNSmFnMEJrd2xWMklDbHJ4RGNRNFVnX1VTNUR0QXA5V1BaRlo3Tmo2eUE3U2lCQko5c21rQVMxOGlB?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Alibaba’s AI Ambitions Face Steep Challenge in US Chip Controls",
+      "title": "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSWZpZTZZU3dMUFVnWXI2RW1xdUpndjNuTmNJd1YyazhpR0ZyckFzelFKSFZrUExGM08zWFQxT2RidjU2TmhBODI4a1V4QmdMZGU2bU92WnZSdld1UG5rY28tNGU2OHFNejJJSDY1NW50U3FjdFg0RE00Zl9vRnNIOEpfenY2MV9Pc1cwYktxN1gyQVVqLTd2a0c1RG52TjN4cGE4SUJMajRORU9UcDRZYkFlRk0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQzRPX3FrZlMybjdvY2FJVWhVOHU5M2lTTGNPazZYUW0zVlA3ZkVRcWxERk9XM2FvXzgzVDVUaTYwTzVzOXg0TGQtN25fOE9aeTRtUXhqTGE2Q01zQ21iTUg1dmFTNGZQRV9hTDVBV3BjWW4tUzYxXzBVTzA1UzkyOEtySVhfbWZlbmRXSFd1bVZLZElzSThUMmlQVnAyOHJIWUs0YTBNVTBIM29HV2ZieUtzQ1d0SDVIVTA2VTRTYk4?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "Micron Stock: 3 Catalysts Set to Boost the Memory Chip Maker Beyond Nvidia Earnings",
+      "title": "Insmed Stock Jumps as Sanofi Eyes Takeover, Report Says",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1EUkd4T0FNR1lpSjgxY2pQMm5jR1dJYU1WLU9PT0tybjhIcGpFTTBqemF5djRKUFd2T0gzaENGQU9QUXhuQXhpQmdUNmlZcG50Q1RJMjhFSlRIUlhQWmpGZFZKWWVjRm8wcGk0WmFJaUxVeEkwdnQxQXVaX3g?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Hims & Hers launches new peptide treatments — while admitting there s more to learn about efficacy",
-      "summary": "The telehealth company will now offer compounded forms of sermorelin, glutathione, NAD+, vitamin B-12 and L-carnitine, none of which are approved by the FDA.",
-      "link": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Nvidia s turmoil has me spooked : Should I sell my stocks and buy real estate or ride out the storm?",
-      "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Fed Officials Saw Higher Rates Ahead When They Held Steady Last Month",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX01kNDVqdGtHNWs5RVhUbkRTbUdMd1hkWDBJU0x6NVdIWVptS0tJTk1GR1dnajI5Z19HNlppb2ZhWVpWVnQ5eUxXSko1VVl3bERZbVV1enFVWFhsd3ozMDAtQ0RXYjZtX25DRm9QTzRqVFQ2MmdMMk5yeGluNGhjMEpJU1lZWG5DSVRQdzg1UHc2SzM1cWFVXzh6b2Q4YTY2T1NjWHBOU3RQLTg2cFVkSldPSUx2VjhjM0p0OUZESQ?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Gold Steadies Near 14-Month Low as Fed Signals More Rate Hikes",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXdmV3hhblFoX2xZNXU1UVFXemNQdDJXUlpqV3o3bmxiNUVxNTFWRkVRektBa1o0d1N2LWhFcWJYZ0VYWWUydHhnVjFrQ3VYOUI1Z25abXdHV0JucmhFcTFBZTNKSjR6WXB1MnFVanVTekJxY2cyNG9HdzB4NlkyTUtaM3N5bFQwSVd5UGQwaHJNNlRNUU5KU2tCOU5uaEVoRXY5cUhEMHBtZEtxY1B2VkRtRQ?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "CoreWeave and IREN Fall as Nvidia Signals Caution on Financing",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNnY2UEtlY1hWdWotVHBfN2VfMHdKU2dZcHdLSWlvcTdnQU5JVVpDcVlNNXpuZmdIOEt5TkhEVnVmYjVCZ0E5VFlkVTJTR0E4OHM3cVpXRE1oNS1sZ2N4N2FWYjJiSGFYSnJhSi1SeURvMllQaU9kS3F3QzFQdFhYLWNVMFE?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
-      "summary": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
-      "link": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "What the death cross in small-cap stocks means for the rest of the market",
-      "summary": "The negative chart pattern confirms weakness in the Russell 2000 and in overall market breadth.",
-      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "U.S. Crude Oil Stockpiles Rise for Second Straight Week",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb092MEEzczMxZ19aRDJsQ2ZXblpzUEVNaHhGa1ZmRXFMRWpBYk00bC1pajFhLW9wblJqSF9URHRHZUd3NHg5aEdUSm9WbmJONjBvX2lpTmNXbjhIYmpLWkNKZFNIYjJjamNhY0YzUzlwMThvRHgwN2VEalJ3eXJIU3RpWVZZeFA1ZDUtU0tQSGRKWHRkS3d6WW83RGQ1YjFEMDBncnJ3?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Anthropic Is Said to Price IPO Above Range at $83 Per Share",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3BkQzh0ZFBoUzZmTzU4akxveFYzZ2pZWEM0aklQWU50RlBfaW4yaDNTMWxKbzFmZ1d3QW96ZkVjOC0zOHh6eUhGWHhZbkVqRHdGc09WSnk3ek56UTJzYjZtZXI5cVo5UmlRd1JJUE9Qa29HRXZEN0JZZlFNR01yX2xpYkVGWDNSTVNxeGFCTzNBZ3VDc29BQlV6dzdBdw?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "This Wildly Volatile AI Stock Is Down 80% From Its Peak—and Flashing Warning Signals",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHBjVTR5ZDhidksyMUthU1hEWS15OHAtMEVXMENKTm9Gb1p5bTB1djV0VXY1OWJkVjdKYWVrSUZQcE1xT3U5bWNXdDFRWFViTEFZOS1wejNPcWZpa2hFRzJoOFBBQmc1TUVmajAzVVFhRDhUNkFvVTlWNkFBMklucjdHaHJqblU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbGlsWVFWWFJvaVU1WGZVampfMV9wUnFQbUxSU1pLQWxDQTVEQWJfWUphY0FGWjlfYmRYRE1iUGJOUEhnZXlNOWNUTnBEeTR2aURlVjM0X3MtaFFSckItZW9zSFF1ZlhXMGwxNXdZckh2OFN1OGU5bF81dkNUQk9melhqVQ?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "엔비디아 약세 속 앤스로픽 IPO 흥행",
-  "summary": "엔비디아의 연속 하락과 AI 인프라 우려 속에서도 대형 AI 기업 앤스로픽이 희망 밴드 상단을 웃도는 가격에 성공적으로 IPO를 마무리했습니다. 연방준비제도(Fed)의 추가 금리 인상 시그널과 함께 기술주 전반의 변동성이 확대되는 모습입니다.",
+  "trend_headline": "앤트로픽 상장에도 AI 거품 우려 속 증시 급락",
+  "summary": "대형 AI 기업 앤트로픽의 성공적인 데뷔와 대규모 IPO에도 불구하고, 연준의 매파적 기조와 기술주 전반의 매도세가 겹치며 미국 증시는 급락세를 기록했습니다. 특히 엔비디아에 대한 캘리포니아 검찰의 조사와 소프트웨어 업종의 부진한 전망이 시장 전반의 불안감을 키웠습니다.",
   "key_points": [
-    "앤스로픽, 예상치 웃돌며 주당 83달러로 IPO 가격 책정",
-    "엔비디아 약세 및 AI 인프라 자금 조달 우려로 관련주 동반 조정",
-    "연준 의사록에서 AI 관련 잠재적 위험 및 추가 금리 인상 가능성 시사"
+    "앤트로픽(Anthropic)이 성공적인 IPO로 시가총액 상위권에 진입했으나 기술주 전반의 하락을 막지 못함",
+    "연준의 매파적 발언과 뜨거운 인플레이션 우려로 미 증시는 수개월 내 최악의 주간 하락세 기록",
+    "캘리포니아 법무부의 엔비디아 조사 착수 및 인튜이트의 부진한 전망이 소프트웨어·AI 섹터 투자 심리 악화 주도"
   ],
   "sector_hints": [
     "Technology",
-    "Financials"
+    "Communication Services",
+    "Semiconductors"
   ]
 }

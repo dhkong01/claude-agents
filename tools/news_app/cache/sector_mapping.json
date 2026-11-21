@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-21",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "negative",
-      "score": -8.5,
-      "rationale": "미국의 대중국 첨단 반도체 컴퓨팅 규제 강화로 엔비디아 등 주요 종목이 급락했으며, TSMC의 사상 최대 매출에도 불구하고 아시아 반도체 공급망 전반으로 매도세가 확산되는 등 강한 조정 압력을 받고 있습니다.",
+      "score": -9.0,
+      "rationale": "엔비디아의 조사 및 스캔들 악재와 더불어 미국의 대중국 AI 칩 규제 강화로 인해 글로벌 반도체 공급망 전반에서 대규모 매도세가 출회되었습니다.",
       "related_tickers": [
         "NVDA",
         "TSM"
@@ -18,11 +18,11 @@
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -7.0,
-      "rationale": "월가의 과열된 AI 트레이드 속도 조절론 대두와 숏셀러들의 공격적 대응, 아시아 증시 내 AI 관련 투자 심리 위축이 맞물리며 섹터 전반에 하락세가 우세합니다.",
+      "score": -8.0,
+      "rationale": "반도체발 악재와 연준의 추가 금리 인상 우려, 글로벌 기술주 매도세가 이어지며 주요 지수 조정 및 테크 하드웨어 전반의 부담이 가중되고 있습니다.",
       "related_tickers": [
-        "NVDA",
-        "9984.T"
+        "MSFT",
+        "AAPL"
       ],
       "source_regions": [
         "US",
@@ -31,30 +31,55 @@
     },
     {
       "name": "Financials",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "EU 당국의 유니크레디트-코메르츠방크 인수 승인으로 국경 간 M&A 활성화 기대감이 높아졌으며, 홍콩 IPO 제도 개편 및 일본 내 자금 조달 다변화 등 구조적 긍정 모멘텀이 형성되고 있습니다.",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "미국 연준의 금리 인상 우려로 인한 투심 악화와 프랑스 재정 적자 변수 및 대규모 폭동 손실금 청구 등 글로벌 금융 시장의 불확실성이 증대되었습니다.",
       "related_tickers": [
-        "UCG",
-        "CRZBY",
-        "357200.KS"
+        "JPM",
+        "BAC"
       ],
       "source_regions": [
-        "EU",
+        "US",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "미국 의회의 중국산 자동차 수입 규제 움직임과 주요 배터리 기업의 점유율 하락 등 전기차 및 자동차 공급망 내 규제 리스크와 경쟁 심화가 부담으로 작용했습니다.",
+      "related_tickers": [
+        "TSLA",
+        "BYDDF"
+      ],
+      "source_regions": [
         "ASIA"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "지정학적 리스크에 따른 연료비 상승과 비용 압박으로 인해 유럽 주요 항공사인 루프트한자가 대규모 감원에 나서는 등 운송·산업재 부문의 실적 악화 우려가 커졌습니다.",
+      "related_tickers": [
+        "DAL",
+        "LHA"
+      ],
+      "source_regions": [
+        "EUROPE"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 5.5,
-      "rationale": "EPC 서밋을 통해 아제르바이잔의 대(對) EU 에너지 공급 확대 및 협력 강화 방안이 발표되면서 유럽 내 에너지 공급망 안정 기대감이 작용하고 있습니다.",
+      "score": 4.5,
+      "rationale": "지정학적 요인으로 인한 연료비 및 에너지 가격 상승 압력이 관련 에너지 기업들의 정산 수익에 단기적으로 긍정적 모멘텀을 제공하고 있습니다.",
       "related_tickers": [
-        "SHEL",
-        "TTE"
+        "XOM",
+        "SHEL"
       ],
       "source_regions": [
-        "EU"
+        "EUROPE"
       ]
     }
   ],

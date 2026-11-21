@@ -64,7 +64,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         continue-on-error: true
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       - name: Wait before retry
         if: steps.deployment.outcome == 'failure'
@@ -73,4 +73,4 @@ jobs:
       - name: Deploy to GitHub Pages (retry)
         id: deployment_retry
         if: steps.deployment.outcome == 'failure'
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "risk_score": 10.0,
   "risk_level": "HIGH",
   "market_bias": "RISK_OFF",
   "high_risk_signals": 3,
-  "medium_risk_signals": 2,
+  "medium_risk_signals": 4,
   "sector_impacts": {
     "Energy": "ELEVATED",
     "Semiconductors": "WATCH",
     "Defense": "ELEVATED"
   },
   "top_risk_events": [
-    "Dutch And Austrian Embassies Are Damaged As Russian Drones Swarm Kyiv",
-    "Unexpected Fallout From The Iran War",
-    "Putin, Trump And Xi Condemn Nuclear War As Europe Watches Closely"
+    "The War Is Ravaging Ukraine\u2019S Wildlife, Too",
+    "Wreck Of First Australian-Built Warship Is Revealed 128 Years After It Sank",
+    "Unexpected Fallout From The Iran War"
   ],
   "recommendation": "\uace0\uc704\ud5d8 \uad6d\uba74 (Energy, Defense \ube44\uc911 \ucd95\uc18c). \ud3ec\uc9c0\uc158 \ucd95\uc18c \ubc0f \ud604\uae08 \ube44\uc911 \ud655\ub300 \uad8c\uc7a5.",
   "hedge": {

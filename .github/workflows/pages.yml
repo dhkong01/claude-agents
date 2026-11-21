@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+      - '.github/workflows/pages.yml'
   # GITHUB_TOKEN으로 만든 커밋(아래 워크플로들의 자동 일일 커밋)은 push 이벤트로
   # 다른 워크플로를 트리거하지 않는 GitHub의 기본 정책 때문에, docs/ 데이터가
   # 갱신돼도 위 push 트리거만으로는 재배포되지 않는다. 해당 워크플로들이
@@ -32,7 +33,7 @@ jobs:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -58,6 +59,18 @@ jobs:
         with:
           path: docs/
 
+      # 업로드 직후 배포를 시작하면 가끔 'No artifacts named "github-pages" were found' 로 실패한다
+      # (아티팩트 등록 지연, 11/21 두 차례 발생). 실패하면 잠시 기다렸다가 한 번 더 시도한다.
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4

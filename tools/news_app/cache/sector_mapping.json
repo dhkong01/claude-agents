@@ -1,87 +1,79 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "sectors": [
-    {
-      "name": "Semiconductors",
-      "direction": "negative",
-      "score": -9.0,
-      "rationale": "엔비디아의 조사 및 스캔들 악재와 더불어 미국의 대중국 AI 칩 규제 강화로 인해 글로벌 반도체 공급망 전반에서 대규모 매도세가 출회되었습니다.",
-      "related_tickers": [
-        "NVDA",
-        "TSM"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
     {
       "name": "Technology",
       "direction": "negative",
       "score": -8.0,
-      "rationale": "반도체발 악재와 연준의 추가 금리 인상 우려, 글로벌 기술주 매도세가 이어지며 주요 지수 조정 및 테크 하드웨어 전반의 부담이 가중되고 있습니다.",
+      "rationale": "미국 엔비디아의 사법 리스크 및 AI 거래 후퇴 우려, 공포지수(VIX 40) 급등과 더불어 유럽연합(EU)의 빅테크 대상 신규 과세 추진 악재가 겹치며 기술주 전반에 강력한 하방 압력이 작용하고 있습니다.",
       "related_tickers": [
+        "NVDA",
         "MSFT",
         "AAPL"
       ],
       "source_regions": [
         "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Financials",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "미국 연준의 금리 인상 우려로 인한 투심 악화와 프랑스 재정 적자 변수 및 대규모 폭동 손실금 청구 등 글로벌 금융 시장의 불확실성이 증대되었습니다.",
-      "related_tickers": [
-        "JPM",
-        "BAC"
-      ],
-      "source_regions": [
-        "US",
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "미국 의회의 중국산 자동차 수입 규제 움직임과 주요 배터리 기업의 점유율 하락 등 전기차 및 자동차 공급망 내 규제 리스크와 경쟁 심화가 부담으로 작용했습니다.",
-      "related_tickers": [
-        "TSLA",
-        "BYDDF"
-      ],
-      "source_regions": [
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -5.5,
-      "rationale": "지정학적 리스크에 따른 연료비 상승과 비용 압박으로 인해 유럽 주요 항공사인 루프트한자가 대규모 감원에 나서는 등 운송·산업재 부문의 실적 악화 우려가 커졌습니다.",
-      "related_tickers": [
-        "DAL",
-        "LHA"
-      ],
-      "source_regions": [
-        "EUROPE"
+        "EU"
       ]
     },
     {
       "name": "Energy",
       "direction": "positive",
-      "score": 4.5,
-      "rationale": "지정학적 요인으로 인한 연료비 및 에너지 가격 상승 압력이 관련 에너지 기업들의 정산 수익에 단기적으로 긍정적 모멘텀을 제공하고 있습니다.",
+      "score": 6.5,
+      "rationale": "중동 정세 불안에 따른 지정학적 리스크와 유가 상승으로 인한 에너지 비용 증가가 업스트림 및 석유·가스 생산 기업들의 수익성 개선 기대감으로 이어지고 있습니다.",
       "related_tickers": [
-        "XOM",
-        "SHEL"
+        "SHEL",
+        "TTE",
+        "XOM"
       ],
       "source_regions": [
-        "EUROPE"
+        "EU"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "유럽 루프트한자의 고유가 및 파업 여파에 따른 대규모 손실과 1,000명 감원 계획 발표 등 항공·운송 섹터를 중심으로 한 비용 압박과 구조조정 여파가 가중되고 있습니다.",
+      "related_tickers": [
+        "LHA",
+        "AIR"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "중국 내수 침체 장기화 속에서도 신에너지차(EV) 침투율이 70%를 돌파하는 등 전기차 및 관련 자동차 산업 구조의 가파른 성장세가 지속되고 있습니다.",
+      "related_tickers": [
+        "BYD",
+        "TSLA"
+      ],
+      "source_regions": [
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -5.5,
+      "rationale": "중국 부동산 개발사들의 도시 재생 사업 선회 등 침체 지속과 한국의 고금리 환경 속 주택담보대출 증가 부담이 부동산 섹터에 하방 압력으로 작용하고 있습니다.",
+      "related_tickers": [
+        "3333.HK",
+        "600048.SS"
+      ],
+      "source_regions": [
+        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Semiconductors",
+      "note": "미국(엔비디아 조사 및 AI 과열 우려)과 대만(TSMC 대중 출하 중단 및 지수 급락)에서는 강한 부정적 신호가 나타난 반면, 한국은 반도체 호조에 힘입어 연간 1조 달러 수출을 달성하는 등 지역별 신호가 엇갈리고 있습니다."
+    }
+  ]
 }

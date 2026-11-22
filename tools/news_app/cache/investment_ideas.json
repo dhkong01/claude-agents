@@ -1,9 +1,22 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "horizons": {
     "1w": [
       {
-        "theme": "지정학적 리스크 수혜 및 에너지 단기 모멘텀",
+        "theme": "엔비디아 사법 리스크 및 AI 변동성 헤지",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "rationale": "엔비디아의 캘리포니아주 형사법 위반 조사 및 CEO 관련 논란, VIX(40) 급등으로 인한 단기 기술주 변동성 확대 및 투매 압력 대응",
+        "risk": "사법 당국의 조사 조기 종료 발표 또는 기술주 저가 매수세 유입",
+        "conviction": "high"
+      },
+      {
+        "theme": "중동 지정학 불안 및 유가 상승 모멘텀",
         "sectors": [
           "Energy"
         ],
@@ -11,139 +24,122 @@
           "XOM",
           "SHEL"
         ],
-        "rationale": "지정학적 요인에 따른 연료비 및 에너지 가격 상승으로 에너지 기업들의 단기 정산 수익성이 제고되며 모멘텀 형성",
-        "risk": "지정학적 긴장 완화에 따른 유가 단기 반락",
-        "conviction": "high"
-      },
-      {
-        "theme": "반도체 악재에 따른 단기 변동성 확대",
-        "sectors": [
-          "Semiconductors",
-          "Technology"
-        ],
-        "tickers": [
-          "NVDA",
-          "TSM"
-        ],
-        "rationale": "엔비디아의 회계 조사 및 스캔들 악재 발표로 인한 투심 악화와 단기 공포 매물 출회",
-        "risk": "단기 과매도에 따른 기술적 반등",
+        "rationale": "중동 발 지정학적 리스크 지속과 유가 상승에 따른 에너지 업스트림 기업들의 단기 모멘텀 강화",
+        "risk": "지정학적 긴장 완화 및 유가 급등에 따른 석유 수출국 기습 증산",
         "conviction": "high"
       }
     ],
     "1m": [
       {
-        "theme": "연준 금리 인상 우려 속 에너지 섹터 우위 로테이션",
+        "theme": "EU 빅테크 신규 과세 추진에 따른 기술주 투자심리 위축",
         "sectors": [
-          "Energy",
           "Technology"
         ],
         "tickers": [
-          "XOM",
-          "MSFT"
+          "MSFT",
+          "AAPL"
         ],
-        "rationale": "연준의 추가 금리 인상 우려와 테크주 폭락에 대응해 상승 모멘텀을 보유한 에너지 섹터로 단기 자금 유입 지속",
-        "risk": "금리 인상 우려 완화 시 위험자산으로의 자금 재유입",
+        "rationale": "EU 집행부의 빅테크 겨냥 신규 과세안 추진 및 AI 지속가능성에 대한 월가의 의문으로 단기 자금 유출 지속",
+        "risk": "과세안 합의 실패 또는 대형 기술주의 긍정적 실적 가이던스 제시",
         "conviction": "medium"
       },
       {
-        "theme": "전기차 및 공급망 규제 리스크 반영",
+        "theme": "중국 내수 침체 속 신에너지차(EV) 차별화 모멘텀",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
-          "TSLA",
-          "BYDDF"
+          "BYD",
+          "TSLA"
         ],
-        "rationale": "미국 의회의 중국산 자동차 수입 규제 움직임 및 주요 배터리 기업의 점유율 하락으로 인한 자동차 공급망 투심 약세",
-        "risk": "규제 입법 지연 또는 로컬 시장 내 매출 호조",
+        "rationale": "중국 경기 둔화에도 불구하고 EV 침투율 70% 돌파로 인한 가파른 성장세 및 수급 집중 유입",
+        "risk": "글로벌 완성차 가격 할인 경쟁 심화 및 보조금 축소",
         "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "미국의 대중 AI 규제에 따른 아시아 반도체 실적 압박",
-        "sectors": [
-          "Semiconductors",
-          "Technology"
-        ],
-        "tickers": [
-          "TSM",
-          "NVDA"
-        ],
-        "rationale": "강력한 대중국 AI 칩 규제 시행으로 대만·한국 등 아시아 핵심 반도체 수출국 기업들의 분기 실적 악화 우려",
-        "risk": "규제 유예 조치 또는 대체 판로 확보",
-        "conviction": "high"
-      },
-      {
-        "theme": "연료비 상승에 따른 운송·산업재 실적 둔화",
+        "theme": "고유가 및 파업 여파에 따른 항공·운송 실적 압박",
         "sectors": [
           "Industrials"
         ],
         "tickers": [
-          "DAL",
-          "LHA"
+          "LHA",
+          "AIR"
         ],
-        "rationale": "지정학적 요인발 연료비 상승과 비용 압박으로 유럽 루프트한자의 구조조정 등 산업재·운송 기업들의 실적 하락 가속",
-        "risk": "유가 안정화 및 수송 수요 급증",
+        "rationale": "루프트한자의 월 2,000만 유로 손실 및 대규모 감원(1,000명) 등 고유가·노사 갈등에 따른 산업재 섹터 실적 악화",
+        "risk": "에너지 가격 급락 및 여객·화물 운송 수요의 서프라이즈 반등",
+        "conviction": "high"
+      },
+      {
+        "theme": "대중 반도체 규제 반사이익 및 한국 수출 호조",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA",
+          "QQQ"
+        ],
+        "rationale": "TSMC의 대중 출하 중단 등 아시아 테크 하방 압력 속에서 연간 1조 달러 수출을 달성한 한국 반도체 벨류체인의 차별화된 실적 모멘텀 확인",
+        "risk": "미국의 대중 반도체 규제 대상 확대 및 글로벌 IT 전방 수요 둔화",
         "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "글로벌 기술 공급망 재편 및 경쟁 심화",
+        "theme": "미·중 규제 강화에 따른 글로벌 반도체 공급망 재편",
         "sectors": [
-          "Semiconductors",
-          "Consumer Discretionary"
+          "Technology"
         ],
         "tickers": [
-          "TSM",
-          "BYDDF"
+          "NVDA",
+          "QQQ"
         ],
-        "rationale": "미국의 대중 AI 칩 및 자동차 규제 장기화로 아시아 전역의 테크 및 제조업 공급망 재편 및 로컬 시장 경쟁 심화",
-        "risk": "미·중 지정학적 갈등 완화",
-        "conviction": "medium"
+        "rationale": "미국의 규제 강화와 TSMC의 대중 출하 중단으로 대만 증시 변동성이 극대화됨에 따라 글로벌 반도체 공급망의 구조적 재편 가속화",
+        "risk": "미·중 외교적 타협을 통한 반도체 규제 유예 가능성",
+        "conviction": "high"
       },
       {
-        "theme": "유럽 재정 적자 및 기업 구조조정 본격화",
+        "theme": "영-EU 신규 무역 협정 및 탄소 규제 대응",
         "sectors": [
-          "Financials",
-          "Industrials"
+          "Industrials",
+          "Energy"
         ],
         "tickers": [
-          "BAC",
-          "LHA"
+          "SHEL",
+          "AIR"
         ],
-        "rationale": "프랑스의 누적 재정 적자와 EU-영국 무역협정 비용 부담으로 유로존 금융시장 불확실성 및 산업재 기업 구조조정 장기화",
-        "risk": "유로존 재정 지원책 마련 및 경기 반등",
-        "conviction": "medium"
+        "rationale": "영국과 EU 간 식품 및 탄소 배출권 무역 협정에 따른 유럽 내 관련 기업들의 규제 준수 비용 재평가 및 친환경 공급망 전환",
+        "risk": "규제 준수 비용 급증으로 인한 단기 기업 수익성 악화",
+        "conviction": "low"
       }
     ],
     "1y": [
       {
-        "theme": "연준 금리 사이클 전환 및 기술 패러다임 조정",
-        "sectors": [
-          "Technology",
-          "Financials"
-        ],
-        "tickers": [
-          "QQQ",
-          "JPM"
-        ],
-        "rationale": "연준의 추가 금리 인상 기조와 기술주 스캔들 및 규제 여파가 가미되어 고금리 장기화와 글로벌 기술주 평가가치 재조정",
-        "risk": "금리 인하 사이클로의 조기 전환",
-        "conviction": "high"
-      },
-      {
-        "theme": "지정학적 구조 변화와 에너지 안보 강화",
+        "theme": "중동 지정학적 구조 변화와 고유가 레짐 정착",
         "sectors": [
           "Energy"
         ],
         "tickers": [
-          "XOM",
-          "SHEL"
+          "SHEL",
+          "TTE",
+          "XOM"
         ],
-        "rationale": "지정학적 리스크 장기화와 글로벌 공급망 분절화로 에너지 자산의 구조적 가치 상승 및 수익성 유지",
-        "risk": "신재생 에너지로의 패러다임 전환 가속화",
+        "rationale": "중동 발 에너지 비용 상승의 구조화로 글로벌 에너지 공룡들의 장기 현금흐름 창출 능력 및 주주환원 여력 확대",
+        "risk": "글로벌 탈탄소 정책 가속화 및 대체 에너지 기술의 빠른 보급",
+        "conviction": "high"
+      },
+      {
+        "theme": "AI 테마 과열 둔화 및 기술주 밸류에이션 재정립",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA",
+          "MSFT"
+        ],
+        "rationale": "AI 단기 과열 및 규제·사법 리스크 이후 단순 하드웨어 투자가 아닌 실제 수익성을 입증하는 빅테크 위주의 선별적 레짐 전환",
+        "risk": "혁신적 AI 서비스의 폭발적 수요 재확인 및 하드웨어 투자 재가속",
         "conviction": "medium"
       }
     ]

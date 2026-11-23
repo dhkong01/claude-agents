@@ -1,6 +1,46 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-22",
   "data": [
+    {
+      "ticker": "MDLZ",
+      "current": 66.28,
+      "donchian_upper": 67.54,
+      "donchian_lower": 65.69,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.9,
+      "dist_to_lower_pct": 0.9,
+      "channel_width_pct": 2.8
+    },
+    {
+      "ticker": "KDP",
+      "current": 34.84,
+      "donchian_upper": 38.25,
+      "donchian_lower": 34.41,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 9.8,
+      "dist_to_lower_pct": 1.2,
+      "channel_width_pct": 11.2
+    },
+    {
+      "ticker": "ROP",
+      "current": 459.83,
+      "donchian_upper": 492.22,
+      "donchian_lower": 462.96,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 7.0,
+      "dist_to_lower_pct": -0.7,
+      "channel_width_pct": 6.3
+    },
+    {
+      "ticker": "ABNB",
+      "current": 170.36,
+      "donchian_upper": 190.29,
+      "donchian_lower": 172.79,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 11.7,
+      "dist_to_lower_pct": -1.4,
+      "channel_width_pct": 10.1
+    },
     {
       "ticker": "PANW",
       "current": 343.32,
@@ -40,16 +80,6 @@
       "dist_to_upper_pct": 3.9,
       "dist_to_lower_pct": 0.2,
       "channel_width_pct": 4.1
-    },
-    {
-      "ticker": "ROP",
-      "current": 459.83,
-      "donchian_upper": 492.22,
-      "donchian_lower": 462.96,
-      "signal": "EXIT",
-      "dist_to_upper_pct": 7.0,
-      "dist_to_lower_pct": -0.7,
-      "channel_width_pct": 6.3
     },
     {
       "ticker": "REGN",

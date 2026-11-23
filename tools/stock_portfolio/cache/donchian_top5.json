@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "stocks": [
     {
       "ticker": "MDLZ",
@@ -16,7 +16,7 @@
       "pivot": 67.88,
       "sector": "Consumer Defensive",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "KDP",
@@ -33,7 +33,7 @@
       "pivot": 38.44,
       "sector": "Consumer Defensive",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "ROP",
@@ -50,7 +50,7 @@
       "pivot": 494.68,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "ABNB",
@@ -67,7 +67,7 @@
       "pivot": null,
       "sector": "Consumer Cyclical",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "PANW",
@@ -84,20 +84,21 @@
       "pivot": 403.71,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     }
   ],
   "hedge": {
-    "long_pct": 60,
+    "long_pct": 75,
     "sqqq_pct": 10,
-    "cash_pct": 30,
-    "per_stock_pct": 12.0,
-    "action": "MODERATE_HEDGE",
+    "cash_pct": 15,
+    "per_stock_pct": 15.0,
+    "action": "LIGHT_HEDGE",
     "sqqq_active": true,
     "elevated_sectors": [
       "Energy",
+      "Semiconductors",
       "Defense"
     ],
-    "reasoning": "Risk 5.0 \u2014 SQQQ 10% \uc911\ud615 \ud5e4\uc9c0, \ud604\uae08 30% \ubc29\uc5b4. [Energy, Defense ELEVATED]"
+    "reasoning": "Risk 3.5 \u2014 SQQQ 10% \uc18c\ud615 \ud5e4\uc9c0, \ud604\uae08 15% \ud655\ubcf4. [Energy, Semiconductors, Defense ELEVATED]"
   }
 }

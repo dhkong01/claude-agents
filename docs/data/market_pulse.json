@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "indices": {
     "nasdaq": {
       "price": 22617.73,
@@ -23,16 +23,16 @@
       "region": "US"
     },
     "kospi": {
-      "price": 4869.96,
-      "change": -267.93,
-      "change_pct": -5.21,
+      "price": 4596.85,
+      "change": -273.11,
+      "change_pct": -5.61,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 645.68,
-      "change": -39.13,
-      "change_pct": -5.71,
+      "price": 619.59,
+      "change": -26.09,
+      "change_pct": -4.04,
       "label": "코스닥",
       "region": "ASIA"
     },
@@ -44,16 +44,16 @@
       "region": "ASIA"
     },
     "shanghai": {
-      "price": 3533.79,
-      "change": -43.82,
-      "change_pct": -1.22,
+      "price": 3482.28,
+      "change": -51.52,
+      "change_pct": -1.46,
       "label": "상해종합",
       "region": "ASIA"
     },
     "shenzhen": {
-      "price": 10256.39,
-      "change": -326.81,
-      "change_pct": -3.09,
+      "price": 10143.45,
+      "change": -112.94,
+      "change_pct": -1.1,
       "label": "심천성분",
       "region": "ASIA"
     }
@@ -87,5 +87,5 @@
     "mfi_signal": "침체"
   },
   "guru_insights": [],
-  "guru_date": "2026-11-22"
+  "guru_date": "2026-11-23"
 }

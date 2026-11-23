@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "mode": "weekly",
+  "date": "2026-11-22",
+  "mode": "daily",
   "rs_top10": [
     {
       "ticker": "CRWD",
@@ -45,34 +45,35 @@
   ],
   "rs90_count": 14,
   "geo_risk": {
-    "date": "2026-11-21",
-    "risk_score": 5.0,
+    "date": "2026-11-22",
+    "risk_score": 3.5,
     "risk_level": "MEDIUM",
     "market_bias": "NEUTRAL",
     "high_risk_signals": 1,
-    "medium_risk_signals": 2,
+    "medium_risk_signals": 1,
     "sector_impacts": {
       "Energy": "ELEVATED",
+      "Semiconductors": "ELEVATED",
       "Defense": "ELEVATED"
     },
     "top_risk_events": [
-      "The War Is Ravaging Ukraine’S Wildlife, Too",
-      "Wreck Of First Australian-Built Warship Is Revealed 128 Years After It Sank",
-      "Unexpected Fallout From The Iran War"
+      "Is Mexico Stepping Up In The War On Drugs?",
+      "How Melania Trump Found A Diplomatic Opening In The War In Ukraine"
     ],
-    "recommendation": "중간 리스크. 분산 포트폴리오 유지. Energy, Defense 섹터 모니터링.",
+    "recommendation": "중간 리스크. 분산 포트폴리오 유지. Energy, Semiconductors, Defense 섹터 모니터링.",
     "hedge": {
-      "long_pct": 60,
+      "long_pct": 75,
       "sqqq_pct": 10,
-      "cash_pct": 30,
-      "per_stock_pct": 12.0,
-      "action": "MODERATE_HEDGE",
+      "cash_pct": 15,
+      "per_stock_pct": 15.0,
+      "action": "LIGHT_HEDGE",
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
+        "Semiconductors",
         "Defense"
       ],
-      "reasoning": "Risk 5.0 — SQQQ 10% 중형 헤지, 현금 30% 방어. [Energy, Defense ELEVATED]"
+      "reasoning": "Risk 3.5 — SQQQ 10% 소형 헤지, 현금 15% 확보. [Energy, Semiconductors, Defense ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -1473,7 +1474,7 @@
       "pivot": 67.88,
       "sector": "Consumer Defensive",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "KDP",
@@ -1490,7 +1491,7 @@
       "pivot": 38.44,
       "sector": "Consumer Defensive",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "ROP",
@@ -1507,7 +1508,7 @@
       "pivot": 494.68,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "ABNB",
@@ -1524,7 +1525,7 @@
       "pivot": null,
       "sector": "Consumer Cyclical",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     },
     {
       "ticker": "PANW",
@@ -1541,7 +1542,7 @@
       "pivot": 403.71,
       "sector": "Technology",
       "in_both": true,
-      "allocation_pct": 12.0
+      "allocation_pct": 15.0
     }
   ],
   "sqqq_channel": {
@@ -1553,5 +1554,117 @@
     "dist_to_lower_pct": 29.6,
     "channel_width_pct": 22.2,
     "ticker": "SQQQ"
-  }
+  },
+  "price_freshness": {
+    "status": "FRESH",
+    "latest_date": "2026-11-20",
+    "checked_at": "2026-11-23 03:06",
+    "sample": {
+      "SPY": 689.81,
+      "QQQ": 608.45,
+      "NVDA": 125.53
+    }
+  },
+  "tracking": [
+    {
+      "ticker": "MDLZ",
+      "current": 66.28,
+      "donchian_upper": 67.54,
+      "donchian_lower": 65.69,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 1.9,
+      "dist_to_lower_pct": 0.9,
+      "channel_width_pct": 2.8
+    },
+    {
+      "ticker": "KDP",
+      "current": 34.84,
+      "donchian_upper": 38.25,
+      "donchian_lower": 34.41,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 9.8,
+      "dist_to_lower_pct": 1.2,
+      "channel_width_pct": 11.2
+    },
+    {
+      "ticker": "ROP",
+      "current": 459.83,
+      "donchian_upper": 492.22,
+      "donchian_lower": 462.96,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 7.0,
+      "dist_to_lower_pct": -0.7,
+      "channel_width_pct": 6.3
+    },
+    {
+      "ticker": "ABNB",
+      "current": 170.36,
+      "donchian_upper": 190.29,
+      "donchian_lower": 172.79,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 11.7,
+      "dist_to_lower_pct": -1.4,
+      "channel_width_pct": 10.1
+    },
+    {
+      "ticker": "PANW",
+      "current": 343.32,
+      "donchian_upper": 401.7,
+      "donchian_lower": 309.29,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 17.0,
+      "dist_to_lower_pct": 9.9,
+      "channel_width_pct": 29.9
+    },
+    {
+      "ticker": "CRWD",
+      "current": 229.44,
+      "donchian_upper": 268.02,
+      "donchian_lower": 216.9,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 16.8,
+      "dist_to_lower_pct": 5.5,
+      "channel_width_pct": 23.6
+    },
+    {
+      "ticker": "AMD",
+      "current": 424.39,
+      "donchian_upper": 585.3,
+      "donchian_lower": 449.04,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 37.9,
+      "dist_to_lower_pct": -5.8,
+      "channel_width_pct": 30.3
+    },
+    {
+      "ticker": "ADP",
+      "current": 301.71,
+      "donchian_upper": 313.43,
+      "donchian_lower": 301.19,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 3.9,
+      "dist_to_lower_pct": 0.2,
+      "channel_width_pct": 4.1
+    },
+    {
+      "ticker": "REGN",
+      "current": 920.69,
+      "donchian_upper": 972.37,
+      "donchian_lower": 903.43,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 5.6,
+      "dist_to_lower_pct": 1.9,
+      "channel_width_pct": 7.6
+    },
+    {
+      "ticker": "MU",
+      "current": 594.51,
+      "donchian_upper": 983.23,
+      "donchian_lower": 690.0,
+      "signal": "EXIT",
+      "dist_to_upper_pct": 65.4,
+      "dist_to_lower_pct": -16.1,
+      "channel_width_pct": 42.5
+    }
+  ]
 }

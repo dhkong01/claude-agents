@@ -1,40 +1,39 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "sectors": [
     {
       "name": "Technology",
       "direction": "negative",
-      "score": -8.0,
-      "rationale": "미국 엔비디아의 사법 리스크 및 AI 거래 후퇴 우려, 공포지수(VIX 40) 급등과 더불어 유럽연합(EU)의 빅테크 대상 신규 과세 추진 악재가 겹치며 기술주 전반에 강력한 하방 압력이 작용하고 있습니다.",
+      "score": -6.5,
+      "rationale": "미국 기술주의 급락 여파와 AI 거품론 및 규제 우려가 심화되면서 나스닥 지수가 약세장 진입 위기에 처하는 등 투자 심리가 크게 위축됨.",
       "related_tickers": [
-        "NVDA",
-        "MSFT",
-        "AAPL"
+        "AAPL",
+        "MSFT"
       ],
       "source_regions": [
-        "US",
-        "EU"
+        "US"
       ]
     },
     {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 6.5,
-      "rationale": "중동 정세 불안에 따른 지정학적 리스크와 유가 상승으로 인한 에너지 비용 증가가 업스트림 및 석유·가스 생산 기업들의 수익성 개선 기대감으로 이어지고 있습니다.",
+      "name": "Semiconductors",
+      "direction": "negative",
+      "score": -4.5,
+      "rationale": "미국의 대중국 규제 강화와 TSMC의 AI 칩 주문 중단 여파로 대만 반도체 섹터가 큰 조정을 받았으나, 한국의 강한 수출 급증 지표가 하방을 일부 방어함.",
       "related_tickers": [
-        "SHEL",
-        "TTE",
-        "XOM"
+        "TSM",
+        "NVDA",
+        "005930.KS"
       ],
       "source_regions": [
-        "EU"
+        "US",
+        "ASIA"
       ]
     },
     {
       "name": "Industrials",
       "direction": "negative",
-      "score": -6.0,
-      "rationale": "유럽 루프트한자의 고유가 및 파업 여파에 따른 대규모 손실과 1,000명 감원 계획 발표 등 항공·운송 섹터를 중심으로 한 비용 압박과 구조조정 여파가 가중되고 있습니다.",
+      "score": -7.0,
+      "rationale": "독일 루프트한자가 대규모 손실 및 고연료비 부담으로 1,000명 감원을 발표하는 등 유럽 항공·산업재 섹터의 실적 악화 및 구조조정 공포가 확산됨.",
       "related_tickers": [
         "LHA",
         "AIR"
@@ -44,26 +43,38 @@
       ]
     },
     {
-      "name": "Consumer Discretionary",
+      "name": "Financials",
       "direction": "positive",
-      "score": 6.0,
-      "rationale": "중국 내수 침체 장기화 속에서도 신에너지차(EV) 침투율이 70%를 돌파하는 등 전기차 및 관련 자동차 산업 구조의 가파른 성장세가 지속되고 있습니다.",
+      "score": 5.5,
+      "rationale": "중국 금융당국의 증시 유동성 제고 조치와 한국의 11월 두 배 이상 급증한 수출 회복세 및 금융 제도 개선 기대감이 긍정적으로 작용함.",
       "related_tickers": [
-        "BYD",
-        "TSLA"
+        "055550.KS",
+        "601398.SS"
       ],
       "source_regions": [
         "ASIA"
       ]
     },
     {
-      "name": "Real Estate",
+      "name": "Utilities",
       "direction": "negative",
-      "score": -5.5,
-      "rationale": "중국 부동산 개발사들의 도시 재생 사업 선회 등 침체 지속과 한국의 고금리 환경 속 주택담보대출 증가 부담이 부동산 섹터에 하방 압력으로 작용하고 있습니다.",
+      "score": -5.0,
+      "rationale": "영국 센트리카 등 유럽 주요 에너지·유틸리티 기업들이 신년 요금 폭등에 따른 가계 체납 급증과 수익성 악화 위험을 경고함.",
       "related_tickers": [
-        "3333.HK",
-        "600048.SS"
+        "CNA",
+        "EONGY"
+      ],
+      "source_regions": [
+        "EU"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "neutral",
+      "score": 1.5,
+      "rationale": "중국 대형 개발업체들이 도시 재개발 프로젝트를 통해 유동성 확보를 추진하고 있으나 시장 전반의 자금난 불안감은 여전히 잔존함.",
+      "related_tickers": [
+        "2007.HK"
       ],
       "source_regions": [
         "ASIA"
@@ -72,8 +83,8 @@
   ],
   "conflicting_signals": [
     {
-      "sector": "Semiconductors",
-      "note": "미국(엔비디아 조사 및 AI 과열 우려)과 대만(TSMC 대중 출하 중단 및 지수 급락)에서는 강한 부정적 신호가 나타난 반면, 한국은 반도체 호조에 힘입어 연간 1조 달러 수출을 달성하는 등 지역별 신호가 엇갈리고 있습니다."
+      "sector": "Consumer Discretionary",
+      "note": "미국은 테크주 급락 여파로 소비 심리 악화 우려가 큰 반면, 아시아(중국)는 전기차(EV) 보급률이 70%를 돌파하며 강력한 구조적 성장 신호를 보임."
     }
   ]
 }

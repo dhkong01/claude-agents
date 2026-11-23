@@ -1,7 +1,37 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "region": "US",
   "headlines": [
+    {
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company s cash crunch deepens",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Corporate America hunts for generational growth in AI, trading cards and the L.A. airport",
+      "summary": "There s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+      "link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Delta Resolves Automation Outage that Led to Over 1,000 Flight Delays",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFRFaTNyYWprQlBYbnJBQTVnTVExUnhoc0lTRjlRYWc3Rk9oV084QlIxdkg4bFE1RnIzV3VvTXl6eXduMlV5RjgzRmRwRmp4X2tRc3lxYlptNXZZZmc3T3BzZjN0d0xlQ21OZjJQa3NzZWlOaWpFSmhoTERqcm14MVZQS2ZfNEh3bW1qSTUwYnFlUmpicjExbmxlOFlROTQ?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "US Stock Futures Open Higher After Tech Selloff: Markets Wrap",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFVRM2J2cTZ6eU02Qzk1TF83UmhsSEN3SlpHYjJuc2lDeXBVM0h6WkN2bEJCUlk5RnZNOFMta05FOXFqeTZQQWZnbFl2RG1WTWVNSXYwVWhZRFZxRkx6SDlhTWtUWk92UVBJa2FGWVk3ak9rOUVJYjZ6RDBqcUZCOEpiWmFVWGxvVmM1Y2prdDk2N19EZG0xWjU3aFV5QkJ6MjF4eExGSkd3TWxaWGRBVzhB?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Stock Futures Are Rebounding After Last Week’s Bloodbath",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04VWxtM0ZWSE4tdFNiQTdEcEw1S1N6c256cjQ3YUZxb0YwV29RUEttYWNRZGdOQjRmSzhLU0dfa3JGZGpRSFgtZElWVnFOb2h3RkhpUU05U3I2LTF1ZjNjZUViV1daME1McDRhR1h3RnBaTkgyQU9JQk1n?oc=5",
+      "source": "Barron's"
+    },
     {
       "title": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
       "summary": "Airlines are opting to build giant business-class cabins with ever-more luxurious suites.",
@@ -9,21 +39,51 @@
       "source": "CNBC"
     },
     {
-      "title": "My wife is bankrolling her family s trips to New York and it s draining our savings. Should I ask her to stop?",
-      "summary": "Hotel rooms can cost as much as $400 per night.",
-      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "title": "Ron Johnson s Social Security gaffe buried important news",
+      "summary": "The Wisconsin Republican s remarks overshadowed what might have been a useful Senate committee hearing about fixing Social Security.",
+      "link": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "Mexico Captures Top Drug Boss in Fierce Gunfight",
+      "title": "The Best Books of 2026 on Healthy Aging",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOXzBacVJ3Qzh2a21SQlRxaGE3VVdNb085VU55UGVjbXlwNW5qZzN0UE1nV3BMeEx3NUxxUWk4d2hZTno5T2lPRlFXV3Y3Mm1mWlJSNUpvR0VoZjZGODZkdXJmZWVZR29FQjdkT0ZGaTU0ajlSWTFNQ1l5Zm9UWDhNZk1JUUZIcHk0VmtLZjdKTmhYSWhadEVF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQWl0VkNsV3hmNTZUTDBrNnFpWjdxN2w0c25iYWtKd0RMTzljRzRSNDlYZnR3WHVZZ2swNTZuNjhIdy1FR3lNcmxJWTRtZEVWcXJpTmUxXzdORG5ybEJ3S3IwZml4d3lveGVkTXhkNnFKRVg1SGU4ZnJtT1ktN3VfOHNEMA?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "California Nvidia Probe Covers Potential Criminal Law Violations",
+      "title": "Stock Traders Brace for More Volatility After Tech-Driven Rout",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYVnVKYm50andhaTFJVHZLenZrckE1aFZuMGhiSW42Mlh5c2lZcGc5eTg1NDQwWVRFQWxSOGtzWHk2S2pGLVpvM3N2enh4Mms5OTF0MHFXc0JnN3ZoYlB3ODJqX3FoSjJCTWlPOHQ2SjNOQ1Q3cjVNR0NWRVYxWVFEanpwZC1mSW5SeGpXSDRqX1d0TUVwdE1vYVJWUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeURSVWpyQXZjLW5UcndZVDJPQnE0NDU2UllUMUI5S29qcFJlWDg1empEbThycVphd2p3dmxJTUJJckZVQXBhaGlmT0JaNkh3SFZHRG5HNHl5ckpheVAzU3JHQldJVGQ2cl9RVWw4Wk96RXNiN0d1dW5iQ1RETTMxRnJVS2tnNFRwOVJkdjhxRHd5ZmJRNkoxaEtUcGNiSmdXRWxtYjRrM2RVcVREUXJneFZMcw?oc=5",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "If the AI Boom Turns Into a Total Bust, Here’s What the Pain Could Look Like",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSHRzRGpVb2MzazVhdENwSkZwazFkUFA1STJEdkI3WW1IM0psdkppcmdYUlhQMEpxd2JEcXp4S2lRd1BDbkVpV29RbF9oclBna2hYMmhQYXNGc1hiZXJ5c20wQ2g3QzBTS2w1blE3VlhiZFpmVFd5ekZtNzl2UktqRl9wTGNZVG8?oc=5",
+      "source": "Barron's"
+    },
+    {
+      "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+      "summary": "Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use.",
+      "link": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Social Security should be shut down, this Republican senator says",
+      "summary": "The program s trust funds are forecast to run out of money in the next six years.",
+      "link": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The 15 Best Tech Gifts of 2026, According to Our In-House Guru",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWVDQTUtU0hnY1E2aUgtNkNSbGdTSHRmYWpJX05DdGc5SVRwOFQ2dnhfRy1BNmc1UHQyRHVJTGJ4NjVRbGdIbENCQ3I5RUg4Sm1pQ3lTckNObWQxTzI0dTZKMXk4alZULU9OUHVUREV3bTFlYS1vODlpWnh0azQ2WmRn?oc=5",
+      "source": "WSJ"
+    },
+    {
+      "title": "Trump’s AI Chip Crackdown Inflicts Collateral Damage Across Asia",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXp0ODZqcDNzanpGNkNMTmsxMk93OXpvU2IzU1NKcFkteXdZcXdSM3dKM0lZc3Z0T3lSMXR4UGJ3enY5LWZVdnR6NlBGZENCcDNJYngxMkxKdFVzajN4VlZvMTg3X09vUHlNSFZEZEJ0M0NvSngxdlVjNDQ2OEhyaXYtenB5SVJ3T2tjemlPZjI0WjBTVC1RR0tRY0t3cDZuUDlZal85OVQxRjhiUlg2LV9uZV9yZWN1cng4dkZxNWxkM2F3ZlhpbA?oc=5",
       "source": "Bloomberg"
     },
     {
@@ -39,99 +99,40 @@
       "source": "CNBC"
     },
     {
-      "title": "I m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
-      "summary": "If I die before my husband, he will receive a lifetime pension equal to 50% 66% of my monthly benefit.",
-      "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+      "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+      "summary": "The plan would free up hospital and nursing-home beds and lower costs.",
+      "link": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
       "source": "MarketWatch"
     },
     {
-      "title": "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation",
+      "title": "Opinion | Vladimir Putin’s Existential Fight for Ukraine",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmRRX05leU91eDNOcGU0ZjVxQ0N2MVpwQ3lCZXFsNUVDcDlySkJ5RFZfLTR5QkwyUF91TzFkSDNpYTlPMzZTaFhfWmJ4TEpKTVAzTEJhNGVYRFltRmRMVDJfdUVpcFoyYnRRRGNEX3ZKRU96bjVxYjZEQ2V0WWFZOXhDb3dTT2FfTGpVTWtjX1JLeVpXUzN3OFlSdm5DdXJ1YzlHSnNJa3pjT0FDX3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbi1xRGd2SU5aazJlcnRmcU1NblJ1cU9kdzFPaFVWMG9wZ1R1V3l0QWIwNFJPSEJOSDlWYm1ZeDNvbHVHTDJVRVltN3FIQktfblR4bmJLNUhScVF1R3JwV2lpMzQyQVVxTTZLQjdKN2pRcUMtaXl5RE5hblJmNGtSNU9zM0NaTFc0ZEE?oc=5",
       "source": "WSJ"
     },
     {
-      "title": "Republicans’ Midterm Defeat Corners Vance as 2028 Field Widens",
+      "title": "OpenAI Chief Scientist Urges Industry Limits on AI Development",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTN2cVBEdXljTXNmVEhCU0hKcVJpS3UxZWpIQnhHN0JvM1FUOXpwYXR0V1hHR2Z0aGFMZDY1RUdIZzZjYzl5U2pIV1V2NlVVZnF5QTliYkh1OTN0elZxbFp2ZVlhUUFMVlhkVHhfRFl1Wm1Bc1p5N0F3ZHBNa2VwNHpOZXNONUwxZUVtTjNlM2N1RHM2am9DY3NHblc3dHo1VHEtVXlZN2ZJVTkzSFBFX0JB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMjVTYVIwT3huVU8teHdXRHdnWGxOUTI5d1J6elZhWktVMVpSZDhhRmk5eV82c0JuRDBSUWNHdl84Z253WDJDbmd6SXhiNlFsdkxhM2gxWTVoTnY2ZkdrZ0dVam1OVXNSZWIwUnBQaTU4bEhJNTZValFSQ1Naam1xb1FkTklSZXI2Ums4d19sUjVheGtLNGhUWjFPcEVyd0ZIRmJlX0FqNXF5cHpCR2pjczF5WQ?oc=5",
       "source": "Bloomberg"
     },
     {
-      "title": "The Case for Buying Nvidia Stock Now",
+      "title": "Bitcoin Bounces Off Two-Year Lows. Could Crypto Rescue Stocks on Monday?",
       "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU3Vhb2ViR3ZfTnNDbjNWZzhIODQtWldkVWhHMWNaSWFaVU16bW5DMlI2empuV1hoVGtKUHZHWW9FdUQyV0drSGt0cUlMeDczc2xDLWc1SERKT3hPQ2h6UnBBZDJRRnpQaS1Wb1B6cnpST0pKdFd2R21XSHB2dEtadGtiYlk?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
-      "summary": "Retailers are charging higher prices for clothing made with cheaper materials. Shoppers are taking notice and experts say it could shift how they spend.",
-      "link": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "It s downright dirty : My brother moved in with our ailing mother and closed her bank account. What can I do?",
-      "summary": "It is devastating when the people you should be able to trust become the very people you have to protect yourself from.",
-      "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Tentative Deal Averts Strike Threat at Busiest U.S. Ports",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVnRUZVVZZVNZcmQyQ2MzU0ZPejFCaHhURldIM2RGYkRaa3N6aGNjWmVubnJzSmtsNmhhRGpBMzBmaVJYQjZZR3ZyTHNGR2U3SGxYSVNBWkxQOXRhaWJUYWtQRVZVaWt3aTNwRkNtQWlUTXR0aTBFQTFVOU14Z3ZWMVBIbENMRUhEaW5JdTdUb05GVXZ5bDJGR2xBazMxMm02Sk9NRg?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "US Car Dealerships Are Low on EV Models",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWkxONjJNTnRKVXI4OFZlZWRfRjlqclJGYmFJY2gtNk4tNVlBSXlwaENfdHN0X0dncHU5TExTTm9UclhaVnJSZWQ2MXYxT0ZLT3RXT1ZjUlF3R3FfcnNIT3FzWGFhWnM4eEd6UHVFVDlwcnAzV3U5Tlg5UGZCaDVVM0JXZzBzbnN1SGRxb0VucnN1R3F5THJQTkRhUzJlOXJJU1lPSEFUUUxHaDJfdVhXR1hBUmk?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "The Odds of a Fed Rate Hike Are 100%. Why That Would Be 100% Bad.",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZVVTTzc5d2l6WUZONEdsbXBod1RldnRDc3FzcnljZHRyQmpsQVh5eGdoeEsyRmRBU0xYeVV4VkRnUF9BbXhFQ3RTU05wMUwtLUo4WENKNjhyNy1kVGN3NnU1MEx4LTV6TWd5SmxXNFFUOXhiV2dfVFJkeEZVM0xqbzdB?oc=5",
-      "source": "Barron's"
-    },
-    {
-      "title": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
-      "summary": "A24 films \"Backrooms,\" \"The Drama\" and the Elizabeth Holmes documentary, \"You Can See Everything,\" are fueling a banner year at the box office.",
-      "link": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "I ve been a stay-at-home mom : I m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
-      "summary": "Our financial and healthcare situation has become increasingly concerning.",
-      "link": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Historic Homes: An American Author’s Appalachian Mountain Retreat",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUWtTTGs3ODN3SG1IaVl1VWVsUHcxYmh3MTRGcHVpU2daTXZCVzUwZW9mQmFaVU5tekJkSnNYaUJidzZpZ2ZqTU55VGhwTVphcHp3a1g4ODZJNnFOaEFlejRUSGE3eUZPZTAzZkh2S0pXOGxYVFowWHNoZnFYZDF0QlU2WVVOcy16bzAtRjRCT3U?oc=5",
-      "source": "WSJ"
-    },
-    {
-      "title": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcGZTRVdJcGNQbEdjRlRQUnN1YjBzTXlaYzFDb0swSDlCNTVsLVo2SGtQTGxsUGxzVmE0SkFPbHB0dFBXbWhGQVZUdmFQZ21zeDBwcW5OSjJmOUtmQjB4U3lNVkptMzYybHpmR1hkTUZESVlQU1VtWFhsSzNGWUlmWHNUa3FCd0t6NjNFR0xkTzBxdjYySFFtSTRQbTFwTDd0TXlfVEY4dnZCNmxrVnZFWVlSR0U?oc=5",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Nvidia Stock Drops Below $150 Support After Jensen Huang Scandal: Key Levels to Watch",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNldhalBiZklRZ3ExMXViMU1CTWExTFh5SHhRSEVaSWJ0UmVlQS1lQnNsRVIwTDNtVHFuYVFXcGpnbkJ4V0ZDNmg4Y2dMSzBFV1BMNEJRSkRwTVd1bFRIZTlnOFhDdFhsakh0dlpkNml5aVU4TVJzSXFQNjUzNmY1ZXRZQjlpNnEtQVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CdEVWQ1doTGNKcmpDTV83S2lzNi00SUxwcC1VNVVMM091dkJSY2RyZzQxUHB2RmV6US1jSGdUR2JWR1lrb3NsQjc5UEE2V2FtRVVzZHprVm8wNkdsTUQxOTVZRVoxcndRQ2Q5cXlxS3ctQ05R?oc=5",
       "source": "Barron's"
     }
   ],
-  "trend_headline": "엔비디아 악재와 AI 밸류에이션 충격",
-  "summary": "캘리포니아주의 엔비디아 형사법 위반 조사 및 젠슨 황 CEO 관련 논란 속에서 주가가 150달러 아래로 하락했습니다. 여기에 앤트로픽 관련 우려까지 겹치며 월가는 AI 테마 전반의 지속 가능성에 대한 의문을 제기하기 시작했습니다.",
+  "trend_headline": "테크 매도세 속 미 증시 반발 매수세 유입",
+  "summary": "지난주 기술주 중심의 급락 여파로 변동성이 커진 가운데, 나스닥 100 지수가 약세장 진입을 목전에 두고 주가지수 선물은 반등을 시도하고 있습니다. 시장 참가자들은 저가 매수 기회를 저울질하면서도 AI 버블 우려와 추가 하락 리스크에 대한 경계를 늦추지 않고 있습니다.",
   "key_points": [
-    "엔비디아 주가, 젠슨 황 스캔들 및 캘리포니아주 수사 여파로 150달러 선 하회",
-    "앤트로픽 관련 충격 여파로 월가에서 AI 트레이딩 조정 우려 확산",
-    "공포 지수(VIX)가 40을 기록하며 기술주 전반에 대한 경계감 고조"
+    "나스닥 100 지수, 약세장 진입 임박하며 변동성 확대",
+    "테크 섹터 매도 폭탄 이후 주가지수 선물 반등 시도",
+    "AI 거품론 및 규제 우려가 시장 전반의 투자 심리 압박"
   ],
   "sector_hints": [
     "Technology",
-    "Semiconductors"
+    "Communication Services",
+    "Consumer Discretionary"
   ]
 }

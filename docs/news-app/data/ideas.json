@@ -1,151 +1,134 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "horizons": {
     "1w": [
       {
-        "theme": "나스닥 지수 약세장 진입 경계 속 단기 저가 매수세 반등",
+        "theme": "엔비디아 젠슨 황 복귀 기반 AI 반도체 단기 모멘텀",
         "sectors": [
-          "Technology",
           "Semiconductors"
         ],
         "tickers": [
-          "QQQ",
           "NVDA",
-          "AAPL"
+          "TSM"
         ],
-        "rationale": "나스닥 100 지수의 약세장 진입 목전에서 지수 선물이 반등을 시도하며 단기 기술적 반등 및 저가 매수세가 유입되고 있습니다.",
-        "risk": "AI 버블 우려 지속 및 추가 하락 리스크로 인한 매수세 유입 제한",
-        "conviction": "medium"
+        "rationale": "젠슨 황의 복귀 소식으로 글로벌 AI 칩 수요 회복 기대감이 급등하며 대만 TSMC 등 관련 반도체 종목에 강력한 수급 모멘텀 형성.",
+        "risk": "단기 급등에 따른 차익실현 매물 출회 및 미·중 기술 규제 관련 헤드라인 리스크",
+        "conviction": "high"
       },
       {
-        "theme": "유럽 항공·산업재 구조조정 발표에 따른 단기 변동성 확대",
+        "theme": "사이버보안 대형 M&A 이슈 기반 단기 이벤트 드리븐",
         "sectors": [
-          "Industrials"
+          "Technology"
         ],
         "tickers": [
-          "LHA",
-          "AIR"
+          "CRWD",
+          "ZS"
         ],
-        "rationale": "독일 루프트한자의 대규모 손실 및 고연료비 부담에 따른 1,000명 감원 발표로 단기 투자 심리가 급격히 악화되었습니다.",
-        "risk": "단기 과매도 인식에 따른 기술적 반등 가능성",
+        "rationale": "크라우드스트라이크의 즐스칼러 44억 달러 규모 인수합병 발표로 보안 및 기술주 전반에 투자 심리 급개선.",
+        "risk": "M&A 승인 불확실성 및 인수 주체의 단기 재무 부담 우려",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "중국 유동성 공급 및 한국 수출 회복 기반 아시아 금융주 수혜",
+        "theme": "글로벌 AI 반도체 벨류체인 수급 재확산",
         "sectors": [
-          "Financials"
+          "Semiconductors"
         ],
         "tickers": [
-          "601398.SS",
-          "055550.KS"
+          "NVDA",
+          "TSM",
+          "005930.KS"
         ],
-        "rationale": "중국 금융당국의 증시 유동성 제고 조치와 한국의 11월 수출 회복세 및 금융 제도 개선 기대감으로 자금 유입이 지속되고 있습니다.",
-        "risk": "중국 내수 경기 둔화 우려 장기화",
+        "rationale": "미국발 AI 모멘텀 부활이 아시아 메모리 및 파운드리 공급망으로 전이되며 1개월간 누적 자금 유입 지속 예상.",
+        "risk": "빅테크 기업들의 AI 캡엑스(CAPEX) 투자 속도 조절 가능성",
         "conviction": "high"
       },
       {
-        "theme": "중국 소비 전환 정책 및 전기차(EV) 보급 확대",
+        "theme": "유럽 완성차 파업 및 노사 갈등에 따른 섹터 약세",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
-          "2007.HK"
+          "MBG.DE",
+          "BMW.DE"
         ],
-        "rationale": "중국 정부의 EV 중심 경기 방어 정책과 전기차 보급률 70% 돌파 등 구조적 성장세가 단기 모멘텀을 형성하고 있습니다.",
-        "risk": "미국 테크주 급락 여파로 인한 글로벌 전반의 소비 심리 위축",
+        "rationale": "독일 노조 주도의 메르세데스-벤츠, BMW 대규모 파업과 전기차 인센티브 배제 악재로 누적된 실적 하방 압력 존재.",
+        "risk": "노사 협상 극적 타결 및 정부 지원책 발표 가능성",
         "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "겨울철 에너지 요금 폭등에 따른 유럽 유틸리티 실적 압박",
+        "theme": "EU 무역 방어 정책과 유럽 산업·항공 섹터 구조조정",
         "sectors": [
-          "Utilities"
+          "Industrials",
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "CNA",
-          "EONGY"
+          "LHA.DE",
+          "KER.PA"
         ],
-        "rationale": "겨울철 에너지 요금 상승과 가계 체납 증가 우려로 유럽 유틸리티 기업들의 4분기 및 1분기 실적 불확실성이 고조되고 있습니다.",
-        "risk": "유가 및 에너지 가격 안정화 시 수익성 방어 가능",
+        "rationale": "EU의 중국산 수입품 무역 조사 착수 및 루프트한자 등 유럽 주요 기업의 감원·손실 누적이 분기 실적 압박으로 작용.",
+        "risk": "EU 무역 정책의 조기 타결 및 경기 부양 정책 추진",
         "conviction": "medium"
       },
       {
-        "theme": "아시아 반도체 수출 실적 차별화 (한국 방어 vs 대만 조정)",
+        "theme": "한국 금융권 퇴직연금 수수료 인하 경쟁과 마진 압박",
         "sectors": [
-          "Semiconductors"
+          "Financials"
         ],
         "tickers": [
-          "005930.KS",
-          "TSM"
+          "105560.KS",
+          "055550.KS"
         ],
-        "rationale": "미국의 대중 규제로 대만 TSMC 공급망이 위축되는 반면, 한국 반도체는 수출 급증 지표를 기록하며 모멘텀 차별화가 진행 중입니다.",
-        "risk": "글로벌 AI 서버 투자 지출 축소 가능성",
-        "conviction": "high"
+        "rationale": "퇴직연금 점유율 확보 경쟁으로 수수료 마진 압박 우려와 시장 확대 기대감이 교차하며 분기 성과 제한적일 전망.",
+        "risk": "수수료 인하 폭 완화 및 자산관리(WM) 수수료 수입 확대",
+        "conviction": "low"
       }
     ],
     "6m": [
       {
-        "theme": "미·중 반도체 규제 격화에 따른 글로벌 공급망 재편",
+        "theme": "사이버보안 산업 통합 및 클라우드 플랫폼 구조적 재편",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "CRWD",
+          "ZS"
+        ],
+        "rationale": "대형 M&A를 계기로 단일 통합 플랫폼 위주의 보안 산업 재편이 가속화되며 6개월 관점의 중장기 수익성 개선 예상.",
+        "risk": "반독점 규제 당국의 심사 강화 및 기업 통합(PMI) 차질",
+        "conviction": "medium"
+      },
+      {
+        "theme": "중국 부동산 선별 지원책 및 내수 구조조정 여파",
+        "sectors": [
+          "Real Estate"
+        ],
+        "tickers": [
+          "3333.HK",
+          "2007.HK"
+        ],
+        "rationale": "중국 정부의 부동산 선별적 자금 지원이 개발사 유동성 압박을 다소 완화하나 내수 둔화 상존으로 완만한 회복세 예상.",
+        "risk": "부동산 개발사 추가 부도 위험 및 내수 침체 장기화",
+        "conviction": "low"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "글로벌 AI 패러다임 전환과 반도체 수퍼사이클",
         "sectors": [
           "Semiconductors",
           "Technology"
         ],
         "tickers": [
-          "TSM",
           "NVDA",
-          "005930.KS"
+          "TSM"
         ],
-        "rationale": "미국의 대중국 반도체 규제 강화와 TSMC의 AI 칩 중단 조치가 본격화되며 중기적 글로벌 반도체 공급망 구조 재편이 가속화되고 있습니다.",
-        "risk": "미·중 외교적 타협 또는 지정학적 규제 유예",
+        "rationale": "트럼프 행정부의 압박 속에서도 AI 기술 주도권 확보를 위한 거시적 패러다임 전환이 진행되며 1년 이상 중장기 우상향 궤도 형성.",
+        "risk": "미·중 지정학적 대립 격화 및 기술 거품 논란 재발",
         "conviction": "high"
-      },
-      {
-        "theme": "중국 도시 재개발 및 내수 산업 구조 전환",
-        "sectors": [
-          "Real Estate",
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "2007.HK",
-          "601398.SS"
-        ],
-        "rationale": "중국 대형 부동산 개발업체들의 도시 재개발 프로젝트 및 내수 중심 산업 전환을 통한 자금난 극복 노력이 중기적 성과를 시험받고 있습니다.",
-        "risk": "부동산 개발업체의 유동성 위기 재발",
-        "conviction": "medium"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "AI 빅테크 밸류에이션 재평가 및 기술 패러다임 전환",
-        "sectors": [
-          "Technology",
-          "Semiconductors"
-        ],
-        "tickers": [
-          "AAPL",
-          "MSFT",
-          "NVDA"
-        ],
-        "rationale": "AI 거품론 및 투자인프라 대비 수익성 검증 국면 진입으로 빅테크 중심의 장기 밸류에이션 재조정과 실질 생산성 혁신 국면이 전개될 전망입니다.",
-        "risk": "AI 신규 수익화 모델의 조기 가시화",
-        "conviction": "medium"
-      },
-      {
-        "theme": "유럽 산업계의 구조적 고비용 구조 및 비즈니스 모델 재편",
-        "sectors": [
-          "Industrials",
-          "Utilities"
-        ],
-        "tickers": [
-          "LHA",
-          "CNA"
-        ],
-        "rationale": "지정학적 리스크 지속과 에너지 비용 상승, 인플레이션 압력이 장기화됨에 따라 유럽 전통 산업재 및 유틸리티 섹터의 장기 인력 감원 및 구조개혁이 불가피합니다.",
-        "risk": "유럽 에너지 자립도 조기 확보 및 우크라이나 지정학 리스크 완화",
-        "conviction": "medium"
       }
     ]
   }

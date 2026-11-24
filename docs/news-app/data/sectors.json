@@ -1,27 +1,14 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "sectors": [
     {
-      "name": "Technology",
-      "direction": "negative",
-      "score": -6.5,
-      "rationale": "미국 기술주의 급락 여파와 AI 거품론 및 규제 우려가 심화되면서 나스닥 지수가 약세장 진입 위기에 처하는 등 투자 심리가 크게 위축됨.",
-      "related_tickers": [
-        "AAPL",
-        "MSFT"
-      ],
-      "source_regions": [
-        "US"
-      ]
-    },
-    {
       "name": "Semiconductors",
-      "direction": "negative",
-      "score": -4.5,
-      "rationale": "미국의 대중국 규제 강화와 TSMC의 AI 칩 주문 중단 여파로 대만 반도체 섹터가 큰 조정을 받았으나, 한국의 강한 수출 급증 지표가 하방을 일부 방어함.",
+      "direction": "positive",
+      "score": 9.0,
+      "rationale": "엔비디아 젠슨 황의 복귀 소식으로 글로벌 AI 칩 수요 회복 기대감이 급등하며 대만 TSMC(14~17% 상승)를 비롯한 미국 및 아시아 반도체 섹터 전반에 강력한 랠리가 연출되었습니다.",
       "related_tickers": [
-        "TSM",
         "NVDA",
+        "TSM",
         "005930.KS"
       ],
       "source_regions": [
@@ -30,61 +17,72 @@
       ]
     },
     {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "독일 루프트한자가 대규모 손실 및 고연료비 부담으로 1,000명 감원을 발표하는 등 유럽 항공·산업재 섹터의 실적 악화 및 구조조정 공포가 확산됨.",
+      "name": "Technology",
+      "direction": "positive",
+      "score": 8.0,
+      "rationale": "AI 모멘텀 부활과 더불어 크라우드스트라이크의 즐스칼러(Zscaler) 44억 달러 규모 대형 M&A 발표로 글로벌 사이버보안 및 기술주 전반에 투자 심리가 크게 개선되었습니다.",
       "related_tickers": [
-        "LHA",
-        "AIR"
+        "CRWD",
+        "ZS"
       ],
       "source_regions": [
-        "EU"
+        "US",
+        "ASIA"
       ]
     },
     {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "중국 금융당국의 증시 유동성 제고 조치와 한국의 11월 두 배 이상 급증한 수출 회복세 및 금융 제도 개선 기대감이 긍정적으로 작용함.",
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "독일 IG Metall 노조 주도의 메르세데스-벤츠 및 BMW 대규모 파업(23,000명 참여), EU의 전기차 인센티브 배제 악재, 중국 내수 둔화에 따른 명품 브랜드 구조조정이 가중되고 있습니다.",
       "related_tickers": [
-        "055550.KS",
-        "601398.SS"
+        "MBG.DE",
+        "BMW.DE",
+        "KER.PA"
+      ],
+      "source_regions": [
+        "EUR",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "독일 루프트한자가 월 2,000만 유로 손실로 인해 1,000명 감원 및 운영 축소를 발표하고 EU의 운송 소재 관련 무역 방어 조사가 개시되는 등 항공·운송 산업 내 악재가 우세합니다.",
+      "related_tickers": [
+        "LHA.DE"
+      ],
+      "source_regions": [
+        "EUR"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "neutral",
+      "score": 1.0,
+      "rationale": "중국 정부의 부동산 자금줄 선별 지원책이 호재로 작용하고 있으나, 본토 내수 둔화 압력이 상존하여 상승세는 제한적입니다.",
+      "related_tickers": [
+        "3333.HK",
+        "2007.HK"
       ],
       "source_regions": [
         "ASIA"
       ]
     },
     {
-      "name": "Utilities",
-      "direction": "negative",
-      "score": -5.0,
-      "rationale": "영국 센트리카 등 유럽 주요 에너지·유틸리티 기업들이 신년 요금 폭등에 따른 가계 체납 급증과 수익성 악화 위험을 경고함.",
-      "related_tickers": [
-        "CNA",
-        "EONGY"
-      ],
-      "source_regions": [
-        "EU"
-      ]
-    },
-    {
-      "name": "Real Estate",
+      "name": "Financials",
       "direction": "neutral",
-      "score": 1.5,
-      "rationale": "중국 대형 개발업체들이 도시 재개발 프로젝트를 통해 유동성 확보를 추진하고 있으나 시장 전반의 자금난 불안감은 여전히 잔존함.",
+      "score": -2.0,
+      "rationale": "한국 금융권이 퇴직연금 시장 선점을 위해 수수료 인하 경쟁에 돌입함에 따라 시장 확대 기대감과 수수료 마진 압박 우려가 교차하고 있습니다.",
       "related_tickers": [
-        "2007.HK"
+        "105560.KS",
+        "055550.KS"
       ],
       "source_regions": [
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국은 테크주 급락 여파로 소비 심리 악화 우려가 큰 반면, 아시아(중국)는 전기차(EV) 보급률이 70%를 돌파하며 강력한 구조적 성장 신호를 보임."
-    }
-  ]
+  "conflicting_signals": []
 }

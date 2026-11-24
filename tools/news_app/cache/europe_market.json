@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
-      "summary": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
-      "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Israel forecast to grow 4.5%: What can Europe learn from its tech boom?",
-      "summary": "Israel's tech-powered economy is set to overtake Sweden and Ireland to become the world's 25th-largest in 2026, the IMF says, amid years of war. As European and Israeli policymakers gather in Jerusalem this week to discuss closer ties, what can Europe learn from its innovation model?",
-      "link": "https://www.euronews.com/2026/11/22/israel-set-to-become-worlds-25th-largest-economy-what-can-europe-learn-from-its-tech-boom",
+      "title": "How Iceland's Blue Lagoon is faring after its long-awaited stock market debut",
+      "summary": "Shares in Iceland's Blue Lagoon fell below their offer price when they started trading on Friday. The geothermal spa operator raised 14.3 billion Icelandic krónur (€104mn) in the country's first IPO in nearly three years.",
+      "link": "https://www.euronews.com/2026/11/23/how-icelands-blue-lagoon-is-faring-after-its-long-awaited-stock-market-debut",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,93 @@
       "source": "DW Business"
     },
     {
-      "title": "Lucy Powell promotes UK education in China despite risks",
-      "summary": "The U.K. education secretary's visit to Beijing comes days after Wes Streeting praised the government for stepping up its interaction with China.",
-      "link": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Budget de l’UE : c’est Noël avant l’heure pour Emmanuel Macron",
+      "summary": "Plusieurs Etats membres accusent António Costa, le président du Conseil européen, de favoriser la France dans sa nouvelle proposition budgétaire.",
+      "link": "https://www.politico.eu/article/budget-de-lue-cest-noel-avant-lheure-pour-emmanuel-macron/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "What is going on with Poundland?",
-      "summary": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+      "summary": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Is Europe ready to judge workers by skills, not just diplomas? Who leads skills-first hiring?",
-      "summary": "Employers across Europe increasingly value skills while formal qualifications are still significant. Euronews Business takes a close look at which countries are most ready for a skills-first approach with experts explaining the gaps.",
-      "link": "https://www.euronews.com/2026/11/22/is-europe-ready-to-judge-workers-by-skills-not-just-diplomas-who-leads-skills-first-hiring",
+      "title": "Nvidia closes up more than 30% after Jensen Huang returns as CEO",
+      "summary": "Nvidia shares soared from their Friday close after the company's board unanimously voted to reinstate Jensen Huang as CEO. US President Donald Trump welcomed his return.",
+      "link": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "I ve lost her forever — Why German voice actors are refusing to sign Netflix s AI contract",
+      "summary": "For decades, Germans have known Hollywood s biggest stars through the same familiar voices. Now an AI clause in Netflix contracts is splitting the industry over whether it protects performers or exposes them.",
+      "link": "https://www.dw.com/en/i-ve-lost-her-forever-why-german-voice-actors-are-refusing-to-sign-netflix-s-ai-contract/a-80004381?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Industrie vs. Gewerkschaften — Das Standort-Dilemma",
+      "summary": "Präsentiert von YouTube.",
+      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/industrie-vs-gewerkschaften-das-standort-dilemma/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "LEGO to build €1bn factory in Portugal, creating more than 1,000 jobs",
+      "summary": "The Danish toymaker plans to invest around €1 billion over several years in its fourth European factory. LEGO says the plant will be its most technologically advanced and is expected to start production in 2030.",
+      "link": "https://www.euronews.com/2026/11/23/lego-to-build-1bn-factory-in-portugal-creating-more-than-1000-jobs",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Germany s Early Start Pension: Can child investment accounts help?",
+      "summary": "Germany plans to pay €10 a month into investment accounts for children to encourage long-term retirement saving. Economists say the measure may help build wealth but won t solve the country s pension funding challenge.",
+      "link": "https://www.dw.com/en/germany-s-early-start-pension-can-child-investment-accounts-help/a-79852185?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Türkei sieht Europas Wohlstand in Gefahr wegen des IAA",
+      "summary": "Die EU plant ein Gesetz zur Stärkung der europäischen Industrie. Der „Industrial Accelerator Act“ könnte aber auch die Autoindustrie schwächen. Die Bundesregierung ist gespalten.",
+      "link": "https://www.politico.eu/article/tuerkei-sieht-europas-wohlstand-in-gefahr-wegen-des-iaa/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Japan launches Asian oil task force amid Gulf supply disruptions",
+      "summary": "Disruptions to oil shipments through the Strait of Hormuz due to the Iran war have pushed Asian countries to look at larger emergency reserves, shared storage, and closer cooperation with fuel suppliers as shortages squeeze their economies.",
+      "link": "https://www.euronews.com/2026/11/23/japan-launches-asian-oil-task-force-amid-gulf-supply-disruptions",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
+      "summary": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector s future. Some industry watchers think there is still a narrow window to stem the decline. But how?",
+      "link": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Back to 1936? Civil war ghosts haunt Spanish election campaign",
+      "summary": "With the far right poised to enter government, politicians are reopening the wounds of a war that began 90 years ago.",
+      "link": "https://www.politico.eu/article/back-to-1936-civil-war-ghosts-haunt-spanish-election-campaign/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "The rise and fall and rise again of Jensen Huang",
+      "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Mercedes, BMW hit by 24-hour strikes as German pay dispute widens",
+      "summary": "IG Metall, Germany’s largest trade union, called on more than 23,000 workers at 19 northern sites to join a 24-hour strike. The walkouts hit Mercedes-Benz, BMW, and Siemens Gamesa, with Meyer Werft workers also called out.",
+      "link": "https://www.euronews.com/2026/11/23/mercedes-bmw-hit-by-24-hour-strikes-as-german-pay-dispute-widens",
       "source": "Euronews Business"
     },
     {
@@ -45,93 +117,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Global climate talks have collapsed. Here’s what just happened.",
-      "summary": "Two weeks of talks about protecting the planet from global warming ended without a deal.",
-      "link": "https://www.politico.eu/article/global-climate-talks-have-collapsed-here-is-what-just-happened/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Energy bills will soar - here's how you can ease the pain",
-      "summary": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
-      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Real Madrid outpace Bayern Munich in revenue race as both clubs post record figures",
-      "summary": "Real Madrid have widened the financial gap over Bayern Munich, generating more than €1.2 billion in revenue in the 2025-26 season. The German champions are also approaching the billion-euro mark, while celebrating a record 500,000 members.",
-      "link": "https://www.euronews.com/2026/11/21/real-madrid-outpace-bayern-munich-in-revenue-race-as-both-clubs-post-record-figures",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Anthropic trading tests investors appetite for AI",
-      "summary": "Anthropic was valued at $2 trillion after shares started trading on the Nasdaq following a record $81 billion IPO. Its performance will put investor confidence in AI to the test.",
-      "link": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Global left rallies in Paris to make ‘not so radical’ case for taxing billionaires",
-      "summary": "Politicians from Europe and the U.S. gathered at Gabriel Zucman's summit to challenge the power of the super-rich — but few are in a position to act.",
-      "link": "https://www.politico.eu/article/global-left-rallies-paris-make-not-so-radical-case-taxing-billionaires/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Employers are being asked to give interview feedback - here's what applicants want",
-      "summary": "People say they often hear nothing back after applying for jobs. But could employers be forced to respond to every applicant?",
-      "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Norway signs carbon credit deals with Indonesia and Morocco to help fund renewable energy",
-      "summary": "Norway’s carbon credit purchases will help finance projects that might otherwise go unbuilt, while allowing it to count emissions cuts towards its own targets.",
-      "link": "https://www.euronews.com/2026/11/20/norway-signs-carbon-credit-deals-with-indonesia-and-morocco-to-help-fund-renewable-energy",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
-      "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran against broader interests with Washington.",
-      "link": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Cyprus expels Russian diplomats on suspicion of espionage",
-      "summary": "The two men were suspected of working for Russian intelligence services under diplomatic cover.",
-      "link": "https://www.politico.eu/article/cyprus-expels-russian-diplomats-on-suspicion-of-espionage/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Can AI really help spot Black Friday deals? We put it to the test",
-      "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "Chevron to begin offshore oil and gas exploration in Greece",
-      "summary": "Chevron and HELLENiQ ENERGY are set to begin seismic surveys for oil and gas in Greece’s southern Ionian Sea. The results could help determine whether to drill in a country that relies on imported gas.",
-      "link": "https://www.euronews.com/2026/11/20/chevron-to-begin-offshore-oil-and-gas-exploration-in-greece",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Is the AI bubble bursting just as Anthropic goes public?",
-      "summary": "The sharp sell-off in tech stocks after the US midterms and the Nvidia scandal has cast doubt on Anthropic s IPO. Yet with hundreds of billions still being invested, some think the AI party is still in full swing.",
-      "link": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "COP31 : l’accord capote sur fond de désaccord sur les énergies fossiles",
-      "summary": "Les négociations n’ont pas réussi à aboutir sur un accord malgré les avertissements concernant un réchauffement climatique galopant.",
-      "link": "https://www.politico.eu/article/cop31-laccord-capote-sur-fond-de-desaccord-sur-les-energies-fossiles/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Estonian foreign minister: Why we’re closing our border with Russia",
+      "summary": "Only through sustained pressure can Europe make Moscow accept a ceasefire.",
+      "link": "https://www.politico.eu/article/estonia-foreign-minister-margus-tsahkna-close-border-russia/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     }
   ],
-  "trend_headline": "루프트한자 구조조정과 치솟는 에너지 비용의 충격",
-  "summary": "루프트한자가 월 2,000만 유로의 적자와 연료비 급등을 이유로 1,000명 감원을 발표했으며, 영국 센트리카 등 유틸리티 업계는 겨울철 에너지 요금 폭등에 따른 가계 부담을 경고하고 나섰다. 지정학적 리스크와 비용 압박이 맞물리며 유럽 항공 및 에너지 섹터의 수익성 우려가 고조되는 양상이다.",
+  "trend_headline": "독일 제조업 파업과 EU의 대중국 무역 방어선 구축",
+  "summary": "독일 주요 완성차 업체의 임금 갈등으로 인한 대규모 파업과 구조조정 압박이 가중되는 가운데, EU는 중국산 저가 수입품에 대한 새로운 무역 방어 조사에 착수하며 자국 산업 보호에 총력전을 펼치고 있습니다.",
   "key_points": [
-    "독일 루프트한자, 프랑크푸르트·뮌헨 등지에서 1,000명 규모 감원 및 구조조정 발표 (월 2,000만 유로 손실 기록)",
-    "영국 센트리카(Centrica) 등 주요 에너지 기업, 신년 에너지 요금 인상과 가계 체납 급증에 대한 우려 표명",
-    "그리스, Chevron과 HELLENiQ ENERGY를 통한 이오니아해 해상 석유·가스 탐사 개시로 에너지 안보 다변화 추진"
+    "독일 IG Metall 노조의 주도로 메르세데스-벤츠와 BMW 등 23,000여 명의 노동자가 24시간 파업 돌입",
+    "EU 집행위원회, 방재·신재생에너지·운송 소재의 중국산 수입품에 대한 신규 무역 방어 조사 개시",
+    "루프트한자, 월 2,000만 유로 손실을 이유로 1,000명 감원 및 운영 축소 계획 발표"
   ],
   "sector_hints": [
-    "Energy",
+    "Automotive",
     "Industrials"
   ]
 }

@@ -1,133 +1,118 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "horizons": {
     "1w": [
       {
-        "theme": "엔비디아 젠슨 황 복귀 기반 AI 반도체 단기 모멘텀",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "NVDA",
-          "TSM"
-        ],
-        "rationale": "젠슨 황의 복귀 소식으로 글로벌 AI 칩 수요 회복 기대감이 급등하며 대만 TSMC 등 관련 반도체 종목에 강력한 수급 모멘텀 형성.",
-        "risk": "단기 급등에 따른 차익실현 매물 출회 및 미·중 기술 규제 관련 헤드라인 리스크",
-        "conviction": "high"
-      },
-      {
-        "theme": "사이버보안 대형 M&A 이슈 기반 단기 이벤트 드리븐",
+        "theme": "AI 서버 실적 모멘텀",
         "sectors": [
           "Technology"
         ],
         "tickers": [
-          "CRWD",
-          "ZS"
+          "DELL",
+          "HPE"
         ],
-        "rationale": "크라우드스트라이크의 즐스칼러 44억 달러 규모 인수합병 발표로 보안 및 기술주 전반에 투자 심리 급개선.",
-        "risk": "M&A 승인 불확실성 및 인수 주체의 단기 재무 부담 우려",
+        "rationale": "Dell과 HPE의 AI 서버 수요 폭증에 따른 분기 실적 호조 및 연간 가이던스 상향으로 인한 단기 매수 모멘텀 형성.",
+        "risk": "AI 생태계 내 종목별 밸류에이션 부담 및 단기 차익실현 물량 출회",
+        "conviction": "high"
+      },
+      {
+        "theme": "독일 제조업 파업 및 완성차 공급망 차질",
+        "sectors": [
+          "Consumer Discretionary"
+        ],
+        "tickers": [
+          "MBG",
+          "BMW"
+        ],
+        "rationale": "독일 IG Metall 노조의 24시간 파업 돌입으로 인한 주요 완성차 업체 단기 생산 차질 발생.",
+        "risk": "노사 협상 타결 시 단기 악재 해소 및 반등 가능성",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "글로벌 AI 반도체 벨류체인 수급 재확산",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "NVDA",
-          "TSM",
-          "005930.KS"
-        ],
-        "rationale": "미국발 AI 모멘텀 부활이 아시아 메모리 및 파운드리 공급망으로 전이되며 1개월간 누적 자금 유입 지속 예상.",
-        "risk": "빅테크 기업들의 AI 캡엑스(CAPEX) 투자 속도 조절 가능성",
-        "conviction": "high"
-      },
-      {
-        "theme": "유럽 완성차 파업 및 노사 갈등에 따른 섹터 약세",
+        "theme": "미국 연말 소비 시즌 기대감",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
-          "MBG.DE",
-          "BMW.DE"
+          "BBY",
+          "XLY"
         ],
-        "rationale": "독일 노조 주도의 메르세데스-벤츠, BMW 대규모 파업과 전기차 인센티브 배제 악재로 누적된 실적 하방 압력 존재.",
-        "risk": "노사 협상 극적 타결 및 정부 지원책 발표 가능성",
+        "rationale": "베스트바이 등 유통업체의 3분기 실적 호조 및 연말 쇼핑 시즌 접근에 따른 소비 섹터 자금 유입.",
+        "risk": "고금리 환경 지속에 따른 소비심리 위축 우려",
         "conviction": "medium"
+      },
+      {
+        "theme": "핵심 광물 및 희토류 전략 비축 수혜",
+        "sectors": [
+          "Materials"
+        ],
+        "tickers": [
+          "MP",
+          "LYCF"
+        ],
+        "rationale": "프랑스 정부 등 유럽의 자원 안보 강화를 위한 희토류 전략 비축 추진으로 단기 원자재 매수세 유입.",
+        "risk": "원자재 가격 변동성 확대 및 정책 집행 지연",
+        "conviction": "high"
       }
     ],
     "3m": [
       {
-        "theme": "EU 무역 방어 정책과 유럽 산업·항공 섹터 구조조정",
-        "sectors": [
-          "Industrials",
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "LHA.DE",
-          "KER.PA"
-        ],
-        "rationale": "EU의 중국산 수입품 무역 조사 착수 및 루프트한자 등 유럽 주요 기업의 감원·손실 누적이 분기 실적 압박으로 작용.",
-        "risk": "EU 무역 정책의 조기 타결 및 경기 부양 정책 추진",
-        "conviction": "medium"
-      },
-      {
-        "theme": "한국 금융권 퇴직연금 수수료 인하 경쟁과 마진 압박",
+        "theme": "아시아 금융권 금리 환경 변화 및 수익성 개선",
         "sectors": [
           "Financials"
         ],
         "tickers": [
-          "105560.KS",
-          "055550.KS"
+          "KB",
+          "JPM"
         ],
-        "rationale": "퇴직연금 점유율 확보 경쟁으로 수수료 마진 압박 우려와 시장 확대 기대감이 교차하며 분기 성과 제한적일 전망.",
-        "risk": "수수료 인하 폭 완화 및 자산관리(WM) 수수료 수입 확대",
-        "conviction": "low"
-      }
-    ],
-    "6m": [
-      {
-        "theme": "사이버보안 산업 통합 및 클라우드 플랫폼 구조적 재편",
-        "sectors": [
-          "Technology"
-        ],
-        "tickers": [
-          "CRWD",
-          "ZS"
-        ],
-        "rationale": "대형 M&A를 계기로 단일 통합 플랫폼 위주의 보안 산업 재편이 가속화되며 6개월 관점의 중장기 수익성 개선 예상.",
-        "risk": "반독점 규제 당국의 심사 강화 및 기업 통합(PMI) 차질",
+        "rationale": "아시아 예금금리 4%대 진입 및 가계대출 구조 재편 등 통화 policy 변화에 따른 이자이익 모멘텀 확대.",
+        "risk": "경기 둔화 가속화 시 대손충당금 적립 부담 증가",
         "conviction": "medium"
       },
       {
-        "theme": "중국 부동산 선별 지원책 및 내수 구조조정 여파",
+        "theme": "미·중 기술 규제 강화에 따른 반도체 차별화 장세",
         "sectors": [
-          "Real Estate"
-        ],
-        "tickers": [
-          "3333.HK",
-          "2007.HK"
-        ],
-        "rationale": "중국 정부의 부동산 선별적 자금 지원이 개발사 유동성 압박을 다소 완화하나 내수 둔화 상존으로 완만한 회복세 예상.",
-        "risk": "부동산 개발사 추가 부도 위험 및 내수 침체 장기화",
-        "conviction": "low"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "글로벌 AI 패러다임 전환과 반도체 수퍼사이클",
-        "sectors": [
-          "Semiconductors",
           "Technology"
         ],
         "tickers": [
           "NVDA",
-          "TSM"
+          "ASML"
         ],
-        "rationale": "트럼프 행정부의 압박 속에서도 AI 기술 주도권 확보를 위한 거시적 패러다임 전환이 진행되며 1년 이상 중장기 우상향 궤도 형성.",
-        "risk": "미·중 지정학적 대립 격화 및 기술 거품 논란 재발",
+        "rationale": "미국의 대중 기술 규제 및 수출 통제 리스크로 인해 반도체 밸류체인 내 지역/종목별 실적 차별화 심화.",
+        "risk": "규제 강도의 완화 또는 중국 부양책에 따른 아시아 시장 반등",
+        "conviction": "high"
+      }
+    ],
+    "6m": [
+      {
+        "theme": "유럽 에너지 안보 및 자원 공급망 재편",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [
+          "TTE",
+          "SHEL"
+        ],
+        "rationale": "유럽 전역의 에너지 요금 상승 압박과 가스 안보 강화를 위한 수급 구조 재편 장기화.",
+        "risk": "글로벌 경기 둔화로 인한 유가 및 천연가스 수요 감소",
+        "conviction": "high"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "글로벌 공급망 내재화 및 기술 안보 패러다임 전환",
+        "sectors": [
+          "Technology",
+          "Materials"
+        ],
+        "tickers": [
+          "QQQ",
+          "MP"
+        ],
+        "rationale": "미·중 지정학적 갈등 고착화와 각국의 기술/핵심 광물 공급망 내재화로 거시 레짐의 구조적 전환 진행.",
+        "risk": "지정학적 긴장 완화 또는 글로벌 무역 공조 재개",
         "conviction": "high"
       }
     ]

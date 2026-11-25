@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "rs90_count": 14,
   "stocks": [
     {
@@ -11,87 +11,87 @@
       "rs_rating": 98.3
     },
     {
-      "ticker": "AMD",
+      "ticker": "REGN",
       "rs_rating": 97.6
     },
     {
-      "ticker": "MU",
+      "ticker": "ZS",
       "rs_rating": 96.9
     },
     {
-      "ticker": "ZS",
+      "ticker": "AMD",
       "rs_rating": 96.2
     },
     {
-      "ticker": "TXN",
+      "ticker": "GILD",
       "rs_rating": 95.5
     },
     {
-      "ticker": "REGN",
+      "ticker": "ADP",
       "rs_rating": 94.8
     },
     {
-      "ticker": "ADP",
+      "ticker": "INSM",
       "rs_rating": 94.2
     },
     {
-      "ticker": "GILD",
+      "ticker": "AMGN",
       "rs_rating": 93.5
     },
     {
-      "ticker": "ROP",
+      "ticker": "MU",
       "rs_rating": 92.8
     },
     {
-      "ticker": "FTNT",
+      "ticker": "ROP",
       "rs_rating": 92.1
     },
     {
-      "ticker": "MAR",
+      "ticker": "KDP",
       "rs_rating": 91.4
     },
     {
-      "ticker": "KDP",
+      "ticker": "MAR",
       "rs_rating": 90.7
     },
     {
-      "ticker": "ABNB",
+      "ticker": "WMT",
       "rs_rating": 90.0
     },
     {
-      "ticker": "AMGN",
+      "ticker": "AAPL",
       "rs_rating": 89.3
     },
     {
-      "ticker": "AAPL",
+      "ticker": "CCEP",
       "rs_rating": 88.6
     },
     {
-      "ticker": "CTAS",
+      "ticker": "COST",
       "rs_rating": 87.9
     },
     {
-      "ticker": "WMT",
+      "ticker": "ABNB",
       "rs_rating": 87.2
     },
     {
-      "ticker": "CCEP",
+      "ticker": "CTAS",
       "rs_rating": 86.5
     },
     {
-      "ticker": "COST",
+      "ticker": "IDXX",
       "rs_rating": 85.8
     },
     {
-      "ticker": "FAST",
+      "ticker": "FTNT",
       "rs_rating": 85.2
     },
     {
-      "ticker": "ANET",
+      "ticker": "VRTX",
       "rs_rating": 84.5
     },
     {
-      "ticker": "IDXX",
+      "ticker": "FAST",
       "rs_rating": 83.8
     },
     {
@@ -99,36 +99,36 @@
       "rs_rating": 83.1
     },
     {
-      "ticker": "VRTX",
+      "ticker": "MDLZ",
       "rs_rating": 82.4
     },
     {
-      "ticker": "NXPI",
+      "ticker": "TXN",
       "rs_rating": 81.7
     },
     {
-      "ticker": "MDLZ",
+      "ticker": "GEHC",
       "rs_rating": 81.0
     },
     {
-      "ticker": "ADI",
+      "ticker": "DXCM",
       "rs_rating": 80.3
     },
     {
-      "ticker": "INSM",
+      "ticker": "LIN",
       "rs_rating": 79.6
     },
     {
-      "ticker": "DXCM",
+      "ticker": "SBUX",
       "rs_rating": 78.9
     }
   ],
   "portfolio_rs": {
-    "VKTX": 33.2,
-    "MRVL": 75.5,
-    "CRDO": 16.6,
-    "NBIS": 15.9,
-    "RDDT": 9.7,
-    "VRT": 23.5
+    "VKTX": 45.0,
+    "MRVL": 62.3,
+    "CRDO": 14.5,
+    "NBIS": 13.8,
+    "RDDT": 11.1,
+    "VRT": 17.3
   }
 }

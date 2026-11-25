@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "phase": "RISK_OFF",
   "m_score": 2,
   "signals": {
     "market_trend": "BEAR",
-    "market_ret3m": -0.0571,
-    "vix_level": 26.62,
+    "market_ret3m": -0.0685,
+    "vix_level": 26.36,
     "volatility": "HIGH",
-    "yield10y": 4.92,
+    "yield10y": 4.9,
     "rate_env": "HIGH",
     "yield30y": 5.29,
     "yield2y": 4.63,
-    "fear_greed_score": 17.0,
+    "fear_greed_score": 17.4,
     "fear_greed_rating": "extreme fear",
     "dollar_trend": "STRENGTHENING"
   },

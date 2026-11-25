@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "analyzed": 139,
   "top10": [
     {
@@ -16,9 +16,9 @@
       },
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": 97472708608,
-      "price": 942.24,
-      "rs_rating": 94.8
+      "market_cap": 102112346112,
+      "price": 987.09,
+      "rs_rating": 97.6
     },
     {
       "ticker": "KDP",
@@ -34,9 +34,9 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 50580398080,
-      "price": 35.43,
-      "rs_rating": 90.7
+      "market_cap": 51108614144,
+      "price": 35.8,
+      "rs_rating": 91.4
     },
     {
       "ticker": "MDLZ",
@@ -52,9 +52,9 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "market_cap": 83861790720,
-      "price": 66.25,
-      "rs_rating": 81.0
+      "market_cap": 84823826432,
+      "price": 67.01,
+      "rs_rating": 82.4
     },
     {
       "ticker": "XEL",
@@ -70,9 +70,9 @@
       },
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
-      "market_cap": 51677310976,
-      "price": 80.51,
-      "rs_rating": 67.2
+      "market_cap": 51873083392,
+      "price": 80.815,
+      "rs_rating": 70.6
     },
     {
       "ticker": "PANW",
@@ -88,8 +88,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 290166013952,
-      "price": 353.43,
+      "market_cap": 289804779520,
+      "price": 352.99,
       "rs_rating": 99.0
     },
     {
@@ -106,63 +106,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 750506016768,
-      "price": 453.46,
-      "rs_rating": 97.6
+      "market_cap": 683988942848,
+      "price": 413.27,
+      "rs_rating": 96.2
     },
     {
-      "ticker": "TXN",
-      "canslim_score": 58,
+      "ticker": "AMGN",
+      "canslim_score": 55,
       "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 7,
+        "C": 7,
+        "A": 7,
+        "N": 10,
+        "S": 4,
         "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "market_cap": 266080780288,
-      "price": 291.19,
-      "rs_rating": 95.5
-    },
-    {
-      "ticker": "ABNB",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 7,
-        "L": 10,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Consumer Cyclical",
-      "industry": "Travel Services",
-      "market_cap": 103809277952,
-      "price": 173.96,
-      "rs_rating": 90.0
-    },
-    {
-      "ticker": "ANET",
-      "canslim_score": 58,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 4,
-        "S": 10,
-        "L": 7,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "market_cap": 225277280256,
-      "price": 178.31,
-      "rs_rating": 84.5
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "market_cap": 256356892672,
+      "price": 473.935,
+      "rs_rating": 93.5
     },
     {
       "ticker": "MU",
@@ -178,9 +142,45 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 800708231168,
-      "price": 707.7,
-      "rs_rating": 96.9
+      "market_cap": 712559034368,
+      "price": 629.79,
+      "rs_rating": 92.8
+    },
+    {
+      "ticker": "ROP",
+      "canslim_score": 55,
+      "scores": {
+        "C": 7,
+        "A": 10,
+        "N": 7,
+        "S": 4,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "market_cap": 47188881408,
+      "price": 476.48,
+      "rs_rating": 92.1
+    },
+    {
+      "ticker": "ABNB",
+      "canslim_score": 55,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 7,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "market_cap": 103469129728,
+      "price": 173.39,
+      "rs_rating": 87.2
     }
   ]
 }

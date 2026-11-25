@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "title": "Households braced for soaring energy bills with new price cap to be announced",
+      "summary": "Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "How Iceland's Blue Lagoon is faring after its long-awaited stock market debut",
-      "summary": "Shares in Iceland's Blue Lagoon fell below their offer price when they started trading on Friday. The geothermal spa operator raised 14.3 billion Icelandic krónur (€104mn) in the country's first IPO in nearly three years.",
-      "link": "https://www.euronews.com/2026/11/23/how-icelands-blue-lagoon-is-faring-after-its-long-awaited-stock-market-debut",
+      "title": "Why French pharma firm Sanofi is paying $41 billion for US company Insmed",
+      "summary": "French drugmaker Sanofi has agreed a $41 billion (€37.4bn) all-cash takeover of Insmed, a US biopharma company. The deal, one of its biggest ever, is meant to refill its pipeline of new medicines before its best-selling drug loses patent protection.",
+      "link": "https://www.euronews.com/2026/11/24/why-french-pharma-firm-sanofi-is-paying-41-billion-for-us-company-insmed",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,45 @@
       "source": "DW Business"
     },
     {
-      "title": "Budget de l’UE : c’est Noël avant l’heure pour Emmanuel Macron",
-      "summary": "Plusieurs Etats membres accusent António Costa, le président du Conseil européen, de favoriser la France dans sa nouvelle proposition budgétaire.",
-      "link": "https://www.politico.eu/article/budget-de-lue-cest-noel-avant-lheure-pour-emmanuel-macron/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Alberto Núñez Feijóo: One step away from running Spain",
+      "summary": "The Galician styles himself as an unflashy, sober manager — in stark contrast to Socialist Prime Minister Pedro Sánchez.",
+      "link": "https://www.politico.eu/article/alberto-nunez-feijoo-one-step-away-from-running-spain/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
-      "summary": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Nvidia closes up more than 30% after Jensen Huang returns as CEO",
-      "summary": "Nvidia shares soared from their Friday close after the company's board unanimously voted to reinstate Jensen Huang as CEO. US President Donald Trump welcomed his return.",
-      "link": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned",
+      "title": "How Trump and Silicon Valley got Nvidia to bring back Jensen Huang",
+      "summary": "Nvidia's board said Jensen Huang would not return. Six days later, the chipmaker announced his reinstatement after Donald Trump pressed for his return and Elon Musk backed the campaign. Here's how the reversal unfolded and what was at stake for the AI industry.",
+      "link": "https://www.euronews.com/2026/11/24/why-trump-and-silicon-valley-wanted-nvidias-jensen-huang-back",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
+      "summary": "Nvidia s board voted unanimously to bring back the disgraced CEO, who resigned this month amid news of his affairs. He s suspected of having had a relationship with a Chinese intelligence asset.",
+      "link": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "Everything that concerns Libya concerns Italy : Why Ukraine’s Med strike is a problem for Meloni",
+      "summary": "The Italian prime minister is a strong backer of Kyiv, but there is worry in Rome that the strikes on Russian ships could destabilize Libya.",
+      "link": "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "What will the energy cap changes mean for my bills?",
+      "summary": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households.",
+      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "US and Armenia launch Trump-backed regional transit route as Baku welcomes move",
+      "summary": "A year after the Washington summit that brought peace between Armenia and Azerbaijan, the Trump Route for International Peace and Prosperity (TRIPP) project has entered its construction phase amid broader geopolitical reshaping in the region and beyond.",
+      "link": "https://www.euronews.com/2026/11/24/us-and-armenia-launch-trump-backed-regional-transit-route-as-baku-welcomes-move",
       "source": "Euronews Business"
     },
     {
@@ -45,21 +69,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Industrie vs. Gewerkschaften — Das Standort-Dilemma",
-      "summary": "Präsentiert von YouTube.",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/industrie-vs-gewerkschaften-das-standort-dilemma/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "James Cleverly is ready to run for London mayor. Labour is still waiting on Sadiq Khan.",
+      "summary": "The incumbent London mayor needs to make up his mind or risk giving opponents a head start, Labour MPs are warning.",
+      "link": "https://www.politico.eu/article/sadiq-khan-james-cleverly-labour-conservative-mayor-london/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-      "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
-      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
+      "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
+      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "LEGO to build €1bn factory in Portugal, creating more than 1,000 jobs",
-      "summary": "The Danish toymaker plans to invest around €1 billion over several years in its fourth European factory. LEGO says the plant will be its most technologically advanced and is expected to start production in 2030.",
-      "link": "https://www.euronews.com/2026/11/23/lego-to-build-1bn-factory-in-portugal-creating-more-than-1000-jobs",
+      "title": "France to create strategic reserves of rare earths and critical metals",
+      "summary": "This project was announced on Monday by Emmanuel Macron during a closed-door meeting with industrialists at the Élysée. These mineral stocks will be accompanied by a mechanism of joint purchases .",
+      "link": "https://www.euronews.com/2026/11/24/france-to-create-strategic-reserves-of-rare-earths-and-critical-metals",
       "source": "Euronews Business"
     },
     {
@@ -69,69 +93,46 @@
       "source": "DW Business"
     },
     {
-      "title": "Türkei sieht Europas Wohlstand in Gefahr wegen des IAA",
-      "summary": "Die EU plant ein Gesetz zur Stärkung der europäischen Industrie. Der „Industrial Accelerator Act“ könnte aber auch die Autoindustrie schwächen. Die Bundesregierung ist gespalten.",
-      "link": "https://www.politico.eu/article/tuerkei-sieht-europas-wohlstand-in-gefahr-wegen-des-iaa/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Efforts to free caged rabbits, calves wait on top EU court ruling",
+      "summary": "1.4 million Europeans called for a ban on keeping farm animals in cages, but the Commission has been slow to act.",
+      "link": "https://www.politico.eu/article/eu-court-ruling-commission-cage-ban-farmed-animals/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "How important are Nvidia and Jensen Huang to the US economy?",
-      "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
-      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+      "summary": "The BBC speaks to three people about steps they take to keep their energy bills under control.",
+      "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Japan launches Asian oil task force amid Gulf supply disruptions",
-      "summary": "Disruptions to oil shipments through the Strait of Hormuz due to the Iran war have pushed Asian countries to look at larger emergency reserves, shared storage, and closer cooperation with fuel suppliers as shortages squeeze their economies.",
-      "link": "https://www.euronews.com/2026/11/23/japan-launches-asian-oil-task-force-amid-gulf-supply-disruptions",
+      "title": "How Jensen Huang's return to Nvidia made the world trillions richer",
+      "summary": "Jensen Huang's return as Nvidia CEO made him about $34 billion (€31bn) richer and added roughly $950 billion (€871bn) to the chipmaker's value in a single day. US President Donald Trump, Nvidia's staff and stock markets from New York to Seoul gained too, while Europe got a smaller lift.",
+      "link": "https://www.euronews.com/2026/11/24/how-jensen-huangs-return-to-nvidia-made-the-world-trillions-richer",
       "source": "Euronews Business"
     },
     {
-      "title": "Can German auto manufacturing recover after Mercedes and VW cuts?",
-      "summary": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector s future. Some industry watchers think there is still a narrow window to stem the decline. But how?",
-      "link": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Back to 1936? Civil war ghosts haunt Spanish election campaign",
-      "summary": "With the far right poised to enter government, politicians are reopening the wounds of a war that began 90 years ago.",
-      "link": "https://www.politico.eu/article/back-to-1936-civil-war-ghosts-haunt-spanish-election-campaign/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "The good, the bad and the French: EU countries get fiscal report cards",
+      "summary": "The EU executive arm rapped Bulgaria and Hungary across the knuckles for ignoring the bloc’s fiscal rules.",
+      "link": "https://www.politico.eu/article/good-bad-france-eu-countries-fiscal-report-cards/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "The rise and fall and rise again of Jensen Huang",
-      "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
-      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "title": "Why tiny cars are taking off across Europe",
+      "summary": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
-    },
-    {
-      "title": "Mercedes, BMW hit by 24-hour strikes as German pay dispute widens",
-      "summary": "IG Metall, Germany’s largest trade union, called on more than 23,000 workers at 19 northern sites to join a 24-hour strike. The walkouts hit Mercedes-Benz, BMW, and Siemens Gamesa, with Meyer Werft workers also called out.",
-      "link": "https://www.euronews.com/2026/11/23/mercedes-bmw-hit-by-24-hour-strikes-as-german-pay-dispute-widens",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Lufthansa to cut 1,000 jobs, citing ongoing losses — reports",
-      "summary": "According to a letter obtained by the media, Lufthansa s executive board said the German company is losing €20 million every month. In addition to job cuts, operational cuts are also planned.",
-      "link": "https://www.dw.com/en/lufthansa-to-cut-1-000-jobs-citing-ongoing-losses-reports/a-80000062?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Estonian foreign minister: Why we’re closing our border with Russia",
-      "summary": "Only through sustained pressure can Europe make Moscow accept a ceasefire.",
-      "link": "https://www.politico.eu/article/estonia-foreign-minister-margus-tsahkna-close-border-russia/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
     }
   ],
-  "trend_headline": "독일 제조업 파업과 EU의 대중국 무역 방어선 구축",
-  "summary": "독일 주요 완성차 업체의 임금 갈등으로 인한 대규모 파업과 구조조정 압박이 가중되는 가운데, EU는 중국산 저가 수입품에 대한 새로운 무역 방어 조사에 착수하며 자국 산업 보호에 총력전을 펼치고 있습니다.",
+  "trend_headline": "미국 빅테크 변동성과 독일 임단협 파업 교차",
+  "summary": "엔비디아 젠슨 황의 복귀와 미국발 대외 관세 우려가 글로벌 증시를 흔드는 가운데, 독일에서는 IG Metall 주도로 메르세데스벤츠와 BMW 등 핵심 제조업 공장이 24시간 파업에 돌입하며 공급망과 경기 둔화 우려를 키우고 있습니다. 프랑스는 가스·원자재 안보 강화를 위해 희토류 전략 비축에 나섰으며, 영국 등 유럽 전역은 치솟는 에너지 요금 압박에 직면해 있습니다.",
   "key_points": [
-    "독일 IG Metall 노조의 주도로 메르세데스-벤츠와 BMW 등 23,000여 명의 노동자가 24시간 파업 돌입",
-    "EU 집행위원회, 방재·신재생에너지·운송 소재의 중국산 수입품에 대한 신규 무역 방어 조사 개시",
-    "루프트한자, 월 2,000만 유로 손실을 이유로 1,000명 감원 및 운영 축소 계획 발표"
+    "미국 트럼프 행정부의 개입으로 엔비디아 CEO 젠슨 황이 복귀하며 유럽 반도체(ASML, 노키아 등) 주가가 일시 반등했으나 변동성이 확대됨",
+    "독일 노조 IG Metall의 파업으로 메르세데스벤츠, BMW 등 주요 자동차 및 산업재 생산 차질 발생",
+    "프랑스 정부, 에마뉘엘 마크롱 주도하에 핵심 광물 및 희토류 전략 비축 프로젝트 가동"
   ],
   "sector_hints": [
+    "Energy",
     "Automotive",
-    "Industrials"
+    "Technology"
   ]
 }

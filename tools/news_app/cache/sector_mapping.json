@@ -1,67 +1,88 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "sectors": [
     {
-      "name": "Technology",
-      "direction": "positive",
-      "score": 7.0,
-      "rationale": "미국 Dell 및 HPE의 AI 서버 수요 급증에 따른 분기 매출 호조와 연간 실적 가이던스 상향으로 IT 인프라 및 기술 섹터 전반에 긍정적 모멘텀이 형성되었습니다.",
+      "name": "Semiconductors",
+      "direction": "negative",
+      "score": -7.5,
+      "rationale": "엔비디아 CEO 관련 악재 및 사과 타운홀 이후 주가 급락, 글로벌 AI 밸류체인 변동성 확대 및 대미 투자 및 공급망 재편 압박으로 미국과 아시아 시장 전반에서 매도세가 심화됨.",
       "related_tickers": [
-        "DELL",
-        "HPE"
+        "NVDA",
+        "TSM",
+        "005930.KS"
       ],
       "source_regions": [
-        "US"
+        "US",
+        "ASIA"
       ]
     },
     {
-      "name": "Financials",
-      "direction": "positive",
-      "score": 5.5,
-      "rationale": "한국을 비롯한 아시아 시장에서 예금금리 4% 진입 및 가계대출 구조 재편 등 통화·금융 환경 변화로 은행 및 금융권 수익성 기대감이 반영되었습니다.",
+      "name": "Technology",
+      "direction": "negative",
+      "score": -6.5,
+      "rationale": "미국의 예상을 웃도는 PCE 인플레이션(3.8%)으로 인한 연준의 추가 금리 인상 우려와 AI 버블 우려에 따른 대형 기술주 매도세가 확대됨.",
       "related_tickers": [
-        "KB",
-        "JPM"
+        "NVDA",
+        "MSFT"
       ],
       "source_regions": [
+        "US",
         "ASIA"
+      ]
+    },
+    {
+      "name": "Industrials",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "미국 정부의 대중국 및 대유럽 신규 관세 부과 예고와 유럽 산업계의 구조적 재정 스트레스 및 일자리 감소 위협이 제조업 전반에 부정적으로 작용함.",
+      "related_tickers": [
+        "CAT",
+        "GE"
+      ],
+      "source_regions": [
+        "US",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "direction": "negative",
+      "score": -6.0,
+      "rationale": "미국의 관세 인상 위협과 유럽(독일) 완성차 업체들의 비용 부담 가중 및 재정적 스트레스로 경기소비재/자동차 섹터 투심 악화.",
+      "related_tickers": [
+        "VOW3",
+        "MBG"
+      ],
+      "source_regions": [
+        "EUROPE"
       ]
     },
     {
       "name": "Materials",
       "direction": "positive",
-      "score": 6.5,
-      "rationale": "프랑스 정부 주도의 핵심 광물 및 희토류 전략 비축 프로젝트 가동에 따라 원가 확보 및 전략 물자 관련 소재 섹터 수요가 부각되었습니다.",
+      "score": 5.5,
+      "rationale": "프랑스 정부의 희토류 및 핵심 광물 전략적 비축 계획 발표로 유럽 내 자원 및 핵심 소재 공급망 관련 기업에 긍정적 모멘텀 제공.",
       "related_tickers": [
         "MP",
-        "LYCF"
+        "LYSCF"
       ],
       "source_regions": [
         "EUROPE"
       ]
     },
     {
-      "name": "Energy",
-      "direction": "positive",
-      "score": 5.0,
-      "rationale": "유럽 전역에서 치솟는 에너지 요금 압박과 가스 안보 강화 노력이 부각되며 에너지 섹터에 대한 관심이 지속되고 있습니다.",
+      "name": "Financials",
+      "direction": "negative",
+      "score": -4.0,
+      "rationale": "한국 금융당국의 온렌딩 제도 도입 등 중저신용자 금리 부담 완화 정책 추진에 따른 은행권 순이자마진(NIM) 축소 우려.",
       "related_tickers": [
-        "TTE",
-        "SHEL"
+        "055550.KS",
+        "086790.KS"
       ],
       "source_regions": [
-        "EUROPE"
+        "ASIA"
       ]
     }
   ],
-  "conflicting_signals": [
-    {
-      "sector": "Semiconductors",
-      "note": "미국 시장에서는 AI 서버 수요 급증이 호재로 작용하고 있으나, 아시아 및 유럽에서는 미·중 기술 규제 강화, 대만 TSMC 수출 통제 리스크, ASML 등의 주가 변동성 확대가 하방 압력을 가하며 지역 간 시그널이 상충됩니다."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "note": "미국은 베스트바이의 3분기 동일점포 매출 호조 및 연말 쇼핑 시즌 기대감으로 긍정적인 반면, 유럽은 독일 IG Metall 노조 파업으로 메르세데스벤츠, BMW 등 주요 완성차 생산 차질 우려가 발생하여 지역별 온도차가 존재합니다."
-    }
-  ]
+  "conflicting_signals": []
 }

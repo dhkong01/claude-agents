@@ -1,119 +1,148 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "horizons": {
     "1w": [
       {
-        "theme": "AI 서버 실적 모멘텀",
+        "theme": "엔비디아 리스크 및 글로벌 반도체 단기 투심 악화",
         "sectors": [
-          "Technology"
+          "Semiconductors"
         ],
         "tickers": [
-          "DELL",
-          "HPE"
+          "NVDA",
+          "TSM",
+          "005930.KS"
         ],
-        "rationale": "Dell과 HPE의 AI 서버 수요 폭증에 따른 분기 실적 호조 및 연간 가이던스 상향으로 인한 단기 매수 모멘텀 형성.",
-        "risk": "AI 생태계 내 종목별 밸류에이션 부담 및 단기 차익실현 물량 출회",
+        "rationale": "엔비디아 CEO 관련 내부 악재 및 사과 타운홀 여파로 글로벌 AI 밸류체인과 아시아 반도체 대표주들의 단기 매도세가 심화됨.",
+        "risk": "엔비디아 악재 해소 선언 및 기술적 반등 가능성",
         "conviction": "high"
       },
       {
-        "theme": "독일 제조업 파업 및 완성차 공급망 차질",
-        "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "MBG",
-          "BMW"
-        ],
-        "rationale": "독일 IG Metall 노조의 24시간 파업 돌입으로 인한 주요 완성차 업체 단기 생산 차질 발생.",
-        "risk": "노사 협상 타결 시 단기 악재 해소 및 반등 가능성",
-        "conviction": "medium"
-      }
-    ],
-    "1m": [
-      {
-        "theme": "미국 연말 소비 시즌 기대감",
-        "sectors": [
-          "Consumer Discretionary"
-        ],
-        "tickers": [
-          "BBY",
-          "XLY"
-        ],
-        "rationale": "베스트바이 등 유통업체의 3분기 실적 호조 및 연말 쇼핑 시즌 접근에 따른 소비 섹터 자금 유입.",
-        "risk": "고금리 환경 지속에 따른 소비심리 위축 우려",
-        "conviction": "medium"
-      },
-      {
-        "theme": "핵심 광물 및 희토류 전략 비축 수혜",
-        "sectors": [
-          "Materials"
-        ],
-        "tickers": [
-          "MP",
-          "LYCF"
-        ],
-        "rationale": "프랑스 정부 등 유럽의 자원 안보 강화를 위한 희토류 전략 비축 추진으로 단기 원자재 매수세 유입.",
-        "risk": "원자재 가격 변동성 확대 및 정책 집행 지연",
-        "conviction": "high"
-      }
-    ],
-    "3m": [
-      {
-        "theme": "아시아 금융권 금리 환경 변화 및 수익성 개선",
-        "sectors": [
-          "Financials"
-        ],
-        "tickers": [
-          "KB",
-          "JPM"
-        ],
-        "rationale": "아시아 예금금리 4%대 진입 및 가계대출 구조 재편 등 통화 policy 변화에 따른 이자이익 모멘텀 확대.",
-        "risk": "경기 둔화 가속화 시 대손충당금 적립 부담 증가",
-        "conviction": "medium"
-      },
-      {
-        "theme": "미·중 기술 규제 강화에 따른 반도체 차별화 장세",
+        "theme": "미국 PCE 인플레이션 충격에 따른 대형 기술주 충격",
         "sectors": [
           "Technology"
         ],
         "tickers": [
           "NVDA",
-          "ASML"
+          "MSFT"
         ],
-        "rationale": "미국의 대중 기술 규제 및 수출 통제 리스크로 인해 반도체 밸류체인 내 지역/종목별 실적 차별화 심화.",
-        "risk": "규제 강도의 완화 또는 중국 부양책에 따른 아시아 시장 반등",
+        "rationale": "미국 1월 PCE 인플레이션이 3.8%로 예상을 상회함에 따라 연준의 추가 금리 인상 경계감이 고조되어 대형 기술주 위주로 매도세가 확대됨.",
+        "risk": "국채 금리 하락세 지속에 따른 기술주 매수세 유입 가능성",
+        "conviction": "medium"
+      }
+    ],
+    "1m": [
+      {
+        "theme": "미국 관세 인상 위협에 따른 자동차/경기소비재 투심 악화",
+        "sectors": [
+          "Consumer Discretionary"
+        ],
+        "tickers": [
+          "VOW3",
+          "MBG"
+        ],
+        "rationale": "미국의 대유럽 신규 관세 부과 예고와 독일 완성차 기업들의 재정적 스트레스 및 비용 부담 가중으로 단기 자금 이탈 지속.",
+        "risk": "EU와 미국 간 무역 협상 타결 조짐 발생 시 투심 회복",
         "conviction": "high"
+      },
+      {
+        "theme": "AI 버블 우려 확산 및 아시아 자산시장 리스크 회피",
+        "sectors": [
+          "Technology",
+          "Semiconductors"
+        ],
+        "tickers": [
+          "TSM",
+          "NVDA"
+        ],
+        "rationale": "엔비디아발 충격과 AI 버블 우려가 중첩되며 대만, 중국 등 아시아 기술주 시장을 중심으로 자금 유출 및 가격 조정 압력이 지속됨.",
+        "risk": "아시아 주요 반도체 기업들의 실적 방어선 구축에 따른 하방 지지",
+        "conviction": "medium"
+      }
+    ],
+    "3m": [
+      {
+        "theme": "유럽 핵심 광물 비축 전략과 소재 섹터 반등 모멘텀",
+        "sectors": [
+          "Materials"
+        ],
+        "tickers": [
+          "MP",
+          "LYSCF"
+        ],
+        "rationale": "프랑스 정부의 희토류 및 핵심 광물 전략적 비축 계획 발표로 분기 내 유럽 및 글로벌 원자재 supply chain 관련 기업들에 긍정적 자금 유입 예상.",
+        "risk": "글로벌 경기 둔화로 인한 원자재 수요 감소 및 가격 하락",
+        "conviction": "high"
+      },
+      {
+        "theme": "한국 포용금융 정책 가화에 따른 은행권 NIM 축소 압박",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [
+          "055550.KS",
+          "086790.KS"
+        ],
+        "rationale": "온렌딩 제도 도입 등 한국 금융당국의 중저신용자 금리 부담 완화 정책이 본격화되면서 분기 실적 기준 은행권 순이자마진(NIM) 축소 악재 작동.",
+        "risk": "기준금리 변화 및 경기 회복에 따른 대출 자산 성장 가능성",
+        "conviction": "medium"
       }
     ],
     "6m": [
       {
-        "theme": "유럽 에너지 안보 및 자원 공급망 재편",
+        "theme": "미국 중심 반도체 공급망 재편 및 아시아 기업 미주 투자 가속화",
         "sectors": [
-          "Energy"
+          "Semiconductors",
+          "Technology"
         ],
         "tickers": [
-          "TTE",
-          "SHEL"
+          "TSM",
+          "NVDA"
         ],
-        "rationale": "유럽 전역의 에너지 요금 상승 압박과 가스 안보 강화를 위한 수급 구조 재편 장기화.",
-        "risk": "글로벌 경기 둔화로 인한 유가 및 천연가스 수요 감소",
+        "rationale": "미국의 대중 압박과 기술 공급망 재편 압력으로 TSMC 등 주요 아시아 반도체 기업들의 미국 내 설비투자가 구조적으로 가속화되며 비용 구조 및 수급 변화 유발.",
+        "risk": "미국 내 공장 건설 지연 및 투자 비용 과다 지출에 따른 수익성 둔화",
         "conviction": "high"
+      },
+      {
+        "theme": "글로벌 관세 장벽 고조 및 유럽 산업재 비용 부담 체증",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [
+          "CAT",
+          "GE"
+        ],
+        "rationale": "미국의 중국·유럽 대상 관세 부과 추진과 유럽 산업계의 구조적 재정 스트레스로 인해 글로벌 제조업 생산비용 가중 및 투자 둔화 장기화.",
+        "risk": "각국 정부의 산업 보조금 지급 확대 및 무역 갈등 완화",
+        "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "글로벌 공급망 내재화 및 기술 안보 패러다임 전환",
+        "theme": "글로벌 무역 분쟁 고착화 및 자국 중심 독자 공급망 구축 레짐",
         "sectors": [
-          "Technology",
-          "Materials"
+          "Industrials",
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "QQQ",
-          "MP"
+          "CAT",
+          "VOW3"
         ],
-        "rationale": "미·중 지정학적 갈등 고착화와 각국의 기술/핵심 광물 공급망 내재화로 거시 레짐의 구조적 전환 진행.",
-        "risk": "지정학적 긴장 완화 또는 글로벌 무역 공조 재개",
+        "rationale": "미국의 무역 보호주의 강화와 EU의 독자 공급망 방어 전략이 상충하며 글로벌 자유 무역 체제가 해체되고 블록화된 경제 레짐으로의 장기 전환 진행.",
+        "risk": "다자간 무역 협정 체결 및 보호무역주의 기조 철회",
         "conviction": "high"
+      },
+      {
+        "theme": "고인플레이션 피크아웃과 기술주 패러다임 재평가",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "MSFT",
+          "NVDA"
+        ],
+        "rationale": "인플레이션 및 금리 불안정이 해소되는 과정에서 AI 버블 논란이 정리되고, 실질적 수익 창출력을 갖춘 대형 기술주 중심의 장기 밸류에이션 재평가 진행.",
+        "risk": "장기 고금리 유지(Higher for longer)에 따른 성장주 할인율 가중",
+        "conviction": "medium"
       }
     ]
   }

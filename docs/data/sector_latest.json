@@ -1,93 +1,93 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "quarter": "2026-Q4",
   "q_start": "2026-10-01",
   "sectors": [
     {
       "sector": "Consumer Staples",
       "etf": "XLP",
-      "qtd": 14.38,
-      "week1": 0.77,
+      "qtd": 14.9,
+      "week1": 2.72,
       "rank": 1,
       "status": "과열"
     },
     {
       "sector": "Healthcare",
       "etf": "XLV",
-      "qtd": 11.14,
-      "week1": 1.96,
+      "qtd": 10.52,
+      "week1": 3.51,
       "rank": 2,
       "status": "과열"
     },
     {
       "sector": "Utilities",
       "etf": "XLU",
-      "qtd": 9.38,
-      "week1": -0.34,
+      "qtd": 9.9,
+      "week1": 1.4,
       "rank": 3,
       "status": "강세"
     },
     {
       "sector": "Consumer Disc.",
       "etf": "XLY",
-      "qtd": 8.19,
-      "week1": -1.24,
+      "qtd": 7.98,
+      "week1": 1.39,
       "rank": 4,
       "status": "강세"
     },
     {
       "sector": "Real Estate",
       "etf": "XLRE",
-      "qtd": 6.83,
-      "week1": -0.37,
+      "qtd": 7.82,
+      "week1": 2.29,
       "rank": 5,
       "status": "강세"
     },
     {
       "sector": "Financials",
       "etf": "XLF",
-      "qtd": 4.96,
-      "week1": -0.55,
+      "qtd": 5.71,
+      "week1": 1.67,
       "rank": 6,
       "status": "강세"
     },
     {
       "sector": "Materials",
       "etf": "XLB",
-      "qtd": 3.36,
-      "week1": -0.57,
+      "qtd": 5.5,
+      "week1": 3.62,
       "rank": 7,
       "status": "강세"
     },
     {
       "sector": "Energy",
       "etf": "XLE",
-      "qtd": -3.59,
-      "week1": -1.37,
+      "qtd": -2.87,
+      "week1": 0.02,
       "rank": 8,
       "status": "약세"
     },
     {
       "sector": "Industrials",
       "etf": "XLI",
-      "qtd": -4.17,
-      "week1": -1.85,
+      "qtd": -3.37,
+      "week1": 0.99,
       "rank": 9,
       "status": "약세"
     },
     {
       "sector": "Communication",
       "etf": "XLC",
-      "qtd": -4.99,
-      "week1": -1.07,
+      "qtd": -4.15,
+      "week1": 2.55,
       "rank": 10,
       "status": "약세"
     },
     {
       "sector": "Technology",
       "etf": "XLK",
-      "qtd": -20.59,
-      "week1": -4.1,
+      "qtd": -21.24,
+      "week1": -3.05,
       "rank": 11,
       "status": "약세"
     }
@@ -166,8 +166,8 @@
   },
   "macro": {
     "phase": "RISK_OFF",
-    "vix": 26.36,
-    "yield10y": 4.9,
+    "vix": 28.29,
+    "yield10y": 4.85,
     "rec_sectors": [
       "Utilities",
       "Consumer Staples",
@@ -176,7 +176,7 @@
     ]
   },
   "geo_risk": {
-    "risk_score": 8.0,
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF"
   }

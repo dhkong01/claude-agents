@@ -46,33 +46,36 @@
   "rs90_count": 14,
   "geo_risk": {
     "date": "2026-11-25",
-    "risk_score": 8.0,
+    "risk_score": 10.0,
     "risk_level": "HIGH",
     "market_bias": "RISK_OFF",
     "high_risk_signals": 3,
-    "medium_risk_signals": 0,
+    "medium_risk_signals": 3,
     "sector_impacts": {
       "Energy": "ELEVATED",
-      "Semiconductors": "ELEVATED",
-      "Defense": "ELEVATED"
+      "Semiconductors": "WATCH",
+      "Defense": "ELEVATED",
+      "Financials": "ELEVATED"
     },
     "top_risk_events": [
-      "Trump’S Nvidia Push Shows Companies’ Importance In Global Economic War"
+      "How An Iranian Ally Gained The Upper Hand In Yemen’S War",
+      "North Korea Kicks Out Swiss Diplomats In Spat Linked To Ukraine War",
+      "Opposition Makes Progress Toward Ousting Netanyahu, Party Leader Says"
     ],
-    "recommendation": "고위험 국면 (Energy, Semiconductors, Defense 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
+    "recommendation": "고위험 국면 (Energy, Defense, Financials 비중 축소). 포지션 축소 및 현금 비중 확대 권장.",
     "hedge": {
-      "long_pct": 35,
+      "long_pct": 20,
       "sqqq_pct": 20,
-      "cash_pct": 45,
-      "per_stock_pct": 7.0,
-      "action": "DEFENSIVE",
+      "cash_pct": 60,
+      "per_stock_pct": 4.0,
+      "action": "MAX_DEFENSIVE",
       "sqqq_active": true,
       "elevated_sectors": [
         "Energy",
-        "Semiconductors",
-        "Defense"
+        "Defense",
+        "Financials"
       ],
-      "reasoning": "Risk 8.0 — SQQQ 20% 방어 포지션, 현금 45% 유지. [Energy, Semiconductors, Defense ELEVATED]"
+      "reasoning": "Risk 10.0 — 극단 방어. SQQQ 20% + 현금 60%. 롱 최소화. [Energy, Defense, Financials ELEVATED]"
     }
   },
   "vcp_top20": [
@@ -1455,55 +1458,55 @@
   ],
   "top5": [
     {
+      "ticker": "MDLZ",
+      "final_score": 52.8,
+      "canslim_score": 61,
+      "rs_rating": 82.4,
+      "vcp_score": 40,
+      "donchian_signal": "BREAKOUT",
+      "current_price": 67.81,
+      "donchian_upper": 67.54,
+      "donchian_lower": 65.69,
+      "dist_to_upper_pct": -0.4,
+      "dist_to_lower_pct": 3.1,
+      "pivot": null,
+      "sector": "Consumer Defensive",
+      "in_both": true,
+      "allocation_pct": 4.0
+    },
+    {
+      "ticker": "ADP",
+      "final_score": 47.5,
+      "canslim_score": 0,
+      "rs_rating": 94.8,
+      "vcp_score": 75,
+      "donchian_signal": "BREAKOUT",
+      "current_price": 316.72,
+      "donchian_upper": 313.43,
+      "donchian_lower": 301.19,
+      "dist_to_upper_pct": -1.0,
+      "dist_to_lower_pct": 4.9,
+      "pivot": 315.0,
+      "sector": "",
+      "in_both": false,
+      "allocation_pct": 4.0
+    },
+    {
       "ticker": "VRTX",
       "final_score": 45.4,
       "canslim_score": 0,
       "rs_rating": 84.5,
       "vcp_score": 75,
       "donchian_signal": "BREAKOUT",
-      "current_price": 563.92,
-      "donchian_upper": 558.88,
+      "current_price": 564.12,
+      "donchian_upper": 563.92,
       "donchian_lower": 515.02,
-      "dist_to_upper_pct": -0.9,
+      "dist_to_upper_pct": -0.0,
       "dist_to_lower_pct": 8.7,
       "pivot": 561.67,
       "sector": "",
       "in_both": false,
-      "allocation_pct": 7.0
-    },
-    {
-      "ticker": "REGN",
-      "final_score": 44.7,
-      "canslim_score": 64,
-      "rs_rating": 97.6,
-      "vcp_score": 0,
-      "donchian_signal": "BREAKOUT",
-      "current_price": 987.09,
-      "donchian_upper": 972.37,
-      "donchian_lower": 915.13,
-      "dist_to_upper_pct": -1.5,
-      "dist_to_lower_pct": 7.3,
-      "pivot": null,
-      "sector": "Healthcare",
-      "in_both": false,
-      "allocation_pct": 7.0
-    },
-    {
-      "ticker": "GILD",
-      "final_score": 43.1,
-      "canslim_score": 0,
-      "rs_rating": 95.5,
-      "vcp_score": 60,
-      "donchian_signal": "BREAKOUT",
-      "current_price": 178.29,
-      "donchian_upper": 174.48,
-      "donchian_lower": 166.43,
-      "dist_to_upper_pct": -2.1,
-      "dist_to_lower_pct": 6.7,
-      "pivot": 175.35,
-      "sector": "",
-      "in_both": false,
-      "allocation_pct": 7.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "AMGN",
@@ -1512,154 +1515,154 @@
       "rs_rating": 93.5,
       "vcp_score": 100,
       "donchian_signal": "HOLD",
-      "current_price": 473.94,
+      "current_price": 469.24,
       "donchian_upper": 475.73,
       "donchian_lower": 435.64,
-      "dist_to_upper_pct": 0.4,
-      "dist_to_lower_pct": 8.1,
+      "dist_to_upper_pct": 1.4,
+      "dist_to_lower_pct": 7.2,
       "pivot": 478.11,
       "sector": "Healthcare",
       "in_both": true,
-      "allocation_pct": 7.0
+      "allocation_pct": 4.0
     },
     {
       "ticker": "KDP",
-      "final_score": 64.2,
+      "final_score": 64.1,
       "canslim_score": 61,
       "rs_rating": 91.4,
       "vcp_score": 90,
       "donchian_signal": "HOLD",
-      "current_price": 35.8,
+      "current_price": 35.63,
       "donchian_upper": 38.25,
       "donchian_lower": 34.41,
-      "dist_to_upper_pct": 6.8,
-      "dist_to_lower_pct": 3.9,
+      "dist_to_upper_pct": 7.4,
+      "dist_to_lower_pct": 3.4,
       "pivot": 38.44,
       "sector": "Consumer Defensive",
       "in_both": true,
-      "allocation_pct": 7.0
+      "allocation_pct": 4.0
     }
   ],
   "sqqq_channel": {
-    "current": 48.66,
+    "current": 49.6,
     "donchian_upper": 57.59,
     "donchian_lower": 40.55,
     "signal": "HOLD",
-    "dist_to_upper_pct": 18.4,
-    "dist_to_lower_pct": 16.7,
+    "dist_to_upper_pct": 16.1,
+    "dist_to_lower_pct": 18.2,
     "channel_width_pct": 42.0,
     "ticker": "SQQQ"
   },
   "price_freshness": {
     "status": "FRESH",
-    "latest_date": "2026-11-24",
-    "checked_at": "2026-11-25 05:02",
+    "latest_date": "2026-11-25",
+    "checked_at": "2026-11-26 04:21",
     "sample": {
-      "SPY": 718.78,
-      "QQQ": 638.1,
-      "NVDA": 155.38
+      "SPY": 716.7,
+      "QQQ": 633.93,
+      "NVDA": 149.3
     }
   },
   "tracking": [
     {
+      "ticker": "MDLZ",
+      "current": 67.81,
+      "donchian_upper": 67.54,
+      "donchian_lower": 65.69,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.4,
+      "dist_to_lower_pct": 3.1,
+      "channel_width_pct": 2.8
+    },
+    {
+      "ticker": "ADP",
+      "current": 316.72,
+      "donchian_upper": 313.43,
+      "donchian_lower": 301.19,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -1.0,
+      "dist_to_lower_pct": 4.9,
+      "channel_width_pct": 4.1
+    },
+    {
       "ticker": "VRTX",
-      "current": 563.92,
-      "donchian_upper": 558.88,
+      "current": 564.12,
+      "donchian_upper": 563.92,
       "donchian_lower": 515.02,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.9,
+      "dist_to_upper_pct": -0.0,
       "dist_to_lower_pct": 8.7,
-      "channel_width_pct": 8.5
-    },
-    {
-      "ticker": "REGN",
-      "current": 987.09,
-      "donchian_upper": 972.37,
-      "donchian_lower": 915.13,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.5,
-      "dist_to_lower_pct": 7.3,
-      "channel_width_pct": 6.3
-    },
-    {
-      "ticker": "GILD",
-      "current": 178.29,
-      "donchian_upper": 174.48,
-      "donchian_lower": 166.43,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -2.1,
-      "dist_to_lower_pct": 6.7,
-      "channel_width_pct": 4.8
+      "channel_width_pct": 9.5
     },
     {
       "ticker": "AMGN",
-      "current": 473.94,
+      "current": 469.24,
       "donchian_upper": 475.73,
       "donchian_lower": 435.64,
       "signal": "HOLD",
-      "dist_to_upper_pct": 0.4,
-      "dist_to_lower_pct": 8.1,
+      "dist_to_upper_pct": 1.4,
+      "dist_to_lower_pct": 7.2,
       "channel_width_pct": 9.2
     },
     {
       "ticker": "KDP",
-      "current": 35.8,
+      "current": 35.63,
       "donchian_upper": 38.25,
       "donchian_lower": 34.41,
       "signal": "HOLD",
-      "dist_to_upper_pct": 6.8,
-      "dist_to_lower_pct": 3.9,
+      "dist_to_upper_pct": 7.4,
+      "dist_to_lower_pct": 3.4,
       "channel_width_pct": 11.2
     },
     {
       "ticker": "PANW",
-      "current": 352.99,
-      "donchian_upper": 401.7,
+      "current": 356.14,
+      "donchian_upper": 394.49,
       "donchian_lower": 309.29,
       "signal": "HOLD",
-      "dist_to_upper_pct": 13.8,
-      "dist_to_lower_pct": 12.4,
-      "channel_width_pct": 29.9
+      "dist_to_upper_pct": 10.8,
+      "dist_to_lower_pct": 13.2,
+      "channel_width_pct": 27.5
     },
     {
       "ticker": "CRWD",
-      "current": 210.86,
-      "donchian_upper": 268.02,
+      "current": 209.3,
+      "donchian_upper": 266.66,
       "donchian_lower": 208.97,
       "signal": "HOLD",
-      "dist_to_upper_pct": 27.1,
-      "dist_to_lower_pct": 0.9,
-      "channel_width_pct": 28.3
+      "dist_to_upper_pct": 27.4,
+      "dist_to_lower_pct": 0.2,
+      "channel_width_pct": 27.6
+    },
+    {
+      "ticker": "REGN",
+      "current": 981.87,
+      "donchian_upper": 987.09,
+      "donchian_lower": 920.69,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.5,
+      "dist_to_lower_pct": 6.2,
+      "channel_width_pct": 7.2
     },
     {
       "ticker": "ZS",
-      "current": 231.62,
-      "donchian_upper": 260.15,
+      "current": 230.86,
+      "donchian_upper": 255.8,
       "donchian_lower": 185.19,
       "signal": "HOLD",
-      "dist_to_upper_pct": 12.3,
-      "dist_to_lower_pct": 20.0,
-      "channel_width_pct": 40.5
+      "dist_to_upper_pct": 10.8,
+      "dist_to_lower_pct": 19.8,
+      "channel_width_pct": 38.1
     },
     {
       "ticker": "AMD",
-      "current": 413.27,
+      "current": 406.03,
       "donchian_upper": 585.3,
-      "donchian_lower": 424.39,
+      "donchian_lower": 413.27,
       "signal": "EXIT",
-      "dist_to_upper_pct": 41.6,
-      "dist_to_lower_pct": -2.7,
-      "channel_width_pct": 37.9
-    },
-    {
-      "ticker": "ADP",
-      "current": 310.79,
-      "donchian_upper": 313.43,
-      "donchian_lower": 301.19,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 0.8,
-      "dist_to_lower_pct": 3.1,
-      "channel_width_pct": 4.1
+      "dist_to_upper_pct": 44.2,
+      "dist_to_lower_pct": -1.8,
+      "channel_width_pct": 41.6
     }
   ]
 }

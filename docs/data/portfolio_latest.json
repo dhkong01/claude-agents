@@ -7,48 +7,48 @@
       "ticker": "VKTX",
       "shares": 350,
       "avg_cost": 33.48,
-      "price": 29.48,
-      "value": 10318.0,
+      "price": 31.38,
+      "value": 10983.0,
       "cost": 11718.0
     },
     {
       "ticker": "MRVL",
       "shares": 120,
       "avg_cost": 236.6,
-      "price": 131.57,
-      "value": 15788.4,
+      "price": 130.93,
+      "value": 15711.6,
       "cost": 28392.0
     },
     {
       "ticker": "CRDO",
       "shares": 100,
       "avg_cost": 250,
-      "price": 106.46,
-      "value": 10646.0,
+      "price": 106.79,
+      "value": 10679.5,
       "cost": 25000
     },
     {
       "ticker": "NBIS",
       "shares": 100,
       "avg_cost": 225.85,
-      "price": 87.31,
-      "value": 8731.0,
+      "price": 84.99,
+      "value": 8499.0,
       "cost": 22585.0
     },
     {
       "ticker": "RDDT",
       "shares": 50,
       "avg_cost": 200,
-      "price": 90.34,
-      "value": 4517.0,
+      "price": 91.51,
+      "value": 4575.5,
       "cost": 10000
     },
     {
       "ticker": "VRT",
       "shares": 50,
       "avg_cost": 300,
-      "price": 173.82,
-      "value": 8691.0,
+      "price": 173.37,
+      "value": 8668.5,
       "cost": 15000
     }
   ]

@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "region": "EUROPE",
   "headlines": [
     {
-      "title": "Households braced for soaring energy bills with new price cap to be announced",
-      "summary": "Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.",
-      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "title": "UK government set to publish new treaties agreed with EU",
+      "summary": "The BBC understands the treaties contain a 10-year termination clause to reimburse costs of any need to rebuild border checks infrastructure.",
+      "link": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "Why French pharma firm Sanofi is paying $41 billion for US company Insmed",
-      "summary": "French drugmaker Sanofi has agreed a $41 billion (€37.4bn) all-cash takeover of Insmed, a US biopharma company. The deal, one of its biggest ever, is meant to refill its pipeline of new medicines before its best-selling drug loses patent protection.",
-      "link": "https://www.euronews.com/2026/11/24/why-french-pharma-firm-sanofi-is-paying-41-billion-for-us-company-insmed",
+      "title": "Indra unveils Forward2030 plan to more than double revenue to €12bn",
+      "summary": "The company has unveiled its Forward2030 strategic plan at its Investor Day, targeting over €12 billion in revenue and an EBIT margin above 12.5% by 2030, with €1 billion in investment in in-house product development and a stable workforce of about 56,000 employees.",
+      "link": "https://www.euronews.com/2026/11/25/indra-presents-forward2030-plan-to-exceed-12bn-in-revenue-and-more-than-double-size-by-203",
       "source": "Euronews Business"
     },
     {
@@ -21,21 +21,69 @@
       "source": "DW Business"
     },
     {
-      "title": "Alberto Núñez Feijóo: One step away from running Spain",
-      "summary": "The Galician styles himself as an unflashy, sober manager — in stark contrast to Socialist Prime Minister Pedro Sánchez.",
-      "link": "https://www.politico.eu/article/alberto-nunez-feijoo-one-step-away-from-running-spain/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Why Jean-Luc Mélenchon has it in for Germany",
+      "summary": "France's far-left leader is tapping into a growing unease with Berlin across the political spectrum.",
+      "link": "https://www.politico.eu/article/why-jean-luc-melenchon-has-it-in-for-germany/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
+      "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Greek tourism revenues are up 9.7%, generating almost €22bn in nine months",
+      "summary": "Greece's travel receipts reached €21.96 billion in the first nine months of 2026, with visitors from Germany, the UK, Italy and the US providing key revenues for Greek tourism.",
+      "link": "https://www.euronews.com/2026/11/25/greek-tourism-revenues-are-up-97-generating-almost-22bn-in-nine-months",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "German auto workers on back foot as costs, competition bite",
+      "summary": "German auto workers profited during the industry s boom years, but are now increasingly being asked to trade past gains for future job security.",
+      "link": "https://www.dw.com/en/german-auto-workers-on-back-foot-as-costs-competition-bite/a-80036111?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "How to watch the Spanish election like a pro",
+      "summary": "High turnout is expected for Sunday's election, which is widely seen as major potential turning point.",
+      "link": "https://www.politico.eu/article/how-to-watch-the-spanish-election-like-a-pro/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "What's gone wrong at Poundland?",
+      "summary": "Poundland has collapse into administration. Why?",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business"
+    },
+    {
+      "title": "Around 3.7 million jobs are at risk in Europe's struggling industry, report says",
+      "summary": "McKinsey estimates that about 3.7 million jobs are directly at risk in Europe, as almost half of the region's industrial companies were under financial stress or in distress in 2025. Early 2026 data suggest the decline is speeding up, but McKinsey says the problems can be fixed.",
+      "link": "https://www.euronews.com/2026/11/25/around-37-million-jobs-are-directly-at-risk-in-europes-struggling-industry-report-says",
+      "source": "Euronews Business"
+    },
+    {
+      "title": "How cautious investors are struggling to avoid the AI bubble",
+      "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify — and finding it harder than expected.",
+      "link": "https://www.dw.com/en/how-cautious-investors-are-struggling-to-avoid-the-ai-bubble/a-80016412?maca=en-rss-en-bus-2091-rdf",
+      "source": "DW Business"
+    },
+    {
+      "title": "This Riviera mayor wants to bring Javier Milei’s chainsaw politics to France",
+      "summary": "The right-wing challenger wants sweeping spending cuts, looser business rules and tougher immigration controls.",
+      "link": "https://www.politico.eu/article/lisnard-riviera-mayor-wants-milei-chainsaw-politics-france-presidential-candidate/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
       "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
       "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "How Trump and Silicon Valley got Nvidia to bring back Jensen Huang",
-      "summary": "Nvidia's board said Jensen Huang would not return. Six days later, the chipmaker announced his reinstatement after Donald Trump pressed for his return and Elon Musk backed the campaign. Here's how the reversal unfolded and what was at stake for the AI industry.",
-      "link": "https://www.euronews.com/2026/11/24/why-trump-and-silicon-valley-wanted-nvidias-jensen-huang-back",
+      "title": "BYD plans car production in France to boost its push into the European market",
+      "summary": "BYD has entered exclusive talks to buy Ineos Automotive's Hambach plant in Moselle. The deal could let the top electric carmaker build in France and boost its European presence.",
+      "link": "https://www.euronews.com/2026/11/25/byd-plans-car-production-in-france-to-boost-its-push-into-the-european-market",
       "source": "Euronews Business"
     },
     {
@@ -45,21 +93,21 @@
       "source": "DW Business"
     },
     {
-      "title": "Everything that concerns Libya concerns Italy : Why Ukraine’s Med strike is a problem for Meloni",
-      "summary": "The Italian prime minister is a strong backer of Kyiv, but there is worry in Rome that the strikes on Russian ships could destabilize Libya.",
-      "link": "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "Tusk government facing armageddon as European court resumes cases against Poland",
+      "summary": "The country faces millions of euros in potential compensation payments over its former nationalist government’s judicial overhaul.",
+      "link": "https://www.politico.eu/article/donald-tusk-government-facing-armageddon-as-european-court-resumes-cases-against-poland/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
     },
     {
-      "title": "What will the energy cap changes mean for my bills?",
-      "summary": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households.",
-      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "title": "US approves SpaceX plan to send a million data satellites to space",
+      "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+      "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business"
     },
     {
-      "title": "US and Armenia launch Trump-backed regional transit route as Baku welcomes move",
-      "summary": "A year after the Washington summit that brought peace between Armenia and Azerbaijan, the Trump Route for International Peace and Prosperity (TRIPP) project has entered its construction phase amid broader geopolitical reshaping in the region and beyond.",
-      "link": "https://www.euronews.com/2026/11/24/us-and-armenia-launch-trump-backed-regional-transit-route-as-baku-welcomes-move",
+      "title": "Spain's economy is booming. Why are real wages still below their 2009 peak?",
+      "summary": "Spain's economy is forecast to grow more than twice as fast as the eurozone's this year, but average pay still buys less than it did in 2009. Rising housing and food costs are putting household budgets under pressure ahead of Sunday's election.",
+      "link": "https://www.euronews.com/2026/11/25/spains-economy-is-booming-why-are-real-wages-still-below-their-2009-peak",
       "source": "Euronews Business"
     },
     {
@@ -69,70 +117,21 @@
       "source": "DW Business"
     },
     {
-      "title": "James Cleverly is ready to run for London mayor. Labour is still waiting on Sadiq Khan.",
-      "summary": "The incumbent London mayor needs to make up his mind or risk giving opponents a head start, Labour MPs are warning.",
-      "link": "https://www.politico.eu/article/sadiq-khan-james-cleverly-labour-conservative-mayor-london/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
+      "title": "“Les COP, c’est une blague” : les critiques enflent contre les sommets climatiques après l’échec à Antalya",
+      "summary": "La fin chaotique de la COP31 pousse des pays à remettre en question tout le processus onusien de négociations climatiques.",
+      "link": "https://www.politico.eu/article/les-cop-cest-une-blague-les-critiques-enflent-contre-les-sommets-climatiques-apres-lechec-a-antalya/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
       "source": "Politico Europe"
-    },
-    {
-      "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
-      "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "France to create strategic reserves of rare earths and critical metals",
-      "summary": "This project was announced on Monday by Emmanuel Macron during a closed-door meeting with industrialists at the Élysée. These mineral stocks will be accompanied by a mechanism of joint purchases .",
-      "link": "https://www.euronews.com/2026/11/24/france-to-create-strategic-reserves-of-rare-earths-and-critical-metals",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "Germany s Early Start Pension: Can child investment accounts help?",
-      "summary": "Germany plans to pay €10 a month into investment accounts for children to encourage long-term retirement saving. Economists say the measure may help build wealth but won t solve the country s pension funding challenge.",
-      "link": "https://www.dw.com/en/germany-s-early-start-pension-can-child-investment-accounts-help/a-79852185?maca=en-rss-en-bus-2091-rdf",
-      "source": "DW Business"
-    },
-    {
-      "title": "Efforts to free caged rabbits, calves wait on top EU court ruling",
-      "summary": "1.4 million Europeans called for a ban on keeping farm animals in cages, but the Commission has been slow to act.",
-      "link": "https://www.politico.eu/article/eu-court-ruling-commission-cage-ban-farmed-animals/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
-      "summary": "The BBC speaks to three people about steps they take to keep their energy bills under control.",
-      "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
-    },
-    {
-      "title": "How Jensen Huang's return to Nvidia made the world trillions richer",
-      "summary": "Jensen Huang's return as Nvidia CEO made him about $34 billion (€31bn) richer and added roughly $950 billion (€871bn) to the chipmaker's value in a single day. US President Donald Trump, Nvidia's staff and stock markets from New York to Seoul gained too, while Europe got a smaller lift.",
-      "link": "https://www.euronews.com/2026/11/24/how-jensen-huangs-return-to-nvidia-made-the-world-trillions-richer",
-      "source": "Euronews Business"
-    },
-    {
-      "title": "The good, the bad and the French: EU countries get fiscal report cards",
-      "summary": "The EU executive arm rapped Bulgaria and Hungary across the knuckles for ignoring the bloc’s fiscal rules.",
-      "link": "https://www.politico.eu/article/good-bad-france-eu-countries-fiscal-report-cards/?utm_source=RSS_Feed utm_medium=RSS utm_campaign=RSS_Syndication",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Why tiny cars are taking off across Europe",
-      "summary": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business"
     }
   ],
-  "trend_headline": "미국 빅테크 변동성과 독일 임단협 파업 교차",
-  "summary": "엔비디아 젠슨 황의 복귀와 미국발 대외 관세 우려가 글로벌 증시를 흔드는 가운데, 독일에서는 IG Metall 주도로 메르세데스벤츠와 BMW 등 핵심 제조업 공장이 24시간 파업에 돌입하며 공급망과 경기 둔화 우려를 키우고 있습니다. 프랑스는 가스·원자재 안보 강화를 위해 희토류 전략 비축에 나섰으며, 영국 등 유럽 전역은 치솟는 에너지 요금 압박에 직면해 있습니다.",
+  "trend_headline": "유럽 제조업 위기와 美 관세 압박 동시 직면",
+  "summary": "유럽 산업계가 구조적 재정 스트레스와 미국의 신규 관세 위협이라는 이중고에 직면했습니다. 특히 독일 자동차 등 전통 제조업의 비용 부담이 가중되는 가운데, EU는 미국의 무역 압박에 반발하며 독자적인 공급망 방어 전략을 모색하고 있습니다.",
   "key_points": [
-    "미국 트럼프 행정부의 개입으로 엔비디아 CEO 젠슨 황이 복귀하며 유럽 반도체(ASML, 노키아 등) 주가가 일시 반등했으나 변동성이 확대됨",
-    "독일 노조 IG Metall의 파업으로 메르세데스벤츠, BMW 등 주요 자동차 및 산업재 생산 차질 발생",
-    "프랑스 정부, 에마뉘엘 마크롱 주도하에 핵심 광물 및 희토류 전략 비축 프로젝트 가동"
+    "유럽 내 산업용 기업의 절반 가까이가 재정적 스트레스 상태이며 약 370만 개의 일자리가 위협받고 있음",
+    "미국 정부가 EU와 중국 등을 겨냥한 신규 관세 부치를 예고하면서 무역 긴장이 고조됨",
+    "프랑스는 중국 BYD의 현지 공장 인수 추진과 함께 희토류·핵심 광물 전략적 비축 계획을 발표함"
   ],
   "sector_hints": [
-    "Energy",
-    "Automotive",
-    "Technology"
+    "Automobiles",
+    "Energy"
   ]
 }

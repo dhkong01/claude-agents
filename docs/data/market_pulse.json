@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "indices": {
     "nasdaq": {
       "price": 23585.8,
@@ -9,8 +9,8 @@
       "region": "US"
     },
     "dow": {
-      "price": 50182.9,
-      "change": 164.2,
+      "price": 50182.95,
+      "change": 164.25,
       "change_pct": 0.33,
       "label": "다우존스",
       "region": "US"
@@ -23,37 +23,37 @@
       "region": "US"
     },
     "kospi": {
-      "price": 4746.02,
-      "change": 48.51,
-      "change_pct": 1.03,
+      "price": 4881.98,
+      "change": 170.77,
+      "change_pct": 3.62,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 662.89,
-      "change": 12.25,
-      "change_pct": 1.88,
+      "price": 697.4,
+      "change": 41.69,
+      "change_pct": 6.36,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 57747.71,
-      "change": 736.09,
-      "change_pct": 1.29,
+      "price": 58593.88,
+      "change": 1094.72,
+      "change_pct": 1.9,
       "label": "니케이225",
       "region": "ASIA"
     },
     "shanghai": {
-      "price": 3476.47,
-      "change": -71.9,
-      "change_pct": -2.03,
+      "price": 3486.76,
+      "change": 9.88,
+      "change_pct": 0.28,
       "label": "상해종합",
       "region": "ASIA"
     },
     "shenzhen": {
-      "price": 10101.72,
-      "change": 15.36,
-      "change_pct": 0.15,
+      "price": 10301.4,
+      "change": 217.36,
+      "change_pct": 2.16,
       "label": "심천성분",
       "region": "ASIA"
     }
@@ -73,13 +73,13 @@
   "macro": {
     "phase": "RISK_OFF",
     "m_score": 2,
-    "vix": 28.29,
+    "vix": 26.8,
     "volatility": "HIGH",
-    "fear_greed": 15.2,
+    "fear_greed": 15.0,
     "fear_greed_rating": "extreme fear",
     "yield2y": 4.63,
     "yield10y": 4.85,
-    "yield30y": 5.23,
+    "yield30y": 5.24,
     "rate_env": "HIGH",
     "dollar_trend": "STRENGTHENING",
     "market_trend": "BEAR",
@@ -88,17 +88,11 @@
   },
   "guru_insights": [
     {
-      "name": "Bill Ackman",
-      "insight": "빌 액맨은 투자자들이 알콘과 인터콘티넨탈 익스체인지 주식에 대해 잘못 생각하고 있다고 판단한다.",
-      "source": "Barron's",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjU0cF8yZDFLcklhbExqS0tGeDRFN1UtYkZ3WkNMQUczR0Y5a3ZnTXRMVjBOcWFWdk5GNDFBM3BKM1drNm81YTNQUTRDT1hDSzdNcGZJLXhNMzdjU1k0UTZ1dGNVYW5ndHhxNy0tenIybnNUcXB3T1hHV19IQ1hSd3NnUE9weFV0Mk1EWHZsbS1WekdHVHhRUTFoNmVUd3NaQkR3?oc=5"
-    },
-    {
       "name": "Warren Buffett",
-      "insight": "두 번의 빠른 통화로 버크셔 해서웨이가 9억 3천만 달러 규모의 벤딩 스푼스 투자를 성사시켰다.",
+      "insight": "버크셔 해서웨이가 두 번의 빠른 통화로 9억 3천만 달러 규모의 벤딩 스푼스 투자를 성사시켰다.",
       "source": "Barron's",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUm5DdzVueDRtNjAta2lfWkxCZFZNNjhUUlhqU0FucEJhQWN2ZzdGWVhUeFhNUXFkT0haSUhDLS1jaWRJbUdNREloNlk1U0xMY2NGMUJTalUtN1Y3ZUVsMW15STVZUjNaQlY0OUpCcFlTa2FhV3F0dEMtNGpxbHRvUW5NVzdLWHBpU1BuTW96aw?oc=5"
     }
   ],
-  "guru_date": "2026-11-26"
+  "guru_date": "2026-11-27"
 }

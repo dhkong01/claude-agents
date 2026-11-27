@@ -1,88 +1,70 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "sectors": [
     {
       "name": "Semiconductors",
       "direction": "negative",
-      "score": -7.5,
-      "rationale": "엔비디아 CEO 관련 악재 및 사과 타운홀 이후 주가 급락, 글로벌 AI 밸류체인 변동성 확대 및 대미 투자 및 공급망 재편 압박으로 미국과 아시아 시장 전반에서 매도세가 심화됨.",
-      "related_tickers": [
-        "NVDA",
-        "TSM",
-        "005930.KS"
-      ],
-      "source_regions": [
-        "US",
-        "ASIA"
-      ]
-    },
-    {
-      "name": "Technology",
-      "direction": "negative",
       "score": -6.5,
-      "rationale": "미국의 예상을 웃도는 PCE 인플레이션(3.8%)으로 인한 연준의 추가 금리 인상 우려와 AI 버블 우려에 따른 대형 기술주 매도세가 확대됨.",
+      "rationale": "미국의 대중국 반도체 통제 강화 및 엔비디아의 동남아시아 선적 중단 지시, 대만 TSMC 공장 투자 불확실성 등 공급망 전반의 규제 리스크와 하방 압력이 우세합니다.",
       "related_tickers": [
         "NVDA",
-        "MSFT"
+        "TSM"
       ],
       "source_regions": [
         "US",
         "ASIA"
-      ]
-    },
-    {
-      "name": "Industrials",
-      "direction": "negative",
-      "score": -7.0,
-      "rationale": "미국 정부의 대중국 및 대유럽 신규 관세 부과 예고와 유럽 산업계의 구조적 재정 스트레스 및 일자리 감소 위협이 제조업 전반에 부정적으로 작용함.",
-      "related_tickers": [
-        "CAT",
-        "GE"
-      ],
-      "source_regions": [
-        "US",
-        "EUROPE"
       ]
     },
     {
       "name": "Consumer Discretionary",
-      "direction": "negative",
-      "score": -6.0,
-      "rationale": "미국의 관세 인상 위협과 유럽(독일) 완성차 업체들의 비용 부담 가중 및 재정적 스트레스로 경기소비재/자동차 섹터 투심 악화.",
-      "related_tickers": [
-        "VOW3",
-        "MBG"
-      ],
-      "source_regions": [
-        "EUROPE"
-      ]
-    },
-    {
-      "name": "Materials",
       "direction": "positive",
-      "score": 5.5,
-      "rationale": "프랑스 정부의 희토류 및 핵심 광물 전략적 비축 계획 발표로 유럽 내 자원 및 핵심 소재 공급망 관련 기업에 긍정적 모멘텀 제공.",
+      "score": 6.5,
+      "rationale": "미국 블랙프라이데이 시즌을 앞두고 베스트바이 실적 호조 등 소매 판매 회복세가 지속되고 있으며, 아시아 시장의 전기차 및 모빌리티 글로벌 공략 모멘텀이 긍정적으로 작용하고 있습니다.",
       "related_tickers": [
-        "MP",
-        "LYSCF"
+        "BBY",
+        "TSLA"
       ],
       "source_regions": [
-        "EUROPE"
+        "US",
+        "ASIA"
       ]
     },
     {
       "name": "Financials",
-      "direction": "negative",
-      "score": -4.0,
-      "rationale": "한국 금융당국의 온렌딩 제도 도입 등 중저신용자 금리 부담 완화 정책 추진에 따른 은행권 순이자마진(NIM) 축소 우려.",
+      "direction": "positive",
+      "score": 6.0,
+      "rationale": "유럽 UniCredit의 Commerzbank 인수 최종 승인으로 자본시장 재편 및 M&A 모멘텀이 강화되었으며, 아시아 시장의 금리 인상 사이클 종료 전망 등이 하단을 지지하고 있습니다.",
       "related_tickers": [
-        "055550.KS",
-        "086790.KS"
+        "UCG",
+        "CRZBY"
+      ],
+      "source_regions": [
+        "EU",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "direction": "negative",
+      "score": -7.0,
+      "rationale": "중국 부동산 부채 위기가 2차 구조조정 국면으로 진입하며 아시아 지역 부동산 섹터의 우려를 심화시키고 있습니다.",
+      "related_tickers": [
+        "3333.HK",
+        "2007.HK"
       ],
       "source_regions": [
         "ASIA"
       ]
     }
   ],
-  "conflicting_signals": []
+  "conflicting_signals": [
+    {
+      "sector": "Technology",
+      "note": "미국은 대중국 관세 우려와 공급망 불확실성으로 기술주 전반에 하방 압력이 강한 반면, 아시아는 데이터센터 및 AI 인프라 투자 확장이라는 긍정적 신호가 대립하고 있습니다."
+    },
+    {
+      "sector": "Industrials",
+      "note": "유럽 내 스페인 방산 기업(Indra)의 공격적 투자 확대는 긍정적이나, 독일을 중심으로 한 유럽 제조업 전반의 일자리 위협 및 비용 압박은 부정적인 신호로 작용하고 있습니다."
+    }
+  ]
 }

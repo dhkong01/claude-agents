@@ -1,147 +1,141 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "horizons": {
     "1w": [
       {
-        "theme": "엔비디아 리스크 및 글로벌 반도체 단기 투심 악화",
+        "theme": "미국 연말 쇼핑 시즌 및 소매 실적 호조",
         "sectors": [
-          "Semiconductors"
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "NVDA",
-          "TSM",
-          "005930.KS"
+          "BBY",
+          "TSLA"
         ],
-        "rationale": "엔비디아 CEO 관련 내부 악재 및 사과 타운홀 여파로 글로벌 AI 밸류체인과 아시아 반도체 대표주들의 단기 매도세가 심화됨.",
-        "risk": "엔비디아 악재 해소 선언 및 기술적 반등 가능성",
+        "rationale": "블랙프라이데이 쇼핑 시즌 진입과 함께 베스트바이 등 주요 유통업체의 실적 호조가 소비 심리 회복을 견인하며 단기 상승 모멘텀 제공.",
+        "risk": "인플레이션 지속에 따른 실질 소비 여력 제한 및 이벤트 종료 후 모멘텀 약화",
         "conviction": "high"
       },
       {
-        "theme": "미국 PCE 인플레이션 충격에 따른 대형 기술주 충격",
+        "theme": "유럽 금융권 M&A 승인 이벤트",
         "sectors": [
-          "Technology"
+          "Financials"
         ],
         "tickers": [
-          "NVDA",
-          "MSFT"
+          "UCG",
+          "CRZBY"
         ],
-        "rationale": "미국 1월 PCE 인플레이션이 3.8%로 예상을 상회함에 따라 연준의 추가 금리 인상 경계감이 고조되어 대형 기술주 위주로 매도세가 확대됨.",
-        "risk": "국채 금리 하락세 지속에 따른 기술주 매수세 유입 가능성",
+        "rationale": "UniCredit의 Commerzbank 인수 당국 승인으로 인한 유럽 은행권 자본시장 재편 기대감 및 단기 매수세 집중.",
+        "risk": "인수합병 세부 조건 협상 지연 및 정치적·규제적 반발 리스크",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "미국 관세 인상 위협에 따른 자동차/경기소비재 투심 악화",
+        "theme": "미·중 기술 규제에 따른 반도체 단기 투심 악화",
+        "sectors": [
+          "Semiconductors"
+        ],
+        "tickers": [
+          "NVDA",
+          "TSM"
+        ],
+        "rationale": "엔비디아의 동남아 선적 중단 지시와 대중국 수출 통제 우려로 인한 반도체 섹터 전반의 단기 자금 유출 및 조정 압력.",
+        "risk": "규제 적용 범위의 완화 발표 또는 대체 시장 수요의 조기 확인",
+        "conviction": "high"
+      },
+      {
+        "theme": "아시아 친환경 모빌리티 글로벌 확장",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
-          "VOW3",
-          "MBG"
+          "TSLA"
         ],
-        "rationale": "미국의 대유럽 신규 관세 부과 예고와 독일 완성차 기업들의 재정적 스트레스 및 비용 부담 가중으로 단기 자금 이탈 지속.",
-        "risk": "EU와 미국 간 무역 협상 타결 조짐 발생 시 투심 회복",
-        "conviction": "high"
-      },
-      {
-        "theme": "AI 버블 우려 확산 및 아시아 자산시장 리스크 회피",
-        "sectors": [
-          "Technology",
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM",
-          "NVDA"
-        ],
-        "rationale": "엔비디아발 충격과 AI 버블 우려가 중첩되며 대만, 중국 등 아시아 기술주 시장을 중심으로 자금 유출 및 가격 조정 압력이 지속됨.",
-        "risk": "아시아 주요 반도체 기업들의 실적 방어선 구축에 따른 하방 지지",
+        "rationale": "아시아 시장을 중심의 전기차 및 모빌리티 공급망 강화와 글로벌 시장 점유율 확대 흐름 지속.",
+        "risk": "유럽 및 미국의 대중국/아시아산 모빌리티 관세 장벽 강화",
         "conviction": "medium"
       }
     ],
     "3m": [
       {
-        "theme": "유럽 핵심 광물 비축 전략과 소재 섹터 반등 모멘텀",
-        "sectors": [
-          "Materials"
-        ],
-        "tickers": [
-          "MP",
-          "LYSCF"
-        ],
-        "rationale": "프랑스 정부의 희토류 및 핵심 광물 전략적 비축 계획 발표로 분기 내 유럽 및 글로벌 원자재 supply chain 관련 기업들에 긍정적 자금 유입 예상.",
-        "risk": "글로벌 경기 둔화로 인한 원자재 수요 감소 및 가격 하락",
-        "conviction": "high"
-      },
-      {
-        "theme": "한국 포용금융 정책 가화에 따른 은행권 NIM 축소 압박",
-        "sectors": [
-          "Financials"
-        ],
-        "tickers": [
-          "055550.KS",
-          "086790.KS"
-        ],
-        "rationale": "온렌딩 제도 도입 등 한국 금융당국의 중저신용자 금리 부담 완화 정책이 본격화되면서 분기 실적 기준 은행권 순이자마진(NIM) 축소 악재 작동.",
-        "risk": "기준금리 변화 및 경기 회복에 따른 대출 자산 성장 가능성",
-        "conviction": "medium"
-      }
-    ],
-    "6m": [
-      {
-        "theme": "미국 중심 반도체 공급망 재편 및 아시아 기업 미주 투자 가속화",
-        "sectors": [
-          "Semiconductors",
-          "Technology"
-        ],
-        "tickers": [
-          "TSM",
-          "NVDA"
-        ],
-        "rationale": "미국의 대중 압박과 기술 공급망 재편 압력으로 TSMC 등 주요 아시아 반도체 기업들의 미국 내 설비투자가 구조적으로 가속화되며 비용 구조 및 수급 변화 유발.",
-        "risk": "미국 내 공장 건설 지연 및 투자 비용 과다 지출에 따른 수익성 둔화",
-        "conviction": "high"
-      },
-      {
-        "theme": "글로벌 관세 장벽 고조 및 유럽 산업재 비용 부담 체증",
+        "theme": "유럽 방산 섹터 투자 확대 및 지정학적 대응",
         "sectors": [
           "Industrials"
         ],
         "tickers": [
-          "CAT",
-          "GE"
+          "UCG"
         ],
-        "rationale": "미국의 중국·유럽 대상 관세 부과 추진과 유럽 산업계의 구조적 재정 스트레스로 인해 글로벌 제조업 생산비용 가중 및 투자 둔화 장기화.",
-        "risk": "각국 정부의 산업 보조금 지급 확대 및 무역 갈등 완화",
+        "rationale": "유럽 내 지정학적 위기 고조와 방산 기업(Indra 등)의 공격적 투자 계획이 중기 실적 개선으로 연결될 기대감.",
+        "risk": "독일 등 유럽 제조업 전반의 구조적 비용 압박 및 경제 성장 둔화",
+        "conviction": "high"
+      },
+      {
+        "theme": "중국 부동산 2차 구조조정 및 리스크 회피",
+        "sectors": [
+          "Real Estate"
+        ],
+        "tickers": [
+          "3333.HK",
+          "2007.HK"
+        ],
+        "rationale": "중국 부동산 개발사들의 부채 위기가 2차 구조조정 국면으로 진입함에 따라 관련 섹터의 중기 하방 압력 지속.",
+        "risk": "중국 정부의 파격적인 대규모 부동산 부양책 발표",
+        "conviction": "high"
+      }
+    ],
+    "6m": [
+      {
+        "theme": "아시아 AI 인프라 및 데이터센터 구조적 성장",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA",
+          "TSM"
+        ],
+        "rationale": "미·중 규제 속에서도 일본, 중국, 한국 등 아시아 각국의 AI 데이터센터 및 인프라 투자 확대로 인한 구조적 수급 수혜.",
+        "risk": "글로벌 테크 기업들의 캐펙스(CAPEX) 집행 지연 및 규제 범위 확대",
+        "conviction": "high"
+      },
+      {
+        "theme": "글로벌 반도체 공급망 재편 및 리쇼어링",
+        "sectors": [
+          "Semiconductors"
+        ],
+        "tickers": [
+          "TSM"
+        ],
+        "rationale": "미·중 기술 패권 다툼으로 인한 글로벌 반도체 공급망의 다변화 및 생산 기지 재편 작업 가속화.",
+        "risk": "해외 공장 건설 비용 증가 및 생산 수율 확보 불확실성",
         "conviction": "medium"
       }
     ],
     "1y": [
       {
-        "theme": "글로벌 무역 분쟁 고착화 및 자국 중심 독자 공급망 구축 레짐",
+        "theme": "미·중 테크 패권 전쟁 및 규제 레짐 변화",
         "sectors": [
-          "Industrials",
-          "Consumer Discretionary"
+          "Technology",
+          "Semiconductors"
         ],
         "tickers": [
-          "CAT",
-          "VOW3"
+          "NVDA",
+          "TSM"
         ],
-        "rationale": "미국의 무역 보호주의 강화와 EU의 독자 공급망 방어 전략이 상충하며 글로벌 자유 무역 체제가 해체되고 블록화된 경제 레짐으로의 장기 전환 진행.",
-        "risk": "다자간 무역 협정 체결 및 보호무역주의 기조 철회",
+        "rationale": "미국발 대중 관세 및 테크 규제 장기화로 글로벌 기술 생태계가 파편화되며 독점적 기술력을 가진 선도 기업 중심으로 시장 재편.",
+        "risk": "글로벌 공급망 분절화에 따른 생산 원가 상승 및 전반적인 기술 성장 속도 둔화",
         "conviction": "high"
       },
       {
-        "theme": "고인플레이션 피크아웃과 기술주 패러다임 재평가",
+        "theme": "유럽 자본시장 통합 및 방산·제조업 구조개편",
         "sectors": [
-          "Technology"
+          "Financials"
         ],
         "tickers": [
-          "MSFT",
-          "NVDA"
+          "UCG",
+          "CRZBY"
         ],
-        "rationale": "인플레이션 및 금리 불안정이 해소되는 과정에서 AI 버블 논란이 정리되고, 실질적 수익 창출력을 갖춘 대형 기술주 중심의 장기 밸류에이션 재평가 진행.",
-        "risk": "장기 고금리 유지(Higher for longer)에 따른 성장주 할인율 가중",
+        "rationale": "유럽 뱅킹 유니온 가속화(M&A)와 제조업 위기 극복을 위한 방산/친환경 중심의 구조적 산업 체질 개선.",
+        "risk": "EU 회원국 간 예산 갈등 지속 및 미국발 관세 충격으로 인한 경기 침체 레짐 진입",
         "conviction": "medium"
       }
     ]

@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "data": [
     {
-      "ticker": "MDLZ",
-      "current": 67.81,
-      "donchian_upper": 67.54,
-      "donchian_lower": 65.69,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.4,
-      "dist_to_lower_pct": 3.1,
-      "channel_width_pct": 2.8
-    },
-    {
-      "ticker": "VRTX",
-      "current": 564.12,
-      "donchian_upper": 563.92,
-      "donchian_lower": 515.02,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.0,
-      "dist_to_lower_pct": 8.7,
-      "channel_width_pct": 9.5
-    },
-    {
-      "ticker": "ADP",
-      "current": 316.72,
-      "donchian_upper": 313.43,
-      "donchian_lower": 301.19,
-      "signal": "BREAKOUT",
-      "dist_to_upper_pct": -1.0,
-      "dist_to_lower_pct": 4.9,
-      "channel_width_pct": 4.1
-    },
-    {
-      "ticker": "AMGN",
-      "current": 469.24,
-      "donchian_upper": 475.73,
-      "donchian_lower": 435.64,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 1.4,
-      "dist_to_lower_pct": 7.2,
-      "channel_width_pct": 9.2
-    },
-    {
-      "ticker": "KDP",
-      "current": 35.63,
-      "donchian_upper": 38.25,
-      "donchian_lower": 34.41,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 7.4,
-      "dist_to_lower_pct": 3.4,
-      "channel_width_pct": 11.2
-    },
-    {
-      "ticker": "PANW",
-      "current": 356.14,
-      "donchian_upper": 394.49,
-      "donchian_lower": 309.29,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 10.8,
-      "dist_to_lower_pct": 13.2,
-      "channel_width_pct": 27.5
-    },
-    {
-      "ticker": "CRWD",
-      "current": 209.3,
-      "donchian_upper": 266.66,
-      "donchian_lower": 208.97,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 27.4,
-      "dist_to_lower_pct": 0.2,
-      "channel_width_pct": 27.6
-    },
-    {
-      "ticker": "ZS",
-      "current": 230.86,
-      "donchian_upper": 255.8,
-      "donchian_lower": 185.19,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 10.8,
-      "dist_to_lower_pct": 19.8,
-      "channel_width_pct": 38.1
-    },
-    {
       "ticker": "REGN",
-      "current": 981.87,
+      "current": 992.14,
       "donchian_upper": 987.09,
       "donchian_lower": 920.69,
-      "signal": "HOLD",
-      "dist_to_upper_pct": 0.5,
-      "dist_to_lower_pct": 6.2,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.5,
+      "dist_to_lower_pct": 7.2,
       "channel_width_pct": 7.2
     },
     {
-      "ticker": "INSM",
-      "current": 170.31,
-      "donchian_upper": 170.15,
-      "donchian_lower": 118.07,
+      "ticker": "ADP",
+      "current": 319.43,
+      "donchian_upper": 316.72,
+      "donchian_lower": 301.19,
       "signal": "BREAKOUT",
-      "dist_to_upper_pct": -0.1,
-      "dist_to_lower_pct": 30.7,
-      "channel_width_pct": 44.1
+      "dist_to_upper_pct": -0.8,
+      "dist_to_lower_pct": 5.7,
+      "channel_width_pct": 5.2
+    },
+    {
+      "ticker": "CTAS",
+      "current": 228.58,
+      "donchian_upper": 228.51,
+      "donchian_lower": 218.92,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.0,
+      "dist_to_lower_pct": 4.2,
+      "channel_width_pct": 4.4
+    },
+    {
+      "ticker": "AAPL",
+      "current": 358.54,
+      "donchian_upper": 356.27,
+      "donchian_lower": 342.56,
+      "signal": "BREAKOUT",
+      "dist_to_upper_pct": -0.6,
+      "dist_to_lower_pct": 4.5,
+      "channel_width_pct": 4.0
+    },
+    {
+      "ticker": "MDLZ",
+      "current": 67.77,
+      "donchian_upper": 67.81,
+      "donchian_lower": 65.69,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.1,
+      "dist_to_lower_pct": 3.1,
+      "channel_width_pct": 3.2
+    },
+    {
+      "ticker": "PANW",
+      "current": 366.76,
+      "donchian_upper": 380.57,
+      "donchian_lower": 309.29,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 3.8,
+      "dist_to_lower_pct": 15.7,
+      "channel_width_pct": 23.0
+    },
+    {
+      "ticker": "CRWD",
+      "current": 217.2,
+      "donchian_upper": 261.15,
+      "donchian_lower": 208.97,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 20.2,
+      "dist_to_lower_pct": 3.8,
+      "channel_width_pct": 25.0
+    },
+    {
+      "ticker": "AMD",
+      "current": 424.54,
+      "donchian_upper": 585.3,
+      "donchian_lower": 406.03,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 37.9,
+      "dist_to_lower_pct": 4.4,
+      "channel_width_pct": 44.2
+    },
+    {
+      "ticker": "ZS",
+      "current": 239.49,
+      "donchian_upper": 247.82,
+      "donchian_lower": 185.19,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 3.5,
+      "dist_to_lower_pct": 22.7,
+      "channel_width_pct": 33.8
+    },
+    {
+      "ticker": "GILD",
+      "current": 177.0,
+      "donchian_upper": 178.29,
+      "donchian_lower": 166.43,
+      "signal": "HOLD",
+      "dist_to_upper_pct": 0.7,
+      "dist_to_lower_pct": 6.0,
+      "channel_width_pct": 7.1
     }
   ]
 }

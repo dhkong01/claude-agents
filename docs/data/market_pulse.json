@@ -1,71 +1,71 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "indices": {
     "nasdaq": {
-      "price": 23585.8,
-      "change": -147.74,
-      "change_pct": -0.62,
+      "price": 24129.5,
+      "change": 543.7,
+      "change_pct": 2.31,
       "label": "나스닥종합",
       "region": "US"
     },
     "dow": {
-      "price": 50182.95,
-      "change": 164.25,
-      "change_pct": 0.33,
+      "price": 50774.9,
+      "change": 591.95,
+      "change_pct": 1.18,
       "label": "다우존스",
       "region": "US"
     },
     "sp500": {
-      "price": 7182.78,
-      "change": -18.31,
-      "change_pct": -0.25,
+      "price": 7297.49,
+      "change": 114.71,
+      "change_pct": 1.6,
       "label": "S&P500",
       "region": "US"
     },
     "kospi": {
-      "price": 4881.98,
-      "change": 170.77,
-      "change_pct": 3.62,
+      "price": 4915.68,
+      "change": 204.47,
+      "change_pct": 4.34,
       "label": "코스피",
       "region": "ASIA"
     },
     "kosdaq": {
-      "price": 697.4,
-      "change": 41.69,
-      "change_pct": 6.36,
+      "price": 708.99,
+      "change": 53.28,
+      "change_pct": 8.13,
       "label": "코스닥",
       "region": "ASIA"
     },
     "nikkei": {
-      "price": 58593.88,
-      "change": 1094.72,
-      "change_pct": 1.9,
+      "price": 58711.11,
+      "change": 1211.95,
+      "change_pct": 2.11,
       "label": "니케이225",
       "region": "ASIA"
     },
     "shanghai": {
-      "price": 3486.76,
-      "change": 9.88,
-      "change_pct": 0.28,
+      "price": 3606.49,
+      "change": 129.6,
+      "change_pct": 3.73,
       "label": "상해종합",
       "region": "ASIA"
     },
     "shenzhen": {
-      "price": 10301.4,
-      "change": 217.36,
-      "change_pct": 2.16,
+      "price": 10814.02,
+      "change": 729.98,
+      "change_pct": 7.24,
       "label": "심천성분",
       "region": "ASIA"
     }
   },
   "breadth": {
     "total": 514,
-    "advancers": 381,
-    "decliners": 130,
-    "unchanged": 3,
-    "adv_pct": 74.1,
+    "advancers": 420,
+    "decliners": 93,
+    "unchanged": 1,
+    "adv_pct": 81.7,
     "coverage": 99.4,
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-27",
     "attempts": 1,
     "status": "ok",
     "universe": "S&P500+NASDAQ100"
@@ -73,26 +73,19 @@
   "macro": {
     "phase": "RISK_OFF",
     "m_score": 2,
-    "vix": 26.8,
-    "volatility": "HIGH",
-    "fear_greed": 15.0,
+    "vix": 23.81,
+    "volatility": "NORMAL",
+    "fear_greed": 24.9,
     "fear_greed_rating": "extreme fear",
-    "yield2y": 4.63,
-    "yield10y": 4.85,
-    "yield30y": 5.24,
+    "yield2y": 4.61,
+    "yield10y": 4.94,
+    "yield30y": 5.32,
     "rate_env": "HIGH",
     "dollar_trend": "STRENGTHENING",
     "market_trend": "BEAR",
-    "mfi": 19.8,
-    "mfi_signal": "침체"
+    "mfi": 24.7,
+    "mfi_signal": "중립"
   },
-  "guru_insights": [
-    {
-      "name": "Warren Buffett",
-      "insight": "버크셔 해서웨이가 두 번의 빠른 통화로 9억 3천만 달러 규모의 벤딩 스푼스 투자를 성사시켰다.",
-      "source": "Barron's",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUm5DdzVueDRtNjAta2lfWkxCZFZNNjhUUlhqU0FucEJhQWN2ZzdGWVhUeFhNUXFkT0haSUhDLS1jaWRJbUdNREloNlk1U0xMY2NGMUJTalUtN1Y3ZUVsMW15STVZUjNaQlY0OUpCcFlTa2FhV3F0dEMtNGpxbHRvUW5NVzdLWHBpU1BuTW96aw?oc=5"
-    }
-  ],
-  "guru_date": "2026-11-27"
+  "guru_insights": [],
+  "guru_date": "2026-11-28"
 }

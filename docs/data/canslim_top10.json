@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "analyzed": 139,
   "top10": [
     {
@@ -16,26 +16,26 @@
       },
       "sector": "Healthcare",
       "industry": "Biotechnology",
-      "market_cap": 101572345856,
-      "price": 981.87,
-      "rs_rating": 96.9
+      "market_cap": 102634758144,
+      "price": 992.14,
+      "rs_rating": 97.6
     },
     {
-      "ticker": "KDP",
+      "ticker": "ABNB",
       "canslim_score": 61,
       "scores": {
         "C": 10,
-        "A": 7,
+        "A": 10,
         "N": 7,
-        "S": 10,
+        "S": 7,
         "L": 10,
         "I": 10,
         "M": 7
       },
-      "sector": "Consumer Defensive",
-      "industry": "Beverages - Non-Alcoholic",
-      "market_cap": 50865922048,
-      "price": 35.63,
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "market_cap": 106912333824,
+      "price": 179.16,
       "rs_rating": 90.0
     },
     {
@@ -52,27 +52,9 @@
       },
       "sector": "Consumer Defensive",
       "industry": "Confectioners",
-      "market_cap": 85836496896,
-      "price": 67.81,
+      "market_cap": 85785862144,
+      "price": 67.77,
       "rs_rating": 81.0
-    },
-    {
-      "ticker": "XEL",
-      "canslim_score": 60,
-      "scores": {
-        "C": 10,
-        "A": 10,
-        "N": 10,
-        "S": 10,
-        "L": 3,
-        "I": 10,
-        "M": 7
-      },
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "market_cap": 52062437376,
-      "price": 81.11,
-      "rs_rating": 71.3
     },
     {
       "ticker": "PANW",
@@ -88,8 +70,8 @@
       },
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "market_cap": 292390961152,
-      "price": 356.14,
+      "market_cap": 301109968896,
+      "price": 366.76,
       "rs_rating": 99.0
     },
     {
@@ -106,9 +88,27 @@
       },
       "sector": "Technology",
       "industry": "Semiconductors",
-      "market_cap": 672006275072,
-      "price": 406.03,
-      "rs_rating": 94.8
+      "market_cap": 702641537024,
+      "price": 424.54,
+      "rs_rating": 96.9
+    },
+    {
+      "ticker": "TXN",
+      "canslim_score": 58,
+      "scores": {
+        "C": 10,
+        "A": 10,
+        "N": 4,
+        "S": 7,
+        "L": 10,
+        "I": 10,
+        "M": 7
+      },
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "market_cap": 257546158080,
+      "price": 281.85,
+      "rs_rating": 91.4
     },
     {
       "ticker": "ROP",
@@ -124,27 +124,27 @@
       },
       "sector": "Technology",
       "industry": "Software - Application",
-      "market_cap": 47843508224,
-      "price": 483.09,
-      "rs_rating": 93.5
+      "market_cap": 47978201088,
+      "price": 484.45,
+      "rs_rating": 90.7
     },
     {
-      "ticker": "AMGN",
+      "ticker": "KDP",
       "canslim_score": 58,
       "scores": {
-        "C": 7,
+        "C": 10,
         "A": 7,
-        "N": 10,
-        "S": 7,
-        "L": 10,
+        "N": 7,
+        "S": 10,
+        "L": 7,
         "I": 10,
         "M": 7
       },
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "market_cap": 253817307136,
-      "price": 469.24,
-      "rs_rating": 92.8
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "market_cap": 50608951296,
+      "price": 35.45,
+      "rs_rating": 84.5
     },
     {
       "ticker": "CSX",
@@ -160,27 +160,27 @@
       },
       "sector": "Industrials",
       "industry": "Railroads",
-      "market_cap": 94308253696,
-      "price": 51.16,
-      "rs_rating": 83.1
+      "market_cap": 94713806848,
+      "price": 51.38,
+      "rs_rating": 82.4
     },
     {
       "ticker": "SBUX",
-      "canslim_score": 57,
+      "canslim_score": 58,
       "scores": {
         "C": 10,
         "A": 10,
         "N": 10,
-        "S": 7,
-        "L": 3,
+        "S": 4,
+        "L": 7,
         "I": 10,
         "M": 7
       },
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "market_cap": 122834370560,
-      "price": 107.74,
-      "rs_rating": 77.5
+      "market_cap": 124042878976,
+      "price": 108.8,
+      "rs_rating": 80.3
     }
   ]
 }

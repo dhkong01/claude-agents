@@ -1,141 +1,145 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "horizons": {
     "1w": [
       {
-        "theme": "미국 연말 쇼핑 시즌 및 소매 실적 호조",
+        "theme": "연말 쇼핑 시즌 실적 호조 및 가성비 소비 수혜",
         "sectors": [
           "Consumer Discretionary"
         ],
         "tickers": [
           "BBY",
-          "TSLA"
+          "WMT",
+          "AMZN"
         ],
-        "rationale": "블랙프라이데이 쇼핑 시즌 진입과 함께 베스트바이 등 주요 유통업체의 실적 호조가 소비 심리 회복을 견인하며 단기 상승 모멘텀 제공.",
-        "risk": "인플레이션 지속에 따른 실질 소비 여력 제한 및 이벤트 종료 후 모멘텀 약화",
+        "rationale": "블랙프라이데이를 비롯한 연말 쇼핑 시즌에 베스트바이 등 주요 유통업체의 예상치 상회 실적과 가이던스 상향이 단기 모멘텀으로 작용.",
+        "risk": "고인플레이션 지속에 따른 소비 심리 위축 리스크",
         "conviction": "high"
       },
       {
-        "theme": "유럽 금융권 M&A 승인 이벤트",
+        "theme": "반도체 단기 수급 부담 및 전력 리스크 조정",
         "sectors": [
-          "Financials"
+          "Semiconductors"
         ],
         "tickers": [
-          "UCG",
-          "CRZBY"
+          "TSM",
+          "NVDA"
         ],
-        "rationale": "UniCredit의 Commerzbank 인수 당국 승인으로 인한 유럽 은행권 자본시장 재편 기대감 및 단기 매수세 집중.",
-        "risk": "인수합병 세부 조건 협상 지연 및 정치적·규제적 반발 리스크",
+        "rationale": "대만 TSMC에 대한 외국인 12일 연속 순매도 및 AI 칩 전력 공급 이슈로 인한 단기 수급 및 가격 조정 압력.",
+        "risk": "AI 장기 수요 기대감 재부상에 따른 빠른 반등 가능성",
         "conviction": "medium"
       }
     ],
     "1m": [
       {
-        "theme": "미·중 기술 규제에 따른 반도체 단기 투심 악화",
+        "theme": "유럽 IT 기업의 AI 전환 구조조정 및 비용 효율화",
         "sectors": [
-          "Semiconductors"
+          "Technology"
         ],
         "tickers": [
-          "NVDA",
-          "TSM"
+          "SAP"
         ],
-        "rationale": "엔비디아의 동남아 선적 중단 지시와 대중국 수출 통제 우려로 인한 반도체 섹터 전반의 단기 자금 유출 및 조정 압력.",
-        "risk": "규제 적용 범위의 완화 발표 또는 대체 시장 수요의 조기 확인",
-        "conviction": "high"
+        "rationale": "SAP의 AI 중심 1만 명 규모 대규모 인력 구조조정 발표가 단기 자금 유입 및 마진 개선 기대감을 형성.",
+        "risk": "구조조정 진행 과정에서의 단기 퇴직 비용 발생 및 노사 갈등",
+        "conviction": "medium"
       },
       {
-        "theme": "아시아 친환경 모빌리티 글로벌 확장",
+        "theme": "AI 전력 부족 이슈 부각에 따른 유틸리티 자금 유입",
         "sectors": [
-          "Consumer Discretionary"
+          "Utilities"
         ],
         "tickers": [
-          "TSLA"
+          "CEG",
+          "VST"
         ],
-        "rationale": "아시아 시장을 중심의 전기차 및 모빌리티 공급망 강화와 글로벌 시장 점유율 확대 흐름 지속.",
-        "risk": "유럽 및 미국의 대중국/아시아산 모빌리티 관세 장벽 강화",
-        "conviction": "medium"
+        "rationale": "아시아 AI 인프라 확장에 따른 전력 부족 부각 및 대만 원전 투표 이슈 등으로 유틸리티 및 전력 관련주 섹터 모멘텀 지속.",
+        "risk": "에너지 가격 변동성 및 규제 변화",
+        "conviction": "high"
       }
     ],
     "3m": [
       {
-        "theme": "유럽 방산 섹터 투자 확대 및 지정학적 대응",
+        "theme": "인플레이션 둔화 속 실속형 소비 정착 및 분기 실적 기여",
         "sectors": [
-          "Industrials"
+          "Consumer Discretionary"
         ],
         "tickers": [
-          "UCG"
+          "WMT",
+          "AMZN"
         ],
-        "rationale": "유럽 내 지정학적 위기 고조와 방산 기업(Indra 등)의 공격적 투자 계획이 중기 실적 개선으로 연결될 기대감.",
-        "risk": "독일 등 유럽 제조업 전반의 구조적 비용 압박 및 경제 성장 둔화",
-        "conviction": "high"
+        "rationale": "유럽의 에너지 가격 하락으로 인한 인플레이션 둔화와 미국 내 실속형 소비 확산이 유통기업 분기 실적에 긍정적 영향.",
+        "risk": "경기 둔화 우려에 따른 전반적인 구매력 약화",
+        "conviction": "medium"
       },
       {
-        "theme": "중국 부동산 2차 구조조정 및 리스크 회피",
+        "theme": "통상 압박 속 헬스케어의 아시아 시장 투진",
         "sectors": [
-          "Real Estate"
+          "Healthcare"
         ],
         "tickers": [
-          "3333.HK",
-          "2007.HK"
+          "BAYRY"
         ],
-        "rationale": "중국 부동산 개발사들의 부채 위기가 2차 구조조정 국면으로 진입함에 따라 관련 섹터의 중기 하방 압력 지속.",
-        "risk": "중국 정부의 파격적인 대규모 부동산 부양책 발표",
-        "conviction": "high"
+        "rationale": "미·중 통상 압박 속에서도 바이엘의 베이징 대규모 투자 등 신흥 시장 진출 모멘텀이 긍정적 요인으로 작용.",
+        "risk": "글로벌 무역 규제 강화 및 지정학적 불확실성",
+        "conviction": "low"
       }
     ],
     "6m": [
       {
-        "theme": "아시아 AI 인프라 및 데이터센터 구조적 성장",
+        "theme": "AI 인프라 전력 수요 급증과 원자력·에너지 구조 재편",
         "sectors": [
+          "Utilities"
+        ],
+        "tickers": [
+          "CEG",
+          "VST"
+        ],
+        "rationale": "AI 인프라 확장에 따른 장기 전력 부족 리스크와 대만 원전 재가동 논의 등 원자력 및 유틸리티 산업의 구조적 수급 변화.",
+        "risk": "에너지 가격 하락으로 인한 수익성 하방 압력 및 정책 지연",
+        "conviction": "high"
+      },
+      {
+        "theme": "대외 통상 압박 대응을 위한 글로벌 공급망 다변화",
+        "sectors": [
+          "Technology",
+          "Consumer Discretionary"
+        ],
+        "tickers": [
+          "SAP",
+          "AMZN"
+        ],
+        "rationale": "유로존의 인도네시아 FTA 추진 및 미국 관세 압박에 대응한 공급망 재편이 중기 산업 구조 변화를 유도.",
+        "risk": "보호무역주의 심화 및 협정 체결 지연",
+        "conviction": "medium"
+      }
+    ],
+    "1y": [
+      {
+        "theme": "AI 기술 패러다임 전환 및 인프라 장기 사이클",
+        "sectors": [
+          "Semiconductors",
           "Technology"
         ],
         "tickers": [
           "NVDA",
           "TSM"
         ],
-        "rationale": "미·중 규제 속에서도 일본, 중국, 한국 등 아시아 각국의 AI 데이터센터 및 인프라 투자 확대로 인한 구조적 수급 수혜.",
-        "risk": "글로벌 테크 기업들의 캐펙스(CAPEX) 집행 지연 및 규제 범위 확대",
+        "rationale": "단기 수급 불안에도 불구하고 AI 기술 패러다임 전환과 글로벌 인프라 투자의 장기 우상향 트렌드 지속.",
+        "risk": "지정학적 갈등 심화 및 글로벌 공급망 분절화",
         "conviction": "high"
       },
       {
-        "theme": "글로벌 반도체 공급망 재편 및 리쇼어링",
-        "sectors": [
-          "Semiconductors"
-        ],
-        "tickers": [
-          "TSM"
-        ],
-        "rationale": "미·중 기술 패권 다툼으로 인한 글로벌 반도체 공급망의 다변화 및 생산 기지 재편 작업 가속화.",
-        "risk": "해외 공장 건설 비용 증가 및 생산 수율 확보 불확실성",
-        "conviction": "medium"
-      }
-    ],
-    "1y": [
-      {
-        "theme": "미·중 테크 패권 전쟁 및 규제 레짐 변화",
+        "theme": "통상 환경 변화와 글로벌 거시 레짐 재편",
         "sectors": [
           "Technology",
-          "Semiconductors"
+          "Healthcare"
         ],
         "tickers": [
-          "NVDA",
-          "TSM"
+          "BAYRY",
+          "SAP"
         ],
-        "rationale": "미국발 대중 관세 및 테크 규제 장기화로 글로벌 기술 생태계가 파편화되며 독점적 기술력을 가진 선도 기업 중심으로 시장 재편.",
-        "risk": "글로벌 공급망 분절화에 따른 생산 원가 상승 및 전반적인 기술 성장 속도 둔화",
-        "conviction": "high"
-      },
-      {
-        "theme": "유럽 자본시장 통합 및 방산·제조업 구조개편",
-        "sectors": [
-          "Financials"
-        ],
-        "tickers": [
-          "UCG",
-          "CRZBY"
-        ],
-        "rationale": "유럽 뱅킹 유니온 가속화(M&A)와 제조업 위기 극복을 위한 방산/친환경 중심의 구조적 산업 체질 개선.",
-        "risk": "EU 회원국 간 예산 갈등 지속 및 미국발 관세 충격으로 인한 경기 침체 레짐 진입",
+        "rationale": "미국 대선 및 통상 압박, 각국의 증시 부양책과 자본시장 방어 전략이 글로벌 거시 레짐 변화와 자본 재배치를 유발.",
+        "risk": "글로벌 경기 침체 전환 및 무역 마찰 격화",
         "conviction": "medium"
       }
     ]
